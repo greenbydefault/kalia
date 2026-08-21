@@ -1,0 +1,162 @@
+{
+  "id": "kinderwald-maerkisch-buchholz",
+  "name": "Kinderwald Märkisch Buchholz",
+  "typ": "waldspielplatz",
+  "form": "flaeche",
+  "kurzbeschreibung": "Waldspielplatz auf dem alten Försterei-Gehöft an der Dahme – klettern, hangeln, Bienen beobachten. Frei, ohne Ticket.",
+  "beschreibung": "An der Dahme, Alte Berliner Straße 1 in Märkisch Buchholz, hat der Landesbetrieb Forst Brandenburg auf dem im Krieg zerstörten Gehöft der ehemaligen Försterei Buchholz einen Kinderwald eingerichtet. Teilweise gezäunt, jederzeit frei zugänglich, Betreten auf eigene Gefahr, Hunde an der Leine. Speziell für Kinder: Baumstämme zum Klettern und Balancieren, Kinderhochstand, Wald-Theater am Hang, zwölf Meter Tau zum Hangeln, Bienen-Schaukasten neben dem Insektenhotel, Raum-Meter-Holzstapel, Lesesteinhaufen für Eidechsen. Infotafeln zu Forstwirtschaft, Jagd, Waldtieren und Gefahren. Über zwanzig Baumarten, viele vom früheren Förster gepflanzt. Der Wald-Sandkasten (Kellerruine) und Picknickbänke gehören zum Ort, sind aber kein Geräte-Thema. Försterwanderungen, Lagerfeuer und gebuchte Theateraufführungen sind Anmeldung – spontanes Spielen auf der Bühne ist frei. Feste Treffpunkt-Termine: 30. April und 30. Oktober.",
+  "laengeKm": 0,
+  "dauerMin": 75,
+  "rundkurs": false,
+  "markierung": "Kinderwald / Forst Brandenburg",
+  "betreiber": "Landesbetrieb Forst Brandenburg / Oberförsterei Königs Wusterhausen",
+  "region": "Märkisch Buchholz, Dahme-Spreewald, Naturpark Dahme-Heideseen",
+  "website": "https://forst.brandenburg.de/lfb/de/ueber-uns/oberfoerstereien/oberfoersterei-koenigs-wusterhausen/kinderwald-maerkisch-buchholz/",
+  "anreise": "Adresse: Alte Berliner Straße 1, 15748 Märkisch Buchholz. Unweit der Bundesstraßen-Brücke über die Dahme. Auto: Parkplatz mit Rasengitter (kostenfrei, ca. 12 Plätze) nördlich des Geländes. ÖPNV dünn; Rad über Dahme-Radweg. Nicht mit gebuchten Waldpädagogik-Terminen verwechseln – das Gelände ist ohne Anmeldung offen.",
+  "startName": "Kinderwald Märkisch Buchholz",
+  "arten": [
+    "Baumstämme zum Klettern und Balancieren",
+    "Kinderhochstand",
+    "Wald-Theater",
+    "12-Meter-Tau",
+    "Bienen-Schaukasten",
+    "Raum-Meter-Holzstapel",
+    "Honigbiene",
+    "Zauneidechse",
+    "Wildbiene",
+    "Stieleiche",
+    "Kiefer",
+    "Igel",
+    "Rote Waldameise"
+  ],
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz",
+    "picknick",
+    "hunde-erlaubt"
+  ],
+  "route": [],
+  "area": [
+    [52.11240, 13.75935],
+    [52.11240, 13.76050],
+    [52.11325, 13.76050],
+    [52.11325, 13.75935],
+    [52.11240, 13.75935]
+  ],
+  "stationen": [
+    {
+      "osmId": 930001,
+      "lat": 52.11270,
+      "lon": 13.75970,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Baumstämme",
+      "thema": "Klettern und Balancieren",
+      "kurztext": "Liegende Stämme statt Metallgerüst. Balancier, kletter rüber – Rinde unter den Sohlen. Bei Nässe rutschig, Tempo anpassen.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930002,
+      "lat": 52.11305,
+      "lon": 13.75985,
+      "km": 0.04,
+      "reihenfolge": 2,
+      "titel": "Kinderhochstand",
+      "thema": "Wald von oben, Jagd zum Anschauen",
+      "kurztext": "Kleiner Hochsitz in Kinderhöhe. Rauf auf die Leiter, Bestand und Schneisen lesen. Jagd steht auf den Tafeln – hier darfst du klettern, nicht ansitzen.",
+      "erlebnisse": ["mitmach-modell", "tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930003,
+      "lat": 52.11285,
+      "lon": 13.76020,
+      "km": 0.07,
+      "reihenfolge": 3,
+      "titel": "Wald-Theater",
+      "thema": "Bühne am Hang",
+      "kurztext": "Kleine Spielbühne, Hang als Tribüne. Spontane Stücke sind frei. Große Aufführungen nur nach Anmeldung – dann hat die Buchung Vorrang.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930004,
+      "lat": 52.11265,
+      "lon": 13.75995,
+      "km": 0.1,
+      "reihenfolge": 4,
+      "titel": "Zwölf-Meter-Tau",
+      "thema": "Hangeln durch den Bestand",
+      "kurztext": "Langes Tau zwischen Bäumen. Hangle dich entlang – mutig mit geschlossenen Augen oder barfuß, dann spürst du den Waldboden.",
+      "erlebnisse": ["mitmach-modell", "barfusspfad"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930005,
+      "lat": 52.11290,
+      "lon": 13.75975,
+      "km": 0.13,
+      "reihenfolge": 5,
+      "titel": "Bienen-Schaukasten",
+      "thema": "Volk hinter Glas",
+      "kurztext": "Blick ins Innere eines Stocks: Waben, Brut, Nektar. Daneben das Insektenhotel für Wildbienen. Kasten nicht öffnen, nur schauen.",
+      "erlebnisse": ["bestimmung"],
+      "barrierefrei": true,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930006,
+      "lat": 52.11295,
+      "lon": 13.76010,
+      "km": 0.16,
+      "reihenfolge": 6,
+      "titel": "Lesesteinhaufen",
+      "thema": "Wärmebank für Eidechsen",
+      "kurztext": "Steine in der Sonne, nachts noch warm. Unterschlupf für Zauneidechsen, Kriechtiere, Insekten. Haufen nicht umwerfen, Tiere nicht fangen.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 930007,
+      "lat": 52.11260,
+      "lon": 13.76005,
+      "km": 0.19,
+      "reihenfolge": 7,
+      "titel": "Raum-Meter",
+      "thema": "Holzmenge begreifen",
+      "kurztext": "Ein Würfel Holz von einem Meter Kantenlänge. Darf umgestapelt werden – gern gegen die Uhr. Danach wieder aufschichten, sonst fehlt das Maß.",
+      "erlebnisse": ["mitmach-modell", "tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 5851271398,
+      "lat": 52.1128032,
+      "lon": 13.7599191,
+      "kategorie": "playground",
+      "name": "Kinderwald Märkisch Buchholz"
+    },
+    {
+      "osmId": 1768032071,
+      "lat": 52.1131435,
+      "lon": 13.7616886,
+      "kategorie": "picnic",
+      "name": null
+    },
+    {
+      "osmId": 1028703476,
+      "lat": 52.113976,
+      "lon": 13.760614,
+      "kategorie": "parking",
+      "name": null
+    }
+  ]
+}

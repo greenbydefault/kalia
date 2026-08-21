@@ -1,0 +1,505 @@
+{
+ "id": "natter-pfad-goyatz",
+ "name": "Naturlehr- und Erlebnispfad Natter-Pfad",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Zwei Kilometer Rundweg ab dem Spreewaldbahnhof Goyatz: Tafeln zu Amphibien, Stamm in Ringelnatter-Form, Hecken am Grünland. Frei, ohne Ticket.",
+ "beschreibung": "Am ehemaligen Spreewaldbahnhof in Goyatz, Am Bahnhof 27, beginnt der Natter-Pfad. Grüne Schilder mit einer Schlange führen zwei Kilometer durch Grünland südlich des Orts. Tafeln und Exponate erklären die bedrohten Lebensräume von Kriechtieren, Amphibien und Insekten. Auf einem Stamm in Form einer Ringelnatter balancierst du wie über Äste im Unterholz. Den Weg säumen Heckenrose, Liguster, Traubenkirsche, Salweide und Haselnuss. Gegen Ende steht eine Holzbank mit Blick auf die Orchideenwiese und die Waldinseln. Am südlichsten Punkt zweigt der Rehpfad ab – der bleibt ein anderer Weg, ebenso Biber-, Otter-, Kranich- und Wildnis-Pfad. Museum im Bahnwagon ist Indoor, nicht Scope. Frei, ohne Anmeldung, für Familien und Senioren gedacht.",
+ "laengeKm": 2.1,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Schlangensymbol / grüne Schilder",
+ "betreiber": "Tourismus-Entwicklungsgesellschaft Lieberose/Oberspreewald mbH",
+ "region": "Goyatz / Schwielochsee, Dahme-Spreewald, Brandenburg",
+ "website": "https://www.naturwelt-lieberose.de/highlights/naturlehrpfad-ludwig-leichhardt",
+ "anreise": "Adresse: Spreewaldbahnhof / Tourist-Info, Am Bahnhof 27, 15913 Schwielochsee OT Goyatz. ÖPNV: Bus 508, 509, 510. Auto und Rad möglich; am Bahnhof halten, nicht den Wiesenweg zuparken. Start an der Tafel Naturlehrpfad, gut 150 m südöstlich des Bahnhofsgebäudes. Folge den grünen Schlangenschildern nach Süden ins Grünland. Rehpfad und die übrigen Leichhardt-Schleifen nicht mitlaufen, wenn du nur die 2-km-Runde willst.",
+ "startName": "Spreewaldbahnhof Goyatz / Tafel Naturlehrpfad",
+ "arten": [
+  "Ringelnatter",
+  "Heckenrose",
+  "Haselnuss"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   52.01073,
+   14.183336
+  ],
+  [
+   52.010675,
+   14.183393
+  ],
+  [
+   52.010632,
+   14.183516
+  ],
+  [
+   52.010639,
+   14.183605
+  ],
+  [
+   52.010679,
+   14.183694
+  ],
+  [
+   52.010246,
+   14.183975
+  ],
+  [
+   52.009944,
+   14.184275
+  ],
+  [
+   52.009824,
+   14.18443
+  ],
+  [
+   52.009784,
+   14.184533
+  ],
+  [
+   52.009747,
+   14.18463
+  ],
+  [
+   52.00969,
+   14.184764
+  ],
+  [
+   52.009485,
+   14.185327
+  ],
+  [
+   52.009398,
+   14.185687
+  ],
+  [
+   52.009333,
+   14.185956
+  ],
+  [
+   52.009324,
+   14.185994
+  ],
+  [
+   52.009261,
+   14.186228
+  ],
+  [
+   52.009235,
+   14.186456
+  ],
+  [
+   52.009239,
+   14.186577
+  ],
+  [
+   52.009327,
+   14.187133
+  ],
+  [
+   52.009114,
+   14.187607
+  ],
+  [
+   52.009027,
+   14.187809
+  ],
+  [
+   52.008899,
+   14.188112
+  ],
+  [
+   52.008667,
+   14.187797
+  ],
+  [
+   52.008354,
+   14.18727
+  ],
+  [
+   52.008247,
+   14.187021
+  ],
+  [
+   52.008196,
+   14.186853
+  ],
+  [
+   52.008025,
+   14.18622
+  ],
+  [
+   52.007993,
+   14.186163
+  ],
+  [
+   52.007942,
+   14.18614
+  ],
+  [
+   52.007884,
+   14.18614
+  ],
+  [
+   52.007727,
+   14.186137
+  ],
+  [
+   52.007541,
+   14.186169
+  ],
+  [
+   52.007179,
+   14.186314
+  ],
+  [
+   52.007068,
+   14.186367
+  ],
+  [
+   52.006996,
+   14.186429
+  ],
+  [
+   52.006883,
+   14.186506
+  ],
+  [
+   52.006793,
+   14.186552
+  ],
+  [
+   52.006647,
+   14.18657
+  ],
+  [
+   52.006479,
+   14.186578
+  ],
+  [
+   52.006275,
+   14.18654
+  ],
+  [
+   52.006225,
+   14.186563
+  ],
+  [
+   52.006137,
+   14.18658
+  ],
+  [
+   52.006085,
+   14.186625
+  ],
+  [
+   52.006038,
+   14.186614
+  ],
+  [
+   52.005976,
+   14.186563
+  ],
+  [
+   52.005888,
+   14.186474
+  ],
+  [
+   52.005705,
+   14.186344
+  ],
+  [
+   52.005631,
+   14.186282
+  ],
+  [
+   52.005561,
+   14.186167
+  ],
+  [
+   52.005457,
+   14.186037
+  ],
+  [
+   52.005359,
+   14.185997
+  ],
+  [
+   52.005183,
+   14.185918
+  ],
+  [
+   52.005073,
+   14.185801
+  ],
+  [
+   52.005004,
+   14.185782
+  ],
+  [
+   52.004836,
+   14.185735
+  ],
+  [
+   52.004686,
+   14.185701
+  ],
+  [
+   52.00455,
+   14.185712
+  ],
+  [
+   52.00449,
+   14.185707
+  ],
+  [
+   52.004272,
+   14.185667
+  ],
+  [
+   52.004141,
+   14.185697
+  ],
+  [
+   52.004046,
+   14.18572
+  ],
+  [
+   52.003848,
+   14.185701
+  ],
+  [
+   52.003749,
+   14.185693
+  ],
+  [
+   52.003529,
+   14.185684
+  ],
+  [
+   52.003405,
+   14.185654
+  ],
+  [
+   52.003287,
+   14.18559
+  ],
+  [
+   52.003166,
+   14.185401
+  ],
+  [
+   52.003166,
+   14.185049
+  ],
+  [
+   52.003224,
+   14.184737
+  ],
+  [
+   52.00331,
+   14.184566
+  ],
+  [
+   52.003383,
+   14.184537
+  ],
+  [
+   52.004106,
+   14.184249
+  ],
+  [
+   52.005034,
+   14.183042
+  ],
+  [
+   52.005294,
+   14.183021
+  ],
+  [
+   52.005347,
+   14.183009
+  ],
+  [
+   52.005427,
+   14.18294
+  ],
+  [
+   52.005607,
+   14.182798
+  ],
+  [
+   52.00575,
+   14.182711
+  ],
+  [
+   52.005865,
+   14.182664
+  ],
+  [
+   52.005966,
+   14.182639
+  ],
+  [
+   52.006039,
+   14.182631
+  ],
+  [
+   52.006168,
+   14.182668
+  ],
+  [
+   52.006448,
+   14.182779
+  ],
+  [
+   52.007004,
+   14.182977
+  ],
+  [
+   52.007082,
+   14.182985
+  ],
+  [
+   52.007273,
+   14.18295
+  ],
+  [
+   52.008639,
+   14.182741
+  ],
+  [
+   52.009052,
+   14.182636
+  ],
+  [
+   52.009371,
+   14.182566
+  ],
+  [
+   52.009575,
+   14.182598
+  ],
+  [
+   52.009782,
+   14.182687
+  ],
+  [
+   52.010004,
+   14.182848
+  ],
+  [
+   52.01073,
+   14.183336
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 2975055277,
+   "lat": 52.010675,
+   "lon": 14.183246,
+   "km": 0.0,
+   "titel": "Spreewaldbahnhof Goyatz",
+   "thema": "Start an der Tafel Naturlehrpfad",
+   "kurztext": "Hier am Ortsrand beginnt der Natter-Pfad. Der ehemalige Spreewaldbahnhof liegt 150 Meter nordwestlich. Folge den grünen Schildern mit der Schlange – zwei Kilometer durchs Grünland.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 3129486544,
+   "lat": 52.007368,
+   "lon": 14.186178,
+   "km": 0.64,
+   "titel": "Feuchtwiesen",
+   "thema": "Kriechtiere, Amphibien, Insekten",
+   "kurztext": "Tafeln und Exponate erklären die bedrohten Lebensräume von Kriechtieren, Amphibien und Insekten. Wie sehen Amphibien die Welt – und wo fühlen sie sich wohl?",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 3108319131,
+   "lat": 52.00709,
+   "lon": 14.1865,
+   "km": 0.7,
+   "titel": "Holzbank an der Orchideenwiese",
+   "thema": "Blick auf Wiese und Waldinseln",
+   "kurztext": "Eine Holzbank zum Verweilen. Blick auf die Orchideenwiese und die Waldinseln daneben. Weiter südlich zweigt der Rehpfad ab – der bleibt ein anderer Weg.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1234188506,
+   "lat": 52.0061373,
+   "lon": 14.1865802,
+   "km": 0.8,
+   "titel": "Stamm in Ringelnatter-Form",
+   "thema": "Balancieren wie eine Amphibie",
+   "kurztext": "Ein Stamm in Form einer Ringelnatter. Darüber balancierst du wie über Äste im Unterholz – so bewegt sich eine Amphibie durchs Dickicht.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2956006548,
+   "lat": 52.0050037,
+   "lon": 14.1857819,
+   "km": 0.95,
+   "titel": "Hecken am Weg",
+   "thema": "Rose, Liguster, Traubenkirsche, Weide, Haselnuss",
+   "kurztext": "Der Weg wird von Hecken eingefasst: Heckenrose, Liguster, Traubenkirsche, Salweide, Haselnuss. Im Frühling Insekten, im Winter Vögel.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 2439609223,
+   "lat": 52.0107475,
+   "lon": 14.1834774,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3108319131,
+   "lat": 52.0070897,
+   "lon": 14.1865002,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8709107997,
+   "lat": 52.0093253,
+   "lon": 14.1865095,
+   "kategorie": "gastro",
+   "name": "Der Spreewald-Fleischer"
+  },
+  {
+   "osmId": 8990065965,
+   "lat": 52.0107798,
+   "lon": 14.1832508,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

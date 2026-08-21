@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+# Zusaetzliche Regeln ueber flutter_lints hinaus:
+# - always_declare_return_types / prefer_final_locals: explizite, lesbare Signaturen
+# - unawaited_futures: keine vergessenen awaits
+# - require_trailing_commas: stabile, gut formatierbare Widget-Baeume
+# - sized_box_for_whitespace / use_key_in_widget_constructors: saubere Widget-Konventionen
+linter:
+  rules:
+    always_declare_return_types: true
+    prefer_final_locals: true
+    unawaited_futures: true
+    require_trailing_commas: true
+    sized_box_for_whitespace: true
+    use_key_in_widget_constructors: true

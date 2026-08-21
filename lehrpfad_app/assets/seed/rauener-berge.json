@@ -1,0 +1,743 @@
+{
+ "id": "rauener-berge",
+ "name": "Naturlehrpfad Rauener Berge",
+ "typ": "wald",
+ "kurzbeschreibung": "Familienfreundlicher Rundweg durch die waldreichen Rauener Berge – Infotafeln zu Baumarten, Ameisen, Vögeln und der Braunkohle-Geschichte, mit Abstecher zu den Markgrafensteinen.",
+ "beschreibung": "Der Naturlehrpfad in den Rauener Bergen bei Bad Saarow verbindet Einblicke in die regionale Flora mit Spuren der Bergbaugeschichte. Entlang des rund 3 km langen Rundwegs informieren Tafeln über typische Baumarten, Pilze, Wildfährten, Vögel und Ameisen. Direkt am Weg liegt der ehemalige Stollenausgang der Braunkohleförderung. Der Rundweg führt nicht direkt an den berühmten Rauener Steinen (Markgrafensteinen) vorbei – ein Abstecher zu den größten Findlingen Norddeutschlands lohnt sich aber jederzeit. Start ist an der Kolpiner Straße in Bad Saarow (von dort ca. 2 km Hauptwanderweg bis zur Ausschilderung des Naturlehrpfads) oder direkt in den Rauener Bergen.",
+ "laengeKm": 5.9,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Grüner Backslash auf weißem Rechteck",
+ "betreiber": "Stadt Bad Saarow / Seenland Oder-Spree",
+ "region": "Bad Saarow, Landkreis Oder-Spree, Brandenburg",
+ "website": "https://www.reiseland-brandenburg.de/poi/seenland-oder-spree/wandertouren/naturlehrpfad-rauener-berge/",
+ "anreise": "Ab Berlin mit dem Zug über Fürstenwalde/Spree nach Bad Saarow-Pieskow, von dort ca. 2 km über die Kolpiner Straße. Auto: A 12 bis Abfahrt Fürstenwalde-West, weiter über die B 246/L 36 nach Bad Saarow, Kolpiner Straße.",
+ "startName": "Eingangstafel Naturlehrpfad, Kolpiner Straße, Bad Saarow",
+ "arten": [
+  "Rote Waldameise",
+  "Europäische Lärche",
+  "Stieleiche",
+  "Kiefer",
+  "Robinie",
+  "Bergahorn"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "route": [
+  [
+   52.310106,
+   14.019692
+  ],
+  [
+   52.310343,
+   14.020588
+  ],
+  [
+   52.310434,
+   14.020988
+  ],
+  [
+   52.310544,
+   14.021397
+  ],
+  [
+   52.310588,
+   14.02149
+  ],
+  [
+   52.31107,
+   14.022151
+  ],
+  [
+   52.311151,
+   14.02234
+  ],
+  [
+   52.311206,
+   14.022563
+  ],
+  [
+   52.312316,
+   14.022673
+  ],
+  [
+   52.312402,
+   14.022179
+  ],
+  [
+   52.312691,
+   14.021399
+  ],
+  [
+   52.312903,
+   14.020856
+  ],
+  [
+   52.313049,
+   14.020577
+  ],
+  [
+   52.312839,
+   14.020335
+  ],
+  [
+   52.312691,
+   14.020134
+  ],
+  [
+   52.312839,
+   14.020335
+  ],
+  [
+   52.313049,
+   14.020577
+  ],
+  [
+   52.312903,
+   14.020856
+  ],
+  [
+   52.312691,
+   14.021399
+  ],
+  [
+   52.312402,
+   14.022179
+  ],
+  [
+   52.312316,
+   14.022673
+  ],
+  [
+   52.311206,
+   14.022563
+  ],
+  [
+   52.311223,
+   14.023199
+  ],
+  [
+   52.311157,
+   14.024079
+  ],
+  [
+   52.311196,
+   14.024489
+  ],
+  [
+   52.311467,
+   14.026163
+  ],
+  [
+   52.31163,
+   14.027192
+  ],
+  [
+   52.31166,
+   14.02755
+  ],
+  [
+   52.311695,
+   14.027779
+  ],
+  [
+   52.311643,
+   14.028133
+  ],
+  [
+   52.311666,
+   14.030583
+  ],
+  [
+   52.311678,
+   14.031001
+  ],
+  [
+   52.311799,
+   14.031611
+  ],
+  [
+   52.311827,
+   14.032044
+  ],
+  [
+   52.311959,
+   14.033085
+  ],
+  [
+   52.311983,
+   14.033341
+  ],
+  [
+   52.312075,
+   14.034347
+  ],
+  [
+   52.312097,
+   14.034835
+  ],
+  [
+   52.315859,
+   14.035239
+  ],
+  [
+   52.316118,
+   14.035258
+  ],
+  [
+   52.316201,
+   14.035039
+  ],
+  [
+   52.31636,
+   14.034798
+  ],
+  [
+   52.3165,
+   14.034779
+  ],
+  [
+   52.316617,
+   14.034857
+  ],
+  [
+   52.316901,
+   14.035183
+  ],
+  [
+   52.316993,
+   14.035319
+  ],
+  [
+   52.317896,
+   14.035677
+  ],
+  [
+   52.318232,
+   14.035823
+  ],
+  [
+   52.318387,
+   14.035848
+  ],
+  [
+   52.318643,
+   14.035734
+  ],
+  [
+   52.319124,
+   14.035579
+  ],
+  [
+   52.319226,
+   14.035516
+  ],
+  [
+   52.319289,
+   14.035498
+  ],
+  [
+   52.319391,
+   14.035467
+  ],
+  [
+   52.319649,
+   14.035393
+  ],
+  [
+   52.319844,
+   14.035273
+  ],
+  [
+   52.32019,
+   14.035124
+  ],
+  [
+   52.320342,
+   14.035035
+  ],
+  [
+   52.320564,
+   14.034929
+  ],
+  [
+   52.320941,
+   14.034724
+  ],
+  [
+   52.321325,
+   14.034512
+  ],
+  [
+   52.321869,
+   14.034337
+  ],
+  [
+   52.322065,
+   14.03357
+  ],
+  [
+   52.321869,
+   14.034337
+  ],
+  [
+   52.321325,
+   14.034512
+  ],
+  [
+   52.320941,
+   14.034724
+  ],
+  [
+   52.320564,
+   14.034929
+  ],
+  [
+   52.320342,
+   14.035035
+  ],
+  [
+   52.32019,
+   14.035124
+  ],
+  [
+   52.319844,
+   14.035273
+  ],
+  [
+   52.319649,
+   14.035393
+  ],
+  [
+   52.319391,
+   14.035467
+  ],
+  [
+   52.319289,
+   14.035498
+  ],
+  [
+   52.319226,
+   14.035516
+  ],
+  [
+   52.319124,
+   14.035579
+  ],
+  [
+   52.318643,
+   14.035734
+  ],
+  [
+   52.318387,
+   14.035848
+  ],
+  [
+   52.318232,
+   14.035823
+  ],
+  [
+   52.317896,
+   14.035677
+  ],
+  [
+   52.316993,
+   14.035319
+  ],
+  [
+   52.316901,
+   14.035183
+  ],
+  [
+   52.316617,
+   14.034857
+  ],
+  [
+   52.3165,
+   14.034779
+  ],
+  [
+   52.31636,
+   14.034798
+  ],
+  [
+   52.316201,
+   14.035039
+  ],
+  [
+   52.316118,
+   14.035258
+  ],
+  [
+   52.315859,
+   14.035239
+  ],
+  [
+   52.312097,
+   14.034835
+  ],
+  [
+   52.312063,
+   14.03644
+  ],
+  [
+   52.311965,
+   14.03637
+  ],
+  [
+   52.311249,
+   14.03635
+  ],
+  [
+   52.311115,
+   14.036291
+  ],
+  [
+   52.310931,
+   14.036121
+  ],
+  [
+   52.310908,
+   14.036052
+  ],
+  [
+   52.310608,
+   14.035064
+  ],
+  [
+   52.310536,
+   14.035
+  ],
+  [
+   52.310011,
+   14.035096
+  ],
+  [
+   52.309565,
+   14.035343
+  ],
+  [
+   52.308932,
+   14.035794
+  ],
+  [
+   52.308979,
+   14.03458
+  ],
+  [
+   52.30893,
+   14.034313
+  ],
+  [
+   52.308791,
+   14.033846
+  ],
+  [
+   52.308023,
+   14.031948
+  ],
+  [
+   52.307713,
+   14.031086
+  ],
+  [
+   52.307516,
+   14.030302
+  ],
+  [
+   52.307267,
+   14.029359
+  ],
+  [
+   52.3072,
+   14.02862
+  ],
+  [
+   52.307247,
+   14.027969
+  ],
+  [
+   52.307448,
+   14.026736
+  ],
+  [
+   52.307814,
+   14.025721
+  ],
+  [
+   52.308689,
+   14.02433
+  ],
+  [
+   52.308838,
+   14.023254
+  ],
+  [
+   52.308905,
+   14.022888
+  ],
+  [
+   52.3091,
+   14.022273
+  ],
+  [
+   52.309204,
+   14.021944
+  ],
+  [
+   52.309368,
+   14.021154
+  ],
+  [
+   52.30953,
+   14.020474
+  ],
+  [
+   52.309649,
+   14.020178
+  ],
+  [
+   52.310106,
+   14.019692
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 6052962405,
+   "lat": 52.3100063,
+   "lon": 14.0199217,
+   "km": 0.0,
+   "titel": "Eingang zum Naturlehrpfad",
+   "thema": "Übersicht – Wald und Bergbau",
+   "kurztext": "An der Eingangstafel beginnt der rund 3 km lange Rundweg durch die Rauener Berge. Die Karte zeigt den Wegverlauf durch das waldreiche Gelände und die Stationen, an denen wir typische Baumarten der Region und die Geschichte des Braunkohleabbaus kennenlernen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 2209900240,
+   "lat": 52.310074,
+   "lon": 14.0198405,
+   "km": 0.0,
+   "titel": "Bergbau in den Rauener Bergen",
+   "thema": "Braunkohleabbau",
+   "kurztext": "Mitten im Wald erinnert diese Tafel an eine andere Zeit: In den Rauener Bergen wurde früher Braunkohle abgebaut. Der ehemalige Stollenausgang der Braunkohleförderung liegt direkt am Weg – ein Relikt, das die Landschaft bis heute prägt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 8244599364,
+   "lat": 52.3101511,
+   "lon": 14.0197198,
+   "km": 0.0,
+   "titel": "Bergbau Bahnhof",
+   "thema": "Abtransport der Kohle",
+   "kurztext": "An diesem Punkt endete einst der Transportweg der Braunkohle: Was in den Gruben der Rauener Berge gefördert wurde, ging von hier aus auf die weitere Reise. Die Tafel erzählt vom Zusammenspiel aus Bergbau und Bahn in der Region.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 8887815747,
+   "lat": 52.3194484,
+   "lon": 14.0356004,
+   "km": 2.61,
+   "titel": "Nest der Roten Waldameise",
+   "thema": "Die Baumpolizei des Waldes",
+   "kurztext": "Der große Nadelhügel am Wegesrand ist ein Nest der Roten Waldameise. Die Ameisen erledigen im Wald Aufräumarbeiten und regulieren Schädlinge – die Tafel erklärt, wie so ein Staat aus Hunderttausenden Tieren funktioniert und warum er geschützt ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 8887815750,
+   "lat": 52.3193355,
+   "lon": 14.0352,
+   "km": 2.61,
+   "titel": "Die Rauener Berge und die Markgrafensteine",
+   "thema": "Eiszeit und Findlinge",
+   "kurztext": "Die Rauener Berge sind eine Stauch- und Endmoräne der letzten Eiszeit. Mit dem Eis kamen riesige Findlinge aus dem Norden hierher – darunter die Markgrafensteine, die größten Findlinge Brandenburgs. Der Große Markgrafenstein wurde 1827 gespalten; aus seinem Mittelstück entstand die riesige Granitschale im Berliner Lustgarten. Die Steine sind als Nationales Geotop ausgewiesen und über einen kurzen Abstecher erreichbar.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 8887815753,
+   "lat": 52.3112467,
+   "lon": 14.0362751,
+   "km": 4.34,
+   "titel": "Europäische Lärche",
+   "thema": "Baumarten kennenlernen",
+   "kurztext": "Die Europäische Lärche ist ein Nadelbaum, der im Winter seine Nadeln abwirft – und sich im Herbst goldgelb färbt. An dieser Station lernen wir, sie von Kiefer, Fichte und Co. zu unterscheiden.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 8887815736,
+   "lat": 52.3108826,
+   "lon": 14.0360206,
+   "km": 4.38,
+   "titel": "Grubensee",
+   "thema": "Wasser im Wald",
+   "kurztext": "Der kleine Grubensee liegt still zwischen den Bäumen. An solchen Stillgewässern zeigt sich, wie vielfältig der Wald der Rauener Berge ist – von Libellen über Wasserpflanzen bis zu den Vögeln am Ufer.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 6052962423,
+   "lat": 52.3088776,
+   "lon": 14.0228519,
+   "km": 5.64,
+   "titel": "Am Hirschbrunnen",
+   "thema": "Rast am Brunnen",
+   "kurztext": "Die Tafel am Hirschbrunnen ist ein ruhiger Punkt auf dem Rundweg – hier geht es um das Wasser im Wald und die Tiere, die sich solche Rastplätze gern aussuchen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1826012585,
+   "lat": 52.3192613,
+   "lon": 14.0351834,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 6052962406,
+   "lat": 52.3100031,
+   "lon": 14.0196642,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 6052962408,
+   "lat": 52.3101171,
+   "lon": 14.0195732,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6052962413,
+   "lat": 52.3111887,
+   "lon": 14.0238967,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6052962416,
+   "lat": 52.3118114,
+   "lon": 14.0277623,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8887815739,
+   "lat": 52.3192589,
+   "lon": 14.0355607,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8887815741,
+   "lat": 52.3190622,
+   "lon": 14.0355483,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041388,
+   "lat": 52.3194643,
+   "lon": 14.0352366,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041391,
+   "lat": 52.3193378,
+   "lon": 14.0353184,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041392,
+   "lat": 52.3192805,
+   "lon": 14.035173,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041394,
+   "lat": 52.3193161,
+   "lon": 14.0352946,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041395,
+   "lat": 52.3192563,
+   "lon": 14.035217,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9764041396,
+   "lat": 52.319607,
+   "lon": 14.035492,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9827261205,
+   "lat": 52.3069206,
+   "lon": 14.0316832,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9827335357,
+   "lat": 52.3074895,
+   "lon": 14.0269193,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9862267041,
+   "lat": 52.3126908,
+   "lon": 14.0200496,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

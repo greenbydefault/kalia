@@ -1,0 +1,28 @@
+{
+  "source": "https://api.openstreetmap.org/api/0.6/way/219699293/full.json",
+  "osm_id": 219699293,
+  "name": "Kinderbauernhof Pinke-Panke",
+  "tags": {
+    "leisure": "playground",
+    "landuse": "farmyard",
+    "addr:street": "Am Bürgerpark",
+    "addr:housenumber": "15-18",
+    "addr:postcode": "13156",
+    "website": "http://www.kinderbauernhof-pinke-panke.de"
+  },
+  "nodes": [
+    [52.5694791, 13.3882653],
+    [52.5691745, 13.3888142],
+    [52.5691617, 13.3888373],
+    [52.5686568, 13.3897429],
+    [52.5684981, 13.3894603],
+    [52.5682647, 13.3890449],
+    [52.5680756, 13.3887081],
+    [52.5686048, 13.3883338],
+    [52.5690953, 13.3877387],
+    [52.5691464, 13.3877725],
+    [52.5692196, 13.3878809],
+    [52.5693325, 13.3880482],
+    [52.5694791, 13.3882653]
+  ]
+}

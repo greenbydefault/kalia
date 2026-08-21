@@ -1,0 +1,94 @@
+{
+  "id": "arboretum-dreetz",
+  "name": "Arboretum Lüttgen Dreetz",
+  "typ": "naturerlebnis",
+  "form": "flaeche",
+  "kurzbeschreibung": "Acht Hektar Waldgarten bei Dreetz: über 100 Gehölze, 15 Eichenarten, Holzschilder, Obstwiesen. Frei, ganzjährig.",
+  "beschreibung": "In Lüttgen Dreetz, Bartschendorfer Straße 13, liegt ein acht Hektar großer Waldgarten mit über 100 Laub-, Nadel- und Strauchgewächsen aus Europa, Asien und Nordamerika. Kleine Pfade führen an Holzschildern vorbei. Rund 15 Eichenarten (Quercus, Buchengewächse) stehen nebeneinander – eine Eiche sieht hier nicht aus wie die nächste. Dazu Buchen, Kastanien und Scheinkastanien. Viele Bäume sind Spenden von Baumpaten. Südlich und westlich schließen zwei Obstwiesen mit alten Sorten und Beeren an; Schilder nennen Namen und Herkunft, naschen ist gedacht. Eintritt frei, ganzjährig offen, ohne Anmeldung. Holzbänke auf Lichtungen. Veranstaltungen (Arboretumfest, Hubertus, Weihnachtsmarkt, monatliches Backen) gehören nicht zum Spontanbesuch. Ein Barfußpfad ist auf der Betreiberseite nicht belegt.",
+  "laengeKm": 0,
+  "dauerMin": 90,
+  "rundkurs": false,
+  "markierung": "Waldgarten / Holzschilder an den Bäumen",
+  "betreiber": "Roland Protz / Landesbetrieb Forst Brandenburg",
+  "region": "Dreetz, Ostprignitz-Ruppin, Brandenburg",
+  "website": "https://arboretum-dreetz.de/",
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Ganzjährig geöffnet, Eintritt frei, ohne Anmeldung.",
+  "besuchshinweise": "Obstwiesen: Schilder lesen, naschen an alten Sorten ist vorgesehen. Veranstaltungen und Lehmbackofen sind extra, nicht der Spontanrundgang. Barfußpfad nicht belegt.",
+  "anreise": "Adresse: Bartschendorfer Str. 13, 16845 Dreetz. Auto über Neustadt (Dosse) / L14, Ortsteil Lüttgen Dreetz. Bahn: Neustadt (Dosse), weiter Bus oder Rad. Eingang am Forsthaus, Gelände ist der Waldgarten südlich der Straße.",
+  "startName": "Eingang Arboretum Lüttgen Dreetz",
+  "arten": [
+    "Stieleiche",
+    "Rotbuche",
+    "Edelkastanie"
+  ],
+  "tags": [
+    "kinderfreundlich"
+  ],
+  "route": [],
+  "area": [
+    [52.7843851, 12.4772825],
+    [52.7840592, 12.4789852],
+    [52.7844116, 12.4798022],
+    [52.7858154, 12.4802724],
+    [52.7859321, 12.4798871],
+    [52.7864232, 12.4785476],
+    [52.7862606, 12.4782425],
+    [52.7862459, 12.4782648],
+    [52.7858939, 12.4787977],
+    [52.7853224, 12.4777336],
+    [52.7850303, 12.4771898],
+    [52.7843851, 12.4772825]
+  ],
+  "stationen": [
+    {
+      "osmId": 950101,
+      "lat": 52.78524,
+      "lon": 12.47873,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Waldgarten und Baumpaten",
+      "thema": "Über 100 Gehölze, jedes mit Schild",
+      "kurztext": "Laub, Nadel, Strauch – über 100 Arten auf kleinen Pfaden. Holzschilder nennen den Namen. Viele Bäume sind Patenschaften. Vergleich Blatt und Rinde, statt nur zu lesen.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 950102,
+      "lat": 52.78550,
+      "lon": 12.47940,
+      "km": 0.08,
+      "reihenfolge": 2,
+      "titel": "Eichenquartier",
+      "thema": "Fünfzehn Quercus, eine Familie",
+      "kurztext": "Rund 15 Eichenarten. Quercus, Familie der Buchengewächse. Färbereiche, Schindeleiche – der Name verrät Herkunft oder Nutzung. Eine Eiche sieht hier nicht aus wie die nächste.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 950103,
+      "lat": 52.78503,
+      "lon": 12.47740,
+      "km": 0.16,
+      "reihenfolge": 3,
+      "titel": "Obstbaumwiesen Süd und West",
+      "thema": "Alte Sorten, Schilder, naschen",
+      "kurztext": "Zwei Wiesen schließen an den Waldgarten an. Alte Obstsorten und Beeren, Namen auf Schildern. Vom Frühsommer bis in den Herbst zum Naschen gedacht.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 950201,
+      "lat": 52.78524,
+      "lon": 12.47873,
+      "kategorie": "bench",
+      "name": "Holzbänke im Waldgarten"
+    }
+  ]
+}

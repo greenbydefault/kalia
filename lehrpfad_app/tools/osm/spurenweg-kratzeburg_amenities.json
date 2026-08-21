@@ -1,0 +1,189 @@
+[
+ {
+  "type": "node",
+  "id": 459520206,
+  "lat": 53.4293014,
+  "lon": 12.9374117,
+  "tags": {
+   "amenity": "bench",
+   "backrest": "yes",
+   "fireplace": "no",
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 832379452,
+  "lat": 53.4330629,
+  "lon": 12.9355109,
+  "tags": {
+   "access": "yes",
+   "backrest": "yes",
+   "check_date": "2024-08-21",
+   "colour": "wood",
+   "covered": "no",
+   "leisure": "picnic_table",
+   "material": "wood",
+   "seats": "12"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12124905905,
+  "lat": 53.4399777,
+  "lon": 12.9365282,
+  "tags": {
+   "access": "yes",
+   "amenity": "bench",
+   "backrest": "no",
+   "colour": "wood",
+   "direction": "86",
+   "lit": "no",
+   "material": "wood",
+   "seats": "4",
+   "source": "survey"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12124964788,
+  "lat": 53.4376174,
+  "lon": 12.9355638,
+  "tags": {
+   "access": "yes",
+   "amenity": "bench",
+   "backrest": "no",
+   "colour": "wood",
+   "direction": "69",
+   "lit": "no",
+   "material": "wood",
+   "seats": "4"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12124964789,
+  "lat": 53.4375485,
+  "lon": 12.9355757,
+  "tags": {
+   "access": "yes",
+   "amenity": "bench",
+   "backrest": "no",
+   "colour": "wood",
+   "direction": "66",
+   "lit": "no",
+   "material": "wood",
+   "seats": "4"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12124964790,
+  "lat": 53.437451,
+  "lon": 12.935683,
+  "tags": {
+   "bench": "yes",
+   "colour": "wood",
+   "covered": "no",
+   "leisure": "picnic_table",
+   "lit": "no",
+   "material": "wood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12124964791,
+  "lat": 53.4364802,
+  "lon": 12.9322092,
+  "tags": {
+   "access": "yes",
+   "amenity": "bench",
+   "backrest": "no",
+   "colour": "wood",
+   "direction": "89",
+   "lit": "no",
+   "material": "wood",
+   "seats": "4"
+  }
+ },
+ {
+  "type": "way",
+  "id": 389359404,
+  "lat": 53.429664583333334,
+  "lon": 12.946392233333333,
+  "tags": {
+   "addr:city": "Kratzeburg",
+   "addr:country": "DE",
+   "addr:housenumber": "5",
+   "addr:postcode": "17237",
+   "addr:street": "Dorfstraße Kratzeburg",
+   "amenity": "cafe",
+   "building": "retail",
+   "check_date": "2024-08-22",
+   "contact:email": "kontakt@luette-meierie.de",
+   "contact:website": "https://www.luette-meierie.de/",
+   "cuisine": "ice_cream;cake;coffee;local",
+   "description": "Café und Hofladen in einem - ist innen ungetrennt.",
+   "name": "Lütte Meierie",
+   "opening_hours": "May-Aug Mo, We-Su 14:00-18:00; 24/7 off",
+   "operator": "Eike Berkholz Lütte Meierie",
+   "outdoor_seating": "yes",
+   "shop": "farm"
+  }
+ },
+ {
+  "type": "way",
+  "id": 564144089,
+  "lat": 53.429399312499996,
+  "lon": 12.937228300000001,
+  "tags": {
+   "amenity": "shelter",
+   "bench": "yes",
+   "bin": "yes",
+   "building": "roof",
+   "layer": "1",
+   "operator": "Gemeinde Kratzeburg",
+   "shelter_type": "weather_shelter"
+  }
+ },
+ {
+  "type": "way",
+  "id": 1011130268,
+  "lat": 53.42948799999999,
+  "lon": 12.94600792,
+  "tags": {
+   "access": "customers",
+   "amenity": "parking",
+   "capacity": "5",
+   "fee": "no",
+   "operator": "Lütte Meierie",
+   "parking": "surface",
+   "surface": "paved"
+  }
+ },
+ {
+  "type": "way",
+  "id": 1014467080,
+  "lat": 53.42909902,
+  "lon": 12.94431518,
+  "tags": {
+   "amenity": "shelter",
+   "bench": "yes",
+   "building": "yes",
+   "covered": "yes",
+   "shelter_type": "public_transport"
+  }
+ },
+ {
+  "type": "way",
+  "id": 1014467136,
+  "lat": 53.429565833333335,
+  "lon": 12.94295485,
+  "tags": {
+   "access": "yes",
+   "leisure": "playground",
+   "operator": "Gemeinde Kratzeburg",
+   "surface": "sand"
+  }
+ }
+]

@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-13T11:53:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 61318864,
+  "bounds": {
+    "minlat": 52.6615586,
+    "minlon": 13.2465531,
+    "maxlat": 52.6622764,
+    "maxlon": 13.2473921
+  },
+  "nodes": [
+    687682846,
+    13275921090,
+    765936637,
+    765936641,
+    765936638,
+    765936645,
+    765936644,
+    765936643,
+    765936640,
+    765936636,
+    765936651,
+    765936650,
+    765936647,
+    765936642,
+    765936639,
+    765936637
+  ],
+  "geometry": [
+    { "lat": 52.6615586, "lon": 13.2472611 },
+    { "lat": 52.6616513, "lon": 13.2471585 },
+    { "lat": 52.6617610, "lon": 13.2470372 },
+    { "lat": 52.6618849, "lon": 13.2468113 },
+    { "lat": 52.6619306, "lon": 13.2466930 },
+    { "lat": 52.6620415, "lon": 13.2465854 },
+    { "lat": 52.6621850, "lon": 13.2465531 },
+    { "lat": 52.6622372, "lon": 13.2466392 },
+    { "lat": 52.6622764, "lon": 13.2468113 },
+    { "lat": 52.6622503, "lon": 13.2469834 },
+    { "lat": 52.6620676, "lon": 13.2473491 },
+    { "lat": 52.6619958, "lon": 13.2473921 },
+    { "lat": 52.6619241, "lon": 13.2473491 },
+    { "lat": 52.6618849, "lon": 13.2472523 },
+    { "lat": 52.6618262, "lon": 13.2471770 },
+    { "lat": 52.6617610, "lon": 13.2470372 }
+  ],
+  "tags": {
+    "access": "yes",
+    "bicycle": "yes",
+    "covered": "no",
+    "foot": "designated",
+    "highway": "path",
+    "horse": "no",
+    "lit": "no",
+    "motor_vehicle": "no",
+    "mtb:scale": "1",
+    "name": "Harzungspfad",
+    "smoothness": "bad",
+    "stroller": "limited",
+    "surface": "gravel",
+    "wheelchair": "no",
+    "width": "1"
+  }
+}
+
+  ]
+}

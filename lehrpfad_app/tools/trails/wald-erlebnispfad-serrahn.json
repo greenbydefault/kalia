@@ -1,0 +1,167 @@
+{
+ "id": "wald-erlebnispfad-serrahn",
+ "rohdaten": "wald-erlebnispfad-serrahn",
+ "name": "Wald-Erlebnispfad Serrahn",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Vom Kiefernforst in den Buchen-Urwald: Erlebnispfad Zinow–Serrahn mit Tafeln, Moorsteg und Turm am Serrahnsee. Frei, ohne Ticket.",
+ "beschreibung": "Der Wald-Erlebnispfad verbindet Zinow mit Serrahn und weiter zum Parkplatz Dianenhof. Am Anfang stehen Wirtschaftswald und Pionierbäume, am Ende mächtige Buchen im UNESCO-Welterbe. Entlang des Weges stehen Stationen zu Fichte, Eiche, Kiefer, Waldgärtner, Rotbuche und Moor. Am Großen Serrahnsee liegt ein Aussichtspunkt. Ein Holzsteg führt durch Moor. In Serrahn gibt es Gartencafé (Saison) und die Ausstellung – die Ausstellung ist optional, der Pfad nicht. Empfehlung: Start Zinow, Richtung Dianenhof. Rückweg Radweg oder Bus 619. Hunde an der Leine. Wege nicht verlassen.",
+ "markierung": "Grünes Buchenblatt auf weißem Grund",
+ "betreiber": "Nationalparkamt Müritz",
+ "region": "Zinow / Serrahn / Carpin, Mecklenburgische Seenplatte, NP Müritz",
+ "website": "https://www.mueritz-nationalpark.de/erleben-erholen/aktiv-in-der-natur/erlebnispfade/wald-erlebnispfad-serrahn",
+ "anreise": "Auto: B 198 Neustrelitz–Feldberg, Abzweig Zinow, nach ca. 150 m Wanderparkplatz rechts (kostenlos). Weitere Parkplätze Dianenhof und Carpin. Bus 619 (MVVG) Haltestelle Welterbe Zinow / Dianenhof / Carpin.",
+ "startName": "Wanderparkplatz / Eingangsbereich Zinow",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Kranich",
+  "Torfmoos",
+  "Wollgras"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "einkehr",
+  "hunde-erlaubt"
+ ],
+ "rundkurs": false,
+ "dauerMin": 150,
+ "stationen": {
+  "start-zinow": {
+   "lat": 53.3613708,
+   "lon": 13.1745291,
+   "titel": "Eingang Zinow",
+   "thema": "Start Welterbe-Pfad",
+   "kurztext": "Parkplatz am Waldrand, Tafeln zum Welterbe. Ab hier führt das Buchenblatt vom Forst in den Urwald. Bleib auf dem markierten Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "fichte": {
+   "lat": 53.3615519,
+   "lon": 13.1759677,
+   "titel": "Die Fichte ist hier nicht verwurzelt",
+   "thema": "Pionier / Fehlstandort",
+   "kurztext": "Die Fichte steht, ist hier aber fehl am Platz. Warum, sagt die Tafel – und der Boden darunter.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "pioniere": {
+   "lat": 53.3615435,
+   "lon": 13.1778512,
+   "titel": "Pioniere!",
+   "thema": "Erste Bäume nach Störung",
+   "kurztext": "Nach Sturm oder Hieb kommen zuerst die Schnellen. Welche Art siehst du in den ersten Metern?",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "kiefern-brotbaum": {
+   "lat": 53.3570065,
+   "lon": 13.1882854,
+   "titel": "Gemeine Kiefer – der Brotbaum",
+   "thema": "Wirtschaftswald",
+   "kurztext": "Die Kiefer hat den Forst ernährt. Hier beginnt der Kontrast zum Buchenwald, der später kommt.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "waldgaertner": {
+   "lat": 53.3545776,
+   "lon": 13.1921873,
+   "titel": "Der gefiederte Waldgärtner",
+   "thema": "Tiere pflanzen Wald",
+   "kurztext": "Wer hat die kleinen Bäume gepflanzt? Oft ein Vogel. Die nächste Tafel nennt ihn.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "turm-serrahnsee": {
+   "lat": 53.3534676,
+   "lon": 13.1990094,
+   "titel": "Großer Serrahnsee",
+   "thema": "Aussicht, Adler, Kranich",
+   "kurztext": "Blick über Moor und See. Seeadler, Fischadler, Kranich – Glückssache. Glas und Abstand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "rotbuche": {
+   "lat": 53.3493763,
+   "lon": 13.2003116,
+   "titel": "Rotbuche – die Dominante",
+   "thema": "Urwald / Welterbe",
+   "kurztext": "Die Dominante des Welterbes. Totholz, Lichtflecken, Jungbuchen. So sieht Wald aus, den niemand mehr aufräumt.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "moor": {
+   "lat": 53.3467817,
+   "lon": 13.20229,
+   "titel": "Ein lebendiges Moor ist baumfrei",
+   "thema": "Moorsteg-Thema",
+   "kurztext": "Lebendiges Moor bleibt offen. Der Steg schützt die Fläche – und dich vor nassen Füßen.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "unesco": {
+   "lat": 53.3484349,
+   "lon": 13.1945904,
+   "titel": "UNESCO-Welterbe",
+   "thema": "Alte Buchenwälder",
+   "kurztext": "Seit 2011 Teil der Alten Buchenwälder Deutschlands. Kein Extra-Ticket, aber Regeln: Weg, Leine, keine Souvenirs aus dem Reservat.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "dorfstelle-saran": {
+   "lat": 53.3482422,
+   "lon": 13.2005317,
+   "titel": "Dorfstelle Saran",
+   "thema": "Menschliche Spur im Wald",
+   "kurztext": "Hier lag eine Siedlung. Der Wald hat sie übernommen. Menschliche Spuren unter Buchen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "serrahn-forsthaus": {
+   "lat": 53.3442857,
+   "lon": 13.2020332,
+   "titel": "Forsthaus Serrahn",
+   "thema": "Zielort / Pause",
+   "kurztext": "Dorf im Wald. Café in der Saison, Ausstellung hinter der Tür – der Pfad endet draußen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  }
+ }
+}

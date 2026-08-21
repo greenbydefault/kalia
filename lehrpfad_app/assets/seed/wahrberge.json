@@ -1,0 +1,319 @@
+{
+ "id": "wahrberge",
+ "name": "Waldlehrpark Wahrberge",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Freier Waldlehrpark in der Prignitz – Lehrtafeln, Arboretum mit über 200 Arten und Erlebnisstationen zum Balancieren und Mitmachen.",
+ "beschreibung": "In Groß Pankow (OT Groß Woltersdorf) erstreckt sich der Waldlehrpark Wahrberge auf rund 70.000 m². Wege mit insgesamt etwa 3,5 km Länge führen an Lehrtafeln und Arboretumschildern vorbei; mehr als 200 Baum- und Straucharten machen den Park zum Freiluft-Lehrbuch. Kinder und Erwachsene testen Geschicklichkeit an Stationen wie Balancierstämmen, Waldmoorspiel und Zapfenzielweitwurf. Im Zentrum steht eine große Schutzhütte; die Waldbühne wird u. a. bei den Märchentagen genutzt. Der Outdoor-Besuch ist grundsätzlich frei und unentgeltlich – ohne Ticket und ohne Anmeldung. Optional kostenpflichtig sind WC, gemietete Schutzhütte, Grill oder Führungen; das gehört nicht zum Spontan-Scope. Fachlich begleitet der Landesbetrieb Forst Brandenburg den Park. In der Nähe: Sommerrodelbahn und Naturbadesee (eigene Angebote).",
+ "laengeKm": 1.5,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Waldlehrpark / lokale Wegweisung am Gelände",
+ "betreiber": "Kultur- und Heimatfreundevereinigung Wahrberge e. V. (fachlich: Landesbetrieb Forst Brandenburg)",
+ "region": "Groß Pankow OT Groß Woltersdorf, Prignitz, Brandenburg",
+ "website": "https://www.wahrberge.de/waldlehrpark.html",
+ "anreise": "Auto: Am Märchenwald 5, 16928 Groß Pankow (OT Groß Woltersdorf); Beschilderung Waldlehrpark / Märchenwald folgen. Parken am Gelände bzw. Zufahrt. ÖPNV in der Fläche dünn – Anreise mit Auto oder Fahrrad üblich.",
+ "startName": "Eingang Waldlehrpark Wahrberge",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Bergahorn",
+  "Rote Waldameise",
+  "Igel",
+  "Hummel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "route": [
+  [
+   53.085853,
+   12.161665
+  ],
+  [
+   53.086418,
+   12.161482
+  ],
+  [
+   53.086268,
+   12.161872
+  ],
+  [
+   53.086118,
+   12.162263
+  ],
+  [
+   53.085968,
+   12.162653
+  ],
+  [
+   53.085702,
+   12.162704
+  ],
+  [
+   53.085436,
+   12.162754
+  ],
+  [
+   53.08517,
+   12.162805
+  ],
+  [
+   53.084904,
+   12.162856
+  ],
+  [
+   53.084638,
+   12.162906
+  ],
+  [
+   53.084718,
+   12.162456
+  ],
+  [
+   53.084797,
+   12.162006
+  ],
+  [
+   53.084877,
+   12.161556
+  ],
+  [
+   53.085094,
+   12.16153
+  ],
+  [
+   53.08518,
+   12.161476
+  ],
+  [
+   53.085268,
+   12.161375
+  ],
+  [
+   53.085326,
+   12.161257
+  ],
+  [
+   53.085375,
+   12.161149
+  ],
+  [
+   53.085555,
+   12.160991
+  ],
+  [
+   53.085731,
+   12.160836
+  ],
+  [
+   53.086036,
+   12.160774
+  ],
+  [
+   53.086342,
+   12.160711
+  ],
+  [
+   53.086151,
+   12.161189
+  ],
+  [
+   53.086509,
+   12.160441
+  ],
+  [
+   53.086677,
+   12.160171
+  ],
+  [
+   53.086844,
+   12.159902
+  ],
+  [
+   53.087012,
+   12.159632
+  ],
+  [
+   53.086844,
+   12.159902
+  ],
+  [
+   53.086677,
+   12.160171
+  ],
+  [
+   53.086509,
+   12.160441
+  ],
+  [
+   53.086342,
+   12.160711
+  ],
+  [
+   53.086151,
+   12.161189
+  ],
+  [
+   53.086418,
+   12.161482
+  ],
+  [
+   53.086268,
+   12.161872
+  ],
+  [
+   53.086118,
+   12.162263
+  ],
+  [
+   53.085968,
+   12.162653
+  ],
+  [
+   53.085702,
+   12.162704
+  ],
+  [
+   53.085436,
+   12.162754
+  ],
+  [
+   53.08517,
+   12.162805
+  ],
+  [
+   53.084904,
+   12.162856
+  ],
+  [
+   53.084638,
+   12.162906
+  ],
+  [
+   53.084718,
+   12.162456
+  ],
+  [
+   53.084797,
+   12.162006
+  ],
+  [
+   53.084877,
+   12.161556
+  ],
+  [
+   53.085094,
+   12.16153
+  ],
+  [
+   53.08518,
+   12.161476
+  ],
+  [
+   53.085268,
+   12.161375
+  ],
+  [
+   53.085326,
+   12.161257
+  ],
+  [
+   53.085375,
+   12.161149
+  ],
+  [
+   53.085555,
+   12.160991
+  ],
+  [
+   53.085731,
+   12.160836
+  ],
+  [
+   53.086036,
+   12.160774
+  ],
+  [
+   53.086342,
+   12.160711
+  ],
+  [
+   53.085853,
+   12.161665
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1716574282,
+   "lat": 53.085853,
+   "lon": 12.161665,
+   "km": 0.0,
+   "titel": "Willkommen im Waldlehrpark",
+   "thema": "Start am Märchenwald",
+   "kurztext": "Hier beginnt der freie Besuch auf dem Gelände der Wahrberge. Rund 70.000 m² Wald und Freifläche, Wege mit Lehrtafeln – ohne Ticket, ohne Anmeldung. Nimm dir Zeit: Der Park ist zum Entdecken gebaut, nicht zum Durchhetzen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -4125315897,
+   "lat": 53.08517,
+   "lon": 12.162805,
+   "km": 0.25,
+   "titel": "Balancieren und Mitmachen",
+   "thema": "Erlebnisstationen",
+   "kurztext": "Balancierstämme, Waldmoorspiel, Zapfenzielweitwurf – hier wird Geschicklichkeit getestet. Die Stationen sind für Familien gedacht und selbsterklärend. In der Nähe liegt die Waldbühne, die bei den Märchentagen zur Märchenwelt wird.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3537177166,
+   "lat": 53.084718,
+   "lon": 12.162456,
+   "km": 0.34,
+   "titel": "Arboretum und Lehrtafeln",
+   "thema": "Bäume erkennen",
+   "kurztext": "Über 200 Baum- und Straucharten säumen die Wege – mit Arboretumschildern und Lehrtafeln zum bewussten Hinschauen. Der Landesbetrieb Forst Brandenburg begleitet den Park fachlich. Vergleiche Blätter, Rinde und Standort statt nur Namen zu lesen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3601322129,
+   "lat": 53.087012,
+   "lon": 12.159632,
+   "km": 0.76,
+   "titel": "Schutzhütte und Picknick",
+   "thema": "Pause im Zentrum",
+   "kurztext": "Im Zentrum des Parks steht die große Schutzhütte – zum Verweilen offen. Picknick im Gelände ist Teil des Familienbesuchs. Miete von Hütte, Grill oder WC kann der Verein gesondert berechnen; der Spontanrundgang selbst bleibt frei.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1937127899,
+   "lat": 53.087012,
+   "lon": 12.1596318,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ]
+}

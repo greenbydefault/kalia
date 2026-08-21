@@ -1,0 +1,40 @@
+{
+  "source": "https://overpass-api.de/api/interpreter way(636975365)",
+  "osm_id": 636975365,
+  "name": "Arboretum",
+  "tags": {
+    "garden:type": "arboretum",
+    "leisure": "garden",
+    "name": "Arboretum",
+    "note": "Ausdehnung geschätzt",
+    "website": "https://arboretum-dreetz.de/"
+  },
+  "nodes": [
+    [52.7843851, 12.4772825],
+    [52.7840592, 12.4789852],
+    [52.7844116, 12.4798022],
+    [52.7858154, 12.4802724],
+    [52.7859321, 12.4798871],
+    [52.7864232, 12.4785476],
+    [52.7862606, 12.4782425],
+    [52.7862459, 12.4782648],
+    [52.7858939, 12.4787977],
+    [52.7853224, 12.4777336],
+    [52.7850303, 12.4771898],
+    [52.7843851, 12.4772825]
+  ],
+  "address": {
+    "osm_id": 745418461,
+    "lat": 52.7859756,
+    "lon": 12.4783650,
+    "street": "Bartschendorfer Straße",
+    "housenumber": "13",
+    "postcode": "16845",
+    "city": "Dreetz"
+  },
+  "nearby": {
+    "orchard_way": 971322405,
+    "orchard_center": [52.7852663, 12.4770880],
+    "note": "landuse=orchard westlich, entspricht Betreiber-Obstwiese West"
+  }
+}

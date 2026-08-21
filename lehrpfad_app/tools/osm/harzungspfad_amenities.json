@@ -1,0 +1,156 @@
+{
+ "elements": [
+  {
+   "type": "node",
+   "id": 765936646,
+   "lat": 52.6615914,
+   "lon": 13.2471125,
+   "tags": {
+    "backrest": "no",
+    "bench": "yes",
+    "covered": "no",
+    "leisure": "picnic_table",
+    "lit": "no",
+    "material": "wood"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765936648,
+   "lat": 52.6616603,
+   "lon": 13.2470897,
+   "tags": {
+    "amenity": "shelter",
+    "bench": "yes",
+    "board_type": "technology",
+    "check_date": "2021-06-24",
+    "information": "board",
+    "name": "Baumharz",
+    "shelter_type": "wetterpilz",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765936649,
+   "lat": 52.6616501,
+   "lon": 13.2472846,
+   "tags": {
+    "backrest": "no",
+    "bench": "yes",
+    "covered": "no",
+    "leisure": "picnic_table",
+    "lit": "no",
+    "material": "wood"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807807,
+   "lat": 52.6619098,
+   "lon": 13.2468477,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Vorarbeiten",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807808,
+   "lat": 52.6622061,
+   "lon": 13.2464859,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Ziehen der Tropfrinne",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807809,
+   "lat": 52.66203,
+   "lon": 13.2466739,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Röten",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807810,
+   "lat": 52.6622123,
+   "lon": 13.2467455,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Topfhalter und Topf",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807811,
+   "lat": 52.66218,
+   "lon": 13.2470275,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Reißen",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807812,
+   "lat": 52.6620808,
+   "lon": 13.2472238,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Stimulationsharzung",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807813,
+   "lat": 52.6619767,
+   "lon": 13.2472994,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Schöpfen",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807814,
+   "lat": 52.6618217,
+   "lon": 13.2472585,
+   "tags": {
+    "board_type": "history",
+    "information": "board",
+    "name": "Transport",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7999807815,
+   "lat": 52.6618961,
+   "lon": 13.2485953,
+   "tags": {
+    "board_type": "nature",
+    "information": "board",
+    "name": "Blick in den Waldboden",
+    "tourism": "information"
+   }
+  }
+ ]
+}

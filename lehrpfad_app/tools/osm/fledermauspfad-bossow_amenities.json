@@ -1,0 +1,38 @@
+[
+ {
+  "type": "node",
+  "id": 12023732697,
+  "lat": 53.6098758,
+  "lon": 12.2307618,
+  "tags": {
+   "amenity": "bench",
+   "backrest": "yes",
+   "description": "Liegebank zur Sternenbeobachtung",
+   "material": "wood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12023732698,
+  "lat": 53.6098649,
+  "lon": 12.230803,
+  "tags": {
+   "amenity": "bench",
+   "backrest": "yes",
+   "description": "Liegebank zur Sternenbeobachtung",
+   "material": "wood"
+  }
+ },
+ {
+  "type": "way",
+  "id": 1297781127,
+  "lat": 53.61082322000001,
+  "lon": 12.2320838,
+  "tags": {
+   "amenity": "parking",
+   "orientation": "perpendicular",
+   "parking": "street_side",
+   "surface": "cobblestone"
+  }
+ }
+]

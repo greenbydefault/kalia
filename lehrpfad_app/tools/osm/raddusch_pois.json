@@ -1,0 +1,443 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-08T12:00:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1288038156,
+  "lat": 51.8357022,
+  "lon": 14.0082830,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Torfabbau im Spreewald",
+    "information": "board",
+    "name": "Gustewitz",
+    "ref": "6",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation6"
+  }
+},
+{
+  "type": "node",
+  "id": 2308249662,
+  "lat": 51.8429805,
+  "lon": 14.0561948,
+  "tags": {
+    "bicycle": "yes",
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "13",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 2819118101,
+  "lat": 51.8193193,
+  "lon": 14.0424265,
+  "tags": {
+    "board_type": "sport",
+    "check_date": "2025-04-05",
+    "information": "board",
+    "name": "Naturhafen Raddusch",
+    "ref": "H",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 2819118201,
+  "lat": 51.8431529,
+  "lon": 14.0010231,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Das Gewässerrandstreifenprojekt",
+    "information": "board",
+    "name": "Schwarzer Weg",
+    "ref": "5",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation5"
+  }
+},
+{
+  "type": "node",
+  "id": 2819118301,
+  "lat": 51.8255491,
+  "lon": 14.0232024,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-12",
+    "description": "Der Einfluss des Lausitzer Braunkohleabbaus auf die Spreewälder Moore",
+    "information": "board",
+    "name": "Quellgebiet Carna Gora",
+    "ref": "7",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation7"
+  }
+},
+{
+  "type": "node",
+  "id": 2819118401,
+  "lat": 51.8258637,
+  "lon": 14.0509525,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Was sind Moore?",
+    "information": "board",
+    "name": "Schorschkoa",
+    "ref": "1",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation1"
+  }
+},
+{
+  "type": "node",
+  "id": 4017705209,
+  "lat": 51.8341942,
+  "lon": 14.0475584,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "14",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095719367,
+  "lat": 51.8341644,
+  "lon": 14.0549663,
+  "tags": {
+    "boat": "yes",
+    "information": "guidepost",
+    "ref:boat": "B41",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095723006,
+  "lat": 51.8208573,
+  "lon": 14.0390969,
+  "tags": {
+    "bicycle": "yes",
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "23",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095727016,
+  "lat": 51.8201001,
+  "lon": 14.0381314,
+  "tags": {
+    "bicycle": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095727020,
+  "lat": 51.8317679,
+  "lon": 14.0577985,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "241",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095727021,
+  "lat": 51.8319968,
+  "lon": 14.0578437,
+  "tags": {
+    "boat": "yes",
+    "information": "guidepost",
+    "ref:boat": "B42",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095965619,
+  "lat": 51.8309037,
+  "lon": 14.0159118,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095965716,
+  "lat": 51.8188641,
+  "lon": 14.0430267,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "730",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095965915,
+  "lat": 51.8243928,
+  "lon": 14.0264118,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "436",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4095967300,
+  "lat": 51.8193078,
+  "lon": 14.0424184,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "799",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 5179763862,
+  "lat": 51.8476402,
+  "lon": 14.0085880,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Menschliche Eingriffe in den Wasserhaushalt der Spreewälder Moore bis in die 1990er Jahre",
+    "information": "board",
+    "name": "Sauenmoor",
+    "ref": "4",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation4"
+  }
+},
+{
+  "type": "node",
+  "id": 5179763864,
+  "lat": 51.8481120,
+  "lon": 14.0437414,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Pflanzen und Tiere im Niedermoor",
+    "information": "board",
+    "name": "Hirschmoor",
+    "ref": "3",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation3"
+  }
+},
+{
+  "type": "node",
+  "id": 9585791866,
+  "lat": 51.8192654,
+  "lon": 14.0425905,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12190034868,
+  "lat": 51.8240459,
+  "lon": 14.0486675,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12609709596,
+  "lat": 51.8429783,
+  "lon": 14.0559086,
+  "tags": {
+    "bicycle": "yes",
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12609709597,
+  "lat": 51.8480378,
+  "lon": 14.0441374,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12609799425,
+  "lat": 51.8497361,
+  "lon": 14.0001501,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12730535059,
+  "lat": 51.8319379,
+  "lon": 14.0574965,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12730550605,
+  "lat": 51.8241781,
+  "lon": 14.0484385,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12730609981,
+  "lat": 51.8427344,
+  "lon": 14.0563261,
+  "tags": {
+    "bicycle": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12730609983,
+  "lat": 51.8413125,
+  "lon": 14.0557800,
+  "tags": {
+    "board_type": "nature",
+    "check_date": "2025-04-05",
+    "description": "Bedeutung und Funktionen von Mooren",
+    "information": "board",
+    "name": "Dubkowmoor",
+    "ref": "2",
+    "tourism": "information",
+    "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/moore.php/#destation2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730815613,
+  "lat": 51.8233790,
+  "lon": 14.0333171,
+  "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749491194,
+  "lat": 51.8195197,
+  "lon": 14.0421221,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749491195,
+  "lat": 51.8193022,
+  "lon": 14.0426047,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749609717,
+  "lat": 51.8199010,
+  "lon": 14.0416534,
+  "tags": {
+    "hiking": "yes",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749657756,
+  "lat": 51.8342495,
+  "lon": 14.0471221,
+  "tags": {
+    "board_type": "sight",
+    "check_date": "2025-04-12",
+    "description": "Rastplatz Buschmühle",
+    "information": "board",
+    "name": "Rastplatz Buschmühle",
+    "ref": "R",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749786943,
+  "lat": 51.8371813,
+  "lon": 14.0103769,
+  "tags": {
+    "bicycle": "yes",
+    "hiking": "no",
+    "information": "route_marker",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12749919942,
+  "lat": 51.8223436,
+  "lon": 14.0334013,
+  "tags": {
+    "board_type": "nature",
+    "description": "der schwarze Berg",
+    "information": "board",
+    "ref": "5",
+    "tourism": "information"
+  }
+}
+
+  ]
+}

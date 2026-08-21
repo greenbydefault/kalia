@@ -1,0 +1,142 @@
+{
+  "id": "heide-erlebnisweg",
+  "rohdaten": "heide-erlebnisweg",
+  "name": "Heide-Erlebnisweg",
+  "typ": "wald",
+  "kurzbeschreibung": "Themenweg durch Sielmanns Naturlandschaft Kyritz-Ruppiner Heide – elf Stationen zu Heidekraut, Vögeln, Spinnen und der Geschichte des ehemaligen Truppenübungsplatzes.",
+  "beschreibung": "Auf dem Heide-Erlebnisweg erkundest du die südliche Spitze einer der größten zusammenhängenden Heideflächen Europas. Elf Themenstationen mit Schautafeln liegen entlang der freigegebenen Sandwege zwischen Neuglienicke, Pfalzheim und Rossow – ohne feste Reihenfolge, die App sortiert sie entlang der gewählten Laufrichtung. Höhepunkt ist der Aussichtsturm auf dem Heinz-Sielmann-Hügel. Die Wege sind naturbelassen; mit Kinderwagen oder Rollstuhl sind sie streckenweise schwer befahrbar. Wichtig: Dies ist ehemaliges Militärgelände. Nur die mit rot umrandeten Pollern markierten, freigegebenen Wege betreten – abseits der Wege besteht Kampfmittelrisiko. Hunde bitte anleinen. Verpflegung und Schatten mitnehmen, Handyempfang ist lückenhaft.",
+  "markierung": "Lila Pfeil / rot umrandete Poller an freigegebenen Wegen",
+  "betreiber": "Heinz Sielmann Stiftung / Bundesforst",
+  "region": "Pfalzheim, Rossow und Neuglienicke, Ostprignitz-Ruppin, Brandenburg",
+  "website": "https://www.sielmann-stiftung.de/natur-erleben/kyritz-ruppiner-heide",
+  "anreise": "Auto: A 24 Abfahrt Herzsprung, weiter nach Pfalzheim (Parkplatz Zur Ruppiner Heide 1), Rossow oder Neuglienicke. Bahn: RE 6 bis Netzeband, dann Wanderweg mit Markierung „grüner Balken“ nach Pfalzheim. Vom Eingang Pfalzheim sind es ca. 1 km zum Aussichtsturm, von Rossow ca. 4,5 km, von Neuglienicke ca. 3,5 km.",
+  "startName": "Eingang Neuglienicke (auch Pfalzheim / Rossow)",
+  "arten": [
+    "Besenheide",
+    "Wiedehopf",
+    "Heidelerche",
+    "Ziegenmelker",
+    "Rote Röhrenspinne",
+    "Heidekraut-Seidenbiene",
+    "Braunkehlchen",
+    "Neuntöter",
+    "Steinschmätzer",
+    "Kiefer",
+    "Konik"
+  ],
+  "tags": ["kinderfreundlich", "hunde-erlaubt", "picknick"],
+  "rundkurs": false,
+  "dauerMin": 210,
+  "stationen": {
+    "stille-und-sterne": {
+      "lat": 53.059633,
+      "lon": 12.731022,
+      "titel": "Stille und Sterne",
+      "thema": "Dunkler Himmel über der Heide",
+      "kurztext": "Die Kyritz-Ruppiner Heide gehört zu den dunkelsten Orten Deutschlands: Im Umkreis von mehreren Kilometern liegen kaum Siedlungen. Nachts kannst du hier Sternbilder und im August die Perseiden besonders klar sehen. Tagsüber spürst du dieselbe Weite als Stille – wenig Verkehrslärm, viel Raum für Heide, Wind und Vogelstimmen.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "moose-und-flechten": {
+      "lat": 53.057907,
+      "lon": 12.707167,
+      "titel": "Moose und Flechten",
+      "thema": "Pioniere auf Sand und Holz",
+      "kurztext": "Auf offenem Sand, an Kiefernstämmen und Totholz wachsen Moose und Flechten, die mit Nährstoffarmut und Trockenheit zurechtkommen. Die Tafel zeigt, wie diese unscheinbaren Organismen den Boden festhalten, Feuchte speichern und anderen Arten den Weg bereiten – echte Pioniere der Heidelandschaft.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "pflanzenfresser": {
+      "lat": 53.05246,
+      "lon": 12.685632,
+      "titel": "Pflanzenfresser",
+      "thema": "Wer die Heide offen hält",
+      "kurztext": "Ohne Verbiss und Pflege würde die Heide zuwachsen. Konik-Pferde und andere Pflanzenfresser halten Flächen offen, fressen Jungwuchs und schaffen so Lebensraum für Heidekraut, Wildbienen und Bodenbrüter. Die Station erklärt, warum Landschaftspflege hier Naturschutz ist – und warum du die Tiere nur aus der Distanz beobachten solltest.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "rote-roehrenspinne": {
+      "lat": 53.05006,
+      "lon": 12.67474,
+      "titel": "Rote Röhrenspinne",
+      "thema": "Die Nachhaltigkeitskünstlerin im Sand",
+      "kurztext": "Die Rote Röhrenspinne baut Wohnröhren im sandigen Boden der Heide. Wenn der Nachwuchs fast ausgewachsen ist, verwandelt sich das Weibchen selbst in Nahrung – ein extremes, aber wirkungsvolles Fürsorge-Modell. Die Tafel lädt ein, den Boden vorsichtig zu beobachten, ohne Röhren zu zerstören.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "geschichte": {
+      "lat": 53.049467,
+      "lon": 12.672062,
+      "titel": "Geschichte(n)",
+      "thema": "Vom Bombodrom zum Naturerbe",
+      "kurztext": "Nach dem Zweiten Weltkrieg wurde hier der Truppenübungsplatz Wittstock eingerichtet – das „Bombodrom“. Die Bürgerinitiative Freie Heide verhinderte die Weiternutzung als Bombenabwurfplatz. Heute ist die Fläche Nationales Naturerbe: Wege wurden entmunitioniert, Infotafeln und Rastplätze laden zum Entdecken ein – unter klaren Regeln zum Schutz von Mensch und Natur.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "heinz-sielmann-stiftung": {
+      "lat": 53.047785,
+      "lon": 12.664852,
+      "titel": "Heinz Sielmann Stiftung",
+      "thema": "Naturschutz zum Anfassen",
+      "kurztext": "Die Heinz Sielmann Stiftung betreut hier rund 4.000 Hektar Nationale-Naturerbe-Fläche. Mit Landschaftspflege, Forschung und sanftem Tourismus soll die Heide als Lebensraum für seltene Arten erhalten bleiben. Die Station stellt die Stiftung und ihre Arbeit vor – und warum Besucher auf den freigegebenen Wegen bleiben müssen.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "spezialisten-im-wuestensand": {
+      "lat": 53.046433,
+      "lon": 12.641387,
+      "titel": "Spezialisten im Wüstensand",
+      "thema": "Leben bei Hitze und Trockenheit",
+      "kurztext": "Offener Sand heizt sich stark auf und speichert kaum Wasser – trotzdem leben hier spezialisierte Insekten, Spinnen und Pflanzen. Die Tafel zeigt Anpassungen an Trockenheit und Hitze und warum solche „Wüsteninseln“ in Brandenburg selten und schützenswert sind. In der Nähe liegt die Neuntöter-Hütte als Rastpunkt.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "heidekraut": {
+      "lat": 53.047659,
+      "lon": 12.635818,
+      "titel": "Heidekraut",
+      "thema": "Lila Blütenmeer im Spätsommer",
+      "kurztext": "Die Besenheide (Calluna) prägt von August bis September das Bild der Landschaft: ein lilafarbenes Blütenmeer, umsummt von Wildbienen. Die Tafel erklärt, warum die Heide nährstoffarme Böden braucht – und warum Ginster zwar hübsch blüht, die Heide aber verdrängen kann, wenn er den Boden anreichert.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "heide-als-kulturlandschaft": {
+      "lat": 53.053244,
+      "lon": 12.609152,
+      "titel": "Heide als Kulturlandschaft",
+      "thema": "Vom Wald zur Heide und zurück?",
+      "kurztext": "Die Heide ist kein Urzustand: Abholzung, Brände und militärische Nutzung haben offene Flächen geschaffen. Heute braucht sie Pflege, damit sie nicht wieder zum Wald wird. Die Station erzählt, wie Kulturlandschaft und Naturschutz hier zusammenkommen – und was „Hasengeil-gestellt“ und ähnliche Themen am Weg über Nutzung und Artenvielfalt sagen.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "vogelwelt": {
+      "lat": 53.051735,
+      "lon": 12.602491,
+      "titel": "Vogelwelt",
+      "thema": "Heidelerche, Wiedehopf und Co.",
+      "kurztext": "Offene Heide und lichte Kiefernwälder bieten Lebensraum für Heidelerche, Wiedehopf, Ziegenmelker, Neuntöter und Steinschmätzer. Mit Geduld und Fernglas lohnt sich das Beobachten – besonders morgens und abends. Die Tafel stellt typische Arten vor und erinnert daran, Bodenbrüter nicht zu stören und Hunde angeleint zu lassen.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "aussicht-heideturm": {
+      "lat": 53.048743,
+      "lon": 12.66736,
+      "titel": "Aussicht Heideturm",
+      "thema": "Blick über die Calluna-Heide",
+      "kurztext": "Vom Aussichtsturm auf dem Heinz-Sielmann-Hügel schweift der Blick über eine der größten zusammenhängenden Calluna-Heiden Europas. 75 Stufen führen zur Plattform – unterwegs erzählen Tafeln von der Landschaftsgeschichte. Im Spätsommer färbt sich die Fläche lila; mit Glück siehst du Seeadler, Wiedehopf oder weidende Koniks.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  }
+}

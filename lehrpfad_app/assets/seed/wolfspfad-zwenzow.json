@@ -1,0 +1,396 @@
+{
+ "id": "wolfspfad-zwenzow",
+ "name": "Wolfspfad Zwenzow",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Zwei Kilometer Waldpfad bei Zwenzow – Wolfswissen zum Mitmachen, historische Fanggrube und eine Märchenhütte. Frei, ohne Ticket.",
+ "beschreibung": "Südlich von Zwenzow, an der Straße nach Wesenberg, liegt der Wolfspfad des Müritz-Nationalparks. Auf rund zwei Kilometern erzählen die fiktiven Junior Ranger Lotta und Lars, seit wann Wölfe wieder hier leben, wo sie jagen und wie man sich ihnen gegenüber verhält. Stationen verlangen Köpfchen und Körpereinsatz: Wolfsquiz, Sprache der Wölfe, Spurenlesen. Die historische Wolfsfanggrube (1710, nach einem Schafsriss bei Userin) ist als Modell und Relikt präsent. In der Märchenhütte werden Mythen vom Wolf aufgegriffen. Ein Glöckchenspiel sitzt am Pfad. Der Outdoor-Besuch ist frei – ohne Ticket, ohne Anmeldung. Führungen sind optional und nicht Scope. Hunde im Nationalpark an der Leine. Der 5 km-Windwurf-Rundweg (Sturm Ela 2014) tangiert den Pfad, ist aber ein eigener Weg.",
+ "laengeKm": 2.0,
+ "dauerMin": 50,
+ "rundkurs": true,
+ "markierung": "Wolfspfad / lokale NP-Wegweisung",
+ "betreiber": "Nationalparkamt Müritz",
+ "region": "Zwenzow / Userin, Mecklenburgische Seenplatte, NP Müritz",
+ "website": "https://www.mueritz-nationalpark.de/erleben-erholen/aktiv-in-der-natur/erlebnispfade/wolfspfad-zwenzow",
+ "anreise": "Auto: Parkplatz am Wolfsfang, Straße Zwenzow–Wesenberg, ca. 2 km südlich Zwenzow (nicht den oft vollen Parkplatz am Familotel Rookhus südlich des Pfades nutzen). ÖPNV dünn; Fahrrad von Wesenberg/Userin.",
+ "startName": "Parkplatz am Wolfsfang",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Rote Waldameise",
+  "Igel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.309213,
+   12.937496
+  ],
+  [
+   53.309245,
+   12.937078
+  ],
+  [
+   53.309335,
+   12.936216
+  ],
+  [
+   53.309391,
+   12.936115
+  ],
+  [
+   53.30919,
+   12.935834
+  ],
+  [
+   53.30922,
+   12.935707
+  ],
+  [
+   53.309376,
+   12.935484
+  ],
+  [
+   53.30955,
+   12.935815
+  ],
+  [
+   53.309721,
+   12.93545
+  ],
+  [
+   53.309987,
+   12.934139
+  ],
+  [
+   53.30957,
+   12.933763
+  ],
+  [
+   53.309044,
+   12.93329
+  ],
+  [
+   53.307631,
+   12.93295
+  ],
+  [
+   53.306407,
+   12.932836
+  ],
+  [
+   53.305422,
+   12.932717
+  ],
+  [
+   53.304516,
+   12.932619
+  ],
+  [
+   53.3043,
+   12.932609
+  ],
+  [
+   53.304019,
+   12.93264
+  ],
+  [
+   53.303283,
+   12.93281
+  ],
+  [
+   53.30245,
+   12.933102
+  ],
+  [
+   53.3023,
+   12.933034
+  ],
+  [
+   53.30225,
+   12.933094
+  ],
+  [
+   53.302279,
+   12.93322
+  ],
+  [
+   53.302661,
+   12.933553
+  ],
+  [
+   53.302914,
+   12.933668
+  ],
+  [
+   53.303255,
+   12.933834
+  ],
+  [
+   53.303615,
+   12.934167
+  ],
+  [
+   53.303933,
+   12.934205
+  ],
+  [
+   53.3042,
+   12.934403
+  ],
+  [
+   53.304358,
+   12.934457
+  ],
+  [
+   53.304525,
+   12.934553
+  ],
+  [
+   53.304704,
+   12.934744
+  ],
+  [
+   53.305297,
+   12.934948
+  ],
+  [
+   53.305538,
+   12.935184
+  ],
+  [
+   53.305632,
+   12.935337
+  ],
+  [
+   53.305815,
+   12.935468
+  ],
+  [
+   53.306054,
+   12.935581
+  ],
+  [
+   53.306448,
+   12.935728
+  ],
+  [
+   53.306653,
+   12.935902
+  ],
+  [
+   53.306818,
+   12.935975
+  ],
+  [
+   53.30729,
+   12.936267
+  ],
+  [
+   53.30775,
+   12.936509
+  ],
+  [
+   53.308117,
+   12.936796
+  ],
+  [
+   53.308854,
+   12.937404
+  ],
+  [
+   53.309198,
+   12.937657
+  ],
+  [
+   53.309213,
+   12.937496
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -3918323001,
+   "lat": 53.3092791,
+   "lon": 12.9373789,
+   "km": 0.0,
+   "titel": "Willkommen am Wolfspfad",
+   "thema": "Start am Parkplatz Wolfsfang",
+   "kurztext": "Hier beginnt der freie Rundweg. Zwei Kilometer Wald, Stationen von Lotta und Lars – ohne Ticket. Parke am nördlichen Wolfsfang-Platz, nicht am Familotel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -537460519,
+   "lat": 53.3093819,
+   "lon": 12.9354615,
+   "km": 0.16,
+   "titel": "Die Wolfsfanggrube",
+   "thema": "Historische Falle von 1710",
+   "kurztext": "1710 rissen Wölfe bei Userin Schafe. Die Leute bauten eine Fanggrube. Reste und ein Modell stehen hier. Schau in die Grube – und denk nach, warum der Wolf damals Feind war.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -12724907,
+   "lat": 53.3093979,
+   "lon": 12.9334684,
+   "km": 0.36,
+   "titel": "Märchenhütte",
+   "thema": "Geschichten vom Wolf",
+   "kurztext": "In der Hütte werden Mythen vom bösen Wolf aufgegriffen. Setz dich, lies, widersprich. Draußen wartet der echte Wald, in dem heute wieder Wölfe leben.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3480950587,
+   "lat": 53.309292,
+   "lon": 12.9334639,
+   "km": 0.43,
+   "titel": "Unser Verhältnis zum Wolf",
+   "thema": "Mythen und Angst",
+   "kurztext": "Angst, Märchen, Bewunderung. Diese Tafel stellt die Beziehung Mensch–Wolf gerade. Was weißt du wirklich – und was ist Geschichte?",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3970537072,
+   "lat": 53.3083818,
+   "lon": 12.9330806,
+   "km": 0.43,
+   "titel": "Wolfsspuren",
+   "thema": "Spuren lesen",
+   "kurztext": "Trittsiegel, Losung, Riss – so wird der Wolf sichtbar, ohne dass du ihn siehst. Vergleich die Größe. Bleib auf dem Weg.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -32192729,
+   "lat": 53.3078403,
+   "lon": 12.9329462,
+   "km": 0.59,
+   "titel": "Wölfe in Mecklenburg-Vorpommern",
+   "thema": "Rückkehr der Art",
+   "kurztext": "Rudel gibt es wieder in Mecklenburg-Vorpommern, auch im Nationalpark. Die Tafel sagt, seit wann und wo. Abstand halten ist die Regel, nicht die Ausnahme.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -2383087066,
+   "lat": 53.3076564,
+   "lon": 12.9330068,
+   "km": 0.59,
+   "titel": "Auf Wolfspirsch",
+   "thema": "Verhalten verstehen",
+   "kurztext": "Köpfchen und Körpereinsatz: Wie pirscht ein Wolf? Station zum Nachmachen, nicht zum Nachjagen.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -189472709,
+   "lat": 53.3076409,
+   "lon": 12.9331045,
+   "km": 0.59,
+   "titel": "Glöckchenspiel",
+   "thema": "Mitmachen",
+   "kurztext": "Kleines Spielgerät am Pfad. Klang im Wald – und Pause für kürzere Beine.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -3877391155,
+   "lat": 53.3046502,
+   "lon": 12.9326769,
+   "km": 0.93,
+   "titel": "Wie verständigen sich Wölfe?",
+   "thema": "Körpersprache / Laut",
+   "kurztext": "Heulen, Mimik, Rute. Wölfe sprechen, ohne Wörter. Probier die Haltung, die die Tafel zeigt.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -3642205306,
+   "lat": 53.3037528,
+   "lon": 12.932747,
+   "km": 0.99,
+   "titel": "Wolfswissen",
+   "thema": "Quiz / Abschluss Südschleife",
+   "kurztext": "Südlicher Wendepunkt. Quiz und Fakten, bevor es zurück zum Parkplatz geht.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 7861619955,
+   "lat": 53.3076409,
+   "lon": 12.9331045,
+   "kategorie": "playground",
+   "name": "Glöckchenspiel"
+  },
+  {
+   "osmId": 7861640472,
+   "lat": 53.309104,
+   "lon": 12.9373113,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 11482280654,
+   "lat": 53.3093091,
+   "lon": 12.9336596,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

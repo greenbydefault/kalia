@@ -1,0 +1,75 @@
+{
+ "id": "lehde",
+ "name": "Naturlehrpfad Rund um Lehde",
+ "typ": "spreewald",
+ "kurzbeschreibung": "Rundweg vom Großen Spreewaldhafen in Lübbenau ins Spreewalddorf Lehde – das „Grüne Venedig“ mit Fließen, Kähnen, Freilandmuseum und Gurkenmuseum.",
+ "beschreibung": "„Man kann nichts Lieblicheres sehen als dieses Lehde“: Schon Theodor Fontane rühmte das Spreewalddorf, das aus so vielen Inseln besteht, wie es Häuser hat. Der Rundweg führt vom Großen Spreewaldhafen in Lübbenau durch die Fließlandschaft des UNESCO-Biosphärenreservats Spreewald nach Lehde, dessen Dorfanlage komplett unter Denkmalschutz steht. Unterwegs laden das Haus für Mensch und Natur, das Freilandmuseum und das Gurkenmuseum zu Stationen ein; an den Kahnhäfen starten die traditionellen Kahnfahrten. In Lehde und Lübbenau gibt es zahlreiche Einkehrmöglichkeiten.",
+ "markierung": "Grüner Schrägstrich auf weißem Grund",
+ "betreiber": "Stadt Lübbenau/Spreewald",
+ "region": "Lehde, Stadt Lübbenau/Spreewald, Landkreis Oberspreewald-Lausitz, Brandenburg",
+ "website": "https://www.spreewald.de",
+ "anreise": "RE 2 ab Berlin Hbf nach Lübbenau/Spreewald, von dort ca. 10 Minuten zu Fuß zum Großen Spreewaldhafen (Dammstraße 77a, 03222 Lübbenau/Spreewald). Auto: A 13 bis Abfahrt Lübbenau, weiter der Ausschilderung zum Großen Spreewaldhafen (Parkplätze).",
+ "startName": "Großer Spreewaldhafen, Lübbenau",
+ "arten": ["Eisvogel", "Biber", "Kranich", "Fischotter", "Rotbauchunke", "Schwarzerle", "Sumpfdotterblume"],
+ "tags": ["kinderfreundlich", "einkehr"],
+ "rundkurs": true,
+ "richtung": [4882164121, 8978006356],
+ "stationen": {
+  "4882164121": {
+   "titel": "Großer Spreewaldhafen",
+   "thema": "Start am Kahnhafen",
+   "kurztext": "Am Großen Spreewaldhafen, dem bekanntesten Kahnhafen des Spreewalds, beginnt die Runde. Von hier stechen die Kahnfährleute ihre Gäste in die Fließlandschaft – und wir starten zu Fuß in Richtung Lehde.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "8978006356": {
+   "titel": "Haus für Mensch und Natur",
+   "thema": "Das Biosphärenreservat verstehen",
+   "kurztext": "Das Haus für Mensch und Natur ist die Umweltbildungsstätte des Biosphärenreservats Spreewald. Hier erfahren wir, wie die einzigartige Kulturlandschaft aus Fließen, Wiesen und Wäldern entstanden ist und warum sie seit 1991 von der UNESCO als Biosphärenreservat geschützt wird.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "1396123638": {
+   "titel": "Sehenswertes um Lehde",
+   "thema": "Überblick über das Spreewalddorf",
+   "kurztext": "Die Wanderkarte zeigt Lehde und seine Umgebung: das „Grüne Venedig“ besteht aus so vielen Inseln, wie es Häuser hat – die Fließe zwischen den Gehöften übernehmen weitgehend die Funktion von Straßen. Die gesamte Dorfanlage steht unter Denkmalschutz.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "5679599845": {
+   "titel": "Biosphärenreservat Spreewald",
+   "thema": "Lebensraum Fließlandschaft",
+   "kurztext": "Die Tafel des Biosphärenreservats erklärt die Landschaft, durch die wir gehen: die weit verzweigten Fließe, die traditionellen Wasserschlagwiesen, die regelmäßig überflutet werden, und die Reste eiszeitlicher Moore, die enorme Mengen Kohlenstoff speichern.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "1396044942": {
+   "titel": "Kahnfährmannsverein der Spreewaldfreunde",
+   "thema": "Kahnfahrten durch den Spreewald",
+   "kurztext": "Der Spreewaldkahn ist das traditionelle Fortbewegungsmittel zwischen den Fließen – früher wurden damit Heu, Gurken und sogar die Post transportiert. Der Kahnfährmannsverein hält die Kahnfahrt-Tradition in Lehde lebendig; von den Anlegestellen starten die Rundfahrten.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "5921188527": {
+   "titel": "Freilandmuseum Lehde",
+   "thema": "Leben im Spreewald um 1900",
+   "kurztext": "Das Freilandmuseum Lehde zeigt mit seinen historischen Gehöften, wie die sorbisch/wendischen und deutschen Spreewaldbewohner früher lebten und arbeiteten. Die Tafel beschreibt die einzelnen Stationen des Museums – ein lohnender Abstecher direkt am Weg.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "748503040": {
+   "titel": "Gurkenmuseum",
+   "thema": "Die Spreewaldgurke",
+   "kurztext": "Im Gurkenmuseum dreht sich alles um die berühmteste Frucht der Region: Vom Anbau auf den Feldern zwischen den Fließen über die Ernte mit dem Kahn bis zur Einlage in den Fässern. Die Spreewaldgurke ist heute eine geschützte Herkunftsbezeichnung.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  }
+ }
+}

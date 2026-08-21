@@ -1,0 +1,79 @@
+{
+  "trailId": "alt-daber",
+  "status": "awaiting_field",
+  "goKriterium": "Route (GPX) + mindestens 3 Stationen mit GPS, Titel, Thema, Kurztext",
+  "kontaktStadtforst": {
+    "name": "Guido Bischoff",
+    "email": "g.bischoff@stadt-wittstock.de",
+    "tel": "03394/400974",
+    "adresse": "Alt Daber 11, 16909 Wittstock/Dosse"
+  },
+  "ankerpunkteOsm": [
+    {
+      "osmId": 1040193196,
+      "osmType": "way",
+      "name": "Daberturm",
+      "lat": 53.205673,
+      "lon": 12.501652,
+      "rolle": "Amenity viewpoint / Startnähe – nicht als Indoor-Stationsersatz"
+    },
+    {
+      "osmId": 5110682925,
+      "osmType": "node",
+      "name": "Findlingsgarten",
+      "lat": 53.205918,
+      "lon": 12.501923,
+      "rolle": "Mögliche Station oder Amenity"
+    },
+    {
+      "osmId": 1511590549,
+      "osmType": "node",
+      "name": "Parkplatz",
+      "lat": 53.205229,
+      "lon": 12.493183,
+      "rolle": "Amenity parking"
+    },
+    {
+      "osmId": 11572672956,
+      "osmType": "node",
+      "name": "Stellplatz am Daberturm",
+      "lat": 53.206412,
+      "lon": 12.502007,
+      "rolle": "Amenity / Orientierung"
+    },
+    {
+      "osmId": 493978024,
+      "osmType": "way",
+      "name": "Modell-Park Alt Daber",
+      "lat": 53.206583,
+      "lon": 12.503009,
+      "rolle": "Hinweis, kein Lehrpfad-Kern"
+    }
+  ],
+  "bekannteErlebnisstation": {
+    "titel": "Fuchsbau",
+    "quelle": "Stadtforst-Website Naturlehrpfad-Foto",
+    "erlebnisseVorschlag": ["mitmach-modell"],
+    "lat": null,
+    "lon": null,
+    "notiz": "Vor Ort GPS + Kurztext; Verwechslung mit Waldschule Karnzow ausschließen"
+  },
+  "checkliste": [
+    "GPX der Lehrpfad-Route (nicht Nordic 3/8/12)",
+    "Markierung notieren",
+    "Rundkurs ja/nein",
+    "Startpunkt Name + GPS",
+    "Pro Station: Foto Tafel/Installation, GPS, Titel, Thema, Kurztext, Erlebnisse",
+    "Fuchsbau verifizieren",
+    "Amenities am Weg (Bank, WC, …)"
+  ],
+  "stationenCapture": [],
+  "routeGpxPfad": null,
+  "nachCapture": [
+    "GPX → tools/osm/alt-daber_route.json als [[lat, lon], …]",
+    "Stationen in tools/trails/alt-daber.json unter stationen eintragen (osmId oder lat/lon)",
+    "python3 tools/build_seed.py tools/trails/alt-daber.json",
+    "python3 tools/validate_seeds.py",
+    "assets/seed/alt-daber.json in SeedTrailRepository._seedPaths eintragen"
+  ]
+}

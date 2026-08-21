@@ -1,0 +1,675 @@
+{
+ "id": "heide-erlebnisweg",
+ "name": "Heide-Erlebnisweg",
+ "typ": "wald",
+ "kurzbeschreibung": "Themenweg durch Sielmanns Naturlandschaft Kyritz-Ruppiner Heide – elf Stationen zu Heidekraut, Vögeln, Spinnen und der Geschichte des ehemaligen Truppenübungsplatzes.",
+ "beschreibung": "Auf dem Heide-Erlebnisweg erkundest du die südliche Spitze einer der größten zusammenhängenden Heideflächen Europas. Elf Themenstationen mit Schautafeln liegen entlang der freigegebenen Sandwege zwischen Neuglienicke, Pfalzheim und Rossow – ohne feste Reihenfolge, die App sortiert sie entlang der gewählten Laufrichtung. Höhepunkt ist der Aussichtsturm auf dem Heinz-Sielmann-Hügel. Die Wege sind naturbelassen; mit Kinderwagen oder Rollstuhl sind sie streckenweise schwer befahrbar. Wichtig: Dies ist ehemaliges Militärgelände. Nur die mit rot umrandeten Pollern markierten, freigegebenen Wege betreten – abseits der Wege besteht Kampfmittelrisiko. Hunde bitte anleinen. Verpflegung und Schatten mitnehmen, Handyempfang ist lückenhaft.",
+ "laengeKm": 11.4,
+ "dauerMin": 210,
+ "rundkurs": false,
+ "markierung": "Lila Pfeil / rot umrandete Poller an freigegebenen Wegen",
+ "betreiber": "Heinz Sielmann Stiftung / Bundesforst",
+ "region": "Pfalzheim, Rossow und Neuglienicke, Ostprignitz-Ruppin, Brandenburg",
+ "website": "https://www.sielmann-stiftung.de/natur-erleben/kyritz-ruppiner-heide",
+ "anreise": "Auto: A 24 Abfahrt Herzsprung, weiter nach Pfalzheim (Parkplatz Zur Ruppiner Heide 1), Rossow oder Neuglienicke. Bahn: RE 6 bis Netzeband, dann Wanderweg mit Markierung „grüner Balken“ nach Pfalzheim. Vom Eingang Pfalzheim sind es ca. 1 km zum Aussichtsturm, von Rossow ca. 4,5 km, von Neuglienicke ca. 3,5 km.",
+ "startName": "Eingang Neuglienicke (auch Pfalzheim / Rossow)",
+ "arten": [
+  "Besenheide",
+  "Wiedehopf",
+  "Heidelerche",
+  "Ziegenmelker",
+  "Rote Röhrenspinne",
+  "Heidekraut-Seidenbiene",
+  "Braunkehlchen",
+  "Neuntöter",
+  "Steinschmätzer",
+  "Kiefer",
+  "Konik"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "route": [
+  [
+   53.059516,
+   12.731499
+  ],
+  [
+   53.05958,
+   12.731306
+  ],
+  [
+   53.059633,
+   12.731022
+  ],
+  [
+   53.059669,
+   12.730731
+  ],
+  [
+   53.059703,
+   12.730409
+  ],
+  [
+   53.059852,
+   12.728948
+  ],
+  [
+   53.060017,
+   12.727583
+  ],
+  [
+   53.06009,
+   12.727167
+  ],
+  [
+   53.060233,
+   12.726706
+  ],
+  [
+   53.060425,
+   12.726202
+  ],
+  [
+   53.060708,
+   12.725713
+  ],
+  [
+   53.061788,
+   12.724069
+  ],
+  [
+   53.060654,
+   12.718626
+  ],
+  [
+   53.060604,
+   12.718381
+  ],
+  [
+   53.060586,
+   12.71825
+  ],
+  [
+   53.059395,
+   12.7133
+  ],
+  [
+   53.058368,
+   12.709124
+  ],
+  [
+   53.058298,
+   12.708825
+  ],
+  [
+   53.057907,
+   12.707167
+  ],
+  [
+   53.057288,
+   12.704442
+  ],
+  [
+   53.057121,
+   12.704056
+  ],
+  [
+   53.056351,
+   12.701181
+  ],
+  [
+   53.05596,
+   12.699829
+  ],
+  [
+   53.05547,
+   12.697662
+  ],
+  [
+   53.05516,
+   12.696503
+  ],
+  [
+   53.05488,
+   12.695374
+  ],
+  [
+   53.053757,
+   12.690853
+  ],
+  [
+   53.05246,
+   12.685632
+  ],
+  [
+   53.05129,
+   12.680192
+  ],
+  [
+   53.051074,
+   12.679302
+  ],
+  [
+   53.05006,
+   12.67474
+  ],
+  [
+   53.049467,
+   12.672062
+  ],
+  [
+   53.048918,
+   12.669584
+  ],
+  [
+   53.048525,
+   12.667981
+  ],
+  [
+   53.048386,
+   12.667395
+  ],
+  [
+   53.048113,
+   12.666115
+  ],
+  [
+   53.047785,
+   12.664852
+  ],
+  [
+   53.046411,
+   12.6588
+  ],
+  [
+   53.046282,
+   12.657727
+  ],
+  [
+   53.046095,
+   12.657103
+  ],
+  [
+   53.046076,
+   12.65704
+  ],
+  [
+   53.045198,
+   12.651847
+  ],
+  [
+   53.044668,
+   12.650203
+  ],
+  [
+   53.044375,
+   12.649296
+  ],
+  [
+   53.046433,
+   12.641387
+  ],
+  [
+   53.046723,
+   12.640185
+  ],
+  [
+   53.046893,
+   12.639395
+  ],
+  [
+   53.047156,
+   12.638168
+  ],
+  [
+   53.04722,
+   12.637557
+  ],
+  [
+   53.047259,
+   12.637235
+  ],
+  [
+   53.047659,
+   12.635818
+  ],
+  [
+   53.048813,
+   12.631119
+  ],
+  [
+   53.048968,
+   12.630443
+  ],
+  [
+   53.050029,
+   12.626489
+  ],
+  [
+   53.050342,
+   12.625476
+  ],
+  [
+   53.05055,
+   12.624747
+  ],
+  [
+   53.050642,
+   12.624424
+  ],
+  [
+   53.05078,
+   12.623864
+  ],
+  [
+   53.051045,
+   12.622794
+  ],
+  [
+   53.051257,
+   12.622
+  ],
+  [
+   53.051596,
+   12.620347
+  ],
+  [
+   53.051961,
+   12.618196
+  ],
+  [
+   53.052396,
+   12.615627
+  ],
+  [
+   53.052552,
+   12.614242
+  ],
+  [
+   53.052616,
+   12.613223
+  ],
+  [
+   53.052755,
+   12.611785
+  ],
+  [
+   53.053244,
+   12.609152
+  ],
+  [
+   53.053302,
+   12.60883
+  ],
+  [
+   53.053379,
+   12.608503
+  ],
+  [
+   53.05346,
+   12.608218
+  ],
+  [
+   53.053563,
+   12.607924
+  ],
+  [
+   53.052866,
+   12.60596
+  ],
+  [
+   53.052702,
+   12.605456
+  ],
+  [
+   53.051851,
+   12.603069
+  ],
+  [
+   53.051794,
+   12.602785
+  ],
+  [
+   53.051735,
+   12.602491
+  ],
+  [
+   53.051542,
+   12.601858
+  ],
+  [
+   53.051297,
+   12.601354
+  ],
+  [
+   53.051148,
+   12.600839
+  ],
+  [
+   53.051097,
+   12.600442
+  ],
+  [
+   53.050755,
+   12.597352
+  ],
+  [
+   53.050536,
+   12.596108
+  ],
+  [
+   53.050271,
+   12.595228
+  ],
+  [
+   53.049886,
+   12.593764
+  ],
+  [
+   53.049097,
+   12.591688
+  ],
+  [
+   53.048339,
+   12.589574
+  ],
+  [
+   53.047085,
+   12.58618
+  ],
+  [
+   53.04688,
+   12.585453
+  ],
+  [
+   53.046865,
+   12.585179
+  ],
+  [
+   53.04698,
+   12.581921
+  ],
+  [
+   53.047031,
+   12.579704
+  ],
+  [
+   53.047022,
+   12.579385
+  ],
+  [
+   53.047029,
+   12.579041
+  ],
+  [
+   53.047129,
+   12.576566
+  ],
+  [
+   53.047132,
+   12.575876
+  ],
+  [
+   53.047079,
+   12.575162
+  ],
+  [
+   53.047043,
+   12.574734
+  ],
+  [
+   53.04701,
+   12.574181
+  ],
+  [
+   53.046998,
+   12.573924
+  ],
+  [
+   53.046968,
+   12.573709
+  ],
+  [
+   53.046928,
+   12.573621
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -3868711587,
+   "lat": 53.059633,
+   "lon": 12.731022,
+   "km": 0.03,
+   "titel": "Stille und Sterne",
+   "thema": "Dunkler Himmel über der Heide",
+   "kurztext": "Die Kyritz-Ruppiner Heide gehört zu den dunkelsten Orten Deutschlands: Im Umkreis von mehreren Kilometern liegen kaum Siedlungen. Nachts kannst du hier Sternbilder und im August die Perseiden besonders klar sehen. Tagsüber spürst du dieselbe Weite als Stille – wenig Verkehrslärm, viel Raum für Heide, Wind und Vogelstimmen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3436975237,
+   "lat": 53.057907,
+   "lon": 12.707167,
+   "km": 1.79,
+   "titel": "Moose und Flechten",
+   "thema": "Pioniere auf Sand und Holz",
+   "kurztext": "Auf offenem Sand, an Kiefernstämmen und Totholz wachsen Moose und Flechten, die mit Nährstoffarmut und Trockenheit zurechtkommen. Die Tafel zeigt, wie diese unscheinbaren Organismen den Boden festhalten, Feuchte speichern und anderen Arten den Weg bereiten – echte Pioniere der Heidelandschaft.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3065765237,
+   "lat": 53.05246,
+   "lon": 12.685632,
+   "km": 3.35,
+   "titel": "Pflanzenfresser",
+   "thema": "Wer die Heide offen hält",
+   "kurztext": "Ohne Verbiss und Pflege würde die Heide zuwachsen. Konik-Pferde und andere Pflanzenfresser halten Flächen offen, fressen Jungwuchs und schaffen so Lebensraum für Heidekraut, Wildbienen und Bodenbrüter. Die Station erklärt, warum Landschaftspflege hier Naturschutz ist – und warum du die Tiere nur aus der Distanz beobachten solltest.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -941559575,
+   "lat": 53.05006,
+   "lon": 12.67474,
+   "km": 4.13,
+   "titel": "Rote Röhrenspinne",
+   "thema": "Die Nachhaltigkeitskünstlerin im Sand",
+   "kurztext": "Die Rote Röhrenspinne baut Wohnröhren im sandigen Boden der Heide. Wenn der Nachwuchs fast ausgewachsen ist, verwandelt sich das Weibchen selbst in Nahrung – ein extremes, aber wirkungsvolles Fürsorge-Modell. Die Tafel lädt ein, den Boden vorsichtig zu beobachten, ohne Röhren zu zerstören.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1441534080,
+   "lat": 53.049467,
+   "lon": 12.672062,
+   "km": 4.32,
+   "titel": "Geschichte(n)",
+   "thema": "Vom Bombodrom zum Naturerbe",
+   "kurztext": "Nach dem Zweiten Weltkrieg wurde hier der Truppenübungsplatz Wittstock eingerichtet – das „Bombodrom“. Die Bürgerinitiative Freie Heide verhinderte die Weiternutzung als Bombenabwurfplatz. Heute ist die Fläche Nationales Naturerbe: Wege wurden entmunitioniert, Infotafeln und Rastplätze laden zum Entdecken ein – unter klaren Regeln zum Schutz von Mensch und Natur.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -1650385240,
+   "lat": 53.048743,
+   "lon": 12.66736,
+   "km": 4.65,
+   "titel": "Aussicht Heideturm",
+   "thema": "Blick über die Calluna-Heide",
+   "kurztext": "Vom Aussichtsturm auf dem Heinz-Sielmann-Hügel schweift der Blick über eine der größten zusammenhängenden Calluna-Heiden Europas. 75 Stufen führen zur Plattform – unterwegs erzählen Tafeln von der Landschaftsgeschichte. Im Spätsommer färbt sich die Fläche lila; mit Glück siehst du Seeadler, Wiedehopf oder weidende Koniks.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -2808959669,
+   "lat": 53.047785,
+   "lon": 12.664852,
+   "km": 4.84,
+   "titel": "Heinz Sielmann Stiftung",
+   "thema": "Naturschutz zum Anfassen",
+   "kurztext": "Die Heinz Sielmann Stiftung betreut hier rund 4.000 Hektar Nationale-Naturerbe-Fläche. Mit Landschaftspflege, Forschung und sanftem Tourismus soll die Heide als Lebensraum für seltene Arten erhalten bleiben. Die Station stellt die Stiftung und ihre Arbeit vor – und warum Besucher auf den freigegebenen Wegen bleiben müssen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -3076754588,
+   "lat": 53.046433,
+   "lon": 12.641387,
+   "km": 6.52,
+   "titel": "Spezialisten im Wüstensand",
+   "thema": "Leben bei Hitze und Trockenheit",
+   "kurztext": "Offener Sand heizt sich stark auf und speichert kaum Wasser – trotzdem leben hier spezialisierte Insekten, Spinnen und Pflanzen. Die Tafel zeigt Anpassungen an Trockenheit und Hitze und warum solche „Wüsteninseln“ in Brandenburg selten und schützenswert sind. In der Nähe liegt die Neuntöter-Hütte als Rastpunkt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -1022019465,
+   "lat": 53.047659,
+   "lon": 12.635818,
+   "km": 6.92,
+   "titel": "Heidekraut",
+   "thema": "Lila Blütenmeer im Spätsommer",
+   "kurztext": "Die Besenheide (Calluna) prägt von August bis September das Bild der Landschaft: ein lilafarbenes Blütenmeer, umsummt von Wildbienen. Die Tafel erklärt, warum die Heide nährstoffarme Böden braucht – und warum Ginster zwar hübsch blüht, die Heide aber verdrängen kann, wenn er den Boden anreichert.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -759768280,
+   "lat": 53.053244,
+   "lon": 12.609152,
+   "km": 8.82,
+   "titel": "Heide als Kulturlandschaft",
+   "thema": "Vom Wald zur Heide und zurück?",
+   "kurztext": "Die Heide ist kein Urzustand: Abholzung, Brände und militärische Nutzung haben offene Flächen geschaffen. Heute braucht sie Pflege, damit sie nicht wieder zum Wald wird. Die Station erzählt, wie Kulturlandschaft und Naturschutz hier zusammenkommen – und was „Hasengeil-gestellt“ und ähnliche Themen am Weg über Nutzung und Artenvielfalt sagen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -3008502993,
+   "lat": 53.051735,
+   "lon": 12.602491,
+   "km": 9.32,
+   "titel": "Vogelwelt",
+   "thema": "Heidelerche, Wiedehopf und Co.",
+   "kurztext": "Offene Heide und lichte Kiefernwälder bieten Lebensraum für Heidelerche, Wiedehopf, Ziegenmelker, Neuntöter und Steinschmätzer. Mit Geduld und Fernglas lohnt sich das Beobachten – besonders morgens und abends. Die Tafel stellt typische Arten vor und erinnert daran, Bodenbrüter nicht zu stören und Hunde angeleint zu lassen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3004806058,
+   "lat": 53.0487426,
+   "lon": 12.6673598,
+   "kategorie": "viewpoint",
+   "name": "Heinz-Sielmann-Hügel"
+  },
+  {
+   "osmId": 4031289265,
+   "lat": 53.0510481,
+   "lon": 12.674378,
+   "kategorie": "picnic",
+   "name": "Heidelerche-Hütte"
+  },
+  {
+   "osmId": 5760510128,
+   "lat": 53.0461808,
+   "lon": 12.6420053,
+   "kategorie": "shelter",
+   "name": "Neuntöter-Hütte"
+  },
+  {
+   "osmId": 6427501733,
+   "lat": 53.0486125,
+   "lon": 12.6672753,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 6427501734,
+   "lat": 53.0487806,
+   "lon": 12.6672001,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 8713125144,
+   "lat": 53.0530083,
+   "lon": 12.6096134,
+   "kategorie": "picnic",
+   "name": "Ziegenmelkerhütte"
+  },
+  {
+   "osmId": 8729904417,
+   "lat": 53.0577835,
+   "lon": 12.7068946,
+   "kategorie": "picnic",
+   "name": "Steinschmätzerhütte"
+  },
+  {
+   "osmId": 8732037938,
+   "lat": 53.0485919,
+   "lon": 12.6671304,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 9915083923,
+   "lat": 53.0600193,
+   "lon": 12.7312697,
+   "kategorie": "shelter",
+   "name": null
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+---
+description: >-
+  Lokalen Flutter-Dev-Server starten und testen. Greift bei „Server starten“,
+  „App testen“, „lokal starten“, „flutter run“, Hot Reload / Port / localhost.
+alwaysApply: true
+---
+
+# Dev-Server (Lehrpfad-App)
+
+Bei Anfragen zum Starten, Testen oder lokalen Ausführen der App: **[DEV-SERVER.md](DEV-SERVER.md)** befolgen.
+
+## Kurzfassung
+
+- Arbeitsverzeichnis: `lehrpfad_app/`
+- Standard: `flutter run -d web-server --web-port=8080` → `http://localhost:8080`
+- Chrome: `flutter run -d chrome`
+- Mit Live-Daten: `--dart-define=SUPABASE_URL=…` und `--dart-define=SUPABASE_PUBLISHABLE_KEY=…` (Keys nicht hardcoden; MCP `user-supabase-ako`)
+- Ohne Defines = Seed/Offline
+- Vor Start: prüfen ob Port/`flutter run` schon läuft
+- Hot Reload `r` / Hot Restart `R` / Quit `q` im Flutter-Terminal — Browser-`Cmd+R` reicht nicht

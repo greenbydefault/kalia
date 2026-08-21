@@ -1,0 +1,51 @@
+[
+ {
+  "type": "node",
+  "id": 2429041429,
+  "lat": 53.3332054,
+  "lon": 13.3729713,
+  "tags": {
+   "amenity": "shelter",
+   "building": "yes",
+   "description": "Rundes Gebäude im Stile einer Köhlerhütte mit Feuerstelle.",
+   "shelter_type": "weather_shelter",
+   "source": "local knowledge"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3514977296,
+  "lat": 53.3337259,
+  "lon": 13.3726569,
+  "tags": {
+   "amenity": "shelter",
+   "building": "yes",
+   "shelter_type": "weather_shelter",
+   "source": "local knowledge"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14040240706,
+  "lat": 53.3341755,
+  "lon": 13.3739572,
+  "tags": {
+   "amenity": "bench",
+   "material": "wood"
+  }
+ },
+ {
+  "type": "way",
+  "id": 234766592,
+  "lat": 53.33358091428571,
+  "lon": 13.372570357142857,
+  "tags": {
+   "access": "yes",
+   "amenity": "parking",
+   "fee": "no",
+   "hiking": "yes",
+   "name": "Wanderweg Heilige Hallen",
+   "parking": "surface"
+  }
+ }
+]

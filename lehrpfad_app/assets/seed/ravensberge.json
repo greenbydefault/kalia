@@ -1,0 +1,1235 @@
+{
+ "id": "ravensberge",
+ "name": "Naturlehrpfad Ravensberge",
+ "typ": "wald",
+ "kurzbeschreibung": "Naturlehrpfad durch den Erholungswald Ravensberge in Potsdam-Waldstadt – Tafeln zu eiszeitlichen Findlingen, Waldameisen, Wildbienen und dem Naturschutzgebiet Moosfenn.",
+ "beschreibung": "Der Naturlehrpfad führt durch den Erholungswald Ravensberge zwischen Waldstadt und Templiner See. An den Tafeln entlang des Weges geht es um die Findlinge des Findlingsparks, die das Eis einst aus Skandinavien hierher transportierte, um Reisighaufen und alte, abgestorbene Bäume als Lebensraum, um die Rote Waldameise sowie um Wildbienen und Hummeln. Ein Abstecher lohnt sich in das angrenzende Naturschutzgebiet Moosfenn mit seinen Feuchtflächen.",
+ "laengeKm": 9.6,
+ "dauerMin": 145,
+ "rundkurs": false,
+ "markierung": "Grüner Schrägstrich auf weißem Grund",
+ "betreiber": "Stadt Potsdam, Fachbereich Naturschutz",
+ "region": "Potsdam-Waldstadt, Brandenburg",
+ "website": "https://www.potsdam.de/de/content/ravensberge-und-forst-potsdam",
+ "anreise": "Ab Potsdam Hbf Tram 91/93 Richtung Rehbrücke bis Zum Kahleberg oder Bahnhof Rehbrücke. Einstieg an der Wanderkarte Erholungswald Ravensberge am Waldrand. Auto: Parken Zum Kahleberg / Zum Jagenstein, Potsdam-Waldstadt – nicht über Bornim / B 273.",
+ "startName": "Wanderkarte Erholungswald Ravensberge, Potsdam-Waldstadt",
+ "arten": [
+  "Rote Waldameise",
+  "Wildbiene",
+  "Hummel",
+  "Igel",
+  "Kiefer",
+  "Stieleiche"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "route": [
+  [
+   52.358503,
+   13.098108
+  ],
+  [
+   52.358545,
+   13.098062
+  ],
+  [
+   52.358584,
+   13.098019
+  ],
+  [
+   52.358778,
+   13.097731
+  ],
+  [
+   52.358807,
+   13.097546
+  ],
+  [
+   52.358854,
+   13.097432
+  ],
+  [
+   52.358999,
+   13.097288
+  ],
+  [
+   52.359049,
+   13.097278
+  ],
+  [
+   52.359133,
+   13.097271
+  ],
+  [
+   52.35928,
+   13.097213
+  ],
+  [
+   52.359403,
+   13.097198
+  ],
+  [
+   52.359803,
+   13.09613
+  ],
+  [
+   52.359781,
+   13.096057
+  ],
+  [
+   52.359671,
+   13.095724
+  ],
+  [
+   52.359443,
+   13.095088
+  ],
+  [
+   52.359367,
+   13.094897
+  ],
+  [
+   52.35927,
+   13.094712
+  ],
+  [
+   52.359216,
+   13.094609
+  ],
+  [
+   52.359188,
+   13.094555
+  ],
+  [
+   52.358795,
+   13.09372
+  ],
+  [
+   52.358358,
+   13.092564
+  ],
+  [
+   52.358322,
+   13.092469
+  ],
+  [
+   52.358266,
+   13.092359
+  ],
+  [
+   52.358,
+   13.091834
+  ],
+  [
+   52.357451,
+   13.090781
+  ],
+  [
+   52.357271,
+   13.09025
+  ],
+  [
+   52.357077,
+   13.089738
+  ],
+  [
+   52.356927,
+   13.089253
+  ],
+  [
+   52.356885,
+   13.089117
+  ],
+  [
+   52.356599,
+   13.088246
+  ],
+  [
+   52.35656,
+   13.088133
+  ],
+  [
+   52.356408,
+   13.087659
+  ],
+  [
+   52.356299,
+   13.086879
+  ],
+  [
+   52.356309,
+   13.08534
+  ],
+  [
+   52.356259,
+   13.084266
+  ],
+  [
+   52.356261,
+   13.083755
+  ],
+  [
+   52.356246,
+   13.082811
+  ],
+  [
+   52.356241,
+   13.08264
+  ],
+  [
+   52.356244,
+   13.082292
+  ],
+  [
+   52.356314,
+   13.081612
+  ],
+  [
+   52.356208,
+   13.081183
+  ],
+  [
+   52.355932,
+   13.080488
+  ],
+  [
+   52.355597,
+   13.080025
+  ],
+  [
+   52.354548,
+   13.079544
+  ],
+  [
+   52.35394,
+   13.079784
+  ],
+  [
+   52.353537,
+   13.079631
+  ],
+  [
+   52.352934,
+   13.078926
+  ],
+  [
+   52.352357,
+   13.077836
+  ],
+  [
+   52.352278,
+   13.077184
+  ],
+  [
+   52.351649,
+   13.074609
+  ],
+  [
+   52.351543,
+   13.074535
+  ],
+  [
+   52.351429,
+   13.074694
+  ],
+  [
+   52.351241,
+   13.075579
+  ],
+  [
+   52.3508,
+   13.076239
+  ],
+  [
+   52.349611,
+   13.077049
+  ],
+  [
+   52.34881,
+   13.077019
+  ],
+  [
+   52.348375,
+   13.076776
+  ],
+  [
+   52.348213,
+   13.076662
+  ],
+  [
+   52.347594,
+   13.075789
+  ],
+  [
+   52.347234,
+   13.07399
+  ],
+  [
+   52.347114,
+   13.073502
+  ],
+  [
+   52.346998,
+   13.073304
+  ],
+  [
+   52.346876,
+   13.073141
+  ],
+  [
+   52.346985,
+   13.073013
+  ],
+  [
+   52.347198,
+   13.072393
+  ],
+  [
+   52.347219,
+   13.072041
+  ],
+  [
+   52.347251,
+   13.071689
+  ],
+  [
+   52.347361,
+   13.071483
+  ],
+  [
+   52.347576,
+   13.07138
+  ],
+  [
+   52.348005,
+   13.071304
+  ],
+  [
+   52.347948,
+   13.071008
+  ],
+  [
+   52.348064,
+   13.070504
+  ],
+  [
+   52.348132,
+   13.069789
+  ],
+  [
+   52.348126,
+   13.069676
+  ],
+  [
+   52.348029,
+   13.069348
+  ],
+  [
+   52.34779,
+   13.069062
+  ],
+  [
+   52.347982,
+   13.068525
+  ],
+  [
+   52.348367,
+   13.066868
+  ],
+  [
+   52.349171,
+   13.066377
+  ],
+  [
+   52.349201,
+   13.066461
+  ],
+  [
+   52.349255,
+   13.066817
+  ],
+  [
+   52.349336,
+   13.067717
+  ],
+  [
+   52.349469,
+   13.067693
+  ],
+  [
+   52.349569,
+   13.067632
+  ],
+  [
+   52.349973,
+   13.067486
+  ],
+  [
+   52.350253,
+   13.067269
+  ],
+  [
+   52.350349,
+   13.067258
+  ],
+  [
+   52.350395,
+   13.067253
+  ],
+  [
+   52.350541,
+   13.067215
+  ],
+  [
+   52.350707,
+   13.067092
+  ],
+  [
+   52.350751,
+   13.067034
+  ],
+  [
+   52.350786,
+   13.066989
+  ],
+  [
+   52.350786,
+   13.066903
+  ],
+  [
+   52.350871,
+   13.066677
+  ],
+  [
+   52.351221,
+   13.066379
+  ],
+  [
+   52.351597,
+   13.066216
+  ],
+  [
+   52.351796,
+   13.066263
+  ],
+  [
+   52.352008,
+   13.066365
+  ],
+  [
+   52.352415,
+   13.066388
+  ],
+  [
+   52.352816,
+   13.065513
+  ],
+  [
+   52.352937,
+   13.065226
+  ],
+  [
+   52.353055,
+   13.064946
+  ],
+  [
+   52.353784,
+   13.06322
+  ],
+  [
+   52.3539,
+   13.062941
+  ],
+  [
+   52.353964,
+   13.062789
+  ],
+  [
+   52.354448,
+   13.061643
+  ],
+  [
+   52.354597,
+   13.061287
+  ],
+  [
+   52.355475,
+   13.059191
+  ],
+  [
+   52.35609,
+   13.0577
+  ],
+  [
+   52.356193,
+   13.057448
+  ],
+  [
+   52.357343,
+   13.057735
+  ],
+  [
+   52.357424,
+   13.056859
+  ],
+  [
+   52.357569,
+   13.055031
+  ],
+  [
+   52.357608,
+   13.054028
+  ],
+  [
+   52.357779,
+   13.05217
+  ],
+  [
+   52.35783,
+   13.051384
+  ],
+  [
+   52.357758,
+   13.050573
+  ],
+  [
+   52.357742,
+   13.049856
+  ],
+  [
+   52.357644,
+   13.049221
+  ],
+  [
+   52.357425,
+   13.048651
+  ],
+  [
+   52.357217,
+   13.04806
+  ],
+  [
+   52.357116,
+   13.047696
+  ],
+  [
+   52.356994,
+   13.047124
+  ],
+  [
+   52.356887,
+   13.046688
+  ],
+  [
+   52.356542,
+   13.045866
+  ],
+  [
+   52.356174,
+   13.045014
+  ],
+  [
+   52.356154,
+   13.044866
+  ],
+  [
+   52.356151,
+   13.04477
+  ],
+  [
+   52.356149,
+   13.044695
+  ],
+  [
+   52.356225,
+   13.044552
+  ],
+  [
+   52.356259,
+   13.044404
+  ],
+  [
+   52.356075,
+   13.044384
+  ],
+  [
+   52.355395,
+   13.044316
+  ],
+  [
+   52.355244,
+   13.044325
+  ],
+  [
+   52.355128,
+   13.044312
+  ],
+  [
+   52.355131,
+   13.044208
+  ],
+  [
+   52.35539,
+   13.043588
+  ],
+  [
+   52.355485,
+   13.043386
+  ],
+  [
+   52.357649,
+   13.038329
+  ],
+  [
+   52.357931,
+   13.037831
+  ],
+  [
+   52.358236,
+   13.037291
+  ],
+  [
+   52.359038,
+   13.035952
+  ],
+  [
+   52.359693,
+   13.034579
+  ],
+  [
+   52.360155,
+   13.033411
+  ],
+  [
+   52.360326,
+   13.032774
+  ],
+  [
+   52.36049,
+   13.032038
+  ],
+  [
+   52.360685,
+   13.02964
+  ],
+  [
+   52.360742,
+   13.02894
+  ],
+  [
+   52.360862,
+   13.027026
+  ],
+  [
+   52.360946,
+   13.026476
+  ],
+  [
+   52.360965,
+   13.026159
+  ],
+  [
+   52.361014,
+   13.025874
+  ],
+  [
+   52.36108,
+   13.025666
+  ],
+  [
+   52.361133,
+   13.025575
+  ],
+  [
+   52.361171,
+   13.025503
+  ],
+  [
+   52.36136,
+   13.025807
+  ],
+  [
+   52.361596,
+   13.026142
+  ],
+  [
+   52.361977,
+   13.026552
+  ],
+  [
+   52.363011,
+   13.027626
+  ],
+  [
+   52.36318,
+   13.027878
+  ],
+  [
+   52.363204,
+   13.027829
+  ],
+  [
+   52.363266,
+   13.027707
+  ],
+  [
+   52.363656,
+   13.027826
+  ],
+  [
+   52.36406,
+   13.027566
+  ],
+  [
+   52.368119,
+   13.019595
+  ],
+  [
+   52.368307,
+   13.019223
+  ],
+  [
+   52.368487,
+   13.018845
+  ],
+  [
+   52.369148,
+   13.017522
+  ],
+  [
+   52.369221,
+   13.017504
+  ],
+  [
+   52.369277,
+   13.017577
+  ],
+  [
+   52.369238,
+   13.017642
+  ],
+  [
+   52.36925,
+   13.01766
+  ],
+  [
+   52.370148,
+   13.015895
+  ],
+  [
+   52.370131,
+   13.015874
+  ],
+  [
+   52.370095,
+   13.015944
+  ],
+  [
+   52.370048,
+   13.015882
+  ],
+  [
+   52.370044,
+   13.015738
+  ],
+  [
+   52.370812,
+   13.014241
+  ],
+  [
+   52.370979,
+   13.013907
+  ],
+  [
+   52.371282,
+   13.013318
+  ],
+  [
+   52.371368,
+   13.013435
+  ],
+  [
+   52.371527,
+   13.013621
+  ],
+  [
+   52.371605,
+   13.013724
+  ],
+  [
+   52.371691,
+   13.013581
+  ],
+  [
+   52.371932,
+   13.013118
+  ],
+  [
+   52.372283,
+   13.012637
+  ],
+  [
+   52.372817,
+   13.012997
+  ],
+  [
+   52.372853,
+   13.013019
+  ],
+  [
+   52.37308,
+   13.013161
+  ],
+  [
+   52.373283,
+   13.013291
+  ],
+  [
+   52.37335,
+   13.013331
+  ],
+  [
+   52.374067,
+   13.013817
+  ],
+  [
+   52.374168,
+   13.013614
+  ],
+  [
+   52.374302,
+   13.013364
+  ],
+  [
+   52.374553,
+   13.012893
+  ],
+  [
+   52.37458,
+   13.012833
+  ],
+  [
+   52.374601,
+   13.012778
+  ],
+  [
+   52.374623,
+   13.012701
+  ],
+  [
+   52.374674,
+   13.012479
+  ],
+  [
+   52.374715,
+   13.0123
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 3765024858,
+   "lat": 52.3567911,
+   "lon": 13.0889657,
+   "km": 0.79,
+   "titel": "Erholungswald Ravensberge",
+   "thema": "Übersicht – Wanderwege im Wald",
+   "kurztext": "Die Wanderkarte am Eingang zeigt die Wege durch den Erholungswald Ravensberge. Von hier startet der Naturlehrpfad zu den Tafelstationen im Wald – vom Findlingspark bis zum Naturschutzgebiet Moosfenn.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 2994769706,
+   "lat": 52.3530733,
+   "lon": 13.0790728,
+   "km": 1.77,
+   "titel": "Engelsquelle",
+   "thema": "Wasser im Wald",
+   "kurztext": "An der Engelsquelle geht es um das nasse Element mitten im Wald: Quellen und feuchte Senken sind wertvolle Lebensräume für Amphibien, Insekten und Vögel – und empfindliche Stellen, die wir auf den Wegen besonders schonen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 12839620095,
+   "lat": 52.3507456,
+   "lon": 13.0670702,
+   "km": 3.75,
+   "titel": "Wildbienen und Hummeln",
+   "thema": "Bestäuber unter sich",
+   "kurztext": "Neben der Honigbiene gibt es Hunderte Wildbienenarten – viele davon hochspezialisiert und bedroht. Die Tafel stellt Wildbienen und Hummeln vor und zeigt, woran man sie erkennt und was sie zum Blühen des Waldes brauchen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 12115220495,
+   "lat": 52.3508197,
+   "lon": 13.0666955,
+   "km": 3.78,
+   "titel": "Findlingspark",
+   "thema": "Zeugen der Eiszeit",
+   "kurztext": "Die Findlinge im Findlingspark wurden während der Eiszeiten von Gletschern aus Skandinavien bis hierher geschleppt. An den Steinen lernen wir, wie man Granit, Gneis und Co. unterscheidet – und was sie über die Eisströme von damals verraten.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 12115220489,
+   "lat": 52.3508886,
+   "lon": 13.0667354,
+   "km": 3.78,
+   "titel": "Vielfältiges Leben im Reisighaufen",
+   "thema": "Unterschlupf aus Ästen",
+   "kurztext": "Was wie ein simpler Asthaufen aussieht, ist ein Miniatur-Biotop: Igel, Eidechsen, Kröten und unzählige Insekten finden im Reisighaufen Unterschlupf, Nahrung und Winterquartier. Die Tafel erklärt, warum solche Haufen im Wald bewusst liegen bleiben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 12829819614,
+   "lat": 52.3509336,
+   "lon": 13.0665601,
+   "km": 3.78,
+   "titel": "Alte und abgestorbene Bäume als Lebensraum",
+   "thema": "Totholz steckt voller Leben",
+   "kurztext": "Ein toter Baum ist alles andere als tot: Käfer, Pilze, Flechten, Fledermäuse und Höhlenbrüter wie Spechte nutzen Totholz als Nahrung, Brutplatz und Versteck. Warum alte und abgestorbene Bäume im Wald bleiben dürfen, erklärt diese Station.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 12829819613,
+   "lat": 52.3511584,
+   "lon": 13.0665105,
+   "km": 3.82,
+   "titel": "Die Rote Waldameise",
+   "thema": "Die Baumpolizei des Waldes",
+   "kurztext": "Die Nadelhügel der Roten Waldameise beherbergen Staaten aus Hunderttausenden Tieren. Die Ameisen räumen den Wald auf und regulieren Schädlinge – die Tafel zeigt, wie so ein Ameisenstaat funktioniert und warum er unter Schutz steht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 12829816556,
+   "lat": 52.3544188,
+   "lon": 13.0615564,
+   "km": 4.35,
+   "titel": "Naturschutzgebiet Moosfenn",
+   "thema": "Feuchtgebiet am Waldrand",
+   "kurztext": "Das Naturschutzgebiet Moosfenn ist ein Feuchtgebiet mit Gräben, Röhrichten und feuchten Wiesen – ein Refugium für Libellen, Amphibien und Wasservögel. Die Tafel des Potsdamer Naturschutzes erklärt, warum das Gebiet besonders geschützt ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 411858706,
+   "lat": 52.3574601,
+   "lon": 13.0578395,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 678524200,
+   "lat": 52.3585075,
+   "lon": 13.0986776,
+   "kategorie": "gastro",
+   "name": "City Grillstation"
+  },
+  {
+   "osmId": 1359318973,
+   "lat": 52.3593191,
+   "lon": 13.0957678,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1359318985,
+   "lat": 52.3570634,
+   "lon": 13.0902893,
+   "kategorie": "playground",
+   "name": "Räuberspielplatz"
+  },
+  {
+   "osmId": 2216932019,
+   "lat": 52.3584023,
+   "lon": 13.098574,
+   "kategorie": "gastro",
+   "name": "Time Out"
+  },
+  {
+   "osmId": 2271735529,
+   "lat": 52.3732446,
+   "lon": 13.0151346,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2423515666,
+   "lat": 52.3509666,
+   "lon": 13.0665336,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2680508870,
+   "lat": 52.3581297,
+   "lon": 13.0981183,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2680508874,
+   "lat": 52.3581854,
+   "lon": 13.0981758,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2680508877,
+   "lat": 52.3583483,
+   "lon": 13.0983437,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2844092878,
+   "lat": 52.3580025,
+   "lon": 13.097747,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2844092879,
+   "lat": 52.3581223,
+   "lon": 13.0978791,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2844092884,
+   "lat": 52.3582551,
+   "lon": 13.0980001,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3392516575,
+   "lat": 52.3736704,
+   "lon": 13.0110965,
+   "kategorie": "gastro",
+   "name": "Restaurant Märker Bowling"
+  },
+  {
+   "osmId": 3765024859,
+   "lat": 52.3568119,
+   "lon": 13.089061,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3765024860,
+   "lat": 52.3568757,
+   "lon": 13.0889884,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3838748340,
+   "lat": 52.3723315,
+   "lon": 13.0151394,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3838748354,
+   "lat": 52.3728811,
+   "lon": 13.015118,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3838748557,
+   "lat": 52.3730558,
+   "lon": 13.015128,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4612319714,
+   "lat": 52.348102,
+   "lon": 13.0712955,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8594861089,
+   "lat": 52.3486943,
+   "lon": 13.0697907,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9580072687,
+   "lat": 52.3571508,
+   "lon": 13.0893283,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11248701731,
+   "lat": 52.3603394,
+   "lon": 13.0943609,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11248701732,
+   "lat": 52.360408,
+   "lon": 13.0945251,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 11252364530,
+   "lat": 52.3601947,
+   "lon": 13.0950724,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972049,
+   "lat": 52.3731808,
+   "lon": 13.0115733,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972052,
+   "lat": 52.3733622,
+   "lon": 13.0116937,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972059,
+   "lat": 52.3728228,
+   "lon": 13.0109654,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972060,
+   "lat": 52.3728454,
+   "lon": 13.0109219,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972061,
+   "lat": 52.3726879,
+   "lon": 13.0108615,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11862972062,
+   "lat": 52.3727134,
+   "lon": 13.0108117,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12037975070,
+   "lat": 52.3572632,
+   "lon": 13.0577646,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12046026980,
+   "lat": 52.3591447,
+   "lon": 13.0908059,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 12115220496,
+   "lat": 52.3499533,
+   "lon": 13.0674442,
+   "kategorie": "bench",
+   "name": "Nuthetalblick"
+  },
+  {
+   "osmId": 13083959089,
+   "lat": 52.3575537,
+   "lon": 13.0935933,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 13123556101,
+   "lat": 52.3580381,
+   "lon": 13.0886171,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 13453483084,
+   "lat": 52.3575888,
+   "lon": 13.0975582,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13453503959,
+   "lat": 52.3575953,
+   "lon": 13.0973636,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13453736877,
+   "lat": 52.3578509,
+   "lon": 13.0976071,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13453737355,
+   "lat": 52.3578876,
+   "lon": 13.097853,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

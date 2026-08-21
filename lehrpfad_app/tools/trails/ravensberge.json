@@ -1,0 +1,83 @@
+{
+ "id": "ravensberge",
+ "name": "Naturlehrpfad Ravensberge",
+ "typ": "wald",
+ "kurzbeschreibung": "Naturlehrpfad durch den Erholungswald Ravensberge in Potsdam-Waldstadt – Tafeln zu eiszeitlichen Findlingen, Waldameisen, Wildbienen und dem Naturschutzgebiet Moosfenn.",
+ "beschreibung": "Der Naturlehrpfad führt durch den Erholungswald Ravensberge zwischen Waldstadt und Templiner See. An den Tafeln entlang des Weges geht es um die Findlinge des Findlingsparks, die das Eis einst aus Skandinavien hierher transportierte, um Reisighaufen und alte, abgestorbene Bäume als Lebensraum, um die Rote Waldameise sowie um Wildbienen und Hummeln. Ein Abstecher lohnt sich in das angrenzende Naturschutzgebiet Moosfenn mit seinen Feuchtflächen.",
+ "markierung": "Grüner Schrägstrich auf weißem Grund",
+ "betreiber": "Stadt Potsdam, Fachbereich Naturschutz",
+ "region": "Potsdam-Waldstadt, Brandenburg",
+ "website": "https://www.potsdam.de/de/content/ravensberge-und-forst-potsdam",
+ "anreise": "Ab Potsdam Hbf Tram 91/93 Richtung Rehbrücke bis Zum Kahleberg oder Bahnhof Rehbrücke. Einstieg an der Wanderkarte Erholungswald Ravensberge am Waldrand. Auto: Parken Zum Kahleberg / Zum Jagenstein, Potsdam-Waldstadt – nicht über Bornim / B 273.",
+ "startName": "Wanderkarte Erholungswald Ravensberge, Potsdam-Waldstadt",
+ "arten": ["Rote Waldameise", "Wildbiene", "Hummel", "Igel", "Kiefer", "Stieleiche"],
+ "tags": ["kinderfreundlich"],
+ "rundkurs": true,
+ "richtung": [3765024858, 12115220495],
+ "stationen": {
+  "3765024858": {
+   "titel": "Erholungswald Ravensberge",
+   "thema": "Übersicht – Wanderwege im Wald",
+   "kurztext": "Die Wanderkarte am Eingang zeigt die Wege durch den Erholungswald Ravensberge. Von hier startet der Naturlehrpfad zu den Tafelstationen im Wald – vom Findlingspark bis zum Naturschutzgebiet Moosfenn.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12115220495": {
+   "titel": "Findlingspark",
+   "thema": "Zeugen der Eiszeit",
+   "kurztext": "Die Findlinge im Findlingspark wurden während der Eiszeiten von Gletschern aus Skandinavien bis hierher geschleppt. An den Steinen lernen wir, wie man Granit, Gneis und Co. unterscheidet – und was sie über die Eisströme von damals verraten.",
+   "erlebnisse": ["tafel", "bestimmung"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "2994769706": {
+   "titel": "Engelsquelle",
+   "thema": "Wasser im Wald",
+   "kurztext": "An der Engelsquelle geht es um das nasse Element mitten im Wald: Quellen und feuchte Senken sind wertvolle Lebensräume für Amphibien, Insekten und Vögel – und empfindliche Stellen, die wir auf den Wegen besonders schonen.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12115220489": {
+   "titel": "Vielfältiges Leben im Reisighaufen",
+   "thema": "Unterschlupf aus Ästen",
+   "kurztext": "Was wie ein simpler Asthaufen aussieht, ist ein Miniatur-Biotop: Igel, Eidechsen, Kröten und unzählige Insekten finden im Reisighaufen Unterschlupf, Nahrung und Winterquartier. Die Tafel erklärt, warum solche Haufen im Wald bewusst liegen bleiben.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12829816556": {
+   "titel": "Naturschutzgebiet Moosfenn",
+   "thema": "Feuchtgebiet am Waldrand",
+   "kurztext": "Das Naturschutzgebiet Moosfenn ist ein Feuchtgebiet mit Gräben, Röhrichten und feuchten Wiesen – ein Refugium für Libellen, Amphibien und Wasservögel. Die Tafel des Potsdamer Naturschutzes erklärt, warum das Gebiet besonders geschützt ist.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12829819613": {
+   "titel": "Die Rote Waldameise",
+   "thema": "Die Baumpolizei des Waldes",
+   "kurztext": "Die Nadelhügel der Roten Waldameise beherbergen Staaten aus Hunderttausenden Tieren. Die Ameisen räumen den Wald auf und regulieren Schädlinge – die Tafel zeigt, wie so ein Ameisenstaat funktioniert und warum er unter Schutz steht.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12829819614": {
+   "titel": "Alte und abgestorbene Bäume als Lebensraum",
+   "thema": "Totholz steckt voller Leben",
+   "kurztext": "Ein toter Baum ist alles andere als tot: Käfer, Pilze, Flechten, Fledermäuse und Höhlenbrüter wie Spechte nutzen Totholz als Nahrung, Brutplatz und Versteck. Warum alte und abgestorbene Bäume im Wald bleiben dürfen, erklärt diese Station.",
+   "erlebnisse": ["tafel"],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "12839620095": {
+   "titel": "Wildbienen und Hummeln",
+   "thema": "Bestäuber unter sich",
+   "kurztext": "Neben der Honigbiene gibt es Hunderte Wildbienenarten – viele davon hochspezialisiert und bedroht. Die Tafel stellt Wildbienen und Hummeln vor und zeigt, woran man sie erkennt und was sie zum Blühen des Waldes brauchen.",
+   "erlebnisse": ["tafel", "bestimmung"],
+   "barrierefrei": false,
+   "steckbrief": null
+  }
+ }
+}

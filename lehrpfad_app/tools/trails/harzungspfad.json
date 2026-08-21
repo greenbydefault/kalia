@@ -1,0 +1,102 @@
+{
+  "id": "harzungspfad",
+  "rohdaten": "harzungspfad",
+  "name": "Harzungspfad Stolpe",
+  "typ": "walderlebnispfad",
+  "kurzbeschreibung": "Dreihundert Meter Rundweg hinter der Revierförsterei Stolpe – acht Arbeitsschritte der Harzgewinnung an echten Kiefern. Frei, ohne Ticket.",
+  "beschreibung": "Im Stolper Wald, hinter der Revierförsterei an der Stolper Waldstraße, liegt der Harzungspfad der Berliner Forsten. Auf rund 300 Metern zeigen acht Stationen am Baum, wie in der DDR Harz aus Kiefern gewonnen wurde: Bäume auswählen, Borke röten, Tropfrinne ziehen, Topf setzen, reißen, stimulieren, schöpfen, abtransportieren. An den Stämmen siehst du Lachten und das Fischgrätenmuster. Zusätzliche Tafeln – unter dem Wetterpilz zum Baumharz – erklären Terpentin-Balsam und Folgeprodukte. QR-Codes an den Tafeln führen zu Videos der Forsten, kein Audio in der App. Der Outdoor-Pfad ist frei und spontan begehbar, ohne Anmeldung. Führungen bei der Revierförsterin sind optional und nicht Scope. Die 10-Kilometer-Wanderung NW03 von Hohen Neuendorf nach Hennigsdorf ist nur Anreise-Tipp, nicht die App-Route. Wege kiesig, Kinderwagen eingeschränkt, Rollstuhl laut OSM nicht.",
+  "markierung": "Harzungspfad / lokale Forst-Wegweisung",
+  "betreiber": "Berliner Forsten / Revierförsterei Stolpe",
+  "region": "Stolpe / Hohen Neuendorf, Oberhavel, Brandenburg",
+  "website": "https://www.berlin.de/forsten/waldbildung/waldlehrpfade/harzungspfad/",
+  "anreise": "Adresse: Stolper Waldstraße, hinter der Revierförsterei Stolpe, 16540 Hohen Neuendorf. ÖPNV: S8 Hohen Neuendorf, Bus 809 bis Stolpe (OHV), Dorfstraße, dann ca. 750 m zu Fuß die Waldstraße westlich, vorbei an der Revierförsterei und einer Schranke, rechts das Eingangsportal. Auto: Stolpe anfahren, Waldstraße Richtung Forst; Parken am Ortsrand / Försterei, nicht den Pfad zuparken. Nicht die 10-km-Runde NW03 als Anfahrt nutzen, wenn du nur den Lehrpfad willst.",
+  "startName": "Eingang Harzungspfad / Vorarbeiten",
+  "arten": ["Kiefer"],
+  "tags": ["kinderfreundlich", "picknick"],
+  "rundkurs": true,
+  "dauerMin": 40,
+  "richtung": ["7999807807", "7999807809"],
+  "startAm": "7999807807",
+  "stationen": {
+    "7999807807": {
+      "lat": 52.6619098,
+      "lon": 13.2468477,
+      "titel": "Vorarbeiten",
+      "thema": "Bäume auswählen",
+      "kurztext": "Nicht jede Kiefer wurde geharzt. Hier beginnt die Arbeit: Stammstärke, Gesundheit, Platz für die Lachte. Schau den Stamm an – würde ein Harzer ihn nehmen?",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807809": {
+      "lat": 52.66203,
+      "lon": 13.2466739,
+      "titel": "Röten",
+      "thema": "Borke runter, Lachte frei",
+      "kurztext": "Im Winter schabte der Harzer die Borke bis auf eine rötliche Schicht. Deshalb Röten. Die freie Fläche heißt Lachte – das Arbeitsfeld am Stamm.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807808": {
+      "lat": 52.6622061,
+      "lon": 13.2464859,
+      "titel": "Ziehen der Tropfrinne",
+      "thema": "Senkrechte Bahn fürs Harz",
+      "kurztext": "Mitten in der Lachte zog er eine senkrechte Rinne. Dort soll das Harz nach unten laufen – wie eine Dachrinne aus Holz. Such die Kerbe am Stamm.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807810": {
+      "lat": 52.6622123,
+      "lon": 13.2467455,
+      "titel": "Topfhalter und Topf",
+      "thema": "Auffangen am Stamm",
+      "kurztext": "Unten an der Rinne saß der Topf. Halter, Blech, Gefäß – ohne den läuft das Bernsteingold in den Boden. Schau, wo er am Baum hing.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807811": {
+      "lat": 52.66218,
+      "lon": 13.2470275,
+      "titel": "Reißen",
+      "thema": "Fischgräte aus Schnitten",
+      "kurztext": "Ab April riss der Harzer schräge Rillen auf die Tropfrinne zu. Schnitt um Schnitt entsteht das Fischgrätenmuster. Das lässt den Baum Harz geben.",
+      "erlebnisse": ["tafel", "bestimmung"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807812": {
+      "lat": 52.6620808,
+      "lon": 13.2472238,
+      "titel": "Stimulationsharzung",
+      "thema": "Damit mehr fließt",
+      "kurztext": "Zusätzlicher Schritt, damit das Harz überhaupt in Gang kommt. Die Tafel sagt, welche Vorbereitung nötig war, bis das Bernsteingold lief.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807813": {
+      "lat": 52.6619767,
+      "lon": 13.2472994,
+      "titel": "Schöpfen",
+      "thema": "Ernte aus dem Topf",
+      "kurztext": "Das Harz im Topf wurde geschöpft – klebrig, zäh, wertvoll. Terpentin-Balsam, später Kolophonium und Öl. Hier endet der Fluss am Stamm.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7999807814": {
+      "lat": 52.6618217,
+      "lon": 13.2472585,
+      "titel": "Transport",
+      "thema": "Raus aus dem Wald",
+      "kurztext": "Töpfe voll, Weg zum Sammelplatz. Harzung war schwere, eigenverantwortliche Arbeit – bis Mai 1990, dann war sie unwirtschaftlich. Der Pfad erinnert, der Beruf ist weg.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  }
+}

@@ -1,0 +1,1546 @@
+{
+ "id": "raddusch",
+ "name": "Moorlehrpfad Raddusch",
+ "typ": "moor",
+ "kurzbeschreibung": "Multimedialer Rundweg zu sieben Mooren unterschiedlicher Ausprägung im Oberspreewald – mit Schautafeln, QR-Codes und den Mofo-Maskottchen.",
+ "beschreibung": "Vom Naturhafen Raddusch aus führt der rund 13,5 km lange Rundweg zu mehreren Mooren, die sich oberflächlich gleichen, aber eine unterschiedliche Mächtigkeit und Entstehungsgeschichte haben. Der multimediale Lehrpfad kommt mit dezenter Beschilderung aus: An den Stationen verweisen QR-Codes auf die ausführlichen Stationsbeschreibungen, die Mofo-Moorfrösche zeigen den Weg. Der Weg ist größtenteils naturbelassen und zur Zeit des jährlichen Winterstaus nur mit geeignetem Schuhwerk begehbar. An der Buschmühle kann die Tour abgekürzt werden. Einkehr in Raddusch und an der Dubkowmühle (ca. 200 m abseits). Wegen der abgeschiedenen Streckenführung wird empfohlen, den Weg nicht allein zu begehen.",
+ "laengeKm": 13.5,
+ "dauerMin": 200,
+ "rundkurs": true,
+ "markierung": "Mofo-Maskottchen (zwei Moorfrösche) auf den Wegweisern",
+ "betreiber": "Tourismusverein Raddusch und Umgebung e.V.",
+ "region": "Raddusch, Stadt Vetschau/Spreewald, Landkreis Oberspreewald-Lausitz, Brandenburg",
+ "website": "https://www.raddusch-spreewald.de/aktivitaeten/moorlehrpfad/index.php",
+ "anreise": "RE 2 ab Berlin Hbf nach Raddusch, von dort ca. 10 Minuten zu Fuß zum Naturhafen. Auto: A 15 bis Abfahrt Boblitz, weiter der Ausschilderung nach Raddusch folgen, Parken am Naturhafen (Hafenweg / Radduscher Dorfstraße 10).",
+ "startName": "Naturhafen Raddusch",
+ "arten": [
+  "Moorfrosch",
+  "Rotbauchunke",
+  "Wollgras",
+  "Sumpfblutauge",
+  "Sumpf-Schwertlilie",
+  "Großer Feuerfalter",
+  "Große Moosjungfer",
+  "Schwarzerle",
+  "Sumpfdotterblume",
+  "Kranich",
+  "Schwarzstorch",
+  "Fischotter"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "route": [
+  [
+   51.819339,
+   14.042415
+  ],
+  [
+   51.819324,
+   14.042463
+  ],
+  [
+   51.819298,
+   14.042566
+  ],
+  [
+   51.819291,
+   14.0426
+  ],
+  [
+   51.819287,
+   14.042617
+  ],
+  [
+   51.819336,
+   14.042644
+  ],
+  [
+   51.819463,
+   14.042736
+  ],
+  [
+   51.819561,
+   14.0428
+  ],
+  [
+   51.819697,
+   14.042936
+  ],
+  [
+   51.82065,
+   14.044553
+  ],
+  [
+   51.821302,
+   14.045344
+  ],
+  [
+   51.821987,
+   14.046213
+  ],
+  [
+   51.823874,
+   14.048218
+  ],
+  [
+   51.824138,
+   14.048461
+  ],
+  [
+   51.82426,
+   14.048573
+  ],
+  [
+   51.824547,
+   14.048844
+  ],
+  [
+   51.824736,
+   14.049088
+  ],
+  [
+   51.824874,
+   14.049322
+  ],
+  [
+   51.825009,
+   14.049564
+  ],
+  [
+   51.825319,
+   14.050145
+  ],
+  [
+   51.825477,
+   14.050411
+  ],
+  [
+   51.825675,
+   14.050677
+  ],
+  [
+   51.82579,
+   14.050821
+  ],
+  [
+   51.826039,
+   14.051079
+  ],
+  [
+   51.826296,
+   14.051217
+  ],
+  [
+   51.826727,
+   14.051465
+  ],
+  [
+   51.82679,
+   14.05151
+  ],
+  [
+   51.826835,
+   14.051559
+  ],
+  [
+   51.826902,
+   14.051641
+  ],
+  [
+   51.827101,
+   14.05189
+  ],
+  [
+   51.827225,
+   14.052141
+  ],
+  [
+   51.827369,
+   14.052518
+  ],
+  [
+   51.827485,
+   14.052917
+  ],
+  [
+   51.827731,
+   14.053665
+  ],
+  [
+   51.827851,
+   14.053909
+  ],
+  [
+   51.827998,
+   14.054088
+  ],
+  [
+   51.828256,
+   14.054313
+  ],
+  [
+   51.829217,
+   14.055074
+  ],
+  [
+   51.829793,
+   14.055774
+  ],
+  [
+   51.830804,
+   14.056992
+  ],
+  [
+   51.831024,
+   14.057216
+  ],
+  [
+   51.831254,
+   14.057421
+  ],
+  [
+   51.831788,
+   14.057851
+  ],
+  [
+   51.831848,
+   14.057599
+  ],
+  [
+   51.831879,
+   14.057517
+  ],
+  [
+   51.8319,
+   14.057536
+  ],
+  [
+   51.83195,
+   14.057559
+  ],
+  [
+   51.832047,
+   14.057565
+  ],
+  [
+   51.832192,
+   14.0575
+  ],
+  [
+   51.832539,
+   14.057208
+  ],
+  [
+   51.833104,
+   14.056526
+  ],
+  [
+   51.833573,
+   14.055278
+  ],
+  [
+   51.833681,
+   14.054933
+  ],
+  [
+   51.833833,
+   14.054303
+  ],
+  [
+   51.833875,
+   14.054113
+  ],
+  [
+   51.833893,
+   14.053909
+  ],
+  [
+   51.833913,
+   14.052874
+  ],
+  [
+   51.833933,
+   14.052513
+  ],
+  [
+   51.834026,
+   14.051685
+  ],
+  [
+   51.834102,
+   14.051041
+  ],
+  [
+   51.834099,
+   14.050774
+  ],
+  [
+   51.834058,
+   14.050484
+  ],
+  [
+   51.833962,
+   14.04995
+  ],
+  [
+   51.833906,
+   14.049546
+  ],
+  [
+   51.833914,
+   14.048694
+  ],
+  [
+   51.834148,
+   14.047651
+  ],
+  [
+   51.834166,
+   14.047481
+  ],
+  [
+   51.834202,
+   14.0475
+  ],
+  [
+   51.834351,
+   14.047577
+  ],
+  [
+   51.834668,
+   14.047718
+  ],
+  [
+   51.835229,
+   14.047994
+  ],
+  [
+   51.835904,
+   14.048438
+  ],
+  [
+   51.836052,
+   14.048535
+  ],
+  [
+   51.836157,
+   14.048657
+  ],
+  [
+   51.837039,
+   14.050193
+  ],
+  [
+   51.837478,
+   14.050941
+  ],
+  [
+   51.837707,
+   14.051278
+  ],
+  [
+   51.838111,
+   14.051697
+  ],
+  [
+   51.838293,
+   14.0519
+  ],
+  [
+   51.838446,
+   14.052051
+  ],
+  [
+   51.838696,
+   14.052362
+  ],
+  [
+   51.83934,
+   14.053096
+  ],
+  [
+   51.839761,
+   14.053561
+  ],
+  [
+   51.839872,
+   14.053679
+  ],
+  [
+   51.840066,
+   14.05391
+  ],
+  [
+   51.840292,
+   14.054248
+  ],
+  [
+   51.841032,
+   14.055267
+  ],
+  [
+   51.841283,
+   14.055647
+  ],
+  [
+   51.841732,
+   14.056253
+  ],
+  [
+   51.841789,
+   14.056319
+  ],
+  [
+   51.841909,
+   14.056398
+  ],
+  [
+   51.842025,
+   14.056438
+  ],
+  [
+   51.842125,
+   14.056448
+  ],
+  [
+   51.842238,
+   14.056443
+  ],
+  [
+   51.842848,
+   14.056242
+  ],
+  [
+   51.842907,
+   14.056178
+  ],
+  [
+   51.84335,
+   14.055035
+  ],
+  [
+   51.843832,
+   14.053807
+  ],
+  [
+   51.844606,
+   14.051937
+  ],
+  [
+   51.845144,
+   14.050585
+  ],
+  [
+   51.845229,
+   14.050471
+  ],
+  [
+   51.845315,
+   14.05041
+  ],
+  [
+   51.845463,
+   14.050343
+  ],
+  [
+   51.845544,
+   14.050238
+  ],
+  [
+   51.845637,
+   14.05004
+  ],
+  [
+   51.846813,
+   14.047144
+  ],
+  [
+   51.847475,
+   14.045527
+  ],
+  [
+   51.848087,
+   14.043935
+  ],
+  [
+   51.84813,
+   14.043834
+  ],
+  [
+   51.848253,
+   14.04363
+  ],
+  [
+   51.848346,
+   14.043589
+  ],
+  [
+   51.848442,
+   14.043587
+  ],
+  [
+   51.848531,
+   14.043642
+  ],
+  [
+   51.848616,
+   14.043732
+  ],
+  [
+   51.848712,
+   14.04382
+  ],
+  [
+   51.848828,
+   14.043881
+  ],
+  [
+   51.848968,
+   14.04383
+  ],
+  [
+   51.849112,
+   14.043659
+  ],
+  [
+   51.849169,
+   14.043579
+  ],
+  [
+   51.849428,
+   14.043113
+  ],
+  [
+   51.849806,
+   14.042265
+  ],
+  [
+   51.850143,
+   14.041539
+  ],
+  [
+   51.850315,
+   14.041195
+  ],
+  [
+   51.850519,
+   14.040838
+  ],
+  [
+   51.850832,
+   14.040283
+  ],
+  [
+   51.850882,
+   14.040163
+  ],
+  [
+   51.850913,
+   14.040013
+  ],
+  [
+   51.850922,
+   14.039902
+  ],
+  [
+   51.850921,
+   14.039775
+  ],
+  [
+   51.850767,
+   14.036068
+  ],
+  [
+   51.850677,
+   14.034167
+  ],
+  [
+   51.850574,
+   14.031311
+  ],
+  [
+   51.850515,
+   14.029661
+  ],
+  [
+   51.8505,
+   14.028915
+  ],
+  [
+   51.850488,
+   14.028567
+  ],
+  [
+   51.850523,
+   14.028298
+  ],
+  [
+   51.850514,
+   14.028048
+  ],
+  [
+   51.850468,
+   14.027791
+  ],
+  [
+   51.85031,
+   14.02719
+  ],
+  [
+   51.850128,
+   14.026568
+  ],
+  [
+   51.849759,
+   14.025309
+  ],
+  [
+   51.849627,
+   14.024779
+  ],
+  [
+   51.849548,
+   14.024363
+  ],
+  [
+   51.849493,
+   14.024012
+  ],
+  [
+   51.849468,
+   14.023518
+  ],
+  [
+   51.849461,
+   14.022341
+  ],
+  [
+   51.849435,
+   14.021948
+  ],
+  [
+   51.849412,
+   14.021627
+  ],
+  [
+   51.848554,
+   14.015315
+  ],
+  [
+   51.848501,
+   14.0145
+  ],
+  [
+   51.848466,
+   14.014199
+  ],
+  [
+   51.847624,
+   14.009157
+  ],
+  [
+   51.847591,
+   14.008807
+  ],
+  [
+   51.847598,
+   14.008621
+  ],
+  [
+   51.847634,
+   14.008494
+  ],
+  [
+   51.847685,
+   14.008349
+  ],
+  [
+   51.8478,
+   14.008184
+  ],
+  [
+   51.84793,
+   14.008029
+  ],
+  [
+   51.848143,
+   14.007884
+  ],
+  [
+   51.848683,
+   14.007615
+  ],
+  [
+   51.848795,
+   14.007546
+  ],
+  [
+   51.848917,
+   14.007432
+  ],
+  [
+   51.848966,
+   14.00737
+  ],
+  [
+   51.849198,
+   14.007072
+  ],
+  [
+   51.849397,
+   14.006813
+  ],
+  [
+   51.84957,
+   14.006577
+  ],
+  [
+   51.85007,
+   14.005892
+  ],
+  [
+   51.850122,
+   14.005759
+  ],
+  [
+   51.850141,
+   14.005615
+  ],
+  [
+   51.850033,
+   14.004463
+  ],
+  [
+   51.84986,
+   14.002212
+  ],
+  [
+   51.849785,
+   14.001276
+  ],
+  [
+   51.849729,
+   14.000328
+  ],
+  [
+   51.849683,
+   14.000064
+  ],
+  [
+   51.849644,
+   13.999965
+  ],
+  [
+   51.849551,
+   13.999837
+  ],
+  [
+   51.849368,
+   13.999633
+  ],
+  [
+   51.849105,
+   13.999379
+  ],
+  [
+   51.84901,
+   13.999307
+  ],
+  [
+   51.848964,
+   13.999279
+  ],
+  [
+   51.848882,
+   13.999243
+  ],
+  [
+   51.848838,
+   13.999229
+  ],
+  [
+   51.848754,
+   13.999217
+  ],
+  [
+   51.848656,
+   13.999222
+  ],
+  [
+   51.848518,
+   13.999236
+  ],
+  [
+   51.848363,
+   13.999318
+  ],
+  [
+   51.848178,
+   13.999491
+  ],
+  [
+   51.848044,
+   13.99958
+  ],
+  [
+   51.847941,
+   13.999611
+  ],
+  [
+   51.847843,
+   13.99962
+  ],
+  [
+   51.847729,
+   13.999579
+  ],
+  [
+   51.847616,
+   13.999514
+  ],
+  [
+   51.846706,
+   13.998719
+  ],
+  [
+   51.846546,
+   13.998595
+  ],
+  [
+   51.846404,
+   13.998512
+  ],
+  [
+   51.846281,
+   13.998486
+  ],
+  [
+   51.846166,
+   13.998488
+  ],
+  [
+   51.845915,
+   13.998523
+  ],
+  [
+   51.84567,
+   13.99856
+  ],
+  [
+   51.845478,
+   13.998547
+  ],
+  [
+   51.845358,
+   13.99852
+  ],
+  [
+   51.84525,
+   13.998464
+  ],
+  [
+   51.845109,
+   13.998349
+  ],
+  [
+   51.844997,
+   13.998231
+  ],
+  [
+   51.844907,
+   13.998469
+  ],
+  [
+   51.844121,
+   13.999695
+  ],
+  [
+   51.843181,
+   14.0011
+  ],
+  [
+   51.841952,
+   14.002963
+  ],
+  [
+   51.840963,
+   14.004489
+  ],
+  [
+   51.840104,
+   14.005804
+  ],
+  [
+   51.839673,
+   14.006447
+  ],
+  [
+   51.839249,
+   14.007087
+  ],
+  [
+   51.837074,
+   14.01042
+  ],
+  [
+   51.836774,
+   14.01008
+  ],
+  [
+   51.836497,
+   14.009685
+  ],
+  [
+   51.835326,
+   14.007761
+  ],
+  [
+   51.835236,
+   14.007736
+  ],
+  [
+   51.835153,
+   14.007803
+  ],
+  [
+   51.832835,
+   14.011135
+  ],
+  [
+   51.832489,
+   14.011656
+  ],
+  [
+   51.83242,
+   14.011698
+  ],
+  [
+   51.83233,
+   14.011676
+  ],
+  [
+   51.832264,
+   14.011664
+  ],
+  [
+   51.8322,
+   14.011718
+  ],
+  [
+   51.831498,
+   14.012715
+  ],
+  [
+   51.831424,
+   14.012855
+  ],
+  [
+   51.831401,
+   14.012912
+  ],
+  [
+   51.831401,
+   14.012999
+  ],
+  [
+   51.831483,
+   14.013139
+  ],
+  [
+   51.831506,
+   14.013256
+  ],
+  [
+   51.831404,
+   14.013682
+  ],
+  [
+   51.831355,
+   14.013932
+  ],
+  [
+   51.830844,
+   14.016042
+  ],
+  [
+   51.829891,
+   14.015482
+  ],
+  [
+   51.829802,
+   14.015437
+  ],
+  [
+   51.829734,
+   14.015427
+  ],
+  [
+   51.829678,
+   14.015439
+  ],
+  [
+   51.829566,
+   14.015544
+  ],
+  [
+   51.82947,
+   14.015676
+  ],
+  [
+   51.829005,
+   14.016397
+  ],
+  [
+   51.828772,
+   14.016695
+  ],
+  [
+   51.828447,
+   14.017104
+  ],
+  [
+   51.828068,
+   14.017594
+  ],
+  [
+   51.827639,
+   14.018134
+  ],
+  [
+   51.827351,
+   14.018505
+  ],
+  [
+   51.827258,
+   14.018626
+  ],
+  [
+   51.827035,
+   14.01886
+  ],
+  [
+   51.826759,
+   14.019222
+  ],
+  [
+   51.826582,
+   14.019417
+  ],
+  [
+   51.826352,
+   14.019726
+  ],
+  [
+   51.826313,
+   14.019806
+  ],
+  [
+   51.826268,
+   14.02008
+  ],
+  [
+   51.826192,
+   14.020548
+  ],
+  [
+   51.826118,
+   14.021216
+  ],
+  [
+   51.826094,
+   14.021332
+  ],
+  [
+   51.82607,
+   14.021451
+  ],
+  [
+   51.825786,
+   14.022431
+  ],
+  [
+   51.825627,
+   14.02304
+  ],
+  [
+   51.825582,
+   14.023242
+  ],
+  [
+   51.825478,
+   14.023519
+  ],
+  [
+   51.825365,
+   14.023788
+  ],
+  [
+   51.825186,
+   14.024131
+  ],
+  [
+   51.825068,
+   14.024417
+  ],
+  [
+   51.82484,
+   14.025154
+  ],
+  [
+   51.824655,
+   14.025816
+  ],
+  [
+   51.824555,
+   14.026231
+  ],
+  [
+   51.824501,
+   14.026442
+  ],
+  [
+   51.824515,
+   14.026991
+  ],
+  [
+   51.824503,
+   14.02755
+  ],
+  [
+   51.824436,
+   14.028028
+  ],
+  [
+   51.824351,
+   14.02848
+  ],
+  [
+   51.823847,
+   14.031098
+  ],
+  [
+   51.823782,
+   14.031491
+  ],
+  [
+   51.823513,
+   14.032936
+  ],
+  [
+   51.823443,
+   14.033211
+  ],
+  [
+   51.82338,
+   14.033394
+  ],
+  [
+   51.823297,
+   14.033613
+  ],
+  [
+   51.823187,
+   14.033908
+  ],
+  [
+   51.823045,
+   14.034199
+  ],
+  [
+   51.822291,
+   14.035545
+  ],
+  [
+   51.82195,
+   14.036117
+  ],
+  [
+   51.821871,
+   14.036239
+  ],
+  [
+   51.821762,
+   14.036474
+  ],
+  [
+   51.821676,
+   14.036704
+  ],
+  [
+   51.821592,
+   14.036945
+  ],
+  [
+   51.821385,
+   14.037647
+  ],
+  [
+   51.821161,
+   14.038364
+  ],
+  [
+   51.821031,
+   14.03879
+  ],
+  [
+   51.82093,
+   14.039078
+  ],
+  [
+   51.820758,
+   14.039458
+  ],
+  [
+   51.820528,
+   14.040118
+  ],
+  [
+   51.820236,
+   14.040833
+  ],
+  [
+   51.820128,
+   14.041141
+  ],
+  [
+   51.820075,
+   14.041294
+  ],
+  [
+   51.819988,
+   14.041525
+  ],
+  [
+   51.819874,
+   14.041623
+  ],
+  [
+   51.81983,
+   14.041697
+  ],
+  [
+   51.819727,
+   14.041868
+  ],
+  [
+   51.819508,
+   14.042172
+  ],
+  [
+   51.819471,
+   14.042223
+  ],
+  [
+   51.819397,
+   14.042325
+  ],
+  [
+   51.819363,
+   14.042375
+  ],
+  [
+   51.819349,
+   14.042393
+  ],
+  [
+   51.819339,
+   14.042415
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 2819118401,
+   "lat": 51.8258637,
+   "lon": 14.0509525,
+   "km": 0.94,
+   "titel": "Schorschkoa",
+   "thema": "Was sind Moore?",
+   "kurztext": "Moore sind Naturräume, die vom Wasser geprägt werden: Ein langanhaltender Überschuss hält den Boden permanent wassergesättigt, reicht aber nicht für einen See. Weil zersetzende Mikroorganismen unter Sauerstoffabschluss kaum arbeiten können, lagert sich organische Substanz als Torf an – nur etwa 1 mm pro Jahr. Wir erfahren außerdem, wie die Niedermoore des Spreewalds nach der letzten Eiszeit im Baruther Urstromtal entstanden und was die spreewaldtypische „Klockschicht“ damit zu tun hat.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": 10000,
+    "tiefeM": null,
+    "lebenselixier": "Grundwasser und Spreehochwässer",
+    "werdegang": "vom sandigen Binnendelta – zur großflächig vermoorten Spreewaldaue"
+   },
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 12749657756,
+   "lat": 51.8342495,
+   "lon": 14.0471221,
+   "km": 2.62,
+   "titel": "Rastplatz Buschmühle",
+   "thema": "Rast an der historischen Mühle",
+   "kurztext": "Der Rastplatz an der Buschmühle am Krummen Wehrfließ ist der erste Halt nach dem Naturhafen. Wer eine kürzere Runde gehen möchte, kann den Lehrpfad hier abkürzen. Gleich dahinter beginnt mit der „Stauabsenkung Süd“ das Naturschutzgebiet – rechts am Fließ ist die Steinschwelle zu sehen, mit der das Wasser angestaut wird.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 12730609983,
+   "lat": 51.8413125,
+   "lon": 14.05578,
+   "km": 3.6,
+   "titel": "Dubkowmoor",
+   "thema": "Bedeutung und Funktionen von Mooren",
+   "kurztext": "Intakte Moore sind Klimaschützer, Wasserspeicher, Wasserfilter und Archive der Landschaftsgeschichte zugleich. Das Dubkowmoor ist mit einer Torfmächtigkeit von bis zu drei Metern besonders wertvoll: Naturnahe Niedermoore speichern je nach Typ rund 550 bis 2.000 Tonnen Kohlenstoff pro Hektar. Wird ein Moor entwässert, oxidiert der Torf und der Jahrtausende lang eingelagerte Kohlenstoff entweicht als CO2.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": 10000,
+    "tiefeM": 3.0,
+    "lebenselixier": "mineralstoffreiches Grund- und Oberflächenwasser",
+    "werdegang": "vom Überflutungsgebiet der Spree – zum torfbildenden Niedermoor"
+   },
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 5179763864,
+   "lat": 51.848112,
+   "lon": 14.0437414,
+   "km": 4.84,
+   "titel": "Hirschmoor",
+   "thema": "Pflanzen und Tiere im Niedermoor",
+   "kurztext": "Die Stauabsenkung Süd ist heute ein artenreiches Refugium: Rotbauchunke, Wollgras und das Sumpfblutauge – hier mit seinem größten zusammenhängenden Vorkommen im Spreewald – sind ebenso zu Hause wie Kiebitz, Bekassine, Kranich und der scheue Schwarzstorch. Im Auwald stehen Schwarzerlen, dazwischen sprossen Sumpfdotterblumen und Kalmus. Welche Arten entdecken wir auf dem Weg durch die Moorlandschaft?",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": 10000,
+    "tiefeM": null,
+    "lebenselixier": "hohe Wasserstände durch Winterstau",
+    "werdegang": "vom entwässerten Wiesenland – zum renaturierten Niedermoor-Refugium"
+   },
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 5179763862,
+   "lat": 51.8476402,
+   "lon": 14.008588,
+   "km": 7.49,
+   "titel": "Sauenmoor",
+   "thema": "Eingriffe in den Wasserhaushalt",
+   "kurztext": "Deiche, Umfluter und über 100 Stauanlagen haben den Spreewald im 20. Jahrhundert tiefgreifend verändert: Der Grundwasserspiegel fiel stellenweise um bis zu zwei Meter, Torfe zersetzten sich und der Boden sackte um bis zu 50 cm ab. Die rund 510 Hektar große „Stauabsenkung Süd“, in der wir hier stehen, wurde erst in den 1970er Jahren entwässert – ein Eingriff, der schon damals in der Bevölkerung heftig umstritten war.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": 510.0,
+    "alterJahre": null,
+    "tiefeM": null,
+    "lebenselixier": "gesteuerte Wasserstände über Schöpfwerke und Wehre",
+    "werdegang": "vom Niedermoor – zur Intensiv-Melioration – zur Wiedervernässung"
+   },
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 2819118201,
+   "lat": 51.8431529,
+   "lon": 14.0010231,
+   "km": 9.09,
+   "titel": "Schwarzer Weg",
+   "thema": "Das Gewässerrandstreifenprojekt",
+   "kurztext": "Von 2001 bis 2014 wurden hier die Wasserstände wieder erhöht und stabilisiert, um den Torfschwund zu stoppen: Im Winter werden weite Teile der Stauabsenkung geflutet, im Sommer nur dosiert Wasser eingelassen; eine Steinschwelle im Krummen Wehrfließ staut zusätzlich. Die Sommer-Wasserstände stiegen dadurch um bis zu 60 cm. Die Station zeigt auch, wie jeder selbst zum Moorschutz beitragen kann – etwa durch torffreie Blumenerde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 1288038156,
+   "lat": 51.8357022,
+   "lon": 14.008283,
+   "km": 10.29,
+   "titel": "Gustewitz",
+   "thema": "Torfabbau im Spreewald",
+   "kurztext": "„Am Torfstich“ – der Flurname erinnert an eine fast vergessene Arbeit: Seit dem frühen 19. Jahrhundert wurde hier Brenntorf von Hand gestochen, in Raddusch bis 1924; zu DDR-Zeiten folgten in den 1980er Jahren Mobilbagger für Düngetorf. Die Station beschreibt die mühsamen Arbeitsabläufe in den Handtorfstichen – vom „Abbanker“ bis zum „Stichler“. Mehr dazu in der Radduscher Heimatstube.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": null,
+    "tiefeM": null,
+    "lebenselixier": null,
+    "werdegang": "vom Handtorfstich des 19. Jahrhunderts – zum Mobilbagger-Abbau der DDR"
+   },
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 2819118301,
+   "lat": 51.8255491,
+   "lon": 14.0232024,
+   "km": 11.96,
+   "titel": "Quellgebiet Carna Gora",
+   "thema": "Braunkohle und ihre Spätfolgen",
+   "kurztext": "Die Tagebaue südwestlich von Raddusch ließen bis in die 1990er Jahre den Grundwasserspiegel absinken – Moore sackten um bis zu 60 cm ein, Häuser in Raddusch bekamen Schäden. Am Schwarzen Berg (niedersorbisch: Carna Gora) ist heute der Grundwasserwiederanstieg mit wieder aktiver Quelle zu sehen – und das Problem der Verockerung: Eisenocker färbt die Spreewässer braun und bedroht Fische, Schwarzstorch und Fischotter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": null,
+    "tiefeM": null,
+    "lebenselixier": "wiederansteigendes Grundwasser aus den rekultivierten Tagebauen",
+    "werdegang": "vom Grundwasser-Absenkungstrichter – zum renaturierten Quellgebiet"
+   },
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 9585791882,
+   "lat": 51.8194765,
+   "lon": 14.0419845,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 9585791885,
+   "lat": 51.8197895,
+   "lon": 14.0419931,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 10739281790,
+   "lat": 51.8194102,
+   "lon": 14.0424226,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12190034848,
+   "lat": 51.8239986,
+   "lon": 14.0260702,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12730550602,
+   "lat": 51.8198549,
+   "lon": 14.0432823,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12730550604,
+   "lat": 51.8201534,
+   "lon": 14.0437884,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12730550606,
+   "lat": 51.8190374,
+   "lon": 14.0429174,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12730976664,
+   "lat": 51.8207134,
+   "lon": 14.0397228,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731040443,
+   "lat": 51.8193137,
+   "lon": 14.0424043,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731040445,
+   "lat": 51.8195575,
+   "lon": 14.0423028,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731040446,
+   "lat": 51.820179,
+   "lon": 14.0411374,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731040447,
+   "lat": 51.8193715,
+   "lon": 14.0424608,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731145326,
+   "lat": 51.8191744,
+   "lon": 14.0418103,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731145330,
+   "lat": 51.8191686,
+   "lon": 14.0421299,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731145333,
+   "lat": 51.8191622,
+   "lon": 14.0419933,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12731178356,
+   "lat": 51.8195365,
+   "lon": 14.0416657,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12749888589,
+   "lat": 51.8234338,
+   "lon": 14.0275323,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12749919941,
+   "lat": 51.8223324,
+   "lon": 14.033448,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12749919944,
+   "lat": 51.8222648,
+   "lon": 14.0335845,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

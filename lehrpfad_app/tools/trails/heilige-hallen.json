@@ -1,0 +1,103 @@
+{
+ "id": "heilige-hallen",
+ "rohdaten": "heilige-hallen",
+ "name": "Heilige Hallen",
+ "typ": "wald",
+ "kurzbeschreibung": "Alter Buchenwald als Totalreservat bei Lüttenhagen – Pfad durch Wildnis, Arboretum Paradiesgarten am Start. Frei, Museum extra.",
+ "beschreibung": "Großherzog Georg ließ den hallenartigen Buchenwald schonen; heute NSG und Referenzwald ohne Bewirtschaftung. Die Hallen aus 350-jährigen Säulen sind teilweise zusammengebrochen – Jungbuchen und Totholz bestimmen das Bild. Parkplatz Lüttenhagen, Paradiesgarten (Arboretum), Pflasterstraße, Infotafel, Pfad durchs Reservat. Waldmuseum Lütt Holthus hat Eintritt und gehört nicht zum Ort. Frei für Wald und Arboretum. Wege nicht verlassen.",
+ "markierung": "Wanderweg Heilige Hallen / lokale Forst-Wegweisung",
+ "betreiber": "Forstamt / Naturpark Feldberger Seenlandschaft",
+ "region": "Lüttenhagen, Feldberger Seenlandschaft, Mecklenburgische Seenplatte",
+ "website": "https://www.mecklenburgische-seenplatte.de/wandertour-heilige-hallen",
+ "anreise": "Auto: L 341, Wanderparkplatz Ortsausgang Lüttenhagen. Bus 619 Neustrelitz–Feldberg, Halt Lüttenhagen Museum, dann zum Parkplatz/Wald.",
+ "startName": "Wanderparkplatz Ortsausgang Lüttenhagen (L 341)",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Igel",
+  "Rote Waldameise"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt"
+ ],
+ "rundkurs": true,
+ "dauerMin": 120,
+ "startAm": "parkplatz",
+ "stationen": {
+  "parkplatz": {
+   "lat": 53.3336,
+   "lon": 13.37252,
+   "titel": "Wanderparkplatz Lüttenhagen",
+   "thema": "Start",
+   "kurztext": "Ortsausgang, kostenlos parken. Gegenüber der Straße liegt der Wald, den niemand mehr aufräumt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "paradiesgarten": {
+   "lat": 53.3338778,
+   "lon": 13.3727533,
+   "titel": "Paradiesgarten",
+   "thema": "Arboretum",
+   "kurztext": "Arboretum des alten Oberförsters, wieder in Pflege. Exoten und Heimische – bestimmen, nicht pflücken.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "wanderweg-tafel": {
+   "lat": 53.3334458,
+   "lon": 13.3725761,
+   "titel": "Wanderweg Heilige Hallen",
+   "thema": "Orientierung",
+   "kurztext": "Die Runde ist ausgeschildert. Pflasterstraße zuerst, dann quer durchs Reservat.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "baumlehrpfad": {
+   "lat": 53.3341863,
+   "lon": 13.3748208,
+   "titel": "Baumlehrpfad",
+   "thema": "Gehölze am Rand",
+   "kurztext": "Kurzer Lehrbogen am Rand, bevor es in die Wildnis geht.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "totholz": {
+   "lat": 53.3332,
+   "lon": 13.3785,
+   "titel": "Totholz und Jungbuchen",
+   "thema": "Hallen zerfallen",
+   "kurztext": "Die Säulenhallen kippen. Dazwischen stehen junge Buchen. Das ist kein Schaden, das ist der Plan seit 160 Jahren ohne Axt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "nsg-tafel": {
+   "lat": 53.3328793,
+   "lon": 13.3847518,
+   "titel": "Lehrpfad Heilige Hallen",
+   "thema": "Fakten Schutzgebiet",
+   "kurztext": "Schutzgeschichte, Totalreservat, was erlaubt ist: gucken, Weg bleiben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  }
+ }
+}

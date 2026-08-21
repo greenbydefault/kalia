@@ -1,0 +1,95 @@
+{
+  "id": "wasserspielplatz-roebel",
+  "name": "Wasserspielplatz Seglerhafen Röbel",
+  "typ": "wasserspielplatz",
+  "form": "flaeche",
+  "kurzbeschreibung": "Kleiner Wasserspielplatz am Röbeler Seglerhafen – Pumpe, Hindernisse, Müritz daneben. Frei, ohne Ticket.",
+  "beschreibung": "Am Westufer der Müritz, an der Müritzpromenade, liegt ein kleiner Wasserspielplatz mit Pumpe und Wasserhindernissen. Öffentlich, kein Eintritt, kein Müritzeum. Wechselkleidung sinnvoll. Der Platz ist kein Waldlehrpfad und kein Stadt-Standardset allein: das hydrologische Spiel (Pumpe, stauen, Hindernisse) trägt den Ort – analog Wittstock, nur kleiner. Marina-Gastro, WC und Wohnmobilstellplatz gehören zum Hafenbetrieb (Öffnung/Nutzung können saisonal sein); Spontan-Wasserplatz ist das Outdoor-Spiel.",
+  "laengeKm": 0,
+  "dauerMin": 40,
+  "rundkurs": false,
+  "markierung": "Wasserspielplatz am Seglerhafen",
+  "betreiber": "Stadt Röbel / Röbeler Segler-Verein Müritz e. V.",
+  "region": "Röbel/Müritz, Mecklenburgische Seenplatte",
+  "website": "https://www.mecklenburgische-seenplatte.de/reiseziele/wasserspielplatz-am-seglerhafen",
+  "anreise": "Adresse: Müritzpromenade, 17207 Röbel/Müritz. Auto: Marina Röbel, Parkplätze am Hafen. Fuß/Rad: 5–10 min vom Stadtzentrum die Promenade nach Norden zum Seglerhafen (nicht Marktplatz-Spielplatz).",
+  "startName": "Wasserspielplatz am Seglerhafen",
+  "arten": [
+    "Libelle",
+    "Eisvogel"
+  ],
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz"
+  ],
+  "route": [],
+  "area": [
+    [53.3864576, 12.6161646],
+    [53.3864823, 12.6162081],
+    [53.3865519, 12.6163305],
+    [53.3866185, 12.6163389],
+    [53.3866772, 12.6161993],
+    [53.3866395, 12.6160832],
+    [53.386608, 12.6160539],
+    [53.3865436, 12.6160738],
+    [53.3864588, 12.6161249],
+    [53.3864576, 12.6161646]
+  ],
+  "stationen": [
+    {
+      "osmId": 920001,
+      "lat": 53.38655,
+      "lon": 12.6161,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Wasserpumpe",
+      "thema": "Muskelkraft, Fließen",
+      "kurztext": "Ohne Pumpen kein Bach. Hier entsteht der Fluss mit Armkraft – wie am Wittstocker Matschtisch, nur am großen See.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 920002,
+      "lat": 53.38662,
+      "lon": 12.61614,
+      "km": 0.01,
+      "reihenfolge": 2,
+      "titel": "Wasserhindernisse",
+      "thema": "Stauen, Umleiten",
+      "kurztext": "Wehre im Kleinen. Stau setzen, umleiten, zuschauen wie das Wasser den Weg sucht.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 3839884042,
+      "lat": 53.3870663,
+      "lon": 12.6180106,
+      "km": 0.15,
+      "reihenfolge": 3,
+      "titel": "Müritz am Hafen",
+      "thema": "See als Wasserquelle",
+      "kurztext": "Hinter dem Platz die Müritz. Dieselbe Physik, anderer Maßstab. Infotafel am Hafen, nicht ins Wasser.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 217310420,
+      "lat": 53.38715,
+      "lon": 12.6182,
+      "kategorie": "parking",
+      "name": "Marina Röbel"
+    },
+    {
+      "osmId": 4090312313,
+      "lat": 53.3880339,
+      "lon": 12.6179022,
+      "kategorie": "wc",
+      "name": "Marina"
+    }
+  ]
+}

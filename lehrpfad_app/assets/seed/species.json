@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "baumstaemme-kletter-balance",
+    "nameDe": "Baumstämme zum Klettern und Balancieren",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Stämme zum Klettern und Balancieren – der Wald wird zur Motorikstrecke unter den Füßen.",
+    "aliases": [
+      "Baumstämme",
+      "Kletterstämme"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Stämme zum Klettern und Balancieren – der Wald wird zur Motorikstrecke unter den Füßen.",
+      "erkennung": [
+        "Liegende und gestapelte Baumstämme",
+        "Zum Balancieren und Draufklettern",
+        "Im Kinderwald nahe der Schutzhütte"
+      ],
+      "lebensraum": "Mitten im Kinderwald Märkisch Buchholz: Holz statt Metall, Gleichgewicht auf runder Rinde.",
+      "funFacts": [
+        "Runde Stämme fordern andere Muskeln als ein Geländer.",
+        "Barfuß spürst du Rinde, Moos und Wärme.",
+        "Forstholz zum Spielen, nicht nur zum Verbrennen."
+      ],
+      "hinweis": "Nasses Holz wird rutschig – Tempo anpassen.",
+      "hoertext": "Vor dir liegen Stämme. Kein Spielplatz aus dem Katalog, sondern Waldholz zum Draufgehen. Balancier langsam. Die Rinde rollt unter den Sohlen. Kletter rüber, steig wieder runter. Genau das wollten die Förster hier: Motorik im Wald, nicht auf Asphalt. Nimm die Arme zur Hilfe. Schau, wo der Stamm aufliegt und wo er frei schwebt. Bei Nässe wird es rutschig – dann langsamer. Wer mutig ist, macht die Augen zu. Dann hörst du den Wald lauter: Blätter, Dahme, vielleicht ein Specht. Das Gerät erklärt sich durch Tun. Kein Schild muss dir sagen, dass Gleichgewicht Übung braucht. Du merkst es nach drei Schritten."
+    }
+  },
+  {
+    "id": "bergahorn",
+    "nameDe": "Bergahorn",
+    "nameLat": "Acer pseudoplatanus",
+    "kategorie": "flora",
+    "kurztext": "Seine Blätter wirken wie eine offene Hand – und die Früchte tanzen wie kleine Propeller zu Boden.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Seine Blätter wirken wie eine offene Hand – und die Früchte tanzen wie kleine Propeller zu Boden.",
+      "erkennung": [
+        "Handförmige Blätter mit fünf Lappen",
+        "Geflügelte Früchte in Paaren",
+        "Glatte Rinde an jungen Zweigen"
+      ],
+      "lebensraum": "In brandenburgischen Mischwäldern und an Moränenhängen, oft neben Eiche und Kiefer.",
+      "funFacts": [
+        "Die Flügelnüsschen drehen sich beim Fallen wie Helikopter.",
+        "Aus dem Saft ließ sich früher Sirup kochen.",
+        "Im Herbst färbt er sich oft gelb bis kupfrig."
+      ],
+      "hinweis": "",
+      "hoertext": "Schau dir mal die Blätter genau an. Sie wirken wie eine Hand mit gespreizten Fingern. Das ist der Bergahorn – ein typischer Baum in Brandenburgs Wäldern. Im Sommer wirft er geflügelte Früchte ab. Die drehen sich im Fall und fliegen ein Stück weiter. So erreicht der Baum neue Plätze, ohne dass jemand die Samen trägt. An den Lehrpfaden der Rauener Berge steht er oft zwischen Eiche und Kiefer. Wenn du ein Blatt findest, zähl die Lappen. Meist sind es fünf. Und wenn der Wind geht, kannst du die kleinen Propeller tanzen sehen."
+    }
+  },
+  {
+    "id": "besenheide",
+    "nameDe": "Besenheide",
+    "nameLat": "Calluna vulgaris",
+    "kategorie": "flora",
+    "kurztext": "Im August färbt sie die Kyritz-Ruppiner Heide lila – und summt vor Wildbienen.",
+    "aliases": [
+      "Heidekraut",
+      "Calluna"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im August färbt sie die Kyritz-Ruppiner Heide lila – und summt vor Wildbienen.",
+      "erkennung": [
+        "Kleine glockige Blüten in Lila bis Rosa",
+        "Immergrüne Zwergsträucher auf Sand",
+        "Von August bis September weithin sichtbar"
+      ],
+      "lebensraum": "Nährstoffarme Sandheiden der Kyritz-Ruppiner Heide – offen, sonnig, trocken.",
+      "funFacts": [
+        "Sie braucht magere Böden – zu viel Nährstoff verdrängt sie.",
+        "Heidekraut-Seidenbienen sind auf ihre Blüten spezialisiert.",
+        "Ohne Pflege würde Wald die Heideflächen zurückerobern."
+      ],
+      "hinweis": "Bitte nicht pflücken – Blüte für Bestäuber lassen.",
+      "hoertext": "Schau über die Fläche, wenn der Spätsommer da ist. Lila, soweit das Auge reicht. Das ist Besenheide – Calluna vulgaris. Kleine Blüten, großer Auftritt. Wildbienen summen mittendrin und sammeln, als gäbe es kein Morgen. Die Pflanze mag es mager und sonnig. Kommt zu viel Nährstoff oder dichter Jungwald, verliert sie den Platz. Hier in der Kyritz-Ruppiner Heide ist sie das Markenzeichen der Landschaft. Bleib auf dem Weg, atme den leichten Duft und hör einfach zu. Das Summen erzählt, warum diese Fläche so besonders ist. Ein lilafarbenes Meer – und darunter die harte Arbeit von Pflanze, Insekt und Pflege. Was du hier siehst, ist kein Zufall, sondern ein lebendiges System."
+    }
+  },
+  {
+    "id": "biber",
+    "nameDe": "Biber",
+    "nameLat": "Castor fiber",
+    "kategorie": "fauna",
+    "kurztext": "Hier formt jemand den Fluss um – oft siehst du die Baustelle, bevor du den Bauherrn siehst.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Hier formt jemand den Fluss um – oft siehst du die Baustelle, bevor du den Bauherrn siehst.",
+      "erkennung": [
+        "Frische Nagespuren an Weide oder Erle",
+        "Damm oder Burg aus Ästen am Ufer",
+        "Breite Rutsche vom Ufer ins Wasser"
+      ],
+      "lebensraum": "An Fließen, Gräben und Seen im Spreewald und anderen brandenburgischen Feuchtgebieten.",
+      "funFacts": [
+        "Mit den Zähnen schafft er in einer Nacht, wofür du eine Säge brauchst.",
+        "Sein Fell hält dich unter Wasser wärmer als ein Neoprenanzug.",
+        "Ein Damm kann den Wasserstand um Meter verändern."
+      ],
+      "hinweis": "Burgen und Dämme nicht betreten.",
+      "hoertext": "Stell dir vor, du kommst an ein Fließ – und der Wasserstand wirkt anders als gestern. Vielleicht hat hier der Biber gebaut. Tagsüber siehst du ihn selten. Aber seine Spuren sind klar: angenagte Weiden, eine Rutsche ins Wasser, manchmal ein Damm. Er formt die Landschaft wie ein kleiner Ingenieur. Früher war er bei uns fast verschwunden. Heute ist er zurück – scheu, stark und wichtig fürs Ökosystem. Halt Abstand zur Burg. Und such lieber nach den Nagespuren. Die erzählen die Geschichte schon. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+    }
+  },
+  {
+    "id": "bienen-schaukasten",
+    "nameDe": "Bienen-Schaukasten",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Hinter Glas arbeitet ein ganzer Staat – Brut, Nektar und Tanz auf engstem Raum.",
+    "aliases": [
+      "Bienenschaukasten",
+      "Schaukasten"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Hinter Glas arbeitet ein ganzer Staat – Brut, Nektar und Tanz auf engstem Raum.",
+      "erkennung": [
+        "Glaskasten mit Waben und Arbeiterinnen",
+        "Steht neben dem Insektenhotel",
+        "Blick ins Innere eines Bienenstocks"
+      ],
+      "lebensraum": "Im Kinderwald Märkisch Buchholz, direkt neben dem Insektenhotel – schauen, nicht öffnen.",
+      "funFacts": [
+        "Nektar wird in den Waben zu Honig.",
+        "Der Schwänzeltanz zeigt den Blütenweg.",
+        "Eine Königin, tausende Arbeiterinnen, ein Bau."
+      ],
+      "hinweis": "Kasten nicht öffnen, nur durchs Glas schauen.",
+      "hoertext": "Im Kinderwald steht ein Kasten mit Glas. Dahinter arbeitet ein Bienenvolk. Du siehst Waben, Brut und den Verkehr auf den Waben. Die Königin legt, die Arbeiterinnen füttern und lagern Nektar. Aus dem Nektar wird Honig. Manche Bienen tanzen – so zeigen sie den anderen, wo die Blüten sind. Das ist kein Anfassen. Nur schauen. Daneben liegt das Insektenhotel, wo Wildbienen allein nisten. Zwei Welten: Staat und Einzelgänger, direkt nebeneinander. Bleib ruhig stehen. Das Summen ist die Arbeit. Der Kasten erklärt, ohne ein langes Schild zu sein, wie ein Volk zusammenhält. Wenn du gehst, bleibt das Volk bei der Arbeit. Genau so soll es sein."
+    }
+  },
+  {
+    "id": "braunkehlchen",
+    "nameDe": "Braunkehlchen",
+    "nameLat": "Saxicola rubetra",
+    "kategorie": "fauna",
+    "kurztext": "Auf einem Zaunpfahl oder Heidestrauch sitzt es aufrecht – und wippt mit dem Schwanz.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Auf einem Zaunpfahl oder Heidestrauch sitzt es aufrecht – und wippt mit dem Schwanz.",
+      "erkennung": [
+        "Heller Überaugenstreif, orangebraune Brust",
+        "Sitzwarte auf Strauch oder Pfahl",
+        "Kurze Flüge zum Boden, zurück auf die Warte"
+      ],
+      "lebensraum": "Offene Heiden, Säume und strukturreiche Magerrasen mit Sitzwarten.",
+      "funFacts": [
+        "Es jagt Insekten von erhöhten Warten aus.",
+        "In intensiver Agrarlandschaft ist es selten geworden.",
+        "Die Heide bietet ihm noch den offenen Blick."
+      ],
+      "hinweis": "",
+      "hoertext": "Such eine erhöhte Warte – Strauch, Pfahl, trockener Zweig. Das Braunkehlchen sitzt gern sichtbar und startet kurze Fangflüge zum Boden. Heller Augenstreif, warme Brust, unruhiger Schwanz. In der ausgeräumten Landschaft wird es rar. Hier in der Heide findet es noch Struktur und Insekten. Bleib ruhig stehen. Oft kommt der Vogel zurück auf denselben Platz – wie ein kleiner Wächter der offenen Fläche. Wer ihn einmal erkannt hat, sieht die Ränder der Heide mit anderen Augen. Ein unscheinbarer Botschafter für Vielfalt am Wegesrand. Schau zweimal hin, bevor du weitergehst auf dem Pfad."
+    }
+  },
+  {
+    "id": "distelfalter",
+    "nameDe": "Distelfalter",
+    "nameLat": "Vanessa cardui",
+    "kategorie": "fauna",
+    "kurztext": "Dieser Falter reist Tausende Kilometer – und landet trotzdem auf der Distel vor dir.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Dieser Falter reist Tausende Kilometer – und landet trotzdem auf der Distel vor dir.",
+      "erkennung": [
+        "Orange Flügel mit schwarzen und weißen Flecken",
+        "Oft an Disteln und anderen Blüten",
+        "Schneller, unruhiger Flug bei Sonne"
+      ],
+      "lebensraum": "Sonnige Moorränder, Feuchtwiesen und Wegränder – besonders im Sommer.",
+      "funFacts": [
+        "Viele kommen aus dem Mittelmeerraum nach Norden gewandert.",
+        "Die Raupen fressen Disteln und verwandte Pflanzen.",
+        "Manche Generationen fliegen später wieder zurück."
+      ],
+      "hinweis": "",
+      "hoertext": "Siehst du den orangen Falter an der Distel? Das könnte ein Distelfalter sein. Er sieht aus, als käme er von hier – und doch hat er oft eine lange Reise hinter sich. Viele ziehen aus dem Süden zu uns, Generation für Generation. Ihre Raupen brauchen Disteln. Ohne solche Pflanzen endet die Reise. An sonnigen Moorrändern und Feuchtwiesen fliegt er im Sommer oft. Bleib kurz stehen und schau zu. Wanderfalter erzählen, dass Natur keine Grenze kennt – nur Wege, Blüten und Wind. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+    }
+  },
+  {
+    "id": "edelkastanie",
+    "nameDe": "Edelkastanie",
+    "nameLat": "Castanea sativa",
+    "kategorie": "flora",
+    "kurztext": "Stachelige Schale, essbare Nuss: das ist die echte Kastanie, nicht die vom Spielplatz.",
+    "aliases": [
+      "Esskastanie",
+      "Kastanie"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Stachelige Schale, essbare Nuss: das ist die echte Kastanie, nicht die vom Spielplatz.",
+      "erkennung": [
+        "Länglich gezähnte Blätter, lange Kätzchen",
+        "Früchte in stacheliger Hülle, essbar",
+        "Namensschilder bei Kastanie und Scheinkastanie"
+      ],
+      "lebensraum": "Im Arboretum Dreetz neben Eiche und Buche – dieselbe Familie, ganz anderes Blatt.",
+      "funFacts": [
+        "Edelkastanie und Eiche sind beides Buchengewächse.",
+        "Die Rosskastanie gehört in eine andere Familie.",
+        "Scheinkastanien stehen hier auch – Artnamen nur vom Schild."
+      ],
+      "hinweis": "Früchte am Baum lassen, wenn unklar.",
+      "hoertext": "Such ein Blatt mit vielen Zähnen am Rand, lang und schmal. Das ist oft die Edelkastanie. Nicht die Rosskastanie vom Dorfplatz. Die echte Kastanie trägt Früchte in einer stacheligen Hülle. Die Nüsse sind essbar, wenn sie reif sind. Hier im Waldgarten steht sie neben Eiche und Buche. Alle drei sind Buchengewächse. Das Holzschild sagt dir den Namen. Manchmal steht daneben eine Scheinkastanie. Dann vergleichst du Blatt und Frucht, statt zu raten. Der Betreiber pflanzt, was hier gedeiht, auch Arten aus Asien und Amerika. Bleib auf dem Pfad, lies das Schild und schau in die Krone."
+    }
+  },
+  {
+    "id": "eisvogel",
+    "nameDe": "Eisvogel",
+    "nameLat": "Alcedo atthis",
+    "kategorie": "fauna",
+    "kurztext": "Ein türkis-oranger Blitz über dem Wasser – und schon ist der Fisch weg.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Ein türkis-oranger Blitz über dem Wasser – und schon ist der Fisch weg.",
+      "erkennung": [
+        "Türkise Oberseite, oranger Bauch",
+        "Kurzer Schwanz, langer spitzer Schnabel",
+        "Sturzflug vom Ansitz ins klare Wasser"
+      ],
+      "lebensraum": "An klaren Fließen und Seen mit ruhigen Ufern – im Spreewald besonders spannend.",
+      "funFacts": [
+        "Er taucht so schnell, dass du den Einschlag oft nur hörst.",
+        "Zum Brüten braucht er Steilufer, in die er eine Röhre gräbt.",
+        "Sein Gefieder sieht aus der Nähe noch greller aus als von weitem."
+      ],
+      "hinweis": "Brutufer nicht betreten, Abstand halten.",
+      "hoertext": "Am klaren Fließ lohnt ein ruhiger Blick. Manchmal sitzt dort ein kleiner Vogel mit riesigem Schnabel. Türkise und orange – das ist der Eisvogel. Er wartet. Dann stürzt er ins Wasser und kommt mit einem Fisch wieder hoch. Zum Brüten braucht er Steilwände am Ufer. Ohne Ruhe verschwindet er. Im Spreewald ist er ein besonderer Moment. Wenn du ihn siehst, bleib still. Oft kommt er zurück zum gleichen Ansitz. Und dann wirkt die Landschaft plötzlich wie ein Film – kurz, bunt und ganz nah. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+    }
+  },
+  {
+    "id": "europaeische-laerche",
+    "nameDe": "Europäische Lärche",
+    "nameLat": "Larix decidua",
+    "kategorie": "flora",
+    "kurztext": "Der einzige heimische Nadelbaum, der im Herbst seine Nadeln einfach und sichtbar abwirft.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Der einzige heimische Nadelbaum, der im Herbst seine Nadeln einfach und sichtbar abwirft.",
+      "erkennung": [
+        "Weiche Nadeln in Büscheln an Kurztrieben",
+        "Im Herbst goldgelb, im Winter kahl",
+        "Kleine aufrechte Zapfen am Zweig"
+      ],
+      "lebensraum": "In Mischwäldern der Rauener Berge und ähnlichen brandenburgischen Beständen.",
+      "funFacts": [
+        "Im Frühjahr treibt sie hellgrün aus – wie frisches Licht im Wald.",
+        "Ihre Nadeln sind weicher als bei Kiefer oder Fichte.",
+        "Im Herbst leuchtet sie goldgelb zwischen immergrünen Nachbarn."
+      ],
+      "hinweis": "",
+      "hoertext": "Nadelbaum – und trotzdem werden im Herbst die Nadeln gelb und fallen ab. Das ist die Europäische Lärche, unser einziger heimischer Nadelbaum mit diesem Trick. Im Frühjahr wirkt sie hellgrün und frisch. Im Winter steht sie kahl zwischen Kiefern. An den Kurztrieben sitzen die Nadeln in kleinen Büscheln. Fühl sie mal – sie sind weicher, als du denkst. An den Lehrpfaden der Rauener Berge findest du sie oft in gemischten Beständen. Wenn der Wald golden wird, schau genau hin. Manchmal ist es keine Laubbaum-Krone – sondern eine Lärche. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+    }
+  },
+  {
+    "id": "fischotter",
+    "nameDe": "Fischotter",
+    "nameLat": "Lutra lutra",
+    "kategorie": "fauna",
+    "kurztext": "Meist siehst du nur die Spur am Ufer – der Otter selbst bleibt ein Gerücht im Wasser.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Meist siehst du nur die Spur am Ufer – der Otter selbst bleibt ein Gerücht im Wasser.",
+      "erkennung": [
+        "Losung oder Fischreste am Uferstein",
+        "Rutschspuren ins Wasser",
+        "Breite Pfotenabdrücke mit Schwimmhäuten"
+      ],
+      "lebensraum": "An störungsarmen Flüssen, Fließen und Seen – in Brandenburg wieder häufiger.",
+      "funFacts": [
+        "Er kann unter Wasser die Augen offen halten und trotzdem scharf sehen.",
+        "Ein Otter-Revier kann mehrere Kilometer Ufer umfassen.",
+        "Nachtaktiv: tagsüber ist Geduld wichtiger als Glück."
+      ],
+      "hinweis": "Ufer ruhig lassen, nicht nachstellen.",
+      "hoertext": "Am Ufer liegt manchmal eine Spur, die wie ein Geheimnis wirkt. Fischreste, eine Rutsche, ein Abdruck mit Schwimmhaut – vielleicht war der Fischotter da. Selbst siehst du ihn selten. Er ist scheu, nachtaktiv und blitzschnell im Wasser. In Brandenburg hat er sich erholt. Aber er braucht ruhige Ufer ohne ständigen Stress. Wenn du suchst, such Spuren – nicht das Tier. Das ist oft der spannendere Fund. Denn dann weißt du: Hier lebt jemand, der das Gewässer wirklich nutzt. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+    }
+  },
+  {
+    "id": "gepflasterte-wasserrinne",
+    "nameDe": "Gepflasterte Wasserrinne",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Die gepflasterte Rinne führt das Wasser weiter – folge dem Lauf und lenke mit.",
+    "aliases": [
+      "Wasserrinne",
+      "Rinne"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Die gepflasterte Rinne führt das Wasser weiter – folge dem Lauf und lenke mit.",
+      "erkennung": [
+        "Schmale, gepflasterte Wasserrinne",
+        "Verbindet Quellen mit Wehren und Tisch",
+        "Hügel und Mulde formen den Verlauf"
+      ],
+      "lebensraum": "Mitten auf dem Wittstocker Wasserspielplatz: die Bahn, auf der das Wasser von Stein zu Stein wandert.",
+      "funFacts": [
+        "Gefälle entscheidet, wie schnell es fließt.",
+        "Mit Sand oder Händen kannst du umleiten.",
+        "Die Rinne macht aus Tropfen einen kleinen Bach."
+      ],
+      "hinweis": "Auf nassem Pflaster vorsichtig gehen.",
+      "hoertext": "Folge dem Wasser mit den Augen. Es läuft in einer gepflasterten Rinne – wie ein kleiner Bach, den Menschen gebaut haben. Von den Quellsteinen kommt es hierher und wandert weiter zu Wehren und Matschtisch. Schau auf das Gefälle: Wo es steiler wird, wird der Lauf schneller. Du kannst mit Händen oder Sand den Weg ein bisschen verändern. Genau darum geht es: verstehen, wie Wasser sich bewegt, ohne ein Schulbuch aufzuschlagen. Bleib auf dem Pflaster und genieß das Plätschern. Ein einfacher Kanal – und trotzdem ein ganzes Abenteuer für Hände und Füße. Wenn du dem Lauf folgst, siehst du, wie alles zusammenhängt."
+    }
+  },
+  {
+    "id": "grosse-moosjungfer",
+    "nameDe": "Große Moosjungfer",
+    "nameLat": "Leucorrhinia pectoralis",
+    "kategorie": "fauna",
+    "kurztext": "Diese Libelle verrät intakte Moore – sie mag es nass, moosig und ungestört.",
+    "aliases": [
+      "Moosjungfer"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Diese Libelle verrät intakte Moore – sie mag es nass, moosig und ungestört.",
+      "erkennung": [
+        "Gelbliche Zeichnung am Hinterleib der Männchen",
+        "Fliegt über moorigen Verlandungszonen",
+        "Sitzt gern auf Torfmoos und Seggen"
+      ],
+      "lebensraum": "Moorige Gewässer und Verlandungszonen mit Torfmoosen – Charakterart intakter Niedermoore.",
+      "funFacts": [
+        "Ihr Name klingt weich – ihr Lebensraum ist hart umkämpft.",
+        "Sie gilt in Brandenburg als besonders schützenswert.",
+        "Wo sie fliegt, stimmt oft das ganze Moor-System noch."
+      ],
+      "hinweis": "Moospolster nicht betreten.",
+      "hoertext": "Über dem Moor tanzt manchmal eine Libelle mit heller Zeichnung am Hinterleib. Die Große Moosjungfer mag es nass und moosig. Sie braucht Verlandungszonen mit Torfmoosen – keine sterilen Gräben. Deshalb ist sie ein gutes Zeichen: Hier funktioniert das Moor noch. Schau im Sommer ruhig an den Rand der Wasserflächen. Und bleib auf dem Steg oder Weg. Die weichen Polster sind ihr Wohnzimmer – und das Fundament des Moores. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "grosser-feuerfalter",
+    "nameDe": "Großer Feuerfalter",
+    "nameLat": "Lycaena dispar",
+    "kategorie": "fauna",
+    "kurztext": "Kupferrot wie eine kleine Flamme – und angewiesen auf nasse Wiesen mit Ampfer.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Kupferrot wie eine kleine Flamme – und angewiesen auf nasse Wiesen mit Ampfer.",
+      "erkennung": [
+        "Männchen leuchtend kupferrot",
+        "An Feuchtwiesen mit Ampferarten",
+        "Kleiner Tagfalter mit schnellem Flug"
+      ],
+      "lebensraum": "Feuchtwiesen und Niedermoorränder – bedroht durch Entwässerung und frühe Mahd.",
+      "funFacts": [
+        "Die Raupen fressen bestimmte Ampferarten, nicht einfach „irgendwas Grünes“.",
+        "Zu frühe Mahd kann eine ganze Generation vernichten.",
+        "Schonende Nutzung hält seine Wiesen lebendig."
+      ],
+      "hinweis": "",
+      "hoertext": "Auf der Feuchtwiese blitzt manchmal etwas Kupferfarbenes auf. Der Große Feuerfalter sieht aus wie eine kleine Flamme im Gras. Seine Raupen brauchen Ampfer – und die Wiese darf nicht zu früh gemäht werden. Entwässerung macht ihm ebenfalls zu schaffen. Wenn du ihn siehst, hast du also mehr als einen schönen Falter gefunden. Du siehst ein Stück Pflege, das funktioniert. Bleib auf dem Weg, schau zu, und nimm mit: Schönheit hier hängt an Wasser und Zeit. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "hangeltau-12m",
+    "nameDe": "12-Meter-Tau",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Zwölf Meter Tau durch den Wald – hangeln, barfuß oder mit geschlossenen Augen.",
+    "aliases": [
+      "Hangeltau",
+      "Tau"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Zwölf Meter Tau durch den Wald – hangeln, barfuß oder mit geschlossenen Augen.",
+      "erkennung": [
+        "Langes Tau zwischen Bäumen gespannt",
+        "Zum Entlanghangeln mit den Händen",
+        "Barfuß den Waldboden spüren"
+      ],
+      "lebensraum": "Im Kinderwald Märkisch Buchholz: ein Seil als Linie durch den Bestand, Hände vor, Boden unter den Füßen.",
+      "funFacts": [
+        "Zwölf Meter fühlen sich länger an als sie klingen.",
+        "Geschlossene Augen schärfen Gehör und Gleichgewicht.",
+        "Barfuß wird der Waldboden zur zweiten Information."
+      ],
+      "hinweis": "Bei Nässe rutscht das Tau – fest zupacken.",
+      "hoertext": "Ein langes Tau hängt zwischen den Bäumen. Zwölf Meter. Greif zu und hangle dich entlang. Wer mutig ist, macht die Augen zu. Oder zieht die Schuhe aus. Dann spürst du den Waldboden: Nadeln, Wurzeln, kühler Sand. Der Flyer sagt genau das – Geräusche und Düfte wirken stärker, wenn die Augen Pause machen. Das ist kein Seilgarten mit Gurt. Es ist ein Stück Wald, das dich zwingt, langsam zu sein. Halt dich fest. Bei Nässe wird das Tau glatt. Am Ende weißt du, wie weit zwölf Meter wirklich sind. Und wie laut der Wald wird, wenn du ihn nicht ansiehst."
+    }
+  },
+  {
+    "id": "haselnuss",
+    "nameDe": "Haselnuss",
+    "nameLat": "Corylus avellana",
+    "kategorie": "flora",
+    "kurztext": "Vor dem Laub hängen schon die Kätzchen – später suchst du die Nüsse in der Hecke.",
+    "aliases": [
+      "Hasel",
+      "Gemeine Hasel"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Vor dem Laub hängen schon die Kätzchen – später suchst du die Nüsse in der Hecke.",
+      "erkennung": [
+        "Längliche Kätzchen vor dem Blattaustrieb",
+        "Runde Blätter mit gesägtem Rand",
+        "Nüsse in gezackter grüner Hülle"
+      ],
+      "lebensraum": "In der Hecke am Natter-Pfad bei Goyatz, zusammen mit Rose, Liguster und Weide.",
+      "funFacts": [
+        "Die Kätzchen stauben gelb, das ist der Pollen.",
+        "Eichhörnchen räumen die Nüsse oft vor dir.",
+        "Hasel blüht, wenn der Wald noch kahl ist."
+      ],
+      "hinweis": "",
+      "hoertext": "Such in der Hecke die Zweige mit den runden, gesägten Blättern. Im Vorfrühling hängen schon die Kätzchen, lange bevor das Laub da ist. Das ist die Haselnuss. Fass ein Kätzchen an – es staubt gelb, das ist der Pollen. Später sitzen die Nüsse in einer gezackten Hülle. Eichhörnchen und Kleiber kennen den Platz oft früher als du. Am Natter-Pfad säumt sie den Weg mit Rose und Weide. Im Herbst findest du leere Schalen. Bleib auf dem Pfad, die Hecke ist Lebensraum, kein Vorratsschrank. Ein Strauch, den du tasten und später wiederfinden kannst."
+    }
+  },
+  {
+    "id": "haushuhn",
+    "nameDe": "Haushuhn",
+    "nameLat": "Gallus gallus domesticus",
+    "kategorie": "fauna",
+    "kurztext": "Das Huhn scharrt, als würde es den Hof umgraben – und findet dabei mehr als du auf den ersten Blick.",
+    "aliases": [
+      "Huhn",
+      "Hühner",
+      "Hahn"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Das Huhn scharrt, als würde es den Hof umgraben – und findet dabei mehr als du auf den ersten Blick.",
+      "erkennung": [
+        "Scharrt mit den Füßen im Boden",
+        "Pickt Körner und Insekten auf",
+        "Hahn kräht, Hennen gackern im Pulk"
+      ],
+      "lebensraum": "Auf dem Kinderbauernhof an der Panke: Auslauf, Staubbad, Stall. Kein Mastbetrieb – du siehst, wie ein Huhn den Boden liest.",
+      "funFacts": [
+        "Ein Staubbad hält Parasiten in Schach.",
+        "Sie sehen UV-Licht, das dir verborgen bleibt.",
+        "Der Schnabel ist Werkzeug, nicht nur Mund."
+      ],
+      "hinweis": "Nicht frei füttern – krank durch Extra-Körner.",
+      "hoertext": "Vor dir scharrt ein Huhn, als hätte es einen Auftrag. Es gräbt den Boden um und pickt, was du übersehen hast: Körner, Käfer, Steinchen. Der Schnabel ist Werkzeug. Der Staub auf den Federn ist Pflege, kein Dreck. Ein Staubbad hält Parasiten fern. Fütter nicht aus der Tasche. Extra-Körner machen Tiere krank. Um 16 Uhr darfst du mit den Betreuern füttern. Bis dahin schau zu, wie der Pulk den Hof liest. Hahn und Henne klingen verschieden. An der Panke lernst du den Alltag, nicht die Vitrine. Bleib ruhig. Das Huhn kommt näher, wenn du nicht jagst."
+    }
+  },
+  {
+    "id": "hauskaninchen",
+    "nameDe": "Hauskaninchen",
+    "nameLat": "Oryctolagus cuniculus domesticus",
+    "kategorie": "fauna",
+    "kurztext": "Das Kaninchen sitzt still – und hört dich früher, als du es siehst.",
+    "aliases": [
+      "Kaninchen"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Das Kaninchen sitzt still – und hört dich früher, als du es siehst.",
+      "erkennung": [
+        "Lange Ohren, ständig in Bewegung",
+        "Hinterläufe zum Sprung bereit",
+        "Nagt leise an Heu oder Zweig"
+      ],
+      "lebensraum": "Am Hof an der Panke im Gehege mit Unterschlupf. Kein Streichelautomat – Abstand hält das Tier ruhig.",
+      "funFacts": [
+        "Die Ohren sind Radar und Klimaanlage zugleich.",
+        "Es frisst den eigenen Blinddarmkot, so holt es Vitamine.",
+        "Panik macht es zum Fluchttier, nicht zum Kuscheltier."
+      ],
+      "hinweis": "Nicht hinterherjagen, nicht aus dem Gehege holen.",
+      "hoertext": "Das Kaninchen sitzt und rührt sich kaum. Die Ohren drehen sich trotzdem. Es hat dich gehört, bevor du es gesehen hast. Lange Ohren sind Radar und Kühlung. Die Hinterläufe warten auf den Sprung. Das ist kein Stofftier. Jagen stresst, Hochheben auch. Schau, wie es Heu nagt. Um 16 Uhr darfst du mitfüttern, nicht vorher. Streicheln nur mit Betreuer. An der Panke lernst du, still zu bleiben. Wer wartet, sieht mehr als wer greift. Das Kaninchen bleibt im Gehege, du bleibst draußen. Genau so bleibt der Umgang fair. Bleib einen Moment stehen und atme mit."
+    }
+  },
+  {
+    "id": "heckenrose",
+    "nameDe": "Heckenrose",
+    "nameLat": "Rosa canina",
+    "kategorie": "flora",
+    "kurztext": "Im Mai hängt die Hecke voll rosa Schalen – im Herbst sitzen die Hagebutten wie Laternen.",
+    "aliases": [
+      "Hundsrose",
+      "Hagebutte"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Mai hängt die Hecke voll rosa Schalen – im Herbst sitzen die Hagebutten wie Laternen.",
+      "erkennung": [
+        "Fünf rosa Blütenblätter, oft einzeln",
+        "Bogenförmige Zweige mit Stacheln",
+        "Rote Hagebutten im Herbst"
+      ],
+      "lebensraum": "Hecke am Natter-Pfad südlich von Goyatz, am Grünland der Feuchtwiesen.",
+      "funFacts": [
+        "Hagebutten füttern Vögel, wenn wenig anderes bleibt.",
+        "Die Stacheln sind umgebogene Haut, kein Dorn im Holz.",
+        "Im Mai summt die Hecke vor Wildbienen."
+      ],
+      "hinweis": "Stacheln – Zweig nicht in die Hand nehmen.",
+      "hoertext": "Schau in die Hecke, nicht nur auf den Weg. Im Mai stehen rosa Schalen offen, oft einzeln, nicht in Dolden. Das ist die Heckenrose. Die Zweige biegen sich in Bögen und tragen Stacheln. Fass nicht zu. Im Herbst sitzen die Hagebutten wie kleine Laternen. Vögel holen sie, wenn das Grünland kahl wird. Am Natter-Pfad steht sie mit Liguster, Traubenkirsche, Salweide und Haselnuss. Im Frühling summt es. Such eine offene Blüte und zähl die Blätter – meist fünf. Dann geh weiter, die Hecke bleibt stehen. Ein Strauch, der den Pfad einfasst und den Insekten Arbeit gibt."
+    }
+  },
+  {
+    "id": "heidekraut-seidenbiene",
+    "nameDe": "Heidekraut-Seidenbiene",
+    "nameLat": "Colletes succinctus",
+    "kategorie": "fauna",
+    "kurztext": "Sie sammelt fast nur an Besenheide – ohne lila Blüte keine nächste Generation.",
+    "aliases": [
+      "Seidenbiene"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Sie sammelt fast nur an Besenheide – ohne lila Blüte keine nächste Generation.",
+      "erkennung": [
+        "Einzelbiene an Calluna-Blüten",
+        "Oft in sandigen Nistansammlungen",
+        "Aktive Zeit zur Heideblüte"
+      ],
+      "lebensraum": "Heideflächen mit Besenheide und offenen Sandstellen zum Nisten.",
+      "funFacts": [
+        "Sie ist auf Heidekraut spezialisiert – oligolektisch.",
+        "Nester liegen oft in sonnigem Sand.",
+        "Zur Blütezeit kannst du sie in Mengen summen hören."
+      ],
+      "hinweis": "",
+      "hoertext": "Knie dich nicht in die Blüten – hör einfach hin. Zur Heideblüte summt es ordentlich über dem Lila. Die Heidekraut-Seidenbiene holt Pollen fast nur von Calluna. Verschwindet die Heide, verschwindet sie. Nistplätze braucht sie im sonnigem Sand. Hier in Sielmanns Naturlandschaft trifft sie beides. Ein kleines Tier mit großer Abhängigkeit. Deshalb ist jeder Meter intakte Heide mehr als nur ein schönes Foto. Wenn du das Summen hörst, hörst du Spezialisierung. Bleib auf dem Weg und lass die Blüten den Bienen. Nimm dir eine Minute und folge einer Biene von Blüte zu Blüte."
+    }
+  },
+  {
+    "id": "heidelerche",
+    "nameDe": "Heidelerche",
+    "nameLat": "Lullula arborea",
+    "kategorie": "fauna",
+    "kurztext": "Ihr Gesang fällt von oben herab – oft hörst du sie, bevor du sie im Sand findest.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Ihr Gesang fällt von oben herab – oft hörst du sie, bevor du sie im Sand findest.",
+      "erkennung": [
+        "Unauffälliges Braun mit heller Augenbraue",
+        "Singflug über offenen Heideflächen",
+        "Bodenbrüter – nestnah unsichtbar"
+      ],
+      "lebensraum": "Trockene Heiden und lichte Kiefernwälder mit offenen Stellen.",
+      "funFacts": [
+        "Sie brütet am Boden und braucht Ruhe vor Hunden.",
+        "Der Gesang ist melodiös und oft lange zu hören.",
+        "Offene Sandflächen sind für sie überlebenswichtig."
+      ],
+      "hinweis": "Hunde anleinen – Bodenbrüter!",
+      "hoertext": "Halt kurz an und hör nach oben. Manchmal singt die Heidelerche, während du nur Sand und Heide siehst. Sie ist unauffällig braun, aber stimmlich präsent und klar. Am Boden brütet sie – deshalb sind freilaufende Hunde hier ein echtes Problem. Offene Heide und lichte Kiefernwälder sind ihr Zuhause. Wenn du den Gesang hörst, hast du den Charaktervogel der Heide entdeckt. Bleib auf dem Weg, halte den Hund kurz und genieß das Konzert. Es ist leise, ausdauernd und gehört zu diesem Ort wie das Heidekraut selbst. Ein Vogel, den man oft zuerst mit den Ohren findet."
+    }
+  },
+  {
+    "id": "honigbiene",
+    "nameDe": "Honigbiene",
+    "nameLat": "Apis mellifera",
+    "kategorie": "fauna",
+    "kurztext": "Im Schaukasten siehst du den Staat bei der Arbeit – Waben, Brut und den Nektartanz.",
+    "aliases": [
+      "Honigbienen"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Schaukasten siehst du den Staat bei der Arbeit – Waben, Brut und den Nektartanz.",
+      "erkennung": [
+        "Streifen am Hinterleib, Körbchen an den Beinen",
+        "Im Glaskasten auf den Waben unterwegs",
+        "Summt als Volk, nicht als Einzelbiene"
+      ],
+      "lebensraum": "Im Kinderwald im Schaukasten und an Blüten ringsum – Honigbienen leben im Staat.",
+      "funFacts": [
+        "Eine Königin legt, der Rest baut und sammelt.",
+        "Nektar wird in den Waben zu Honig.",
+        "Der Schwänzeltanz zeigt den Weg zur Blüte."
+      ],
+      "hinweis": "Kasten geschlossen lassen, Bienen nicht reizen.",
+      "hoertext": "Schau durchs Glas. Da läuft keine einzelne Biene – da arbeitet ein Staat. Honigbienen teilen sich die Aufgaben. Die Königin legt. Arbeiterinnen füttern Brut, bauen Waben, holen Nektar. Aus dem Nektar wird Honig. Manche tanzen auf der Wabe. Der Tanz ist eine Landkarte: Richtung und Entfernung zur Blüte. Im Kinderwald steht dieser Kasten extra zum Zuschauen. Daneben nisten Wildbienen allein im Hotel. Zwei Strategien, ein Wald. Bleib ruhig. Klopf nicht gegen das Glas. Was du siehst, passiert draußen an jeder blühenden Weide genauso – nur ohne Fenster. Hier darfst du das Innere einmal verstehen."
+    }
+  },
+  {
+    "id": "hummel",
+    "nameDe": "Hummel",
+    "nameLat": "Bombus",
+    "kategorie": "fauna",
+    "kurztext": "Während andere noch zittern, brummt sie schon – warm und schwer durch kühle Luft.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Während andere noch zittern, brummt sie schon – warm und schwer durch kühle Luft.",
+      "erkennung": [
+        "Dicker pelziger Körper, lautes Brummen",
+        "Auch bei Kühle und im Schatten aktiv",
+        "Oft an Blüten von Waldrand und Lichtung"
+      ],
+      "lebensraum": "Blütenreiche Waldränder, Lichtungen und Wiesen – Nester oft im Boden oder alten Mäuselöchern.",
+      "funFacts": [
+        "Ihr Pelz hilft, Wärme zu erzeugen – sie fliegt früher als viele Bienen.",
+        "Viele Arten nisten unterirdisch, nicht im Bienenstock.",
+        "Eine Hummel kann Blüten bestäuben, die Honigbienen links liegen lassen."
+      ],
+      "hinweis": "Nester im Boden nicht öffnen.",
+      "hoertext": "Hörst du dieses tiefe Brummen am Waldrand? Das könnte eine Hummel sein. Sie sieht aus wie eine flauschige Flugmaschine. Und sie kann etwas Besonderes: Auch wenn es kühl ist, wird sie warm genug zum Fliegen. Deshalb bestäubt sie früher und an schattigen Stellen. Ihr Nest liegt oft im Boden oder in einem alten Mäuseloch. Blütenvielfalt ist ihr Tankstelle. Wenn du eine siehst, bleib kurz stehen. Dieses Brummen ist der Soundtrack eines gesunden Rands. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "igel",
+    "nameDe": "Igel",
+    "nameLat": "Erinaceus europaeus",
+    "kategorie": "fauna",
+    "kurztext": "Nachts knistert das Laub – tagsüber verrät oft nur das Versteck, dass er da war.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Nachts knistert das Laub – tagsüber verrät oft nur das Versteck, dass er da war.",
+      "erkennung": [
+        "Kugeliges Tier mit Stacheln",
+        "Tagesversteck unter Reisig oder Laub",
+        "Kot mit Resten von Käfern und Schnecken"
+      ],
+      "lebensraum": "Waldränder, Unterholz und strukturreiche Gärten – an Lehrpfaden eher über Spuren präsent.",
+      "funFacts": [
+        "Er rollt sich zur Kugel, wenn Gefahr droht.",
+        "Nachtjäger: Käfer, Regenwürmer und Schnecken stehen auf dem Speiseplan.",
+        "Reisighaufen sind für ihn wie ein Hotel."
+      ],
+      "hinweis": "Nicht anfassen, nicht füttern mit Milch.",
+      "hoertext": "Unter dem Reisighaufen kann tagsüber ein Gast schlafen: der Igel. Nachts wird er aktiv und sucht Käfer, Würmer und Schnecken. Siehst du ihn selten, ist das normal. Er meidet den Trubel. An Waldlehrpfaden findest du eher Spuren und Verstecke. Laub, Totholz und dichte Ecken sind sein Lebensraum. Bitte nicht anfassen und keine Milch hinstellen – das schadet ihm. Ein ungestörter Haufen Reisig hilft mehr als jedes Foto. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "kiefer",
+    "nameDe": "Kiefer",
+    "nameLat": "Pinus sylvestris",
+    "kategorie": "flora",
+    "kurztext": "Oranger Stamm oben, lange Nadeln zu zweit – das ist Brandenburgs Klassiker auf Sand.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Oranger Stamm oben, lange Nadeln zu zweit – das ist Brandenburgs Klassiker auf Sand.",
+      "erkennung": [
+        "Lange Nadeln in Zweierbündeln",
+        "Oberer Stamm oft orange-bräunlich",
+        "Große Zapfen, die sich bei Trockenheit öffnen"
+      ],
+      "lebensraum": "Trockene Sandböden und weite Kiefernwälder – viele Lehrpfade führen mitten hindurch.",
+      "funFacts": [
+        "Sie kommt mit nährstoffarmem Sand klar, wo andere Bäume streiken.",
+        "Viele Bestände werden langsam zu Mischwäldern umgebaut.",
+        "Ihre Zapfen öffnen sich bei Trockenheit und schließen sich bei Nässe."
+      ],
+      "hinweis": "",
+      "hoertext": "Schau den Stamm nach oben. Wird er orange und schuppig? Dann steht vor dir wahrscheinlich eine Waldkiefer. Ihre Nadeln wachsen zu zweit in einem Bündel. Zähl nach. Auf Brandenburgs Sandböden ist sie die Klassikerin. Sie braucht wenig und hält viel aus – Hitze, Trockenheit, magere Erde. Viele Lehrpfade führen durch solche Wälder. Und immer öfter siehst du dazwischen junge Laubbäume. Der Wald verändert sich – langsam, aber spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "kinderhochstand",
+    "nameDe": "Kinderhochstand",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Ein Hochsitz in Kinderhöhe – Jagd anschauen, Wald von oben lesen, nicht schießen.",
+    "aliases": [
+      "Hochsitz",
+      "Kinderhochsitz"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Ein Hochsitz in Kinderhöhe – Jagd anschauen, Wald von oben lesen, nicht schießen.",
+      "erkennung": [
+        "Kleiner Hochsitz aus Holz",
+        "Leiter hinauf, Blick über den Bestand",
+        "Anschauung zur Jagd, kein echter Ansitz"
+      ],
+      "lebensraum": "Im Kinderwald Märkisch Buchholz: der Hochstand erklärt Forst und Jagd, zum Raufklettern und Ausschauen.",
+      "funFacts": [
+        "Echte Hochsitze stehen am Waldrand, nicht im Spiel.",
+        "Von oben siehst du Schneisen und Lichtungen anders.",
+        "Jagd gehört zu den Tafeln nebenan – hier darfst du klettern."
+      ],
+      "hinweis": "Leiter nacheinander, nicht springen.",
+      "hoertext": "Da steht ein kleiner Hochsitz. Kletter rauf. Unten ist Spiel, oben wird der Wald zur Karte: Stämme, Lücken, vielleicht die Dahme zwischen den Kronen. Förster nutzen Hochsitze zur Jagd. Dieser hier ist zum Anschauen gebaut, in Kinderhöhe. Die Tafeln daneben erzählen, warum im Wald gejagt wird. Du musst das nicht mögen. Du sollst es verstehen. Halt dich fest an der Leiter. Einer nach dem anderen. Von oben wirkt der Kinderwald kleiner und der richtige Wald größer. Genau dieser Perspektivwechsel ist der Trick. Steig wieder runter, und der Boden fühlt sich anders an."
+    }
+  },
+  {
+    "id": "kleiner-fuchs",
+    "nameDe": "Kleiner Fuchs",
+    "nameLat": "Aglais urticae",
+    "kategorie": "fauna",
+    "kurztext": "Einer der ersten Tagfalter im Jahr – oft schon unterwegs, wenn es noch frisch ist.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Einer der ersten Tagfalter im Jahr – oft schon unterwegs, wenn es noch frisch ist.",
+      "erkennung": [
+        "Orange Flügel mit dunkler Randzeichnung",
+        "Unterseite wirkt wie trockenes Blatt",
+        "Oft an Brennnesseln und warmen Stellen"
+      ],
+      "lebensraum": "Sonnige Wegränder und Moorrandzonen – Raupen an Brennnesseln.",
+      "funFacts": [
+        "Er überwintert als Falter und startet deshalb früh durch.",
+        "Die Unterseite tarnt ihn wie welkes Laub.",
+        "Brennnesseln sind für ihn kein Unkraut, sondern Kinderstube."
+      ],
+      "hinweis": "",
+      "hoertext": "Früh im Jahr, wenn andere Falter noch fehlen, flattert manchmal schon Orange am Wegrand. Der Kleine Fuchs hat den Winter als Falter überstanden. Deshalb ist er früh dran. Seine Raupen leben an Brennnesseln. Klapp die Flügel zu – und er verschwindet fast, weil die Unterseite wie ein Blatt wirkt. An sonnigen Moorrändern und Wegen siehst du ihn oft auf warmen Steinen. Ein kleiner Frühjahrsgruß mit Tarnkappe. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "knabenkraut",
+    "nameDe": "Knabenkraut",
+    "nameLat": "Dactylorhiza",
+    "kategorie": "flora",
+    "kurztext": "Wo diese heimische Orchidee blüht, stimmt oft das Wasser im Boden noch.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Wo diese heimische Orchidee blüht, stimmt oft das Wasser im Boden noch.",
+      "erkennung": [
+        "Gefleckte Blätter bei vielen Arten",
+        "Dichter Blütenstand im Frühsommer",
+        "Auf feuchten Wiesen und in Niedermooren"
+      ],
+      "lebensraum": "Feuchte Wiesen und Niedermoore – empfindlich gegen Entwässerung und Düngung.",
+      "funFacts": [
+        "Heimische Orchideen sind wählerisch – und deshalb gute Anzeiger.",
+        "Ihre Samen sind staubfein und brauchen Pilzpartner im Boden.",
+        "Ein Bestand zeigt: Hier wurde nicht zu hart entwässert."
+      ],
+      "hinweis": "Nicht pflücken, nur anschauen.",
+      "hoertext": "Im Frühsommer stehen auf manchen Feuchtwiesen dichte Blütenstände wie kleine Kerzen. Das können Knabenkräuter sein – heimische Orchideen. Sie wirken zart, sind aber streng. Zu trocken, zu viel Dünger – und sie verschwinden. Deshalb sind sie Botschafter. Wo sie blühen, stimmt oft noch das Wasser im Boden. Schau dir die Blätter an: Viele sind gefleckt. Und dann genieß den Moment. Pflücken zerstört mehr als nur eine Blüte – nämlich Vertrauen in den Ort. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "konik",
+    "nameDe": "Konik",
+    "nameLat": "Equus ferus caballus",
+    "kategorie": "fauna",
+    "kurztext": "Robuste Pferde als Landschaftspfleger – sie halten die Heide offen, ohne Traktor.",
+    "aliases": [
+      "Konikpferd",
+      "Konik-Pferd"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Robuste Pferde als Landschaftspfleger – sie halten die Heide offen, ohne Traktor.",
+      "erkennung": [
+        "Meist mausgrau mit Aalstrich",
+        "Kleine, stämmige Wildpferd-Optik",
+        "In Gruppen auf offenen Heideflächen"
+      ],
+      "lebensraum": "Beweidete Heide- und Magerrasenflächen – hier oft von Juni bis Oktober.",
+      "funFacts": [
+        "Sie fressen Jungwuchs und verhindern Verwaldung.",
+        "Robust und genügsam – ideal für magere Standorte.",
+        "Abstand halten: es sind Arbeitstiere des Naturschutzes."
+      ],
+      "hinweis": "Nicht füttern, nicht annähern.",
+      "hoertext": "Siehst du graue Pferde in der Weite? Koniks. Sie wirken wild und sind hier Landschaftspfleger. Mit dem Verbiss halten sie die Heide offen und bremsen den Jungwald. Ohne sie würde mehr Gehölz nachkommen. Bitte nicht füttern und klaren Abstand halten. Sie sind Teil des Naturschutzkonzepts, keine Streicheltiere. Wenn sie den Kopf heben und weiterziehen, hast du gesehen, wie Pflege in dieser Landschaft aussieht: leise, vierbeinig, wirksam. Ein lebendiges Werkzeug für offene Flächen – und ein Highlight für geduldige Beobachter. Genieß den Anblick, ohne die Tiere zu stören oder zu locken."
+    }
+  },
+  {
+    "id": "kranich",
+    "nameDe": "Kranich",
+    "nameLat": "Grus grus",
+    "kategorie": "fauna",
+    "kurztext": "Wenn der Himmel trompetet, ziehen oft graue Flügel in strenger Formation vorbei.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Wenn der Himmel trompetet, ziehen oft graue Flügel in strenger Formation vorbei.",
+      "erkennung": [
+        "Großer grauer Vogel mit schwarzem Hals",
+        "Lauter trompetender Ruf",
+        "Im Flug oft V- oder Keilformation"
+      ],
+      "lebensraum": "Moore und Feuchtwälder zur Brut – im Herbstzug weithin hör- und sichtbar.",
+      "funFacts": [
+        "Paare bleiben oft jahrelang zusammen und tanzen bei der Balz.",
+        "In Brandenburg brüten wieder deutlich mehr Kraniche als früher.",
+        "Ihr Ruf trägt kilometerweit über offenes Land."
+      ],
+      "hinweis": "Zur Brutzeit großen Abstand halten.",
+      "hoertext": "Manchmal hörst du sie, bevor du sie siehst: ein trompetender Ruf über dem Moor. Kraniche. Groß, grau, mit langem Hals. Im Herbst ziehen sie in Formationen und prägen den Himmel. Zur Brutzeit brauchen sie Ruhe in Mooren und Feuchtwäldern. In Brandenburg sind sie zurückgekommen – ein Erfolg, den man hören kann. Wenn du einem Paar begegnest, bleib weit weg. Der schönste Moment ist oft der Ruf selbst. Er macht die Weite spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "libelle",
+    "nameDe": "Libelle",
+    "nameLat": "Odonata",
+    "kategorie": "fauna",
+    "kurztext": "Über dem Wasser jagt sie mit knisternden Flügeln – und braucht genau solche Feuchtplätze zum Leben.",
+    "aliases": [
+      "Odonata",
+      "Großlibelle"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Über dem Wasser jagt sie mit knisternden Flügeln – und braucht genau solche Feuchtplätze zum Leben.",
+      "erkennung": [
+        "Lange Flügel, oft senkrecht gehalten",
+        "Schneller Flug über Wasser und Wiese",
+        "Große Augen, schlanker Körper"
+      ],
+      "lebensraum": "An Dosse, Feuchtwiesen und Parkgewässern – Libellen brauchen Wasser für die Larven.",
+      "funFacts": [
+        "Larven leben Monate bis Jahre unter Wasser.",
+        "Erwachsene Libellen sind geschickte Jäger von Mücken.",
+        "Viele Arten zeigen den Zustand von Feuchtgebieten an."
+      ],
+      "hinweis": "Nicht fangen – beobachten reicht.",
+      "hoertext": "Schau über das Wasser und die Wiese. Plötzlich knistert etwas in der Luft: eine Libelle. Große Augen, lange Flügel, schneller Kurs. Sie jagt Insekten und braucht Feuchtplätze für ihre Larven. Hier am Wittstocker Wasserspielplatz und an der Dosse passt das Thema: Wasser, Sonne, offene Flächen. Die großen Kunst-Libellen am Platz erinnern an echte Verwandte in der Natur. Such den Himmel über dem Matschbereich und der Rinne. Manchmal siehst du echte Libellen, manchmal nur ihr Abbild in Stahl und Glas. Beides erzählt dieselbe Geschichte: Ohne Wasser kein Libellenleben. Bleib einen Moment stehen und folge ihrem Flug mit den Augen."
+    }
+  },
+  {
+    "id": "libellen-installation",
+    "nameDe": "Libellen-Installation",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Drei Riesenlibellen aus Stahl und Glas – nachts leuchten sie über dem Wasserspiel.",
+    "aliases": [
+      "XXL-Libellen",
+      "Libellen-Skulpturen"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Drei Riesenlibellen aus Stahl und Glas – nachts leuchten sie über dem Wasserspiel.",
+      "erkennung": [
+        "Übergroße Libellen mit Flügelspannweite",
+        "Edelstahl und durchscheinendes Plexiglas",
+        "Nachts farbiges LED-Licht im Körper"
+      ],
+      "lebensraum": "Wahrzeichen am Wittstocker Wasserspielplatz – in Wassernähe, wie echte Libellen leben.",
+      "funFacts": [
+        "Die Spannweite beträgt über drei Meter.",
+        "FORMSACHE.DesignStudio gestaltete die Figuren zur LaGa.",
+        "Ein Computer steuert die nächtlichen Farbspiele."
+      ],
+      "hinweis": "Kunstwerk anschauen – nicht erklettern.",
+      "hoertext": "Schau nach oben und zur Seite: Dort sitzen drei riesige Libellen. Flügel aus Edelstahl und Glas, Körper länger als du vielleicht bist. Tagsüber lässt Licht die Flügel schimmern. Nachts leuchten LEDs in wechselnden Farben und tauchen den Platz in mystisches Licht. Sie erinnern daran, dass echte Libellen an Feuchtwiesen und Ufern leben – genau wie hier am Wasser. Die Figuren kamen mit der Landesgartenschau und blieben als Wahrzeichen der Stadt. Fotografieren ja, klettern nein. Und wenn es dämmert, lohnt ein zweiter Blick: Dann wird der Spielplatz zum leuchtenden Insekten-Theater für alle."
+    }
+  },
+  {
+    "id": "moorfrosch",
+    "nameDe": "Moorfrosch",
+    "nameLat": "Rana arvalis",
+    "kategorie": "fauna",
+    "kurztext": "Zur Laichzeit werden die Männchen plötzlich knallblau – als hätte jemand den Teich umgefärbt.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Zur Laichzeit werden die Männchen plötzlich knallblau – als hätte jemand den Teich umgefärbt.",
+      "erkennung": [
+        "Männchen zur Laichzeit auffällig blau",
+        "An flachen Moor- und Wiesengewässern",
+        "Außerhalb der Laichzeit eher braun und versteckt"
+      ],
+      "lebensraum": "Flache Gewässer in Mooren und Feuchtwiesen – Maskottchen am Moorlehrpfad Raddusch.",
+      "funFacts": [
+        "Die Blaufärbung dauert nur kurz – ein Spektakel auf Zeit.",
+        "Am Radduscher Moorlehrpfad heißt er liebevoll „Mofo“.",
+        "Nach der Laichzeit lebt er wieder eher an Land in Feuchtlebensräumen."
+      ],
+      "hinweis": "Laichgewässer nicht betreten.",
+      "hoertext": "Stell dir einen flachen Teich im frühen Frühjahr vor. Und dann werden Frösche blau. Wirklich blau. Das sind die Männchen des Moorfrosches zur Laichzeit. Es wirkt wie ein kurzes Schauspiel, das du kaum glauben magst. Am Moorlehrpfad Raddusch ist er sogar Maskottchen – der „Mofo“. Danach wird er wieder unauffällig und lebt in der feuchten Umgebung. Wenn du zur rechten Zeit da bist, vergiss Fotos für einen Moment. Schau einfach zu. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "neuntoeter",
+    "nameDe": "Neuntöter",
+    "nameLat": "Lanius collurio",
+    "kategorie": "fauna",
+    "kurztext": "Er spießt Beute auf Dornen – der kleine Räuber der buschigen Heideränder.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Er spießt Beute auf Dornen – der kleine Räuber der buschigen Heideränder.",
+      "erkennung": [
+        "Männchen mit grauer Kappe und schwarzer Augenbinde",
+        "Rostbrauner Rücken, heller Bauch",
+        "Sitzwarte an Büschen und Dornenhecken"
+      ],
+      "lebensraum": "Heideränder mit Dornbüschen, offenen Jagdflächen und Sitzwarten.",
+      "funFacts": [
+        "Beute wird manchmal als Vorrat auf Dornen gespießt.",
+        "Er jagt große Insekten und kleine Wirbeltiere.",
+        "Ohne Hecken und offene Flächen verschwindet er."
+      ],
+      "hinweis": "",
+      "hoertext": "An buschigen Rändern lohnt der Blick auf Sitzwarten. Der Neuntöter sitzt aufrecht und beobachtet die Fläche. Männchen tragen eine dunkle Augenbinde – wie eine Maske. Manchmal spießt er Beute auf Dornen. Klingt grausam, ist aber Vorratshaltung. In der Heide findet er Hecken und offene Jagdflächen zugleich. Wenn du ihn siehst, siehst du einen kleinen Räuber mit System. Bleib distanziert und ruhig. Die Nähe zu Dornbüschen und offenem Sand macht diesen Vogel möglich – und erinnert daran, warum Ränder so wichtig sind. Ein scharfer Blick lohnt sich hier ganz besonders gut."
+    }
+  },
+  {
+    "id": "quellsteine-wasserdueisen",
+    "nameDe": "Quellsteine mit Wasserdüsen",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Aus Steinen sprudelt Wasser – du steuerst, wohin der Strahl als Nächstes fließt.",
+    "aliases": [
+      "Quellsteine",
+      "Wasserdüsen"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Aus Steinen sprudelt Wasser – du steuerst, wohin der Strahl als Nächstes fließt.",
+      "erkennung": [
+        "Steine mit Düsen, Wasser spritzt",
+        "Oft am höchsten Punkt der Anlage",
+        "Strahlen speisen die gepflasterte Rinne"
+      ],
+      "lebensraum": "Am Wittstocker Wasserspielplatz: Einstieg ins Wasser – Quellen und Spritzen starten den Lauf.",
+      "funFacts": [
+        "Verschiedene Düsen machen unterschiedliche Strahlen.",
+        "Du lenkst mit dem Körper, nicht mit einem Schalter.",
+        "Das Wasser fließt weiter in Rinne und Wehre."
+      ],
+      "hinweis": "Wasser ist kein Trinkwasser – nass wird normal.",
+      "hoertext": "Stell dich an die Quellsteine. Aus dem Stein kommt Wasser – manchmal fein, manchmal kräftig. Das ist der Start des Wasserspiels hier in Wittstock. Schau genau, wohin der Strahl fällt. Oft landet er in der gepflasterten Rinne und läuft weiter zu Wehren und Matschtisch. Hier entscheidest du mit, wie der kleine Fluss beginnt. Probier verschiedene Stellen aus. Manche Düsen spritzen dich an, andere füllen nur die Bahn. Genau das ist der Reiz: Wasser, das du mit Kraft und Neugier in Gang bringst. Bleib bei den Füßen sicher auf dem Pflaster. Und folge dem Wasser ein Stück – die nächste Station wartet schon auf dich."
+    }
+  },
+  {
+    "id": "raum-meter-holzstapel",
+    "nameDe": "Raum-Meter-Holzstapel",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Ein Raum-Meter Holz zum Umstapeln – so viel steckt in einem Würfel Wald.",
+    "aliases": [
+      "Raum-Meter",
+      "Holzstapel",
+      "Raummeter"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Ein Raum-Meter Holz zum Umstapeln – so viel steckt in einem Würfel Wald.",
+      "erkennung": [
+        "Aufgeschichteter Stapel Scheitholz",
+        "Maß eines Raummeters zum Vergleichen",
+        "Darf mit Zeitmessung umgeschichtet werden"
+      ],
+      "lebensraum": "Im Kinderwald an der Station Forstwirtschaft: Holzmenge begreifen, nicht nur lesen.",
+      "funFacts": [
+        "Ein Raum-Meter ist ein Würfel Holz von einem Meter Kantenlänge.",
+        "Umstapeln macht die Menge in den Armen spürbar.",
+        "So rechnet der Forst, was der Wald liefert."
+      ],
+      "hinweis": "Scheite nicht werfen, Stapel wieder aufbauen.",
+      "hoertext": "Vor dir liegt ein Stapel Holz. Das ist ein Raum-Meter – ein Würfel von einem Meter Kantenlänge, so rechnet der Forst. Der Flyer sagt: Ihr dürft ihn umstapeln, gern gegen die Uhr. Dann bleibt die Menge in den Armen, nicht nur auf dem Schild. Heb ein Scheit. Es ist schwerer, als es aussieht. Schicht wieder auf, sonst hat der nächste Besuch kein Maß mehr. Forstwirtschaft klingt nach Büro. Hier ist sie greifbar: so viel Holz, so viel Arbeit, so viel Wald dahinter. Wenn der Stapel wieder steht, hast du einen Würfel Wald in den Händen gehabt. Das merkt man länger als eine Zahl auf einer Tafel."
+    }
+  },
+  {
+    "id": "ringelnatter",
+    "nameDe": "Ringelnatter",
+    "nameLat": "Natrix natrix",
+    "kategorie": "fauna",
+    "kurztext": "Ungiftig, neugierig und oft näher am Steg, als du denkst – schau auf die hellen Nackenflecken.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Ungiftig, neugierig und oft näher am Steg, als du denkst – schau auf die hellen Nackenflecken.",
+      "erkennung": [
+        "Helle mondförmige Flecken hinter dem Kopf",
+        "Schlängelt am Ufer oder sonnt sich auf Totholz",
+        "Schwimmt mit erhobenem Kopf über Wasser"
+      ],
+      "lebensraum": "Gewässer, Feuchtwiesen und Stege – Jagd auf Frösche und Fische.",
+      "funFacts": [
+        "Sie ist ungiftig und für Menschen ungefährlich.",
+        "Bei Gefahr stellt sie sich manchmal tot und riecht streng.",
+        "Sonnige Bretter und Steine sind ihre Wärmebank."
+      ],
+      "hinweis": "Nicht anfassen, ruhig vorbeigehen.",
+      "hoertext": "Am Steg liegt manchmal etwas Langes in der Sonne. Keine Panik – oft ist es die Ringelnatter. Sie ist ungiftig. Typisch sind die hellen Flecken hinter dem Kopf. Sie jagt Frösche und Fische und schwimmt erstaunlich elegant. Wenn du sie störst, verschwindet sie meist schnell. Manchmal stellt sie sich tot. Das wirkt skurril, ist aber ihr Trick. Einfach Abstand halten und zuschauen. Ein lebendiger Uferstreifen braucht genau solche Nachbarn. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "robinie",
+    "nameDe": "Robinie",
+    "nameLat": "Robinia pseudoacacia",
+    "kategorie": "flora",
+    "kurztext": "Im Mai duftet der Wald plötzlich nach weißen Trauben – und die Bienen feiern.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Mai duftet der Wald plötzlich nach weißen Trauben – und die Bienen feiern.",
+      "erkennung": [
+        "Gefiederte Blätter mit vielen Fiederblättchen",
+        "Hängende weiße Blütentrauben im Mai",
+        "Paarige Dornen an jungen Zweigen"
+      ],
+      "lebensraum": "Waldränder und angepflanzte Bestände – ursprünglich aus Nordamerika.",
+      "funFacts": [
+        "Ihr Holz ist extrem hart und wurde deshalb gerne genutzt.",
+        "Als Bienenweide ist sie berühmt – der Honig duftet intensiv.",
+        "An manchen Orten verdrängt sie heimische Arten und wird kritisch gesehen."
+      ],
+      "hinweis": "",
+      "hoertext": "Riechst du im Mai etwas Süßes im Wald? Schau nach weißen Blütentrauben. Die Robinie stammt aus Nordamerika und wurde hier angepflanzt. Bienen lieben sie. Menschen nutzten ihr hartes Holz. Gleichzeitig kann sie heimische Pflanzen verdrängen. An Waldlehrpfaden ist sie deshalb ein spannendes Thema: nützlich und problematisch zugleich. Erkenne sie an den gefiederten Blättern und den Dornen. Natur ist selten nur „gut“ oder „schlecht“ – manchmal ist sie beides. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "rotbauchunke",
+    "nameDe": "Rotbauchunke",
+    "nameLat": "Bombina bombina",
+    "kategorie": "fauna",
+    "kurztext": "Bei Gefahr zeigt sie den knallbunten Bauch – eine Warnung, die niemand übersehen soll.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Bei Gefahr zeigt sie den knallbunten Bauch – eine Warnung, die niemand übersehen soll.",
+      "erkennung": [
+        "Bauch rot bis orange mit dunklen Flecken",
+        "Melodisches „unk-unk“ im Frühjahr",
+        "In sonnigen Flachgewässern der Niederungen"
+      ],
+      "lebensraum": "Sonnige Flachgewässer in Niederungen und Mooren – stimmlich im Frühjahr präsent.",
+      "funFacts": [
+        "Die Bauchfärbung ist ein Warnsignal: Ich schmecke schlecht.",
+        "Ihr Ruf klingt wie ein sanftes „unk-unk“ über dem Teich.",
+        "Sie braucht flache, warme Gewässer – tiefe Gräben reichen nicht."
+      ],
+      "hinweis": "Nicht anfassen, Laichgewässer meiden.",
+      "hoertext": "Am Teich hörst du im Frühjahr manchmal ein weiches „unk-unk“. Das ist die Rotbauchunke. Von oben wirkt sie unscheinbar. Dreht sie sich um, leuchtet der Bauch rot und orange. Das ist Warnung: Finger weg, ich bin ungenießbar. Sie liebt sonnige Flachgewässer in Mooren und Niederungen. Wenn du den Ruf hörst, hast du schon gewonnen. Bleib am Ufer, lausche – und lass den Teich den Unken. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "rotbuche",
+    "nameDe": "Rotbuche",
+    "nameLat": "Fagus sylvatica",
+    "kategorie": "flora",
+    "kurztext": "Hier steht nicht eine Buche. Du vergleichst rund zehn Arten an den Schildern.",
+    "aliases": [
+      "Buche"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Hier steht nicht eine Buche. Du vergleichst rund zehn Arten an den Schildern.",
+      "erkennung": [
+        "Glatte silbergraue Rinde, ovale Blätter",
+        "Knospen spitz, im Herbst kupfrig",
+        "Mehrere Buchenarten mit Namensschildern"
+      ],
+      "lebensraum": "Im Waldgarten Lüttgen Dreetz zwischen Eichen und Kastanien – Buchengewächse zum direkten Vergleich.",
+      "funFacts": [
+        "Buchen gehören wie Eichen zur Familie Fagaceae.",
+        "Der Betreiber nennt rund zehn Buchenarten im Garten.",
+        "Bucheckern waren Notnahrung und Futter für Wild."
+      ],
+      "hinweis": "Schilder lesen, nichts pflücken, Wege nutzen.",
+      "hoertext": "Vor dir steht eine Buche mit glatter silbergrauer Rinde. Tast sie vorsichtig. Sie fühlt sich kühl an. Schau aufs Holzschild. Im Arboretum Lüttgen Dreetz stehen rund zehn Buchenarten, nicht nur eine. Vergleich Blatt, Knospe und Stamm. Die Rotbuche ist die Heimische. Andere kommen von weiter her, solange sie das Klima aushalten. Buche, Eiche und Kastanie gehören zur selben Familie. Deshalb stehen sie hier nebeneinander. Nimm ein Blatt in den Blick, ohne es abzureißen. Oval, glatter Rand, im Herbst oft kupfrig. Dann geh weiter zum nächsten Schild. Du lernst die Arten, indem du sie vergleichst. Genau dafür ist dieser Waldgarten da."
+    }
+  },
+  {
+    "id": "rote-roehrenspinne",
+    "nameDe": "Rote Röhrenspinne",
+    "nameLat": "Eresus kollari",
+    "kategorie": "fauna",
+    "kurztext": "Im Sand baut sie Wohnröhren – und opfert sich später für den eigenen Nachwuchs.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Sand baut sie Wohnröhren – und opfert sich später für den eigenen Nachwuchs.",
+      "erkennung": [
+        "Männchen auffällig rot-schwarz gezeichnet",
+        "Wohnröhren im sandigen Boden",
+        "Weibchen eher versteckt in der Röhre"
+      ],
+      "lebensraum": "Warme Sandflächen und offene Heideböden mit lückiger Vegetation.",
+      "funFacts": [
+        "Jungtiere fressen am Ende die Mutter – Matriphagie.",
+        "Sie gilt als eine der schönsten Spinnen Mitteleuropas.",
+        "Trittfeste Röhren sind ihr Zuhause – nicht zerstören."
+      ],
+      "hinweis": "Röhren und Sandstellen nicht aufgraben.",
+      "hoertext": "Schau vorsichtig auf den Sand, aber stich nicht hinein. Die Rote Röhrenspinne lebt in Wohnröhren unter der Oberfläche. Die Männchen leuchten rot und schwarz, die Weibchen bleiben eher versteckt. Wenn der Nachwuchs groß ist, wird die Mutter selbst zur Nahrung. Klingt hart – sichert aber das Überleben der nächsten Generation. In der Heide findet sie warme, offene Böden. Bleib auf dem Weg und tritt nicht in empfindliche Stellen. Was unter deinen Füßen liegt, ist oft wertvoller als es aussieht. Ein kleines Drama im Sand – und ein Grund, hier behutsam zu gehen."
+    }
+  },
+  {
+    "id": "rote-waldameise",
+    "nameDe": "Rote Waldameise",
+    "nameLat": "Formica rufa",
+    "kategorie": "fauna",
+    "kurztext": "Der große Nadelhügel am Weg ist keine Unordnung – sondern eine Stadt mit Hunderttausenden Einwohnern.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Der große Nadelhügel am Weg ist keine Unordnung – sondern eine Stadt mit Hunderttausenden Einwohnern.",
+      "erkennung": [
+        "Kuppelnest aus Nadeln und Zweigen",
+        "Viele Ameisen auf Straßen am Nest",
+        "Oft sonnig am Waldrand oder Wegrand"
+      ],
+      "lebensraum": "Wälder mit sonnigen Nestplätzen – Schlüsselart für Schädlingskontrolle und Samenverbreitung.",
+      "funFacts": [
+        "Ein Nest kann Hunderttausende Tiere beherbergen.",
+        "Sie „melken“ Blattläuse und jagen gleichzeitig Schädlinge.",
+        "Samen mit Anhängseln tragen sie fort – so pflanzen sie den Wald mit."
+      ],
+      "hinweis": "Nester nicht betreten oder öffnen – geschützt.",
+      "hoertext": "Vor dir liegt ein Hügel aus Nadeln. Rühr ihn nicht an. Das ist ein Nest der Roten Waldameise – eine ganze Stadt. Drinnen arbeiten Hunderttausende. Draußen siehst du Straßen voller Verkehr. Sie halten Schädlinge in Schach und tragen Samen durch den Wald. Deshalb stehen die Nester unter Schutz. Am Lehrpfad kannst du das System von außen bestaunen. Ein Haufen Nadeln – und darunter eine der bestorganisierten Gemeinschaften im Wald. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "schaf",
+    "nameDe": "Schaf",
+    "nameLat": "Ovis aries",
+    "kategorie": "fauna",
+    "kurztext": "Das Schaf wirkt brav – bis du merkst, wie fest der Blick und wie hart der Huf ist.",
+    "aliases": [
+      "Schafe",
+      "Lamm"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Das Schaf wirkt brav – bis du merkst, wie fest der Blick und wie hart der Huf ist.",
+      "erkennung": [
+        "Wolle in Locken oder groben Platten",
+        "Spaltfuß, fester Tritt",
+        "Lebt im Pulk, folgt der Gruppe"
+      ],
+      "lebensraum": "Weide und Stall auf dem Kinderbauernhof an der Panke. Wolle, Huf, Herde – Alltag, keine Show.",
+      "funFacts": [
+        "Wolle wächst nach, Schur ist Pflege, kein Trick.",
+        "Im Pulk fühlt es sich sicherer als allein.",
+        "Der Huf trägt auf nassem Boden besser als ein Schuh."
+      ],
+      "hinweis": "Nicht in die Herde drängen, Hufe ernst nehmen.",
+      "hoertext": "Das Schaf sieht weich aus. Der Blick ist fest, der Huf hart. Wolle ist kein Kostüm, sie wächst und will geschoren werden. Das ist Pflege. Im Pulk fühlt sich das Tier sicher. Allein wird es unruhig. Dräng dich nicht in die Herde. Fütter nicht aus der Hand, außer um 16 Uhr mit den Leuten vom Hof. Streicheln nur mit Betreuer. Schau erst, wie es kaut, wie es der Gruppe folgt. An der Panke lernst du ein Nutztier kennen, kein Kissen. Wer Abstand hält, bleibt länger willkommen. Bleib stehen und hör dem Kauen zu."
+    }
+  },
+  {
+    "id": "schwarzerle",
+    "nameDe": "Schwarzerle",
+    "nameLat": "Alnus glutinosa",
+    "kategorie": "flora",
+    "kurztext": "Sie steht im Wasser, als hätte sie Stelzen – und macht nasse Böden erst richtig lebendig.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Sie steht im Wasser, als hätte sie Stelzen – und macht nasse Böden erst richtig lebendig.",
+      "erkennung": [
+        "Dunkle rissige Rinde, oft mehrstämmig",
+        "Kleine zapfenartige Früchte den Winter über",
+        "Wurzeln wirken wie Stelzen im nassen Boden"
+      ],
+      "lebensraum": "Erlenbrüche, Fließufer und Moore – typisch im Spreewald.",
+      "funFacts": [
+        "Mit Bakterien in Wurzelknöllchen bindet sie Stickstoff aus der Luft.",
+        "Deshalb wächst sie dort, wo andere Bäume ersaufen würden.",
+        "Im Winter erkennst du sie gut an den kleinen „Zapfen“."
+      ],
+      "hinweis": "",
+      "hoertext": "Am nassen Ufer stehen Bäume, die wirken, als laufen sie auf Stelzen. Das ist oft die Schwarzerle. Sie kann im dauernd nassen Boden leben, weil sie sich Stickstoff mit Hilfe von Bakterien holt. Im Spreewald und in Mooren prägt sie ganze Erlenbrüche. Schau im Winter auf die kleinen zapfenartigen Früchte – dann erkennst du sie sicher. Wo Erlen stehen, beginnt oft die Geschichte vom Wasser. Ein Baum, der nasse Füße nicht fürchtet. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "schwarzstorch",
+    "nameDe": "Schwarzstorch",
+    "nameLat": "Ciconia nigra",
+    "kategorie": "fauna",
+    "kurztext": "Dunkler als der Dorfstorch, scheuer als ein Schatten – und ein seltener Glücksfund im Wald.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Dunkler als der Dorfstorch, scheuer als ein Schatten – und ein seltener Glücksfund im Wald.",
+      "erkennung": [
+        "Schwarzes Gefieder mit metallischem Glanz",
+        "Roter Schnabel und rote Beine",
+        "Meidet Siedlungen, sucht ruhige Bäche"
+      ],
+      "lebensraum": "Ruhige Wälder zum Brüten, Nahrung an kleinen Bächen und Moorgewässern.",
+      "funFacts": [
+        "Im Gegensatz zum Weißstorch meidet er die Nähe des Menschen.",
+        "Eine Sichtung ist selten und besonders wertvoll.",
+        "Er jagt eher heimlich an schmalen Gewässern als auf Wiesen."
+      ],
+      "hinweis": "Sofort Abstand halten, nicht nachsetzen.",
+      "hoertext": "Nicht jeder Storch steht auf dem Nest neben dem Dorf. Der Schwarzstorch ist dunkel, scheu und wählt den stillen Wald. Nahrung sucht er an kleinen Bächen und Moorgewässern. Wenn du einen siehst, hast du Glück – und eine Verantwortung. Bleib stehen, mach keinen Lärm, geh nicht hinterher. Manche Begegnungen sind gerade deshalb stark, weil sie kurz bleiben. Ein Schatten mit rotem Schnabel – und dann ist der Wald wieder nur Wald. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "stauehre-wehr",
+    "nameDe": "Wehre und Stauelemente",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Mit den Wehren staut du das Wasser – ein kleiner Fluss, den du selbst baust.",
+    "aliases": [
+      "Wehre",
+      "Stauelemente",
+      "Stauwehr"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Mit den Wehren staut du das Wasser – ein kleiner Fluss, den du selbst baust.",
+      "erkennung": [
+        "Bewegliche Bretter oder Klappen in der Rinne",
+        "Wasserstand steigt hinter dem Wehr",
+        "Öffnen lässt den Schwall weiterlaufen"
+      ],
+      "lebensraum": "Entlang der Wasserrinne am Wittstocker Platz: hier wirst du zum Schleusenwärter.",
+      "funFacts": [
+        "Stauen braucht Kraft und Timing.",
+        "Ein Wehr zeigt, wie Flüsse reguliert werden.",
+        "Gemeinsam stauen macht oft mehr Spaß."
+      ],
+      "hinweis": "Finger nicht unter schwere Klappen klemmen.",
+      "hoertext": "Such die Wehre in der Rinne. Das sind die Stellen, an denen du das Wasser anhalten kannst. Schieb oder klapp – und sieh, wie der Pegel steigt. Öffnest du wieder, rauscht es weiter Richtung Matschtisch. So lernst du Stauen und Lassen ohne Lehrbuch. Genau wie echte Flüsse brauchen auch Spielrinnen Regeln für den Durchfluss. Probier es mit Freunden: einer staut, einer öffnet, und alle schauen dem Schwall nach. Achte auf Finger und Zehen beim Bewegen der Klappen. Kleine Technik, großer Effekt – und plötzlich bist du der, der den Fluss regiert."
+    }
+  },
+  {
+    "id": "steinschmaetzer",
+    "nameDe": "Steinschmätzer",
+    "nameLat": "Oenanthe oenanthe",
+    "kategorie": "fauna",
+    "kurztext": "Weiß-schwarz-beige und ständig in Bewegung – typisch für offene Sandflächen der Heide.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Weiß-schwarz-beige und ständig in Bewegung – typisch für offene Sandflächen der Heide.",
+      "erkennung": [
+        "Auffälliger weißer Bürzel im Abflug",
+        "Sitzwarten auf Steinen und kahlen Kuppen",
+        "Kurze Bodenflüge nach Insekten"
+      ],
+      "lebensraum": "Offene, steinige oder sandige Flächen mit niedriger Vegetation.",
+      "funFacts": [
+        "Viele Steinschmätzer ziehen bis nach Afrika.",
+        "Der weiße Bürzel blinkt beim Auffliegen.",
+        "Er braucht offene Böden – Verbuschung vertreibt ihn."
+      ],
+      "hinweis": "",
+      "hoertext": "Auf offenen Sandflächen flitzt oft ein helles Etwas von Warte zu Warte. Steinschmätzer. Beim Abflug siehst du den weißen Bürzel besonders gut. Er sitzt auf Steinen und Kuppen und jagt Insekten am Boden. Viele ziehen im Winter weit nach Afrika. Hier in der Heide findet er die offenen Flächen, die er braucht. Wer Verbuschung zulässt, verliert ihn. Ein kleiner Wanderer mit klarem Anspruch an die Landschaft. Bleib auf dem Weg und genieß den Kontrast: karger Sand, lebendiger Vogel, weiter Himmel darüber. Genau dieser Kontrast macht die Heide hier besonders spannend."
+    }
+  },
+  {
+    "id": "stieleiche",
+    "nameDe": "Stieleiche",
+    "nameLat": "Quercus robur",
+    "kategorie": "flora",
+    "kurztext": "Eine alte Eiche ist kein einzelner Baum – sondern eine Wohnanlage für Hunderte Arten.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Eine alte Eiche ist kein einzelner Baum – sondern eine Wohnanlage für Hunderte Arten.",
+      "erkennung": [
+        "Eicheln sitzen auf langen Stielen",
+        "Blätter mit kurzen Stielen und gebuchtetem Rand",
+        "Massive Krone, oft knorrige Äste"
+      ],
+      "lebensraum": "Mischwälder und offene Landschaft – Symbolbaum langlebiger Bestände.",
+      "funFacts": [
+        "An den langen Eichelstielen unterscheidest du sie von der Traubeneiche.",
+        "Alte Eichen beherbergen Insekten, Pilze, Vögel und Fledermäuse.",
+        "Manche Exemplare werden mehrere hundert Jahre alt."
+      ],
+      "hinweis": "",
+      "hoertext": "Vor einer großen Eiche lohnt ein zweiter Blick. Die Stieleiche trägt ihre Eicheln an langen Stielen. Merk dir das. Ihre Blätter sind gebuchtet und sitzen eher kurz gestielt. Aber das Spannendste ist nicht die Form – sondern das Leben daran. In der Rinde, in Höhlen, auf Ästen: Insekten, Pilze, Vögel. Eine alte Eiche ist eine Wohnanlage. Wenn du unter ihr stehst, stehst du in einer ganzen Geschichte aus Holz und Zeit. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "sumpf-schwertlilie",
+    "nameDe": "Sumpf-Schwertlilie",
+    "nameLat": "Iris pseudacorus",
+    "kategorie": "flora",
+    "kurztext": "Gelbe Fahnen am Grabenrand – und Blätter so scharfkantig wie kleine Schwerter.",
+    "aliases": [
+      "Sumpf-Iris"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Gelbe Fahnen am Grabenrand – und Blätter so scharfkantig wie kleine Schwerter.",
+      "erkennung": [
+        "Leuchtend gelbe Blüten im Frühsommer",
+        "Schwertförmige, aufrechte Blätter",
+        "Direkt an Gräben, Ufern und Niedermooren"
+      ],
+      "lebensraum": "Gräben, Seeufer und Niedermoore – verträgt zeitweilige Überstauung.",
+      "funFacts": [
+        "Im Alltag heißt sie oft auch Sumpf-Iris.",
+        "Ihre Blätter wirken dekorativ – und sind echte Wasserkanten-Profis.",
+        "Große Bestände färben im Juni ganze Uferstreifen gelb."
+      ],
+      "hinweis": "",
+      "hoertext": "Am Graben leuchten im Frühsommer gelbe Blüten wie kleine Fahnen. Das ist die Sumpf-Schwertlilie – manchmal auch Sumpf-Iris genannt. Ihre Blätter stehen aufrecht und wirken wie Schwerter. Sie mag nasse Füße und kommt mit wechselndem Wasserstand klar. Schau entlang der Uferlinie. Oft stehen viele beieinander. Dann wirkt der Rand plötzlich festlich. Ein klarer Frühsommer-Moment zwischen Schilf und Wasser. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "sumpfblutauge",
+    "nameDe": "Sumpfblutauge",
+    "nameLat": "Comarum palustre",
+    "kategorie": "flora",
+    "kurztext": "Dunkelrote Blüten im Moor – als hätte jemand Tropfen auf das Grün gelegt.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Dunkelrote Blüten im Moor – als hätte jemand Tropfen auf das Grün gelegt.",
+      "erkennung": [
+        "Dunkelrote bis purpurne Blüten",
+        "Gefiederte Blätter an kriechenden Trieben",
+        "In nährstoffarmen Niedermooren und Verlandungszonen"
+      ],
+      "lebensraum": "Nährstoffarme Niedermoore und Verlandungszonen – große Bestände etwa im Spreewald.",
+      "funFacts": [
+        "Der Name kommt von der blutig wirkenden Blütenfarbe.",
+        "Große Bestände zeigen oft gut erhaltene Moorlebensräume.",
+        "Es blüht im Sommer, wenn viele Wege besonders einladen."
+      ],
+      "hinweis": "",
+      "hoertext": "Im Moor kann im Sommer etwas Dunkelrotes zwischen dem Grün leuchten. Das Sumpfblutauge. Der Name klingt dramatisch – und die Blüte sieht auch so aus. Es wächst in nährstoffarmen Niedermooren und Verlandungszonen. Wo große Bestände stehen, stimmt oft noch vieles am Standort. Im Spreewald kannst du solche Flächen erleben. Bleib auf dem Weg und genieß die Farbe. Manchmal reicht ein einziges Blütenmeer, um den Charakter eines Moores zu verstehen. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "sumpfdotterblume",
+    "nameDe": "Sumpfdotterblume",
+    "nameLat": "Caltha palustris",
+    "kategorie": "flora",
+    "kurztext": "Noch ist der Frühling kühl – und schon leuchten goldene Tupfer an Bach und Fließ.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Noch ist der Frühling kühl – und schon leuchten goldene Tupfer an Bach und Fließ.",
+      "erkennung": [
+        "Goldgelbe, schalenförmige Blüten",
+        "Glänzend grüne, nierenförmige Blätter",
+        "Direkt an Bächen, Fließen und nassen Wiesen"
+      ],
+      "lebensraum": "Bäche, Fließe und nasse Wiesen – einer der ersten Frühlingsboten der Feuchtgebiete.",
+      "funFacts": [
+        "Sie gehört zu den frühesten Blühern im Feuchtgebiet.",
+        "Von Weitem wirken Bestände wie gestreutes Gold.",
+        "Alle Pflanzenteile sind giftig – Schönheit zum Anschauen."
+      ],
+      "hinweis": "Giftig – nicht pflücken oder knabbern.",
+      "hoertext": "Früh im Jahr, wenn vieles noch grau wirkt, blitzt Gold am Wasser auf. Die Sumpfdotterblume. Ihre Blüten sind schalenförmig und leuchtend gelb. An Bächen, Fließen und nassen Wiesen ist sie ein klassischer Frühlingsbote. Schön – und giftig. Also nur anschauen. Wenn ganze Uferstreifen blühen, wirkt die Landschaft auf einmal wach. Ein Zeichen: Das Wasser ist da, und die Saison hat begonnen. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "sumpfschrecke",
+    "nameDe": "Sumpfschrecke",
+    "nameLat": "Stethophyma grossum",
+    "kategorie": "fauna",
+    "kurztext": "An warmen Sommertagen knackt es in der Feuchtwiese – das ist kein Zweig, das ist Musik.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "An warmen Sommertagen knackt es in der Feuchtwiese – das ist kein Zweig, das ist Musik.",
+      "erkennung": [
+        "Große, meist grüne Heuschrecke",
+        "Knackender Gesang an warmen Tagen",
+        "In hohen, feuchten Wiesenbeständen"
+      ],
+      "lebensraum": "Feuchte Wiesen und Niedermoore – empfindlich gegen Entwässerung und frühe Mahd.",
+      "funFacts": [
+        "Ihr Gesang klingt knackend, nicht zirpend wie bei vielen Verwandten.",
+        "Sie braucht lange ungemähte, feuchte Vegetation.",
+        "Verschwindet die Feuchte, verschwindet oft auch der Soundtrack."
+      ],
+      "hinweis": "",
+      "hoertext": "Steh im Sommer kurz still auf der Feuchtwiese. Hörst du ein Knacken? Das kann die Sumpfschrecke sein. Sie ist groß, oft grün, und singt anders als viele Heuschrecken. Ihr Lebensraum ist nass und hochwüchsig. Wird entwässert oder zu früh gemäht, wird es still. Deshalb ist ihr Gesang mehr als Hintergrund. Er sagt: Hier ist noch Platz für Feuchtwiesen-Leben. Bleib auf dem Weg und lausche. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+    }
+  },
+  {
+    "id": "torfmoos",
+    "nameDe": "Torfmoos",
+    "nameLat": "Sphagnum",
+    "kategorie": "flora",
+    "kurztext": "Dieses Moos speichert Wasser wie ein Schwamm – und baut daraus ganze Moore.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Dieses Moos speichert Wasser wie ein Schwamm – und baut daraus ganze Moore.",
+      "erkennung": [
+        "Weiche Polster in Grün, Rot oder Braun",
+        "Fühlt sich nass und schwammig an",
+        "Bildet Teppiche in Moor und Verlandung"
+      ],
+      "lebensraum": "Hoch- und Zwischenmoore, nährstoffarme Nassstandorte – Baumeister der Torfbildung.",
+      "funFacts": [
+        "Es kann ein Vielfaches seines Trockengewichts an Wasser speichern.",
+        "Abgestorbenes Sphagnum wird zu Torf.",
+        "Es säuert den Standort und prägt damit, wer noch mitleben darf."
+      ],
+      "hinweis": "Polster nicht zertrampeln.",
+      "hoertext": "Knie dich vorsichtig an den Moorrand – oder bleib auf dem Steg – und schau auf die Polster. Torfmoos. Weich, nass, in Grün, Rot oder Braun. Es speichert Wasser wie ein Schwamm und säuert den Boden. Aus abgestorbenem Moos entsteht Torf. Ohne Sphagnum keine typischen Moore. Deshalb ist jeder Tritt darauf ein Eingriff. Wenn du es siehst, siehst du den Baumeister unter dir. Ein unscheinbares Moos – und die Grundlage einer ganzen Landschaft. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "wald-theater",
+    "nameDe": "Wald-Theater",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Am Hang liegt eine Spielbühne aus Wald – eigene Stücke, Zuschauer im Grünen.",
+    "aliases": [
+      "Waldtheater",
+      "Theater"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Am Hang liegt eine Spielbühne aus Wald – eigene Stücke, Zuschauer im Grünen.",
+      "erkennung": [
+        "Kleine Bühne am Hang",
+        "Platz für Zuschauer im Grünen",
+        "Zum Spielen, nicht nur zum Anschauen"
+      ],
+      "lebensraum": "Im Kinderwald Märkisch Buchholz am Hang: Wald-Theater für spontane Stücke, Aufführungen mit Anmeldung extra.",
+      "funFacts": [
+        "Der Hang ist die natürliche Tribüne.",
+        "Spontanes Spielen ist frei – große Aufführungen nur mit Anmeldung.",
+        "Bühne aus Wald, Kulisse sind die Bäume."
+      ],
+      "hinweis": "Gebuchte Aufführungen haben Vorrang.",
+      "hoertext": "Am Hang steht eine kleine Bühne. Das Wald-Theater. Setz dich ins Grüne oder geh rauf und spiel. Der Flyer lädt genau dazu ein: eigene Stücke, Zuschauer im Wald. Große Aufführungen nur nach Anmeldung – spontanes Spielen ist frei. Die Kulisse sind Stämme und Licht. Kein Vorhang, kein Eintritt. Probier eine Szene. Der Hang trägt die Stimme besser, als du denkst. Wenn niemand zuschaut, spiel trotzdem. Theater im Wald braucht keine Rampe aus Stahl. Es braucht Mut und ein Stück Hang. Danach klingt der Kinderwald ein bisschen wie ein Satz, den jemand gerade gesagt hat."
+    }
+  },
+  {
+    "id": "wasser-matschtisch-pumpe",
+    "nameDe": "Wasser- und Matschtisch mit Pumpe",
+    "nameLat": "",
+    "kategorie": "geraete",
+    "iconKey": "geraet",
+    "kurztext": "Pumpe mit Muskelkraft, matsche am Tisch – hier wird Wasser zum Werkzeug.",
+    "aliases": [
+      "Matschtisch",
+      "Wasserpumpe",
+      "Wassermatschtisch"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Pumpe mit Muskelkraft, matsche am Tisch – hier wird Wasser zum Werkzeug.",
+      "erkennung": [
+        "Tisch mit Sand und Wasserfläche",
+        "Handpumpe oder Schwengel daneben",
+        "Matsch entsteht, wenn beides zusammentrifft"
+      ],
+      "lebensraum": "Auf dem Wittstocker Wasserspielplatz: Arbeitsplatz für Hände, Pumpe und Fantasie.",
+      "funFacts": [
+        "Ohne Pumpen kommt kein Wasser auf den Tisch.",
+        "Matschen trainiert Feinmotorik und Planung.",
+        "Sand und Wasser formen Kanäle wie im Miniaturfluss."
+      ],
+      "hinweis": "Wechselkleidung hilft – Matsch bleibt kleben.",
+      "hoertext": "Greif zur Pumpe. Einmal, zweimal – und Wasser kommt auf den Tisch. Dort trifft es auf Sand. Plötzlich baust du Kanäle, Dämme und Pfützen. Das ist kein Chaos, sondern Physik zum Anfassen. Die Muskelkraft der Pumpe belohnt dich sofort mit einem Schwall. Am Matschtisch entscheiden Hände und Ideen gemeinsam. Probier aus, wie weit dein Wasser läuft, bevor es versickert. Zieh ruhig ältere Schuhe an und genieße den Matsch. Teile den Tisch – gemeinsam matschen erfindet neue Landschaften. Wenn du fertig bist, schau zurück auf Rinne und Wehre: Alles hängt zusammen."
+    }
+  },
+  {
+    "id": "wiedehopf",
+    "nameDe": "Wiedehopf",
+    "nameLat": "Upupa epops",
+    "kategorie": "fauna",
+    "kurztext": "Orange-braun, mit Federkrone – wenn er landet, wirkt die Heide plötzlich wie Afrika.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "audioPath": "assets/audio/species/wiedehopf.mp3",
+    "content": {
+      "hook": "Orange-braun, mit Federkrone – wenn er landet, wirkt die Heide plötzlich wie Afrika.",
+      "erkennung": [
+        "Auffällige Federkrone am Kopf",
+        "Orange-brauner Körper, schwarzweiße Flügel",
+        "Stochernder Schnabel im kurzen Gras"
+      ],
+      "lebensraum": "Offene Heide und lichte Ränder mit Insekten und Höhlenbäumen zum Brüten.",
+      "funFacts": [
+        "Er stochert Großinsekten aus dem Boden.",
+        "Die Federkrone stellt er bei Erregung auf.",
+        "In Brandenburg ist er selten und auf offene Landschaften angewiesen."
+      ],
+      "hinweis": "Nicht annähern – Höhlenbrüter brauchen Ruhe.",
+      "hoertext": "Siehst du einen orangenen Vogel mit Krone? Das könnte der Wiedehopf sein. Er wirkt fast exotisch und sucht trotzdem Insekten im märkischen Sand. Mit dem langen Schnabel stochert er im Boden nach Beute. Zum Brüten braucht er Höhlen und offene Flächen. In der Heide findet er beides, wenn auch dünn gesät. Bleib ruhig stehen und schau aus der Distanz. Wenn die Federkrone aufgeht, hast du einen der schönsten Momente dieser Landschaft erwischt. Kein Spektakel von nah, sondern ein Geschenk für geduldige Augen. Nimm den Moment mit – und lass ihn in Ruhe weiterziehen."
+    }
+  },
+  {
+    "id": "wildbiene",
+    "nameDe": "Wildbiene",
+    "nameLat": "Apoidea",
+    "kategorie": "fauna",
+    "kurztext": "Nicht jede Biene wohnt im Stock – viele leben solo in Sand, Holz oder hohlen Stängeln.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Nicht jede Biene wohnt im Stock – viele leben solo in Sand, Holz oder hohlen Stängeln.",
+      "erkennung": [
+        "Vielfältige Größen und Farben, oft einzeln",
+        "An Blüten und Niststrukturen aus Totholz oder Sand",
+        "Kein großer Bienenschwarm wie bei Honigbienen"
+      ],
+      "lebensraum": "Blütenreiche Säume, Totholz, Sandstellen und Steilwände – Vielfalt statt Monotonie.",
+      "funFacts": [
+        "Es gibt Hunderte Arten – viele auf wenige Pflanzen spezialisiert.",
+        "Die meisten leben allein, nicht im Staat.",
+        "Offener Boden und markhaltige Stängel sind Nistplätze aus Gold."
+      ],
+      "hinweis": "",
+      "hoertext": "Siehst du eine einzelne Biene an einer Blüte und keinen Bienenstock in der Nähe? Dann ist es oft eine Wildbiene. Viele Arten nisten solo – in Sand, Totholz, Steilwänden oder hohlen Stängeln. Manche sind auf wenige Pflanzen spezialisiert. Verschwinden die Blüten, verschwinden sie. An Lehrpfaden kannst du auf Struktur achten: totes Holz, offene Stellen, Blütenvielfalt. Das ist ihre Stadt. Und jedes Summen dort ist ein Zeichen, dass der Rand des Weges mehr ist als Deko. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "wollgras",
+    "nameDe": "Wollgras",
+    "nameLat": "Eriophorum",
+    "kategorie": "flora",
+    "kurztext": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
+      "erkennung": [
+        "Weiße, watteartige Fruchtstände",
+        "Auf nassen, oft torfigen Stellen",
+        "Mehrere Arten, alle an Feuchtlebensräume gebunden"
+      ],
+      "lebensraum": "Nasse Moore und torfige Flächen – im Frühsommer weithin sichtbar.",
+      "funFacts": [
+        "Die „Wolle“ sind Haare an den Früchten, die den Windtransport helfen.",
+        "Große Bestände wirken wie Schnee mitten im Grün.",
+        "Wo Wollgras steht, ist der Boden meist dauerhaft nass."
+      ],
+      "hinweis": "",
+      "hoertext": "Im Frühsommer verwandelt sich manches Moor in eine flauschige Fläche. Wollgras. Die weißen Köpfe sehen aus wie Watte. Tatsächlich helfen die Haare den Früchten, mit dem Wind zu reisen. Die Pflanze zeigt nasse, oft torfige Standorte an. Mehrere Arten gibt es in Brandenburg – alle brauchen intakte Feuchte. Wenn du diese weißen Tupfen siehst, weißt du: Hier hält das Wasser noch. Ein weiches Bild – mit einer klaren Botschaft unter dem Flaum. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    }
+  },
+  {
+    "id": "zauneidechse",
+    "nameDe": "Zauneidechse",
+    "nameLat": "Lacerta agilis",
+    "kategorie": "fauna",
+    "kurztext": "Auf dem Lesesteinhaufen liegt sie in der Sonne – grau-braun und blitzschnell weg.",
+    "aliases": [
+      "Eidechse",
+      "Eidechsen"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Auf dem Lesesteinhaufen liegt sie in der Sonne – grau-braun und blitzschnell weg.",
+      "erkennung": [
+        "Schlank, oft auf Steinen in der Sonne",
+        "Männchen in der Balz grünlich",
+        "Lesesteinhaufen als Wärmebank und Versteck"
+      ],
+      "lebensraum": "Sonnige Lesesteinhaufen im Kinderwald: tagsüber warm, nachts Unterschlupf für Eidechsen und Insekten.",
+      "funFacts": [
+        "Steine speichern Wärme und geben sie nachts ab.",
+        "Sie frisst Insekten und braucht offene, sonnige Stellen.",
+        "Bei Gefahr verschwindet sie in Spalten zwischen den Steinen."
+      ],
+      "hinweis": "Steine nicht umwerfen, Eidechsen nicht fangen.",
+      "hoertext": "Der Lesesteinhaufen sieht aus wie Abfall vom Acker. Ist er nicht. Steine in der Sonne werden warm. Nachts halten sie die Wärme. Genau das brauchen Zauneidechsen, Kriechtiere und Insekten. Schau ruhig hin, ohne den Haufen zu zerlegen. Eine graubraune Linie auf dem Stein – und schon ist sie weg. Männchen schimmern in der Balz grün. Sie jagen Insekten und brauchen offene, sonnige Flecken. Im Kinderwald liegt der Haufen extra dafür. Lass die Steine liegen. Wer umwirft, zerstört das Versteck. Wer wartet, sieht vielleicht, wie ein Stück Wald die Sonne tankt. Das ist mehr Theater als manche Bühne."
+    }
+  },
+  {
+    "id": "ziege",
+    "nameDe": "Ziege",
+    "nameLat": "Capra hircus",
+    "kategorie": "fauna",
+    "kurztext": "Die Ziege kommt auf dich zu, als würde sie deine Taschen prüfen.",
+    "aliases": [
+      "Ziegen",
+      "Hausziege"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Die Ziege kommt auf dich zu, als würde sie deine Taschen prüfen.",
+      "erkennung": [
+        "Schlitzpupille, oft Hörner",
+        "Klettert auf Steine und Bretter",
+        "Nimmt Taschen und Schnüre ins Maul"
+      ],
+      "lebensraum": "Gehege und Hof an der Panke. Neugierig, schnell, kein Kuscheltier – Umgang mit Regeln.",
+      "funFacts": [
+        "Schlitzpupillen sehen nach oben und unten scharf.",
+        "Sie klettert, wo ein Schaf stehen bleibt.",
+        "Neugier ist Hunger nach Information, nicht nach Streicheleinheiten."
+      ],
+      "hinweis": "Hörner Abstand. Nicht füttern außer um 16 Uhr.",
+      "hoertext": "Die Ziege kommt auf dich zu, als würde sie deine Taschen lesen. Schlitzpupille, Hörner, hartes Maul. Sie ist neugierig und schnell. Fütter sie nicht zwischendurch, das macht sie krank. Um 16 Uhr darfst du mit den Betreuern füttern. Streicheln nur mit jemand vom Hof, um 11 oder um 15 Uhr. Sonst wird es den Tieren zu viel. Schau erst, wie sie kaut und den Kopf schief stellt. Dann weißt du mehr als nach zehn Fotos. Die Ziege bleibt ein Nutztier mit Charakter. Halt Abstand zu den Hörnern. Frag, bevor du die Hand ausstreckst. An der Panke lernst du den Umgang, nicht das Anstarren."
+    }
+  },
+  {
+    "id": "ziegenmelker",
+    "nameDe": "Ziegenmelker",
+    "nameLat": "Caprimulgus europaeus",
+    "kategorie": "fauna",
+    "kurztext": "Nachts knurrt er wie ein Motor – tagsüber verschwindet er als Rindenstück im Sand.",
+    "aliases": [
+      "Nachtschwalbe"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Nachts knurrt er wie ein Motor – tagsüber verschwindet er als Rindenstück im Sand.",
+      "erkennung": [
+        "Tarnfarbenes Gefieder wie Rinde und Sand",
+        "Nachts langer knurrender Gesang",
+        "Große Augen, flacher Körper am Boden"
+      ],
+      "lebensraum": "Trockene Heiden und lichte Kiefernwälder – aktiv in der Dämmerung.",
+      "funFacts": [
+        "Er fängt Nachtfalter im Flug.",
+        "Tagsüber sitzt er fast unsichtbar am Boden.",
+        "Der Name kommt aus altem Aberglauben, nicht aus der Biologie."
+      ],
+      "hinweis": "Nachts leise bleiben – und Wege nicht verlassen.",
+      "hoertext": "Wenn es dämmert, lohnt sich Lauschen in der Heide. Der Ziegenmelker knurrt monoton wie ein ferner Motor und hält das lange durch. Tagsüber siehst du ihn kaum: Sein Gefieder ist Sand und Rinde. Er jagt Nachtfalter und sitzt oft flach am Boden. In der Heide findet er offene, trockene Flächen. Bleib auf dem Weg und stör keine Ruheplätze. Wer Geduld mitbringt, bekommt hier ein Nachtstück der besonderen Art. Kein lautes Spektakel, sondern ein durchgehendes Knurren in der Dunkelheit. Genau deshalb bleibt dieser Ort nachts den Tieren – und dir als stiller Gast."
+    }
+  }
+]

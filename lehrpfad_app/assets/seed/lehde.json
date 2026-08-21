@@ -1,0 +1,2384 @@
+{
+ "id": "lehde",
+ "name": "Naturlehrpfad Rund um Lehde",
+ "typ": "spreewald",
+ "kurzbeschreibung": "Rundweg vom Großen Spreewaldhafen in Lübbenau ins Spreewalddorf Lehde – das „Grüne Venedig“ mit Fließen, Kähnen, Freilandmuseum und Gurkenmuseum.",
+ "beschreibung": "„Man kann nichts Lieblicheres sehen als dieses Lehde“: Schon Theodor Fontane rühmte das Spreewalddorf, das aus so vielen Inseln besteht, wie es Häuser hat. Der Rundweg führt vom Großen Spreewaldhafen in Lübbenau durch die Fließlandschaft des UNESCO-Biosphärenreservats Spreewald nach Lehde, dessen Dorfanlage komplett unter Denkmalschutz steht. Unterwegs laden das Haus für Mensch und Natur, das Freilandmuseum und das Gurkenmuseum zu Stationen ein; an den Kahnhäfen starten die traditionellen Kahnfahrten. In Lehde und Lübbenau gibt es zahlreiche Einkehrmöglichkeiten.",
+ "laengeKm": 8.1,
+ "dauerMin": 120,
+ "rundkurs": false,
+ "markierung": "Grüner Schrägstrich auf weißem Grund",
+ "betreiber": "Stadt Lübbenau/Spreewald",
+ "region": "Lehde, Stadt Lübbenau/Spreewald, Landkreis Oberspreewald-Lausitz, Brandenburg",
+ "website": "https://www.spreewald.de",
+ "anreise": "RE 2 ab Berlin Hbf nach Lübbenau/Spreewald, von dort ca. 10 Minuten zu Fuß zum Großen Spreewaldhafen (Dammstraße 77a, 03222 Lübbenau/Spreewald). Auto: A 13 bis Abfahrt Lübbenau, weiter der Ausschilderung zum Großen Spreewaldhafen (Parkplätze).",
+ "startName": "Großer Spreewaldhafen, Lübbenau",
+ "arten": [
+  "Eisvogel",
+  "Biber",
+  "Kranich",
+  "Fischotter",
+  "Rotbauchunke",
+  "Schwarzerle",
+  "Sumpfdotterblume"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "route": [
+  [
+   51.87471,
+   14.008207
+  ],
+  [
+   51.874606,
+   14.008159
+  ],
+  [
+   51.874519,
+   14.008118
+  ],
+  [
+   51.874549,
+   14.007976
+  ],
+  [
+   51.874651,
+   14.007656
+  ],
+  [
+   51.874777,
+   14.007302
+  ],
+  [
+   51.874787,
+   14.007274
+  ],
+  [
+   51.874828,
+   14.007158
+  ],
+  [
+   51.874803,
+   14.007134
+  ],
+  [
+   51.874781,
+   14.007113
+  ],
+  [
+   51.874258,
+   14.00664
+  ],
+  [
+   51.874076,
+   14.006468
+  ],
+  [
+   51.874024,
+   14.006407
+  ],
+  [
+   51.874005,
+   14.006333
+  ],
+  [
+   51.874016,
+   14.006265
+  ],
+  [
+   51.874065,
+   14.006075
+  ],
+  [
+   51.874248,
+   14.005529
+  ],
+  [
+   51.874937,
+   14.003466
+  ],
+  [
+   51.874966,
+   14.003385
+  ],
+  [
+   51.876835,
+   13.997962
+  ],
+  [
+   51.876855,
+   13.997908
+  ],
+  [
+   51.876817,
+   13.997872
+  ],
+  [
+   51.876777,
+   13.997834
+  ],
+  [
+   51.876793,
+   13.997784
+  ],
+  [
+   51.877366,
+   13.996041
+  ],
+  [
+   51.877346,
+   13.995925
+  ],
+  [
+   51.876244,
+   13.99497
+  ],
+  [
+   51.875976,
+   13.994451
+  ],
+  [
+   51.875787,
+   13.993831
+  ],
+  [
+   51.875779,
+   13.993797
+  ],
+  [
+   51.875768,
+   13.993759
+  ],
+  [
+   51.875569,
+   13.992984
+  ],
+  [
+   51.875359,
+   13.991538
+  ],
+  [
+   51.875352,
+   13.991418
+  ],
+  [
+   51.875346,
+   13.991298
+  ],
+  [
+   51.875417,
+   13.990815
+  ],
+  [
+   51.875425,
+   13.990566
+  ],
+  [
+   51.87536,
+   13.990255
+  ],
+  [
+   51.875337,
+   13.990111
+  ],
+  [
+   51.875385,
+   13.989834
+  ],
+  [
+   51.875628,
+   13.988681
+  ],
+  [
+   51.875619,
+   13.988501
+  ],
+  [
+   51.875588,
+   13.988323
+  ],
+  [
+   51.87553,
+   13.988018
+  ],
+  [
+   51.875508,
+   13.987581
+  ],
+  [
+   51.875524,
+   13.986979
+  ],
+  [
+   51.87551,
+   13.986927
+  ],
+  [
+   51.875488,
+   13.986888
+  ],
+  [
+   51.875463,
+   13.986846
+  ],
+  [
+   51.875411,
+   13.986755
+  ],
+  [
+   51.875389,
+   13.986718
+  ],
+  [
+   51.875347,
+   13.986579
+  ],
+  [
+   51.875278,
+   13.986407
+  ],
+  [
+   51.874974,
+   13.985706
+  ],
+  [
+   51.874957,
+   13.985672
+  ],
+  [
+   51.874939,
+   13.985636
+  ],
+  [
+   51.874819,
+   13.985321
+  ],
+  [
+   51.874669,
+   13.984904
+  ],
+  [
+   51.874449,
+   13.98419
+  ],
+  [
+   51.874252,
+   13.983429
+  ],
+  [
+   51.87399,
+   13.982709
+  ],
+  [
+   51.873963,
+   13.982634
+  ],
+  [
+   51.873957,
+   13.982617
+  ],
+  [
+   51.873944,
+   13.982573
+  ],
+  [
+   51.873922,
+   13.982503
+  ],
+  [
+   51.873917,
+   13.982485
+  ],
+  [
+   51.873859,
+   13.982288
+  ],
+  [
+   51.873393,
+   13.980399
+  ],
+  [
+   51.873382,
+   13.980373
+  ],
+  [
+   51.873352,
+   13.9803
+  ],
+  [
+   51.873322,
+   13.980228
+  ],
+  [
+   51.872827,
+   13.979262
+  ],
+  [
+   51.872251,
+   13.978216
+  ],
+  [
+   51.872149,
+   13.97788
+  ],
+  [
+   51.872113,
+   13.977647
+  ],
+  [
+   51.872111,
+   13.977474
+  ],
+  [
+   51.872149,
+   13.976845
+  ],
+  [
+   51.872141,
+   13.976276
+  ],
+  [
+   51.872126,
+   13.975918
+  ],
+  [
+   51.872313,
+   13.975516
+  ],
+  [
+   51.87257,
+   13.975052
+  ],
+  [
+   51.872692,
+   13.974592
+  ],
+  [
+   51.87269,
+   13.974519
+  ],
+  [
+   51.872695,
+   13.97448
+  ],
+  [
+   51.87268,
+   13.974377
+  ],
+  [
+   51.872663,
+   13.974253
+  ],
+  [
+   51.872659,
+   13.974217
+  ],
+  [
+   51.872615,
+   13.973868
+  ],
+  [
+   51.872539,
+   13.973497
+  ],
+  [
+   51.872535,
+   13.97348
+  ],
+  [
+   51.872528,
+   13.973442
+  ],
+  [
+   51.872474,
+   13.973226
+  ],
+  [
+   51.87246,
+   13.973189
+  ],
+  [
+   51.870745,
+   13.973522
+  ],
+  [
+   51.870749,
+   13.973472
+  ],
+  [
+   51.870752,
+   13.973437
+  ],
+  [
+   51.870742,
+   13.973386
+  ],
+  [
+   51.870732,
+   13.973349
+  ],
+  [
+   51.870649,
+   13.973123
+  ],
+  [
+   51.870635,
+   13.973095
+  ],
+  [
+   51.87062,
+   13.973066
+  ],
+  [
+   51.870601,
+   13.973032
+  ],
+  [
+   51.870577,
+   13.973
+  ],
+  [
+   51.870553,
+   13.972976
+  ],
+  [
+   51.870528,
+   13.972957
+  ],
+  [
+   51.870501,
+   13.972938
+  ],
+  [
+   51.870482,
+   13.972926
+  ],
+  [
+   51.870196,
+   13.972871
+  ],
+  [
+   51.87014,
+   13.972864
+  ],
+  [
+   51.870109,
+   13.972832
+  ],
+  [
+   51.870076,
+   13.972794
+  ],
+  [
+   51.870038,
+   13.972757
+  ],
+  [
+   51.869979,
+   13.972719
+  ],
+  [
+   51.869917,
+   13.972701
+  ],
+  [
+   51.869892,
+   13.972705
+  ],
+  [
+   51.869867,
+   13.972719
+  ],
+  [
+   51.869827,
+   13.972753
+  ],
+  [
+   51.869769,
+   13.972833
+  ],
+  [
+   51.869726,
+   13.972892
+  ],
+  [
+   51.869664,
+   13.972891
+  ],
+  [
+   51.869319,
+   13.972885
+  ],
+  [
+   51.86914,
+   13.97289
+  ],
+  [
+   51.869067,
+   13.972904
+  ],
+  [
+   51.868998,
+   13.972919
+  ],
+  [
+   51.868933,
+   13.97294
+  ],
+  [
+   51.868884,
+   13.972957
+  ],
+  [
+   51.86885,
+   13.972974
+  ],
+  [
+   51.868811,
+   13.972995
+  ],
+  [
+   51.868551,
+   13.973123
+  ],
+  [
+   51.868446,
+   13.973186
+  ],
+  [
+   51.868123,
+   13.973396
+  ],
+  [
+   51.868018,
+   13.973472
+  ],
+  [
+   51.867988,
+   13.973503
+  ],
+  [
+   51.867959,
+   13.97355
+  ],
+  [
+   51.867936,
+   13.973601
+  ],
+  [
+   51.867925,
+   13.973657
+  ],
+  [
+   51.867929,
+   13.973741
+  ],
+  [
+   51.867938,
+   13.973925
+  ],
+  [
+   51.867964,
+   13.974466
+  ],
+  [
+   51.868005,
+   13.975183
+  ],
+  [
+   51.868055,
+   13.976164
+  ],
+  [
+   51.868063,
+   13.976301
+  ],
+  [
+   51.868118,
+   13.977492
+  ],
+  [
+   51.868135,
+   13.9778
+  ],
+  [
+   51.868207,
+   13.979173
+  ],
+  [
+   51.868216,
+   13.979317
+  ],
+  [
+   51.868231,
+   13.979658
+  ],
+  [
+   51.868267,
+   13.979981
+  ],
+  [
+   51.86829,
+   13.980097
+  ],
+  [
+   51.86832,
+   13.980193
+  ],
+  [
+   51.868418,
+   13.980398
+  ],
+  [
+   51.868508,
+   13.980528
+  ],
+  [
+   51.868568,
+   13.980589
+  ],
+  [
+   51.868637,
+   13.980642
+  ],
+  [
+   51.868767,
+   13.980718
+  ],
+  [
+   51.868798,
+   13.98076
+  ],
+  [
+   51.868851,
+   13.980871
+  ],
+  [
+   51.868885,
+   13.980993
+  ],
+  [
+   51.868905,
+   13.981142
+  ],
+  [
+   51.868958,
+   13.981861
+  ],
+  [
+   51.868809,
+   13.981924
+  ],
+  [
+   51.868785,
+   13.982026
+  ],
+  [
+   51.868774,
+   13.982243
+  ],
+  [
+   51.868765,
+   13.982604
+  ],
+  [
+   51.868725,
+   13.982992
+  ],
+  [
+   51.868586,
+   13.984101
+  ],
+  [
+   51.868596,
+   13.984241
+  ],
+  [
+   51.868592,
+   13.984363
+  ],
+  [
+   51.868566,
+   13.984496
+  ],
+  [
+   51.868488,
+   13.984749
+  ],
+  [
+   51.868455,
+   13.984924
+  ],
+  [
+   51.868447,
+   13.985071
+  ],
+  [
+   51.868468,
+   13.985166
+  ],
+  [
+   51.868484,
+   13.985356
+  ],
+  [
+   51.868463,
+   13.985485
+  ],
+  [
+   51.868407,
+   13.985707
+  ],
+  [
+   51.868387,
+   13.985854
+  ],
+  [
+   51.868384,
+   13.986102
+  ],
+  [
+   51.868366,
+   13.986194
+  ],
+  [
+   51.868323,
+   13.986306
+  ],
+  [
+   51.868211,
+   13.986522
+  ],
+  [
+   51.868153,
+   13.986681
+  ],
+  [
+   51.868131,
+   13.986921
+  ],
+  [
+   51.868098,
+   13.986968
+  ],
+  [
+   51.86802,
+   13.987079
+  ],
+  [
+   51.867885,
+   13.987291
+  ],
+  [
+   51.867738,
+   13.987538
+  ],
+  [
+   51.867662,
+   13.987641
+  ],
+  [
+   51.867584,
+   13.987748
+  ],
+  [
+   51.867531,
+   13.987813
+  ],
+  [
+   51.867389,
+   13.987977
+  ],
+  [
+   51.867238,
+   13.988144
+  ],
+  [
+   51.867142,
+   13.988247
+  ],
+  [
+   51.867018,
+   13.98836
+  ],
+  [
+   51.866925,
+   13.988439
+  ],
+  [
+   51.866851,
+   13.988483
+  ],
+  [
+   51.866646,
+   13.988585
+  ],
+  [
+   51.866384,
+   13.988709
+  ],
+  [
+   51.86636,
+   13.988803
+  ],
+  [
+   51.866334,
+   13.988957
+  ],
+  [
+   51.86628,
+   13.988996
+  ],
+  [
+   51.866156,
+   13.989104
+  ],
+  [
+   51.865748,
+   13.989601
+  ],
+  [
+   51.865474,
+   13.989934
+  ],
+  [
+   51.86523,
+   13.990231
+  ],
+  [
+   51.864992,
+   13.990515
+  ],
+  [
+   51.864912,
+   13.990621
+  ],
+  [
+   51.864808,
+   13.990703
+  ],
+  [
+   51.86442,
+   13.990858
+  ],
+  [
+   51.864055,
+   13.991026
+  ],
+  [
+   51.863954,
+   13.991019
+  ],
+  [
+   51.863865,
+   13.990976
+  ],
+  [
+   51.863706,
+   13.990711
+  ],
+  [
+   51.863458,
+   13.990375
+  ],
+  [
+   51.863411,
+   13.99035
+  ],
+  [
+   51.863362,
+   13.990362
+  ],
+  [
+   51.863222,
+   13.990407
+  ],
+  [
+   51.863173,
+   13.990421
+  ],
+  [
+   51.863046,
+   13.990461
+  ],
+  [
+   51.862958,
+   13.990655
+  ],
+  [
+   51.862733,
+   13.990765
+  ],
+  [
+   51.862705,
+   13.990757
+  ],
+  [
+   51.862631,
+   13.990728
+  ],
+  [
+   51.86258,
+   13.99071
+  ],
+  [
+   51.862569,
+   13.990704
+  ],
+  [
+   51.862555,
+   13.990696
+  ],
+  [
+   51.862334,
+   13.99054
+  ],
+  [
+   51.862195,
+   13.990429
+  ],
+  [
+   51.862144,
+   13.990396
+  ],
+  [
+   51.862088,
+   13.99036
+  ],
+  [
+   51.86181,
+   13.990357
+  ],
+  [
+   51.861538,
+   13.990266
+  ],
+  [
+   51.861062,
+   13.989928
+  ],
+  [
+   51.860824,
+   13.98984
+  ],
+  [
+   51.860645,
+   13.98983
+  ],
+  [
+   51.860459,
+   13.989645
+  ],
+  [
+   51.860442,
+   13.989617
+  ],
+  [
+   51.860405,
+   13.98955
+  ],
+  [
+   51.860365,
+   13.989477
+  ],
+  [
+   51.860351,
+   13.989454
+  ],
+  [
+   51.860309,
+   13.989378
+  ],
+  [
+   51.860265,
+   13.989299
+  ],
+  [
+   51.86005,
+   13.98889
+  ],
+  [
+   51.86008,
+   13.988815
+  ],
+  [
+   51.860083,
+   13.98877
+  ],
+  [
+   51.860071,
+   13.988723
+  ],
+  [
+   51.859972,
+   13.988555
+  ],
+  [
+   51.859483,
+   13.987865
+  ],
+  [
+   51.860674,
+   13.98553
+  ],
+  [
+   51.861144,
+   13.984758
+  ],
+  [
+   51.86121,
+   13.984576
+  ],
+  [
+   51.861553,
+   13.983599
+  ],
+  [
+   51.86161,
+   13.983437
+  ],
+  [
+   51.861686,
+   13.983222
+  ],
+  [
+   51.861983,
+   13.982381
+  ],
+  [
+   51.862451,
+   13.981554
+  ],
+  [
+   51.863838,
+   13.980551
+  ],
+  [
+   51.863907,
+   13.980494
+  ],
+  [
+   51.863952,
+   13.980457
+  ],
+  [
+   51.863986,
+   13.98043
+  ],
+  [
+   51.864018,
+   13.980406
+  ],
+  [
+   51.864259,
+   13.980202
+  ],
+  [
+   51.864417,
+   13.980059
+  ],
+  [
+   51.86452,
+   13.97994
+  ],
+  [
+   51.864655,
+   13.979756
+  ],
+  [
+   51.86512,
+   13.978828
+  ],
+  [
+   51.865282,
+   13.978496
+  ],
+  [
+   51.865323,
+   13.978415
+  ],
+  [
+   51.865635,
+   13.977799
+  ],
+  [
+   51.865665,
+   13.977741
+  ],
+  [
+   51.865749,
+   13.977559
+  ],
+  [
+   51.865823,
+   13.977399
+  ],
+  [
+   51.865967,
+   13.977099
+  ],
+  [
+   51.866307,
+   13.976353
+  ],
+  [
+   51.866502,
+   13.975934
+  ],
+  [
+   51.866535,
+   13.975877
+  ],
+  [
+   51.866591,
+   13.975796
+  ],
+  [
+   51.866647,
+   13.975738
+  ],
+  [
+   51.866711,
+   13.975682
+  ],
+  [
+   51.866769,
+   13.975653
+  ],
+  [
+   51.866822,
+   13.975637
+  ],
+  [
+   51.866898,
+   13.975615
+  ],
+  [
+   51.866954,
+   13.97558
+  ],
+  [
+   51.867004,
+   13.975541
+  ],
+  [
+   51.867033,
+   13.975497
+  ],
+  [
+   51.867056,
+   13.975461
+  ],
+  [
+   51.867082,
+   13.975365
+  ],
+  [
+   51.867093,
+   13.975242
+  ],
+  [
+   51.867087,
+   13.975141
+  ],
+  [
+   51.867073,
+   13.975062
+  ],
+  [
+   51.867053,
+   13.975005
+  ],
+  [
+   51.867025,
+   13.974948
+  ],
+  [
+   51.866972,
+   13.974849
+  ],
+  [
+   51.866916,
+   13.974735
+  ],
+  [
+   51.866855,
+   13.974608
+  ],
+  [
+   51.866681,
+   13.974236
+  ],
+  [
+   51.866304,
+   13.973425
+  ],
+  [
+   51.866349,
+   13.973378
+  ],
+  [
+   51.86651,
+   13.973199
+  ],
+  [
+   51.866644,
+   13.972985
+  ],
+  [
+   51.866686,
+   13.972911
+  ],
+  [
+   51.866738,
+   13.972834
+  ],
+  [
+   51.866829,
+   13.972715
+  ],
+  [
+   51.86686,
+   13.97267
+  ],
+  [
+   51.866925,
+   13.972611
+  ],
+  [
+   51.866951,
+   13.972593
+  ],
+  [
+   51.867147,
+   13.972456
+  ],
+  [
+   51.867193,
+   13.972413
+  ],
+  [
+   51.867239,
+   13.972372
+  ],
+  [
+   51.867437,
+   13.972146
+  ],
+  [
+   51.867521,
+   13.972059
+  ],
+  [
+   51.867695,
+   13.971908
+  ],
+  [
+   51.867817,
+   13.971811
+  ],
+  [
+   51.867937,
+   13.971735
+  ],
+  [
+   51.868101,
+   13.97165
+  ],
+  [
+   51.868084,
+   13.971534
+  ],
+  [
+   51.86801,
+   13.970892
+  ],
+  [
+   51.867999,
+   13.970712
+  ],
+  [
+   51.868006,
+   13.970576
+  ],
+  [
+   51.868023,
+   13.97041
+  ],
+  [
+   51.86806,
+   13.970179
+  ],
+  [
+   51.868124,
+   13.969775
+  ],
+  [
+   51.868189,
+   13.969351
+  ],
+  [
+   51.868236,
+   13.969382
+  ],
+  [
+   51.868639,
+   13.969637
+  ],
+  [
+   51.868851,
+   13.9697
+  ],
+  [
+   51.869231,
+   13.969708
+  ],
+  [
+   51.869362,
+   13.969711
+  ],
+  [
+   51.869539,
+   13.969783
+  ],
+  [
+   51.869622,
+   13.969853
+  ],
+  [
+   51.869669,
+   13.969924
+  ],
+  [
+   51.869684,
+   13.969947
+  ],
+  [
+   51.869705,
+   13.970144
+  ],
+  [
+   51.869751,
+   13.970375
+  ],
+  [
+   51.869822,
+   13.970488
+  ],
+  [
+   51.869962,
+   13.970452
+  ],
+  [
+   51.869998,
+   13.970452
+  ],
+  [
+   51.87002,
+   13.970522
+  ],
+  [
+   51.870069,
+   13.970646
+  ],
+  [
+   51.870087,
+   13.970689
+  ],
+  [
+   51.870128,
+   13.970644
+  ],
+  [
+   51.870306,
+   13.970531
+  ],
+  [
+   51.870423,
+   13.970572
+  ],
+  [
+   51.870533,
+   13.970684
+  ],
+  [
+   51.870571,
+   13.970715
+  ],
+  [
+   51.870585,
+   13.970729
+  ],
+  [
+   51.870598,
+   13.970745
+  ],
+  [
+   51.870641,
+   13.970781
+  ],
+  [
+   51.871215,
+   13.971283
+  ],
+  [
+   51.871796,
+   13.971874
+  ],
+  [
+   51.871982,
+   13.972084
+  ],
+  [
+   51.872029,
+   13.97215
+  ],
+  [
+   51.872065,
+   13.972205
+  ],
+  [
+   51.872068,
+   13.972211
+  ],
+  [
+   51.872127,
+   13.972335
+  ],
+  [
+   51.872157,
+   13.972413
+  ],
+  [
+   51.872445,
+   13.97315
+  ],
+  [
+   51.872452,
+   13.973168
+  ],
+  [
+   51.87246,
+   13.973189
+  ],
+  [
+   51.872474,
+   13.973226
+  ],
+  [
+   51.872462,
+   13.973232
+  ],
+  [
+   51.871922,
+   13.973467
+  ],
+  [
+   51.871842,
+   13.973504
+  ],
+  [
+   51.87183,
+   13.973506
+  ],
+  [
+   51.87179,
+   13.973515
+  ],
+  [
+   51.871693,
+   13.973482
+  ],
+  [
+   51.871682,
+   13.973481
+  ],
+  [
+   51.871537,
+   13.973474
+  ],
+  [
+   51.871465,
+   13.97347
+  ],
+  [
+   51.870893,
+   13.973598
+  ],
+  [
+   51.87078,
+   13.973543
+  ],
+  [
+   51.870745,
+   13.973522
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 4882164121,
+   "lat": 51.8673815,
+   "lon": 13.973351,
+   "km": 3.37,
+   "titel": "Großer Spreewaldhafen",
+   "thema": "Start am Kahnhafen",
+   "kurztext": "Am Großen Spreewaldhafen, dem bekanntesten Kahnhafen des Spreewalds, beginnt die Runde. Von hier stechen die Kahnfährleute ihre Gäste in die Fließlandschaft – und wir starten zu Fuß in Richtung Lehde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 5679599845,
+   "lat": 51.8691896,
+   "lon": 13.9805129,
+   "km": 3.91,
+   "titel": "Biosphärenreservat Spreewald",
+   "thema": "Lebensraum Fließlandschaft",
+   "kurztext": "Die Tafel des Biosphärenreservats erklärt die Landschaft, durch die wir gehen: die weit verzweigten Fließe, die traditionellen Wasserschlagwiesen, die regelmäßig überflutet werden, und die Reste eiszeitlicher Moore, die enorme Mengen Kohlenstoff speichern.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 1396123638,
+   "lat": 51.8689086,
+   "lon": 13.9820097,
+   "km": 3.97,
+   "titel": "Sehenswertes um Lehde",
+   "thema": "Überblick über das Spreewalddorf",
+   "kurztext": "Die Wanderkarte zeigt Lehde und seine Umgebung: das „Grüne Venedig“ besteht aus so vielen Inseln, wie es Häuser hat – die Fließe zwischen den Gehöften übernehmen weitgehend die Funktion von Straßen. Die gesamte Dorfanlage steht unter Denkmalschutz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 748503040,
+   "lat": 51.8660418,
+   "lon": 13.9910155,
+   "km": 4.72,
+   "titel": "Gurkenmuseum",
+   "thema": "Die Spreewaldgurke",
+   "kurztext": "Im Gurkenmuseum dreht sich alles um die berühmteste Frucht der Region: Vom Anbau auf den Feldern zwischen den Fließen über die Ernte mit dem Kahn bis zur Einlage in den Fässern. Die Spreewaldgurke ist heute eine geschützte Herkunftsbezeichnung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 5921188527,
+   "lat": 51.8626556,
+   "lon": 13.9909703,
+   "km": 5.07,
+   "titel": "Freilandmuseum Lehde",
+   "thema": "Leben im Spreewald um 1900",
+   "kurztext": "Das Freilandmuseum Lehde zeigt mit seinen historischen Gehöften, wie die sorbisch/wendischen und deutschen Spreewaldbewohner früher lebten und arbeiteten. Die Tafel beschreibt die einzelnen Stationen des Museums – ein lohnender Abstecher direkt am Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 8978006356,
+   "lat": 51.86922,
+   "lon": 13.968538,
+   "km": 7.42,
+   "titel": "Haus für Mensch und Natur",
+   "thema": "Das Biosphärenreservat verstehen",
+   "kurztext": "Das Haus für Mensch und Natur ist die Umweltbildungsstätte des Biosphärenreservats Spreewald. Hier erfahren wir, wie die einzigartige Kulturlandschaft aus Fließen, Wiesen und Wäldern entstanden ist und warum sie seit 1991 von der UNESCO als Biosphärenreservat geschützt wird.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 1396044942,
+   "lat": 51.8698059,
+   "lon": 13.9706367,
+   "km": 7.52,
+   "titel": "Kahnfährmannsverein der Spreewaldfreunde",
+   "thema": "Kahnfahrten durch den Spreewald",
+   "kurztext": "Der Spreewaldkahn ist das traditionelle Fortbewegungsmittel zwischen den Fließen – früher wurden damit Heu, Gurken und sogar die Post transportiert. Der Kahnfährmannsverein hält die Kahnfahrt-Tradition in Lehde lebendig; von den Anlegestellen starten die Rundfahrten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 283554831,
+   "lat": 51.8672077,
+   "lon": 13.9717579,
+   "kategorie": "gastro",
+   "name": "Strubel's Gasthaus & Pension"
+  },
+  {
+   "osmId": 283559227,
+   "lat": 51.8672635,
+   "lon": 13.9725294,
+   "kategorie": "gastro",
+   "name": "Zum grünen Strand der Spree"
+  },
+  {
+   "osmId": 287252734,
+   "lat": 51.8700972,
+   "lon": 13.9703984,
+   "kategorie": "gastro",
+   "name": "Biergarten Am Spreeschlößchen"
+  },
+  {
+   "osmId": 301743632,
+   "lat": 51.8744384,
+   "lon": 14.0089232,
+   "kategorie": "gastro",
+   "name": "Wotschofska"
+  },
+  {
+   "osmId": 336756140,
+   "lat": 51.8670644,
+   "lon": 13.9731922,
+   "kategorie": "gastro",
+   "name": "Großer Hafen"
+  },
+  {
+   "osmId": 876355246,
+   "lat": 51.8681313,
+   "lon": 13.969261,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355250,
+   "lat": 51.8681654,
+   "lon": 13.9690769,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355276,
+   "lat": 51.8689835,
+   "lon": 13.9695071,
+   "kategorie": "gastro",
+   "name": "Spreewald-Idyll"
+  },
+  {
+   "osmId": 876355316,
+   "lat": 51.8681381,
+   "lon": 13.9689855,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355344,
+   "lat": 51.8681517,
+   "lon": 13.9691742,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355351,
+   "lat": 51.8681675,
+   "lon": 13.9681575,
+   "kategorie": "gastro",
+   "name": "Bäckerei Bubner"
+  },
+  {
+   "osmId": 876355353,
+   "lat": 51.8680425,
+   "lon": 13.9693026,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355386,
+   "lat": 51.868036,
+   "lon": 13.9691868,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355401,
+   "lat": 51.8680547,
+   "lon": 13.9690625,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355417,
+   "lat": 51.8680534,
+   "lon": 13.9696552,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355420,
+   "lat": 51.8680372,
+   "lon": 13.9691737,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 876355506,
+   "lat": 51.8681166,
+   "lon": 13.9693549,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1164733843,
+   "lat": 51.8682027,
+   "lon": 13.9687595,
+   "kategorie": "parking",
+   "name": "Kirchplatz"
+  },
+  {
+   "osmId": 1347116956,
+   "lat": 51.8667045,
+   "lon": 13.9725998,
+   "kategorie": "gastro",
+   "name": "Eiscafé Sansi"
+  },
+  {
+   "osmId": 1347116957,
+   "lat": 51.8669522,
+   "lon": 13.9730067,
+   "kategorie": "gastro",
+   "name": "Flaggschiff"
+  },
+  {
+   "osmId": 1347673239,
+   "lat": 51.8667841,
+   "lon": 13.9734688,
+   "kategorie": "gastro",
+   "name": "Cafe zum Nussbaum"
+  },
+  {
+   "osmId": 1347685464,
+   "lat": 51.8679473,
+   "lon": 13.9702271,
+   "kategorie": "gastro",
+   "name": "Café Fontane"
+  },
+  {
+   "osmId": 1347685465,
+   "lat": 51.8679813,
+   "lon": 13.9685751,
+   "kategorie": "gastro",
+   "name": "Charleston"
+  },
+  {
+   "osmId": 1396044936,
+   "lat": 51.8678898,
+   "lon": 13.9681496,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 1396044954,
+   "lat": 51.8751232,
+   "lon": 14.0031077,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123629,
+   "lat": 51.8666838,
+   "lon": 13.9885278,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123630,
+   "lat": 51.8670339,
+   "lon": 13.9883057,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123633,
+   "lat": 51.8680837,
+   "lon": 13.987079,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123634,
+   "lat": 51.8684772,
+   "lon": 13.9855852,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123635,
+   "lat": 51.868526,
+   "lon": 13.9847396,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1396123637,
+   "lat": 51.8687109,
+   "lon": 13.9833227,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1760682861,
+   "lat": 51.8669536,
+   "lon": 13.9728629,
+   "kategorie": "gastro",
+   "name": "Hafen-Snack"
+  },
+  {
+   "osmId": 1760682880,
+   "lat": 51.8691637,
+   "lon": 13.9741709,
+   "kategorie": "gastro",
+   "name": "Linari"
+  },
+  {
+   "osmId": 1760682881,
+   "lat": 51.8681572,
+   "lon": 13.9721339,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1760682886,
+   "lat": 51.8726983,
+   "lon": 13.9746802,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1760682902,
+   "lat": 51.8674264,
+   "lon": 13.9720043,
+   "kategorie": "gastro",
+   "name": "Strubel´s Stübchen"
+  },
+  {
+   "osmId": 1761555935,
+   "lat": 51.8647152,
+   "lon": 13.9910853,
+   "kategorie": "gastro",
+   "name": "Bauernschänke am Storchennest"
+  },
+  {
+   "osmId": 1782493049,
+   "lat": 51.8675816,
+   "lon": 13.9744831,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1782493053,
+   "lat": 51.8675859,
+   "lon": 13.9744068,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1782493122,
+   "lat": 51.8675873,
+   "lon": 13.9745898,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1782493126,
+   "lat": 51.8676109,
+   "lon": 13.9749006,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1782493130,
+   "lat": 51.867641,
+   "lon": 13.9751563,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2313650694,
+   "lat": 51.868075,
+   "lon": 13.9683473,
+   "kategorie": "gastro",
+   "name": "\"Zeitlos\" Das Keller& Brunnen Café"
+  },
+  {
+   "osmId": 2866693713,
+   "lat": 51.8754066,
+   "lon": 13.9866193,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2866694112,
+   "lat": 51.8721601,
+   "lon": 13.9770437,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2866694120,
+   "lat": 51.8773826,
+   "lon": 13.9959825,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2957599289,
+   "lat": 51.8674167,
+   "lon": 13.9738183,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2957599292,
+   "lat": 51.8697173,
+   "lon": 13.9801208,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3127599802,
+   "lat": 51.8665738,
+   "lon": 13.974172,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3627131657,
+   "lat": 51.8741424,
+   "lon": 14.0090041,
+   "kategorie": "gastro",
+   "name": null
+  },
+  {
+   "osmId": 4177158390,
+   "lat": 51.8670481,
+   "lon": 13.9730483,
+   "kategorie": "wc",
+   "name": "Öffentliche Toilette"
+  },
+  {
+   "osmId": 4818212302,
+   "lat": 51.8675643,
+   "lon": 13.9876666,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5673325542,
+   "lat": 51.8694438,
+   "lon": 13.9801041,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5673496625,
+   "lat": 51.8697474,
+   "lon": 13.9800915,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 5679743074,
+   "lat": 51.8676207,
+   "lon": 13.9740156,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743075,
+   "lat": 51.8676346,
+   "lon": 13.9735103,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743076,
+   "lat": 51.8676348,
+   "lon": 13.9734936,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743077,
+   "lat": 51.867661,
+   "lon": 13.9732971,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743078,
+   "lat": 51.8676632,
+   "lon": 13.9732858,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743079,
+   "lat": 51.8676653,
+   "lon": 13.9732746,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743080,
+   "lat": 51.8676675,
+   "lon": 13.9732634,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5679743081,
+   "lat": 51.8676869,
+   "lon": 13.9731233,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5681549123,
+   "lat": 51.8683896,
+   "lon": 13.9678186,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5681593821,
+   "lat": 51.8683051,
+   "lon": 13.9678522,
+   "kategorie": "gastro",
+   "name": "Café Alex"
+  },
+  {
+   "osmId": 5850755768,
+   "lat": 51.8606263,
+   "lon": 13.9856728,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5850755769,
+   "lat": 51.8596143,
+   "lon": 13.9876771,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5870751122,
+   "lat": 51.8682529,
+   "lon": 13.9679836,
+   "kategorie": "gastro",
+   "name": "Spreewald Kebab Haus"
+  },
+  {
+   "osmId": 6231629231,
+   "lat": 51.8675326,
+   "lon": 13.9722866,
+   "kategorie": "gastro",
+   "name": "Strubel's Biergarten"
+  },
+  {
+   "osmId": 6231694192,
+   "lat": 51.8689056,
+   "lon": 13.9695279,
+   "kategorie": "gastro",
+   "name": "Spreewald-Idyll"
+  },
+  {
+   "osmId": 6231694193,
+   "lat": 51.8700947,
+   "lon": 13.9703044,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 6235345831,
+   "lat": 51.8681951,
+   "lon": 13.9796353,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6235345833,
+   "lat": 51.870641,
+   "lon": 13.9738746,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6343488253,
+   "lat": 51.8682061,
+   "lon": 13.9715471,
+   "kategorie": "gastro",
+   "name": "Restaurant & Café am Mühlenwehr"
+  },
+  {
+   "osmId": 6718442036,
+   "lat": 51.8658195,
+   "lon": 13.9764158,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 8980063942,
+   "lat": 51.8667132,
+   "lon": 13.9723167,
+   "kategorie": "gastro",
+   "name": "Hofladen Cafe"
+  },
+  {
+   "osmId": 9752846850,
+   "lat": 51.8618264,
+   "lon": 13.9828971,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9760327384,
+   "lat": 51.8677801,
+   "lon": 13.9745609,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9760327385,
+   "lat": 51.8677148,
+   "lon": 13.9748625,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9761539618,
+   "lat": 51.8744595,
+   "lon": 14.0083518,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 9982591650,
+   "lat": 51.8624859,
+   "lon": 13.9907021,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9982591651,
+   "lat": 51.8624597,
+   "lon": 13.9907011,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9983379788,
+   "lat": 51.8700908,
+   "lon": 13.9746514,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9983379789,
+   "lat": 51.8699855,
+   "lon": 13.9740586,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10016557284,
+   "lat": 51.8674007,
+   "lon": 13.9748094,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10951335843,
+   "lat": 51.8755599,
+   "lon": 13.9931969,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10970877766,
+   "lat": 51.8748789,
+   "lon": 14.0037379,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11513712237,
+   "lat": 51.8721731,
+   "lon": 13.9765054,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11513730347,
+   "lat": 51.8767734,
+   "lon": 13.9977933,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12327471400,
+   "lat": 51.8739401,
+   "lon": 13.9826312,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609349390,
+   "lat": 51.8681519,
+   "lon": 13.9721278,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609364672,
+   "lat": 51.8654333,
+   "lon": 13.9736469,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609538258,
+   "lat": 51.8680625,
+   "lon": 13.9871114,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609538259,
+   "lat": 51.8680132,
+   "lon": 13.9767537,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609563367,
+   "lat": 51.8612295,
+   "lon": 13.9900986,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12609563371,
+   "lat": 51.8604881,
+   "lon": 13.9895955,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12770911401,
+   "lat": 51.8636539,
+   "lon": 13.9904622,
+   "kategorie": "gastro",
+   "name": "Quarkkeulchen & Imbiss"
+  },
+  {
+   "osmId": 12770911501,
+   "lat": 51.8677228,
+   "lon": 13.9731426,
+   "kategorie": "gastro",
+   "name": "Freddy's Waffelbäckerei"
+  },
+  {
+   "osmId": 13002184961,
+   "lat": 51.8672245,
+   "lon": 13.9745372,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13002222959,
+   "lat": 51.8677316,
+   "lon": 13.9752386,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13002226824,
+   "lat": 51.8674105,
+   "lon": 13.9738581,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13002230933,
+   "lat": 51.8678731,
+   "lon": 13.9753626,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13002242656,
+   "lat": 51.8666235,
+   "lon": 13.972739,
+   "kategorie": "gastro",
+   "name": "Lángos Maxe"
+  },
+  {
+   "osmId": 13002253967,
+   "lat": 51.8676712,
+   "lon": 13.9752126,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13004522605,
+   "lat": 51.8658869,
+   "lon": 13.9737453,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13877581626,
+   "lat": 51.8684539,
+   "lon": 13.972888,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13877588478,
+   "lat": 51.8684302,
+   "lon": 13.9727531,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13912190301,
+   "lat": 51.8636239,
+   "lon": 13.9924932,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14023863498,
+   "lat": 51.8676999,
+   "lon": 13.9732431,
+   "kategorie": "gastro",
+   "name": "die Fischhütte"
+  }
+ ]
+}

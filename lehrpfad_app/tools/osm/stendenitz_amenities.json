@@ -1,0 +1,75 @@
+{
+ "elements": [
+  {
+   "type": "node",
+   "id": 6697834507,
+   "lat": 53.0069644,
+   "lon": 12.8193712,
+   "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "no",
+    "parking": "street_side"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6697834511,
+   "lat": 53.0065351,
+   "lon": 12.8200015,
+   "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "parking": "surface"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1804748070,
+   "lat": 53.0061287,
+   "lon": 12.8201997,
+   "tags": {
+    "addr:city": "Neuruppin",
+    "addr:country": "DE",
+    "addr:housenumber": "13",
+    "addr:postcode": "16827",
+    "addr:street": "Försterei Stendenitz",
+    "addr:suburb": "Molchow",
+    "amenity": "restaurant",
+    "description": "Nur Saisonbetrieb (ca. Ende April - 3. Okt)",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "info@waldschenke-stendenitz.de",
+    "name": "Waldschenke Stendenitz",
+    "opening_hours": "Th 17:00-21:00; Fr-Su 12:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+49 3391 775119",
+    "website": "http://www.waldschenke-stendenitz.de"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1922036067,
+   "lat": 53.0052005,
+   "lon": 12.8178109,
+   "tags": {
+    "tourism": "picnic_site"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2697495552,
+   "lat": 53.0063654,
+   "lon": 12.8195212,
+   "tags": {
+    "contact:phone": "+49 3391 771128",
+    "contact:website": "http://forst.brandenburg.de/sixcms/detail.php/481410",
+    "name": "Waldmuseum Stendenitz",
+    "opening_hours": "We-Su 10:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q15853428",
+    "wikipedia": "de:Waldmuseum Stendenitz"
+   }
+  }
+ ]
+}

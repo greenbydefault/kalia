@@ -1,0 +1,104 @@
+{
+ "id": "lehrpfad-sandhof",
+ "rohdaten": "lehrpfad-sandhof",
+ "name": "Naturlehrpfad Sandhof",
+ "typ": "wald",
+ "kurzbeschreibung": "Acht Kilometer durch Heidewälder und an Klarwasserseen – Lehrpfad ab Festplatz Sandhof bis zum Aussichtsturm Rothirsch. Frei.",
+ "beschreibung": "Ausgangspunkt ist der Pavillon auf dem Festplatz in Sandhof. Beschilderte Stationen: Park Sandhof mit fast 100 Gehölzarten, Aussichtsturm Rothirsch am NSG Großer Serrahn (nicht der NP-Teil Serrahn), Paschensee, Wooster Teerofen, Damerower See, Moor am Langhagensee, Kieferndünen. Seeadler und Fischadler sind Park-Charakterarten. Frei, Outdoor. Lang für kleine Kinder – als Ganztag oder Teilstrecke planen.",
+ "markierung": "Lehrpfad Sandhof / beschilderte Wanderwege",
+ "betreiber": "Forstamt Sandhof / Naturpark Nossentiner/Schwinzer Heide",
+ "region": "Sandhof / Wooster-Teerofen, Ludwigslust-Parchim",
+ "website": "https://www.wald-mv.de/static/WALDMV/Inhalte/Landesforst%20MV/Struktur%20und%20Organisation/Forst%C3%A4mter/Sandhof/Waldbesucher%20Sandhof.pdf",
+ "anreise": "Auto: B 192 Goldberg–Karow, Abzweig Sandhof. Parken am Festplatz/Dorf. ÖPNV dünn.",
+ "startName": "Pavillon auf dem Festplatz Sandhof",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Fischotter",
+  "Kranich",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "hunde-erlaubt"
+ ],
+ "rundkurs": true,
+ "dauerMin": 180,
+ "startAm": "festplatz",
+ "stationen": {
+  "festplatz": {
+   "lat": 53.5744344,
+   "lon": 12.1947004,
+   "titel": "Pavillon Festplatz",
+   "thema": "Start Lehrpfad",
+   "kurztext": "Pavillon, Dorf, Start. Acht Kilometer sind eine Ansage – Teilstrecke ist erlaubt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "park-sandhof": {
+   "lat": 53.5733,
+   "lon": 12.19326,
+   "titel": "Park Sandhof",
+   "thema": "~100 Gehölzarten",
+   "kurztext": "Arboretum im Kleinen: fast 100 Arten. Schilder lesen, Blätter vergleichen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "turm-rothirsch": {
+   "lat": 53.5743305,
+   "lon": 12.1866557,
+   "titel": "Aussichtsturm Rothirsch",
+   "thema": "NSG Großer Serrahn, Adler",
+   "kurztext": "Blick ins NSG Großer Serrahn. Adler kreisen lassen, nicht rufen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "teerofen": {
+   "lat": 53.5876949,
+   "lon": 12.2142194,
+   "titel": "Wooster Teerofen",
+   "thema": "Waldgeschichte, Teer",
+   "kurztext": "Ortsname ist Arbeitsname. Waldglas und Teer brauchen Holz – die Heide erinnert daran.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "paschensee": {
+   "lat": 53.58549,
+   "lon": 12.227,
+   "titel": "Westufer Paschensee",
+   "thema": "Klarwassersee",
+   "kurztext": "Klarwasser, Wald bis ans Ufer. Die Seenrunde ist offiziell Teil des Lehrpfads.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  },
+  "damerow": {
+   "lat": 53.575,
+   "lon": 12.21,
+   "titel": "Westufer Damerower See",
+   "thema": "See / Adler",
+   "kurztext": "Westufer, weites Wasser. Mit Glück Adler, ohne Glück trotzdem Wind.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null
+  }
+ }
+}

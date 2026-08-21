@@ -1,0 +1,603 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-08T12:00:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1476724580,
+  "lat": 51.8166555,
+  "lon": 14.0463817,
+  "tags": {
+    "amenity": "restaurant",
+    "internet_access": "yes",
+    "kayak_rental": "yes",
+    "name": "Gasthof zum Slaven",
+    "opening_hours": "Mo-Sa 16:00-21:00; Su 12:00-21:00",
+    "phone": "+49 35433 70809",
+    "smoking": "no",
+    "tourism": "guest_house",
+    "website": "https://www.gasthof-zum-slawen.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3085841638,
+  "lat": 51.8448554,
+  "lon": 14.0592522,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "capacity": "44"
+  }
+},
+{
+  "type": "node",
+  "id": 3085842137,
+  "lat": 51.8447973,
+  "lon": 14.0593036,
+  "tags": {
+    "amenity": "post_box"
+  }
+},
+{
+  "type": "node",
+  "id": 3801005684,
+  "lat": 51.8254916,
+  "lon": 14.0231398,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 3801019801,
+  "lat": 51.8235308,
+  "lon": 14.0334449,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 3801021091,
+  "lat": 51.8434399,
+  "lon": 14.0545383,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 3801023468,
+  "lat": 51.8453457,
+  "lon": 14.0506406,
+  "tags": {
+    "amenity": "hunting_stand",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4404486764,
+  "lat": 51.8176816,
+  "lon": 14.0369452,
+  "tags": {
+    "addr:city": "Vetschau/Spreewald",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "03226",
+    "addr:street": "Radduscher Bahnhofstraße",
+    "addr:suburb": "Raddusch",
+    "amenity": "cafe",
+    "contact:phone": "+49 35433 559545",
+    "indoor_seating": "yes",
+    "name": "Alte Backstube",
+    "opening_hours": "Tu-Fr 11:00-16:30; Sa 07:00-09:00,11:00-16:30; Su 13:00-17:00",
+    "operator": "Katrin Küster",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "website": "http://vila-radus.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 7781940110,
+  "lat": 51.8179999,
+  "lon": 14.0372052,
+  "tags": {
+    "access": "yes",
+    "amenity": "compressed_air",
+    "bicycle": "yes",
+    "covered": "no",
+    "fee": "no",
+    "lit": "no",
+    "note": "Solar betriebener Kompressor",
+    "opening_hours": "sunrise-sunset"
+  }
+},
+{
+  "type": "node",
+  "id": 9585791882,
+  "lat": 51.8194765,
+  "lon": 14.0419845,
+  "tags": {
+    "amenity": "shelter",
+    "bench": "yes",
+    "material": "wood",
+    "seats": "3",
+    "shelter_type": "weather_shelter"
+  }
+},
+{
+  "type": "node",
+  "id": 9585791885,
+  "lat": 51.8197895,
+  "lon": 14.0419931,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 10739281790,
+  "lat": 51.8194102,
+  "lon": 14.0424226,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 10951952669,
+  "lat": 51.8447380,
+  "lon": 14.0595260,
+  "tags": {
+    "amenity": "charging_station",
+    "capacity": "3",
+    "fee": "yes",
+    "motorcar": "yes",
+    "socket:type2": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 11115167399,
+  "lat": 51.8451383,
+  "lon": 14.0598607,
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "operator": "Dubkowmühle",
+    "parking": "surface"
+  }
+},
+{
+  "type": "node",
+  "id": 11115167400,
+  "lat": 51.8450654,
+  "lon": 14.0595764,
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "operator": "Dubkowmühle",
+    "parking": "surface"
+  }
+},
+{
+  "type": "node",
+  "id": 11761115033,
+  "lat": 51.8181858,
+  "lon": 14.0413747,
+  "tags": {
+    "amenity": "post_box",
+    "collection_times": "Mo-Sa 09:00",
+    "operator": "Deutsche Post",
+    "operator:wikidata": "Q157645"
+  }
+},
+{
+  "type": "node",
+  "id": 11761115034,
+  "lat": 51.8181847,
+  "lon": 14.0413924,
+  "tags": {
+    "amenity": "post_box",
+    "collection_times": "Mo-Fr 10:00",
+    "operator": "REGIO Print-Vertrieb",
+    "operator:short": "RPV"
+  }
+},
+{
+  "type": "node",
+  "id": 12190034848,
+  "lat": 51.8239986,
+  "lon": 14.0260702,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2025-04-12",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12190034858,
+  "lat": 51.8492736,
+  "lon": 14.0217130,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510352,
+  "lat": 51.8179163,
+  "lon": 14.0386829,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510354,
+  "lat": 51.8178652,
+  "lon": 14.0384565,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510355,
+  "lat": 51.8178631,
+  "lon": 14.0384994,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510356,
+  "lat": 51.8178712,
+  "lon": 14.0379564,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510357,
+  "lat": 51.8178512,
+  "lon": 14.0379842,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510358,
+  "lat": 51.8180093,
+  "lon": 14.0371848,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730510359,
+  "lat": 51.8178923,
+  "lon": 14.0386835,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12730550602,
+  "lat": 51.8198549,
+  "lon": 14.0432823,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12730550604,
+  "lat": 51.8201534,
+  "lon": 14.0437884,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12730550606,
+  "lat": 51.8190374,
+  "lon": 14.0429174,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12730632864,
+  "lat": 51.8476915,
+  "lon": 14.0451799,
+  "tags": {
+    "amenity": "hunting_stand",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12730632865,
+  "lat": 51.8463345,
+  "lon": 14.0422444,
+  "tags": {
+    "amenity": "hunting_stand",
+    "shelter": "no",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 12730976664,
+  "lat": 51.8207134,
+  "lon": 14.0397228,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040440,
+  "lat": 51.8198542,
+  "lon": 14.0424218,
+  "tags": {
+    "amenity": "lounger",
+    "material": "wood",
+    "seasonal": "no",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040442,
+  "lat": 51.8198502,
+  "lon": 14.0424945,
+  "tags": {
+    "amenity": "lounger",
+    "material": "wood",
+    "seasonal": "no",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040443,
+  "lat": 51.8193137,
+  "lon": 14.0424043,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040445,
+  "lat": 51.8195575,
+  "lon": 14.0423028,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040446,
+  "lat": 51.8201790,
+  "lon": 14.0411374,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "metal",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731040447,
+  "lat": 51.8193715,
+  "lon": 14.0424608,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731145325,
+  "lat": 51.8219894,
+  "lon": 14.0528850,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731145326,
+  "lat": 51.8191744,
+  "lon": 14.0418103,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731145330,
+  "lat": 51.8191686,
+  "lon": 14.0421299,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731145333,
+  "lat": 51.8191622,
+  "lon": 14.0419933,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12731178356,
+  "lat": 51.8195365,
+  "lon": 14.0416657,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12749618015,
+  "lat": 51.8343771,
+  "lon": 14.0465808,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash;dog_excrement"
+  }
+},
+{
+  "type": "node",
+  "id": 12749888589,
+  "lat": 51.8234338,
+  "lon": 14.0275323,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12749919941,
+  "lat": 51.8223324,
+  "lon": 14.0334480,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 12749919943,
+  "lat": 51.8223357,
+  "lon": 14.0334759,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash;dog_excrement"
+  }
+},
+{
+  "type": "node",
+  "id": 12749919944,
+  "lat": 51.8222648,
+  "lon": 14.0335845,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 13038672001,
+  "lat": 51.8184559,
+  "lon": 14.0415755,
+  "tags": {
+    "amenity": "charging_station",
+    "bicycle": "yes",
+    "name": "E-Bike Ladestation"
+  }
+},
+{
+  "type": "node",
+  "id": 13124436309,
+  "lat": 51.8302838,
+  "lon": 14.0123668,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+}
+
+  ]
+}

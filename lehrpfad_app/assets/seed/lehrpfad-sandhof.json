@@ -1,0 +1,336 @@
+{
+ "id": "lehrpfad-sandhof",
+ "name": "Naturlehrpfad Sandhof",
+ "typ": "wald",
+ "kurzbeschreibung": "Acht Kilometer durch Heidewälder und an Klarwasserseen – Lehrpfad ab Festplatz Sandhof bis zum Aussichtsturm Rothirsch. Frei.",
+ "beschreibung": "Ausgangspunkt ist der Pavillon auf dem Festplatz in Sandhof. Beschilderte Stationen: Park Sandhof mit fast 100 Gehölzarten, Aussichtsturm Rothirsch am NSG Großer Serrahn (nicht der NP-Teil Serrahn), Paschensee, Wooster Teerofen, Damerower See, Moor am Langhagensee, Kieferndünen. Seeadler und Fischadler sind Park-Charakterarten. Frei, Outdoor. Lang für kleine Kinder – als Ganztag oder Teilstrecke planen.",
+ "laengeKm": 6.5,
+ "dauerMin": 180,
+ "rundkurs": true,
+ "markierung": "Lehrpfad Sandhof / beschilderte Wanderwege",
+ "betreiber": "Forstamt Sandhof / Naturpark Nossentiner/Schwinzer Heide",
+ "region": "Sandhof / Wooster-Teerofen, Ludwigslust-Parchim",
+ "website": "https://www.wald-mv.de/static/WALDMV/Inhalte/Landesforst%20MV/Struktur%20und%20Organisation/Forst%C3%A4mter/Sandhof/Waldbesucher%20Sandhof.pdf",
+ "anreise": "Auto: B 192 Goldberg–Karow, Abzweig Sandhof. Parken am Festplatz/Dorf. ÖPNV dünn.",
+ "startName": "Pavillon auf dem Festplatz Sandhof",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Fischotter",
+  "Kranich",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.574434,
+   12.1947
+  ],
+  [
+   53.5733,
+   12.19326
+  ],
+  [
+   53.573644,
+   12.191059
+  ],
+  [
+   53.573987,
+   12.188857
+  ],
+  [
+   53.574331,
+   12.186656
+  ],
+  [
+   53.575155,
+   12.188914
+  ],
+  [
+   53.57598,
+   12.191173
+  ],
+  [
+   53.576804,
+   12.193432
+  ],
+  [
+   53.577629,
+   12.195691
+  ],
+  [
+   53.578453,
+   12.19795
+  ],
+  [
+   53.58,
+   12.2
+  ],
+  [
+   53.580962,
+   12.201777
+  ],
+  [
+   53.581924,
+   12.203555
+  ],
+  [
+   53.582886,
+   12.205332
+  ],
+  [
+   53.583847,
+   12.20711
+  ],
+  [
+   53.584809,
+   12.208887
+  ],
+  [
+   53.585771,
+   12.210665
+  ],
+  [
+   53.586733,
+   12.212442
+  ],
+  [
+   53.587695,
+   12.214219
+  ],
+  [
+   53.587254,
+   12.216776
+  ],
+  [
+   53.586813,
+   12.219332
+  ],
+  [
+   53.586372,
+   12.221888
+  ],
+  [
+   53.585931,
+   12.224444
+  ],
+  [
+   53.58549,
+   12.227
+  ],
+  [
+   53.584441,
+   12.2253
+  ],
+  [
+   53.583392,
+   12.2236
+  ],
+  [
+   53.582343,
+   12.2219
+  ],
+  [
+   53.581294,
+   12.2202
+  ],
+  [
+   53.580245,
+   12.2185
+  ],
+  [
+   53.579196,
+   12.2168
+  ],
+  [
+   53.578147,
+   12.2151
+  ],
+  [
+   53.577098,
+   12.2134
+  ],
+  [
+   53.576049,
+   12.2117
+  ],
+  [
+   53.575,
+   12.21
+  ],
+  [
+   53.574906,
+   12.20745
+  ],
+  [
+   53.574811,
+   12.2049
+  ],
+  [
+   53.574717,
+   12.20235
+  ],
+  [
+   53.574623,
+   12.1998
+  ],
+  [
+   53.574529,
+   12.19725
+  ],
+  [
+   53.574434,
+   12.1947
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -4142580846,
+   "lat": 53.5744344,
+   "lon": 12.1947004,
+   "km": 0.0,
+   "titel": "Pavillon Festplatz",
+   "thema": "Start Lehrpfad",
+   "kurztext": "Pavillon, Dorf, Start. Acht Kilometer sind eine Ansage – Teilstrecke ist erlaubt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -2672845124,
+   "lat": 53.5733,
+   "lon": 12.19326,
+   "km": 0.16,
+   "titel": "Park Sandhof",
+   "thema": "~100 Gehölzarten",
+   "kurztext": "Arboretum im Kleinen: fast 100 Arten. Schilder lesen, Blätter vergleichen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3365226648,
+   "lat": 53.5743305,
+   "lon": 12.1866557,
+   "km": 0.61,
+   "titel": "Aussichtsturm Rothirsch",
+   "thema": "NSG Großer Serrahn, Adler",
+   "kurztext": "Blick ins NSG Großer Serrahn. Adler kreisen lassen, nicht rufen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2498115689,
+   "lat": 53.5876949,
+   "lon": 12.2142194,
+   "km": 2.97,
+   "titel": "Wooster Teerofen",
+   "thema": "Waldgeschichte, Teer",
+   "kurztext": "Ortsname ist Arbeitsname. Waldglas und Teer brauchen Holz – die Heide erinnert daran.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2042155757,
+   "lat": 53.58549,
+   "lon": 12.227,
+   "km": 3.85,
+   "titel": "Westufer Paschensee",
+   "thema": "Klarwassersee",
+   "kurztext": "Klarwasser, Wald bis ans Ufer. Die Seenrunde ist offiziell Teil des Lehrpfads.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -1524749080,
+   "lat": 53.575,
+   "lon": 12.21,
+   "km": 5.47,
+   "titel": "Westufer Damerower See",
+   "thema": "See / Adler",
+   "kurztext": "Westufer, weites Wasser. Mit Glück Adler, ohne Glück trotzdem Wind.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 2887750881,
+   "lat": 53.573722,
+   "lon": 12.1898513,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2887750886,
+   "lat": 53.5739789,
+   "lon": 12.1888379,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 3041976461,
+   "lat": 53.5750333,
+   "lon": 12.1965243,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 3041976462,
+   "lat": 53.5751607,
+   "lon": 12.1964653,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 3041976481,
+   "lat": 53.5750007,
+   "lon": 12.1962709,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3041976483,
+   "lat": 53.5744344,
+   "lon": 12.1947004,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 3043043224,
+   "lat": 53.5743207,
+   "lon": 12.1967724,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ]
+}

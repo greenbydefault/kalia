@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "bash lehrpfad_app/vercel-build.sh",
+  "outputDirectory": "lehrpfad_app/build/web",
+  "installCommand": "true",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

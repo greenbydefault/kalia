@@ -1,0 +1,2279 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-08T12:09:52Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 354936843,
+  "lat": 52.3620033,
+  "lon": 13.0227683,
+  "tags": {
+    "amenity": "biergarten",
+    "name": "Bootsvermietung Moisl & Strandbar „Skihütte“",
+    "sport": "canoe",
+    "website": "https://bootsvermietung-moisl.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 411858706,
+  "lat": 52.3574601,
+  "lon": 13.0578395,
+  "tags": {
+    "amenity": "shelter",
+    "bench": "yes",
+    "bin": "no",
+    "lit": "no",
+    "material": "wood",
+    "seats": "15",
+    "shelter_type": "weather_shelter",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 443945275,
+  "lat": 52.3625014,
+  "lon": 13.0218175,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Forsthaus / Strandbad Templin",
+    "operator": "WEISSE FLOTTE Potsdam GmbH",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 452657626,
+  "lat": 52.3614423,
+  "lon": 13.0954030,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Stadtentsorgung Potsdam",
+    "operator:short": "STEP",
+    "operator:wikidata": "Q124417923",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 480809939,
+  "lat": 52.3762032,
+  "lon": 13.0176442,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2021-02-19"
+  }
+},
+{
+  "type": "node",
+  "id": 480864214,
+  "lat": 52.3747727,
+  "lon": 13.0156619,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 678524200,
+  "lat": 52.3585075,
+  "lon": 13.0986776,
+  "tags": {
+    "addr:city": "Nuthetal",
+    "addr:country": "DE",
+    "addr:housenumber": "1a",
+    "addr:postcode": "14558",
+    "addr:street": "Arthur-Scheunert-Allee",
+    "air_conditioning": "yes",
+    "amenity": "fast_food",
+    "changing_table": "no",
+    "cuisine": "kebab;pizza",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "City Grillstation",
+    "opening_hours": "09:00-22:00",
+    "outdoor_seating": "pedestrian_zone",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "smoking": "outside",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 793209739,
+  "lat": 52.3605010,
+  "lon": 13.0927494,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "13",
+    "addr:postcode": "14478",
+    "addr:street": "Zum Teufelssee",
+    "addr:suburb": "Waldstadt II",
+    "amenity": "restaurant",
+    "check_date": "2026-04-01",
+    "contact:facebook": "https://www.facebook.com/Tavernaladokollapotsdam/",
+    "contact:phone": "+49 331 979 91040",
+    "cuisine": "greek",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Taverna Ladokolla",
+    "opening_hours": "Mo-Su 12:00-23:00",
+    "outdoor_seating": "yes",
+    "website": "https://ladokolla-potsdam.de/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1122251133,
+  "lat": 52.3582307,
+  "lon": 13.0987021,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "100",
+    "covered": "yes",
+    "operator": "Gemeinde Nuthetal"
+  }
+},
+{
+  "type": "node",
+  "id": 1262095016,
+  "lat": 52.3589465,
+  "lon": 13.0948261,
+  "tags": {
+    "amenity": "recycling",
+    "check_date:recycling": "2024-05-20",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 1359318973,
+  "lat": 52.3593191,
+  "lon": 13.0957678,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1359318985,
+  "lat": 52.3570634,
+  "lon": 13.0902893,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "name": "Räuberspielplatz",
+    "playground:sandpit": "yes",
+    "playground:seesaw": "yes",
+    "playground:theme": "playground",
+    "surface": "ground"
+  }
+},
+{
+  "type": "node",
+  "id": 1853467233,
+  "lat": 52.3599209,
+  "lon": 13.0957636,
+  "tags": {
+    "amenity": "post_box",
+    "collection_times": "Mo-Fr 16:00, Sa 13:30; PH closed",
+    "operator": "Deutsche Post",
+    "operator:wikidata": "Q157645",
+    "ref": "Saarmunder Str. 84, 14478 Potsdam"
+  }
+},
+{
+  "type": "node",
+  "id": 1853467236,
+  "lat": 52.3573581,
+  "lon": 13.0906216,
+  "tags": {
+    "amenity": "recycling",
+    "check_date:recycling": "2024-10-08",
+    "covered": "no",
+    "indoor": "no",
+    "location": "overground",
+    "operator": "Step",
+    "recycling:clothes": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 1854252018,
+  "lat": 52.3602582,
+  "lon": 13.0911280,
+  "tags": {
+    "amenity": "post_box",
+    "collection_times": "Mo-Fr 16:00, Sa 13:30; PH closed",
+    "operator": "Deutsche Post",
+    "operator:wikidata": "Q157645",
+    "ref": "Zum Teufelssee 25-27, 14478 Potsdam"
+  }
+},
+{
+  "type": "node",
+  "id": 1892843238,
+  "lat": 52.3740997,
+  "lon": 13.0157605,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Kongresshotel Potsdam am Templiner See",
+    "public_transport": "station",
+    "website": "https://www.potsdamer-wassertaxi.de/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2216932019,
+  "lat": 52.3584023,
+  "lon": 13.0985740,
+  "tags": {
+    "addr:city": "Nuthetal",
+    "addr:country": "DE",
+    "addr:housenumber": "1b",
+    "addr:postcode": "14558",
+    "addr:street": "Arthur-Scheunert-Allee",
+    "amenity": "restaurant",
+    "cuisine": "german",
+    "name": "Time Out",
+    "opening_hours": "\"closed\""
+  }
+},
+{
+  "type": "node",
+  "id": 2231727019,
+  "lat": 52.3623781,
+  "lon": 13.0947532,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Mittelbrandenburgische Sparkasse",
+    "brand:wikidata": "Q1940058",
+    "name": "Mittelbrandenburgische Sparkasse",
+    "operator": "Mittelbrandenburgische Sparkasse",
+    "operator:wikidata": "Q1940058",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2271735529,
+  "lat": 52.3732446,
+  "lon": 13.0151346,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 2290796104,
+  "lat": 52.3602886,
+  "lon": 13.0912696,
+  "tags": {
+    "access": "private",
+    "amenity": "recycling",
+    "location": "overground",
+    "operator": "Stadtentsorgung Potsdam",
+    "operator:short": "STEP",
+    "operator:wikidata": "Q124417923",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 2293991574,
+  "lat": 52.3598680,
+  "lon": 13.0960564,
+  "tags": {
+    "amenity": "recycling",
+    "check_date:recycling": "2024-05-20",
+    "location": "overground",
+    "operator": "Stadtentsorgung Potsdam",
+    "operator:short": "STEP",
+    "operator:wikidata": "Q124417923",
+    "recycling:clothes": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 2355957117,
+  "lat": 52.3756797,
+  "lon": 13.0144214,
+  "tags": {
+    "amenity": "bar",
+    "name": "Blue Sky Bar & Lounge",
+    "opening_hours": "Mo-Su,PH 12:00-01:00",
+    "smoking": "isolated",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2355957120,
+  "lat": 52.3758082,
+  "lon": 13.0147557,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "14471",
+    "addr:street": "Am Luftschiffhafen",
+    "amenity": "restaurant",
+    "name": "Restaurant Lemon im Kongresshotel am Templiner See",
+    "phone": "+49 331 9070",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.kongresshotel-potsdam.de/gastronomie-am-see/restaurant-lemon/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2423515647,
+  "lat": 52.3501590,
+  "lon": 13.0705216,
+  "tags": {
+    "amenity": "hunting_stand",
+    "height": "5",
+    "hide": "yes",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2423515666,
+  "lat": 52.3509666,
+  "lon": 13.0665336,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2021-07-22",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2624437059,
+  "lat": 52.3584648,
+  "lon": 13.0986329,
+  "tags": {
+    "amenity": "post_box",
+    "check_date": "2022-05-02",
+    "collection_times": "Mo-Fr 15:30; Sa 14:00; PH closed",
+    "operator": "Deutsche Post",
+    "operator:wikidata": "Q157645",
+    "ref": "Arthur-Scheunert-Allee 1, 14558 Bergholz Rehbrücke"
+  }
+},
+{
+  "type": "node",
+  "id": 2631132095,
+  "lat": 52.3585643,
+  "lon": 13.0986127,
+  "tags": {
+    "amenity": "vending_machine",
+    "check_date": "2024-07-05",
+    "operator": "Zigaretten",
+    "vending": "cigarettes"
+  }
+},
+{
+  "type": "node",
+  "id": 2680508870,
+  "lat": 52.3581297,
+  "lon": 13.0981183,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2680508874,
+  "lat": 52.3581854,
+  "lon": 13.0981758,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2680508877,
+  "lat": 52.3583483,
+  "lon": 13.0983437,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2844092878,
+  "lat": 52.3580025,
+  "lon": 13.0977470,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2844092879,
+  "lat": 52.3581223,
+  "lon": 13.0978791,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2844092883,
+  "lat": 52.3582475,
+  "lon": 13.0982636,
+  "tags": {
+    "amenity": "vending_machine",
+    "brand": "Deutsche Bahn",
+    "brand:wikidata": "Q9322",
+    "check_date": "2025-07-19",
+    "operator": "DB Vertrieb GmbH",
+    "operator:wikidata": "Q1152124",
+    "payment:coins": "yes",
+    "payment:debit_cards": "yes",
+    "payment:notes": "yes",
+    "vending": "public_transport_tickets"
+  }
+},
+{
+  "type": "node",
+  "id": 2844092884,
+  "lat": 52.3582551,
+  "lon": 13.0980001,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2020-12-30",
+    "colour": "grey",
+    "material": "metal",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 3392516575,
+  "lat": 52.3736704,
+  "lon": 13.0110965,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:postcode": "14471",
+    "addr:street": "Zum Bahnhof Pirschheide",
+    "amenity": "restaurant",
+    "contact:email": "mbowling@web.de",
+    "contact:fax": "+49 331 951 0694",
+    "contact:phone": "+49 331 951 0693",
+    "contact:website": "https://www.bowling-pirschheide.de/",
+    "cuisine": "german",
+    "door": "hinged",
+    "entrance": "main",
+    "name": "Restaurant Märker Bowling",
+    "opening_hours": "Tu-Th 14:00-22:00; Fr,Sa 13:00-24:00; Su 11:00-20:00",
+    "operator": "Martin Pippirs",
+    "operator:type": "private",
+    "smoking": "no",
+    "takeaway": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3415824368,
+  "lat": 52.3750962,
+  "lon": 13.0132504,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking_entrance",
+    "fee": "yes",
+    "lit": "yes",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 3415824369,
+  "lat": 52.3764967,
+  "lon": 13.0155100,
+  "tags": {
+    "amenity": "parking_entrance",
+    "parking": "underground",
+    "parking_entrance": "exit"
+  }
+},
+{
+  "type": "node",
+  "id": 3758583827,
+  "lat": 52.3620753,
+  "lon": 13.0955853,
+  "tags": {
+    "access": "private",
+    "amenity": "parking_entrance",
+    "operator": "Mittelbrandenburgische Sparkasse",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 3765024859,
+  "lat": 52.3568119,
+  "lon": 13.0890610,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2023-10-20",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3765024860,
+  "lat": 52.3568757,
+  "lon": 13.0889884,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "check_date": "2023-10-20",
+    "colour": "brown",
+    "material": "wood",
+    "seats": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 3838748340,
+  "lat": 52.3723315,
+  "lon": 13.0151394,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3838748354,
+  "lat": 52.3728811,
+  "lon": 13.0151180,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 3838748557,
+  "lat": 52.3730558,
+  "lon": 13.0151280,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 4556968011,
+  "lat": 52.3690962,
+  "lon": 13.0116522,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "check_date": "2023-07-19",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 4612319714,
+  "lat": 52.3481020,
+  "lon": 13.0712955,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "no",
+    "material": "wood",
+    "seats": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 4718066014,
+  "lat": 52.3582764,
+  "lon": 13.0340821,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 5107502193,
+  "lat": 52.3653468,
+  "lon": 13.0284843,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-04-02",
+    "contact:email": "info@magix-wakeboarding.de",
+    "contact:mobile": "+49 172 795 7073",
+    "contact:website": "http://www.magix-wakeboarding.de",
+    "cuisine": "burger",
+    "name": "Schute",
+    "opening_hours": "May-Oct Tu-Fr 15:00-21:00; Sa-Su,PH 10:00-21:00; Mo off"
+  }
+},
+{
+  "type": "node",
+  "id": 5344522881,
+  "lat": 52.3611236,
+  "lon": 13.0989635,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "14478",
+    "addr:street": "Sophie-Alberti-Straße",
+    "addr:suburb": "Waldstadt I",
+    "amenity": "restaurant",
+    "check_date": "2025-03-05",
+    "cuisine": "venezuelan",
+    "name": "Avila Restaurant",
+    "opening_hours": "Tu-Su 11:00-22:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6301390160,
+  "lat": 52.3737644,
+  "lon": 13.0108769,
+  "tags": {
+    "amenity": "grit_bin"
+  }
+},
+{
+  "type": "node",
+  "id": 6301390162,
+  "lat": 52.3736909,
+  "lon": 13.0109697,
+  "tags": {
+    "access": "customers",
+    "amenity": "nightclub",
+    "contact:email": "info@kul.de",
+    "contact:facebook": "https://www.facebook.com/Pirschheide/",
+    "contact:instagram": "https://www.instagram.com/Pirschheide/",
+    "contact:website": "https://www.pirschheide.com/",
+    "contact:youtube": "https://www.youtube.com/channel/UCEUSIdTPmXn6U7kpT7lb8jg",
+    "description": "Eventlocation",
+    "door": "hinged",
+    "entrance": "main",
+    "handrail:left": "yes",
+    "handrail:right": "yes",
+    "level": "0",
+    "name": "Pirschheide",
+    "operator": "KUL Events GmbH",
+    "operator:type": "business",
+    "ramp": "yes",
+    "step_count": "3",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6378914303,
+  "lat": 52.3582212,
+  "lon": 13.0925068,
+  "tags": {
+    "amenity": "recycling",
+    "covered": "no",
+    "indoor": "no",
+    "opening_hours": "Mo-Sa 07:00-20:00; Su, PH off",
+    "operator": "Step",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 6535932327,
+  "lat": 52.3690555,
+  "lon": 13.0116492,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "2",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6535932328,
+  "lat": 52.3691232,
+  "lon": 13.0116685,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 6877860328,
+  "lat": 52.3624633,
+  "lon": 13.0980934,
+  "tags": {
+    "access": "private",
+    "amenity": "parking_entrance",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 6892663428,
+  "lat": 52.3755315,
+  "lon": 13.0084948,
+  "tags": {
+    "amenity": "compressed_air",
+    "fee": "no",
+    "manometer": "yes",
+    "opening_hours": "24/7",
+    "operator": "Total",
+    "pressure": "10",
+    "valves": "schrader"
+  }
+},
+{
+  "type": "node",
+  "id": 6952763981,
+  "lat": 52.3595173,
+  "lon": 13.0271394,
+  "tags": {
+    "amenity": "hunting_stand",
+    "height": "1.7"
+  }
+},
+{
+  "type": "node",
+  "id": 7014964447,
+  "lat": 52.3594279,
+  "lon": 13.0939249,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "23-25",
+    "addr:postcode": "14478",
+    "addr:street": "Liefelds Grund",
+    "addr:suburb": "Waldstadt II",
+    "amenity": "kindergarten",
+    "contact:email": "info@rappelkiste-potsdam.de",
+    "contact:fax": "+49 331 273 3039",
+    "contact:phone": "+49 331 273 3034",
+    "contact:website": "https://www.rappelkiste-potsdam.de/",
+    "family_centre": "yes",
+    "institution:support": "movement",
+    "isced:level": "0",
+    "level": "0",
+    "lunch": "yes",
+    "max_age": "6",
+    "name": "Rappelkiste",
+    "operator": "Rappelkiste Potsdam e. V.",
+    "operator:type": "association",
+    "start_date": "1993"
+  }
+},
+{
+  "type": "node",
+  "id": 7014964448,
+  "lat": 52.3593169,
+  "lon": 13.0935295,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "23-25",
+    "addr:postcode": "14478",
+    "addr:street": "Liefelds Grund",
+    "addr:suburb": "Waldstadt II",
+    "amenity": "school",
+    "contact:email": "info@rappelkiste-potsdam.de",
+    "contact:fax": "+49 331 273 3039",
+    "contact:phone": "+49 331 273 3034",
+    "contact:website": "https://www.rappelkiste-potsdam.de/aktive-schule/",
+    "family_centre": "yes",
+    "institution:support": "movement",
+    "isced:level": "1",
+    "level": "1",
+    "lunch": "yes",
+    "max_age": "12",
+    "min_age": "6",
+    "name": "Aktive Schule Potsdam",
+    "operator": "Rappelkiste Potsdam e. V.",
+    "operator:type": "association",
+    "start_date": "2004"
+  }
+},
+{
+  "type": "node",
+  "id": 7015089011,
+  "lat": 52.3627956,
+  "lon": 13.0939664,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "rack",
+    "capacity": "4",
+    "covered": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7020215437,
+  "lat": 52.3609298,
+  "lon": 13.0891869,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 7234675042,
+  "lat": 52.3740246,
+  "lon": 13.0108048,
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "capacity": "2",
+    "covered": "no",
+    "direction": "NE",
+    "opening_hours": "24/7",
+    "operator": "Energie und Wasser Potsdam GmbH",
+    "operator:short": "EWP",
+    "operator:type": "public",
+    "operator:wikidata": "Q15848853",
+    "operator:wikipedia": "de:Stadtwerke Potsdam",
+    "parking:fee": "no",
+    "payment:contactless": "yes",
+    "ref:BNetzA": "1004471",
+    "ref:EU:EVSE": "DE*EWP*E7244",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400",
+    "start_date": "2019-05-14",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8051794212,
+  "lat": 52.3543784,
+  "lon": 13.0387097,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 8079285029,
+  "lat": 52.3755795,
+  "lon": 13.0137616,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "14471",
+    "addr:street": "Am Luftschiffhafen",
+    "amenity": "university",
+    "contact:website": "https://www.fhsmp.de/",
+    "name": "Fachhochschule für Sport und Management Potsdam",
+    "operator": "Europäische Sportakademie Land Brandenburg",
+    "wikidata": "Q17123097",
+    "wikipedia": "de:Fachhochschule für Sport und Management Potsdam"
+  }
+},
+{
+  "type": "node",
+  "id": 8514442700,
+  "lat": 52.3526802,
+  "lon": 13.0692492,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood"
+  }
+},
+{
+  "type": "node",
+  "id": 8594861089,
+  "lat": 52.3486943,
+  "lon": 13.0697907,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "wood",
+    "seats": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 8600304125,
+  "lat": 52.3593062,
+  "lon": 13.0989407,
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:nfc": "yes",
+    "capacity": "2",
+    "fee": "yes",
+    "motorcar": "yes",
+    "name": "P+R Bhf. Rehbrücke",
+    "network": "Stadtwerke Potsdam",
+    "opening_hours": "24/7",
+    "operator": "Energie und Wasser Potsdam GmbH",
+    "operator:type": "public",
+    "operator:wikidata": "Q15848853",
+    "operator:wikipedia": "de:Stadtwerke Potsdam",
+    "parking:fee": "no",
+    "ref:EU:EVSE": "DE*EWP*E7297*001; DE*EWP*E7297*002",
+    "socket:type2": "2",
+    "socket:type2:output": "22 kW"
+  }
+},
+{
+  "type": "node",
+  "id": 9233905267,
+  "lat": 52.3606117,
+  "lon": 13.0216772,
+  "tags": {
+    "access": "customers",
+    "amenity": "shower",
+    "fee": "no",
+    "hot_water": "no",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9337786287,
+  "lat": 52.3754840,
+  "lon": 13.0153468,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash"
+  }
+},
+{
+  "type": "node",
+  "id": 9337786288,
+  "lat": 52.3754757,
+  "lon": 13.0153675,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9337786289,
+  "lat": 52.3754641,
+  "lon": 13.0155294,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9337786290,
+  "lat": 52.3754307,
+  "lon": 13.0155111,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9341067987,
+  "lat": 52.3580654,
+  "lon": 13.0978116,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 9580072687,
+  "lat": 52.3571508,
+  "lon": 13.0893283,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "material": "plastic"
+  }
+},
+{
+  "type": "node",
+  "id": 9663503229,
+  "lat": 52.3761261,
+  "lon": 13.0178491,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash"
+  }
+},
+{
+  "type": "node",
+  "id": 9663503231,
+  "lat": 52.3753929,
+  "lon": 13.0164664,
+  "tags": {
+    "amenity": "charging_station",
+    "bicycle": "yes",
+    "capacity": "2",
+    "capacity:bicycle": "4",
+    "fee": "no",
+    "opening_hours": "24/7",
+    "operator": "Kongresshotel",
+    "socket:schuko": "2",
+    "voltage": "230"
+  }
+},
+{
+  "type": "node",
+  "id": 9663503234,
+  "lat": 52.3753985,
+  "lon": 13.0164570,
+  "tags": {
+    "amenity": "charging_station",
+    "bicycle": "yes",
+    "capacity": "2",
+    "fee": "no",
+    "opening_hours": "24/7",
+    "operator": "Kongresshotel",
+    "socket:schuko": "2",
+    "voltage": "230"
+  }
+},
+{
+  "type": "node",
+  "id": 9712274157,
+  "lat": 52.3585742,
+  "lon": 13.0986242,
+  "tags": {
+    "amenity": "vending_machine",
+    "check_date": "2024-07-05",
+    "vending": "chewing_gums"
+  }
+},
+{
+  "type": "node",
+  "id": 9777040464,
+  "lat": 52.3570399,
+  "lon": 13.0904185,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 9811184533,
+  "lat": 52.3759139,
+  "lon": 13.0142483,
+  "tags": {
+    "access": "yes",
+    "amenity": "parking_entrance",
+    "covered": "yes",
+    "lit": "yes",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 9988968356,
+  "lat": 52.3619385,
+  "lon": 13.0998384,
+  "tags": {
+    "access": "private",
+    "amenity": "parking_entrance",
+    "maxheight": "2",
+    "parking": "underground"
+  }
+},
+{
+  "type": "node",
+  "id": 10271861905,
+  "lat": 52.3597927,
+  "lon": 13.0980733,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "capacity": "24",
+    "check_date": "2025-01-11",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 10271861926,
+  "lat": 52.3601274,
+  "lon": 13.0976711,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash"
+  }
+},
+{
+  "type": "node",
+  "id": 10271861950,
+  "lat": 52.3602646,
+  "lon": 13.0975542,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash"
+  }
+},
+{
+  "type": "node",
+  "id": 10282005020,
+  "lat": 52.3559541,
+  "lon": 13.1015047,
+  "tags": {
+    "amenity": "waste_basket",
+    "waste": "trash"
+  }
+},
+{
+  "type": "node",
+  "id": 10885767724,
+  "lat": 52.3593748,
+  "lon": 13.0234031,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "restaurant",
+    "brewery": "Braumanufaktur Potsdam",
+    "contact:email": "thomas@braumanufaktur.de",
+    "contact:fax": "+49 33209 217 980",
+    "contact:phone": "+49 33209 217 979",
+    "contact:website": "https://www.braumanufaktur.de/",
+    "cuisine": "german;regional",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "door": "hinged",
+    "entrance": "main",
+    "handrail:right": "yes",
+    "image": "https://commons.wikimedia.org/wiki/File:Braumanufaktur_Potsdam_histor._Haus,_Tresen_und_Braubereich2018-06-16_ama_fec.JPG",
+    "indoor_seating": "yes",
+    "level": "0",
+    "microbrewery": "yes",
+    "name": "Braumanufaktur Forsthaus Templin",
+    "opening_hours": "Th-Su,PH 11:00-21:00",
+    "opening_hours:kitchen": "PH,Th-Su 12:00-20:00",
+    "operator": "Braumanufaktur GmbH",
+    "operator:type": "business",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "ref:vatin": "DE228368230",
+    "smoking": "outside",
+    "step_count": "3",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Braumanufaktur Potsdam histor. Haus, Tresen und Braubereich2018-06-16 ama fec.JPG"
+  }
+},
+{
+  "type": "node",
+  "id": 10945986532,
+  "lat": 52.3609726,
+  "lon": 13.0222402,
+  "tags": {
+    "amenity": "vending_machine",
+    "vending": "cigarettes"
+  }
+},
+{
+  "type": "node",
+  "id": 10945986538,
+  "lat": 52.3614565,
+  "lon": 13.0221287,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "9"
+  }
+},
+{
+  "type": "node",
+  "id": 10968304906,
+  "lat": 52.3618956,
+  "lon": 13.0975810,
+  "tags": {
+    "amenity": "fountain"
+  }
+},
+{
+  "type": "node",
+  "id": 11248701731,
+  "lat": 52.3603394,
+  "lon": 13.0943609,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11248701732,
+  "lat": 52.3604080,
+  "lon": 13.0945251,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11252364530,
+  "lat": 52.3601947,
+  "lon": 13.0950724,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11683067289,
+  "lat": 52.3729436,
+  "lon": 13.0140904,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:housenumber": "28",
+    "addr:postcode": "14471",
+    "addr:street": "An der Pirschheide",
+    "amenity": "doctors",
+    "email": "info@arztpraxis-pirschheide.de",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general;chiropractic",
+    "level": "1",
+    "name": "Arztpraxis Pirschheide",
+    "operator": "Thomas Hoffmann, Olaf Peter,  Susanne Krebs",
+    "phone": "+49 331 9721 88",
+    "website": "https://arztpraxis-pirschheide.de/"
+  }
+},
+{
+  "type": "node",
+  "id": 11683067290,
+  "lat": 52.3729249,
+  "lon": 13.0140209,
+  "tags": {
+    "addr:city": "Potsdam",
+    "addr:housenumber": "28",
+    "addr:postcode": "14471",
+    "addr:street": "An der Pirschheide",
+    "amenity": "doctors",
+    "contact:phone": "+49 331 28127987",
+    "contact:website": "https://www.schuerer-potsdam.de/",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general;chiropractic;homeopathy;osteopathy",
+    "level": "2",
+    "name": "Arztpraxis Dr. Schürer",
+    "opening_hours": "Mo,We 07:30-09:00; Tu,Th 13:00-14:00; Fr off; Sa,Su,PH off || \"nach Vereinbarung\"",
+    "operator": "Dr.Ralph Schürer"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972049,
+  "lat": 52.3731808,
+  "lon": 13.0115733,
+  "tags": {
+    "amenity": "bench",
+    "armrest": "yes",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972050,
+  "lat": 52.3732044,
+  "lon": 13.0115890,
+  "tags": {
+    "amenity": "vending_machine",
+    "check_date": "2024-06-27",
+    "operator": "ODEG",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:notes": "yes",
+    "ref": "1079",
+    "vending": "public_transport_tickets"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972051,
+  "lat": 52.3733538,
+  "lon": 13.0116873,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972052,
+  "lat": 52.3733622,
+  "lon": 13.0116937,
+  "tags": {
+    "amenity": "bench",
+    "armrest": "yes",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972053,
+  "lat": 52.3732510,
+  "lon": 13.0101514,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "covered": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972054,
+  "lat": 52.3731093,
+  "lon": 13.0100290,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "covered": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972059,
+  "lat": 52.3728228,
+  "lon": 13.0109654,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972060,
+  "lat": 52.3728454,
+  "lon": 13.0109219,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972061,
+  "lat": 52.3726879,
+  "lon": 13.0108615,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972062,
+  "lat": 52.3727134,
+  "lon": 13.0108117,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972063,
+  "lat": 52.3727933,
+  "lon": 13.0110713,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 11862972064,
+  "lat": 52.3726357,
+  "lon": 13.0109259,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 11881130040,
+  "lat": 52.3588648,
+  "lon": 13.0993053,
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "capacity": "2",
+    "fee": "yes",
+    "motorcar": "yes",
+    "opening_hours": "24/7",
+    "operator": "EA EnergieArchitektur GmbH",
+    "parking:fee": "no",
+    "ref:EU:EVSE": "DE*EAD*E100007; DE*EAD*E100008",
+    "socket:type2": "2",
+    "socket:type2:output": "22 kW"
+  }
+},
+{
+  "type": "node",
+  "id": 11920050609,
+  "lat": 52.3593189,
+  "lon": 13.0972336,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "14",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920213127,
+  "lat": 52.3597605,
+  "lon": 13.0955652,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920216484,
+  "lat": 52.3611301,
+  "lon": 13.0945493,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920216667,
+  "lat": 52.3604398,
+  "lon": 13.0953795,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920219333,
+  "lat": 52.3596756,
+  "lon": 13.0952634,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920219340,
+  "lat": 52.3598417,
+  "lon": 13.0961579,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 11920221029,
+  "lat": 52.3608712,
+  "lon": 13.0936291,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920229823,
+  "lat": 52.3601308,
+  "lon": 13.0956159,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920230791,
+  "lat": 52.3609693,
+  "lon": 13.0950836,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920230792,
+  "lat": 52.3603462,
+  "lon": 13.0954575,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920234434,
+  "lat": 52.3608334,
+  "lon": 13.0934586,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920234435,
+  "lat": 52.3610717,
+  "lon": 13.0950160,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920234894,
+  "lat": 52.3596262,
+  "lon": 13.0950816,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920234895,
+  "lat": 52.3595391,
+  "lon": 13.0947501,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920235252,
+  "lat": 52.3597219,
+  "lon": 13.0954191,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920235511,
+  "lat": 52.3608621,
+  "lon": 13.0951619,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920237247,
+  "lat": 52.3607691,
+  "lon": 13.0952323,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920237636,
+  "lat": 52.3610333,
+  "lon": 13.0941877,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920238000,
+  "lat": 52.3609763,
+  "lon": 13.0940241,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "capacity": "5",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920239616,
+  "lat": 52.3605578,
+  "lon": 13.0953010,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920241125,
+  "lat": 52.3595380,
+  "lon": 13.0929814,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920242131,
+  "lat": 52.3595876,
+  "lon": 13.0931592,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920242324,
+  "lat": 52.3582496,
+  "lon": 13.0924763,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "FWS Altkleider Container Service",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 11920248413,
+  "lat": 52.3599919,
+  "lon": 13.0957150,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920248432,
+  "lat": 52.3596517,
+  "lon": 13.0933069,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920254536,
+  "lat": 52.3594892,
+  "lon": 13.0927976,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920256376,
+  "lat": 52.3597794,
+  "lon": 13.0938979,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 11920257112,
+  "lat": 52.3599794,
+  "lon": 13.0948195,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920257484,
+  "lat": 52.3594270,
+  "lon": 13.0925052,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920257485,
+  "lat": 52.3592676,
+  "lon": 13.0920180,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920258176,
+  "lat": 52.3593161,
+  "lon": 13.0921839,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920258271,
+  "lat": 52.3595847,
+  "lon": 13.0949209,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920258272,
+  "lat": 52.3599375,
+  "lon": 13.0946520,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920261488,
+  "lat": 52.3600235,
+  "lon": 13.0949619,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920261785,
+  "lat": 52.3598856,
+  "lon": 13.0944845,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11920268975,
+  "lat": 52.3593741,
+  "lon": 13.0923576,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "4",
+    "covered": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12022276205,
+  "lat": 52.3610638,
+  "lon": 13.0221738,
+  "tags": {
+    "amenity": "bicycle_repair_station",
+    "colour": "blue",
+    "covered": "no",
+    "fee": "no",
+    "indoor": "no",
+    "level": "0",
+    "service:bicycle:chain_tool": "no",
+    "service:bicycle:pump": "yes",
+    "service:bicycle:stand": "yes",
+    "service:bicycle:tools": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12034782874,
+  "lat": 52.3614507,
+  "lon": 13.0954330,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "FWS Altkleider Container Service",
+    "recycling:clothes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 12037975070,
+  "lat": 52.3572632,
+  "lon": 13.0577646,
+  "tags": {
+    "amenity": "bench"
+  }
+},
+{
+  "type": "node",
+  "id": 12038198283,
+  "lat": 52.3596161,
+  "lon": 13.0231988,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "wall_loops",
+    "covered": "no",
+    "direction": "NW",
+    "fee": "no",
+    "indoor": "no",
+    "surface": "grass"
+  }
+},
+{
+  "type": "node",
+  "id": 12046026980,
+  "lat": 52.3591447,
+  "lon": 13.0908059,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 12115220496,
+  "lat": 52.3499533,
+  "lon": 13.0674442,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes",
+    "description": "Erholungswald Ravensberg",
+    "hiking": "yes",
+    "information": "map",
+    "material": "wood",
+    "name": "Nuthetalblick",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 13011339721,
+  "lat": 52.3580253,
+  "lon": 13.0985414,
+  "tags": {
+    "amenity": "bicycle_parking",
+    "bicycle_parking": "stands",
+    "capacity": "28",
+    "covered": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13051637595,
+  "lat": 52.3637140,
+  "lon": 13.0312135,
+  "tags": {
+    "amenity": "hunting_stand",
+    "lockable": "no",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13083959089,
+  "lat": 52.3575537,
+  "lon": 13.0935933,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13123556101,
+  "lat": 52.3580381,
+  "lon": 13.0886171,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13183592468,
+  "lat": 52.3582354,
+  "lon": 13.0979733,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13196151135,
+  "lat": 52.3738974,
+  "lon": 13.0115498,
+  "tags": {
+    "amenity": "vending_machine",
+    "indoor": "no",
+    "source": "survey",
+    "vending": "art"
+  }
+},
+{
+  "type": "node",
+  "id": 13313566611,
+  "lat": 52.3596417,
+  "lon": 13.0911161,
+  "tags": {
+    "amenity": "bicycle_repair_station",
+    "check_date": "2026-05-23",
+    "opening_hours": "24/7",
+    "service:bicycle:chain_tool": "no",
+    "service:bicycle:pump": "yes",
+    "service:bicycle:stand": "no",
+    "service:bicycle:tools": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13330638475,
+  "lat": 52.3596236,
+  "lon": 13.0911959,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 13433951806,
+  "lat": 52.3752665,
+  "lon": 13.0136367,
+  "tags": {
+    "amenity": "fountain",
+    "drinking_water": "no",
+    "fountain": "decorative"
+  }
+},
+{
+  "type": "node",
+  "id": 13453483084,
+  "lat": 52.3575888,
+  "lon": 13.0975582,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13453501613,
+  "lat": 52.3582271,
+  "lon": 13.0981975,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13453503959,
+  "lat": 52.3575953,
+  "lon": 13.0973636,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13453586879,
+  "lat": 52.3581101,
+  "lon": 13.0980782,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13453732834,
+  "lat": 52.3581686,
+  "lon": 13.0981428,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13453736877,
+  "lat": 52.3578509,
+  "lon": 13.0976071,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13453737355,
+  "lat": 52.3578876,
+  "lon": 13.0978530,
+  "tags": {
+    "amenity": "bench",
+    "backrest": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13453738112,
+  "lat": 52.3585129,
+  "lon": 13.0981924,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13453739337,
+  "lat": 52.3581488,
+  "lon": 13.0979078,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13453862347,
+  "lat": 52.3627562,
+  "lon": 13.0979048,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13585515747,
+  "lat": 52.3754526,
+  "lon": 13.0081800,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "TotalEnergies",
+    "brand:wikidata": "Q154037",
+    "fuel:HGV_diesel": "yes",
+    "fuel:cng": "yes",
+    "fuel:diesel": "yes",
+    "fuel:e10": "yes",
+    "fuel:lpg": "yes",
+    "hgv": "yes",
+    "name": "Total",
+    "opening_hours": "24/7",
+    "self_service": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13908690619,
+  "lat": 52.3758027,
+  "lon": 13.0138626,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 13940679262,
+  "lat": 52.3743132,
+  "lon": 13.0120152,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13940728404,
+  "lat": 52.3745826,
+  "lon": 13.0121338,
+  "tags": {
+    "amenity": "waste_basket"
+  }
+},
+{
+  "type": "node",
+  "id": 13991865062,
+  "lat": 52.3597369,
+  "lon": 13.0298133,
+  "tags": {
+    "amenity": "hunting_stand"
+  }
+},
+{
+  "type": "node",
+  "id": 14076655748,
+  "lat": 52.3607834,
+  "lon": 13.0204249,
+  "tags": {
+    "access": "customers",
+    "amenity": "shower",
+    "capacity": "3",
+    "covered": "no",
+    "direction": "WNW",
+    "hot_water": "no",
+    "outdoor": "yes",
+    "surface": "paving_stones",
+    "surface:colour": "silver",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14078264298,
+  "lat": 52.3606869,
+  "lon": 13.0220318,
+  "tags": {
+    "access": "customers",
+    "amenity": "dressing_room",
+    "capacity": "6",
+    "capacity:disabled": "1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+}
+
+  ]
+}

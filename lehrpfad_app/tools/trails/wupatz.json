@@ -1,0 +1,167 @@
+{
+  "id": "wupatz",
+  "rohdaten": "wupatz",
+  "name": "Wupatz’ Lehrpfad",
+  "typ": "wald",
+  "kurzbeschreibung": "Familienfreundlicher 3,6-km-Rundweg durchs Löcknitztal in Erkner – 16 Stationen zum Rätseln und Mitmachen mit dem Waldwichtel Wupatz.",
+  "beschreibung": "Am östlichen Stadtrand Erkners führt der kleine Waldwichtel Wupatz große und kleine Wandersleute durch Wald, Wiesen und Wasser des Löcknitztals. An 16 Stationen mit Schautafeln und interaktiven Modulen geht es um Baumarten, Spuren, Nahrungsketten, den Wupatzsee und das Naturschutzgebiet – inklusive Froschkonzert, Balancierstrecke und Spürnasentest. Der rund 3,6 km lange Rundweg startet am nördlichen Parkplatz der Fangschleusenstraße (ca. zwei Stunden). Teilstücke gehören zum 66-Seen-Wanderweg und zum Jakobsweg; der Abschnitt bis zum Leistikowsteg ist dem Maler Walter Leistikow gewidmet. An nassen Tagen festes Schuhwerk; die letzten 250 m zur Rundwegschließung verlaufen entlang einer belebten Straße. Hinweis: Der südliche Parkplatz Fangschleusenstraße ist bis Oktober 2026 weitgehend gesperrt – Start am nördlichen Parkplatz.",
+  "markierung": "Grüner Schrägstrich auf weißem Grund (Wupatz-Figur an den Wegweisern)",
+  "betreiber": "Stadt Erkner",
+  "region": "Erkner, Landkreis Oder-Spree, Brandenburg",
+  "website": "https://www.erkner.de/freizeit-und-tourismus/naturerlebnisse/wandern/wupatz-lehrpfad.html",
+  "anreise": "RE1 oder S3 nach Erkner, von dort ca. 30 Minuten zu Fuß oder Bus 420/429/436 bis „Löcknitz Anlegestelle“. Auto: nördlicher Parkplatz Fangschleusenstraße (etwa Höhe Hausnummer 6).",
+  "startName": "Nördlicher Parkplatz Fangschleusenstraße, Erkner",
+  "arten": ["Rote Waldameise", "Kiefer", "Stieleiche", "Eisvogel", "Igel", "Distelfalter", "Kleiner Fuchs", "Schwarzerle"],
+  "tags": ["kinderfreundlich", "picknick"],
+  "rundkurs": true,
+  "richtung": ["s01", "s02"],
+  "startAm": "s01",
+  "stationen": {
+    "s01": {
+      "lat": 52.420464,
+      "lon": 13.764193,
+      "titel": "Wandern im Waldreich",
+      "thema": "Start mit Wupatz",
+      "kurztext": "Hier beginnt der Rundweg ins „Waldreich“ des Löcknitztals. Der Waldwichtel Wupatz begrüßt dich und stimmt auf 16 Stationen ein, an denen gerätselt, gehört und mitgemacht wird – zwischen Kiefernwald, Wiesen und Wasser.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s02": {
+      "lat": 52.4194,
+      "lon": 13.7665,
+      "titel": "Waldauge",
+      "thema": "Genau hinschauen",
+      "kurztext": "Das Waldauge lädt ein, den Blick zu schärfen: Formen, Farben und kleine Bewegungen am Wegesrand. Wer hier bewusst hinsieht, entdeckt schon vor den großen Tafeln die ersten Bewohner des Löcknitztals.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7820192746": {
+      "titel": "Wiesen an der Löcknitz",
+      "thema": "Offene Aue",
+      "kurztext": "Entlang der Löcknitz öffnen sich bunte Wiesen – Lebensraum für Insekten, Vögel und Pflanzen wie das Wiesenschaumkraut. Die Tafel erklärt, warum diese offenen Flächen im Wechsel mit dem Wald so wertvoll sind.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7820192745": {
+      "titel": "Baumarten und Waldrand",
+      "thema": "Wer steht hier?",
+      "kurztext": "Am Waldrand treffen sich Licht und Schatten. Die Station zu den Baumarten hilft, Birke, Hainbuche („Eisenholz“) und Co. zu unterscheiden – und zeigt, warum gerade der Übergang vom Wald zur Wiese so artenreich ist.",
+      "erlebnisse": ["tafel", "bestimmung", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7902509920": {
+      "titel": "Nahrungskette",
+      "thema": "Wer frisst wen?",
+      "kurztext": "Von der Pflanze über Insekten bis zum Fuchs: An dieser Station wird die Nahrungskette im Waldreich sichtbar. Ameisen „melken“ Blattläuse, Jäger folgen Spuren – alles hängt zusammen.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7902509919": {
+      "titel": "Spurensuche",
+      "thema": "Trittsiegel lesen",
+      "kurztext": "Im Sand und am Wegrand hinterlassen Tiere Trittsiegel. Die Station trainiert das Spurenlesen: Welches Tier war hier unterwegs – und was verrät ein einzelner Abdruck über Gang und Größe?",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7902521091": {
+      "titel": "Wupatzsee und Froschkonzert",
+      "thema": "Wasserleben",
+      "kurztext": "Am Wupatzsee wird’s laut und grün: Schilf filtert das Wasser, Frösche stimmen ihr Konzert an – und die Station „Der Frosch wird zum Sänger“ macht Amphibien hör- und begreifbar. Ein guter Ort für Pause und Ausblick.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s08": {
+      "lat": 52.4180208,
+      "lon": 13.777159,
+      "titel": "Leben an der Löcknitz",
+      "thema": "Am Leistikowsteg",
+      "kurztext": "Über den Leistikowsteg kreuzt der Weg die weitläufige Löcknitz. Hier leben Fische, Wasservögel und Uferpflanzen dicht beieinander – und Ausflugsdampfer teilen sich das Wasser mit dem Lehrpfad.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s09": {
+      "lat": 52.417116,
+      "lon": 13.775197,
+      "titel": "Pilzwald",
+      "thema": "Unter dem Hut",
+      "kurztext": "Im schattigen Abschnitt geht’s um Pilze: Was ist die Röhrenschicht unter dem Hut – und warum sind Pilze Partner der Bäume? Die Station macht das Unsichtbare im Waldboden begreiflich.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s10": {
+      "lat": 52.4162602,
+      "lon": 13.7738016,
+      "titel": "Balancierstrecke",
+      "thema": "Gleichgewicht am Hubertussteg",
+      "kurztext": "Am Hubertussteg über den Altarm der Löcknitz wird der Pfad zur Mitmachstrecke: Balancieren schärft Gleichgewicht und Konzentration – und führt durch urwäldlich anmutendes Ufergrün.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s11": {
+      "lat": 52.416508,
+      "lon": 13.770610,
+      "titel": "Leben in der Löcknitz",
+      "thema": "Unter Wasser",
+      "kurztext": "Was schwimmt und laicht im Fließ? Die Station blickt unter die Wasseroberfläche – vom Flussbarsch mit geteilter Rückenflosse bis zu den Pflanzen, die das Gewässer strukturieren.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s12": {
+      "lat": 52.416441,
+      "lon": 13.768226,
+      "titel": "Naturschutzgebiet Löcknitztal",
+      "thema": "Schutz mit System",
+      "kurztext": "Das Löcknitztal ist Schutzgebiet: Hier gelten Regeln, damit Wiese, Bruch und Fließ für seltene Arten erhalten bleiben. Die Station erklärt, warum Wege bleiben, wo sie sind – und was das für Pflanzen und Tiere bringt.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "7837394572": {
+      "titel": "Landschaft und Waldharfe",
+      "thema": "Hören und Schauen",
+      "kurztext": "Zwischen Oberförsterei und Löcknitzinsel öffnet sich die Landschaft. An der Waldharfe wird Natur hörbar – Klang und Blick verbinden sich zu einer Pause mit allen Sinnen.",
+      "erlebnisse": ["tafel", "audio"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s14": {
+      "lat": 52.416039,
+      "lon": 13.763513,
+      "titel": "Spürnasentest",
+      "thema": "Riechen wie ein Profi",
+      "kurztext": "Duftstelen und Klapptafeln fordern die Nase: Welche Gerüche gehören zum Wald – und warum riecht ein Hund millionenfach besser als wir? Hier wird der Spürsinn zum Mitmachspiel.",
+      "erlebnisse": ["tafel", "quiz"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "s15": {
+      "lat": 52.416539,
+      "lon": 13.762019,
+      "titel": "Trommelwirbel",
+      "thema": "Schwarzspecht und Echo",
+      "kurztext": "Wie weit trägt der Ruf des Schwarzspechts – und wie orientieren sich Fledermäuse im Dunkeln? Trommelwirbel und Echo-Ortung machen den akustischen Wald erlebbar.",
+      "erlebnisse": ["tafel", "quiz", "audio"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    "9633064958": {
+      "titel": "Naturschutz in der Stadt",
+      "thema": "Stadt trifft Natur",
+      "kurztext": "Kurz vor dem Rückweg in die Stadt zeigt die Station, wie Naturschutz auch am Siedlungsrand funktioniert. Der Kreis schließt sich: Vom Parkplatz ins Waldreich – und mit neuen Entdeckungen zurück.",
+      "erlebnisse": ["tafel"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  }
+}

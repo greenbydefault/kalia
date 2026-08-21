@@ -1,0 +1,97 @@
+{
+  "id": "kinderbauernhof-pinke-panke",
+  "name": "Kinderbauernhof Pinke-Panke",
+  "typ": "kinderbauernhof",
+  "form": "flaeche",
+  "kurzbeschreibung": "Pädagogischer Hof an der Panke: Tiere pflegen, um 16 Uhr füttern, streicheln nur mit Betreuer. Frei, Spende willkommen.",
+  "beschreibung": "Am Bürgerpark 15–18 in Pankow, direkt an der Panke, liegt der Kinderbauernhof Pinke-Panke. Spielraum Pankow e.V. betreibt seit 1991 einen offenen, pädagogisch betreuten Hof: Kinder helfen bei der Pflege, nicht beim Anstarren durch den Zaun. Fütterung täglich um 16 Uhr – da darfst du mitmachen. Zwischendurch nicht füttern, die Tiere werden sonst krank. Streicheln nur mit Betreuer, um 11 und um 15 Uhr. Dienstag ist der Hof nur für Schulkinder offen, Montag Ruhetag. Kita- und Klassenprogramme ab 9 Uhr brauchen Anmeldung und gehören nicht zum Spontanbesuch. Eintritt frei, Spende willkommen. visitBerlin nennt mehr als 70 Tiere – betreut, kein Mastbetrieb.",
+  "laengeKm": 0,
+  "dauerMin": 90,
+  "rundkurs": false,
+  "markierung": "Kinderbauernhof Pinke-Panke",
+  "betreiber": "Spielraum Pankow e.V.",
+  "region": "Pankow, Berlin",
+  "website": "http://www.kinderbauernhof-pinke-panke.de/",
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei, Spende willkommen",
+  "oeffnungszeiten": "Sommer (1. Apr–31. Okt): Mo Ruhetag; Di nur Schulkinder 12–18 Uhr; Mi–Fr 12–18:30 Uhr; Wochenende, Feiertage und Ferien 10–18:30 Uhr. Winter: jeweils eine Stunde früher.",
+  "besuchshinweise": "Nicht frei füttern. Fütterung 16 Uhr, alle dürfen mit. Streicheln nur mit Betreuer um 11 und 15 Uhr. Dienstag nur Schulkinder. Gruppen ab 9 Uhr nur mit Anmeldung.",
+  "anreise": "Adresse: Am Bürgerpark 15–18, 13156 Berlin. S-Bahn S1/S25/S26 Wollankstraße, dann ca. 10 Minuten zu Fuß zur Panke. Bus 250, 255, M27. Eingang am Bürgerpark, Hof ist eingezäunt (OSM-Way, leisure=playground / farmyard).",
+  "startName": "Eingang Kinderbauernhof Pinke-Panke",
+  "arten": [
+    "Ziege",
+    "Schaf",
+    "Haushuhn",
+    "Hauskaninchen"
+  ],
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz"
+  ],
+  "route": [],
+  "area": [
+    [52.5694791, 13.3882653],
+    [52.5691745, 13.3888142],
+    [52.5691617, 13.3888373],
+    [52.5686568, 13.3897429],
+    [52.5684981, 13.3894603],
+    [52.5682647, 13.3890449],
+    [52.5680756, 13.3887081],
+    [52.5686048, 13.3883338],
+    [52.5690953, 13.3877387],
+    [52.5691464, 13.3877725],
+    [52.5692196, 13.3878809],
+    [52.5693325, 13.3880482],
+    [52.5694791, 13.3882653]
+  ],
+  "stationen": [
+    {
+      "osmId": 940001,
+      "lat": 52.56890,
+      "lon": 13.38870,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Tiere und Streichelzeiten",
+      "thema": "Umgang nur mit Betreuer",
+      "kurztext": "Ziegen, Schafe, Hühner, Kaninchen. Ständiges Streicheln stresst. Nur mit Betreuer, um 11 und um 15 Uhr. Hörner und Hufe ernst nehmen.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 940002,
+      "lat": 52.56850,
+      "lon": 13.38890,
+      "km": 0.05,
+      "reihenfolge": 2,
+      "titel": "Fütterung 16 Uhr",
+      "thema": "Mitmachen, nicht zwischendurch",
+      "kurztext": "Täglich um 16 Uhr werden alle Tiere gefüttert. Da darfst du helfen. Extra-Futter aus der Tasche macht sie krank – auch wenn sie betteln.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": true,
+      "steckbrief": null
+    },
+    {
+      "osmId": 940003,
+      "lat": 52.56915,
+      "lon": 13.38840,
+      "km": 0.1,
+      "reihenfolge": 3,
+      "titel": "Werkstatt und Sonntagsbacken",
+      "thema": "Handwerk, nicht nur Tiere",
+      "kurztext": "Speckstein, Fahrrad, altes Handwerk. Sonntag ab 11 Uhr backen Kinder Brot oder Kuchen, ab 14:30 Uhr gibt es das Gebäck – für Erwachsene Kaffee.",
+      "erlebnisse": ["mitmach-modell"],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 219699293,
+      "lat": 52.5688761,
+      "lon": 13.3886772,
+      "kategorie": "playground",
+      "name": "Kinderbauernhof Pinke-Panke"
+    }
+  ]
+}

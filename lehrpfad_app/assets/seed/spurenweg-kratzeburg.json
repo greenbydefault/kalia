@@ -1,0 +1,557 @@
+{
+ "id": "spurenweg-kratzeburg",
+ "name": "Spurenweg Kratzeburg",
+ "typ": "sinnespfad",
+ "kurzbeschreibung": "Barrierefreier Rundweg zwischen Kratzeburg und Dambeck – Spuren von Mensch und Natur, taktil markiert, frei begehbar.",
+ "beschreibung": "Der SpurenWeg folgt dem, was Menschen im Wald hinterlassen haben – und dem, was die Natur daraus macht. Betonfundamente aus den 1950ern tragen Moose und Flechten. Alte Siedlungsplätze sind heute Revier von Greifvögeln und Füchsen. Der Rundweg ist 3,5 km, barrierearm und für Kinderwagen gedacht; für blinde Menschen mit Begleitung: Reliefkarte am Start, Braille, Wegmarkierung als waagerechte Stämme. Start Ortsausgang Kratzeburg Richtung Dalmsdorf. Frei, ganzjährig Outdoor. Hunde an der Leine.",
+ "laengeKm": 3.9,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Spuren-Weg; taktile Baumstämme, Relief-Tafeln",
+ "betreiber": "Nationalparkamt Müritz",
+ "region": "Kratzeburg–Dambeck, Mecklenburgische Seenplatte, NP Müritz",
+ "website": "https://www.mueritz-nationalpark.de/erleben-erholen/aktiv-in-der-natur/erlebnispfade/spurenweg-kratzeburg",
+ "anreise": "Bahn: RE Berlin–Rostock, Bahnhof Kratzeburg, 400 m Fußweg Richtung Dalmsdorf/Dambeck. Auto: B 193 Neustrelitz–Penzlin, Abzweig Kratzeburg, kostenlose Parkplätze im Ort.",
+ "startName": "Ortsausgang Kratzeburg Richtung Dalmsdorf / Dambeck",
+ "arten": [
+  "Stieleiche",
+  "Kiefer",
+  "Igel",
+  "Eisvogel",
+  "Hummel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.429525,
+   12.937967
+  ],
+  [
+   53.429729,
+   12.937828
+  ],
+  [
+   53.430058,
+   12.937642
+  ],
+  [
+   53.430214,
+   12.937544
+  ],
+  [
+   53.430768,
+   12.937166
+  ],
+  [
+   53.431989,
+   12.936444
+  ],
+  [
+   53.432268,
+   12.936196
+  ],
+  [
+   53.432497,
+   12.935908
+  ],
+  [
+   53.432675,
+   12.935756
+  ],
+  [
+   53.432806,
+   12.935654
+  ],
+  [
+   53.433016,
+   12.935436
+  ],
+  [
+   53.433533,
+   12.934772
+  ],
+  [
+   53.433933,
+   12.933954
+  ],
+  [
+   53.434354,
+   12.933319
+  ],
+  [
+   53.43472,
+   12.932744
+  ],
+  [
+   53.434894,
+   12.932472
+  ],
+  [
+   53.435026,
+   12.932341
+  ],
+  [
+   53.435213,
+   12.932159
+  ],
+  [
+   53.435453,
+   12.931917
+  ],
+  [
+   53.435837,
+   12.932048
+  ],
+  [
+   53.436114,
+   12.932149
+  ],
+  [
+   53.436342,
+   12.93223
+  ],
+  [
+   53.4366,
+   12.93225
+  ],
+  [
+   53.436774,
+   12.93229
+  ],
+  [
+   53.437033,
+   12.932411
+  ],
+  [
+   53.437375,
+   12.932472
+  ],
+  [
+   53.437531,
+   12.932563
+  ],
+  [
+   53.437681,
+   12.932714
+  ],
+  [
+   53.437826,
+   12.932865
+  ],
+  [
+   53.438057,
+   12.933104
+  ],
+  [
+   53.438027,
+   12.933224
+  ],
+  [
+   53.437912,
+   12.933673
+  ],
+  [
+   53.437832,
+   12.935293
+  ],
+  [
+   53.437532,
+   12.936034
+  ],
+  [
+   53.437396,
+   12.936529
+  ],
+  [
+   53.437537,
+   12.936697
+  ],
+  [
+   53.437784,
+   12.936908
+  ],
+  [
+   53.437986,
+   12.937082
+  ],
+  [
+   53.438066,
+   12.93715
+  ],
+  [
+   53.43833,
+   12.937261
+  ],
+  [
+   53.43845,
+   12.937291
+  ],
+  [
+   53.438838,
+   12.937232
+  ],
+  [
+   53.439078,
+   12.937097
+  ],
+  [
+   53.439391,
+   12.936841
+  ],
+  [
+   53.439624,
+   12.936666
+  ],
+  [
+   53.439853,
+   12.936652
+  ],
+  [
+   53.440339,
+   12.936666
+  ],
+  [
+   53.440598,
+   12.936722
+  ],
+  [
+   53.440916,
+   12.936792
+  ],
+  [
+   53.441335,
+   12.936919
+  ],
+  [
+   53.441594,
+   12.937003
+  ],
+  [
+   53.441728,
+   12.937186
+  ],
+  [
+   53.441854,
+   12.937411
+  ],
+  [
+   53.442013,
+   12.937818
+  ],
+  [
+   53.442147,
+   12.938212
+  ],
+  [
+   53.442233,
+   12.938781
+  ],
+  [
+   53.441696,
+   12.938377
+  ],
+  [
+   53.440633,
+   12.937652
+  ],
+  [
+   53.440391,
+   12.937483
+  ],
+  [
+   53.44014,
+   12.937547
+  ],
+  [
+   53.44,
+   12.937972
+  ],
+  [
+   53.43954,
+   12.938851
+  ],
+  [
+   53.43936,
+   12.939042
+  ],
+  [
+   53.439013,
+   12.939176
+  ],
+  [
+   53.43867,
+   12.939113
+  ],
+  [
+   53.438403,
+   12.938931
+  ],
+  [
+   53.437383,
+   12.938365
+  ],
+  [
+   53.437115,
+   12.938226
+  ],
+  [
+   53.436505,
+   12.938326
+  ],
+  [
+   53.436294,
+   12.938361
+  ],
+  [
+   53.435086,
+   12.939104
+  ],
+  [
+   53.434832,
+   12.939121
+  ],
+  [
+   53.434554,
+   12.938982
+  ],
+  [
+   53.433059,
+   12.938415
+  ],
+  [
+   53.432274,
+   12.938111
+  ],
+  [
+   53.4321,
+   12.938084
+  ],
+  [
+   53.431738,
+   12.938313
+  ],
+  [
+   53.431485,
+   12.93845
+  ],
+  [
+   53.431082,
+   12.938389
+  ],
+  [
+   53.430429,
+   12.938056
+  ],
+  [
+   53.430066,
+   12.938004
+  ],
+  [
+   53.429775,
+   12.937969
+  ],
+  [
+   53.429525,
+   12.937967
+  ],
+  [
+   53.431118,
+   12.936846
+  ],
+  [
+   53.431074,
+   12.936666
+  ],
+  [
+   53.430864,
+   12.936812
+  ],
+  [
+   53.430908,
+   12.936992
+  ],
+  [
+   53.431118,
+   12.936846
+  ],
+  [
+   53.429525,
+   12.937967
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -480097577,
+   "lat": 53.4295435,
+   "lon": 12.9379185,
+   "km": 0.0,
+   "titel": "Spuren-Weg Start",
+   "thema": "Reliefkarte, Braille",
+   "kurztext": "Relief und Großdruck zeigen den Rundweg. Nach links in den Wald; rechts unten die Stamm-Markierung zum Ertasten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -332489383,
+   "lat": 53.4352437,
+   "lon": 12.932275,
+   "km": 0.75,
+   "titel": "Schirmeiche",
+   "thema": "Baum als Zeuge",
+   "kurztext": "Eine Eiche als Dach. Tast die Rinde, miss den Schatten.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3109754284,
+   "lat": 53.4377021,
+   "lon": 12.9354718,
+   "km": 1.24,
+   "titel": "Eine Pause",
+   "thema": "Dambeck, zweite Tafel",
+   "kurztext": "Dorf im Grünen. Hier kannst du wenden oder den zweiten Abschnitt beginnen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2094701801,
+   "lat": 53.4418844,
+   "lon": 12.9375508,
+   "km": 1.86,
+   "titel": "URAL 72",
+   "thema": "Fahrzeugspur / Relikt",
+   "kurztext": "Ein Relikt mit Namen. Technik rostet langsamer als Erinnerung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3461216520,
+   "lat": 53.4409782,
+   "lon": 12.9377988,
+   "km": 2.16,
+   "titel": "Am Ufer entlang",
+   "thema": "See / Havelquelle-Nähe",
+   "kurztext": "Wasser, Schilf, vielleicht Eisvogel. Bleib auf dem Weg, das Ufer ist weich.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -1503587279,
+   "lat": 53.4364961,
+   "lon": 12.938279,
+   "km": 2.67,
+   "titel": "Ehemalige Siedlungsplätze",
+   "thema": "Natur übernimmt",
+   "kurztext": "Fundamente, dann Fuchs und Greif. Natur auf den Spuren der Menschen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -4076849692,
+   "lat": 53.431229,
+   "lon": 12.9383124,
+   "km": 3.3,
+   "titel": "Die Bahn",
+   "thema": "Verkehrsspur",
+   "kurztext": "Schienen und Takt haben den Ort geprägt. Heute hörst du den Wald dazwischen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -856186604,
+   "lat": 53.4311054,
+   "lon": 12.9370064,
+   "km": 3.67,
+   "titel": "Fundamente im Wald",
+   "thema": "Beton, Moos, Flechten",
+   "kurztext": "1950er-Beton, darauf Moos. Der Mensch ging, die Kruste bleibt, das Leben zieht ein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 459520206,
+   "lat": 53.4293014,
+   "lon": 12.9374117,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12124905905,
+   "lat": 53.4399777,
+   "lon": 12.9365282,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12124964788,
+   "lat": 53.4376174,
+   "lon": 12.9355638,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12124964789,
+   "lat": 53.4375485,
+   "lon": 12.9355757,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12124964791,
+   "lat": 53.4364802,
+   "lon": 12.9322092,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 564144089,
+   "lat": 53.429399312499996,
+   "lon": 12.937228300000001,
+   "kategorie": "shelter",
+   "name": null
+  }
+ ]
+}

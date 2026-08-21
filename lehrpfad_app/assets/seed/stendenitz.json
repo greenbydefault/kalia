@@ -1,0 +1,367 @@
+{
+ "id": "stendenitz",
+ "name": "Walderlebnispfad Stendenitz",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Neun Stationen mit Förster Zander und Waldtraut – Rundweg vom Waldmuseum an die Kellen, mit Rätseln und Suchauftrag.",
+ "beschreibung": "Am Zermützelsee in der Ruppiner Schweiz führt der Walderlebnispfad vom Waldmuseum nach Norden und in einer Schleife an die Kellenseen zurück. An den Stationen sprechen Förster Zander und die zwölfjährige Waldtraut; daraus folgt jeweils eine Aufgabe. Die Starttafel schickt dich auf einen Suchauftrag: etwas Spitzes, Rundes, Weiches, Duftendes, Raues und Leichtes sammeln und am Ende in den Setzkasten vor dem Museum legen. Tipp auf der Tafel: den Pfad barfuß gehen, wenn du dich traust. Der Outdoor-Pfad ist frei zugänglich ohne Ticket. Das Waldmuseum daneben hat eigene Öffnungszeiten und ist kein Pflichtstopp. Wege naturnah; Parkplatz an der Försterei Stendenitz; saisonal Waldschenke in der Nähe.",
+ "laengeKm": 1.5,
+ "dauerMin": 50,
+ "rundkurs": true,
+ "markierung": "Walderlebnispfad / Naturlehrpfad (lokale Wegweisung am Museum)",
+ "betreiber": "Forstamt Ostprignitz-Ruppin / Landesbetrieb Forst Brandenburg",
+ "region": "Neuruppin OT Stendenitz, Ostprignitz-Ruppin, Brandenburg",
+ "website": "https://forst.brandenburg.de/lfb/de/waldmuseum-stendenitz/",
+ "anreise": "Auto: von Neuruppin oder Flecken Zechlin auf der L 16 bis Abzweig Stendenitz, Beschilderung Waldmuseum / Campingplatz / Waldschenke folgen; Parkplatz Försterei Stendenitz. Fahrrad: Radweg über Alt Ruppin / Molchow / Schleuse Neumühle. Schiff: von Neuruppin über Stendenitz. Kein Linienbus.",
+ "startName": "Waldmuseum Stendenitz / Starttafel",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Rotbuche",
+  "Biber",
+  "Kranich",
+  "Rote Waldameise",
+  "Igel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "barfusspfad"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.00673,
+   12.819666
+  ],
+  [
+   53.006714,
+   12.819159
+  ],
+  [
+   53.006688,
+   12.818999
+  ],
+  [
+   53.006817,
+   12.818748
+  ],
+  [
+   53.007266,
+   12.818305
+  ],
+  [
+   53.007577,
+   12.818275
+  ],
+  [
+   53.007804,
+   12.818057
+  ],
+  [
+   53.008091,
+   12.817962
+  ],
+  [
+   53.008271,
+   12.817884
+  ],
+  [
+   53.008355,
+   12.817798
+  ],
+  [
+   53.008896,
+   12.817623
+  ],
+  [
+   53.009,
+   12.817641
+  ],
+  [
+   53.009278,
+   12.817689
+  ],
+  [
+   53.009806,
+   12.817772
+  ],
+  [
+   53.010164,
+   12.817636
+  ],
+  [
+   53.010459,
+   12.817232
+  ],
+  [
+   53.010814,
+   12.816239
+  ],
+  [
+   53.010966,
+   12.815355
+  ],
+  [
+   53.010818,
+   12.815536
+  ],
+  [
+   53.01065,
+   12.815725
+  ],
+  [
+   53.010247,
+   12.815979
+  ],
+  [
+   53.009861,
+   12.816087
+  ],
+  [
+   53.009241,
+   12.81602
+  ],
+  [
+   53.00889,
+   12.815959
+  ],
+  [
+   53.008264,
+   12.815668
+  ],
+  [
+   53.008121,
+   12.81555
+  ],
+  [
+   53.007903,
+   12.815377
+  ],
+  [
+   53.00775,
+   12.815221
+  ],
+  [
+   53.007005,
+   12.81447
+  ],
+  [
+   53.006544,
+   12.815346
+  ],
+  [
+   53.006277,
+   12.815867
+  ],
+  [
+   53.006546,
+   12.816433
+  ],
+  [
+   53.006754,
+   12.816876
+  ],
+  [
+   53.006938,
+   12.817001
+  ],
+  [
+   53.007089,
+   12.817265
+  ],
+  [
+   53.006853,
+   12.817764
+  ],
+  [
+   53.006751,
+   12.818175
+  ],
+  [
+   53.006727,
+   12.818706
+  ],
+  [
+   53.006688,
+   12.818999
+  ],
+  [
+   53.006714,
+   12.819159
+  ],
+  [
+   53.00673,
+   12.819666
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -3631814897,
+   "lat": 53.00673,
+   "lon": 12.819666,
+   "km": 0.0,
+   "titel": "Vorstellung",
+   "thema": "Hier stehst du!",
+   "kurztext": "Starttafel am Waldmuseum. Förster Zander und Waldtraut (12) schicken dich auf den Rundweg. Sammle unterwegs etwas Spitzes, Rundes, Weiches, Duftendes, Raues und Leichtes – am Ende kommt alles in den Setzkasten. Tipp: Wenn du dich traust, barfuß.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1999530219,
+   "lat": 53.007266,
+   "lon": 12.818305,
+   "km": 0.13,
+   "titel": "Rätselbuche",
+   "thema": "Klapptafel-Rätsel",
+   "kurztext": "Bleibt ein eingeritztes Herz in 20 Jahren weiter oben? Nein – der Stamm wird nur dicker, die Höhe wächst an der Spitze. Daneben neun Klapptafeln mit Waldrätseln. Klapp auf, wenn du die Antwort weißt.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1557053778,
+   "lat": 53.009806,
+   "lon": 12.817772,
+   "km": 0.42,
+   "titel": "Waldauge",
+   "thema": "Tiere in den Kronen",
+   "kurztext": "Schau dich um: In den Baumkronen haben sich sechs Tiere versteckt. Kolkrabe, Waldohreule, Laubfrosch, Wanderfalke, Baummarder, Eichhörnchen – findest du sie in den Bäumen und auf der Tafel?",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3523258963,
+   "lat": 53.010966,
+   "lon": 12.815355,
+   "km": 0.64,
+   "titel": "Baum-Bandolino",
+   "thema": "Nördliche Wegkreuzung",
+   "kurztext": "Nördliche Kreuzung der Wege, oben an der Runde – so liegt Baum-Bandolino auf der Tafelkarte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3392788427,
+   "lat": 53.00889,
+   "lon": 12.815959,
+   "km": 0.88,
+   "titel": "Spurenpfütze",
+   "thema": "Westseite nach der Nordschleife",
+   "kurztext": "Westlich der Straße, nach der Nordschleife – Spurenpfütze laut Tafelkarte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3495957951,
+   "lat": 53.007005,
+   "lon": 12.81447,
+   "km": 1.11,
+   "titel": "Spechtholz",
+   "thema": "Westlicher Waldrand",
+   "kurztext": "Westlicher Waldrand vor den Kellen – Spechtholz auf der Tafelkarte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3725547791,
+   "lat": 53.006277,
+   "lon": 12.815867,
+   "km": 1.24,
+   "titel": "Wasserliebe",
+   "thema": "Nordufer der Kellen",
+   "kurztext": "Am Nordufer der Kellen – Wasserliebe, so eingezeichnet auf der Starttafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -996098956,
+   "lat": 53.007089,
+   "lon": 12.817265,
+   "km": 1.37,
+   "titel": "Pilztopf",
+   "thema": "Zurück zur Straße",
+   "kurztext": "Zurück Richtung Straße, östlich der Kellen – Pilztopf auf der Tafelkarte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -4016065908,
+   "lat": 53.006751,
+   "lon": 12.818175,
+   "km": 1.44,
+   "titel": "Waldgeschichte",
+   "thema": "Zurück am Museum",
+   "kurztext": "Wieder am Waldmuseum – Waldgeschichte schließt die Runde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 6697834507,
+   "lat": 53.0069644,
+   "lon": 12.8193712,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 6697834511,
+   "lat": 53.0065351,
+   "lon": 12.8200015,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1804748070,
+   "lat": 53.0061287,
+   "lon": 12.8201997,
+   "kategorie": "gastro",
+   "name": "Waldschenke Stendenitz"
+  },
+  {
+   "osmId": 2697495552,
+   "lat": 53.0063654,
+   "lon": 12.8195212,
+   "kategorie": "viewpoint",
+   "name": "Waldmuseum Stendenitz"
+  }
+ ]
+}

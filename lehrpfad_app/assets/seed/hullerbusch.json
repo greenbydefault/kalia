@@ -1,0 +1,1263 @@
+{
+ "id": "hullerbusch",
+ "name": "Naturlehrpfad Hullerbusch und Hauptmannsberg",
+ "typ": "wald",
+ "kurzbeschreibung": "Rundweg über Hauptmannsberg und Hullerbusch – 13 Tafeln, Kesselmoor-Steg, Teufelsstein. Frei, 2023ff. erneuert.",
+ "beschreibung": "Zwischen Carwitzer See, Zansen und Schmalem Luzin liegt der modernisierte Naturlehrpfad. Start typisch: Parken am Fuß des Hauptmannsbergs in Carwitz, hinauf zur Aussicht, dann zum Zansen, Schäferwiese oder lang durch den Hullerbusch. 13 Informationstafeln, Moorsteg ins Kesselmoor, Teufelsstein. Nicht kinderwagen- oder rollstuhltauglich. Frei, kein Ticket. Hotel/Schäferladen Hullerbusch = Einkehr optional.",
+ "laengeKm": 7.4,
+ "dauerMin": 150,
+ "rundkurs": true,
+ "markierung": "Naturlehrpfad-Wegweiser (erneuert 2023–2026)",
+ "betreiber": "Naturpark Feldberger Seenlandschaft",
+ "region": "Carwitz / Hullerbusch, Naturpark Feldberger Seenlandschaft",
+ "website": "https://www.nordkurier.de/regional/neustrelitz/zwischen-teufelsstein-und-kesselmoor-modernes-wandern-im-hullerbusch-4441941",
+ "anreise": "Auto: Carwitz, Parkplatz am Fuß des Hauptmannsbergs. Saison: Anreise Feldberg + Luzinfähre. Bus in die Feldberger Seenlandschaft, dann Fußweg.",
+ "startName": "Parkplatz Fuß Hauptmannsberg / Carwitz",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Torfmoos",
+  "Wollgras"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "einkehr",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.305563,
+   13.44117
+  ],
+  [
+   53.305761,
+   13.441002
+  ],
+  [
+   53.305827,
+   13.441
+  ],
+  [
+   53.305897,
+   13.441038
+  ],
+  [
+   53.306014,
+   13.441151
+  ],
+  [
+   53.306246,
+   13.441265
+  ],
+  [
+   53.307162,
+   13.441664
+  ],
+  [
+   53.307538,
+   13.442124
+  ],
+  [
+   53.307661,
+   13.442176
+  ],
+  [
+   53.307773,
+   13.442258
+  ],
+  [
+   53.30789,
+   13.442476
+  ],
+  [
+   53.308097,
+   13.44279
+  ],
+  [
+   53.30815,
+   13.442883
+  ],
+  [
+   53.308204,
+   13.443046
+  ],
+  [
+   53.308251,
+   13.443134
+  ],
+  [
+   53.308515,
+   13.443063
+  ],
+  [
+   53.308805,
+   13.443076
+  ],
+  [
+   53.308902,
+   13.443125
+  ],
+  [
+   53.309449,
+   13.443706
+  ],
+  [
+   53.30975,
+   13.444467
+  ],
+  [
+   53.310026,
+   13.444238
+  ],
+  [
+   53.310311,
+   13.444069
+  ],
+  [
+   53.31058,
+   13.443859
+  ],
+  [
+   53.310881,
+   13.4437
+  ],
+  [
+   53.311065,
+   13.443706
+  ],
+  [
+   53.311373,
+   13.443407
+  ],
+  [
+   53.311609,
+   13.443298
+  ],
+  [
+   53.311875,
+   13.442962
+  ],
+  [
+   53.311954,
+   13.442874
+  ],
+  [
+   53.312055,
+   13.442906
+  ],
+  [
+   53.31221,
+   13.442973
+  ],
+  [
+   53.312292,
+   13.442964
+  ],
+  [
+   53.312452,
+   13.442895
+  ],
+  [
+   53.312456,
+   13.442895
+  ],
+  [
+   53.312579,
+   13.442878
+  ],
+  [
+   53.312705,
+   13.442828
+  ],
+  [
+   53.312794,
+   13.442831
+  ],
+  [
+   53.312847,
+   13.442869
+  ],
+  [
+   53.312889,
+   13.442915
+  ],
+  [
+   53.312921,
+   13.443085
+  ],
+  [
+   53.313076,
+   13.443523
+  ],
+  [
+   53.313167,
+   13.443636
+  ],
+  [
+   53.313358,
+   13.444116
+  ],
+  [
+   53.313512,
+   13.444518
+  ],
+  [
+   53.313577,
+   13.444675
+  ],
+  [
+   53.313711,
+   13.445029
+  ],
+  [
+   53.313695,
+   13.445294
+  ],
+  [
+   53.313801,
+   13.445432
+  ],
+  [
+   53.3139,
+   13.445455
+  ],
+  [
+   53.314144,
+   13.446046
+  ],
+  [
+   53.314254,
+   13.446051
+  ],
+  [
+   53.314299,
+   13.446017
+  ],
+  [
+   53.314342,
+   13.445937
+  ],
+  [
+   53.314386,
+   13.445841
+  ],
+  [
+   53.314468,
+   13.445746
+  ],
+  [
+   53.314516,
+   13.445596
+  ],
+  [
+   53.314684,
+   13.445452
+  ],
+  [
+   53.314857,
+   13.445314
+  ],
+  [
+   53.314923,
+   13.445227
+  ],
+  [
+   53.315055,
+   13.445157
+  ],
+  [
+   53.315092,
+   13.445145
+  ],
+  [
+   53.315165,
+   13.44508
+  ],
+  [
+   53.315221,
+   13.445056
+  ],
+  [
+   53.315365,
+   13.445138
+  ],
+  [
+   53.31547,
+   13.445196
+  ],
+  [
+   53.315728,
+   13.445166
+  ],
+  [
+   53.315969,
+   13.445414
+  ],
+  [
+   53.315983,
+   13.445624
+  ],
+  [
+   53.316204,
+   13.445679
+  ],
+  [
+   53.316363,
+   13.445818
+  ],
+  [
+   53.316394,
+   13.445964
+  ],
+  [
+   53.316608,
+   13.446073
+  ],
+  [
+   53.316764,
+   13.44609
+  ],
+  [
+   53.316836,
+   13.446216
+  ],
+  [
+   53.316907,
+   13.446216
+  ],
+  [
+   53.317023,
+   13.446413
+  ],
+  [
+   53.316972,
+   13.446545
+  ],
+  [
+   53.317056,
+   13.446681
+  ],
+  [
+   53.317155,
+   13.447048
+  ],
+  [
+   53.317101,
+   13.447143
+  ],
+  [
+   53.317247,
+   13.447412
+  ],
+  [
+   53.317308,
+   13.447694
+  ],
+  [
+   53.317267,
+   13.447966
+  ],
+  [
+   53.317236,
+   13.448166
+  ],
+  [
+   53.317267,
+   13.448329
+  ],
+  [
+   53.317362,
+   13.448455
+  ],
+  [
+   53.317349,
+   13.448587
+  ],
+  [
+   53.317481,
+   13.448723
+  ],
+  [
+   53.317546,
+   13.448941
+  ],
+  [
+   53.317722,
+   13.449087
+  ],
+  [
+   53.317899,
+   13.449165
+  ],
+  [
+   53.317987,
+   13.448944
+  ],
+  [
+   53.318042,
+   13.4489
+  ],
+  [
+   53.318293,
+   13.449053
+  ],
+  [
+   53.318307,
+   13.449121
+  ],
+  [
+   53.318405,
+   13.44909
+  ],
+  [
+   53.318517,
+   13.449182
+  ],
+  [
+   53.318779,
+   13.449478
+  ],
+  [
+   53.318833,
+   13.449627
+  ],
+  [
+   53.318939,
+   13.449661
+  ],
+  [
+   53.319075,
+   13.449848
+  ],
+  [
+   53.31918,
+   13.449889
+  ],
+  [
+   53.319221,
+   13.450062
+  ],
+  [
+   53.319217,
+   13.450123
+  ],
+  [
+   53.319387,
+   13.450222
+  ],
+  [
+   53.319595,
+   13.450303
+  ],
+  [
+   53.319809,
+   13.45031
+  ],
+  [
+   53.320558,
+   13.447845
+  ],
+  [
+   53.321307,
+   13.44538
+  ],
+  [
+   53.321734,
+   13.444339
+  ],
+  [
+   53.321786,
+   13.444212
+  ],
+  [
+   53.321992,
+   13.443662
+  ],
+  [
+   53.321307,
+   13.44538
+  ],
+  [
+   53.321018,
+   13.446467
+  ],
+  [
+   53.320767,
+   13.447544
+  ],
+  [
+   53.320342,
+   13.448845
+  ],
+  [
+   53.320006,
+   13.449685
+  ],
+  [
+   53.319809,
+   13.45031
+  ],
+  [
+   53.319713,
+   13.450616
+  ],
+  [
+   53.319508,
+   13.451168
+  ],
+  [
+   53.319473,
+   13.451388
+  ],
+  [
+   53.319929,
+   13.45182
+  ],
+  [
+   53.320479,
+   13.452496
+  ],
+  [
+   53.320934,
+   13.453029
+  ],
+  [
+   53.321084,
+   13.453412
+  ],
+  [
+   53.321341,
+   13.454266
+  ],
+  [
+   53.321565,
+   13.45499
+  ],
+  [
+   53.321874,
+   13.45606
+  ],
+  [
+   53.321926,
+   13.456683
+  ],
+  [
+   53.321906,
+   13.457528
+  ],
+  [
+   53.322035,
+   13.458175
+  ],
+  [
+   53.322032,
+   13.458544
+  ],
+  [
+   53.3221,
+   13.458875
+  ],
+  [
+   53.322294,
+   13.4591
+  ],
+  [
+   53.32261,
+   13.459163
+  ],
+  [
+   53.322818,
+   13.459112
+  ],
+  [
+   53.322978,
+   13.459034
+  ],
+  [
+   53.32315,
+   13.458904
+  ],
+  [
+   53.32365,
+   13.457859
+  ],
+  [
+   53.323788,
+   13.457551
+  ],
+  [
+   53.324126,
+   13.457177
+  ],
+  [
+   53.324676,
+   13.456602
+  ],
+  [
+   53.325117,
+   13.456468
+  ],
+  [
+   53.325232,
+   13.45639
+  ],
+  [
+   53.325341,
+   13.456346
+  ],
+  [
+   53.325481,
+   13.456158
+  ],
+  [
+   53.325516,
+   13.455049
+  ],
+  [
+   53.325622,
+   13.454699
+  ],
+  [
+   53.325797,
+   13.453893
+  ],
+  [
+   53.325946,
+   13.453597
+  ],
+  [
+   53.326091,
+   13.453295
+  ],
+  [
+   53.326326,
+   13.452937
+  ],
+  [
+   53.326487,
+   13.452794
+  ],
+  [
+   53.326639,
+   13.452578
+  ],
+  [
+   53.326797,
+   13.452168
+  ],
+  [
+   53.326925,
+   13.451762
+  ],
+  [
+   53.327047,
+   13.451508
+  ],
+  [
+   53.327111,
+   13.451206
+  ],
+  [
+   53.327197,
+   13.450988
+  ],
+  [
+   53.327253,
+   13.450725
+  ],
+  [
+   53.32735,
+   13.450464
+  ],
+  [
+   53.32744,
+   13.450079
+  ],
+  [
+   53.32757,
+   13.449944
+  ],
+  [
+   53.327713,
+   13.449234
+  ],
+  [
+   53.327358,
+   13.448838
+  ],
+  [
+   53.326739,
+   13.448351
+  ],
+  [
+   53.326005,
+   13.447685
+  ],
+  [
+   53.32527,
+   13.446967
+  ],
+  [
+   53.325014,
+   13.446585
+  ],
+  [
+   53.324809,
+   13.44622
+  ],
+  [
+   53.324713,
+   13.446044
+  ],
+  [
+   53.32429,
+   13.445267
+  ],
+  [
+   53.324047,
+   13.444907
+  ],
+  [
+   53.323902,
+   13.444773
+  ],
+  [
+   53.323833,
+   13.44471
+  ],
+  [
+   53.323785,
+   13.444667
+  ],
+  [
+   53.323589,
+   13.444489
+  ],
+  [
+   53.323433,
+   13.444375
+  ],
+  [
+   53.32314,
+   13.444215
+  ],
+  [
+   53.322515,
+   13.443899
+  ],
+  [
+   53.322452,
+   13.44387
+  ],
+  [
+   53.321992,
+   13.443662
+  ],
+  [
+   53.320322,
+   13.442893
+  ],
+  [
+   53.319782,
+   13.442633
+  ],
+  [
+   53.31944,
+   13.442471
+  ],
+  [
+   53.319235,
+   13.442406
+  ],
+  [
+   53.318618,
+   13.442243
+  ],
+  [
+   53.318479,
+   13.442207
+  ],
+  [
+   53.318351,
+   13.44217
+  ],
+  [
+   53.317718,
+   13.44193
+  ],
+  [
+   53.316242,
+   13.441282
+  ],
+  [
+   53.315349,
+   13.440893
+  ],
+  [
+   53.314165,
+   13.440363
+  ],
+  [
+   53.313188,
+   13.439829
+  ],
+  [
+   53.312574,
+   13.439554
+  ],
+  [
+   53.311677,
+   13.439183
+  ],
+  [
+   53.311531,
+   13.439186
+  ],
+  [
+   53.311219,
+   13.439275
+  ],
+  [
+   53.310906,
+   13.439444
+  ],
+  [
+   53.310499,
+   13.43951
+  ],
+  [
+   53.310029,
+   13.439556
+  ],
+  [
+   53.31,
+   13.43956
+  ],
+  [
+   53.309639,
+   13.439636
+  ],
+  [
+   53.308915,
+   13.439547
+  ],
+  [
+   53.308469,
+   13.439512
+  ],
+  [
+   53.308132,
+   13.439561
+  ],
+  [
+   53.307487,
+   13.439839
+  ],
+  [
+   53.306938,
+   13.439991
+  ],
+  [
+   53.30663,
+   13.440068
+  ],
+  [
+   53.306274,
+   13.440252
+  ],
+  [
+   53.305892,
+   13.440492
+  ],
+  [
+   53.305762,
+   13.440676
+  ],
+  [
+   53.305563,
+   13.44117
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -194614158,
+   "lat": 53.3056144,
+   "lon": 13.4410754,
+   "km": 0.0,
+   "titel": "Naturschutzgebiet Hauptmannsberg",
+   "thema": "Einstieg Carwitz",
+   "kurztext": "Unten am Berg. Tafel zum Schutzgebiet, dann hoch – der See kommt später ins Bild.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1558265957,
+   "lat": 53.3082835,
+   "lon": 13.4428084,
+   "km": 0.33,
+   "titel": "Hauptmannsberg",
+   "thema": "Aussicht Carwitzer See",
+   "kurztext": "Endmoräne, Blick auf den Carwitzer See. Geschichte des Berges auf der Nachbartafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -654533326,
+   "lat": 53.3151891,
+   "lon": 13.4450432,
+   "km": 1.33,
+   "titel": "Die Schäferwiese",
+   "thema": "Weide, Rast",
+   "kurztext": "Offenland, Schafe, Rast. Natur zuerst – kein Spielplatz-Set.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -4016065908,
+   "lat": 53.3197959,
+   "lon": 13.4503852,
+   "km": 2.07,
+   "titel": "Waldgeschichte des Hullerbuschs",
+   "thema": "Waldwandel",
+   "kurztext": "Wer hier holzte, jagte, aufforstete. Der Hullerbusch ist Kultur und Wildnis in einem Satz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3220394035,
+   "lat": 53.3219789,
+   "lon": 13.4435602,
+   "km": 2.58,
+   "titel": "Naturlehrpfad Hullerbusch",
+   "thema": "Dorf Hullerbusch / Fähre",
+   "kurztext": "Siedlung Hullerbusch, Luzinfähre in der Saison. Hier teilt sich oft kurz und lang.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -1964457705,
+   "lat": 53.3220247,
+   "lon": 13.4585681,
+   "km": 3.76,
+   "titel": "Der Teufelsstein",
+   "thema": "Findling",
+   "kurztext": "Findling mit Schrammen. Die Tafel erklärt Eis, nicht den Teufel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -1864776583,
+   "lat": 53.3236047,
+   "lon": 13.4579237,
+   "km": 3.99,
+   "titel": "Im Reich der Pilze",
+   "thema": "Totholz",
+   "kurztext": "Totholz als Speisekammer. Bestimmen ohne zu pflücken.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -3420394332,
+   "lat": 53.3255356,
+   "lon": 13.4548817,
+   "km": 4.31,
+   "titel": "Das Kesselmoor",
+   "thema": "Eiszeit, Sonnentau, Steg",
+   "kurztext": "Toteisloch, Steg, Sonnentau winzig und selten. Bleib auf dem Steg.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -3558382261,
+   "lat": 53.327708,
+   "lon": 13.4493371,
+   "km": 4.77,
+   "titel": "Der Hünenwall",
+   "thema": "Satzendmoräne",
+   "kurztext": "Satzendmoräne, Eiszeit im Anschnitt. Nicht mit dem Hühnenfriedhof verwechseln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 320742078,
+   "lat": 53.3082512,
+   "lon": 13.4431345,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 320742122,
+   "lat": 53.3098408,
+   "lon": 13.4448498,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 320742128,
+   "lat": 53.313514,
+   "lon": 13.4449074,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 320742133,
+   "lat": 53.3082835,
+   "lon": 13.4428084,
+   "kategorie": "viewpoint",
+   "name": "Hauptmannsberg"
+  },
+  {
+   "osmId": 336751148,
+   "lat": 53.3134258,
+   "lon": 13.444716,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 336751153,
+   "lat": 53.313695,
+   "lon": 13.4452936,
+   "kategorie": "viewpoint",
+   "name": "Zansen-Aussicht"
+  },
+  {
+   "osmId": 376025068,
+   "lat": 53.3215648,
+   "lon": 13.4549902,
+   "kategorie": "viewpoint",
+   "name": "Zansenblick"
+  },
+  {
+   "osmId": 434637536,
+   "lat": 53.3129056,
+   "lon": 13.442943,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 434637538,
+   "lat": 53.3127232,
+   "lon": 13.4428091,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 434637557,
+   "lat": 53.3097759,
+   "lon": 13.4448317,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 434637559,
+   "lat": 53.3135001,
+   "lon": 13.4449708,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 434649531,
+   "lat": 53.3255827,
+   "lon": 13.4551938,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 434649532,
+   "lat": 53.3220085,
+   "lon": 13.4584965,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 897625559,
+   "lat": 53.3220789,
+   "lon": 13.4435392,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1377503461,
+   "lat": 53.3253339,
+   "lon": 13.4549009,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 4874943450,
+   "lat": 53.3276828,
+   "lon": 13.4494518,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401302,
+   "lat": 53.3141047,
+   "lon": 13.4403921,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401526,
+   "lat": 53.3055542,
+   "lon": 13.441256,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401548,
+   "lat": 53.3150379,
+   "lon": 13.4450349,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401758,
+   "lat": 53.3055237,
+   "lon": 13.4413392,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401779,
+   "lat": 53.3127764,
+   "lon": 13.4427898,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4933401824,
+   "lat": 53.3128782,
+   "lon": 13.4428491,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6924781516,
+   "lat": 53.3134541,
+   "lon": 13.4448417,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10873720699,
+   "lat": 53.324097,
+   "lon": 13.4428133,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13651694394,
+   "lat": 53.3100845,
+   "lon": 13.4396346,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13712489100,
+   "lat": 53.3215759,
+   "lon": 13.4549726,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14061425374,
+   "lat": 53.3185511,
+   "lon": 13.4515248,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14089679890,
+   "lat": 53.3236198,
+   "lon": 13.4578963,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14089752225,
+   "lat": 53.32563,
+   "lon": 13.4551554,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 37297232,
+   "lat": 53.31916648333333,
+   "lon": 13.442749033333333,
+   "kategorie": "gastro",
+   "name": "Schäferladen Hullerbusch"
+  },
+  {
+   "osmId": 154995558,
+   "lat": 53.32220448333333,
+   "lon": 13.444795983333336,
+   "kategorie": "gastro",
+   "name": "Hotel & Restaurant Hullerbusch"
+  },
+  {
+   "osmId": 223093362,
+   "lat": 53.31864086666667,
+   "lon": 13.442066850000002,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 739569355,
+   "lat": 53.3226943,
+   "lon": 13.444103519999999,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1155984990,
+   "lat": 53.30549286,
+   "lon": 13.441439339999999,
+   "kategorie": "parking",
+   "name": null
+  }
+ ]
+}

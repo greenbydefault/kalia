@@ -1,0 +1,950 @@
+{
+ "id": "wupatz",
+ "name": "Wupatz’ Lehrpfad",
+ "typ": "wald",
+ "kurzbeschreibung": "Familienfreundlicher 3,6-km-Rundweg durchs Löcknitztal in Erkner – 16 Stationen zum Rätseln und Mitmachen mit dem Waldwichtel Wupatz.",
+ "beschreibung": "Am östlichen Stadtrand Erkners führt der kleine Waldwichtel Wupatz große und kleine Wandersleute durch Wald, Wiesen und Wasser des Löcknitztals. An 16 Stationen mit Schautafeln und interaktiven Modulen geht es um Baumarten, Spuren, Nahrungsketten, den Wupatzsee und das Naturschutzgebiet – inklusive Froschkonzert, Balancierstrecke und Spürnasentest. Der rund 3,6 km lange Rundweg startet am nördlichen Parkplatz der Fangschleusenstraße (ca. zwei Stunden). Teilstücke gehören zum 66-Seen-Wanderweg und zum Jakobsweg; der Abschnitt bis zum Leistikowsteg ist dem Maler Walter Leistikow gewidmet. An nassen Tagen festes Schuhwerk; die letzten 250 m zur Rundwegschließung verlaufen entlang einer belebten Straße. Hinweis: Der südliche Parkplatz Fangschleusenstraße ist bis Oktober 2026 weitgehend gesperrt – Start am nördlichen Parkplatz.",
+ "laengeKm": 3.6,
+ "dauerMin": 55,
+ "rundkurs": true,
+ "markierung": "Grüner Schrägstrich auf weißem Grund (Wupatz-Figur an den Wegweisern)",
+ "betreiber": "Stadt Erkner",
+ "region": "Erkner, Landkreis Oder-Spree, Brandenburg",
+ "website": "https://www.erkner.de/freizeit-und-tourismus/naturerlebnisse/wandern/wupatz-lehrpfad.html",
+ "anreise": "RE1 oder S3 nach Erkner, von dort ca. 30 Minuten zu Fuß oder Bus 420/429/436 bis „Löcknitz Anlegestelle“. Auto: nördlicher Parkplatz Fangschleusenstraße (etwa Höhe Hausnummer 6).",
+ "startName": "Nördlicher Parkplatz Fangschleusenstraße, Erkner",
+ "arten": [
+  "Rote Waldameise",
+  "Kiefer",
+  "Stieleiche",
+  "Eisvogel",
+  "Igel",
+  "Distelfalter",
+  "Kleiner Fuchs",
+  "Schwarzerle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "route": [
+  [
+   52.420464,
+   13.764193
+  ],
+  [
+   52.420324,
+   13.764852
+  ],
+  [
+   52.420224,
+   13.765273
+  ],
+  [
+   52.420195,
+   13.765631
+  ],
+  [
+   52.420185,
+   13.765816
+  ],
+  [
+   52.420177,
+   13.765995
+  ],
+  [
+   52.420124,
+   13.766146
+  ],
+  [
+   52.420058,
+   13.766289
+  ],
+  [
+   52.419885,
+   13.766465
+  ],
+  [
+   52.419656,
+   13.766755
+  ],
+  [
+   52.41959,
+   13.766975
+  ],
+  [
+   52.419471,
+   13.767359
+  ],
+  [
+   52.419332,
+   13.767742
+  ],
+  [
+   52.419019,
+   13.7687
+  ],
+  [
+   52.418865,
+   13.769298
+  ],
+  [
+   52.418771,
+   13.769723
+  ],
+  [
+   52.418727,
+   13.769925
+  ],
+  [
+   52.418706,
+   13.770095
+  ],
+  [
+   52.418708,
+   13.770233
+  ],
+  [
+   52.418706,
+   13.770352
+  ],
+  [
+   52.418808,
+   13.770585
+  ],
+  [
+   52.418956,
+   13.77077
+  ],
+  [
+   52.419161,
+   13.770843
+  ],
+  [
+   52.419463,
+   13.771092
+  ],
+  [
+   52.419908,
+   13.771137
+  ],
+  [
+   52.420187,
+   13.771233
+  ],
+  [
+   52.420445,
+   13.771436
+  ],
+  [
+   52.42064,
+   13.7716
+  ],
+  [
+   52.420778,
+   13.772028
+  ],
+  [
+   52.420784,
+   13.772455
+  ],
+  [
+   52.420827,
+   13.772809
+  ],
+  [
+   52.420924,
+   13.773191
+  ],
+  [
+   52.421002,
+   13.773565
+  ],
+  [
+   52.421067,
+   13.773935
+  ],
+  [
+   52.421111,
+   13.774385
+  ],
+  [
+   52.421163,
+   13.774965
+  ],
+  [
+   52.421152,
+   13.775336
+  ],
+  [
+   52.4211,
+   13.775772
+  ],
+  [
+   52.420922,
+   13.77629
+  ],
+  [
+   52.420708,
+   13.776929
+  ],
+  [
+   52.420572,
+   13.777245
+  ],
+  [
+   52.420527,
+   13.777437
+  ],
+  [
+   52.420229,
+   13.777721
+  ],
+  [
+   52.420122,
+   13.777876
+  ],
+  [
+   52.420057,
+   13.778084
+  ],
+  [
+   52.419939,
+   13.778198
+  ],
+  [
+   52.419786,
+   13.778269
+  ],
+  [
+   52.419631,
+   13.778282
+  ],
+  [
+   52.419449,
+   13.77822
+  ],
+  [
+   52.419151,
+   13.778074
+  ],
+  [
+   52.418884,
+   13.777868
+  ],
+  [
+   52.418748,
+   13.777697
+  ],
+  [
+   52.418399,
+   13.777388
+  ],
+  [
+   52.418363,
+   13.777349
+  ],
+  [
+   52.418306,
+   13.777287
+  ],
+  [
+   52.418021,
+   13.777159
+  ],
+  [
+   52.417992,
+   13.777149
+  ],
+  [
+   52.417902,
+   13.77708
+  ],
+  [
+   52.417948,
+   13.776603
+  ],
+  [
+   52.417892,
+   13.776298
+  ],
+  [
+   52.417806,
+   13.776075
+  ],
+  [
+   52.417734,
+   13.775951
+  ],
+  [
+   52.417629,
+   13.775858
+  ],
+  [
+   52.417116,
+   13.775197
+  ],
+  [
+   52.416946,
+   13.774933
+  ],
+  [
+   52.416791,
+   13.774599
+  ],
+  [
+   52.416424,
+   13.774106
+  ],
+  [
+   52.416397,
+   13.774057
+  ],
+  [
+   52.416332,
+   13.773941
+  ],
+  [
+   52.41626,
+   13.773802
+  ],
+  [
+   52.41619,
+   13.773679
+  ],
+  [
+   52.416159,
+   13.773623
+  ],
+  [
+   52.416137,
+   13.773482
+  ],
+  [
+   52.416128,
+   13.773065
+  ],
+  [
+   52.416163,
+   13.772669
+  ],
+  [
+   52.416228,
+   13.772207
+  ],
+  [
+   52.416323,
+   13.771827
+  ],
+  [
+   52.416396,
+   13.771629
+  ],
+  [
+   52.416464,
+   13.771213
+  ],
+  [
+   52.416508,
+   13.77061
+  ],
+  [
+   52.416529,
+   13.770097
+  ],
+  [
+   52.416544,
+   13.769575
+  ],
+  [
+   52.41656,
+   13.769143
+  ],
+  [
+   52.416546,
+   13.768839
+  ],
+  [
+   52.416505,
+   13.768553
+  ],
+  [
+   52.416441,
+   13.768226
+  ],
+  [
+   52.416365,
+   13.767817
+  ],
+  [
+   52.416305,
+   13.767492
+  ],
+  [
+   52.416262,
+   13.76722
+  ],
+  [
+   52.416203,
+   13.766831
+  ],
+  [
+   52.41619,
+   13.766471
+  ],
+  [
+   52.41617,
+   13.76618
+  ],
+  [
+   52.416012,
+   13.765686
+  ],
+  [
+   52.415789,
+   13.765365
+  ],
+  [
+   52.415854,
+   13.764917
+  ],
+  [
+   52.41596,
+   13.764095
+  ],
+  [
+   52.416039,
+   13.763513
+  ],
+  [
+   52.416066,
+   13.763195
+  ],
+  [
+   52.416074,
+   13.763059
+  ],
+  [
+   52.416081,
+   13.76261
+  ],
+  [
+   52.416357,
+   13.762404
+  ],
+  [
+   52.416502,
+   13.762238
+  ],
+  [
+   52.416539,
+   13.762019
+  ],
+  [
+   52.417218,
+   13.761451
+  ],
+  [
+   52.417978,
+   13.760691
+  ],
+  [
+   52.418252,
+   13.760528
+  ],
+  [
+   52.418423,
+   13.760382
+  ],
+  [
+   52.418558,
+   13.760335
+  ],
+  [
+   52.41881,
+   13.760076
+  ],
+  [
+   52.41894,
+   13.759863
+  ],
+  [
+   52.418977,
+   13.759802
+  ],
+  [
+   52.419174,
+   13.759629
+  ],
+  [
+   52.419565,
+   13.759308
+  ],
+  [
+   52.41999,
+   13.758934
+  ],
+  [
+   52.420408,
+   13.75858
+  ],
+  [
+   52.420566,
+   13.758437
+  ],
+  [
+   52.420624,
+   13.758435
+  ],
+  [
+   52.420691,
+   13.75848
+  ],
+  [
+   52.420705,
+   13.75849
+  ],
+  [
+   52.420741,
+   13.758697
+  ],
+  [
+   52.420743,
+   13.758711
+  ],
+  [
+   52.420786,
+   13.759042
+  ],
+  [
+   52.420821,
+   13.759506
+  ],
+  [
+   52.420868,
+   13.759501
+  ],
+  [
+   52.420934,
+   13.760412
+  ],
+  [
+   52.42096,
+   13.760558
+  ],
+  [
+   52.421009,
+   13.761285
+  ],
+  [
+   52.421061,
+   13.762021
+  ],
+  [
+   52.421068,
+   13.762263
+  ],
+  [
+   52.42107,
+   13.762347
+  ],
+  [
+   52.421074,
+   13.762482
+  ],
+  [
+   52.421086,
+   13.762671
+  ],
+  [
+   52.421096,
+   13.762935
+  ],
+  [
+   52.421099,
+   13.763006
+  ],
+  [
+   52.420974,
+   13.763022
+  ],
+  [
+   52.420932,
+   13.763127
+  ],
+  [
+   52.420906,
+   13.76318
+  ],
+  [
+   52.420785,
+   13.763383
+  ],
+  [
+   52.420655,
+   13.763537
+  ],
+  [
+   52.420539,
+   13.763864
+  ],
+  [
+   52.420464,
+   13.764193
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -3750050274,
+   "lat": 52.420464,
+   "lon": 13.764193,
+   "km": 0.0,
+   "titel": "Wandern im Waldreich",
+   "thema": "Start mit Wupatz",
+   "kurztext": "Hier beginnt der Rundweg ins „Waldreich“ des Löcknitztals. Der Waldwichtel Wupatz begrüßt dich und stimmt auf 16 Stationen ein, an denen gerätselt, gehört und mitgemacht wird – zwischen Kiefernwald, Wiesen und Wasser.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3601886540,
+   "lat": 52.4194,
+   "lon": 13.7665,
+   "km": 0.21,
+   "titel": "Waldauge",
+   "thema": "Genau hinschauen",
+   "kurztext": "Das Waldauge lädt ein, den Blick zu schärfen: Formen, Farben und kleine Bewegungen am Wegesrand. Wer hier bewusst hinsieht, entdeckt schon vor den großen Tafeln die ersten Bewohner des Löcknitztals.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 7820192746,
+   "lat": 52.4188224,
+   "lon": 13.769266,
+   "km": 0.4,
+   "titel": "Wiesen an der Löcknitz",
+   "thema": "Offene Aue",
+   "kurztext": "Entlang der Löcknitz öffnen sich bunte Wiesen – Lebensraum für Insekten, Vögel und Pflanzen wie das Wiesenschaumkraut. Die Tafel erklärt, warum diese offenen Flächen im Wechsel mit dem Wald so wertvoll sind.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 7820192745,
+   "lat": 52.4187133,
+   "lon": 13.7705268,
+   "km": 0.49,
+   "titel": "Baumarten und Waldrand",
+   "thema": "Wer steht hier?",
+   "kurztext": "Am Waldrand treffen sich Licht und Schatten. Die Station zu den Baumarten hilft, Birke, Hainbuche („Eisenholz“) und Co. zu unterscheiden – und zeigt, warum gerade der Übergang vom Wald zur Wiese so artenreich ist.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 7902509920,
+   "lat": 52.4207525,
+   "lon": 13.772071,
+   "km": 0.75,
+   "titel": "Nahrungskette",
+   "thema": "Wer frisst wen?",
+   "kurztext": "Von der Pflanze über Insekten bis zum Fuchs: An dieser Station wird die Nahrungskette im Waldreich sichtbar. Ameisen „melken“ Blattläuse, Jäger folgen Spuren – alles hängt zusammen.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 7902509919,
+   "lat": 52.4200324,
+   "lon": 13.7782703,
+   "km": 1.22,
+   "titel": "Spurensuche",
+   "thema": "Trittsiegel lesen",
+   "kurztext": "Im Sand und am Wegrand hinterlassen Tiere Trittsiegel. Die Station trainiert das Spurenlesen: Welches Tier war hier unterwegs – und was verrät ein einzelner Abdruck über Gang und Größe?",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 7902521091,
+   "lat": 52.4188141,
+   "lon": 13.7777096,
+   "km": 1.36,
+   "titel": "Wupatzsee und Froschkonzert",
+   "thema": "Wasserleben",
+   "kurztext": "Am Wupatzsee wird’s laut und grün: Schilf filtert das Wasser, Frösche stimmen ihr Konzert an – und die Station „Der Frosch wird zum Sänger“ macht Amphibien hör- und begreifbar. Ein guter Ort für Pause und Ausblick.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -333701859,
+   "lat": 52.4180208,
+   "lon": 13.777159,
+   "km": 1.45,
+   "titel": "Leben an der Löcknitz",
+   "thema": "Am Leistikowsteg",
+   "kurztext": "Über den Leistikowsteg kreuzt der Weg die weitläufige Löcknitz. Hier leben Fische, Wasservögel und Uferpflanzen dicht beieinander – und Ausflugsdampfer teilen sich das Wasser mit dem Lehrpfad.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -1784677288,
+   "lat": 52.417116,
+   "lon": 13.775197,
+   "km": 1.64,
+   "titel": "Pilzwald",
+   "thema": "Unter dem Hut",
+   "kurztext": "Im schattigen Abschnitt geht’s um Pilze: Was ist die Röhrenschicht unter dem Hut – und warum sind Pilze Partner der Bäume? Die Station macht das Unsichtbare im Waldboden begreiflich.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -3664845530,
+   "lat": 52.4162602,
+   "lon": 13.7738016,
+   "km": 1.77,
+   "titel": "Balancierstrecke",
+   "thema": "Gleichgewicht am Hubertussteg",
+   "kurztext": "Am Hubertussteg über den Altarm der Löcknitz wird der Pfad zur Mitmachstrecke: Balancieren schärft Gleichgewicht und Konzentration – und führt durch urwäldlich anmutendes Ufergrün.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -3899663678,
+   "lat": 52.416508,
+   "lon": 13.77061,
+   "km": 2.0,
+   "titel": "Leben in der Löcknitz",
+   "thema": "Unter Wasser",
+   "kurztext": "Was schwimmt und laicht im Fließ? Die Station blickt unter die Wasseroberfläche – vom Flussbarsch mit geteilter Rückenflosse bis zu den Pflanzen, die das Gewässer strukturieren.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": -3553968506,
+   "lat": 52.416441,
+   "lon": 13.768226,
+   "km": 2.16,
+   "titel": "Naturschutzgebiet Löcknitztal",
+   "thema": "Schutz mit System",
+   "kurztext": "Das Löcknitztal ist Schutzgebiet: Hier gelten Regeln, damit Wiese, Bruch und Fließ für seltene Arten erhalten bleiben. Die Station erklärt, warum Wege bleiben, wo sie sind – und was das für Pflanzen und Tiere bringt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": 7837394572,
+   "lat": 52.4160495,
+   "lon": 13.7656677,
+   "km": 2.34,
+   "titel": "Landschaft und Waldharfe",
+   "thema": "Hören und Schauen",
+   "kurztext": "Zwischen Oberförsterei und Löcknitzinsel öffnet sich die Landschaft. An der Waldharfe wird Natur hörbar – Klang und Blick verbinden sich zu einer Pause mit allen Sinnen.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  },
+  {
+   "osmId": -2101906878,
+   "lat": 52.416039,
+   "lon": 13.763513,
+   "km": 2.5,
+   "titel": "Spürnasentest",
+   "thema": "Riechen wie ein Profi",
+   "kurztext": "Duftstelen und Klapptafeln fordern die Nase: Welche Gerüche gehören zum Wald – und warum riecht ein Hund millionenfach besser als wir? Hier wird der Spürsinn zum Mitmachspiel.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 14
+  },
+  {
+   "osmId": -4209217355,
+   "lat": 52.416539,
+   "lon": 13.762019,
+   "km": 2.64,
+   "titel": "Trommelwirbel",
+   "thema": "Schwarzspecht und Echo",
+   "kurztext": "Wie weit trägt der Ruf des Schwarzspechts – und wie orientieren sich Fledermäuse im Dunkeln? Trommelwirbel und Echo-Ortung machen den akustischen Wald erlebbar.",
+   "erlebnisse": [
+    "tafel",
+    "quiz",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 15
+  },
+  {
+   "osmId": 9633064958,
+   "lat": 52.4180814,
+   "lon": 13.7607386,
+   "km": 2.82,
+   "titel": "Naturschutz in der Stadt",
+   "thema": "Stadt trifft Natur",
+   "kurztext": "Kurz vor dem Rückweg in die Stadt zeigt die Station, wie Naturschutz auch am Siedlungsrand funktioniert. Der Kreis schließt sich: Vom Parkplatz ins Waldreich – und mit neuen Entdeckungen zurück.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 16
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 662209770,
+   "lat": 52.4201344,
+   "lon": 13.7660708,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 1407174069,
+   "lat": 52.4179728,
+   "lon": 13.777088,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 2178495125,
+   "lat": 52.4160958,
+   "lon": 13.7606332,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 3209276314,
+   "lat": 52.4188234,
+   "lon": 13.7704307,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3209276315,
+   "lat": 52.4188652,
+   "lon": 13.7691304,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7820134396,
+   "lat": 52.4179655,
+   "lon": 13.7769176,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7820168130,
+   "lat": 52.4200427,
+   "lon": 13.7781828,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7820168132,
+   "lat": 52.4199705,
+   "lon": 13.7782419,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7820215347,
+   "lat": 52.420948,
+   "lon": 13.7629716,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8248216538,
+   "lat": 52.4164407,
+   "lon": 13.7741698,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 9196271537,
+   "lat": 52.4164404,
+   "lon": 13.7740898,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9633064957,
+   "lat": 52.4180627,
+   "lon": 13.7607751,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9689393397,
+   "lat": 52.4218266,
+   "lon": 13.7637574,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13127681478,
+   "lat": 52.4184725,
+   "lon": 13.7759286,
+   "kategorie": "viewpoint",
+   "name": null
+  }
+ ]
+}

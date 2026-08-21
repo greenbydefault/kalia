@@ -1,0 +1,172 @@
+[
+ {
+  "type": "node",
+  "id": 903186203,
+  "lat": 53.344098,
+  "lon": 13.2020279,
+  "tags": {
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 903186215,
+  "lat": 53.3513904,
+  "lon": 13.1897055,
+  "tags": {
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 903186329,
+  "lat": 53.34561,
+  "lon": 13.2002851,
+  "tags": {
+   "amenity": "bench",
+   "backrest": "yes"
+  }
+ },
+ {
+  "type": "node",
+  "id": 903186883,
+  "lat": 53.3442134,
+  "lon": 13.2017313,
+  "tags": {
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 903187001,
+  "lat": 53.3534676,
+  "lon": 13.1990094,
+  "tags": {
+   "colour": "brown",
+   "description": "Der Beobachtungsturm ist über den Erlebnispfad zwischen Zinow und Serrahn erreichbar und bietet einen Ausblick auf den Großen Serrahnsee. Mit etwas Glück sind Fisch- oder Seeadler vor Ort.",
+   "direction": "45",
+   "est_height": "6",
+   "leisure": "bird_hide",
+   "material": "wood",
+   "name": "Großer Serrahnsee",
+   "object:city": "Carpin",
+   "object:country": "DE",
+   "object:postcode": "17237",
+   "operator": "Nationalparkamt Müritz",
+   "start_date": "2025-05-27",
+   "step_count": "16",
+   "tourism": "viewpoint",
+   "tower:construction": "freestanding",
+   "wheelchair": "no"
+  }
+ },
+ {
+  "type": "node",
+  "id": 903187152,
+  "lat": 53.3576312,
+  "lon": 13.1844956,
+  "tags": {
+   "amenity": "bench"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3661836852,
+  "lat": 53.3446057,
+  "lon": 13.2032381,
+  "tags": {
+   "amenity": "cafe",
+   "name": "Gartencafe Serrahn",
+   "outdoor_seating": "yes",
+   "wheelchair": "no"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5368959220,
+  "lat": 53.3493337,
+  "lon": 13.217316,
+  "tags": {
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5375851320,
+  "lat": 53.3539025,
+  "lon": 13.2298273,
+  "tags": {
+   "access": "yes",
+   "amenity": "parking",
+   "capacity": "10",
+   "fee": "no",
+   "operator": "Nationalparkamt Müritz",
+   "operator:type": "public",
+   "parking": "surface",
+   "surface": "ground"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5375851321,
+  "lat": 53.3538485,
+  "lon": 13.2301363,
+  "tags": {
+   "amenity": "shelter"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7954091685,
+  "lat": 53.3510539,
+  "lon": 13.1769804,
+  "tags": {
+   "tourism": "picnic_site"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13711523823,
+  "lat": 53.3442146,
+  "lon": 13.2019766,
+  "tags": {
+   "covered": "no",
+   "leisure": "picnic_table"
+  }
+ },
+ {
+  "type": "way",
+  "id": 937102977,
+  "lat": 53.3613872,
+  "lon": 13.174528140000001,
+  "tags": {
+   "amenity": "shelter",
+   "bench": "yes",
+   "bin": "no",
+   "building": "yes",
+   "building:levels": "1",
+   "building:material": "wood",
+   "name": "Weltnaturerbe-Pavillon",
+   "operator": "Nationalparkamt Müritz",
+   "roof:shape": "flat",
+   "shelter_type": "pavilion",
+   "wheelchair": "limited"
+  }
+ },
+ {
+  "type": "way",
+  "id": 1155986668,
+  "lat": 53.36138857499999,
+  "lon": 13.174461112500001,
+  "tags": {
+   "access": "yes",
+   "amenity": "parking",
+   "capacity": "20",
+   "fee": "no",
+   "operator": "Nationalparkamt Müritz",
+   "operator:type": "public",
+   "parking": "surface",
+   "surface": "fine_gravel"
+  }
+ }
+]

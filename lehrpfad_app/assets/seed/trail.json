@@ -1,0 +1,1545 @@
+{
+ "id": "von-moor-zu-moor",
+ "name": "Von Moor zu Moor",
+ "typ": "moor",
+ "kurzbeschreibung": "Rundweg durch schattige Kiefern- und Buchenwälder zu fünf Moortypen – mit Stegen, Quiz und Bohrkernmodell.",
+ "beschreibung": "Neben dem Seenreichtum ist auch eine Vielzahl von Mooren charakteristisch für die eiszeitliche Landschaft dieser Region. Der Rundweg kann in beide Richtungen, aber auch in einzelnen Etappen, zu Fuß oder mit dem Rad erlebt werden. Station 4 (Großer Barschsee) ist auch mit dem Rollstuhl erreichbar. Idealer Ausgangspunkt ist das NaturParkHaus Stechlin in Menz. Einkehrmöglichkeiten gibt es nur in Menz – Verpflegung mitnehmen.",
+ "laengeKm": 11.6,
+ "dauerMin": 175,
+ "rundkurs": true,
+ "markierung": "Grün-blauer Punkt auf weißem Grund, rote Pfosten",
+ "betreiber": "Naturpark Stechlin-Ruppiner Land",
+ "region": "Menz, Stechlin, Landkreis Oberhavel, Brandenburg",
+ "website": "https://www.stechlin-ruppiner-land-naturpark.de/themen/routen-touren/naturerlebnispfad-von-moor-zu-moor-12-km/",
+ "anreise": "RE 5 ab Berlin Hbf nach Gransee oder Fürstenberg/Havel, weiter mit Bus 836 bzw. 847 nach Menz, Am Friedensplatz. Auto: B 96 bis Gransee/Fürstenberg bzw. B 122 nach Rheinsberg, Ausschilderung NaturParkHaus Stechlin folgen.",
+ "startName": "NaturParkHaus Stechlin, Menz",
+ "arten": [
+  "Torfmoos",
+  "Wollgras",
+  "Ringelnatter",
+  "Sumpf-Iris",
+  "Sumpfblutauge",
+  "Kleiner Fuchs",
+  "Knabenkraut",
+  "Sumpfschrecke",
+  "Distelfalter",
+  "Moosjungfer",
+  "Schwarzerle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "route": [
+  [
+   53.103808,
+   13.049388
+  ],
+  [
+   53.103818,
+   13.049463
+  ],
+  [
+   53.103832,
+   13.049614
+  ],
+  [
+   53.103881,
+   13.049915
+  ],
+  [
+   53.103904,
+   13.050028
+  ],
+  [
+   53.104066,
+   13.050261
+  ],
+  [
+   53.104241,
+   13.050502
+  ],
+  [
+   53.104261,
+   13.050529
+  ],
+  [
+   53.104274,
+   13.050551
+  ],
+  [
+   53.104347,
+   13.050668
+  ],
+  [
+   53.104456,
+   13.050848
+  ],
+  [
+   53.10448,
+   13.050893
+  ],
+  [
+   53.1045,
+   13.050965
+  ],
+  [
+   53.104655,
+   13.050781
+  ],
+  [
+   53.104952,
+   13.050705
+  ],
+  [
+   53.105531,
+   13.050614
+  ],
+  [
+   53.105915,
+   13.050585
+  ],
+  [
+   53.106003,
+   13.050614
+  ],
+  [
+   53.106076,
+   13.050617
+  ],
+  [
+   53.106124,
+   13.050649
+  ],
+  [
+   53.106242,
+   13.050648
+  ],
+  [
+   53.106305,
+   13.050647
+  ],
+  [
+   53.106683,
+   13.050489
+  ],
+  [
+   53.106854,
+   13.050276
+  ],
+  [
+   53.106914,
+   13.050245
+  ],
+  [
+   53.106979,
+   13.050233
+  ],
+  [
+   53.107161,
+   13.050197
+  ],
+  [
+   53.107225,
+   13.050185
+  ],
+  [
+   53.107337,
+   13.050181
+  ],
+  [
+   53.107549,
+   13.049998
+  ],
+  [
+   53.107753,
+   13.049842
+  ],
+  [
+   53.108286,
+   13.048233
+  ],
+  [
+   53.108403,
+   13.04765
+  ],
+  [
+   53.108626,
+   13.046859
+  ],
+  [
+   53.108562,
+   13.046495
+  ],
+  [
+   53.108657,
+   13.045808
+  ],
+  [
+   53.108648,
+   13.045093
+  ],
+  [
+   53.108539,
+   13.044546
+  ],
+  [
+   53.108562,
+   13.044319
+  ],
+  [
+   53.108471,
+   13.044
+  ],
+  [
+   53.108498,
+   13.043809
+  ],
+  [
+   53.108682,
+   13.043402
+  ],
+  [
+   53.108735,
+   13.043285
+  ],
+  [
+   53.108958,
+   13.042989
+  ],
+  [
+   53.109375,
+   13.042596
+  ],
+  [
+   53.110202,
+   13.040524
+  ],
+  [
+   53.110442,
+   13.039528
+  ],
+  [
+   53.11062,
+   13.038995
+  ],
+  [
+   53.110967,
+   13.038461
+  ],
+  [
+   53.111304,
+   13.038159
+  ],
+  [
+   53.11222,
+   13.037617
+  ],
+  [
+   53.113207,
+   13.03719
+  ],
+  [
+   53.113607,
+   13.036523
+  ],
+  [
+   53.113813,
+   13.036027
+  ],
+  [
+   53.113918,
+   13.036397
+  ],
+  [
+   53.113908,
+   13.036755
+  ],
+  [
+   53.114256,
+   13.036847
+  ],
+  [
+   53.114627,
+   13.036926
+  ],
+  [
+   53.114875,
+   13.036542
+  ],
+  [
+   53.11509,
+   13.036111
+  ],
+  [
+   53.115673,
+   13.034945
+  ],
+  [
+   53.116019,
+   13.033954
+  ],
+  [
+   53.116036,
+   13.033654
+  ],
+  [
+   53.116285,
+   13.033144
+  ],
+  [
+   53.1165,
+   13.03294
+  ],
+  [
+   53.116613,
+   13.03234
+  ],
+  [
+   53.116692,
+   13.031451
+  ],
+  [
+   53.116936,
+   13.030165
+  ],
+  [
+   53.116993,
+   13.029864
+  ],
+  [
+   53.117381,
+   13.029053
+  ],
+  [
+   53.118983,
+   13.025271
+  ],
+  [
+   53.119018,
+   13.025217
+  ],
+  [
+   53.118712,
+   13.024689
+  ],
+  [
+   53.118461,
+   13.024494
+  ],
+  [
+   53.118286,
+   13.024363
+  ],
+  [
+   53.118171,
+   13.024331
+  ],
+  [
+   53.118091,
+   13.024247
+  ],
+  [
+   53.117906,
+   13.023829
+  ],
+  [
+   53.117672,
+   13.023402
+  ],
+  [
+   53.117561,
+   13.023062
+  ],
+  [
+   53.117415,
+   13.022579
+  ],
+  [
+   53.117501,
+   13.022479
+  ],
+  [
+   53.117596,
+   13.022288
+  ],
+  [
+   53.117747,
+   13.022093
+  ],
+  [
+   53.117974,
+   13.021715
+  ],
+  [
+   53.118533,
+   13.020633
+  ],
+  [
+   53.118383,
+   13.020431
+  ],
+  [
+   53.118533,
+   13.020633
+  ],
+  [
+   53.118744,
+   13.020336
+  ],
+  [
+   53.11876,
+   13.020309
+  ],
+  [
+   53.11938,
+   13.019291
+  ],
+  [
+   53.119513,
+   13.019011
+  ],
+  [
+   53.119858,
+   13.018667
+  ],
+  [
+   53.120406,
+   13.017895
+  ],
+  [
+   53.120544,
+   13.017596
+  ],
+  [
+   53.120572,
+   13.017533
+  ],
+  [
+   53.120775,
+   13.01704
+  ],
+  [
+   53.121029,
+   13.016761
+  ],
+  [
+   53.121525,
+   13.016508
+  ],
+  [
+   53.121717,
+   13.016503
+  ],
+  [
+   53.121949,
+   13.016497
+  ],
+  [
+   53.122181,
+   13.016287
+  ],
+  [
+   53.122551,
+   13.015558
+  ],
+  [
+   53.122913,
+   13.014852
+  ],
+  [
+   53.123167,
+   13.01388
+  ],
+  [
+   53.123388,
+   13.012826
+  ],
+  [
+   53.123656,
+   13.011804
+  ],
+  [
+   53.123852,
+   13.010633
+  ],
+  [
+   53.124355,
+   13.009286
+  ],
+  [
+   53.124465,
+   13.008874
+  ],
+  [
+   53.124899,
+   13.008051
+  ],
+  [
+   53.12496,
+   13.007981
+  ],
+  [
+   53.124969,
+   13.00761
+  ],
+  [
+   53.124962,
+   13.007513
+  ],
+  [
+   53.124953,
+   13.007383
+  ],
+  [
+   53.124926,
+   13.007044
+  ],
+  [
+   53.125048,
+   13.006514
+  ],
+  [
+   53.125481,
+   13.004637
+  ],
+  [
+   53.125106,
+   13.004766
+  ],
+  [
+   53.125481,
+   13.004637
+  ],
+  [
+   53.125627,
+   13.004002
+  ],
+  [
+   53.125423,
+   13.00359
+  ],
+  [
+   53.125206,
+   13.0035
+  ],
+  [
+   53.125043,
+   13.003433
+  ],
+  [
+   53.124681,
+   13.003848
+  ],
+  [
+   53.124471,
+   13.004796
+  ],
+  [
+   53.124196,
+   13.005102
+  ],
+  [
+   53.124075,
+   13.005107
+  ],
+  [
+   53.123897,
+   13.005116
+  ],
+  [
+   53.122707,
+   13.004115
+  ],
+  [
+   53.122169,
+   13.003978
+  ],
+  [
+   53.121153,
+   13.004482
+  ],
+  [
+   53.120878,
+   13.004518
+  ],
+  [
+   53.120571,
+   13.004335
+  ],
+  [
+   53.119991,
+   13.003832
+  ],
+  [
+   53.119626,
+   13.002734
+  ],
+  [
+   53.119401,
+   13.002368
+  ],
+  [
+   53.119115,
+   13.002166
+  ],
+  [
+   53.118764,
+   13.00202
+  ],
+  [
+   53.118544,
+   13.002102
+  ],
+  [
+   53.118363,
+   13.002386
+  ],
+  [
+   53.11817,
+   13.003027
+  ],
+  [
+   53.118066,
+   13.003109
+  ],
+  [
+   53.11747,
+   13.002623
+  ],
+  [
+   53.117022,
+   13.002258
+  ],
+  [
+   53.116649,
+   13.001736
+  ],
+  [
+   53.116292,
+   13.000839
+  ],
+  [
+   53.116095,
+   13.000345
+  ],
+  [
+   53.115909,
+   12.999788
+  ],
+  [
+   53.11581,
+   12.999543
+  ],
+  [
+   53.115549,
+   12.999258
+  ],
+  [
+   53.114925,
+   12.999085
+  ],
+  [
+   53.114574,
+   12.99884
+  ],
+  [
+   53.114221,
+   12.998725
+  ],
+  [
+   53.113887,
+   12.998568
+  ],
+  [
+   53.113666,
+   12.998534
+  ],
+  [
+   53.113353,
+   12.998487
+  ],
+  [
+   53.113234,
+   12.998449
+  ],
+  [
+   53.112749,
+   12.998295
+  ],
+  [
+   53.113007,
+   12.998564
+  ],
+  [
+   53.112856,
+   12.999122
+  ],
+  [
+   53.112859,
+   12.999236
+  ],
+  [
+   53.112856,
+   12.999122
+  ],
+  [
+   53.113007,
+   12.998564
+  ],
+  [
+   53.112749,
+   12.998295
+  ],
+  [
+   53.113234,
+   12.998449
+  ],
+  [
+   53.113353,
+   12.998487
+  ],
+  [
+   53.113438,
+   12.998789
+  ],
+  [
+   53.113535,
+   12.999168
+  ],
+  [
+   53.113585,
+   12.999364
+  ],
+  [
+   53.113644,
+   12.999753
+  ],
+  [
+   53.113609,
+   13.000253
+  ],
+  [
+   53.113562,
+   13.000661
+  ],
+  [
+   53.113471,
+   13.000965
+  ],
+  [
+   53.113193,
+   13.001267
+  ],
+  [
+   53.113067,
+   13.001778
+  ],
+  [
+   53.113058,
+   13.002152
+  ],
+  [
+   53.113295,
+   13.003295
+  ],
+  [
+   53.113279,
+   13.003711
+  ],
+  [
+   53.113139,
+   13.004012
+  ],
+  [
+   53.112731,
+   13.004437
+  ],
+  [
+   53.112533,
+   13.005071
+  ],
+  [
+   53.112708,
+   13.006204
+  ],
+  [
+   53.112793,
+   13.00673
+  ],
+  [
+   53.112683,
+   13.007161
+  ],
+  [
+   53.11264,
+   13.007331
+  ],
+  [
+   53.112963,
+   13.007897
+  ],
+  [
+   53.113206,
+   13.008554
+  ],
+  [
+   53.112997,
+   13.008865
+  ],
+  [
+   53.112681,
+   13.009061
+  ],
+  [
+   53.112595,
+   13.009114
+  ],
+  [
+   53.112601,
+   13.009737
+  ],
+  [
+   53.112521,
+   13.009941
+  ],
+  [
+   53.112238,
+   13.010128
+  ],
+  [
+   53.112257,
+   13.011857
+  ],
+  [
+   53.112346,
+   13.01241
+  ],
+  [
+   53.112844,
+   13.014647
+  ],
+  [
+   53.113031,
+   13.015307
+  ],
+  [
+   53.113155,
+   13.015561
+  ],
+  [
+   53.113331,
+   13.015762
+  ],
+  [
+   53.114173,
+   13.015743
+  ],
+  [
+   53.114976,
+   13.016051
+  ],
+  [
+   53.115901,
+   13.016533
+  ],
+  [
+   53.115933,
+   13.016731
+  ],
+  [
+   53.116056,
+   13.017037
+  ],
+  [
+   53.116149,
+   13.017181
+  ],
+  [
+   53.116211,
+   13.017391
+  ],
+  [
+   53.116213,
+   13.017694
+  ],
+  [
+   53.116255,
+   13.018131
+  ],
+  [
+   53.116335,
+   13.018598
+  ],
+  [
+   53.116296,
+   13.019177
+  ],
+  [
+   53.116424,
+   13.018998
+  ],
+  [
+   53.116632,
+   13.018745
+  ],
+  [
+   53.116825,
+   13.018606
+  ],
+  [
+   53.116858,
+   13.01854
+  ],
+  [
+   53.117182,
+   13.018761
+  ],
+  [
+   53.117347,
+   13.018787
+  ],
+  [
+   53.117365,
+   13.019295
+  ],
+  [
+   53.117347,
+   13.018787
+  ],
+  [
+   53.117182,
+   13.018761
+  ],
+  [
+   53.117055,
+   13.018966
+  ],
+  [
+   53.117015,
+   13.019071
+  ],
+  [
+   53.116827,
+   13.019221
+  ],
+  [
+   53.116677,
+   13.01984
+  ],
+  [
+   53.11646,
+   13.020414
+  ],
+  [
+   53.116358,
+   13.020781
+  ],
+  [
+   53.115744,
+   13.021424
+  ],
+  [
+   53.1152,
+   13.022006
+  ],
+  [
+   53.114998,
+   13.022164
+  ],
+  [
+   53.1147,
+   13.023078
+  ],
+  [
+   53.114486,
+   13.023878
+  ],
+  [
+   53.114398,
+   13.024367
+  ],
+  [
+   53.114272,
+   13.024971
+  ],
+  [
+   53.114169,
+   13.025532
+  ],
+  [
+   53.11407,
+   13.025909
+  ],
+  [
+   53.113971,
+   13.026453
+  ],
+  [
+   53.113984,
+   13.027106
+  ],
+  [
+   53.113914,
+   13.027323
+  ],
+  [
+   53.113292,
+   13.028265
+  ],
+  [
+   53.113089,
+   13.028803
+  ],
+  [
+   53.11297,
+   13.028952
+  ],
+  [
+   53.112551,
+   13.030069
+  ],
+  [
+   53.112421,
+   13.030597
+  ],
+  [
+   53.11196,
+   13.031257
+  ],
+  [
+   53.111913,
+   13.031515
+  ],
+  [
+   53.110866,
+   13.033086
+  ],
+  [
+   53.110106,
+   13.034038
+  ],
+  [
+   53.109568,
+   13.034711
+  ],
+  [
+   53.109407,
+   13.035093
+  ],
+  [
+   53.10923,
+   13.035308
+  ],
+  [
+   53.108761,
+   13.036288
+  ],
+  [
+   53.108354,
+   13.036825
+  ],
+  [
+   53.108233,
+   13.037119
+  ],
+  [
+   53.108146,
+   13.037329
+  ],
+  [
+   53.108162,
+   13.037432
+  ],
+  [
+   53.108109,
+   13.037633
+  ],
+  [
+   53.107727,
+   13.03803
+  ],
+  [
+   53.107582,
+   13.038338
+  ],
+  [
+   53.107521,
+   13.038419
+  ],
+  [
+   53.107051,
+   13.039042
+  ],
+  [
+   53.106437,
+   13.04027
+  ],
+  [
+   53.106284,
+   13.040959
+  ],
+  [
+   53.106255,
+   13.041272
+  ],
+  [
+   53.106185,
+   13.041442
+  ],
+  [
+   53.105891,
+   13.042154
+  ],
+  [
+   53.105817,
+   13.042586
+  ],
+  [
+   53.105851,
+   13.042888
+  ],
+  [
+   53.105987,
+   13.042945
+  ],
+  [
+   53.106263,
+   13.043957
+  ],
+  [
+   53.106297,
+   13.044089
+  ],
+  [
+   53.106306,
+   13.044173
+  ],
+  [
+   53.106381,
+   13.04428
+  ],
+  [
+   53.106534,
+   13.044883
+  ],
+  [
+   53.10635,
+   13.045224
+  ],
+  [
+   53.106173,
+   13.045752
+  ],
+  [
+   53.1061,
+   13.04618
+  ],
+  [
+   53.105941,
+   13.04643
+  ],
+  [
+   53.105727,
+   13.046608
+  ],
+  [
+   53.105572,
+   13.046794
+  ],
+  [
+   53.105431,
+   13.047063
+  ],
+  [
+   53.105299,
+   13.047199
+  ],
+  [
+   53.104828,
+   13.047381
+  ],
+  [
+   53.104492,
+   13.04778
+  ],
+  [
+   53.104285,
+   13.048164
+  ],
+  [
+   53.104171,
+   13.048407
+  ],
+  [
+   53.103938,
+   13.048992
+  ],
+  [
+   53.103808,
+   13.049388
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 886115799,
+   "lat": 53.1142557,
+   "lon": 13.0368469,
+   "km": 1.86,
+   "titel": "Grubitzwisch",
+   "thema": "Aufbruch – ein Moor kehrt zurück",
+   "kurztext": "In einem spannenden Quiz erfahren wir, wie ein Moor entsteht, wie das „Laacher Seetuffband“ hilft, die Entstehungszeit des Grubitzwisch zu bestimmen und wie sich Flora und Fauna allmählich auf die sich verändernden Bedingungen einstellen.",
+   "erlebnisse": [
+    "quiz",
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": 3.8,
+    "alterJahre": 13000,
+    "tiefeM": 4.25,
+    "lebenselixier": "Wasser",
+    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese und wieder zum Moor?"
+   },
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 427675476,
+   "lat": 53.1183827,
+   "lon": 13.0204306,
+   "km": 3.31,
+   "titel": "Schleusenwiese",
+   "thema": "Vielfalt – blühende Feuchtwiese",
+   "kurztext": "Die durch Entwässerung entstandenen Feuchtwiesen werden im Spätsommer gemäht. Durch diese schonende Nutzung kann dieser artenreiche, deutschlandweit gefährdete Biotoptyp erhalten werden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": 2.7,
+    "alterJahre": null,
+    "tiefeM": 7.0,
+    "lebenselixier": "hohe Feuchte, 1-mal Mahd im August",
+    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese"
+   },
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 7196045996,
+   "lat": 53.1243166,
+   "lon": 13.0095506,
+   "km": 4.38,
+   "titel": "Vom Riss zum Harz",
+   "thema": "Vom Riss zum Harz",
+   "kurztext": "Infotafel zur Entstehung von Harz und Pech – vom Riss in der Baumrinde bis zum fertigen Produkt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 886115730,
+   "lat": 53.1251063,
+   "lon": 13.0047662,
+   "km": 4.77,
+   "titel": "Kesselmoor",
+   "thema": "Ein Kessel Saures – Torfentwicklung",
+   "kurztext": "Wir lernen an dieser Station, wie Torf entsteht. Auf den sauren Standorten wachsen überwiegend Torfmoose, die enorme Wassermengen speichern können und sich wie ein Schwamm ausdrücken lassen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": 0.25,
+    "alterJahre": null,
+    "tiefeM": 3.45,
+    "lebenselixier": "Regenwasser",
+    "werdegang": "vom Kleinsee – zum Verlandungsmoor – und zum Kesselmoor"
+   },
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 13034916580,
+   "lat": 53.1255597,
+   "lon": 13.0040635,
+   "km": 4.86,
+   "titel": "Dietrichs Teerofen",
+   "thema": "Leben der Teerofenbewohner",
+   "kurztext": "Am ehemaligen Standort von Dietrichs Teerofen am Teufelssee informiert eine Tafel über das Leben der Teerofenbewohner.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 886115569,
+   "lat": 53.1128594,
+   "lon": 12.9992364,
+   "km": 6.69,
+   "titel": "Großer Barschsee",
+   "thema": "Harmonie – Zusammenspiel der Lebewesen",
+   "kurztext": "Ein weit in das Moor ragender Steg macht es möglich, Annette von Droste-Hülshoffs Zeilen „O, schaurig ist‘s übers Moor zu gehn“ nachzuempfinden. Ein Bohrkernmodell lässt uns tief in den 12.000 Jahre alten Moorboden hineinschauen.",
+   "erlebnisse": [
+    "steg",
+    "bohrkernmodell",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": {
+    "groesseHa": 5.8,
+    "alterJahre": 12000,
+    "tiefeM": 8.2,
+    "lebenselixier": "nährstoffarmes Wasser",
+    "werdegang": "vom See – zum Verlandungsmoor – zum echten Kesselmoor"
+   },
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 427675478,
+   "lat": 53.1172831,
+   "lon": 13.0188488,
+   "km": 8.8,
+   "titel": "Bruch am Roofensee",
+   "thema": "Geheimnis – Erlen im Wasser",
+   "kurztext": "Der Erlenwald am Ende des Roofensees scheint auf Stelzen zu stehen. Schwarzerlen gehören zu den wenigen heimischen Baumarten, die sich unter solchen Extrembedingungen behaupten können.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "groesseHa": null,
+    "alterJahre": null,
+    "tiefeM": 8.0,
+    "lebenselixier": "mal mehr, mal weniger Wasser",
+    "werdegang": "vom See – zum Verlandungsmoor"
+   },
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 7196045988,
+   "lat": 53.11735,
+   "lon": 13.0193017,
+   "km": 8.84,
+   "titel": "Gewusst wie – leben mit dem Biber",
+   "thema": "Die Rückkehr des Bibers",
+   "kurztext": "Infotafel über die Rückkehr des Bibers in die Region und das Zusammenleben mit ihm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1120014122,
+   "lat": 53.1077811,
+   "lon": 13.0367922,
+   "kategorie": "gastro",
+   "name": "Waldstübchen am Roofensee"
+  },
+  {
+   "osmId": 1358845797,
+   "lat": 53.1184788,
+   "lon": 13.0206131,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3637956317,
+   "lat": 53.107273,
+   "lon": 13.0364705,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 5439966160,
+   "lat": 53.1057991,
+   "lon": 13.0424152,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 7196043200,
+   "lat": 53.1065493,
+   "lon": 13.044941,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 7196045989,
+   "lat": 53.117294,
+   "lon": 13.0187385,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045990,
+   "lat": 53.117315,
+   "lon": 13.0187613,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045998,
+   "lat": 53.1195119,
+   "lon": 13.0189276,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045999,
+   "lat": 53.1169443,
+   "lon": 13.0247372,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196046017,
+   "lat": 53.1046194,
+   "lon": 13.0477184,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196046024,
+   "lat": 53.1062039,
+   "lon": 13.0434966,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196046025,
+   "lat": 53.1062055,
+   "lon": 13.0436575,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7622929749,
+   "lat": 53.1038794,
+   "lon": 13.0505234,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7622929750,
+   "lat": 53.1042273,
+   "lon": 13.0508379,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7999216392,
+   "lat": 53.1079819,
+   "lon": 13.0377167,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8284119227,
+   "lat": 53.1043612,
+   "lon": 13.0531663,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8425225648,
+   "lat": 53.1134181,
+   "lon": 13.0371596,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12814653250,
+   "lat": 53.1070251,
+   "lon": 13.0502611,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12814653251,
+   "lat": 53.108434,
+   "lon": 13.0478471,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12814653252,
+   "lat": 53.1104627,
+   "lon": 13.0390763,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13351499188,
+   "lat": 53.1033588,
+   "lon": 13.0508546,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13351568818,
+   "lat": 53.1033411,
+   "lon": 13.0509155,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1358845797,
+   "lat": 53.1184788,
+   "lon": 13.0206131,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045989,
+   "lat": 53.117294,
+   "lon": 13.0187385,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045990,
+   "lat": 53.117315,
+   "lon": 13.0187613,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045998,
+   "lat": 53.1195119,
+   "lon": 13.0189276,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7196045999,
+   "lat": 53.1169443,
+   "lon": 13.0247372,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8425225648,
+   "lat": 53.1134181,
+   "lon": 13.0371596,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12814653252,
+   "lat": 53.1104627,
+   "lon": 13.0390763,
+   "kategorie": "bench",
+   "name": null
+  }
+ ]
+}

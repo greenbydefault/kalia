@@ -1,0 +1,306 @@
+{
+ "elements": [
+  {
+   "type": "node",
+   "id": 2304115640,
+   "lat": 52.0118444,
+   "lon": 14.1818536,
+   "tags": {
+    "check_date": "2026-06-24",
+    "check_date:opening_hours": "2026-06-24",
+    "email": "info@teg-lds.de",
+    "information": "office",
+    "name": "Tourist-Information Goyatz",
+    "opening_hours": "Mo-Fr 10:00-12:00, 13:00-16:30; Sa 10:00-16:00; Su 10:00-14:00",
+    "phone": "+49 35478 179090",
+    "tourism": "information",
+    "website": "https://teg-lds.de/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2413988554,
+   "lat": 52.012197,
+   "lon": 14.1822091,
+   "tags": {
+    "board_type": "notice",
+    "check_date": "2025-06-19",
+    "information": "board",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2972110446,
+   "lat": 52.0107568,
+   "lon": 14.1831941,
+   "tags": {
+    "board_type": "history",
+    "information": "board",
+    "name": "Geschichte von Goyatz",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2975055277,
+   "lat": 52.0106746,
+   "lon": 14.1832459,
+   "tags": {
+    "board_type": "nature",
+    "check_date": "2021-06-16",
+    "information": "board",
+    "name": "Naturlehrpfad",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108024970,
+   "lat": 52.0120581,
+   "lon": 14.1819839,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "ref:hiking": "244",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108155375,
+   "lat": 52.0092798,
+   "lon": 14.1873909,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "note": "zweite Nummer vorhanden: ref:hiking: 365",
+    "ref:hiking": "1192",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108318631,
+   "lat": 52.0033831,
+   "lon": 14.1845366,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108318634,
+   "lat": 52.004865,
+   "lon": 14.1857225,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108318637,
+   "lat": 52.0058982,
+   "lon": 14.1864646,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108319130,
+   "lat": 52.0070707,
+   "lon": 14.1863369,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108319829,
+   "lat": 52.0031573,
+   "lon": 14.1853987,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3108321130,
+   "lat": 52.0071013,
+   "lon": 14.1864723,
+   "tags": {
+    "information": "board",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486536,
+   "lat": 52.0088654,
+   "lon": 14.1880191,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486537,
+   "lat": 52.008815,
+   "lon": 14.1880754,
+   "tags": {
+    "board_type": "plants",
+    "check_date": "2023-12-04",
+    "information": "board",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486544,
+   "lat": 52.0073679,
+   "lon": 14.186178,
+   "tags": {
+    "information": "board",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486545,
+   "lat": 52.0076469,
+   "lon": 14.1861163,
+   "tags": {
+    "information": "board",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486546,
+   "lat": 52.007954,
+   "lon": 14.1861082,
+   "tags": {
+    "hiking": "yes",
+    "information": "guidepost",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3129486547,
+   "lat": 52.0079359,
+   "lon": 14.1861029,
+   "tags": {
+    "information": "board",
+    "source": "survey",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4828999427,
+   "lat": 52.010893,
+   "lon": 14.1834874,
+   "tags": {
+    "bicycle": "yes",
+    "information": "guidepost",
+    "ref:bicycle": "LDS-KP-28-SO",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9498369163,
+   "lat": 52.0118999,
+   "lon": 14.1819736,
+   "tags": {
+    "board_type": "history",
+    "check_date": "2026-06-13",
+    "information": "board",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9808903228,
+   "lat": 52.0118793,
+   "lon": 14.1820082,
+   "tags": {
+    "tourism": "picnic_site"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9808903229,
+   "lat": 52.0118661,
+   "lon": 14.1816362,
+   "tags": {
+    "information": "map",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9808903231,
+   "lat": 52.0119155,
+   "lon": 14.1817191,
+   "tags": {
+    "information": "map",
+    "name": "Natur- und Erlebnispfad",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9808903233,
+   "lat": 52.01194,
+   "lon": 14.1817424,
+   "tags": {
+    "information": "map",
+    "name": "LeichhardtTrail",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9808903234,
+   "lat": 52.0119778,
+   "lon": 14.1817797,
+   "tags": {
+    "information": "map",
+    "name": "Knotenpunktwegweisung Landkreis Dahme-Spreewald",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12977413250,
+   "lat": 52.0093221,
+   "lon": 14.1859373,
+   "tags": {
+    "board_type": "nature",
+    "information": "sign",
+    "tourism": "information"
+   }
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "elements": [
+  {
+   "type": "node",
+   "id": 5110682925,
+   "lat": 53.2059183,
+   "lon": 12.5019234,
+   "tags": {
+    "access": "permissive",
+    "leisure": "garden",
+    "name": "Findlingsgarten"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5289963573,
+   "lat": 53.210546,
+   "lon": 12.502812,
+   "tags": {
+    "bicycle": "yes",
+    "guidepost": "bicycle",
+    "information": "guidepost",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5289963574,
+   "lat": 53.2081948,
+   "lon": 12.5016233,
+   "tags": {
+    "bicycle": "yes",
+    "description": "Fahrradknotenpunkt 06",
+    "guidepost": "bicycle",
+    "information": "guidepost",
+    "note": "06",
+    "tourism": "information"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8614987865,
+   "lat": 53.2081081,
+   "lon": 12.5018862,
+   "tags": {
+    "description": "Wegestein neben der L 153 in Wittstock/Dosse OT Alt Daber.",
+    "description:de": "gut erhalten,Wegweiser-Wegstein",
+    "format": "squared_stone",
+    "format:top": "segment-like",
+    "height": "1.1",
+    "historic": "milestone",
+    "image": "https://commons.wikimedia.org/wiki/File:Alt-Daber_Wegestein.jpg",
+    "inscription": "Rad und Wanderweg Richtungsweiser",
+    "milestone_type": "signpost",
+    "name": "Wegweiserstein"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1040193196,
+   "lat": 53.2056728,
+   "lon": 12.5016522,
+   "tags": {
+    "addr:city": "Wittstock/Dosse",
+    "addr:country": "DE",
+    "addr:housenumber": "12",
+    "addr:postcode": "16909",
+    "addr:street": "Alt Daber",
+    "bldam:criteria": "Baudenkmal",
+    "building": "yes",
+    "description": "Burgfried der alten Daberburg Alt-Daber 11 in Wittstock/Dosse OT Alt Daber",
+    "heritage": "yes",
+    "heritage:operator": "bldam",
+    "historic": "yes",
+    "image": "https://commons.wikimedia.org/wiki/File:Alt-Daber_Daberburg-01.jpg",
+    "name": "Daberturm",
+    "opening_hours": "We-Su 13:00-17:00",
+    "operator": "Stadt Wittstock",
+    "ref:bldam": "09170865",
+    "tourism": "museum"
+   }
+  }
+ ]
+}
