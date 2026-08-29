@@ -7,12 +7,16 @@ import '../catalogs/icon_catalog.dart';
 
 /// Maße für Map-Bubbles. Einmal ändern, Chrome + Hitbox folgen.
 abstract final class MapMarkerStyle {
-  static const size = 40.0;
+  static const size = 28.0;
   static const borderWidth = 2.0;
-  static const iconPadding = 6.0;
+  static const iconPadding = 4.0;
   static const shadowBlur = 8.0;
   static const iconSize = size - 2 * borderWidth - 2 * iconPadding;
   static const letterScale = 0.85;
+
+  static const poiSize = 22.0;
+  static const poiSelectedSize = 26.0;
+  static const poiIconPadding = 3.0;
 }
 
 /// Start-/Trail-Marker: Brand-Kreis + Typ-Icon aus [typKatalog].

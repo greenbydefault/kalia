@@ -19,11 +19,11 @@ class PoiMarker extends StatelessWidget {
     this.onTap,
   });
 
-  static const size = 32.0;
-  static const selectedSize = 36.0;
-  static const iconPadding = 5.0;
+  double get _size =>
+      selected ? MapMarkerStyle.poiSelectedSize : MapMarkerStyle.poiSize;
 
-  double get _size => selected ? selectedSize : size;
+  double get _iconSize =>
+      _size - 2 * MapMarkerStyle.borderWidth - 2 * MapMarkerStyle.poiIconPadding;
 
   Marker toMarker(LatLng point, {Key? key}) {
     return Marker(
@@ -53,10 +53,10 @@ class PoiMarker extends StatelessWidget {
         ],
       ),
       child: Padding(
-        padding: const EdgeInsets.all(iconPadding),
+        padding: const EdgeInsets.all(MapMarkerStyle.poiIconPadding),
         child: FittedBox(
           fit: BoxFit.scaleDown,
-          child: eintrag.buildIcon(size: _size - 2 * iconPadding, color: fg),
+          child: eintrag.buildIcon(size: _iconSize, color: fg),
         ),
       ),
     );
