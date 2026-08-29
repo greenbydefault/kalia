@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../location/location_consent_sheet.dart';
+import '../../../location/location_gate.dart';
 import '../../../location/user_position_provider.dart';
 import '../../../trail_progress/tracking/location_service.dart';
 
@@ -27,7 +28,7 @@ class LocateFab extends ConsumerWidget {
 
   Future<void> _locate(BuildContext context, WidgetRef ref) async {
     try {
-      final ok = await ensureMapLocation(context, ref);
+      final ok = await LocationGate.ensureMap(context, ref);
       if (!ok) return;
       final fix = await ref
           .read(userPositionProvider.notifier)

@@ -1,8 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../../../core/config/supabase_config.dart';
-import '../../auth/data/auth_providers.dart';
+import '../../../core/config/supabase_client_provider.dart';
+import '../../../core/sync/sync_providers.dart';
 import '../domain/trail_list.dart';
 import 'hybrid_trail_list_repository.dart';
 import 'supabase_trail_list_repository.dart';
@@ -10,16 +9,19 @@ import 'trail_list_repository.dart';
 import 'trail_progress_providers.dart';
 
 final trailListRepositoryProvider = Provider<TrailListRepository>((ref) {
-  return HybridTrailListRepository(
-    remote: SupabaseConfig.isConfigured
-        ? SupabaseTrailListRepository(Supabase.instance.client)
-        : null,
+  final client = ref.watch(supabaseClientProvider);
+  final remote = client == null ? null : SupabaseTrailListRepository(client);
+  final repo = HybridTrailListRepository(
+    remote: remote,
     onAddedToList: (trailId) {
       return ref
           .read(trailBookmarksProvider.notifier)
           .setBookmarked(trailId, true);
     },
   );
+  final engine = ref.watch(syncEngineProvider);
+  if (remote != null) repo.attach(engine);
+  return repo;
 });
 
 final trailListsProvider =
@@ -30,23 +32,11 @@ final trailListsProvider =
 class TrailListsNotifier extends Notifier<AsyncValue<List<TrailList>>> {
   @override
   AsyncValue<List<TrailList>> build() {
-    _listenAuth();
     _load();
     return const AsyncLoading();
   }
 
   TrailListRepository get _repo => ref.read(trailListRepositoryProvider);
-
-  void _listenAuth() {
-    if (!SupabaseConfig.isConfigured) return;
-    ref.listen(authStateProvider, (prev, next) {
-      final user = next.asData?.value;
-      final hadUser = prev?.asData?.value != null;
-      if (user != null && !hadUser) {
-        _mergeOnLogin();
-      }
-    });
-  }
 
   Future<void> _load() async {
     try {
@@ -54,16 +44,6 @@ class TrailListsNotifier extends Notifier<AsyncValue<List<TrailList>>> {
     } catch (e, st) {
       state = AsyncError(e, st);
     }
-  }
-
-  Future<void> _mergeOnLogin() async {
-    if (!SupabaseConfig.isConfigured) return;
-    final remote = SupabaseTrailListRepository(Supabase.instance.client);
-    try {
-      final remoteLists = await remote.fetchLists();
-      await _repo.mergeWithRemote(remoteLists);
-      state = AsyncData(await _repo.getLists());
-    } catch (_) {}
   }
 
   Future<TrailList> createList(String name) async {

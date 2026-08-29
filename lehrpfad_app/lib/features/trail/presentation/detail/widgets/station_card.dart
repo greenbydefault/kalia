@@ -7,6 +7,7 @@ import '../../../../community/presentation/add_photo_button.dart';
 import '../../../../community/presentation/station_image_strip.dart';
 import '../../../domain/station.dart';
 import '../../../domain/trail.dart';
+import 'station_identity.dart';
 import 'steckbrief_table.dart';
 
 /// Karte für eine Station innerhalb des Trail-Sheets:
@@ -36,17 +37,9 @@ class StationCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                CircleAvatar(
+                StationNumberAvatar(
+                  reihenfolge: station.reihenfolge,
                   radius: AppSpacing.x3,
-                  backgroundColor: theme.colorScheme.primary,
-                  child: Text(
-                    '${station.reihenfolge}',
-                    style: TextStyle(
-                      color: theme.colorScheme.onPrimary,
-                      fontSize: 13,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
                 ),
                 const SizedBox(width: AppSpacing.x3),
                 Expanded(
@@ -58,11 +51,7 @@ class StationCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                if (station.barrierefrei)
-                  const Tooltip(
-                    message: 'Barrierefrei',
-                    child: Icon(Icons.accessible, size: 20),
-                  ),
+                if (station.barrierefrei) const StationAccessibleMark(),
                 // Stationsbezogene Uploads brauchen die DB-ID der Station
                 if (SupabaseConfig.isConfigured && station.id != null)
                   AddPhotoButton(

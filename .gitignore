@@ -6,4 +6,9 @@
 
 # Rohfotos / Screenshots, nicht Teil der App
 Bilder/
+Bildet/
 .cursor/*.png
+
+# Research-Notizen und lokale Seed-/OSM-Tools, nicht Teil der App
+lehrpfad_app/research/
+lehrpfad_app/tools/

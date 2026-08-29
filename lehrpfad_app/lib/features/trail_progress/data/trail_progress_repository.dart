@@ -18,10 +18,4 @@ abstract class TrailProgressRepository {
   Future<List<TrailWalk>> getWalks();
   Future<void> saveWalk(TrailWalk walk);
   Future<void> clearActiveWalk();
-
-  Future<void> mergeWithRemote({
-    required Set<String> remoteBookmarks,
-    required Map<String, TrailCompletion> remoteCompletions,
-    required List<TrailWalk> remoteWalks,
-  });
 }

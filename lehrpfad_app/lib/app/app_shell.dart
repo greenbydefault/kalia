@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../core/config/supabase_config.dart';
+import 'sync_lifecycle.dart';
 import '../features/auth/data/auth_providers.dart';
 import '../features/auth/presentation/account_tab.dart';
 import '../features/onboarding/data/onboarding_providers.dart';
@@ -19,6 +20,8 @@ class AppShell extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // Sync-Lebenszyklus aktivieren (Queue-Flush, Login-Merge).
+    ref.watch(syncLifecycleProvider);
     final completed = ref.watch(onboardingCompletedProvider);
     if (!completed.hasValue && !completed.hasError) {
       return const Scaffold(backgroundColor: AppColors.paper);

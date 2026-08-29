@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../location/location_consent_sheet.dart';
+import '../../location/location_gate.dart';
 import '../../trail/domain/trail.dart';
 import '../data/trail_progress_providers.dart';
 import '../tracking/location_service.dart';
@@ -48,7 +49,7 @@ class PausedTourBar extends ConsumerWidget {
     final walk = ref.read(activeWalkProvider).asData?.value;
     if (walk == null) return;
     try {
-      await ensureTourLocation(context, ref);
+      await LocationGate.ensureTour(context, ref);
       await ref.read(walkSnapshotProvider.notifier).resumeTour(trail, walk);
     } on LocationException catch (e) {
       if (context.mounted) showLocationError(context, e);

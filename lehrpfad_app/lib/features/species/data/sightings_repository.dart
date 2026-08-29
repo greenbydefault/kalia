@@ -14,7 +14,4 @@ abstract class SightingsRepository {
 
   /// Toggle einer ID via Local-Read (Tests / Legacy); Prefer [applySeenChange].
   Future<void> setSeen(String speciesId, bool seen);
-
-  /// Lokale und Remote-IDs vereinigen und beidseitig speichern.
-  Future<Set<String>> mergeWithRemote(Set<String> remoteIds);
 }

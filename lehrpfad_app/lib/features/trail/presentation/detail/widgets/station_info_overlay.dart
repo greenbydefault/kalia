@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../../shared/widgets/erlebnis_chip.dart';
 import '../../../domain/station.dart';
+import 'station_identity.dart';
 
 /// Wegpunkt-Info-Karte, die als Overlay über der Detail-Karte liegt,
 /// wenn eine Station angetippt wurde.
@@ -28,16 +29,10 @@ class StationInfoOverlay extends StatelessWidget {
           children: [
             Row(
               children: [
-                CircleAvatar(
+                StationNumberAvatar(
+                  reihenfolge: station.reihenfolge,
                   radius: 12,
-                  backgroundColor: theme.colorScheme.primary,
-                  child: Text(
-                    '${station.reihenfolge}',
-                    style: TextStyle(
-                      color: theme.colorScheme.onPrimary,
-                      fontSize: 12,
-                    ),
-                  ),
+                  fontSize: 12,
                 ),
                 const SizedBox(width: 8),
                 Expanded(
@@ -59,14 +54,7 @@ class StationInfoOverlay extends StatelessWidget {
                 for (final e in station.erlebnisse)
                   ErlebnisChip(erlebnisKey: e, iconSize: 15),
                 if (station.barrierefrei)
-                  Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const Icon(Icons.accessible, size: 15),
-                      const SizedBox(width: 3),
-                      Text('Barrierefrei', style: theme.textTheme.bodySmall),
-                    ],
-                  ),
+                  const StationAccessibleMark(showLabel: true, iconSize: 15),
               ],
             ),
           ],

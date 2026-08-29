@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../app/theme/app_colors.dart';
 import '../../../core/audio/audio_player_control.dart';
 import '../domain/species.dart';
+import 'species_section_title.dart';
 
 /// Abschnitte des Outdoor-Steckbriefs (Hook, Erkennung, …).
 class SpeciesContentView extends StatelessWidget {
@@ -31,19 +32,19 @@ class SpeciesContentView extends StatelessWidget {
           const SizedBox(height: 20),
         ],
         if (c.erkennung.isNotEmpty) ...[
-          _SectionTitle(theme: theme, title: 'Woran erkenne ich’s?'),
+          const SpeciesSectionTitle(title: 'Woran erkenne ich’s?'),
           const SizedBox(height: 8),
           ...c.erkennung.map((b) => _Bullet(theme: theme, text: b)),
           const SizedBox(height: 16),
         ],
         if (c.lebensraum.isNotEmpty) ...[
-          _SectionTitle(theme: theme, title: 'Hier unterwegs'),
+          const SpeciesSectionTitle(title: 'Hier unterwegs'),
           const SizedBox(height: 8),
           Text(c.lebensraum, style: theme.textTheme.bodyMedium),
           const SizedBox(height: 16),
         ],
         if (c.funFacts.isNotEmpty) ...[
-          _SectionTitle(theme: theme, title: 'Fun Facts'),
+          const SpeciesSectionTitle(title: 'Fun Facts'),
           const SizedBox(height: 8),
           ...c.funFacts.map((b) => _Bullet(theme: theme, text: b)),
           const SizedBox(height: 16),
@@ -83,18 +84,6 @@ class SpeciesContentView extends StatelessWidget {
         ],
       ],
     );
-  }
-}
-
-class _SectionTitle extends StatelessWidget {
-  const _SectionTitle({required this.theme, required this.title});
-
-  final ThemeData theme;
-  final String title;
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(title, style: theme.textTheme.titleSmall);
   }
 }
 

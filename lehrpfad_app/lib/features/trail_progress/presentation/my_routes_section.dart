@@ -39,7 +39,7 @@ class MyRoutesSection extends StatelessWidget {
               ).buildIcon(color: theme.colorScheme.onPrimaryContainer),
             ),
             title: Text(trail.name),
-            subtitle: Text('${trail.laengeKm} km · ~${trail.dauerMin} Min'),
+            subtitle: Text(trail.laengeDauerLabel),
             trailing: statusLabel == null
                 ? const Icon(Icons.chevron_right)
                 : Chip(

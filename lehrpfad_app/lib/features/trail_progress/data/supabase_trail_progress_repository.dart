@@ -42,14 +42,6 @@ class SupabaseTrailProgressRepository {
         .eq('trail_id', trailId);
   }
 
-  Future<void> upsertBookmarks(Set<String> trailIds) async {
-    final uid = _userId;
-    if (uid == null || trailIds.isEmpty) return;
-    await _client.from('trail_bookmarks').upsert([
-      for (final id in trailIds) {'user_id': uid, 'trail_id': id},
-    ]);
-  }
-
   Future<Map<String, TrailCompletion>> fetchCompletions() async {
     final uid = _userId;
     if (uid == null) return {};
@@ -90,24 +82,16 @@ class SupabaseTrailProgressRepository {
         .eq('trail_id', trailId);
   }
 
-  Future<void> upsertCompletions(Map<String, TrailCompletion> map) async {
-    final uid = _userId;
-    if (uid == null || map.isEmpty) return;
-    await _client.from('trail_completions').upsert([
-      for (final c in map.values)
-        {
-          'user_id': uid,
-          'trail_id': c.trailId,
-          'completed_at': c.completedAt.toIso8601String(),
-          'source': c.source.wire,
-        },
-    ]);
-  }
-
   Future<List<TrailWalk>> fetchWalks() async {
     final uid = _userId;
     if (uid == null) return [];
-    final rows = await _client.from('trail_walks').select().eq('user_id', uid);
+    final rows = await _client
+        .from('trail_walks')
+        .select(
+          'id, trail_id, status, started_at, updated_at, completed_at, '
+          'progress_m, progress_ratio, last_lat, last_lon, visited_station_ids',
+        )
+        .eq('user_id', uid);
     return [for (final r in rows) _walkFromRow(r)];
   }
 

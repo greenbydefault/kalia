@@ -1,3 +1,6 @@
+import '../../../core/sync/sync_engine.dart';
+import '../../../core/sync/sync_mutation.dart';
+import '../../../core/sync/synced_id_set.dart';
 import '../domain/completion_source.dart';
 import '../domain/trail_completion.dart';
 import '../domain/trail_walk.dart';
@@ -6,13 +9,60 @@ import 'local_trail_progress_store.dart';
 import 'supabase_trail_progress_repository.dart';
 import 'trail_progress_repository.dart';
 
-/// Lokal immer; Remote optional (Login).
+/// Sync-Queue-Entities für Trail-Progress.
+const bookmarkSyncEntity = 'trail_bookmark';
+const completionSyncEntity = 'trail_completion';
+const walkSyncEntity = 'trail_walk';
+
+/// Lokal immer; Remote optional (Login). Remote-Ausführung und
+/// Login-Merge laufen über die [SyncEngine].
 class HybridTrailProgressRepository implements TrailProgressRepository {
-  HybridTrailProgressRepository({LocalTrailProgressStore? local, this.remote})
-    : _local = local ?? LocalTrailProgressStore();
+  HybridTrailProgressRepository({
+    LocalTrailProgressStore? local,
+    SupabaseTrailProgressRepository? remote,
+  }) : _local = local ?? LocalTrailProgressStore(),
+       _remote = remote;
 
   final LocalTrailProgressStore _local;
-  final SupabaseTrailProgressRepository? remote;
+  final SupabaseTrailProgressRepository? _remote;
+  SyncEngine? _engine;
+  late final SyncedIdSet _bookmarks = SyncedIdSet(
+    entity: bookmarkSyncEntity,
+    read: _local.readBookmarks,
+    write: _local.writeBookmarks,
+    engine: () => _engine,
+  );
+
+  /// Registriert Executor/Merge an der Engine. Aufruf im Provider, vor flush.
+  void attach(SyncEngine engine) {
+    _engine = engine;
+    final r = _remote;
+    if (r == null) return;
+    engine.registerExecutor(bookmarkSyncEntity, (m) async {
+      if (m.op == SyncOp.delete.name) {
+        await r.deleteBookmark(m.key);
+      } else {
+        await r.upsertBookmark(m.key);
+      }
+    });
+    engine.registerExecutor(completionSyncEntity, (m) async {
+      if (m.op == SyncOp.delete.name) {
+        await r.deleteCompletion(m.key);
+      } else {
+        await r.upsertCompletion(TrailCompletion.fromJson(m.payload));
+      }
+    });
+    engine.registerExecutor(walkSyncEntity, (m) async {
+      await r.upsertWalk(TrailWalk.fromJson(m.payload));
+    });
+    engine.registerMergeHandler('trail_progress', () async {
+      await mergeWithRemote(
+        remoteBookmarks: await r.fetchBookmarkIds(),
+        remoteCompletions: await r.fetchCompletions(),
+        remoteWalks: await r.fetchWalks(),
+      );
+    });
+  }
 
   @override
   Future<Set<String>> getBookmarkIds() => _local.readBookmarks();
@@ -26,16 +76,11 @@ class HybridTrailProgressRepository implements TrailProgressRepository {
     } else {
       next.remove(trailId);
     }
-    await _local.writeBookmarks(next);
-    final r = remote;
-    if (r == null) return;
-    try {
-      if (bookmarked) {
-        await r.upsertBookmark(trailId);
-      } else {
-        await r.deleteBookmark(trailId);
-      }
-    } catch (_) {}
+    await _bookmarks.writeAndEnqueue(
+      next: next,
+      key: trailId,
+      present: bookmarked,
+    );
   }
 
   @override
@@ -60,15 +105,14 @@ class HybridTrailProgressRepository implements TrailProgressRepository {
       next.remove(trailId);
     }
     await _local.writeCompletions(next);
-    final r = remote;
-    if (r == null) return;
-    try {
-      if (completed) {
-        await r.upsertCompletion(next[trailId]!);
-      } else {
-        await r.deleteCompletion(trailId);
-      }
-    } catch (_) {}
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: completionSyncEntity,
+        key: trailId,
+        op: completed ? SyncOp.upsert : SyncOp.delete,
+        payload: completed ? next[trailId]!.toJson() : const {},
+      ),
+    );
   }
 
   @override
@@ -101,11 +145,14 @@ class HybridTrailProgressRepository implements TrailProgressRepository {
     }
     if (!replaced) next.add(walk);
     await _local.writeWalks(next);
-    final r = remote;
-    if (r == null) return;
-    try {
-      await r.upsertWalk(walk);
-    } catch (_) {}
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: walkSyncEntity,
+        key: walk.id,
+        op: SyncOp.upsert,
+        payload: walk.toJson(),
+      ),
+    );
   }
 
   @override
@@ -124,24 +171,30 @@ class HybridTrailProgressRepository implements TrailProgressRepository {
           w,
     ];
     await _local.writeWalks(next);
-    final r = remote;
-    if (r == null) return;
-    for (final w in next.where((w) => w.status == WalkStatus.abandoned)) {
-      try {
-        await r.upsertWalk(w);
-      } catch (_) {}
+    final engine = _engine;
+    if (engine == null) return;
+    for (final w in next) {
+      final wasActive = walks.any(
+        (prev) => prev.id == w.id && prev.status == WalkStatus.active,
+      );
+      if (!wasActive || w.status != WalkStatus.abandoned) continue;
+      await engine.enqueue(
+        SyncMutation.create(
+          entity: walkSyncEntity,
+          key: w.id,
+          op: SyncOp.upsert,
+          payload: w.toJson(),
+        ),
+      );
     }
   }
 
-  @override
   Future<void> mergeWithRemote({
     required Set<String> remoteBookmarks,
     required Map<String, TrailCompletion> remoteCompletions,
     required List<TrailWalk> remoteWalks,
   }) async {
-    final localBookmarks = await _local.readBookmarks();
-    final mergedBookmarks = {...localBookmarks, ...remoteBookmarks};
-    await _local.writeBookmarks(mergedBookmarks);
+    await _bookmarks.mergeUnion(remoteBookmarks);
 
     final localCompletions = await _local.readCompletions();
     final mergedCompletions = {...remoteCompletions, ...localCompletions};
@@ -184,25 +237,31 @@ class HybridTrailProgressRepository implements TrailProgressRepository {
     if (active != null) mergedWalks.add(active);
     await _local.writeWalks(mergedWalks);
 
-    final r = remote;
-    if (r == null) return;
-    try {
-      final missingBookmarks = mergedBookmarks.difference(remoteBookmarks);
-      if (missingBookmarks.isNotEmpty) {
-        await r.upsertBookmarks(missingBookmarks);
+    final engine = _engine;
+    if (engine == null) return;
+    for (final e in mergedCompletions.entries) {
+      if (!remoteCompletions.containsKey(e.key)) {
+        await engine.enqueue(
+          SyncMutation.create(
+            entity: completionSyncEntity,
+            key: e.key,
+            op: SyncOp.upsert,
+            payload: e.value.toJson(),
+          ),
+        );
       }
-      final missingCompletions = <String, TrailCompletion>{};
-      for (final e in mergedCompletions.entries) {
-        if (!remoteCompletions.containsKey(e.key)) {
-          missingCompletions[e.key] = e.value;
-        }
-      }
-      if (missingCompletions.isNotEmpty) {
-        await r.upsertCompletions(missingCompletions);
-      }
-      for (final w in mergedWalks) {
-        await r.upsertWalk(w);
-      }
-    } catch (_) {}
+    }
+    final remoteWalkIds = {for (final w in remoteWalks) w.id};
+    for (final w in mergedWalks) {
+      if (remoteWalkIds.contains(w.id)) continue;
+      await engine.enqueue(
+        SyncMutation.create(
+          entity: walkSyncEntity,
+          key: w.id,
+          op: SyncOp.upsert,
+          payload: w.toJson(),
+        ),
+      );
+    }
   }
 }

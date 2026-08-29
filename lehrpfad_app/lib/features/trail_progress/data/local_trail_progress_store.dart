@@ -1,43 +1,28 @@
 import 'dart:convert';
 
-import 'package:shared_preferences/shared_preferences.dart';
-
+import '../../../core/cache/prefs_store.dart';
 import '../domain/trail_completion.dart';
 import '../domain/trail_walk.dart';
 import '../domain/walk_status.dart';
 
 /// Lokale Persistenz (SharedPreferences) für Trail-Progress.
 class LocalTrailProgressStore {
+  LocalTrailProgressStore({PrefsStore? prefs}) : _prefs = prefs ?? PrefsStore();
+
   static const _bookmarksKey = 'trail_bookmarks';
   static const _completionsKey = 'trail_completions';
   static const _walksKey = 'trail_walks';
 
-  SharedPreferences? _prefs;
+  final PrefsStore _prefs;
 
-  Future<SharedPreferences> _getPrefs() async {
-    return _prefs ??= await SharedPreferences.getInstance();
-  }
+  Future<Set<String>> readBookmarks() => _prefs.readStringSet(_bookmarksKey);
 
-  Future<Set<String>> readBookmarks() async {
-    try {
-      final raw = (await _getPrefs()).getString(_bookmarksKey);
-      if (raw == null || raw.isEmpty) return {};
-      return (jsonDecode(raw) as List).cast<String>().toSet();
-    } catch (_) {
-      return {};
-    }
-  }
-
-  Future<void> writeBookmarks(Set<String> ids) async {
-    await (await _getPrefs()).setString(
-      _bookmarksKey,
-      jsonEncode(ids.toList()..sort()),
-    );
-  }
+  Future<void> writeBookmarks(Set<String> ids) =>
+      _prefs.writeStringSet(_bookmarksKey, ids);
 
   Future<Map<String, TrailCompletion>> readCompletions() async {
     try {
-      final raw = (await _getPrefs()).getString(_completionsKey);
+      final raw = await _prefs.readString(_completionsKey);
       if (raw == null || raw.isEmpty) return {};
       final list = jsonDecode(raw) as List;
       final map = <String, TrailCompletion>{};
@@ -56,12 +41,12 @@ class LocalTrailProgressStore {
       ..sort(
         (a, b) => (a['trailId'] as String).compareTo(b['trailId'] as String),
       );
-    await (await _getPrefs()).setString(_completionsKey, jsonEncode(list));
+    await _prefs.writeString(_completionsKey, jsonEncode(list));
   }
 
   Future<List<TrailWalk>> readWalks() async {
     try {
-      final raw = (await _getPrefs()).getString(_walksKey);
+      final raw = await _prefs.readString(_walksKey);
       if (raw == null || raw.isEmpty) return [];
       return (jsonDecode(raw) as List)
           .map((e) => TrailWalk.fromJson(e as Map<String, dynamic>))
@@ -72,7 +57,7 @@ class LocalTrailProgressStore {
   }
 
   Future<void> writeWalks(List<TrailWalk> walks) async {
-    await (await _getPrefs()).setString(
+    await _prefs.writeString(
       _walksKey,
       jsonEncode(walks.map((w) => w.toJson()).toList()),
     );

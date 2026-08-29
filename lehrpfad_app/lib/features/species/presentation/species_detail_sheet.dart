@@ -8,6 +8,7 @@ import '../data/species_providers.dart';
 import '../domain/species.dart';
 import 'gesehen_toggle.dart';
 import 'species_content_view.dart';
+import 'species_profil_view.dart';
 
 /// Modal-Detail zu einer Art / einem Gerät (Steckbrief + Gesehen-Toggle).
 class SpeciesDetailSheet extends ConsumerWidget {
@@ -71,6 +72,8 @@ class SpeciesDetailSheet extends ConsumerWidget {
         ),
         const SizedBox(height: 16),
         SpeciesContentView(species: species),
+        const SizedBox(height: 8),
+        SpeciesProfilView(species: species),
       ],
     );
   }

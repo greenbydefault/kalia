@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:shared_preferences/shared_preferences.dart';
+import '../../../core/cache/prefs_store.dart';
 
 class GuestProfile {
   const GuestProfile({this.displayName = '', this.childNames = const []});
@@ -13,15 +13,13 @@ class GuestProfile {
 
 /// Lokales Gast-Profil und First-Run-Flag in SharedPreferences.
 class LocalGuestProfileStore {
+  LocalGuestProfileStore({PrefsStore? prefs}) : _prefs = prefs ?? PrefsStore();
+
   static const completedKey = 'onboarding_completed';
   static const nameKey = 'guest_display_name';
   static const childrenKey = 'guest_child_names';
 
-  SharedPreferences? _prefs;
-
-  Future<SharedPreferences> _getPrefs() async {
-    return _prefs ??= await SharedPreferences.getInstance();
-  }
+  final PrefsStore _prefs;
 
   static List<String> trimChildren(Iterable<String> names) {
     return [
@@ -30,14 +28,10 @@ class LocalGuestProfileStore {
     ];
   }
 
-  Future<bool> isCompleted() async {
-    final prefs = await _getPrefs();
-    return prefs.getBool(completedKey) ?? false;
-  }
+  Future<bool> isCompleted() => _prefs.readBool(completedKey);
 
   Future<GuestProfile> readProfile() async {
-    final prefs = await _getPrefs();
-    final raw = prefs.getString(childrenKey);
+    final raw = await _prefs.readString(childrenKey);
     List<String> children = const [];
     if (raw != null && raw.isNotEmpty) {
       try {
@@ -47,7 +41,7 @@ class LocalGuestProfileStore {
       }
     }
     return GuestProfile(
-      displayName: (prefs.getString(nameKey) ?? '').trim(),
+      displayName: ((await _prefs.readString(nameKey)) ?? '').trim(),
       childNames: children,
     );
   }
@@ -56,9 +50,8 @@ class LocalGuestProfileStore {
     required String displayName,
     required List<String> childNames,
   }) async {
-    final prefs = await _getPrefs();
-    await prefs.setString(nameKey, displayName.trim());
-    await prefs.setString(childrenKey, jsonEncode(trimChildren(childNames)));
-    await prefs.setBool(completedKey, true);
+    await _prefs.writeString(nameKey, displayName.trim());
+    await _prefs.writeString(childrenKey, jsonEncode(trimChildren(childNames)));
+    await _prefs.writeBool(completedKey, true);
   }
 }

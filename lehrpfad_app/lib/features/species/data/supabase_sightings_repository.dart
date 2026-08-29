@@ -37,12 +37,4 @@ class SupabaseSightingsRepository {
         .eq('species_id', speciesId);
   }
 
-  /// Schreibt fehlende Remote-Eintraege (nach lokalem Merge).
-  Future<void> upsertAll(Set<String> speciesIds) async {
-    final uid = _userId;
-    if (uid == null || speciesIds.isEmpty) return;
-    await _client.from('species_sightings').upsert([
-      for (final id in speciesIds) {'user_id': uid, 'species_id': id},
-    ]);
-  }
 }

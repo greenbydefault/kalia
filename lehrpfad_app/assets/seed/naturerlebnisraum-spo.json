@@ -1,0 +1,728 @@
+{
+ "id": "naturerlebnisraum-spo",
+ "name": "Naturerlebnisraum Weltnaturerbe Wattenmeer",
+ "typ": "kueste",
+ "kurzbeschreibung": "Kurze Salzwiesen-Runde südlich der Seebrücke: vier Plattformen und acht Stationen zu Strandflieder, Queller, Wattwurm und Zugvögeln – direkt im Nationalpark.",
+ "beschreibung": "Vor dem Deich von St. Peter-Ording-Bad, südlich der Seebrücke, liegt der Naturerlebnisraum Weltnaturerbe Wattenmeer. Drei Plattformen erreichst du vom Deich aus, die vierte führt mit acht Stationen in die Salzwiese: Flowering Five, Barfußpfad, Small Five im Schlick, Insekten. Die sandige Salzwiese hier zählt zu den artenreichsten an der schleswig-holsteinischen Festlandsküste. Outdoor frei, ohne Anmeldung. Tafeln werden im Winter oft abgebaut – QR-Codes bleiben. Wegegebot: nur vorhandene Wege, April bis Juli Abstand zu Brutvögeln. Hunde ganzjährig anleinen. Das Nationalpark-Haus in der Dünentherme (nördlich der Seebrücke) ist extra, kein Ticket fürs Vorland.",
+ "laengeKm": 1.0,
+ "dauerMin": 50,
+ "rundkurs": true,
+ "markierung": "Plattformen und Stationen / Wegegebot im Vorland",
+ "betreiber": "Nationalparkverwaltung Schleswig-Holsteinisches Wattenmeer / Schutzstation Wattenmeer",
+ "region": "St. Peter-Ording-Bad, Nordfriesland, Schleswig-Holstein",
+ "website": "https://www.nationalpark-wattenmeer.de/sh/naturerlebnisraum-spo/",
+ "anreise": "Ortsteil Bad, Deichfuß südlich der Seebrücke. Auto: Parkplätze am Kurbad / Seebrückenvorplatz (Maleens Knoll / Am Kurbad, 25826 Sankt Peter-Ording). ÖPNV: Bahn bis St. Peter-Ording, weiter Bus/Fußweg zum Ortsteil Bad. Start am Deich südlich der Seebrücke; Nationalpark-Haus in der Dünentherme liegt nördlich der Brücke, optional.",
+ "startName": "Deichfuß südlich der Seebrücke",
+ "arten": [
+  "Strandflieder",
+  "Queller",
+  "Austernfischer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "barfusspfad"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.313601,
+   8.603974
+  ],
+  [
+   54.313608,
+   8.604053
+  ],
+  [
+   54.313449,
+   8.604256
+  ],
+  [
+   54.313375,
+   8.604318
+  ],
+  [
+   54.313285,
+   8.604299
+  ],
+  [
+   54.313226,
+   8.604239
+  ],
+  [
+   54.31313,
+   8.60425
+  ],
+  [
+   54.312768,
+   8.604443
+  ],
+  [
+   54.312665,
+   8.60446
+  ],
+  [
+   54.31255,
+   8.604507
+  ],
+  [
+   54.312493,
+   8.604555
+  ],
+  [
+   54.312387,
+   8.604552
+  ],
+  [
+   54.312331,
+   8.604527
+  ],
+  [
+   54.312226,
+   8.604571
+  ],
+  [
+   54.312069,
+   8.604576
+  ],
+  [
+   54.31183,
+   8.604602
+  ],
+  [
+   54.311707,
+   8.604634
+  ],
+  [
+   54.311568,
+   8.604684
+  ],
+  [
+   54.311366,
+   8.604773
+  ],
+  [
+   54.311236,
+   8.604781
+  ],
+  [
+   54.31097,
+   8.604829
+  ],
+  [
+   54.310778,
+   8.604896
+  ],
+  [
+   54.310631,
+   8.604934
+  ],
+  [
+   54.310509,
+   8.604955
+  ],
+  [
+   54.310334,
+   8.605008
+  ],
+  [
+   54.310339,
+   8.60561
+  ],
+  [
+   54.310344,
+   8.606212
+  ],
+  [
+   54.310348,
+   8.606814
+  ],
+  [
+   54.310353,
+   8.607416
+  ],
+  [
+   54.310373,
+   8.607512
+  ],
+  [
+   54.310431,
+   8.607659
+  ],
+  [
+   54.310471,
+   8.60776
+  ],
+  [
+   54.311188,
+   8.607034
+  ],
+  [
+   54.311513,
+   8.606679
+  ],
+  [
+   54.312342,
+   8.605772
+  ],
+  [
+   54.313526,
+   8.604429
+  ],
+  [
+   54.313748,
+   8.604213
+  ],
+  [
+   54.313601,
+   8.603974
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -1829083036,
+   "lat": 54.313601,
+   "lon": 8.603974,
+   "km": 0.0,
+   "titel": "Im Reich der Spezialisten",
+   "thema": "Plattform Einführung",
+   "kurztext": "Hier beginnt die sandige Salzwiese – artenreicher als die tonigen Marschen weiter südlich. Salz ist Gift, trotzdem blühen Spezialisten. Drei Plattformen vom Deich, der Rest führt ins Vorland.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -2461979052,
+   "lat": 54.313226,
+   "lon": 8.604239,
+   "km": 0.05,
+   "titel": "Wunder der Salzwiesen",
+   "thema": "Plattform Salzwiese",
+   "kurztext": "Sand macht die Wiese locker, Wurzeln atmen, fast doppelt so viele Pflanzen wie auf klebrigem Marschboden. Tausendgüldenkraut, Queller, Strandwermut – Schätze, die du nicht pflückst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -780599110,
+   "lat": 54.312665,
+   "lon": 8.60446,
+   "km": 0.12,
+   "titel": "Weltweit zu Hause",
+   "thema": "Plattform Vogelzug",
+   "kurztext": "Zehn Millionen Zugvögel nutzen das Watt als Tankstelle. Bei Flut rasten sie in der Bucht südlich von hier. Lautes Pfeifen? Oft der Austernfischer. Distanz halten, sie müssen fressen.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3949004252,
+   "lat": 54.312226,
+   "lon": 8.604571,
+   "km": 0.17,
+   "titel": "Land in Bewegung",
+   "thema": "Plattform Landschaftsgeschichte",
+   "kurztext": "Maleens Knoll ersetzt hier den Seedeich: 1,2 km Düne vor dem Hinterland. Eiderstedt war drei Inseln. Sandbank, Düne und Salzwiese schieben sich, der Meeresspiegel steigt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "werdegang": "von drei Inseln – zur Halbinsel Eiderstedt"
+   },
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2632669379,
+   "lat": 54.311707,
+   "lon": 8.604634,
+   "km": 0.23,
+   "titel": "Flowering Five",
+   "thema": "Fünf Küstenpflanzen",
+   "kurztext": "Strandflieder, Strandwermut, Queller, Strandhafer, Salzmelde. Der Flieder ist geschützt, der Queller wird im Herbst rot, der Strandhafer baut Dünen. Such alle fünf.",
+   "erlebnisse": [
+    "bestimmung",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -2314503982,
+   "lat": 54.311366,
+   "lon": 8.604773,
+   "km": 0.27,
+   "titel": "Mehr Salz als gesund ist",
+   "thema": "Wie Pflanzen das Meer aushalten",
+   "kurztext": "Queller speichert Salz bis er rot stirbt. Strandflieder drückt es über Drüsen raus. Andelgras sperrt es an der Wurzel. Fünf Tricks, ein Gift.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3267035347,
+   "lat": 54.310778,
+   "lon": 8.604896,
+   "km": 0.33,
+   "titel": "Grasland am Meer",
+   "thema": "Obere Salzwiese",
+   "kurztext": "Kniehohe Strandquecke, wo Sommerfluten selten hinkommen. Unten am Priel wachsen Andelgras und Queller, die mehr Salz vertragen. Zwei Zonen, ein Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -364064060,
+   "lat": 54.310509,
+   "lon": 8.604955,
+   "km": 0.36,
+   "titel": "Barfußpfad",
+   "thema": "Untere Salzwiese unter den Füßen",
+   "kurztext": "Boden nass und kühl, frischer Schlick nach Springflut. Barfuß spürst du den Übergang vom Land zum Meer. Nur auf dem Weg, Nester im Gras.",
+   "erlebnisse": [
+    "barfusspfad",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -2299160927,
+   "lat": 54.310348,
+   "lon": 8.606814,
+   "km": 0.5,
+   "titel": "Small Five im Schlick",
+   "thema": "Wattwurm, Herzmuschel, Krabbe",
+   "kurztext": "Was in Afrika die Big Five sind: Wattwurm mit Spaghettihäufchen, Herzmuschel, Strandkrabbe, Wattschnecke, Nordseegarnele. Im Priel mit Glück sichtbar.",
+   "erlebnisse": [
+    "bestimmung",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -2224344435,
+   "lat": 54.311188,
+   "lon": 8.607034,
+   "km": 0.66,
+   "titel": "Blütenbesucher",
+   "thema": "Härteste Küsteninsekten",
+   "kurztext": "Küsten-Seidenbiene fliegt nur Strandaster. Salzkäfer buddelt wasserdichte Röhren in der Quellerzone. Ahlenläufer wartet die Flut in einer Luftblase ab.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -1706769668,
+   "lat": 54.311513,
+   "lon": 8.606679,
+   "km": 0.7,
+   "titel": "InsektenReich",
+   "thema": "Überleben bei Sturmflut",
+   "kurztext": "Über 2000 Insektenarten in Salzwiesen, 250 nur an der Nordsee. Mäuse ertrinken hier, Käfer nicht. Zigarrengallen im Schilf: da sitzt die Halmfliege.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": -2106040209,
+   "lat": 54.312342,
+   "lon": 8.605772,
+   "km": 0.81,
+   "titel": "Vielfalt im Röhricht",
+   "thema": "Schilf vor dem Deich",
+   "kurztext": "Reet mag kaum Meerwasser, steht deshalb oben am Deichfuß, wo Regen entsalzt. Rohrsänger und Bartmeise brüten, wo Fuchs nasse Füße scheut.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 838042586,
+   "lat": 54.3104677,
+   "lon": 8.6077762,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 2399174228,
+   "lat": 54.314836,
+   "lon": 8.6043691,
+   "kategorie": "gastro",
+   "name": "Deichkind"
+  },
+  {
+   "osmId": 2399174281,
+   "lat": 54.3127649,
+   "lon": 8.6074353,
+   "kategorie": "gastro",
+   "name": "Park Hotel"
+  },
+  {
+   "osmId": 2399174315,
+   "lat": 54.3141974,
+   "lon": 8.6050299,
+   "kategorie": "gastro",
+   "name": "Sandperle"
+  },
+  {
+   "osmId": 2399187091,
+   "lat": 54.3125557,
+   "lon": 8.6068298,
+   "kategorie": "gastro",
+   "name": "Strand No. 1"
+  },
+  {
+   "osmId": 2428439537,
+   "lat": 54.3135584,
+   "lon": 8.6055112,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439538,
+   "lat": 54.313591,
+   "lon": 8.605472,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439539,
+   "lat": 54.3136334,
+   "lon": 8.6054106,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439540,
+   "lat": 54.3136703,
+   "lon": 8.6053565,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439552,
+   "lat": 54.3142387,
+   "lon": 8.604112,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439553,
+   "lat": 54.3142713,
+   "lon": 8.6040766,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439555,
+   "lat": 54.3143344,
+   "lon": 8.6040338,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439556,
+   "lat": 54.3143746,
+   "lon": 8.6040114,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2428439558,
+   "lat": 54.3144398,
+   "lon": 8.6040002,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2993605028,
+   "lat": 54.3113046,
+   "lon": 8.6078782,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3003744924,
+   "lat": 54.312543,
+   "lon": 8.6062157,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3003744925,
+   "lat": 54.3127092,
+   "lon": 8.6053719,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732544,
+   "lat": 54.3137014,
+   "lon": 8.6033987,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732545,
+   "lat": 54.3137077,
+   "lon": 8.6034623,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732546,
+   "lat": 54.3137147,
+   "lon": 8.6035343,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732547,
+   "lat": 54.3136664,
+   "lon": 8.603041,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732548,
+   "lat": 54.3136734,
+   "lon": 8.6030986,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732549,
+   "lat": 54.3136783,
+   "lon": 8.6031598,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732550,
+   "lat": 54.3136846,
+   "lon": 8.6032186,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732551,
+   "lat": 54.3136363,
+   "lon": 8.6026689,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732552,
+   "lat": 54.3136405,
+   "lon": 8.6027337,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732553,
+   "lat": 54.3136454,
+   "lon": 8.6027925,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732554,
+   "lat": 54.3136517,
+   "lon": 8.6028525,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732555,
+   "lat": 54.3136202,
+   "lon": 8.6024888,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732556,
+   "lat": 54.3136153,
+   "lon": 8.6024264,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3032732557,
+   "lat": 54.3136097,
+   "lon": 8.6023628,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4217595655,
+   "lat": 54.3104545,
+   "lon": 8.6077887,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4217595657,
+   "lat": 54.3104808,
+   "lon": 8.6077583,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4217595658,
+   "lat": 54.3115593,
+   "lon": 8.6066949,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9084204796,
+   "lat": 54.3148595,
+   "lon": 8.6034129,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868808,
+   "lat": 54.3137193,
+   "lon": 8.6043899,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868809,
+   "lat": 54.3136825,
+   "lon": 8.6044785,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868810,
+   "lat": 54.3136506,
+   "lon": 8.6044716,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868811,
+   "lat": 54.3136138,
+   "lon": 8.604574,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868812,
+   "lat": 54.3136614,
+   "lon": 8.6045378,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9131868813,
+   "lat": 54.3136901,
+   "lon": 8.6043961,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11038023023,
+   "lat": 54.3109761,
+   "lon": 8.6078395,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11038023024,
+   "lat": 54.3110783,
+   "lon": 8.6078548,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11224328525,
+   "lat": 54.3146216,
+   "lon": 8.6044294,
+   "kategorie": "gastro",
+   "name": "Asia Mei"
+  },
+  {
+   "osmId": 12029220544,
+   "lat": 54.3124736,
+   "lon": 8.6064039,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12029220563,
+   "lat": 54.312497,
+   "lon": 8.6063753,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12082381269,
+   "lat": 54.3114788,
+   "lon": 8.6070377,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12082381270,
+   "lat": 54.3115379,
+   "lon": 8.6069714,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12082381271,
+   "lat": 54.3115113,
+   "lon": 8.6070015,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13017333529,
+   "lat": 54.3114773,
+   "lon": 8.6074976,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13017341415,
+   "lat": 54.3114434,
+   "lon": 8.6070791,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/naturerlebnisraum-spo/credits.json"
+}

@@ -15,9 +15,9 @@ abstract final class MapMarkerStyle {
   static const letterScale = 0.85;
 }
 
-/// Start-/POI-Marker: Brand-Kreis + Typ-Icon aus [typKatalog].
+/// Start-/Trail-Marker: Brand-Kreis + Typ-Icon aus [typKatalog].
 ///
-/// Einzige Stelle für Marker-Chrome — Map und spätere Place-POIs nutzen dasselbe.
+/// Einzige Stelle für Trail-Marker-Chrome. Orte in der Nähe: `PoiMarker`.
 /// A/B-Endpunkte: [TypStartMarker.letter]. Cluster: [TypStartMarker.count].
 class TypStartMarker extends StatelessWidget {
   final String? typ;

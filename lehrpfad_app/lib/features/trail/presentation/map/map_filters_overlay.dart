@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../app/theme/app_spacing.dart';
 import '../../../location/location_consent_sheet.dart';
+import '../../../location/location_gate.dart';
 import '../../../location/location_permission_controller.dart';
 import '../../../location/map_radius.dart';
 import '../../../location/user_position_provider.dart';
@@ -46,7 +47,7 @@ class MapFiltersOverlay extends ConsumerWidget {
                   action: 'Erlauben',
                   onAction: () async {
                     try {
-                      await ensureMapLocation(context, ref);
+                      await LocationGate.ensureMap(context, ref);
                     } on LocationException catch (e) {
                       if (context.mounted) showLocationError(context, e);
                     }

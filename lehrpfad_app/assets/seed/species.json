@@ -1,5 +1,80 @@
 [
   {
+    "id": "austernfischer",
+    "nameDe": "Austernfischer",
+    "nameLat": "Haematopus ostralegus",
+    "kategorie": "fauna",
+    "kurztext": "Schwarzweiß mit orangerotem Schnabel – er piept laut, noch bevor du das Watt siehst.",
+    "aliases": [
+      "Austernfischer"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Schwarzweiß mit orangerotem Schnabel – er piept laut, noch bevor du das Watt siehst.",
+      "erkennung": [
+        "Schwarzer Rücken, weiße Unterseite, langer Schnabel",
+        "Orangerote Beine auf Schlick und Wiese",
+        "Lautes piependes Kleep über dem Vorland"
+      ],
+      "lebensraum": "Salzwiesen, Prielränder und Watt vor St. Peter-Ording, Brut und Rast im Nationalpark.",
+      "funFacts": [
+        "Den Schnabel nutzt er wie einen Meißel an Muscheln.",
+        "Zugvögel tanken hier, bevor die nächste Etappe beginnt.",
+        "Nester liegen im Gras, deshalb Abstand halten."
+      ],
+      "hinweis": "Abstand halten, vor allem April bis Juli.",
+      "hoertext": "Hörst du ein helles Kleep, kleep über der Salzwiese? Das ist oft der Austernfischer, noch bevor du ihn siehst. Schwarzweiß, orangeroter Schnabel, Beine wie Warnwesten. Er hämmert Muscheln auf und stochert Würmer aus dem Schlick. Im Frühjahr und Herbst rasten hier Millionen Zugvögel, er gehört fest dazu. Nester liegen einfach im Gras, ohne Baum. Deshalb bleibst du auf dem Weg und gehst nicht näher. Vom Deich aus siehst du genug. Wenn die Flut das Watt bedeckt, stehen die Trupps dichter. Nimm das Pfeifen mit, und lass ihn in Ruhe weiterfressen. Das Watt ist seine Tankstelle."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Muscheln",
+      "Würmer"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Charadriiformes",
+      "familie": "Haematopodidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "40–45 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "80–86 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "400–800 g"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "fleischfresser",
+      "saenger",
+      "sozial"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Muscheln",
+        "kurztext": "Meißelt Schalen im Watt auf."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Salzwiese",
+        "kurztext": "Brütet im Gras am Vorland."
+      }
+    ]
+  },
+  {
     "id": "baumstaemme-kletter-balance",
     "nameDe": "Baumstämme zum Klettern und Balancieren",
     "nameLat": "",
@@ -53,7 +128,54 @@
       ],
       "hinweis": "",
       "hoertext": "Schau dir mal die Blätter genau an. Sie wirken wie eine Hand mit gespreizten Fingern. Das ist der Bergahorn – ein typischer Baum in Brandenburgs Wäldern. Im Sommer wirft er geflügelte Früchte ab. Die drehen sich im Fall und fliegen ein Stück weiter. So erreicht der Baum neue Plätze, ohne dass jemand die Samen trägt. An den Lehrpfaden der Rauener Berge steht er oft zwischen Eiche und Kiefer. Wenn du ein Blatt findest, zähl die Lappen. Meist sind es fünf. Und wenn der Wind geht, kannst du die kleinen Propeller tanzen sehen."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Sapindales",
+      "familie": "Sapindaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–30 m"
+      },
+      {
+        "key": "alter",
+        "wert": "150–200 Jahre"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juni"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "herbstfarbe",
+      "bluete",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Höhlen in alten Stämmen."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Frisst die geflügelten Samen."
+      }
+    ]
   },
   {
     "id": "besenheide",
@@ -82,7 +204,49 @@
       ],
       "hinweis": "Bitte nicht pflücken – Blüte für Bestäuber lassen.",
       "hoertext": "Schau über die Fläche, wenn der Spätsommer da ist. Lila, soweit das Auge reicht. Das ist Besenheide – Calluna vulgaris. Kleine Blüten, großer Auftritt. Wildbienen summen mittendrin und sammeln, als gäbe es kein Morgen. Die Pflanze mag es mager und sonnig. Kommt zu viel Nährstoff oder dichter Jungwald, verliert sie den Platz. Hier in der Kyritz-Ruppiner Heide ist sie das Markenzeichen der Landschaft. Bleib auf dem Weg, atme den leichten Duft und hör einfach zu. Das Summen erzählt, warum diese Fläche so besonders ist. Ein lilafarbenes Meer – und darunter die harte Arbeit von Pflanze, Insekt und Pflege. Was du hier siehst, ist kein Zufall, sondern ein lebendiges System."
-    }
+    },
+    "gruppe": "straeucher",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar",
+      "Pollen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Ericales",
+      "familie": "Ericaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–80 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "August–Oktober"
+      }
+    ],
+    "merkmale": [
+      "immergruen",
+      "bluete",
+      "heide",
+      "bestaeuber"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Spezialistin der Heide.",
+        "toSpeciesId": "heidekraut-seidenbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Singt über den Heideflächen.",
+        "toSpeciesId": "heidelerche"
+      }
+    ]
   },
   {
     "id": "biber",
@@ -108,7 +272,58 @@
       ],
       "hinweis": "Burgen und Dämme nicht betreten.",
       "hoertext": "Stell dir vor, du kommst an ein Fließ – und der Wasserstand wirkt anders als gestern. Vielleicht hat hier der Biber gebaut. Tagsüber siehst du ihn selten. Aber seine Spuren sind klar: angenagte Weiden, eine Rutsche ins Wasser, manchmal ein Damm. Er formt die Landschaft wie ein kleiner Ingenieur. Früher war er bei uns fast verschwunden. Heute ist er zurück – scheu, stark und wichtig fürs Ökosystem. Halt Abstand zur Burg. Und such lieber nach den Nagespuren. Die erzählen die Geschichte schon. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Rinde",
+      "Zweige",
+      "Wasserpflanzen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Rodentia",
+      "familie": "Castoridae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "80–100 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "15–30 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "10–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "sozial",
+      "nachtaktiv",
+      "wasserlebend",
+      "baumeister",
+      "schluesselart",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "kurztext": "Nagt Rinde und fällt Weichhölzer.",
+        "toSpeciesId": "schwarzerle"
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Weide",
+        "nameLat": "Salix",
+        "kurztext": "Baut Dämme aus Weidenästen."
+      }
+    ]
   },
   {
     "id": "bienen-schaukasten",
@@ -164,7 +379,56 @@
       ],
       "hinweis": "",
       "hoertext": "Such eine erhöhte Warte – Strauch, Pfahl, trockener Zweig. Das Braunkehlchen sitzt gern sichtbar und startet kurze Fangflüge zum Boden. Heller Augenstreif, warme Brust, unruhiger Schwanz. In der ausgeräumten Landschaft wird es rar. Hier in der Heide findet es noch Struktur und Insekten. Bleib ruhig stehen. Oft kommt der Vogel zurück auf denselben Platz – wie ein kleiner Wächter der offenen Fläche. Wer ihn einmal erkannt hat, sieht die Ränder der Heide mit anderen Augen. Ein unscheinbarer Botschafter für Vielfalt am Wegesrand. Schau zweimal hin, bevor du weitergehst auf dem Pfad."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Spinnen",
+      "Beeren"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Passeriformes",
+      "familie": "Muscicapidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "12–13 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "15–20 g"
+      },
+      {
+        "key": "alter",
+        "wert": "3–5 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "saenger",
+      "wanderer",
+      "tagaktiv",
+      "insektenfresser",
+      "heide"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "kurztext": "Fängt Insekten in der Heide.",
+        "toSpeciesId": "heidekraut-seidenbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet im Heidekraut.",
+        "toSpeciesId": "besenheide"
+      }
+    ]
   },
   {
     "id": "distelfalter",
@@ -190,7 +454,49 @@
       ],
       "hinweis": "",
       "hoertext": "Siehst du den orangen Falter an der Distel? Das könnte ein Distelfalter sein. Er sieht aus, als käme er von hier – und doch hat er oft eine lange Reise hinter sich. Viele ziehen aus dem Süden zu uns, Generation für Generation. Ihre Raupen brauchen Disteln. Ohne solche Pflanzen endet die Reise. An sonnigen Moorrändern und Feuchtwiesen fliegt er im Sommer oft. Bleib kurz stehen und schau zu. Wanderfalter erzählen, dass Natur keine Grenze kennt – nur Wege, Blüten und Wind. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Lepidoptera",
+      "familie": "Nymphalidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "5–6 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "2–4 Wochen"
+      }
+    ],
+    "merkmale": [
+      "wanderer",
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "luftbewohnend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "nameDe": "Disteln",
+        "kurztext": "Saugt Nektar an Disteln."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Wird von Vögeln gefressen."
+      }
+    ]
   },
   {
     "id": "edelkastanie",
@@ -219,7 +525,53 @@
       ],
       "hinweis": "Früchte am Baum lassen, wenn unklar.",
       "hoertext": "Such ein Blatt mit vielen Zähnen am Rand, lang und schmal. Das ist oft die Edelkastanie. Nicht die Rosskastanie vom Dorfplatz. Die echte Kastanie trägt Früchte in einer stacheligen Hülle. Die Nüsse sind essbar, wenn sie reif sind. Hier im Waldgarten steht sie neben Eiche und Buche. Alle drei sind Buchengewächse. Das Holzschild sagt dir den Namen. Manchmal steht daneben eine Scheinkastanie. Dann vergleichst du Blatt und Frucht, statt zu raten. Der Betreiber pflanzt, was hier gedeiht, auch Arten aus Asien und Amerika. Bleib auf dem Pfad, lies das Schild und schau in die Krone."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Esskastanien"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–35 m"
+      },
+      {
+        "key": "alter",
+        "wert": "300–500 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Esskastanie"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "fruchttragend",
+      "dornig",
+      "herbstfarbe"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Versteckt Kastanien als Wintervorrat."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Alte Bäume bieten Höhlen."
+      }
+    ]
   },
   {
     "id": "eisvogel",
@@ -245,7 +597,54 @@
       ],
       "hinweis": "Brutufer nicht betreten, Abstand halten.",
       "hoertext": "Am klaren Fließ lohnt ein ruhiger Blick. Manchmal sitzt dort ein kleiner Vogel mit riesigem Schnabel. Türkise und orange – das ist der Eisvogel. Er wartet. Dann stürzt er ins Wasser und kommt mit einem Fisch wieder hoch. Zum Brüten braucht er Steilwände am Ufer. Ohne Ruhe verschwindet er. Im Spreewald ist er ein besonderer Moment. Wenn du ihn siehst, bleib still. Oft kommt er zurück zum gleichen Ansitz. Und dann wirkt die Landschaft plötzlich wie ein Film – kurz, bunt und ganz nah. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Fische",
+      "Wasserinsekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Coraciiformes",
+      "familie": "Alcedinidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "16–17 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "25–35 g"
+      },
+      {
+        "key": "alter",
+        "wert": "5–10 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "wasserlebend",
+      "fleischfresser",
+      "tarnung"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Kleine Fische",
+        "kurztext": "Taucht nach Fischen."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet in Uferhöhlen.",
+        "toSpeciesId": "schwarzerle"
+      }
+    ]
   },
   {
     "id": "europaeische-laerche",
@@ -271,7 +670,126 @@
       ],
       "hinweis": "",
       "hoertext": "Nadelbaum – und trotzdem werden im Herbst die Nadeln gelb und fallen ab. Das ist die Europäische Lärche, unser einziger heimischer Nadelbaum mit diesem Trick. Im Frühjahr wirkt sie hellgrün und frisch. Im Winter steht sie kahl zwischen Kiefern. An den Kurztrieben sitzen die Nadeln in kleinen Büscheln. Fühl sie mal – sie sind weicher, als du denkst. An den Lehrpfaden der Rauener Berge findest du sie oft in gemischten Beständen. Wenn der Wald golden wird, schau genau hin. Manchmal ist es keine Laubbaum-Krone – sondern eine Lärche. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Nadeln"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "25–40 m"
+      },
+      {
+        "key": "alter",
+        "wert": "200–400 Jahre"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "laubabwerfend",
+      "herbstfarbe",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Knackt die Zapfen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Vögel",
+        "kurztext": "Nisten in den Ästen."
+      }
+    ]
+  },
+  {
+    "id": "fischadler",
+    "nameDe": "Fischadler",
+    "nameLat": "Pandion haliaetus",
+    "kategorie": "fauna",
+    "kurztext": "Vom Turm siehst du den See – und manchmal einen Fischadler, der senkrecht ins Wasser fällt.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Vom Turm siehst du den See – und manchmal einen Fischadler, der senkrecht ins Wasser fällt.",
+      "erkennung": [
+        "Weißer Bauch, dunkle Flügel, geknickte Haltung",
+        "Steht über dem See, stürzt dann senkrecht",
+        "Horst oft auf einem Strommast"
+      ],
+      "lebensraum": "An den klaren Seen des Müritz-Nationalparks – Ostufer bei Speck, Federow und Boek, mit freiem Anflug auf Fische.",
+      "funFacts": [
+        "Er schüttelt das Wasser ab, noch bevor er den Fisch wendet.",
+        "Hier brüten mehr Fischadler als fast überall in Deutschland.",
+        "Den Horst siehst du oft auf einem Strommast, nicht im Wald."
+      ],
+      "hinweis": "Abstand zum Horst, nicht anlocken.",
+      "hoertext": "Schau vom Käflingsbergturm über die Seen. Irgendwo da unten jagt der Fischadler. Er ist größer als ein Bussard, mit weißem Bauch und langen, geknickten Flügeln. Oft steht er in der Luft, fast ohne Flügelschlag, und starrt aufs Wasser. Dann fällt er senkrecht. Spritzer, und schon hat er einen Fisch in den Fängen. Im Müritz-Nationalpark brüten besonders viele Paare. Horste sitzen auf Strommasten, gut sichtbar vom Weg und vom Turm. Nimm ein Fernglas mit, wenn du eins hast, und bleib ruhig. Der Jäger braucht Distanz, du brauchst Geduld. Der Moment dauert Sekunden – die Erinnerung den ganzen Tag."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Fische"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Accipitriformes",
+      "familie": "Pandionidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "55–58 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "145–170 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "1,2–2,0 kg"
+      },
+      {
+        "key": "tempo",
+        "wert": "Stoßflug über 70 km/h"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "fleischfresser",
+      "luftbewohnend",
+      "wanderer",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Fische",
+        "kurztext": "Stürzt senkrecht auf Beute im See."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Strommast-Horst",
+        "kurztext": "Brütet oft auf Masten am Ostufer."
+      }
+    ]
   },
   {
     "id": "fischotter",
@@ -297,7 +815,55 @@
       ],
       "hinweis": "Ufer ruhig lassen, nicht nachstellen.",
       "hoertext": "Am Ufer liegt manchmal eine Spur, die wie ein Geheimnis wirkt. Fischreste, eine Rutsche, ein Abdruck mit Schwimmhaut – vielleicht war der Fischotter da. Selbst siehst du ihn selten. Er ist scheu, nachtaktiv und blitzschnell im Wasser. In Brandenburg hat er sich erholt. Aber er braucht ruhige Ufer ohne ständigen Stress. Wenn du suchst, such Spuren – nicht das Tier. Das ist oft der spannendere Fund. Denn dann weißt du: Hier lebt jemand, der das Gewässer wirklich nutzt. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "sehr-selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Fische",
+      "Frösche",
+      "Krebse"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Carnivora",
+      "familie": "Mustelidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "60–90 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "6–12 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "10–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "nachtaktiv",
+      "wasserlebend",
+      "fleischfresser",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Fische",
+        "kurztext": "Jagt im Wasser."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Uferhöhlen",
+        "kurztext": "Lebt in Uferhöhlen."
+      }
+    ]
   },
   {
     "id": "gepflasterte-wasserrinne",
@@ -355,7 +921,49 @@
       ],
       "hinweis": "Moospolster nicht betreten.",
       "hoertext": "Über dem Moor tanzt manchmal eine Libelle mit heller Zeichnung am Hinterleib. Die Große Moosjungfer mag es nass und moosig. Sie braucht Verlandungszonen mit Torfmoosen – keine sterilen Gräben. Deshalb ist sie ein gutes Zeichen: Hier funktioniert das Moor noch. Schau im Sommer ruhig an den Rand der Wasserflächen. Und bleib auf dem Steg oder Weg. Die weichen Polster sind ihr Wohnzimmer – und das Fundament des Moores. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Kleine Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Odonata",
+      "familie": "Libellulidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "6–8 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "1–2 Jahre"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "moor",
+      "wasserlebend",
+      "luftbewohnend",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Mücken",
+        "kurztext": "Fängt Mücken im Flug."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Larven im Moorgewässer.",
+        "toSpeciesId": "torfmoos"
+      }
+    ]
   },
   {
     "id": "grosser-feuerfalter",
@@ -381,7 +989,48 @@
       ],
       "hinweis": "",
       "hoertext": "Auf der Feuchtwiese blitzt manchmal etwas Kupferfarbenes auf. Der Große Feuerfalter sieht aus wie eine kleine Flamme im Gras. Seine Raupen brauchen Ampfer – und die Wiese darf nicht zu früh gemäht werden. Entwässerung macht ihm ebenfalls zu schaffen. Wenn du ihn siehst, hast du also mehr als einen schönen Falter gefunden. Du siehst ein Stück Pflege, das funktioniert. Bleib auf dem Weg, schau zu, und nimm mit: Schönheit hier hängt an Wasser und Zeit. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Lepidoptera",
+      "familie": "Lycaenidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "3–4 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "2–3 Wochen"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "luftbewohnend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "nameDe": "Blüten",
+        "kurztext": "Saugt Nektar."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Wird von Vögeln gefressen."
+      }
+    ]
   },
   {
     "id": "hangeltau-12m",
@@ -440,7 +1089,53 @@
       ],
       "hinweis": "",
       "hoertext": "Such in der Hecke die Zweige mit den runden, gesägten Blättern. Im Vorfrühling hängen schon die Kätzchen, lange bevor das Laub da ist. Das ist die Haselnuss. Fass ein Kätzchen an – es staubt gelb, das ist der Pollen. Später sitzen die Nüsse in einer gezackten Hülle. Eichhörnchen und Kleiber kennen den Platz oft früher als du. Am Natter-Pfad säumt sie den Weg mit Rose und Weide. Im Herbst findest du leere Schalen. Bleib auf dem Pfad, die Hecke ist Lebensraum, kein Vorratsschrank. Ein Strauch, den du tasten und später wiederfinden kannst."
-    }
+    },
+    "gruppe": "straeucher",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Haselnüsse",
+      "Kätzchen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Betulaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "3–6 m"
+      },
+      {
+        "key": "frucht",
+        "wert": "Haselnuss"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Februar–März"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "fruchttragend",
+      "bluete"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Liebt die Nüsse."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Siebenschläfer",
+        "kurztext": "Klettert für die Ernte."
+      }
+    ]
   },
   {
     "id": "haushuhn",
@@ -470,7 +1165,54 @@
       ],
       "hinweis": "Nicht frei füttern – krank durch Extra-Körner.",
       "hoertext": "Vor dir scharrt ein Huhn, als hätte es einen Auftrag. Es gräbt den Boden um und pickt, was du übersehen hast: Körner, Käfer, Steinchen. Der Schnabel ist Werkzeug. Der Staub auf den Federn ist Pflege, kein Dreck. Ein Staubbad hält Parasiten fern. Fütter nicht aus der Tasche. Extra-Körner machen Tiere krank. Um 16 Uhr darfst du mit den Betreuern füttern. Bis dahin schau zu, wie der Pulk den Hof liest. Hahn und Henne klingen verschieden. An der Panke lernst du den Alltag, nicht die Vitrine. Bleib ruhig. Das Huhn kommt näher, wenn du nicht jagst."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Körner",
+      "Insekten",
+      "Grünfutter"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Galliformes",
+      "familie": "Phasianidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "30–40 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "2–3 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "5–10 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "sozial",
+      "allesfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Körner",
+        "kurztext": "Picken Körner vom Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Stall",
+        "kurztext": "Lebt im Hühnerstall."
+      }
+    ]
   },
   {
     "id": "hauskaninchen",
@@ -498,7 +1240,54 @@
       ],
       "hinweis": "Nicht hinterherjagen, nicht aus dem Gehege holen.",
       "hoertext": "Das Kaninchen sitzt und rührt sich kaum. Die Ohren drehen sich trotzdem. Es hat dich gehört, bevor du es gesehen hast. Lange Ohren sind Radar und Kühlung. Die Hinterläufe warten auf den Sprung. Das ist kein Stofftier. Jagen stresst, Hochheben auch. Schau, wie es Heu nagt. Um 16 Uhr darfst du mitfüttern, nicht vorher. Streicheln nur mit Betreuer. An der Panke lernst du, still zu bleiben. Wer wartet, sieht mehr als wer greift. Das Kaninchen bleibt im Gehege, du bleibst draußen. Genau so bleibt der Umgang fair. Bleib einen Moment stehen und atme mit."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Gras",
+      "Kräuter",
+      "Gemüse"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Lagomorpha",
+      "familie": "Leporidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "30–40 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "1–2 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "8–12 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "sozial",
+      "tagaktiv",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Gras",
+        "kurztext": "Frisst Gras und Kräuter."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Stall",
+        "kurztext": "Lebt im Gehege."
+      }
+    ]
   },
   {
     "id": "heckenrose",
@@ -527,7 +1316,53 @@
       ],
       "hinweis": "Stacheln – Zweig nicht in die Hand nehmen.",
       "hoertext": "Schau in die Hecke, nicht nur auf den Weg. Im Mai stehen rosa Schalen offen, oft einzeln, nicht in Dolden. Das ist die Heckenrose. Die Zweige biegen sich in Bögen und tragen Stacheln. Fass nicht zu. Im Herbst sitzen die Hagebutten wie kleine Laternen. Vögel holen sie, wenn das Grünland kahl wird. Am Natter-Pfad steht sie mit Liguster, Traubenkirsche, Salweide und Haselnuss. Im Frühling summt es. Such eine offene Blüte und zähl die Blätter – meist fünf. Dann geh weiter, die Hecke bleibt stehen. Ein Strauch, der den Pfad einfasst und den Insekten Arbeit gibt."
-    }
+    },
+    "gruppe": "straeucher",
+    "seltenheit": "haeufig",
+    "gefahr": 2,
+    "nahrung": [
+      "Hagebutten",
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Rosales",
+      "familie": "Rosaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "1–3 m"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Juni–Juli"
+      },
+      {
+        "key": "frucht",
+        "wert": "Hagebutte"
+      }
+    ],
+    "merkmale": [
+      "dornig",
+      "bluete",
+      "fruchttragend",
+      "laubabwerfend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Sammelt Nektar an den Blüten.",
+        "toSpeciesId": "honigbiene"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Fressen Hagebutten im Winter."
+      }
+    ]
   },
   {
     "id": "heidekraut-seidenbiene",
@@ -555,7 +1390,49 @@
       ],
       "hinweis": "",
       "hoertext": "Knie dich nicht in die Blüten – hör einfach hin. Zur Heideblüte summt es ordentlich über dem Lila. Die Heidekraut-Seidenbiene holt Pollen fast nur von Calluna. Verschwindet die Heide, verschwindet sie. Nistplätze braucht sie im sonnigem Sand. Hier in Sielmanns Naturlandschaft trifft sie beides. Ein kleines Tier mit großer Abhängigkeit. Deshalb ist jeder Meter intakte Heide mehr als nur ein schönes Foto. Wenn du das Summen hörst, hörst du Spezialisierung. Bleib auf dem Weg und lass die Blüten den Bienen. Nimm dir eine Minute und folge einer Biene von Blüte zu Blüte."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar",
+      "Pollen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Hymenoptera",
+      "familie": "Colletidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "8–10 mm"
+      },
+      {
+        "key": "alter",
+        "wert": "1 Jahr"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "bestaeuber",
+      "heide",
+      "sozial"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Spezialistin der Heide.",
+        "toSpeciesId": "besenheide"
+      },
+      {
+        "typ": "frisst",
+        "kurztext": "Wird von Vögeln gefressen.",
+        "toSpeciesId": "braunkehlchen"
+      }
+    ]
   },
   {
     "id": "heidelerche",
@@ -581,7 +1458,54 @@
       ],
       "hinweis": "Hunde anleinen – Bodenbrüter!",
       "hoertext": "Halt kurz an und hör nach oben. Manchmal singt die Heidelerche, während du nur Sand und Heide siehst. Sie ist unauffällig braun, aber stimmlich präsent und klar. Am Boden brütet sie – deshalb sind freilaufende Hunde hier ein echtes Problem. Offene Heide und lichte Kiefernwälder sind ihr Zuhause. Wenn du den Gesang hörst, hast du den Charaktervogel der Heide entdeckt. Bleib auf dem Weg, halte den Hund kurz und genieß das Konzert. Es ist leise, ausdauernd und gehört zu diesem Ort wie das Heidekraut selbst. Ein Vogel, den man oft zuerst mit den Ohren findet."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Passeriformes",
+      "familie": "Alaudidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "14–16 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "25–30 g"
+      },
+      {
+        "key": "alter",
+        "wert": "3–5 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "saenger",
+      "tagaktiv",
+      "heide",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten am Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet in der Heide.",
+        "toSpeciesId": "besenheide"
+      }
+    ]
   },
   {
     "id": "honigbiene",
@@ -609,7 +1533,50 @@
       ],
       "hinweis": "Kasten geschlossen lassen, Bienen nicht reizen.",
       "hoertext": "Schau durchs Glas. Da läuft keine einzelne Biene – da arbeitet ein Staat. Honigbienen teilen sich die Aufgaben. Die Königin legt. Arbeiterinnen füttern Brut, bauen Waben, holen Nektar. Aus dem Nektar wird Honig. Manche tanzen auf der Wabe. Der Tanz ist eine Landkarte: Richtung und Entfernung zur Blüte. Im Kinderwald steht dieser Kasten extra zum Zuschauen. Daneben nisten Wildbienen allein im Hotel. Zwei Strategien, ein Wald. Bleib ruhig. Klopf nicht gegen das Glas. Was du siehst, passiert draußen an jeder blühenden Weide genauso – nur ohne Fenster. Hier darfst du das Innere einmal verstehen."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar",
+      "Pollen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Hymenoptera",
+      "familie": "Apidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "12–15 mm"
+      },
+      {
+        "key": "alter",
+        "wert": "6 Wochen–5 Jahre"
+      }
+    ],
+    "merkmale": [
+      "sozial",
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Sammelt Nektar an Blüten.",
+        "toSpeciesId": "heckenrose"
+      },
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Robinie ist wichtige Tracht.",
+        "toSpeciesId": "robinie"
+      }
+    ]
   },
   {
     "id": "hummel",
@@ -635,7 +1602,50 @@
       ],
       "hinweis": "Nester im Boden nicht öffnen.",
       "hoertext": "Hörst du dieses tiefe Brummen am Waldrand? Das könnte eine Hummel sein. Sie sieht aus wie eine flauschige Flugmaschine. Und sie kann etwas Besonderes: Auch wenn es kühl ist, wird sie warm genug zum Fliegen. Deshalb bestäubt sie früher und an schattigen Stellen. Ihr Nest liegt oft im Boden oder in einem alten Mäuseloch. Blütenvielfalt ist ihr Tankstelle. Wenn du eine siehst, bleib kurz stehen. Dieses Brummen ist der Soundtrack eines gesunden Rands. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar",
+      "Pollen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Hymenoptera",
+      "familie": "Apidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "15–25 mm"
+      },
+      {
+        "key": "alter",
+        "wert": "1 Jahr"
+      }
+    ],
+    "merkmale": [
+      "sozial",
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Bestäubt Heideblüten.",
+        "toSpeciesId": "besenheide"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Wird von Vögeln gefressen."
+      }
+    ]
   },
   {
     "id": "igel",
@@ -661,7 +1671,54 @@
       ],
       "hinweis": "Nicht anfassen, nicht füttern mit Milch.",
       "hoertext": "Unter dem Reisighaufen kann tagsüber ein Gast schlafen: der Igel. Nachts wird er aktiv und sucht Käfer, Würmer und Schnecken. Siehst du ihn selten, ist das normal. Er meidet den Trubel. An Waldlehrpfaden findest du eher Spuren und Verstecke. Laub, Totholz und dichte Ecken sind sein Lebensraum. Bitte nicht anfassen und keine Milch hinstellen – das schadet ihm. Ein ungestörter Haufen Reisig hilft mehr als jedes Foto. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Insekten",
+      "Schnecken",
+      "Würmer"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Eulipotyphla",
+      "familie": "Erinaceidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "20–30 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "0,8–1,5 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "4–7 Jahre"
+      }
+    ],
+    "merkmale": [
+      "dornig",
+      "nachtaktiv",
+      "wehrhaft",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Schnecken",
+        "kurztext": "Frisst Schnecken und Würmer."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Laubhaufen",
+        "kurztext": "Überwintert im Laub."
+      }
+    ]
   },
   {
     "id": "kiefer",
@@ -687,7 +1744,49 @@
       ],
       "hinweis": "",
       "hoertext": "Schau den Stamm nach oben. Wird er orange und schuppig? Dann steht vor dir wahrscheinlich eine Waldkiefer. Ihre Nadeln wachsen zu zweit in einem Bündel. Zähl nach. Auf Brandenburgs Sandböden ist sie die Klassikerin. Sie braucht wenig und hält viel aus – Hitze, Trockenheit, magere Erde. Viele Lehrpfade führen durch solche Wälder. Und immer öfter siehst du dazwischen junge Laubbäume. Der Wald verändert sich – langsam, aber spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Rinde"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–40 m"
+      },
+      {
+        "key": "alter",
+        "wert": "150–300 Jahre"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "immergruen",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Baut Nester am Fuß.",
+        "toSpeciesId": "rote-waldameise"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Frisst die Samen."
+      }
+    ]
   },
   {
     "id": "kinderhochstand",
@@ -743,7 +1842,48 @@
       ],
       "hinweis": "",
       "hoertext": "Früh im Jahr, wenn andere Falter noch fehlen, flattert manchmal schon Orange am Wegrand. Der Kleine Fuchs hat den Winter als Falter überstanden. Deshalb ist er früh dran. Seine Raupen leben an Brennnesseln. Klapp die Flügel zu – und er verschwindet fast, weil die Unterseite wie ein Blatt wirkt. An sonnigen Moorrändern und Wegen siehst du ihn oft auf warmen Steinen. Ein kleiner Frühjahrsgruß mit Tarnkappe. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Lepidoptera",
+      "familie": "Nymphalidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "4–5 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "2–3 Wochen"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "luftbewohnend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "nameDe": "Blüten",
+        "kurztext": "Saugt Nektar."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Wird von Vögeln gefressen."
+      }
+    ]
   },
   {
     "id": "knabenkraut",
@@ -769,7 +1909,48 @@
       ],
       "hinweis": "Nicht pflücken, nur anschauen.",
       "hoertext": "Im Frühsommer stehen auf manchen Feuchtwiesen dichte Blütenstände wie kleine Kerzen. Das können Knabenkräuter sein – heimische Orchideen. Sie wirken zart, sind aber streng. Zu trocken, zu viel Dünger – und sie verschwinden. Deshalb sind sie Botschafter. Wo sie blühen, stimmt oft noch das Wasser im Boden. Schau dir die Blätter an: Viele sind gefleckt. Und dann genieß den Moment. Pflücken zerstört mehr als nur eine Blüte – nämlich Vertrauen in den Ort. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Liliopsida",
+      "ordnung": "Asparagales",
+      "familie": "Orchidaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "15–50 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juni"
+      }
+    ],
+    "merkmale": [
+      "bluete",
+      "moor",
+      "tarnung",
+      "bestaeuber"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Bestäubt die Orchidee.",
+        "toSpeciesId": "wildbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Torfmoos",
+        "kurztext": "Wächst auf feuchtem Moorboden."
+      }
+    ]
   },
   {
     "id": "konik",
@@ -798,7 +1979,54 @@
       ],
       "hinweis": "Nicht füttern, nicht annähern.",
       "hoertext": "Siehst du graue Pferde in der Weite? Koniks. Sie wirken wild und sind hier Landschaftspfleger. Mit dem Verbiss halten sie die Heide offen und bremsen den Jungwald. Ohne sie würde mehr Gehölz nachkommen. Bitte nicht füttern und klaren Abstand halten. Sie sind Teil des Naturschutzkonzepts, keine Streicheltiere. Wenn sie den Kopf heben und weiterziehen, hast du gesehen, wie Pflege in dieser Landschaft aussieht: leise, vierbeinig, wirksam. Ein lebendiges Werkzeug für offene Flächen – und ein Highlight für geduldige Beobachter. Genieß den Anblick, ohne die Tiere zu stören oder zu locken."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "selten",
+    "gefahr": 3,
+    "nahrung": [
+      "Gras",
+      "Kräuter",
+      "Zweige"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Perissodactyla",
+      "familie": "Equidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "180–200 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "300–400 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "20–25 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "sozial",
+      "tagaktiv",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Gras",
+        "kurztext": "Weidet auf offenen Flächen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Weide",
+        "kurztext": "Lebt auf großen Weiden."
+      }
+    ]
   },
   {
     "id": "kranich",
@@ -824,7 +2052,55 @@
       ],
       "hinweis": "Zur Brutzeit großen Abstand halten.",
       "hoertext": "Manchmal hörst du sie, bevor du sie siehst: ein trompetender Ruf über dem Moor. Kraniche. Groß, grau, mit langem Hals. Im Herbst ziehen sie in Formationen und prägen den Himmel. Zur Brutzeit brauchen sie Ruhe in Mooren und Feuchtwäldern. In Brandenburg sind sie zurückgekommen – ein Erfolg, den man hören kann. Wenn du einem Paar begegnest, bleib weit weg. Der schönste Moment ist oft der Ruf selbst. Er macht die Weite spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Insekten",
+      "Kleintiere",
+      "Körner"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Gruiformes",
+      "familie": "Gruidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "100–120 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "4–6 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "15–20 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "wanderer",
+      "saenger",
+      "sozial",
+      "allesfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Sucht Nahrung auf Wiesen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Moore",
+        "kurztext": "Rastet in Mooren."
+      }
+    ]
   },
   {
     "id": "libelle",
@@ -853,7 +2129,48 @@
       ],
       "hinweis": "Nicht fangen – beobachten reicht.",
       "hoertext": "Schau über das Wasser und die Wiese. Plötzlich knistert etwas in der Luft: eine Libelle. Große Augen, lange Flügel, schneller Kurs. Sie jagt Insekten und braucht Feuchtplätze für ihre Larven. Hier am Wittstocker Wasserspielplatz und an der Dosse passt das Thema: Wasser, Sonne, offene Flächen. Die großen Kunst-Libellen am Platz erinnern an echte Verwandte in der Natur. Such den Himmel über dem Matschbereich und der Rinne. Manchmal siehst du echte Libellen, manchmal nur ihr Abbild in Stahl und Glas. Beides erzählt dieselbe Geschichte: Ohne Wasser kein Libellenleben. Bleib einen Moment stehen und folge ihrem Flug mit den Augen."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Kleine Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Odonata",
+      "familie": "Libellulidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "5–8 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "1–2 Jahre"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "wasserlebend",
+      "luftbewohnend",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Mücken",
+        "kurztext": "Fängt Mücken im Flug."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Gewässer",
+        "kurztext": "Larven im Wasser."
+      }
+    ]
   },
   {
     "id": "libellen-installation",
@@ -909,7 +2226,53 @@
       ],
       "hinweis": "Laichgewässer nicht betreten.",
       "hoertext": "Stell dir einen flachen Teich im frühen Frühjahr vor. Und dann werden Frösche blau. Wirklich blau. Das sind die Männchen des Moorfrosches zur Laichzeit. Es wirkt wie ein kurzes Schauspiel, das du kaum glauben magst. Am Moorlehrpfad Raddusch ist er sogar Maskottchen – der „Mofo“. Danach wird er wieder unauffällig und lebt in der feuchten Umgebung. Wenn du zur rechten Zeit da bist, vergiss Fotos für einen Moment. Schau einfach zu. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "amphibien",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Spinnen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Amphibia",
+      "ordnung": "Anura",
+      "familie": "Ranidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "5–7 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "10–20 g"
+      },
+      {
+        "key": "alter",
+        "wert": "5–8 Jahre"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "tarnung",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten im Moor."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Versteckt sich im Moos.",
+        "toSpeciesId": "torfmoos"
+      }
+    ]
   },
   {
     "id": "neuntoeter",
@@ -935,7 +2298,123 @@
       ],
       "hinweis": "",
       "hoertext": "An buschigen Rändern lohnt der Blick auf Sitzwarten. Der Neuntöter sitzt aufrecht und beobachtet die Fläche. Männchen tragen eine dunkle Augenbinde – wie eine Maske. Manchmal spießt er Beute auf Dornen. Klingt grausam, ist aber Vorratshaltung. In der Heide findet er Hecken und offene Jagdflächen zugleich. Wenn du ihn siehst, siehst du einen kleinen Räuber mit System. Bleib distanziert und ruhig. Die Nähe zu Dornbüschen und offenem Sand macht diesen Vogel möglich – und erinnert daran, warum Ränder so wichtig sind. Ein scharfer Blick lohnt sich hier ganz besonders gut."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Fische",
+      "Frösche",
+      "Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Pelecaniformes",
+      "familie": "Ardeidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "70–80 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "0,9–1,5 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "10–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "wasserlebend",
+      "tarnung",
+      "fleischfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Fische",
+        "kurztext": "Lauert im Schilf."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Schilf",
+        "kurztext": "Brütet im Schilf."
+      }
+    ]
+  },
+  {
+    "id": "queller",
+    "nameDe": "Queller",
+    "nameLat": "Salicornia europaea",
+    "kategorie": "flora",
+    "kurztext": "Im Sommer knackt er unter den Sohlen – im Herbst färbt er die Schlickkante knallrot.",
+    "aliases": [
+      "Strandqueller"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Sommer knackt er unter den Sohlen – im Herbst färbt er die Schlickkante knallrot.",
+      "erkennung": [
+        "Fleischige, gliederige Stängel ohne Blätter",
+        "Grün im Sommer, leuchtend rot im Herbst",
+        "Wächst in der untersten Salzzone am Priel"
+      ],
+      "lebensraum": "Quellerzone der Salzwiese vor St. Peter-Ording – nass, salzig, täglich von der Tide erreicht.",
+      "funFacts": [
+        "Er speichert Salz, bis die Pflanze rot stirbt.",
+        "Früher brannte man ihn zu Soda für Glas.",
+        "Trittspuren siehst du wochenlang – bleib auf dem Steg."
+      ],
+      "hinweis": "Nicht pflücken, Steg nicht verlassen.",
+      "hoertext": "Schau an den Prielrand, ganz nach unten zur nassen Kante. Die dicken, gliederigen Stängel ohne echte Blätter – das ist Queller. Im Sommer knackt er grün, im Herbst färbt er die Zone knallrot. Er trinkt Salzwasser und lagert das Salz, bis er selbst aufgibt. Früher brannte man ihn zu Soda, um Glas zu schmelzen. Deshalb heißt er auch Glasschmelz. Heute ist er Zeiger für eine lebendige Salzwiese. Trittst du hinein, bleibt die Spur lange. Deshalb bleibst du auf dem Steg. Vom Weg aus siehst du genug: ein rotes Band, das die Tide malt. Nimm die Farbe mit, und lass die Pflanze stehen."
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Salzige Triebe"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Caryophyllales",
+      "familie": "Amaranthaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "10–30 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "August–September"
+      }
+    ],
+    "merkmale": [
+      "herbstfarbe",
+      "wasserlebend",
+      "schluesselart",
+      "salzwiese"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Prielrand",
+        "kurztext": "Besiedelt die unterste Salzzone."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Salz",
+        "kurztext": "Speichert Salz, bis er rot wird."
+      }
+    ]
   },
   {
     "id": "quellsteine-wasserdueisen",
@@ -1022,7 +2501,54 @@
       ],
       "hinweis": "Nicht anfassen, ruhig vorbeigehen.",
       "hoertext": "Am Steg liegt manchmal etwas Langes in der Sonne. Keine Panik – oft ist es die Ringelnatter. Sie ist ungiftig. Typisch sind die hellen Flecken hinter dem Kopf. Sie jagt Frösche und Fische und schwimmt erstaunlich elegant. Wenn du sie störst, verschwindet sie meist schnell. Manchmal stellt sie sich tot. Das wirkt skurril, ist aber ihr Trick. Einfach Abstand halten und zuschauen. Ein lebendiger Uferstreifen braucht genau solche Nachbarn. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "reptilien",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Frösche",
+      "Kröten",
+      "Fische"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Reptilia",
+      "ordnung": "Squamata",
+      "familie": "Colubridae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "80–120 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "150–250 g"
+      },
+      {
+        "key": "alter",
+        "wert": "10–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "schuppig",
+      "wasserlebend",
+      "tarnung",
+      "fleischfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "kurztext": "Jagt Frösche im Moor.",
+        "toSpeciesId": "moorfrosch"
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Ufer",
+        "kurztext": "Lebt am Wasser."
+      }
+    ]
   },
   {
     "id": "robinie",
@@ -1048,7 +2574,50 @@
       ],
       "hinweis": "",
       "hoertext": "Riechst du im Mai etwas Süßes im Wald? Schau nach weißen Blütentrauben. Die Robinie stammt aus Nordamerika und wurde hier angepflanzt. Bienen lieben sie. Menschen nutzten ihr hartes Holz. Gleichzeitig kann sie heimische Pflanzen verdrängen. An Waldlehrpfaden ist sie deshalb ein spannendes Thema: nützlich und problematisch zugleich. Erkenne sie an den gefiederten Blättern und den Dornen. Natur ist selten nur „gut“ oder „schlecht“ – manchmal ist sie beides. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar",
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fabales",
+      "familie": "Fabaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–25 m"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juni"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "dornig",
+      "bluete",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Robinie ist eine wichtige Tracht.",
+        "toSpeciesId": "honigbiene"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Fressen die Samen."
+      }
+    ]
   },
   {
     "id": "rotbauchunke",
@@ -1074,7 +2643,53 @@
       ],
       "hinweis": "Nicht anfassen, Laichgewässer meiden.",
       "hoertext": "Am Teich hörst du im Frühjahr manchmal ein weiches „unk-unk“. Das ist die Rotbauchunke. Von oben wirkt sie unscheinbar. Dreht sie sich um, leuchtet der Bauch rot und orange. Das ist Warnung: Finger weg, ich bin ungenießbar. Sie liebt sonnige Flachgewässer in Mooren und Niederungen. Wenn du den Ruf hörst, hast du schon gewonnen. Bleib am Ufer, lausche – und lass den Teich den Unken. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "amphibien",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Spinnen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Amphibia",
+      "ordnung": "Anura",
+      "familie": "Bombinatoridae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "4–5 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "5–10 g"
+      },
+      {
+        "key": "alter",
+        "wert": "10–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "wehrhaft",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt kleine Insekten."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Pfützen",
+        "kurztext": "Laicht in Pfützen."
+      }
+    ]
   },
   {
     "id": "rotbuche",
@@ -1102,7 +2717,54 @@
       ],
       "hinweis": "Schilder lesen, nichts pflücken, Wege nutzen.",
       "hoertext": "Vor dir steht eine Buche mit glatter silbergrauer Rinde. Tast sie vorsichtig. Sie fühlt sich kühl an. Schau aufs Holzschild. Im Arboretum Lüttgen Dreetz stehen rund zehn Buchenarten, nicht nur eine. Vergleich Blatt, Knospe und Stamm. Die Rotbuche ist die Heimische. Andere kommen von weiter her, solange sie das Klima aushalten. Buche, Eiche und Kastanie gehören zur selben Familie. Deshalb stehen sie hier nebeneinander. Nimm ein Blatt in den Blick, ohne es abzureißen. Oval, glatter Rand, im Herbst oft kupfrig. Dann geh weiter zum nächsten Schild. Du lernst die Arten, indem du sie vergleichst. Genau dafür ist dieser Waldgarten da."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Bucheckern",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "25–35 m"
+      },
+      {
+        "key": "alter",
+        "wert": "200–300 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Buchecker"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "herbstfarbe",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Sammelt Bucheckern."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Höhlen in alten Buchen."
+      }
+    ]
   },
   {
     "id": "rote-roehrenspinne",
@@ -1128,7 +2790,48 @@
       ],
       "hinweis": "Röhren und Sandstellen nicht aufgraben.",
       "hoertext": "Schau vorsichtig auf den Sand, aber stich nicht hinein. Die Rote Röhrenspinne lebt in Wohnröhren unter der Oberfläche. Die Männchen leuchten rot und schwarz, die Weibchen bleiben eher versteckt. Wenn der Nachwuchs groß ist, wird die Mutter selbst zur Nahrung. Klingt hart – sichert aber das Überleben der nächsten Generation. In der Heide findet sie warme, offene Böden. Bleib auf dem Weg und tritt nicht in empfindliche Stellen. Was unter deinen Füßen liegt, ist oft wertvoller als es aussieht. Ein kleines Drama im Sand – und ein Grund, hier behutsam zu gehen."
-    }
+    },
+    "gruppe": "spinnen",
+    "seltenheit": "sehr-selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Arachnida",
+      "ordnung": "Araneae",
+      "familie": "Eresidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "1–1,5 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "2–3 Jahre"
+      }
+    ],
+    "merkmale": [
+      "tarnung",
+      "wehrhaft",
+      "insektenfresser",
+      "nachtaktiv"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten im Netz."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Steine",
+        "kurztext": "Lebt unter Steinen."
+      }
+    ]
   },
   {
     "id": "rote-waldameise",
@@ -1154,7 +2857,50 @@
       ],
       "hinweis": "Nester nicht betreten oder öffnen – geschützt.",
       "hoertext": "Vor dir liegt ein Hügel aus Nadeln. Rühr ihn nicht an. Das ist ein Nest der Roten Waldameise – eine ganze Stadt. Drinnen arbeiten Hunderttausende. Draußen siehst du Straßen voller Verkehr. Sie halten Schädlinge in Schach und tragen Samen durch den Wald. Deshalb stehen die Nester unter Schutz. Am Lehrpfad kannst du das System von außen bestaunen. Ein Haufen Nadeln – und darunter eine der bestorganisierten Gemeinschaften im Wald. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "haeufig",
+    "gefahr": 2,
+    "nahrung": [
+      "Insekten",
+      "Honigtau"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Hymenoptera",
+      "familie": "Formicidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "4–9 mm"
+      },
+      {
+        "key": "alter",
+        "wert": "1–2 Jahre"
+      }
+    ],
+    "merkmale": [
+      "sozial",
+      "baumeister",
+      "wehrhaft",
+      "insektenfresser",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Jagt Insekten im Wald."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Baut Nester am Fuß.",
+        "toSpeciesId": "kiefer"
+      }
+    ]
   },
   {
     "id": "schaf",
@@ -1183,7 +2929,53 @@
       ],
       "hinweis": "Nicht in die Herde drängen, Hufe ernst nehmen.",
       "hoertext": "Das Schaf sieht weich aus. Der Blick ist fest, der Huf hart. Wolle ist kein Kostüm, sie wächst und will geschoren werden. Das ist Pflege. Im Pulk fühlt sich das Tier sicher. Allein wird es unruhig. Dräng dich nicht in die Herde. Fütter nicht aus der Hand, außer um 16 Uhr mit den Leuten vom Hof. Streicheln nur mit Betreuer. Schau erst, wie es kaut, wie es der Gruppe folgt. An der Panke lernst du ein Nutztier kennen, kein Kissen. Wer Abstand hält, bleibt länger willkommen. Bleib stehen und hör dem Kauen zu."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Gras",
+      "Kräuter"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Artiodactyla",
+      "familie": "Bovidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "120–140 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "50–80 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "10–12 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "sozial",
+      "tagaktiv",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Gras",
+        "kurztext": "Weidet auf Wiesen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Weide",
+        "kurztext": "Lebt auf der Weide."
+      }
+    ]
   },
   {
     "id": "schwarzerle",
@@ -1209,7 +3001,49 @@
       ],
       "hinweis": "",
       "hoertext": "Am nassen Ufer stehen Bäume, die wirken, als laufen sie auf Stelzen. Das ist oft die Schwarzerle. Sie kann im dauernd nassen Boden leben, weil sie sich Stickstoff mit Hilfe von Bakterien holt. Im Spreewald und in Mooren prägt sie ganze Erlenbrüche. Schau im Winter auf die kleinen zapfenartigen Früchte – dann erkennst du sie sicher. Wo Erlen stehen, beginnt oft die Geschichte vom Wasser. Ein Baum, der nasse Füße nicht fürchtet. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Betulaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "15–25 m"
+      },
+      {
+        "key": "alter",
+        "wert": "80–120 Jahre"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "wasserlebend",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "kurztext": "Nagt Rinde und fällt Weichhölzer.",
+        "toSpeciesId": "biber"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet in Uferhöhlen.",
+        "toSpeciesId": "eisvogel"
+      }
+    ]
   },
   {
     "id": "schwarzstorch",
@@ -1235,7 +3069,54 @@
       ],
       "hinweis": "Sofort Abstand halten, nicht nachsetzen.",
       "hoertext": "Nicht jeder Storch steht auf dem Nest neben dem Dorf. Der Schwarzstorch ist dunkel, scheu und wählt den stillen Wald. Nahrung sucht er an kleinen Bächen und Moorgewässern. Wenn du einen siehst, hast du Glück – und eine Verantwortung. Bleib stehen, mach keinen Lärm, geh nicht hinterher. Manche Begegnungen sind gerade deshalb stark, weil sie kurz bleiben. Ein Schatten mit rotem Schnabel – und dann ist der Wald wieder nur Wald. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "sehr-selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Fische",
+      "Frösche",
+      "Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Ciconiiformes",
+      "familie": "Ciconiidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "95–100 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "2–3 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "15–20 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "wanderer",
+      "tarnung",
+      "fleischfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Fische",
+        "kurztext": "Jagt in Fließgewässern."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Alte Bäume",
+        "kurztext": "Brütet in alten Wäldern."
+      }
+    ]
   },
   {
     "id": "stauehre-wehr",
@@ -1292,7 +3173,54 @@
       ],
       "hinweis": "",
       "hoertext": "Auf offenen Sandflächen flitzt oft ein helles Etwas von Warte zu Warte. Steinschmätzer. Beim Abflug siehst du den weißen Bürzel besonders gut. Er sitzt auf Steinen und Kuppen und jagt Insekten am Boden. Viele ziehen im Winter weit nach Afrika. Hier in der Heide findet er die offenen Flächen, die er braucht. Wer Verbuschung zulässt, verliert ihn. Ein kleiner Wanderer mit klarem Anspruch an die Landschaft. Bleib auf dem Weg und genieß den Kontrast: karger Sand, lebendiger Vogel, weiter Himmel darüber. Genau dieser Kontrast macht die Heide hier besonders spannend."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Beeren"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Passeriformes",
+      "familie": "Muscicapidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "12–14 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "15–20 g"
+      },
+      {
+        "key": "alter",
+        "wert": "3–5 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "saenger",
+      "tagaktiv",
+      "heide",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten am Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet in der Heide.",
+        "toSpeciesId": "besenheide"
+      }
+    ]
   },
   {
     "id": "stieleiche",
@@ -1318,7 +3246,129 @@
       ],
       "hinweis": "",
       "hoertext": "Vor einer großen Eiche lohnt ein zweiter Blick. Die Stieleiche trägt ihre Eicheln an langen Stielen. Merk dir das. Ihre Blätter sind gebuchtet und sitzen eher kurz gestielt. Aber das Spannendste ist nicht die Form – sondern das Leben daran. In der Rinde, in Höhlen, auf Ästen: Insekten, Pilze, Vögel. Eine alte Eiche ist eine Wohnanlage. Wenn du unter ihr stehst, stehst du in einer ganzen Geschichte aus Holz und Zeit. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Eicheln",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–35 m"
+      },
+      {
+        "key": "alter",
+        "wert": "300–800 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Eichel"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "herbstfarbe",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Vergräbt Eicheln."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Höhlen in alten Eichen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Fledermäuse",
+        "kurztext": "Schlafen in Baumhöhlen."
+      }
+    ]
+  },
+  {
+    "id": "strandflieder",
+    "nameDe": "Strandflieder",
+    "nameLat": "Limonium vulgare",
+    "kategorie": "flora",
+    "kurztext": "Lila Dolden über der Salzwiese – er drückt das Salz über die Blätter wieder raus.",
+    "aliases": [
+      "Wiederstoß",
+      "Meerlavendel"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Lila Dolden über der Salzwiese – er drückt das Salz über die Blätter wieder raus.",
+      "erkennung": [
+        "Violette Dolden über ledrigen Blättern",
+        "Wächst höher als Queller, unterhalb der Andelgraszone",
+        "Blätter oft mit Salzkruste"
+      ],
+      "lebensraum": "Mittlere Salzwiese vor St. Peter-Ording, zwischen Quellerzone und Deichfuß.",
+      "funFacts": [
+        "Salzdrüsen auf den Blättern stoßen das Gift wieder aus.",
+        "Die Blüten sind streng geschützt – nicht pflücken.",
+        "Insekten finden hier Nektar, wo wenig anderes blüht."
+      ],
+      "hinweis": "Geschützt – stehen lassen, nicht pflücken.",
+      "hoertext": "Mitten auf der Salzwiese stehen lila Dolden, als hätte jemand Flieder an den Deich gesetzt. Das ist Strandflieder. Er wächst dort, wo der Boden salzig ist, aber nicht jeden Tag unter Wasser steht. Auf den Blättern siehst du oft eine weiße Kruste. Das ist Salz, das die Pflanze aktiv rausdrückt. Queller speichert, Strandflieder stößt aus – zwei Tricks, ein Gift. Die Blüten sind geschützt. Also schau, riech, fotografier, aber lass sie stehen. Bienen und Fliegen tanken hier, wo sonst wenig blüht. Bleib auf dem Steg. Von dort ist das Lila am schönsten, und die Wiese bleibt heil."
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Caryophyllales",
+      "familie": "Plumbaginaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–50 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Juli–September"
+      }
+    ],
+    "merkmale": [
+      "bluete",
+      "salzwiese",
+      "schluesselart",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "nameDe": "Insekten",
+        "kurztext": "Nektar auf der salzigen Wiese."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Salzwiese",
+        "kurztext": "Mittlere Zone zwischen Priel und Deich."
+      }
+    ]
   },
   {
     "id": "sumpf-schwertlilie",
@@ -1346,7 +3396,48 @@
       ],
       "hinweis": "",
       "hoertext": "Am Graben leuchten im Frühsommer gelbe Blüten wie kleine Fahnen. Das ist die Sumpf-Schwertlilie – manchmal auch Sumpf-Iris genannt. Ihre Blätter stehen aufrecht und wirken wie Schwerter. Sie mag nasse Füße und kommt mit wechselndem Wasserstand klar. Schau entlang der Uferlinie. Oft stehen viele beieinander. Dann wirkt der Rand plötzlich festlich. Ein klarer Frühsommer-Moment zwischen Schilf und Wasser. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Liliopsida",
+      "ordnung": "Asparagales",
+      "familie": "Iridaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "60–120 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juli"
+      }
+    ],
+    "merkmale": [
+      "bluete",
+      "wasserlebend",
+      "moor",
+      "bestaeuber"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Bestäubt die Blüten.",
+        "toSpeciesId": "wildbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Lebt im gleichen Nass.",
+        "toSpeciesId": "moorfrosch"
+      }
+    ]
   },
   {
     "id": "sumpfblutauge",
@@ -1372,7 +3463,48 @@
       ],
       "hinweis": "",
       "hoertext": "Im Moor kann im Sommer etwas Dunkelrotes zwischen dem Grün leuchten. Das Sumpfblutauge. Der Name klingt dramatisch – und die Blüte sieht auch so aus. Es wächst in nährstoffarmen Niedermooren und Verlandungszonen. Wo große Bestände stehen, stimmt oft noch vieles am Standort. Im Spreewald kannst du solche Flächen erleben. Bleib auf dem Weg und genieß die Farbe. Manchmal reicht ein einziges Blütenmeer, um den Charakter eines Moores zu verstehen. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Asterales",
+      "familie": "Asteraceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "30–100 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Juli–September"
+      }
+    ],
+    "merkmale": [
+      "bluete",
+      "moor",
+      "wasserlebend",
+      "bestaeuber"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Besucht die Blüten.",
+        "toSpeciesId": "wildbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Schilf",
+        "kurztext": "Wächst am gleichen Ufer."
+      }
+    ]
   },
   {
     "id": "sumpfdotterblume",
@@ -1398,7 +3530,48 @@
       ],
       "hinweis": "Giftig – nicht pflücken oder knabbern.",
       "hoertext": "Früh im Jahr, wenn vieles noch grau wirkt, blitzt Gold am Wasser auf. Die Sumpfdotterblume. Ihre Blüten sind schalenförmig und leuchtend gelb. An Bächen, Fließen und nassen Wiesen ist sie ein klassischer Frühlingsbote. Schön – und giftig. Also nur anschauen. Wenn ganze Uferstreifen blühen, wirkt die Landschaft auf einmal wach. Ein Zeichen: Das Wasser ist da, und die Saison hat begonnen. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 2,
+    "nahrung": [
+      "Nektar"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Ranunculales",
+      "familie": "Ranunculaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "15–40 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "April–Mai"
+      }
+    ],
+    "merkmale": [
+      "bluete",
+      "moor",
+      "wasserlebend",
+      "bestaeuber"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Frühe Tracht im Frühjahr.",
+        "toSpeciesId": "wildbiene"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Teilt sich den feuchten Boden.",
+        "toSpeciesId": "torfmoos"
+      }
+    ]
   },
   {
     "id": "sumpfschrecke",
@@ -1424,7 +3597,49 @@
       ],
       "hinweis": "",
       "hoertext": "Steh im Sommer kurz still auf der Feuchtwiese. Hörst du ein Knacken? Das kann die Sumpfschrecke sein. Sie ist groß, oft grün, und singt anders als viele Heuschrecken. Ihr Lebensraum ist nass und hochwüchsig. Wird entwässert oder zu früh gemäht, wird es still. Deshalb ist ihr Gesang mehr als Hintergrund. Er sagt: Hier ist noch Platz für Feuchtwiesen-Leben. Bleib auf dem Weg und lausche. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Gräser",
+      "Kräuter"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Orthoptera",
+      "familie": "Tettigoniidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "2–3 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "1 Jahr"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "tarnung",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Gräser",
+        "kurztext": "Frisst Gräser im Moor."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Lebt im Moos.",
+        "toSpeciesId": "torfmoos"
+      }
+    ]
   },
   {
     "id": "torfmoos",
@@ -1450,7 +3665,45 @@
       ],
       "hinweis": "Polster nicht zertrampeln.",
       "hoertext": "Knie dich vorsichtig an den Moorrand – oder bleib auf dem Steg – und schau auf die Polster. Torfmoos. Weich, nass, in Grün, Rot oder Braun. Es speichert Wasser wie ein Schwamm und säuert den Boden. Aus abgestorbenem Moos entsteht Torf. Ohne Sphagnum keine typischen Moore. Deshalb ist jeder Tritt darauf ein Eingriff. Wenn du es siehst, siehst du den Baumeister unter dir. Ein unscheinbares Moos – und die Grundlage einer ganzen Landschaft. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "moose",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Sonnenlicht",
+      "Regenwasser"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Bryophyta",
+      "klasse": "Sphagnopsida",
+      "ordnung": "Sphagnales",
+      "familie": "Sphagnaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "5–20 cm"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "schluesselart",
+      "immergruen"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Versteckt sich im Moos.",
+        "toSpeciesId": "moorfrosch"
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Larven im Moorgewässer.",
+        "toSpeciesId": "grosse-moosjungfer"
+      }
+    ]
   },
   {
     "id": "wald-theater",
@@ -1481,6 +3734,84 @@
       "hinweis": "Gebuchte Aufführungen haben Vorrang.",
       "hoertext": "Am Hang steht eine kleine Bühne. Das Wald-Theater. Setz dich ins Grüne oder geh rauf und spiel. Der Flyer lädt genau dazu ein: eigene Stücke, Zuschauer im Wald. Große Aufführungen nur nach Anmeldung – spontanes Spielen ist frei. Die Kulisse sind Stämme und Licht. Kein Vorhang, kein Eintritt. Probier eine Szene. Der Hang trägt die Stimme besser, als du denkst. Wenn niemand zuschaut, spiel trotzdem. Theater im Wald braucht keine Rampe aus Stahl. Es braucht Mut und ein Stück Hang. Danach klingt der Kinderwald ein bisschen wie ein Satz, den jemand gerade gesagt hat."
     }
+  },
+  {
+    "id": "wanderfalke",
+    "nameDe": "Wanderfalke",
+    "nameLat": "Falco peregrinus",
+    "kategorie": "fauna",
+    "kurztext": "An der Klintkante sitzt er oft still – und stößt dann schneller als jeder andere Vogel.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "An der Klintkante sitzt er oft still – und stößt dann schneller als jeder andere Vogel.",
+      "erkennung": [
+        "Schiefergrauer Rücken, dunkler Bartstreif am Kopf",
+        "Lange spitze Flügel, im Flug steif und schnell",
+        "Sitzt auf der Kante, stürzt fast senkrecht"
+      ],
+      "lebensraum": "Steile Kreidekliffs und offene Jagdflächen über der Ostsee – an Sommerspirspynten oft als Sitzwarte.",
+      "funFacts": [
+        "Im Stoßflug wird er schneller als jeder andere Vogel.",
+        "An Møns Klint brütet er wieder an den Steilwänden.",
+        "Er schlägt Tauben und andere Vögel in der Luft."
+      ],
+      "hinweis": "Abstand halten, nicht zur Kante locken.",
+      "hoertext": "Schau zur Klintkante, aber bleib hinter der Absperrung. Der Wanderfalke sitzt oft still auf einem Kreidevorsprung und wirkt kleiner als sein Ruf. Dann kippt er nach vorn. Im Stoßflug wird er schneller als jeder andere Vogel der Erde. Grauer Rücken, dunkler Bartstreif, spitze Flügel – so erkennst du ihn gegen den Himmel. An Møns Klint brütet er wieder an den Steilwänden und jagt Tauben über der Ostsee. Wenn du ihn siehst, siehst du einen Jäger, der die Kante braucht. Nicht locken, nicht klatschen. Die Stille hält ihn hier. Ein kurzer Blick genügt, dann geht die Runde weiter durch den Buchenwald."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Vögel",
+      "Tauben"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Falconiformes",
+      "familie": "Falconidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "36–48 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "74–120 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "600–1.300 g"
+      },
+      {
+        "key": "tempo",
+        "wert": "Stoßflug über 300 km/h"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "fleischfresser",
+      "luftbewohnend",
+      "wehrhaft",
+      "wanderer"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Tauben",
+        "kurztext": "Schlägt Vögel über der Ostsee."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Kreidekliff",
+        "kurztext": "Brütet an der Steilwand."
+      }
+    ]
   },
   {
     "id": "wasser-matschtisch-pumpe",
@@ -1538,7 +3869,53 @@
       ],
       "hinweis": "Nicht annähern – Höhlenbrüter brauchen Ruhe.",
       "hoertext": "Siehst du einen orangenen Vogel mit Krone? Das könnte der Wiedehopf sein. Er wirkt fast exotisch und sucht trotzdem Insekten im märkischen Sand. Mit dem langen Schnabel stochert er im Boden nach Beute. Zum Brüten braucht er Höhlen und offene Flächen. In der Heide findet er beides, wenn auch dünn gesät. Bleib ruhig stehen und schau aus der Distanz. Wenn die Federkrone aufgeht, hast du einen der schönsten Momente dieser Landschaft erwischt. Kein Spektakel von nah, sondern ein Geschenk für geduldige Augen. Nimm den Moment mit – und lass ihn in Ruhe weiterziehen."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "sehr-selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Käfer"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Bucerotiformes",
+      "familie": "Upupidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "25–29 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "60–80 g"
+      },
+      {
+        "key": "alter",
+        "wert": "5–8 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "saenger",
+      "tagaktiv",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Käfer",
+        "kurztext": "Sucht Käfer im Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Baumhöhlen",
+        "kurztext": "Brütet in Höhlen."
+      }
+    ]
   },
   {
     "id": "wildbiene",
@@ -1564,7 +3941,49 @@
       ],
       "hinweis": "",
       "hoertext": "Siehst du eine einzelne Biene an einer Blüte und keinen Bienenstock in der Nähe? Dann ist es oft eine Wildbiene. Viele Arten nisten solo – in Sand, Totholz, Steilwänden oder hohlen Stängeln. Manche sind auf wenige Pflanzen spezialisiert. Verschwinden die Blüten, verschwinden sie. An Lehrpfaden kannst du auf Struktur achten: totes Holz, offene Stellen, Blütenvielfalt. Das ist ihre Stadt. Und jedes Summen dort ist ein Zeichen, dass der Rand des Weges mehr ist als Deko. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "insekten",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar",
+      "Pollen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Hymenoptera",
+      "familie": "Apidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "5–15 mm"
+      },
+      {
+        "key": "alter",
+        "wert": "1 Jahr"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "bestaeuber",
+      "bluete",
+      "sozial"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Bestäubt Orchideen.",
+        "toSpeciesId": "knabenkraut"
+      },
+      {
+        "typ": "bestaeubt",
+        "kurztext": "Frühe Tracht im Frühjahr.",
+        "toSpeciesId": "sumpfdotterblume"
+      }
+    ]
   },
   {
     "id": "wollgras",
@@ -1590,7 +4009,48 @@
       ],
       "hinweis": "",
       "hoertext": "Im Frühsommer verwandelt sich manches Moor in eine flauschige Fläche. Wollgras. Die weißen Köpfe sehen aus wie Watte. Tatsächlich helfen die Haare den Früchten, mit dem Wind zu reisen. Die Pflanze zeigt nasse, oft torfige Standorte an. Mehrere Arten gibt es in Brandenburg – alle brauchen intakte Feuchte. Wenn du diese weißen Tupfen siehst, weißt du: Hier hält das Wasser noch. Ein weiches Bild – mit einer klaren Botschaft unter dem Flaum. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    }
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Liliopsida",
+      "ordnung": "Poales",
+      "familie": "Cyperaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–60 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juni"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "bluete",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Lebt im gleichen Moor.",
+        "toSpeciesId": "moorfrosch"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Fressen die Samen."
+      }
+    ]
   },
   {
     "id": "zauneidechse",
@@ -1619,7 +4079,53 @@
       ],
       "hinweis": "Steine nicht umwerfen, Eidechsen nicht fangen.",
       "hoertext": "Der Lesesteinhaufen sieht aus wie Abfall vom Acker. Ist er nicht. Steine in der Sonne werden warm. Nachts halten sie die Wärme. Genau das brauchen Zauneidechsen, Kriechtiere und Insekten. Schau ruhig hin, ohne den Haufen zu zerlegen. Eine graubraune Linie auf dem Stein – und schon ist sie weg. Männchen schimmern in der Balz grün. Sie jagen Insekten und brauchen offene, sonnige Flecken. Im Kinderwald liegt der Haufen extra dafür. Lass die Steine liegen. Wer umwirft, zerstört das Versteck. Wer wartet, sieht vielleicht, wie ein Stück Wald die Sonne tankt. Das ist mehr Theater als manche Bühne."
-    }
+    },
+    "gruppe": "reptilien",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Spinnen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Reptilia",
+      "ordnung": "Squamata",
+      "familie": "Lacertidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "15–20 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "10–20 g"
+      },
+      {
+        "key": "alter",
+        "wert": "5–8 Jahre"
+      }
+    ],
+    "merkmale": [
+      "schuppig",
+      "tagaktiv",
+      "tarnung",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten am Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Steine",
+        "kurztext": "Sonn sich auf Steinen."
+      }
+    ]
   },
   {
     "id": "ziege",
@@ -1648,7 +4154,54 @@
       ],
       "hinweis": "Hörner Abstand. Nicht füttern außer um 16 Uhr.",
       "hoertext": "Die Ziege kommt auf dich zu, als würde sie deine Taschen lesen. Schlitzpupille, Hörner, hartes Maul. Sie ist neugierig und schnell. Fütter sie nicht zwischendurch, das macht sie krank. Um 16 Uhr darfst du mit den Betreuern füttern. Streicheln nur mit jemand vom Hof, um 11 oder um 15 Uhr. Sonst wird es den Tieren zu viel. Schau erst, wie sie kaut und den Kopf schief stellt. Dann weißt du mehr als nach zehn Fotos. Die Ziege bleibt ein Nutztier mit Charakter. Halt Abstand zu den Hörnern. Frag, bevor du die Hand ausstreckst. An der Panke lernst du den Umgang, nicht das Anstarren."
-    }
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "haeufig",
+    "gefahr": 2,
+    "nahrung": [
+      "Gras",
+      "Kräuter",
+      "Zweige"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Artiodactyla",
+      "familie": "Bovidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "120–140 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "40–60 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "12–15 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "sozial",
+      "tagaktiv",
+      "pflanzenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Gras",
+        "kurztext": "Frisst Gras und Zweige."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Weide",
+        "kurztext": "Lebt auf der Weide."
+      }
+    ]
   },
   {
     "id": "ziegenmelker",
@@ -1676,6 +4229,51 @@
       ],
       "hinweis": "Nachts leise bleiben – und Wege nicht verlassen.",
       "hoertext": "Wenn es dämmert, lohnt sich Lauschen in der Heide. Der Ziegenmelker knurrt monoton wie ein ferner Motor und hält das lange durch. Tagsüber siehst du ihn kaum: Sein Gefieder ist Sand und Rinde. Er jagt Nachtfalter und sitzt oft flach am Boden. In der Heide findet er offene, trockene Flächen. Bleib auf dem Weg und stör keine Ruheplätze. Wer Geduld mitbringt, bekommt hier ein Nachtstück der besonderen Art. Kein lautes Spektakel, sondern ein durchgehendes Knurren in der Dunkelheit. Genau deshalb bleibt dieser Ort nachts den Tieren – und dir als stiller Gast."
-    }
+    },
+    "gruppe": "voegel",
+    "seltenheit": "sehr-selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Caprimulgiformes",
+      "familie": "Caprimulgidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "25–28 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "60–100 g"
+      },
+      {
+        "key": "alter",
+        "wert": "5–8 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "nachtaktiv",
+      "tarnung",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Insekten",
+        "kurztext": "Fängt Insekten in der Nacht."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Waldboden",
+        "kurztext": "Brütet am Boden."
+      }
+    ]
   }
 ]

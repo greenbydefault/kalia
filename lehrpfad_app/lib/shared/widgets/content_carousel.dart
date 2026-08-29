@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'content_carousel_style.dart';
+import 'page_dots.dart';
+import 'snapping_page_behavior.dart';
 
 /// Horizontaler Slider mit Slide-Snap und Dots. Layout über [ContentCarouselStyle].
 class ContentCarousel<T> extends StatefulWidget {
@@ -87,7 +89,6 @@ class _ContentCarouselState<T> extends State<ContentCarousel<T>> {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
     if (widget.items.isEmpty) return const SizedBox.shrink();
 
     final pages = _pages;
@@ -104,40 +105,27 @@ class _ContentCarouselState<T> extends State<ContentCarousel<T>> {
       children: [
         SizedBox(
           height: _height,
-          child: PageView.builder(
-            controller: _controller,
-            padEnds: false,
-            itemCount: pageCount,
-            onPageChanged: (i) => setState(() => _index = i),
-            itemBuilder: (context, i) {
-              return Padding(
-                padding: const EdgeInsets.only(right: ContentCarouselStyle.gap),
-                child: _slideRow(pages[i]),
-              );
-            },
+          child: SnappingPager(
+            controller: _controller!,
+            child: PageView.builder(
+              controller: _controller,
+              padEnds: false,
+              itemCount: pageCount,
+              onPageChanged: (i) => setState(() => _index = i),
+              itemBuilder: (context, i) {
+                return Padding(
+                  padding: const EdgeInsets.only(
+                    right: ContentCarouselStyle.gap,
+                  ),
+                  child: _slideRow(pages[i]),
+                );
+              },
+            ),
           ),
         ),
         Padding(
           padding: const EdgeInsets.only(top: ContentCarouselStyle.gap),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              for (var i = 0; i < pageCount; i++)
-                Container(
-                  width: ContentCarouselStyle.dotSize,
-                  height: ContentCarouselStyle.dotSize,
-                  margin: const EdgeInsets.symmetric(
-                    horizontal: ContentCarouselStyle.dotGap,
-                  ),
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: i == _index
-                        ? theme.colorScheme.primary
-                        : theme.colorScheme.outlineVariant,
-                  ),
-                ),
-            ],
-          ),
+          child: PageDots(count: pageCount, index: _index),
         ),
       ],
     );

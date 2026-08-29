@@ -18,6 +18,7 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 |---|---|---|
 | `trail.json` | `von-moor-zu-moor` | `moor` |
 | `heide-erlebnisweg.json` | … | `wald` |
+| `naturerlebnisraum-spo.json` | `naturerlebnisraum-spo` | `kueste` |
 | `raddusch.json` | … | `moor` |
 | `rauener-berge.json` | … | `wald` |
 | `lehde.json` | … | `spreewald` |
@@ -29,6 +30,7 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `kinderbauernhof-pinke-panke.json` | `kinderbauernhof-pinke-panke` | `kinderbauernhof` (`form: flaeche`) |
 | `arboretum-dreetz.json` | `arboretum-dreetz` | `naturerlebnis` (`form: flaeche`) |
 | `natter-pfad-goyatz.json` | `natter-pfad-goyatz` | `walderlebnispfad` |
+| `erlebe-bruder-wald.json` | `erlebe-bruder-wald` | `walderlebnispfad` |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 
@@ -66,7 +68,7 @@ Pipeline-Gates:
 
 1. `tools/build_seed.py` — bricht ab bei &lt;3 Stationen mit Koordinaten
 2. `tools/validate_seeds.py` — Schema, Kataloge (`typ`/`tags`/`erlebnisse`/`amenities`), Geometrie, Arten, Species-Content
-3. Research-Go-Bar (pro Trail-Research, z. B. `research/<Land>/<Kreis>/*.research.md`)
+3. Research-Go-Bar (pro Trail-Research, z. B. `research/Länder/<Land>/<Unterland>/<Blatt>/*.research.md`)
 
 ## Drei-Ebenen-Strategie
 

@@ -1,21 +1,57 @@
 import 'package:uuid/uuid.dart';
 
+import '../../../core/sync/sync_engine.dart';
+import '../../../core/sync/sync_mutation.dart';
 import '../domain/trail_list.dart';
 import 'local_trail_list_store.dart';
 import 'supabase_trail_list_repository.dart';
 import 'trail_list_repository.dart';
 
+/// Sync-Queue-Entities für eigene Listen.
+const trailListSyncEntity = 'trail_list';
+const trailListItemSyncEntity = 'trail_list_item';
+
 /// Lokal immer; Remote optional (Login). `setInList(true)` merkt den Trail mit.
+/// Remote-Ausführung und Login-Merge laufen über die [SyncEngine].
 class HybridTrailListRepository implements TrailListRepository {
   HybridTrailListRepository({
     TrailListStore? local,
-    this.remote,
+    SupabaseTrailListRepository? remote,
     this.onAddedToList,
-  }) : _local = local ?? LocalTrailListStore();
+  }) : _local = local ?? LocalTrailListStore(),
+       _remote = remote;
 
   final TrailListStore _local;
-  final SupabaseTrailListRepository? remote;
+  final SupabaseTrailListRepository? _remote;
+  SyncEngine? _engine;
   final Future<void> Function(String trailId)? onAddedToList;
+
+  /// Registriert Executor/Merge an der Engine. Aufruf im Provider, vor flush.
+  void attach(SyncEngine engine) {
+    _engine = engine;
+    final r = _remote;
+    if (r == null) return;
+    engine.registerExecutor(trailListSyncEntity, (m) async {
+      if (m.op == SyncOp.delete.name) {
+        await r.deleteList(m.key);
+      } else {
+        await r.upsertList(TrailList.fromMetaJson(m.payload));
+      }
+    });
+    engine.registerExecutor(trailListItemSyncEntity, (m) async {
+      if (m.op == SyncOp.delete.name) {
+        await r.deleteItem(
+          listId: m.payload['listId'] as String,
+          trailId: m.payload['trailId'] as String,
+        );
+      } else {
+        await r.upsertItem(TrailListItem.fromJson(m.payload));
+      }
+    });
+    engine.registerMergeHandler(trailListSyncEntity, () async {
+      await mergeWithRemote(await r.fetchLists());
+    });
+  }
   final _uuid = const Uuid();
 
   static const maxNameLength = 80;
@@ -35,9 +71,7 @@ class HybridTrailListRepository implements TrailListRepository {
     );
     final lists = await _local.readLists();
     await _local.writeLists([...lists, list]);
-    await _tryRemote(() async {
-      await remote?.upsertList(list);
-    });
+    await _enqueueList(list, SyncOp.upsert);
     return list;
   }
 
@@ -54,7 +88,7 @@ class HybridTrailListRepository implements TrailListRepository {
     final next = [...lists];
     next[index] = updated;
     await _local.writeLists(next);
-    await _tryRemote(() => remote?.upsertList(updated));
+    await _enqueueList(updated, SyncOp.upsert);
   }
 
   @override
@@ -69,7 +103,13 @@ class HybridTrailListRepository implements TrailListRepository {
       for (final item in items)
         if (item.listId != id) item,
     ]);
-    await _tryRemote(() => remote?.deleteList(id));
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: trailListSyncEntity,
+        key: id,
+        op: SyncOp.delete,
+      ),
+    );
   }
 
   @override
@@ -98,7 +138,14 @@ class HybridTrailListRepository implements TrailListRepository {
       );
       await _local.writeItems([...items, item]);
       await _touchList(listId, now);
-      await _tryRemote(() => remote?.upsertItem(item));
+      await _engine?.enqueue(
+        SyncMutation.create(
+          entity: trailListItemSyncEntity,
+          key: '$listId|$trailId',
+          op: SyncOp.upsert,
+          payload: item.toJson(),
+        ),
+      );
       await onAddedToList?.call(trailId);
       return;
     }
@@ -108,12 +155,16 @@ class HybridTrailListRepository implements TrailListRepository {
         if (!(item.listId == listId && item.trailId == trailId)) item,
     ]);
     await _touchList(listId, now);
-    await _tryRemote(
-      () => remote?.deleteItem(listId: listId, trailId: trailId),
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: trailListItemSyncEntity,
+        key: '$listId|$trailId',
+        op: SyncOp.delete,
+        payload: {'listId': listId, 'trailId': trailId},
+      ),
     );
   }
 
-  @override
   Future<void> mergeWithRemote(List<TrailList> remoteLists) async {
     final localLists = await _local.readLists();
     final localItems = await _local.readItems();
@@ -154,27 +205,29 @@ class HybridTrailListRepository implements TrailListRepository {
     await _local.writeLists(mergedLists);
     await _local.writeItems(mergedItems);
 
+    final engine = _engine;
+    if (engine == null) return;
     final remoteListIds = {for (final list in remoteLists) list.id};
     final remoteItemKeys = {
       for (final item in remoteItems) '${item.listId}|${item.trailId}',
     };
-    final missingLists = [
-      for (final list in mergedLists)
-        if (!remoteListIds.contains(list.id)) list,
-    ];
-    final missingItems = [
-      for (final item in mergedItems)
-        if (!remoteItemKeys.contains('${item.listId}|${item.trailId}')) item,
-    ];
-    if (missingLists.isEmpty && missingItems.isEmpty) return;
-    await _tryRemote(() async {
-      if (missingLists.isNotEmpty) {
-        await remote?.upsertLists(missingLists);
+    for (final list in mergedLists) {
+      if (!remoteListIds.contains(list.id)) {
+        await _enqueueList(list, SyncOp.upsert);
       }
-      for (final item in missingItems) {
-        await remote?.upsertItem(item);
+    }
+    for (final item in mergedItems) {
+      if (!remoteItemKeys.contains('${item.listId}|${item.trailId}')) {
+        await engine.enqueue(
+          SyncMutation.create(
+            entity: trailListItemSyncEntity,
+            key: '${item.listId}|${item.trailId}',
+            op: SyncOp.upsert,
+            payload: item.toJson(),
+          ),
+        );
       }
-    });
+    }
   }
 
   Future<List<TrailList>> _joined() async {
@@ -199,8 +252,17 @@ class HybridTrailListRepository implements TrailListRepository {
     ]);
     final updated = lists.where((list) => list.id == id);
     if (updated.isEmpty) return;
-    await _tryRemote(
-      () => remote?.upsertList(updated.first.copyWith(updatedAt: now)),
+    await _enqueueList(updated.first.copyWith(updatedAt: now), SyncOp.upsert);
+  }
+
+  Future<void> _enqueueList(TrailList list, SyncOp op) async {
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: trailListSyncEntity,
+        key: list.id,
+        op: op,
+        payload: list.toMetaJson(),
+      ),
     );
   }
 
@@ -213,14 +275,5 @@ class HybridTrailListRepository implements TrailListRepository {
       throw ArgumentError('Listenname ist zu lang.');
     }
     return trimmed;
-  }
-
-  Future<void> _tryRemote(Future<void>? Function() action) async {
-    if (remote == null) return;
-    try {
-      await action();
-    } catch (_) {
-      // Local ist Source of Truth; Merge beim Login heilt Divergenz.
-    }
   }
 }

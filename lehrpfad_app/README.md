@@ -1,19 +1,31 @@
-# lehrpfad_app
+# Lehrpfad-App
 
-**Lokal starten & testen:** siehe [DEV-SERVER.md](../DEV-SERVER.md) (Chat-Trigger: „Server starten“).
+Digitale Begleit-App für Naturlehrpfade: interaktive Karte mit Trails und Stationen,
+GPS-geführtes Walk-Tracking mit Auto-Abschluss, Arten-Sammlung („Gesehen"-Markierungen
+mit Audio-Steckbriefen), persönliche Listen und Community-Bilder/-Bewertungen.
 
-A new Flutter project.
+Offline-first: Bookmarks, Completions, Walks, Listen und Sichtungen funktionieren ohne
+Login und Netz; eine Sync-Engine (`lib/core/sync/`) gleicht bei Login mit Supabase ab.
 
-## Getting Started
+## Lokal starten
 
-This project is a starting point for a Flutter application.
+Siehe [DEV-SERVER.md](../DEV-SERVER.md). Kurzfassung:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter run -d web-server --web-port=8080
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Ohne Defines läuft die App im Seed-/Offline-Modus. Mit Live-Daten:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run -d web-server --web-port=8080 \
+  --dart-define=SUPABASE_URL=… \
+  --dart-define=SUPABASE_PUBLISHABLE_KEY=…
+```
+
+## Tests & Analyse
+
+```bash
+flutter test
+flutter analyze
+```

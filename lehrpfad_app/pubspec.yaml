@@ -31,9 +31,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
   flutter_map: ^8.3.1
   flutter_riverpod: ^3.4.2
   latlong2: ^0.10.1
@@ -49,6 +46,7 @@ dependencies:
   just_audio: ^0.10.6
   url_launcher: ^6.3.2
   supercluster: ^3.2.0
+  flutter_svg: ^2.2.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -73,7 +71,12 @@ flutter:
 
   assets:
     - assets/seed/
+    - assets/icons/pois/
     - assets/audio/species/
+    - assets/images/trails/_placeholder.jpg
+    - assets/images/trails/heide-erlebnisweg/
+    - assets/images/trails/naturerlebnisraum-spo/
+    - assets/images/trails/kaeflingsberg-speck/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -82,9 +85,10 @@ flutter:
   # https://flutter.dev/to/asset-from-package
 
   fonts:
-    - family: League Gothic
+    - family: Instrument Serif
       fonts:
-        - asset: assets/fonts/LeagueGothic-Regular.ttf
+        - asset: assets/fonts/InstrumentSerif-Regular.ttf
           weight: 400
-        - asset: assets/fonts/LeagueGothic-Regular.ttf
-          weight: 700
+        - asset: assets/fonts/InstrumentSerif-Italic.ttf
+          weight: 400
+          style: italic

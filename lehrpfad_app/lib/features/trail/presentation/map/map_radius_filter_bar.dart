@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../app/theme/app_spacing.dart';
 import '../../../location/location_consent_sheet.dart';
+import '../../../location/location_gate.dart';
 import '../../../location/map_radius.dart';
 import '../../../location/user_position_provider.dart';
 import '../../../trail_progress/tracking/location_service.dart';
@@ -50,7 +51,7 @@ class MapRadiusFilterBar extends ConsumerWidget {
     if (radius.isAll) return;
     if (!context.mounted) return;
     try {
-      final ok = await ensureMapLocation(context, ref);
+      final ok = await LocationGate.ensureMap(context, ref);
       if (!ok && context.mounted) {
         await ref.read(mapRadiusProvider.notifier).select(MapRadius.all);
       }

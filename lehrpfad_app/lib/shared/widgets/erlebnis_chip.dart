@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../catalogs/icon_catalog.dart';
+import 'catalog_chip.dart';
 
 /// Kompakte Icon-plus-Label-Darstellung eines Erlebnisses.
 /// Wird in der Stationskarte und im Karten-Overlay genutzt.
@@ -16,15 +17,9 @@ class ErlebnisChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final eintrag = erlebnisEintrag(erlebnisKey);
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        eintrag.buildIcon(size: iconSize, color: theme.colorScheme.primary),
-        const SizedBox(width: 4),
-        Text(eintrag.label, style: theme.textTheme.bodySmall),
-      ],
+    return CatalogChip(
+      eintrag: erlebnisEintrag(erlebnisKey),
+      iconSize: iconSize,
     );
   }
 }

@@ -1,0 +1,673 @@
+{
+ "id": "erlebe-bruder-wald",
+ "name": "Walderlebnispfad Erlebe Bruder Wald",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Rundweg hinterm Bamberger Klinikum: zwanzig Stationen zu Holz, Baumarten und Waldboden. Barfußraupe, Sprunggrube, Wolf Lupi. Frei, ohne Ticket.",
+ "beschreibung": "Hinter dem Klinikum Bamberg, an der Wendeschleife der Buger Straße, beginnt der Walderlebnispfad Erlebe Bruder Wald. Braune Schilder mit Wolfskopf und dem Kürzel EBW führen gut zwei Kilometer durch den Staatswald zwischen Regnitz und Aurach. Wolf Lupi holt Kinder an zwanzig Stationen ab: vom Ökorohstoff Holz über Baumarten und Eicheln bis zur Barfußraupe und der Sprunggrube. Ein Informationspavillon und die Waldwerkstatt bieten Unterstand und Picknick. Der Wildnispfad bleibt eine andere Schleife, Führungen für Schulklassen will das AELF extra. Frei, ohne Anmeldung, Wege für Kinderwagen gedacht.",
+ "laengeKm": 2.4,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Wolfskopf auf weiß / braunes EBW",
+ "betreiber": "Bayerische Staatsforsten AöR, Forstbetrieb Forchheim",
+ "region": "Bruderwald / Klinikum, Stadt Bamberg, Bayern",
+ "website": "https://www.erlebe-bruder-wald.de/",
+ "anreise": "Adresse: Wendeschleife Buger Straße, 96049 Bamberg, direkt am Klinikum. ÖPNV: VGN 918 und 937, Haltestelle Am Bruderwald (zeitweise Klinikum); ZOB zu Fuß vom Bahnhof. Auto: begrenzte Plätze am Waldparkplatz / Parkplatz Klinikum, nicht die Wendeschleife zuparken. Start an der Übersichtskarte Walderlebnispfad, dann den Wolfskopf-Schildern nach Süden. Wildnispfad und Erlebnistage nicht mit der 2-km-Runde verwechseln.",
+ "startName": "Klinikum Bamberg / Übersichtskarte Walderlebnispfad",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Kiefer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   49.867415,
+   10.894591
+  ],
+  [
+   49.867549,
+   10.894213
+  ],
+  [
+   49.86727,
+   10.894507
+  ],
+  [
+   49.866768,
+   10.894544
+  ],
+  [
+   49.866446,
+   10.894631
+  ],
+  [
+   49.866183,
+   10.894746
+  ],
+  [
+   49.866018,
+   10.894811
+  ],
+  [
+   49.865769,
+   10.894819
+  ],
+  [
+   49.865613,
+   10.894835
+  ],
+  [
+   49.865482,
+   10.894846
+  ],
+  [
+   49.865227,
+   10.894802
+  ],
+  [
+   49.86497,
+   10.894799
+  ],
+  [
+   49.86501,
+   10.894971
+  ],
+  [
+   49.865227,
+   10.895877
+  ],
+  [
+   49.865146,
+   10.896161
+  ],
+  [
+   49.865102,
+   10.896394
+  ],
+  [
+   49.865096,
+   10.896421
+  ],
+  [
+   49.865075,
+   10.896507
+  ],
+  [
+   49.86505,
+   10.896579
+  ],
+  [
+   49.865019,
+   10.896631
+  ],
+  [
+   49.864917,
+   10.89671
+  ],
+  [
+   49.864742,
+   10.896872
+  ],
+  [
+   49.864533,
+   10.897182
+  ],
+  [
+   49.864381,
+   10.896947
+  ],
+  [
+   49.864135,
+   10.896663
+  ],
+  [
+   49.864035,
+   10.896905
+  ],
+  [
+   49.863956,
+   10.897109
+  ],
+  [
+   49.863804,
+   10.897352
+  ],
+  [
+   49.863652,
+   10.897595
+  ],
+  [
+   49.863534,
+   10.897672
+  ],
+  [
+   49.863447,
+   10.897793
+  ],
+  [
+   49.863364,
+   10.897573
+  ],
+  [
+   49.863227,
+   10.89736
+  ],
+  [
+   49.863015,
+   10.896888
+  ],
+  [
+   49.862898,
+   10.89663
+  ],
+  [
+   49.862819,
+   10.896368
+  ],
+  [
+   49.862775,
+   10.896175
+  ],
+  [
+   49.862646,
+   10.89636
+  ],
+  [
+   49.86254,
+   10.896491
+  ],
+  [
+   49.862393,
+   10.896634
+  ],
+  [
+   49.86217,
+   10.896999
+  ],
+  [
+   49.862054,
+   10.89713
+  ],
+  [
+   49.861895,
+   10.897245
+  ],
+  [
+   49.861731,
+   10.897324
+  ],
+  [
+   49.861557,
+   10.897327
+  ],
+  [
+   49.861458,
+   10.897243
+  ],
+  [
+   49.861365,
+   10.897262
+  ],
+  [
+   49.861237,
+   10.89734
+  ],
+  [
+   49.861074,
+   10.897436
+  ],
+  [
+   49.860881,
+   10.897574
+  ],
+  [
+   49.860702,
+   10.897671
+  ],
+  [
+   49.860871,
+   10.897943
+  ],
+  [
+   49.861017,
+   10.898173
+  ],
+  [
+   49.861154,
+   10.898462
+  ],
+  [
+   49.861369,
+   10.89887
+  ],
+  [
+   49.861665,
+   10.899409
+  ],
+  [
+   49.861655,
+   10.899607
+  ],
+  [
+   49.861589,
+   10.899758
+  ],
+  [
+   49.861555,
+   10.899892
+  ],
+  [
+   49.861517,
+   10.900089
+  ],
+  [
+   49.861499,
+   10.900259
+  ],
+  [
+   49.861499,
+   10.900442
+  ],
+  [
+   49.86146,
+   10.900699
+  ],
+  [
+   49.86144,
+   10.900836
+  ],
+  [
+   49.86139,
+   10.901034
+  ],
+  [
+   49.861383,
+   10.901175
+  ],
+  [
+   49.861236,
+   10.90142
+  ],
+  [
+   49.861266,
+   10.901482
+  ],
+  [
+   49.862207,
+   10.900344
+  ],
+  [
+   49.862376,
+   10.900753
+  ],
+  [
+   49.862651,
+   10.900492
+  ],
+  [
+   49.862768,
+   10.900409
+  ],
+  [
+   49.862991,
+   10.900368
+  ],
+  [
+   49.863134,
+   10.900232
+  ],
+  [
+   49.863288,
+   10.899994
+  ],
+  [
+   49.863451,
+   10.899844
+  ],
+  [
+   49.863675,
+   10.899776
+  ],
+  [
+   49.863918,
+   10.899663
+  ],
+  [
+   49.864149,
+   10.899501
+  ],
+  [
+   49.864374,
+   10.899364
+  ],
+  [
+   49.864573,
+   10.899227
+  ],
+  [
+   49.864696,
+   10.899137
+  ],
+  [
+   49.864779,
+   10.899077
+  ],
+  [
+   49.865104,
+   10.898965
+  ],
+  [
+   49.86537,
+   10.898838
+  ],
+  [
+   49.865527,
+   10.898794
+  ],
+  [
+   49.865664,
+   10.898874
+  ],
+  [
+   49.865788,
+   10.898987
+  ],
+  [
+   49.865879,
+   10.899041
+  ],
+  [
+   49.86602,
+   10.899091
+  ],
+  [
+   49.866111,
+   10.899143
+  ],
+  [
+   49.866182,
+   10.899097
+  ],
+  [
+   49.866228,
+   10.898962
+  ],
+  [
+   49.866358,
+   10.898751
+  ],
+  [
+   49.866502,
+   10.898521
+  ],
+  [
+   49.866584,
+   10.898282
+  ],
+  [
+   49.866653,
+   10.898024
+  ],
+  [
+   49.866687,
+   10.897852
+  ],
+  [
+   49.866738,
+   10.897573
+  ],
+  [
+   49.866771,
+   10.89745
+  ],
+  [
+   49.866806,
+   10.897226
+  ],
+  [
+   49.866884,
+   10.897019
+  ],
+  [
+   49.866926,
+   10.896734
+  ],
+  [
+   49.866961,
+   10.89644
+  ],
+  [
+   49.866957,
+   10.896088
+  ],
+  [
+   49.86697,
+   10.895926
+  ],
+  [
+   49.866993,
+   10.895763
+  ],
+  [
+   49.867033,
+   10.895613
+  ],
+  [
+   49.867111,
+   10.895396
+  ],
+  [
+   49.867289,
+   10.895
+  ],
+  [
+   49.867366,
+   10.894712
+  ],
+  [
+   49.867415,
+   10.894591
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 5329632863,
+   "lat": 49.86738,
+   "lon": 10.89449,
+   "km": 0.0,
+   "titel": "Eingang Bruderwald",
+   "thema": "Start an der Übersichtskarte",
+   "kurztext": "Hier am Klinikum beginnt der Rundweg. Die Karte zeigt zwanzig Stationen. Folge den Schildern mit dem Wolfskopf – gut zwei Kilometer durch den Staatswald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 5329632860,
+   "lat": 49.86657,
+   "lon": 10.89453,
+   "km": 0.16,
+   "titel": "Ökorohstoff Holz",
+   "thema": "Holz, das wir alle brauchen",
+   "kurztext": "Die erste Tafel steht gleich hinter dem Eingang. Holz als Werkstoff, nicht nur als Kulisse – vom Bleistift bis zum Dachstuhl. Lupi fragt: wo steckt Wald in deinem Alltag?",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 5329632848,
+   "lat": 49.86471,
+   "lon": 10.89698,
+   "km": 0.5,
+   "titel": "Baumarten des Bruderwaldes",
+   "thema": "Kennst du mich?",
+   "kurztext": "Tafeln zu Rotbuche, Kiefer, Lärche, Ahorn. Rinde, Blatt, Nadel – erst schauen, dann den Namen kippen. Der Bruderwald ist kein reiner Fichtenacker.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 4756281617,
+   "lat": 49.86386,
+   "lon": 10.89719,
+   "km": 0.63,
+   "titel": "Die besten Schinken",
+   "thema": "Eicheln, Schweine, Waldweide",
+   "kurztext": "Auf den Eichen wachsen die besten Schinken – so steht es auf der Tafel. Eicheln mästen, Waldweide, warum die Stieleiche hier zählt. Kein Stall, nur die Geschichte am Stamm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 8568905572,
+   "lat": 49.86117,
+   "lon": 10.90144,
+   "km": 1.43,
+   "titel": "Naturwaldreservat Wolfsruhe",
+   "thema": "Wald, der sich selbst überlassen bleibt",
+   "kurztext": "Hier darf der Wald alt werden: Totholz, Lücken, kein Durchforsten. Wolfsruhe heißt das Reservat – nicht weil Wölfe wohnen, sondern weil Ruhe der Punkt ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 8568905570,
+   "lat": 49.86245,
+   "lon": 10.90075,
+   "km": 1.61,
+   "titel": "Barfußraupe",
+   "thema": "Grüße an die Füße",
+   "kurztext": "Schuhe aus. Die Barfußraupe führt über Rinde, Zapfen, Erde. Nasses Holz wird rutschig – langsam. Danach wieder anziehen, der Pfad geht weiter auf festem Weg.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 8568905558,
+   "lat": 49.86511,
+   "lon": 10.89901,
+   "km": 1.94,
+   "titel": "Sprunggrube",
+   "thema": "Wie weit springen Reh und Hase?",
+   "kurztext": "Eine Grube zum Weitsprung. Die Markierungen zeigen, was Reh, Hase oder Fuchs schaffen. Du darfst mit – und merkst, wie kurz der eigene Satz ist.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 8568905551,
+   "lat": 49.86696,
+   "lon": 10.89668,
+   "km": 2.26,
+   "titel": "Mein Bruder Wald",
+   "thema": "Schluss an der Tafel",
+   "kurztext": "Schön, dass ihr da wart. Die letzte Tafel schließt die Runde, das Klinikum liegt wieder nah. Pavillon und Waldwerkstatt zum Unterstellen liegen am Weg zurück.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1797272632,
+   "lat": 49.8669225,
+   "lon": 10.8976869,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4756281584,
+   "lat": 49.8611866,
+   "lon": 10.9014586,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4756281605,
+   "lat": 49.8607402,
+   "lon": 10.8975628,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 4756281612,
+   "lat": 49.8628112,
+   "lon": 10.8964784,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5329632857,
+   "lat": 49.8659105,
+   "lon": 10.894897,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8568905548,
+   "lat": 49.867399,
+   "lon": 10.8945349,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8568905550,
+   "lat": 49.8669858,
+   "lon": 10.8964312,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8568905561,
+   "lat": 49.8631182,
+   "lon": 10.9003526,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10062020450,
+   "lat": 49.8651057,
+   "lon": 10.8992734,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1050828127,
+   "lat": 49.86744,
+   "lon": 10.89372,
+   "kategorie": "parking",
+   "name": "Waldparkplatz Klinikum"
+  }
+ ]
+}

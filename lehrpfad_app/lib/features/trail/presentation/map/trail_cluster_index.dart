@@ -49,6 +49,17 @@ class TrailClusterIndex {
   }
 
   int expansionZoom(int clusterId) => _index.expansionZoomOf(clusterId);
+
+  /// Startpunkte aller Blätter in [clusterId]. Leer, wenn Supercluster
+  /// den Cluster nicht kennt — Caller fällt dann auf Center+expansionZoom.
+  List<LatLng> startsIn(int clusterId, {required int count}) {
+    try {
+      final points = _index.pointsWithin(clusterId, limit: count);
+      return [for (final p in points) p.originalPoint.start];
+    } catch (_) {
+      return const [];
+    }
+  }
 }
 
 sealed class TrailMapNode {

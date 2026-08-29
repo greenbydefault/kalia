@@ -2,7 +2,9 @@ import 'package:latlong2/latlong.dart';
 
 import 'amenity.dart';
 import 'eignung_score.dart';
+import 'haversine.dart';
 import 'station.dart';
+import 'trail_bild.dart';
 
 /// Summary-Tags, die in der Chip-Row entfallen (Eignungs-Meter).
 const _eignungSummaryTags = {'kinderfreundlich', 'rollstuhltauglich'};
@@ -44,6 +46,7 @@ class Trail {
   final List<LatLng> area;
   final List<Station> stationen;
   final List<Amenity> amenities;
+  final List<TrailBild> bilder;
 
   const Trail({
     required this.id,
@@ -71,10 +74,14 @@ class Trail {
     this.area = const [],
     required this.stationen,
     required this.amenities,
+    this.bilder = const [],
   });
 
   bool get isFlaeche => form == 'flaeche';
   bool get isLinie => !isFlaeche;
+
+  /// Echte Redaktionsfotos (nicht der zentrale Platzhalter).
+  bool get hasHeroBilder => bilder.isNotEmpty;
 
   /// Linie A→B, kein Rundkurs — Start und Ziel sind verschiedene Punkte.
   bool get isPointToPoint => isLinie && !rundkurs;
@@ -105,15 +112,19 @@ class Trail {
   LatLng? get end {
     if (!isPointToPoint || route.length < 2) return null;
     final last = route.last;
-    if (_distance.as(LengthUnit.Meter, route.first, last) <
-        _endMinSeparationM) {
+    if (haversineMeters(route.first, last) < _endMinSeparationM) {
       return null;
     }
     return last;
   }
 
-  static const _distance = Distance();
   static const _endMinSeparationM = 40.0;
+
+  String get laengeLabel => '$laengeKm km';
+
+  String get dauerLabel => '~$dauerMin Min';
+
+  String get laengeDauerLabel => '$laengeLabel · $dauerLabel';
 
   /// Aus den Amenities abgeleitete Tags (keine DB-Pflege nötig).
   List<String> get autoTags => [
@@ -212,6 +223,9 @@ class Trail {
       amenities: (json['amenities'] as List)
           .map((a) => Amenity.fromJson(a as Map<String, dynamic>))
           .toList(),
+      bilder: (json['bilder'] as List? ?? const [])
+          .map((b) => TrailBild.fromJson(b as Map<String, dynamic>))
+          .toList(),
     );
   }
 
@@ -242,5 +256,6 @@ class Trail {
       'area': area.map((p) => [p.latitude, p.longitude]).toList(),
     'stationen': stationen.map((s) => s.toJson()).toList(),
     'amenities': amenities.map((a) => a.toJson()).toList(),
+    if (bilder.isNotEmpty) 'bilder': bilder.map((b) => b.toJson()).toList(),
   };
 }

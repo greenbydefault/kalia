@@ -1,6 +1,7 @@
 import 'package:latlong2/latlong.dart';
 
 import 'amenity.dart';
+import 'haversine.dart';
 import 'trail.dart';
 
 /// Ziel für externe Navigation (Parkplatz oder Trail-Start).
@@ -18,8 +19,6 @@ class AnreiseDestination {
 
 enum MapProvider { googleMaps, appleMaps, openStreetMap }
 
-const _distance = Distance();
-
 /// Nächster Parkplatz zu [Trail.start], sonst der Startpunkt.
 ///
 /// `null` wenn der Trail keine Geometrie hat.
@@ -31,11 +30,7 @@ AnreiseDestination? navigationDestinationFor(Trail trail) {
   var nearestM = double.infinity;
   for (final amenity in trail.amenities) {
     if (amenity.kategorie != 'parking') continue;
-    final meters = _distance.as(
-      LengthUnit.Meter,
-      start,
-      amenity.position,
-    );
+    final meters = haversineMeters(start, amenity.position);
     if (meters < nearestM) {
       nearestM = meters;
       nearest = amenity;

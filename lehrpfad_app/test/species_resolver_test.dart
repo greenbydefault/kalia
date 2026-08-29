@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/features/species/data/species_resolver.dart';
 import 'package:lehrpfad_app/features/species/data/supabase_species_repository.dart';
 import 'package:lehrpfad_app/features/species/domain/species.dart';
+import 'package:lehrpfad_app/features/species/domain/species_beziehung.dart';
 
 void main() {
   late SpeciesResolver resolver;
@@ -90,5 +91,119 @@ void main() {
       'content': <String, dynamic>{},
     });
     expect(s.displayHook, 'Alter Text');
+  });
+
+  test('profil fields parse from seed json', () {
+    final s = Species.fromJson({
+      'id': 'biber',
+      'nameDe': 'Biber',
+      'nameLat': 'Castor fiber',
+      'kategorie': 'fauna',
+      'kurztext': 'Text',
+      'gruppe': 'saeugetiere',
+      'seltenheit': 'selten',
+      'gefahr': 2,
+      'nahrung': ['Rinde', 'Zweige'],
+      'taxonomie': {
+        'reich': 'Animalia',
+        'stamm': 'Chordata',
+        'klasse': 'Mammalia',
+        'ordnung': 'Rodentia',
+        'familie': 'Castoridae',
+      },
+      'masse': [
+        {'key': 'laenge', 'wert': '80–100 cm'},
+      ],
+      'merkmale': ['pelzig', 'sozial'],
+      'beziehungen': [
+        {'typ': 'frisst', 'speciesId': 'schwarzerle', 'kurztext': 'Nagt Rinde.'},
+      ],
+    });
+    expect(s.hasProfil, isTrue);
+    expect(s.gruppe, 'saeugetiere');
+    expect(s.seltenheit, 'selten');
+    expect(s.gefahr, 2);
+    expect(s.nahrung, ['Rinde', 'Zweige']);
+    expect(s.taxonomie['familie'], 'Castoridae');
+    expect(s.masse.single.key, 'laenge');
+    expect(s.masse.single.wert, '80–100 cm');
+    expect(s.merkmalIds, ['pelzig', 'sozial']);
+    expect(s.beziehungen.single.typ, 'frisst');
+    expect(s.beziehungen.single.toSpeciesId, 'schwarzerle');
+  });
+
+  test('geraete has no profil', () {
+    final s = Species.fromJson({
+      'id': 'quellsteine-wasserdueisen',
+      'nameDe': 'Quellsteine mit Wasserdüsen',
+      'nameLat': '',
+      'kategorie': 'geraete',
+      'kurztext': 'Wasser aus Steinen',
+      'iconKey': 'geraet',
+    });
+    expect(s.hasProfil, isFalse);
+    expect(s.gruppe, isEmpty);
+    expect(s.merkmalIds, isEmpty);
+  });
+
+  test('rowToJson maps profil snake_case to seed format', () {
+    final json = SupabaseSpeciesRepository.rowToJson({
+      'id': 'biber',
+      'name_de': 'Biber',
+      'name_lat': 'Castor fiber',
+      'kategorie': 'fauna',
+      'kurztext': 'Text',
+      'content': <String, dynamic>{},
+      'aliases': <String>[],
+      'gruppe': 'saeugetiere',
+      'seltenheit': 'selten',
+      'gefahr': 2,
+      'nahrung': ['Rinde'],
+      'tax_reich': 'Animalia',
+      'tax_stamm': 'Chordata',
+      'tax_klasse': 'Mammalia',
+      'tax_ordnung': 'Rodentia',
+      'tax_familie': 'Castoridae',
+      'masse': [
+        {'key': 'laenge', 'wert': '80–100 cm'},
+      ],
+      'species_merkmale': [
+        {'merkmal_id': 'pelzig'},
+      ],
+      'species_beziehungen': [
+        {'typ': 'frisst', 'to_species_id': 'schwarzerle', 'name_de': '', 'name_lat': '', 'kurztext': 'Nagt Rinde.'},
+      ],
+    });
+    final s = Species.fromJson(json);
+    expect(s.gruppe, 'saeugetiere');
+    expect(s.taxonomie['familie'], 'Castoridae');
+    expect(s.merkmalIds, ['pelzig']);
+    expect(s.beziehungen.single.toSpeciesId, 'schwarzerle');
+  });
+
+  test('SpeciesBeziehung.fromJson akzeptiert speciesId und toSpeciesId', () {
+    final alt = SpeciesBeziehung.fromJson({
+      'typ': 'frisst',
+      'speciesId': 'schwarzerle',
+      'kurztext': 'Nagt Rinde.',
+    });
+    expect(alt.toSpeciesId, 'schwarzerle');
+    expect(alt.isKatalogArt, isTrue);
+
+    final neu = SpeciesBeziehung.fromJson({
+      'typ': 'frisst',
+      'toSpeciesId': 'schwarzerle',
+      'kurztext': 'Nagt Rinde.',
+    });
+    expect(neu.toSpeciesId, 'schwarzerle');
+    expect(neu.toJson()['toSpeciesId'], 'schwarzerle');
+    expect(neu.toJson().containsKey('speciesId'), isFalse);
+
+    final frei = SpeciesBeziehung.fromJson({
+      'typ': 'frisst',
+      'nameDe': 'Mücke',
+    });
+    expect(frei.toSpeciesId, isNull);
+    expect(frei.isKatalogArt, isFalse);
   });
 }

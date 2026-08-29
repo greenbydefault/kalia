@@ -4,7 +4,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_spacing.dart';
 import '../../location/location_consent_sheet.dart';
-import '../../location/proximity.dart';
+import '../../location/location_gate.dart';
 import '../../location/user_position_provider.dart';
 import '../../trail/domain/trail.dart';
 import '../data/trail_list_providers.dart';
@@ -15,19 +15,15 @@ import '../tracking/walk_tracking_controller.dart';
 import 'merken_toggle.dart';
 import 'save_to_list_sheet.dart';
 
-/// Peek-CTAs: Merken und Tour immer, Details nur wenn Sheet nicht expanded.
+/// Kompakte Trail-CTAs (Merken + Tour) für Peek-Card und Detail-Header.
 class TrailSheetPeekActions extends ConsumerWidget {
   const TrailSheetPeekActions({
     super.key,
     required this.trail,
-    required this.sheetController,
-    required this.onExpand,
     this.onTourStarted,
   });
 
   final Trail trail;
-  final DraggableScrollableController sheetController;
-  final VoidCallback onExpand;
   final VoidCallback? onTourStarted;
 
   static final ButtonStyle _compactStyle = FilledButton.styleFrom(
@@ -63,18 +59,15 @@ class TrailSheetPeekActions extends ConsumerWidget {
     );
 
     final fix = ref.watch(userPositionProvider).fix;
-    final site = onSiteResult(trail, fix);
-    final distanceM = fix == null
-        ? null
-        : distanceToTrailM(trail, fix.position);
-    final blocked = !tracking && site == OnSiteResult.no;
-    final tourLabel = blocked && distanceM != null
-        ? 'Noch ${formatDistanceM(distanceM)}'
+    final site = LocationGate.tourEligibility(trail, fix);
+    final blocked = !tracking && site.blocked;
+    final tourLabel = blocked && site.label != null
+        ? site.label!
         : isThisWalk
         ? (tracking ? 'Beenden' : 'Weiter')
         : 'Starten';
-    final tourTooltip = blocked && distanceM != null
-        ? 'Noch ${formatDistanceM(distanceM)} zum Start'
+    final tourTooltip = blocked && site.tooltip != null
+        ? site.tooltip!
         : isThisWalk
         ? (tracking ? 'Tour beenden' : 'Tour fortsetzen')
         : 'Tour starten';
@@ -82,52 +75,35 @@ class TrailSheetPeekActions extends ConsumerWidget {
         ? (tracking ? PhosphorIcons.pause : PhosphorIcons.play)
         : PhosphorIcons.footprints;
 
-    return AnimatedBuilder(
-      animation: sheetController,
-      builder: (context, _) {
-        final expanded =
-            sheetController.isAttached && sheetController.size > 0.6;
-        return Wrap(
-          spacing: AppSpacing.x2,
-          runSpacing: AppSpacing.x2,
-          crossAxisAlignment: WrapCrossAlignment.center,
-          alignment: WrapAlignment.end,
-          children: [
-            MerkenToggle(
-              bookmarked: saved,
-              iconOnly: true,
-              onChanged: (_) => SaveToListSheet.show(context, trail),
-            ),
-            if (!expanded)
-              Tooltip(
-                message: 'Mehr erfahren',
-                child: FilledButton.tonalIcon(
-                  style: _compactStyle,
-                  onPressed: onExpand,
-                  icon: const PhosphorIcon(PhosphorIcons.caretUp, size: 18),
-                  label: const Text('Details'),
-                ),
-              ),
-            Tooltip(
-              message: tourTooltip,
-              child: FilledButton.icon(
-                style: _compactStyle,
-                onPressed: blocked
-                    ? null
-                    : () => _onTourPressed(
-                        context,
-                        ref,
-                        isThisWalk: isThisWalk,
-                        tracking: tracking,
-                        activeWalk: activeWalk,
-                      ),
-                icon: PhosphorIcon(tourIcon, size: 18),
-                label: Text(tourLabel),
-              ),
-            ),
-          ],
-        );
-      },
+    return Wrap(
+      spacing: AppSpacing.x2,
+      runSpacing: AppSpacing.x2,
+      crossAxisAlignment: WrapCrossAlignment.center,
+      alignment: WrapAlignment.end,
+      children: [
+        MerkenToggle(
+          bookmarked: saved,
+          iconOnly: true,
+          onChanged: (_) => SaveToListSheet.show(context, trail),
+        ),
+        Tooltip(
+          message: tourTooltip,
+          child: FilledButton.icon(
+            style: _compactStyle,
+            onPressed: blocked
+                ? null
+                : () => _onTourPressed(
+                    context,
+                    ref,
+                    isThisWalk: isThisWalk,
+                    tracking: tracking,
+                    activeWalk: activeWalk,
+                  ),
+            icon: PhosphorIcon(tourIcon, size: 18),
+            label: Text(tourLabel),
+          ),
+        ),
+      ],
     );
   }
 
@@ -143,7 +119,7 @@ class TrailSheetPeekActions extends ConsumerWidget {
         await ref.read(walkSnapshotProvider.notifier).stopTour(abandon: true);
         return;
       }
-      await ensureTourLocation(context, ref);
+      await LocationGate.ensureTour(context, ref);
       if (isThisWalk && activeWalk != null) {
         await ref
             .read(walkSnapshotProvider.notifier)

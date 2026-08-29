@@ -1,0 +1,764 @@
+{
+ "id": "stubbenkammer-koenigsstuhl",
+ "name": "Stubbenkammer Königsstuhl",
+ "typ": "kueste",
+ "kurzbeschreibung": "Kurze Kliffschleife an der Stubbenkammer: Victoriasicht auf den Königsstuhl, Kreidetafel an der Kante, zurück über Herthabuche und Herthasee.",
+ "beschreibung": "Die Runde startet an den Tafeln vor dem Nationalpark-Zentrum Königsstuhl – nicht im Haus. Der Hochuferweg führt zur Victoria-Sicht: von dort steht der 118-Meter-Königsstuhl frei vor der Ostsee, ohne Ticket. Daneben erklärt die Tafel „Küste in Bewegung“, warum das Kliff jedes Jahr nachgibt. Die Holztreppe mit 412 Stufen zum Strand ist seit 2016 gesperrt; der Geröllstrand darunter ist lebensgefährlich. Zurück geht es durch die UNESCO-Buchen der Stubnitz zum Herthasee und der slawischen Herthaburg. Outdoor frei, ohne Anmeldung. Skywalk und Erlebnisausstellung brauchen ein Ticket und gehören nicht zur Runde. Wegegebot: markierte Wege halten, nichts aus der Wand, keine Fossilien mitnehmen.",
+ "laengeKm": 2.6,
+ "dauerMin": 80,
+ "rundkurs": true,
+ "markierung": "Hochuferweg / Nationalpark-Wegweisung",
+ "betreiber": "Nationalparkamt Vorpommern / Nationalpark-Zentrum Königsstuhl",
+ "region": "Stubbenkammer, Sassnitz, Vorpommern-Rügen, Mecklenburg-Vorpommern",
+ "website": "https://www.nationalpark-jasmund.de/erleben-erholen/aktiv-in-der-natur/wandern",
+ "anreise": "Auto: Großparkplatz Hagen (Hagen / Stubbenkammer, 18546 Sassnitz), dann Pendelbus oder ca. 3 km Fußweg durch den Wald zum Zentrum. Am Kliff nicht parken. ÖPNV: Bus nach Sassnitz Königsstuhl, Haltestelle vor dem Haus. Start an den Tafeln vor dem Nationalpark-Zentrum, dann Hochuferweg Richtung Sassnitz / Victoria-Sicht. Skywalk und Ausstellung optional, nicht Teil der Runde.",
+ "startName": "Nationalpark-Zentrum Königsstuhl / Tafeln",
+ "arten": [
+  "Rotbuche",
+  "Knabenkraut",
+  "Wanderfalke"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.57219,
+   13.659638
+  ],
+  [
+   54.572217,
+   13.66002
+  ],
+  [
+   54.572215,
+   13.660078
+  ],
+  [
+   54.572208,
+   13.660155
+  ],
+  [
+   54.572175,
+   13.660252
+  ],
+  [
+   54.57215,
+   13.660289
+  ],
+  [
+   54.57212,
+   13.660321
+  ],
+  [
+   54.572093,
+   13.660337
+  ],
+  [
+   54.572064,
+   13.66033
+  ],
+  [
+   54.572031,
+   13.660302
+  ],
+  [
+   54.572006,
+   13.660423
+  ],
+  [
+   54.571946,
+   13.660462
+  ],
+  [
+   54.571891,
+   13.660504
+  ],
+  [
+   54.571864,
+   13.660617
+  ],
+  [
+   54.571819,
+   13.66069
+  ],
+  [
+   54.571711,
+   13.660657
+  ],
+  [
+   54.571595,
+   13.660784
+  ],
+  [
+   54.571539,
+   13.661031
+  ],
+  [
+   54.571499,
+   13.661349
+  ],
+  [
+   54.571427,
+   13.661523
+  ],
+  [
+   54.57139,
+   13.661746
+  ],
+  [
+   54.571336,
+   13.661976
+  ],
+  [
+   54.571242,
+   13.66217
+  ],
+  [
+   54.571141,
+   13.662445
+  ],
+  [
+   54.571074,
+   13.662672
+  ],
+  [
+   54.571,
+   13.662804
+  ],
+  [
+   54.570895,
+   13.662819
+  ],
+  [
+   54.570856,
+   13.662813
+  ],
+  [
+   54.570846,
+   13.66282
+  ],
+  [
+   54.570843,
+   13.662833
+  ],
+  [
+   54.57085,
+   13.662853
+  ],
+  [
+   54.570876,
+   13.662937
+  ],
+  [
+   54.570954,
+   13.663327
+  ],
+  [
+   54.570953,
+   13.663508
+  ],
+  [
+   54.571001,
+   13.663997
+  ],
+  [
+   54.57102,
+   13.663991
+  ],
+  [
+   54.571013,
+   13.663927
+  ],
+  [
+   54.57102,
+   13.663991
+  ],
+  [
+   54.571001,
+   13.663997
+  ],
+  [
+   54.571024,
+   13.664229
+  ],
+  [
+   54.57107,
+   13.664549
+  ],
+  [
+   54.570954,
+   13.665081
+  ],
+  [
+   54.570914,
+   13.665252
+  ],
+  [
+   54.570884,
+   13.665385
+  ],
+  [
+   54.570896,
+   13.665659
+  ],
+  [
+   54.570851,
+   13.665796
+  ],
+  [
+   54.570863,
+   13.665869
+  ],
+  [
+   54.570869,
+   13.665906
+  ],
+  [
+   54.570863,
+   13.665869
+  ],
+  [
+   54.570851,
+   13.665796
+  ],
+  [
+   54.57077,
+   13.665648
+  ],
+  [
+   54.570723,
+   13.66549
+  ],
+  [
+   54.570618,
+   13.665387
+  ],
+  [
+   54.570723,
+   13.66549
+  ],
+  [
+   54.57077,
+   13.665648
+  ],
+  [
+   54.570851,
+   13.665796
+  ],
+  [
+   54.570896,
+   13.665659
+  ],
+  [
+   54.570884,
+   13.665385
+  ],
+  [
+   54.570914,
+   13.665252
+  ],
+  [
+   54.570954,
+   13.665081
+  ],
+  [
+   54.57107,
+   13.664549
+  ],
+  [
+   54.571024,
+   13.664229
+  ],
+  [
+   54.571001,
+   13.663997
+  ],
+  [
+   54.570953,
+   13.663508
+  ],
+  [
+   54.570954,
+   13.663327
+  ],
+  [
+   54.570876,
+   13.662937
+  ],
+  [
+   54.57085,
+   13.662853
+  ],
+  [
+   54.570843,
+   13.662833
+  ],
+  [
+   54.570846,
+   13.66282
+  ],
+  [
+   54.570856,
+   13.662813
+  ],
+  [
+   54.570895,
+   13.662819
+  ],
+  [
+   54.571,
+   13.662804
+  ],
+  [
+   54.571074,
+   13.662672
+  ],
+  [
+   54.571141,
+   13.662445
+  ],
+  [
+   54.571242,
+   13.66217
+  ],
+  [
+   54.571336,
+   13.661976
+  ],
+  [
+   54.57139,
+   13.661746
+  ],
+  [
+   54.571427,
+   13.661523
+  ],
+  [
+   54.571499,
+   13.661349
+  ],
+  [
+   54.571539,
+   13.661031
+  ],
+  [
+   54.571595,
+   13.660784
+  ],
+  [
+   54.571711,
+   13.660657
+  ],
+  [
+   54.571819,
+   13.66069
+  ],
+  [
+   54.571864,
+   13.660617
+  ],
+  [
+   54.571891,
+   13.660504
+  ],
+  [
+   54.571946,
+   13.660462
+  ],
+  [
+   54.572006,
+   13.660423
+  ],
+  [
+   54.572031,
+   13.660302
+  ],
+  [
+   54.572008,
+   13.660231
+  ],
+  [
+   54.571826,
+   13.659481
+  ],
+  [
+   54.571725,
+   13.659331
+  ],
+  [
+   54.571628,
+   13.659152
+  ],
+  [
+   54.57158,
+   13.658966
+  ],
+  [
+   54.571556,
+   13.658774
+  ],
+  [
+   54.571556,
+   13.658155
+  ],
+  [
+   54.571555,
+   13.657864
+  ],
+  [
+   54.571513,
+   13.657284
+  ],
+  [
+   54.571487,
+   13.657044
+  ],
+  [
+   54.571407,
+   13.656713
+  ],
+  [
+   54.571309,
+   13.656374
+  ],
+  [
+   54.57111,
+   13.65575
+  ],
+  [
+   54.571117,
+   13.655428
+  ],
+  [
+   54.571107,
+   13.655347
+  ],
+  [
+   54.570933,
+   13.654051
+  ],
+  [
+   54.57092,
+   13.653948
+  ],
+  [
+   54.57085,
+   13.653412
+  ],
+  [
+   54.570762,
+   13.653156
+  ],
+  [
+   54.570532,
+   13.652699
+  ],
+  [
+   54.570068,
+   13.652068
+  ],
+  [
+   54.569903,
+   13.65151
+  ],
+  [
+   54.569731,
+   13.650758
+  ],
+  [
+   54.56964,
+   13.650034
+  ],
+  [
+   54.569596,
+   13.649707
+  ],
+  [
+   54.569644,
+   13.64961
+  ],
+  [
+   54.569865,
+   13.649262
+  ],
+  [
+   54.569644,
+   13.64961
+  ],
+  [
+   54.569596,
+   13.649707
+  ],
+  [
+   54.56964,
+   13.650034
+  ],
+  [
+   54.569731,
+   13.650758
+  ],
+  [
+   54.569903,
+   13.65151
+  ],
+  [
+   54.570068,
+   13.652068
+  ],
+  [
+   54.570532,
+   13.652699
+  ],
+  [
+   54.570762,
+   13.653156
+  ],
+  [
+   54.57085,
+   13.653412
+  ],
+  [
+   54.57092,
+   13.653948
+  ],
+  [
+   54.570933,
+   13.654051
+  ],
+  [
+   54.571107,
+   13.655347
+  ],
+  [
+   54.571117,
+   13.655428
+  ],
+  [
+   54.57111,
+   13.65575
+  ],
+  [
+   54.571309,
+   13.656374
+  ],
+  [
+   54.571407,
+   13.656713
+  ],
+  [
+   54.571487,
+   13.657044
+  ],
+  [
+   54.571513,
+   13.657284
+  ],
+  [
+   54.571555,
+   13.657864
+  ],
+  [
+   54.571556,
+   13.658155
+  ],
+  [
+   54.571556,
+   13.658774
+  ],
+  [
+   54.57158,
+   13.658966
+  ],
+  [
+   54.571628,
+   13.659152
+  ],
+  [
+   54.571725,
+   13.659331
+  ],
+  [
+   54.571826,
+   13.659481
+  ],
+  [
+   54.572021,
+   13.659525
+  ],
+  [
+   54.57216,
+   13.659499
+  ],
+  [
+   54.57219,
+   13.659638
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -1360289099,
+   "lat": 54.572229,
+   "lon": 13.659612,
+   "km": 0.0,
+   "titel": "Nationalpark-Zentrum Königsstuhl",
+   "thema": "Start an den Tafeln",
+   "kurztext": "Vor dem Haus beginnen Hochuferweg und Tafeln. Die Erlebnisausstellung und der Skywalk sind extra – Ticket, nicht Teil der Runde. Wir bleiben draußen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3871917062,
+   "lat": 54.5710132,
+   "lon": 13.6639269,
+   "km": 0.37,
+   "titel": "Hochuferblick",
+   "thema": "Erster Blick aufs Kliff",
+   "kurztext": "Kleine Kante am Hochuferweg, ohne Namen. Nach Norden der Königsstuhl, darunter die Ostsee. Geländer halten, nicht über die Absperrung.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": {
+    "werdegang": "vom Buchenhang – zur Kreidekante"
+   },
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3608467525,
+   "lat": 54.570869,
+   "lon": 13.665906,
+   "km": 0.51,
+   "titel": "Victoria-Sicht",
+   "thema": "Blick auf den Königsstuhl",
+   "kurztext": "Von hier steht der 118-Meter-Königsstuhl frei vor dir – das Postkartenmotiv, ohne Skywalk-Ticket. Schwindelfreiheit hilft. Wanderfalken nutzen die Wand.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3961946777,
+   "lat": 54.570602,
+   "lon": 13.665372,
+   "km": 0.55,
+   "titel": "Küste in Bewegung",
+   "thema": "Kliffsturz und gesperrte Treppe",
+   "kurztext": "Die Tafel erklärt, warum das Kliff jedes Jahr weicht. Die Holztreppe mit 412 Stufen zum Strand ist seit 2016 weg. Unten Geröllstrand: Lebensgefahr, nicht hinab.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "werdegang": "vom Hochufer – zur Abbruchkante"
+   },
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3384897370,
+   "lat": 54.570168,
+   "lon": 13.65201,
+   "km": 1.62,
+   "titel": "Herthabuche",
+   "thema": "UNESCO-Buchenwald Stubnitz",
+   "kurztext": "Alte Buche in der Stubnitz. Silberglatte Stämme, Welterbe. Darunter im Frühsommer Orchideen auf dem Kalk. Weg nicht verlassen.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3865572492,
+   "lat": 54.569672,
+   "lon": 13.650017,
+   "km": 1.76,
+   "titel": "Herthasee",
+   "thema": "See und slawische Burg",
+   "kurztext": "Kleiner Waldsee, Sage um die Göttin Hertha. Darüber der Ringwall der Herthaburg. Steg am Ufer, dann zurück zum Zentrum auf dem Hauptweg.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 290908852,
+   "lat": 54.570869,
+   "lon": 13.6659061,
+   "kategorie": "viewpoint",
+   "name": "Victoria-Sicht"
+  },
+  {
+   "osmId": 324342809,
+   "lat": 54.5729561,
+   "lon": 13.661837,
+   "kategorie": "viewpoint",
+   "name": "Königsstuhl"
+  },
+  {
+   "osmId": 2393275832,
+   "lat": 54.5732578,
+   "lon": 13.659541,
+   "kategorie": "gastro",
+   "name": "Bistro"
+  },
+  {
+   "osmId": 2538720675,
+   "lat": 54.5722467,
+   "lon": 13.6602468,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 3783881708,
+   "lat": 54.5710132,
+   "lon": 13.6639269,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 6172803457,
+   "lat": 54.5729401,
+   "lon": 13.6593023,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 11946821048,
+   "lat": 54.570909,
+   "lon": 13.6653448,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 30546331,
+   "lat": 54.573137929999994,
+   "lon": 13.658402800000001,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1475268594,
+   "lat": 54.571999462499996,
+   "lon": 13.6597813125,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1475268601,
+   "lat": 54.57211112,
+   "lon": 13.660071960000002,
+   "kategorie": "wc",
+   "name": null
+  }
+ ]
+}

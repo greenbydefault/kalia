@@ -1,7 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../../../core/config/supabase_config.dart';
+import '../../../core/config/supabase_client_provider.dart';
 import '../../auth/data/auth_providers.dart';
 import '../domain/trail_comment.dart';
 import '../domain/trail_image.dart';
@@ -10,50 +9,53 @@ import '../domain/user_profile.dart';
 import 'comments_repository.dart';
 import 'image_upload_service.dart';
 import 'images_repository.dart';
+import 'profiles_repository.dart';
 import 'ratings_repository.dart';
 import 'supabase_comments_repository.dart';
 import 'supabase_images_repository.dart';
+import 'supabase_profiles_repository.dart';
 import 'supabase_ratings_repository.dart';
 
 /// Community-Repositories gibt es nur mit Supabase-Anbindung; im
 /// Seed-Modus sind sie null und die UI blendet die Bereiche aus.
 final imagesRepositoryProvider = Provider<ImagesRepository?>((ref) {
-  if (!SupabaseConfig.isConfigured) return null;
-  return SupabaseImagesRepository(Supabase.instance.client);
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return null;
+  return SupabaseImagesRepository(client);
 });
 
 final ratingsRepositoryProvider = Provider<RatingsRepository?>((ref) {
-  if (!SupabaseConfig.isConfigured) return null;
-  return SupabaseRatingsRepository(Supabase.instance.client);
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return null;
+  return SupabaseRatingsRepository(client);
 });
 
 final commentsRepositoryProvider = Provider<CommentsRepository?>((ref) {
-  if (!SupabaseConfig.isConfigured) return null;
-  return SupabaseCommentsRepository(Supabase.instance.client);
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return null;
+  return SupabaseCommentsRepository(client);
 });
 
 final imageUploadServiceProvider = Provider<ImageUploadService?>((ref) {
-  if (!SupabaseConfig.isConfigured) return null;
-  return ImageUploadService(Supabase.instance.client);
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return null;
+  return ImageUploadService(client);
+});
+
+final profilesRepositoryProvider = Provider<ProfilesRepository?>((ref) {
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return null;
+  return SupabaseProfilesRepository(client);
 });
 
 /// Profil des eingeloggten Users (Anzeigename, Rolle), null wenn
 /// ausgeloggt oder Seed-Modus.
 final currentProfileProvider = FutureProvider<UserProfile?>((ref) async {
-  if (!SupabaseConfig.isConfigured) return null;
+  final repo = ref.watch(profilesRepositoryProvider);
+  if (repo == null) return null;
   final user = ref.watch(authStateProvider).value;
   if (user == null) return null;
-  final row = await Supabase.instance.client
-      .from('profiles')
-      .select('id, display_name, role')
-      .eq('id', user.id)
-      .maybeSingle();
-  if (row == null) return null;
-  return UserProfile(
-    id: row['id'] as String,
-    displayName: row['display_name'] as String? ?? '',
-    role: row['role'] as String? ?? 'user',
-  );
+  return repo.getProfile(user.id);
 });
 
 final isAdminProvider = Provider<bool>(

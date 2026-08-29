@@ -1,16 +1,48 @@
+import '../../../core/sync/sync_engine.dart';
+import '../../../core/sync/sync_mutation.dart';
+import '../../../core/sync/synced_id_set.dart';
 import 'local_sightings_store.dart';
 import 'sightings_repository.dart';
 import 'supabase_sightings_repository.dart';
 
+/// Sync-Queue-Entity für Gesehen-Markierungen.
+const sightingSyncEntity = 'sighting';
+
 /// Lokal immer; Remote optional (wenn [remote] gesetzt und User eingeloggt).
+/// Remote-Ausführung und Login-Merge laufen über die [SyncEngine].
 class HybridSightingsRepository implements SightingsRepository {
   HybridSightingsRepository({
     SightingsStore? local,
-    this.remote,
-  }) : _local = local ?? LocalSightingsStore();
+    SupabaseSightingsRepository? remote,
+  }) : _local = local ?? LocalSightingsStore(),
+       _remote = remote;
 
   final SightingsStore _local;
-  final SupabaseSightingsRepository? remote;
+  final SupabaseSightingsRepository? _remote;
+  SyncEngine? _engine;
+  late final SyncedIdSet _ids = SyncedIdSet(
+    entity: sightingSyncEntity,
+    read: _local.read,
+    write: _local.write,
+    engine: () => _engine,
+  );
+
+  /// Registriert Executor/Merge an der Engine. Aufruf im Provider, vor flush.
+  void attach(SyncEngine engine) {
+    _engine = engine;
+    final r = _remote;
+    if (r == null) return;
+    engine.registerExecutor(sightingSyncEntity, (m) async {
+      if (m.op == SyncOp.delete.name) {
+        await r.markUnseen(m.key);
+      } else {
+        await r.markSeen(m.key);
+      }
+    });
+    engine.registerMergeHandler(sightingSyncEntity, () async {
+      await mergeWithRemote(await r.fetchSeenIds());
+    });
+  }
 
   @override
   Future<Set<String>> getSeenIds() => _local.read();
@@ -23,9 +55,8 @@ class HybridSightingsRepository implements SightingsRepository {
     required Set<String> ids,
     required String speciesId,
     required bool seen,
-  }) async {
-    await persistSeenIds(ids);
-    await _syncRemoteId(speciesId, seen);
+  }) {
+    return _ids.writeAndEnqueue(next: ids, key: speciesId, present: seen);
   }
 
   @override
@@ -40,36 +71,6 @@ class HybridSightingsRepository implements SightingsRepository {
     await applySeenChange(ids: next, speciesId: speciesId, seen: seen);
   }
 
-  Future<void> _syncRemoteId(String speciesId, bool seen) async {
-    final r = remote;
-    if (r == null) return;
-    try {
-      if (seen) {
-        await r.markSeen(speciesId);
-      } else {
-        await r.markUnseen(speciesId);
-      }
-    } catch (_) {
-      // Local ist Source of Truth; Merge beim Login heilt Divergenz.
-    }
-  }
-
-  @override
-  Future<Set<String>> mergeWithRemote(Set<String> remoteIds) async {
-    final local = await _local.read();
-    final merged = {...local, ...remoteIds};
-    await persistSeenIds(merged);
-    final r = remote;
-    if (r != null) {
-      final missingRemote = merged.difference(remoteIds);
-      if (missingRemote.isNotEmpty) {
-        try {
-          await r.upsertAll(missingRemote);
-        } catch (_) {
-          // Offline nach Merge: lokal behalten
-        }
-      }
-    }
-    return merged;
-  }
+  Future<Set<String>> mergeWithRemote(Set<String> remoteIds) =>
+      _ids.mergeUnion(remoteIds);
 }

@@ -2,6 +2,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../domain/trail.dart';
+import 'trail_hero_assets.dart';
 import 'trail_repository.dart';
 
 /// Lädt Trails inkl. Stationen und Amenities aus Supabase (ein Request über
@@ -29,7 +30,13 @@ class SupabaseTrailRepository implements TrailRepository {
         .select(_columns)
         .order('reihenfolge', referencedTable: 'stations', ascending: true)
         .order('name', ascending: true);
-    return rows.map(trailRowToJson).map(Trail.fromJson).toList();
+    final trails = <Trail>[];
+    for (final row in rows) {
+      final json = trailRowToJson(row);
+      await attachHeroBilder(json);
+      trails.add(Trail.fromJson(json));
+    }
+    return trails;
   }
 
   /// Mappt eine trails-Row (snake_case) auf das Seed-JSON-Format,

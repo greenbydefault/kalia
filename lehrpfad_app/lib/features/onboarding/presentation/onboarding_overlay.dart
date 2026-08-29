@@ -6,11 +6,10 @@ import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_spacing.dart';
 import '../../../core/config/supabase_config.dart';
 import '../../../shared/widgets/bottom_content_card.dart';
+import '../../../shared/widgets/page_dots.dart';
 import '../../../shared/widgets/sheet_motion.dart';
 import '../../auth/data/auth_providers.dart';
-import '../../location/location_permission_controller.dart';
-import '../../location/user_position_provider.dart';
-import '../../trail_progress/tracking/location_service.dart';
+import '../../location/location_gate.dart';
 import '../../trail/data/providers.dart';
 import '../data/onboarding_providers.dart';
 import 'steps/auth_step.dart';
@@ -95,11 +94,7 @@ class _OnboardingOverlayState extends ConsumerState<OnboardingOverlay> {
 
   Future<void> _allowLocation() async {
     try {
-      await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
-      if (ref.read(locationPermissionProvider).isGranted) {
-        await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
-        await ref.read(userPositionProvider.notifier).refresh(force: true);
-      }
+      await LocationGate.ensureMap(context, ref);
     } catch (_) {}
     await _finish();
   }
@@ -149,7 +144,12 @@ class _OnboardingOverlayState extends ConsumerState<OnboardingOverlay> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  _StepDots(index: _dotIndex),
+                  PageDots(
+                    count: 3,
+                    index: _dotIndex,
+                    activeColor: AppColors.ink,
+                    inactiveColor: AppColors.n300,
+                  ),
                   const SizedBox(height: AppSpacing.x3),
                   AnimatedSwitcher(
                     duration: SheetMotion.fade,
@@ -229,27 +229,3 @@ class _SplashMark extends StatelessWidget {
   }
 }
 
-class _StepDots extends StatelessWidget {
-  const _StepDots({required this.index});
-
-  final int index;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        for (var i = 0; i < 3; i++)
-          Container(
-            width: 6,
-            height: 6,
-            margin: const EdgeInsets.symmetric(horizontal: 3),
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: i == index ? AppColors.ink : AppColors.n300,
-            ),
-          ),
-      ],
-    );
-  }
-}

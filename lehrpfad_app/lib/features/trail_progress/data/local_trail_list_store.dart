@@ -1,7 +1,6 @@
 import 'dart:convert';
 
-import 'package:shared_preferences/shared_preferences.dart';
-
+import '../../../core/cache/prefs_store.dart';
 import '../domain/trail_list.dart';
 
 /// Zwei Keys analog SQL: `trail_lists` + `trail_list_items`.
@@ -13,19 +12,17 @@ abstract class TrailListStore {
 }
 
 class LocalTrailListStore implements TrailListStore {
+  LocalTrailListStore({PrefsStore? prefs}) : _prefs = prefs ?? PrefsStore();
+
   static const listsKey = 'trail_lists';
   static const itemsKey = 'trail_list_items';
 
-  SharedPreferences? _prefs;
-
-  Future<SharedPreferences> _getPrefs() async {
-    return _prefs ??= await SharedPreferences.getInstance();
-  }
+  final PrefsStore _prefs;
 
   @override
   Future<List<TrailList>> readLists() async {
     try {
-      final raw = (await _getPrefs()).getString(listsKey);
+      final raw = await _prefs.readString(listsKey);
       if (raw == null || raw.isEmpty) return [];
       final list = jsonDecode(raw) as List;
       return [
@@ -40,13 +37,13 @@ class LocalTrailListStore implements TrailListStore {
   @override
   Future<void> writeLists(List<TrailList> lists) async {
     final encoded = jsonEncode([for (final list in lists) list.toMetaJson()]);
-    await (await _getPrefs()).setString(listsKey, encoded);
+    await _prefs.writeString(listsKey, encoded);
   }
 
   @override
   Future<List<TrailListItem>> readItems() async {
     try {
-      final raw = (await _getPrefs()).getString(itemsKey);
+      final raw = await _prefs.readString(itemsKey);
       if (raw == null || raw.isEmpty) return [];
       final list = jsonDecode(raw) as List;
       return [
@@ -61,6 +58,6 @@ class LocalTrailListStore implements TrailListStore {
   @override
   Future<void> writeItems(List<TrailListItem> items) async {
     final encoded = jsonEncode([for (final item in items) item.toJson()]);
-    await (await _getPrefs()).setString(itemsKey, encoded);
+    await _prefs.writeString(itemsKey, encoded);
   }
 }

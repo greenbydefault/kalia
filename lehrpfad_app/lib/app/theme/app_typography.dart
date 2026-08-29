@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 /// Body/Label bleiben die Plattform-Sans — Call-Sites rühren
 /// `fontFamily` nicht an.
 abstract final class AppTypography {
-  static const headlineFamily = 'League Gothic';
+  static const headlineFamily = 'Instrument Serif';
 
   static TextTheme applyHeadlines(TextTheme base) {
     TextStyle? heading(TextStyle? s) =>

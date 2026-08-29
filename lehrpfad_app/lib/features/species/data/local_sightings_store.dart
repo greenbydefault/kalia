@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../../core/cache/prefs_store.dart';
 import 'legacy_sightings_file_stub.dart'
     if (dart.library.io) 'legacy_sightings_file_io.dart';
 
@@ -13,14 +14,12 @@ abstract class SightingsStore {
 
 /// Gesehene Species-IDs in SharedPreferences (Web + Native).
 class LocalSightingsStore implements SightingsStore {
+  LocalSightingsStore({PrefsStore? prefs}) : _prefs = prefs ?? PrefsStore();
+
   static const _prefsKey = 'species_sightings';
 
-  SharedPreferences? _prefs;
+  final PrefsStore _prefs;
   Future<void>? _migrateFuture;
-
-  Future<SharedPreferences> _getPrefs() async {
-    return _prefs ??= await SharedPreferences.getInstance();
-  }
 
   Future<void> _ensureMigrated(SharedPreferences prefs) {
     return _migrateFuture ??= _migrateIfNeeded(prefs);
@@ -39,12 +38,9 @@ class LocalSightingsStore implements SightingsStore {
   @override
   Future<Set<String>> read() async {
     try {
-      final prefs = await _getPrefs();
+      final prefs = await _prefs.instance();
       await _ensureMigrated(prefs);
-      final raw = prefs.getString(_prefsKey);
-      if (raw == null || raw.isEmpty) return {};
-      final list = jsonDecode(raw) as List;
-      return list.cast<String>().toSet();
+      return _prefs.readStringSet(_prefsKey);
     } catch (_) {
       return {};
     }
@@ -52,11 +48,8 @@ class LocalSightingsStore implements SightingsStore {
 
   @override
   Future<void> write(Set<String> ids) async {
-    final prefs = await _getPrefs();
+    final prefs = await _prefs.instance();
     await _ensureMigrated(prefs);
-    await prefs.setString(
-      _prefsKey,
-      jsonEncode(ids.toList()..sort()),
-    );
+    await _prefs.writeStringSet(_prefsKey, ids);
   }
 }

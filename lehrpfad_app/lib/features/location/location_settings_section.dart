@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../app/theme/app_spacing.dart';
 import '../trail_progress/tracking/location_service.dart';
 import 'location_consent_sheet.dart';
+import 'location_gate.dart';
 import 'location_permission_controller.dart';
 import 'map_radius.dart';
 import 'user_position_provider.dart';
@@ -88,7 +89,7 @@ class LocationSettingsSection extends ConsumerWidget {
       return;
     }
     try {
-      final ok = await ensureMapLocation(context, ref);
+      final ok = await LocationGate.ensureMap(context, ref);
       if (!ok) {
         await ref.read(mapLocationEnabledProvider.notifier).setEnabled(false);
       }

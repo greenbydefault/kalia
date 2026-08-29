@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/theme/app_spacing.dart';
 import '../../shared/widgets/show_app_modal_sheet.dart';
 import '../trail_progress/tracking/location_service.dart';
-import 'location_permission_controller.dart';
-import 'user_position_provider.dart';
 
 enum LocationConsentKind { map, tour }
 
@@ -70,68 +67,6 @@ class _LocationConsentSheet extends StatelessWidget {
   }
 }
 
-Future<bool> ensureMapLocation(BuildContext context, WidgetRef ref) async {
-  final enabled = ref.read(mapLocationEnabledProvider);
-  final status = await ref.read(locationPermissionProvider.notifier).refresh();
-  if (enabled && status.isGranted) return true;
-
-  if (status == OsLocationStatus.deniedForever) {
-    throw LocationException(
-      LocationFailure.deniedForever,
-      'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.',
-    );
-  }
-  if (status == OsLocationStatus.servicesDisabled) {
-    throw LocationException(
-      LocationFailure.servicesDisabled,
-      'Standortdienste sind deaktiviert.',
-    );
-  }
-
-  if (!status.isGranted) {
-    if (!context.mounted) return false;
-    final ok = await showLocationConsentSheet(context, LocationConsentKind.map);
-    if (!ok) return false;
-    await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
-  }
-  await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
-  await ref.read(userPositionProvider.notifier).refresh(force: true);
-  return ref.read(locationPermissionProvider).isGranted;
-}
-
-Future<void> ensureTourLocation(BuildContext context, WidgetRef ref) async {
-  final status = await ref.read(locationPermissionProvider.notifier).refresh();
-  if (status.isGranted) return;
-
-  if (status == OsLocationStatus.deniedForever) {
-    throw LocationException(
-      LocationFailure.deniedForever,
-      'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.',
-    );
-  }
-  if (status == OsLocationStatus.servicesDisabled) {
-    throw LocationException(
-      LocationFailure.servicesDisabled,
-      'Standortdienste sind deaktiviert.',
-    );
-  }
-
-  if (!context.mounted) {
-    throw LocationException(
-      LocationFailure.denied,
-      'Standortberechtigung wurde verweigert.',
-    );
-  }
-  final ok = await showLocationConsentSheet(context, LocationConsentKind.tour);
-  if (!ok) {
-    throw LocationException(
-      LocationFailure.denied,
-      'Standortberechtigung wurde verweigert.',
-    );
-  }
-  await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
-}
-
 void showLocationError(BuildContext context, Object error) {
   final messenger = ScaffoldMessenger.of(context);
   final text = error is LocationException ? error.message : '$error';
@@ -144,7 +79,7 @@ void showLocationError(BuildContext context, Object error) {
           ? SnackBarAction(
               label: 'Einstellungen',
               onPressed: () {
-                LocationService().openSystemSettings();
+                GeolocatorLocationService().openSystemSettings();
               },
             )
           : null,

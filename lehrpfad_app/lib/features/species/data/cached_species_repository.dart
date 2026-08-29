@@ -1,61 +1,56 @@
 import 'dart:convert';
-import 'dart:io';
 
-import 'package:path_provider/path_provider.dart';
-
+import '../../../core/cache/catalog_cache.dart';
+import '../../../core/cache/catalog_cache_platform.dart';
+import '../../../core/cache/catalog_fetch.dart';
+import '../domain/merkmal.dart';
 import '../domain/species.dart';
 import 'seed_species_repository.dart';
 import 'species_repository.dart';
 
-/// Remote → Support-Dir-Cache → Seed-Fallback (wie Trails).
+/// Remote → CatalogCache → Seed-Fallback (wie Trails).
 class CachedSpeciesRepository implements SpeciesRepository {
-  CachedSpeciesRepository(this._remote, {SpeciesRepository? fallback})
-    : _fallback = fallback ?? SeedSpeciesRepository();
+  CachedSpeciesRepository(
+    this._remote, {
+    SpeciesRepository? fallback,
+    CatalogCache? cache,
+  }) : _fallback = fallback ?? SeedSpeciesRepository(),
+       _cache = cache ?? createCatalogCache();
 
   final SpeciesRepository _remote;
   final SpeciesRepository _fallback;
+  final CatalogCache _cache;
 
-  static const _cacheFileName = 'species_cache.json';
+  static const catalogKey = 'species_cache';
+  static const merkmaleKey = 'merkmale_cache';
 
   @override
-  Future<List<Species>> getCatalog() async {
-    try {
-      final catalog = await _remote.getCatalog();
-      await _writeCache(catalog);
-      return catalog;
-    } catch (_) {
-      return _readCacheOrFallback();
-    }
-  }
+  Future<List<Species>> getCatalog() => loadCatalog(
+    cache: _cache,
+    key: catalogKey,
+    remote: _remote.getCatalog,
+    encode: (catalog) => jsonEncode(catalog.map((s) => s.toJson()).toList()),
+    decode: (raw) async {
+      final json = jsonDecode(raw) as List;
+      return json
+          .map((e) => Species.fromJson(e as Map<String, dynamic>))
+          .toList();
+    },
+    seed: _fallback.getCatalog,
+  );
 
-  Future<List<Species>> _readCacheOrFallback() async {
-    try {
-      final file = await _cacheFile();
-      if (file.existsSync()) {
-        final json = jsonDecode(await file.readAsString()) as List;
-        return json
-            .map((e) => Species.fromJson(e as Map<String, dynamic>))
-            .toList();
-      }
-    } catch (_) {
-      // korrupter Cache → Seed
-    }
-    return _fallback.getCatalog();
-  }
-
-  Future<File> _cacheFile() async {
-    final dir = await getApplicationSupportDirectory();
-    return File('${dir.path}/$_cacheFileName');
-  }
-
-  Future<void> _writeCache(List<Species> catalog) async {
-    try {
-      final file = await _cacheFile();
-      await file.writeAsString(
-        jsonEncode(catalog.map((s) => s.toJson()).toList()),
-      );
-    } catch (_) {
-      // Schreibfehler ignorieren
-    }
-  }
+  @override
+  Future<List<Merkmal>> getMerkmale() => loadCatalog(
+    cache: _cache,
+    key: merkmaleKey,
+    remote: _remote.getMerkmale,
+    encode: (merkmale) => jsonEncode(merkmale.map((m) => m.toJson()).toList()),
+    decode: (raw) async {
+      final json = jsonDecode(raw) as List;
+      return json
+          .map((e) => Merkmal.fromJson(e as Map<String, dynamic>))
+          .toList();
+    },
+    seed: _fallback.getMerkmale,
+  );
 }

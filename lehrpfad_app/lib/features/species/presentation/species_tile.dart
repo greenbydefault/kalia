@@ -8,6 +8,8 @@ import '../../../shared/widgets/content_carousel_style.dart';
 import '../../../shared/widgets/content_tile_shell.dart';
 import '../data/species_providers.dart';
 import '../domain/species.dart';
+import 'gesehen_toggle.dart';
+import 'species_glyph.dart';
 
 enum SpeciesTileLayout { peek, compact }
 
@@ -58,8 +60,6 @@ class _PeekTile extends StatelessWidget {
   final bool seen;
   final VoidCallback onTap;
   final VoidCallback onToggleSeen;
-
-  static const _actionSize = 44.0;
 
   @override
   Widget build(BuildContext context) {
@@ -113,23 +113,11 @@ class _PeekTile extends StatelessWidget {
           Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              IconButton(
+              GesehenToggle(
                 key: ValueKey('species-seen-${species.id}'),
-                tooltip: seen
-                    ? 'Gesehen, Markierung aufheben'
-                    : 'Als gesehen markieren',
-                onPressed: onToggleSeen,
-                constraints: const BoxConstraints(
-                  minWidth: _actionSize,
-                  minHeight: _actionSize,
-                ),
-                padding: EdgeInsets.zero,
-                visualDensity: VisualDensity.compact,
-                icon: PhosphorIcon(
-                  seen ? PhosphorIcons.checkCircle : PhosphorIcons.eye,
-                  size: 22,
-                  color: AppColors.ink,
-                ),
+                seen: seen,
+                onChanged: (_) => onToggleSeen(),
+                iconOnly: true,
               ),
               if (hasAudio)
                 AudioPlayerControl(
@@ -159,47 +147,13 @@ class _CompactTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final icon = species.displayIconEintrag.icon;
-
     return ContentTileShell(
       onTap: onTap,
       layout: ContentCarouselLayout.compact3,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Stack(
-            clipBehavior: Clip.none,
-            children: [
-              PhosphorIcon(
-                icon,
-                size: ContentCarouselStyle.iconSize,
-                color: AppColors.ink,
-              ),
-              if (seen)
-                const Positioned(
-                  right: -6,
-                  top: -6,
-                  child: Icon(
-                    Icons.check_circle,
-                    size: 16,
-                    color: AppColors.ink,
-                  ),
-                ),
-            ],
-          ),
-          const SizedBox(height: 8),
-          Text(
-            species.nameDe,
-            textAlign: TextAlign.center,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-            style: theme.textTheme.labelMedium?.copyWith(
-              color: AppColors.ink,
-              height: 1.2,
-            ),
-          ),
-        ],
+      child: SpeciesGlyph(
+        species: species,
+        seen: seen,
+        iconSize: ContentCarouselStyle.iconSize,
       ),
     );
   }

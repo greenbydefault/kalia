@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:uuid/uuid.dart';
 
-import '../../../core/config/supabase_config.dart';
-import '../../auth/data/auth_providers.dart';
+import '../../../core/config/supabase_client_provider.dart';
+import '../../../core/sync/optimistic_id_set_notifier.dart';
+import '../../../core/sync/sync_providers.dart';
 import '../domain/completion_source.dart';
 import '../domain/trail_completion.dart';
 import '../domain/trail_walk.dart';
@@ -15,12 +15,14 @@ import 'trail_progress_repository.dart';
 final trailProgressRepositoryProvider = Provider<TrailProgressRepository>((
   ref,
 ) {
-  if (SupabaseConfig.isConfigured) {
-    return HybridTrailProgressRepository(
-      remote: SupabaseTrailProgressRepository(Supabase.instance.client),
-    );
-  }
-  return HybridTrailProgressRepository();
+  final client = ref.watch(supabaseClientProvider);
+  final remote = client == null
+      ? null
+      : SupabaseTrailProgressRepository(client);
+  final repo = HybridTrailProgressRepository(remote: remote);
+  final engine = ref.watch(syncEngineProvider);
+  if (remote != null) repo.attach(engine);
+  return repo;
 });
 
 final trailBookmarksProvider =
@@ -39,70 +41,26 @@ final activeWalkProvider =
       ActiveWalkNotifier.new,
     );
 
-class TrailBookmarksNotifier extends Notifier<AsyncValue<Set<String>>> {
-  @override
-  AsyncValue<Set<String>> build() {
-    _listenAuth();
-    _load();
-    return const AsyncLoading();
-  }
-
+class TrailBookmarksNotifier extends OptimisticIdSetNotifier {
   TrailProgressRepository get _repo =>
       ref.read(trailProgressRepositoryProvider);
 
-  void _listenAuth() {
-    if (!SupabaseConfig.isConfigured) return;
-    ref.listen(authStateProvider, (prev, next) {
-      final user = next.asData?.value;
-      final hadUser = prev?.asData?.value != null;
-      if (user != null && !hadUser) {
-        ref.read(trailCompletionsProvider.notifier).mergeOnLogin();
-        ref.read(activeWalkProvider.notifier).mergeOnLogin();
-        _mergeOnLogin();
-      }
-    });
+  @override
+  Future<Set<String>> loadIds() => _repo.getBookmarkIds();
+
+  @override
+  Future<void> persistChange({
+    required String id,
+    required bool included,
+    required Set<String> next,
+  }) {
+    return _repo.setBookmarked(id, included);
   }
 
-  Future<void> _load() async {
-    try {
-      state = AsyncData(await _repo.getBookmarkIds());
-    } catch (e, st) {
-      state = AsyncError(e, st);
-    }
-  }
+  Future<void> setBookmarked(String trailId, bool bookmarked) =>
+      setIncluded(trailId, bookmarked);
 
-  Future<void> _mergeOnLogin() async {
-    final remote = SupabaseTrailProgressRepository(Supabase.instance.client);
-    try {
-      final remoteIds = await remote.fetchBookmarkIds();
-      final local = await _repo.getBookmarkIds();
-      await _repo.mergeWithRemote(
-        remoteBookmarks: remoteIds,
-        remoteCompletions: const {},
-        remoteWalks: const [],
-      );
-      state = AsyncData({...local, ...remoteIds});
-    } catch (_) {}
-  }
-
-  Future<void> setBookmarked(String trailId, bool bookmarked) async {
-    final previous = state.asData?.value ?? {};
-    final next = {...previous};
-    if (bookmarked) {
-      next.add(trailId);
-    } else {
-      next.remove(trailId);
-    }
-    state = AsyncData(next);
-    try {
-      await _repo.setBookmarked(trailId, bookmarked);
-    } catch (_) {
-      state = AsyncData(previous);
-    }
-  }
-
-  bool isBookmarked(String trailId) =>
-      state.asData?.value.contains(trailId) ?? false;
+  bool isBookmarked(String trailId) => containsId(trailId);
 }
 
 class TrailCompletionsNotifier
@@ -122,20 +80,6 @@ class TrailCompletionsNotifier
     } catch (e, st) {
       state = AsyncError(e, st);
     }
-  }
-
-  Future<void> mergeOnLogin() async {
-    if (!SupabaseConfig.isConfigured) return;
-    final remote = SupabaseTrailProgressRepository(Supabase.instance.client);
-    try {
-      final remoteMap = await remote.fetchCompletions();
-      await _repo.mergeWithRemote(
-        remoteBookmarks: const {},
-        remoteCompletions: remoteMap,
-        remoteWalks: const [],
-      );
-      state = AsyncData(await _repo.getCompletions());
-    } catch (_) {}
   }
 
   Future<void> setCompleted(
@@ -182,20 +126,6 @@ class ActiveWalkNotifier extends Notifier<AsyncValue<TrailWalk?>> {
     } catch (e, st) {
       state = AsyncError(e, st);
     }
-  }
-
-  Future<void> mergeOnLogin() async {
-    if (!SupabaseConfig.isConfigured) return;
-    final remote = SupabaseTrailProgressRepository(Supabase.instance.client);
-    try {
-      final remoteWalks = await remote.fetchWalks();
-      await _repo.mergeWithRemote(
-        remoteBookmarks: const {},
-        remoteCompletions: const {},
-        remoteWalks: remoteWalks,
-      );
-      state = AsyncData(await _repo.getActiveWalk());
-    } catch (_) {}
   }
 
   Future<TrailWalk> startWalk(String trailId) async {

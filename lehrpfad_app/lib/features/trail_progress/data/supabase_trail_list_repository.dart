@@ -86,28 +86,4 @@ class SupabaseTrailListRepository {
         .eq('trail_id', trailId);
   }
 
-  Future<void> upsertLists(List<TrailList> lists) async {
-    final uid = _userId;
-    if (uid == null || lists.isEmpty) return;
-    await _client.from('trail_lists').upsert([
-      for (final list in lists)
-        {
-          'id': list.id,
-          'user_id': uid,
-          'name': list.name,
-          'created_at': list.createdAt.toIso8601String(),
-          'updated_at': list.updatedAt.toIso8601String(),
-        },
-    ]);
-    final items = [for (final list in lists) ...list.items];
-    if (items.isEmpty) return;
-    await _client.from('trail_list_items').upsert([
-      for (final item in items)
-        {
-          'list_id': item.listId,
-          'trail_id': item.trailId,
-          'added_at': item.addedAt.toIso8601String(),
-        },
-    ]);
-  }
 }

@@ -4,6 +4,7 @@ import '../../../../../app/theme/app_colors.dart';
 import '../../../../../shared/widgets/content_carousel_style.dart';
 import '../../../../../shared/widgets/content_tile_shell.dart';
 import '../../../domain/station.dart';
+import 'station_identity.dart';
 
 /// Peek-Kachel einer Station im Content-Slider.
 class StationTile extends StatelessWidget {
@@ -31,17 +32,9 @@ class StationTile extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                CircleAvatar(
+                StationNumberAvatar(
+                  reihenfolge: station.reihenfolge,
                   radius: ContentCarouselStyle.iconSize / 2,
-                  backgroundColor: theme.colorScheme.primary,
-                  child: Text(
-                    '${station.reihenfolge}',
-                    style: TextStyle(
-                      color: theme.colorScheme.onPrimary,
-                      fontSize: 13,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
                 ),
                 const SizedBox(height: 8),
                 Text(
@@ -72,10 +65,7 @@ class StationTile extends StatelessWidget {
           if (station.barrierefrei)
             const Padding(
               padding: EdgeInsets.only(top: 4, right: 8),
-              child: Tooltip(
-                message: 'Barrierefrei',
-                child: Icon(Icons.accessible, size: 20, color: AppColors.ink),
-              ),
+              child: StationAccessibleMark(color: AppColors.ink),
             ),
         ],
       ),

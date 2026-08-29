@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
@@ -8,6 +7,7 @@ import '../../../shared/widgets/content_carousel_style.dart';
 import '../data/species_providers.dart';
 import '../domain/species.dart';
 import 'species_carousel.dart';
+import 'species_category_header.dart';
 import 'species_detail_sheet.dart';
 
 /// Arten-/Geräte-Block (optional gefiltert nach [kategorien]).
@@ -80,7 +80,7 @@ class ArtenSection extends ConsumerWidget {
               if (showCategoryHeaders) {
                 final kat = speciesKategorieEintrag(items.first.kategorie);
                 sections.add(
-                  _CategoryHeader(
+                  SpeciesCategoryHeader(
                     label: kat.label,
                     count: items.length,
                     icon: kat.icon,
@@ -110,43 +110,6 @@ class ArtenSection extends ConsumerWidget {
               children: sections,
             );
           },
-        ),
-      ],
-    );
-  }
-}
-
-class _CategoryHeader extends StatelessWidget {
-  const _CategoryHeader({
-    required this.label,
-    required this.count,
-    required this.icon,
-    required this.isGeraete,
-  });
-
-  final String label;
-  final int count;
-  final IconData icon;
-  final bool isGeraete;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final countLabel = isGeraete
-        ? (count == 1 ? 'Gerät' : 'Geräte')
-        : (count == 1 ? 'Art' : 'Arten');
-    return Row(
-      children: [
-        PhosphorIcon(icon, size: 18, color: AppColors.ink),
-        const SizedBox(width: 6),
-        Text(
-          label,
-          style: theme.textTheme.titleSmall?.copyWith(color: AppColors.ink),
-        ),
-        const SizedBox(width: 8),
-        Text(
-          '$count $countLabel',
-          style: theme.textTheme.bodySmall?.copyWith(color: AppColors.inkMuted),
         ),
       ],
     );

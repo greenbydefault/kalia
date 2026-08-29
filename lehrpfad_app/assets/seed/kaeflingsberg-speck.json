@@ -1,0 +1,606 @@
+{
+ "id": "kaeflingsberg-speck",
+ "name": "Käflingsberg Speck",
+ "typ": "wald",
+ "kurzbeschreibung": "Kurze Schleife bei Speck: 800-jährige Sommerlinde, Moorsteg am Priesterbäker See, 167 Stufen auf den höchsten Turm im Nationalpark – Müritz-Panorama.",
+ "beschreibung": "Die Runde startet an der 800-jährigen Sommerlinde in Speck, nicht im Jagdschloss. Der markierte Stichweg (schwarzes Wildschwein) führt durch Wald zur 700-jährigen Huteeiche, dann als Abstecher über den barrierefreien Moorsteg zur Beobachtungsplattform am Priesterbäker See. Zurück auf dem Hauptweg steigt der Käflingsberg auf 100 Meter; 167 Stufen und ein Fernrohr öffnen den Blick über Müritz, Havelquelle und die Seenplatte. Outdoor frei, ohne Ticket, ohne Anmeldung. Skywalk gibt es hier nicht – der Turm ist die Plattform. Wegegebot im Nationalpark, Hunde an der Leine. Hinter Speck ist die Parkstraße für Individualverkehr gesperrt; weiter fahren nur Busse des Nationalpark-Tickets. Verpflegung im Ort am Imbiss Fuchsbau, nicht am Turm.",
+ "laengeKm": 2.9,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Schwarzes Wildschwein auf weißem Grund / Nationalpark-Wegweisung",
+ "betreiber": "Nationalparkamt Müritz",
+ "region": "Speck / Kargow, Mecklenburgische Seenplatte, NP Müritz",
+ "website": "https://www.mueritz-nationalpark.de/erleben-erholen/aktiv-in-der-natur/wandern",
+ "anreise": "Auto: nach Speck (Kargow), Parken am Ortsrand / Sommerlinde – nicht hinter der Schranke in den Nationalpark fahren. ÖPNV: Nationalpark-Ticket Linie 09, Haltestelle Speck oder Am Käflingsberg (näher am Turm). Start an der Sommerlinde im Dorf, dann Wegweisung schwarzes Wildschwein Richtung Käflingsbergturm; Abstecher zur Plattform am Priesterbäker See ist ausgeschildert.",
+ "startName": "Sommerlinde Speck / Ortslage",
+ "arten": [
+  "Stieleiche",
+  "Kiefer",
+  "Rotbuche",
+  "Torfmoos",
+  "Kranich",
+  "Eisvogel",
+  "Fischadler"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.438044,
+   12.838517
+  ],
+  [
+   53.437742,
+   12.83909
+  ],
+  [
+   53.437823,
+   12.839234
+  ],
+  [
+   53.438138,
+   12.839714
+  ],
+  [
+   53.438304,
+   12.840002
+  ],
+  [
+   53.438324,
+   12.840068
+  ],
+  [
+   53.438367,
+   12.840247
+  ],
+  [
+   53.438387,
+   12.840335
+  ],
+  [
+   53.438394,
+   12.840423
+  ],
+  [
+   53.438422,
+   12.840687
+  ],
+  [
+   53.438429,
+   12.840756
+  ],
+  [
+   53.438441,
+   12.84089
+  ],
+  [
+   53.438454,
+   12.841036
+  ],
+  [
+   53.438466,
+   12.841174
+  ],
+  [
+   53.438496,
+   12.841513
+  ],
+  [
+   53.438516,
+   12.842
+  ],
+  [
+   53.438518,
+   12.842345
+  ],
+  [
+   53.438496,
+   12.842895
+  ],
+  [
+   53.438461,
+   12.84344
+  ],
+  [
+   53.438441,
+   12.843703
+  ],
+  [
+   53.43843,
+   12.843931
+  ],
+  [
+   53.438424,
+   12.844045
+  ],
+  [
+   53.438395,
+   12.844061
+  ],
+  [
+   53.438347,
+   12.844373
+  ],
+  [
+   53.438314,
+   12.844693
+  ],
+  [
+   53.43824,
+   12.845049
+  ],
+  [
+   53.438125,
+   12.845301
+  ],
+  [
+   53.437862,
+   12.845603
+  ],
+  [
+   53.437586,
+   12.845541
+  ],
+  [
+   53.43742,
+   12.84554
+  ],
+  [
+   53.437277,
+   12.845551
+  ],
+  [
+   53.437062,
+   12.845453
+  ],
+  [
+   53.436839,
+   12.845395
+  ],
+  [
+   53.436608,
+   12.845395
+  ],
+  [
+   53.436441,
+   12.845404
+  ],
+  [
+   53.436108,
+   12.845187
+  ],
+  [
+   53.435821,
+   12.844875
+  ],
+  [
+   53.435551,
+   12.844672
+  ],
+  [
+   53.435308,
+   12.84442
+  ],
+  [
+   53.435037,
+   12.84426
+  ],
+  [
+   53.434898,
+   12.8442
+  ],
+  [
+   53.434673,
+   12.844166
+  ],
+  [
+   53.434535,
+   12.84434
+  ],
+  [
+   53.434399,
+   12.844592
+  ],
+  [
+   53.434439,
+   12.844812
+  ],
+  [
+   53.434401,
+   12.844959
+  ],
+  [
+   53.434299,
+   12.844992
+  ],
+  [
+   53.434238,
+   12.844941
+  ],
+  [
+   53.434009,
+   12.845161
+  ],
+  [
+   53.433856,
+   12.845552
+  ],
+  [
+   53.43371,
+   12.845996
+  ],
+  [
+   53.433518,
+   12.846829
+  ],
+  [
+   53.433378,
+   12.847209
+  ],
+  [
+   53.433229,
+   12.847466
+  ],
+  [
+   53.433088,
+   12.847561
+  ],
+  [
+   53.432892,
+   12.847549
+  ],
+  [
+   53.432708,
+   12.84732
+  ],
+  [
+   53.432552,
+   12.847383
+  ],
+  [
+   53.432378,
+   12.847582
+  ],
+  [
+   53.432169,
+   12.847243
+  ],
+  [
+   53.431929,
+   12.846814
+  ],
+  [
+   53.43159,
+   12.846029
+  ],
+  [
+   53.431324,
+   12.845761
+  ],
+  [
+   53.431136,
+   12.84557
+  ],
+  [
+   53.430973,
+   12.845613
+  ],
+  [
+   53.430787,
+   12.845394
+  ],
+  [
+   53.430803,
+   12.845358
+  ],
+  [
+   53.430787,
+   12.845394
+  ],
+  [
+   53.430803,
+   12.845358
+  ],
+  [
+   53.430787,
+   12.845394
+  ],
+  [
+   53.430973,
+   12.845613
+  ],
+  [
+   53.431136,
+   12.84557
+  ],
+  [
+   53.431324,
+   12.845761
+  ],
+  [
+   53.43159,
+   12.846029
+  ],
+  [
+   53.431929,
+   12.846814
+  ],
+  [
+   53.432169,
+   12.847243
+  ],
+  [
+   53.432378,
+   12.847582
+  ],
+  [
+   53.43192,
+   12.848451
+  ],
+  [
+   53.431773,
+   12.848793
+  ],
+  [
+   53.43166,
+   12.848921
+  ],
+  [
+   53.430965,
+   12.849277
+  ],
+  [
+   53.430407,
+   12.8495
+  ],
+  [
+   53.429841,
+   12.849627
+  ],
+  [
+   53.429845,
+   12.849735
+  ],
+  [
+   53.429849,
+   12.849903
+  ],
+  [
+   53.430201,
+   12.85178
+  ],
+  [
+   53.430284,
+   12.852368
+  ],
+  [
+   53.430245,
+   12.85257
+  ],
+  [
+   53.430109,
+   12.852647
+  ],
+  [
+   53.42988,
+   12.852929
+  ],
+  [
+   53.429605,
+   12.853288
+  ],
+  [
+   53.429524,
+   12.853453
+  ],
+  [
+   53.429505,
+   12.853584
+  ],
+  [
+   53.429524,
+   12.853674
+  ],
+  [
+   53.429593,
+   12.853856
+  ],
+  [
+   53.429663,
+   12.854522
+  ],
+  [
+   53.429665,
+   12.855028
+  ],
+  [
+   53.429713,
+   12.855387
+  ],
+  [
+   53.429935,
+   12.856227
+  ],
+  [
+   53.429947,
+   12.856474
+  ],
+  [
+   53.42988,
+   12.856592
+  ],
+  [
+   53.429558,
+   12.856731
+  ],
+  [
+   53.429109,
+   12.856945
+  ],
+  [
+   53.428955,
+   12.857081
+  ],
+  [
+   53.428931,
+   12.857185
+  ],
+  [
+   53.428941,
+   12.857286
+  ],
+  [
+   53.429084,
+   12.857788
+  ],
+  [
+   53.429169,
+   12.858124
+  ],
+  [
+   53.429159,
+   12.858529
+  ],
+  [
+   53.429152,
+   12.858718
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2357751726,
+   "lat": 53.4380442,
+   "lon": 12.838517,
+   "km": 0.0,
+   "titel": "Sommerlinde Speck",
+   "thema": "Naturdenkmal am Start",
+   "kurztext": "Eine Sommerlinde mit neun Metern Umfang, gepflanzt um das 15. Jahrhundert. Speck heißt so viel wie Damm durchs Moor – der Baum steht mitten im Dorf, vor dem Weg in den Nationalpark. Parken hier, nicht hinter der Schranke.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "alterJahre": 600,
+    "werdegang": "vom Handelsdamm – zum Nationalparkdorf"
+   },
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3927819477,
+   "lat": 53.4327396,
+   "lon": 12.8484089,
+   "km": 1.24,
+   "titel": "Huteeiche",
+   "thema": "700 Jahre Mastwald",
+   "kurztext": "Im Mittelalter trieb man Schweine in den Wald, die Eicheln fraßen. Dafür pflanzte man Eichen und hielt den Unterwuchs kurz. Diese Stieleiche ist Naturdenkmal: rund 700 Jahre, 26 Meter hoch, Stammumfang 5,8 Meter. Die Tafel erklärt, warum solche Riesen nur in Hutewäldern alt werden.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -870274627,
+   "lat": 53.4307874,
+   "lon": 12.8453938,
+   "km": 1.55,
+   "titel": "Priesterbäker See",
+   "thema": "Moorsteg zur Plattform",
+   "kurztext": "Ein 350-Meter-Stichweg, dann Holzsteg über das Ufermoor. Die Plattform ist rollstuhlgerecht und gibt den Blick über den langgestreckten See frei – Kernzone, also Wege halten. Eisvogel und manchmal Fischadler über dem Wasser. Zurück denselben Steg, dann weiter zum Turm.",
+   "erlebnisse": [
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": {
+    "werdegang": "vom Ufermoor – zum Beobachtungssteg"
+   },
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -643599734,
+   "lat": 53.4298131,
+   "lon": 12.8498706,
+   "km": 2.14,
+   "titel": "Tafel am Käflingsberg",
+   "thema": "Wald, der sich selbst überlassen bleibt",
+   "kurztext": "Unterm Anstieg steht eine Nationalpark-Tafel zur natürlichen Waldentwicklung. Ab hier wird der Weg steiler. Die Straße daneben dürfen nur Busse und Anwohnende nutzen – du bleibst auf dem Wanderweg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -458346498,
+   "lat": 53.4292029,
+   "lon": 12.8586489,
+   "km": 2.87,
+   "titel": "Käflingsbergturm",
+   "thema": "167 Stufen, 360 Grad",
+   "kurztext": "Auf 100 Metern Höhe steht der 55-Meter-Turm: Mobilfunk, Waldbrandwache und Aussicht. 167 Stufen zur Plattform in 31 Metern, Fernrohr oben, kein Ticket. Bei Klarheit siehst du Waren, Röbel, Neustrelitz – und die Müritz dazwischen. Tafeln zu Wald und Gewässer stehen am Fuß. Zurück derselbe Weg nach Speck.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "werdegang": "vom Funkmast – zur Aussicht über den Nationalpark"
+   },
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 6275859311,
+   "lat": 53.4378381,
+   "lon": 12.838732,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1926807909,
+   "lat": 53.4307874,
+   "lon": 12.8453938,
+   "kategorie": "viewpoint",
+   "name": "Beobachtungsplattform Priesterbäker See"
+  },
+  {
+   "osmId": 126238698,
+   "lat": 53.4292029,
+   "lon": 12.8586489,
+   "kategorie": "viewpoint",
+   "name": "Käflingsbergturm"
+  },
+  {
+   "osmId": 1399992594,
+   "lat": 53.4293326,
+   "lon": 12.858672,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 6275859246,
+   "lat": 53.4292826,
+   "lon": 12.8584644,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 5435435539,
+   "lat": 53.4294743,
+   "lon": 12.8536311,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/kaeflingsberg-speck/credits.json"
+}

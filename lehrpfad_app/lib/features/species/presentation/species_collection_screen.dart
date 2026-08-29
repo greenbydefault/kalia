@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
 import '../data/species_providers.dart';
 import '../domain/species.dart';
+import 'species_category_header.dart';
 import 'species_detail_sheet.dart';
+import 'species_glyph.dart';
 
 /// App-weite Sammlung: 3er-Grid, ungesehen gedimmt + Schloss.
 class SpeciesCollectionScreen extends ConsumerWidget {
@@ -93,58 +94,17 @@ class SpeciesCollectionScreen extends ConsumerWidget {
       SliverToBoxAdapter(
         child: Padding(
           padding: EdgeInsets.only(top: topPad ? 8 : 0),
-          child: _SectionHeader(
+          child: SpeciesCategoryHeader(
             label: kat.label,
             count: items.length,
             icon: kat.icon,
             isGeraete: items.first.isGeraet,
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
           ),
         ),
       ),
       _SpeciesGrid(species: items, seenIds: seenIds),
     ];
-  }
-}
-
-class _SectionHeader extends StatelessWidget {
-  const _SectionHeader({
-    required this.label,
-    required this.count,
-    required this.icon,
-    required this.isGeraete,
-  });
-
-  final String label;
-  final int count;
-  final IconData icon;
-  final bool isGeraete;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final countLabel = isGeraete
-        ? (count == 1 ? 'Gerät' : 'Geräte')
-        : (count == 1 ? 'Art' : 'Arten');
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
-      child: Row(
-        children: [
-          PhosphorIcon(icon, size: 18, color: AppColors.ink),
-          const SizedBox(width: 6),
-          Text(
-            label,
-            style: theme.textTheme.titleSmall?.copyWith(color: AppColors.ink),
-          ),
-          const SizedBox(width: 8),
-          Text(
-            '$count $countLabel',
-            style: theme.textTheme.bodySmall?.copyWith(
-              color: AppColors.inkMuted,
-            ),
-          ),
-        ],
-      ),
-    );
   }
 }
 
@@ -207,9 +167,6 @@ class _CollectionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final icon = species.displayIconEintrag.icon;
-
     return Material(
       color: AppColors.n100,
       borderRadius: BorderRadius.circular(10),
@@ -220,44 +177,11 @@ class _CollectionTile extends StatelessWidget {
           opacity: seen ? 1 : SpeciesCollectionScreen._lockedOpacity,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Stack(
-                  alignment: Alignment.center,
-                  clipBehavior: Clip.none,
-                  children: [
-                    PhosphorIcon(icon, size: 32, color: AppColors.ink),
-                    if (!seen)
-                      const Positioned(
-                        right: -4,
-                        bottom: -4,
-                        child: Icon(Icons.lock, size: 16, color: AppColors.ink),
-                      ),
-                    if (seen)
-                      const Positioned(
-                        right: -6,
-                        top: -6,
-                        child: Icon(
-                          Icons.check_circle,
-                          size: 16,
-                          color: AppColors.ink,
-                        ),
-                      ),
-                  ],
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  species.nameDe,
-                  textAlign: TextAlign.center,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: theme.textTheme.labelMedium?.copyWith(
-                    color: AppColors.ink,
-                    height: 1.2,
-                  ),
-                ),
-              ],
+            child: SpeciesGlyph(
+              species: species,
+              seen: seen,
+              iconSize: 32,
+              showLock: true,
             ),
           ),
         ),

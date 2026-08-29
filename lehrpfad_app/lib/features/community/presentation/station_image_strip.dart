@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_avif/flutter_avif.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../app/theme/app_colors.dart';
+import '../../../shared/widgets/overlay_badge.dart';
 import '../data/community_providers.dart';
 import '../domain/trail_image.dart';
+import 'delete_trail_image.dart';
 import 'fullscreen_image_viewer.dart';
 
 /// Horizontale Thumbnail-Reihe der Bilder einer Station (innerhalb der
@@ -46,17 +47,7 @@ class StationImageStrip extends ConsumerWidget {
               images,
               i,
               onDelete: canDelete
-                  ? (img) async {
-                      final repo = ref.read(imagesRepositoryProvider);
-                      if (repo == null) return false;
-                      try {
-                        await repo.deleteImage(img);
-                        ref.invalidate(trailImagesProvider(trailId));
-                        return true;
-                      } catch (_) {
-                        return false;
-                      }
-                    }
+                  ? (img) => deleteTrailImage(ref, image: img, trailId: trailId)
                   : null,
             ),
             child: Stack(
@@ -77,23 +68,10 @@ class StationImageStrip extends ConsumerWidget {
                   ),
                 ),
                 if (!image.isApproved)
-                  Positioned(
+                  const Positioned(
                     left: 4,
                     top: 4,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 6,
-                        vertical: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        color: AppColors.scrim54,
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      child: const Text(
-                        'In Prüfung',
-                        style: TextStyle(color: AppColors.n50, fontSize: 10),
-                      ),
-                    ),
+                    child: OverlayBadge(text: 'In Prüfung'),
                   ),
               ],
             ),

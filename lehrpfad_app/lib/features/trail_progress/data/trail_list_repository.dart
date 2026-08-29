@@ -11,5 +11,4 @@ abstract class TrailListRepository {
     required String trailId,
     required bool inList,
   });
-  Future<void> mergeWithRemote(List<TrailList> remote);
 }

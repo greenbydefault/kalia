@@ -3,6 +3,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/catalogs/icon_catalog.dart';
+import '../../../../shared/widgets/bottom_content_card.dart';
 import '../../domain/trail.dart';
 
 /// Griff, Typ-Chips, Peek-CTAs, Titel und Kurzbeschreibung des Trail-Sheets.
@@ -12,11 +13,17 @@ class TrailSheetHeader extends StatelessWidget {
     required this.trail,
     required this.onClose,
     this.peekActions,
+    this.showClose = true,
+    this.showHandle = true,
   });
 
   final Trail trail;
   final VoidCallback onClose;
   final Widget? peekActions;
+  final bool showClose;
+
+  /// Drag-Griff oben — nur für Bottom-Sheets, nicht in der Detail-Seite.
+  final bool showHandle;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +32,12 @@ class TrailSheetHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _SheetHandle(onClose: onClose),
+        if (showHandle || showClose)
+          _SheetHandle(
+            onClose: onClose,
+            showClose: showClose,
+            showHandle: showHandle,
+          ),
         Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
@@ -79,36 +91,34 @@ class TrailSheetHeader extends StatelessWidget {
 }
 
 class _SheetHandle extends StatelessWidget {
-  const _SheetHandle({required this.onClose});
+  const _SheetHandle({
+    required this.onClose,
+    required this.showClose,
+    required this.showHandle,
+  });
 
   final VoidCallback onClose;
+  final bool showClose;
+  final bool showHandle;
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
     return SizedBox(
       width: double.infinity,
       child: Stack(
         alignment: Alignment.center,
         children: [
-          Container(
-            width: 40,
-            height: 4,
-            margin: const EdgeInsets.symmetric(vertical: AppSpacing.x2),
-            decoration: BoxDecoration(
-              color: theme.colorScheme.outlineVariant,
-              borderRadius: BorderRadius.circular(2),
+          if (showHandle) const BottomContentCardHandle(),
+          if (showClose)
+            Positioned(
+              right: 0,
+              child: IconButton(
+                tooltip: 'Schließen',
+                icon: const PhosphorIcon(PhosphorIcons.x, size: 20),
+                onPressed: onClose,
+                visualDensity: VisualDensity.compact,
+              ),
             ),
-          ),
-          Positioned(
-            right: 0,
-            child: IconButton(
-              tooltip: 'Schließen',
-              icon: const PhosphorIcon(PhosphorIcons.x, size: 20),
-              onPressed: onClose,
-              visualDensity: VisualDensity.compact,
-            ),
-          ),
         ],
       ),
     );

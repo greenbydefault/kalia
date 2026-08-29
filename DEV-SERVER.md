@@ -71,17 +71,10 @@ Im **selben Terminal**, in dem `flutter run` läuft:
 4. Standard: `flutter run -d web-server --web-port=8080` (mit Supabase-Defines, wenn Live-Daten gebraucht werden).
 5. URL nennen (`http://localhost:8080` bzw. gewählter Port).
 
-## Handy / öffentlich (Origin → Vercel)
+## Handy / öffentlich (GitHub → Vercel Hobby)
 
-Code liegt auf Origin: https://cursor.com/codebase/likebase/ako
+Gratis-Weg: GitHub (persönlicher Account) → Vercel Hobby. Origin bleibt nur Backup.
 
-Origin liefert keine Website. Für eine Handy-URL Vercel (Pro/Team, Hobby geht nicht) andocken:
+Klick-für-Klick: [`lehrpfad_app/docs/golive/vercel.md`](lehrpfad_app/docs/golive/vercel.md)
 
-1. https://vercel.com/new → **Continue with Origin** → Repo `likebase/ako`
-   oder Origin-Repo → **Apps** → Vercel
-2. Framework: Other. Build kommt aus [`vercel.json`](vercel.json) (`lehrpfad_app/vercel-build.sh` → `lehrpfad_app/build/web`).
-3. Env-Vars (Production + Preview):
-   - `SUPABASE_URL`
-   - `SUPABASE_PUBLISHABLE_KEY`
-   Werte aus Supabase MCP `user-supabase-ako` (`get_project_url`, `get_publishable_keys`) — nicht ins Repo.
-4. Deploy. URL: `https://<projekt>.vercel.app`
+Kurz: Repo auf GitHub pushen → [vercel.com/new](https://vercel.com/new) **Continue with GitHub** → Env aus `.env.vercel` → Deploy.

@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-salzwiese-bad.jpg",
+    "caption": "Sandige Salzwiese am Deich von St. Peter-Ording-Bad.",
+    "credit": "ES01",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Peter%20Bad%20Salzwiesen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-seebruecke.jpg",
+    "caption": "Strand und Seebrücke in St. Peter-Ording-Bad.",
+    "credit": "BAW",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt.%20Peter-Ording%20Nordsee%20%2850810059601%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-pfahlbauten.jpg",
+    "caption": "Pfahlbauten auf dem Strand zwischen Nord- und Süd-Ording.",
+    "credit": "Klaus Bärwinkel",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlick%20auf%20den%20Strand%20Nord-Ording%204.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-watt.jpg",
+    "caption": "Watt und Küste vor St. Peter-Ording bei Ebbe.",
+    "credit": "Wmr58",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWatt%20bei%20St.%20Peter-Ording.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-duenen.jpg",
+    "caption": "Dünenkette bei St. Peter-Ording, natürlicher Küstenschutz.",
+    "credit": "Meles1",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCnen%20bei%20St.%20Peter-Ording.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-luftbild-seebruecke.jpg",
+    "caption": "Luftbild der Seebrücke von St. Peter-Ording-Bad.",
+    "credit": "Walter Rademacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20photograph%208072%20DxO.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-salzwiesen.jpg",
+    "caption": "Salzwiesen vor dem Deich von St. Peter-Ording.",
+    "credit": "Wmr58",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalzwiesen%20bei%20St.%20Peter-Ording.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-strandflieder.jpg",
+    "caption": "Gewöhnlicher Strandflieder in voller Blüte.",
+    "credit": "peterichman",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGewoehnlicher%20Strandflieder%20%28Limonium%20vulgare%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-queller.jpg",
+    "caption": "Europäischer Queller, Pionier an der Flutkante.",
+    "credit": "Robert Flogaus-Faust",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalicornia%20europaea%20RF.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-austernfischer.jpg",
+    "caption": "Austernfischer, schwarzweiß mit orangerotem Schnabel.",
+    "credit": "Hobbyfotowiki",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEurasian%20oystercatcher%20%28Haematopus%20ostralegus%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "11-watt-spiegel.jpg",
+    "caption": "Nasses Watt vor St. Peter-Ording, Sonne im Schlick.",
+    "credit": "Jörg Schiffke",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt.%20Peter%20Ording%20Watt.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "12-watt-bojen.jpg",
+    "caption": "Schutzpfähle und Bojen im Watt vor St. Peter-Ording.",
+    "credit": "BAW",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt.%20Peter-Ording%20Nordsee%20%2850810175167%29.jpg",
+    "kind": "ort"
+  }
+]

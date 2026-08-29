@@ -1,64 +1,51 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:latlong2/latlong.dart';
-import 'package:path_provider/path_provider.dart';
 
+import '../../../core/cache/catalog_cache.dart';
+import '../../../core/cache/catalog_cache_platform.dart';
+import '../../../core/cache/catalog_fetch.dart';
 import '../domain/trail.dart';
 import 'seed_trail_repository.dart';
+import 'trail_hero_assets.dart';
 import 'trail_repository.dart';
 
-/// Decorator um ein Remote-Repository: frische Daten werden als JSON-Datei
-/// im App-Support-Verzeichnis abgelegt. Bei Offline/Fehler wird der Cache
-/// gelesen, beim allerersten Start ohne Cache das gebündelte Seed-Asset.
+/// Decorator um ein Remote-Repository: unfiltered Catalog → Cache,
+/// bei Offline/Fehler Cache, sonst Seed.
 class CachedTrailRepository implements TrailRepository {
-  CachedTrailRepository(this._remote, {TrailRepository? fallback})
-    : _fallback = fallback ?? SeedTrailRepository();
+  CachedTrailRepository(
+    this._remote, {
+    TrailRepository? fallback,
+    CatalogCache? cache,
+  }) : _fallback = fallback ?? SeedTrailRepository(),
+       _cache = cache ?? createCatalogCache();
 
   final TrailRepository _remote;
   final TrailRepository _fallback;
+  final CatalogCache _cache;
 
-  static const _cacheFileName = 'trails_cache.json';
+  static const cacheKey = 'trails_cache';
 
   @override
-  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) async {
-    try {
-      final trails = await _remote.getTrails(near: near, radiusKm: radiusKm);
-      await _writeCache(trails);
-      return trails;
-    } catch (_) {
-      return _readCacheOrFallback();
-    }
-  }
-
-  Future<List<Trail>> _readCacheOrFallback() async {
-    try {
-      final file = await _cacheFile();
-      if (file.existsSync()) {
-        final json = jsonDecode(await file.readAsString()) as List;
-        return json
-            .map((t) => Trail.fromJson(t as Map<String, dynamic>))
-            .toList();
-      }
-    } catch (_) {
-      // Korrupte oder unlesbare Cache-Datei -> Seed-Fallback
-    }
-    return _fallback.getTrails();
-  }
-
-  Future<File> _cacheFile() async {
-    final dir = await getApplicationSupportDirectory();
-    return File('${dir.path}/$_cacheFileName');
-  }
-
-  Future<void> _writeCache(List<Trail> trails) async {
-    try {
-      final file = await _cacheFile();
-      await file.writeAsString(
-        jsonEncode(trails.map((t) => t.toJson()).toList()),
-      );
-    } catch (_) {
-      // Schreibfehler ignorieren – die frischen Daten sind ja bereits da
-    }
+  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) {
+    final filtered = near != null || radiusKm != null;
+    return loadCatalog(
+      cache: _cache,
+      key: cacheKey,
+      skipWrite: filtered,
+      remote: () => _remote.getTrails(near: near, radiusKm: radiusKm),
+      encode: (trails) => jsonEncode(trails.map((t) => t.toJson()).toList()),
+      decode: (raw) async {
+        final json = jsonDecode(raw) as List;
+        final trails = <Trail>[];
+        for (final t in json) {
+          final map = t as Map<String, dynamic>;
+          await attachHeroBilder(map);
+          trails.add(Trail.fromJson(map));
+        }
+        return trails;
+      },
+      seed: () => _fallback.getTrails(),
+    );
   }
 }

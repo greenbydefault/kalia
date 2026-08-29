@@ -7,7 +7,7 @@ void main() {
   final theme = AppTheme.light();
   final text = theme.textTheme;
 
-  test('Headlines nutzen League Gothic Regular', () {
+  test('Headlines nutzen Instrument Serif Regular', () {
     for (final style in [
       text.displayLarge,
       text.displayMedium,

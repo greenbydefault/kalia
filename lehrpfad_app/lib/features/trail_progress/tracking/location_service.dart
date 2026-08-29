@@ -6,7 +6,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
 
 final locationServiceProvider = Provider<LocationService>((ref) {
-  return LocationService();
+  return GeolocatorLocationService();
 });
 
 enum LocationFailure {
@@ -54,10 +54,41 @@ extension OsLocationStatusX on OsLocationStatus {
       this == OsLocationStatus.whileInUse || this == OsLocationStatus.always;
 }
 
-/// Adapter um Geolocator + Permissions.
-class LocationService {
-  StreamSubscription<Position>? _sub;
+/// Seam zum Standort-Subsystem. Tests injizieren Fakes über
+/// `locationServiceProvider.overrideWithValue(...)`, ohne dass
+/// Geolocator/Plattform-Kanäle nötig sind.
+abstract class LocationService {
+  Future<OsLocationStatus> status();
 
+  /// Wirft [LocationException], wenn Dienste deaktiviert oder die
+  /// Berechtigung verweigert ist.
+  Future<bool> ensurePermission({bool requestAlways = false});
+
+  Future<void> openSystemSettings();
+
+  Stream<LatLng> watchPosition({
+    LocationAccuracy accuracy = LocationAccuracy.high,
+    int distanceFilter = 3,
+  });
+
+  Future<LocationFix> getFix({
+    Duration timeLimit = const Duration(seconds: 8),
+    LocationAccuracy accuracy = LocationAccuracy.high,
+  });
+
+  /// Letzte bekannte Position oder null — wirft nie.
+  Future<LatLng?> currentPosition() async {
+    try {
+      return (await getFix()).position;
+    } catch (_) {
+      return null;
+    }
+  }
+}
+
+/// Adapter um Geolocator + Permissions.
+class GeolocatorLocationService extends LocationService {
+  @override
   Future<OsLocationStatus> status() async {
     final enabled = await Geolocator.isLocationServiceEnabled();
     if (!enabled) return OsLocationStatus.servicesDisabled;
@@ -75,6 +106,7 @@ class LocationService {
     }
   }
 
+  @override
   Future<bool> ensurePermission({bool requestAlways = false}) async {
     final enabled = await Geolocator.isLocationServiceEnabled();
     if (!enabled) {
@@ -110,8 +142,10 @@ class LocationService {
     return true;
   }
 
+  @override
   Future<void> openSystemSettings() => Geolocator.openAppSettings();
 
+  @override
   Stream<LatLng> watchPosition({
     LocationAccuracy accuracy = LocationAccuracy.high,
     int distanceFilter = 3,
@@ -141,6 +175,7 @@ class LocationService {
     ).map((p) => LatLng(p.latitude, p.longitude));
   }
 
+  @override
   Future<LocationFix> getFix({
     Duration timeLimit = const Duration(seconds: 8),
     LocationAccuracy accuracy = LocationAccuracy.high,
@@ -170,18 +205,5 @@ class LocationService {
         'Standort nicht verfügbar.',
       );
     }
-  }
-
-  Future<LatLng?> currentPosition() async {
-    try {
-      return (await getFix()).position;
-    } catch (_) {
-      return null;
-    }
-  }
-
-  Future<void> stop() async {
-    await _sub?.cancel();
-    _sub = null;
   }
 }

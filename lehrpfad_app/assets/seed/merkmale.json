@@ -1,0 +1,250 @@
+[
+  {
+    "id": "pelzig",
+    "nameDe": "Pelzig",
+    "beschreibung": "Trägt ein dichtes Fell aus weichen Haaren.",
+    "iconKey": "pelzig",
+    "gruppe": "aussehen",
+    "sortierung": 10
+  },
+  {
+    "id": "gefiedert",
+    "nameDe": "Gefiedert",
+    "beschreibung": "Hat Federn – meist ein Vogel.",
+    "iconKey": "gefiedert",
+    "gruppe": "aussehen",
+    "sortierung": 20
+  },
+  {
+    "id": "schuppig",
+    "nameDe": "Schuppig",
+    "beschreibung": "Der Körper ist mit Schuppen bedeckt.",
+    "iconKey": "schuppig",
+    "gruppe": "aussehen",
+    "sortierung": 30
+  },
+  {
+    "id": "dornig",
+    "nameDe": "Dornig",
+    "beschreibung": "Wehrt sich mit Stacheln oder Dornen.",
+    "iconKey": "dornig",
+    "gruppe": "aussehen",
+    "sortierung": 40
+  },
+  {
+    "id": "laubabwerfend",
+    "nameDe": "Laubabwerfend",
+    "beschreibung": "Wirft im Herbst alle Blätter ab.",
+    "iconKey": "laubabwerfend",
+    "gruppe": "aussehen",
+    "sortierung": 50
+  },
+  {
+    "id": "immergruen",
+    "nameDe": "Immergrün",
+    "beschreibung": "Bleibt das ganze Jahr grün.",
+    "iconKey": "immergruen",
+    "gruppe": "aussehen",
+    "sortierung": 60
+  },
+  {
+    "id": "nadelbaum",
+    "nameDe": "Nadelbaum",
+    "beschreibung": "Trägt Nadeln statt Blätter.",
+    "iconKey": "nadelbaum",
+    "gruppe": "aussehen",
+    "sortierung": 70
+  },
+  {
+    "id": "laubbaum",
+    "nameDe": "Laubbaum",
+    "beschreibung": "Trägt breite, flache Blätter.",
+    "iconKey": "laubbaum",
+    "gruppe": "aussehen",
+    "sortierung": 80
+  },
+  {
+    "id": "bluete",
+    "nameDe": "Blüte",
+    "beschreibung": "Zeigt auffällige Blüten.",
+    "iconKey": "bluete",
+    "gruppe": "aussehen",
+    "sortierung": 90
+  },
+  {
+    "id": "herbstfarbe",
+    "nameDe": "Herbstfarbe",
+    "beschreibung": "Leuchtet im Herbst in kräftigen Farben.",
+    "iconKey": "herbstfarbe",
+    "gruppe": "aussehen",
+    "sortierung": 100
+  },
+  {
+    "id": "sozial",
+    "nameDe": "Sozial",
+    "beschreibung": "Lebt in Gruppen und arbeitet mit anderen zusammen.",
+    "iconKey": "sozial",
+    "gruppe": "verhalten",
+    "sortierung": 110
+  },
+  {
+    "id": "nachtaktiv",
+    "nameDe": "Nachtaktiv",
+    "beschreibung": "Ist vor allem nachts unterwegs.",
+    "iconKey": "nachtaktiv",
+    "gruppe": "verhalten",
+    "sortierung": 120
+  },
+  {
+    "id": "tagaktiv",
+    "nameDe": "Tagaktiv",
+    "beschreibung": "Ist vor allem am Tag unterwegs.",
+    "iconKey": "tagaktiv",
+    "gruppe": "verhalten",
+    "sortierung": 130
+  },
+  {
+    "id": "wanderer",
+    "nameDe": "Wanderer",
+    "beschreibung": "Zieht über weite Strecken umher.",
+    "iconKey": "wanderer",
+    "gruppe": "verhalten",
+    "sortierung": 140
+  },
+  {
+    "id": "baumeister",
+    "nameDe": "Baumeister",
+    "beschreibung": "Baut Dämme, Burgen oder Nester.",
+    "iconKey": "baumeister",
+    "gruppe": "verhalten",
+    "sortierung": 150
+  },
+  {
+    "id": "tarnung",
+    "nameDe": "Tarnung",
+    "beschreibung": "Kann sich fast unsichtbar machen.",
+    "iconKey": "tarnung",
+    "gruppe": "verhalten",
+    "sortierung": 160
+  },
+  {
+    "id": "wehrhaft",
+    "nameDe": "Wehrhaft",
+    "beschreibung": "Kann sich gut verteidigen.",
+    "iconKey": "wehrhaft",
+    "gruppe": "verhalten",
+    "sortierung": 170
+  },
+  {
+    "id": "saenger",
+    "nameDe": "Sänger",
+    "beschreibung": "Fällt durch Gesang oder Rufe auf.",
+    "iconKey": "saenger",
+    "gruppe": "verhalten",
+    "sortierung": 180
+  },
+  {
+    "id": "insektenfresser",
+    "nameDe": "Insektenfresser",
+    "beschreibung": "Frisst vor allem Insekten und kleine Wirbellose.",
+    "iconKey": "insektenfresser",
+    "gruppe": "rolle",
+    "sortierung": 190
+  },
+  {
+    "id": "pflanzenfresser",
+    "nameDe": "Pflanzenfresser",
+    "beschreibung": "Frisst vor allem Pflanzen.",
+    "iconKey": "pflanzenfresser",
+    "gruppe": "rolle",
+    "sortierung": 200
+  },
+  {
+    "id": "fleischfresser",
+    "nameDe": "Fleischfresser",
+    "beschreibung": "Jagt andere Tiere.",
+    "iconKey": "fleischfresser",
+    "gruppe": "rolle",
+    "sortierung": 210
+  },
+  {
+    "id": "allesfresser",
+    "nameDe": "Allesfresser",
+    "beschreibung": "Frisst Pflanzen und Tiere.",
+    "iconKey": "allesfresser",
+    "gruppe": "rolle",
+    "sortierung": 220
+  },
+  {
+    "id": "bestaeuber",
+    "nameDe": "Bestäuber",
+    "beschreibung": "Trägt Pollen von Blüte zu Blüte.",
+    "iconKey": "bestaeuber",
+    "gruppe": "rolle",
+    "sortierung": 230
+  },
+  {
+    "id": "schluesselart",
+    "nameDe": "Schlüsselart",
+    "beschreibung": "Ist für viele andere Arten besonders wichtig.",
+    "iconKey": "schluesselart",
+    "gruppe": "rolle",
+    "sortierung": 240
+  },
+  {
+    "id": "fruchttragend",
+    "nameDe": "Fruchttragend",
+    "beschreibung": "Bildet Früchte, Beeren oder Nüsse.",
+    "iconKey": "fruchttragend",
+    "gruppe": "rolle",
+    "sortierung": 250
+  },
+  {
+    "id": "wasserlebend",
+    "nameDe": "Wasserlebend",
+    "beschreibung": "Lebt im oder am Wasser.",
+    "iconKey": "wasserlebend",
+    "gruppe": "lebensraum",
+    "sortierung": 260
+  },
+  {
+    "id": "luftbewohnend",
+    "nameDe": "Luftbewohnend",
+    "beschreibung": "Verbringt viel Zeit in der Luft.",
+    "iconKey": "luftbewohnend",
+    "gruppe": "lebensraum",
+    "sortierung": 270
+  },
+  {
+    "id": "hoehlenbewohnend",
+    "nameDe": "Höhlenbewohnend",
+    "beschreibung": "Lebt in Höhlen, Baumhöhlen oder Spalten.",
+    "iconKey": "hoehlenbewohnend",
+    "gruppe": "lebensraum",
+    "sortierung": 280
+  },
+  {
+    "id": "moor",
+    "nameDe": "Moor",
+    "beschreibung": "Fühlt sich im Moor wohl.",
+    "iconKey": "moor",
+    "gruppe": "lebensraum",
+    "sortierung": 290
+  },
+  {
+    "id": "heide",
+    "nameDe": "Heide",
+    "beschreibung": "Fühlt sich in der Heide wohl.",
+    "iconKey": "heide",
+    "gruppe": "lebensraum",
+    "sortierung": 300
+  },
+  {
+    "id": "salzwiese",
+    "nameDe": "Salzwiese",
+    "beschreibung": "Fühlt sich in der Salzwiese an der Küste wohl.",
+    "iconKey": "salzwiese",
+    "gruppe": "lebensraum",
+    "sortierung": 310
+  }
+]

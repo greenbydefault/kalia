@@ -48,10 +48,10 @@ void main() {
     final nodes = index.nodesAt(14);
 
     expect(nodes.whereType<TrailMapCluster>(), isEmpty);
-    expect(
-      nodes.whereType<TrailMapPoint>().map((n) => n.trail.id).toSet(),
-      {'near-a', 'near-b'},
-    );
+    expect(nodes.whereType<TrailMapPoint>().map((n) => n.trail.id).toSet(), {
+      'near-a',
+      'near-b',
+    });
   });
 
   test('expansionZoom liegt über dem Cluster-Zoom', () {
@@ -60,6 +60,15 @@ void main() {
 
     expect(cluster.expansionZoom, greaterThan(5));
     expect(index.expansionZoom(cluster.id), cluster.expansionZoom);
+  });
+
+  test('startsIn liefert die Kinder-Starts eines Clusters', () {
+    final index = TrailClusterIndex([nearA, nearB, far]);
+    final cluster = index.nodesAt(5).whereType<TrailMapCluster>().single;
+
+    final starts = index.startsIn(cluster.id, count: cluster.count);
+    expect(starts, hasLength(2));
+    expect(starts.toSet(), {nearA.start, nearB.start});
   });
 
   test('nicht übergebene Trails fehlen im Index', () {

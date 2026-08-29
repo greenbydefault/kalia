@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/shell_tab_provider.dart';
 import '../../location/location_consent_sheet.dart';
+import '../../location/location_gate.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/trail.dart';
 import '../data/trail_progress_providers.dart';
@@ -16,13 +17,15 @@ Future<void> openTrailOnMap(
   bool resume = false,
 }) async {
   ref.read(mapTypFilterProvider.notifier).clear();
+  // Externer Einstieg: Karte darf einmalig zum Trail fliegen (One-Shot).
+  ref.read(pendingCameraTrailProvider.notifier).request(trail.id);
   ref.read(selectedTrailProvider.notifier).select(trail);
   ref.read(shellTabIndexProvider.notifier).goToMap();
   if (!resume) return;
   final walk = ref.read(activeWalkProvider).asData?.value;
   if (walk == null || walk.trailId != trail.id) return;
   try {
-    await ensureTourLocation(context, ref);
+    await LocationGate.ensureTour(context, ref);
     await ref.read(walkSnapshotProvider.notifier).resumeTour(trail, walk);
   } on LocationException catch (e) {
     if (context.mounted) showLocationError(context, e);
