@@ -15,7 +15,8 @@ class SupabaseImagesRepository implements ImagesRepository {
 
   static const _columns =
       'id, trail_id, station_id, uploader_id, source, status, credit, '
-      'width, height, created_at';
+      'width, height, mime_type, thumb_bytes, small_bytes, medium_bytes, '
+      'created_at';
 
   @override
   Future<List<TrailImage>> getImages(String trailId) async {
@@ -74,6 +75,10 @@ class SupabaseImagesRepository implements ImagesRepository {
       credit: row['credit'] as String? ?? '',
       width: row['width'] as int?,
       height: row['height'] as int?,
+      mimeType: row['mime_type'] as String?,
+      thumbBytes: row['thumb_bytes'] as int?,
+      smallBytes: row['small_bytes'] as int?,
+      mediumBytes: row['medium_bytes'] as int?,
       createdAt: DateTime.parse(row['created_at'] as String),
       isMine: row['uploader_id'] != null &&
           row['uploader_id'] == _client.auth.currentUser?.id,

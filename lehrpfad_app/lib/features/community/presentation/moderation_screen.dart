@@ -6,6 +6,7 @@ import '../../trail/data/providers.dart';
 import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
 import '../domain/trail_image.dart';
+import 'fullscreen_image_viewer.dart';
 
 /// Admin-Bereich: pending-Bilder in einer Tabelle freigeben oder
 /// ablehnen. Ablehnen loescht Bild samt Dateien.
@@ -76,59 +77,93 @@ class ModerationScreen extends ConsumerWidget {
                     constraints: BoxConstraints(minWidth: constraints.maxWidth),
                     child: DataTable(
                       headingRowHeight: 48,
-                      dataRowMinHeight: 72,
-                      dataRowMaxHeight: 88,
+                      dataRowMinHeight: 76,
+                      dataRowMaxHeight: 96,
                       columns: const [
                         DataColumn(label: Text('Bild')),
                         DataColumn(label: Text('Trail')),
                         DataColumn(label: Text('Zuordnung')),
+                        DataColumn(label: Text('Format')),
+                        DataColumn(label: Text('Größe')),
                         DataColumn(label: Text('Credit')),
                         DataColumn(label: Text('Datum')),
                         DataColumn(label: Text('')),
                       ],
                       rows: [
-                        for (final image in images)
+                        for (var i = 0; i < images.length; i++)
                           DataRow(
                             cells: [
                               DataCell(
-                                ClipRRect(
-                                  borderRadius: BorderRadius.circular(6),
-                                  child: CachedNetworkAvifImage(
-                                    image.thumbUrl,
-                                    width: 64,
-                                    height: 48,
-                                    fit: BoxFit.cover,
-                                    errorBuilder: (context, error, stack) =>
-                                        Container(
-                                          width: 64,
-                                          height: 48,
-                                          color: theme
-                                              .colorScheme
-                                              .surfaceContainerHighest,
-                                          child: const Icon(
-                                            Icons.broken_image_outlined,
-                                            size: 20,
-                                          ),
-                                        ),
+                                Tooltip(
+                                  message: 'Vergrößern',
+                                  child: MouseRegion(
+                                    cursor: SystemMouseCursors.click,
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(6),
+                                      child: CachedNetworkAvifImage(
+                                        images[i].thumbUrl,
+                                        width: 64,
+                                        height: 48,
+                                        fit: BoxFit.cover,
+                                        errorBuilder: (context, error, stack) =>
+                                            Container(
+                                              width: 64,
+                                              height: 48,
+                                              color: theme
+                                                  .colorScheme
+                                                  .surfaceContainerHighest,
+                                              child: const Icon(
+                                                Icons.broken_image_outlined,
+                                                size: 20,
+                                              ),
+                                            ),
+                                      ),
+                                    ),
                                   ),
                                 ),
+                                onTap: () => FullscreenImageViewer.open(
+                                  context,
+                                  images,
+                                  i,
+                                ),
                               ),
-                              DataCell(Text(_trailName(trails, image.trailId))),
-                              DataCell(Text(_zuordnung(trails, image))),
                               DataCell(
-                                Text(image.credit.isEmpty ? '—' : image.credit),
+                                Text(_trailName(trails, images[i].trailId)),
                               ),
-                              DataCell(Text(_fmt(image.createdAt))),
+                              DataCell(Text(_zuordnung(trails, images[i]))),
+                              DataCell(Text(images[i].formatLabel)),
+                              DataCell(
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(_pixelSize(images[i])),
+                                    Text(
+                                      _fileSizes(images[i]),
+                                      style: theme.textTheme.bodySmall,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              DataCell(
+                                Text(
+                                  images[i].credit.isEmpty
+                                      ? '—'
+                                      : images[i].credit,
+                                ),
+                              ),
+                              DataCell(Text(_fmt(images[i].createdAt))),
                               DataCell(
                                 Row(
                                   children: [
                                     TextButton(
                                       onPressed: () =>
-                                          _reject(ref, context, image),
+                                          _reject(ref, context, images[i]),
                                       child: const Text('Ablehnen'),
                                     ),
                                     FilledButton(
-                                      onPressed: () => _approve(ref, image),
+                                      onPressed: () =>
+                                          _approve(ref, images[i]),
                                       child: const Text('Freigeben'),
                                     ),
                                   ],
@@ -174,4 +209,32 @@ String _fmt(DateTime d) {
   final dd = local.day.toString().padLeft(2, '0');
   final mm = local.month.toString().padLeft(2, '0');
   return '$dd.$mm.${local.year}';
+}
+
+String _pixelSize(TrailImage image) {
+  final w = image.width;
+  final h = image.height;
+  if (w == null || h == null) return '—';
+  return '$w × $h';
+}
+
+String _fileSizes(TrailImage image) {
+  final parts = [
+    _fmtBytes(image.thumbBytes),
+    _fmtBytes(image.smallBytes),
+    _fmtBytes(image.mediumBytes),
+  ];
+  if (parts.every((p) => p == '—')) return '—';
+  return parts.join(' · ');
+}
+
+String _fmtBytes(int? n) {
+  if (n == null) return '—';
+  if (n < 1024) return '$n B';
+  final kb = n / 1024;
+  if (kb < 1024) {
+    if (kb >= 10) return '${kb.round()} KB';
+    return '${kb.toStringAsFixed(1)} KB';
+  }
+  return '${(kb / 1024).toStringAsFixed(1)} MB';
 }

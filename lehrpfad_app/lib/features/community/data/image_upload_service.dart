@@ -149,6 +149,10 @@ class ImageUploadService {
         'credit': credit,
         'width': resized.width,
         'height': resized.height,
+        'mime_type': 'image/avif',
+        'thumb_bytes': variants[TrailImageVariant.thumb]!.length,
+        'small_bytes': variants[TrailImageVariant.small]!.length,
+        'medium_bytes': variants[TrailImageVariant.medium]!.length,
       });
     } catch (e) {
       // Dateien wieder aufraeumen, damit keine Waisen im Storage liegen

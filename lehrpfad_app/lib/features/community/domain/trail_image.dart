@@ -44,6 +44,10 @@ class TrailImage {
   final String credit;
   final int? width;
   final int? height;
+  final String? mimeType;
+  final int? thumbBytes;
+  final int? smallBytes;
+  final int? mediumBytes;
   final DateTime createdAt;
   final bool isMine;
 
@@ -62,6 +66,10 @@ class TrailImage {
     required this.credit,
     required this.width,
     required this.height,
+    required this.mimeType,
+    required this.thumbBytes,
+    required this.smallBytes,
+    required this.mediumBytes,
     required this.createdAt,
     required this.isMine,
     required this.thumbUrl,
@@ -70,4 +78,14 @@ class TrailImage {
   });
 
   bool get isApproved => status == TrailImageStatus.approved;
+
+  /// Kurzlabel fuer die Moderations-Tabelle (image/avif → AVIF).
+  String get formatLabel {
+    final mime = mimeType;
+    if (mime == null || mime.isEmpty) return '—';
+    if (mime == 'image/avif') return 'AVIF';
+    if (mime == 'image/jpeg') return 'JPEG';
+    if (mime.startsWith('image/')) return mime.substring(6).toUpperCase();
+    return mime;
+  }
 }
