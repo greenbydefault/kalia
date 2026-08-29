@@ -3,33 +3,33 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
-import '../../domain/trail_bild.dart';
 import 'trail_hero.dart';
 
-/// Vollbild mit TASL (Title, Author, Source, License) für Seed-Hero-Fotos.
+/// Vollbild mit TASL (Title, Author, Source, License) für Seed-Hero-Fotos
+/// und Credit für Community-Uploads.
 class TrailHeroFullscreen extends StatefulWidget {
   const TrailHeroFullscreen({
     super.key,
     required this.trailId,
-    required this.bilder,
+    required this.slides,
     required this.initialIndex,
   });
 
   final String trailId;
-  final List<TrailBild> bilder;
+  final List<HeroSlide> slides;
   final int initialIndex;
 
   static Future<void> open(
     BuildContext context, {
     required String trailId,
-    required List<TrailBild> bilder,
+    required List<HeroSlide> slides,
     required int initialIndex,
   }) {
     return Navigator.of(context).push(
       MaterialPageRoute(
         builder: (_) => TrailHeroFullscreen(
           trailId: trailId,
-          bilder: bilder,
+          slides: slides,
           initialIndex: initialIndex,
         ),
       ),
@@ -65,29 +65,29 @@ class _TrailHeroFullscreenState extends State<TrailHeroFullscreen> {
 
   @override
   Widget build(BuildContext context) {
-    final bild = widget.bilder[_index];
+    final slide = widget.slides[_index];
     return Scaffold(
       backgroundColor: AppColors.n950,
       appBar: AppBar(
         backgroundColor: AppColors.n950,
         foregroundColor: AppColors.n50,
-        title: Text('${_index + 1} / ${widget.bilder.length}'),
+        title: Text('${_index + 1} / ${widget.slides.length}'),
       ),
       body: Column(
         children: [
           Expanded(
             child: PageView.builder(
               controller: _controller,
-              itemCount: widget.bilder.length,
+              itemCount: widget.slides.length,
               onPageChanged: (i) => setState(() => _index = i),
               itemBuilder: (context, i) {
-                final item = widget.bilder[i];
+                final item = widget.slides[i];
                 return InteractiveViewer(
                   maxScale: 5,
                   child: Center(
                     child: TrailHeroImage(
                       trailId: widget.trailId,
-                      bild: item,
+                      slide: item,
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -107,38 +107,38 @@ class _TrailHeroFullscreenState extends State<TrailHeroFullscreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  if (bild.caption.isNotEmpty)
+                  if (slide.caption.isNotEmpty)
                     Text(
-                      bild.caption,
+                      slide.caption,
                       style: const TextStyle(
                         color: AppColors.n50,
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
-                  if (bild.credit.isNotEmpty) ...[
+                  if (slide.credit.isNotEmpty) ...[
                     const SizedBox(height: 6),
                     Text(
-                      'Foto: ${bild.credit}',
+                      'Foto: ${slide.credit}',
                       style: const TextStyle(
                         color: AppColors.onImage70,
                         fontSize: 13,
                       ),
                     ),
                   ],
-                  if (bild.sourceUrl.isNotEmpty)
+                  if (!slide.isNetwork && slide.sourceUrl.isNotEmpty)
                     _TaslLink(
                       label: 'Quelle',
-                      onTap: () => _open(bild.sourceUrl),
+                      onTap: () => _open(slide.sourceUrl),
                     ),
-                  if (bild.licenseLabel.isNotEmpty)
+                  if (!slide.isNetwork && slide.licenseLabel.isNotEmpty)
                     _TaslLink(
-                      label: bild.licenseUrl.isEmpty
-                          ? bild.licenseLabel
-                          : '${bild.licenseLabel} · Lizenztext',
-                      onTap: bild.licenseUrl.isEmpty
+                      label: slide.licenseUrl.isEmpty
+                          ? slide.licenseLabel
+                          : '${slide.licenseLabel} · Lizenztext',
+                      onTap: slide.licenseUrl.isEmpty
                           ? null
-                          : () => _open(bild.licenseUrl),
+                          : () => _open(slide.licenseUrl),
                     ),
                 ],
               ),

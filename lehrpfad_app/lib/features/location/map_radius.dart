@@ -32,10 +32,11 @@ enum MapRadius {
   };
 
   static MapRadius fromWire(String? raw) => switch (raw) {
+    '20' => MapRadius.km20,
     '50' => MapRadius.km50,
     '100' => MapRadius.km100,
     'all' => MapRadius.all,
-    _ => MapRadius.km20,
+    _ => MapRadius.all,
   };
 
   MapRadius get enlarged => switch (this) {
@@ -56,7 +57,7 @@ class MapRadiusNotifier extends Notifier<MapRadius> {
   @override
   MapRadius build() {
     _load();
-    return MapRadius.km20;
+    return MapRadius.all;
   }
 
   Future<void> _load() async {

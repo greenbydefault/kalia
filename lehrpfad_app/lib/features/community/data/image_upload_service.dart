@@ -56,8 +56,9 @@ _ResizedVariants _resizeVariants(Uint8List input) {
   final decoded = img.bakeOrientation(raw);
 
   Uint8List encodeVariant(int maxEdge) {
-    final longest =
-        decoded.width > decoded.height ? decoded.width : decoded.height;
+    final longest = decoded.width > decoded.height
+        ? decoded.width
+        : decoded.height;
     if (longest <= maxEdge) return img.encodePng(decoded);
     final work = img.copyResize(
       decoded,
@@ -94,10 +95,9 @@ class ImageUploadService {
     required String credit,
     required ImageSource source,
   }) async {
+    // Anonymer Test-Upload: ohne Session bleibt uploader_id null
+    // (RLS: images insert anon pending).
     final uid = _client.auth.currentUser?.id;
-    if (uid == null) {
-      throw ImageUploadException('Bitte zuerst anmelden.');
-    }
 
     // imageQuality < 100 zwingt iOS zu JPEG- statt HEIF-Ausgabe,
     // damit das Dekodieren garantiert klappt.
@@ -123,7 +123,9 @@ class ImageUploadService {
     try {
       await Future.wait([
         for (final entry in variants.entries)
-          _client.storage.from(SupabaseImagesRepository.bucket).uploadBinary(
+          _client.storage
+              .from(SupabaseImagesRepository.bucket)
+              .uploadBinary(
                 '$trailId/$imageId/${entry.key.fileName}.avif',
                 entry.value,
                 fileOptions: FileOptions(
@@ -141,7 +143,7 @@ class ImageUploadService {
         'id': imageId,
         'trail_id': trailId,
         'station_id': stationId,
-        'uploader_id': uid,
+        'uploader_id': ?uid,
         'source': 'user',
         'status': 'pending',
         'credit': credit,

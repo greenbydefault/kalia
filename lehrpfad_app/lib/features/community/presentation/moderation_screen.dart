@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_avif/flutter_avif.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../trail/data/providers.dart';
+import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
 import '../domain/trail_image.dart';
 
-/// Admin-Bereich: alle Bilder mit Status „pending" pruefen, freigeben
-/// oder ablehnen. Ablehnen loescht Bild samt Dateien endgültig, damit
-/// keine ungeprueften Inhalte im Storage liegen bleiben.
+/// Admin-Bereich: pending-Bilder in einer Tabelle freigeben oder
+/// ablehnen. Ablehnen loescht Bild samt Dateien.
 class ModerationScreen extends ConsumerWidget {
   const ModerationScreen({super.key});
 
@@ -54,6 +55,7 @@ class ModerationScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final pendingAsync = ref.watch(pendingImagesProvider);
+    final trails = ref.watch(trailsProvider).value ?? const <Trail>[];
     final theme = Theme.of(context);
 
     return Scaffold(
@@ -65,65 +67,78 @@ class ModerationScreen extends ConsumerWidget {
           if (images.isEmpty) {
             return const Center(child: Text('Keine Bilder zur Prüfung.'));
           }
-          return ListView.separated(
-            padding: const EdgeInsets.all(16),
-            itemCount: images.length,
-            separatorBuilder: (_, _) => const SizedBox(height: 12),
-            itemBuilder: (context, i) {
-              final image = images[i];
-              return Card(
-                clipBehavior: Clip.antiAlias,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    SizedBox(
-                      height: 180,
-                      width: double.infinity,
-                      child: CachedNetworkAvifImage(
-                        image.smallUrl,
-                        fit: BoxFit.cover,
-                        errorBuilder: (context, error, stack) => Container(
-                          color: theme.colorScheme.surfaceContainerHighest,
-                          child: const Icon(Icons.broken_image_outlined),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(12, 8, 12, 4),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            image.stationId == null
-                                ? 'Ganze Strecke (${image.trailId})'
-                                : 'Station #${image.stationId} '
-                                    '(${image.trailId})',
-                            style: theme.textTheme.bodySmall,
+          return LayoutBuilder(
+            builder: (context, constraints) {
+              return SingleChildScrollView(
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(minWidth: constraints.maxWidth),
+                    child: DataTable(
+                      headingRowHeight: 48,
+                      dataRowMinHeight: 72,
+                      dataRowMaxHeight: 88,
+                      columns: const [
+                        DataColumn(label: Text('Bild')),
+                        DataColumn(label: Text('Trail')),
+                        DataColumn(label: Text('Zuordnung')),
+                        DataColumn(label: Text('Credit')),
+                        DataColumn(label: Text('Datum')),
+                        DataColumn(label: Text('')),
+                      ],
+                      rows: [
+                        for (final image in images)
+                          DataRow(
+                            cells: [
+                              DataCell(
+                                ClipRRect(
+                                  borderRadius: BorderRadius.circular(6),
+                                  child: CachedNetworkAvifImage(
+                                    image.thumbUrl,
+                                    width: 64,
+                                    height: 48,
+                                    fit: BoxFit.cover,
+                                    errorBuilder: (context, error, stack) =>
+                                        Container(
+                                          width: 64,
+                                          height: 48,
+                                          color: theme
+                                              .colorScheme
+                                              .surfaceContainerHighest,
+                                          child: const Icon(
+                                            Icons.broken_image_outlined,
+                                            size: 20,
+                                          ),
+                                        ),
+                                  ),
+                                ),
+                              ),
+                              DataCell(Text(_trailName(trails, image.trailId))),
+                              DataCell(Text(_zuordnung(trails, image))),
+                              DataCell(
+                                Text(image.credit.isEmpty ? '—' : image.credit),
+                              ),
+                              DataCell(Text(_fmt(image.createdAt))),
+                              DataCell(
+                                Row(
+                                  children: [
+                                    TextButton(
+                                      onPressed: () =>
+                                          _reject(ref, context, image),
+                                      child: const Text('Ablehnen'),
+                                    ),
+                                    FilledButton(
+                                      onPressed: () => _approve(ref, image),
+                                      child: const Text('Freigeben'),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
                           ),
-                          if (image.credit.isNotEmpty)
-                            Text(
-                              '© ${image.credit}',
-                              style: theme.textTheme.bodySmall,
-                            ),
-                        ],
-                      ),
-                    ),
-                    OverflowBar(
-                      alignment: MainAxisAlignment.end,
-                      children: [
-                        TextButton.icon(
-                          onPressed: () => _reject(ref, context, image),
-                          icon: const Icon(Icons.close),
-                          label: const Text('Ablehnen'),
-                        ),
-                        FilledButton.icon(
-                          onPressed: () => _approve(ref, image),
-                          icon: const Icon(Icons.check),
-                          label: const Text('Freigeben'),
-                        ),
                       ],
                     ),
-                  ],
+                  ),
                 ),
               );
             },
@@ -132,4 +147,31 @@ class ModerationScreen extends ConsumerWidget {
       ),
     );
   }
+}
+
+String _trailName(List<Trail> trails, String id) {
+  for (final t in trails) {
+    if (t.id == id) return t.name;
+  }
+  return id;
+}
+
+String _zuordnung(List<Trail> trails, TrailImage image) {
+  if (image.stationId == null) return 'Ganze Strecke';
+  for (final t in trails) {
+    if (t.id != image.trailId) continue;
+    for (final s in t.stationen) {
+      if (s.id == image.stationId) {
+        return 'Station ${s.reihenfolge}: ${s.titel}';
+      }
+    }
+  }
+  return 'Station #${image.stationId}';
+}
+
+String _fmt(DateTime d) {
+  final local = d.toLocal();
+  final dd = local.day.toString().padLeft(2, '0');
+  final mm = local.month.toString().padLeft(2, '0');
+  return '$dd.$mm.${local.year}';
 }

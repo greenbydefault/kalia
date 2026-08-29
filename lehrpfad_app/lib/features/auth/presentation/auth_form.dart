@@ -127,8 +127,8 @@ class _AuthFormState extends ConsumerState<AuthForm> {
             ),
             const SizedBox(height: 4),
             Text(
-              'Mit einem Konto kannst du Fotos hochladen, Strecken bewerten '
-              'und kommentieren.',
+              'Mit einem Konto kannst du Strecken bewerten und kommentieren. '
+              'Fotos hochladen geht auch ohne Anmeldung.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 16),

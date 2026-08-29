@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -49,8 +50,9 @@ class LocationSettingsSection extends ConsumerWidget {
         ),
         const SizedBox(height: AppSpacing.x3),
         Text(_statusLabel(status), style: theme.textTheme.bodySmall),
-        if (status == OsLocationStatus.deniedForever ||
-            status == OsLocationStatus.servicesDisabled)
+        if (!kIsWeb &&
+            (status == OsLocationStatus.deniedForever ||
+                status == OsLocationStatus.servicesDisabled))
           Align(
             alignment: Alignment.centerLeft,
             child: TextButton(

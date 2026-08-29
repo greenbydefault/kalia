@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../../app/theme/app_spacing.dart';
@@ -74,8 +75,9 @@ void showLocationError(BuildContext context, Object error) {
       error is LocationException && error.kind == LocationFailure.deniedForever;
   messenger.showSnackBar(
     SnackBar(
+      behavior: SnackBarBehavior.floating,
       content: Text(text),
-      action: forever
+      action: forever && !kIsWeb
           ? SnackBarAction(
               label: 'Einstellungen',
               onPressed: () {

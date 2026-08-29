@@ -18,7 +18,7 @@ abstract final class LocationGate {
     if (status == OsLocationStatus.deniedForever) {
       throw LocationException(
         LocationFailure.deniedForever,
-        'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.',
+        LocationException.deniedForeverMessage,
       );
     }
     if (status == OsLocationStatus.servicesDisabled) {
@@ -49,7 +49,7 @@ abstract final class LocationGate {
     if (status == OsLocationStatus.deniedForever) {
       throw LocationException(
         LocationFailure.deniedForever,
-        'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.',
+        LocationException.deniedForeverMessage,
       );
     }
     if (status == OsLocationStatus.servicesDisabled) {

@@ -9,6 +9,7 @@ import '../../location/location_settings_section.dart';
 import '../../onboarding/data/local_guest_profile_store.dart';
 import '../../onboarding/data/onboarding_providers.dart';
 import '../data/auth_providers.dart';
+import 'admin_login_section.dart';
 import 'auth_form.dart';
 
 /// Account-Inhalt für Tab und Sheet: Login/Register oder Profil.
@@ -46,7 +47,14 @@ class AccountPanel extends ConsumerWidget {
                   initialDisplayName: guest?.displayName,
                   belowActions: const Padding(
                     padding: EdgeInsets.only(top: 24),
-                    child: LocationSettingsSection(),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        LocationSettingsSection(),
+                        SizedBox(height: 32),
+                        AdminLoginSection(),
+                      ],
+                    ),
                   ),
                 ),
               ],
@@ -73,7 +81,8 @@ class _GuestSummary extends StatelessWidget {
           Text('Kinder: $kids', style: theme.textTheme.bodyMedium),
         const SizedBox(height: 8),
         Text(
-          'Konto für Community — Fotos, Bewertungen, Kommentare.',
+          'Konto für Community — Bewertungen und Kommentare. '
+          'Fotos gehen auch ohne Anmeldung.',
           style: theme.textTheme.bodySmall,
         ),
       ],

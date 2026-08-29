@@ -64,7 +64,7 @@ class TrailPeekCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(AppSpacing.x4),
                     child: TrailHeroImage(
                       trailId: trail.id,
-                      bild: bild,
+                      slide: HeroSlide.seed(bild),
                       fit: BoxFit.cover,
                       width: 116,
                       height: double.infinity,

@@ -3,26 +3,26 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../shared/widgets/show_app_modal_sheet.dart';
+import '../../trail/data/providers.dart';
 import '../../trail/domain/station.dart';
 import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
 import '../data/image_upload_service.dart';
 
-/// Bottom-Sheet fuer den Bild-Upload: Zuordnung (ganzer Trail oder eine
-/// Station), Credit, Rechte-Bestaetigung, dann Kamera oder Galerie.
-/// Das Bild wird in drei AVIF-Groessen hochgeladen und landet mit Status
-/// „pending" in der Moderation.
+/// Bottom-Sheet fuer den Bild-Upload: Trail (falls nicht vorgegeben),
+/// Zuordnung (ganzer Trail oder eine Station), Credit, Rechte, dann
+/// Kamera oder Galerie. Drei AVIF-Groessen, Status pending.
 class ImageUploadSheet extends ConsumerStatefulWidget {
-  final Trail trail;
+  final Trail? trail;
 
   /// Vorausgewaehlte Station (z. B. beim Aufruf aus einer StationCard).
   final Station? initialStation;
 
-  const ImageUploadSheet({super.key, required this.trail, this.initialStation});
+  const ImageUploadSheet({super.key, this.trail, this.initialStation});
 
   static Future<void> show(
-    BuildContext context,
-    Trail trail, {
+    BuildContext context, {
+    Trail? trail,
     Station? initialStation,
   }) {
     return showAppModalSheet(
@@ -39,6 +39,7 @@ class ImageUploadSheet extends ConsumerStatefulWidget {
 
 class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
   late final TextEditingController _creditController;
+  Trail? _trail;
   Station? _station;
   bool _rightsConfirmed = false;
   bool _uploading = false;
@@ -47,6 +48,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
   @override
   void initState() {
     super.initState();
+    _trail = widget.trail;
     _station = widget.initialStation;
     final profile = ref.read(currentProfileProvider).value;
     _creditController = TextEditingController(text: profile?.displayName ?? '');
@@ -58,21 +60,24 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     super.dispose();
   }
 
+  bool get _canPick => _rightsConfirmed && _trail != null && !_uploading;
+
   Future<void> _pick(ImageSource source) async {
+    final trail = _trail;
     final service = ref.read(imageUploadServiceProvider);
-    if (service == null) return;
+    if (service == null || trail == null) return;
     setState(() {
       _uploading = true;
       _error = null;
     });
     try {
       await service.pickAndUpload(
-        trailId: widget.trail.id,
+        trailId: trail.id,
         stationId: _station?.id,
         credit: _creditController.text.trim(),
         source: source,
       );
-      ref.invalidate(trailImagesProvider(widget.trail.id));
+      ref.invalidate(trailImagesProvider(trail.id));
       if (!mounted) return;
       Navigator.of(context).pop();
       ScaffoldMessenger.of(context).showSnackBar(
@@ -94,7 +99,9 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final stations = widget.trail.stationen.where((s) => s.id != null).toList();
+    final trailsAsync = ref.watch(trailsProvider);
+    final stations =
+        _trail?.stationen.where((s) => s.id != null).toList() ?? const [];
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -103,28 +110,87 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
         Text('Foto hinzufügen', style: theme.textTheme.titleLarge),
         const SizedBox(height: 16),
 
-        DropdownButtonFormField<Station?>(
-          initialValue: _station,
-          decoration: const InputDecoration(
-            labelText: 'Wozu gehört das Foto?',
-            border: OutlineInputBorder(),
-          ),
-          items: [
-            const DropdownMenuItem<Station?>(child: Text('Ganze Strecke')),
-            for (final s in stations)
-              DropdownMenuItem<Station?>(
-                value: s,
-                child: Text(
-                  'Station ${s.reihenfolge}: ${s.titel}',
-                  overflow: TextOverflow.ellipsis,
-                ),
+        if (widget.trail == null) ...[
+          trailsAsync.when(
+            loading: () => const Padding(
+              padding: EdgeInsets.only(bottom: 12),
+              child: LinearProgressIndicator(),
+            ),
+            error: (e, _) => Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: Text(
+                'Trails konnten nicht geladen werden: $e',
+                style: TextStyle(color: theme.colorScheme.error),
               ),
-          ],
-          onChanged: _uploading
-              ? null
-              : (value) => setState(() => _station = value),
-        ),
-        const SizedBox(height: 12),
+            ),
+            data: (trails) {
+              final sorted = [...trails]
+                ..sort((a, b) => a.name.compareTo(b.name));
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: DropdownButtonFormField<String>(
+                  initialValue: _trail?.id,
+                  hint: const Text('Trail wählen'),
+                  decoration: const InputDecoration(
+                    labelText: 'Trail',
+                    border: OutlineInputBorder(),
+                  ),
+                  items: [
+                    for (final t in sorted)
+                      DropdownMenuItem<String>(
+                        value: t.id,
+                        child: Text(t.name, overflow: TextOverflow.ellipsis),
+                      ),
+                  ],
+                  onChanged: _uploading
+                      ? null
+                      : (id) {
+                          Trail? found;
+                          if (id != null) {
+                            for (final t in sorted) {
+                              if (t.id == id) {
+                                found = t;
+                                break;
+                              }
+                            }
+                          }
+                          setState(() {
+                            _trail = found;
+                            _station = null;
+                          });
+                        },
+                ),
+              );
+            },
+          ),
+        ],
+
+        if (_trail != null)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: DropdownButtonFormField<Station?>(
+              key: ValueKey(_trail!.id),
+              initialValue: _station,
+              decoration: const InputDecoration(
+                labelText: 'Wozu gehört das Foto?',
+                border: OutlineInputBorder(),
+              ),
+              items: [
+                const DropdownMenuItem<Station?>(child: Text('Ganze Strecke')),
+                for (final s in stations)
+                  DropdownMenuItem<Station?>(
+                    value: s,
+                    child: Text(
+                      'Station ${s.reihenfolge}: ${s.titel}',
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+              ],
+              onChanged: _uploading
+                  ? null
+                  : (value) => setState(() => _station = value),
+            ),
+          ),
 
         TextField(
           controller: _creditController,
@@ -172,9 +238,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
             children: [
               Expanded(
                 child: OutlinedButton.icon(
-                  onPressed: _rightsConfirmed
-                      ? () => _pick(ImageSource.camera)
-                      : null,
+                  onPressed: _canPick ? () => _pick(ImageSource.camera) : null,
                   icon: const Icon(Icons.photo_camera_outlined),
                   label: const Text('Kamera'),
                 ),
@@ -182,9 +246,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
               const SizedBox(width: 12),
               Expanded(
                 child: FilledButton.icon(
-                  onPressed: _rightsConfirmed
-                      ? () => _pick(ImageSource.gallery)
-                      : null,
+                  onPressed: _canPick ? () => _pick(ImageSource.gallery) : null,
                   icon: const Icon(Icons.photo_library_outlined),
                   label: const Text('Galerie'),
                 ),

@@ -64,34 +64,41 @@ final isAdminProvider = Provider<bool>(
 
 /// Sichtbare Bilder eines Trails. Re-fetch bei Login/Logout, weil dann
 /// eigene pending-Bilder bzw. Admin-Sichtbarkeit wechseln.
-final trailImagesProvider =
-    FutureProvider.family<List<TrailImage>, String>((ref, trailId) {
+final trailImagesProvider = FutureProvider.family<List<TrailImage>, String>((
+  ref,
+  trailId,
+) {
   ref.watch(authStateProvider);
   final repo = ref.watch(imagesRepositoryProvider);
   if (repo == null) return Future.value(const <TrailImage>[]);
   return repo.getImages(trailId);
 });
 
-/// Offene Moderationsqueue (nur Admins).
-final pendingImagesProvider = FutureProvider<List<TrailImage>>((ref) {
-  if (!ref.watch(isAdminProvider)) return Future.value(const <TrailImage>[]);
+/// Offene Moderationsqueue (nur Admins). Wartet aufs Profil, damit nach
+/// Admin-Login nicht kurz eine leere Liste kommt.
+final pendingImagesProvider = FutureProvider<List<TrailImage>>((ref) async {
+  final profile = await ref.watch(currentProfileProvider.future);
+  if (profile == null || !profile.isAdmin) return const <TrailImage>[];
   final repo = ref.watch(imagesRepositoryProvider);
-  if (repo == null) return Future.value(const <TrailImage>[]);
+  if (repo == null) return const <TrailImage>[];
   return repo.getPendingImages();
 });
 
-final trailRatingProvider =
-    FutureProvider.family<TrailRating, String>((ref, trailId) {
+final trailRatingProvider = FutureProvider.family<TrailRating, String>((
+  ref,
+  trailId,
+) {
   ref.watch(authStateProvider);
   final repo = ref.watch(ratingsRepositoryProvider);
   if (repo == null) return Future.value(TrailRating.empty);
   return repo.getRating(trailId);
 });
 
-final trailCommentsProvider =
-    FutureProvider.family<List<TrailComment>, String>((ref, trailId) {
-  ref.watch(authStateProvider);
-  final repo = ref.watch(commentsRepositoryProvider);
-  if (repo == null) return Future.value(const <TrailComment>[]);
-  return repo.getComments(trailId);
-});
+final trailCommentsProvider = FutureProvider.family<List<TrailComment>, String>(
+  (ref, trailId) {
+    ref.watch(authStateProvider);
+    final repo = ref.watch(commentsRepositoryProvider);
+    if (repo == null) return Future.value(const <TrailComment>[]);
+    return repo.getComments(trailId);
+  },
+);

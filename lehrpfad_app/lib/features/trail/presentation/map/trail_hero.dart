@@ -1,8 +1,50 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_avif/flutter_avif.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../community/domain/trail_image.dart';
 import '../../domain/trail.dart';
 import '../../domain/trail_bild.dart';
+
+/// Eine Hero-Seite: Seed-Asset oder freigegebenes Community-Foto.
+class HeroSlide {
+  const HeroSlide._({this.seed, this.community});
+
+  const HeroSlide.seed(TrailBild bild) : this._(seed: bild);
+
+  const HeroSlide.community(TrailImage image) : this._(community: image);
+
+  final TrailBild? seed;
+  final TrailImage? community;
+
+  bool get isNetwork => community != null;
+
+  bool get hasCreditBadge {
+    final img = community;
+    if (img != null) return img.credit.trim().isNotEmpty;
+    return seed!.hasCreditBadge;
+  }
+
+  String get badgeText {
+    final img = community;
+    if (img != null) return '© ${img.credit}';
+    return seed!.badgeText;
+  }
+
+  String get caption => seed?.caption ?? '';
+
+  String get credit {
+    final img = community;
+    if (img != null) return img.credit;
+    return seed?.credit ?? '';
+  }
+
+  String get sourceUrl => seed?.sourceUrl ?? '';
+
+  String get licenseLabel => seed?.licenseLabel ?? '';
+
+  String get licenseUrl => seed?.licenseUrl ?? '';
+}
 
 /// Zentraler Hero-Fallback: echte Seed-Fotos oder ein gemeinsames Platzhalter-Asset.
 class TrailHero {
@@ -20,6 +62,25 @@ class TrailHero {
 
   static List<TrailBild> pagesFor(Trail trail) =>
       trail.bilder.isNotEmpty ? trail.bilder : const [placeholderBild];
+
+  /// Seed-Fotos zuerst, danach freigegebene Trail-weite Community-Fotos.
+  /// Leer → Platzhalter.
+  static List<HeroSlide> slidesFor(
+    Trail trail, [
+    List<TrailImage> community = const [],
+  ]) {
+    final ugc = [
+      for (final img in community)
+        if (img.stationId == null && img.isApproved) img,
+    ];
+    if (trail.bilder.isEmpty && ugc.isEmpty) {
+      return const [HeroSlide.seed(placeholderBild)];
+    }
+    return [
+      for (final b in trail.bilder) HeroSlide.seed(b),
+      for (final img in ugc) HeroSlide.community(img),
+    ];
+  }
 }
 
 /// Hero-Foto; bei Ladefehler derselbe zentrale Platzhalter (kein Recursion-Loop).
@@ -27,7 +88,7 @@ class TrailHeroImage extends StatelessWidget {
   const TrailHeroImage({
     super.key,
     required this.trailId,
-    required this.bild,
+    required this.slide,
     required this.fit,
     this.width,
     this.height,
@@ -35,7 +96,7 @@ class TrailHeroImage extends StatelessWidget {
   });
 
   final String trailId;
-  final TrailBild bild;
+  final HeroSlide slide;
   final BoxFit fit;
   final double? width;
   final double? height;
@@ -52,7 +113,18 @@ class TrailHeroImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final path = bild.assetPath(trailId);
+    final community = slide.community;
+    if (community != null) {
+      return CachedNetworkAvifImage(
+        community.mediumUrl,
+        fit: fit,
+        width: width,
+        height: height,
+        alignment: alignment,
+        errorBuilder: (context, error, stack) => _broken,
+      );
+    }
+    final path = slide.seed!.assetPath(trailId);
     return Image.asset(
       path,
       fit: fit,
@@ -67,7 +139,7 @@ class TrailHeroImage extends StatelessWidget {
           width: width,
           height: height,
           alignment: alignment,
-          errorBuilder: (_, __, ___) => _broken,
+          errorBuilder: (_, _, _) => _broken,
         );
       },
     );

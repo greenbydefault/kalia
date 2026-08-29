@@ -26,6 +26,15 @@ class LocationException implements Exception {
 
   @override
   String toString() => message;
+
+  static const deniedForeverMobile =
+      'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.';
+  static const deniedForeverWeb =
+      'Standort ist im Browser blockiert. Schloss in der Adressleiste → '
+      'Standort zulassen, dann die Seite neu laden.';
+
+  static String get deniedForeverMessage =>
+      kIsWeb ? deniedForeverWeb : deniedForeverMobile;
 }
 
 class LocationFix {
@@ -96,7 +105,10 @@ class GeolocatorLocationService extends LocationService {
       case LocationPermission.denied:
         return OsLocationStatus.denied;
       case LocationPermission.deniedForever:
-        return OsLocationStatus.deniedForever;
+        // geolocator_web mappt Browser-denied immer auf deniedForever.
+        return kIsWeb
+            ? OsLocationStatus.denied
+            : OsLocationStatus.deniedForever;
       case LocationPermission.whileInUse:
         return OsLocationStatus.whileInUse;
       case LocationPermission.always:
@@ -117,7 +129,8 @@ class GeolocatorLocationService extends LocationService {
     }
 
     var permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
+    if (permission == LocationPermission.denied ||
+        (kIsWeb && permission == LocationPermission.deniedForever)) {
       permission = await Geolocator.requestPermission();
     }
     if (permission == LocationPermission.denied) {
@@ -129,7 +142,7 @@ class GeolocatorLocationService extends LocationService {
     if (permission == LocationPermission.deniedForever) {
       throw LocationException(
         LocationFailure.deniedForever,
-        'Standortberechtigung dauerhaft verweigert. Bitte in den Einstellungen aktivieren.',
+        LocationException.deniedForeverMessage,
       );
     }
 
@@ -143,7 +156,10 @@ class GeolocatorLocationService extends LocationService {
   }
 
   @override
-  Future<void> openSystemSettings() => Geolocator.openAppSettings();
+  Future<void> openSystemSettings() async {
+    if (kIsWeb) return;
+    await Geolocator.openAppSettings();
+  }
 
   @override
   Stream<LatLng> watchPosition({

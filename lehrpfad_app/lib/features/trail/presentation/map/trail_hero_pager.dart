@@ -1,26 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/widgets/overlay_badge.dart';
 import '../../../../shared/widgets/page_dots.dart';
 import '../../../../shared/widgets/snapping_page_behavior.dart';
+import '../../../community/data/community_providers.dart';
 import '../../domain/trail.dart';
 import 'trail_hero.dart';
 import 'trail_hero_fullscreen.dart';
 
 /// Foto-Pager für die Trail-Detailseite. Höhe/Breite kommen vom Parent;
-/// Tap öffnet die TASL-Vollbildansicht.
-class TrailHeroPager extends StatefulWidget {
+/// Tap öffnet die TASL-Vollbildansicht. Seed-Fotos plus freigegebene
+/// Community-Uploads.
+class TrailHeroPager extends ConsumerStatefulWidget {
   const TrailHeroPager({super.key, required this.trail});
 
   final Trail trail;
 
   @override
-  State<TrailHeroPager> createState() => _TrailHeroPagerState();
+  ConsumerState<TrailHeroPager> createState() => _TrailHeroPagerState();
 }
 
-class _TrailHeroPagerState extends State<TrailHeroPager> {
+class _TrailHeroPagerState extends ConsumerState<TrailHeroPager> {
   final _controller = PageController();
   int _index = 0;
 
@@ -30,19 +33,22 @@ class _TrailHeroPagerState extends State<TrailHeroPager> {
     super.dispose();
   }
 
-  void _openFullscreen() {
+  void _openFullscreen(List<HeroSlide> slides) {
     TrailHeroFullscreen.open(
       context,
       trailId: widget.trail.id,
-      bilder: TrailHero.pagesFor(widget.trail),
-      initialIndex: _index,
+      slides: slides,
+      initialIndex: _index.clamp(0, slides.length - 1),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    final bilder = TrailHero.pagesFor(widget.trail);
-    final current = bilder[_index];
+    final community =
+        ref.watch(trailImagesProvider(widget.trail.id)).value ?? const [];
+    final slides = TrailHero.slidesFor(widget.trail, community);
+    final index = _index.clamp(0, slides.length - 1);
+    final current = slides[index];
     return Stack(
       fit: StackFit.expand,
       children: [
@@ -50,15 +56,15 @@ class _TrailHeroPagerState extends State<TrailHeroPager> {
           controller: _controller,
           child: PageView.builder(
             controller: _controller,
-            itemCount: bilder.length,
+            itemCount: slides.length,
             onPageChanged: (i) => setState(() => _index = i),
             itemBuilder: (context, i) {
-              final bild = bilder[i];
+              final slide = slides[i];
               return GestureDetector(
-                onTap: _openFullscreen,
+                onTap: () => _openFullscreen(slides),
                 child: TrailHeroImage(
                   trailId: widget.trail.id,
-                  bild: bild,
+                  slide: slide,
                   fit: BoxFit.cover,
                   width: double.infinity,
                   height: double.infinity,
@@ -72,7 +78,7 @@ class _TrailHeroPagerState extends State<TrailHeroPager> {
             left: AppSpacing.x3,
             bottom: 30,
             child: GestureDetector(
-              onTap: _openFullscreen,
+              onTap: () => _openFullscreen(slides),
               child: OverlayBadge(text: current.badgeText),
             ),
           ),
@@ -81,8 +87,8 @@ class _TrailHeroPagerState extends State<TrailHeroPager> {
           right: 0,
           bottom: AppSpacing.x3,
           child: PageDots(
-            count: bilder.length,
-            index: _index,
+            count: slides.length,
+            index: index,
             activeColor: AppColors.n50,
             inactiveColor: AppColors.onImage54,
           ),

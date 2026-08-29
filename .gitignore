@@ -11,4 +11,5 @@ Bildet/
 
 # Research-Notizen und lokale Seed-/OSM-Tools, nicht Teil der App
 lehrpfad_app/research/
-lehrpfad_app/tools/
+lehrpfad_app/tools/*
+!lehrpfad_app/tools/seed_supabase.py

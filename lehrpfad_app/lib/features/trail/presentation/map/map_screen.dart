@@ -4,7 +4,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:latlong2/latlong.dart';
 
 import '../../../../app/shell_tab_provider.dart';
+import '../../../../core/config/supabase_config.dart';
 import '../../../../shared/widgets/sheet_motion.dart';
+import '../../../community/presentation/upload_fab.dart';
 import '../../../location/user_position_provider.dart';
 import '../../../location/visible_trails_provider.dart';
 import '../../../nearby/data/nearby_providers.dart';
@@ -450,7 +452,18 @@ class _MapScreenState extends ConsumerState<MapScreen>
                       child: IgnorePointer(ignoring: hidden, child: child),
                     );
                   },
-                  child: const SafeArea(child: LocateFab()),
+                  child: SafeArea(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        if (SupabaseConfig.isConfigured) ...[
+                          UploadFab(trail: peekTrail),
+                          const SizedBox(height: 8),
+                        ],
+                        const LocateFab(),
+                      ],
+                    ),
+                  ),
                 ),
               ),
           ],
