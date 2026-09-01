@@ -432,37 +432,36 @@ class _MapScreenState extends ConsumerState<MapScreen>
                 child: PausedTourBar(trail: walkTrail),
               ),
             if (!onboarding && !tourTracking)
-              AnimatedPositioned(
-                duration: SheetMotion.size,
-                curve: SheetMotion.enterCurve,
-                right: 16,
-                bottom: peekTrail != null
-                    ? TrailPeekCard.height +
-                          24 +
-                          (selectedNearby != null
-                              ? NearbyPeekCard.height + 8
-                              : 0)
-                    : 24,
-                child: AnimatedBuilder(
-                  animation: _detailController,
-                  builder: (context, child) {
-                    final hidden = _mapFade.transform(_detailCurve.value) > 0;
-                    return Offstage(
+              AnimatedBuilder(
+                animation: Listenable.merge([
+                  _peekController,
+                  _detailController,
+                ]),
+                builder: (context, child) {
+                  final hidden = _mapFade.transform(_detailCurve.value) > 0;
+                  final extra = selectedNearby != null
+                      ? NearbyPeekCard.height + 8
+                      : 0;
+                  return Positioned(
+                    right: 16,
+                    bottom:
+                        24 + _peekCurve.value * (TrailPeekCard.height + extra),
+                    child: Offstage(
                       offstage: hidden,
                       child: IgnorePointer(ignoring: hidden, child: child),
-                    );
-                  },
-                  child: SafeArea(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        if (SupabaseConfig.isConfigured) ...[
-                          UploadFab(trail: peekTrail),
-                          const SizedBox(height: 8),
-                        ],
-                        const LocateFab(),
-                      ],
                     ),
+                  );
+                },
+                child: SafeArea(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      if (SupabaseConfig.isConfigured) ...[
+                        UploadFab(trail: peekTrail),
+                        const SizedBox(height: 8),
+                      ],
+                      const LocateFab(),
+                    ],
                   ),
                 ),
               ),

@@ -559,6 +559,74 @@
     "opening_hours": "Mo 11:30-20:00; Tu off; We-Th 11:30-20:00; Fr-Sa 11:30-21:00; Su 11:30-16:00"
   },
   {
+    "id": "restaurant-lindenallee-dornholzhausen",
+    "name": "Restaurant Lindenallee",
+    "kategorie": "restaurant",
+    "kurztext": "Gaststätte am Ortsrand von Dornholzhausen — nach dem Rundweg eine warme Küche, nicht auf der Weide.",
+    "lat": 50.240485,
+    "lon": 8.585558,
+    "oeffnungszeiten": "siehe Betreiber"
+  },
+  {
+    "id": "pizzeria-rosso-pomodoro-dornholzhausen",
+    "name": "Pizzeria Rosso Pomodoro",
+    "kategorie": "restaurant",
+    "kurztext": "Pizza im Ort — näher als die Innenstadt, nach dem Hammelhansweg zu Fuß erreichbar.",
+    "lat": 50.239383,
+    "lon": 8.587094,
+    "oeffnungszeiten": "siehe Betreiber"
+  },
+  {
+    "id": "museum-saalburg",
+    "name": "Römerkastell Saalburg",
+    "kategorie": "museum",
+    "kurztext": "Rekonstruiertes Limes-Kastell mit Museum — drei Kilometer nordwestlich, Eintritt, nicht der Lehrpfad.",
+    "lat": 50.27056,
+    "lon": 8.56722,
+    "website": "https://www.saalburgmuseum.de",
+    "oeffnungszeiten": "siehe Museum, Eintritt",
+    "telefon": "+49 6175 93740"
+  },
+  {
+    "id": "museum-hessenpark",
+    "name": "Freilichtmuseum Hessenpark",
+    "kategorie": "museum",
+    "kurztext": "Historische Gebäude aus Hessen, fünf Kilometer westlich — extra Ausflug, nicht am Lehrpfad.",
+    "lat": 50.2775,
+    "lon": 8.5294,
+    "website": "https://www.hessenpark.de",
+    "oeffnungszeiten": "Saison, Eintritt"
+  },
+  {
+    "id": "schloss-bad-homburg",
+    "name": "Schloss Bad Homburg",
+    "kategorie": "museum",
+    "kurztext": "Landgrafenschloss mit Weißem Turm — nach dem Wiesenrundweg in die Innenstadt, Eintritt fürs Schloss.",
+    "lat": 50.22778,
+    "lon": 8.61028,
+    "website": "https://www.schloesser-hessen.de/de/schloss-bad-homburg",
+    "oeffnungszeiten": "siehe Schlösser und Gärten Hessen, Eintritt"
+  },
+  {
+    "id": "seedammbad-bad-homburg",
+    "name": "Seedammbad Bad Homburg",
+    "kategorie": "baden",
+    "kurztext": "Hallen- und Freibad der Stadt — Abkühlung nach dem Rundweg, Eintritt, nicht am Gestüt.",
+    "lat": 50.2236,
+    "lon": 8.6258,
+    "website": "https://www.stadtwerke-bad-homburg.de/de/privatkunden/baeder/seedammbad/",
+    "oeffnungszeiten": "siehe Stadtwerke, Eintritt"
+  },
+  {
+    "id": "cafe-kurhaus-bad-homburg",
+    "name": "Café im Kurhaus Bad Homburg",
+    "kategorie": "cafe",
+    "kurztext": "Kaffee in der Kurhaus-Wandelhalle — nach dem Lehrpfad in den Kurpark, nicht am Start.",
+    "lat": 50.2267,
+    "lon": 8.6184,
+    "oeffnungszeiten": "siehe Kurhaus / Saison"
+  },
+  {
     "id": "museum-koehlerhof-wiethagen",
     "name": "Forst- und Köhlerhof Wiethagen",
     "kategorie": "museum",
@@ -600,3 +668,4 @@
     "oeffnungszeiten": "siehe Karls, Eintritt"
   }
 ]
+

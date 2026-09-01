@@ -41,7 +41,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(28));
+    expect(trails, hasLength(29));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -67,6 +67,7 @@ void main() {
         'stubbenkammer-koenigsstuhl',
         'naturerlebnisraum-spo',
         'kaeflingsberg-speck',
+        'braumannswiesen',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -277,6 +278,56 @@ void main() {
         'Stamm in Ringelnatter-Form',
       ]),
     );
+  });
+
+  test('Linien-Seed Braumannswiesen: wald, Rundkurs, Hessen', () {
+    final raw = File(
+      'assets/seed/braumannswiesen.json',
+    ).readAsStringSync();
+    final trail = Trail.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+
+    expect(trail.isFlaeche, isFalse);
+    expect(trail.typ, 'wald');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.laengeKm, greaterThan(3));
+    expect(trail.route, isNotEmpty);
+    expect(trail.area, isEmpty);
+    expect(trail.region, contains('Hessen'));
+    expect(
+      trail.arten,
+      containsAll(['Rotbuche', 'Stieleiche', 'Fichte', 'Schaf']),
+    );
+    expect(trail.stationen.length, greaterThanOrEqualTo(3));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Naturwandel in den Braumannswiesen',
+        'Fichtenwald auf einer Feuchtwiese',
+        'Weide des Gestüts Erlenhof',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(50.25, 0.05));
+    expect(trail.start.longitude, closeTo(8.58, 0.05));
+  });
+
+  test('Braumannswiesen lädt Seed-Hero-Bilder aus credits.json', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'braumannswiesen');
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(TrailHero.pagesFor(trail), trail.bilder);
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expect(
+        File(
+          'assets/images/trails/braumannswiesen/${bild.file}',
+        ).existsSync(),
+        isTrue,
+      );
+    }
   });
 
   test('Linien-Seed Bruderwald: walderlebnispfad, Rundkurs, Bamberg', () {

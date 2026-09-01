@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
+import '../../../../shared/catalogs/icon_catalog.dart';
 import '../../../../shared/scrolling/smooth_scroll.dart';
 import '../../../trail_progress/presentation/trail_sheet_peek_actions.dart';
 import '../../domain/trail.dart';
@@ -13,10 +13,10 @@ import 'trail_sheet_header.dart';
 
 /// Vollbild-Detail zu einem Trail: Hero (Foto-Pager oder Karte) und
 /// Content in einem Scroll. Slidet von rechts über die Karte;
-/// horizontales Ziehen nach rechts im Body (oder X / Back) schließt
+/// horizontales Ziehen nach rechts im Body (oder Zurück) schließt
 /// zurück zur Peek-Card. Der Foto-Pager behält horizontale Gesten
 /// fürs Blättern. Nach dem Wegscrollen des Heros eine Sticky-Bar
-/// mit Schließen und Foto/Karte-Toggle.
+/// mit Zurück und Foto/Karte-Toggle.
 class TrailDetailPage extends StatefulWidget {
   const TrailDetailPage({
     super.key,
@@ -90,8 +90,11 @@ class _TrailDetailPageState extends State<TrailDetailPage> {
                           top: media.padding.top + AppSpacing.x2,
                           left: AppSpacing.x3,
                           child: _HeroButton(
-                            tooltip: 'Schließen',
-                            icon: PhosphorIcons.x,
+                            tooltip: 'Zurück',
+                            icon: uiEintrag('zurueck').buildIcon(
+                              size: 18,
+                              color: AppColors.n50,
+                            ),
                             onTap: widget.onClose,
                           ),
                         ),
@@ -100,9 +103,9 @@ class _TrailDetailPageState extends State<TrailDetailPage> {
                           right: AppSpacing.x3,
                           child: _HeroButton(
                             tooltip: _showMap ? 'Fotos zeigen' : 'Karte zeigen',
-                            icon: _showMap
-                                ? PhosphorIcons.images
-                                : PhosphorIcons.mapTrifold,
+                            icon: uiEintrag(
+                              _showMap ? 'bilder' : 'karte',
+                            ).buildIcon(size: 18, color: AppColors.n50),
                             onTap: _toggleMap,
                           ),
                         ),
@@ -203,20 +206,17 @@ class _StickyBar extends StatelessWidget {
                 child: Row(
                   children: [
                     IconButton(
-                      tooltip: 'Schließen',
-                      icon: const PhosphorIcon(PhosphorIcons.x, size: 20),
+                      tooltip: 'Zurück',
+                      icon: uiEintrag('zurueck').buildIcon(size: 20),
                       onPressed: onClose,
                       visualDensity: VisualDensity.compact,
                     ),
                     const Spacer(),
                     IconButton(
                       tooltip: showMap ? 'Fotos zeigen' : 'Karte zeigen',
-                      icon: PhosphorIcon(
-                        showMap
-                            ? PhosphorIcons.images
-                            : PhosphorIcons.mapTrifold,
-                        size: 20,
-                      ),
+                      icon: uiEintrag(
+                        showMap ? 'bilder' : 'karte',
+                      ).buildIcon(size: 20),
                       onPressed: onToggleMap,
                       visualDensity: VisualDensity.compact,
                     ),
@@ -232,7 +232,7 @@ class _StickyBar extends StatelessWidget {
   }
 }
 
-/// Runder Scrim-Button über dem Hero (Schließen, Foto/Karte-Toggle).
+/// Runder Scrim-Button über dem Hero (Zurück, Foto/Karte-Toggle).
 class _HeroButton extends StatelessWidget {
   const _HeroButton({
     required this.tooltip,
@@ -241,7 +241,7 @@ class _HeroButton extends StatelessWidget {
   });
 
   final String tooltip;
-  final IconData icon;
+  final Widget icon;
   final VoidCallback onTap;
 
   @override
@@ -257,9 +257,7 @@ class _HeroButton extends StatelessWidget {
           child: SizedBox(
             width: 40,
             height: 40,
-            child: Center(
-              child: PhosphorIcon(icon, size: 18, color: AppColors.n50),
-            ),
+            child: Center(child: icon),
           ),
         ),
       ),

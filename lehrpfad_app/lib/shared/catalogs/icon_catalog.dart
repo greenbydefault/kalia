@@ -258,6 +258,23 @@ const taxonomieRanks = <String, String>{
   'familie': 'Familie',
 };
 
+/// Chrome-Actions (Zurück, Hero-Toggle, …). Keine Domain-Keys.
+///
+/// Custom-SVG unter `assets/icons/ui/<key>.svg`; Phosphor ist Fallback.
+const uiKatalog = <String, KatalogEintrag>{
+  'zurueck': KatalogEintrag(
+    PhosphorIcons.arrowLeft,
+    'Zurück',
+    assetPath: 'assets/icons/ui/zurueck.svg',
+  ),
+  'bilder': KatalogEintrag(
+    PhosphorIcons.images,
+    'Bilder',
+    assetPath: 'assets/icons/ui/bilder.svg',
+  ),
+  'karte': KatalogEintrag(PhosphorIcons.mapTrifold, 'Karte'),
+};
+
 const _erlebnisFallback = KatalogEintrag(PhosphorIcons.star, 'Erlebnis');
 const _amenityFallback = KatalogEintrag(PhosphorIcons.mapPin, 'Ort');
 const _poiFallback = KatalogEintrag(PhosphorIcons.mapPin, 'Ort');
@@ -269,6 +286,7 @@ const _merkmalFallback = KatalogEintrag(PhosphorIcons.tag, 'Merkmal');
 const _gruppeFallback = KatalogEintrag(PhosphorIcons.leaf, 'Art');
 const _seltenheitFallback = KatalogEintrag(PhosphorIcons.star, 'Seltenheit');
 const _masseFallback = KatalogEintrag(PhosphorIcons.ruler, 'Maß');
+const _uiFallback = KatalogEintrag(PhosphorIcons.circle, 'Aktion');
 
 KatalogEintrag erlebnisEintrag(String key) {
   return _lookup(erlebnisKatalog, key, _erlebnisFallback);
@@ -316,6 +334,10 @@ KatalogEintrag seltenheitEintrag(String key) {
 
 KatalogEintrag masseEintrag(String key) {
   return _lookup(masseKatalog, key, _masseFallback);
+}
+
+KatalogEintrag uiEintrag(String key) {
+  return _lookup(uiKatalog, key, _uiFallback);
 }
 
 /// Unbekannte Schlüssel (z. B. Tippfehler im JSON) werden sichtbar gemacht,

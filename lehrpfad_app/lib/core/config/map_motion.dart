@@ -8,8 +8,8 @@ import 'package:flutter/material.dart';
 /// `SheetMotion` für Sheets/Cards.
 abstract final class MapMotion {
   /// Langer Flug: Cluster-Expansion, Locate, Katalog-Fit, externe Einstiege.
-  static const Duration fly = Duration(milliseconds: 1400);
-  static const Curve flyCurve = Curves.easeInOutQuart;
+  static const Duration fly = Duration(milliseconds: 1800);
+  static const Curve flyCurve = Curves.easeInOutCubic;
 
   /// Einfittung: Tap auf der Übersichtskarte, Hero-Karte beim Foto/Karte-Toggle.
   static const Duration fit = Duration(milliseconds: 800);

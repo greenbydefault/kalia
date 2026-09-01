@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_spacing.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
 import '../domain/nearby.dart';
+import 'nearby_actions.dart';
 import 'oeffnungs_badge.dart';
 
 /// Kompakte Info-Karte über einem ausgewählten Ort in der Nähe.
@@ -96,7 +96,7 @@ class NearbyPeekCard extends StatelessWidget {
                     children: [
                       if (place.website != null && place.website!.isNotEmpty)
                         TextButton.icon(
-                          onPressed: () => _open(place.website!),
+                          onPressed: () => openNearbyWebsite(place.website!),
                           icon: const PhosphorIcon(
                             PhosphorIcons.globe,
                             size: 16,
@@ -109,7 +109,7 @@ class NearbyPeekCard extends StatelessWidget {
                         ),
                       if (place.telefon != null && place.telefon!.isNotEmpty)
                         TextButton.icon(
-                          onPressed: () => _call(place.telefon!),
+                          onPressed: () => callNearbyPlace(place.telefon!),
                           icon: const PhosphorIcon(
                             PhosphorIcons.phone,
                             size: 16,
@@ -130,16 +130,4 @@ class NearbyPeekCard extends StatelessWidget {
       ),
     );
   }
-}
-
-Future<void> _open(String url) async {
-  final uri = Uri.tryParse(url);
-  if (uri == null) return;
-  await launchUrl(uri, mode: LaunchMode.externalApplication);
-}
-
-Future<void> _call(String telefon) async {
-  final digits = telefon.replaceAll(RegExp(r'[^\d+]'), '');
-  if (digits.isEmpty) return;
-  await launchUrl(Uri(scheme: 'tel', path: digits));
 }

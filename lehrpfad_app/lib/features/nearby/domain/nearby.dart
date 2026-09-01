@@ -1,4 +1,3 @@
-import '../../../shared/catalogs/icon_catalog.dart';
 import '../../trail/domain/haversine.dart';
 import '../../trail/domain/trail.dart';
 import 'nearby_place.dart';
@@ -73,20 +72,6 @@ List<NearbyTreffer> capNearby(List<NearbyTreffer> hits) {
   }
   picked.sort((a, b) => a.distanzKm.compareTo(b.distanzKm));
   return picked;
-}
-
-/// Gruppiert Treffer in Katalog-Reihenfolge; leere Kategorien entfallen.
-Map<String, List<NearbyTreffer>> groupNearbyByKategorie(
-  List<NearbyTreffer> treffer,
-) {
-  final grouped = <String, List<NearbyTreffer>>{
-    for (final key in poiKategorieKatalog.keys) key: <NearbyTreffer>[],
-  };
-  for (final t in treffer) {
-    grouped.putIfAbsent(t.place.kategorie, () => <NearbyTreffer>[]).add(t);
-  }
-  grouped.removeWhere((_, list) => list.isEmpty);
-  return grouped;
 }
 
 /// Anzeige: `320 m` / `3,2 km` / `12 km`.

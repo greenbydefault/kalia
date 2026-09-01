@@ -72,9 +72,11 @@ flutter:
   assets:
     - assets/seed/
     - assets/icons/pois/
+    - assets/icons/ui/
     - assets/audio/species/
     - assets/images/trails/_placeholder.jpg
     - assets/images/trails/heide-erlebnisweg/
+    - assets/images/trails/braumannswiesen/
     - assets/images/trails/naturerlebnisraum-spo/
     - assets/images/trails/kaeflingsberg-speck/
     - assets/images/trails/entdeckerpfad-biologische-vielfalt/

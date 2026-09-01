@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-wiese.jpg",
+    "caption": "Offene Wiese – so weit das Licht reicht, bleibt die Fläche blütenreich.",
+    "credit": "Safa Heraghi",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-fichte.jpg",
+    "caption": "Gemeine Fichte mit spitzer Krone – oft auf nassen Wiesen gepflanzt.",
+    "credit": "MPF",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picea_abies.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "03-schaf.jpg",
+    "caption": "Schafe halten Wiesen offen – Verbiss statt Gebüsch.",
+    "credit": "Waran R Samay",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domestic_sheep.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-streuobst.jpg",
+    "caption": "Streuobstwiese mit Hochstämmen – ohne Pflege wächst sie zu.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streuobstwiesen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-rotbuche.jpg",
+    "caption": "Rotbuche: glatte Rinde, ovale Blätter.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche mit gebuchteten Blättern.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-kiefer.jpg",
+    "caption": "Waldkiefer – Nadeln zu zweit, zum Vergleich mit der Fichte.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-saalburg.jpg",
+    "caption": "Römerkastell Saalburg – Museum in der Nähe des Lehrpfads.",
+    "credit": "Holger Weinandt",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saalburg.jpg",
+    "kind": "ort"
+  }
+]

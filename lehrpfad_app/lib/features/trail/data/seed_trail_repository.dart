@@ -41,6 +41,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/stubbenkammer-koenigsstuhl.json',
     'assets/seed/naturerlebnisraum-spo.json',
     'assets/seed/kaeflingsberg-speck.json',
+    'assets/seed/braumannswiesen.json',
     'assets/seed/entdeckerpfad-biologische-vielfalt.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',

@@ -1,0 +1,599 @@
+{
+ "id": "braumannswiesen",
+ "name": "Naturlehrpfad Braumannswiesen",
+ "typ": "wald",
+ "kurzbeschreibung": "Rundweg durch Wiesen, Hegewäldchen und Gestütsrand bei Bad Homburg-Dornholzhausen – dreizehn Stationen zur Kulturlandschaft.",
+ "beschreibung": "Der Naturlehrpfad Braumannswiesen startet am Hammelhansweg in Bad Homburg-Dornholzhausen und führt als Rundweg durch Feuchtwiesen, Streuobst-Reste, Fichtenforst und den Rand des Gestüts Erlenhof. Dreizehn Tafeln zeigen, wie Nutzung, Beweidung und Aufgabe die Landschaft verändern – und was nachwächst, wenn der Mensch zurücktritt. Der Weg ist flach, mit Straßenschuhen machbar, in etwa eineinhalb Stunden inklusive Lesepausen. Frei zugänglich, ohne Anmeldung. Hunde anleinen, Weidetiere nicht füttern, Wege nicht verlassen. Verpflegung mitnehmen; Einkehr liegt im Ort, nicht auf der Weide.",
+ "laengeKm": 3.7,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Thementafeln / Übersichtstafel am Hammelhansweg",
+ "betreiber": "Naturpark Taunus / Naturlandstiftung Hochtaunus",
+ "region": "Bad Homburg-Dornholzhausen, Hochtaunuskreis, Hessen",
+ "website": "http://www.taunuswelten.de/wandern/naturlehrpfad-braumannswiesen/",
+ "anreise": "Buslinien 1 und 11 bis Bad Homburg-Dornholzhausen Landgraf-Friedrich-Straße, dann etwa zehn Minuten Fußweg zum Hammelhansweg. Auto: nach Dornholzhausen, im Ort parken – nicht auf Weiden oder Gestütszufahrten.",
+ "startName": "Hammelhansweg / Übersichtstafel",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Fichte",
+  "Schwarzerle",
+  "Kiefer",
+  "Schaf"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   50.248063,
+   8.577912
+  ],
+  [
+   50.249252,
+   8.577426
+  ],
+  [
+   50.251731,
+   8.576413
+  ],
+  [
+   50.252187,
+   8.576173
+  ],
+  [
+   50.252692,
+   8.575976
+  ],
+  [
+   50.253179,
+   8.575787
+  ],
+  [
+   50.253524,
+   8.575675
+  ],
+  [
+   50.254112,
+   8.575439
+  ],
+  [
+   50.255109,
+   8.57505
+  ],
+  [
+   50.255337,
+   8.574882
+  ],
+  [
+   50.255579,
+   8.57459
+  ],
+  [
+   50.255729,
+   8.574286
+  ],
+  [
+   50.255828,
+   8.574037
+  ],
+  [
+   50.255932,
+   8.57378
+  ],
+  [
+   50.256021,
+   8.573605
+  ],
+  [
+   50.255971,
+   8.573256
+  ],
+  [
+   50.255831,
+   8.572778
+  ],
+  [
+   50.255735,
+   8.572527
+  ],
+  [
+   50.25562,
+   8.572398
+  ],
+  [
+   50.255311,
+   8.572107
+  ],
+  [
+   50.255279,
+   8.571814
+  ],
+  [
+   50.255307,
+   8.571437
+  ],
+  [
+   50.255339,
+   8.571058
+  ],
+  [
+   50.255351,
+   8.570922
+  ],
+  [
+   50.255509,
+   8.570688
+  ],
+  [
+   50.255417,
+   8.570672
+  ],
+  [
+   50.253569,
+   8.568714
+  ],
+  [
+   50.252663,
+   8.567821
+  ],
+  [
+   50.25156,
+   8.566644
+  ],
+  [
+   50.251497,
+   8.566468
+  ],
+  [
+   50.251345,
+   8.566767
+  ],
+  [
+   50.251497,
+   8.566468
+  ],
+  [
+   50.25166,
+   8.565969
+  ],
+  [
+   50.251738,
+   8.565817
+  ],
+  [
+   50.251821,
+   8.565637
+  ],
+  [
+   50.251866,
+   8.565443
+  ],
+  [
+   50.251822,
+   8.565084
+  ],
+  [
+   50.251823,
+   8.565008
+  ],
+  [
+   50.251663,
+   8.565595
+  ],
+  [
+   50.251504,
+   8.566181
+  ],
+  [
+   50.251345,
+   8.566767
+  ],
+  [
+   50.251131,
+   8.567209
+  ],
+  [
+   50.251182,
+   8.567418
+  ],
+  [
+   50.250947,
+   8.568132
+  ],
+  [
+   50.250812,
+   8.568499
+  ],
+  [
+   50.250636,
+   8.568508
+  ],
+  [
+   50.25033,
+   8.568328
+  ],
+  [
+   50.250112,
+   8.568356
+  ],
+  [
+   50.249681,
+   8.569503
+  ],
+  [
+   50.249068,
+   8.571086
+  ],
+  [
+   50.248823,
+   8.571752
+  ],
+  [
+   50.248507,
+   8.572854
+  ],
+  [
+   50.247715,
+   8.575466
+  ],
+  [
+   50.247771,
+   8.575571
+  ],
+  [
+   50.247821,
+   8.575687
+  ],
+  [
+   50.247863,
+   8.575831
+  ],
+  [
+   50.247875,
+   8.575897
+  ],
+  [
+   50.247891,
+   8.576016
+  ],
+  [
+   50.247906,
+   8.576134
+  ],
+  [
+   50.24793,
+   8.576244
+  ],
+  [
+   50.247955,
+   8.576353
+  ],
+  [
+   50.248021,
+   8.576594
+  ],
+  [
+   50.248076,
+   8.576888
+  ],
+  [
+   50.248098,
+   8.577112
+  ],
+  [
+   50.248095,
+   8.577322
+  ],
+  [
+   50.248082,
+   8.577427
+  ],
+  [
+   50.248066,
+   8.577506
+  ],
+  [
+   50.248046,
+   8.577562
+  ],
+  [
+   50.248007,
+   8.577634
+  ],
+  [
+   50.247956,
+   8.577739
+  ],
+  [
+   50.247923,
+   8.577823
+  ],
+  [
+   50.247907,
+   8.57788
+  ],
+  [
+   50.247769,
+   8.577827
+  ],
+  [
+   50.247095,
+   8.57743
+  ],
+  [
+   50.246893,
+   8.577282
+  ],
+  [
+   50.24679,
+   8.577206
+  ],
+  [
+   50.245383,
+   8.576338
+  ],
+  [
+   50.245697,
+   8.576541
+  ],
+  [
+   50.246011,
+   8.576744
+  ],
+  [
+   50.246325,
+   8.576947
+  ],
+  [
+   50.246639,
+   8.577151
+  ],
+  [
+   50.246953,
+   8.577354
+  ],
+  [
+   50.247267,
+   8.577557
+  ],
+  [
+   50.247581,
+   8.57776
+  ],
+  [
+   50.247895,
+   8.577963
+  ],
+  [
+   50.248063,
+   8.577912
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -1702877040,
+   "lat": 50.248063,
+   "lon": 8.577912,
+   "km": 0.0,
+   "titel": "Naturwandel in den Braumannswiesen",
+   "thema": "Kulturlandschaft im Umbau",
+   "kurztext": "Hier beginnt der Rundweg: Wiese, Weide, Waldstück und Gestüt liegen nah beieinander. Die erste Tafel erklärt, warum diese Landschaft kein Naturzustand ist – sondern das Ergebnis von Mahd, Beweidung, Aufforstung und Aufgabe. Schau dich um, bevor du losgehst: Was ist offen, was wächst zu?",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -180765618,
+   "lat": 50.251731,
+   "lon": 8.576413,
+   "km": 0.42,
+   "titel": "Beweidung und ihre Auswirkung",
+   "thema": "Wer die Wiese offen hält",
+   "kurztext": "Schafe und andere Weidetiere fressen Jungwuchs, treten Lücken und halten blütenreiche Flächen offen. Ohne Verbiss würde Gebüsch die Wiese schließen. Die Station zeigt die Wirkung – und warum du Tiere nur aus der Distanz beobachtest, nicht fütterst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -4273237128,
+   "lat": 50.253179,
+   "lon": 8.575787,
+   "km": 0.59,
+   "titel": "Fichtenwald auf einer Feuchtwiese",
+   "thema": "Nadelholz am falschen Ort",
+   "kurztext": "Fichten wollen durchlässigen Bergboden, keine nasse Wiese im Taunusvorland. Hier stehen sie trotzdem: schnell wachsend, dicht, dunkel. Unter dem Schirm bleibt wenig Blüte. Die Tafel macht den Konflikt sichtbar – Forstidee gegen Feuchtwiesen-Leben.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -709318741,
+   "lat": 50.255579,
+   "lon": 8.57459,
+   "km": 0.87,
+   "titel": "Es war einmal eine Streuobstwiese",
+   "thema": "Hochstämme ohne Pflege",
+   "kurztext": "Alte Apfel- und Birnbäume brauchen Schnitt und Mahd. Fehlt beides, übernimmt Gebüsch, die Kronen brechen, die Wiese verdichtet sich. Du siehst Relikte einer Nutzungsform, die Insekten und Vögel füttert – solange Licht auf den Boden fällt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1625679548,
+   "lat": 50.255279,
+   "lon": 8.571814,
+   "km": 1.12,
+   "titel": "Gehölzsukzession",
+   "thema": "Was nachwächst, wenn niemand mäht",
+   "kurztext": "Zuerst Kräuter, dann Sträucher, dann Bäume: Sukzession ist kein Unfall, sondern die Standardgeschichte offener Flächen. Die Station zeigt die Stufen – und warum Naturschutz manchmal eingreift, damit Wiese Wiese bleibt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3700933064,
+   "lat": 50.253569,
+   "lon": 8.568714,
+   "km": 1.46,
+   "titel": "Die Wiese – reich an vielen Arten",
+   "thema": "Blüten, statt nur Gras",
+   "kurztext": "Eine gemähte oder beweidete Feuchtwiese trägt Dutzende Kräuter, nicht nur Futtergras. Zähl Blütenfarben, statt Namen zu pauken. Je nährstoffärmer und offener, desto mehr Insekten. Die Tafel hilft beim Hinsehen, nicht beim Abpflücken.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -290596413,
+   "lat": 50.25156,
+   "lon": 8.566644,
+   "km": 1.73,
+   "titel": "Wald und Wasser",
+   "thema": "Nasse Böden, nasse Wurzeln",
+   "kurztext": "Wo es im Boden steht, entscheiden wenige Baumarten. Erlen vertragen nasse Füße, Fichten oft nicht dauerhaft. Die Station verbindet Graben, Staunässe und Bestand – und warum Wasser hier die Artenliste schreibt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -274399789,
+   "lat": 50.251823,
+   "lon": 8.565008,
+   "km": 1.92,
+   "titel": "Baumarten und ihre Blätter",
+   "thema": "Buche, Eiche, Fichte, Erle",
+   "kurztext": "Blatt, Nadel, Rinde: hier vergleichst du die Bäume, die den Pfad prägen. Eiche gebuchtet, Buche glattrandig, Fichte einzelnadelig, Erle am Nassen. Kein Quizdruck – erst schauen, dann den Namen auf der Tafel kippen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -250668824,
+   "lat": 50.250812,
+   "lon": 8.568499,
+   "km": 2.19,
+   "titel": "Das Ende eines Fichtenwaldes",
+   "thema": "Sturm, Käfer, Umbau",
+   "kurztext": "Dichte Fichtenbestände auf nassem Grund sind anfällig: Windwurf, Borkenkäfer, Umfallen im Verbund. Lücken reißen Licht auf die Fläche. Die Tafel fragt, was danach kommt – und warum Aufräumen nicht immer die beste Pflege ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -3002328358,
+   "lat": 50.249068,
+   "lon": 8.571086,
+   "km": 2.5,
+   "titel": "Mittelwald – alte Waldnutzung",
+   "thema": "Stockausschlag und Überhälter",
+   "kurztext": "Mittelwald kombiniert niedrigen Ausschlag (Brennholz) mit einzelnen Hochstämmen (Bauholz). Das Lichtregime ist unruhig, der Unterwuchs artenreich. Die Station ist ein Blick in eine Nutzungsform, die fast verschwunden ist – und Spuren hinterlässt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -1022348840,
+   "lat": 50.248507,
+   "lon": 8.572854,
+   "km": 2.64,
+   "titel": "Naturverjüngung",
+   "thema": "Keimlinge statt Pflanzverband",
+   "kurztext": "Wo Licht auf den Boden fällt, keimen Buche, Eiche oder Weide von allein. Naturverjüngung braucht Geduld und Verbissschutz, keinen geraden Raster. Such nach Sämlingen am Wegrand – klein, leicht zu übersehen, die nächste Waldgeneration.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": -2592930829,
+   "lat": 50.248066,
+   "lon": 8.577506,
+   "km": 3.0,
+   "titel": "Bachufergehölz",
+   "thema": "Erlen, Schatten, Uferhalt",
+   "kurztext": "Am Bach halten Erlen und Weiden die Böschung, spenden Schatten und füttern Insekten, die wieder Fische füttern. Das Gehölz ist schmal, aber entscheidend. Bleib auf dem Weg: Ufer treten sich schnell kaputt. Die letzte Tafel schließt den Kreis zur nassen Wiese am Start.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": -473077645,
+   "lat": 50.245383,
+   "lon": 8.576338,
+   "km": 3.34,
+   "titel": "Weide des Gestüts Erlenhof",
+   "thema": "Pferde als Landschaftspfleger",
+   "kurztext": "Am Gestüt Erlenhof weiden Pferde auf großen Koppeln. Ihr Verbiss hält Flächen offen, tritt den Boden aber anders als Schafe. Bleib hinter dem Zaun: das sind Betrieb und Tiere, kein Streichelzoo. Die Tafel ordnet die Weide in die Kulturlandschaft ein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 781780368,
+   "lat": 50.2478375,
+   "lon": 8.5778456,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3813488452,
+   "lat": 50.2536331,
+   "lon": 8.5686922,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4197638058,
+   "lat": 50.255475,
+   "lon": 8.5748544,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/braumannswiesen/credits.json"
+}

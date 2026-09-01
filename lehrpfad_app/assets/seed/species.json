@@ -715,6 +715,81 @@
     ]
   },
   {
+    "id": "fichte",
+    "nameDe": "Fichte",
+    "nameLat": "Picea abies",
+    "kategorie": "flora",
+    "kurztext": "Nadeln einzeln am Zweig, Zapfen hängen – die Fichte steht hier oft dort, wo früher Wiese war.",
+    "aliases": [
+      "Rotfichte",
+      "Gemeine Fichte"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Nadeln einzeln am Zweig, Zapfen hängen – die Fichte steht hier oft dort, wo früher Wiese war.",
+      "erkennung": [
+        "Nadeln sitzen einzeln am Zweig",
+        "Hängende Zapfen, spitze Krone",
+        "Rinde rötlichbraun und schuppig"
+      ],
+      "lebensraum": "In den Braumannswiesen steht Fichte auf nassen Wiesenböden – oft eine Pflanzung, die der Feuchtwiese den Platz nimmt.",
+      "funFacts": [
+        "Sie wächst schnell und wurde deshalb oft gepflanzt.",
+        "Auf nassen Wiesen verdrängt sie Blüten und Insekten.",
+        "Hängende Zapfen unterscheiden sie von der Kiefer."
+      ],
+      "hinweis": "Zapfen und Zweige hängen lassen.",
+      "hoertext": "Vor dir steht ein Nadelbaum mit spitzer Krone. Fass eine Nadel: sie sitzt einzeln am Zweig, nicht zu zweit wie bei der Kiefer. Die Zapfen hängen nach unten. In den Braumannswiesen wurde Fichte oft auf nasse Wiesen gesetzt. Das war Forstlogik, kein Feuchtwiesen-Plan. Der Boden bleibt feucht, die Wiese verschwindet, der Wald wird dunkel. An der Tafel siehst du, warum solche Bestände hier enden oder umgebaut werden. Schau auf den Unterwuchs: wenig Licht, wenig Blüten. Dann geh weiter zur nächsten Station. Dort wird klarer, was nach der Fichte kommen kann – Laubholz, Wiese oder ein Bachufer mit Erlen. Nimm den Unterschied mit, ohne Zapfen mitzunehmen."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Nadeln"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "30–50 m"
+      },
+      {
+        "key": "alter",
+        "wert": "150–300 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "hängender Zapfen"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "immergruen",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Fichtenkreuzschnabel",
+        "kurztext": "Knackt Zapfen auf."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Borkenkäfer",
+        "kurztext": "Nutzt geschwächte Stämme."
+      }
+    ]
+  },
+  {
     "id": "fischadler",
     "nameDe": "Fischadler",
     "nameLat": "Pandion haliaetus",
