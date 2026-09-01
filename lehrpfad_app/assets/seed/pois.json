@@ -557,5 +557,46 @@
     "oeffnungszeiten": "Mo/Mi/Do 11:30–20, Fr/Sa bis 21, So bis 16 Uhr, Di Ruhetag",
     "telefon": "+49 33970 13854",
     "opening_hours": "Mo 11:30-20:00; Tu off; We-Th 11:30-20:00; Fr-Sa 11:30-21:00; Su 11:30-16:00"
+  },
+  {
+    "id": "museum-koehlerhof-wiethagen",
+    "name": "Forst- und Köhlerhof Wiethagen",
+    "kategorie": "museum",
+    "kurztext": "Teerofen, Märchenwald, Modellpark — extra neben dem Lehrpfad, eigene Öffnungszeiten.",
+    "lat": 54.18547,
+    "lon": 12.24602,
+    "website": "https://www.koehlerhof-wiethagen.de/",
+    "oeffnungszeiten": "Di–Fr 9–16 Uhr; Apr–Sep zusätzlich Sa/So 10–17; Okt–Dez So 10–16",
+    "telefon": "+49 38202 2035"
+  },
+  {
+    "id": "restaurant-blaue-boje-markgrafenheide",
+    "name": "Strandrestaurant blaue boje",
+    "kategorie": "restaurant",
+    "kurztext": "Ostseeblick und Küche am StrandResort — nach der Rad-Verlängerung, nicht an Station 10.",
+    "lat": 54.20141,
+    "lon": 12.15433,
+    "website": "https://www.blaue-boje.de/",
+    "oeffnungszeiten": "siehe Betreiber / Saison",
+    "telefon": "+49 381 77891501"
+  },
+  {
+    "id": "baden-markgrafenheide",
+    "name": "Strand Markgrafenheide",
+    "kategorie": "baden",
+    "kurztext": "Ostseestrand am Küstenwald — Ziel der Stationen 11–15, acht Kilometer vom Hof.",
+    "lat": 54.2015,
+    "lon": 12.1528,
+    "oeffnungszeiten": "ganzjährig, frei"
+  },
+  {
+    "id": "aktivitaet-karls-roevershagen",
+    "name": "Karls Erlebnis-Dorf Rövershagen",
+    "kategorie": "aktivitaet",
+    "kurztext": "Manufakturen und Familienpark zwei Kilometer vom Hof — Eintritt, nicht der Lehrpfad.",
+    "lat": 54.1763,
+    "lon": 12.2428,
+    "website": "https://www.karls.de/roevershagen",
+    "oeffnungszeiten": "siehe Karls, Eintritt"
   }
 ]

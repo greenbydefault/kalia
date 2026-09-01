@@ -1,0 +1,622 @@
+{
+ "id": "entdeckerpfad-biologische-vielfalt",
+ "name": "Entdeckerpfad Biologische Vielfalt",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Rundweg durch den Küstenwald Rostocker Heide am Forst- und Köhlerhof Wiethagen – zehn Mitmach-Stationen, barrierearm, ohne Anmeldung.",
+ "beschreibung": "Der Entdeckerpfad startet wenige Meter neben dem Forst- und Köhlerhof in Wiethagen, im größten zusammenhängenden Küstenwald Deutschlands. Zehn Stationen mischen Tafel und Mitmachen: Kletternetz, Fledermaus-Kurbelkasten, Grashalm-Labyrinth, Teich, Wassermusik, Eichenstamm. Die Runde bleibt auf den Schneisen um den Hof, offiziell 2,8 Kilometer, in etwa einer Stunde plus Spielpausen. Outdoor frei, ohne Anmeldung. Der Köhlerhof mit Teerofen und Märchenwald ist extra – eigene Öffnungszeiten, nicht Teil der Runde. Acht Kilometer Radweg mit Stationen 11 bis 15 führen weiter an die Ostsee nach Markgrafenheide; das ist nicht diese Schleife. Wege halten, Hunde anleinen. Von Station 8 bis 10 wird der Weg grasiger.",
+ "laengeKm": 3.0,
+ "dauerMin": 75,
+ "rundkurs": true,
+ "markierung": "Stationen / Schneisen um den Forst- und Köhlerhof",
+ "betreiber": "Stadtforstamt Rostock / Hansestadt Rostock",
+ "region": "Wiethagen, Hansestadt Rostock, Rostocker Heide, Mecklenburg-Vorpommern",
+ "website": "https://www.rostock.de/tour/entdeckerpfad-biologische-vielfalt",
+ "anreise": "Auto: A19 Abfahrt Rostock-Ost, B105 Richtung Rövershagen, Ausschilderung Wiethagen / Forst- und Köhlerhof; kostenfreie Parkplätze am Hof (Wiethagen 13, 18182 Rostock). Bahn: RE9 oder RB12 bis Rövershagen, dann ca. 1,8 km Fußweg. Bus 118 Haltestelle Rövershagen Schule, ca. 1,6 km. Start an den Stationen neben dem Hof, nicht im Museum.",
+ "startName": "Forst- und Köhlerhof / Station Mitten im Netz",
+ "arten": [
+  "Kiefer",
+  "Rotbuche",
+  "Stieleiche",
+  "Eisvogel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "kinderwagentauglich",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.185492,
+   12.247809
+  ],
+  [
+   54.185729,
+   12.247627
+  ],
+  [
+   54.185813,
+   12.247464
+  ],
+  [
+   54.185865,
+   12.247409
+  ],
+  [
+   54.185914,
+   12.247301
+  ],
+  [
+   54.18611,
+   12.247185
+  ],
+  [
+   54.186146,
+   12.247208
+  ],
+  [
+   54.186276,
+   12.246945
+  ],
+  [
+   54.186292,
+   12.246741
+  ],
+  [
+   54.186278,
+   12.24652
+  ],
+  [
+   54.186261,
+   12.246423
+  ],
+  [
+   54.186235,
+   12.24642
+  ],
+  [
+   54.18624,
+   12.246399
+  ],
+  [
+   54.186247,
+   12.246177
+  ],
+  [
+   54.186249,
+   12.2461
+  ],
+  [
+   54.186251,
+   12.246052
+  ],
+  [
+   54.186295,
+   12.246063
+  ],
+  [
+   54.186663,
+   12.246148
+  ],
+  [
+   54.187885,
+   12.24628
+  ],
+  [
+   54.187951,
+   12.246293
+  ],
+  [
+   54.18827,
+   12.246336
+  ],
+  [
+   54.188356,
+   12.246314
+  ],
+  [
+   54.188326,
+   12.246219
+  ],
+  [
+   54.188697,
+   12.245937
+  ],
+  [
+   54.188735,
+   12.245961
+  ],
+  [
+   54.189493,
+   12.245957
+  ],
+  [
+   54.190625,
+   12.245916
+  ],
+  [
+   54.190627,
+   12.245838
+  ],
+  [
+   54.190858,
+   12.245627
+  ],
+  [
+   54.190627,
+   12.245838
+  ],
+  [
+   54.190625,
+   12.245916
+  ],
+  [
+   54.190555,
+   12.248261
+  ],
+  [
+   54.19109,
+   12.248309
+  ],
+  [
+   54.19117,
+   12.248345
+  ],
+  [
+   54.191326,
+   12.248397
+  ],
+  [
+   54.192191,
+   12.248623
+  ],
+  [
+   54.192182,
+   12.248801
+  ],
+  [
+   54.192363,
+   12.249462
+  ],
+  [
+   54.193239,
+   12.252026
+  ],
+  [
+   54.192783,
+   12.251843
+  ],
+  [
+   54.192283,
+   12.251624
+  ],
+  [
+   54.191463,
+   12.251344
+  ],
+  [
+   54.190934,
+   12.251294
+  ],
+  [
+   54.190447,
+   12.251363
+  ],
+  [
+   54.189792,
+   12.249775
+  ],
+  [
+   54.189136,
+   12.248186
+  ],
+  [
+   54.187918,
+   12.248145
+  ],
+  [
+   54.18665,
+   12.24809
+  ],
+  [
+   54.186118,
+   12.248052
+  ],
+  [
+   54.185717,
+   12.248036
+  ],
+  [
+   54.185053,
+   12.248032
+  ],
+  [
+   54.185087,
+   12.247479
+  ],
+  [
+   54.184665,
+   12.24732
+  ],
+  [
+   54.184615,
+   12.247232
+  ],
+  [
+   54.18459,
+   12.247106
+  ],
+  [
+   54.184717,
+   12.245769
+  ],
+  [
+   54.184675,
+   12.245758
+  ],
+  [
+   54.184621,
+   12.245744
+  ],
+  [
+   54.184644,
+   12.245507
+  ],
+  [
+   54.184522,
+   12.245452
+  ],
+  [
+   54.184644,
+   12.245507
+  ],
+  [
+   54.184621,
+   12.245744
+  ],
+  [
+   54.184675,
+   12.245758
+  ],
+  [
+   54.184717,
+   12.245769
+  ],
+  [
+   54.184746,
+   12.245777
+  ],
+  [
+   54.18521,
+   12.245894
+  ],
+  [
+   54.185269,
+   12.245905
+  ],
+  [
+   54.185863,
+   12.245972
+  ],
+  [
+   54.186251,
+   12.246052
+  ],
+  [
+   54.186249,
+   12.2461
+  ],
+  [
+   54.186247,
+   12.246177
+  ],
+  [
+   54.18624,
+   12.246399
+  ],
+  [
+   54.186235,
+   12.24642
+  ],
+  [
+   54.186261,
+   12.246423
+  ],
+  [
+   54.186278,
+   12.24652
+  ],
+  [
+   54.186292,
+   12.246741
+  ],
+  [
+   54.186276,
+   12.246945
+  ],
+  [
+   54.186146,
+   12.247208
+  ],
+  [
+   54.18611,
+   12.247185
+  ],
+  [
+   54.185914,
+   12.247301
+  ],
+  [
+   54.185865,
+   12.247409
+  ],
+  [
+   54.185813,
+   12.247464
+  ],
+  [
+   54.185729,
+   12.247627
+  ],
+  [
+   54.185492,
+   12.247809
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -110190420,
+   "lat": 54.18549,
+   "lon": 12.24767,
+   "km": 0.0,
+   "titel": "Mitten im Netz",
+   "thema": "Was ist Vielfalt?",
+   "kurztext": "Lageplan zum Ertasten, Suchspiel, Kletternetz. Die Runde beginnt hier, nicht im Museum. Schau, welche Stationen du nacheinander nimmst – der Hof mit Teerofen bleibt extra.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -4036853441,
+   "lat": 54.18795,
+   "lon": 12.24661,
+   "km": 0.36,
+   "titel": "Riesenwiese",
+   "thema": "Wer in der Wiese wohnt",
+   "kurztext": "Grashalm-Labyrinth: du bist der Käfer. Die Tafel nennt essbare Pflanzen und Wiesenbewohner. Nicht pflücken für den Korb – erst lesen, dann weiter.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1967438656,
+   "lat": 54.18865,
+   "lon": 12.24621,
+   "km": 0.46,
+   "titel": "Waffen der Natur",
+   "thema": "Was nach dem Truppenplatz wächst",
+   "kurztext": "Hier lag ein NVA-Übungsplatz. Die Tafel zeigt Fotos und Gucklöcher: Renaturierung statt Panzer. Setz dich auf den Stamm und vergleich, was der Wald zurückholt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2590788535,
+   "lat": 54.19058,
+   "lon": 12.24713,
+   "km": 0.89,
+   "titel": "Fledermaushaus",
+   "thema": "Nachtschwärmer am Tag",
+   "kurztext": "Kurbelkasten und Tunnelrutsche. Die Tiere selbst schlafen – du lernst den Hangplatz, ohne eine Fledermaus zu wecken. Spielplatz daneben, dann weiter auf der Schneise.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2628300633,
+   "lat": 54.19218,
+   "lon": 12.24879,
+   "km": 1.09,
+   "titel": "Schiefe Pfütze",
+   "thema": "Frösche und Kammmolch",
+   "kurztext": "Teich mit Pegel. Bleib am Rand, Frösche nicht fangen. Die Tafel erklärt Laich und Molch – beobachten reicht.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -2877270008,
+   "lat": 54.1925,
+   "lon": 12.2489,
+   "km": 1.09,
+   "titel": "Rostocker Nachtleben",
+   "thema": "Wer den Tag verschläft",
+   "kurztext": "Kurbelkästen zu Dachs, Siebenschläfer, Fledermaus. Tagsüber siehst du sie nicht – die Station zeigt den Rhythmus, ohne Taschenlampe im Dickicht.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3055694349,
+   "lat": 54.19318,
+   "lon": 12.24898,
+   "km": 1.14,
+   "titel": "Wasserstand",
+   "thema": "Wasser schöpfen, Wasser hören",
+   "kurztext": "Rinnen, Klangschalen, schöpfen. Nasse Hände, feste Schuhe. Nach dem Spiel weiter auf der Schneise, nichts mitnehmen außer dem Geräusch.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -2380579919,
+   "lat": 54.19056,
+   "lon": 12.25141,
+   "km": 1.64,
+   "titel": "Apotheke Wald",
+   "thema": "Waldmedizin für Tier und Mensch",
+   "kurztext": "Kräuter- und Beeren-Fibel an der Tafel. Nichts in den Mund, auch wenn es heil klingt. Letzte Station der Runde – zurück auf der Schneise zum Hof.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -728409647,
+   "lat": 54.1888,
+   "lon": 12.2502,
+   "km": 1.77,
+   "titel": "Borke, Blatt & Co",
+   "thema": "Welche Bäume die Heide trägt",
+   "kurztext": "Memory zur Baumkunde, dann die Standorte neben der Station suchen. Kiefer, Buche, Eiche: Rinde und Blatt, nicht der Name zuerst.",
+   "erlebnisse": [
+    "tafel",
+    "memory"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -3529535270,
+   "lat": 54.18728,
+   "lon": 12.24812,
+   "km": 2.17,
+   "titel": "Pension Eiche",
+   "thema": "Tausend Gäste in einem Baum",
+   "kurztext": "Brücke, Balancierstamm, Tafel zur Eichel. Eine Stieleiche beherbergt Hunderte Insektenarten. Ab hier wird der Weg grasiger – kein Rollstuhl-Anspruch mehr.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 617676710,
+   "lat": 54.18448,
+   "lon": 12.24548,
+   "kategorie": "parking",
+   "name": "Forst- und Köhlerhof"
+  },
+  {
+   "osmId": 370134804,
+   "lat": 54.18864,
+   "lon": 12.24618,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 1258415361,
+   "lat": 54.18597,
+   "lon": 12.24671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1258415394,
+   "lat": 54.18599,
+   "lon": 12.24671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1258415427,
+   "lat": 54.18591,
+   "lon": 12.24671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1258415489,
+   "lat": 54.18594,
+   "lon": 12.24671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6164559139,
+   "lat": 54.18419,
+   "lon": 12.24474,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6164559140,
+   "lat": 54.19137,
+   "lon": 12.24597,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9844612292,
+   "lat": 54.19106,
+   "lon": 12.24855,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1258415381,
+   "lat": 54.18549,
+   "lon": 12.24767,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1258415434,
+   "lat": 54.18571,
+   "lon": 12.24617,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 802178370,
+   "lat": 54.18853,
+   "lon": 12.24591,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 802178371,
+   "lat": 54.19067,
+   "lon": 12.24725,
+   "kategorie": "playground",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/entdeckerpfad-biologische-vielfalt/credits.json"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-parkplatz.jpg",
+    "caption": "Parkplatz und Eingang am Forst- und Köhlerhof Wiethagen – hier startet die Runde.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst-_und_K%C3%B6hlerhof_Wiethagen_Parkplatz.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-museum.jpg",
+    "caption": "Fachwerk am Forst- und Köhlerhof – Museum extra, der Lehrpfad bleibt draußen.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst-_und_K%C3%B6hlerhof_Wiethagen_Museum.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-maerchenwald.jpg",
+    "caption": "Märchenwald auf dem Hofgelände – nach der Runde, nicht auf den Schneisen.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst-_und_K%C3%B6hlerhof_Wiethagen_M%C3%A4rchenwald.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-teerofen.jpg",
+    "caption": "Großer Teerofen – europaweit einzigartige Teerschwelerei von 1837.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst-_und_K%C3%B6hlerhof_Wiethagen_gro%C3%9Fer_Teerofen.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-radelwiesen.jpg",
+    "caption": "Offene Wiesen in der Rostocker Heide – Küstenwald, nicht nur Kiefernforst.",
+    "credit": "Dirk1981",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rostocker_Heide_Blick_auf_Radelwiesen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-kueste.jpg",
+    "caption": "Ostseeküste der Rostocker Heide bei Graal-Müritz – die Rad-Verlängerung endet am Strand.",
+    "credit": "Ichwarsnur",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FFH-Gebiet_Rostocker_Heide_Kueste_Sommer_2025-06_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-kiefer.jpg",
+    "caption": "Waldkiefer – Nadeln zu zweit, die prägende Baumart der Heide.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-rotbuche.jpg",
+    "caption": "Rotbuche: glatte Rinde, ovale Blätter.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-stieleiche.jpg",
+    "caption": "Stieleiche mit gebuchteten Blättern – Pension für Insekten.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-eisvogel.jpg",
+    "caption": "Eisvogel – an Gräben und Teichen der Heide, nicht am Klettergerüst.",
+    "credit": "Charles J. Sharp",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis_ispida)_female.jpg",
+    "kind": "art"
+  }
+]
