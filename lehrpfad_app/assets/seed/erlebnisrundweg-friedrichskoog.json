@@ -1,0 +1,1359 @@
+{
+ "id": "erlebnisrundweg-friedrichskoog",
+ "name": "Erlebnisrundweg Friedrichskoog-Spitze",
+ "typ": "kueste",
+ "kurzbeschreibung": "Flache 3,6-km-Runde hinterm Deich: elf Pricken-Stationen zu Watt, Gezeiten, Salzwiese und Vogelzug – nur zu Fuß, direkt am Nationalpark.",
+ "beschreibung": "In Friedrichskoog-Spitze stehen elf bunte Pricken im Flachland, wie Seezeichen im Watt. Sie markieren den Erlebnisrundweg: Großparkplatz, Kurpark, Parallelweg, Nordseestraße, Hochzeitsallee, zurück. Unterwegs ein Ebbe-Flut-Modell, ein Rotlichtfilter in der Salzwiese und ein Rätselpfad. Outdoor frei, ohne Anmeldung, nur Fußgänger. Wegegebot: vorhandene Wege halten, April bis Juli Abstand zu Brutvögeln am Deich. Hunde anleinen. Der Trischendamm und die Schutzstation am Hafen sind extra, kein Ticket für diese Runde.",
+ "laengeKm": 3.8,
+ "dauerMin": 55,
+ "rundkurs": true,
+ "markierung": "Farbige Pricken / Fußgängerweg",
+ "betreiber": "Gemeinde Friedrichskoog / Tourismus-Service Friedrichskoog",
+ "region": "Friedrichskoog-Spitze, Dithmarschen, Schleswig-Holstein",
+ "website": "https://www.friedrichskoog.de/urlaub/urlaub-aktiv/wandern/",
+ "anreise": "Ortsteil Spitze, Großparkplatz Koogstraße 142, 25718 Friedrichskoog. Auto: Parken am Großparkplatz / Nordseestraße P2 (teils gebührenfrei). ÖPNV: Bus nach Friedrichskoog-Spitze, Halt nahe Deichpassage. Start an der Übersichtstafel am Großparkplatz; Tourismus-Service in der Deichpassage optional.",
+ "startName": "Großparkplatz Koogstraße / Übersichtstafel",
+ "arten": [
+  "Strandflieder",
+  "Queller",
+  "Austernfischer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.029703,
+   8.838191
+  ],
+  [
+   54.029809,
+   8.838233
+  ],
+  [
+   54.029722,
+   8.838607
+  ],
+  [
+   54.030238,
+   8.838488
+  ],
+  [
+   54.030215,
+   8.838596
+  ],
+  [
+   54.030283,
+   8.838591
+  ],
+  [
+   54.030389,
+   8.838593
+  ],
+  [
+   54.030533,
+   8.838667
+  ],
+  [
+   54.030766,
+   8.83885
+  ],
+  [
+   54.030999,
+   8.839033
+  ],
+  [
+   54.031324,
+   8.839269
+  ],
+  [
+   54.031638,
+   8.839532
+  ],
+  [
+   54.031952,
+   8.839794
+  ],
+  [
+   54.031912,
+   8.839923
+  ],
+  [
+   54.031846,
+   8.840142
+  ],
+  [
+   54.032245,
+   8.840473
+  ],
+  [
+   54.032311,
+   8.840501
+  ],
+  [
+   54.032367,
+   8.840528
+  ],
+  [
+   54.032592,
+   8.840724
+  ],
+  [
+   54.032615,
+   8.840798
+  ],
+  [
+   54.032647,
+   8.840848
+  ],
+  [
+   54.032766,
+   8.840981
+  ],
+  [
+   54.032972,
+   8.841157
+  ],
+  [
+   54.033351,
+   8.841477
+  ],
+  [
+   54.033744,
+   8.841794
+  ],
+  [
+   54.034137,
+   8.842111
+  ],
+  [
+   54.034235,
+   8.842186
+  ],
+  [
+   54.034281,
+   8.842221
+  ],
+  [
+   54.034304,
+   8.842166
+  ],
+  [
+   54.034334,
+   8.842128
+  ],
+  [
+   54.03437,
+   8.842088
+  ],
+  [
+   54.034395,
+   8.842055
+  ],
+  [
+   54.034439,
+   8.841905
+  ],
+  [
+   54.034465,
+   8.841928
+  ],
+  [
+   54.034757,
+   8.842203
+  ],
+  [
+   54.035008,
+   8.84247
+  ],
+  [
+   54.03525,
+   8.842753
+  ],
+  [
+   54.035387,
+   8.84293
+  ],
+  [
+   54.035396,
+   8.842942
+  ],
+  [
+   54.035531,
+   8.843132
+  ],
+  [
+   54.035703,
+   8.843379
+  ],
+  [
+   54.035971,
+   8.843791
+  ],
+  [
+   54.036053,
+   8.843924
+  ],
+  [
+   54.036195,
+   8.844157
+  ],
+  [
+   54.036328,
+   8.844385
+  ],
+  [
+   54.036553,
+   8.84482
+  ],
+  [
+   54.036814,
+   8.84535
+  ],
+  [
+   54.036999,
+   8.845762
+  ],
+  [
+   54.037226,
+   8.846306
+  ],
+  [
+   54.037392,
+   8.846731
+  ],
+  [
+   54.037556,
+   8.84721
+  ],
+  [
+   54.037704,
+   8.847662
+  ],
+  [
+   54.037802,
+   8.848019
+  ],
+  [
+   54.037747,
+   8.848102
+  ],
+  [
+   54.037714,
+   8.848193
+  ],
+  [
+   54.037634,
+   8.848524
+  ],
+  [
+   54.03761,
+   8.848622
+  ],
+  [
+   54.037506,
+   8.849052
+  ],
+  [
+   54.037363,
+   8.849624
+  ],
+  [
+   54.037221,
+   8.850195
+  ],
+  [
+   54.037093,
+   8.850725
+  ],
+  [
+   54.03704,
+   8.850967
+  ],
+  [
+   54.037013,
+   8.851084
+  ],
+  [
+   54.036983,
+   8.851212
+  ],
+  [
+   54.03696,
+   8.851311
+  ],
+  [
+   54.036767,
+   8.851178
+  ],
+  [
+   54.036764,
+   8.851176
+  ],
+  [
+   54.036767,
+   8.851178
+  ],
+  [
+   54.03696,
+   8.851311
+  ],
+  [
+   54.036983,
+   8.851212
+  ],
+  [
+   54.037013,
+   8.851084
+  ],
+  [
+   54.03704,
+   8.850967
+  ],
+  [
+   54.0367,
+   8.850734
+  ],
+  [
+   54.03636,
+   8.850501
+  ],
+  [
+   54.03602,
+   8.850268
+  ],
+  [
+   54.03568,
+   8.850035
+  ],
+  [
+   54.035316,
+   8.849779
+  ],
+  [
+   54.034953,
+   8.849524
+  ],
+  [
+   54.03459,
+   8.849268
+  ],
+  [
+   54.034227,
+   8.849013
+  ],
+  [
+   54.034201,
+   8.849119
+  ],
+  [
+   54.034165,
+   8.849269
+  ],
+  [
+   54.03414,
+   8.849373
+  ],
+  [
+   54.033797,
+   8.84914
+  ],
+  [
+   54.033455,
+   8.848906
+  ],
+  [
+   54.033112,
+   8.848673
+  ],
+  [
+   54.032769,
+   8.84844
+  ],
+  [
+   54.032735,
+   8.848415
+  ],
+  [
+   54.032494,
+   8.848244
+  ],
+  [
+   54.032432,
+   8.8482
+  ],
+  [
+   54.03209,
+   8.847965
+  ],
+  [
+   54.031747,
+   8.847729
+  ],
+  [
+   54.031405,
+   8.847493
+  ],
+  [
+   54.031062,
+   8.847258
+  ],
+  [
+   54.030719,
+   8.847022
+  ],
+  [
+   54.030417,
+   8.84682
+  ],
+  [
+   54.030114,
+   8.846618
+  ],
+  [
+   54.029812,
+   8.846416
+  ],
+  [
+   54.029673,
+   8.846333
+  ],
+  [
+   54.029315,
+   8.846083
+  ],
+  [
+   54.028958,
+   8.845832
+  ],
+  [
+   54.028601,
+   8.845582
+  ],
+  [
+   54.028205,
+   8.845311
+  ],
+  [
+   54.027808,
+   8.845041
+  ],
+  [
+   54.027412,
+   8.844771
+  ],
+  [
+   54.027016,
+   8.8445
+  ],
+  [
+   54.026619,
+   8.84423
+  ],
+  [
+   54.026223,
+   8.84396
+  ],
+  [
+   54.025827,
+   8.843689
+  ],
+  [
+   54.025684,
+   8.843587
+  ],
+  [
+   54.025469,
+   8.843417
+  ],
+  [
+   54.025286,
+   8.843256
+  ],
+  [
+   54.025199,
+   8.843163
+  ],
+  [
+   54.025146,
+   8.843103
+  ],
+  [
+   54.025084,
+   8.843028
+  ],
+  [
+   54.024787,
+   8.842613
+  ],
+  [
+   54.02449,
+   8.842199
+  ],
+  [
+   54.024232,
+   8.841839
+  ],
+  [
+   54.02417,
+   8.841995
+  ],
+  [
+   54.024232,
+   8.841839
+  ],
+  [
+   54.024302,
+   8.841647
+  ],
+  [
+   54.024503,
+   8.841187
+  ],
+  [
+   54.024698,
+   8.840793
+  ],
+  [
+   54.024859,
+   8.840491
+  ],
+  [
+   54.025109,
+   8.840066
+  ],
+  [
+   54.025268,
+   8.839835
+  ],
+  [
+   54.025422,
+   8.839628
+  ],
+  [
+   54.025656,
+   8.839334
+  ],
+  [
+   54.025891,
+   8.839077
+  ],
+  [
+   54.026087,
+   8.838898
+  ],
+  [
+   54.026253,
+   8.838767
+  ],
+  [
+   54.026464,
+   8.838622
+  ],
+  [
+   54.026762,
+   8.838435
+  ],
+  [
+   54.027032,
+   8.838304
+  ],
+  [
+   54.027276,
+   8.8382
+  ],
+  [
+   54.027629,
+   8.838085
+  ],
+  [
+   54.027661,
+   8.838079
+  ],
+  [
+   54.028079,
+   8.838012
+  ],
+  [
+   54.02842,
+   8.838003
+  ],
+  [
+   54.028735,
+   8.83801
+  ],
+  [
+   54.029042,
+   8.83804
+  ],
+  [
+   54.02934,
+   8.838089
+  ],
+  [
+   54.029703,
+   8.838191
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 7999803352,
+   "lat": 54.0296731,
+   "lon": 8.8383454,
+   "km": 0.0,
+   "titel": "Erlebnisrundweg im Überblick",
+   "thema": "Pricken und Start",
+   "kurztext": "Elf Pricken stehen in der Ebene – Seezeichen wie im Watt, hier für den Rundweg. Start am Großparkplatz, nur zu Fuß, Rad und Quad bleiben draußen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 7999803350,
+   "lat": 54.0308128,
+   "lon": 8.839188,
+   "km": 0.17,
+   "titel": "Lebendiges Wattenmeer",
+   "thema": "Was im Schlick wohnt",
+   "kurztext": "Vor dem Deich liegt Nationalpark. Im Schlick Wattwurm, Muschel, Krabbe. Du bleibst auf dem Weg – das Leben sitzt daneben, nicht unter dem Schuh.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 8004417952,
+   "lat": 54.0344208,
+   "lon": 8.8421943,
+   "km": 0.66,
+   "titel": "Leben im Rhythmus der Gezeiten",
+   "thema": "Ebbe und Flut zum Anfassen",
+   "kurztext": "Zweimal am Tag kommt das Meer, zweimal geht es. Das Modell zeigt, warum der Schlick nass wird und wieder frei. Dreh, schau, merks.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 8004417948,
+   "lat": 54.0367963,
+   "lon": 8.8457087,
+   "km": 1.06,
+   "titel": "Salzwiese – Leben zwischen Land und Meer",
+   "thema": "Rotlichtfilter und Queller",
+   "kurztext": "Salzwiese verträgt Flut. Queller wird im Herbst rot, Strandflieder blüht lila. Durch den Rotlichtfilter siehst du, was im Grün versteckt sitzt.",
+   "erlebnisse": [
+    "bestimmung",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 7999803351,
+   "lat": 54.0370312,
+   "lon": 8.8507093,
+   "km": 1.42,
+   "titel": "Das Wattenmeer in Straßennamen",
+   "thema": "Queller, Anwaß, Balje",
+   "kurztext": "Die Siedlung spricht Watt: Straße Queller, Anwaß, Große Balje. Namen aus Prielen und Pflanzen, nicht aus dem Stadtplan irgendwo.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 8004417941,
+   "lat": 54.0365494,
+   "lon": 8.8508378,
+   "km": 1.58,
+   "titel": "Rätselpfad",
+   "thema": "Nordseestraße zum Knobeln",
+   "kurztext": "Entlang der Nordseestraße liegen Fragen. Watt, Gezeiten, Müll – erst gucken, dann raten. Kein Preis, nur ob du's weißt.",
+   "erlebnisse": [
+    "quiz",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 8004417928,
+   "lat": 54.0328867,
+   "lon": 8.8482556,
+   "km": 2.06,
+   "titel": "Vogelzug",
+   "thema": "Tankstelle Wattenmeer",
+   "kurztext": "Millionen Zugvögel tanken im Watt. Pfeifen oft der Austernfischer, schwarzweiß, oranger Schnabel. Abstand – sie müssen fressen, nicht posieren.",
+   "erlebnisse": [
+    "bestimmung",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 8001161843,
+   "lat": 54.0284917,
+   "lon": 8.8452661,
+   "km": 2.56,
+   "titel": "Das Weltnaturerbe",
+   "thema": "UNESCO-Wattenmeer",
+   "kurztext": "Seit 2009 Weltnaturerbe: ein Watt von den Niederlanden bis Dänemark. Hier beginnt es vor dem Deich. Kein Zaun, trotzdem Schutzgebiet.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": {
+    "werdegang": "2009 – UNESCO-Weltnaturerbe Wattenmeer"
+   },
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 7999803349,
+   "lat": 54.0253713,
+   "lon": 8.843023,
+   "km": 2.96,
+   "titel": "Plastikmüll in der Nordsee",
+   "thema": "Was das Meer nicht braucht",
+   "kurztext": "Kunststoff schwimmt, zerreißt, bleibt. Vögel und Fische halten ihn für Futter. Was du mitnimmst, landet nicht im Priel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 8001161844,
+   "lat": 54.0251524,
+   "lon": 8.8407364,
+   "km": 3.25,
+   "titel": "Natur Natur sein lassen",
+   "thema": "Wegegebot",
+   "kurztext": "Salzwiese und Watt brauchen Ruhe, vor allem April bis Juli. Nur vorhandene Wege. Wer abkürzt, tritt Nester platt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 7999803353,
+   "lat": 54.02689,
+   "lon": 8.8387208,
+   "km": 3.5,
+   "titel": "Leben und Arbeiten im Nationalpark",
+   "thema": "Kutter, Koog, Schutzstation",
+   "kurztext": "Krabbenkutter, Deichbau, Schutzstation – der Nationalpark ist Arbeitsplatz. Die Ausstellung am Hafen ist extra, diese Tafel reicht für die Runde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 11
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1691775709,
+   "lat": 54.0342334,
+   "lon": 8.8420865,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 1697426087,
+   "lat": 54.0299913,
+   "lon": 8.8386243,
+   "kategorie": "gastro",
+   "name": "Zur Spitze"
+  },
+  {
+   "osmId": 1716245131,
+   "lat": 54.0297945,
+   "lon": 8.8395879,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 2809383004,
+   "lat": 54.0298012,
+   "lon": 8.8390038,
+   "kategorie": "gastro",
+   "name": "Bistro Restaurant Deichbär"
+  },
+  {
+   "osmId": 2809383854,
+   "lat": 54.0300892,
+   "lon": 8.8399113,
+   "kategorie": "gastro",
+   "name": "Beach-Bistro Friedrichskoog"
+  },
+  {
+   "osmId": 2900284942,
+   "lat": 54.0299982,
+   "lon": 8.8389839,
+   "kategorie": "gastro",
+   "name": "Curry-Teufel meets Fish & Chips"
+  },
+  {
+   "osmId": 4613515528,
+   "lat": 54.0302821,
+   "lon": 8.8385238,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 7991154497,
+   "lat": 54.0298396,
+   "lon": 8.8396649,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7992887046,
+   "lat": 54.0298478,
+   "lon": 8.8396204,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7997001942,
+   "lat": 54.0250477,
+   "lon": 8.8397093,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7999948188,
+   "lat": 54.0301808,
+   "lon": 8.8392857,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7999948189,
+   "lat": 54.0301941,
+   "lon": 8.8392259,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8017939050,
+   "lat": 54.0322285,
+   "lon": 8.8407622,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8017939051,
+   "lat": 54.0323233,
+   "lon": 8.8406627,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8017939052,
+   "lat": 54.0323158,
+   "lon": 8.840463,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8017939053,
+   "lat": 54.0323371,
+   "lon": 8.8405669,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8021361319,
+   "lat": 54.0284348,
+   "lon": 8.8394827,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8041779341,
+   "lat": 54.0243068,
+   "lon": 8.842535,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 8043634029,
+   "lat": 54.0332618,
+   "lon": 8.8465744,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8043634030,
+   "lat": 54.037017,
+   "lon": 8.8507546,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8044003497,
+   "lat": 54.0254098,
+   "lon": 8.8428421,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8044003498,
+   "lat": 54.0253964,
+   "lon": 8.8428113,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8046272176,
+   "lat": 54.0329092,
+   "lon": 8.8482435,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8047022711,
+   "lat": 54.0251644,
+   "lon": 8.8420757,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8047022712,
+   "lat": 54.025151,
+   "lon": 8.8420449,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8047078736,
+   "lat": 54.0283171,
+   "lon": 8.8448073,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8047231599,
+   "lat": 54.0308439,
+   "lon": 8.8392166,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8047231600,
+   "lat": 54.0344563,
+   "lon": 8.8422162,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9990443355,
+   "lat": 54.027716,
+   "lon": 8.8372283,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10081120307,
+   "lat": 54.0263564,
+   "lon": 8.8434532,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10083023930,
+   "lat": 54.0275891,
+   "lon": 8.8437677,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10083023931,
+   "lat": 54.0270153,
+   "lon": 8.8433402,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10112939500,
+   "lat": 54.0302721,
+   "lon": 8.8385561,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10112939506,
+   "lat": 54.0330646,
+   "lon": 8.8403417,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10113244519,
+   "lat": 54.0369263,
+   "lon": 8.8450079,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10113244523,
+   "lat": 54.0379434,
+   "lon": 8.8477281,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10113438986,
+   "lat": 54.0284636,
+   "lon": 8.8452394,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10113439003,
+   "lat": 54.0253967,
+   "lon": 8.84308,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10115624351,
+   "lat": 54.0268607,
+   "lon": 8.8387306,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10115640122,
+   "lat": 54.0367815,
+   "lon": 8.8456652,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10116431647,
+   "lat": 54.0251861,
+   "lon": 8.840634,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10116882007,
+   "lat": 54.0353348,
+   "lon": 8.8432247,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11231359424,
+   "lat": 54.0300333,
+   "lon": 8.8401143,
+   "kategorie": "gastro",
+   "name": "Deich-Creperie"
+  },
+  {
+   "osmId": 11232301982,
+   "lat": 54.0304306,
+   "lon": 8.840891,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11258227025,
+   "lat": 54.0300889,
+   "lon": 8.8401483,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11258227026,
+   "lat": 54.0301603,
+   "lon": 8.8402008,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12033247668,
+   "lat": 54.0352398,
+   "lon": 8.8451999,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12035824435,
+   "lat": 54.03012,
+   "lon": 8.838659,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12035853102,
+   "lat": 54.0301109,
+   "lon": 8.8386869,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12636206468,
+   "lat": 54.0308615,
+   "lon": 8.8396653,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12636206469,
+   "lat": 54.0308391,
+   "lon": 8.8397472,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12636206471,
+   "lat": 54.0307998,
+   "lon": 8.839925,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12636206473,
+   "lat": 54.0307541,
+   "lon": 8.8400915,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12643531337,
+   "lat": 54.0302593,
+   "lon": 8.8405311,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12643531339,
+   "lat": 54.0302662,
+   "lon": 8.8404979,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12645273027,
+   "lat": 54.0310521,
+   "lon": 8.8398139,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828528840,
+   "lat": 54.0342948,
+   "lon": 8.8425805,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652481,
+   "lat": 54.0319385,
+   "lon": 8.8402348,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652486,
+   "lat": 54.0341122,
+   "lon": 8.84211,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652487,
+   "lat": 54.0338226,
+   "lon": 8.8418141,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652488,
+   "lat": 54.0312749,
+   "lon": 8.8401384,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652489,
+   "lat": 54.0312804,
+   "lon": 8.8401377,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652491,
+   "lat": 54.0313759,
+   "lon": 8.8401005,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652493,
+   "lat": 54.0314124,
+   "lon": 8.8400471,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652494,
+   "lat": 54.031448,
+   "lon": 8.8399843,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652497,
+   "lat": 54.0320916,
+   "lon": 8.8404991,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828652500,
+   "lat": 54.0326924,
+   "lon": 8.8407832,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801902,
+   "lat": 54.0326904,
+   "lon": 8.8408844,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801904,
+   "lat": 54.032922,
+   "lon": 8.8410911,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801906,
+   "lat": 54.0330397,
+   "lon": 8.8410028,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 13828801908,
+   "lat": 54.0331347,
+   "lon": 8.8411545,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801911,
+   "lat": 54.0334637,
+   "lon": 8.8415197,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801913,
+   "lat": 54.0336259,
+   "lon": 8.8417423,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13828801915,
+   "lat": 54.0337823,
+   "lon": 8.8416554,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 13828801916,
+   "lat": 54.0333787,
+   "lon": 8.8413969,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855924575,
+   "lat": 54.0297081,
+   "lon": 8.837843,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855945971,
+   "lat": 54.0304472,
+   "lon": 8.8382335,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855965083,
+   "lat": 54.0304949,
+   "lon": 8.8382585,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855971860,
+   "lat": 54.0297448,
+   "lon": 8.8378528,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855974471,
+   "lat": 54.0296674,
+   "lon": 8.8378354,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13855989462,
+   "lat": 54.0305256,
+   "lon": 8.8382756,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 156951315,
+   "lat": 54.0356429,
+   "lon": 8.8499888,
+   "kategorie": "parking",
+   "name": "P2"
+  },
+  {
+   "osmId": 210235660,
+   "lat": 54.0342277,
+   "lon": 8.8430466,
+   "kategorie": "gastro",
+   "name": "Seaside 26"
+  }
+ ],
+ "bilderAsset": "assets/images/trails/erlebnisrundweg-friedrichskoog/credits.json"
+}

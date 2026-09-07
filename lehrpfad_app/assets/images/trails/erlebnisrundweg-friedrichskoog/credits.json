@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-deich-trischendamm.jpg",
+    "caption": "Trischendamm von der Seeseite, Deich von Friedrichskoog-Spitze im Hintergrund.",
+    "credit": "5snake5",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_-_Trischendamm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-watt-badestrand.jpg",
+    "caption": "Watt und Badestrand bei Friedrichskoog-Spitze.",
+    "credit": "Andreas Eichler",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016.07.15.-09-Watt_Badestrand_Friedrichskoog.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-salzwiesen.jpg",
+    "caption": "Salzwiesen südlich vom Trischendamm, Mittelplate am Horizont.",
+    "credit": "Jürgen M. Boedecker",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalzwiesen_s%C3%BCdlich_vom_Trischendamm%2C_Friedrichskoog.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-spitze-watt.jpg",
+    "caption": "Watt vor Friedrichskoog-Spitze bei Ebbe.",
+    "credit": "Dirk Ingo Franke",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_spitze_watt.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-mittelplate.jpg",
+    "caption": "Blick vom Deich der Spitze auf die Bohrinsel Mittelplate.",
+    "credit": "Dirk Ingo Franke",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_spitze_blick_auf_mittelplate.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-watt-winter.jpg",
+    "caption": "Wattenmeer vor Friedrichskoog im Winter.",
+    "credit": "Dirk Ingo Franke",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_wadden_sea_in_winter_15.01.2011_17-00-13.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-wattenmeer.jpg",
+    "caption": "Wattenmeer bei Friedrichskoog.",
+    "credit": "TheAmerikaner",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWattenmeer-Friedrichskoog-%281%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-rugenorter-loch.jpg",
+    "caption": "Rugenorter Loch, alter Priel hinterm Deich bei Friedrichskoog.",
+    "credit": "L. Beck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-08-03_Friedrichskoog_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-trischendamm-watt.jpg",
+    "caption": "Trischendamm im Watt bei Friedrichskoog-Spitze.",
+    "credit": "C. Löser",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_Trischendamm_July-2009_SL273228.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "10-strandflieder.jpg",
+    "caption": "Gewöhnlicher Strandflieder in voller Blüte.",
+    "credit": "peterichman",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGewoehnlicher%20Strandflieder%20%28Limonium%20vulgare%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "11-queller.jpg",
+    "caption": "Europäischer Queller, Pionier an der Flutkante.",
+    "credit": "Robert Flogaus-Faust",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalicornia%20europaea%20RF.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "12-austernfischer.jpg",
+    "caption": "Austernfischer am Hafenstrom bei Friedrichskoog.",
+    "credit": "Andreas Eichler",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016.07.15.-05-Hafenstrom_Friedrichskoog--Austernfischer.jpg",
+    "kind": "art"
+  }
+]

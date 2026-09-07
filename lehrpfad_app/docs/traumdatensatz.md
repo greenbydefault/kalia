@@ -19,6 +19,7 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `trail.json` | `von-moor-zu-moor` | `moor` |
 | `heide-erlebnisweg.json` | … | `wald` |
 | `naturerlebnisraum-spo.json` | `naturerlebnisraum-spo` | `kueste` |
+| `erlebnisrundweg-friedrichskoog.json` | `erlebnisrundweg-friedrichskoog` | `kueste` |
 | `raddusch.json` | … | `moor` |
 | `rauener-berge.json` | … | `wald` |
 | `lehde.json` | … | `spreewald` |

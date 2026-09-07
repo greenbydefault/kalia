@@ -41,7 +41,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(29));
+    expect(trails, hasLength(31));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -66,8 +66,10 @@ void main() {
         'fossilruten-moens-klint',
         'stubbenkammer-koenigsstuhl',
         'naturerlebnisraum-spo',
+        'erlebnisrundweg-friedrichskoog',
         'kaeflingsberg-speck',
         'braumannswiesen',
+        'entdeckerpfad-biologische-vielfalt',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -87,6 +89,44 @@ void main() {
       expect(
         File(
           'assets/images/trails/heide-erlebnisweg/${bild.file}',
+        ).existsSync(),
+        isTrue,
+      );
+    }
+  });
+
+  test('Friedrichskoog lädt Seed-Hero-Bilder aus credits.json', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'erlebnisrundweg-friedrichskoog',
+    );
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(TrailHero.pagesFor(trail), trail.bilder);
+    expect(trail.typ, 'kueste');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.route.length, greaterThan(2));
+    expect(trail.stationen.length, 11);
+    expect(trail.arten, containsAll(['Strandflieder', 'Queller', 'Austernfischer']));
+    expect(trail.stationen.first.titel, contains('Überblick'));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Lebendiges Wattenmeer',
+        'Leben im Rhythmus der Gezeiten',
+        'Rätselpfad',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.03, 0.02));
+    expect(trail.start.longitude, closeTo(8.84, 0.02));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expect(
+        File(
+          'assets/images/trails/erlebnisrundweg-friedrichskoog/${bild.file}',
         ).existsSync(),
         isTrue,
       );

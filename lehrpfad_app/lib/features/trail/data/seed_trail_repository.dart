@@ -40,6 +40,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/fossilruten-moens-klint.json',
     'assets/seed/stubbenkammer-koenigsstuhl.json',
     'assets/seed/naturerlebnisraum-spo.json',
+    'assets/seed/erlebnisrundweg-friedrichskoog.json',
     'assets/seed/kaeflingsberg-speck.json',
     'assets/seed/braumannswiesen.json',
     'assets/seed/entdeckerpfad-biologische-vielfalt.json',

@@ -666,6 +666,60 @@
     "lon": 12.2428,
     "website": "https://www.karls.de/roevershagen",
     "oeffnungszeiten": "siehe Karls, Eintritt"
+  },
+  {
+    "id": "restaurant-zur-spitze",
+    "name": "Zur Spitze",
+    "kategorie": "restaurant",
+    "kurztext": "Deichrestaurant am Großparkplatz — nächste Küche nach der Pricken-Runde, nicht im Watt.",
+    "lat": 54.0299913,
+    "lon": 8.8386243,
+    "website": "https://deichrestaurant-zurspitze.de/",
+    "oeffnungszeiten": "Mi–So 12–21 Uhr",
+    "telefon": "+49 4854 1262",
+    "opening_hours": "We-Su 12:00-21:00"
+  },
+  {
+    "id": "cafe-eisbutze",
+    "name": "Eiscafé Eisbutze",
+    "kategorie": "cafe",
+    "kurztext": "Eis an der Deichpassage — nach Station 1, bevor es auf den Parallelweg geht.",
+    "lat": 54.0299934,
+    "lon": 8.8402681,
+    "oeffnungszeiten": "täglich 13–18 Uhr, Saison",
+    "opening_hours": "Mo-Su 13:00-18:00"
+  },
+  {
+    "id": "camping-swienskopp",
+    "name": "Camping Swienskopp",
+    "kategorie": "camping",
+    "kurztext": "Camping hinterm Deich an der Spitze — Übernachtung neben der Runde, nicht der Salzwiesenpfad.",
+    "lat": 54.0238305,
+    "lon": 8.8443734,
+    "website": "http://www.campingplatz-swienskopp.de/",
+    "oeffnungszeiten": "Saison"
+  },
+  {
+    "id": "museum-schutzstation-spitze",
+    "name": "Schutzstation Wattenmeer",
+    "kategorie": "museum",
+    "kurztext": "Nationalpark-Info im Haus des Kurgastes — extra, nicht die elf Pricken auf der Runde.",
+    "lat": 54.030261,
+    "lon": 8.8400431,
+    "website": "https://www.schutzstation-wattenmeer.de/unsere-stationen/friedrichskoog",
+    "oeffnungszeiten": "Saison, oft Wochenende, Aushang",
+    "telefon": "+49 4854 9298"
+  },
+  {
+    "id": "aktivitaet-seehundstation-friedrichskoog",
+    "name": "Seehundstation Friedrichskoog",
+    "kategorie": "aktivitaet",
+    "kurztext": "Robbenaufzucht am ehemaligen Hafen — extra Trip, Eintritt, nicht die Spitze-Runde.",
+    "lat": 54.001003,
+    "lon": 8.876508,
+    "website": "https://www.seehundstation-friedrichskoog.de",
+    "oeffnungszeiten": "Apr–Okt täglich 10–18 Uhr, Eintritt",
+    "telefon": "+49 4854 1372",
+    "opening_hours": "Apr-Oct: 10:00-18:00"
   }
 ]
-
