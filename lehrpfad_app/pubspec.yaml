@@ -74,7 +74,9 @@ flutter:
     - assets/icons/pois/
     - assets/icons/ui/
     - assets/audio/species/
-    - assets/images/trails/_placeholder.jpg
+    - assets/images/trails/_placeholder.thumb.avif
+    - assets/images/trails/_placeholder.small.avif
+    - assets/images/trails/_placeholder.medium.avif
     - assets/images/trails/heide-erlebnisweg/
     - assets/images/trails/braumannswiesen/
     - assets/images/trails/naturerlebnisraum-spo/

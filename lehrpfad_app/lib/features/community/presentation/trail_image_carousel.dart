@@ -72,7 +72,7 @@ class _TrailImageCarouselState extends ConsumerState<TrailImageCarousel> {
                     fit: StackFit.expand,
                     children: [
                       CachedNetworkAvifImage(
-                        image.smallUrl,
+                        image.thumbUrl,
                         fit: BoxFit.cover,
                         errorBuilder: (context, error, stack) => Container(
                           color: theme.colorScheme.surfaceContainerHighest,

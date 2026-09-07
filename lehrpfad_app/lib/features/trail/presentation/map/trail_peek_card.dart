@@ -4,6 +4,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/catalogs/icon_catalog.dart';
+import '../../../community/domain/trail_image.dart';
 import '../../../trail_progress/presentation/trail_sheet_peek_actions.dart';
 import '../../domain/trail.dart';
 import 'trail_hero.dart';
@@ -66,6 +67,7 @@ class TrailPeekCard extends StatelessWidget {
                       trailId: trail.id,
                       slide: HeroSlide.seed(bild),
                       fit: BoxFit.cover,
+                      variant: TrailImageVariant.thumb,
                       width: 116,
                       height: double.infinity,
                     ),

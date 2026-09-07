@@ -50,6 +50,10 @@ class HeroSlide {
 class TrailHero {
   static const placeholderAsset = 'assets/images/trails/_placeholder.jpg';
 
+  /// AVIF-Variante des Platzhalters (`_placeholder.{variant}.avif`).
+  static String placeholderVariant(TrailImageVariant variant) =>
+      'assets/images/trails/_placeholder.${variant.fileName}.avif';
+
   static const placeholderBild = TrailBild(
     file: placeholderAsset,
     caption: '',
@@ -90,6 +94,7 @@ class TrailHeroImage extends StatelessWidget {
     required this.trailId,
     required this.slide,
     required this.fit,
+    this.variant = TrailImageVariant.small,
     this.width,
     this.height,
     this.alignment = Alignment.center,
@@ -98,6 +103,10 @@ class TrailHeroImage extends StatelessWidget {
   final String trailId;
   final HeroSlide slide;
   final BoxFit fit;
+
+  /// Welche AVIF-Größe geladen wird: thumb (Karten-Peek/Strip),
+  /// small (Header-Slider), medium (Fullscreen). Seed wie Community.
+  final TrailImageVariant variant;
   final double? width;
   final double? height;
   final Alignment alignment;
@@ -111,12 +120,23 @@ class TrailHeroImage extends StatelessWidget {
     ),
   );
 
+  /// Test-Hook: Der native AVIF-Decoder steht in Widget-Tests nicht zur
+  /// Verfügung. Tests setzen das auf ein einfaches Platzhalter-Widget.
+  @visibleForTesting
+  static Widget Function(BoxFit fit)? debugSeedImageBuilder;
+
+  String _communityUrl(TrailImage img) => switch (variant) {
+    TrailImageVariant.thumb => img.thumbUrl,
+    TrailImageVariant.small => img.smallUrl,
+    TrailImageVariant.medium => img.mediumUrl,
+  };
+
   @override
   Widget build(BuildContext context) {
     final community = slide.community;
     if (community != null) {
       return CachedNetworkAvifImage(
-        community.mediumUrl,
+        _communityUrl(community),
         fit: fit,
         width: width,
         height: height,
@@ -124,17 +144,22 @@ class TrailHeroImage extends StatelessWidget {
         errorBuilder: (context, error, stack) => _broken,
       );
     }
-    final path = slide.seed!.assetPath(trailId);
-    return Image.asset(
+    final seed = slide.seed!;
+    final debugBuilder = debugSeedImageBuilder;
+    if (debugBuilder != null) return debugBuilder(fit);
+    final path = seed.isPlaceholder
+        ? TrailHero.placeholderVariant(variant)
+        : seed.variantAssetPath(trailId, variant);
+    return AvifImage.asset(
       path,
       fit: fit,
       width: width,
       height: height,
       alignment: alignment,
       errorBuilder: (context, error, stack) {
-        if (path == TrailHero.placeholderAsset) return _broken;
-        return Image.asset(
-          TrailHero.placeholderAsset,
+        if (seed.isPlaceholder) return _broken;
+        return AvifImage.asset(
+          TrailHero.placeholderVariant(variant),
           fit: fit,
           width: width,
           height: height,

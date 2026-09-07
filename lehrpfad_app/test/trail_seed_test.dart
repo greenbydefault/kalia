@@ -3,13 +3,26 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:lehrpfad_app/features/community/domain/trail_image.dart';
 import 'package:lehrpfad_app/features/trail/data/seed_trail_repository.dart';
 import 'package:lehrpfad_app/features/trail/data/trail_hero_assets.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
+import 'package:lehrpfad_app/features/trail/domain/trail_bild.dart';
 import 'package:lehrpfad_app/features/trail/presentation/map/trail_hero.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+
+  /// Jedes Seed-Hero muss in allen drei AVIF-Varianten auf Disk liegen.
+  void expectVariantFiles(String trailId, TrailBild bild) {
+    for (final v in TrailImageVariant.values) {
+      expect(
+        File(bild.variantAssetPath(trailId, v)).existsSync(),
+        isTrue,
+        reason: '${bild.file} ${v.fileName}',
+      );
+    }
+  }
 
   test('Trail.fromJson parst den Seed-Datensatz vollständig', () {
     final raw = File('assets/seed/trail.json').readAsStringSync();
@@ -86,12 +99,7 @@ void main() {
       expect(bild.credit, isNotEmpty);
       expect(bild.license, isNotEmpty);
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
-      expect(
-        File(
-          'assets/images/trails/heide-erlebnisweg/${bild.file}',
-        ).existsSync(),
-        isTrue,
-      );
+      expectVariantFiles('heide-erlebnisweg', bild);
     }
   });
 
@@ -124,12 +132,7 @@ void main() {
       expect(bild.credit, isNotEmpty);
       expect(bild.license, isNotEmpty);
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
-      expect(
-        File(
-          'assets/images/trails/erlebnisrundweg-friedrichskoog/${bild.file}',
-        ).existsSync(),
-        isTrue,
-      );
+      expectVariantFiles('erlebnisrundweg-friedrichskoog', bild);
     }
   });
 
@@ -147,12 +150,7 @@ void main() {
       expect(bild.credit, isNotEmpty);
       expect(bild.license, isNotEmpty);
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
-      expect(
-        File(
-          'assets/images/trails/naturerlebnisraum-spo/${bild.file}',
-        ).existsSync(),
-        isTrue,
-      );
+      expectVariantFiles('naturerlebnisraum-spo', bild);
     }
   });
 
@@ -172,12 +170,7 @@ void main() {
       expect(bild.credit, isNotEmpty);
       expect(bild.license, isNotEmpty);
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
-      expect(
-        File(
-          'assets/images/trails/kaeflingsberg-speck/${bild.file}',
-        ).existsSync(),
-        isTrue,
-      );
+      expectVariantFiles('kaeflingsberg-speck', bild);
     }
   });
 
@@ -198,7 +191,13 @@ void main() {
     expect(pages.single.isPlaceholder, isTrue);
     expect(pages.single.assetPath(stub.id), TrailHero.placeholderAsset);
     expect(pages.single.hasCreditBadge, isFalse);
-    expect(File('assets/images/trails/_placeholder.jpg').existsSync(), isTrue);
+    for (final v in TrailImageVariant.values) {
+      expect(
+        File(TrailHero.placeholderVariant(v)).existsSync(),
+        isTrue,
+        reason: 'placeholder ${v.fileName}',
+      );
+    }
 
     final wolf = trails.firstWhere((t) => t.id == 'wolfspfad-zwenzow');
     expect(wolf.bilder, isEmpty);
@@ -361,12 +360,7 @@ void main() {
       expect(bild.credit, isNotEmpty);
       expect(bild.license, isNotEmpty);
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
-      expect(
-        File(
-          'assets/images/trails/braumannswiesen/${bild.file}',
-        ).existsSync(),
-        isTrue,
-      );
+      expectVariantFiles('braumannswiesen', bild);
     }
   });
 

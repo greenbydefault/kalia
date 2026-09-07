@@ -5,6 +5,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:lehrpfad_app/features/trail/data/providers.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail/presentation/detail/trail_detail_page.dart';
+import 'package:lehrpfad_app/features/trail/presentation/map/trail_hero.dart';
 import 'package:lehrpfad_app/features/trail/presentation/map/trail_hero_pager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -41,6 +42,13 @@ void main() {
 
   setUp(() {
     SharedPreferences.setMockInitialValues({});
+    // Nativer AVIF-Decoder steht im Widget-Test nicht zur Verfügung.
+    TrailHeroImage.debugSeedImageBuilder =
+        (fit) => const ColoredBox(color: Colors.grey);
+  });
+
+  tearDown(() {
+    TrailHeroImage.debugSeedImageBuilder = null;
   });
 
   testWidgets('Hero fährt mit dem Content mit, statt oben fix zu bleiben', (

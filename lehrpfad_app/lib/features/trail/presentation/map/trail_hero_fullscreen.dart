@@ -3,6 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
+import '../../../community/domain/trail_image.dart';
 import 'trail_hero.dart';
 
 /// Vollbild mit TASL (Title, Author, Source, License) für Seed-Hero-Fotos
@@ -89,6 +90,7 @@ class _TrailHeroFullscreenState extends State<TrailHeroFullscreen> {
                       trailId: widget.trailId,
                       slide: item,
                       fit: BoxFit.contain,
+                      variant: TrailImageVariant.medium,
                     ),
                   ),
                 );

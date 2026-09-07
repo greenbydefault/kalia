@@ -33,12 +33,22 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `area` | `[lat,lon][]` | bei `flaeche` | geschlossenes Polygon (≥3) |
 | `stationen` | Station[] | ja | ≥3 |
 | `amenities` | Amenity[] | ja | kann leer sein, Soll: gefüllt |
-| `bilder` | TrailBild[] | nein | Seed-Hero. Leer → zentraler Pager-Platzhalter (`assets/images/trails/_placeholder.jpg`), nicht Karte. Manifest: `assets/images/trails/{id}/credits.json` |
+| `bilder` | TrailBild[] | nein | Seed-Hero. Leer → zentraler Pager-Platzhalter (`assets/images/trails/_placeholder.{variant}.avif`), nicht Karte. Manifest: `assets/images/trails/{id}/credits.json` |
 | `bilderAsset` | string | nein | Pfad zum Manifest. In der Trail-Config setzen; `build_seed.py` schreibt ihn in den Seed. Runtime lädt das Array nach `bilder` |
 
 ### TrailBild (Seed-Hero)
 
-Ordner: `assets/images/trails/{id}/{NN-slug.jpg, credits.json}`. Jeder Trail-Ordner braucht eine eigene `pubspec.yaml`-Zeile (Flutter nimmt Unterordner nicht mit). Ingest: `tools/ingest_trail_images.py`.
+Ordner: `assets/images/trails/{id}/{NN-slug}.{thumb,small,medium}.avif` + `credits.json`. Jeder Trail-Ordner braucht eine eigene `pubspec.yaml`-Zeile (Flutter nimmt Unterordner nicht mit).
+
+**Varianten** (längste Kante, AVIF; Seitenverhältnis bleibt, UI cropt mit `BoxFit.cover`):
+
+| Variante | px | Slot |
+|---|---|---|
+| `thumb` | 640 | Karten-Peek, Station-Strip, Community-Carousel, Moderation |
+| `small` | 1600 | Trail-Header-Slider (`heroFraction`) |
+| `medium` | 2400 | Fullscreen + Zoom |
+
+Ingest: `dart run tool/ingest_images.dart <trail_id>` (oder `--all`). Nutzt dieselbe Resize-Logik wie der User-Upload (`lib/shared/images/image_variants.dart`), AVIF über `sips`. Liest `credits.json`, schreibt die drei `.avif`, löscht die JPEG/PNG-Quelle. `file` in credits.json bleibt der Slug (z. B. `01-deich-trischendamm.jpg`); die UI hängt `.{variant}.avif` an.
 
 | Feld | Typ | Pflicht | Hinweis |
 |---|---|---|---|

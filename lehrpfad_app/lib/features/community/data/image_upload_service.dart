@@ -1,10 +1,9 @@
-import 'package:flutter/foundation.dart';
-import 'package:flutter_avif/flutter_avif.dart';
-import 'package:image/image.dart' as img;
 import 'package:image_picker/image_picker.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:uuid/uuid.dart';
 
+import '../../../shared/images/image_encoder.dart';
+import '../../../shared/images/image_variants.dart';
 import '../domain/trail_image.dart';
 import 'supabase_images_repository.dart';
 
@@ -15,66 +14,6 @@ class ImageUploadException implements Exception {
 
   @override
   String toString() => message;
-}
-
-/// Ergebnis des Resizings: PNG-Bytes der drei Varianten (Zwischenformat
-/// fuer die AVIF-Enkodierung) plus Originalmass.
-class _ResizedVariants {
-  _ResizedVariants({
-    required this.thumbPng,
-    required this.smallPng,
-    required this.mediumPng,
-    required this.width,
-    required this.height,
-  });
-
-  final Uint8List thumbPng;
-  final Uint8List smallPng;
-  final Uint8List mediumPng;
-  final int width;
-  final int height;
-}
-
-/// Laengste Kante pro Variante in Pixeln.
-const _variantSizes = {
-  TrailImageVariant.thumb: 200,
-  TrailImageVariant.small: 600,
-  TrailImageVariant.medium: 1600,
-};
-
-/// Laeuft in einem Hintergrund-Isolate (pure Dart, kein Plugin-Zugriff):
-/// dekodiert das Original, dreht es gemaess EXIF-Orientierung und erzeugt
-/// die drei Groessen als PNG.
-_ResizedVariants _resizeVariants(Uint8List input) {
-  final raw = img.decodeImage(input);
-  if (raw == null) {
-    throw ImageUploadException(
-      'Das Bildformat wird nicht unterstützt. Bitte ein JPEG-, PNG- oder '
-      'WebP-Foto wählen.',
-    );
-  }
-  final decoded = img.bakeOrientation(raw);
-
-  Uint8List encodeVariant(int maxEdge) {
-    final longest = decoded.width > decoded.height
-        ? decoded.width
-        : decoded.height;
-    if (longest <= maxEdge) return img.encodePng(decoded);
-    final work = img.copyResize(
-      decoded,
-      width: decoded.width >= decoded.height ? maxEdge : null,
-      height: decoded.height > decoded.width ? maxEdge : null,
-    );
-    return img.encodePng(work);
-  }
-
-  return _ResizedVariants(
-    thumbPng: encodeVariant(_variantSizes[TrailImageVariant.thumb]!),
-    smallPng: encodeVariant(_variantSizes[TrailImageVariant.small]!),
-    mediumPng: encodeVariant(_variantSizes[TrailImageVariant.medium]!),
-    width: decoded.width,
-    height: decoded.height,
-  );
 }
 
 /// Nimmt ein Foto auf / waehlt eines aus, erzeugt drei AVIF-Varianten
@@ -108,15 +47,13 @@ class ImageUploadService {
     if (picked == null) return;
 
     final bytes = await picked.readAsBytes();
-    final resized = await compute(_resizeVariants, bytes);
-
-    // encodeAvif arbeitet asynchron auf nativem Worker-Thread,
-    // blockiert die UI also nicht.
-    final variants = <TrailImageVariant, Uint8List>{
-      TrailImageVariant.thumb: await encodeAvif(resized.thumbPng),
-      TrailImageVariant.small: await encodeAvif(resized.smallPng),
-      TrailImageVariant.medium: await encodeAvif(resized.mediumPng),
-    };
+    final EncodedVariants resized;
+    try {
+      resized = await ImageVariants.encode(bytes);
+    } on ImageVariantsException catch (e) {
+      throw ImageUploadException(e.message);
+    }
+    final variants = resized.bytes;
 
     final imageId = _uuid.v4();
     final paths = SupabaseImagesRepository.pathsFor(trailId, imageId);
