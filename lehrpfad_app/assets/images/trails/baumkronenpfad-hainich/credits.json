@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Steg durch die Buchenkronen.",
+    "credit": "Dietmar Rabich",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASch%C3%B6nstedt%2C_Nationalpark_Hainich%2C_Baumkronenpfad_--_2017_--_0190.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kronen.jpg",
+    "caption": "Blick in die Kronen vom Steg.",
+    "credit": "Vasilisa Fedorova",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad_im_Nationalpark_Hainich_%2812%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-haengebruecke.jpg",
+    "caption": "Hängebrücke am Baumkronenpfad.",
+    "credit": "Any1s",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad_Hainich_Haengebruecke.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-infoplattform.jpg",
+    "caption": "Infoplattform auf dem Steg.",
+    "credit": "Any1s",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad_Hainich_Info-Plattform.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-blick-craula.jpg",
+    "caption": "Blick vom Steg Richtung Craula.",
+    "credit": "Membeth",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACraula.vom.Baumkronenpfad.Nationalpark.Hainich.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-turm.jpg",
+    "caption": "Baumturm und Steg im Sommer.",
+    "credit": "Z thomas",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad_Hainich_2020-06-03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-steg-leila.jpg",
+    "caption": "Besucher auf dem Steg.",
+    "credit": "Leila Paul",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANationalpark_Hainich-Baumkronenpfad-by-Leila-Paul-IMG_3990_04.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "08-panorama.jpg",
+    "caption": "Blick über den Steg im Hainich.",
+    "credit": "NaRa89",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATh%C3%BCringen%2C_Hainich%2C_Blick_%C3%BCber_den_Baumkronenpfad.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-boegen.jpg",
+    "caption": "Bögen des Stegs zwischen den Stämmen.",
+    "credit": "Derbrauni",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad_Hainich_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "10-buchenwald.jpg",
+    "caption": "Buchenwald im Nationalpark Hainich.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHainich_25.jpg",
+    "kind": "ort"
+  }
+]

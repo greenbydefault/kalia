@@ -54,7 +54,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(31));
+    expect(trails, hasLength(32));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -83,6 +83,7 @@ void main() {
         'kaeflingsberg-speck',
         'braumannswiesen',
         'entdeckerpfad-biologische-vielfalt',
+        'baumkronenpfad-hainich',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -494,6 +495,42 @@ void main() {
       expect(trail.hasBesuchInfos, isTrue);
       expect(trail.arten, containsAll(['Ziege', 'Schaf', 'Haushuhn']));
       expect(trail.stationen.length, greaterThanOrEqualTo(3));
+    },
+  );
+
+  test(
+    'Linien-Seed Hainich: erlebniswald, Eintritt, Thüringen',
+    () {
+      final raw = File(
+        'assets/seed/baumkronenpfad-hainich.json',
+      ).readAsStringSync();
+      final trail = Trail.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+
+      expect(trail.typ, 'erlebniswald');
+      expect(trail.form, 'linie');
+      expect(trail.rundkurs, isTrue);
+      expect(trail.laengeKm, 0.54);
+      expect(trail.dauerMin, 90);
+      expect(trail.eintritt, isTrue);
+      expect(trail.eintrittPreise, contains('13'));
+      expect(trail.oeffnungszeiten, isNotEmpty);
+      expect(trail.besuchshinweise, contains('Hunde'));
+      expect(trail.tags, isNot(contains('eintritt')));
+      expect(trail.tags, isNot(contains('hunde-erlaubt')));
+      expect(
+        trail.arten,
+        containsAll([
+          'Rotbuche',
+          'Wildkatze',
+          'Bechsteinfledermaus',
+          'Buntspecht',
+          'Großer Schillerfalter',
+        ]),
+      );
+      expect(trail.stationen.length, 12);
+      expect(trail.stationen.first.titel, 'Kasse / Lift');
+      expect(trail.stationen.last.titel, 'Abenteuerwildnis Fagati');
+      expect(trail.region, contains('Thüringen'));
     },
   );
 

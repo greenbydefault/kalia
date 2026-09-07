@@ -1,10 +1,11 @@
-# Lehrpfad App
+# Kalia
 
 Digitale Begleit-App für Naturlehrpfade: Karte, Arten, Tour-Status und Community.
 
 Go-Live-Backlog: `docs/golive/GRUND.md`.
 Web-Preview (GitHub → Vercel Hobby): `docs/golive/vercel.md`.
-Öffentlich / LinkedIn / Build-in-Public: `docs/oeffentlich/GRUND.md`.
+Öffentlich / Stimme / Kanäle: `docs/oeffentlich/GRUND.md`.
+Videos an Produkt koppeln: `docs/marketing/GRUND.md` (Board [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing)).
 
 ## Language
 
@@ -21,8 +22,8 @@ Ortstyp-Key (`typKatalog` in `lib/shared/catalogs/icon_catalog.dart`): u. a. `wa
 _Avoid_: freie Labels statt Keys; `typ: arboretum`; Tag/Erlebnis `barfusspfad` mit Trail-`typ` verwechseln (parallel erlaubt); Stadtspielplatz (nur Schaukel/Rutsche/Kletter) als `wasserspielplatz` seeden; Kita-only-Hof oder Produktionsstall als `kinderbauernhof`
 
 **Besuch**:
-Optional `eintritt`, `eintrittPreise`, `oeffnungszeiten`, `besuchshinweise`. Header-Chip „Eintritt“ nur wenn `eintritt: true`. Website schon am Trail, Anzeige im Accordion Anreise & Infos.
-_Avoid_: Tag `eintritt` (Chip wäre doppelt); alte Ticket-NOGOs wieder öffnen
+Optional `eintritt`, `eintrittPreise`, `oeffnungszeiten`, `besuchshinweise`. Header-Chip „Eintritt“ nur wenn `eintritt: true`. Pin-Ring folgt demselben Flag (`TypStartMarker.forTrail`). Website schon am Trail, Anzeige im Accordion Anreise & Infos.
+_Avoid_: Tag `eintritt` (Chip wäre doppelt); alte Ticket-NOGOs wieder öffnen; Pin-Gold nur für einen Trail hartcoden
 
 **Species-`kategorie`**:
 `flora` \| `fauna` \| `geraete`. Geräte-Icons über `geraeteKatalog` + optional `iconKey` — nicht Phosphor hardcoden.

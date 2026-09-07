@@ -108,6 +108,7 @@ flutter:
     - assets/images/trails/erlebe-bruder-wald/
     - assets/images/trails/fossilruten-moens-klint/
     - assets/images/trails/stubbenkammer-koenigsstuhl/
+    - assets/images/trails/baumkronenpfad-hainich/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

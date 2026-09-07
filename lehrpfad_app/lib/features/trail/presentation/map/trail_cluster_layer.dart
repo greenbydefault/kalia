@@ -142,8 +142,8 @@ List<Marker> buildClusterMarkers({
                 MarkerAppear(duration: markerAppearDuration, child: child),
           ),
         TrailMapPoint() =>
-          TypStartMarker(
-            typ: node.trail.typ,
+          TypStartMarker.forTrail(
+            node.trail,
             onTap: () => onTrailSelected(node.trail),
           ).toMarker(
             node.trail.start,

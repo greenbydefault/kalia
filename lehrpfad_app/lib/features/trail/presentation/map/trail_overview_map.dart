@@ -227,8 +227,8 @@ List<Marker> buildEndpointMarkers({
   final showAb = selected?.id == trail.id && trail.end != null;
   if (!showAb) {
     return [
-      TypStartMarker(
-        typ: trail.typ,
+      TypStartMarker.forTrail(
+        trail,
         onTap: () => onTrailSelected(trail),
       ).toMarker(start, key: ValueKey('s-${trail.id}')),
     ];

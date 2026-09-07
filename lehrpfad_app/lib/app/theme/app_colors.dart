@@ -29,6 +29,9 @@ abstract final class AppColors {
   /// Einzige Nicht-Neutral-Farbe: Fehlertexte lesbar halten.
   static const error = Color(0xFFB3261E);
 
+  /// Pin-Ring für Trails mit `eintritt: true`. Nicht Eignungs-Gelb.
+  static const eintrittRing = Color(0xFFC9A227);
+
   // ── Eignungs-Spektrum (Signal-Balken, Level 1→5, L→R rot→grün) ──
   static const eignung1 = Color(0xFFC62828);
   static const eignung2 = Color(0xFFEF6C00);

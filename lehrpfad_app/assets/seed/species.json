@@ -105,6 +105,82 @@
     }
   },
   {
+    "id": "bechsteinfledermaus",
+    "nameDe": "Bechsteinfledermaus",
+    "nameLat": "Myotis bechsteinii",
+    "kategorie": "fauna",
+    "kurztext": "Im Hainich hängt sie tagsüber in alten Buchen – nachts jagt sie zwischen den Stämmen.",
+    "aliases": [
+      "Bechstein-Fledermaus"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Hainich hängt sie tagsüber in alten Buchen – nachts jagt sie zwischen den Stämmen.",
+      "erkennung": [
+        "Langes Ohr, fast körperlang",
+        "Braunes Fell, Gesicht hellrosa",
+        "Hängt in Baumhöhlen, nicht Dachböden"
+      ],
+      "lebensraum": "Buchenurwälder mit Spechthöhlen. Der Hainich ist eines ihrer wichtigsten Gebiete in Deutschland.",
+      "funFacts": [
+        "Sie jagt im Bestand, nicht über der Straße.",
+        "Ein Ohr ist fast so lang wie der Körper.",
+        "Wochenstuben sitzen oft in alten Spechthöhlen."
+      ],
+      "hinweis": "Nachts nicht mit Licht in Höhlen leuchten.",
+      "hoertext": "Stell dir vor, du stehst auf dem Steg und unter dir hängt eine alte Buche voller Löcher. Tagsüber schläft darin oft die Bechsteinfledermaus. Du siehst sie selten. Ihre Ohren sind fast so lang wie der Körper, das Fell braun, das Gesicht hell. Nachts jagt sie zwischen den Stämmen, nicht über der Dorfstraße. Der Hainich hat viele Höhlenbäume, deshalb hält sie hier aus. Spechte zimmern die Wohnungen, sie zieht ein. Bleib ruhig stehen. Wenn es dämmert, hörst du vielleicht ein leises Surren, kein Pfeifen wie bei manchen Arten. Taschenlampe aus, Höhlen in Ruhe lassen. Der Wald arbeitet nachts weiter, auch wenn du schon am Parkplatz bist."
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Nachtfalter",
+      "Käfer",
+      "Spinnen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Chiroptera",
+      "familie": "Vespertilionidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "4–5 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "25–30 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "7–12 g"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "nachtaktiv",
+      "luftbewohnend",
+      "hoehlenbewohnend",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Nachtfalter",
+        "kurztext": "Jagt Insekten zwischen den Stämmen."
+      },
+      {
+        "typ": "wohnt_an",
+        "toSpeciesId": "rotbuche",
+        "kurztext": "Hängt in alten Buchenhöhlen."
+      }
+    ]
+  },
+  {
     "id": "bergahorn",
     "nameDe": "Bergahorn",
     "nameLat": "Acer pseudoplatanus",
@@ -427,6 +503,82 @@
         "typ": "wohnt_an",
         "kurztext": "Brütet im Heidekraut.",
         "toSpeciesId": "besenheide"
+      }
+    ]
+  },
+  {
+    "id": "buntspecht",
+    "nameDe": "Buntspecht",
+    "nameLat": "Dendrocopos major",
+    "kategorie": "fauna",
+    "kurztext": "Klopf, klopf – das ist kein Hammer. Der Specht zimmert Wohnungen für den halben Wald.",
+    "aliases": [
+      "Specht"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Klopf, klopf – das ist kein Hammer. Der Specht zimmert Wohnungen für den halben Wald.",
+      "erkennung": [
+        "Schwarzweiß, roter Hinterkopf beim Männchen",
+        "Klopfen an Stämmen, oft im Takt",
+        "Runde Löcher in totem Holz"
+      ],
+      "lebensraum": "Laub- und Mischwald. Im Hainich hörst du ihn vom Steg, die Höhlen sitzen unter dir im Stamm.",
+      "funFacts": [
+        "Eine Höhle braucht er Tage, nicht Minuten.",
+        "Alte Höhlen erben Fledermaus, Kleiber, Hornisse.",
+        "Die Zunge ist länger als der Schnabel."
+      ],
+      "hinweis": "",
+      "hoertext": "Hörst du das Klopfen? Das ist oft der Buntspecht, kein Waldarbeiter. Schwarzweiß, beim Männchen ein roter Fleck am Hinterkopf. Er hämmert Höhlen in weiches oder totes Holz. Eine Wohnung dauert Tage. Wenn er auszieht, ziehen andere ein: Fledermaus, Kleiber, Käfer. Vom Steg aus siehst du die Löcher in den Stämmen unter dir. Frische Späne am Fuß heißen: hier wurde gerade gearbeitet. Er braucht Totholz, deshalb bleibt im Nationalpark liegen, was umfällt. Klopf an der Stationstafel, wenn sie das anbietet. Den Stamm selbst in Ruhe lassen. Der Specht baut für mehr Tiere als nur für sich."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Insekten",
+      "Samen",
+      "Nüsse"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Piciformes",
+      "familie": "Picidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "20–24 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "34–39 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "70–100 g"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "baumeister",
+      "hoehlenbewohnend",
+      "insektenfresser"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Holzkäfer",
+        "kurztext": "Holt Larven aus dem Holz."
+      },
+      {
+        "typ": "wohnt_an",
+        "toSpeciesId": "rotbuche",
+        "kurztext": "Zimmert Höhlen in Buchen und Totholz."
       }
     ]
   },
@@ -1104,6 +1256,76 @@
         "typ": "frisst",
         "nameDe": "Vögel",
         "kurztext": "Wird von Vögeln gefressen."
+      }
+    ]
+  },
+  {
+    "id": "grosser-schillerfalter",
+    "nameDe": "Großer Schillerfalter",
+    "nameLat": "Apatura iris",
+    "kategorie": "fauna",
+    "kurztext": "Wenn die Sonne trifft, schillert das Männchen violett. Das ist kein Lack, das ist Physik.",
+    "aliases": [
+      "Schillerfalter"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Wenn die Sonne trifft, schillert das Männchen violett. Das ist kein Lack, das ist Physik.",
+      "erkennung": [
+        "Männchen violett schillernd, Weibchen braun",
+        "Weiße Binde auf den Flügeln",
+        "Sitzt oft an Pfützen, nicht nur an Blüten"
+      ],
+      "lebensraum": "Lichte Stellen im Laubwald. Im Hainich fliegt er über Wegen und Kronenlücken, Raupen an Traubenkirsche und Weide.",
+      "funFacts": [
+        "Das Violett kommt von Schuppen, nicht von Farbstoff.",
+        "Männchen saugen an Kot und Pfützen, nicht nur Nektar.",
+        "Die Raupe überwintert am Zweig, gut getarnt."
+      ],
+      "hinweis": "",
+      "hoertext": "An der Station zum Schillerfalter lohnt ein Blick in die Sonne. Trifft Licht das Männchen, kippt Braun nach Violett. Kein Lack, kleine Schuppen auf den Flügeln. Das Weibchen bleibt braun, mit weißer Binde. Du siehst ihn oft an Pfützen oder Kot, nicht nur an Blüten. Mineralien, nicht Zucker. Die Raupen fressen an Traubenkirsche und Weide im Unterholz. Im Hainich hat der lichte Urwald genau solche Ränder. Modelle und Lupen an der Station zeigen Ei, Raupe, Puppe, Falter. Fangnetz bleibt zu Hause. Ein Foto von der Seite reicht. Wenn er weiterfliegt, hat er mehr von diesem Wald als du in der Hand."
+    },
+    "gruppe": "insekten",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Nektar",
+      "Mineralien"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Arthropoda",
+      "klasse": "Insecta",
+      "ordnung": "Lepidoptera",
+      "familie": "Nymphalidae"
+    },
+    "masse": [
+      {
+        "key": "spannweite",
+        "wert": "6–8 cm"
+      },
+      {
+        "key": "alter",
+        "wert": "2–3 Wochen"
+      }
+    ],
+    "merkmale": [
+      "tagaktiv",
+      "bestaeuber",
+      "luftbewohnend",
+      "tarnung"
+    ],
+    "beziehungen": [
+      {
+        "typ": "bestaeubt",
+        "nameDe": "Blüten",
+        "kurztext": "Saugt Nektar, oft auch an Pfützen."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Wird von Vögeln gejagt."
       }
     ]
   },
@@ -4124,6 +4346,82 @@
         "typ": "frisst",
         "nameDe": "Vögel",
         "kurztext": "Fressen die Samen."
+      }
+    ]
+  },
+  {
+    "id": "wildkatze",
+    "nameDe": "Wildkatze",
+    "nameLat": "Felis silvestris",
+    "kategorie": "fauna",
+    "kurztext": "Im Hainich lebt sie wirklich: dick geringelter Schwanz, scheu, kein streunender Hauskater.",
+    "aliases": [
+      "Europäische Wildkatze"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Hainich lebt sie wirklich: dick geringelter Schwanz, scheu, kein streunender Hauskater.",
+      "erkennung": [
+        "Buschschwanz, klar geringelt, Spitze stumpf",
+        "Aalstrich auf dem Rücken, verwaschenes Fell",
+        "Scheu, meist dämmern- und nachtaktiv"
+      ],
+      "lebensraum": "Ruhige Laubwälder mit Deckung. Der Hainich ist Kerngebiet. Tagsüber siehst du Spuren, selten das Tier.",
+      "funFacts": [
+        "Der Schwanz ist kürzer und dicker als bei der Hauskatze.",
+        "Hauskatzen kreuzen sich mit ihr, das verdünnt die Wildform.",
+        "Mäuse sind die Hauptbeute, nicht Rehe."
+      ],
+      "hinweis": "Nicht nachlocken, Abstand halten, Hunde anleinen.",
+      "hoertext": "Die Station zur Wildkatze steht hoch über dem Bestand. Unten läuft sie, wenn überhaupt, am Boden. Dick geringelter Schwanz, stumpfe Spitze, Aalstrich. Kein Hauskater auf Streifzug. Im Hainich hält sie sich, weil der Wald groß und ruhig ist. Tagsüber siehst du sie fast nie. Nachts jagt sie Mäuse. Hunde gehören nicht auf den Steg, unten anleinen, sobald ihr wieder am Boden seid. Nachlocken bringt nichts und stresst. Das Wildkatzendorf in Hütscheroda ist ein anderer Ort, mit Gehege. Hier gilt: Spur im Dreck, vielleicht ein Schrei in der Dämmerung. Mehr musst du nicht haben."
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "selten",
+    "gefahr": 3,
+    "nahrung": [
+      "Mäuse",
+      "Wühlmäuse",
+      "Vögel"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Carnivora",
+      "familie": "Felidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "75–90 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "4–8 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "7–10 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "nachtaktiv",
+      "tarnung",
+      "fleischfresser",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Mäuse",
+        "kurztext": "Jagt vor allem Kleinsäuger am Boden."
+      },
+      {
+        "typ": "wohnt_an",
+        "toSpeciesId": "rotbuche",
+        "kurztext": "Nutzt Deckung im Buchenwald."
       }
     ]
   },

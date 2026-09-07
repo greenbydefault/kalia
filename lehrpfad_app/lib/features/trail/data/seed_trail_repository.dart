@@ -44,6 +44,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/kaeflingsberg-speck.json',
     'assets/seed/braumannswiesen.json',
     'assets/seed/entdeckerpfad-biologische-vielfalt.json',
+    'assets/seed/baumkronenpfad-hainich.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

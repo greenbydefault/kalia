@@ -3,6 +3,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 
 import '../../app/theme/app_colors.dart';
+import '../../features/trail/domain/trail.dart';
 import '../catalogs/icon_catalog.dart';
 
 /// Maße für Map-Bubbles. Einmal ändern, Chrome + Hitbox folgen.
@@ -28,6 +29,7 @@ class TypStartMarker extends StatelessWidget {
   final String? letter;
   final int? count;
   final bool inverted;
+  final bool eintritt;
   final VoidCallback? onTap;
   final double size;
   final double iconSize;
@@ -35,12 +37,31 @@ class TypStartMarker extends StatelessWidget {
   const TypStartMarker({
     super.key,
     required String this.typ,
+    this.eintritt = false,
     this.onTap,
     this.size = MapMarkerStyle.size,
     this.iconSize = MapMarkerStyle.iconSize,
   }) : letter = null,
        count = null,
        inverted = false;
+
+  /// Einzige Stelle für Trail-Startpins. Nächster Paid-Trail: `eintritt: true`.
+  factory TypStartMarker.forTrail(
+    Trail trail, {
+    Key? key,
+    VoidCallback? onTap,
+    double size = MapMarkerStyle.size,
+    double iconSize = MapMarkerStyle.iconSize,
+  }) {
+    return TypStartMarker(
+      key: key,
+      typ: trail.typ,
+      eintritt: trail.eintritt,
+      onTap: onTap,
+      size: size,
+      iconSize: iconSize,
+    );
+  }
 
   const TypStartMarker.letter(
     String this.letter, {
@@ -50,7 +71,8 @@ class TypStartMarker extends StatelessWidget {
     this.size = MapMarkerStyle.size,
     this.iconSize = MapMarkerStyle.iconSize,
   }) : typ = null,
-       count = null;
+       count = null,
+       eintritt = false;
 
   const TypStartMarker.count(
     int this.count, {
@@ -60,7 +82,8 @@ class TypStartMarker extends StatelessWidget {
     this.iconSize = MapMarkerStyle.iconSize,
   }) : typ = null,
        letter = null,
-       inverted = false;
+       inverted = false,
+       eintritt = false;
 
   /// Hitbox = [size]. Optional [wrap] für Appear-Animation.
   Marker toMarker(
@@ -82,7 +105,9 @@ class TypStartMarker extends StatelessWidget {
   Widget build(BuildContext context) {
     final fill = inverted ? AppColors.n50 : AppColors.brand;
     final fg = inverted ? AppColors.brand : AppColors.n50;
-    final border = inverted ? AppColors.brand : AppColors.n50;
+    final border = eintritt
+        ? AppColors.eintrittRing
+        : (inverted ? AppColors.brand : AppColors.n50);
 
     final Widget inner;
     if (count != null) {

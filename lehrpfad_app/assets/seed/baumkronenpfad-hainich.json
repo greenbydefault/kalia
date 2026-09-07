@@ -1,0 +1,440 @@
+{
+ "id": "baumkronenpfad-hainich",
+ "name": "Baumkronenpfad Hainich",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "540 Meter Steg durch UNESCO-Buchenkronen bei Thiemsburg – vier Tierstationen, Hängebrücke, 44-Meter-Turm. Lift für Kinderwagen. Eintritt.",
+ "beschreibung": "An der Thiemsburg, zehn Kilometer westlich von Bad Langensalza, steht der Baumkronenpfad im Nationalpark Hainich. Zwei Schleifen, zusammen rund 540 Meter, tragen dich von zehn auf 24 Meter Höhe durch das Blätterdach. Die erste Schleife gehört Fledermaus, Specht, Wildkatze und Schillerfalter – mit Spielen und Rätseln. Die zweite erklärt Fotosynthese, wilden Wald und Forschung; Mutige gehen über die Hängebrücke. Der Baumturm misst 44 Meter, die Plattform erreichst du nur über die Treppe. Ein Lift bringt Kinderwagen und Rollstuhl auf den Steg. Eigentümerin ist die Stadt Bad Langensalza. Hunde bleiben in Boxen am Fuß, Assistenzhunde ausgenommen. Kinder unter zwölf nur mit Erwachsenem. Die Abenteuerwildnis Fagati am Nationalparkzentrum ist draußen und ohne Ticket. Hainichwelt und Wurzelhöhle sind Indoor, nicht dieser Trail. Zwei Stunden reichen für Steg, Turm und Fagati.",
+ "laengeKm": 0.54,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Baumkronenpfad / Nationalpark Hainich",
+ "betreiber": "Stadt Bad Langensalza / Baumkronenpfad Hainich",
+ "region": "Thiemsburg, Unstrut-Hainich-Kreis, Nationalpark Hainich, Thüringen",
+ "website": "https://baumkronen-pfad.de/",
+ "anreise": "Adresse fürs Navi: Parkplatz Baumkronenpfad, 99991 Unstrut-Hainich OT Alterstedt. GPS 51.08142, 10.51765. Post: Thiemsburg 1, 99947 Schönstedt. Auto über B84, Parkplatz an der K515, zehn Minuten zu Fuß zum Steg. Nationalparkbus 154 Mühlhausen–Thiemsburg, Halt am Parkplatz. Rad: Gelbe Route Creuzburg–Bad Langensalza.",
+ "startName": "Kasse / Lift am Baumturm",
+ "arten": [
+  "Rotbuche",
+  "Bergahorn",
+  "Wildkatze",
+  "Bechsteinfledermaus",
+  "Buntspecht",
+  "Großer Schillerfalter"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.084092,
+   10.510736
+  ],
+  [
+   51.084074,
+   10.510607
+  ],
+  [
+   51.084049,
+   10.510376
+  ],
+  [
+   51.084106,
+   10.51085
+  ],
+  [
+   51.084074,
+   10.510607
+  ],
+  [
+   51.084216,
+   10.510566
+  ],
+  [
+   51.084363,
+   10.510568
+  ],
+  [
+   51.084484,
+   10.510674
+  ],
+  [
+   51.08462,
+   10.510725
+  ],
+  [
+   51.08475,
+   10.510835
+  ],
+  [
+   51.084759,
+   10.511067
+  ],
+  [
+   51.08464,
+   10.511212
+  ],
+  [
+   51.084553,
+   10.5114
+  ],
+  [
+   51.084405,
+   10.511404
+  ],
+  [
+   51.084294,
+   10.511568
+  ],
+  [
+   51.084159,
+   10.511568
+  ],
+  [
+   51.084117,
+   10.511341
+  ],
+  [
+   51.084137,
+   10.511021
+  ],
+  [
+   51.084106,
+   10.51085
+  ],
+  [
+   51.084101,
+   10.51016
+  ],
+  [
+   51.084021,
+   10.509981
+  ],
+  [
+   51.083952,
+   10.509527
+  ],
+  [
+   51.083838,
+   10.509399
+  ],
+  [
+   51.083721,
+   10.509454
+  ],
+  [
+   51.083541,
+   10.509607
+  ],
+  [
+   51.083379,
+   10.50975
+  ],
+  [
+   51.083392,
+   10.509996
+  ],
+  [
+   51.083394,
+   10.510196
+  ],
+  [
+   51.083409,
+   10.510377
+  ],
+  [
+   51.083442,
+   10.510511
+  ],
+  [
+   51.083551,
+   10.510677
+  ],
+  [
+   51.08365,
+   10.510839
+  ],
+  [
+   51.083767,
+   10.510913
+  ],
+  [
+   51.083836,
+   10.510936
+  ],
+  [
+   51.083925,
+   10.51095
+  ],
+  [
+   51.084036,
+   10.510904
+  ],
+  [
+   51.084106,
+   10.51085
+  ],
+  [
+   51.084092,
+   10.510736
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 51.0841767,
+   "lon": 10.5107112,
+   "km": 0.0,
+   "titel": "Kasse / Lift",
+   "thema": "Auf den Steg, ohne Treppe",
+   "kurztext": "Hier beginnt der Steg. Ticket, dann Lift oder Wendeltreppe. Der Lift nimmt Kinderwagen und Rollstuhl mit auf zehn Meter. Der Turm später ist Treppe, der Steg nicht. Letzter Einlass eine Stunde vor Schluss.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -2087608778,
+   "lat": 51.084141,
+   "lon": 10.51147,
+   "km": 0.05,
+   "titel": "Fledermaus",
+   "thema": "Echo im Dunkeln",
+   "kurztext": "Erstes der vier Tore. Klänge und Licht zeigen, wie Fledermäuse im Kronendach jagen. Im Hainich hängt die Bechsteinfledermaus tagsüber in alten Buchen. Du hörst sie hier, siehst sie selten.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1898246817,
+   "lat": 51.084497,
+   "lon": 10.511401,
+   "km": 0.11,
+   "titel": "Specht",
+   "thema": "Wer die Wohnungen zimmert",
+   "kurztext": "Klopfen darfst du an der Tafel. Der Buntspecht hämmert Höhlen, die später Fledermaus und Käfer übernehmen. Such die Löcher in den Stämmen unter dir – nicht jedes ist frisch.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -895218128,
+   "lat": 51.084753,
+   "lon": 10.510924,
+   "km": 0.16,
+   "titel": "Wildkatze",
+   "thema": "Dick geringelter Schwanz, kein Hauskater",
+   "kurztext": "Im Hainich lebt sie wirklich, scheu und nachtaktiv. Der Schwanz ist buschig und klar geringelt, die Binde vorne schwarz. Hauskatzen kreuzen sich mit ihr – deshalb bleibt Abstand besser als ein Foto aus dem Gebüsch.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1189299018,
+   "lat": 51.084397,
+   "lon": 10.510597,
+   "km": 0.21,
+   "titel": "Schillerfalter",
+   "thema": "Violett, wenn die Sonne trifft",
+   "kurztext": "Großer Schillerfalter: das Männchen schillert, das Weibchen nicht. Modelle und Lupen zeigen Ei, Raupe, Puppe, Falter. Die Raupen brauchen Traubenkirsche und Weide im Unterholz.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -2107956005,
+   "lat": 51.0841,
+   "lon": 10.510803,
+   "km": 0.26,
+   "titel": "Fotosynthese",
+   "thema": "Was die Blätter mit Licht machen",
+   "kurztext": "Zweite Schleife, überdachte Plattform. Die Tafeln erklären, wie die Krone aus Licht und Luft Zucker baut – und warum ein Loch im Dach den Boden darunter ändert.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -1883596456,
+   "lat": 51.083682,
+   "lon": 10.51086,
+   "km": 0.33,
+   "titel": "Wilder Wald",
+   "thema": "Totholz bleibt liegen",
+   "kurztext": "Hier darf der Baum umfallen. Specht, Käfer, Pilz brauchen das liegende Holz. Der Nationalpark räumt nicht auf. Schau nach unten: was grau und tot wirkt, ist voller Leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -3893835391,
+   "lat": 51.083405,
+   "lon": 10.510333,
+   "km": 0.4,
+   "titel": "Vergessener Wald",
+   "thema": "Als der Hainich Militär war",
+   "kurztext": "Jahrzehnte Sperrgebiet, wenig Forst. Genau das hat den Buchenurwald gerettet. Die Plattform erzählt die Lücke in der Nutzung, nicht eine Mär vom ewigen Urwald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -952999993,
+   "lat": 51.083448,
+   "lon": 10.509689,
+   "km": 0.46,
+   "titel": "Forscher-Wald",
+   "thema": "Messung statt Klettergurt",
+   "kurztext": "Der Steg ist auch Labor. Oben am Turm sitzt eine Wetterstation, in den Kronen laufen Langzeitbeobachtungen. Du gehst denselben Weg wie die Forschung, nur ohne Netz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -386502794,
+   "lat": 51.083895,
+   "lon": 10.509462,
+   "km": 0.52,
+   "titel": "Hängebrücke",
+   "thema": "Der Wald schwingt",
+   "kurztext": "Bretter, die nachgeben. Mutige spüren, wie der Baum im Wind arbeitet. Daneben ein Kletterseil. Nicht rennen, nicht schubsen – der Steg ist schmal und hoch.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -458346498,
+   "lat": 51.0841065,
+   "lon": 10.51085,
+   "km": 0.58,
+   "titel": "Baumturm",
+   "thema": "Über die Wipfel, nur Treppe",
+   "kurztext": "44 Meter, offene Plattform, Blick bis ins Thüringer Becken. Kein Lift. Schwindelfreie gehen rauf. Im Turminnern hängt eine Ausstellung – optional, der Trail bleibt draußen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": -814637900,
+   "lat": 51.081946,
+   "lon": 10.515405,
+   "km": 0.85,
+   "titel": "Abenteuerwildnis Fagati",
+   "thema": "Draußen, ohne Ticket",
+   "kurztext": "Am Nationalparkzentrum, nicht auf dem Steg. Fabelwesen-Spuren, zum Rennen und Suchen. April bis Oktober 10–19 Uhr, Eintritt frei. Hainichwelt und Wurzelhöhle daneben sind Indoor – nicht hier.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 12
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 30585611,
+   "lat": 51.0841065,
+   "lon": 10.51085,
+   "kategorie": "viewpoint",
+   "name": "Baumkronenpfad"
+  },
+  {
+   "osmId": 963476906,
+   "lat": 51.0841767,
+   "lon": 10.5107112,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 7285172239,
+   "lat": 51.0826174,
+   "lon": 10.5085325,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11821993030,
+   "lat": 51.0824189,
+   "lon": 10.5101422,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4779915,
+   "lat": 51.081081,
+   "lon": 10.51723,
+   "kategorie": "parking",
+   "name": "Nationalparkzentrum Thiemsburg"
+  },
+  {
+   "osmId": 133495758,
+   "lat": 51.082288,
+   "lon": 10.514562,
+   "kategorie": "gastro",
+   "name": "Forsthaus Thiemsburg"
+  },
+  {
+   "osmId": 310437572,
+   "lat": 51.081946,
+   "lon": 10.515405,
+   "kategorie": "playground",
+   "name": "Reich des Fagati"
+  },
+  {
+   "osmId": 6745855112,
+   "lat": 51.0825763,
+   "lon": 10.5138167,
+   "kategorie": "wc",
+   "name": "WC Nationalparkzentrum"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 13 €, ermäßigt 11 €, Kinder 7–17 Jahre 6 €, unter 7 frei, Familie (2 Erwachsene + Kinder unter 18) 34 €. Stand 2026, baumkronen-pfad.de/besuch-planen/preise. Fagati ohne Ticket.",
+ "oeffnungszeiten": "April–Oktober täglich 10–19 Uhr. März täglich 10–18. November täglich 10–16 (Wetter). Januar, Februar, Dezember: Do–So sowie Feier- und Ferientage Thüringen 10–16, Mo–Mi zu. 24.12., 31.12., 1.1. zu. Letzter Einlass 1 Stunde vorher, im Oktober 1,5 Stunden. Bei Sturm, Gewitter, Eis kurzfristig zu.",
+ "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Steg, Boxen am Fuß. Assistenzhunde ausgenommen. Turm nur Treppe. Lift auf den Steg für Kinderwagen und Rollstuhl. Bei Gewitter und Sturm Evakuierung. Fotos nur privat.",
+ "hoertext": "Über dir hängt der Buchenurwald, unter den Brettern knarzt der Steg. Der Lift nimmt den Kinderwagen mit, den Turm nur die Treppe. Vier Tiere erzählen auf der ersten Schleife, die zweite erklärt den Wald selbst. Hunde bleiben in der Box unten. Zwei Stunden reichen, wenn ihr Fagati noch mitnehmt.",
+ "bilderAsset": "assets/images/trails/baumkronenpfad-hainich/credits.json"
+}
