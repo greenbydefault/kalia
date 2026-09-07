@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-see.jpg",
+    "caption": "Schwielochsee bei Goyatz – der Pfad startet am Bahnhof.",
+    "credit": "Amargeddon6",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoyatz_see.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bahnhof.jpg",
+    "caption": "Spreewaldbahnhof Goyatz – Einstieg in den Natter-Pfad.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoyatz_Bahnhof_01.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-wegweiser.jpg",
+    "caption": "Wegweiser in Goyatz.",
+    "credit": "J.-H. Janßen",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoyatz_Wegweiser_01.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-bahnhof-2.jpg",
+    "caption": "Bahnhofsgebäude Goyatz.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoyatz_Bahnhof_05.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-sumpfdotter.jpg",
+    "caption": "Sumpfdotterblume auf den Feuchtwiesen am Natter-Pfad.",
+    "credit": "User:Stemonitis",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaltha_palustris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-heckenrose.jpg",
+    "caption": "Heckenrose an den Hecken am Grünland.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosa_canina.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-hasel.jpg",
+    "caption": "Haselnuss in den Hecken am Weg.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorylus_avellana.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-stieleiche.jpg",
+    "caption": "Stieleiche an den Feuchtwiesen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-kiefer.jpg",
+    "caption": "Kiefer an den trockeneren Kanten bei Goyatz.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  }
+]

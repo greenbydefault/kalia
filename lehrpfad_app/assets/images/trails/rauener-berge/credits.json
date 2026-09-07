@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-markgrafenstein.jpg",
+    "caption": "Kleiner Markgrafenstein – Findling aus der Eiszeit.",
+    "credit": "Jocki84",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKleiner_Markgrafenstein.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-schilder.jpg",
+    "caption": "Wanderschilder am Großen Markgrafenstein.",
+    "credit": "Jocki84",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWanderschilder_am_Gro%C3%9Fen_Markgrafenstein.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-grubensee.jpg",
+    "caption": "Grubensee in den Rauener Bergen – alte Grube, jetzt Wasser.",
+    "credit": "OpenStreetMap",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrubensee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-ameise.jpg",
+    "caption": "Rote Waldameise – Hügelnester am Wegrand.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche mit gebuchteten Blättern.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-kiefer.jpg",
+    "caption": "Waldkiefer – Nadeln zu zweit, rötliche obere Borke.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-robinie.jpg",
+    "caption": "Robinie: gefiederte Blätter, später blühend.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobinia_pseudoacacia.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-bergahorn.jpg",
+    "caption": "Bergahorn – fünflappig, gegenständig.",
+    "credit": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcer_pseudoplatanus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-rotbuche.jpg",
+    "caption": "Rotbuche: glatte Rinde, ovale Blätter.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "11-streuobst.jpg",
+    "caption": "Lichte Säume in den Rauener Bergen.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreuobstwiesen.jpg",
+    "kind": "ort"
+  }
+]

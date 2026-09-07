@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-seglerhafen.jpg",
+    "caption": "Seglerhafen Röbel – der Wasserspielplatz liegt direkt am Hafen.",
+    "credit": "Andy Mendyk",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASegelyachthafen_R%C3%B6bel_-_panoramio.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-hafen.jpg",
+    "caption": "Stadthafen Röbel an der Müritz.",
+    "credit": "Julian Nyča",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%B6bel_M%C3%BCritz_Hafen_4.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-mueritz.jpg",
+    "caption": "Blick über die Müritz von Röbel.",
+    "credit": "Radler59 ( talk )",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoebel_Blick_%C3%BCber_Mueritz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-mueritz-2.jpg",
+    "caption": "Weite Wasserfläche – die Müritz neben der Pumpe.",
+    "credit": "Radler59 ( talk )",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoebel_Blick_%C3%BCber_Mueritz-01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-kirche-hafen.jpg",
+    "caption": "Marienkirche vom Hafen aus.",
+    "credit": "Radler59 ( talk )",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoebel_Marienkirche_Ansicht_vom_Hafen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-stadthafen.jpg",
+    "caption": "Röbel mit Stadthafen.",
+    "credit": "Andy Mendyk",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%B6bel_mit_Stadthafen_-_panoramio.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-libelle.jpg",
+    "caption": "Libelle – Namensvetterin vieler Wasserspiel-Motive.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAeshna_cyanea.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-eisvogel.jpg",
+    "caption": "Eisvogel an der Müritz, wenn es ruhig ist.",
+    "credit": "Blaise Droz www.viensdanslajungle.ch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlcedo_atthis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-kiefer.jpg",
+    "caption": "Kiefer am Röbeler Hafen.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-stieleiche.jpg",
+    "caption": "Stieleiche in den Anlagen über der Müritz.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  }
+]

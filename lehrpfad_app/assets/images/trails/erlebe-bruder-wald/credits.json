@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-bruderwald.jpg",
+    "caption": "Bruderwald hinterm Bamberger Klinikum.",
+    "credit": "ermell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABruderwald-220116-1225371.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-wald-winter.jpg",
+    "caption": "Bruderwald im Winter – Buchen und Wege.",
+    "credit": "ermell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABruderwald-220116-1225374.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-baum.jpg",
+    "caption": "Einzelbaum im Bruderwald.",
+    "credit": "Reinhold Möller Ermell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABruderwald_Baum-20240510-RM-154657.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-pilz.jpg",
+    "caption": "Gelber Knollenblätterpilz im Bruderwald – nicht anfassen.",
+    "credit": "Reinhold Möller Ermell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGelber_Knollenbl%C3%A4tterpilz_%28Amanita_citrina%29_Bruderwald-20251112-RM-164024.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-rotbuche.jpg",
+    "caption": "Rotbuche – Hauptbaumart des Bruderwalds.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-stieleiche.jpg",
+    "caption": "Stieleiche unter den Baumarten-Tafeln.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-kiefer.jpg",
+    "caption": "Kiefer in den lichteren Teilen.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-zitterling.jpg",
+    "caption": "Goldgelber Zitterling auf Totholz.",
+    "credit": "Ermell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoldgelber_Zitterling-Tremella_mesenterica_stack32_-20191227-RM-152807.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-bergahorn.jpg",
+    "caption": "Bergahorn neben Buche und Eiche.",
+    "credit": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcer_pseudoplatanus.jpg",
+    "kind": "art"
+  }
+]

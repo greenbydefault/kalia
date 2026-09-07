@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-buchenwald.jpg",
+    "caption": "Buchenwald Serrahn – UNESCO-Weltnaturerbe.",
+    "credit": "C. Löser",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarpin-Serrahn_Buchenwald_Juli-2017_DSC_0642.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kiefernforst.jpg",
+    "caption": "Kiefernforst im Müritz-Nationalpark, bevor der Urwald kommt.",
+    "credit": "B2Wildlife",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiefernforst_M%C3%BCritz_NP.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-moor.jpg",
+    "caption": "Moor im Serrahner Wald – nass, sauer, voller Sphagnum.",
+    "credit": "Joachim50",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoorgebiet_im_Serrahner-Wald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-totholz.jpg",
+    "caption": "Totholz bei Serrahn – der Wald räumt nicht auf.",
+    "credit": "Harke",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATotholz_in_M%C3%BCritz_NP_bei_Serrahn.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-turm.jpg",
+    "caption": "Aussichtsturm am Serrahnsee.",
+    "credit": "Rudolphu",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAussichtsturm_am_Serrahnsee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-zunderschwamm.jpg",
+    "caption": "Zunderschwamm auf Totholz im Nationalpark.",
+    "credit": "Harke",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZunderschwamm_im_M%C3%BCritz_NP_%281%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-serrahn-dorf.jpg",
+    "caption": "Serrahn – Dorfstelle am Rand des Reservats.",
+    "credit": "Mike Krüger",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASerrahn_%28Carpin%29_Mike_Kr%C3%BCger_210821_1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-rotbuche.jpg",
+    "caption": "Rotbuche – die Dominante im Serrahner Urwald.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-kiefer.jpg",
+    "caption": "Gemeine Kiefer, der Brotbaum der Forste vor Serrahn.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-torfmoos.jpg",
+    "caption": "Torfmoos im Serrahner Moor.",
+    "credit": "Anton Papić",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASphagnum_moss.jpg",
+    "kind": "art"
+  }
+]

@@ -1,5 +1,5 @@
 name: lehrpfad_app
-description: "Digitale Begleit-App für Naturlehrpfade."
+description: "Kalia – Lehrpfade mit Kindern."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -83,6 +83,31 @@ flutter:
     - assets/images/trails/erlebnisrundweg-friedrichskoog/
     - assets/images/trails/kaeflingsberg-speck/
     - assets/images/trails/entdeckerpfad-biologische-vielfalt/
+    - assets/images/trails/von-moor-zu-moor/
+    - assets/images/trails/raddusch/
+    - assets/images/trails/rauener-berge/
+    - assets/images/trails/lehde/
+    - assets/images/trails/ravensberge/
+    - assets/images/trails/wupatz/
+    - assets/images/trails/stendenitz/
+    - assets/images/trails/wahrberge/
+    - assets/images/trails/libellen-wasserspielplatz-wittstock/
+    - assets/images/trails/wolfspfad-zwenzow/
+    - assets/images/trails/spurenweg-kratzeburg/
+    - assets/images/trails/wald-erlebnispfad-serrahn/
+    - assets/images/trails/hullerbusch/
+    - assets/images/trails/heilige-hallen/
+    - assets/images/trails/fledermauspfad-bossow/
+    - assets/images/trails/lehrpfad-sandhof/
+    - assets/images/trails/wasserspielplatz-roebel/
+    - assets/images/trails/harzungspfad/
+    - assets/images/trails/kinderwald-maerkisch-buchholz/
+    - assets/images/trails/kinderbauernhof-pinke-panke/
+    - assets/images/trails/arboretum-dreetz/
+    - assets/images/trails/natter-pfad-goyatz/
+    - assets/images/trails/erlebe-bruder-wald/
+    - assets/images/trails/fossilruten-moens-klint/
+    - assets/images/trails/stubbenkammer-koenigsstuhl/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

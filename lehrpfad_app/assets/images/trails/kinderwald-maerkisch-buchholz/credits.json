@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-dahme.jpg",
+    "caption": "Dahme-Radweg am Ortsrand von Märkisch Buchholz.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADahme-Radweg_am_n%C3%B6rdlichen_Ortsausgang_von_M%C3%A4rkisch_Buchholz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-waldweisen.jpg",
+    "caption": "Wald bei Märkisch Buchholz – Lesefährten und Forst.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A4rkisch_Buchholz_Lesef%C3%A4hrten_Waldweisen_Clemens_Brentano_2.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-dorfkirche.jpg",
+    "caption": "Dorfkirche Märkisch Buchholz, nah am Kinderwald.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADorfkirche_M%C3%A4rkisch_Buchholz_S%C3%BCdansicht.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-rotbuche.jpg",
+    "caption": "Rotbuche im Wald um den Kinderwald.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-wildbiene.jpg",
+    "caption": "Wildbiene – Nachbarin der Honigbienen im Kasten.",
+    "credit": "Arnstein Staverløkk/Norsk institutt for naturforskning",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOsmia_bicornis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-ameise.jpg",
+    "caption": "Rote Waldameise – Hügel am Waldrand des Spielplatzes.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-stieleiche.jpg",
+    "caption": "Stieleiche – Kletterstämme stammen von solchen Bäumen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-kiefer.jpg",
+    "caption": "Kiefer im Naturpark Dahme-Heideseen.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-hummel.jpg",
+    "caption": "Hummel an den Säumen des Gehöfts.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  }
+]

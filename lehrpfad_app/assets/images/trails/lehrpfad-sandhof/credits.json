@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-paschensee.jpg",
+    "caption": "Paschensee – Klarwassersee am Lehrpfad Sandhof.",
+    "credit": "Saturn61",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANSG_Paschensee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-forstamt.jpg",
+    "caption": "Forstamt Sandhof – Start am Festplatz.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASandhof_Forstamt_2011-03-03_127.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-teerofen.jpg",
+    "caption": "Wooster Teerofen – Station am Lehrpfad.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWooster_Teerofen_Ortsansicht_2011-03-29_159.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-mildenitz.jpg",
+    "caption": "Mildenitz bei Sandhof.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASandhof_Mildenitz_2011-03-29_162.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-kiefer.jpg",
+    "caption": "Kieferheidewälder zwischen den Seen.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche an den Seeufern.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-kranich.jpg",
+    "caption": "Kranich in der Nossentiner/Schwinzer Heide.",
+    "credit": "Tero Laakso",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrus_grus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-libelle.jpg",
+    "caption": "Libelle über dem Paschensee.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAeshna_cyanea.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-rotbuche.jpg",
+    "caption": "Buchen an den feuchteren Ufern.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  }
+]

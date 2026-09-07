@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-stechlin.jpg",
+    "caption": "Großer Stechlinsee – klar und tief, direkt neben den Mooren.",
+    "credit": "Karsten Majok",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALakestechlin.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-roofensee.jpg",
+    "caption": "Roofensee bei Menz – am Bruch beginnt das Moor.",
+    "credit": "Fietje",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoofensee-01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-biberburg.jpg",
+    "caption": "Biberburg am Roofensee – hier arbeitet Castor fiber.",
+    "credit": "MT09CHR",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiberburg_am_Roofensee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-biberspuren.jpg",
+    "caption": "Biberspuren am Ufer: frischer Verbiss, nasser Pfad.",
+    "credit": "MT09CHR",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiberspuren_am_Roofensee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-naturparkhaus.jpg",
+    "caption": "NaturParkHaus Stechlin in Menz – Startpunkt am Dorf.",
+    "credit": "Tastenlöwe",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturParkHaus_Stechlin_in_Menz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-torfmoos.jpg",
+    "caption": "Torfmoos speichert Wasser wie ein Schwamm.",
+    "credit": "Anton Papić",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASphagnum_moss.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-wollgras.jpg",
+    "caption": "Wollgras – die weißen Büschel zeigen nasse Moore.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEriophorum_angustifolium.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-biber.jpg",
+    "caption": "Eurasischer Biber: Nager, der Ufer und Wasserstände formt.",
+    "credit": "Tocekas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastor_fiber.jpg",
+    "kind": "art"
+  }
+]

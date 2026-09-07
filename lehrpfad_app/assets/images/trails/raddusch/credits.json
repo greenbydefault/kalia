@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-naturhafen.jpg",
+    "caption": "Naturhafen Raddusch – Kahn und Fließ am Moorrand.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturhafen_Raddusch_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kahn.jpg",
+    "caption": "Spreewaldkahn im Naturhafen Raddusch.",
+    "credit": "J.-H. Janßen",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturhafen_Raddusch_Spreewaldkahn_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-herbst.jpg",
+    "caption": "Herbstfarben in Raddusch zwischen Erlen und Fließen.",
+    "credit": "Peter Becker",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHerbst_in_Raddusch.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-hafen.jpg",
+    "caption": "Hafen Raddusch im Sommerlicht.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARaddusch_Hafen_lub_2024-07-06.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-stoerche.jpg",
+    "caption": "Weißstörche in Raddusch – Feuchtwiesenfresser.",
+    "credit": "Derbrauni",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%C3%B6rche_in_Raddusch_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-libelle.jpg",
+    "caption": "Libelle am Naturhafen – Moortümpel voller Jäger.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturhafen_Raddusch_Libelle_01.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-rotbauchunke.jpg",
+    "caption": "Rotbauchunke: Warnbauch nach oben, wenn es eng wird.",
+    "credit": "Aleksandar Đukić",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombina_bombina.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-feuerfalter.jpg",
+    "caption": "Großer Feuerfalter – Ampfer an nassen Gräben.",
+    "credit": "Gilles San Martin",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALycaena_dispar.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-kranich.jpg",
+    "caption": "Kranich – rasten und brüten in den Spreewaldmooren.",
+    "credit": "Tero Laakso",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrus_grus.jpg",
+    "kind": "art"
+  }
+]

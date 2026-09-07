@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-panke.jpg",
+    "caption": "Panke am Bürgerpark Pankow – der Hof liegt an diesem Fluss.",
+    "credit": "Boonekamp",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanke-Buergerpark.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-matsch.jpg",
+    "caption": "Matschen im Bürgerpark, ein paar Minuten vom Hof.",
+    "credit": "Günter Haase",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMatschtische_B%C3%BCrgerpark_Pankow_%282%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-ziege.jpg",
+    "caption": "Ziege – streicheln nur mit Betreuer.",
+    "credit": "V.SARANYAN",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACapra_aegagrus_hircus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-schaf.jpg",
+    "caption": "Schaf auf dem Kinderbauernhof.",
+    "credit": "Waran R Samay",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADomestic_sheep.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-huhn.jpg",
+    "caption": "Haushuhn – Eier, Scharren, Futter um 16 Uhr.",
+    "credit": "Susulyka",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGallus_gallus_domesticus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-kaninchen.jpg",
+    "caption": "Hauskaninchen im Stall.",
+    "credit": "Thermos",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOryctolagus_cuniculus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-hof.jpg",
+    "caption": "Typischer Kinderbauernhof: Tiere, Zaun, Kinder.",
+    "credit": "Rolfcosar",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKinderbauernhof.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-hummel.jpg",
+    "caption": "Hummel in den Hofbeeten.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-panke-hoch.jpg",
+    "caption": "Die Panke kann Hochwasser – der Hof liegt am Fluss.",
+    "credit": "selbst",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABerlin_Gesundbrunnen-Panke_hochwasser_20-06-09.jpg",
+    "kind": "ort"
+  }
+]

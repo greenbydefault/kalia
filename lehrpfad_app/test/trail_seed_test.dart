@@ -181,15 +181,19 @@ void main() {
     expect(bilder.length, inInclusiveRange(10, 15));
   });
 
-  test('Trail ohne Hero-Fotos bekommt zentralen Platzhalter', () async {
-    final trails = await SeedTrailRepository().getTrails();
-    final stub = trails.firstWhere((t) => t.id == 'stubbenkammer-koenigsstuhl');
-    expect(stub.bilder, isEmpty);
-    expect(stub.hasHeroBilder, isFalse);
-    final pages = TrailHero.pagesFor(stub);
+  test('Trail ohne Hero-Fotos bekommt zentralen Platzhalter', () {
+    final raw = jsonDecode(
+      File('assets/seed/stubbenkammer-koenigsstuhl.json').readAsStringSync(),
+    ) as Map<String, dynamic>;
+    raw.remove('bilder');
+    raw.remove('bilderAsset');
+    final trail = Trail.fromJson(raw);
+    expect(trail.bilder, isEmpty);
+    expect(trail.hasHeroBilder, isFalse);
+    final pages = TrailHero.pagesFor(trail);
     expect(pages, hasLength(1));
     expect(pages.single.isPlaceholder, isTrue);
-    expect(pages.single.assetPath(stub.id), TrailHero.placeholderAsset);
+    expect(pages.single.assetPath(trail.id), TrailHero.placeholderAsset);
     expect(pages.single.hasCreditBadge, isFalse);
     for (final v in TrailImageVariant.values) {
       expect(
@@ -198,11 +202,27 @@ void main() {
         reason: 'placeholder ${v.fileName}',
       );
     }
+  });
 
-    final wolf = trails.firstWhere((t) => t.id == 'wolfspfad-zwenzow');
-    expect(wolf.bilder, isEmpty);
-    expect(TrailHero.pagesFor(wolf), hasLength(1));
-    expect(TrailHero.pagesFor(wolf).single.isPlaceholder, isTrue);
+  test('Jeder Seed-Trail mit credits.json hat AVIF-Hero-Varianten', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    var withCredits = 0;
+    for (final trail in trails) {
+      final credits = File('assets/images/trails/${trail.id}/credits.json');
+      if (!credits.existsSync()) continue;
+      withCredits++;
+      expect(trail.bilder.length, inInclusiveRange(8, 15), reason: trail.id);
+      expect(trail.hasHeroBilder, isTrue, reason: trail.id);
+      expect(TrailHero.pagesFor(trail), trail.bilder, reason: trail.id);
+      for (final bild in trail.bilder) {
+        expect(bild.file, isNotEmpty, reason: trail.id);
+        expect(bild.credit, isNotEmpty, reason: trail.id);
+        expect(bild.license, isNotEmpty, reason: trail.id);
+        expect(bild.sourceUrl, contains('commons.wikimedia.org'), reason: trail.id);
+        expectVariantFiles(trail.id, bild);
+      }
+    }
+    expect(withCredits, greaterThanOrEqualTo(25));
   });
 
   test('Flächen-Seed Wittstock: form flaeche, area, kein Rundkurs', () {

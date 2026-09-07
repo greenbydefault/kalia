@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-freilandmuseum.jpg",
+    "caption": "Freilandmuseum Lehde – Blockhäuser zwischen den Fließen.",
+    "credit": "Derbrauni",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFreilandmuseum_Lehde.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-buergerfliess.jpg",
+    "caption": "Bürgerfließ – Kahnwege statt Straßen.",
+    "credit": "Jan-Herm Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASpreewald_Wehrkanal_Buergerfliess_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-wehrkanal.jpg",
+    "caption": "Wehrkanal im Spreewald, stilles Wasser unter Erlen.",
+    "credit": "Jan-Herm Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASpreewald_Wehrkanal_13.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-wegweiser.jpg",
+    "caption": "Wegweiser am Wehrkanal Richtung Lehde.",
+    "credit": "Jan-Herm Janßen",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASpreewald_Wegweiser_Wehrkanal_Buergerfliess_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-eisvogel.jpg",
+    "caption": "Eisvogel – türkis, orange, wartet über dem Fließ.",
+    "credit": "Blaise Droz www.viensdanslajungle.ch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlcedo_atthis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-biber.jpg",
+    "caption": "Biber formt die Spreewaldfließe mit.",
+    "credit": "Tocekas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastor_fiber.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-kranich.jpg",
+    "caption": "Kranich über den Feuchtwiesen um Lehde.",
+    "credit": "Tero Laakso",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrus_grus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-sumpfdotter.jpg",
+    "caption": "Sumpfdotterblume – gelb, nass, zeitig im Frühjahr.",
+    "credit": "User:Stemonitis",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaltha_palustris.jpg",
+    "kind": "art"
+  }
+]

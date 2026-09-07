@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-lager.jpg",
+    "caption": "Ehemaliges VP-Zentrallager Bossow – der Pfad liegt auf Militärgelände.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_ehemaliges_Zentrallager_Volkspolizei_2011-03-03_135.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bunker.jpg",
+    "caption": "Lagergebäude in Bossow – Fledermäuse nutzen solche Quartiere.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_ehemaliges_Zentrallager_Volkspolizei_2011-03-03_138.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-forsthaus.jpg",
+    "caption": "Forsthaus Bossow am Rand des Geländes.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_Forsthaus_2011-03-03_154.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-bahn.jpg",
+    "caption": "Alte Bahnstrecke bei Bossow.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_Bahnstrecke_G%C3%BCstrow-Meyenburg_2011-03-03_144.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-holzwaerter.jpg",
+    "caption": "Holzwärterhaus von 1913 in Bossow.",
+    "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_Holzw%C3%A4rterhaus_Inschrift_1913_2011-03-03_151.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-fledermaus.jpg",
+    "caption": "Zwergfledermaus – klein, häufig, jagt im Dunkeln.",
+    "credit": "Amirekul",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APipistrellus_pipistrellus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-mausohr.jpg",
+    "caption": "Großes Mausohr – Quartierfledermaus in Gebäuden.",
+    "credit": "Gilles San Martin from Namur, Belgium",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMyotis_myotis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-kiefer.jpg",
+    "caption": "Kiefernheide der Nossentiner/Schwinzer Heide.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-hummel.jpg",
+    "caption": "Hummel auf den offenen Heideflächen.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-loecknitztal.jpg",
+    "caption": "Löcknitztal bei Erkner – Wiesen, Erlen, stilles Wasser.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturschutzgebiet_L%C3%B6cknitztal_04.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-leistikowweg.jpg",
+    "caption": "Weg durchs NSG Löcknitztal.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturschutzgebiet_L%C3%B6cknitztal_Leistikowweg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-ameise.jpg",
+    "caption": "Rote Waldameise – Wupatz zeigt die Hügelnester.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-kiefer.jpg",
+    "caption": "Kiefer im Waldreich um den Wupatzsee.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche an den Wiesen der Löcknitz.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-eisvogel.jpg",
+    "caption": "Eisvogel an der Löcknitz – Sitzwarte über dem Fluss.",
+    "credit": "Blaise Droz www.viensdanslajungle.ch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlcedo_atthis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-distelfalter.jpg",
+    "caption": "Distelfalter – Wanderer, der Wiesen mitnimmt.",
+    "credit": "No machine-readable author provided. Tbc assumed (based on copyright claims).",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVanessa_cardui.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-fuchs.jpg",
+    "caption": "Kleiner Fuchs – orange, an Brennnesseln.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAglais_urticae.jpg",
+    "kind": "art"
+  }
+]

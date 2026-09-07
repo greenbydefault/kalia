@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-feuerregen.jpg",
+    "caption": "Feuerregenfelsen im Nationalpark Jasmund.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANationalpark_Jasmund_Feuerregenfelsen_03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-hoehenweg.jpg",
+    "caption": "Höhenweg an der Stubbenkammer.",
+    "credit": "Palomala",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoehenweg_Stubbenkammer.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kreide.jpg",
+    "caption": "Kreidefelsen im Nationalpark Jasmund.",
+    "credit": "Ansgar Koreng",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKreidefelsen%2C_Nationalpark_Jasmund%2C_Insel_R%C3%BCgen%2C_1804060952%2C_ako.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-skywalk.jpg",
+    "caption": "Skywalk am Königsstuhl.",
+    "credit": "Asio otus",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASassnitz-SkywalkK%C3%B6nigsstuhl-1-Asio.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-stubbenkammer.jpg",
+    "caption": "Stubbenkammer, Blick aufs Kliff.",
+    "credit": "Leonhard Lenz",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStubbenkammer_in_NLP_Jasmund_2023-05-22_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-jasmund.jpg",
+    "caption": "Buchenwald im Nationalpark Jasmund.",
+    "credit": "Daniel Mietchen",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANationalpark_Jasmund_im_September_2025_%2875733%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-koenigsstuhl.jpg",
+    "caption": "Königsstuhl von der Seeseite.",
+    "credit": "Dinkum",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AK%C3%B6nigsstuhl_R%C3%BCgen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-herthasee.jpg",
+    "caption": "Herthasee – Rückweg über den Waldsee.",
+    "credit": "Kmtextor",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHerthasee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-rotbuche.jpg",
+    "caption": "Rotbuche, die Herthabuche ist eine von ihnen.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-wanderfalke.jpg",
+    "caption": "Wanderfalke an der Kreidekante.",
+    "credit": "Keller Jo",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFalco_peregrinus.jpg",
+    "kind": "art"
+  }
+]

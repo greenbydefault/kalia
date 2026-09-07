@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-stieleiche.jpg",
+    "caption": "Stieleiche – das Arboretum hat ein ganzes Eichenquartier.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "02-rotbuche.jpg",
+    "caption": "Rotbuche unter den über 100 Gehölzen.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-bergahorn.jpg",
+    "caption": "Bergahorn im Waldgarten.",
+    "credit": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcer_pseudoplatanus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-robinie.jpg",
+    "caption": "Robinie im Gehölzsortiment.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobinia_pseudoacacia.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-kiefer.jpg",
+    "caption": "Waldkiefer neben den fremden Arten.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-hasel.jpg",
+    "caption": "Hasel an den Säumen der Obstwiesen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorylus_avellana.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-streuobst.jpg",
+    "caption": "Obstbaumwiesen Süd und West am Arboretum.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreuobstwiesen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "10-heckenrose.jpg",
+    "caption": "Heckenrose an den Rändern des Waldgartens.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosa_canina.jpg",
+    "kind": "art"
+  }
+]

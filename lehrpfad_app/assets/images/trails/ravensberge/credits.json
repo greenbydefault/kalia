@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-moosfenn.jpg",
+    "caption": "Moosfenn in den Ravensbergen – kleines Moor im Wald.",
+    "credit": "G.G.-Pdm",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoosfenn_in_den_Ravensbergen_-_panoramio.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-heuweg.jpg",
+    "caption": "Waldweg am Rand der Ravensberge.",
+    "credit": "Biberbaer",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaputher_Heuweg_Pdm_%283%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-ameise.jpg",
+    "caption": "Rote Waldameise – klassische Tafelart im Erholungswald.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-wildbiene.jpg",
+    "caption": "Rostrote Mauerbiene – Wildbiene an Totholz und Nisthilfen.",
+    "credit": "Arnstein Staverløkk/Norsk institutt for naturforskning",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOsmia_bicornis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-hummel.jpg",
+    "caption": "Dunkle Erdhummel – pelzig, brummend, an Waldrändern.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-kiefer.jpg",
+    "caption": "Kiefer bestimmt den Erholungswald Ravensberge.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-stieleiche.jpg",
+    "caption": "Stieleiche – Altbäume als Lebensraum.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-rotbuche.jpg",
+    "caption": "Rotbuche im Unterstand der Kiefernforste.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-streuobst.jpg",
+    "caption": "Lichte Säume und Streuobst – Insekten brauchen offene Flächen.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreuobstwiesen.jpg",
+    "kind": "ort"
+  }
+]

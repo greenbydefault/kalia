@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-kiefer.jpg",
+    "caption": "Kiefer – Leitbaum im Waldlehrpark Wahrberge.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "02-stieleiche.jpg",
+    "caption": "Stieleiche im Arboretum mit über 200 Gehölzen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "03-bergahorn.jpg",
+    "caption": "Bergahorn – eine der Lehrtafel-Arten.",
+    "credit": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcer_pseudoplatanus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-rotbuche.jpg",
+    "caption": "Rotbuche im Prignitz-Wald.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-ameise.jpg",
+    "caption": "Rote Waldameise – Hügel zum Beobachten, nicht zum Treten.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-hummel.jpg",
+    "caption": "Hummel an den Säumen des Lehrparks.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-wildbiene.jpg",
+    "caption": "Wildbiene – Totholz und offener Boden.",
+    "credit": "Arnstein Staverløkk/Norsk institutt for naturforskning",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOsmia_bicornis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-robinie.jpg",
+    "caption": "Robinie im Arboretum – nicht heimisch, trotzdem belehrend.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobinia_pseudoacacia.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-streuobst.jpg",
+    "caption": "Lichte Wiesenflächen gehören zum Lehrpark dazu.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreuobstwiesen.jpg",
+    "kind": "ort"
+  }
+]

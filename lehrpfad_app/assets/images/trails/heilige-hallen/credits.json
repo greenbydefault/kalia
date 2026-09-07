@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-eingang.jpg",
+    "caption": "Weg ins Totalreservat Heilige Hallen.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0089-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-buchen.jpg",
+    "caption": "Alte Buchen – Hallenwald, wenig Unterwuchs.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0091-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-totholz.jpg",
+    "caption": "Totholz und Jungbuchen nebeneinander.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0093-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-stamm.jpg",
+    "caption": "Mächtiger Stamm im Reservat.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0099-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-lichtung.jpg",
+    "caption": "Lichtung im Buchenwald bei Lüttenhagen.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0100-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-pfad.jpg",
+    "caption": "Pfad durch die Heiligen Hallen.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_112302-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-tafel.jpg",
+    "caption": "Lehrtafel am Weg.",
+    "credit": "Molgreen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200820_xl_0097-Wanderung-zum-Naturschutzgebiet-Heilige-Hallen-Feldberger-Seenlandschaft.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-rotbuche.jpg",
+    "caption": "Rotbuche – die Hallen bestehen aus ihr.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-kiefer.jpg",
+    "caption": "Kiefer am Rand des Buchenreservats.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-ameise.jpg",
+    "caption": "Rote Waldameise in den Randforsten.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  }
+]

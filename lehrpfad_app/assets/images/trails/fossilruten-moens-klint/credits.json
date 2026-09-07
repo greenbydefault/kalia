@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-klint.jpg",
+    "caption": "Møns Klint – weißes Kreidekliff über der Ostsee.",
+    "credit": "Maria Eklind",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_klint%2C_DK%2C_2024_11.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-klint-2.jpg",
+    "caption": "Kreidefelsen und Buchenwald an der Kante.",
+    "credit": "Maria Eklind",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_klint%2C_DK%2C_2024_19.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-stufen.jpg",
+    "caption": "Maglevandstrappen – 497 Stufen hinunter zum Fossilstrand.",
+    "credit": "Giorgio Galeotti",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStairs_-_M%C3%B8ns_Klint%2C_Store_Klinteskov%2C_Borre%2C_Denmark_-_August_13%2C_2021.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-geocenter.jpg",
+    "caption": "GeoCenter Møns Klint am Start der Rute.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_Klint_lub_2025-07-12_img01_GeoCenter.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-trappe.jpg",
+    "caption": "Maglevandstrappen von oben.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_Klint_lub_2025-07-12_img02_Maglevandstrappen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-strand.jpg",
+    "caption": "Strand unter dem Kliff – hier liegen die Fossilien.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_Klint_lub_2025-07-12_img06.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-bucheninsel.jpg",
+    "caption": "Buchen über dem Kliff.",
+    "credit": "Matt Urban",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeech_Island_Mon.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-rotbuche.jpg",
+    "caption": "Rotbuche – der Wald, der die Kreide hält.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-knabenkraut.jpg",
+    "caption": "Knabenkraut auf den Klint-Rasen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADactylorhiza_majalis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-wanderfalke.jpg",
+    "caption": "Wanderfalke brütet an der Kreidekante.",
+    "credit": "Keller Jo",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFalco_peregrinus.jpg",
+    "kind": "art"
+  }
+]

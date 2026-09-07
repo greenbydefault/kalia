@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-feld-stolpe.jpg",
+    "caption": "Felder bei Stolpe – die Försterei liegt am Waldrand.",
+    "credit": "Leonhard Lenz",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AField_in_Stolpe_2021-08-26_12.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-gedenkstein.jpg",
+    "caption": "Gedenkstein in Stolpe bei Hohen Neuendorf.",
+    "credit": "Matthias Wiegandt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStolpe-Hohen_Neuendorf-Gedenkstein.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-harzen.jpg",
+    "caption": "Harzung an der Kiefer: Tropfrinne, Topf, Pech.",
+    "credit": "Müller",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-1985-0712-027%2C_Eberswalde%2C_%22Tag_des_Waldes%22%2C_Harzen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-kiefer.jpg",
+    "caption": "Waldkiefer – acht Stationen erklären, wie Harz gewonnen wird.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-feld-3.jpg",
+    "caption": "Waldsaum bei Stolpe, wo die Harzkiefern stehen.",
+    "credit": "Leonhard Lenz",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AField_in_Stolpe_2021-08-26_14.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche im Mischwald um Stolpe.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-rotbuche.jpg",
+    "caption": "Rotbuche neben den Harzkiefern.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-bergahorn.jpg",
+    "caption": "Bergahorn am Waldrand der Försterei.",
+    "credit": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcer_pseudoplatanus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-ameise.jpg",
+    "caption": "Rote Waldameise im Kiefernbestand.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-feld-2.jpg",
+    "caption": "Offene Landschaft um Stolpe, Wald direkt dahinter.",
+    "credit": "Leonhard Lenz",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AField_in_Stolpe_2021-08-26_13.jpg",
+    "kind": "ort"
+  }
+]

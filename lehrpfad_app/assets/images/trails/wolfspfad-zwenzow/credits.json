@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-weisser-see.jpg",
+    "caption": "Großer Weißer See bei Wesenberg – Wald und Wasser um Zwenzow.",
+    "credit": "Thilo Kühne",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9Fer_Wei%C3%9Fer_See.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-useriner-see.jpg",
+    "caption": "Useriner See – die Havel weitet sich zum See.",
+    "credit": "Botaurus stellaris",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHavel-Useriner-See-11-IV-2007-273.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-schilf.jpg",
+    "caption": "Schilf am Useriner See im Abendlicht.",
+    "credit": "MarcusFourmont",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchilfgras_am_Useriner_See_im_Abendlicht.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-libelle.jpg",
+    "caption": "Blutrote Heidelibelle am Weißen See.",
+    "credit": "Andreas Eichler",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013.07.08.1-Gro%C3%9Fer_Wei%C3%9Fer_See-Wesenberg-Blutrote_Heidelibelle-Maennchen-jung.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-wolf.jpg",
+    "caption": "Wolf – Thema des Pfads, in MV wieder präsent.",
+    "credit": "Bernard Landgraf",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanis_lupus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-kiefer.jpg",
+    "caption": "Kieferwald, durch den der Wolfspfad führt.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-stieleiche.jpg",
+    "caption": "Stieleiche am Waldrand bei Zwenzow.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-ameise.jpg",
+    "caption": "Rote Waldameise im Kiefernforst.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-kiefernforst.jpg",
+    "caption": "Kiefernforst im Müritz-Nationalpark.",
+    "credit": "B2Wildlife",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiefernforst_M%C3%BCritz_NP.JPG",
+    "kind": "ort"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-bahnwaerter.jpg",
+    "caption": "Bahnwärterhaus Kratzeburg – die Bahn hat Spuren hinterlassen.",
+    "credit": "Global Fish",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKratzeburgBahnw%C3%A4rterhaus.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-dorfstrasse.jpg",
+    "caption": "Straße zwischen Dalmsdorf und Kratzeburg.",
+    "credit": "Global Fish",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADalmsdorfStra%C3%9FeKratzeburg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-pfarrhaus.jpg",
+    "caption": "Pfarrhaus Kratzeburg – Siedlungsspuren im Dorf.",
+    "credit": "Global Fish",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKratzeburgPfarrhaus.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-stieleiche.jpg",
+    "caption": "Stieleiche – die Schirmeiche ist die große Schwester.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-kiefer.jpg",
+    "caption": "Kieferwald zwischen Kratzeburg und Dambeck.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-eisvogel.jpg",
+    "caption": "Eisvogel an den Seen um Kratzeburg.",
+    "credit": "Blaise Droz www.viensdanslajungle.ch",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlcedo_atthis.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-hummel.jpg",
+    "caption": "Hummel an den Wegrändern.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-rotbuche.jpg",
+    "caption": "Buchen am Uferweg.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-kranich.jpg",
+    "caption": "Kranich im Müritz-Nationalpark, hörbar vom Spurenweg.",
+    "credit": "Tero Laakso",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrus_grus.jpg",
+    "kind": "art"
+  }
+]

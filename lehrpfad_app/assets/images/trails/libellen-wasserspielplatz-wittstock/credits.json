@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-ebert-park.jpg",
+    "caption": "Friedrich-Ebert-Park in Wittstock – hier liegt der Wasserspielplatz.",
+    "credit": "Fridolin freudenfett",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWittstock_%28Dosse%29_Friedrich-Ebert-Park.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-glinzmauer.jpg",
+    "caption": "Glinzmauer an der Glinze – Wasser prägt den Park.",
+    "credit": "Fridolin freudenfett",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWittstock_%28Dosse%29_Glinzmauer.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-altstadt.jpg",
+    "caption": "Wittstock Altstadt, ein paar Minuten vom Park.",
+    "credit": "A.Savin",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWittstock_07-13_img07_Altstadt.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-libelle.jpg",
+    "caption": "Blaugrüne Mosaikjungfer – Namensgeberin der Riesenlibellen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAeshna_cyanea.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-libelle-raddusch.jpg",
+    "caption": "Libelle im Flug – genau das Motiv der Park-Installation.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturhafen_Raddusch_Libelle_01.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-biber.jpg",
+    "caption": "Biber an der Dosse – Nachbar des Parks.",
+    "credit": "Tocekas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastor_fiber.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-hummel.jpg",
+    "caption": "Hummel in den Parkbeeten.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-kiefer.jpg",
+    "caption": "Kiefer am Parkrand in Wittstock.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-rotbuche.jpg",
+    "caption": "Rotbuche im Friedrich-Ebert-Park.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  }
+]

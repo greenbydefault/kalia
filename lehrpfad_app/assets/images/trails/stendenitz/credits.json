@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-zermuetzelsee.jpg",
+    "caption": "Zermützelsee bei Stendenitz – Wasser neben dem Walderlebnispfad.",
+    "credit": "Brunhilde Schaefer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012-01-15_Zerm%C3%BCtzelsee_Stendenitz_003.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-see-sommer.jpg",
+    "caption": "Zermützelsee im September, Schilf und offenes Wasser.",
+    "credit": "Brunhilde Schaefer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015-09-12_Zerm%C3%BCtzelsee_Campingplatz_012.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-richtung-lindow.jpg",
+    "caption": "Blick über den Zermützelsee Richtung Lindow.",
+    "credit": "Brunhilde Schaefer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015-09-18_Zerm%C3%BCtzelsee_Richtung_Lindow_Campingplatz_368.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-kiefer.jpg",
+    "caption": "Kiefer – Hausbaum der Ruppiner Heidewälder.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-stieleiche.jpg",
+    "caption": "Stieleiche an der Rätselbuche-Station.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-rotbuche.jpg",
+    "caption": "Rotbuche – glatte Rinde zum Anfassen.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-biber.jpg",
+    "caption": "Biber an den Kellen – Nager mit Nagebild.",
+    "credit": "Tocekas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastor_fiber.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-kranich.jpg",
+    "caption": "Kranich in der Ruppiner Seenlandschaft.",
+    "credit": "Tero Laakso",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrus_grus.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-ameise.jpg",
+    "caption": "Rote Waldameise – Hügel am Wegrand.",
+    "credit": "Dezidor",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormica_rufa.jpg",
+    "kind": "art"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-luzin.jpg",
+    "caption": "Schmaler Luzin bei Carwitz – Seenlandschaft um den Hullerbusch.",
+    "credit": "Birkenhoch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASonnenuntergang_am_Schmalen_Luzin.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-carwitzer-see.jpg",
+    "caption": "Carwitzer See im Winter, unterhalb vom Hauptmannsberg.",
+    "credit": "Botaurus",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarwitzer-See-14-02-2009-58.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-dreetzsee.jpg",
+    "caption": "Dreetzsee bei Carwitz.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK_0907_3625_Dreetzsee_Carwitz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-pilz.jpg",
+    "caption": "Violetter Lacktrichterling – Station Im Reich der Pilze.",
+    "credit": "Birkenhoch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVioletter_Lacktrichterling.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "05-kiefer.jpg",
+    "caption": "Kiefer in der Feldberger Seenlandschaft.",
+    "credit": "Lakkahillo",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-stieleiche.jpg",
+    "caption": "Stieleiche am Hullerbusch.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-torfmoos.jpg",
+    "caption": "Torfmoos im Kesselmoor am Lehrpfad.",
+    "credit": "Anton Papić",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASphagnum_moss.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-wollgras.jpg",
+    "caption": "Wollgras im Kesselmoor.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEriophorum_angustifolium.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-rotbuche.jpg",
+    "caption": "Buchenwald am Hauptmannsberg.",
+    "credit": "Arnstein Rønning",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-fallada.jpg",
+    "caption": "Fallada-Haus in Carwitz – der Ort unter dem Berg.",
+    "credit": "Botaurus",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHans-Fallada-Haus-in-Carwitz-14-02-2009-62.jpg",
+    "kind": "ort"
+  }
+]
