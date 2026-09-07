@@ -17,10 +17,10 @@ Uint8List _png({required int width, required int height}) {
 }
 
 void main() {
-  test('Varianten-Kantenlängen: 640 / 1600 / 2400', () {
-    expect(kVariantMaxEdge[TrailImageVariant.thumb], 640);
-    expect(kVariantMaxEdge[TrailImageVariant.small], 1600);
-    expect(kVariantMaxEdge[TrailImageVariant.medium], 2400);
+  test('Varianten-Kantenlängen: 480 / 900 / 2000', () {
+    expect(kVariantMaxEdge[TrailImageVariant.thumb], 480);
+    expect(kVariantMaxEdge[TrailImageVariant.small], 900);
+    expect(kVariantMaxEdge[TrailImageVariant.medium], 2000);
   });
 
   test('resizeVariants skaliert langes Querformat auf die drei Kanten', () {
@@ -31,9 +31,9 @@ void main() {
     expect(out.pngBytes.keys, containsAll(TrailImageVariant.values));
 
     final expected = {
-      TrailImageVariant.thumb: 640,
-      TrailImageVariant.small: 1600,
-      TrailImageVariant.medium: 2400,
+      TrailImageVariant.thumb: 480,
+      TrailImageVariant.small: 900,
+      TrailImageVariant.medium: 2000,
     };
     for (final entry in expected.entries) {
       final decoded = img.decodeImage(out.pngBytes[entry.key]!);
@@ -51,16 +51,16 @@ void main() {
   test('resizeVariants skaliert Hochformat über die Höhe', () {
     final out = resizeVariants(_png(width: 1000, height: 4000));
     final decoded = img.decodeImage(out.pngBytes[TrailImageVariant.medium]!);
-    expect(decoded!.height, 2400);
-    expect(decoded.width, 600);
+    expect(decoded!.height, 2000);
+    expect(decoded.width, 500);
   });
 
   test('resizeVariants lässt kleine Quelle unverändert', () {
-    final out = resizeVariants(_png(width: 500, height: 320));
+    final out = resizeVariants(_png(width: 400, height: 256));
     for (final v in TrailImageVariant.values) {
       final decoded = img.decodeImage(out.pngBytes[v]!);
-      expect(decoded!.width, 500, reason: v.name);
-      expect(decoded.height, 320, reason: v.name);
+      expect(decoded!.width, 400, reason: v.name);
+      expect(decoded.height, 256, reason: v.name);
     }
   });
 

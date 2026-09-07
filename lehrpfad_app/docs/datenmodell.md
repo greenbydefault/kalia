@@ -42,11 +42,11 @@ Ordner: `assets/images/trails/{id}/{NN-slug}.{thumb,small,medium}.avif` + `credi
 
 **Varianten** (längste Kante, AVIF; Seitenverhältnis bleibt, UI cropt mit `BoxFit.cover`):
 
-| Variante | px | Slot |
-|---|---|---|
-| `thumb` | 640 | Karten-Peek, Station-Strip, Community-Carousel, Moderation |
-| `small` | 1600 | Trail-Header-Slider (`heroFraction`) |
-| `medium` | 2400 | Fullscreen + Zoom |
+| Variante | px | q | Slot |
+|---|---|---|---|
+| `thumb` | 480 | 35 | Karten-Peek, Station-Strip, Moderation |
+| `small` | 900 | 30 | Trail-Header-Slider (`heroFraction`), Community-Carousel |
+| `medium` | 2000 | 40 | Fullscreen + Zoom |
 
 Ingest: `dart run tool/ingest_images.dart <trail_id>` (oder `--all`). Nutzt dieselbe Resize-Logik wie der User-Upload (`lib/shared/images/image_variants.dart`), AVIF über `sips`. Liest `credits.json`, schreibt die drei `.avif`, löscht die JPEG/PNG-Quelle. `file` in credits.json bleibt der Slug (z. B. `01-deich-trischendamm.jpg`); die UI hängt `.{variant}.avif` an.
 

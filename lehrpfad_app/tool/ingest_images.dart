@@ -4,12 +4,12 @@ import 'dart:io';
 import 'package:lehrpfad_app/features/community/domain/trail_image.dart';
 import 'package:lehrpfad_app/shared/images/image_variants.dart';
 
-/// AVIF-Qualität pro Variante (sips formatOptions). Hero/Fullscreen brauchen
-/// Qualität, die kleine Karten-Vorschau darf aggressiver komprimiert sein.
+/// AVIF-Qualität pro Variante (sips formatOptions). Naturfotos (Bäume,
+/// Heide) brauchen den Spielraum nach unten, sonst sprengt small 60 KB.
 const _avifQuality = {
-  TrailImageVariant.thumb: 60,
-  TrailImageVariant.small: 75,
-  TrailImageVariant.medium: 78,
+  TrailImageVariant.thumb: 35,
+  TrailImageVariant.small: 30,
+  TrailImageVariant.medium: 40,
 };
 
 /// Seed-Hero-Ingest: JPEG/PNG-Quellen in `assets/images/trails/<id>/` über
@@ -77,49 +77,59 @@ Future<void> main(List<String> args) async {
         continue; // Schon ingestet (nur noch .avif) oder Slug ohne Endung.
       }
       final slug = file.replaceAll(RegExp(r'\.(jpe?g|png|webp)$'), '');
-
-      final ResizedVariants resized;
-      try {
-        resized = resizeVariants(await src.readAsBytes());
-      } on ImageVariantsException catch (e) {
-        stderr.writeln('FEHLER ${src.path}: $e');
-        continue;
-      }
-
-      var ok = true;
-      final stamp = DateTime.now().microsecondsSinceEpoch;
-      for (final entry in resized.pngBytes.entries) {
-        // Eigene Temp-Datei pro Variante: gleiche Quelle würde sonst
-        // von sips gecacht und small/medium kämen identisch raus.
-        final tmp = File(
-          '${Directory.systemTemp.path}/ingest_${stamp}_${slug}_${entry.key.fileName}.png',
-        );
-        final out = File('${dir.path}/$slug.${entry.key.fileName}.avif');
-        await tmp.writeAsBytes(entry.value, flush: true);
-        final res = await Process.run(
-          'sips',
-          [
-            '-s', 'format', 'avif',
-            '-s', 'formatOptions', '${_avifQuality[entry.key]}',
-            tmp.path, '--out', out.path,
-          ],
-        );
-        await tmp.delete().catchError((_) => tmp);
-        if (res.exitCode != 0 || !out.existsSync()) {
-          stderr.writeln('FEHLER sips ${entry.key.fileName} für $slug: ${res.stderr}');
-          ok = false;
-          break;
-        }
-      }
-      if (!ok) continue;
-
-      await src.delete();
-      encoded++;
-      stdout.writeln(
-        'OK  ${dir.path.split(Platform.pathSeparator).last}/$slug '
-        '(${resized.width}x${resized.height})',
-      );
+      if (await _ingestFile(src, dir, slug)) encoded++;
     }
   }
+
+  // Zentraler Hero-Platzhalter liegt direkt unter trails/, nicht in einem
+  // Trail-Ordner. --all nimmt ihn mit, einzelnes Trail-Ingest lässt ihn.
+  final placeholder = File('${trailsDir.path}/_placeholder.jpg');
+  if (args.contains('--all') && placeholder.existsSync()) {
+    if (await _ingestFile(placeholder, trailsDir, '_placeholder')) encoded++;
+  }
+
   stdout.writeln('fertig: $encoded Bilder encodiert');
+}
+
+/// Resized [src] in drei AVIFs unter [outDir]/[slug].{variant}.avif und
+/// löscht die Quelle. false bei Decode- oder sips-Fehler.
+Future<bool> _ingestFile(File src, Directory outDir, String slug) async {
+  final ResizedVariants resized;
+  try {
+    resized = resizeVariants(await src.readAsBytes());
+  } on ImageVariantsException catch (e) {
+    stderr.writeln('FEHLER ${src.path}: $e');
+    return false;
+  }
+
+  final stamp = DateTime.now().microsecondsSinceEpoch;
+  for (final entry in resized.pngBytes.entries) {
+    // Eigene Temp-Datei pro Variante: gleiche Quelle würde sonst
+    // von sips gecacht und small/medium kämen identisch raus.
+    final tmp = File(
+      '${Directory.systemTemp.path}/ingest_${stamp}_${slug}_${entry.key.fileName}.png',
+    );
+    final out = File('${outDir.path}/$slug.${entry.key.fileName}.avif');
+    await tmp.writeAsBytes(entry.value, flush: true);
+    final res = await Process.run(
+      'sips',
+      [
+        '-s', 'format', 'avif',
+        '-s', 'formatOptions', '${_avifQuality[entry.key]}',
+        tmp.path, '--out', out.path,
+      ],
+    );
+    await tmp.delete().catchError((_) => tmp);
+    if (res.exitCode != 0 || !out.existsSync()) {
+      stderr.writeln('FEHLER sips ${entry.key.fileName} für $slug: ${res.stderr}');
+      return false;
+    }
+  }
+
+  await src.delete();
+  stdout.writeln(
+    'OK  ${outDir.path.split(Platform.pathSeparator).last}/$slug '
+    '(${resized.width}x${resized.height})',
+  );
+  return true;
 }

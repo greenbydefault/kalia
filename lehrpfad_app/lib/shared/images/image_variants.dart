@@ -14,11 +14,12 @@ class ImageVariantsException implements Exception {
 }
 
 /// Längste Kante pro Variante in Pixeln. Kein Crop — das Seitenverhältnis
-/// bleibt, die UI schneidet mit BoxFit.cover. ~3x Device plus Luft.
+/// bleibt, die UI schneidet mit BoxFit.cover. Mobile-first: Peek/Strip,
+/// Header-Slider, Fullscreen.
 const kVariantMaxEdge = {
-  TrailImageVariant.thumb: 640,
-  TrailImageVariant.small: 1600,
-  TrailImageVariant.medium: 2400,
+  TrailImageVariant.thumb: 480,
+  TrailImageVariant.small: 900,
+  TrailImageVariant.medium: 2000,
 };
 
 /// Ergebnis des Resizings: PNG-Bytes der drei Varianten (Zwischenformat
