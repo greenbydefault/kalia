@@ -45,6 +45,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/braumannswiesen.json',
     'assets/seed/entdeckerpfad-biologische-vielfalt.json',
     'assets/seed/baumkronenpfad-hainich.json',
+    'assets/seed/archaeologischer-wanderpfad-fischbek.json',
+    'assets/seed/rittbrookpfad.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

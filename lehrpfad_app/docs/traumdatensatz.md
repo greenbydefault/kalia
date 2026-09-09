@@ -33,6 +33,8 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `natter-pfad-goyatz.json` | `natter-pfad-goyatz` | `walderlebnispfad` |
 | `erlebe-bruder-wald.json` | `erlebe-bruder-wald` | `walderlebnispfad` |
 | `baumkronenpfad-hainich.json` | `baumkronenpfad-hainich` | `erlebniswald` (`eintritt: true`) |
+| `archaeologischer-wanderpfad-fischbek.json` | `archaeologischer-wanderpfad-fischbek` | `wald` |
+| `rittbrookpfad.json` | `rittbrookpfad` | `walderlebnispfad` |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 

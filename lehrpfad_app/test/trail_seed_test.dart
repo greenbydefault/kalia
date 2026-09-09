@@ -54,7 +54,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(32));
+    expect(trails, hasLength(34));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -84,6 +84,8 @@ void main() {
         'braumannswiesen',
         'entdeckerpfad-biologische-vielfalt',
         'baumkronenpfad-hainich',
+        'archaeologischer-wanderpfad-fischbek',
+        'rittbrookpfad',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -533,6 +535,48 @@ void main() {
       expect(trail.region, contains('Thüringen'));
     },
   );
+
+  test('Rittbrookpfad: 7 Tafeln, Lübeck, Rundkurs', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'rittbrookpfad');
+    expect(trail.typ, 'walderlebnispfad');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.region, contains('Lübeck'));
+    expect(trail.stationen.length, 7);
+    expect(trail.arten, containsAll(['Rotbuche', 'Stieleiche', 'Buntspecht']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll(['Hotspot? Echt cool!', 'Eins ergibt das Andere']),
+    );
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 12));
+    for (final bild in trail.bilder) {
+      expectVariantFiles('rittbrookpfad', bild);
+    }
+  });
+
+  test('Fischbeker Heide: 11 Tafeln, Hamburg, Rundkurs', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'archaeologischer-wanderpfad-fischbek',
+    );
+    expect(trail.typ, 'wald');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.region, contains('Hamburg'));
+    expect(trail.stationen.length, 11);
+    expect(trail.arten, containsAll(['Besenheide', 'Kiefer', 'Heidelerche']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll(['Zeitraffer', 'Glaubensbekenntnis', 'Sinneswandel']),
+    );
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 12));
+    for (final bild in trail.bilder) {
+      expectVariantFiles('archaeologischer-wanderpfad-fischbek', bild);
+    }
+  });
 
   test('fromJson: Besuchsfelder defaulten, wenn Keys fehlen', () {
     final raw = File('assets/seed/trail.json').readAsStringSync();

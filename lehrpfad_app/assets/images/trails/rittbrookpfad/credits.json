@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-pfad.jpg",
+    "caption": "Waldweg im Lauerholz.",
+    "credit": "Ckhl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-05-09_01_LSA_Lauerholz_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bestand.jpg",
+    "caption": "Buchenbestand im Lauerholz.",
+    "credit": "Ckhl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-05-09_01_LSA_Lauerholz_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-lsg.jpg",
+    "caption": "Landschaftsschutzgebiet Lauerholz.",
+    "credit": "Ckhl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-05-09_05_LSG_Lauerholz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-fruehblueher.jpg",
+    "caption": "Frühblüher im Lauerholz.",
+    "credit": "MrsMyer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALauerholzFr%C3%BChbl%C3%BCher.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-medebek.jpg",
+    "caption": "Die Medebek im Lauerholz.",
+    "credit": "Kresspahl",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMedebek01.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-schild.jpg",
+    "caption": "Wegweiser im Lauerholz.",
+    "credit": "Der Bischof mit der E-Gitarre",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWP_Schild_im_Lauerholz_2023-05-18.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-bruecke.jpg",
+    "caption": "Fußgängerbrücke Israelsdorf am Lauerholz.",
+    "credit": "Der Bischof mit der E-Gitarre",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWP_Br%C3%BCcke_Israelsdorf_2023-05-18.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-stieleiche.jpg",
+    "caption": "Stieleiche am Waldsaum, Lauerholz.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStieleiche_Kleingarten_Am_Waldsaum1.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-rotbuche.jpg",
+    "caption": "Rotbuche am Burgtorfriedhof, Lübeck.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck_Rotbuche_Burgtorfriedhof_Naturdenkmal_C.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-eichhoernchen.jpg",
+    "caption": "Eichhörnchen im Schellbruch, Lübeck.",
+    "credit": "Canaturephoto",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImpressionen_aus_dem_Schellbruch_39.jpg",
+    "kind": "art"
+  }
+]

@@ -1,0 +1,604 @@
+{
+ "id": "rittbrookpfad",
+ "name": "Rittbrookpfad",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Fast vier Kilometer durchs Lauerholz zu sieben Tafeln mit Fuchs und Dackel. Frei, Kinderwagen, ab 6.",
+ "beschreibung": "Östlich der Altstadt, im Stadtwald Lauerholz, liegt der Rittbrookpfad. Seit 2017. Sieben Stationen, Fuchs und Dackel auf den Tafeln, dazu ein Spiel. Der Weg ist fest, Kinderwagen und Rollstuhl kommen durch. Immer frei, ohne Anmeldung. Comic und Hörspaziergang des Stadtwalds sind extra, nicht die App-Route. Der Naturwaldpfad startet an der Waldstraße in Israelsdorf und ist ein anderer Rundweg, ab 14. Hunde anleinen. Äste, Brombeeren, Zecken, gelegentlich Wildschwein. Haupteingang Am Rittbrook, Höhe Reitschule. Nebeneingänge Claudiusring, Ochsenkoppel, Volksfestplatz.",
+ "laengeKm": 3.8,
+ "dauerMin": 75,
+ "rundkurs": true,
+ "markierung": "Nummerierte Schautafeln / Waldweg",
+ "betreiber": "Stadtwald Lübeck",
+ "region": "Lauerholz, St. Gertrud, Lübeck",
+ "website": "https://www.lauerholz-stadtwald.de",
+ "anreise": "Haupteingang Am Rittbrook, Höhe Reitschule, 23566 Lübeck. Parken vor den Schienen und an der Reitschule. Bus 10 und 21, Haltestelle Am Rittbrook in der Arnimstraße. Nebeneingänge Claudiusring, Ochsenkoppel, Volksfestplatz. Naturwaldpfad nicht mitfahren: der startet an der Waldstraße in Israelsdorf.",
+ "startName": "Station 1 / Haupteingang Am Rittbrook",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Buntspecht"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.877504,
+   10.729169
+  ],
+  [
+   53.877573,
+   10.728419
+  ],
+  [
+   53.877643,
+   10.727668
+  ],
+  [
+   53.877673,
+   10.727448
+  ],
+  [
+   53.877721,
+   10.727422
+  ],
+  [
+   53.877764,
+   10.727345
+  ],
+  [
+   53.877784,
+   10.727251
+  ],
+  [
+   53.877797,
+   10.727173
+  ],
+  [
+   53.878044,
+   10.7267
+  ],
+  [
+   53.878291,
+   10.726228
+  ],
+  [
+   53.878604,
+   10.725644
+  ],
+  [
+   53.878847,
+   10.725184
+  ],
+  [
+   53.879089,
+   10.724724
+  ],
+  [
+   53.879332,
+   10.724264
+  ],
+  [
+   53.879575,
+   10.723804
+  ],
+  [
+   53.879818,
+   10.723344
+  ],
+  [
+   53.879963,
+   10.723069
+  ],
+  [
+   53.880049,
+   10.722958
+  ],
+  [
+   53.880359,
+   10.722619
+  ],
+  [
+   53.88021,
+   10.722411
+  ],
+  [
+   53.879876,
+   10.721935
+  ],
+  [
+   53.879735,
+   10.721766
+  ],
+  [
+   53.879455,
+   10.721404
+  ],
+  [
+   53.879155,
+   10.721028
+  ],
+  [
+   53.878854,
+   10.720653
+  ],
+  [
+   53.878554,
+   10.720277
+  ],
+  [
+   53.878525,
+   10.720212
+  ],
+  [
+   53.878512,
+   10.720126
+  ],
+  [
+   53.878521,
+   10.72003
+  ],
+  [
+   53.878596,
+   10.71987
+  ],
+  [
+   53.87909,
+   10.719026
+  ],
+  [
+   53.879402,
+   10.71864
+  ],
+  [
+   53.879714,
+   10.718255
+  ],
+  [
+   53.880079,
+   10.717771
+  ],
+  [
+   53.880444,
+   10.717287
+  ],
+  [
+   53.880728,
+   10.717187
+  ],
+  [
+   53.881021,
+   10.717161
+  ],
+  [
+   53.881548,
+   10.71722
+  ],
+  [
+   53.88196,
+   10.717348
+  ],
+  [
+   53.882344,
+   10.717473
+  ],
+  [
+   53.882729,
+   10.717598
+  ],
+  [
+   53.883107,
+   10.717629
+  ],
+  [
+   53.883485,
+   10.717659
+  ],
+  [
+   53.883212,
+   10.718397
+  ],
+  [
+   53.883579,
+   10.718777
+  ],
+  [
+   53.883946,
+   10.719157
+  ],
+  [
+   53.884313,
+   10.719537
+  ],
+  [
+   53.884681,
+   10.719917
+  ],
+  [
+   53.885048,
+   10.720297
+  ],
+  [
+   53.885102,
+   10.720349
+  ],
+  [
+   53.88544,
+   10.720708
+  ],
+  [
+   53.885779,
+   10.721067
+  ],
+  [
+   53.886117,
+   10.721426
+  ],
+  [
+   53.886455,
+   10.721785
+  ],
+  [
+   53.886794,
+   10.722144
+  ],
+  [
+   53.887132,
+   10.722503
+  ],
+  [
+   53.88747,
+   10.722862
+  ],
+  [
+   53.887808,
+   10.723221
+  ],
+  [
+   53.887452,
+   10.723525
+  ],
+  [
+   53.887096,
+   10.72383
+  ],
+  [
+   53.88674,
+   10.724134
+  ],
+  [
+   53.886383,
+   10.724438
+  ],
+  [
+   53.886027,
+   10.724743
+  ],
+  [
+   53.885674,
+   10.725022
+  ],
+  [
+   53.88532,
+   10.725301
+  ],
+  [
+   53.884967,
+   10.725581
+  ],
+  [
+   53.884614,
+   10.72586
+  ],
+  [
+   53.884261,
+   10.726139
+  ],
+  [
+   53.883908,
+   10.726419
+  ],
+  [
+   53.883555,
+   10.726698
+  ],
+  [
+   53.883194,
+   10.726985
+  ],
+  [
+   53.882834,
+   10.727273
+  ],
+  [
+   53.882474,
+   10.727561
+  ],
+  [
+   53.882114,
+   10.727848
+  ],
+  [
+   53.881754,
+   10.728136
+  ],
+  [
+   53.881393,
+   10.728423
+  ],
+  [
+   53.881033,
+   10.728711
+  ],
+  [
+   53.880673,
+   10.728999
+  ],
+  [
+   53.880313,
+   10.729286
+  ],
+  [
+   53.879968,
+   10.729562
+  ],
+  [
+   53.879623,
+   10.729839
+  ],
+  [
+   53.879279,
+   10.730115
+  ],
+  [
+   53.878934,
+   10.730392
+  ],
+  [
+   53.878589,
+   10.730668
+  ],
+  [
+   53.878244,
+   10.730944
+  ],
+  [
+   53.877899,
+   10.731221
+  ],
+  [
+   53.877576,
+   10.731454
+  ],
+  [
+   53.877497,
+   10.731283
+  ],
+  [
+   53.877435,
+   10.731136
+  ],
+  [
+   53.877384,
+   10.731019
+  ],
+  [
+   53.877215,
+   10.730669
+  ],
+  [
+   53.877286,
+   10.730519
+  ],
+  [
+   53.877329,
+   10.73044
+  ],
+  [
+   53.877367,
+   10.730322
+  ],
+  [
+   53.87739,
+   10.730234
+  ],
+  [
+   53.877409,
+   10.730095
+  ],
+  [
+   53.877426,
+   10.729957
+  ],
+  [
+   53.877448,
+   10.729756
+  ],
+  [
+   53.877462,
+   10.729501
+  ],
+  [
+   53.877504,
+   10.729169
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 10990010925,
+   "lat": 53.8775666,
+   "lon": 10.7292528,
+   "km": 0.0,
+   "titel": "Hotspot? Echt cool!",
+   "thema": "Artenreichtum im Lübecker Modell",
+   "kurztext": "Hier beginnt die Runde. Totholz bleibt liegen, Buchen und Eichen stehen gemischt. Die Tafel erklärt, warum dieser Stadtwald mehr Arten trägt als ein aufgeräumter Forst.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 10990010924,
+   "lat": 53.8792889,
+   "lon": 10.7246049,
+   "km": 0.39,
+   "titel": "Kunst oder künstlich?",
+   "thema": "Wald als Bild und als Betrieb",
+   "kurztext": "Ein Bestand, der wie gemalt aussieht, und trotzdem genutzt wird. Die Tafel trennt, was der Wald von allein macht, und wo der Stadtwald eingreift.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 10990017414,
+   "lat": 53.8791936,
+   "lon": 10.7188023,
+   "km": 0.91,
+   "titel": "Zeiten ändern sich",
+   "thema": "Waldentwicklung und Referenzflächen",
+   "kurztext": "Vor dreißig Jahren hat Lübeck aufgehört, den Wald umzubauen. Referenzflächen ohne Holzeinschlag stehen daneben. Die Tafel zeigt, was in einer Baumgeneration passiert.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 10990017413,
+   "lat": 53.8852912,
+   "lon": 10.7207252,
+   "km": 1.79,
+   "titel": "Stell die Lauscher!",
+   "thema": "Waldgeräusche",
+   "kurztext": "Augen zu. Specht, Eichhörnchen, Wind in den Buchen. Die Tafel schickt dich aufs Hören, nicht aufs Abhaken.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 10990017415,
+   "lat": 53.886503,
+   "lon": 10.7245441,
+   "km": 2.28,
+   "titel": "Licht-Bild-Vortrag",
+   "thema": "Licht und Schatten im Bestand",
+   "kurztext": "Lücken im Kronendach, plötzlich Boden. Jungwuchs braucht genau das. Die Tafel macht aus einem Lichtfleck den Vortrag.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 10990010927,
+   "lat": 53.8829498,
+   "lon": 10.7257015,
+   "km": 2.67,
+   "titel": "Den Richtigen finden",
+   "thema": "Bäume im Lauerholz bestimmen",
+   "kurztext": "Buche oder Eiche, Blatt oder Rinde. Die Tafel ist ein Suchauftrag, kein Bestimmungsbuch. Wer den Baum findet, hat die Station.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 10990010926,
+   "lat": 53.878189,
+   "lon": 10.7307309,
+   "km": 3.28,
+   "titel": "Eins ergibt das Andere",
+   "thema": "Nahrungsnetz und Totholz",
+   "kurztext": "Was der Wald mit Domino zu tun hat: ein Baum fällt, Käfer, Pilz, Specht. Die Tafel schließt die Runde, ein paar hundert Meter vom Start.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5613883899,
+   "lat": 53.8798485,
+   "lon": 10.7220134,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5613883900,
+   "lat": 53.8798223,
+   "lon": 10.7219351,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6376100183,
+   "lat": 53.8784813,
+   "lon": 10.7231323,
+   "kategorie": "shelter",
+   "name": "Waldkindergarten \"Die Grashüpfer\""
+  },
+  {
+   "osmId": 7798287276,
+   "lat": 53.8779112,
+   "lon": 10.7209618,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7882690107,
+   "lat": 53.8781266,
+   "lon": 10.7231268,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10991270684,
+   "lat": 53.8771082,
+   "lon": 10.7305431,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10991270685,
+   "lat": 53.8804827,
+   "lon": 10.7278384,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 166769935,
+   "lat": 53.875999,
+   "lon": 10.730006,
+   "kategorie": "parking",
+   "name": "Parkplatz Am Rittbrook"
+  }
+ ],
+ "bilderAsset": "assets/images/trails/rittbrookpfad/credits.json"
+}

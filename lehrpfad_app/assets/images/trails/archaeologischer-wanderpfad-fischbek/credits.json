@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-pfad.jpg",
+    "caption": "Pfad durch die Fischbeker Heide.",
+    "credit": "G.Steinbrenner",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APfad_der_Fischbeker_Heide.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-besenheide.jpg",
+    "caption": "Besenheide in der Fischbeker Heide.",
+    "credit": "KaiBorgeest",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHamburg%2C_Fischbeker_Heide%2C_heather_blossom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "03-kiefer.jpg",
+    "caption": "Kiefer im Naturschutzgebiet Fischbeker Heide.",
+    "credit": "Formellaania",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiefer_im_Naturschutzgebiet_Fischbeker_Heide.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "04-herbst.jpg",
+    "caption": "Herbst in der Fischbeker Heide.",
+    "credit": "Stephan Kohlmeyer",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHerbstleuchten_in_der_Fischbeker_Heide.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-heide.jpg",
+    "caption": "Offene Heideflächen im Naturschutzgebiet.",
+    "credit": "Lee Dale",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturschutzgebiet_fischbeker_heide_1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-landschaft.jpg",
+    "caption": "Heide, Sand und Kiefern im NSG Fischbeker Heide.",
+    "credit": "Lotte76",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANSG_4_Fischbeker_Heide_%2873%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-sandweg.jpg",
+    "caption": "Sandweg durch die Fischbeker Heide.",
+    "credit": "Lotte76",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANSG_4_Fischbeker_Heide_%2821%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-baum.jpg",
+    "caption": "Einzelbaum in der Fischbeker Heide.",
+    "credit": "Funk soul brother",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFischbeker-Heide-Baum.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-nsg.jpg",
+    "caption": "Blick über das Naturschutzgebiet Fischbeker Heide.",
+    "credit": "Xaver Dolores",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANSG-Fischbeker-Heide_05.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "10-blick.jpg",
+    "caption": "Fischbeker Heide, offene Fläche.",
+    "credit": "John N.",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFischbeker_Heide_1.jpg",
+    "kind": "ort"
+  }
+]

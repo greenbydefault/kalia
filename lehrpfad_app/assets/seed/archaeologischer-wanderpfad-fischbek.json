@@ -1,0 +1,805 @@
+{
+ "id": "archaeologischer-wanderpfad-fischbek",
+ "name": "Archäologischer Wanderpfad Fischbeker Heide",
+ "typ": "wald",
+ "kurzbeschreibung": "Drei Kilometer durch die Fischbeker Heide zu elf Tafeln an Grabhügeln, Steinkammern und einem unsichtbaren Urnenfriedhof. Frei, ohne Ticket.",
+ "beschreibung": "Am südwestlichen Stadtrand, in der Fischbeker Heide, liegt der archäologische Wanderpfad des Archäologischen Museums Hamburg. Seit 1975, 2002 restauriert. Elf Stationen erzählen, wie hier von der Jungsteinzeit bis um Christi Geburt begraben wurde: Hügel, Megalithreste, ein Langhügel, ein Urnenfeld, von dem oberirdisch nichts zu sehen ist. Ein paar Hügel sind Rekonstruktionen, einer kam aus Lüllau hierher, weil er am Ursprungsort nicht bleiben konnte. Der Weg ist Wald- und Heideboden, Kinderwagen nur eingeschränkt. Immer frei, ohne Anmeldung. Führungen des Museums sind extra, nicht die App-Route. Der Heidschnuckenweg und die GPS-Touren der Stadt-App sind andere Wege. Hunde anleinen, auf den Wegen bleiben. Schilder können fehlen, die Hügel bleiben.",
+ "laengeKm": 3.0,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Nummerierte Schautafeln / lokaler Waldweg",
+ "betreiber": "Archäologisches Museum Hamburg",
+ "region": "Neugraben-Fischbek, Harburg, Hamburg",
+ "website": "https://amh.de/ausstellung-ort/archaeologischer-wanderpfad-fischbeker-heide/",
+ "anreise": "Einstieg Parkplatz Wendeschleife Falkenbergsweg, 21149 Hamburg-Neugraben-Fischbek, nahe den südlichen Grabhügeln. S3 Neugraben, weiter Bus 141 oder 250 Richtung Fischbek / Falkenbergsweg. Auto: Falkenbergsweg bis zur Wendeschleife, nicht in die Heide fahren. Infohaus Schafstall (Fischbeker Heideweg 43, Loki Schmidt Stiftung) liegt nördlich, hat eigene Öffnungszeiten und ist nicht der Pfad. Heidschnuckenweg nicht mit der 11-Tafel-Runde verwechseln.",
+ "startName": "Tafel Zeitraffer / Einstieg Falkenbergsweg",
+ "arten": [
+  "Besenheide",
+  "Kiefer",
+  "Heidelerche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.442947,
+   9.854345
+  ],
+  [
+   53.443,
+   9.854476
+  ],
+  [
+   53.443224,
+   9.854562
+  ],
+  [
+   53.443256,
+   9.85456
+  ],
+  [
+   53.443282,
+   9.854549
+  ],
+  [
+   53.443384,
+   9.854491
+  ],
+  [
+   53.443476,
+   9.854497
+  ],
+  [
+   53.44356,
+   9.854526
+  ],
+  [
+   53.443634,
+   9.85457
+  ],
+  [
+   53.443798,
+   9.854692
+  ],
+  [
+   53.444158,
+   9.854874
+  ],
+  [
+   53.444216,
+   9.854888
+  ],
+  [
+   53.444272,
+   9.854879
+  ],
+  [
+   53.444569,
+   9.854756
+  ],
+  [
+   53.444602,
+   9.854753
+  ],
+  [
+   53.44463,
+   9.854764
+  ],
+  [
+   53.444669,
+   9.854731
+  ],
+  [
+   53.444715,
+   9.854694
+  ],
+  [
+   53.445108,
+   9.854371
+  ],
+  [
+   53.445407,
+   9.854028
+  ],
+  [
+   53.445469,
+   9.853975
+  ],
+  [
+   53.44565,
+   9.853866
+  ],
+  [
+   53.44576,
+   9.853776
+  ],
+  [
+   53.445844,
+   9.85368
+  ],
+  [
+   53.44592,
+   9.853579
+  ],
+  [
+   53.445987,
+   9.853457
+  ],
+  [
+   53.446339,
+   9.853067
+  ],
+  [
+   53.446483,
+   9.85294
+  ],
+  [
+   53.44673,
+   9.852682
+  ],
+  [
+   53.44691,
+   9.852502
+  ],
+  [
+   53.447091,
+   9.852388
+  ],
+  [
+   53.447163,
+   9.85232
+  ],
+  [
+   53.447349,
+   9.852098
+  ],
+  [
+   53.447375,
+   9.852071
+  ],
+  [
+   53.447402,
+   9.852053
+  ],
+  [
+   53.443278,
+   9.856418
+  ],
+  [
+   53.443285,
+   9.856704
+  ],
+  [
+   53.443301,
+   9.856849
+  ],
+  [
+   53.443325,
+   9.856977
+  ],
+  [
+   53.443433,
+   9.857259
+  ],
+  [
+   53.443534,
+   9.857471
+  ],
+  [
+   53.443602,
+   9.857657
+  ],
+  [
+   53.443816,
+   9.858469
+  ],
+  [
+   53.443848,
+   9.858559
+  ],
+  [
+   53.443869,
+   9.858609
+  ],
+  [
+   53.443964,
+   9.858779
+  ],
+  [
+   53.444072,
+   9.859029
+  ],
+  [
+   53.444287,
+   9.859422
+  ],
+  [
+   53.444359,
+   9.859822
+  ],
+  [
+   53.443278,
+   9.856418
+  ],
+  [
+   53.443268,
+   9.85614
+  ],
+  [
+   53.443261,
+   9.85607
+  ],
+  [
+   53.443252,
+   9.85602
+  ],
+  [
+   53.443158,
+   9.855738
+  ],
+  [
+   53.443109,
+   9.8556
+  ],
+  [
+   53.443098,
+   9.85556
+  ],
+  [
+   53.443093,
+   9.85552
+  ],
+  [
+   53.443094,
+   9.855477
+  ],
+  [
+   53.4431,
+   9.855441
+  ],
+  [
+   53.443143,
+   9.855299
+  ],
+  [
+   53.443207,
+   9.855084
+  ],
+  [
+   53.443217,
+   9.855023
+  ],
+  [
+   53.443221,
+   9.854964
+  ],
+  [
+   53.44322,
+   9.85473
+  ],
+  [
+   53.443224,
+   9.854562
+  ],
+  [
+   53.443188,
+   9.85455
+  ],
+  [
+   53.443118,
+   9.85451
+  ],
+  [
+   53.443035,
+   9.854483
+  ],
+  [
+   53.443,
+   9.854476
+  ],
+  [
+   53.442952,
+   9.85449
+  ],
+  [
+   53.4429,
+   9.854528
+  ],
+  [
+   53.442462,
+   9.854849
+  ],
+  [
+   53.442276,
+   9.85499
+  ],
+  [
+   53.442175,
+   9.855059
+  ],
+  [
+   53.442044,
+   9.8551
+  ],
+  [
+   53.44192,
+   9.855082
+  ],
+  [
+   53.441732,
+   9.855086
+  ],
+  [
+   53.441536,
+   9.855085
+  ],
+  [
+   53.441364,
+   9.855126
+  ],
+  [
+   53.441258,
+   9.855118
+  ],
+  [
+   53.441132,
+   9.855072
+  ],
+  [
+   53.440925,
+   9.855002
+  ],
+  [
+   53.440841,
+   9.854992
+  ],
+  [
+   53.440792,
+   9.855006
+  ],
+  [
+   53.44073,
+   9.854962
+  ],
+  [
+   53.440643,
+   9.854802
+  ],
+  [
+   53.440529,
+   9.854474
+  ],
+  [
+   53.440387,
+   9.854129
+  ],
+  [
+   53.440242,
+   9.853844
+  ],
+  [
+   53.440117,
+   9.853583
+  ],
+  [
+   53.439947,
+   9.853437
+  ],
+  [
+   53.439897,
+   9.853393
+  ],
+  [
+   53.439768,
+   9.853273
+  ],
+  [
+   53.439671,
+   9.853205
+  ],
+  [
+   53.439632,
+   9.853184
+  ],
+  [
+   53.439602,
+   9.853186
+  ],
+  [
+   53.439569,
+   9.853155
+  ],
+  [
+   53.439492,
+   9.853076
+  ],
+  [
+   53.439444,
+   9.853053
+  ],
+  [
+   53.439383,
+   9.852991
+  ],
+  [
+   53.439363,
+   9.852971
+  ],
+  [
+   53.439276,
+   9.852938
+  ],
+  [
+   53.439175,
+   9.852847
+  ],
+  [
+   53.439164,
+   9.852832
+  ],
+  [
+   53.439046,
+   9.852686
+  ],
+  [
+   53.439011,
+   9.852661
+  ],
+  [
+   53.438955,
+   9.852642
+  ],
+  [
+   53.438926,
+   9.85262
+  ],
+  [
+   53.438848,
+   9.852504
+  ],
+  [
+   53.438758,
+   9.852424
+  ],
+  [
+   53.438652,
+   9.852341
+  ],
+  [
+   53.438508,
+   9.852272
+  ],
+  [
+   53.438432,
+   9.852175
+  ],
+  [
+   53.438683,
+   9.851906
+  ],
+  [
+   53.439327,
+   9.851055
+  ],
+  [
+   53.439372,
+   9.850949
+  ],
+  [
+   53.439413,
+   9.850773
+  ],
+  [
+   53.439489,
+   9.850799
+  ],
+  [
+   53.439607,
+   9.850813
+  ],
+  [
+   53.439695,
+   9.850834
+  ],
+  [
+   53.439779,
+   9.850873
+  ],
+  [
+   53.439929,
+   9.850987
+  ],
+  [
+   53.440052,
+   9.851048
+  ],
+  [
+   53.44016,
+   9.851079
+  ],
+  [
+   53.440364,
+   9.851101
+  ],
+  [
+   53.44045,
+   9.851097
+  ],
+  [
+   53.44058,
+   9.851048
+  ],
+  [
+   53.440638,
+   9.851007
+  ],
+  [
+   53.440666,
+   9.850982
+  ],
+  [
+   53.440699,
+   9.851008
+  ],
+  [
+   53.440722,
+   9.851012
+  ],
+  [
+   53.440797,
+   9.851022
+  ],
+  [
+   53.440951,
+   9.851
+  ],
+  [
+   53.441078,
+   9.850962
+  ],
+  [
+   53.441129,
+   9.850967
+  ],
+  [
+   53.441252,
+   9.851005
+  ],
+  [
+   53.441554,
+   9.851296
+  ],
+  [
+   53.441711,
+   9.85143
+  ],
+  [
+   53.441764,
+   9.851489
+  ],
+  [
+   53.441841,
+   9.851608
+  ],
+  [
+   53.441958,
+   9.851822
+  ],
+  [
+   53.442063,
+   9.852068
+  ],
+  [
+   53.442177,
+   9.852391
+  ],
+  [
+   53.442325,
+   9.852763
+  ],
+  [
+   53.442497,
+   9.853235
+  ],
+  [
+   53.442947,
+   9.854345
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 1737515255,
+   "lat": 53.4427588,
+   "lon": 9.8539426,
+   "km": 0.0,
+   "titel": "Zeitraffer",
+   "thema": "Archäologische Denkmäler der Fischbeker Heide",
+   "kurztext": "Hier liegt die größte Gruppe sichtbarer Bodendenkmale auf Hamburger Gebiet. Über 170 Fundstellen, von der Jungsteinzeit bis ins 19. Jahrhundert. Die Tafel sortiert, was du gleich an Hügeln und Gruben siehst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 11800277726,
+   "lat": 53.446505,
+   "lon": 9.8568667,
+   "km": 0.33,
+   "titel": "Sinneswandel",
+   "thema": "Langhügel, Bestattungsplatz der Bronzezeit",
+   "kurztext": "Fünfzig Meter lang. Erst dachten die Ausgräber an ein steinzeitliches Hünenbett. Drin: neun bronzezeitliche Gräber, Körper und Brand. Am Ostende Steinsetzungen und Scherben, vermutlich zum Totenritual.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 1737515240,
+   "lat": 53.4439633,
+   "lon": 9.858698,
+   "km": 1.28,
+   "titel": "Restbestände",
+   "thema": "Doppelgrabhügel der Stein- und Bronzezeit",
+   "kurztext": "Zwei Meter hoch, zwei Steinkreise ineinander. Unten Einzelgrabkultur, oben Bronzezeit. Eine Pfeilspitze aus Feuerstein, sonst fast leer. Sand frisst Holz, Leder, den Toten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 1737515237,
+   "lat": 53.4439642,
+   "lon": 9.8589647,
+   "km": 1.28,
+   "titel": "Aufhebenswertes",
+   "thema": "Baumsargbestattung, hergezogen aus Lüllau",
+   "kurztext": "Kein originaler Hügel von hier. Das Grab lag bei Lüllau, südwestlich von Jesteburg, und wäre dort verloren. Rekonstruiert: Baumsarg unter Steinkreis, später eine Urne in einer kleinen Steinkiste.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 1737515244,
+   "lat": 53.4441059,
+   "lon": 9.8591943,
+   "km": 1.3,
+   "titel": "Grabesstille",
+   "thema": "Bronzezeitlicher Grabhügel",
+   "kurztext": "Noch ein Hügel der Bronzezeit in der Gruppe am Stadtweg. Weniger Spektakel als die Rekonstruktionen daneben, dafür der Originalbefund, so weit er steht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 1737515245,
+   "lat": 53.4443409,
+   "lon": 9.859163,
+   "km": 1.33,
+   "titel": "Spurensuche",
+   "thema": "Rekonstruierter Doppelgrabhügel",
+   "kurztext": "Die Zentralbestattung war ausgeraubt. Ein sichelförmiger Anbau, später eine Urne der vorrömischen Eisenzeit. Die Pflasterung der Hügelkuppe haben die Ausgräber wiederhergestellt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 1737515246,
+   "lat": 53.4416003,
+   "lon": 9.8551452,
+   "km": 1.94,
+   "titel": "Fundgrube",
+   "thema": "Lehm- und Mergelkuhlen des 18./19. Jahrhunderts",
+   "kurztext": "Keine Urgeschichte. Bauern holten hier Lehm und Mergel. Die Gruben liegen zwischen den Gräbern und erklären, warum so viele Hügel Löcher haben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 1737515248,
+   "lat": 53.4392448,
+   "lon": 9.852951,
+   "km": 2.25,
+   "titel": "Wiederverwendung",
+   "thema": "Großsteingrab der Jungsteinzeit",
+   "kurztext": "Die Steinkammer ist seit dem 18. Jahrhundert weg, Steinschläger haben sie zerlegt. 140 zerschlagene Gefäße am Rand: Sachsen nutzten den 4000 Jahre älteren Bau noch im 8./9. Jahrhundert als Kultplatz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 1737515222,
+   "lat": 53.4404309,
+   "lon": 9.851129,
+   "km": 2.62,
+   "titel": "Blickfang",
+   "thema": "Grabhügel der älteren Bronzezeit",
+   "kurztext": "Ein Hügel, den du wirklich siehst. Ältere Bronzezeit, aufgeschüttet über einer Bestattung. Vergleich ihn mit Station 3 nebenan: derselbe Typ, einmal noch da, einmal weggegraben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 13011543293,
+   "lat": 53.4409476,
+   "lon": 9.8509622,
+   "km": 2.68,
+   "titel": "Goldgräberstimmung",
+   "thema": "Zerstörter Grabhügel der älteren Bronzezeit",
+   "kurztext": "Ein Hügel, den Steinsucher und Landwirtschaft fast plattgemacht haben. Die Tafel zeigt, was fehlt: Kammer, Beigaben, Form. Zerstörung ist hier der Befund, nicht nur ein Schaden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 1737515258,
+   "lat": 53.4420972,
+   "lon": 9.8525819,
+   "km": 2.86,
+   "titel": "Glaubensbekenntnis",
+   "thema": "Urnenfriedhof der Bronze- und Eisenzeit",
+   "kurztext": "Oberirdisch nichts. Unter dem Waldboden lag ein Urnenfriedhof, den Gustav Schwantes in den 1920ern grub. Asche in Ton, manchmal Schmuck, der im Scheiterhaufen verschmolz. Die jüngsten Urnen kamen kurz vor Christi Geburt in die Erde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4781823242,
+   "lat": 53.4427883,
+   "lon": 9.8539021,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8312977785,
+   "lat": 53.4468618,
+   "lon": 9.8506997,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4781823241,
+   "lat": 53.444211,
+   "lon": 9.8590968,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/archaeologischer-wanderpfad-fischbek/credits.json"
+}

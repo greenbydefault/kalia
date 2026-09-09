@@ -109,6 +109,8 @@ flutter:
     - assets/images/trails/fossilruten-moens-klint/
     - assets/images/trails/stubbenkammer-koenigsstuhl/
     - assets/images/trails/baumkronenpfad-hainich/
+    - assets/images/trails/archaeologischer-wanderpfad-fischbek/
+    - assets/images/trails/rittbrookpfad/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
