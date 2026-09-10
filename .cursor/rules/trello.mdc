@@ -1,0 +1,38 @@
+---
+description: Neue Aufgaben und Ideen als Trello-Karten anlegen
+alwaysApply: true
+---
+
+# Trello
+
+Boards:
+- Arbeit: [Kalia/Ako/KiWa](https://trello.com/b/uEjtZKC3/kalia-ako-kiwa) — Inbox → Go-Live → Backlog → Ideen → In Arbeit → Review → Erledigt
+- Abdeckung: [Kalia · Regionen](https://trello.com/b/w6mwp0m6/kalia-regionen) — 1 Liste = 1 Land, 1 Karte = Bundesland/Region
+- Abdeckung: [Kalia · Audio](https://trello.com/b/7dzAKbdB/kalia-audio) — Übersicht → Vorlagen → Trails → Flora → Fauna → Geräte
+- Produktion: [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing) — Übersicht → Vorlagen → Videos
+
+Roh-Capture → Inbox. Formulierte Produktideen (Infogrundlage, noch kein Plan) → Liste Ideen. Exploration + Plan erst, wenn die Karte nach In Arbeit geht.
+Neue Kreise/Länder → Karte/Liste auf Regionen, plus Ordner unter `research/Länder/`. 516 Blätter nicht als Einzelkarten.
+
+Audio-Board:
+- 1 Trail-Karte = 1 HAVE-Seed, Checkliste „Produktion" (Hörtext · Sound). Neuer Trail = neue Karte.
+- Arten nicht als Einzelkarten: Flora/Fauna/Geräte sind Sammelkarten mit Checklisten Hörtext + Sound. Neue Art = Checklist-Item.
+- Stimme: `docs/audio/GRUND.md` (Belege `docs/audio/quellen.md`). `hoertext` = Einsprech-Skript, Play, nicht Lesetext in der App. Limits in den Specs (`tools/TRAIL_HOERTEXT.md`, `tools/SPECIES_CONTENT.md`, `tools/GERAETE_CONTENT.md`). Spec + GRUND sind Wahrheit, Karte nur Zeiger.
+- Abhaken erst nach Repo-Commit, nicht vorher. Zähler in Kartentiteln (z. B. `Fauna — 36 Arten · 36/36 Text · 1/36 Sound`) manuell pflegen, Zahlen aus dem Seed.
+
+Marketing-Board:
+- 1 Video-Karte = 1 Datei unter `lehrpfad_app/docs/marketing/videos/{id}.md`, Checkliste „Produktion" (Hook · Skript · Shots während der Arbeit · Schnitt · Raus). Neues Stück = neue Datei + neue Karte.
+- Spec ist Wahrheit (`docs/marketing/GRUND.md`, `videos/_vorlage.md`), Karte nur Zeiger.
+- Arbeit-Karte und Marketing-Karte tragen gegenseitig die URL. Filmbares Feature: Datei anlegen *bevor* die Arbeit-Karte nach In Arbeit geht. Before-Shots während der Arbeit, nicht danach.
+- Abhaken erst nach Repo-Commit (Skript) bzw. nach Publish (Raus). Zähler auf der Stand-Karte manuell, Zahlen aus dem Ordner.
+- Stimme/Kanäle bleiben `docs/oeffentlich/GRUND.md`. Rohvideo nicht ins Git.
+
+Wenn im Chat eine konkrete Aufgabe oder Idee entsteht:
+
+- Karte anlegen (erst suchen, keine Duplikate)
+- Titel: `[Kalia|Ako|KiWa · Bereich] id — eine Zeile`
+- Beschreibung: Kontext + Datei/Pfad wenn relevant + Done-wenn
+- Filmbar → zusätzlich Datei `docs/marketing/videos/{id}.md` + Karte auf [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing), beide URLs kreuzen. Nicht erst nach dem Merge.
+- Inbox = Roh-Capture. Ideen = formulierte Produktideen, noch nicht exploriert. Go-Live = Store-Blocker. Backlog = später / nicht v1 / Board-Zeiger
+- Nicht: Floskeln, Zwischenstände, „könnte man mal“
+- Go-Live-Karten, die schon existieren, nicht nochmal anlegen. `docs/golive/GRUND.md` bleibt die Checkbox-Quelle, bis wir sie explizit ablösen.

@@ -651,6 +651,82 @@
     ]
   },
   {
+    "id": "douglasie",
+    "nameDe": "Douglasie",
+    "nameLat": "Pseudotsuga menziesii",
+    "kategorie": "flora",
+    "kurztext": "Die Nadeln sitzen auf einem Stielchen und riechen nach Zitrone, die Zapfen tragen dreizackige Zungen.",
+    "aliases": [
+      "Gewöhnliche Douglasie",
+      "Douglasfichte"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Die Nadeln sitzen auf einem Stielchen und riechen nach Zitrone, die Zapfen tragen dreizackige Zungen.",
+      "erkennung": [
+        "Nadeln einzeln, mit kleinem Stielchen",
+        "Zerreiben riecht nach Zitrone",
+        "Zapfen mit dreizackiger Deckschuppe",
+        "Dicke korkige Rinde, Furchen rötlich"
+      ],
+      "lebensraum": "Im Lauerholz an Station 1, gepflanzt zwischen Buchen. Herkunft pazifisches Nordamerika, kein heimischer Waldbaum.",
+      "funFacts": [
+        "Die dreizackige Schuppe sieht aus wie eine Maus im Zapfen.",
+        "In Nordamerika wird sie über 70 Meter hoch.",
+        "Lübeck hat sie gesetzt, der Buchenwald nicht."
+      ],
+      "hinweis": "Nadel riechen, Zweig am Baum lassen.",
+      "hoertext": "Fass eine Nadel. Sie sitzt nicht direkt am Zweig, sondern auf einem winzigen Stielchen. Zerreib sie vorsichtig, ohne abzureißen. Zitrone. Das ist die Douglasie, hier an Station 1. Die Zapfen tragen dreizackige Zungen. Manche sehen darin eine Maus, die in den Zapfen kriecht. Der Baum kommt von der pazifischen Küste Nordamerikas. Förster holten ihn wegen des Holzes nach Europa. Im Lauerholz steht er zwischen Buchen, die hier hingehören. Die Tafel hängt am Stamm. Schau in die Krone. Vergleich die Rinde mit der Buche daneben. Den Zweig lässt du, wo er ist."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Nadeln"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "30–60 m"
+      },
+      {
+        "key": "alter",
+        "wert": "400–700 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Zapfen mit dreizackiger Schuppe"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "immergruen",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Holt Samen aus den Zapfen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Alte Stämme bieten Höhlen."
+      }
+    ]
+  },
+  {
     "id": "edelkastanie",
     "nameDe": "Edelkastanie",
     "nameLat": "Castanea sativa",

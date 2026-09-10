@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'smooth_scroll_physics.dart';
 
-/// ScrollBehavior, das [SmoothScrollPhysics] über die Plattform-Physics legt.
+/// App-weites ScrollBehavior: [SmoothScrollPhysics] über die Plattform-Physics.
+///
+/// Hängt an [LehrpfadApp]; neue Screens erben es. Horizontale Pager mit
+/// eigenem [ScrollConfiguration] (z. B. SnappingPager) bleiben unberührt.
 class SmoothScrollBehavior extends MaterialScrollBehavior {
   const SmoothScrollBehavior();
 
@@ -12,9 +15,8 @@ class SmoothScrollBehavior extends MaterialScrollBehavior {
   }
 }
 
-/// Drop-in-Wrapper: wrappt [child] mit [SmoothScrollBehavior].
-///
-/// Für Trail-Detail-Views; künftige Screens denselben Wrapper nutzen.
+/// Lokaler Override mit [SmoothScrollBehavior] (Tests, Overlays außerhalb
+/// der App). Produktion setzt das Behavior global in [LehrpfadApp].
 class SmoothScroll extends StatelessWidget {
   final Widget child;
 

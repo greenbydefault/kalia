@@ -1,2 +1,2 @@
-# kalia
-Natur
+# Kalia
+Lehrpfade mit Kindern

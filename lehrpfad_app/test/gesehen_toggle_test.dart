@@ -84,6 +84,7 @@ void main() {
       content: SpeciesContent(
         hook: 'Baut Dämme.',
         erkennung: ['Breiter Schwanz'],
+        hoertext: 'Ein Satz zum Einsprechen, der in der UI nicht stehen darf.',
       ),
     );
 
@@ -105,5 +106,10 @@ void main() {
     final sectionY =
         tester.getTopLeft(find.text('Woran erkenne ich’s?')).dy;
     expect(toggleY, lessThan(sectionY));
+    expect(find.text('Text zum Vorlesen'), findsNothing);
+    expect(
+      find.text('Ein Satz zum Einsprechen, der in der UI nicht stehen darf.'),
+      findsNothing,
+    );
   });
 }

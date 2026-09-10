@@ -22,7 +22,9 @@ class WelcomeStep extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text('Lehrpfade mit Kindern', style: theme.textTheme.headlineSmall),
+        Text('Kalia', style: theme.textTheme.headlineSmall),
+        const SizedBox(height: AppSpacing.x1),
+        Text('Lehrpfade mit Kindern', style: theme.textTheme.titleMedium),
         const SizedBox(height: AppSpacing.x2),
         Text(
           'Finde Naturlehrpfade in der Nähe. Ein Konto brauchst du nur, '

@@ -1,6 +1,6 @@
-# Lehrpfad-App
+# Kalia
 
-Digitale Begleit-App für Naturlehrpfade: interaktive Karte mit Trails und Stationen,
+Lehrpfade mit Kindern. Digitale Begleit-App: interaktive Karte mit Trails und Stationen,
 GPS-geführtes Walk-Tracking mit Auto-Abschluss, Arten-Sammlung („Gesehen"-Markierungen
 mit Audio-Steckbriefen), persönliche Listen und Community-Bilder/-Bewertungen.
 

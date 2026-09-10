@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/catalogs/icon_catalog.dart';
-import '../../../../shared/scrolling/smooth_scroll.dart';
 import '../../../trail_progress/presentation/trail_sheet_peek_actions.dart';
 import '../../domain/trail.dart';
 import '../map/trail_hero_map.dart';
@@ -65,88 +64,85 @@ class _TrailDetailPageState extends State<TrailDetailPage> {
       color: theme.colorScheme.surface,
       child: Stack(
         children: [
-          SmoothScroll(
-            child: CustomScrollView(
-              controller: _scrollController,
-              slivers: [
-                SliverToBoxAdapter(
-                  child: SizedBox(
-                    height: heroHeight,
-                    width: double.infinity,
-                    child: Stack(
-                      fit: StackFit.expand,
+          CustomScrollView(
+            controller: _scrollController,
+            slivers: [
+              SliverToBoxAdapter(
+                child: SizedBox(
+                  height: heroHeight,
+                  width: double.infinity,
+                  child: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      IndexedStack(
+                        index: _showMap ? 1 : 0,
+                        children: [
+                          TrailHeroPager(trail: widget.trail),
+                          TrailHeroMap(
+                            trail: widget.trail,
+                            animateWhenVisible: _showMap,
+                          ),
+                        ],
+                      ),
+                      Positioned(
+                        top: media.padding.top + AppSpacing.x2,
+                        left: AppSpacing.x3,
+                        child: _HeroButton(
+                          tooltip: 'Zurück',
+                          icon: uiEintrag(
+                            'zurueck',
+                          ).buildIcon(size: 18, color: AppColors.n50),
+                          onTap: widget.onClose,
+                        ),
+                      ),
+                      Positioned(
+                        top: media.padding.top + AppSpacing.x2,
+                        right: AppSpacing.x3,
+                        child: _HeroButton(
+                          tooltip: _showMap ? 'Fotos zeigen' : 'Karte zeigen',
+                          icon: uiEintrag(
+                            _showMap ? 'bilder' : 'karte',
+                          ).buildIcon(size: 18, color: AppColors.n50),
+                          onTap: _toggleMap,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              SliverPadding(
+                padding: EdgeInsets.fromLTRB(
+                  AppSpacing.x5,
+                  AppSpacing.x2,
+                  AppSpacing.x5,
+                  AppSpacing.x8 + media.padding.bottom,
+                ),
+                sliver: SliverToBoxAdapter(
+                  child: GestureDetector(
+                    behavior: HitTestBehavior.opaque,
+                    onHorizontalDragUpdate: widget.onHorizontalDragUpdate,
+                    onHorizontalDragEnd: widget.onHorizontalDragEnd,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        IndexedStack(
-                          index: _showMap ? 1 : 0,
-                          children: [
-                            TrailHeroPager(trail: widget.trail),
-                            TrailHeroMap(
-                              trail: widget.trail,
-                              animateWhenVisible: _showMap,
-                            ),
-                          ],
-                        ),
-                        Positioned(
-                          top: media.padding.top + AppSpacing.x2,
-                          left: AppSpacing.x3,
-                          child: _HeroButton(
-                            tooltip: 'Zurück',
-                            icon: uiEintrag('zurueck').buildIcon(
-                              size: 18,
-                              color: AppColors.n50,
-                            ),
-                            onTap: widget.onClose,
+                        TrailSheetHeader(
+                          trail: widget.trail,
+                          onClose: widget.onClose,
+                          showClose: false,
+                          showHandle: false,
+                          peekActions: TrailSheetPeekActions(
+                            trail: widget.trail,
+                            onTourStarted: widget.onTourStarted,
                           ),
                         ),
-                        Positioned(
-                          top: media.padding.top + AppSpacing.x2,
-                          right: AppSpacing.x3,
-                          child: _HeroButton(
-                            tooltip: _showMap ? 'Fotos zeigen' : 'Karte zeigen',
-                            icon: uiEintrag(
-                              _showMap ? 'bilder' : 'karte',
-                            ).buildIcon(size: 18, color: AppColors.n50),
-                            onTap: _toggleMap,
-                          ),
-                        ),
+                        const SizedBox(height: AppSpacing.x4),
+                        TrailSheetBody(trail: widget.trail),
                       ],
                     ),
                   ),
                 ),
-                SliverPadding(
-                  padding: EdgeInsets.fromLTRB(
-                    AppSpacing.x5,
-                    AppSpacing.x2,
-                    AppSpacing.x5,
-                    AppSpacing.x8 + media.padding.bottom,
-                  ),
-                  sliver: SliverToBoxAdapter(
-                    child: GestureDetector(
-                      behavior: HitTestBehavior.opaque,
-                      onHorizontalDragUpdate: widget.onHorizontalDragUpdate,
-                      onHorizontalDragEnd: widget.onHorizontalDragEnd,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          TrailSheetHeader(
-                            trail: widget.trail,
-                            onClose: widget.onClose,
-                            showClose: false,
-                            showHandle: false,
-                            peekActions: TrailSheetPeekActions(
-                              trail: widget.trail,
-                              onTourStarted: widget.onTourStarted,
-                            ),
-                          ),
-                          const SizedBox(height: AppSpacing.x4),
-                          TrailSheetBody(trail: widget.trail),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
           AnimatedBuilder(
             animation: _scrollController,
@@ -254,11 +250,7 @@ class _HeroButton extends StatelessWidget {
         child: InkWell(
           customBorder: const CircleBorder(),
           onTap: onTap,
-          child: SizedBox(
-            width: 40,
-            height: 40,
-            child: Center(child: icon),
-          ),
+          child: SizedBox(width: 40, height: 40, child: Center(child: icon)),
         ),
       ),
     );

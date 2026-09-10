@@ -1,5 +1,6 @@
-/// Scanbarer Outdoor-Steckbrief + Vorlese-Skript einer Art.
+/// Scanbarer Outdoor-Steckbrief plus Einsprech-Skript (`hoertext`).
 ///
+/// `hoertext` ist Studio-Vorlage, nicht UI. Stimme: docs/audio/GRUND.md
 /// Spec: tools/SPECIES_CONTENT.md
 class SpeciesContent {
   final String hook;

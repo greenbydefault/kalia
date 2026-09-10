@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../shared/scrolling/smooth_scroll.dart';
 import 'app_shell.dart';
 import 'theme/app_theme.dart';
 
@@ -9,9 +10,10 @@ class LehrpfadApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lehrpfade',
+      title: 'Kalia',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
+      scrollBehavior: const SmoothScrollBehavior(),
       home: const AppShell(),
     );
   }

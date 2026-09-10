@@ -1,11 +1,14 @@
 # Öffentlich machen
 
-Living-Index. Store-Go-Live bleibt [`../golive/GRUND.md`](../golive/GRUND.md).
+Living-Index. Store-Go-Live bleibt [`../golive/GRUND.md`](../golive/GRUND.md). Videos, die an Bau-Karten hängen, liegen unter [`../marketing/GRUND.md`](../marketing/GRUND.md).
 
 | Datei | Wann |
 |---|---|
-| [`linkedin.md`](linkedin.md) | Post schreiben, Serie, Spielregeln, Demo-Tür |
-| [`netzwerk.md`](netzwerk.md) | Raus aus der Webflow-Blase, Eltern auf LinkedIn erreichen |
+| [`linkedin.md`](linkedin.md) | Alt: LinkedIn-Spielregeln. Kanal 1 ist Instagram und Google |
+| [`netzwerk.md`](netzwerk.md) | Alt: LinkedIn-Graph. Nicht für die Landing |
+| [`../marketing/GRUND.md`](../marketing/GRUND.md) | Video-Produktion, gekoppelt an Arbeit-Karten |
+
+Landing-Prep (Brief, Struktur, Look, später Copy) liegt lokal unter `docs/intern/landing/`. Gitignore, wie `research/`. Nicht im Remote.
 
 Neu entscheiden → **Log**. Abhaken im **Jetzt**. Post-Entwürfe in `linkedin.md` überschreiben, nicht parallel lagern.
 
@@ -17,20 +20,20 @@ Wir bauen die App, weil wir sie selbst brauchen: mit Kind in der Natur, Sonntagm
 
 Zielgruppe ist dieselbe Lage: **Familien, die rauswollen und schnell etwas Passendes finden.** Nicht Wander-Performance, nicht Komoot-Klon, nicht Naturlexikon.
 
-LinkedIn ist der erste Kanal. Nicht weil da die Familien hängen, sondern weil da schnell Feedback, DMs und die richtigen Leute hängen — und ein Teil davon selbst Eltern ist.
+Kanal 1 ist Instagram und Google. LinkedIn ist für diese Öffentlichkeit tot.
 
 ---
 
 ## Zwei Öffentlichkeiten (nicht vermischen)
 
-| | LinkedIn (jetzt) | Familien (später) |
+| | Instagram / Google | App später |
 |---|---|---|
-| Job | Sichtbarkeit, Feedback, Intros, Tester | Nutzen: rausgehen, finden, los |
-| Artefakt | Screenshot, Clip, ehrlicher Stand | Installierbare App / TestFlight |
-| CTA | Kommentar, DM, „kennst du das?“ | Installieren, merken, gehen |
-| Messbar | DMs, Kommentare, 3–5 Gespräche/Post | Leute, die einen Trail nutzen |
+| Job | Verstehen, Warteliste | Nutzen: rausgehen, finden, los |
+| Artefakt | Landing, ehrlicher Stand | Installierbare App |
+| CTA | Warteliste | Installieren, merken, gehen |
+| Messbar | Einträge auf der Liste | Leute, die einen Trail nutzen |
 
-Post 1 verkauft nichts. Post 1 macht die These öffentlich und öffnet eine Tür (Kommentar/DM). Sobald ein Demo-Ding existiert (Web, TestFlight), kommt die Tür in den CTA.
+Die Landing verkauft keinen Download. Tür = Warteliste. Brief lokal: `docs/intern/landing/copy-brief.md`.
 
 ---
 
@@ -55,7 +58,7 @@ Stand 2026-08-28.
 - [ ] Tür hinter dem Post: DM reicht für Post 1; danach Demo oder Warteliste
 - [ ] Entscheiden: Kind im Bild ja/nein (Gesicht)
 - [ ] Entscheiden: Launch-Region in einem Satz
-- [ ] Produktname: intern weiter „Lehrpfade“, öffentlich noch keins erfinden
+- [x] Produktname: Kalia – Lehrpfade mit Kindern
 
 ---
 
@@ -63,7 +66,7 @@ Stand 2026-08-28.
 
 1. **Kind im Bild.** Geschichte immer. Gesicht: ja / nein / erst später.
 2. **Launch-Region, ein Satz.** Vorschlag: „Brandenburg und Müritz zuerst, Rest kommt wenn der Datensatz sitzt.“ Ausreißer (SPO, Bamberg, Møn) in Posts nicht als Abdeckung verkaufen.
-3. **Produktname.** Nicht in Post 1 erfinden. „Lehrpfade“ intern. Öffentlich: „eine App für …“ reicht.
+3. **Produktname.** Entschieden: Kalia – Lehrpfade mit Kindern. Homescreen/Store-Name Kalia, Untertitel die Rolle.
 4. **Green by Default / Ako** im Post? Nur wenn ihr die Firma mitverkaufen wollt. Origin-Story trägt allein.
 5. **Cadence.** Vorschlag: Post 1, dann nur noch wenn Stoff da ist (neuer Trail, erster Tester, ehrlicher Fail). Kein Content-Kalender.
 6. **Headline.** Dual (App + Webflow) oder App-first für ein paar Wochen. Vorschlag in [`netzwerk.md`](netzwerk.md).
@@ -76,3 +79,10 @@ Stand 2026-08-28.
 |---|---|
 | 2026-08-28 | Kanal 1 = LinkedIn. These = eigenes Bedürfnis mit Kind, Zielgruppe Familien. Store-Launch bleibt getrennt. |
 | 2026-08-28 | Graph ist Webflow — Eltern kommen nicht von allein. Plan: [`netzwerk.md`](netzwerk.md). Ordner statt einer Datei. |
+| 2026-09-01 | Produktname = Kalia, Untertitel = Lehrpfade mit Kindern. Intern nicht mehr „Lehrpfade“ als Produktname. Dart-Package/Ordner/Origin bleiben. |
+| 2026-09-06 | Kanal 1 = Instagram und Google. LinkedIn tot für diese Öffentlichkeit. |
+| 2026-09-06 | Landing: keine Kinderfotos. Abdeckung wächst, zuerst Nordost, nie deutschlandweit als Zustand. Brief lokal unter `docs/intern/landing/`. |
+| 2026-09-06 | Hero = Spiegelkarte (gleicher Katalog, kein Flutter-iframe). Highlights ohne das Wort offline. IA lokal unter `docs/intern/landing/`. |
+| 2026-09-06 | Landing-Prep nach `docs/intern/` (gitignore). GRUND/LinkedIn bleiben im Repo. |
+| 2026-09-06 | Landing-Look: Papier #FFF, B/W plus Highlight-Token (= Tinte bis CI-Hex). Headlines Instrument Serif, Body IBM Plex Sans, Ecken 2px, OSM in Farbe, Hero Desktop Typ \| Karte. Datei lokal `docs/intern/landing/look.md`. |
+| 2026-09-07 | Video-Produktion eigenes Board + Ordner `docs/marketing/`. Gekoppelt an Arbeit-Karten. Stimme bleibt hier. |

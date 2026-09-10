@@ -29,7 +29,7 @@ git push -u github main
 ## 1. Vercel-Projekt
 
 1. https://vercel.com/new → **Continue with GitHub** (nicht Origin)
-2. Repo `ako` importieren
+2. Repo `kalia` importieren (`greenbydefault/kalia`, nicht Origin `likebase/ako`)
 3. Settings:
    - **Framework Preset:** Other
    - **Root Directory:** leer (nicht `lehrpfad_app`)

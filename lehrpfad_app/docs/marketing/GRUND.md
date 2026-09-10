@@ -6,7 +6,9 @@ Living-Index. Stimme und Kanäle bleiben [`../oeffentlich/GRUND.md`](../oeffentl
 |---|---|
 | [`videos/_vorlage.md`](videos/_vorlage.md) | neues Video |
 | [`videos/admin-split.md`](videos/admin-split.md) | Admin raus aus der App |
+| [`videos/sammlung-liste.md`](videos/sammlung-liste.md) | Sammlung browsen, auch ohne Freischaltung |
 | [`videos/baumkronenpfad-hainich.md`](videos/baumkronenpfad-hainich.md) | Erster Thüringen-HAVE, Steg + goldener Pin |
+| [`videos/naturwaldpfad.md`](videos/naturwaldpfad.md) | Zweiter Lübeck-Pin, Lauerholz Israelsdorf |
 
 Neue Form (Reel-Serie, Karussell, Ads) = neuer Unterordner plus Trello-Liste, wenn das erste Stück wirklich kommt. Keine leeren Ordner auf Vorrat.
 

@@ -1,0 +1,1065 @@
+{
+ "id": "waldhusen",
+ "name": "Archäologisch-naturkundlicher Wanderweg",
+ "typ": "wald",
+ "kurzbeschreibung": "Fünfeinhalb Kilometer durch den Waldhusener Forst zu Tafeln an Ringwall, Großsteingrab und Hügelgräbern. Kücknitz, frei.",
+ "beschreibung": "Nordöstlich der Altstadt, im Waldhusener Forst zwischen Kücknitz und Pöppendorf, liegt der archäologisch-naturkundliche Wanderweg. Seit 1995. Tafeln vom Amt für Archäologische Denkmalpflege und vom Stadtforst: Grenzsteine, Moore, ein slawischer Ringwall, ein Großsteingrab, Hügelgräber, am Schluss das Lager Pöppendorf. Die Übersichtskarte zählt 21 Stationen, in der App stehen die mit Koordinaten. Waldweg, nass an den Mooren, Kinderwagen und Rollstuhl eher nicht. Immer frei, ohne Anmeldung. Die Pflege lag eine Weile still und läuft seit 2018 wieder, Schilder können fehlen. Rittbrookpfad und Naturwaldpfad sind der andere Stadtwald, Lauerholz, andere Starts. Hunde anleinen, auf den Wegen bleiben.",
+ "laengeKm": 5.5,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Nummerierte Schautafeln / Waldweg",
+ "betreiber": "Amt für Archäologische Denkmalpflege / Stadtforst Lübeck",
+ "region": "Waldhusener Forst, Kücknitz / Pöppendorf, Lübeck",
+ "website": "https://de.wikipedia.org/wiki/Archäologisch-naturkundlicher_Wanderweg_Lübeck",
+ "anreise": "Zwei Einstiege. Übersichtskarte und Lager Pöppendorf am südwestlichen Waldrand, 23569 Lübeck-Kücknitz. Zweiter Einstieg: Parkplatz Am Ringwall, Pöppendorf, an der Straße zum Ringwall. Bus Richtung Kücknitz / Pöppendorf, nicht Israelsdorf und nicht Am Rittbrook. Rittbrookpfad und Naturwaldpfad starten im Lauerholz, das ist der andere Wald.",
+ "startName": "Übersichtskarte / Waldhusener Forst",
+ "arten": [
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.922537,
+   10.793199
+  ],
+  [
+   53.922615,
+   10.793084
+  ],
+  [
+   53.922894,
+   10.792647
+  ],
+  [
+   53.923094,
+   10.792335
+  ],
+  [
+   53.923278,
+   10.792009
+  ],
+  [
+   53.923478,
+   10.791526
+  ],
+  [
+   53.923754,
+   10.791105
+  ],
+  [
+   53.924026,
+   10.790997
+  ],
+  [
+   53.92447,
+   10.791017
+  ],
+  [
+   53.924678,
+   10.790745
+  ],
+  [
+   53.925034,
+   10.790127
+  ],
+  [
+   53.925354,
+   10.789742
+  ],
+  [
+   53.925462,
+   10.789665
+  ],
+  [
+   53.92563,
+   10.789591
+  ],
+  [
+   53.927007,
+   10.789417
+  ],
+  [
+   53.927201,
+   10.789338
+  ],
+  [
+   53.927251,
+   10.789323
+  ],
+  [
+   53.927499,
+   10.789266
+  ],
+  [
+   53.927851,
+   10.789193
+  ],
+  [
+   53.928179,
+   10.789264
+  ],
+  [
+   53.928355,
+   10.789371
+  ],
+  [
+   53.928421,
+   10.791242
+  ],
+  [
+   53.928538,
+   10.792312
+  ],
+  [
+   53.928641,
+   10.793834
+  ],
+  [
+   53.928639,
+   10.79526
+  ],
+  [
+   53.928635,
+   10.795458
+  ],
+  [
+   53.928508,
+   10.795376
+  ],
+  [
+   53.928281,
+   10.795259
+  ],
+  [
+   53.927968,
+   10.79503
+  ],
+  [
+   53.927707,
+   10.794895
+  ],
+  [
+   53.927567,
+   10.794745
+  ],
+  [
+   53.927063,
+   10.794468
+  ],
+  [
+   53.926966,
+   10.794449
+  ],
+  [
+   53.926934,
+   10.794461
+  ],
+  [
+   53.926949,
+   10.795477
+  ],
+  [
+   53.92676,
+   10.795854
+  ],
+  [
+   53.926894,
+   10.796219
+  ],
+  [
+   53.92691,
+   10.796344
+  ],
+  [
+   53.926923,
+   10.796479
+  ],
+  [
+   53.926954,
+   10.796639
+  ],
+  [
+   53.926875,
+   10.796916
+  ],
+  [
+   53.926775,
+   10.79727
+  ],
+  [
+   53.927177,
+   10.797848
+  ],
+  [
+   53.92739,
+   10.798343
+  ],
+  [
+   53.927594,
+   10.798895
+  ],
+  [
+   53.927826,
+   10.799168
+  ],
+  [
+   53.927901,
+   10.799256
+  ],
+  [
+   53.928479,
+   10.799623
+  ],
+  [
+   53.92818,
+   10.800436
+  ],
+  [
+   53.927907,
+   10.801653
+  ],
+  [
+   53.927806,
+   10.802273
+  ],
+  [
+   53.927862,
+   10.802335
+  ],
+  [
+   53.927922,
+   10.802454
+  ],
+  [
+   53.927928,
+   10.803335
+  ],
+  [
+   53.927943,
+   10.804138
+  ],
+  [
+   53.927954,
+   10.804855
+  ],
+  [
+   53.927944,
+   10.804963
+  ],
+  [
+   53.927926,
+   10.805052
+  ],
+  [
+   53.92787,
+   10.805194
+  ],
+  [
+   53.927664,
+   10.805631
+  ],
+  [
+   53.927359,
+   10.806235
+  ],
+  [
+   53.927348,
+   10.806256
+  ],
+  [
+   53.927299,
+   10.806355
+  ],
+  [
+   53.927278,
+   10.806436
+  ],
+  [
+   53.927259,
+   10.806539
+  ],
+  [
+   53.92726,
+   10.806689
+  ],
+  [
+   53.927278,
+   10.806883
+  ],
+  [
+   53.92738,
+   10.807748
+  ],
+  [
+   53.927467,
+   10.808524
+  ],
+  [
+   53.927569,
+   10.809419
+  ],
+  [
+   53.927623,
+   10.809949
+  ],
+  [
+   53.927651,
+   10.810161
+  ],
+  [
+   53.927683,
+   10.810299
+  ],
+  [
+   53.927729,
+   10.810431
+  ],
+  [
+   53.927799,
+   10.810539
+  ],
+  [
+   53.927874,
+   10.810614
+  ],
+  [
+   53.928026,
+   10.810715
+  ],
+  [
+   53.928199,
+   10.810807
+  ],
+  [
+   53.928554,
+   10.810997
+  ],
+  [
+   53.928847,
+   10.81116
+  ],
+  [
+   53.929389,
+   10.811449
+  ],
+  [
+   53.92951,
+   10.811509
+  ],
+  [
+   53.929826,
+   10.811687
+  ],
+  [
+   53.930609,
+   10.812092
+  ],
+  [
+   53.930677,
+   10.812137
+  ],
+  [
+   53.930734,
+   10.812235
+  ],
+  [
+   53.930763,
+   10.812323
+  ],
+  [
+   53.930734,
+   10.812235
+  ],
+  [
+   53.930677,
+   10.812137
+  ],
+  [
+   53.930609,
+   10.812092
+  ],
+  [
+   53.929826,
+   10.811687
+  ],
+  [
+   53.92951,
+   10.811509
+  ],
+  [
+   53.929389,
+   10.811449
+  ],
+  [
+   53.928847,
+   10.81116
+  ],
+  [
+   53.928554,
+   10.810997
+  ],
+  [
+   53.928199,
+   10.810807
+  ],
+  [
+   53.928026,
+   10.810715
+  ],
+  [
+   53.927874,
+   10.810614
+  ],
+  [
+   53.927799,
+   10.810539
+  ],
+  [
+   53.927729,
+   10.810431
+  ],
+  [
+   53.927683,
+   10.810299
+  ],
+  [
+   53.927651,
+   10.810161
+  ],
+  [
+   53.927623,
+   10.809949
+  ],
+  [
+   53.9274,
+   10.8101
+  ],
+  [
+   53.927346,
+   10.810202
+  ],
+  [
+   53.927305,
+   10.810362
+  ],
+  [
+   53.92723,
+   10.810506
+  ],
+  [
+   53.927098,
+   10.810634
+  ],
+  [
+   53.926974,
+   10.810711
+  ],
+  [
+   53.926827,
+   10.810793
+  ],
+  [
+   53.926752,
+   10.810824
+  ],
+  [
+   53.926562,
+   10.810816
+  ],
+  [
+   53.926513,
+   10.810817
+  ],
+  [
+   53.926435,
+   10.81079
+  ],
+  [
+   53.926249,
+   10.810776
+  ],
+  [
+   53.925949,
+   10.810819
+  ],
+  [
+   53.925836,
+   10.810825
+  ],
+  [
+   53.925795,
+   10.810808
+  ],
+  [
+   53.925764,
+   10.810759
+  ],
+  [
+   53.925676,
+   10.810669
+  ],
+  [
+   53.925623,
+   10.810538
+  ],
+  [
+   53.92558,
+   10.810507
+  ],
+  [
+   53.925537,
+   10.810525
+  ],
+  [
+   53.925275,
+   10.810467
+  ],
+  [
+   53.925058,
+   10.810518
+  ],
+  [
+   53.925024,
+   10.810552
+  ],
+  [
+   53.924976,
+   10.810578
+  ],
+  [
+   53.924916,
+   10.810557
+  ],
+  [
+   53.924884,
+   10.810533
+  ],
+  [
+   53.924833,
+   10.810602
+  ],
+  [
+   53.924709,
+   10.810586
+  ],
+  [
+   53.924608,
+   10.810303
+  ],
+  [
+   53.924459,
+   10.809927
+  ],
+  [
+   53.924388,
+   10.809813
+  ],
+  [
+   53.924325,
+   10.80962
+  ],
+  [
+   53.924203,
+   10.80929
+  ],
+  [
+   53.924081,
+   10.80914
+  ],
+  [
+   53.923992,
+   10.808941
+  ],
+  [
+   53.923855,
+   10.808635
+  ],
+  [
+   53.92377,
+   10.808518
+  ],
+  [
+   53.923583,
+   10.808335
+  ],
+  [
+   53.923433,
+   10.808104
+  ],
+  [
+   53.923218,
+   10.80775
+  ],
+  [
+   53.92312,
+   10.807585
+  ],
+  [
+   53.922911,
+   10.807202
+  ],
+  [
+   53.922703,
+   10.806618
+  ],
+  [
+   53.922677,
+   10.806305
+  ],
+  [
+   53.922655,
+   10.806197
+  ],
+  [
+   53.922492,
+   10.805378
+  ],
+  [
+   53.922396,
+   10.805078
+  ],
+  [
+   53.922117,
+   10.80404
+  ],
+  [
+   53.922087,
+   10.803897
+  ],
+  [
+   53.92196,
+   10.803223
+  ],
+  [
+   53.921778,
+   10.802487
+  ],
+  [
+   53.92171,
+   10.802159
+  ],
+  [
+   53.92157,
+   10.801758
+  ],
+  [
+   53.921363,
+   10.801441
+  ],
+  [
+   53.92168,
+   10.800663
+  ],
+  [
+   53.922122,
+   10.79982
+  ],
+  [
+   53.92168,
+   10.800663
+  ],
+  [
+   53.921261,
+   10.80018
+  ],
+  [
+   53.920934,
+   10.799743
+  ],
+  [
+   53.920495,
+   10.798971
+  ],
+  [
+   53.920368,
+   10.798706
+  ],
+  [
+   53.920778,
+   10.798183
+  ],
+  [
+   53.92125,
+   10.797799
+  ],
+  [
+   53.921341,
+   10.797157
+  ],
+  [
+   53.921747,
+   10.796419
+  ],
+  [
+   53.922348,
+   10.79559
+  ],
+  [
+   53.92251,
+   10.795331
+  ],
+  [
+   53.922817,
+   10.794849
+  ],
+  [
+   53.922946,
+   10.794442
+  ],
+  [
+   53.922957,
+   10.794408
+  ],
+  [
+   53.922919,
+   10.794353
+  ],
+  [
+   53.922607,
+   10.793755
+  ],
+  [
+   53.922386,
+   10.793331
+  ],
+  [
+   53.922336,
+   10.793235
+  ],
+  [
+   53.922537,
+   10.793199
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 3399641147,
+   "lat": 53.9225397,
+   "lon": 10.7930888,
+   "km": 0.0,
+   "titel": "Übersichtskarte",
+   "thema": "21 Stationen im Waldhusener Forst",
+   "kurztext": "Hier hängt die Karte. 21 Nummern, von der Forstgeschichte bis zum Lager. Nicht jede Tafel steht noch. Die Hügel, der Wall und das Steingrab bleiben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 412699729,
+   "lat": 53.9243114,
+   "lon": 10.7911094,
+   "km": 0.27,
+   "titel": "Waldhusener Forstgeschichte",
+   "thema": "Waldschutz im 18. Jahrhundert",
+   "kurztext": "Holz wurde knapp, der Rat hat den Forst unter Schutz gestellt. Die Tafel erzählt, was passiert, wenn eine Stadt ihren Wald leer räumt und dann umkehrt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 412699730,
+   "lat": 53.9284637,
+   "lon": 10.7895768,
+   "km": 0.74,
+   "titel": "Altes Wegesystem",
+   "thema": "Hohlweg und Flurwechsel im 19. Jahrhundert",
+   "kurztext": "Der Weg liegt tiefer als der Wald daneben. Fuhrwerke, Jahrhunderte. Im 19. Jahrhundert haben sie das Wegenetz umgelegt. Die Tafel zeigt alt und neu übereinander.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 1630099819,
+   "lat": 53.9293592,
+   "lon": 10.7905832,
+   "km": 0.86,
+   "titel": "Grenzstein Nr. 29",
+   "thema": "Grenze Lübeck–Oldenburg, 1804",
+   "kurztext": "Ein Stein, zwei Wappen. 1804, Vertrag mit Oldenburg. Von siebzig Steinen stehen noch neun, drei davon am alten Platz. Dieser ist einer.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 3399642496,
+   "lat": 53.9278567,
+   "lon": 10.7924525,
+   "km": 0.94,
+   "titel": "Waldwirtschaft",
+   "thema": "Buchenwald, der nicht aufgeräumt wird",
+   "kurztext": "Rotbuchen, Totholz, wenig Unterwuchs. Die Tafel trennt, was der Forst macht und was der Bestand allein macht. Blatt oval, Rand glatt, Rinde grau.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 3450110151,
+   "lat": 53.9267328,
+   "lon": 10.7965565,
+   "km": 1.49,
+   "titel": "Hügelgräber Herrenberg",
+   "thema": "Neun Hügel der jüngeren Bronzezeit",
+   "kurztext": "Neun Buckel im Wald, der Weg heißt hier Reich der Toten. Jüngere Bronzezeit. Drunter Bestattungen, oben Laub. Nicht raufklettern, der Hügel ist der Fund.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 3450110116,
+   "lat": 53.9280026,
+   "lon": 10.8050323,
+   "km": 2.17,
+   "titel": "Das Pöppendorfer Herrenmoor",
+   "thema": "Eiszeitsenke, Torf bis 1925",
+   "kurztext": "Eine Senke aus der Eiszeit, nass, Torf bis 1925. Was du siehst, ist kein Urwald-Moor. Es ist ein Loch, aus dem Leute Brennstoff geholt haben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 3436551014,
+   "lat": 53.9272787,
+   "lon": 10.8062294,
+   "km": 2.28,
+   "titel": "Großsteingrab Steinhusen",
+   "thema": "Megalithgrab, rund 5500 Jahre",
+   "kurztext": "Kammer aus Findlingen, der Erdhügel ist seit 1843 weg. Erste Grabung hat die Decke abgetragen, damit man reinkommt. Die Steine sind der Rest.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 3450110117,
+   "lat": 53.9274645,
+   "lon": 10.8081027,
+   "km": 2.38,
+   "titel": "Der Os",
+   "thema": "Wall aus der Eiszeit",
+   "kurztext": "Kein Grab, kein Wall von Menschen. Ein Os: Schmelzwasser hat Kies in einem Tunnel unter dem Eis abgelegt. Als das Eis weg war, blieb der Rücken.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 3450110119,
+   "lat": 53.928111,
+   "lon": 10.810844,
+   "km": 2.62,
+   "titel": "Die Siedlung vor dem Ringwall",
+   "thema": "Vorburg und Alltag unter dem Wall",
+   "kurztext": "Nicht jeder hat auf dem Wall gewohnt. Davor lag die Siedlung. Die Tafel holt die Leute vom Burgblick runter in den Alltag: Häuser, Wege, Felder.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 2014748260,
+   "lat": 53.931087,
+   "lon": 10.8124201,
+   "km": 2.92,
+   "titel": "Pöppendorfer Ringwall",
+   "thema": "Slawische Burg",
+   "kurztext": "Ein Ring aus Erde, Treppe auf die Krone. Slawen, vor den Deutschen. Von oben siehst du, warum man hier gebaut hat: Überblick, nasse Senken drumherum.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 3450110115,
+   "lat": 53.9254441,
+   "lon": 10.8104396,
+   "km": 3.58,
+   "titel": "Das Pöppendorfer Bauernmoor",
+   "thema": "Abgetorft bis zum Wasserloch",
+   "kurztext": "Hier haben sie so tief gestochen, dass Wasser blieb. Kein See von der Eiszeit, ein Arbeitsunfall der Torfwirtschaft. Enten sitzen trotzdem.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": 3450110118,
+   "lat": 53.9247112,
+   "lon": 10.8106327,
+   "km": 3.68,
+   "titel": "Slawische Hügelgräber Pöppendorfer Hals",
+   "thema": "Gräber des 8. bis 10. Jahrhunderts",
+   "kurztext": "Hügel auf dem schmalen Rücken zwischen den Mooren. 8. bis 10. Jahrhundert, slawisch, jünger als die Bronzezeit-Hügel am Herrenberg. Dieselbe Form, andere Leute.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  },
+  {
+   "osmId": 3450110192,
+   "lat": 53.9222252,
+   "lon": 10.8046085,
+   "km": 4.13,
+   "titel": "Drei Hügelgräber aus der Bronzezeit",
+   "thema": "Waffen, Werkzeug, Schmuck",
+   "kurztext": "Drei Hügel, Bronzezeit. Die Tafel zeigt, was mit in die Erde ging: Klinge, Nadel, Ton. Die Körper sind weg, die Beigaben erzählen den Stand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 14
+  },
+  {
+   "osmId": 3450110191,
+   "lat": 53.9221209,
+   "lon": 10.8000112,
+   "km": 4.53,
+   "titel": "Zwei Hügelgräber aus der Bronzezeit",
+   "thema": "Siedlung, Acker, Handel",
+   "kurztext": "Noch zwei Hügel, dasselbe Jahrtausend. Diesmal nicht die Gräber selbst, sondern wer hier gelebt hat: Hof, Feld, Tausch. Die Toten liegen im Wald der Lebenden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 15
+  },
+  {
+   "osmId": 7838732580,
+   "lat": 53.92117,
+   "lon": 10.7977366,
+   "km": 4.92,
+   "titel": "Grenzverlauf Kücknitz und Pöppendorf",
+   "thema": "Kleine Wälle und ein Tordurchlass",
+   "kurztext": "Nicht die Staatsgrenze von Stein 29. Hier teilen sich zwei Dörfer den Wald. Kleine Wälle, ein Durchlass. Die Gemarkung ist älter als die Tafeln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 16
+  },
+  {
+   "osmId": 7838732581,
+   "lat": 53.9217641,
+   "lon": 10.7965517,
+   "km": 5.03,
+   "titel": "Philosophenweg und Philosophengrund",
+   "thema": "Emanuel Geibel im Waldhusener Forst",
+   "kurztext": "Emanuel Geibel ist hier gelaufen, zwei Gedichte sollen von diesem Weg stammen. Der Name blieb. Der Wald war schon vorher da.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 17
+  },
+  {
+   "osmId": 3700757318,
+   "lat": 53.9225148,
+   "lon": 10.7934551,
+   "km": 5.31,
+   "titel": "Lager Pöppendorf",
+   "thema": "Flüchtlingslager 1945–1951",
+   "kurztext": "150 Baracken, bis zu 5000 Menschen gleichzeitig, 1945 bis 1951. Heute Parkplatz und Tafel. Fundamentreste, wenn du weißt, wo du hinsehen sollst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 18
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 339606239,
+   "lat": 53.9307613,
+   "lon": 10.8121999,
+   "kategorie": "parking",
+   "name": "Parkplatz Am Ringwall"
+  },
+  {
+   "osmId": 343152721,
+   "lat": 53.9244192,
+   "lon": 10.8109929,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2014748194,
+   "lat": 53.931058,
+   "lon": 10.8124651,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3450110126,
+   "lat": 53.922426,
+   "lon": 10.8050026,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12605426884,
+   "lat": 53.9270327,
+   "lon": 10.8057021,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12861988048,
+   "lat": 53.9204717,
+   "lon": 10.7986976,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3399641171,
+   "lat": 53.9227006,
+   "lon": 10.7934421,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ],
+ "bilderAsset": "assets/images/trails/waldhusen/credits.json"
+}

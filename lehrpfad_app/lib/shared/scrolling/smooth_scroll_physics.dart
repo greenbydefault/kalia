@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-/// Gedämpfte Fling-Physics für Trail-Detail-Scrolls.
+/// Gedämpfte Fling-Physics für App-Scrolls.
 ///
 /// Nur die ballistische Simulation (Fling) wird angepasst — der Drag selbst
-/// bleibt unverändert, damit DraggableScrollableSheet-Gesten nicht zäh werden.
+/// bleibt unverändert.
 ///
 /// Tuning: [velocityFactor] und [maxVelocity] unten.
 class SmoothScrollPhysics extends ScrollPhysics {
@@ -25,10 +25,7 @@ class SmoothScrollPhysics extends ScrollPhysics {
     ScrollMetrics position,
     double velocity,
   ) {
-    final damped = (velocity * velocityFactor).clamp(
-      -maxVelocity,
-      maxVelocity,
-    );
+    final damped = (velocity * velocityFactor).clamp(-maxVelocity, maxVelocity);
     return super.createBallisticSimulation(position, damped.toDouble());
   }
 }

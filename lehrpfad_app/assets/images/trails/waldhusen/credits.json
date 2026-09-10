@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-forst.jpg",
+    "caption": "Waldhusener Forst bei Lübeck.",
+    "credit": "Anjalorenz",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaldhusener_Forst.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-grenzstein.jpg",
+    "caption": "Grenzstein Nr. 29 im Waldhusener Forst.",
+    "credit": "HJunghans",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenzstein_Waldhusen.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-ringwall-treppe.jpg",
+    "caption": "Treppe auf den Pöppendorfer Ringwall.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-p%C3%B6ppendorf-p%C3%B6ppendorfer-ringwall-treppe.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-ringwall-krone.jpg",
+    "caption": "Wallkrone des Pöppendorfer Ringwalls.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-p%C3%B6ppendorf-p%C3%B6ppendorfer-ringwall-wallkrone.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-grosssteingrab.jpg",
+    "caption": "Pöppendorfer Großsteingrab im Waldhusener Forst.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-p%C3%B6ppendorf-p%C3%B6ppendorfer-gro%C3%9Fsteingrab.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-steinring.jpg",
+    "caption": "Steinring am Pöppendorfer Großsteingrab.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-p%C3%B6ppendorf-p%C3%B6ppendorfer-gro%C3%9Fsteingrab-steinring.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-stele.jpg",
+    "caption": "Infostele am Pöppendorfer Großsteingrab.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-p%C3%B6ppendorf-p%C3%B6ppendorfer-gro%C3%9Fsteingrab-informationsstele.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "08-parkplatz.jpg",
+    "caption": "Parkplatz am ehemaligen Lager Pöppendorf.",
+    "credit": "Roland.h.bueb",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%BCbeck-lager-p%C3%B6ppendorf-parkplatz-und-stra%C3%9Fe.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "09-lager.jpg",
+    "caption": "Station Lager Pöppendorf im Waldhusener Forst.",
+    "credit": "Ckhl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A21_Das_P%C3%B6ppendorfer_Lager.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "10-wald.jpg",
+    "caption": "Buchenwald im Waldhusener Forst.",
+    "credit": "Kresspahl",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForstWaldhusen04.JPG",
+    "kind": "art"
+  }
+]

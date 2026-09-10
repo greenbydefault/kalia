@@ -63,25 +63,6 @@ class SpeciesContentView extends StatelessWidget {
           AudioPlayerControl(assetPath: audioPath),
           const SizedBox(height: 16),
         ],
-        if (c.hoertext.trim().isNotEmpty) ...[
-          Theme(
-            data: theme.copyWith(dividerColor: Colors.transparent),
-            child: ExpansionTile(
-              tilePadding: EdgeInsets.zero,
-              childrenPadding: const EdgeInsets.only(bottom: 8),
-              title: Text(
-                'Text zum Vorlesen',
-                style: theme.textTheme.titleSmall,
-              ),
-              children: [
-                Text(
-                  c.hoertext,
-                  style: theme.textTheme.bodyMedium?.copyWith(height: 1.45),
-                ),
-              ],
-            ),
-          ),
-        ],
       ],
     );
   }

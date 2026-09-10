@@ -5,6 +5,7 @@ Digitale Begleit-App für Naturlehrpfade: Karte, Arten, Tour-Status und Communit
 Go-Live-Backlog: `docs/golive/GRUND.md`.
 Web-Preview (GitHub → Vercel Hobby): `docs/golive/vercel.md`.
 Öffentlich / Stimme / Kanäle: `docs/oeffentlich/GRUND.md`.
+Hörtexte: Einsprech-Skript, Play. Stimme `docs/audio/GRUND.md` (Belege `docs/audio/quellen.md`).
 Videos an Produkt koppeln: `docs/marketing/GRUND.md` (Board [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing)).
 
 ## Language
@@ -28,6 +29,10 @@ _Avoid_: Tag `eintritt` (Chip wäre doppelt); alte Ticket-NOGOs wieder öffnen; 
 **Species-`kategorie`**:
 `flora` \| `fauna` \| `geraete`. Geräte-Icons über `geraeteKatalog` + optional `iconKey` — nicht Phosphor hardcoden.
 _Avoid_: Standard-Spielgeräte (Schaukel/Rutsche) als `geraete`-Steckbriefe
+
+**Hörtext**:
+Einsprech-Skript in `content.hoertext` (Arten/Geräte) bzw. Trail-`hoertext`. Nutzer drückt Play. Stimme: `docs/audio/GRUND.md`. Limits in den Content-Specs.
+_Avoid_: Lesetext in der UI; Scan-Bullets einsprechen; Instagram-Caption; Podcast; Floskel-Schluss („nimm den Ort mit allen Sinnen wahr“)
 
 **Merkmal**:
 Geteiltes Badge einer Art (Aussehen / Verhalten / Rolle / Lebensraum). Eigene Tabelle `merkmale` + M2M `species_merkmale`; viele Arten tragen dasselbe Merkmal. Icon über `iconKey` in `merkmaleKatalog` — Phosphor-Platzhalter, kein Snappit-Schild-Look.

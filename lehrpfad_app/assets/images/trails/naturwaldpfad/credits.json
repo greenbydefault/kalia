@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-depenmoor.jpg",
+    "caption": "Depenmoor im Lauerholz.",
+    "credit": "Kresspahl",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALauerholzDepenmoor.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-schwedenschanze.jpg",
+    "caption": "Schwedenschanze im Lauerholz.",
+    "credit": "Günter Klug",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchwedenschanze1041.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-wegweiser.jpg",
+    "caption": "Wegweiser im Lauerholz Richtung Schwerin.",
+    "credit": "Kresspahl",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASignSchwerinLauerholz.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-jahneiche.jpg",
+    "caption": "Grenzstein an der Jahneiche, Lauerholz.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJt_germany_luebeck_grenzstein_jahneiche.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-witthauerstein.jpg",
+    "caption": "Witthauerstein im Lauerholz.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJt_germany_luebeck_witthauerstein.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-bruecke.jpg",
+    "caption": "Brücke im Lauerholz.",
+    "credit": "Meenybrad",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABridgeLauerholz.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-buche-lustholz.jpg",
+    "caption": "Rotbuche im Lustholz, Lübeck.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuebeck_Buche_Lustholz.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-rotbuchen.jpg",
+    "caption": "Zwei Rotbuchen, Naturdenkmal in Lübeck.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuebeck_Monument_2Rotbuchen.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-douglasie.jpg",
+    "caption": "Douglasie, Nadeln und Zapfen.",
+    "credit": "Sciencia58",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APseudotsuga_menziesii_-_Douglasie.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-fichte.jpg",
+    "caption": "Fichte, Nadeln und hängende Zapfen.",
+    "credit": "Danny Steaven",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFichte35321.JPG",
+    "kind": "art"
+  }
+]
