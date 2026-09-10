@@ -54,7 +54,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(34));
+    expect(trails, hasLength(38));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -86,6 +86,10 @@ void main() {
         'baumkronenpfad-hainich',
         'archaeologischer-wanderpfad-fischbek',
         'rittbrookpfad',
+        'naturwaldpfad',
+        'waldhusen',
+        'schwartautal',
+        'oher-graeberfeld',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -553,6 +557,64 @@ void main() {
     expect(trail.bilder.length, inInclusiveRange(8, 12));
     for (final bild in trail.bilder) {
       expectVariantFiles('rittbrookpfad', bild);
+    }
+  });
+
+  test('Schwartautal: 7 Stationen, Bad Schwartau, Rundkurs', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'schwartautal');
+    expect(trail.typ, 'walderlebnispfad');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.region, contains('Bad Schwartau'));
+    expect(trail.stationen.length, 7);
+    expect(trail.arten, containsAll(['Schwarzerle', 'Rotbuche', 'Libelle']));
+    expect(trail.stationen.first.titel, 'Übersichtskarte');
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Gert-Kayser-Weg',
+        'Grünes Klassenzimmer',
+        'Märchenbuch',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(53.922, 0.02));
+    expect(trail.start.longitude, closeTo(10.702, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('schwartautal', bild);
+    }
+  });
+
+  test('Oher Gräberfeld: 6 Stationen, Stormarn, Rundkurs', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'oher-graeberfeld');
+    expect(trail.typ, 'wald');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.region, contains('Reinbek-Ohe'));
+    expect(trail.stationen.length, 6);
+    expect(trail.arten, containsAll(['Buntspecht', 'Rotbuche']));
+    expect(trail.stationen.first.titel, 'Waldparkplatz');
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll(['Eiszeit', 'Schalenstein', 'Langbett']),
+    );
+    expect(trail.start.latitude, closeTo(53.552, 0.02));
+    expect(trail.start.longitude, closeTo(10.290, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('oher-graeberfeld', bild);
     }
   });
 

@@ -113,6 +113,8 @@ flutter:
     - assets/images/trails/rittbrookpfad/
     - assets/images/trails/naturwaldpfad/
     - assets/images/trails/waldhusen/
+    - assets/images/trails/schwartautal/
+    - assets/images/trails/oher-graeberfeld/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

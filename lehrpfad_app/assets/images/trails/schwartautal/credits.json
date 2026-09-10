@@ -1,0 +1,101 @@
+[
+  {
+    "file": "01-kurpark.jpg",
+    "caption": "Holzbrücke über den Kurparksee.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209881.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-weg.jpg",
+    "caption": "Kurparksee mit Seerosenblättern.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209886.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-bestand.jpg",
+    "caption": "Wiese hinter dem Kurparksee.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209901.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-see.jpg",
+    "caption": "Schwartau am Kurpark.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209936.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-hang.jpg",
+    "caption": "Ufer am Kurparksee.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209938.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-wiese.jpg",
+    "caption": "Ufersteilwand am Kurparksee.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209943.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-lichtung.jpg",
+    "caption": "Bohlenweg durchs Schilf.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209955.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "08-altarm.jpg",
+    "caption": "Altarm der Schwartau im März.",
+    "credit": "Hans-Peter Balfanz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAltarm%20der%20Schwartau%20im%20Schwartautal%20M%C3%A4rz%202022.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-erle.jpg",
+    "caption": "Schwarzerle.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlnus%20glutinosa%20Z%C4%85bki.JPG",
+    "kind": "art"
+  },
+  {
+    "file": "10-buche.jpg",
+    "caption": "Rotbuche, junge Blätter.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "11-libelle.jpg",
+    "caption": "Gebänderte Prachtlibelle, Männchen.",
+    "credit": "Tbc",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalopteryx%20splendens%20male.jpg",
+    "kind": "art"
+  }
+]

@@ -1,0 +1,448 @@
+{
+ "id": "schwartautal",
+ "name": "Naturerlebnisraum Schwartautal",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Drei Kilometer um Kurparksee und Schwartauwiesen. Märchenbuch, Baumtelefon, Bohlenweg. Start am Kurpark, frei.",
+ "beschreibung": "Direkt nördlich von Lübeck, in Bad Schwartau, startet der Naturerlebnisraum am Kurparksee. Rund drei Kilometer, Markierung Zaunkönig. Der Weg geht durch den alten Laubwald am Mönchkamp und zurück in die Schwartauwiesen. Mitmach-Stationen: Märchenbuch, Reisigburg mit Baumtelefon, Bohlenweg mit Holztieren, Grünes Klassenzimmer mit Schautafeln und Bienenwand. Immer frei, ohne Anmeldung. Führungen gibt es extra, die brauchst du nicht. Der Bohlenweg ist Holz, nass, schmal, Rollstuhl und Kinderwagen eher nicht. Hunde anleinen. Zecken, nasse Wiesen, auf den Stegen bleiben. Rittbrookpfad und Naturwaldpfad liegen im Lauerholz, das ist der andere Wald, andere Stadt.",
+ "laengeKm": 3.0,
+ "dauerMin": 75,
+ "rundkurs": true,
+ "markierung": "Runde Schilder mit Zaunkönig",
+ "betreiber": "Stadt Bad Schwartau",
+ "region": "Schwartautal, Bad Schwartau, Ostholstein",
+ "website": "https://www.bad-schwartau.de/Kultur-Natur/Natur-erleben/Naturerlebnisraum-Natura-2000/",
+ "anreise": "Start Übersichtskarte am Kurparksee, Am Kurpark / Holstein Therme, 23611 Bad Schwartau. Parken am Parkhaus der Klinik und an der Geibelstraße. Zweiter Einstieg: Parkplatz Riesebusch, Höhe Grünes Klassenzimmer. Bus nach Bad Schwartau Markt, nicht die Haltestellen im Lübecker Lauerholz.",
+ "startName": "Übersichtskarte / Kurparksee",
+ "arten": [
+  "Schwarzerle",
+  "Rotbuche",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.921543,
+   10.701832
+  ],
+  [
+   53.92133,
+   10.701902
+  ],
+  [
+   53.920977,
+   10.701974
+  ],
+  [
+   53.92057,
+   10.702211
+  ],
+  [
+   53.920461,
+   10.702284
+  ],
+  [
+   53.920723,
+   10.702642
+  ],
+  [
+   53.920857,
+   10.702986
+  ],
+  [
+   53.921054,
+   10.703558
+  ],
+  [
+   53.921459,
+   10.703859
+  ],
+  [
+   53.921571,
+   10.703938
+  ],
+  [
+   53.922127,
+   10.704002
+  ],
+  [
+   53.922579,
+   10.704053
+  ],
+  [
+   53.922806,
+   10.704326
+  ],
+  [
+   53.922877,
+   10.704623
+  ],
+  [
+   53.92325,
+   10.704765
+  ],
+  [
+   53.923287,
+   10.705801
+  ],
+  [
+   53.923637,
+   10.705918
+  ],
+  [
+   53.924107,
+   10.705665
+  ],
+  [
+   53.924523,
+   10.705289
+  ],
+  [
+   53.924918,
+   10.704977
+  ],
+  [
+   53.925369,
+   10.704774
+  ],
+  [
+   53.92554,
+   10.705381
+  ],
+  [
+   53.925571,
+   10.706061
+  ],
+  [
+   53.925616,
+   10.706465
+  ],
+  [
+   53.925688,
+   10.707127
+  ],
+  [
+   53.925815,
+   10.707417
+  ],
+  [
+   53.925904,
+   10.707725
+  ],
+  [
+   53.925855,
+   10.708152
+  ],
+  [
+   53.92581,
+   10.708696
+  ],
+  [
+   53.925988,
+   10.709196
+  ],
+  [
+   53.926022,
+   10.709448
+  ],
+  [
+   53.926027,
+   10.70964
+  ],
+  [
+   53.926026,
+   10.710189
+  ],
+  [
+   53.925416,
+   10.710544
+  ],
+  [
+   53.925042,
+   10.710691
+  ],
+  [
+   53.924652,
+   10.710844
+  ],
+  [
+   53.925042,
+   10.710691
+  ],
+  [
+   53.925416,
+   10.710544
+  ],
+  [
+   53.926026,
+   10.710189
+  ],
+  [
+   53.926398,
+   10.709964
+  ],
+  [
+   53.926979,
+   10.709549
+  ],
+  [
+   53.927197,
+   10.709513
+  ],
+  [
+   53.927022,
+   10.709125
+  ],
+  [
+   53.926827,
+   10.708838
+  ],
+  [
+   53.926629,
+   10.708415
+  ],
+  [
+   53.926564,
+   10.708003
+  ],
+  [
+   53.926577,
+   10.707499
+  ],
+  [
+   53.926609,
+   10.706992
+  ],
+  [
+   53.926634,
+   10.70643
+  ],
+  [
+   53.926615,
+   10.706152
+  ],
+  [
+   53.926996,
+   10.705072
+  ],
+  [
+   53.927361,
+   10.704013
+  ],
+  [
+   53.927726,
+   10.702954
+  ],
+  [
+   53.928091,
+   10.701895
+  ],
+  [
+   53.928456,
+   10.700836
+  ],
+  [
+   53.927622,
+   10.70107
+  ],
+  [
+   53.926788,
+   10.701303
+  ],
+  [
+   53.925954,
+   10.701536
+  ],
+  [
+   53.92512,
+   10.70177
+  ],
+  [
+   53.924737,
+   10.701467
+  ],
+  [
+   53.924505,
+   10.701564
+  ],
+  [
+   53.924334,
+   10.701656
+  ],
+  [
+   53.923641,
+   10.701503
+  ],
+  [
+   53.923485,
+   10.701187
+  ],
+  [
+   53.923364,
+   10.700881
+  ],
+  [
+   53.923014,
+   10.700952
+  ],
+  [
+   53.922675,
+   10.701116
+  ],
+  [
+   53.922435,
+   10.701496
+  ],
+  [
+   53.922078,
+   10.701674
+  ],
+  [
+   53.921543,
+   10.701832
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 409767221,
+   "lat": 53.9216389,
+   "lon": 10.7019069,
+   "km": 0.0,
+   "titel": "Übersichtskarte",
+   "thema": "Start am Kurparksee",
+   "kurztext": "Hier hängt die Karte, der See liegt davor. Runde Schilder mit Zaunkönig, nicht die Stadt-Wanderwege mit Nummern. Rhododendron, alter Baumbestand, ein Pavillon. Der Pfad ist frei, die Klinik daneben ist nur der Parkplatz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1436306127,
+   "lat": 53.9204341,
+   "lon": 10.702292,
+   "km": 0.12,
+   "titel": "Reisigburg und Baumtelefon",
+   "thema": "Höhle aus Zweigen, Leitung im Stamm",
+   "kurztext": "Eine Burg aus Reisig am Weg, daneben ein Baumtelefon. Klopfen, rufen, horchen. Igel und Waldmaus sollen so einen Haufen nutzen, steht auf dem Flyer. Du lässt das Holz stehen und gehst weiter, sonst fällt die Höhle in sich zusammen.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2477088944,
+   "lat": 53.9232944,
+   "lon": 10.7055474,
+   "km": 0.57,
+   "titel": "Nachtkobolde",
+   "thema": "Buchenwald am Mönchkamp",
+   "kurztext": "Alter Laubwald östlich vom See. Buchen, Eichen, dämmerig. Der Flyer nennt Fledermäuse und ein Naturfenster im Stumpf. Bei Tag siehst du Löcher und Totholz, nicht die Tiere. Auf dem Weg bleiben, der Hang ist der Rodelhang aus dem Text, kein Spielplatz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1652358258,
+   "lat": 53.9260221,
+   "lon": 10.7094481,
+   "km": 1.14,
+   "titel": "Gert-Kayser-Weg",
+   "thema": "Bohlenweg mit Holztieren",
+   "kurztext": "Holzbohlen, dreißig Zentimeter breit, nass. Links und rechts Eule, Eichhörnchen, Reh, Hase, Wildschwein, Fuchs aus Holz. Das Eichhörnchen sitzt höher. Rollstuhl und Kinderwagen hier nicht. Bei Nässe langsam, das Holz zieht.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 8572349117,
+   "lat": 53.9246749,
+   "lon": 10.710872,
+   "km": 1.35,
+   "titel": "Ökosystem Feuchtgebiet",
+   "thema": "Schwartauwiesen, Natura 2000",
+   "kurztext": "Nasswiese, Weiden, Erlenbruch. Früher Au kanalisiert, Wiesen drainiert, bis in die siebziger Jahre. Jetzt liegt der Talraum im Natura-2000-Netz. Die Tafel hängt am Rand, du bleibst darauf, sonst trittst du die Wiese kaputt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 951849944,
+   "lat": 53.9284564,
+   "lon": 10.7008361,
+   "km": 2.3,
+   "titel": "Grünes Klassenzimmer",
+   "thema": "Bänke am Südhang, Schautafeln",
+   "kurztext": "Offene Bänke am Hang, Schautafeln, Baumscheiben, Bienenwand, Nistkästen. Totholz, Modellknick, Feuchtwiese, Steinhaufen. Führungsunabhängig, auch ohne Klasse. Danach geht es zurück zum See, nicht raus auf die L 309.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 8075452935,
+   "lat": 53.9251203,
+   "lon": 10.7017699,
+   "km": 2.67,
+   "titel": "Märchenbuch",
+   "thema": "Zauberwald am See",
+   "kurztext": "Ein Buch im Wald, Geschichten und Bilder. Nördlich vom Kurparksee, bevor die Runde zum Start schließt. Der Flyer spricht von Fee und Waldlesebuch. Du liest, lässt das Buch hängen, gehst den letzten Abschnitt zur Karte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 359604612,
+   "lat": 53.9225015,
+   "lon": 10.7006331,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 409767286,
+   "lat": 53.9210007,
+   "lon": 10.7000459,
+   "kategorie": "parking",
+   "name": "Asklepios Gesundheitszentrum Rollstuhlfahrer"
+  },
+  {
+   "osmId": 13637950890,
+   "lat": 53.9272177,
+   "lon": 10.7093994,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 333626956,
+   "lat": 53.9308782,
+   "lon": 10.7083808,
+   "kategorie": "parking",
+   "name": "Parkplatz Riesebusch"
+  }
+ ],
+ "hoertext": "Am Kurparksee hängt die Karte, der Zaunkönig auf den runden Schildern zeigt den Weg. Zweieinhalb Kilometer, frei, ohne Anmeldung. Im Wald eine Reisigburg und ein Baumtelefon, später ein Bohlenweg aus Holz, nass und schmal. Das Grüne Klassenzimmer liegt in der Endstrecke, Bänke am Hang. Bleib auf den Stegen, der Boden nebenan ist Moor.",
+ "bilderAsset": "assets/images/trails/schwartautal/credits.json"
+}

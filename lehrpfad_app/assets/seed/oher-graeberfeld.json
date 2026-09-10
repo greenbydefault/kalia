@@ -1,0 +1,397 @@
+{
+ "id": "oher-graeberfeld",
+ "name": "Oher Gräberfeld",
+ "typ": "wald",
+ "kurzbeschreibung": "Drei Kilometer durch die Oher Tannen zu Hügelgräbern, Langbett und Schalenstein. Start Waldparkplatz Große Straße, Reinbek-Ohe. Frei.",
+ "beschreibung": "Nordöstlich von Reinbek-Ohe, am Rand der Oher Tannen, liegt das größte bronzezeitliche Gräberfeld in Südstormarn. Rundweg, gut eine Stunde, zehn Tafeln. Billi Buntspecht führt von der Eiszeit bis in die Bronzezeit. Fast zwanzig Hügel, ein steinzeitliches Langbett ohne Kammer, zwei Kultsteine (einer mit rund fünfzig Schälchen). Die letzte Tafel erzählt, wie in den Sechzigern ein Hügel beim Kiesabbau aufgerissen wurde. Immer frei, ohne Anmeldung. Broschüre und Projekt-Rucksack im Rathaus Reinbek, extra. Waldweg, Kinderwagen und Rollstuhl eher nicht. Hügel nicht betreten, der Buckel ist der Fund. Naturerlebnis Grabau ist der andere Stormarn-Pfad, Bad Oldesloe, andere Stationen.",
+ "laengeKm": 3.0,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Billi Buntspecht / zehn Schautafeln",
+ "betreiber": "Stadt Reinbek / Archäologisches Landesamt Schleswig-Holstein",
+ "region": "Oher Tannen, Reinbek-Ohe, Stormarn",
+ "website": "https://www.reinbek.de/leben-und-erleben/freizeit-und-tourismus/oher-graeberfeld-rundwanderweg",
+ "anreise": "Start Waldparkplatz Große Straße, nördlich von Reinbek-Ohe, 21465 Reinbek. GPS 53.55266, 10.29121. Auto über Große Straße, nicht in den Bestand fahren. Bahn Reinbek oder Wohltorf, weiter Bus oder Rad. Nicht Schloss Reinbek und nicht der Königsweg im Sachsenwald.",
+ "startName": "Waldparkplatz Große Straße",
+ "arten": [
+  "Buntspecht",
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.551938,
+   10.290347
+  ],
+  [
+   53.551141,
+   10.289344
+  ],
+  [
+   53.550981,
+   10.288485
+  ],
+  [
+   53.550821,
+   10.287626
+  ],
+  [
+   53.550661,
+   10.286767
+  ],
+  [
+   53.550606,
+   10.286416
+  ],
+  [
+   53.550834,
+   10.286386
+  ],
+  [
+   53.551064,
+   10.286339
+  ],
+  [
+   53.551523,
+   10.286259
+  ],
+  [
+   53.551706,
+   10.286138
+  ],
+  [
+   53.551907,
+   10.286044
+  ],
+  [
+   53.552004,
+   10.286037
+  ],
+  [
+   53.552092,
+   10.286049
+  ],
+  [
+   53.552226,
+   10.285969
+  ],
+  [
+   53.552496,
+   10.285881
+  ],
+  [
+   53.552628,
+   10.28583
+  ],
+  [
+   53.55284,
+   10.285853
+  ],
+  [
+   53.552965,
+   10.285912
+  ],
+  [
+   53.553034,
+   10.285914
+  ],
+  [
+   53.553263,
+   10.285834
+  ],
+  [
+   53.553359,
+   10.285826
+  ],
+  [
+   53.553441,
+   10.285845
+  ],
+  [
+   53.553675,
+   10.285808
+  ],
+  [
+   53.55408,
+   10.285694
+  ],
+  [
+   53.554228,
+   10.28565
+  ],
+  [
+   53.554307,
+   10.285847
+  ],
+  [
+   53.554493,
+   10.286098
+  ],
+  [
+   53.554412,
+   10.286201
+  ],
+  [
+   53.554283,
+   10.286368
+  ],
+  [
+   53.554155,
+   10.286544
+  ],
+  [
+   53.553954,
+   10.286843
+  ],
+  [
+   53.553912,
+   10.287156
+  ],
+  [
+   53.553994,
+   10.287337
+  ],
+  [
+   53.554349,
+   10.287916
+  ],
+  [
+   53.554562,
+   10.288356
+  ],
+  [
+   53.554461,
+   10.288281
+  ],
+  [
+   53.554369,
+   10.28832
+  ],
+  [
+   53.554236,
+   10.288454
+  ],
+  [
+   53.554369,
+   10.28832
+  ],
+  [
+   53.554461,
+   10.288281
+  ],
+  [
+   53.554562,
+   10.288356
+  ],
+  [
+   53.554706,
+   10.288696
+  ],
+  [
+   53.554856,
+   10.28948
+  ],
+  [
+   53.555006,
+   10.290264
+  ],
+  [
+   53.555156,
+   10.291048
+  ],
+  [
+   53.554546,
+   10.291436
+  ],
+  [
+   53.553937,
+   10.291825
+  ],
+  [
+   53.553327,
+   10.292213
+  ],
+  [
+   53.552678,
+   10.292587
+  ],
+  [
+   53.552028,
+   10.292961
+  ],
+  [
+   53.551406,
+   10.29352
+  ],
+  [
+   53.550783,
+   10.294078
+  ],
+  [
+   53.55016,
+   10.294636
+  ],
+  [
+   53.549538,
+   10.295195
+  ],
+  [
+   53.549228,
+   10.294348
+  ],
+  [
+   53.548919,
+   10.293501
+  ],
+  [
+   53.549472,
+   10.293102
+  ],
+  [
+   53.550024,
+   10.292703
+  ],
+  [
+   53.550577,
+   10.292304
+  ],
+  [
+   53.55113,
+   10.291905
+  ],
+  [
+   53.550996,
+   10.291442
+  ],
+  [
+   53.550667,
+   10.291495
+  ],
+  [
+   53.550225,
+   10.290044
+  ],
+  [
+   53.551141,
+   10.289344
+  ],
+  [
+   53.551938,
+   10.290347
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -721553703,
+   "lat": 53.551938,
+   "lon": 10.290347,
+   "km": 0.0,
+   "titel": "Waldparkplatz",
+   "thema": "Einstieg Große Straße, Oher Tannen",
+   "kurztext": "Hier steht das Auto, der Wald fängt an. Runde gut eine Stunde. Billi Buntspecht auf den Tafeln, zehn Stück. Nicht der Königsweg, nicht Schloss Reinbek. Frei, ohne Anmeldung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 7470950560,
+   "lat": 53.5545539,
+   "lon": 10.2860015,
+   "km": 0.77,
+   "titel": "Eiszeit",
+   "thema": "Die Anhöhe über der Bille",
+   "kurztext": "Die Tafeln fangen bei der Altsteinzeit an. Das Gräberfeld sitzt auf einer Anhöhe, die nach Süden zur Bille abfällt. Kein Zufall: Überblick, trockener Rücken, Wasser unten. Du stehst auf der Geologie, nicht auf einem Hügel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 7470956647,
+   "lat": 53.5542015,
+   "lon": 10.2883665,
+   "km": 1.01,
+   "titel": "Hügelgräber",
+   "thema": "Bronzezeit, rund zwanzig Buckel",
+   "kurztext": "Buckel im Wald, jüngere Bronzezeit. Tote in Baumstämmen, Steinpackung, Erde, Grassoden. Weithin sichtbar, Territorium. Nicht raufklettern. Viele Hügel waren beraubt, 2015 von außen restauriert.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 7470956715,
+   "lat": 53.5519359,
+   "lon": 10.2928099,
+   "km": 1.61,
+   "titel": "Schalenstein",
+   "thema": "Kultstein mit rund fünfzig Näpfchen",
+   "kurztext": "Ein Findling, rund fünfzig Schälchen. Hierher gesetzt, Fundort unbekannt. Wozu, weiß niemand. Weil solche Steine oft bei Gräbern liegen, denkt man an Opfergaben. Daneben steht ein zweiter Stein mit einer Rille. Anfassen ja, wegtragen nein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 7470958251,
+   "lat": 53.5490591,
+   "lon": 10.2932563,
+   "km": 2.06,
+   "titel": "Kiesabbau",
+   "thema": "Letzte Tafel, Grabhügel der 1960er",
+   "kurztext": "Die letzte Tafel springt in die 1960er. Sand und Kies auf einem Feld, ein großer bronzezeitlicher Hügel beschädigt. Den Archäologen blieb die Untersuchung. Hasenclever hat die Gräber zuerst beschrieben und die Broschüre von 1975 angestoßen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 7470948953,
+   "lat": 53.5494029,
+   "lon": 10.2929493,
+   "km": 2.12,
+   "titel": "Langbett",
+   "thema": "Kammerloses Großsteingrab, Jungsteinzeit",
+   "kurztext": "Eine langgestreckte Erhöhung, rund 5500 Jahre. Rechteckige Steinumrandung, keine Kammer. Sesshaft, Feld, Vieh, Tote über Generationen am selben Ort. Die Einfassung ist weg. Was bleibt, ist der Wall im Boden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1308918911,
+   "lat": 53.5546744,
+   "lon": 10.2862366,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 900223552,
+   "lat": 53.55266,
+   "lon": 10.29121,
+   "kategorie": "parking",
+   "name": "Waldparkplatz Große Straße"
+  }
+ ],
+ "hoertext": "Am Waldparkplatz Große Straße, nördlich von Ohe, fängt die Runde an. Drei Kilometer, frei, Billi Buntspecht auf den Tafeln. Fast zwanzig Hügel aus der Bronzezeit, ein Langbett ohne Kammer, ein Schalenstein mit fünfzig Näpfchen. Bleib unten, der Hügel ist der Fund. Die letzte Tafel erzählt vom Kiesabbau in den Sechzigern.",
+ "bilderAsset": "assets/images/trails/oher-graeberfeld/credits.json"
+}

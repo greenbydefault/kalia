@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-wald.jpg",
+    "caption": "Weg im Sachsenwald bei Reinbek.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202104%20P1840743%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-weg.jpg",
+    "caption": "Waldweg im Sachsenwald.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202104%20P1840741%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-aumuehle.jpg",
+    "caption": "Sachsenwald bei Aumühle.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202105%20P1840797%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-bestand.jpg",
+    "caption": "Buchenbestand im Sachsenwald bei Aumühle.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202105%20P1840798%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-hang.jpg",
+    "caption": "Mischwald am Hang, Sachsenwald bei Aumühle.",
+    "credit": "KaiBorgeest",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH2428-393%20VS2428-492%20Mixed%20forrest%20at%20slope.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-lichtung.jpg",
+    "caption": "Lichtung im Sachsenwald bei Aumühle.",
+    "credit": "Reinhard Kraasch",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202105%20P1840799%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-langbett-wald.jpg",
+    "caption": "Wald am Langbett im Sachsenwald bei Witzhave.",
+    "credit": "Frijfuhs",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASachsenwald%20near%20Langbett.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-langbett.jpg",
+    "caption": "Langbett im Sachsenwald.",
+    "credit": "Frijfuhs",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangbett%20Sachsenwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-buche.jpg",
+    "caption": "Rotbuche, junge Blätter.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-specht.jpg",
+    "caption": "Buntspecht.",
+    "credit": "4028mdk09",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADendrocopos%20major%20HD.JPG",
+    "kind": "art"
+  }
+]
