@@ -51,6 +51,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/waldhusen.json',
     'assets/seed/schwartautal.json',
     'assets/seed/oher-graeberfeld.json',
+    'assets/seed/naturerlebnis-grabau.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

@@ -1,0 +1,83 @@
+[
+  {
+    "file": "01-see-baum.jpg",
+    "caption": "Grabauer See von der Westseite, Höhe Vogelbeobachtung.",
+    "credit": "Tmhpr",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrabauer%20See%20mit%20Baum.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-ufer.jpg",
+    "caption": "Ufer des Grabauer Sees, Westseite.",
+    "credit": "Tmhpr",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUfer%20des%20Grabauer%20Sees.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-see.jpg",
+    "caption": "Grabauer See von der Nordostseite.",
+    "credit": "Tmhpr",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrabauer%20See.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-norderbeste.jpg",
+    "caption": "Grabauer See an der Norderbeste, Fernmeldeturm Neverstaven im Hintergrund.",
+    "credit": "Tmhpr",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrabauer%20See%2C%20im%20Hintergrund%20Fernmeldeturm%20Neverstaven.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-winter.jpg",
+    "caption": "Grabauer See im Winter, vom Südufer.",
+    "credit": "IngmarHL",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrabauer%20See%20im%20Winter.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-norderbeste-bach.jpg",
+    "caption": "Norderbeste bei Grabau.",
+    "credit": "IngmarHL",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANorderbeste%20bei%20Grabau.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-erle.jpg",
+    "caption": "Schwarzerle.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlnus%20glutinosa%20Z%C4%85bki.JPG",
+    "kind": "art"
+  },
+  {
+    "file": "08-buche.jpg",
+    "caption": "Rotbuche, junge Blätter.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-specht.jpg",
+    "caption": "Buntspecht.",
+    "credit": "4028mdk09",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADendrocopos%20major%20HD.JPG",
+    "kind": "art"
+  }
+]

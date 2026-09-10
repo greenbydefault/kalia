@@ -39,6 +39,7 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `waldhusen.json` | `waldhusen` | `wald` |
 | `schwartautal.json` | `schwartautal` | `walderlebnispfad` |
 | `oher-graeberfeld.json` | `oher-graeberfeld` | `wald` |
+| `naturerlebnis-grabau.json` | `naturerlebnis-grabau` | `walderlebnispfad` |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 

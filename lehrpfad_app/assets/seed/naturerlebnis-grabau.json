@@ -1,0 +1,359 @@
+{
+ "id": "naturerlebnis-grabau",
+ "name": "Naturerlebnis Grabau",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Kurze Runde am Grabauer See. Tafeln, Vogelbeobachtung, Barfußpfad, zwei Waldspielplätze. Start Hoherdamm, frei.",
+ "beschreibung": "Westlich von Bad Oldesloe, in Grabau, liegt der Lehrpfad direkt am Grabauer See (Hohendammer Mühlenteich). Start Parkplatz Hoherdamm, Karte am Waldspielplatz. Eichhörnchenweg, Wildschweinweg, Fledermausweg, Käferweg. Elf Stationen beim Betreiber, kürzere und längere Runden an der Karte. Immer frei, ohne Waldpädagogen. Waldtage und Ferienprogramm sind extra, die brauchst du nicht. Zwei Spielplätze: Ameisenweg am Eingang, Fledermausweg weiter hinten mit Seilbahn. Der Steg im Erlenbruch ist nass. Hunde anleinen. Der Obstlehrpfad auf der alten Bahntrasse ist ein anderer Weg. Oher Gräberfeld ist der andere Stormarn-Pfad, Reinbek-Ohe, Hügelgräber.",
+ "laengeKm": 1.2,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Tiernamen-Wege / Tafeln mit Eichhörnchen Muck",
+ "betreiber": "Stiftungen der Sparkasse Holstein / Sparkassen-Kulturstiftung Stormarn",
+ "region": "Grabau, Stormarn",
+ "website": "https://naturerlebnis-grabau.de/angebote-familien/natuerlich-erholt/",
+ "anreise": "Start Übersichtskarte am Waldspielplatz, Hoherdamm 5, 23845 Grabau. GPS 53.79808, 10.26585. Parken am Waldspielplatz. BahnRadWeg A Bad Oldesloe–Hennstedt-Ulzburg, ausgeschildert. Bus nach Bad Oldesloe, nicht Reinbek-Ohe. Oher Gräberfeld startet an der Großen Straße in Ohe, das ist der andere Wald.",
+ "startName": "Übersichtskarte / Waldspielplatz Hoherdamm",
+ "arten": [
+  "Schwarzerle",
+  "Rotbuche",
+  "Buntspecht"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "barfusspfad"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.797527,
+   10.263839
+  ],
+  [
+   53.798012,
+   10.263765
+  ],
+  [
+   53.79826,
+   10.263741
+  ],
+  [
+   53.798246,
+   10.263574
+  ],
+  [
+   53.798141,
+   10.262965
+  ],
+  [
+   53.798127,
+   10.262721
+  ],
+  [
+   53.798121,
+   10.262621
+  ],
+  [
+   53.79819,
+   10.262463
+  ],
+  [
+   53.798245,
+   10.262335
+  ],
+  [
+   53.798614,
+   10.262088
+  ],
+  [
+   53.798841,
+   10.261828
+  ],
+  [
+   53.799033,
+   10.261285
+  ],
+  [
+   53.799179,
+   10.260478
+  ],
+  [
+   53.7993,
+   10.260132
+  ],
+  [
+   53.799359,
+   10.25983
+  ],
+  [
+   53.799438,
+   10.259657
+  ],
+  [
+   53.799494,
+   10.25941
+  ],
+  [
+   53.799524,
+   10.259278
+  ],
+  [
+   53.799506,
+   10.2589
+  ],
+  [
+   53.799412,
+   10.258516
+  ],
+  [
+   53.79927,
+   10.258355
+  ],
+  [
+   53.799052,
+   10.258153
+  ],
+  [
+   53.798632,
+   10.257703
+  ],
+  [
+   53.797844,
+   10.257191
+  ],
+  [
+   53.79802,
+   10.257627
+  ],
+  [
+   53.798144,
+   10.258071
+  ],
+  [
+   53.798125,
+   10.261
+  ],
+  [
+   53.797442,
+   10.261739
+  ],
+  [
+   53.797081,
+   10.262131
+  ],
+  [
+   53.797169,
+   10.262332
+  ],
+  [
+   53.797378,
+   10.262658
+  ],
+  [
+   53.797451,
+   10.262911
+  ],
+  [
+   53.797539,
+   10.263388
+  ],
+  [
+   53.797536,
+   10.263643
+  ],
+  [
+   53.797527,
+   10.263839
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 13176972090,
+   "lat": 53.7975561,
+   "lon": 10.263897,
+   "km": 0.0,
+   "titel": "Übersichtskarte",
+   "thema": "Start Hoherdamm, Waldspielplatz Ameisenweg",
+   "kurztext": "Hier hängt die Karte, der Parkplatz liegt am Hoherdamm. Waldspielplatz daneben: Nestschaukel, zwei Rutschen, eine davon barrierefrei. Der Lehrpfad fängt direkt am Gelände an, ohne Pädagogen. Nicht der Obstlehrpfad auf der alten Bahntrasse.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3978311401,
+   "lat": 53.79814,
+   "lon": 10.26272,
+   "km": 0.15,
+   "titel": "Forstwirtschaft",
+   "thema": "Nutz-, Schutz- und Erholungsfunktion",
+   "kurztext": "Erste Tafel, am Eichhörnchenweg. Nutz-, Schutz-, Erholung. Eichhörnchen Muck sitzt auf den Schildern, Maskottchen, keine Art. Grabauer Forst, viel Nadelholz, Laub dazwischen. Der Weg bleibt der Eichhörnchenweg, nicht in den Bestand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -4041747350,
+   "lat": 53.79884,
+   "lon": 10.26183,
+   "km": 0.26,
+   "titel": "Erlenbruch",
+   "thema": "Holzweg parallel zum See",
+   "kurztext": "Tafel am Übergang zu einem tieferen Holzweg, parallel zum See. Erlen auf Stelzwurzeln, nasser Boden. Der Steg hält die Füße trocken. Nebenan ist Bruch, bleib drauf.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2552601391,
+   "lat": 53.7993,
+   "lon": 10.26013,
+   "km": 0.38,
+   "titel": "Klangstation",
+   "thema": "Holz zum Schlagen, vor der Hütte",
+   "kurztext": "Holz zum Schlagen, ein Xylophon im Wald. Bevor die Vogelbeobachtung kommt. Du spielst und gehst weiter, das Holz bleibt stehen.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 440860809,
+   "lat": 53.7995573,
+   "lon": 10.2594544,
+   "km": 0.43,
+   "titel": "Vogelbeobachtung",
+   "thema": "Hütte am Hohendammer Mühlenteich",
+   "kurztext": "Hütte am See. Der See heißt auch Hohendammer Mühlenteich, früher Fischzucht, jetzt Renaturierung. Kormoran, Haubentaucher, Seeadler stehen auf der Tafel. Abstand, die Vögel sind auf dem Wasser.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3072999974,
+   "lat": 53.79804,
+   "lon": 10.25812,
+   "km": 0.76,
+   "titel": "Barfußpfad",
+   "thema": "Fledermausweg, Balanciergarten",
+   "kurztext": "Am Fledermausweg, beim zweiten Spielplatz. Verschiedene Untergründe, daneben Niedrigseil und Seilbahn am Hexenhaus. Schuhe aus, danach wieder an. Nicht der Spielplatz am Eingang.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -1898246817,
+   "lat": 53.79813,
+   "lon": 10.261,
+   "km": 0.95,
+   "titel": "Fledermaus- und Spechtbäume",
+   "thema": "Höhlen im Stamm, Fledermausweg",
+   "kurztext": "Löcher im Stamm, Totholz. Der Specht baut, Fledermaus erbt. Stamm in Ruhe lassen. Zurück über den Käferweg zum Parkplatz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 440849465,
+   "lat": 53.7975538,
+   "lon": 10.264129,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 440860809,
+   "lat": 53.7995573,
+   "lon": 10.2594544,
+   "kategorie": "viewpoint",
+   "name": "Vogelbeobachtung"
+  },
+  {
+   "osmId": 519061191,
+   "lat": 53.7980361,
+   "lon": 10.2581212,
+   "kategorie": "playground",
+   "name": "Balanciergarten"
+  },
+  {
+   "osmId": 1486154004,
+   "lat": 53.7968529,
+   "lon": 10.2613955,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3452335553,
+   "lat": 53.7969971,
+   "lon": 10.2566614,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7819861572,
+   "lat": 53.7977582,
+   "lon": 10.2632931,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Grabau"
+  },
+  {
+   "osmId": 9137648717,
+   "lat": 53.7986247,
+   "lon": 10.2621122,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9137652717,
+   "lat": 53.7991366,
+   "lon": 10.2605433,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9137673419,
+   "lat": 53.798144,
+   "lon": 10.262516,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13176625660,
+   "lat": 53.7976566,
+   "lon": 10.2636511,
+   "kategorie": "picnic",
+   "name": "Picknicktisch"
+  },
+  {
+   "osmId": 13176748745,
+   "lat": 53.7973268,
+   "lon": 10.2620579,
+   "kategorie": "picnic",
+   "name": "Picknicktisch"
+  }
+ ],
+ "hoertext": "Am Parkplatz Hoherdamm hängt die Karte, der Waldspielplatz liegt daneben. Kurze Runde auf Eichhörnchen-, Wildschwein- und Fledermausweg, frei, ohne Pädagogen. Tafeln mit Eichhörnchen Muck, eine Hütte zur Vogelbeobachtung am See, später ein Barfußpfad. Der Steg im Erlenbruch ist nass. Bleib auf den Wegen. Waldtage mit Buchung sind extra.",
+ "bilderAsset": "assets/images/trails/naturerlebnis-grabau/credits.json"
+}
