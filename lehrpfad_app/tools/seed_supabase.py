@@ -7,6 +7,7 @@ Checklist neuer Trail:
   2. fehlende Arten in assets/seed/species.json anlegen
   3. python3 tools/validate_seeds.py
   4. dieses Script ausfuehren
+  5. python3 tools/seed_pois.py  # wenn assets/seed/pois.json geaendert
 
 Nutzung:
   export SUPABASE_URL="https://<projekt>.supabase.co"
