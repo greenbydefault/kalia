@@ -1,0 +1,342 @@
+{
+ "id": "baumwipfelpfad-saarschleife",
+ "name": "Baumwipfelpfad Saarschleife",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "1250 Meter Steg über der Saarschleife in Orscholz – Quarzit, Buchenwald, Totholz, Rutsche, 42-Meter-Turm ohne Stufe. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "In Mettlach-Orscholz, direkt über der Cloef, führt der Baumwipfelpfad vom Cloef-Atrium zum Aussichtsturm. 1250 Meter Steg, bis 23 Meter hoch, der Turm 42 Meter – alles ohne Stufen, höchstens sechs Prozent Steigung. Vier Stationen erzählen Quarzit, Buchenwald, Saarschleife und Totholz; dazwischen Rialtobrücke und Rutsche. Die Comic-Rallye mit dem Eichhörnchen holst du an der Kasse. Betreiberin ist die Erlebnis Akademie AG. Hunde bleiben unten, Assistenzhunde ausgenommen. Kinder unter 14 nur mit Erwachsenem. Der Abenteuerwald am Ausgang ist extra und nicht dieser Trail. Ein bis zwei Stunden.",
+ "laengeKm": 1.25,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Baumwipfelpfad Saarschleife / EAK",
+ "betreiber": "Erlebnis Akademie AG",
+ "region": "Mettlach-Orscholz, Merzig-Wadern, Saarland",
+ "website": "https://treetop-walks.com/saarschleife/",
+ "anreise": "Adresse: Cloef-Atrium, 66693 Mettlach-Orscholz. GPS 49.50407, 6.53484. Buslinie 250 ab Merzig, Halt Cloef, Orscholz Mettlach, fünf Minuten zu Fuß. Parkplätze P1 und P2 direkt am Pfad, kostenpflichtig (Pkw Tageskarte 6 €). Wohnmobile und Busse nicht über die Brücke in Mettlach: A8 Ausfahrt Orscholz / Wehingen / Wellingen, dann L178.",
+ "startName": "Kasse Cloef-Atrium",
+ "arten": [
+  "Rotbuche",
+  "Buntspecht"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   49.50404,
+   6.534875
+  ],
+  [
+   49.503994,
+   6.534924
+  ],
+  [
+   49.50396,
+   6.535034
+  ],
+  [
+   49.503942,
+   6.535241
+  ],
+  [
+   49.50394,
+   6.535455
+  ],
+  [
+   49.503987,
+   6.53578
+  ],
+  [
+   49.504024,
+   6.535916
+  ],
+  [
+   49.50406,
+   6.536031
+  ],
+  [
+   49.504083,
+   6.536101
+  ],
+  [
+   49.504109,
+   6.536167
+  ],
+  [
+   49.504242,
+   6.536417
+  ],
+  [
+   49.50436,
+   6.536677
+  ],
+  [
+   49.504421,
+   6.536845
+  ],
+  [
+   49.504337,
+   6.537257
+  ],
+  [
+   49.504401,
+   6.53781
+  ],
+  [
+   49.504509,
+   6.538129
+  ],
+  [
+   49.504485,
+   6.538333
+  ],
+  [
+   49.504474,
+   6.538585
+  ],
+  [
+   49.504459,
+   6.538835
+  ],
+  [
+   49.504282,
+   6.539083
+  ],
+  [
+   49.504105,
+   6.53921
+  ],
+  [
+   49.503888,
+   6.539214
+  ],
+  [
+   49.503747,
+   6.539323
+  ],
+  [
+   49.503631,
+   6.539441
+  ],
+  [
+   49.503472,
+   6.539671
+  ],
+  [
+   49.503221,
+   6.539794
+  ],
+  [
+   49.503067,
+   6.540002
+  ],
+  [
+   49.503023,
+   6.540059
+  ],
+  [
+   49.502968,
+   6.540135
+  ],
+  [
+   49.502797,
+   6.540291
+  ],
+  [
+   49.502529,
+   6.540346
+  ],
+  [
+   49.502343,
+   6.540299
+  ],
+  [
+   49.502288,
+   6.540281
+  ],
+  [
+   49.502242,
+   6.540336
+  ],
+  [
+   49.502186,
+   6.540356
+  ],
+  [
+   49.502178,
+   6.540354
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 49.5040701,
+   "lon": 6.5348444,
+   "km": 0.0,
+   "titel": "Kasse / Cloef-Atrium",
+   "thema": "Ohne Stufe auf den Steg",
+   "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, dann rauf – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse, Rollstuhl und Rollator nach Anmeldung.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -382637576,
+   "lat": 49.504036,
+   "lon": 6.536031,
+   "km": 0.19,
+   "titel": "Rialtobrücke",
+   "thema": "Der Steg gibt nach",
+   "kurztext": "Kurze Wackelbrücke früh auf dem Weg. Die Bretter federen, der Rest des Stegs bleibt starr. Nicht rennen – darunter ist Luft, und der Steg ist nur 2,50 Meter breit.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2380471405,
+   "lat": 49.5043375,
+   "lon": 6.5372572,
+   "km": 0.4,
+   "titel": "Quarzit",
+   "thema": "Harter Fels, weites Tal",
+   "kurztext": "Der Höhenrücken unter dem Steg ist Quarzit. Hartes Gestein, die Saar hat sich trotzdem durchgefressen – die Schleife liegt deshalb so tief unter dir. Tafel am Geländer, nicht Wikipedia.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -4016219679,
+   "lat": 49.5044736,
+   "lon": 6.5385852,
+   "km": 0.61,
+   "titel": "Buchenwald",
+   "thema": "Kronen auf Augenhöhe",
+   "kurztext": "Rotbuchen, jetzt auf Steghöhe. Im Sommer ein Dach, im Winter Gerippe. Die Comic-Tafeln neben der Lehrtafel gehören zur Rallye – Fragen stehen im Heft von der Kasse.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2951877252,
+   "lat": 49.5038883,
+   "lon": 6.5392137,
+   "km": 0.8,
+   "titel": "Totholz",
+   "thema": "Was grau wirkt, lebt",
+   "kurztext": "Liegende Stämme unter dem Steg. Specht zimmert, Käfer und Pilz räumen auf. Der Pfad räumt nicht – Totholz bleibt, weil der Wald es braucht. Schau nach unten, nicht nur zur Schleife.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3059717958,
+   "lat": 49.503156,
+   "lon": 6.539883,
+   "km": 0.98,
+   "titel": "Rutsche",
+   "thema": "Runter, dann weiter zum Turm",
+   "kurztext": "Röhrenrutsche für Kinder, der Steg geht daneben weiter. Wer rutscht, holt die anderen am Fuß wieder ein. Kein Muss – der Trail bleibt oben barrierefrei.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -2638786246,
+   "lat": 49.5025289,
+   "lon": 6.5403456,
+   "km": 1.16,
+   "titel": "Saarschleife",
+   "thema": "Das Wahrzeichen von oben",
+   "kurztext": "Hier hängt der Steg über der Cloef. Unten die berühmte Schleife, gegenüber die Steilhänge. Der Boden-Aussichtspunkt Cloef liegt tiefer – du siehst denselben Bogen, nur aus den Kronen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -458346498,
+   "lat": 49.5021782,
+   "lon": 6.5403542,
+   "km": 1.25,
+   "titel": "Aussichtsturm",
+   "thema": "42 Meter, immer noch ohne Stufe",
+   "kurztext": "Serpentinen mit Ruhezonen, Plattform 70 Quadratmeter. Bei klarer Sicht bis zu den Vogesen. Anders als mancher Turm: die Rampe nimmt Kinderwagen und Rollstuhl mit nach oben. Zurück denselben Steg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5000519226,
+   "lat": 49.5048667,
+   "lon": 6.5346541,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 10160057966,
+   "lat": 49.5031738,
+   "lon": 6.5384625,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 454930295,
+   "lat": 49.5049756,
+   "lon": 6.5346116,
+   "kategorie": "gastro",
+   "name": "Bistro Mirabell"
+  },
+  {
+   "osmId": 269178388,
+   "lat": 49.5018672,
+   "lon": 6.5407409,
+   "kategorie": "viewpoint",
+   "name": "Saarschleife / Cloef"
+  },
+  {
+   "osmId": 234939130,
+   "lat": 49.504333,
+   "lon": 6.532524,
+   "kategorie": "parking",
+   "name": "Cloef-Atrium P1/P2"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 13 €, ermäßigt 12 € (Ausweis: Behinderung, Schüler ab 15, Studierende, Rentner, 65+), Kinder 4–14 Jahre 11 €, unter 4 frei, Familie (2 Erwachsene + eigene Kinder 4–14) 31 €. Stand 2026, treetop-walks.com/saarschleife/baumwipfelpfad/preise. Abenteuerwald extra.",
+ "oeffnungszeiten": "Mai–Oktober täglich 9:30–18 Uhr. April 9:30–17. November–März 9:30–16. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
+ "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Rollstuhl oder Rollator nach Anmeldung an der Kasse leihbar. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
+ "hoertext": "Vom Cloef-Atrium geht der Steg ohne Stufe durch die Kronen bis auf den Turm. Unten liegt die Saarschleife, über dir Buchen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, den Abenteuerwald am Ausgang extra.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-saarschleife/credits.json"
+}

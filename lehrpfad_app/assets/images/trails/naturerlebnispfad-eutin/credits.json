@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-see.jpg",
+    "caption": "Großer Eutiner See. Der Lehrpfad liegt westlich der Kerntangente, nicht am See.",
+    "credit": "Rüdiger Stehn",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9Fer%20Eutiner%20See%20%2829898103640%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-schloss.jpg",
+    "caption": "Schloss Eutin am See. Der Vogelberg-Pfad startet an der Blauen Lehmkuhle, nicht im Schlosspark.",
+    "credit": "Rosa-Maria Rinkl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9Fer%20Eutiner%20See%20mit%20Schloss.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kellersee.jpg",
+    "caption": "Kellersee östlich von Eutin.",
+    "credit": "Bjoertvedt",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchleswig-Holstein%20Eutin%20Kellersee%20from%20east%20IMG%208943.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-eiche.jpg",
+    "caption": "Bräutigamseiche im Dodauer Forst bei Eutin, nicht am Vogelberg.",
+    "credit": "Pkw98",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A4utigamseiche.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-knick.jpg",
+    "caption": "Knick in Schleswig-Holstein, nicht am Vogelberg.",
+    "credit": "Bärbel Miemietz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025-11-01%20Neuer%20Knick%201280669.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-erle.jpg",
+    "caption": "Schwarzerle.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlnus%20glutinosa%20Z%C4%85bki.JPG",
+    "kind": "art"
+  },
+  {
+    "file": "07-buche.jpg",
+    "caption": "Rotbuche, junge Blätter.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-libelle.jpg",
+    "caption": "Gebänderte Prachtlibelle, Männchen.",
+    "credit": "Tbc",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalopteryx%20splendens%20male.jpg",
+    "kind": "art"
+  }
+]

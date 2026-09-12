@@ -944,5 +944,51 @@
     "oeffnungszeiten": "täglich 12–23 Uhr",
     "telefon": "+49 40 46654698",
     "opening_hours": "Mo-Su 12:00-23:00"
+  },
+  {
+    "id": "museum-schloss-eutin",
+    "name": "Schloss Eutin",
+    "kategorie": "museum",
+    "kurztext": "Residenz am Großen Eutiner See. Museum mit Eintritt, Garten frei. Der Lehrpfad startet an der Blauen Lehmkuhle, nicht im Schlosspark.",
+    "lat": 54.1377664,
+    "lon": 10.620005,
+    "website": "https://www.schloss-eutin.de/besuch/",
+    "oeffnungszeiten": "Mär–Jun und Sep–Dez Di–So 11–17 Uhr, Jul/Aug täglich 10–18 Uhr, Mo außer Sommer zu",
+    "telefon": "+49 4521 70950",
+    "opening_hours": "Mar-Jun: Tu-Su 11:00-17:00; Jul-Aug: Mo-Su 10:00-18:00; Sep-Dec: Tu-Su 11:00-17:00"
+  },
+  {
+    "id": "baden-freibad-eutin",
+    "name": "Freibadeanstalt Eutin",
+    "kategorie": "baden",
+    "kurztext": "Holzbad von 1913 an der Fissauer Bucht. Saison Mitte Juni bis Ende August, frei. Steg oft gesperrt, Strand und ein Treppenabgang. Außerhalb der Saison zu.",
+    "lat": 54.147102,
+    "lon": 10.624836,
+    "website": "https://staedtische-betriebe-eutin.de/freibad/",
+    "oeffnungszeiten": "Saison 15.6.–30.8. täglich 10–18 Uhr, sonst zu",
+    "telefon": "+49 4521 2171"
+  },
+  {
+    "id": "baden-kirsten-bruhn-eutin",
+    "name": "Kirsten-Bruhn-Bad",
+    "kategorie": "baden",
+    "kurztext": "Hallenbad in Eutin. Mo zu, Sommerpause wenn das Freibad aufhat. Eintritt. Nicht die Freibadeanstalt am See.",
+    "lat": 54.142236,
+    "lon": 10.614365,
+    "website": "https://www.stadtwerke-eutin.de/de/Unternavigation/Kirsten-Bruhn-Bad/Oeffnungszeiten/",
+    "oeffnungszeiten": "Di–Fr geteilt vormittags/nachmittags, Sa 11–17, So 8–13, Mo zu",
+    "opening_hours": "Mo off; Tu 10:00-13:00,15:00-21:00; We 10:00-13:00,15:00-18:00; Th 10:00-13:00,15:00-20:00; Fr 10:00-13:00,15:00-20:00; Sa 11:00-17:00; Su 08:00-13:00"
+  },
+  {
+    "id": "cafe-klausberger-eutin",
+    "name": "Kultur Café Klausberger",
+    "kategorie": "cafe",
+    "kurztext": "Bäcker-Café am Markt. Nach dem Vogelberg-Pfad in die Stadt, nicht am Lehrpfad. Schloss-Café ist zu.",
+    "lat": 54.1361188,
+    "lon": 10.6171474,
+    "website": "https://baeckersluud.de",
+    "oeffnungszeiten": "Mo–Fr 7–18 Uhr, Sa 7–17 Uhr, So 11–17 Uhr",
+    "telefon": "+49 4521 71587",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-17:00; Su 11:00-17:00"
   }
 ]

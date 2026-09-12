@@ -9,6 +9,7 @@ Living-Index. Stimme und Kanäle bleiben [`../oeffentlich/GRUND.md`](../oeffentl
 | [`videos/sammlung-liste.md`](videos/sammlung-liste.md) | Sammlung browsen, auch ohne Freischaltung |
 | [`videos/baumkronenpfad-hainich.md`](videos/baumkronenpfad-hainich.md) | Erster Thüringen-HAVE, Steg + goldener Pin |
 | [`videos/naturwaldpfad.md`](videos/naturwaldpfad.md) | Zweiter Lübeck-Pin, Lauerholz Israelsdorf |
+| [`videos/baumwipfelpfad-saarschleife.md`](videos/baumwipfelpfad-saarschleife.md) | Erster Saarland-HAVE, Steg + goldener Pin |
 
 Neue Form (Reel-Serie, Karussell, Ads) = neuer Unterordner plus Trello-Liste, wenn das erste Stück wirklich kommt. Keine leeren Ordner auf Vorrat.
 

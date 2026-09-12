@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-eingang.jpg",
+    "caption": "Eingang am Cloef-Atrium.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-02-Eingang.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-tafel.jpg",
+    "caption": "Informationstafel am Eingang.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-01-Tafel.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-rialto.jpg",
+    "caption": "Rialtobrücke auf dem Steg.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-03-Rialtobr%C3%BCcke.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-rutsche.jpg",
+    "caption": "Rutsche am Baumwipfelpfad.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-04-Rutsche.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-turm.jpg",
+    "caption": "Steg und Aussichtsturm.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-05-Aussichtsturm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-turm-luft.jpg",
+    "caption": "Aussichtsturm von oben.",
+    "credit": "Pascal Dihé",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAussichtsturm_Baumwipfelpfad_Saarschleife.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-cloef.jpg",
+    "caption": "Cloef und Aussichtsturm über der Saarschleife.",
+    "credit": "Pascal Dihé",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloef_und_Aussichtsturm_Saarschleife.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-blick.jpg",
+    "caption": "Blick von der Saarschleife auf Turm und Steilhang.",
+    "credit": "Flocci Nivis",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20180624Baumwipfelpfad_Saarschleife_01.jpg",
+    "kind": "ort"
+  }
+]

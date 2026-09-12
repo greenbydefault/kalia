@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-fachhallenhaus.jpg",
+    "caption": "Fachhallenhaus Kollhorster Weg 1, Reetdach. Naturerlebniszentrum, das Gelände ist frei.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKollhorster%20Weg%201%20%283%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-haus-seite.jpg",
+    "caption": "Baudenkmal Kollhorster Weg 1 von der Seite.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKollhorster%20Weg%201.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-haus-garten.jpg",
+    "caption": "Fachhallenhaus Kollhorst, Blick vom Gelände.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKollhorster%20Weg%201%20%282%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-reetdach.jpg",
+    "caption": "Reetdach am Kollhorster Weg.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReetdachhaus%20Kollhorster%20Weg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-streuobst.jpg",
+    "caption": "Streuobstwiese, nicht in Kollhorst. Die Apfelweide dort hat Hochstämme und zeitweise Rinder.",
+    "credit": "Ho.baier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreuobstwiesen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-buche.jpg",
+    "caption": "Rotbuche, junge Blätter. Nicht in Kollhorst, im Südteil des NER stehen Buchen.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-honigbiene.jpg",
+    "caption": "Honigbiene. Nicht in Kollhorst, dort stehen Bienenstöcke am Sinnesgarten.",
+    "credit": "Sam Fraser-Smith",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApis%20mellifera%20-%20honey%20bee.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-libelle.jpg",
+    "caption": "Gebänderte Prachtlibelle, Männchen. Nicht in Kollhorst, an den Teichen fliegen Libellen.",
+    "credit": "Tbc",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalopteryx%20splendens%20male.jpg",
+    "kind": "art"
+  }
+]

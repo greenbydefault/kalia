@@ -1,0 +1,615 @@
+{
+ "id": "naturerlebnispfad-eutin",
+ "name": "Naturerlebnispfad Eutin",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Zwei Kilometer durch die Vogelbergniederung, Festplatz bis Elfenmoor. Knüppeldamm, Niedermoor, Knick, Buchenwald. Start Blaue Lehmkuhle, frei.",
+ "beschreibung": "Westlich der Eutiner Innenstadt, hinter der Kerntangente, liegt der Naturerlebnisraum Vogelberg. Rund 40 Hektar, seit 2009. Der Lehrpfad geht vom Parkplatz Blaue Lehmkuhle, gegenüber der Tennishalle, bis zum Elfenmoor. Zehn Tafeln, dazu MP3s auf der ERNA-Seite: Knüppeldamm, Ehmbruchgraben, Trockenrasen, Eiszeit, Niedermoor, Knick, Buchenwald. Immer frei, ohne Anmeldung. Klassenprogramme und das Vereinshaus in der Diekstauen sind extra, die brauchst du nicht. Der Knüppeldamm ist Holz, nass, Kinderwagen und Rollstuhl eher nicht. Hunde anleinen. Schwartautal ist der andere Ostholstein-NER, Bad Schwartau, andere Stadt, andere Stationen.",
+ "laengeKm": 2.2,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Zehn Schautafeln / ERNA-Audio",
+ "betreiber": "Erlebnis Natur e.V. (ERNA)",
+ "region": "NER Vogelberg, Eutin, Ostholstein",
+ "website": "https://www.erna-eutin.de/ner/",
+ "anreise": "Start Parkplatz Blaue Lehmkuhle, gegenüber der Tennishalle, 23701 Eutin. GPS 54.13575, 10.60149. Bus Haltestelle Eutin, Blaue Lehmkuhle. Bahn Eutin, zu Fuß über Plöner Straße und Kerntangente. Nicht das ERNA-Vereinshaus Diekstauen 5a, das ist der gebuchte Lernort. Schwartautal startet am Kurpark in Bad Schwartau, das ist der andere Pfad.",
+ "startName": "Parkplatz Blaue Lehmkuhle",
+ "arten": [
+  "Rotbuche",
+  "Schwarzerle",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.135871,
+   10.600792
+  ],
+  [
+   54.136089,
+   10.600358
+  ],
+  [
+   54.136142,
+   10.60024
+  ],
+  [
+   54.136238,
+   10.600028
+  ],
+  [
+   54.136362,
+   10.599632
+  ],
+  [
+   54.136411,
+   10.599326
+  ],
+  [
+   54.136422,
+   10.599253
+  ],
+  [
+   54.136492,
+   10.598638
+  ],
+  [
+   54.13655,
+   10.598122
+  ],
+  [
+   54.136599,
+   10.597763
+  ],
+  [
+   54.136679,
+   10.59714
+  ],
+  [
+   54.136693,
+   10.597037
+  ],
+  [
+   54.136754,
+   10.596567
+  ],
+  [
+   54.136764,
+   10.596491
+  ],
+  [
+   54.136907,
+   10.596348
+  ],
+  [
+   54.136945,
+   10.596267
+  ],
+  [
+   54.137034,
+   10.595766
+  ],
+  [
+   54.137025,
+   10.595682
+  ],
+  [
+   54.137468,
+   10.595831
+  ],
+  [
+   54.137911,
+   10.59598
+  ],
+  [
+   54.138253,
+   10.596095
+  ],
+  [
+   54.138404,
+   10.596146
+  ],
+  [
+   54.138878,
+   10.596315
+  ],
+  [
+   54.138945,
+   10.596374
+  ],
+  [
+   54.138997,
+   10.596467
+  ],
+  [
+   54.139041,
+   10.596521
+  ],
+  [
+   54.139107,
+   10.596553
+  ],
+  [
+   54.139209,
+   10.596562
+  ],
+  [
+   54.139326,
+   10.596571
+  ],
+  [
+   54.1396,
+   10.596495
+  ],
+  [
+   54.139326,
+   10.596571
+  ],
+  [
+   54.139209,
+   10.596562
+  ],
+  [
+   54.139107,
+   10.596553
+  ],
+  [
+   54.139041,
+   10.596521
+  ],
+  [
+   54.138997,
+   10.596467
+  ],
+  [
+   54.138945,
+   10.596374
+  ],
+  [
+   54.138878,
+   10.596315
+  ],
+  [
+   54.138404,
+   10.596146
+  ],
+  [
+   54.138253,
+   10.596095
+  ],
+  [
+   54.137911,
+   10.59598
+  ],
+  [
+   54.137468,
+   10.595831
+  ],
+  [
+   54.137025,
+   10.595682
+  ],
+  [
+   54.136976,
+   10.59563
+  ],
+  [
+   54.136896,
+   10.595615
+  ],
+  [
+   54.136927,
+   10.595426
+  ],
+  [
+   54.136932,
+   10.595309
+  ],
+  [
+   54.136938,
+   10.595145
+  ],
+  [
+   54.136972,
+   10.594882
+  ],
+  [
+   54.137077,
+   10.593951
+  ],
+  [
+   54.136972,
+   10.594882
+  ],
+  [
+   54.136938,
+   10.595145
+  ],
+  [
+   54.136932,
+   10.595309
+  ],
+  [
+   54.136927,
+   10.595426
+  ],
+  [
+   54.136896,
+   10.595615
+  ],
+  [
+   54.136976,
+   10.59563
+  ],
+  [
+   54.137025,
+   10.595682
+  ],
+  [
+   54.137468,
+   10.595831
+  ],
+  [
+   54.137911,
+   10.59598
+  ],
+  [
+   54.138253,
+   10.596095
+  ],
+  [
+   54.138404,
+   10.596146
+  ],
+  [
+   54.138878,
+   10.596315
+  ],
+  [
+   54.138945,
+   10.596374
+  ],
+  [
+   54.138997,
+   10.596467
+  ],
+  [
+   54.139041,
+   10.596521
+  ],
+  [
+   54.139107,
+   10.596553
+  ],
+  [
+   54.139209,
+   10.596562
+  ],
+  [
+   54.139326,
+   10.596571
+  ],
+  [
+   54.1396,
+   10.596495
+  ],
+  [
+   54.139562,
+   10.596196
+  ],
+  [
+   54.139525,
+   10.595984
+  ],
+  [
+   54.139498,
+   10.595668
+  ],
+  [
+   54.139498,
+   10.595406
+  ],
+  [
+   54.139471,
+   10.594847
+  ],
+  [
+   54.139449,
+   10.594726
+  ],
+  [
+   54.139387,
+   10.594601
+  ],
+  [
+   54.139275,
+   10.594271
+  ],
+  [
+   54.13924,
+   10.594205
+  ],
+  [
+   54.139222,
+   10.5941
+  ],
+  [
+   54.139056,
+   10.593647
+  ],
+  [
+   54.138983,
+   10.593487
+  ],
+  [
+   54.139046,
+   10.592954
+  ],
+  [
+   54.139195,
+   10.592629
+  ],
+  [
+   54.139162,
+   10.59234
+  ],
+  [
+   54.139161,
+   10.592185
+  ],
+  [
+   54.139411,
+   10.591495
+  ],
+  [
+   54.139654,
+   10.590557
+  ],
+  [
+   54.139832,
+   10.590047
+  ],
+  [
+   54.139937,
+   10.589882
+  ],
+  [
+   54.140016,
+   10.589821
+  ],
+  [
+   54.140128,
+   10.589919
+  ],
+  [
+   54.140487,
+   10.589929
+  ],
+  [
+   54.140897,
+   10.589999
+  ],
+  [
+   54.140989,
+   10.590152
+  ],
+  [
+   54.141008,
+   10.590296
+  ],
+  [
+   54.140962,
+   10.590598
+  ],
+  [
+   54.140987,
+   10.59154
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -315853064,
+   "lat": 54.1357461,
+   "lon": 10.6014925,
+   "km": 0.0,
+   "titel": "Eingang",
+   "thema": "Parkplatz Blaue Lehmkuhle",
+   "kurztext": "Hier steht das Auto, gegenüber die Tennishalle. Der Pfad fängt an der Kante zum Gelände an, nicht im Vereinshaus Diekstauen. Zehn Tafeln, MP3s auf der ERNA-Seite. Frei, ohne Anmeldung.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -808299429,
+   "lat": 54.137468,
+   "lon": 10.595831,
+   "km": 0.42,
+   "titel": "Trockenrasen",
+   "thema": "Magerer Rasen neben der Feuchte",
+   "kurztext": "Kurz, trocken, nebenan nass. Magerrasen braucht Magerkeit, sonst kommt Gestrüpp. Die Tafel erklärt den Unterschied, du bleibst auf dem Weg, sonst trittst du die Fläche kaputt.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2830546301,
+   "lat": 54.138253,
+   "lon": 10.596095,
+   "km": 0.51,
+   "titel": "Knüppeldamm",
+   "thema": "Holzsteg zwischen Lehmkuhle und Elfenmoor",
+   "kurztext": "Holzbohlen, nass nach Regen. Der Damm hält die Füße über dem nassen Boden. Kinderwagen und Rollstuhl hier eher nicht. Bei Nässe langsam, das Holz zieht. Bleib drauf, nebenan ist Feuchtgebiet.",
+   "erlebnisse": [
+    "steg",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -828558317,
+   "lat": 54.139041,
+   "lon": 10.596521,
+   "km": 0.6,
+   "titel": "Ehmbruchgraben",
+   "thema": "Bachlauf am Rand der Niederung",
+   "kurztext": "Ein Graben, Wasser zwischen Wiese und Campus. Die Tafel sitzt am Lauf, du bleibst am Weg. Nicht in den Graben, der hält die Niederung nass.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -3725804476,
+   "lat": 54.139209,
+   "lon": 10.596562,
+   "km": 0.62,
+   "titel": "Ausgleichsmaßnahme",
+   "thema": "Verkehrsplanung Eutin, Kerntangente",
+   "kurztext": "Die Kerntangente schneidet durch. Der Naturerlebnisraum ist der Ausgleich dafür, nicht ein altes Schutzgebiet. Wiese, Graben, Wald statt Anschlussfläche. Die Straße bleibt die Straße, du gehst im Gelände.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 1789077129,
+   "lat": 54.1396721,
+   "lon": 10.5963583,
+   "km": 0.66,
+   "titel": "Weichsel-Würm-Eiszeit",
+   "thema": "Die Anhöhe des Vogelbergs",
+   "kurztext": "Die Tafel hängt an der Kerntangente, OSM nennt den Punkt Naturerlebnispfad. Sand, Kies, eine Kuppe. Die Niederung daneben ist das, was das Eis übrig gelassen hat. Du stehst auf der Geologie, nicht auf einem Hügelgrab.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -4016219679,
+   "lat": 54.137077,
+   "lon": 10.593951,
+   "km": 1.09,
+   "titel": "Buchenwald",
+   "thema": "Laubholz am Rand der Niederung",
+   "kurztext": "Buchen, Schatten, wenig Unterwuchs. Blatt oval, Rand glatt, Rinde grau. Die letzte Audio-Tafel heißt so, geografisch liegt der Bestand in der Südstrecke. Auf dem Weg bleiben.",
+   "erlebnisse": [
+    "tafel",
+    "audio",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -1260269368,
+   "lat": 54.139056,
+   "lon": 10.593647,
+   "km": 1.71,
+   "titel": "Niedermoor",
+   "thema": "Elfenmoor, nasser Boden",
+   "kurztext": "Nass, Erlen, Schilf. Das Elfenmoor liegt am Westende. Die Tafel hängt am Rand, du bleibst darauf. Moor tritt man nicht, sonst sackt es.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -3410963171,
+   "lat": 54.139046,
+   "lon": 10.592954,
+   "km": 1.76,
+   "titel": "Wasser",
+   "thema": "Feuchtgebiet, Bänke am Westende",
+   "kurztext": "Bänke am nassen Ende. Graben, Moor, Pfützen nach Regen. Libellen im Sommer, nicht im Winter. Die Tafel bleibt trocken, du auch, wenn du auf dem Weg bleibst.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -1413702470,
+   "lat": 54.140987,
+   "lon": 10.59154,
+   "km": 2.2,
+   "titel": "Knick",
+   "thema": "Wallhecke am Feldrand",
+   "kurztext": "Eine Hecke auf einem Wall, typisch fürs Land. Vögel, Insekten, Windschutz. Nicht durchsteigen, der Wall ist die Grenze. Danach ist das Elfenmoor zu Ende, zurück zum Parkplatz dieselbe Strecke oder raus zur Beuthiner Straße.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1928161206,
+   "lat": 54.1390742,
+   "lon": 10.5929432,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161208,
+   "lat": 54.1390871,
+   "lon": 10.5928977,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2232197929,
+   "lat": 54.1346223,
+   "lon": 10.6003017,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 11360929393,
+   "lat": 54.1366116,
+   "lon": 10.5981273,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 988369198,
+   "lat": 54.1357461,
+   "lon": 10.6014925,
+   "kategorie": "parking",
+   "name": "Parkplatz Blaue Lehmkuhle"
+  }
+ ],
+ "hoertext": "Am Parkplatz Blaue Lehmkuhle, gegenüber der Tennishalle, fängt der Pfad an. Zwei Kilometer durch die Vogelbergniederung bis zum Elfenmoor, frei, ohne Anmeldung. Zehn Tafeln, dazu MP3s auf der ERNA-Seite. Der Knüppeldamm ist Holz und nass. Das Vereinshaus ist extra, gebuchte Klassen. Bleib auf den Stegen, nebenan ist Moor.",
+ "bilderAsset": "assets/images/trails/naturerlebnispfad-eutin/credits.json"
+}
