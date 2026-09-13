@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-eingang.jpg",
+    "caption": "Eingang zum Baumwipfelpfad am Peter-Liebig-Weg.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-01-Eingang.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-balancier.jpg",
+    "caption": "Erlebnisstation A, Balancierbalken.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-02-Erlebnisstation_A.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-stelzen.jpg",
+    "caption": "Erlebnisstation B mit Stelzen und Wackeltellern.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-03-Erlebnisstation_B.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-wackelbruecke.jpg",
+    "caption": "Erlebnisstation C, Wackelbrücke.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-04-Erlebnisstation_C.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-holzfrass.jpg",
+    "caption": "Didaktikstation, Balken mit Holzfrass.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-05-Didaktikstation.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-turm.jpg",
+    "caption": "Zugang zum Aussichtsturm.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Schwarzwald-06-Aussichtsturm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-steg.jpg",
+    "caption": "Steg durch den Bergmischwald.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Wildbad_-_Sommerberg_-_Baumwipfelpfad_01_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-blick.jpg",
+    "caption": "Blick vom Aussichtsturm auf den Steg.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Wildbad_-_Sommerberg_-_Baumwipfelpfad_(Aussichtsturm)_01_ies.jpg",
+    "kind": "ort"
+  }
+]

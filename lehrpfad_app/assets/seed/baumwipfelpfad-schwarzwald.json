@@ -1,0 +1,300 @@
+{
+ "id": "baumwipfelpfad-schwarzwald",
+ "name": "Baumwipfelpfad Schwarzwald",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "1250 Meter Steg durch Bergmischwald in Bad Wildbad – Balancier, Wackelbrücke, 38,5-Meter-Turm ohne Stufe, Tunnelrutsche extra. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Auf dem Sommerberg in Bad Wildbad führt der Baumwipfelpfad vom Eingang am Peter-Liebig-Weg zum Aussichtsturm. 1250 Meter inkl. Rampe, der Steg bis 20 Meter hoch, der Turm 38,5 Meter – alles ohne Stufen, höchstens sechs Prozent Steigung. Dazwischen Balancierbalken, Wackelteller und eine kurze Wackelbrücke; Tafeln zum Bergmischwald. Die Comic-Rallye mit dem Eichhörnchen holst du an der Kasse. Betreiberin ist die Erlebnis Akademie AG. Hunde bleiben unten, Assistenzhunde ausgenommen. Kinder nur mit Erwachsenem. Der Abenteuerwald am Turm ist extra und nicht dieser Trail. Ein bis zwei Stunden.",
+ "laengeKm": 1.25,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Baumwipfelpfad Schwarzwald / EAK",
+ "betreiber": "Erlebnis Akademie AG",
+ "region": "Sommerberg, Bad Wildbad, Calw, Baden-Württemberg",
+ "website": "https://treetop-walks.com/schwarzwald/",
+ "anreise": "Adresse: Peter-Liebig-Weg 16, 75323 Bad Wildbad. GPS 48.75030, 8.53573. S6 nach Bad Wildbad, Halt Uhlandplatz/Sommerbergbahn, dann Standseilbahn; von der Bergstation wenige Minuten zu Fuß. Parkplatz Sommerberg (Peter-Liebig-Weg 12, 168 Plätze, kostenpflichtig), fünf bis zehn Minuten. Behindertenparkplätze am Auerhahn, ca. 200 m. Wohnmobile nicht auf den Sommerberg.",
+ "startName": "Kasse Peter-Liebig-Weg",
+ "arten": [
+  "Rotbuche",
+  "Fichte"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   48.750299,
+   8.53573
+  ],
+  [
+   48.750381,
+   8.535631
+  ],
+  [
+   48.750548,
+   8.535305
+  ],
+  [
+   48.75056,
+   8.534897
+  ],
+  [
+   48.750659,
+   8.534476
+  ],
+  [
+   48.750617,
+   8.534371
+  ],
+  [
+   48.75056,
+   8.534231
+  ],
+  [
+   48.750513,
+   8.534117
+  ],
+  [
+   48.750514,
+   8.5337
+  ],
+  [
+   48.750491,
+   8.533542
+  ],
+  [
+   48.750477,
+   8.533447
+  ],
+  [
+   48.750471,
+   8.533391
+  ],
+  [
+   48.750436,
+   8.532968
+  ],
+  [
+   48.750374,
+   8.532534
+  ],
+  [
+   48.75034,
+   8.532353
+  ],
+  [
+   48.750284,
+   8.532118
+  ],
+  [
+   48.750211,
+   8.531656
+  ],
+  [
+   48.750042,
+   8.531383
+  ],
+  [
+   48.749929,
+   8.53139
+  ],
+  [
+   48.749866,
+   8.531395
+  ],
+  [
+   48.749537,
+   8.531463
+  ],
+  [
+   48.749229,
+   8.531844
+  ],
+  [
+   48.749152,
+   8.531944
+  ],
+  [
+   48.748964,
+   8.531688
+  ],
+  [
+   48.748737,
+   8.531382
+  ],
+  [
+   48.748591,
+   8.53131
+  ],
+  [
+   48.748488,
+   8.531286
+  ],
+  [
+   48.747986,
+   8.531246
+  ],
+  [
+   48.747823,
+   8.531389
+  ],
+  [
+   48.74768,
+   8.531582
+  ],
+  [
+   48.747545,
+   8.531585
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 48.7502987,
+   "lon": 8.5357299,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ohne Stufe auf den Steg",
+   "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, dann rauf – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1096437279,
+   "lat": 48.750769,
+   "lon": 8.534286,
+   "km": 0.18,
+   "titel": "Balancierbalken",
+   "thema": "Der Steg gibt nach",
+   "kurztext": "Erster Wackelsteg neben der Hauptlinie. Die Bretter federen, der Rest bleibt starr. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1995242986,
+   "lat": 48.750492,
+   "lon": 8.5323,
+   "km": 0.35,
+   "titel": "Stelzen und Wackelteller",
+   "thema": "Ein Bein in der Luft",
+   "kurztext": "Stelzen und Teller, die nachgeben. Unten Fichte und Buche, hier nur ein Geländer. Wer nicht will, geht am festen Steg vorbei.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1224588788,
+   "lat": 48.749953,
+   "lon": 8.531217,
+   "km": 0.5,
+   "titel": "Holzfrass",
+   "thema": "Was im Stamm arbeitet",
+   "kurztext": "Balken mit Fraßgängen am Geländer. Käfer und Pilz räumen auf, Specht zimmert nach. Tafel zum Bergmischwald daneben, nicht Wikipedia. Schau in den Stamm, nicht nur zum Turm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2326590555,
+   "lat": 48.74935,
+   "lon": 8.531814,
+   "km": 0.65,
+   "titel": "Wackelbrücke",
+   "thema": "Kurz und federnd",
+   "kurztext": "Kurze Brücke wie die Rialto, nur kürzer. Die Bretter federn, darunter Luft. Nicht rennen. Der barrierefreie Steg geht daneben weiter.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -458346498,
+   "lat": 48.7475448,
+   "lon": 8.5315847,
+   "km": 1.16,
+   "titel": "Aussichtsturm",
+   "thema": "38,5 Meter, immer noch ohne Stufe",
+   "kurztext": "Rampe in neun Windungen, Plattform oben rund. Bei klarer Sicht Kraichgau, Stuttgarter Fernsehturm, Schwäbische Alb. Anders als mancher Turm: die Rampe nimmt Kinderwagen und Rollstuhl mit nach oben. Zurück denselben Steg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3059717958,
+   "lat": 48.747505,
+   "lon": 8.53162,
+   "km": 1.25,
+   "titel": "Tunnelrutsche",
+   "thema": "Runter im Turm, extra",
+   "kurztext": "55 Meter Röhre im Turm, Einstieg auf 25 Meter. Filzmatte am Einstieg, 2 € am Automaten. Bei Regen und im Winter oft zu. Kein Muss – wer nicht rutscht, geht die Rampe wieder runter.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3173400822,
+   "lat": 48.7475193,
+   "lon": 8.5315178,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 11141133419,
+   "lat": 48.7504176,
+   "lon": 8.5368986,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 26995670,
+   "lat": 48.7512975,
+   "lon": 8.5371518,
+   "kategorie": "parking",
+   "name": "Parkplatz Sommerberg"
+  },
+  {
+   "osmId": 138021373,
+   "lat": 48.7504741,
+   "lon": 8.5387239,
+   "kategorie": "gastro",
+   "name": "Auerhahn"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 13,50 €, ermäßigt 12,50 € (Ausweis: Behinderung, Schüler ab 15, Studierende, Rentner, 65+), Kinder 4–14 Jahre 11,50 €, unter 4 frei, Familie (2 Erwachsene + eigene Kinder 6–14) 33 €. Tunnelrutsche 2 € extra. Stand 2026, treetop-walks.com/schwarzwald/baumwipfelpfad/preise. Abenteuerwald extra / Kombiticket.",
+ "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen. Rutsche April–Oktober 11–18, bei Nässe oft zu, Winter nur bei passendem Wetter.",
+ "besuchshinweise": "Kinder nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Tunnelrutsche extra 2 €, Einstieg 25 m im Turm, bei Nässe oft zu. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
+ "hoertext": "Über den Brettern hängt der Bergmischwald, Buche neben Fichte. Der Steg bleibt ohne Stufe, den Turm nimmt die Rampe mit. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Die Rutsche im Turm kostet extra und bleibt nass zu. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, den Abenteuerwald am Turm extra.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-schwarzwald/credits.json"
+}

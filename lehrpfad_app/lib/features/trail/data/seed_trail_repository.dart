@@ -54,7 +54,9 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/naturerlebnis-grabau.json',
     'assets/seed/naturerlebnispfad-eutin.json',
     'assets/seed/kollhorst.json',
+    'assets/seed/untereider.json',
     'assets/seed/baumwipfelpfad-saarschleife.json',
+    'assets/seed/baumwipfelpfad-schwarzwald.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

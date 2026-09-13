@@ -990,5 +990,64 @@
     "oeffnungszeiten": "Mo–Fr 7–18 Uhr, Sa 7–17 Uhr, So 11–17 Uhr",
     "telefon": "+49 4521 71587",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-17:00; Su 11:00-17:00"
+  },
+  {
+    "id": "baden-aquacity-rendsburg",
+    "name": "Aquacity Rendsburg",
+    "kategorie": "baden",
+    "kurztext": "Hallen- und Freibad direkt am Start — extra Eintritt, nicht der Informationspfad.",
+    "lat": 54.3024491,
+    "lon": 9.6541966,
+    "website": "https://www.aquacity.sh/",
+    "oeffnungszeiten": "Mo 9–20 Uhr, Di–Fr 6–20 Uhr, Sa/So 9–19 Uhr, Eintritt",
+    "telefon": "+49 4331 209600",
+    "opening_hours": "Mo 09:00-20:00; Tu-Fr 06:00-20:00; Sa-Su 09:00-19:00"
+  },
+  {
+    "id": "museum-schifffahrtsarchiv-rendsburg",
+    "name": "Schifffahrtsarchiv Rendsburg",
+    "kategorie": "museum",
+    "kurztext": "Schiffsmodelle in der Königstraße — Regenprogramm nach der Eider, Mi/Sa, nicht am Ufer.",
+    "lat": 54.2989156,
+    "lon": 9.6652673,
+    "website": "https://rendsburger-schifffahrtsarchiv.de/",
+    "oeffnungszeiten": "Apr–Okt Mi 10–17 Uhr, Sa 10–13 Uhr; Nov–Mär Mi 13–17 Uhr, Sa 10–13 Uhr",
+    "telefon": "+49 4331 4379376",
+    "opening_hours": "Apr-Oct: We 10:00-17:00; Apr-Oct: Sa 10:00-13:00; Nov-Mar: We 13:00-17:00; Nov-Mar: Sa 10:00-13:00"
+  },
+  {
+    "id": "restaurant-brueckenterrassen-rendsburg",
+    "name": "Brückenterrassen",
+    "kategorie": "restaurant",
+    "kurztext": "Café und Küche am Kreishafen, Schiffsbegrüßung — nach dem Pfad an den Kanal, nicht an der Eider.",
+    "lat": 54.2943217,
+    "lon": 9.6829382,
+    "website": "https://www.brueckenterrassen.de/",
+    "oeffnungszeiten": "Mo–So 9–20 Uhr Küche, Winter siehe Aushang",
+    "telefon": "+49 4331 22002",
+    "opening_hours": "Mo-Su 09:00-20:00"
+  },
+  {
+    "id": "aktivitaet-schwebefaehre-rendsburg",
+    "name": "Schwebefähre Rendsburg",
+    "kategorie": "aktivitaet",
+    "kurztext": "Hängebahn über den Kanal, frei, zwei Minuten — Extra-Trip nach dem Pfad, Schiffe haben Vorrang.",
+    "lat": 54.2935672,
+    "lon": 9.6826738,
+    "website": "https://www.rendsburg-tourismus-marketing.de/stadt-am-wasser/schwebefaehre",
+    "oeffnungszeiten": "täglich 5–23 Uhr, Winter bis 22 Uhr, frei",
+    "opening_hours": "05:00-23:00"
+  },
+  {
+    "id": "cafe-flora-breiholz",
+    "name": "Café Flora / Hotel Fauna",
+    "kategorie": "cafe",
+    "kurztext": "Bio-Café am Nord-Ostsee-Kanal in Breiholz — nach dem Pfad, nicht auf der Feuchtwiese. Mo/Di zu.",
+    "lat": 54.2007717,
+    "lon": 9.5613143,
+    "website": "https://hotel-fauna.de/",
+    "oeffnungszeiten": "Mi/Do 14–20 Uhr, Fr/Sa 12–20 Uhr, So 9–19 Uhr, Mo/Di zu",
+    "telefon": "+49 4875 902632",
+    "opening_hours": "Mo,Tu off; We-Th 14:00-20:00; Fr-Sa 12:00-20:00; Su 09:00-19:00"
   }
 ]

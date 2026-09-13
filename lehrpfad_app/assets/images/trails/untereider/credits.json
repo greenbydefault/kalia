@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-untereider.jpg",
+    "caption": "Untereider in Rendsburg, Blick über das Wasser. Der Informationspfad liegt am nördlichen Ufer, nicht in der Altstadt.",
+    "credit": "Jürgen Oetting",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUntereider_in_Rendsburg.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bleiche.jpg",
+    "caption": "Untereider an der Bleiche. Der Seed-Pfad startet am Wohnmobilplatz weiter westlich.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARendsburg_-_An_der_Bleiche_-_Untereider_02_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-bleiche-ufer.jpg",
+    "caption": "Ufer der Untereider an der Bleiche.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARendsburg_-_Untereider_%28An_der_Bleiche%29_03_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-steg.jpg",
+    "caption": "Fußgängerbrücke über die Untereider.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARendsburg_-_Untereider_%28Fu%C3%9Fg%C3%A4ngerbr%C3%BCcke%29_01_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-untereider-matt.jpg",
+    "caption": "Untereider in Rendsburg.",
+    "credit": "Matti Blume",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUntereider%2C_Rendsburg_%28P1100715%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-stadtsee.jpg",
+    "caption": "Stadtsee im Hans-Heinemann-Park. Früher Eider-Altarm, nicht der Lehrpfad selbst.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARendsburg_-_Hans-Heinemann-Park_-_Stadtsee_01_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-hochbruecke.jpg",
+    "caption": "Eisenbahnhochbrücke Rendsburg über dem Kanal. Der 11,3-km-Rundweg geht dorthin, nicht dieser Seed.",
+    "credit": "Matti Blume",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHochbrucke%2C_Rendsburg_%28P1100474%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-erle.jpg",
+    "caption": "Schwarzerle. Nicht in Rendsburg, am Ufer der Untereider stehen Erlen.",
+    "credit": "David Perez",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlnus_glutinosa_02_by-dpc.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "09-eisvogel.jpg",
+    "caption": "Eisvogel, Weibchen. Nisthilfen stehen an der Untereider, der Vogel selbst ist scheu.",
+    "credit": "Charles J. Sharp",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommon_kingfisher_%28Alcedo_atthis_ispida%29_female.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-libelle.jpg",
+    "caption": "Gebänderte Prachtlibelle. Nicht in Rendsburg, an der Eider fliegen Libellen.",
+    "credit": "GerardM",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalopteryx_splendens.jpg",
+    "kind": "art"
+  }
+]

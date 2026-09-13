@@ -118,7 +118,9 @@ flutter:
     - assets/images/trails/naturerlebnis-grabau/
     - assets/images/trails/naturerlebnispfad-eutin/
     - assets/images/trails/kollhorst/
+    - assets/images/trails/untereider/
     - assets/images/trails/baumwipfelpfad-saarschleife/
+    - assets/images/trails/baumwipfelpfad-schwarzwald/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

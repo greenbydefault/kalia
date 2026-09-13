@@ -1,0 +1,267 @@
+{
+ "id": "untereider",
+ "name": "Naturerlebnisraum Untereider",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Tafeln an der Eider in Rendsburg, nördlich der Altstadt. Feuchtwiese, Ufer, Schutz. Frei. Der elf Kilometer lange Rundweg ist extra.",
+ "beschreibung": "Der Naturerlebnisraum Untereider beginnt am Wohnmobilplatz An der Untereider, Höhe Aquacity, und zieht nach Westen an der Eider entlang. 136 Hektar Feuchtwiese, Ufer, Waldreste. Der Seed ist der nördliche Informationspfad mit den Schautafeln an der Eider. Die Stadt nennt 2,2 Kilometer Ökologiepfad; der 11,3-Kilometer-Eiderrundweg bis zum Nord-Ostsee-Kanal ist extra, nicht dieser Trail. Frei, ohne Anmeldung. Forscherrucksack in der Rendsburg Information, Altes Rathaus, extra. Grünes Klassenzimmer für Gruppen extra. Hunde anleinen. Wege nass nach Regen, Kinderwagen eher nicht.",
+ "laengeKm": 1.1,
+ "dauerMin": 40,
+ "rundkurs": false,
+ "markierung": "Schautafeln Eiderökologie / Stadt Rendsburg",
+ "betreiber": "Stadt Rendsburg",
+ "region": "Untereider, Rendsburg, Rendsburg-Eckernförde",
+ "website": "https://www.rendsburg.de/umwelt",
+ "anreise": "Start Wohnmobilhafen An der Untereider 9, 24768 Rendsburg, GPS 54.30403, 9.65659. Parkplatz am Schwimmzentrum / An der Untereider. Bus Rendsburg, Haltestellen um Neuwerk. Bahn Rendsburg, zu Fuß über die Altstadt an den Stadtsee, dann an der Untereider nach Westen. Nicht das Alte Rathaus als Start, dort nur der Forscherrucksack.",
+ "startName": "Wohnmobilplatz An der Untereider",
+ "arten": [
+  "Schwarzerle",
+  "Libelle",
+  "Eisvogel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.30403,
+   9.65659
+  ],
+  [
+   54.30468,
+   9.655297
+  ],
+  [
+   54.305329,
+   9.654004
+  ],
+  [
+   54.30425,
+   9.65559
+  ],
+  [
+   54.30416,
+   9.65543
+  ],
+  [
+   54.30388,
+   9.65499
+  ],
+  [
+   54.30378,
+   9.65478
+  ],
+  [
+   54.30367,
+   9.65452
+  ],
+  [
+   54.30361,
+   9.65433
+  ],
+  [
+   54.30358,
+   9.65426
+  ],
+  [
+   54.30346,
+   9.65394
+  ],
+  [
+   54.30326,
+   9.65342
+  ],
+  [
+   54.30317,
+   9.65315
+  ],
+  [
+   54.30307,
+   9.65289
+  ],
+  [
+   54.30313,
+   9.65262
+  ],
+  [
+   54.30302,
+   9.65241
+  ],
+  [
+   54.30286,
+   9.65237
+  ],
+  [
+   54.30277,
+   9.65216
+  ],
+  [
+   54.30266,
+   9.65195
+  ],
+  [
+   54.3025,
+   9.65164
+  ],
+  [
+   54.30231,
+   9.65131
+  ],
+  [
+   54.3022,
+   9.65108
+  ],
+  [
+   54.30204,
+   9.65068
+  ],
+  [
+   54.30188,
+   9.65036
+  ],
+  [
+   54.30162,
+   9.64994
+  ],
+  [
+   54.3013,
+   9.6495
+  ],
+  [
+   54.30111,
+   9.64925
+  ],
+  [
+   54.30088,
+   9.64896
+  ],
+  [
+   54.30097,
+   9.64876
+  ],
+  [
+   54.30135,
+   9.6479
+  ],
+  [
+   54.30158,
+   9.64734
+  ],
+  [
+   54.30159,
+   9.64722
+  ],
+  [
+   54.301479,
+   9.647036
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -4058593124,
+   "lat": 54.30403,
+   "lon": 9.65659,
+   "km": 0.0,
+   "titel": "Wohnmobilplatz",
+   "thema": "Start An der Untereider",
+   "kurztext": "Hier steht das Auto, nebenan das Aquacity. Der Informationspfad fängt an der Eider an, nicht im Alten Rathaus. Tafeln, frei, ohne Anmeldung. Der elf Kilometer lange Rundweg ist extra.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 12309518064,
+   "lat": 54.3053295,
+   "lon": 9.6540045,
+   "km": 0.22,
+   "titel": "Gefährdung und Schutz",
+   "thema": "Warum die Eider Hilfe braucht",
+   "kurztext": "Tafel am nördlichen Ufer. Die Eider ist verbaut, begradigt, die Wiese trotzdem nass. Schutz heißt: auf dem Weg bleiben, Hunde anleinen, nicht in die Feuchtwiese. Die Tafel hängt am Geländer, nicht Wikipedia.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 12309531379,
+   "lat": 54.3038742,
+   "lon": 9.6518042,
+   "km": 0.62,
+   "titel": "Feuchtgrünland",
+   "thema": "Goldwiese, zweimal mähen",
+   "kurztext": "Nasse Wiese am Grundwasser, Wiesenschaumkraut. Die Stadt mäht erst nach dem 1. Juli, zweimal im Jahr. So bleibt Platz für Wiesenvögel. Du bleibst auf dem Weg, sonst trittst du die Fläche kaputt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 1436294668,
+   "lat": 54.3017811,
+   "lon": 9.6478316,
+   "km": 1.1,
+   "titel": "Uferzone",
+   "thema": "Puffer zwischen Wiese und Eider",
+   "kurztext": "Schilf, Weiden, ein Streifen zwischen Nutzfläche und Wasser. Tiere sitzen hier, nicht mitten auf der Wiese. Die Tafel heißt Eider. Nicht ans Wasser, die Kante ist weich.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 14125452826,
+   "lat": 54.301479,
+   "lon": 9.647036,
+   "km": 1.12,
+   "titel": "Die Mühlenau",
+   "thema": "Bach in die Eider",
+   "kurztext": "Ein Zufluss, nicht die Eider selbst. Wasser aus dem Kronwerk, dann in den Fluss. Die Tafel sitzt am Zusammenfluss. Hier endet der Informationspfad nach Westen, zurück denselben Weg oder raus zur Stadt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 317657770,
+   "lat": 54.3036695,
+   "lon": 9.6557215,
+   "kategorie": "parking",
+   "name": "Parkplatz an der Untereider"
+  },
+  {
+   "osmId": 56051498,
+   "lat": 54.3037157,
+   "lon": 9.6541895,
+   "kategorie": "parking",
+   "name": "Parkplätze Schwimmzentrum Rendsburg"
+  },
+  {
+   "osmId": 369430554,
+   "lat": 54.3040295,
+   "lon": 9.6565936,
+   "kategorie": "parking",
+   "name": "Wohnmobilhafen am Rendsburger Stadtsee"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
+ "besuchshinweise": "Hunde anleinen. Wege nass nach Regen. Forscherrucksack und Grünes Klassenzimmer sind extra, nicht der Spontanpfad. Der 11,3-km-Rundweg ist ein anderer Weg.",
+ "hoertext": "Am Wohnmobilplatz an der Untereider fängt der Pfad an. Entlang der Eider, nördlich der Altstadt, frei, ohne Anmeldung. Tafeln zu Feuchtwiese, Ufer und Schutz. Der große Rundweg mit elf Kilometern ist extra. Den Rucksack holst du in der Altstadt, nicht hier. Bleib auf den Wegen, die Wiese ist nass.",
+ "bilderAsset": "assets/images/trails/untereider/credits.json"
+}

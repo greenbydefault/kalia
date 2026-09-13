@@ -8,6 +8,8 @@ import 'package:lehrpfad_app/features/trail/data/seed_trail_repository.dart';
 import 'package:lehrpfad_app/features/trail/data/trail_hero_assets.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail_bild.dart';
+import 'package:lehrpfad_app/features/nearby/data/seed_nearby_repository.dart';
+import 'package:lehrpfad_app/features/nearby/domain/nearby.dart';
 import 'package:lehrpfad_app/features/trail/presentation/map/trail_hero.dart';
 
 void main() {
@@ -54,7 +56,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(38));
+    expect(trails, hasLength(44));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -90,6 +92,7 @@ void main() {
         'waldhusen',
         'schwartautal',
         'oher-graeberfeld',
+        'untereider',
       ]),
     );
     expect(trails.firstWhere((t) => t.id == 'wupatz').route, isNotEmpty);
@@ -616,6 +619,52 @@ void main() {
       expect(bild.sourceUrl, contains('commons.wikimedia.org'));
       expectVariantFiles('oher-graeberfeld', bild);
     }
+  });
+
+  test('Untereider: 5 Stationen, Rendsburg, Linie frei', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'untereider');
+    expect(trail.typ, 'naturerlebnis');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isFalse);
+    expect(trail.eintritt, isFalse);
+    expect(trail.region, contains('Rendsburg'));
+    expect(trail.stationen.length, greaterThanOrEqualTo(3));
+    expect(trail.stationen.length, 5);
+    expect(trail.arten, containsAll(['Schwarzerle', 'Libelle', 'Eisvogel']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Wohnmobilplatz',
+        'Gefährdung und Schutz',
+        'Feuchtgrünland',
+        'Uferzone',
+        'Die Mühlenau',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.304, 0.02));
+    expect(trail.start.longitude, closeTo(9.657, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('untereider', bild);
+    }
+  });
+
+  test('Untereider Nearby enthält Café Flora Breiholz', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere((t) => t.id == 'untereider');
+    final catalog = await SeedNearbyRepository().getCatalog();
+    final hits = nearby(trail, catalog);
+    expect(hits, isNotEmpty);
+    expect(
+      hits.map((t) => t.place.id),
+      contains('cafe-flora-breiholz'),
+    );
   });
 
   test('Fischbeker Heide: 11 Tafeln, Hamburg, Rundkurs', () async {
