@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-tafel.jpg",
+    "caption": "Erläuterungstafel an der Südgruppe, Everstorfer Forst.",
+    "credit": "Svetlana2372",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeschreibung_von_archeologischer_Denkmal.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-riesengrab.jpg",
+    "caption": "Riesengrab, Südgruppe im Everstorfer Forst.",
+    "credit": "Mäkelbörger",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrosssteingrab_Everstorfer_Forst.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-huenenbett.jpg",
+    "caption": "Langbett des Riesengrabs, Südgruppe.",
+    "credit": "Ch.Pagenkopf",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCnenbett_2.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-kammer.jpg",
+    "caption": "Zugang zur Kammer am Riesengrab.",
+    "credit": "Ch.Pagenkopf",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCnenbett_3.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-teufelsbackofen.jpg",
+    "caption": "Teufelsbackofen, erweiterter Dolmen der Südgruppe.",
+    "credit": "Svetlana2372",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATeufelsbackofen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-dolmen.jpg",
+    "caption": "Teufelsbackofen in der Südgruppe bei Grevesmühlen.",
+    "credit": "Ch.Pagenkopf",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUrdolmen_S%C3%BCdgruppe.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-nordgruppe.jpg",
+    "caption": "Großsteingrab in der Nordgruppe des Everstorfer Forsts. Anderer Einstieg, nicht diese Runde.",
+    "credit": "Michael Schletze",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMegalithgrab_Everstorfer_Forst_Nord_1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-forst.jpg",
+    "caption": "Steine im Everstorfer Forst, Nordgruppe. Anderer Einstieg.",
+    "credit": "Michael Schletze",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMegalithgrab_Everstorfer_Forst_Nord_4.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-buche.jpg",
+    "caption": "Rotbuche, Blattunterseite. Nicht am Parkplatz B 105.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-steine.jpg",
+    "caption": "Großsteingrab in der Nordgruppe. Anderer Einstieg, nicht diese Runde.",
+    "credit": "Michael Schletze",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMegalithgrab_Everstorfer_Forst_Nord_3.jpg",
+    "kind": "ort"
+  }
+]

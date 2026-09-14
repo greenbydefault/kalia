@@ -1049,5 +1049,43 @@
     "oeffnungszeiten": "Mi/Do 14–20 Uhr, Fr/Sa 12–20 Uhr, So 9–19 Uhr, Mo/Di zu",
     "telefon": "+49 4875 902632",
     "opening_hours": "Mo,Tu off; We-Th 14:00-20:00; Fr-Sa 12:00-20:00; Su 09:00-19:00"
+  },
+  {
+    "id": "museum-grevesmuehlen",
+    "name": "Städtisches Museum Grevesmühlen",
+    "kategorie": "museum",
+    "kurztext": "Flyer und Führungen zu den Großsteingräbern — extra, der Forst ist frei.",
+    "lat": 53.8627156,
+    "lon": 11.1839104,
+    "website": "https://www.grevesmuehlen.de/leben/kultur/grosssteingraeber.html",
+    "oeffnungszeiten": "siehe Museum",
+    "telefon": "+49 3881 723260"
+  },
+  {
+    "id": "restaurant-seeschloesschen-grevesmuehlen",
+    "name": "Restaurant & Café Seeschlösschen",
+    "kategorie": "restaurant",
+    "kurztext": "Küche am Ploggensee, Terrasse — nach den Gräbern, nicht am Parkplatz B 105.",
+    "lat": 53.8673461,
+    "lon": 11.1967170,
+    "website": "https://www.grevesmuehlen.m-vp.de/entdecken/restaurant-und-cafe-seeschloesschen/",
+    "oeffnungszeiten": "Mi–Sa 11–20 Uhr, So 11–17 Uhr, Mo/Di Ruhetag",
+    "opening_hours": "Mo,Tu off; We-Sa 11:00-20:00; Su 11:00-17:00"
+  },
+  {
+    "id": "cafe-benn-grevesmuehlen",
+    "name": "Café Benn",
+    "kategorie": "cafe",
+    "kurztext": "Bäckerei und Konditorei in der Tannenbergstraße — Kaffee nach dem Forst, in der Stadt.",
+    "lat": 53.8548063,
+    "lon": 11.1830336
+  },
+  {
+    "id": "baden-ploggensee-grevesmuehlen",
+    "name": "Freibad am Ploggensee",
+    "kategorie": "baden",
+    "kurztext": "Seebad in Grevesmühlen — nach den Steinen ins Wasser, Saison.",
+    "lat": 53.8675674,
+    "lon": 11.1947290
   }
 ]

@@ -1,0 +1,197 @@
+{
+ "id": "everstorfer-forst",
+ "name": "Großsteingräber Everstorfer Forst",
+ "typ": "wald",
+ "kurzbeschreibung": "Fünf Großsteingräber am Parkplatz B 105, Abzweig Barendorf. Südgruppe, frei, Tafel am Platz.",
+ "beschreibung": "Östlich von Grevesmühlen, am Parkplatz der B 105 Richtung Wismar, Abzweig Barendorf, liegen fünf Großsteingräber im Everstorfer Forst. Drei südlich der Straße, zwei nördlich. Tafel am Parkplatz, Wege ausgeschildert. Riesengrab, Teufelsbackofen, Hünenbett, ein zerstörter Dolmen, ein Ganggrab. Immer frei, ohne Anmeldung. Führungen über das Städtische Museum in Grevesmühlen sind extra, die brauchst du nicht. Waldweg, die Straße liegt dazwischen, Kinderwagen und Rollstuhl eher nicht. Hunde anleinen, Steine nicht erklettern. Die Nordgruppe mit zehn weiteren Gräbern liegt zwei Kilometer nordwestlich von Barendorf, anderer Einstieg, nicht diese Runde. Waldhusen ist Lübeck, anderer Wald.",
+ "laengeKm": 1.3,
+ "dauerMin": 45,
+ "rundkurs": true,
+ "markierung": "Schilder ab Parkplatz / Waldweg",
+ "betreiber": "Stadt Grevesmühlen / Landesamt für Kultur und Denkmalpflege M-V",
+ "region": "Everstorfer Forst, Barendorf / Grevesmühlen, Nordwestmecklenburg",
+ "website": "https://www.grevesmuehlen.de/leben/kultur/grosssteingraeber.html",
+ "anreise": "Start Parkplatz B 105, Abzweig Barendorf, 23936 Grevesmühlen. Tafel direkt am Platz. Von Lübeck die B 105 Richtung Wismar, von Wismar Richtung Grevesmühlen. Bus Haltestelle Barendorf Abzweig. Die Nordgruppe startet an der Straße Hoikendorf–Grevesmühlen, nicht hier. Waldhusen startet in Kücknitz, das ist der andere Wald.",
+ "startName": "Parkplatz B 105 / Abzweig Barendorf",
+ "arten": [
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.861946,
+   11.282823
+  ],
+  [
+   53.861145,
+   11.281888
+  ],
+  [
+   53.860667,
+   11.283223
+  ],
+  [
+   53.860189,
+   11.284558
+  ],
+  [
+   53.859711,
+   11.285893
+  ],
+  [
+   53.859707,
+   11.285581
+  ],
+  [
+   53.860453,
+   11.284662
+  ],
+  [
+   53.8612,
+   11.283742
+  ],
+  [
+   53.861946,
+   11.282823
+  ],
+  [
+   53.862067,
+   11.283092
+  ],
+  [
+   53.862054,
+   11.281605
+  ],
+  [
+   53.862695,
+   11.279689
+  ],
+  [
+   53.862381,
+   11.281391
+  ],
+  [
+   53.862067,
+   11.283092
+  ],
+  [
+   53.861946,
+   11.282823
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 873889815,
+   "lat": 53.8619457,
+   "lon": 11.2828233,
+   "km": 0.0,
+   "titel": "Tafel am Parkplatz",
+   "thema": "Südgruppe, fünf Gräber an der B 105",
+   "kurztext": "Hier steht das Auto, hier hängt die Karte. Drei Gräber südlich der Straße, zwei nördlich. Frei, ohne Führung. Museum und Führungen in Grevesmühlen sind extra. Die Nordgruppe liegt zwei Kilometer weiter, anderer Einstieg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 873889839,
+   "lat": 53.8611447,
+   "lon": 11.2818877,
+   "km": 0.11,
+   "titel": "Riesengrab",
+   "thema": "Ganggrab im Langbett",
+   "kurztext": "Südlich der B 105. Langbett, große Decksteine, Kammer am Ostende. Fast vollständig. Der Zugang ist versetzt, du gehst nicht rein. Unten bleiben, der Stein ist der Fund.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 873889807,
+   "lat": 53.8597108,
+   "lon": 11.2858933,
+   "km": 0.42,
+   "titel": "Teufelsbackofen",
+   "thema": "Erweiterter Dolmen mit Näpfchen",
+   "kurztext": "Runde Umfassung, sieben Tragsteine, zwei Decksteine. Auf einem Deckstein sitzen Näpfchen, später reingepickt. 1966 ausgegraben und wieder aufgestellt. Daneben liegt das Hünenbett.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 8222245849,
+   "lat": 53.8597067,
+   "lon": 11.2855811,
+   "km": 0.44,
+   "titel": "Hünenbett",
+   "thema": "Langbett mit Kammer ohne Zugang",
+   "kurztext": "Zweiundzwanzig Steine, etwa zweiundzwanzig mal fünf Meter. In der Mitte eine kleine Kammer, sechs Wandsteine, keine Decksteine, kein Zugang. Andere Form als der Dolmen drei Meter weiter. Auch 1966 restauriert.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 3065601780,
+   "lat": 53.8620536,
+   "lon": 11.2816054,
+   "km": 0.86,
+   "titel": "Dolmenreste",
+   "thema": "Zerstörter Großdolmen, Tafel am Weg",
+   "kurztext": "Nördlich der Straße, vom Parkplatz den Waldweg nach Westen. Vier Tragsteine in einer Grube. Die Tafel erklärt, was fehlt. 1967 ausgegraben. Vom Weg aus fast nicht zu sehen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 3065601774,
+   "lat": 53.862695,
+   "lon": 11.2796887,
+   "km": 1.01,
+   "titel": "Ganggrab",
+   "thema": "Kammer mit Gang, nördlich der B 105",
+   "kurztext": "Weiter den Waldweg, wenige Meter nördlich. Trapezförmige Umfassung, Zugang freigelegt. 1936 und 1966 gegraben. Ein Deckstein sitzt auf Beton, das ist die Sicherung, nicht original so.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1344794460,
+   "lat": 53.862067,
+   "lon": 11.283092,
+   "kategorie": "parking",
+   "name": "Parkplatz B 105 Abzweig Barendorf"
+  },
+  {
+   "osmId": 873889852,
+   "lat": 53.8598895,
+   "lon": 11.2855489,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ],
+ "hoertext": "Am Parkplatz B 105, Abzweig Barendorf, hängt die Tafel. Fünf Gräber der Südgruppe, drei südlich der Straße, zwei nördlich. Frei. Das Riesengrab ist ein Ganggrab, der Teufelsbackofen ein Dolmen mit Näpfchen auf dem Deckstein. Die Straße liegt dazwischen. Bleib unten, der Stein ist der Fund. Die Nordgruppe startet woanders.",
+ "bilderAsset": "assets/images/trails/everstorfer-forst/credits.json"
+}

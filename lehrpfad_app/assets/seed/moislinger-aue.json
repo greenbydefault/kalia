@@ -1,0 +1,299 @@
+{
+  "id": "moislinger-aue",
+  "name": "Naturerlebnisraum Moislinger Aue",
+  "typ": "naturerlebnis",
+  "form": "flaeche",
+  "kurzbeschreibung": "21 Hektar in Moisling, zwischen Trave und Freibad. Kletterbäume, Wassertreppe, Kullerhänge. Frei. Hier darfst du auf Bäume.",
+  "beschreibung": "Westlich von Alt-Moisling, zwischen Trave, Freibad und Kleingarten, liegt der Naturerlebnisraum Moislinger Aue und Krähenwald. 21 Hektar, anerkannt 1998. Wiese, Wald, Weiher, Bach. Was in Grünanlagen verboten ist, ist hier erlaubt: auf Bäume, Bäche aufstauen, im Ufermatsch. Kletterbäume, Wassertreppe, Kullerhänge, Gebüschhöhlen. Immer frei, ohne Anmeldung. Der Fußweg kommt vom Sterntalerweg, kaum Schilder. Hunde anleinen. Die Mountainbikerunde ist extra, nicht der Familienbesuch. Rittbrookpfad und Naturwaldpfad starten im Lauerholz, Waldhusen in Kücknitz, andere Wälder. Stecknitztal ist der andere NER in Moisling, östlich am Kanal.",
+  "laengeKm": 0,
+  "dauerMin": 90,
+  "rundkurs": false,
+  "markierung": "Naturerlebnisraum / Eule-Schild",
+  "betreiber": "Hansestadt Lübeck, Bereich Umwelt-, Natur- und Verbraucherschutz",
+  "region": "Moisling, Lübeck, Schleswig-Holstein",
+  "website": "https://www.luebeck.de/de/stadtleben/freizeit/natur-erleben/erholung-naturerleben/naturerlebnisraeume/index.html",
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
+  "besuchshinweise": "Hunde anleinen. Klettern und Aufstauen sind hier erlaubt. Mountainbikerunde ist extra. Fußweg vom Sterntalerweg, kaum Schilder.",
+  "anreise": "Fußweg vom Sterntalerweg, 23560 Lübeck-Moisling, kaum Schilder. Westlich die Trave, südöstlich das Freibad Moisling (Pennmoor 1), nordöstlich die Kleingärten. Parken an der Straße Sterntalerweg / Brüder-Grimm-Ring oder am Freibad. Bus Haltestelle Pennmoor oder Aschenputtelweg. Nicht Israelsdorf, nicht Am Rittbrook, nicht Waldhusen. Stecknitztal startet am Kanal, das ist der andere NER.",
+  "startName": "Fußweg vom Sterntalerweg",
+  "arten": [
+    "Rotbuche",
+    "Schwarzerle",
+    "Libelle"
+  ],
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz",
+    "hunde-erlaubt"
+  ],
+  "hoertext": "Moisling, zwischen Trave und Freibad. Einundzwanzig Hektar Wiese, Wald, Bach. Frei, ohne Anmeldung. Hier darfst du auf Bäume, am Graben stauen, den Hang runterkullern. Der Fußweg kommt vom Sterntalerweg, kaum Schilder. Hunde anleinen. Rittbrook und Waldhusen sind andere Wälder. Stecknitztal liegt östlich, nicht hier.",
+  "route": [],
+  "area": [
+    [
+      53.843181,
+      10.62147
+    ],
+    [
+      53.843386,
+      10.623859
+    ],
+    [
+      53.84339,
+      10.620835
+    ],
+    [
+      53.843718,
+      10.620398
+    ],
+    [
+      53.846497,
+      10.625381
+    ],
+    [
+      53.846729,
+      10.626874
+    ],
+    [
+      53.846505,
+      10.626973
+    ],
+    [
+      53.846758,
+      10.627626
+    ],
+    [
+      53.846965,
+      10.629879
+    ],
+    [
+      53.847303,
+      10.629865
+    ],
+    [
+      53.84773,
+      10.630314
+    ],
+    [
+      53.84804,
+      10.629718
+    ],
+    [
+      53.847627,
+      10.625192
+    ],
+    [
+      53.846859,
+      10.622564
+    ],
+    [
+      53.844821,
+      10.617831
+    ],
+    [
+      53.844659,
+      10.618028
+    ],
+    [
+      53.844504,
+      10.617035
+    ],
+    [
+      53.844168,
+      10.616767
+    ],
+    [
+      53.844165,
+      10.616953
+    ],
+    [
+      53.843648,
+      10.617168
+    ],
+    [
+      53.842916,
+      10.617949
+    ],
+    [
+      53.842635,
+      10.620037
+    ],
+    [
+      53.842318,
+      10.619756
+    ],
+    [
+      53.841945,
+      10.618994
+    ],
+    [
+      53.841974,
+      10.618288
+    ],
+    [
+      53.842649,
+      10.616758
+    ],
+    [
+      53.842461,
+      10.615859
+    ],
+    [
+      53.841462,
+      10.617604
+    ],
+    [
+      53.840959,
+      10.617947
+    ],
+    [
+      53.840015,
+      10.621689
+    ],
+    [
+      53.841367,
+      10.623559
+    ],
+    [
+      53.840745,
+      10.623921
+    ],
+    [
+      53.840385,
+      10.625027
+    ],
+    [
+      53.84003,
+      10.624721
+    ],
+    [
+      53.839946,
+      10.624821
+    ],
+    [
+      53.839995,
+      10.627038
+    ],
+    [
+      53.840468,
+      10.629191
+    ],
+    [
+      53.84062,
+      10.629103
+    ],
+    [
+      53.840648,
+      10.627295
+    ],
+    [
+      53.8405,
+      10.62714
+    ],
+    [
+      53.840465,
+      10.626169
+    ],
+    [
+      53.840671,
+      10.625048
+    ],
+    [
+      53.841626,
+      10.623338
+    ],
+    [
+      53.841448,
+      10.622203
+    ],
+    [
+      53.841872,
+      10.621724
+    ],
+    [
+      53.842329,
+      10.621814
+    ],
+    [
+      53.842935,
+      10.6207
+    ],
+    [
+      53.843181,
+      10.62147
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 960001,
+      "lat": 53.84703,
+      "lon": 10.6261,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Kletterbäume",
+      "thema": "Rauf, hier ist es erlaubt",
+      "kurztext": "Im Krähenwald stehen Bäume zum Raufgehen. In Grünanlagen wäre das falsch, hier ist es der Punkt. Nasse Rinde rutscht. Nicht jeden Ast belasten.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 960002,
+      "lat": 53.84231,
+      "lon": 10.62007,
+      "km": 0.08,
+      "reihenfolge": 2,
+      "titel": "Wassertreppe",
+      "thema": "Bach aufstauen, Matsch",
+      "kurztext": "Stufen im Graben, Wasser fällt. Stauen, umleiten, nass werden. Schuhe, die das mitmachen. Den Bach nicht leer machen, nur spielen.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 960003,
+      "lat": 53.84568,
+      "lon": 10.62369,
+      "km": 0.15,
+      "reihenfolge": 3,
+      "titel": "Kullerhänge",
+      "thema": "Hang runter, Laub",
+      "kurztext": "Im Wald fällt das Gelände ab. Runterkullern, wieder rauf. Nasses Laub rutscht. Unten ist der Hang zu Ende, nicht durchs Gebüsch weiter.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "steckbrief": null
+    },
+    {
+      "osmId": 960004,
+      "lat": 53.84433,
+      "lon": 10.62128,
+      "km": 0.22,
+      "reihenfolge": 4,
+      "titel": "Gebüschhöhlen",
+      "thema": "Rein, klein, versteckt",
+      "kurztext": "Sträucher, Lücken darunter. Rein kriechen, sitzen, raus. Zweige nicht ausreißen, die Höhle hält nur, wenn das Gebüsch bleibt.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "steckbrief": null
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 960010,
+      "lat": 53.8477,
+      "lon": 10.62851,
+      "kategorie": "parking",
+      "name": "Parken Sterntalerweg / Brüder-Grimm-Ring"
+    }
+  ],
+  "bilderAsset": "assets/images/trails/moislinger-aue/credits.json"
+}

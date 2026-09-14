@@ -1,0 +1,56 @@
+[
+  {
+    "file": "01-wiese.jpg",
+    "caption": "Wiese und Waldrand in der Moislinger Aue.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9837.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-weiher.jpg",
+    "caption": "Weiher mit Schilf im Naturerlebnisraum Moisling.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9839.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-steg.jpg",
+    "caption": "Holzsteg über den Graben, dahinter die Aue.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9842.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-wassertreppe.jpg",
+    "caption": "Wassertreppe im Graben, Steine und Betonrand.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9851.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-trave.jpg",
+    "caption": "Trave am westlichen Rand, Holzsteg am Ufer.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9857.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-sterntalerweg.jpg",
+    "caption": "Fußweg vom Sterntalerweg zum NER, nicht ausgeschildert.",
+    "credit": "Nightflyer",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald%2C_Anfahrt_%C3%BCber_Sterntalerweg_IMG_9758.JPG",
+    "kind": "ort"
+  }
+]

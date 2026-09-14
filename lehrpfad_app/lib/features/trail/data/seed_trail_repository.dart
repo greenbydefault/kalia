@@ -57,6 +57,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/untereider.json',
     'assets/seed/baumwipfelpfad-saarschleife.json',
     'assets/seed/baumwipfelpfad-schwarzwald.json',
+    'assets/seed/everstorfer-forst.json',
+    'assets/seed/moislinger-aue.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

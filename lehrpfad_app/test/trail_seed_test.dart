@@ -56,7 +56,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(44));
+    expect(trails, hasLength(46));
     expect(
       trails.map((t) => t.id),
       containsAll([
