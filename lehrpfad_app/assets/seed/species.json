@@ -3674,6 +3674,82 @@
     ]
   },
   {
+    "id": "stockente",
+    "nameDe": "Stockente",
+    "nameLat": "Anas platyrhynchos",
+    "kategorie": "fauna",
+    "kurztext": "Am Strandweg sitzt die Ente, die jeder kennt – bis das Männchen den Kopf grün aufsetzt.",
+    "aliases": [
+      "Mallard"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Am Strandweg sitzt die Ente, die jeder kennt – bis das Männchen den Kopf grün aufsetzt.",
+      "erkennung": [
+        "Erpel: grüner Kopf, gelber Schnabel",
+        "Weibchen braun gemustert, orangefarbener Schnabel",
+        "Blauer Flügelspiegel im Flug"
+      ],
+      "lebensraum": "Ufer am Großen Plöner See, Strandweg und Prinzeninsel. Stadtente, die trotzdem wild bleibt.",
+      "funFacts": [
+        "Der Erpel mausert im Sommer das Grün und sieht dann aus wie das Weibchen.",
+        "Brot macht sie krank. Körner und das, was sie selbst finden, reicht.",
+        "Viele Entenarten kreuzen mit ihr, deshalb sitzen am See oft Mischlinge."
+      ],
+      "hinweis": "Nicht füttern, Brot schadet.",
+      "hoertext": "Am Strandweg in Plön sitzen Enten so nah, dass du den Schnabel siehst. Das ist oft die Stockente. Der Erpel trägt im Prachtkleid einen grünen Kopf, das Weibchen ist braun und gemustert. Im Sommer wirft er das Grün ab und sieht dann fast aus wie sie. Sie gründen hier, nicht nur durchziehen. Brot vom Steg macht den Darm kaputt, lass es. Schau auf den Flügel: ein blauer Spiegel, kurz, dann zu. Tafel vier hängt genau dafür am Ufer. Die Möweninsel liegt daneben, die Adler über dem See sind extra. Die Ente vor dir ist der Alltag, und der Alltag ist der See."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Wasserpflanzen",
+      "Insekten",
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Anseriformes",
+      "familie": "Anatidae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "50–65 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "0,8–1,4 kg"
+      },
+      {
+        "key": "alter",
+        "wert": "2–5 Jahre"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "wasserlebend",
+      "allesfresser",
+      "sozial"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Wasserpflanzen",
+        "kurztext": "Gründelt am Ufer."
+      },
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Brütet am Schilf und in Baumhöhlen.",
+        "toSpeciesId": "schwarzerle"
+      }
+    ]
+  },
+  {
     "id": "strandflieder",
     "nameDe": "Strandflieder",
     "nameLat": "Limonium vulgare",

@@ -56,7 +56,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(46));
+    expect(trails, hasLength(49));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -664,6 +664,159 @@ void main() {
     expect(
       hits.map((t) => t.place.id),
       contains('cafe-flora-breiholz'),
+    );
+  });
+
+  test('Schwentinental: 5 Stationen, Raisdorf, Linie frei', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'lehrpfad-pflanzenschutz-schwentinental',
+    );
+    expect(trail.typ, 'naturerlebnis');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isFalse);
+    expect(trail.eintritt, isFalse);
+    expect(trail.region, contains('Schwentinental'));
+    expect(trail.stationen.length, 5);
+    expect(trail.arten, containsAll(['Honigbiene', 'Hummel']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Jahnstraße',
+        'Mit der Natur schützen',
+        'Nützlinge',
+        'Bienenfutterautomat',
+        'Klappen und Drehrad',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.285, 0.02));
+    expect(trail.start.longitude, closeTo(10.247, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('lehrpfad-pflanzenschutz-schwentinental', bild);
+    }
+  });
+
+  test('Ellerbek: 4 Stationen, Kiel-Ostufer, Linie frei', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'naturerlebnispfad-ellerbek',
+    );
+    expect(trail.typ, 'naturerlebnis');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isFalse);
+    expect(trail.eintritt, isFalse);
+    expect(trail.region, contains('Kiel'));
+    expect(trail.stationen.length, 4);
+    expect(trail.arten, containsAll(['Igel', 'Hummel', 'Heckenrose']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Alter Kirchenstieg',
+        'Waldgarten am Rosenberg',
+        'Frage-Antwort',
+        'Vogelschutzhecke',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.31645, 0.02));
+    expect(trail.start.longitude, closeTo(10.18226, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('naturerlebnispfad-ellerbek', bild);
+    }
+  });
+
+  test('Seeufer Plön: 8 Stationen, Fegetasche nach Spitzenort, Linie frei', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'naturerlebnisweg-ploener-seeufer',
+    );
+    expect(trail.typ, 'naturerlebnis');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isFalse);
+    expect(trail.eintritt, isFalse);
+    expect(trail.region, contains('Plön'));
+    expect(trail.stationen.length, 8);
+    expect(trail.arten, containsAll(['Schwarzerle', 'Rotbuche', 'Stockente']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Fegetasche',
+        'Die Adler sind zurück',
+        'Knotenpunkt des Vogelzugs',
+        'Alte Buchen',
+        'Pflanzengemeinschaften des Seeufers',
+        'Geschichte der Prinzeninsel',
+        'Die Kesselfalle des Aronstabs',
+        'Der Erlenbruch',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.15312, 0.02));
+    expect(trail.start.longitude, closeTo(10.44806, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('naturerlebnisweg-ploener-seeufer', bild);
+    }
+  });
+
+  test('Seeufer Nearby enthält Fegetasche und Spitzenort', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'naturerlebnisweg-ploener-seeufer',
+    );
+    final catalog = await SeedNearbyRepository().getCatalog();
+    final hits = nearby(trail, catalog);
+    expect(hits, isNotEmpty);
+    expect(
+      hits.map((t) => t.place.id),
+      containsAll([
+        'cafe-fegetasche-ploen',
+        'baden-fegetasche-ploen',
+        'camping-spitzenort-ploen',
+      ]),
+    );
+  });
+
+  test('Ellerbek Nearby enthält Café Luna', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'naturerlebnispfad-ellerbek',
+    );
+    final catalog = await SeedNearbyRepository().getCatalog();
+    final hits = nearby(trail, catalog);
+    expect(hits, isNotEmpty);
+    expect(
+      hits.map((t) => t.place.id),
+      contains('cafe-luna-wellingdorf'),
+    );
+  });
+
+  test('Schwentinental Nearby enthält Freibad', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'lehrpfad-pflanzenschutz-schwentinental',
+    );
+    final catalog = await SeedNearbyRepository().getCatalog();
+    final hits = nearby(trail, catalog);
+    expect(hits, isNotEmpty);
+    expect(
+      hits.map((t) => t.place.id),
+      contains('baden-freibad-schwentinental'),
     );
   });
 

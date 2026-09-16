@@ -59,6 +59,9 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/baumwipfelpfad-schwarzwald.json',
     'assets/seed/everstorfer-forst.json',
     'assets/seed/moislinger-aue.json',
+    'assets/seed/lehrpfad-pflanzenschutz-schwentinental.json',
+    'assets/seed/naturerlebnispfad-ellerbek.json',
+    'assets/seed/naturerlebnisweg-ploener-seeufer.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

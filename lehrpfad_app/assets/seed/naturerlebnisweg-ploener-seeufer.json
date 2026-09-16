@@ -1,0 +1,1558 @@
+{
+ "id": "naturerlebnisweg-ploener-seeufer",
+ "name": "Naturerlebnisweg Plöner Seeufer",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Fünf Kilometer Strandweg, Schlosswald, Prinzeninsel. Einunddreißig Tafeln, NABU und Naturpark. Frei. Start Fegetasche oder Spitzenort.",
+ "beschreibung": "Vom Strand an der Fegetasche führt der Weg am Großen Plöner See entlang, durch den Schlosswald und über die Prinzeninsel zum Parkplatz Spitzenort. Rund fünf Kilometer, 2025 fertig. Einunddreißig Tafeln von NABU Plön, Stadt Plön und Naturpark Holsteinische Schweiz: Vögel am Ufer, Erlenbruch, Aronstab, Geschichte der Insel. Frei, ohne Anmeldung. Mitmachaktionen an den Tafeln. Nass auf Holzstegen, kein Winterdienst. Hunde anleinen. Der PlanetenPfad mit den Sonnenmodellen ist der andere Weg, Rel 1172519, nicht dieser. Evolutionpfad-Boards daneben ebenso. Start Fegetasche oder Parkplatz Prinzeninsel.",
+ "laengeKm": 5.0,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Nummerierte Schautafeln / Strandweg",
+ "betreiber": "NABU Plön / Stadt Plön / Naturpark Holsteinische Schweiz",
+ "region": "Großer Plöner See, Plön, Kreis Plön",
+ "website": "https://www.naturpark-holsteinische-schweiz.de/poi/naturerlebnisweg-ploener-seeufer",
+ "anreise": "Zwei Einstiege. Fegetasche, Strandweg, 24306 Plön, Parkplatz an der B 76. Oder Parkplatz Prinzeninsel / Spitzenort, westlich der Insel. Bahn Plön, vom Bahnhof den Strandweg runter zum See. Bus Haltestelle Fegetasche. Der PlanetenPfad startet am Schloss, das ist der andere Weg.",
+ "startName": "Fegetasche / Strandweg",
+ "arten": [
+  "Schwarzerle",
+  "Rotbuche",
+  "Stockente"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.153124,
+   10.448056
+  ],
+  [
+   54.153407,
+   10.447876
+  ],
+  [
+   54.153826,
+   10.447512
+  ],
+  [
+   54.15427,
+   10.447199
+  ],
+  [
+   54.154438,
+   10.446945
+  ],
+  [
+   54.154572,
+   10.446744
+  ],
+  [
+   54.154878,
+   10.445963
+  ],
+  [
+   54.155074,
+   10.44531
+  ],
+  [
+   54.155254,
+   10.445426
+  ],
+  [
+   54.155074,
+   10.44531
+  ],
+  [
+   54.155068,
+   10.444128
+  ],
+  [
+   54.155222,
+   10.442749
+  ],
+  [
+   54.155382,
+   10.442153
+  ],
+  [
+   54.155454,
+   10.441771
+  ],
+  [
+   54.155503,
+   10.441267
+  ],
+  [
+   54.155527,
+   10.440983
+  ],
+  [
+   54.155572,
+   10.440627
+  ],
+  [
+   54.155557,
+   10.440179
+  ],
+  [
+   54.155533,
+   10.439988
+  ],
+  [
+   54.155509,
+   10.439589
+  ],
+  [
+   54.155427,
+   10.439166
+  ],
+  [
+   54.155398,
+   10.438733
+  ],
+  [
+   54.155448,
+   10.438174
+  ],
+  [
+   54.15546,
+   10.437695
+  ],
+  [
+   54.155406,
+   10.437153
+  ],
+  [
+   54.155342,
+   10.43691
+  ],
+  [
+   54.155264,
+   10.436699
+  ],
+  [
+   54.155168,
+   10.436533
+  ],
+  [
+   54.155098,
+   10.436236
+  ],
+  [
+   54.155167,
+   10.435194
+  ],
+  [
+   54.155225,
+   10.43471
+  ],
+  [
+   54.155211,
+   10.434106
+  ],
+  [
+   54.155174,
+   10.433708
+  ],
+  [
+   54.155154,
+   10.433425
+  ],
+  [
+   54.155082,
+   10.433046
+  ],
+  [
+   54.155077,
+   10.432922
+  ],
+  [
+   54.155195,
+   10.432716
+  ],
+  [
+   54.155298,
+   10.432555
+  ],
+  [
+   54.155607,
+   10.432321
+  ],
+  [
+   54.155791,
+   10.432205
+  ],
+  [
+   54.155842,
+   10.432037
+  ],
+  [
+   54.155924,
+   10.431908
+  ],
+  [
+   54.156022,
+   10.431726
+  ],
+  [
+   54.156124,
+   10.431544
+  ],
+  [
+   54.156165,
+   10.431508
+  ],
+  [
+   54.156406,
+   10.431336
+  ],
+  [
+   54.156652,
+   10.431198
+  ],
+  [
+   54.156898,
+   10.431155
+  ],
+  [
+   54.157097,
+   10.431187
+  ],
+  [
+   54.157492,
+   10.431339
+  ],
+  [
+   54.157855,
+   10.431515
+  ],
+  [
+   54.158165,
+   10.431688
+  ],
+  [
+   54.158384,
+   10.43187
+  ],
+  [
+   54.15858,
+   10.432102
+  ],
+  [
+   54.159194,
+   10.432283
+  ],
+  [
+   54.159287,
+   10.432328
+  ],
+  [
+   54.159326,
+   10.432035
+  ],
+  [
+   54.159472,
+   10.431041
+  ],
+  [
+   54.159583,
+   10.43011
+  ],
+  [
+   54.159724,
+   10.429106
+  ],
+  [
+   54.159784,
+   10.428518
+  ],
+  [
+   54.159861,
+   10.427729
+  ],
+  [
+   54.159877,
+   10.427533
+  ],
+  [
+   54.15992,
+   10.427011
+  ],
+  [
+   54.160045,
+   10.425532
+  ],
+  [
+   54.160051,
+   10.425353
+  ],
+  [
+   54.160053,
+   10.425189
+  ],
+  [
+   54.160015,
+   10.425005
+  ],
+  [
+   54.159906,
+   10.424983
+  ],
+  [
+   54.159771,
+   10.424831
+  ],
+  [
+   54.159759,
+   10.424704
+  ],
+  [
+   54.159788,
+   10.424443
+  ],
+  [
+   54.159791,
+   10.424155
+  ],
+  [
+   54.159773,
+   10.424016
+  ],
+  [
+   54.159743,
+   10.423817
+  ],
+  [
+   54.159729,
+   10.42373
+  ],
+  [
+   54.159682,
+   10.423524
+  ],
+  [
+   54.159492,
+   10.422921
+  ],
+  [
+   54.159182,
+   10.422037
+  ],
+  [
+   54.15902,
+   10.421621
+  ],
+  [
+   54.158829,
+   10.421115
+  ],
+  [
+   54.158642,
+   10.420677
+  ],
+  [
+   54.158496,
+   10.420388
+  ],
+  [
+   54.158403,
+   10.420156
+  ],
+  [
+   54.158272,
+   10.419903
+  ],
+  [
+   54.158243,
+   10.419815
+  ],
+  [
+   54.158153,
+   10.419642
+  ],
+  [
+   54.157822,
+   10.419064
+  ],
+  [
+   54.157562,
+   10.41866
+  ],
+  [
+   54.157407,
+   10.418427
+  ],
+  [
+   54.157199,
+   10.418074
+  ],
+  [
+   54.157019,
+   10.417724
+  ],
+  [
+   54.1567,
+   10.417118
+  ],
+  [
+   54.156541,
+   10.416713
+  ],
+  [
+   54.156361,
+   10.416222
+  ],
+  [
+   54.15618,
+   10.415707
+  ],
+  [
+   54.155978,
+   10.41504
+  ],
+  [
+   54.15578,
+   10.414362
+  ],
+  [
+   54.155592,
+   10.413758
+  ],
+  [
+   54.155416,
+   10.413285
+  ],
+  [
+   54.155224,
+   10.412867
+  ],
+  [
+   54.154971,
+   10.412346
+  ],
+  [
+   54.154824,
+   10.412103
+  ],
+  [
+   54.154624,
+   10.411713
+  ],
+  [
+   54.154407,
+   10.411378
+  ],
+  [
+   54.154083,
+   10.410932
+  ],
+  [
+   54.153697,
+   10.41047
+  ],
+  [
+   54.153539,
+   10.410317
+  ],
+  [
+   54.153396,
+   10.410147
+  ],
+  [
+   54.152981,
+   10.40976
+  ],
+  [
+   54.152529,
+   10.409317
+  ],
+  [
+   54.152246,
+   10.40897
+  ],
+  [
+   54.151977,
+   10.408613
+  ],
+  [
+   54.151921,
+   10.408542
+  ],
+  [
+   54.151422,
+   10.408188
+  ],
+  [
+   54.151008,
+   10.408304
+  ],
+  [
+   54.150827,
+   10.40808
+  ],
+  [
+   54.150676,
+   10.407862
+  ],
+  [
+   54.150274,
+   10.407466
+  ],
+  [
+   54.150299,
+   10.407345
+  ],
+  [
+   54.150188,
+   10.407393
+  ],
+  [
+   54.149775,
+   10.407479
+  ],
+  [
+   54.149409,
+   10.4077
+  ],
+  [
+   54.149303,
+   10.407979
+  ],
+  [
+   54.149205,
+   10.408185
+  ],
+  [
+   54.149041,
+   10.408398
+  ],
+  [
+   54.148944,
+   10.408458
+  ],
+  [
+   54.148771,
+   10.408529
+  ],
+  [
+   54.148378,
+   10.408675
+  ],
+  [
+   54.148116,
+   10.408651
+  ],
+  [
+   54.147836,
+   10.408829
+  ],
+  [
+   54.14765,
+   10.408933
+  ],
+  [
+   54.147557,
+   10.408948
+  ],
+  [
+   54.147337,
+   10.408903
+  ],
+  [
+   54.147208,
+   10.408839
+  ],
+  [
+   54.147113,
+   10.408682
+  ],
+  [
+   54.147067,
+   10.408448
+  ],
+  [
+   54.147012,
+   10.408206
+  ],
+  [
+   54.147067,
+   10.408448
+  ],
+  [
+   54.147113,
+   10.408682
+  ],
+  [
+   54.147208,
+   10.408839
+  ],
+  [
+   54.147337,
+   10.408903
+  ],
+  [
+   54.147557,
+   10.408948
+  ],
+  [
+   54.14765,
+   10.408933
+  ],
+  [
+   54.147836,
+   10.408829
+  ],
+  [
+   54.148116,
+   10.408651
+  ],
+  [
+   54.148378,
+   10.408675
+  ],
+  [
+   54.148771,
+   10.408529
+  ],
+  [
+   54.148944,
+   10.408458
+  ],
+  [
+   54.149041,
+   10.408398
+  ],
+  [
+   54.149205,
+   10.408185
+  ],
+  [
+   54.149303,
+   10.407979
+  ],
+  [
+   54.149409,
+   10.4077
+  ],
+  [
+   54.149421,
+   10.407487
+  ],
+  [
+   54.149426,
+   10.407302
+  ],
+  [
+   54.14941,
+   10.407142
+  ],
+  [
+   54.149372,
+   10.40688
+  ],
+  [
+   54.149348,
+   10.406628
+  ],
+  [
+   54.149354,
+   10.406443
+  ],
+  [
+   54.149379,
+   10.406252
+  ],
+  [
+   54.149493,
+   10.405861
+  ],
+  [
+   54.149644,
+   10.405574
+  ],
+  [
+   54.149784,
+   10.40541
+  ],
+  [
+   54.149894,
+   10.405334
+  ],
+  [
+   54.149993,
+   10.405175
+  ],
+  [
+   54.150079,
+   10.404918
+  ],
+  [
+   54.150094,
+   10.404665
+  ],
+  [
+   54.150044,
+   10.404426
+  ],
+  [
+   54.149917,
+   10.403906
+  ],
+  [
+   54.149786,
+   10.403189
+  ],
+  [
+   54.149726,
+   10.402813
+  ],
+  [
+   54.149716,
+   10.402753
+  ],
+  [
+   54.149673,
+   10.402452
+  ],
+  [
+   54.149698,
+   10.402306
+  ],
+  [
+   54.149625,
+   10.401843
+  ],
+  [
+   54.149566,
+   10.401632
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -1572635069,
+   "lat": 54.153124,
+   "lon": 10.448056,
+   "km": 0.0,
+   "titel": "Fegetasche",
+   "thema": "Anfang am Strandweg, von Gletschern geformt",
+   "kurztext": "Hier fängt der Strandweg an. Tafel eins: der See ist ein Loch aus der Eiszeit. Frei, ohne Anmeldung. Auto am Parkplatz Fegetasche, B 76. Der PlanetenPfad liegt am Schloss, das ist der andere Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3826846833,
+   "lat": 54.1597427,
+   "lon": 10.4238172,
+   "km": 2.27,
+   "titel": "Die Adler sind zurück",
+   "thema": "Strandweg Höhe Bahnhof",
+   "kurztext": "Tafel drei, Höhe Bahnhof. Seeadler über dem Großen Plöner See, nach Jahrzehnten wieder. Unten am Wasser sitzen die Stockenten. Zugvögel nutzen den See als Knoten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1685483081,
+   "lat": 54.1567002,
+   "lon": 10.4171184,
+   "km": 2.83,
+   "titel": "Knotenpunkt des Vogelzugs",
+   "thema": "Schlosspark, Aussicht auf den See",
+   "kurztext": "Tafel acht, Schlosspark. Von hier siehst du den See als Straße für Vögel. Kormoran, Ente, im Winter die Tauchenten. Die Unterführung zum Schlossgebiet liegt daneben, der PlanetenPfad nicht dieser Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1721269457,
+   "lat": 54.1502993,
+   "lon": 10.4073453,
+   "km": 3.83,
+   "titel": "Alte Buchen",
+   "thema": "Schlosswald Höhe Siebenstern",
+   "kurztext": "Tafel zehn im Schlosswald. Alte Buchen, glatte Rinde, wenig Unterwuchs. Daneben Erle am nassen Rand und Tafeln zu Fledermäusen und Baumhöhlen. Siebenstern ist der Wegname, nicht eine Stationstafel.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 11111216331,
+   "lat": 54.1470961,
+   "lon": 10.4084713,
+   "km": 4.23,
+   "titel": "Pflanzengemeinschaften des Seeufers",
+   "thema": "Anfang Prinzeninsel, Tafel 14",
+   "kurztext": "Hier beginnt die Insel. Schilf, Weide, was nasse Füße aushält. Die Tafel sortiert die Uferzonen, nicht den Schlossgarten. Brücke und Geschichte liegen ein Stück weiter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 11111216339,
+   "lat": 54.1469766,
+   "lon": 10.4080737,
+   "km": 4.25,
+   "titel": "Geschichte der Prinzeninsel",
+   "thema": "Brücke Prinzeninsel, Tafel 15",
+   "kurztext": "Tafel an der Brücke. Prinzeninsel, Name aus dem 19. Jahrhundert, vorher eine Halbinsel mit Arbeit und Holz. Heute Weg und Tafeln, kein Schlosspark. Die Kesselfalle des Aronstabs steht im Wald dahinter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 11111216336,
+   "lat": 54.144599,
+   "lon": 10.4057793,
+   "km": 4.25,
+   "titel": "Die Kesselfalle des Aronstabs",
+   "thema": "Prinzeninsel Wald, Tafel 17",
+   "kurztext": "Im Wald der Insel. Aronstab lockt Fliegen in die Kessel, lässt sie erst raus wenn der Pollen sitzt. Riecht nach Aas, sieht nach Blatt. Nicht anfassen, der Saft reizt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -4283513137,
+   "lat": 54.1495655,
+   "lon": 10.4016316,
+   "km": 5.01,
+   "titel": "Der Erlenbruch",
+   "thema": "Parkplatz Prinzeninsel, Tafel 28",
+   "kurztext": "Ende am Parkplatz Spitzenort. Erlen mit Stelzenwurzeln, nass. Hier steht das Auto, wenn du von Westen kommst. Camping daneben extra. Zurück denselben Weg oder den Strandweg Richtung Fegetasche.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 503188466,
+   "lat": 54.1538174,
+   "lon": 10.4487483,
+   "kategorie": "gastro",
+   "name": "Bocky's Imbiss an der Fegetasche"
+  },
+  {
+   "osmId": 1477346269,
+   "lat": 54.1534114,
+   "lon": 10.4482486,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1477346273,
+   "lat": 54.1534457,
+   "lon": 10.4482108,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2179679247,
+   "lat": 54.1549564,
+   "lon": 10.4446772,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4463742122,
+   "lat": 54.152963,
+   "lon": 10.4480169,
+   "kategorie": "gastro",
+   "name": "Strandhaus Plön"
+  },
+  {
+   "osmId": 4463742129,
+   "lat": 54.152937,
+   "lon": 10.4481107,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4463742130,
+   "lat": 54.153003,
+   "lon": 10.4480973,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4463765775,
+   "lat": 54.1531984,
+   "lon": 10.4479538,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4463765776,
+   "lat": 54.1535467,
+   "lon": 10.4476977,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4463765779,
+   "lat": 54.15395,
+   "lon": 10.4475797,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4463765784,
+   "lat": 54.1543089,
+   "lon": 10.4469549,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4463766993,
+   "lat": 54.1544684,
+   "lon": 10.4467135,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 10761674525,
+   "lat": 54.1551964,
+   "lon": 10.4455721,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10761674526,
+   "lat": 54.1551716,
+   "lon": 10.4455451,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12861900747,
+   "lat": 54.1531618,
+   "lon": 10.4479743,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 119437203,
+   "lat": 54.1530592,
+   "lon": 10.4502493,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 121228173,
+   "lat": 54.1551343,
+   "lon": 10.4484164,
+   "kategorie": "parking",
+   "name": "Parkplatz Ölmühle"
+  },
+  {
+   "osmId": 401983758,
+   "lat": 54.152632,
+   "lon": 10.4499778,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 449421000,
+   "lat": 54.154399,
+   "lon": 10.4482202,
+   "kategorie": "parking",
+   "name": "Fegetasche"
+  },
+  {
+   "osmId": 357338903,
+   "lat": 54.1589775,
+   "lon": 10.4199215,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 361420547,
+   "lat": 54.1595392,
+   "lon": 10.4194298,
+   "kategorie": "gastro",
+   "name": "Prime Time"
+  },
+  {
+   "osmId": 415003586,
+   "lat": 54.1582988,
+   "lon": 10.4168327,
+   "kategorie": "gastro",
+   "name": "Markt 11"
+  },
+  {
+   "osmId": 415003590,
+   "lat": 54.157775,
+   "lon": 10.4159722,
+   "kategorie": "gastro",
+   "name": "Brasserie am Schloss"
+  },
+  {
+   "osmId": 467697977,
+   "lat": 54.1582349,
+   "lon": 10.4201157,
+   "kategorie": "gastro",
+   "name": "Seeprinz"
+  },
+  {
+   "osmId": 503188456,
+   "lat": 54.1603215,
+   "lon": 10.4244321,
+   "kategorie": "gastro",
+   "name": "Burger Haus"
+  },
+  {
+   "osmId": 506955051,
+   "lat": 54.1563379,
+   "lon": 10.4142161,
+   "kategorie": "viewpoint",
+   "name": "Schlossgebiet"
+  },
+  {
+   "osmId": 506956159,
+   "lat": 54.1593425,
+   "lon": 10.424919,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 774951215,
+   "lat": 54.1594717,
+   "lon": 10.4220856,
+   "kategorie": "gastro",
+   "name": "Bistro"
+  },
+  {
+   "osmId": 774951227,
+   "lat": 54.159672,
+   "lon": 10.4227446,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 778524395,
+   "lat": 54.1595832,
+   "lon": 10.4213195,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 906832927,
+   "lat": 54.1540417,
+   "lon": 10.4110141,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 1642632909,
+   "lat": 54.1590794,
+   "lon": 10.4217219,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1642632919,
+   "lat": 54.1594734,
+   "lon": 10.4228235,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1642632920,
+   "lat": 54.1595628,
+   "lon": 10.4230837,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1642632921,
+   "lat": 54.1596262,
+   "lon": 10.4232909,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1642632928,
+   "lat": 54.1597064,
+   "lon": 10.423565,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161246,
+   "lat": 54.1558436,
+   "lon": 10.4145454,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161249,
+   "lat": 54.1559515,
+   "lon": 10.414907,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161252,
+   "lat": 54.1563977,
+   "lon": 10.4162701,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161254,
+   "lat": 54.1568402,
+   "lon": 10.4172964,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161255,
+   "lat": 54.1569065,
+   "lon": 10.417434,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161256,
+   "lat": 54.1570656,
+   "lon": 10.41775,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161258,
+   "lat": 54.1572035,
+   "lon": 10.4179798,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161260,
+   "lat": 54.1574422,
+   "lon": 10.4183945,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161262,
+   "lat": 54.157658,
+   "lon": 10.4187352,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161264,
+   "lat": 54.1578208,
+   "lon": 10.4189925,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161267,
+   "lat": 54.1579279,
+   "lon": 10.4191904,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1928161269,
+   "lat": 54.158067,
+   "lon": 10.4194312,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1963499742,
+   "lat": 54.1534752,
+   "lon": 10.4101831,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1963499745,
+   "lat": 54.1541302,
+   "lon": 10.4109338,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1963499747,
+   "lat": 54.1542741,
+   "lon": 10.4112142,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1963499750,
+   "lat": 54.1556898,
+   "lon": 10.4140535,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2625649230,
+   "lat": 54.1594953,
+   "lon": 10.4224149,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2625649231,
+   "lat": 54.1594796,
+   "lon": 10.4223685,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2625653656,
+   "lat": 54.1594355,
+   "lon": 10.4224767,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947182,
+   "lat": 54.1561997,
+   "lon": 10.4136739,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947184,
+   "lat": 54.1563502,
+   "lon": 10.4142803,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947186,
+   "lat": 54.1563112,
+   "lon": 10.4141341,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947187,
+   "lat": 54.1564973,
+   "lon": 10.4147132,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947188,
+   "lat": 54.1562576,
+   "lon": 10.4138668,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2884947189,
+   "lat": 54.1564427,
+   "lon": 10.4145122,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4265534238,
+   "lat": 54.1566108,
+   "lon": 10.4146524,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 5109456426,
+   "lat": 54.1558398,
+   "lon": 10.4147495,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 5109473121,
+   "lat": 54.1575463,
+   "lon": 10.4186849,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 6485816691,
+   "lat": 54.1557819,
+   "lon": 10.4107276,
+   "kategorie": "parking",
+   "name": "Tiefgarage Am Schloss"
+  },
+  {
+   "osmId": 6593540323,
+   "lat": 54.1586123,
+   "lon": 10.4197291,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7657311763,
+   "lat": 54.1597262,
+   "lon": 10.4242798,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9194995164,
+   "lat": 54.1566132,
+   "lon": 10.4168732,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9194995165,
+   "lat": 54.1565711,
+   "lon": 10.4167479,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9195110247,
+   "lat": 54.1566515,
+   "lon": 10.4169555,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9951197421,
+   "lat": 54.1597293,
+   "lon": 10.4247465,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10919944136,
+   "lat": 54.1593629,
+   "lon": 10.4249257,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11970683216,
+   "lat": 54.1546162,
+   "lon": 10.4102626,
+   "kategorie": "gastro",
+   "name": "Café Gröönte"
+  },
+  {
+   "osmId": 12468798892,
+   "lat": 54.1550467,
+   "lon": 10.4102516,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12468798894,
+   "lat": 54.154996,
+   "lon": 10.4102947,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12468798896,
+   "lat": 54.1549421,
+   "lon": 10.4103001,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12468798897,
+   "lat": 54.1550881,
+   "lon": 10.4100889,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13023002375,
+   "lat": 54.1590351,
+   "lon": 10.4184374,
+   "kategorie": "gastro",
+   "name": "Tarte Cafe & Bistro"
+  },
+  {
+   "osmId": 13230143080,
+   "lat": 54.1597288,
+   "lon": 10.4242032,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 40843875,
+   "lat": 54.1592399,
+   "lon": 10.4215121,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 41421254,
+   "lat": 54.1589602,
+   "lon": 10.4206444,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 62367948,
+   "lat": 54.1595894,
+   "lon": 10.4219553,
+   "kategorie": "parking",
+   "name": "Kurzparkzone"
+  },
+  {
+   "osmId": 112987688,
+   "lat": 54.1564959,
+   "lon": 10.4122254,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 117912076,
+   "lat": 54.160169,
+   "lon": 10.4237376,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 118695656,
+   "lat": 54.1577099,
+   "lon": 10.4170039,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 314414567,
+   "lat": 54.1581465,
+   "lon": 10.4192298,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1028964085,
+   "lat": 54.1593822,
+   "lon": 10.4218886,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1315041993,
+   "lat": 54.1583386,
+   "lon": 10.4191108,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1429439880,
+   "lat": 54.1499944,
+   "lon": 10.4052791,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5918109143,
+   "lat": 54.1513709,
+   "lon": 10.4068424,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8775438781,
+   "lat": 54.1503791,
+   "lon": 10.4092809,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8775711900,
+   "lat": 54.1491139,
+   "lon": 10.4084713,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9975264499,
+   "lat": 54.1514517,
+   "lon": 10.4072752,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9975278839,
+   "lat": 54.1470897,
+   "lon": 10.4102236,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9975278840,
+   "lat": 54.1470907,
+   "lon": 10.4102028,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9975278841,
+   "lat": 54.147095,
+   "lon": 10.4102432,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9975402633,
+   "lat": 54.1506471,
+   "lon": 10.4083916,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 119602356,
+   "lat": 54.1494639,
+   "lon": 10.4016911,
+   "kategorie": "parking",
+   "name": "Prinzeninsel"
+  },
+  {
+   "osmId": 980846000,
+   "lat": 54.150891,
+   "lon": 10.4087872,
+   "kategorie": "parking",
+   "name": null
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
+ "besuchshinweise": "Nass auf Holzstegen, kein Winterdienst. Hunde anleinen. PlanetenPfad und Evolutionpfad sind andere Wege. Camping Spitzenort extra.",
+ "hoertext": "An der Fegetasche liegt der Strand, frei, ohne Anmeldung. Einunddreißig Tafeln bis zur Prinzeninsel, Ufer und Schlosswald. Auto am Strandparkplatz oder am Spitzenort. Der PlanetenPfad mit den Kugeln ist der andere Weg. Nass wird das Holz am Steg, Hunde an die Leine.",
+ "bilderAsset": "assets/images/trails/naturerlebnisweg-ploener-seeufer/credits.json"
+}

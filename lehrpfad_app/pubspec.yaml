@@ -123,6 +123,9 @@ flutter:
     - assets/images/trails/baumwipfelpfad-schwarzwald/
     - assets/images/trails/everstorfer-forst/
     - assets/images/trails/moislinger-aue/
+    - assets/images/trails/lehrpfad-pflanzenschutz-schwentinental/
+    - assets/images/trails/naturerlebnispfad-ellerbek/
+    - assets/images/trails/naturerlebnisweg-ploener-seeufer/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

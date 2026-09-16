@@ -1,0 +1,101 @@
+[
+  {
+    "file": "01-rehsenweg.jpg",
+    "caption": "Heim des Kleingärtnervereins Kiel-Ellerbek, Rehsenweg 32. Der Lehrpfad liegt am Alten Kirchenstieg, derselbe Kleingarten.",
+    "credit": "Friedrich Magnussen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeim_des_Kleingärtnervereins_Kiel-Ellerbek_im_Rehsenweg_32_in_Ellerbek_(Kiel_77.842).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-troendelweg.jpg",
+    "caption": "Kleingärten am Tröndelweg in Ellerbek, 1973. Der Lehrpfad liegt am Alten Kirchenstieg, nicht am Tröndelweg.",
+    "credit": "Friedrich Magnussen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeubaugebiet_an_der_Poppenrade_in_Ellerbek_(Kiel_54.637).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-schwentine.jpg",
+    "caption": "Fahrt auf der Schwentine. Der Lehrpfad liegt im Kleingarten am Alten Kirchenstieg, nicht am Fluss.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFahrt_mit_der_MFS_Schwentine_03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-russenberg.jpg",
+    "caption": "Russenberg in Wellingdorf, südlich der Kleingärten. Der Lehrpfad liegt am Alten Kirchenstieg.",
+    "credit": "Frank Eschenmann",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama_Russenberg_(1).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-holtenau.jpg",
+    "caption": "Kleingärten in Kiel-Holtenau. Nicht Ellerbek, der Pfad liegt am Alten Kirchenstieg.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchrebergärten_Kiel-Holtenau.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-koppel.jpg",
+    "caption": "Gartenanlage Alte Weiß'sche Koppel in Pries. Nicht der Kleingarten Ellerbek.",
+    "credit": "Christian Alexander Otto",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGartenanlage_Alte_Weiß'sche_Koppel.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-high-tide.jpg",
+    "caption": "Hochwasser an der Schwentine in Wellingdorf. Der Lehrpfad liegt im Kleingarten, nicht am Ufer.",
+    "credit": "liebeslakritze",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHigh_tide_^3_-_Flickr_-_liebeslakritze.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-brauner-berg.jpg",
+    "caption": "Gartenanlage Brauner Berg in Pries. Nicht Ellerbek, gleicher Kleingarten-Charakter.",
+    "credit": "Christian Alexander Otto",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGartenanlage_Brauner_Berg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-hummel.jpg",
+    "caption": "Dunkle Erdhummel. Nicht in Ellerbek, am Lehrpfad geht es um Insekten am Blühstreifen.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-heckenrose.jpg",
+    "caption": "Heckenrose. Nicht in Ellerbek, an der Vogelschutzhecke am Rehsenbach stehen Rosen.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosa_canina.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "11-igel.jpg",
+    "caption": "Braunbrustigel. Nicht in Ellerbek, die Tafeln erklären Kleinsäuger am Knick.",
+    "credit": "Michael Gäbler",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErinaceus_europaeus_(Linnaeus,_1758).jpg",
+    "kind": "art"
+  }
+]

@@ -1087,5 +1087,92 @@
     "kurztext": "Seebad in Grevesmühlen — nach den Steinen ins Wasser, Saison.",
     "lat": 53.8675674,
     "lon": 11.1947290
+  },
+  {
+    "id": "baden-freibad-schwentinental",
+    "name": "Freibad Schwentinental",
+    "kategorie": "baden",
+    "kurztext": "Beheiztes Freibad an der Jahnstraße — extra Eintritt, Saison. Die Tafeln stehen am Weg davor, nicht im Bad.",
+    "lat": 54.2866119,
+    "lon": 10.2459715,
+    "website": "https://stadtwerke-schwentinental.de/freibad/",
+    "oeffnungszeiten": "Saison Anfang Mai bis Anfang September, Eintritt",
+    "telefon": "+49 4307 6776",
+    "opening_hours": "May-Sep: 11:00-19:00"
+  },
+  {
+    "id": "restaurant-athena-schwentinental",
+    "name": "Restaurant Athena",
+    "kategorie": "restaurant",
+    "kurztext": "Griechische Küche an der Jahnstraße 19, neben dem Freibad — nach den Tafeln, nicht am Kleingarten.",
+    "lat": 54.2862453,
+    "lon": 10.2462547,
+    "website": "https://athena-schwentinental.de/",
+    "oeffnungszeiten": "Mi–Sa 17–21:30 Uhr, So 12–21:30 Uhr, Di Ruhetag, Mo siehe Aushang",
+    "telefon": "+49 4307 8229481",
+    "opening_hours": "Tu off; We-Sa 17:00-21:30; Su 12:00-21:30"
+  },
+  {
+    "id": "cafe-luna-wellingdorf",
+    "name": "Café Luna",
+    "kategorie": "cafe",
+    "kurztext": "Café an der Schönberger Straße 6 — nach dem Kirchenstieg in den Stadtteil, nicht am Kleingarten.",
+    "lat": 54.3266227,
+    "lon": 10.1863051,
+    "website": "https://www.lunacafe.de",
+    "oeffnungszeiten": "Di–Do 9–17 Uhr, Fr–So 10–17 Uhr, Mo Ruhetag",
+    "telefon": "+49 431 79936447",
+    "opening_hours": "Mo off; Tu-Th 09:00-17:00; Fr-Su 10:00-17:00"
+  },
+  {
+    "id": "aktivitaet-werftpark-theater",
+    "name": "Theater im Werftpark",
+    "kategorie": "aktivitaet",
+    "kurztext": "Kinder- und Jugendtheater am Ostring 187a — extra Vorstellung, nicht der Lehrpfad.",
+    "lat": 54.3141446,
+    "lon": 10.1559667,
+    "website": "https://www.theater-kiel.de",
+    "oeffnungszeiten": "Spielplan, Eintritt",
+    "telefon": "+49 431 901901"
+  },
+  {
+    "id": "cafe-fegetasche-ploen",
+    "name": "Café Fegetasche",
+    "kategorie": "cafe",
+    "kurztext": "Café im Lake House an der Fegetasche — nach dem Strandweg, direkt am Start.",
+    "lat": 54.1530644,
+    "lon": 10.4506245,
+    "oeffnungszeiten": "siehe Aushang / Saison"
+  },
+  {
+    "id": "restaurant-strandhaus-ploen",
+    "name": "Strandhaus Plön",
+    "kategorie": "restaurant",
+    "kurztext": "Imbiss an der Fegetasche neben Minigolf — Pommes nach dem Ufer, nicht auf der Prinzeninsel.",
+    "lat": 54.152963,
+    "lon": 10.4480169,
+    "website": "https://www.holsteinischeschweiz.de/gastro/strandhaus-ploen",
+    "oeffnungszeiten": "Saison, oft 10–21 Uhr"
+  },
+  {
+    "id": "baden-fegetasche-ploen",
+    "name": "Badestelle Fegetasche",
+    "kategorie": "baden",
+    "kurztext": "Sandstrand am Großen Plöner See, Strandweg — frei, flacher Einstieg. Der Lehrpfad startet hier.",
+    "lat": 54.15312,
+    "lon": 10.44806,
+    "website": "https://www.holsteinischeschweiz.de/poi/badestelle-fegetasche-ploen",
+    "oeffnungszeiten": "ganzjährig frei, Saisonbetrieb am Strand"
+  },
+  {
+    "id": "camping-spitzenort-ploen",
+    "name": "Naturcamping Spitzenort",
+    "kategorie": "camping",
+    "kurztext": "Camping am Parkplatz Prinzeninsel, Ascheberger Str. 76 — extra, nicht der Lehrpfad.",
+    "lat": 54.1465439,
+    "lon": 10.4031556,
+    "website": "https://www.spitzenort.de/",
+    "oeffnungszeiten": "Saison, siehe Platz",
+    "telefon": "+49 4522 2769"
   }
 ]

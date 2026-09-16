@@ -1,0 +1,215 @@
+{
+ "id": "naturerlebnispfad-ellerbek",
+ "name": "Naturlehrpfad Ellerbek",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Achthundert Meter durchs Kleingarten Ellerbek, Alter Kirchenstieg. Fünfunddreißig Tafeln, Lösung kopfüber. Frei. Waldmaus auf den Schildern.",
+ "beschreibung": "Vom Kreisel Klausdorfer Weg / Ellerbeker Weg / Philipp-Reis-Weg führt der Alte Kirchenstieg ins Kleingartengelände Kiel-Ellerbek. Seit 2019. Interessengemeinschaft der Garteninhaber Kiel-Ost, Fonds Gemeinsam Kiel gestalten. Fünfunddreißig Schautafeln und Frage-Antwort, Flora und Fauna Schleswig-Holstein, Lösung kopfüber in der Ecke. Frei, ohne Anmeldung, ganzjährig. Waldmaus auf den Schildern. Auf halber Strecke der Waldgarten am Rosenberg, Lifegarten Kiel. Am Rehsenbach eine Vogelschutzhecke und ein Blühstreifen. Das Klassenzimmer-Häuschen ist extra, nur mit Anmeldung. Nass rutschig, kein Winterdienst, kein Rollstuhl. Hunde anleinen, Kleingärten nicht betreten. Kollhorst ist der andere Kiel-Pin, Westen.",
+ "laengeKm": 0.8,
+ "dauerMin": 40,
+ "rundkurs": false,
+ "markierung": "Waldmaus-Schilder / Schautafeln",
+ "betreiber": "Interessengemeinschaft der Garteninhaber Kiel-Ost / Lifegarten Kiel",
+ "region": "Ellerbek / Wellingdorf, Kiel",
+ "website": "https://lifegarten-kiel.de/naturlehrpfad/",
+ "anreise": "Start Alter Kirchenstieg am Kreisel Klausdorfer Weg / Ellerbeker Weg / Philipp-Reis-Weg, 24148 Kiel. Nicht mit dem Auto in den Steig. Parken Markant/Aldi am Philipp-Reis-Weg, für die Dauer des Besuchs. Bus Haltestelle Klausdorfer Weg. Kollhorst startet am Kollhorster Weg in Hasseldieksdamm, das ist der andere Kiel-Pfad.",
+ "startName": "Alter Kirchenstieg / Kreisel",
+ "arten": [
+  "Igel",
+  "Hummel",
+  "Heckenrose"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.316451,
+   10.182259
+  ],
+  [
+   54.316512,
+   10.182349
+  ],
+  [
+   54.316774,
+   10.182852
+  ],
+  [
+   54.316968,
+   10.183286
+  ],
+  [
+   54.317185,
+   10.18377
+  ],
+  [
+   54.317358,
+   10.184088
+  ],
+  [
+   54.317689,
+   10.184459
+  ],
+  [
+   54.317906,
+   10.184584
+  ],
+  [
+   54.317983,
+   10.184535
+  ],
+  [
+   54.317997,
+   10.184526
+  ],
+  [
+   54.318706,
+   10.184523
+  ],
+  [
+   54.318976,
+   10.184485
+  ],
+  [
+   54.319115,
+   10.184524
+  ],
+  [
+   54.319274,
+   10.184677
+  ],
+  [
+   54.319504,
+   10.18508
+  ],
+  [
+   54.319253,
+   10.186485
+  ],
+  [
+   54.319001,
+   10.18789
+  ],
+  [
+   54.318978,
+   10.188121
+  ],
+  [
+   54.319023,
+   10.188728
+  ],
+  [
+   54.319075,
+   10.189229
+  ],
+  [
+   54.319105,
+   10.18937
+  ],
+  [
+   54.31918,
+   10.189549
+  ],
+  [
+   54.319338,
+   10.189818
+  ],
+  [
+   54.319462,
+   10.189985
+  ],
+  [
+   54.319623,
+   10.190158
+  ],
+  [
+   54.319735,
+   10.190268
+  ],
+  [
+   54.319899,
+   10.19042
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2379339010,
+   "lat": 54.3164506,
+   "lon": 10.1822591,
+   "km": 0.0,
+   "titel": "Alter Kirchenstieg",
+   "thema": "Start am Kreisel, Waldmaus",
+   "kurztext": "Hier fängt der Steig an, Klausdorfer Weg. Waldmaus auf den Schildern. Frei, ohne Anmeldung. Auto bleibt am Aldi, Philipp-Reis-Weg. Nicht in den Steig fahren. Kollhorst ist der andere Kiel-Pfad, Westen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -112514386,
+   "lat": 54.3194186,
+   "lon": 10.1855567,
+   "km": 0.42,
+   "titel": "Waldgarten am Rosenberg",
+   "thema": "Lifegarten Kiel, halbe Strecke",
+   "kurztext": "Auf halber Strecke liegt der Waldgarten. Lifegarten Kiel, Treffpunkt. Das Häuschen für Schulklassen ist extra, nur mit Anmeldung. Die Tafeln stehen am Weg, nicht im Garten nebenan.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3573666796,
+   "lat": 54.3190082,
+   "lon": 10.1885265,
+   "km": 0.66,
+   "titel": "Frage-Antwort",
+   "thema": "Lösung kopfüber in der Ecke",
+   "kurztext": "Tafeln mit Fragen zu Flora und Fauna. Die Lösung steht verkehrt in der oberen Ecke. Erst gucken, was am Weg sitzt, dann drehen. Fünfunddreißig Stück insgesamt, nicht jede hat eine Frage.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -293080689,
+   "lat": 54.319899,
+   "lon": 10.1904203,
+   "km": 0.82,
+   "titel": "Vogelschutzhecke",
+   "thema": "Knick am Rehsenbach, Blühstreifen",
+   "kurztext": "Am Graben steht der Knick. Vogelschutzhecke, davor Blühstreifen. Vögel und Kleinsäuger, Insekten an der Blüte. Hier endet die Runde. Zurück denselben Steig, Waldmaus zurück zum Kreisel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 147382567,
+   "lat": 54.31731148695652,
+   "lon": 10.182756486956526,
+   "kategorie": "parking",
+   "name": "Parkplatz Markant/Aldi Philipp-Reis-Weg"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
+ "besuchshinweise": "Kein Winterdienst, nass rutschig, kein Rollstuhl. Nicht mit dem Auto in den Alten Kirchenstieg. Kleingärten nicht betreten. Klassenzimmer-Häuschen extra, Anmeldung.",
+ "hoertext": "Am Kreisel Klausdorfer Weg hängt die Waldmaus. Alter Kirchenstieg, Kleingarten Ellerbek, frei. Fünfunddreißig Tafeln, die Lösung steht kopfüber in der Ecke. Auto bleibt am Aldi, Philipp-Reis-Weg, nicht in den Steig. Nass wird der Weg glatt, Rollstuhl kommt nicht durch. Die Hecke am Rehsenbach ist der Knick, da sitzen die Vögel.",
+ "bilderAsset": "assets/images/trails/naturerlebnispfad-ellerbek/credits.json"
+}

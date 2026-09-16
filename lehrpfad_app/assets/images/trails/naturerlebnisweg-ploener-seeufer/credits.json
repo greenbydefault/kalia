@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-schloss-insel.jpg",
+    "caption": "Schloss Plön, Blick von der Prinzeninsel. Der Lehrpfad läuft über die Insel und den Strandweg.",
+    "credit": "AnitaBeimert",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchloss_Pl%C3%B6n%2C_Blick_von_der_Prinzeninsel%2C_08-2011.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-schloss-see.jpg",
+    "caption": "Schloss Plön und Großer Plöner See. Der Strandweg liegt am Ufer unterhalb.",
+    "credit": "JoachimKohler-HB",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADas_Schloss_Pl%C3%B6n_und_der_Pl%C3%B6ner_See_%282019%29.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-prinzeninsel.jpg",
+    "caption": "Prinzeninsel im Großen Plöner See, Blick nach Süden. Der Lehrpfad führt über die Insel zum Parkplatz Spitzenort.",
+    "credit": "Webkart",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrinzeninsel.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-strand-insel.jpg",
+    "caption": "Strand der Prinzeninsel, Blick Richtung Ascheberg. Tafel 20 hängt am Spülsaum, nicht dieser Sand.",
+    "credit": "Sören Jalas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStrand_der_Prinzeninsel.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-strandweg.jpg",
+    "caption": "Gedenkstein am Strandweg in Plön. Die Naturerlebnis-Tafeln stehen am selben Uferweg.",
+    "credit": "Killerblau",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APl%C3%B6n_Memorial_stone_Strandweg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-sturm.jpg",
+    "caption": "Prinzeninsel bei Plön. Der Weg über die Insel ist Teil des Lehrpfads.",
+    "credit": "Alex1011",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrinzeninselSturm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-naturpark.jpg",
+    "caption": "Prinzeninsel, Naturpark Holsteinische Schweiz. 31 Tafeln stehen am Weg, nicht alle im Bild.",
+    "credit": "JakobHosp",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrinzeninsel_Naturpark_Holsteinische_Schweiz%2C_Pl%C3%B6n%2C_Duitsland.jpeg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-weg.jpg",
+    "caption": "Weg auf der Prinzeninsel. Der Lehrpfad folgt Ufer und Wald, nicht dem PlanetenPfad.",
+    "credit": "JakobHosp",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrinzeninsel_Naturpark_Holsteinische_Schweiz%2C_Pl%C3%B6n%2C_Duitsland_08_51_05_687000.jpeg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-stockente.jpg",
+    "caption": "Stockente, Erpel. Nicht in Plön aufgenommen, Tafel 4 hängt am Strandweg.",
+    "credit": "Jacek Halicki",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015_Kaczka_krzy%C5%BCowka_w_wodzie_%28samiec%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-buche.jpg",
+    "caption": "Rinde einer Rotbuche. Tafel 10 steht im Schlosswald, nicht dieser Stamm.",
+    "credit": "Lumbar",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus_sylvatica_bark.jpg",
+    "kind": "art"
+  }
+]

@@ -47,6 +47,9 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `baumwipfelpfad-schwarzwald.json` | `baumwipfelpfad-schwarzwald` | `erlebniswald` (`eintritt: true`) |
 | `everstorfer-forst.json` | `everstorfer-forst` | `wald` |
 | `moislinger-aue.json` | `moislinger-aue` | `naturerlebnis` (`form: flaeche`) |
+| `lehrpfad-pflanzenschutz-schwentinental.json` | `lehrpfad-pflanzenschutz-schwentinental` | `naturerlebnis` |
+| `naturerlebnispfad-ellerbek.json` | `naturerlebnispfad-ellerbek` | `naturerlebnis` |
+| `naturerlebnisweg-ploener-seeufer.json` | `naturerlebnisweg-ploener-seeufer` | `naturerlebnis` |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 

@@ -14,6 +14,7 @@ lehrpfad_app/research/
 lehrpfad_app/tools/*
 !lehrpfad_app/tools/seed_supabase.py
 !lehrpfad_app/tools/seed_pois.py
+!lehrpfad_app/tools/*.md
 
 # Interne Vorbereitung (Landing-Brief, IA, Copy). Nicht Teil der App
 lehrpfad_app/docs/intern/

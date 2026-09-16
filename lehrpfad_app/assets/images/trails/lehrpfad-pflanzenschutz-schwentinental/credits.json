@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-anleger.jpg",
+    "caption": "Anlegestelle an der Schwentine in Raisdorf. Der Lehrpfad startet an der Jahnstraße, nicht am Fluss.",
+    "credit": "humungoulus",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnlegestelle_Raisdorf_Schwentine_-_panoramio.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bruecke.jpg",
+    "caption": "Weiße Brücke Raisdorf über die Schwentine. Der Pfad liegt an der Jahnstraße, ein Stück südlich.",
+    "credit": "Siegbert Brey",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWeisse_Bruecke_Raisdorf.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-raisdorf.jpg",
+    "caption": "Raisdorf, Schwentinental. Die Tafeln stehen am Kleingarten an der Jahnstraße.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARaisdorf_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-raisdorf-dorf.jpg",
+    "caption": "Raisdorf. Parken an der Jahnstraße vor dem Freibad, nicht in der Ortsmitte.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARaisdorf_03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-amselweg.jpg",
+    "caption": "Amselweg in Raisdorf. Der Lehrpfad liegt an der Jahnstraße, anderer Einstieg.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmselweg_Schwentinental.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-heisterberg.jpg",
+    "caption": "Heisterberg in Schwentinental. Nicht der Kleingarten an der Jahnstraße.",
+    "credit": "Christian Alexander Tietgen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeisterberg_Schwentinental.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-kleingarten.jpg",
+    "caption": "Stieleiche in einer Kleingartenanlage. Nicht in Raisdorf, der Pfad liegt am Eingang zum Kleingärtnerverein.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStieleiche_Kleingarten_Am_Waldsaum1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-bach.jpg",
+    "caption": "Bäume am Bach bei Kiel. Die Schwentine fließt durch Raisdorf, der Pfad selbst liegt an der Jahnstraße.",
+    "credit": "Carsten Tolkmit",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlickr_-_Laenulfean_-_trees_at_the_stream.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-honigbiene.jpg",
+    "caption": "Honigbiene. Nicht in Raisdorf, die Tafeln erklären Nützlinge am Kleingarten.",
+    "credit": "Sam Fraser-Smith",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApis_mellifera_-_honey_bee.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-hummel.jpg",
+    "caption": "Dunkle Erdhummel. Nicht in Raisdorf, am Lehrpfad geht es um Nützlinge im Garten.",
+    "credit": "Marco Almbauer",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABombus_terrestris.jpg",
+    "kind": "art"
+  }
+]
