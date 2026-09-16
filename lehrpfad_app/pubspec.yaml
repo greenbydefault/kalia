@@ -127,6 +127,7 @@ flutter:
     - assets/images/trails/naturerlebnispfad-ellerbek/
     - assets/images/trails/naturerlebnisweg-ploener-seeufer/
     - assets/images/trails/waldlehrpfad-silberbergen/
+    - assets/images/trails/zweiseitenweg-rambow/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

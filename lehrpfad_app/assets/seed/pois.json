@@ -1204,5 +1204,36 @@
     "website": "https://bistensee.de/",
     "oeffnungszeiten": "Saison 1.4.–31.10., Rezeption 8–12 und 15–18 Uhr",
     "telefon": "+49 4353 436"
+  },
+  {
+    "id": "cafe-moorscheune-boberow",
+    "name": "MoorScheune Boberow",
+    "kategorie": "cafe",
+    "kurztext": "Lesecafé in der alten Scheune, Mellener Weg 3 — Pause am Rundweg, Aushang.",
+    "lat": 53.1469063,
+    "lon": 11.6125844,
+    "website": "https://www.moorscheune.de/",
+    "oeffnungszeiten": "siehe Aushang",
+    "telefon": "+49 38781 429599"
+  },
+  {
+    "id": "camping-hof-richert-boberow",
+    "name": "Hof Richert Wohnmobilstellplatz",
+    "kategorie": "camping",
+    "kurztext": "Hof-Stellplatz am Mellener Weg, 15 € — extra, nicht der Rundweg.",
+    "lat": 53.1493477,
+    "lon": 11.5844098,
+    "website": "https://www.hof-richert.de/caravan.html",
+    "oeffnungszeiten": "siehe Hof"
+  },
+  {
+    "id": "museum-burg-lenzen",
+    "name": "Besucherzentrum Burg Lenzen",
+    "kategorie": "museum",
+    "kurztext": "BUND-Besucherzentrum Biosphäre, Burgstraße 3 — Führungen extra, nicht der Zweiseitenweg.",
+    "lat": 53.090234,
+    "lon": 11.4772185,
+    "website": "https://www.burg-lenzen.de/",
+    "oeffnungszeiten": "siehe Burg"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-moor.jpg",
+    "caption": "Rambower Moor im Herbst, Blick nach Osten über Seggen und offene Wasserflächen.",
+    "credit": "Christian Fischer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambowerMoor1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-turm-kraniche.jpg",
+    "caption": "Blick vom Aussichtsturm südlich Rambow; am Ufer stehen zwei Kraniche.",
+    "credit": "Christian Fischer",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambowerMoor2.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-grosssteingrab.jpg",
+    "caption": "Großsteingrab Mellen an der L13, Sprockhoff 453.",
+    "credit": "Doris Antony",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALenzen_Mellen_dolmen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-moor-weg.jpg",
+    "caption": "Weg am Rambower Moor in der Prignitz.",
+    "credit": "Prinzessin68",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambower_Moor_Prignitz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-wollgras.jpg",
+    "caption": "Wollgras – die weißen Büschel zeigen nasse Moore.",
+    "credit": "Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEriophorum_angustifolium.jpg",
+    "kind": "art"
+  }
+]
