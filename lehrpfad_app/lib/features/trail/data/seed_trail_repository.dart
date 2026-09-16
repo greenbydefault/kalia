@@ -62,6 +62,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/lehrpfad-pflanzenschutz-schwentinental.json',
     'assets/seed/naturerlebnispfad-ellerbek.json',
     'assets/seed/naturerlebnisweg-ploener-seeufer.json',
+    'assets/seed/waldlehrpfad-silberbergen.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

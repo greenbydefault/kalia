@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-start.jpg",
+    "caption": "Beginn und Ende des Waldlehrpfads Silberbergen, Waldparkplatz an der L265.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(1_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-weg.jpg",
+    "caption": "Weg am Anfang des Waldlehrpfads Silberbergen.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(2_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-bestand.jpg",
+    "caption": "Bestand im Gehege Silberbergen am Lehrpfad.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(3_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-tafel.jpg",
+    "caption": "Hinweistafel des Naturparks Hüttener Berge am Waldlehrpfad Silberbergen.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(4_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-steintafel.jpg",
+    "caption": "Steintafel Silberbergen am Beginn des Waldlehrpfads.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(5_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-suedrand.jpg",
+    "caption": "Südrand des Geheges Silberbergen, FFH-Teilgebiet am Lehrpfad.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(6_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-eingang.jpg",
+    "caption": "Eingang des Waldlehrpfads Silberbergen am Waldparkplatz.",
+    "credit": "Kommentator1989",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(7_von_7).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-aschberg.jpg",
+    "caption": "Aschberg, Naturpark Hüttener Berge. Turm und Bismarck sind extra, der Lehrpfad liegt im Gehege darunter.",
+    "credit": "Jörg Braukmann",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAschberg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-buche.jpg",
+    "caption": "Rotbuche, junge Blätter. Nicht in Silberbergen aufgenommen, im Gehege stehen Buchen.",
+    "credit": "Crusier",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFagus%20sylvatica%20leaves%20bottom.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "10-specht.jpg",
+    "caption": "Buntspecht. Nicht in Silberbergen aufgenommen, Tafeln nennen Waldtiere.",
+    "credit": "4028mdk09",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADendrocopos%20major%20HD.JPG",
+    "kind": "art"
+  }
+]

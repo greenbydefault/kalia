@@ -1,0 +1,602 @@
+{
+ "id": "waldlehrpfad-silberbergen",
+ "name": "Waldlehrpfad Silberbergen",
+ "typ": "wald",
+ "kurzbeschreibung": "Zweieinhalb Kilometer durchs Gehege Silberbergen am Aschberg. Tafeln zu Wald, Pflanzen, Tieren. Start Waldparkplatz L265. Frei. Der Gipfel mit Turm ist extra.",
+ "beschreibung": "Am Waldparkplatz Silberbergen an der L265 zwischen Ahlefeld und Bistensee liegt der Waldlehrpfad im Gehege Silberbergen, Naturpark Hüttener Berge. Rundweg, 2,6 Kilometer, OSM Rel 374177, Markierung LEHR. Infotafeln zu Wald, Pflanzen und Tieren, am Nordweg eine Naturtafel mit Bank, Unterstand und Picknick. Immer frei, ohne Anmeldung, ohne Förster. Waldweg, nass nach Regen, Kinderwagen und Rollstuhl eher nicht. Hunde anleinen, auf den Wegen bleiben. Der Aschberg mit Bismarck-Standbild und Aussichtsturm liegt nördlich, anderer Einstieg, nicht dieser Trail. Untereider ist der andere RD-Pfad, Rendsburg, Eider.",
+ "laengeKm": 2.6,
+ "dauerMin": 50,
+ "rundkurs": true,
+ "markierung": "LEHR / Schautafeln Wald",
+ "betreiber": "Naturpark Hüttener Berge",
+ "region": "Gehege Silberbergen, Ahlefeld-Bistensee, Rendsburg-Eckernförde",
+ "website": "https://www.outdooractive.com/de/poi/eckernfoerder-bucht/waldlehrpfad-/26036749/",
+ "anreise": "Start Waldparkplatz Silberbergen, L265 Ahlefeld–Bistensee, 24358 Ahlefeld-Bistensee, GPS 54.40861, 9.68673. Auto über die L265, nicht auf den Hotelparkplatz am Aschberg. Bus Richtung Ahlefeld-Bistensee / Ascheffel. Der Aschberg mit Turm startet am Resort, das ist extra. Untereider startet in Rendsburg, das ist der andere RD-Pfad.",
+ "startName": "Waldparkplatz Silberbergen",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Buntspecht"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.408717,
+   9.68675
+  ],
+  [
+   54.408786,
+   9.686705
+  ],
+  [
+   54.409375,
+   9.686172
+  ],
+  [
+   54.409453,
+   9.686046
+  ],
+  [
+   54.40963,
+   9.68571
+  ],
+  [
+   54.409711,
+   9.685512
+  ],
+  [
+   54.409898,
+   9.68525
+  ],
+  [
+   54.410075,
+   9.684946
+  ],
+  [
+   54.410218,
+   9.684594
+  ],
+  [
+   54.410607,
+   9.684007
+  ],
+  [
+   54.410743,
+   9.683803
+  ],
+  [
+   54.411182,
+   9.683445
+  ],
+  [
+   54.411439,
+   9.68313
+  ],
+  [
+   54.411675,
+   9.682375
+  ],
+  [
+   54.411965,
+   9.68207
+  ],
+  [
+   54.412199,
+   9.682105
+  ],
+  [
+   54.412597,
+   9.682157
+  ],
+  [
+   54.412789,
+   9.682104
+  ],
+  [
+   54.412951,
+   9.681954
+  ],
+  [
+   54.413062,
+   9.682163
+  ],
+  [
+   54.413156,
+   9.682358
+  ],
+  [
+   54.413282,
+   9.682552
+  ],
+  [
+   54.413366,
+   9.682593
+  ],
+  [
+   54.413452,
+   9.68258
+  ],
+  [
+   54.413591,
+   9.682508
+  ],
+  [
+   54.413719,
+   9.682387
+  ],
+  [
+   54.413937,
+   9.682274
+  ],
+  [
+   54.41403,
+   9.682312
+  ],
+  [
+   54.414103,
+   9.68248
+  ],
+  [
+   54.414084,
+   9.682734
+  ],
+  [
+   54.413938,
+   9.683203
+  ],
+  [
+   54.413863,
+   9.683666
+  ],
+  [
+   54.413757,
+   9.684252
+  ],
+  [
+   54.413647,
+   9.684625
+  ],
+  [
+   54.413562,
+   9.685149
+  ],
+  [
+   54.413452,
+   9.685641
+  ],
+  [
+   54.413492,
+   9.686217
+  ],
+  [
+   54.413502,
+   9.686486
+  ],
+  [
+   54.413628,
+   9.686265
+  ],
+  [
+   54.413663,
+   9.686173
+  ],
+  [
+   54.413909,
+   9.686353
+  ],
+  [
+   54.41415,
+   9.686461
+  ],
+  [
+   54.414221,
+   9.686589
+  ],
+  [
+   54.414267,
+   9.686761
+  ],
+  [
+   54.414382,
+   9.686913
+  ],
+  [
+   54.414507,
+   9.687061
+  ],
+  [
+   54.414661,
+   9.687057
+  ],
+  [
+   54.414853,
+   9.687073
+  ],
+  [
+   54.414841,
+   9.687167
+  ],
+  [
+   54.414761,
+   9.687758
+  ],
+  [
+   54.41472,
+   9.687995
+  ],
+  [
+   54.414662,
+   9.688328
+  ],
+  [
+   54.414711,
+   9.68849
+  ],
+  [
+   54.414707,
+   9.688655
+  ],
+  [
+   54.414676,
+   9.688836
+  ],
+  [
+   54.414705,
+   9.689107
+  ],
+  [
+   54.414744,
+   9.689257
+  ],
+  [
+   54.414775,
+   9.689439
+  ],
+  [
+   54.414794,
+   9.689554
+  ],
+  [
+   54.414814,
+   9.689787
+  ],
+  [
+   54.414812,
+   9.690061
+  ],
+  [
+   54.414829,
+   9.690239
+  ],
+  [
+   54.414709,
+   9.690488
+  ],
+  [
+   54.414669,
+   9.690589
+  ],
+  [
+   54.414624,
+   9.690667
+  ],
+  [
+   54.414573,
+   9.69072
+  ],
+  [
+   54.413891,
+   9.690685
+  ],
+  [
+   54.41384,
+   9.690707
+  ],
+  [
+   54.413643,
+   9.690518
+  ],
+  [
+   54.413533,
+   9.690399
+  ],
+  [
+   54.4134,
+   9.69029
+  ],
+  [
+   54.413286,
+   9.690167
+  ],
+  [
+   54.413131,
+   9.69011
+  ],
+  [
+   54.412855,
+   9.690046
+  ],
+  [
+   54.41274,
+   9.689962
+  ],
+  [
+   54.412621,
+   9.689844
+  ],
+  [
+   54.412403,
+   9.689834
+  ],
+  [
+   54.412285,
+   9.689849
+  ],
+  [
+   54.412086,
+   9.689932
+  ],
+  [
+   54.411951,
+   9.689972
+  ],
+  [
+   54.411821,
+   9.689985
+  ],
+  [
+   54.411649,
+   9.689965
+  ],
+  [
+   54.411274,
+   9.689931
+  ],
+  [
+   54.411091,
+   9.690108
+  ],
+  [
+   54.410882,
+   9.690485
+  ],
+  [
+   54.410758,
+   9.690621
+  ],
+  [
+   54.410611,
+   9.69066
+  ],
+  [
+   54.410541,
+   9.690599
+  ],
+  [
+   54.410445,
+   9.690094
+  ],
+  [
+   54.41038,
+   9.689751
+  ],
+  [
+   54.41026,
+   9.689098
+  ],
+  [
+   54.410263,
+   9.68897
+  ],
+  [
+   54.410315,
+   9.6889
+  ],
+  [
+   54.410563,
+   9.688906
+  ],
+  [
+   54.41069,
+   9.688952
+  ],
+  [
+   54.410818,
+   9.689037
+  ],
+  [
+   54.410948,
+   9.689006
+  ],
+  [
+   54.411091,
+   9.688889
+  ],
+  [
+   54.41119,
+   9.688704
+  ],
+  [
+   54.411234,
+   9.688501
+  ],
+  [
+   54.411021,
+   9.687932
+  ],
+  [
+   54.41085,
+   9.68771
+  ],
+  [
+   54.4108,
+   9.687582
+  ],
+  [
+   54.410789,
+   9.687442
+  ],
+  [
+   54.410869,
+   9.687121
+  ],
+  [
+   54.410849,
+   9.686709
+  ],
+  [
+   54.410625,
+   9.686321
+  ],
+  [
+   54.41038,
+   9.685983
+  ],
+  [
+   54.410031,
+   9.68555
+  ],
+  [
+   54.409897,
+   9.685538
+  ],
+  [
+   54.409753,
+   9.685538
+  ],
+  [
+   54.409711,
+   9.685512
+  ],
+  [
+   54.408717,
+   9.68675
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -721553703,
+   "lat": 54.40861,
+   "lon": 9.68673,
+   "km": 0.0,
+   "titel": "Waldparkplatz",
+   "thema": "Einstieg L265, Steintafel Silberbergen",
+   "kurztext": "Hier steht das Auto, an der L265 zwischen Ahlefeld und Bistensee. Steintafel Silberbergen, der Rundweg fängt an. Frei, ohne Förster. Nicht den Hotelparkplatz am Aschberg. Untereider ist der andere RD-Pfad, Rendsburg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 5523642021,
+   "lat": 54.410027,
+   "lon": 9.6849232,
+   "km": 0.19,
+   "titel": "Tafel am Waldrand",
+   "thema": "Erste Infotafel, vom Parkplatz in den Bestand",
+   "kurztext": "Wenige Meter vom Platz, westlich in den Wald. OSM-Tafel ohne Titel, Inhalt Wald, Pflanzen, Tiere. Du bleibst auf dem Weg, der Bestand ist FFH.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 5523638306,
+   "lat": 54.4116732,
+   "lon": 9.6823158,
+   "km": 0.44,
+   "titel": "Tafel am Hang",
+   "thema": "Westlicher Anstieg im Gehege",
+   "kurztext": "Weiter den Westweg hoch. Wieder eine Tafel ohne öffentlichen Titel. Buchen, Eichen, Totholz. Der Aschberg-Gipfel liegt noch nördlich, nicht hier.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 5523639371,
+   "lat": 54.4124965,
+   "lon": 9.6821098,
+   "km": 0.55,
+   "titel": "Tafel am Nordweg",
+   "thema": "Obere Kante vor dem Rastplatz",
+   "kurztext": "Nördlicher Schenkel, kurz vor Bank und Unterstand. Tafel im Bestand, nicht die Naturpark-Tafel am Picknick. Rundkurs, du kommst denselben Parkplatz wieder.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 602588317,
+   "lat": 54.4140607,
+   "lon": 9.6824629,
+   "km": 0.75,
+   "titel": "Naturtafel am Rastplatz",
+   "thema": "Bank, Unterstand, Picknick",
+   "kurztext": "Hier hängt die Naturpark-Tafel, daneben Bank, Unterstand, Picknickplatz. Rast, dann weiter die Runde oder zurück. Der Aussichtsturm am Aschberg ist extra, anderer Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 602588306,
+   "lat": 54.4142405,
+   "lon": 9.6825759,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 602588313,
+   "lat": 54.4141652,
+   "lon": 9.6824322,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 1020779292,
+   "lat": 54.4101214,
+   "lon": 9.6905816,
+   "kategorie": "gastro",
+   "name": "Baumgarten"
+  },
+  {
+   "osmId": 10759993993,
+   "lat": 54.4140542,
+   "lon": 9.6823351,
+   "kategorie": "bench",
+   "name": "Naturpark Hüttener Berge"
+  },
+  {
+   "osmId": 30088361,
+   "lat": 54.408612716666674,
+   "lon": 9.68673405,
+   "kategorie": "parking",
+   "name": "Silberbergen"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
+ "besuchshinweise": "Hunde anleinen. Wege nass nach Regen, kein Rollstuhl. Aschberg mit Turm und Bismarck ist extra, anderer Einstieg.",
+ "hoertext": "Am Waldparkplatz Silberbergen, L265 zwischen Ahlefeld und Bistensee, fängt die Runde an. Zweieinhalb Kilometer durchs Gehege, frei, Tafeln zu Wald, Pflanzen und Tieren. Auto bleibt am Platz, nicht in den Bestand. Der Aschberg mit Turm und Bismarck ist extra, anderer Einstieg. Nass nach Regen, Hunde an die Leine.",
+ "bilderAsset": "assets/images/trails/waldlehrpfad-silberbergen/credits.json"
+}

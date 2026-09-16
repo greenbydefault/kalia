@@ -56,7 +56,7 @@ void main() {
     final trails = await SeedTrailRepository().getTrails();
 
     // Alle Einträge in _seedPaths außer auskommentiertem alt-daber.
-    expect(trails, hasLength(49));
+    expect(trails, hasLength(50));
     expect(
       trails.map((t) => t.id),
       containsAll([
@@ -774,6 +774,41 @@ void main() {
     }
   });
 
+  test('Silberbergen: 5 Stationen, RD Rundkurs, Linie frei', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'waldlehrpfad-silberbergen',
+    );
+    expect(trail.typ, 'wald');
+    expect(trail.form, 'linie');
+    expect(trail.rundkurs, isTrue);
+    expect(trail.eintritt, isFalse);
+    expect(trail.region, contains('Rendsburg-Eckernförde'));
+    expect(trail.stationen.length, 5);
+    expect(trail.arten, containsAll(['Rotbuche', 'Stieleiche', 'Buntspecht']));
+    expect(
+      trail.stationen.map((s) => s.titel),
+      containsAll([
+        'Waldparkplatz',
+        'Tafel am Waldrand',
+        'Tafel am Hang',
+        'Tafel am Nordweg',
+        'Naturtafel am Rastplatz',
+      ]),
+    );
+    expect(trail.start.latitude, closeTo(54.40861, 0.02));
+    expect(trail.start.longitude, closeTo(9.68673, 0.02));
+    expect(trail.hasHeroBilder, isTrue);
+    expect(trail.bilder.length, inInclusiveRange(8, 15));
+    for (final bild in trail.bilder) {
+      expect(bild.file, isNotEmpty);
+      expect(bild.credit, isNotEmpty);
+      expect(bild.license, isNotEmpty);
+      expect(bild.sourceUrl, contains('commons.wikimedia.org'));
+      expectVariantFiles('waldlehrpfad-silberbergen', bild);
+    }
+  });
+
   test('Seeufer Nearby enthält Fegetasche und Spitzenort', () async {
     final trails = await SeedTrailRepository().getTrails();
     final trail = trails.firstWhere(
@@ -788,6 +823,24 @@ void main() {
         'cafe-fegetasche-ploen',
         'baden-fegetasche-ploen',
         'camping-spitzenort-ploen',
+      ]),
+    );
+  });
+
+  test('Silberbergen Nearby enthält Baumgarten und Camping Jarck', () async {
+    final trails = await SeedTrailRepository().getTrails();
+    final trail = trails.firstWhere(
+      (t) => t.id == 'waldlehrpfad-silberbergen',
+    );
+    final catalog = await SeedNearbyRepository().getCatalog();
+    final hits = nearby(trail, catalog);
+    expect(hits, isNotEmpty);
+    expect(
+      hits.map((t) => t.place.id),
+      containsAll([
+        'restaurant-baumgarten-bistensee',
+        'baden-bistensee',
+        'camping-jarck-bistensee',
       ]),
     );
   });

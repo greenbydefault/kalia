@@ -1174,5 +1174,35 @@
     "website": "https://www.spitzenort.de/",
     "oeffnungszeiten": "Saison, siehe Platz",
     "telefon": "+49 4522 2769"
+  },
+  {
+    "id": "restaurant-baumgarten-bistensee",
+    "name": "Restaurant Baumgarten",
+    "kategorie": "restaurant",
+    "kurztext": "Gaststätte an der L265 neben dem Waldparkplatz Silberbergen — nach der Runde, nicht im Gehege.",
+    "lat": 54.41012,
+    "lon": 9.69058,
+    "website": "http://www.aktion-baumgarten.de",
+    "oeffnungszeiten": "siehe Aushang"
+  },
+  {
+    "id": "baden-bistensee",
+    "name": "Badestelle Bistensee",
+    "kategorie": "baden",
+    "kurztext": "Naturbadestelle am Ostufer, Dorfstraße Bistensee — extra, nicht der Lehrpfad.",
+    "lat": 54.3977706,
+    "lon": 9.6963399,
+    "oeffnungszeiten": "ganzjährig frei, Saisonbetrieb"
+  },
+  {
+    "id": "camping-jarck-bistensee",
+    "name": "Campingplatz Jarck Bistensee",
+    "kategorie": "camping",
+    "kurztext": "Camping am Ostufer, Uferweg 16 — knapp zwei Kilometer südlich, extra.",
+    "lat": 54.3927607,
+    "lon": 9.6969254,
+    "website": "https://bistensee.de/",
+    "oeffnungszeiten": "Saison 1.4.–31.10., Rezeption 8–12 und 15–18 Uhr",
+    "telefon": "+49 4353 436"
   }
 ]
