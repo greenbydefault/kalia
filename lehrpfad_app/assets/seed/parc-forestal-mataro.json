@@ -1,0 +1,217 @@
+{
+ "id": "parc-forestal-mataro",
+ "name": "Parc Forestal de Mataró",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Stadtforst am Turó d’en Dori: Pinien, Spiel- und Picknickinseln, Quelle und Mirador. Frei. Der SL-C 74 ist gesperrt.",
+ "beschreibung": "Nördlich der Stadt, am Hang des Turó d’en Dori, liegt der Parc Forestal Francesc Robert i Graupera. 1975, Stadtforst Mataró, Pinienhang im Montnegre-Corredor. Tische, Spielplatz, WC, Bar Tarannà, mehrere Parkplätze. Von der Roca del Bon Dia laufen Wege zur Font dels Tres Raigs und zum Mirador, Blick auf Stadt und Meer. Immer frei, ohne Anmeldung. Der SL-C 74 El pont de la Vila ist wegen umgestürzter Kiefern gesperrt, die Fläche nicht. Bosc Vertical im selben Wald ist Hochseil, Ticket, extra. Hunde anleinen, auf den Wegen bleiben.",
+ "laengeKm": 0.0,
+ "dauerMin": 75,
+ "rundkurs": false,
+ "markierung": "Parkwege / Roca del Bon Dia (SL-C 74 gesperrt)",
+ "betreiber": "Ajuntament de Mataró / Parc del Montnegre i el Corredor",
+ "region": "Mataró, Maresme, Katalonien",
+ "website": "https://totnens.cat/que-fem/parc-forestal-de-mataro/",
+ "anreise": "Start Roca del Bon Dia / Parc Forestal, Camí de la Serra, 08304 Mataró. GPS 41.56552, 2.42839. Auto: Schilder ab Hospital de Mataró, Parkplätze im Park frei. Bus bis Hospital de Mataró, dann den Hang hoch. Nicht Bosc Vertical als Eingang nehmen, das ist der Hochseilgarten. SL-C 74-Markierung ignorieren, der Arm ist zu.",
+ "startName": "Roca del Bon Dia / Parc Forestal",
+ "arten": [
+  "Pinie",
+  "Steineiche",
+  "Korkeiche",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "hunde-erlaubt",
+  "einkehr"
+ ],
+ "form": "flaeche",
+ "route": [],
+ "area": [
+  [
+   41.568727,
+   2.426358
+  ],
+  [
+   41.568101,
+   2.425929
+  ],
+  [
+   41.567692,
+   2.4258
+  ],
+  [
+   41.566873,
+   2.425875
+  ],
+  [
+   41.566046,
+   2.427817
+  ],
+  [
+   41.565724,
+   2.429797
+  ],
+  [
+   41.565165,
+   2.43191
+  ],
+  [
+   41.565282,
+   2.431943
+  ],
+  [
+   41.565934,
+   2.43169
+  ],
+  [
+   41.566801,
+   2.431637
+  ],
+  [
+   41.567073,
+   2.431261
+  ],
+  [
+   41.567294,
+   2.429033
+  ],
+  [
+   41.567772,
+   2.427206
+  ],
+  [
+   41.568231,
+   2.426834
+  ],
+  [
+   41.568727,
+   2.426358
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -3394958438,
+   "lat": 41.5655209,
+   "lon": 2.4283879,
+   "km": 0.0,
+   "titel": "Roca del Bon Dia",
+   "thema": "Eingang, SL-C 74 zu",
+   "kurztext": "Hier fängt der Park an. Weiß-grün SL-C 74 wäre der Lehrpfad-Arm — umgestürzte Kiefern, gesperrt. Die Fläche ist offen. Nicht in den Hochseilgarten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -2388267947,
+   "lat": 41.56561,
+   "lon": 2.43087,
+   "km": 0.21,
+   "titel": "Zona infantil / pícnic",
+   "thema": "Spiel, Tische, WC, Bar",
+   "kurztext": "Schaukeln, Tische, WC, Bar Tarannà. Hier bleibt man. Picknick unter Pinien. Der Hochseilgarten daneben kostet extra, das hier nicht.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1537120390,
+   "lat": 41.56725,
+   "lon": 2.42875,
+   "km": 0.5,
+   "titel": "Pineda de pi pinyer",
+   "thema": "Küstenhang-Kiefer, alte Weinberge",
+   "kurztext": "Pinie, Schirmkrone, früher Weinberg. Daneben Steineiche und Korkeiche. Totnens: Eichhörnchen, Spechtlöcher in kranken Stämmen. Zapfen hängen lassen.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 1423309041,
+   "lat": 41.568876,
+   "lon": 2.431406,
+   "km": 0.78,
+   "titel": "Font dels Tres Raigs",
+   "thema": "Quelle, 1999 instandgesetzt",
+   "kurztext": "Quelle im Wald, drei Röhren, 1999 gemacht. Ein Stück ab vom Hauptweg, eine Markierung zeigt den Abzweig. Wasser nach Regen, sonst oft wenig.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 11919607423,
+   "lat": 41.5681507,
+   "lon": 2.426915,
+   "km": 1.16,
+   "titel": "Mirador d’en Dori",
+   "thema": "Blick Stadt und Meer",
+   "kurztext": "Kuppe 363 Meter. Mataró unten, bei klarer Luft das Meer. Totnens: ein kurzer Weg vom Park. Nicht den ganzen Kamm nach Tarau mitnehmen, wenn du nur den Blick willst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 8555464253,
+   "lat": 41.5654938,
+   "lon": 2.4300587,
+   "kategorie": "parking",
+   "name": "Parkplatz Parc Forestal"
+  },
+  {
+   "osmId": 8555464271,
+   "lat": 41.566212,
+   "lon": 2.4293739,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 921523118,
+   "lat": 41.5660591,
+   "lon": 2.4295986,
+   "kategorie": "gastro",
+   "name": "Tarannà"
+  },
+  {
+   "osmId": 8555464252,
+   "lat": 41.5649103,
+   "lon": 2.4306977,
+   "kategorie": "parking",
+   "name": "Parkplatz Parc Forestal Süd"
+  },
+  {
+   "osmId": 919824696,
+   "lat": 41.5658707,
+   "lon": 2.4263335,
+   "kategorie": "parking",
+   "name": "Parkplatz Avinguda del Parc Forestal"
+  },
+  {
+   "osmId": 11919607423,
+   "lat": 41.5681507,
+   "lon": 2.426915,
+   "kategorie": "viewpoint",
+   "name": "Mirador d’en Dori"
+  }
+ ],
+ "besuchshinweise": "SL-C 74 gesperrt (Sturmholz). Fläche, Quelle und Mirador offen. Bosc Vertical ist Ticket, extra. Hunde anleinen.",
+ "hoertext": "Am Hang über Mataró, Turó d’en Dori. Pinien, Tische, Spielplatz, Bar Tarannà. Frei, ohne Ticket. Der SL-C 74 ist zu, umgestürzte Kiefern. Bleib auf den offenen Wegen zur Font dels Tres Raigs und zum Mirador. Stadt und Meer liegen unten. Bosc Vertical ist der Hochseilgarten, der kostet extra.",
+ "bilderAsset": "assets/images/trails/parc-forestal-mataro/credits.json"
+}

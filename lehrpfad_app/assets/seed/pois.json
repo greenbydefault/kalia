@@ -1235,5 +1235,15 @@
     "lon": 11.4772185,
     "website": "https://www.burg-lenzen.de/",
     "oeffnungszeiten": "siehe Burg"
+  },
+  {
+    "id": "platja-callao-mataro",
+    "name": "Platja del Callao",
+    "kategorie": "baden",
+    "kurztext": "Stadtstrand Mataró unter dem Parkhang — nach dem Parc Forestal runter zum Meer, nicht der Park selbst.",
+    "lat": 41.53923,
+    "lon": 2.45627,
+    "website": "https://www.mataro.cat",
+    "oeffnungszeiten": "Strand frei"
   }
 ]

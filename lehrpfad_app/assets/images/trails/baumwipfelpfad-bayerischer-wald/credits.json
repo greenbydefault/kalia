@@ -1,0 +1,65 @@
+[
+  {
+    "file": "01-eingang.jpg",
+    "caption": "Eingang zum Baumwipfelpfad, Einstiegsturm.",
+    "credit": "High Contrast",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanopy_walkway_of_Neusch%C3%B6nau_-_entrance.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-hindernis.jpg",
+    "caption": "Erlebnisstation neben dem Steg.",
+    "credit": "High Contrast",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Neusch%C3%B6nau_-_%22Hindernis%22.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-hochweg.jpg",
+    "caption": "Steg durch den Bergmischwald.",
+    "credit": "High Contrast",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Neusch%C3%B6nau_-_Hochweg.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-turm-weg.jpg",
+    "caption": "Baumei mit Steg.",
+    "credit": "High Contrast",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_mit_Weg.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-baumei.jpg",
+    "caption": "Blick nach oben in den Aussichtsturm.",
+    "credit": "AnKobs",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASicht_nach_oben_zum_Aussichtsturm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-steg.jpg",
+    "caption": "Steg auf Augenhöhe mit den Kronen.",
+    "credit": "DALIBRI",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Neusch%C3%B6nau_012.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-ausgang.jpg",
+    "caption": "Ausgang am Hans-Eisenmann-Haus.",
+    "credit": "High Contrast",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Neusch%C3%B6nau_-_Ausgang.jpg",
+    "kind": "ort"
+  }
+]

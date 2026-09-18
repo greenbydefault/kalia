@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-pineda.jpg",
+    "caption": "Pinienstämme im Parc Forestal de Mataró, Pinus pinea.",
+    "credit": "Quercinus",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APins_del_Parc_Forestal_de_Matar%C3%B3.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-mata.jpg",
+    "caption": "Bäume im Veïnat de Mata, Mataró, unterhalb des Parkhangs.",
+    "credit": "Pere prlpz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%AFnat_de_Mata_-_Matar%C3%B3_-_P1110079.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-pi-pinyer.jpg",
+    "caption": "Pinie, Pi pinyer – Pinus pinea.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APINUS_PINEA_-_AGUDA_-_IB-1918_(Pi_pinyer).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "04-callao.jpg",
+    "caption": "Platja del Callao, Mataró. Meer unter dem Parkhang.",
+    "credit": "Isidro Jabato",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlatja_del_Callao_01.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-ilex.jpg",
+    "caption": "Steineiche in Blüte – Alzina, Quercus ilex.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQUERCUS_ILEX_-_AGUDA_-_IB-179_(Alzinera).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "06-suber.jpg",
+    "caption": "Korkeiche, Quercus suber. Rinde zum Schälen.",
+    "credit": "Carsten Niehaus",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_suber.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "07-eichhorn.jpg",
+    "caption": "Eichhörnchen, Sciurus vulgaris.",
+    "credit": "Schlurcher",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEichh%C3%B6rnchen.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-montnegre.jpg",
+    "caption": "Parc del Montnegre i el Corredor.",
+    "credit": "Alberto-g-rovi",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontnegre_i_el_corredor-2012.JPG",
+    "kind": "ort"
+  }
+]

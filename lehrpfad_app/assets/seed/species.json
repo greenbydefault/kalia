@@ -802,6 +802,82 @@
     ]
   },
   {
+    "id": "eichhoernchen",
+    "nameDe": "Eichhörnchen",
+    "nameLat": "Sciurus vulgaris",
+    "kategorie": "fauna",
+    "kurztext": "Im Parc Forestal huscht das Eichhörnchen die Pinie rauf – totnens hat es gesehen.",
+    "aliases": [
+      "Esquirol",
+      "Eichhorn"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Parc Forestal huscht das Eichhörnchen die Pinie rauf – totnens hat es gesehen.",
+      "erkennung": [
+        "Roter bis brauner Rücken, buschiger Schwanz",
+        "Sitzt in Pinien und Steineichen",
+        "Angebissene Zapfen am Boden"
+      ],
+      "lebensraum": "Pineda und Steineichen im Parc Forestal Mataró, Hang Turó d’en Dori. Totnens: bei Glück am Weg, nicht gezählt.",
+      "funFacts": [
+        "Totnens: bei Glück im Parc Forestal, nicht jede Runde.",
+        "Vergräbt Samen, vergessene werden Bäume.",
+        "Esquirol auf Katalanisch."
+      ],
+      "hinweis": "Nicht füttern, Zapfen liegen lassen.",
+      "hoertext": "Halt an und schau in die Pinien. Manchmal huscht etwas die Rinde rauf, buschiger Schwanz. Das Eichhörnchen, Esquirol. Totnens hat es hier gesehen, nicht jede Runde. Es sitzt in Pinie und Steineiche, frisst Samen und Eicheln, vergräbt was übrig ist. Unten am Stamm liegen angebissene Zapfen, das ist die Spur, wenn das Tier weg ist. Kein Futter hinhalten, der Park ist voll genug. Spechte hämmern in kranken Kiefern, das Eichhörnchen nimmt die Löcher nicht. Ein kurzer Blick reicht. Dann weiter zu den Tischen. Der Schatten der Pinie bleibt, das Tier ist schon weiter."
+    },
+    "gruppe": "saeugetiere",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen",
+      "Eicheln",
+      "Pinionüsse"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Mammalia",
+      "ordnung": "Rodentia",
+      "familie": "Sciuridae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "20–25 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "250–350 g"
+      },
+      {
+        "key": "alter",
+        "wert": "3–7 Jahre"
+      }
+    ],
+    "merkmale": [
+      "pelzig",
+      "tagaktiv",
+      "allesfresser",
+      "luftbewohnend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "toSpeciesId": "pinie",
+        "kurztext": "Holt Samen aus Pinienzapfen."
+      },
+      {
+        "typ": "frisst",
+        "toSpeciesId": "steineiche",
+        "kurztext": "Vergräbt Eicheln der Alzina."
+      }
+    ]
+  },
+  {
     "id": "eisvogel",
     "nameDe": "Eisvogel",
     "nameLat": "Alcedo atthis",
@@ -2402,6 +2478,81 @@
     ]
   },
   {
+    "id": "korkeiche",
+    "nameDe": "Korkeiche",
+    "nameLat": "Quercus suber",
+    "kategorie": "flora",
+    "kurztext": "Die Rinde ist dick und korkig – hier steht die Surera, nicht die Steineiche daneben.",
+    "aliases": [
+      "Surera",
+      "Alzina surera"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Die Rinde ist dick und korkig – hier steht die Surera, nicht die Steineiche daneben.",
+      "erkennung": [
+        "Dicke korkige Rinde, oft abgeschält",
+        "Immergrün, Blatt kleiner als Steineiche",
+        "Eicheln mit kurzem Stiel"
+      ],
+      "lebensraum": "Am Parkhang Mataró, totnens: zona de les alzines sureres neben der Pineda. Küstenhang, nicht der Norden-Wald.",
+      "funFacts": [
+        "Kork wird geschält, der Baum lebt weiter.",
+        "Surera auf Katalanisch, Quercus suber.",
+        "Neben der Alzina, nicht dieselbe Art."
+      ],
+      "hinweis": "Rinde nicht reißen, Schälen ist Betrieb.",
+      "hoertext": "Fass die Rinde, wenn sie niedrig sitzt. Dick, weich, korkig. Das ist die Korkeiche, Surera. Nicht die Steineiche daneben, die Alzina. Die Surera wird geschält, der Baum lebt weiter. Totnens führt hier an den alzines sureres vorbei, am Hang über Mataró, neben der Pinie. Immergrün, das Blatt kleiner als bei der Alzina. Eicheln mit kurzem Stiel. Kork kommt von hier, nicht aus dem Baumarkt. Rinde nicht reißen, Schälen ist Betrieb. Zwei Eichenarten am selben Weg, die Rinde sagt welche. Bleib auf dem Weg, der Stamm ist der Fund, nicht dein Souvenir."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Eicheln",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "10–20 m"
+      },
+      {
+        "key": "alter",
+        "wert": "150–300 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Eichel"
+      }
+    ],
+    "merkmale": [
+      "immergruen",
+      "laubbaum",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "toSpeciesId": "eichhoernchen",
+        "kurztext": "Holt Eicheln der Surera."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Höhlen in alten Stämmen."
+      }
+    ]
+  },
+  {
     "id": "kranich",
     "nameDe": "Kranich",
     "nameLat": "Grus grus",
@@ -2717,6 +2868,82 @@
         "typ": "wohnt_an",
         "nameDe": "Schilf",
         "kurztext": "Brütet im Schilf."
+      }
+    ]
+  },
+  {
+    "id": "pinie",
+    "nameDe": "Pinie",
+    "nameLat": "Pinus pinea",
+    "kategorie": "flora",
+    "kurztext": "Über Mataró steht die Pinie mit Schirmkrone – Nadeln zu zweit, der Zapfen hält die Pinionüsse.",
+    "aliases": [
+      "Pi pinyer",
+      "Schirmkiefer",
+      "Pinienkiefer"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Über Mataró steht die Pinie mit Schirmkrone – Nadeln zu zweit, der Zapfen hält die Pinionüsse.",
+      "erkennung": [
+        "Schirmkrone, Stamm oft kahl unten",
+        "Nadeln zu zweit, länger als Aleppo-Kiefer",
+        "Dicke Zapfen, Samen sind Pinionüsse"
+      ],
+      "lebensraum": "Küstenhang am Turó d’en Dori im Parc Forestal Mataró. Alte Weinberge wurden mit Pinie bepflanzt, totnens nennt die Pineda.",
+      "funFacts": [
+        "Pi pinyer auf Katalanisch, nicht die Waldkiefer.",
+        "Die Schirmkrone wirft einen runden Schatten.",
+        "Pinionüsse sitzen unter dicken Zapfenschuppen."
+      ],
+      "hinweis": "Zapfen hängen lassen, der Baum ist der Fund.",
+      "hoertext": "Schau die Krone an. Rund wie ein Schirm, der Stamm unten oft kahl. Das ist die Pinie, Pi pinyer. Nadeln zu zweit, länger als bei der Aleppo-Kiefer. Der Zapfen ist dick, drunter sitzen die Pinionüsse. Hier am Hang über Mataró haben sie alte Weinberge mit Pinie gesetzt. Totnens nennt die Pineda. Im Sommer wirft die Krone einen runden Schatten, gut fürs Picknick. Die Waldkiefer aus dem Norden sieht anders aus, oranger Stamm, andere Nadeln. Fass den Zapfen nicht ab, er bleibt am Baum. Unten liegt die Stadt, das Meer. Die Pinie hält den Hang."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "12–25 m"
+      },
+      {
+        "key": "alter",
+        "wert": "80–150 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Zapfen / Pinionuss"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "immergruen",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "toSpeciesId": "eichhoernchen",
+        "kurztext": "Holt die Samen aus den Zapfen."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Löcher in kranken Stämmen, totnens."
       }
     ]
   },
@@ -3523,6 +3750,81 @@
     }
   },
   {
+    "id": "steineiche",
+    "nameDe": "Steineiche",
+    "nameLat": "Quercus ilex",
+    "kategorie": "flora",
+    "kurztext": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
+    "aliases": [
+      "Alzina",
+      "Holmeiche"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
+      "erkennung": [
+        "Lederblätter, immergrün, Rand oft stachelig",
+        "Eicheln ohne langen Stiel, dunkle Krone",
+        "Zwei Altbäume an Can Portell"
+      ],
+      "lebensraum": "Steineichenwald im Montnegre bei Hortsavinyà, zwischen Korkeiche und Erdbeerbaum. Hier stehen die Alzines de Can Portell, nicht die Stieleiche aus dem Norden.",
+      "funFacts": [
+        "1996 hat ein Blitz einen der beiden Altbäume getroffen.",
+        "Junge Blätter stachelig, alte oft glatt – dieselbe Art.",
+        "Alzina auf Katalanisch. Quercus ilex, kein Laubfall."
+      ],
+      "hinweis": "Nichts pflücken, die Altbäume sind der Fund.",
+      "hoertext": "Vor dir stehen zwei dicke Steineichen. Eine hat 1996 der Blitz getroffen, der Stamm zeigt die Narbe. Fass vorsichtig ein Blatt. Leder, dunkelgrün, der Rand kann stechen. Im Januar hängen sie noch. Das ist kein Norden-Wald. Die Stieleiche wirft ab, die Alzina nicht. Can Portell heißt der Fleck, die Runde trägt den Namen. Korkeichen daneben, Rinde zum Schälen. Hier haben Köhler und Kalkbrenner den Hang genutzt. Die Eicheln sind kurz gestielt, nicht wie bei der Stieleiche. Zwei Alte, der Rest jünger. Bleib auf dem Weg, der Blitzbaum ist der Fund, nicht dein Souvenir."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Eicheln",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "10–25 m"
+      },
+      {
+        "key": "alter",
+        "wert": "200–500 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Eichel"
+      }
+    ],
+    "merkmale": [
+      "immergruen",
+      "laubbaum",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Vergräbt Eicheln der Alzina."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Waldkauz",
+        "kurztext": "Sitzt in alten Kronen, Namengeber am Fels."
+      }
+    ]
+  },
+  {
     "id": "steinschmaetzer",
     "nameDe": "Steinschmätzer",
     "nameLat": "Oenanthe oenanthe",
@@ -3670,81 +3972,6 @@
         "typ": "wohnt_an",
         "nameDe": "Fledermäuse",
         "kurztext": "Schlafen in Baumhöhlen."
-      }
-    ]
-  },
-  {
-    "id": "steineiche",
-    "nameDe": "Steineiche",
-    "nameLat": "Quercus ilex",
-    "kategorie": "flora",
-    "kurztext": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
-    "aliases": [
-      "Alzina",
-      "Holmeiche"
-    ],
-    "imagePath": null,
-    "imageCredit": "",
-    "content": {
-      "hook": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
-      "erkennung": [
-        "Lederblätter, immergrün, Rand oft stachelig",
-        "Eicheln ohne langen Stiel, dunkle Krone",
-        "Zwei Altbäume an Can Portell"
-      ],
-      "lebensraum": "Steineichenwald im Montnegre bei Hortsavinyà, zwischen Korkeiche und Erdbeerbaum. Hier stehen die Alzines de Can Portell, nicht die Stieleiche aus dem Norden.",
-      "funFacts": [
-        "1996 hat ein Blitz einen der beiden Altbäume getroffen.",
-        "Junge Blätter stachelig, alte oft glatt – dieselbe Art.",
-        "Alzina auf Katalanisch. Quercus ilex, kein Laubfall."
-      ],
-      "hinweis": "Nichts pflücken, die Altbäume sind der Fund.",
-      "hoertext": "Vor dir stehen zwei dicke Steineichen. Eine hat 1996 der Blitz getroffen, der Stamm zeigt die Narbe. Fass vorsichtig ein Blatt. Leder, dunkelgrün, der Rand kann stechen. Im Januar hängen sie noch. Das ist kein Norden-Wald. Die Stieleiche wirft ab, die Alzina nicht. Can Portell heißt der Fleck, die Runde trägt den Namen. Korkeichen daneben, Rinde zum Schälen. Hier haben Köhler und Kalkbrenner den Hang genutzt. Die Eicheln sind kurz gestielt, nicht wie bei der Stieleiche. Zwei Alte, der Rest jünger. Bleib auf dem Weg, der Blitzbaum ist der Fund, nicht dein Souvenir."
-    },
-    "gruppe": "baeume",
-    "seltenheit": "haeufig",
-    "gefahr": 1,
-    "nahrung": [
-      "Eicheln",
-      "Blätter"
-    ],
-    "taxonomie": {
-      "reich": "Plantae",
-      "stamm": "Tracheophyta",
-      "klasse": "Magnoliopsida",
-      "ordnung": "Fagales",
-      "familie": "Fagaceae"
-    },
-    "masse": [
-      {
-        "key": "hoehe",
-        "wert": "10–25 m"
-      },
-      {
-        "key": "alter",
-        "wert": "200–500 Jahre"
-      },
-      {
-        "key": "frucht",
-        "wert": "Eichel"
-      }
-    ],
-    "merkmale": [
-      "immergruen",
-      "laubbaum",
-      "fruchttragend",
-      "schluesselart"
-    ],
-    "beziehungen": [
-      {
-        "typ": "frisst",
-        "nameDe": "Eichhörnchen",
-        "kurztext": "Vergräbt Eicheln der Alzina."
-      },
-      {
-        "typ": "wohnt_an",
-        "nameDe": "Waldkauz",
-        "kurztext": "Sitzt in alten Kronen, Namengeber am Fels."
       }
     ]
   },
@@ -4510,73 +4737,6 @@
     ]
   },
   {
-    "id": "wollgras",
-    "nameDe": "Wollgras",
-    "nameLat": "Eriophorum",
-    "kategorie": "flora",
-    "kurztext": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
-    "aliases": [],
-    "imagePath": null,
-    "imageCredit": "",
-    "content": {
-      "hook": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
-      "erkennung": [
-        "Weiße, watteartige Fruchtstände",
-        "Auf nassen, oft torfigen Stellen",
-        "Mehrere Arten, alle an Feuchtlebensräume gebunden"
-      ],
-      "lebensraum": "Nasse Moore und torfige Flächen – im Frühsommer weithin sichtbar.",
-      "funFacts": [
-        "Die „Wolle“ sind Haare an den Früchten, die den Windtransport helfen.",
-        "Große Bestände wirken wie Schnee mitten im Grün.",
-        "Wo Wollgras steht, ist der Boden meist dauerhaft nass."
-      ],
-      "hinweis": "",
-      "hoertext": "Im Frühsommer verwandelt sich manches Moor in eine flauschige Fläche. Wollgras. Die weißen Köpfe sehen aus wie Watte. Tatsächlich helfen die Haare den Früchten, mit dem Wind zu reisen. Die Pflanze zeigt nasse, oft torfige Standorte an. Mehrere Arten gibt es in Brandenburg – alle brauchen intakte Feuchte. Wenn du diese weißen Tupfen siehst, weißt du: Hier hält das Wasser noch. Ein weiches Bild – mit einer klaren Botschaft unter dem Flaum. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
-    },
-    "gruppe": "kraeuter",
-    "seltenheit": "mittel",
-    "gefahr": 1,
-    "nahrung": [
-      "Samen"
-    ],
-    "taxonomie": {
-      "reich": "Plantae",
-      "stamm": "Tracheophyta",
-      "klasse": "Liliopsida",
-      "ordnung": "Poales",
-      "familie": "Cyperaceae"
-    },
-    "masse": [
-      {
-        "key": "hoehe",
-        "wert": "20–60 cm"
-      },
-      {
-        "key": "bluetezeit",
-        "wert": "Mai–Juni"
-      }
-    ],
-    "merkmale": [
-      "moor",
-      "wasserlebend",
-      "bluete",
-      "fruchttragend"
-    ],
-    "beziehungen": [
-      {
-        "typ": "wohnt_an",
-        "kurztext": "Lebt im gleichen Moor.",
-        "toSpeciesId": "moorfrosch"
-      },
-      {
-        "typ": "frisst",
-        "nameDe": "Vögel",
-        "kurztext": "Fressen die Samen."
-      }
-    ]
-  },
-  {
     "id": "wildkatze",
     "nameDe": "Wildkatze",
     "nameLat": "Felis silvestris",
@@ -4649,6 +4809,73 @@
         "typ": "wohnt_an",
         "toSpeciesId": "rotbuche",
         "kurztext": "Nutzt Deckung im Buchenwald."
+      }
+    ]
+  },
+  {
+    "id": "wollgras",
+    "nameDe": "Wollgras",
+    "nameLat": "Eriophorum",
+    "kategorie": "flora",
+    "kurztext": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
+    "aliases": [],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Im Frühsommer sieht das Moor aus, als hätte jemand Wattebäusche übers Gras gestreut.",
+      "erkennung": [
+        "Weiße, watteartige Fruchtstände",
+        "Auf nassen, oft torfigen Stellen",
+        "Mehrere Arten, alle an Feuchtlebensräume gebunden"
+      ],
+      "lebensraum": "Nasse Moore und torfige Flächen – im Frühsommer weithin sichtbar.",
+      "funFacts": [
+        "Die „Wolle“ sind Haare an den Früchten, die den Windtransport helfen.",
+        "Große Bestände wirken wie Schnee mitten im Grün.",
+        "Wo Wollgras steht, ist der Boden meist dauerhaft nass."
+      ],
+      "hinweis": "",
+      "hoertext": "Im Frühsommer verwandelt sich manches Moor in eine flauschige Fläche. Wollgras. Die weißen Köpfe sehen aus wie Watte. Tatsächlich helfen die Haare den Früchten, mit dem Wind zu reisen. Die Pflanze zeigt nasse, oft torfige Standorte an. Mehrere Arten gibt es in Brandenburg – alle brauchen intakte Feuchte. Wenn du diese weißen Tupfen siehst, weißt du: Hier hält das Wasser noch. Ein weiches Bild – mit einer klaren Botschaft unter dem Flaum. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+    },
+    "gruppe": "kraeuter",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Liliopsida",
+      "ordnung": "Poales",
+      "familie": "Cyperaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "20–60 cm"
+      },
+      {
+        "key": "bluetezeit",
+        "wert": "Mai–Juni"
+      }
+    ],
+    "merkmale": [
+      "moor",
+      "wasserlebend",
+      "bluete",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "kurztext": "Lebt im gleichen Moor.",
+        "toSpeciesId": "moorfrosch"
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Vögel",
+        "kurztext": "Fressen die Samen."
       }
     ]
   },

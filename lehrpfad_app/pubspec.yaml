@@ -128,7 +128,9 @@ flutter:
     - assets/images/trails/naturerlebnisweg-ploener-seeufer/
     - assets/images/trails/waldlehrpfad-silberbergen/
     - assets/images/trails/zweiseitenweg-rambow/
+    - assets/images/trails/baumwipfelpfad-bayerischer-wald/
     - assets/images/trails/sl-c-73-alzines-can-portell/
+    - assets/images/trails/parc-forestal-mataro/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
