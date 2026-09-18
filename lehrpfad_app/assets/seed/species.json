@@ -806,7 +806,7 @@
     "nameDe": "Eichhörnchen",
     "nameLat": "Sciurus vulgaris",
     "kategorie": "fauna",
-    "kurztext": "Im Parc Forestal huscht das Eichhörnchen die Pinie rauf – totnens hat es gesehen.",
+    "kurztext": "Im Stadtforst Mataró huscht das Eichhörnchen die Pinie rauf – oft siehst du nur den Schwanz.",
     "aliases": [
       "Esquirol",
       "Eichhorn"
@@ -814,20 +814,20 @@
     "imagePath": null,
     "imageCredit": "",
     "content": {
-      "hook": "Im Parc Forestal huscht das Eichhörnchen die Pinie rauf – totnens hat es gesehen.",
+      "hook": "Im Stadtforst Mataró huscht das Eichhörnchen die Pinie rauf – oft siehst du nur den Schwanz.",
       "erkennung": [
         "Roter bis brauner Rücken, buschiger Schwanz",
         "Sitzt in Pinien und Steineichen",
         "Angebissene Zapfen am Boden"
       ],
-      "lebensraum": "Pineda und Steineichen im Parc Forestal Mataró, Hang Turó d’en Dori. Totnens: bei Glück am Weg, nicht gezählt.",
+      "lebensraum": "Pinienhain und Steineichen im Stadtforst Mataró, Hang Turó d’en Dori. Bei Glück am Weg, nicht jede Runde.",
       "funFacts": [
-        "Totnens: bei Glück im Parc Forestal, nicht jede Runde.",
+        "Bei Glück im Stadtforst, nicht jede Runde.",
         "Vergräbt Samen, vergessene werden Bäume.",
-        "Esquirol auf Katalanisch."
+        "Nimmt Samen aus Pinienzapfen und Eicheln."
       ],
       "hinweis": "Nicht füttern, Zapfen liegen lassen.",
-      "hoertext": "Halt an und schau in die Pinien. Manchmal huscht etwas die Rinde rauf, buschiger Schwanz. Das Eichhörnchen, Esquirol. Totnens hat es hier gesehen, nicht jede Runde. Es sitzt in Pinie und Steineiche, frisst Samen und Eicheln, vergräbt was übrig ist. Unten am Stamm liegen angebissene Zapfen, das ist die Spur, wenn das Tier weg ist. Kein Futter hinhalten, der Park ist voll genug. Spechte hämmern in kranken Kiefern, das Eichhörnchen nimmt die Löcher nicht. Ein kurzer Blick reicht. Dann weiter zu den Tischen. Der Schatten der Pinie bleibt, das Tier ist schon weiter."
+      "hoertext": "Halt an und schau in die Pinien. Manchmal huscht etwas die Rinde rauf, buschiger Schwanz. Das Eichhörnchen. Hier im Stadtforst hat man es gesehen, nicht jede Runde. Es sitzt in Pinie und Steineiche, frisst Samen und Eicheln, vergräbt was übrig ist. Unten am Stamm liegen angebissene Zapfen, das ist die Spur, wenn das Tier weg ist. Kein Futter hinhalten, der Park ist voll genug. Spechte hämmern in kranken Kiefern, das Eichhörnchen nimmt die Löcher nicht. Ein kurzer Blick reicht. Dann weiter zu den Tischen. Der Schatten der Pinie bleibt, das Tier ist schon weiter."
     },
     "gruppe": "saeugetiere",
     "seltenheit": "mittel",
@@ -873,7 +873,7 @@
       {
         "typ": "frisst",
         "toSpeciesId": "steineiche",
-        "kurztext": "Vergräbt Eicheln der Alzina."
+        "kurztext": "Vergräbt Eicheln der Steineiche."
       }
     ]
   },
@@ -2482,7 +2482,7 @@
     "nameDe": "Korkeiche",
     "nameLat": "Quercus suber",
     "kategorie": "flora",
-    "kurztext": "Die Rinde ist dick und korkig – hier steht die Surera, nicht die Steineiche daneben.",
+    "kurztext": "Die Rinde ist dick und korkig – hier steht die Korkeiche, nicht die Steineiche daneben.",
     "aliases": [
       "Surera",
       "Alzina surera"
@@ -2490,20 +2490,20 @@
     "imagePath": null,
     "imageCredit": "",
     "content": {
-      "hook": "Die Rinde ist dick und korkig – hier steht die Surera, nicht die Steineiche daneben.",
+      "hook": "Die Rinde ist dick und korkig – hier steht die Korkeiche, nicht die Steineiche daneben.",
       "erkennung": [
         "Dicke korkige Rinde, oft abgeschält",
         "Immergrün, Blatt kleiner als Steineiche",
         "Eicheln mit kurzem Stiel"
       ],
-      "lebensraum": "Am Parkhang Mataró, totnens: zona de les alzines sureres neben der Pineda. Küstenhang, nicht der Norden-Wald.",
+      "lebensraum": "Am Parkhang Mataró, Korkeichen neben dem Pinienhain. Küstenhang, nicht der Norden-Wald.",
       "funFacts": [
         "Kork wird geschält, der Baum lebt weiter.",
-        "Surera auf Katalanisch, Quercus suber.",
-        "Neben der Alzina, nicht dieselbe Art."
+        "Immergrün, das Blatt kleiner als bei der Steineiche.",
+        "Neben der Steineiche, nicht dieselbe Art."
       ],
       "hinweis": "Rinde nicht reißen, Schälen ist Betrieb.",
-      "hoertext": "Fass die Rinde, wenn sie niedrig sitzt. Dick, weich, korkig. Das ist die Korkeiche, Surera. Nicht die Steineiche daneben, die Alzina. Die Surera wird geschält, der Baum lebt weiter. Totnens führt hier an den alzines sureres vorbei, am Hang über Mataró, neben der Pinie. Immergrün, das Blatt kleiner als bei der Alzina. Eicheln mit kurzem Stiel. Kork kommt von hier, nicht aus dem Baumarkt. Rinde nicht reißen, Schälen ist Betrieb. Zwei Eichenarten am selben Weg, die Rinde sagt welche. Bleib auf dem Weg, der Stamm ist der Fund, nicht dein Souvenir."
+      "hoertext": "Fass die Rinde, wenn sie niedrig sitzt. Dick, weich, korkig. Das ist die Korkeiche. Nicht die Steineiche daneben. Die Korkeiche wird geschält, der Baum lebt weiter. Am Hang über Mataró stehen sie neben der Pinie, oft in kleinen Gruppen am Küstenhang, direkt am Weg. Immergrün, das Blatt kleiner als bei der Steineiche. Eicheln mit kurzem Stiel. Kork kommt von hier, nicht aus dem Baumarkt. Rinde nicht reißen, Schälen ist Betrieb. Zwei Eichenarten am selben Weg, die Rinde sagt welche. Bleib auf dem Weg, der Stamm ist der Fund, nicht dein Souvenir."
     },
     "gruppe": "baeume",
     "seltenheit": "haeufig",
@@ -2543,7 +2543,7 @@
       {
         "typ": "frisst",
         "toSpeciesId": "eichhoernchen",
-        "kurztext": "Holt Eicheln der Surera."
+        "kurztext": "Holt Eicheln der Korkeiche."
       },
       {
         "typ": "wohnt_an",
@@ -2891,14 +2891,14 @@
         "Nadeln zu zweit, länger als Aleppo-Kiefer",
         "Dicke Zapfen, Samen sind Pinionüsse"
       ],
-      "lebensraum": "Küstenhang am Turó d’en Dori im Parc Forestal Mataró. Alte Weinberge wurden mit Pinie bepflanzt, totnens nennt die Pineda.",
+      "lebensraum": "Küstenhang am Turó d’en Dori im Stadtforst Mataró. Alte Weinberge wurden mit Pinie bepflanzt.",
       "funFacts": [
-        "Pi pinyer auf Katalanisch, nicht die Waldkiefer.",
+        "Nicht die Waldkiefer, die Krone ist ein Schirm.",
         "Die Schirmkrone wirft einen runden Schatten.",
         "Pinionüsse sitzen unter dicken Zapfenschuppen."
       ],
       "hinweis": "Zapfen hängen lassen, der Baum ist der Fund.",
-      "hoertext": "Schau die Krone an. Rund wie ein Schirm, der Stamm unten oft kahl. Das ist die Pinie, Pi pinyer. Nadeln zu zweit, länger als bei der Aleppo-Kiefer. Der Zapfen ist dick, drunter sitzen die Pinionüsse. Hier am Hang über Mataró haben sie alte Weinberge mit Pinie gesetzt. Totnens nennt die Pineda. Im Sommer wirft die Krone einen runden Schatten, gut fürs Picknick. Die Waldkiefer aus dem Norden sieht anders aus, oranger Stamm, andere Nadeln. Fass den Zapfen nicht ab, er bleibt am Baum. Unten liegt die Stadt, das Meer. Die Pinie hält den Hang."
+      "hoertext": "Schau die Krone an. Rund wie ein Schirm, der Stamm unten oft kahl. Das ist die Pinie. Nadeln zu zweit, länger als bei der Aleppo-Kiefer. Der Zapfen ist dick, drunter sitzen die Pinionüsse. Hier am Hang über Mataró haben sie alte Weinberge mit Pinie gesetzt, das ist der Pinienhain. Im Sommer wirft die Krone einen runden Schatten, gut fürs Picknick. Die Waldkiefer aus dem Norden sieht anders aus, oranger Stamm, andere Nadeln. Fass den Zapfen nicht ab, er bleibt am Baum. Unten liegt die Stadt, das Meer. Die Pinie hält den Hang."
     },
     "gruppe": "baeume",
     "seltenheit": "haeufig",
@@ -2943,7 +2943,7 @@
       {
         "typ": "wohnt_an",
         "nameDe": "Spechte",
-        "kurztext": "Löcher in kranken Stämmen, totnens."
+        "kurztext": "Löcher in kranken Stämmen."
       }
     ]
   },
@@ -3768,14 +3768,14 @@
         "Eicheln ohne langen Stiel, dunkle Krone",
         "Zwei Altbäume an Can Portell"
       ],
-      "lebensraum": "Steineichenwald im Montnegre bei Hortsavinyà, zwischen Korkeiche und Erdbeerbaum. Hier stehen die Alzines de Can Portell, nicht die Stieleiche aus dem Norden.",
+      "lebensraum": "Steineichenwald im Montnegre bei Hortsavinyà, zwischen Korkeiche und Erdbeerbaum. Hier stehen die alten Steineichen von Can Portell, nicht die Stieleiche aus dem Norden.",
       "funFacts": [
         "1996 hat ein Blitz einen der beiden Altbäume getroffen.",
         "Junge Blätter stachelig, alte oft glatt – dieselbe Art.",
-        "Alzina auf Katalanisch. Quercus ilex, kein Laubfall."
+        "Quercus ilex, immergrün, kein Laubfall."
       ],
       "hinweis": "Nichts pflücken, die Altbäume sind der Fund.",
-      "hoertext": "Vor dir stehen zwei dicke Steineichen. Eine hat 1996 der Blitz getroffen, der Stamm zeigt die Narbe. Fass vorsichtig ein Blatt. Leder, dunkelgrün, der Rand kann stechen. Im Januar hängen sie noch. Das ist kein Norden-Wald. Die Stieleiche wirft ab, die Alzina nicht. Can Portell heißt der Fleck, die Runde trägt den Namen. Korkeichen daneben, Rinde zum Schälen. Hier haben Köhler und Kalkbrenner den Hang genutzt. Die Eicheln sind kurz gestielt, nicht wie bei der Stieleiche. Zwei Alte, der Rest jünger. Bleib auf dem Weg, der Blitzbaum ist der Fund, nicht dein Souvenir."
+      "hoertext": "Vor dir stehen zwei dicke Steineichen. Eine hat 1996 der Blitz getroffen, der Stamm zeigt die Narbe. Fass vorsichtig ein Blatt. Leder, dunkelgrün, der Rand kann stechen. Im Januar hängen sie noch. Das ist kein Norden-Wald. Die Stieleiche wirft ab, die Steineiche nicht. Can Portell heißt der Fleck, die Runde trägt den Namen. Korkeichen daneben, Rinde zum Schälen. Hier haben Köhler und Kalkbrenner den Hang genutzt. Die Eicheln sind kurz gestielt, nicht wie bei der Stieleiche. Zwei Alte, der Rest jünger. Bleib auf dem Weg, der Blitzbaum ist der Fund, nicht dein Souvenir."
     },
     "gruppe": "baeume",
     "seltenheit": "haeufig",
@@ -3815,7 +3815,7 @@
       {
         "typ": "frisst",
         "nameDe": "Eichhörnchen",
-        "kurztext": "Vergräbt Eicheln der Alzina."
+        "kurztext": "Vergräbt Eicheln der Steineiche."
       },
       {
         "typ": "wohnt_an",

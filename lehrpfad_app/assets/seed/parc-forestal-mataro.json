@@ -1,18 +1,18 @@
 {
  "id": "parc-forestal-mataro",
- "name": "Parc Forestal de Mataró",
+ "name": "Stadtforst Mataró",
  "typ": "waldspielplatz",
- "kurzbeschreibung": "Stadtforst am Turó d’en Dori: Pinien, Spiel- und Picknickinseln, Quelle und Mirador. Frei. Der SL-C 74 ist gesperrt.",
- "beschreibung": "Nördlich der Stadt, am Hang des Turó d’en Dori, liegt der Parc Forestal Francesc Robert i Graupera. 1975, Stadtforst Mataró, Pinienhang im Montnegre-Corredor. Tische, Spielplatz, WC, Bar Tarannà, mehrere Parkplätze. Von der Roca del Bon Dia laufen Wege zur Font dels Tres Raigs und zum Mirador, Blick auf Stadt und Meer. Immer frei, ohne Anmeldung. Der SL-C 74 El pont de la Vila ist wegen umgestürzter Kiefern gesperrt, die Fläche nicht. Bosc Vertical im selben Wald ist Hochseil, Ticket, extra. Hunde anleinen, auf den Wegen bleiben.",
+ "kurzbeschreibung": "Stadtforst am Turó d’en Dori: Pinien, Spiel- und Picknickinseln, Quelle und Aussicht. Frei. Der SL-C 74 ist gesperrt.",
+ "beschreibung": "Nördlich der Stadt, am Hang des Turó d’en Dori, liegt der Stadtforst Francesc Robert i Graupera. 1975, Stadtforst Mataró, Pinienhang im Montnegre-Corredor. Tische, Spielplatz, WC, Bar Tarannà, mehrere Parkplätze. Von der Roca del Bon Dia laufen Wege zur Drei-Röhren-Quelle und zum Aussichtspunkt, Blick auf Stadt und Meer. Immer frei, ohne Anmeldung. Der SL-C 74 zur Dorfbrücke ist wegen umgestürzter Kiefern gesperrt, die Fläche nicht. Bosc Vertical im selben Wald ist Hochseil, Ticket, extra. Hunde anleinen, auf den Wegen bleiben.",
  "laengeKm": 0.0,
  "dauerMin": 75,
  "rundkurs": false,
  "markierung": "Parkwege / Roca del Bon Dia (SL-C 74 gesperrt)",
- "betreiber": "Ajuntament de Mataró / Parc del Montnegre i el Corredor",
+ "betreiber": "Stadt Mataró / Naturpark Montnegre-Corredor",
  "region": "Mataró, Maresme, Katalonien",
  "website": "https://totnens.cat/que-fem/parc-forestal-de-mataro/",
- "anreise": "Start Roca del Bon Dia / Parc Forestal, Camí de la Serra, 08304 Mataró. GPS 41.56552, 2.42839. Auto: Schilder ab Hospital de Mataró, Parkplätze im Park frei. Bus bis Hospital de Mataró, dann den Hang hoch. Nicht Bosc Vertical als Eingang nehmen, das ist der Hochseilgarten. SL-C 74-Markierung ignorieren, der Arm ist zu.",
- "startName": "Roca del Bon Dia / Parc Forestal",
+ "anreise": "Start Roca del Bon Dia / Stadtforst, Camí de la Serra, 08304 Mataró. GPS 41.56552, 2.42839. Auto: Schilder ab Hospital de Mataró, Parkplätze im Park frei. Bus bis Hospital de Mataró, dann den Hang hoch. Nicht Bosc Vertical als Eingang nehmen, das ist der Hochseilgarten. SL-C 74-Markierung ignorieren, der Arm ist zu.",
+ "startName": "Roca del Bon Dia / Stadtforst",
  "arten": [
   "Pinie",
   "Steineiche",
@@ -111,7 +111,7 @@
    "lat": 41.56561,
    "lon": 2.43087,
    "km": 0.21,
-   "titel": "Zona infantil / pícnic",
+   "titel": "Spiel- und Picknickplatz",
    "thema": "Spiel, Tische, WC, Bar",
    "kurztext": "Schaukeln, Tische, WC, Bar Tarannà. Hier bleibt man. Picknick unter Pinien. Der Hochseilgarten daneben kostet extra, das hier nicht.",
    "erlebnisse": [
@@ -126,9 +126,9 @@
    "lat": 41.56725,
    "lon": 2.42875,
    "km": 0.5,
-   "titel": "Pineda de pi pinyer",
+   "titel": "Pinienhain",
    "thema": "Küstenhang-Kiefer, alte Weinberge",
-   "kurztext": "Pinie, Schirmkrone, früher Weinberg. Daneben Steineiche und Korkeiche. Totnens: Eichhörnchen, Spechtlöcher in kranken Stämmen. Zapfen hängen lassen.",
+   "kurztext": "Pinie, Schirmkrone, früher Weinberg. Daneben Steineiche und Korkeiche. Eichhörnchen, Spechtlöcher in kranken Stämmen. Zapfen hängen lassen.",
    "erlebnisse": [
     "bestimmung"
    ],
@@ -141,7 +141,7 @@
    "lat": 41.568876,
    "lon": 2.431406,
    "km": 0.78,
-   "titel": "Font dels Tres Raigs",
+   "titel": "Drei-Röhren-Quelle",
    "thema": "Quelle, 1999 instandgesetzt",
    "kurztext": "Quelle im Wald, drei Röhren, 1999 gemacht. Ein Stück ab vom Hauptweg, eine Markierung zeigt den Abzweig. Wasser nach Regen, sonst oft wenig.",
    "erlebnisse": [
@@ -156,9 +156,9 @@
    "lat": 41.5681507,
    "lon": 2.426915,
    "km": 1.16,
-   "titel": "Mirador d’en Dori",
+   "titel": "Aussichtspunkt Dori",
    "thema": "Blick Stadt und Meer",
-   "kurztext": "Kuppe 363 Meter. Mataró unten, bei klarer Luft das Meer. Totnens: ein kurzer Weg vom Park. Nicht den ganzen Kamm nach Tarau mitnehmen, wenn du nur den Blick willst.",
+   "kurztext": "Kuppe 363 Meter. Mataró unten, bei klarer Luft das Meer. Ein kurzer Weg vom Park. Nicht den ganzen Kamm nach Tarau mitnehmen, wenn du nur den Blick willst.",
    "erlebnisse": [
     "tafel"
    ],
@@ -173,7 +173,7 @@
    "lat": 41.5654938,
    "lon": 2.4300587,
    "kategorie": "parking",
-   "name": "Parkplatz Parc Forestal"
+   "name": "Parkplatz Stadtforst"
   },
   {
    "osmId": 8555464271,
@@ -194,24 +194,24 @@
    "lat": 41.5649103,
    "lon": 2.4306977,
    "kategorie": "parking",
-   "name": "Parkplatz Parc Forestal Süd"
+   "name": "Parkplatz Stadtforst Süd"
   },
   {
    "osmId": 919824696,
    "lat": 41.5658707,
    "lon": 2.4263335,
    "kategorie": "parking",
-   "name": "Parkplatz Avinguda del Parc Forestal"
+   "name": "Parkplatz Stadtforst-Allee"
   },
   {
    "osmId": 11919607423,
    "lat": 41.5681507,
    "lon": 2.426915,
    "kategorie": "viewpoint",
-   "name": "Mirador d’en Dori"
+   "name": "Aussichtspunkt Dori"
   }
  ],
- "besuchshinweise": "SL-C 74 gesperrt (Sturmholz). Fläche, Quelle und Mirador offen. Bosc Vertical ist Ticket, extra. Hunde anleinen.",
- "hoertext": "Am Hang über Mataró, Turó d’en Dori. Pinien, Tische, Spielplatz, Bar Tarannà. Frei, ohne Ticket. Der SL-C 74 ist zu, umgestürzte Kiefern. Bleib auf den offenen Wegen zur Font dels Tres Raigs und zum Mirador. Stadt und Meer liegen unten. Bosc Vertical ist der Hochseilgarten, der kostet extra.",
+ "besuchshinweise": "SL-C 74 gesperrt (Sturmholz). Fläche, Quelle und Aussicht offen. Bosc Vertical ist Ticket, extra. Hunde anleinen.",
+ "hoertext": "Am Hang über Mataró, Turó d’en Dori. Pinien, Tische, Spielplatz, Bar Tarannà. Frei, ohne Ticket. Der SL-C 74 ist zu, umgestürzte Kiefern. Bleib auf den offenen Wegen zur Drei-Röhren-Quelle und zum Aussichtspunkt. Stadt und Meer liegen unten. Bosc Vertical ist der Hochseilgarten, der kostet extra.",
  "bilderAsset": "assets/images/trails/parc-forestal-mataro/credits.json"
 }

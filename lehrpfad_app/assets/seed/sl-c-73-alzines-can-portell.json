@@ -1,18 +1,18 @@
 {
  "id": "sl-c-73-alzines-can-portell",
- "name": "Les alzines de Can Portell",
+ "name": "Die Steineichen von Can Portell",
  "typ": "wald",
- "kurzbeschreibung": "Drei Kilometer Rundkurs ab Hortsavinyà: Steineichen von Can Portell, Kalkofen, Roc del Gamarús. Weiß-grün SL-C 73, Braille-Tafeln, frei.",
- "beschreibung": "In Hortsavinyà, Tordera, im Parc del Montnegre i el Corredor, führt der SL-C 73 vom ehemaligen Hostal — heute Centre d’Informació — in drei Kilometern durch Steineichen und Korkeichen. Acht Stationen, nummeriert wie der Diputació-Flyer, Tafeln auch in Braille. Kohlenmeiler am Coll de Palomeres, Masia Can Pica, Kalkofen, zwei Alteichen (1996 Blitz), danach der siebzehn Meter hohe Roc del Gamarús. Weiß-grün, Rundkurs, knapp siebzig Minuten. Das Infohaus ist temporär geschlossen, der Pfad nicht. Waldweg und Forstpiste, ein paar steile Stellen, auf den Pisten fahren Autos. Kinderwagen und Rollstuhl eher nicht. Immer frei, ohne Anmeldung. SL-C 78 zur Ermita de l’Erola ist die kurze Nachbarrunde, GR 92 der Weitwanderweg — beides andere Wege. Hunde anleinen, auf den Wegen bleiben.",
+ "kurzbeschreibung": "Drei Kilometer Rundkurs ab Hortsavinyà: Steineichen von Can Portell, Kalkofen, Gamarús-Felsen. Weiß-grün SL-C 73, Braille-Tafeln, frei.",
+ "beschreibung": "In Hortsavinyà, Tordera, im Naturpark Montnegre-Corredor, führt der SL-C 73 vom ehemaligen Gasthaus — heute Infohaus — in drei Kilometern durch Steineichen und Korkeichen. Acht Stationen, nummeriert wie der Flyer der Provinz, Tafeln auch in Braille. Kohlenmeiler am Palomeres-Sattel, Landhaus Can Pica, Kalkofen, zwei Alteichen (1996 Blitz), danach der siebzehn Meter hohe Gamarús-Felsen. Weiß-grün, Rundkurs, knapp siebzig Minuten. Das Infohaus ist temporär geschlossen, der Pfad nicht. Waldweg und Forstpiste, ein paar steile Stellen, auf den Pisten fahren Autos. Kinderwagen und Rollstuhl eher nicht. Immer frei, ohne Anmeldung. SL-C 78 zur Kapelle Erola ist die kurze Nachbarrunde, GR 92 der Weitwanderweg — beides andere Wege. Hunde anleinen, auf den Wegen bleiben.",
  "laengeKm": 3.1,
  "dauerMin": 70,
  "rundkurs": true,
  "markierung": "Weiß-grün / SL-C 73 / Braille-Tafeln",
- "betreiber": "Diputació de Barcelona / Parc del Montnegre i el Corredor",
+ "betreiber": "Provinzverwaltung Barcelona / Naturpark Montnegre-Corredor",
  "region": "Hortsavinyà, Tordera, Maresme, Katalonien",
  "website": "https://view.gooltracking.com/dibaparcs/routes/view/sl-c-73-les-alzines-de-can-portell",
- "anreise": "Start Centre d’Informació d’Hortsavinyà, Veïnat d’Hortsavinyà, 08490 Tordera. GPS 41.66805, 2.62895. Auto über Tordera oder Calella in den Montnegre, Parkplatz am Dorf frei. Das Infohaus ist zu, der Pfad offen. Karte SL-C 73 / SL-C 78 am Platz. Nicht die Ermita-Runde (SL-C 78) und nicht der GR 92, wenn du nur die 3-km-Runde willst.",
- "startName": "Centre d’Informació d’Hortsavinyà",
+ "anreise": "Start Infohaus Hortsavinyà, Veïnat d’Hortsavinyà, 08490 Tordera. GPS 41.66805, 2.62895. Auto über Tordera oder Calella in den Montnegre, Parkplatz am Dorf frei. Das Infohaus ist zu, der Pfad offen. Karte SL-C 73 / SL-C 78 am Platz. Nicht die Kapellen-Runde (SL-C 78) und nicht der GR 92, wenn du nur die 3-km-Runde willst.",
+ "startName": "Infohaus Hortsavinyà",
  "arten": [
   "Steineiche",
   "Haselnuss",
@@ -649,9 +649,9 @@
    "lat": 41.6680499,
    "lon": 2.6289532,
    "km": 0.0,
-   "titel": "Centre d’Informació",
-   "thema": "Ehemaliges Hostal, Start SL-C 73",
-   "kurztext": "Hier war das Hostal, bis 1985. Heute Infohaus, gerade zu. Der Pfad ist offen. Weiß-grün, SL-C 73. Karte am Platz, nicht SL-C 78 zur Erola.",
+   "titel": "Infohaus",
+   "thema": "Ehemaliges Gasthaus, Start SL-C 73",
+   "kurztext": "Hier war das Gasthaus, bis 1985. Heute Infohaus, gerade zu. Der Pfad ist offen. Weiß-grün, SL-C 73. Karte am Platz, nicht SL-C 78 zur Erola.",
    "erlebnisse": [
     "tafel"
    ],
@@ -664,9 +664,9 @@
    "lat": 41.6679056,
    "lon": 2.6288704,
    "km": 0.05,
-   "titel": "Església de Sant Llop",
+   "titel": "Kirche Sant Llop",
    "thema": "Romanischer Kern, 1080 erwähnt",
-   "kurztext": "Kirche über dem Dorf. Blick auf Hortsavinyà, den Turó de la Grimola, bei klarer Luft das Meer. Von hier die Piste Richtung Tordera, nicht den GR 92 mitnehmen.",
+   "kurztext": "Kirche über dem Dorf. Blick auf Hortsavinyà, den Grimola-Hügel, bei klarer Luft das Meer. Von hier die Piste Richtung Tordera, nicht den GR 92 mitnehmen.",
    "erlebnisse": [
     "tafel"
    ],
@@ -679,7 +679,7 @@
    "lat": 41.6709061,
    "lon": 2.6251933,
    "km": 0.49,
-   "titel": "Coll de Palomeres",
+   "titel": "Palomeres-Sattel",
    "thema": "Kohlenmeiler, dunkler Boden",
    "kurztext": "Hier haben sie Kohle gebrannt, der Boden bleibt dunkel. Links der alte Saumpfad der Köhler. Steineiche und Korkeiche, darunter Erdbeerbaum.",
    "erlebnisse": [
@@ -696,7 +696,7 @@
    "lon": 2.623255,
    "km": 1.78,
    "titel": "Can Pica",
-   "thema": "Masia am Weg",
+   "thema": "Landhaus am Weg",
    "kurztext": "Ländliche Unterkunft, die Runde geht vorbei, nicht rein. Gleich danach der Kalkofen. Vor dem Ofen ein Weg mit Kette — zu Fuß durch.",
    "erlebnisse": [
     "tafel"
@@ -710,9 +710,9 @@
    "lat": 41.6700201,
    "lon": 2.6223437,
    "km": 1.88,
-   "titel": "Forn de calç",
+   "titel": "Kalkofen",
    "thema": "Kalkofen Hortsavinyà",
-   "kurztext": "Steinring im Hang. Hier wurde Kalk gebrannt, Mörtel für die Masias. Tafel davor. Der Pfad knickt, nicht den GR 92 geradeaus.",
+   "kurztext": "Steinring im Hang. Hier wurde Kalk gebrannt, Mörtel für die Landhäuser. Tafel davor. Der Pfad knickt, nicht den GR 92 geradeaus.",
    "erlebnisse": [
     "tafel"
    ],
@@ -725,7 +725,7 @@
    "lat": 41.6678779,
    "lon": 2.6257431,
    "km": 2.28,
-   "titel": "Alzines de Can Portell",
+   "titel": "Steineichen von Can Portell",
    "thema": "Zwei alte Steineichen, 1996 Blitz",
    "kurztext": "Zwei Alteichen, eine vom Blitz gespalten. Im Winter bleiben die Blätter. Das ist der Namensgeber der Runde, nicht die Stieleiche aus dem Norden.",
    "erlebnisse": [
@@ -741,9 +741,9 @@
    "lat": 41.666531,
    "lon": 2.629972,
    "km": 2.81,
-   "titel": "Roc del Gamarús",
+   "titel": "Gamarús-Felsen",
    "thema": "Siebzehn Meter Kalkfels, Waldkauz",
-   "kurztext": "Kalkfels, siebzehn Meter. Gamarús heißt Waldkauz — der soll hier gehaust haben. Kirche liegt schon wieder höher, der Weg steigt.",
+   "kurztext": "Kalkfels, siebzehn Meter. Der Name kommt vom Waldkauz, der hier gehaust haben soll. Kirche liegt schon wieder höher, der Weg steigt.",
    "erlebnisse": [
     "tafel"
    ],
@@ -756,9 +756,9 @@
    "lat": 41.667375,
    "lon": 2.629633,
    "km": 2.91,
-   "titel": "Feixes / àrea d’esplai",
+   "titel": "Terrassen / Picknickplatz",
    "thema": "Terrassen, Tische, Rückweg",
-   "kurztext": "Alte Terrassen, Tische und Bänke. Zurück zum Centre sind es ein paar Minuten. Kirche links, das ehemalige Hostal rechts.",
+   "kurztext": "Alte Terrassen, Tische und Bänke. Zurück zum Infohaus sind es ein paar Minuten. Kirche links, das ehemalige Gasthaus rechts.",
    "erlebnisse": [
     "tafel"
    ],
@@ -840,6 +840,6 @@
   }
  ],
  "besuchshinweise": "Infohaus temporär geschlossen, Pfad offen. Steile Stellen, Forstpisten mit Autos. Tafeln in Braille, Begleitung bei Sehbehinderung. SL-C 78 und GR 92 nicht mitlaufen, wenn du nur diese Runde willst.",
- "hoertext": "In Hortsavinyà, am alten Hostal, fängt die Runde an. Weiß-grün, SL-C 73, drei Kilometer. Zwei alte Steineichen, 1996 hat der Blitz eine getroffen. Davor der Kalkofen, danach ein siebzehn Meter hoher Fels, früher der Waldkauz. Das Infohaus ist zu, der Pfad nicht. Ein paar Stellen sind steil, auf den Pisten fahren Autos.",
+ "hoertext": "In Hortsavinyà, am alten Gasthaus, fängt die Runde an. Weiß-grün, SL-C 73, drei Kilometer. Zwei alte Steineichen, 1996 hat der Blitz eine getroffen. Davor der Kalkofen, danach ein siebzehn Meter hoher Fels, früher der Waldkauz. Das Infohaus ist zu, der Pfad nicht. Ein paar Stellen sind steil, auf den Pisten fahren Autos.",
  "bilderAsset": "assets/images/trails/sl-c-73-alzines-can-portell/credits.json"
 }
