@@ -1,0 +1,845 @@
+{
+ "id": "sl-c-73-alzines-can-portell",
+ "name": "Les alzines de Can Portell",
+ "typ": "wald",
+ "kurzbeschreibung": "Drei Kilometer Rundkurs ab Hortsavinyà: Steineichen von Can Portell, Kalkofen, Roc del Gamarús. Weiß-grün SL-C 73, Braille-Tafeln, frei.",
+ "beschreibung": "In Hortsavinyà, Tordera, im Parc del Montnegre i el Corredor, führt der SL-C 73 vom ehemaligen Hostal — heute Centre d’Informació — in drei Kilometern durch Steineichen und Korkeichen. Acht Stationen, nummeriert wie der Diputació-Flyer, Tafeln auch in Braille. Kohlenmeiler am Coll de Palomeres, Masia Can Pica, Kalkofen, zwei Alteichen (1996 Blitz), danach der siebzehn Meter hohe Roc del Gamarús. Weiß-grün, Rundkurs, knapp siebzig Minuten. Das Infohaus ist temporär geschlossen, der Pfad nicht. Waldweg und Forstpiste, ein paar steile Stellen, auf den Pisten fahren Autos. Kinderwagen und Rollstuhl eher nicht. Immer frei, ohne Anmeldung. SL-C 78 zur Ermita de l’Erola ist die kurze Nachbarrunde, GR 92 der Weitwanderweg — beides andere Wege. Hunde anleinen, auf den Wegen bleiben.",
+ "laengeKm": 3.1,
+ "dauerMin": 70,
+ "rundkurs": true,
+ "markierung": "Weiß-grün / SL-C 73 / Braille-Tafeln",
+ "betreiber": "Diputació de Barcelona / Parc del Montnegre i el Corredor",
+ "region": "Hortsavinyà, Tordera, Maresme, Katalonien",
+ "website": "https://view.gooltracking.com/dibaparcs/routes/view/sl-c-73-les-alzines-de-can-portell",
+ "anreise": "Start Centre d’Informació d’Hortsavinyà, Veïnat d’Hortsavinyà, 08490 Tordera. GPS 41.66805, 2.62895. Auto über Tordera oder Calella in den Montnegre, Parkplatz am Dorf frei. Das Infohaus ist zu, der Pfad offen. Karte SL-C 73 / SL-C 78 am Platz. Nicht die Ermita-Runde (SL-C 78) und nicht der GR 92, wenn du nur die 3-km-Runde willst.",
+ "startName": "Centre d’Informació d’Hortsavinyà",
+ "arten": [
+  "Steineiche",
+  "Haselnuss",
+  "Schwarzerle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   41.667945,
+   2.628874
+  ],
+  [
+   41.667947,
+   2.628867
+  ],
+  [
+   41.667983,
+   2.628746
+  ],
+  [
+   41.668086,
+   2.628623
+  ],
+  [
+   41.668585,
+   2.628165
+  ],
+  [
+   41.668777,
+   2.628037
+  ],
+  [
+   41.668992,
+   2.627904
+  ],
+  [
+   41.669038,
+   2.627839
+  ],
+  [
+   41.669087,
+   2.627698
+  ],
+  [
+   41.669119,
+   2.627556
+  ],
+  [
+   41.669194,
+   2.62735
+  ],
+  [
+   41.669234,
+   2.627224
+  ],
+  [
+   41.669275,
+   2.62711
+  ],
+  [
+   41.66932,
+   2.627018
+  ],
+  [
+   41.669363,
+   2.626769
+  ],
+  [
+   41.669363,
+   2.626627
+  ],
+  [
+   41.669396,
+   2.626428
+  ],
+  [
+   41.669518,
+   2.626271
+  ],
+  [
+   41.669756,
+   2.625913
+  ],
+  [
+   41.670204,
+   2.625253
+  ],
+  [
+   41.67036,
+   2.625161
+  ],
+  [
+   41.670431,
+   2.625113
+  ],
+  [
+   41.670592,
+   2.625155
+  ],
+  [
+   41.670787,
+   2.625268
+  ],
+  [
+   41.670848,
+   2.625259
+  ],
+  [
+   41.670906,
+   2.625193
+  ],
+  [
+   41.671003,
+   2.625123
+  ],
+  [
+   41.670955,
+   2.62474
+  ],
+  [
+   41.67096,
+   2.624623
+  ],
+  [
+   41.670935,
+   2.624534
+  ],
+  [
+   41.670926,
+   2.624288
+  ],
+  [
+   41.670814,
+   2.623959
+  ],
+  [
+   41.670689,
+   2.623759
+  ],
+  [
+   41.670614,
+   2.623641
+  ],
+  [
+   41.670614,
+   2.623435
+  ],
+  [
+   41.670569,
+   2.623289
+  ],
+  [
+   41.67063,
+   2.623059
+  ],
+  [
+   41.670676,
+   2.622906
+  ],
+  [
+   41.670819,
+   2.622604
+  ],
+  [
+   41.670882,
+   2.622485
+  ],
+  [
+   41.670954,
+   2.622378
+  ],
+  [
+   41.670995,
+   2.622132
+  ],
+  [
+   41.671038,
+   2.621883
+  ],
+  [
+   41.671152,
+   2.621553
+  ],
+  [
+   41.671263,
+   2.621222
+  ],
+  [
+   41.671322,
+   2.62102
+  ],
+  [
+   41.671297,
+   2.620958
+  ],
+  [
+   41.671215,
+   2.620762
+  ],
+  [
+   41.67118,
+   2.62068
+  ],
+  [
+   41.671022,
+   2.620512
+  ],
+  [
+   41.670897,
+   2.620406
+  ],
+  [
+   41.670789,
+   2.620373
+  ],
+  [
+   41.670685,
+   2.620194
+  ],
+  [
+   41.670572,
+   2.620099
+  ],
+  [
+   41.670506,
+   2.619978
+  ],
+  [
+   41.670458,
+   2.619854
+  ],
+  [
+   41.670354,
+   2.619786
+  ],
+  [
+   41.670271,
+   2.620008
+  ],
+  [
+   41.670271,
+   2.620188
+  ],
+  [
+   41.670196,
+   2.62037
+  ],
+  [
+   41.670158,
+   2.620529
+  ],
+  [
+   41.670155,
+   2.620718
+  ],
+  [
+   41.670144,
+   2.620908
+  ],
+  [
+   41.67009,
+   2.621082
+  ],
+  [
+   41.670018,
+   2.621154
+  ],
+  [
+   41.669881,
+   2.621299
+  ],
+  [
+   41.669668,
+   2.62136
+  ],
+  [
+   41.669493,
+   2.621427
+  ],
+  [
+   41.66928,
+   2.621477
+  ],
+  [
+   41.669122,
+   2.621433
+  ],
+  [
+   41.66891,
+   2.621215
+  ],
+  [
+   41.66883,
+   2.621014
+  ],
+  [
+   41.668785,
+   2.620808
+  ],
+  [
+   41.668693,
+   2.620724
+  ],
+  [
+   41.668597,
+   2.620696
+  ],
+  [
+   41.66843,
+   2.620635
+  ],
+  [
+   41.66821,
+   2.620613
+  ],
+  [
+   41.668043,
+   2.620652
+  ],
+  [
+   41.667922,
+   2.620663
+  ],
+  [
+   41.667772,
+   2.620568
+  ],
+  [
+   41.667693,
+   2.62054
+  ],
+  [
+   41.667568,
+   2.620479
+  ],
+  [
+   41.667493,
+   2.620551
+  ],
+  [
+   41.667422,
+   2.620724
+  ],
+  [
+   41.66746,
+   2.620864
+  ],
+  [
+   41.667568,
+   2.621137
+  ],
+  [
+   41.667735,
+   2.621371
+  ],
+  [
+   41.667951,
+   2.621449
+  ],
+  [
+   41.668174,
+   2.621412
+  ],
+  [
+   41.668343,
+   2.62165
+  ],
+  [
+   41.668464,
+   2.621773
+  ],
+  [
+   41.668552,
+   2.621888
+  ],
+  [
+   41.668731,
+   2.622197
+  ],
+  [
+   41.668847,
+   2.62247
+  ],
+  [
+   41.668993,
+   2.622621
+  ],
+  [
+   41.669085,
+   2.622799
+  ],
+  [
+   41.669122,
+   2.622864
+  ],
+  [
+   41.669192,
+   2.622866
+  ],
+  [
+   41.669319,
+   2.622822
+  ],
+  [
+   41.669639,
+   2.622538
+  ],
+  [
+   41.669846,
+   2.622382
+  ],
+  [
+   41.669928,
+   2.622333
+  ],
+  [
+   41.669983,
+   2.62238
+  ],
+  [
+   41.66999,
+   2.622443
+  ],
+  [
+   41.669857,
+   2.622664
+  ],
+  [
+   41.669671,
+   2.622852
+  ],
+  [
+   41.669622,
+   2.622997
+  ],
+  [
+   41.669535,
+   2.623249
+  ],
+  [
+   41.669576,
+   2.623588
+  ],
+  [
+   41.66949,
+   2.623953
+  ],
+  [
+   41.669385,
+   2.624186
+  ],
+  [
+   41.669242,
+   2.62438
+  ],
+  [
+   41.669135,
+   2.624604
+  ],
+  [
+   41.668958,
+   2.624728
+  ],
+  [
+   41.668481,
+   2.625101
+  ],
+  [
+   41.668191,
+   2.625282
+  ],
+  [
+   41.668014,
+   2.625455
+  ],
+  [
+   41.66797,
+   2.625519
+  ],
+  [
+   41.66794,
+   2.625572
+  ],
+  [
+   41.667802,
+   2.625721
+  ],
+  [
+   41.667719,
+   2.62587
+  ],
+  [
+   41.667662,
+   2.626122
+  ],
+  [
+   41.667888,
+   2.627036
+  ],
+  [
+   41.667901,
+   2.627462
+  ],
+  [
+   41.668016,
+   2.627443
+  ],
+  [
+   41.668113,
+   2.627356
+  ],
+  [
+   41.668239,
+   2.62728
+  ],
+  [
+   41.668319,
+   2.627275
+  ],
+  [
+   41.668335,
+   2.627419
+  ],
+  [
+   41.668207,
+   2.627608
+  ],
+  [
+   41.668068,
+   2.627726
+  ],
+  [
+   41.667927,
+   2.62783
+  ],
+  [
+   41.667791,
+   2.627833
+  ],
+  [
+   41.667571,
+   2.627858
+  ],
+  [
+   41.667382,
+   2.628114
+  ],
+  [
+   41.667182,
+   2.628289
+  ],
+  [
+   41.66706,
+   2.628573
+  ],
+  [
+   41.666765,
+   2.629009
+  ],
+  [
+   41.666536,
+   2.629533
+  ],
+  [
+   41.666533,
+   2.629891
+  ],
+  [
+   41.666531,
+   2.629972
+  ],
+  [
+   41.66663,
+   2.630129
+  ],
+  [
+   41.66677,
+   2.63014
+  ],
+  [
+   41.666964,
+   2.630033
+  ],
+  [
+   41.667065,
+   2.629953
+  ],
+  [
+   41.667116,
+   2.629896
+  ],
+  [
+   41.667132,
+   2.629829
+  ],
+  [
+   41.667177,
+   2.629693
+  ],
+  [
+   41.667218,
+   2.629395
+  ],
+  [
+   41.667394,
+   2.629307
+  ],
+  [
+   41.667634,
+   2.629135
+  ],
+  [
+   41.667775,
+   2.629001
+  ],
+  [
+   41.667872,
+   2.628933
+  ],
+  [
+   41.667945,
+   2.628874
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 8656848117,
+   "lat": 41.6680499,
+   "lon": 2.6289532,
+   "km": 0.0,
+   "titel": "Centre d’Informació",
+   "thema": "Ehemaliges Hostal, Start SL-C 73",
+   "kurztext": "Hier war das Hostal, bis 1985. Heute Infohaus, gerade zu. Der Pfad ist offen. Weiß-grün, SL-C 73. Karte am Platz, nicht SL-C 78 zur Erola.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 8656847521,
+   "lat": 41.6679056,
+   "lon": 2.6288704,
+   "km": 0.05,
+   "titel": "Església de Sant Llop",
+   "thema": "Romanischer Kern, 1080 erwähnt",
+   "kurztext": "Kirche über dem Dorf. Blick auf Hortsavinyà, den Turó de la Grimola, bei klarer Luft das Meer. Von hier die Piste Richtung Tordera, nicht den GR 92 mitnehmen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2885046887,
+   "lat": 41.6709061,
+   "lon": 2.6251933,
+   "km": 0.49,
+   "titel": "Coll de Palomeres",
+   "thema": "Kohlenmeiler, dunkler Boden",
+   "kurztext": "Hier haben sie Kohle gebrannt, der Boden bleibt dunkel. Links der alte Saumpfad der Köhler. Steineiche und Korkeiche, darunter Erdbeerbaum.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3973879461,
+   "lat": 41.669033,
+   "lon": 2.623255,
+   "km": 1.78,
+   "titel": "Can Pica",
+   "thema": "Masia am Weg",
+   "kurztext": "Ländliche Unterkunft, die Runde geht vorbei, nicht rein. Gleich danach der Kalkofen. Vor dem Ofen ein Weg mit Kette — zu Fuß durch.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 8379013802,
+   "lat": 41.6700201,
+   "lon": 2.6223437,
+   "km": 1.88,
+   "titel": "Forn de calç",
+   "thema": "Kalkofen Hortsavinyà",
+   "kurztext": "Steinring im Hang. Hier wurde Kalk gebrannt, Mörtel für die Masias. Tafel davor. Der Pfad knickt, nicht den GR 92 geradeaus.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 5801659843,
+   "lat": 41.6678779,
+   "lon": 2.6257431,
+   "km": 2.28,
+   "titel": "Alzines de Can Portell",
+   "thema": "Zwei alte Steineichen, 1996 Blitz",
+   "kurztext": "Zwei Alteichen, eine vom Blitz gespalten. Im Winter bleiben die Blätter. Das ist der Namensgeber der Runde, nicht die Stieleiche aus dem Norden.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -4257113805,
+   "lat": 41.666531,
+   "lon": 2.629972,
+   "km": 2.81,
+   "titel": "Roc del Gamarús",
+   "thema": "Siebzehn Meter Kalkfels, Waldkauz",
+   "kurztext": "Kalkfels, siebzehn Meter. Gamarús heißt Waldkauz — der soll hier gehaust haben. Kirche liegt schon wieder höher, der Weg steigt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 8665845326,
+   "lat": 41.667375,
+   "lon": 2.629633,
+   "km": 2.91,
+   "titel": "Feixes / àrea d’esplai",
+   "thema": "Terrassen, Tische, Rückweg",
+   "kurztext": "Alte Terrassen, Tische und Bänke. Zurück zum Centre sind es ein paar Minuten. Kirche links, das ehemalige Hostal rechts.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 8656847917,
+   "lat": 41.6683034,
+   "lon": 2.6284827,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 8665845326,
+   "lat": 41.6673755,
+   "lon": 2.6296331,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845327,
+   "lat": 41.6673585,
+   "lon": 2.6295797,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845328,
+   "lat": 41.6674195,
+   "lon": 2.6296036,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845329,
+   "lat": 41.6673924,
+   "lon": 2.629548,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845330,
+   "lat": 41.6674306,
+   "lon": 2.629523,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845331,
+   "lat": 41.6674746,
+   "lon": 2.6295434,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845332,
+   "lat": 41.6674941,
+   "lon": 2.6294776,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8665845333,
+   "lat": 41.6675424,
+   "lon": 2.6294867,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 935141453,
+   "lat": 41.667807,
+   "lon": 2.629132,
+   "kategorie": "parking",
+   "name": "Parkplatz Hortsavinyà"
+  }
+ ],
+ "besuchshinweise": "Infohaus temporär geschlossen, Pfad offen. Steile Stellen, Forstpisten mit Autos. Tafeln in Braille, Begleitung bei Sehbehinderung. SL-C 78 und GR 92 nicht mitlaufen, wenn du nur diese Runde willst.",
+ "hoertext": "In Hortsavinyà, am alten Hostal, fängt die Runde an. Weiß-grün, SL-C 73, drei Kilometer. Zwei alte Steineichen, 1996 hat der Blitz eine getroffen. Davor der Kalkofen, danach ein siebzehn Meter hoher Fels, früher der Waldkauz. Das Infohaus ist zu, der Pfad nicht. Ein paar Stellen sind steil, auf den Pisten fahren Autos.",
+ "bilderAsset": "assets/images/trails/sl-c-73-alzines-can-portell/credits.json"
+}

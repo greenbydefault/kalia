@@ -3674,6 +3674,81 @@
     ]
   },
   {
+    "id": "steineiche",
+    "nameDe": "Steineiche",
+    "nameLat": "Quercus ilex",
+    "kategorie": "flora",
+    "kurztext": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
+    "aliases": [
+      "Alzina",
+      "Holmeiche"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Zwei alte Steineichen am Weg, eine hat 1996 der Blitz gespalten. Im Winter bleiben die Blätter.",
+      "erkennung": [
+        "Lederblätter, immergrün, Rand oft stachelig",
+        "Eicheln ohne langen Stiel, dunkle Krone",
+        "Zwei Altbäume an Can Portell"
+      ],
+      "lebensraum": "Steineichenwald im Montnegre bei Hortsavinyà, zwischen Korkeiche und Erdbeerbaum. Hier stehen die Alzines de Can Portell, nicht die Stieleiche aus dem Norden.",
+      "funFacts": [
+        "1996 hat ein Blitz einen der beiden Altbäume getroffen.",
+        "Junge Blätter stachelig, alte oft glatt – dieselbe Art.",
+        "Alzina auf Katalanisch. Quercus ilex, kein Laubfall."
+      ],
+      "hinweis": "Nichts pflücken, die Altbäume sind der Fund.",
+      "hoertext": "Vor dir stehen zwei dicke Steineichen. Eine hat 1996 der Blitz getroffen, der Stamm zeigt die Narbe. Fass vorsichtig ein Blatt. Leder, dunkelgrün, der Rand kann stechen. Im Januar hängen sie noch. Das ist kein Norden-Wald. Die Stieleiche wirft ab, die Alzina nicht. Can Portell heißt der Fleck, die Runde trägt den Namen. Korkeichen daneben, Rinde zum Schälen. Hier haben Köhler und Kalkbrenner den Hang genutzt. Die Eicheln sind kurz gestielt, nicht wie bei der Stieleiche. Zwei Alte, der Rest jünger. Bleib auf dem Weg, der Blitzbaum ist der Fund, nicht dein Souvenir."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "haeufig",
+    "gefahr": 1,
+    "nahrung": [
+      "Eicheln",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Fagaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "10–25 m"
+      },
+      {
+        "key": "alter",
+        "wert": "200–500 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "Eichel"
+      }
+    ],
+    "merkmale": [
+      "immergruen",
+      "laubbaum",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Eichhörnchen",
+        "kurztext": "Vergräbt Eicheln der Alzina."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Waldkauz",
+        "kurztext": "Sitzt in alten Kronen, Namengeber am Fels."
+      }
+    ]
+  },
+  {
     "id": "stockente",
     "nameDe": "Stockente",
     "nameLat": "Anas platyrhynchos",

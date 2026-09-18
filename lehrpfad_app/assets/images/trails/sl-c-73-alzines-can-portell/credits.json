@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-dorf.jpg",
+    "caption": "Blick vom Steineichenwald bei Hortsavinyà über den Montnegre zum Meer.",
+    "credit": "Pere López",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHortsaviny%C3%A0_P1320265.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-dorf-hang.jpg",
+    "caption": "Montnegre-Hang bei Hortsavinyà, Meer am Horizont.",
+    "credit": "Pere López",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHortsaviny%C3%A0_P1320268.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-dorf-haeuser.jpg",
+    "caption": "Serralada Litoral bei Hortsavinyà, Siedlungen am Hang.",
+    "credit": "Pere López",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHortsaviny%C3%A0_P1320271.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-can-portell.jpg",
+    "caption": "Hortsavinyà und Can Portell. Kirche Sant Llop oben am Hang.",
+    "credit": "Alberto-g-rovi",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%27hortsanvinya_y_can_portell-montnegre-2013.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-kalkofen.jpg",
+    "caption": "Kalkofen Hortsavinyà am SL-C 73.",
+    "credit": "Clemens Schmillen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForn_de_Cal%C3%A7_(Hortsaviny%C3%A0).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-kalkofen-2.jpg",
+    "caption": "Kalkofen Can Pica im Montnegre.",
+    "credit": "Alberto-g-rovi",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHorno_de_cal_de_can_pica-montnegre-2013.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "07-montnegre.jpg",
+    "caption": "Parc del Montnegre i el Corredor.",
+    "credit": "Alberto-g-rovi",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontnegre_i_el_corredor-2012.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "08-montnegre-wald.jpg",
+    "caption": "Wald im Montnegre.",
+    "credit": "Rigole",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontnegre-.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "09-steineiche.jpg",
+    "caption": "Steineiche in Blüte – Alzina, Quercus ilex.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQUERCUS_ILEX_-_AGUDA_-_IB-179_(Alzinera).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "10-alzinar.jpg",
+    "caption": "Steineichenwald, Quercus ilex.",
+    "credit": "JB aus Siegen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlta_Garrotxa-Quercus_ilex.JPG",
+    "kind": "art"
+  }
+]
