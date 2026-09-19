@@ -67,6 +67,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/baumwipfelpfad-bayerischer-wald.json',
     'assets/seed/sl-c-73-alzines-can-portell.json',
     'assets/seed/parc-forestal-mataro.json',
+    'assets/seed/can-jalpi-arenys.json',
+    'assets/seed/fonts-vallvidrera.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

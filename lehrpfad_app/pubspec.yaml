@@ -131,6 +131,8 @@ flutter:
     - assets/images/trails/baumwipfelpfad-bayerischer-wald/
     - assets/images/trails/sl-c-73-alzines-can-portell/
     - assets/images/trails/parc-forestal-mataro/
+    - assets/images/trails/can-jalpi-arenys/
+    - assets/images/trails/fonts-vallvidrera/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

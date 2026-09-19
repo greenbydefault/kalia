@@ -55,6 +55,8 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `baumwipfelpfad-bayerischer-wald.json` | `baumwipfelpfad-bayerischer-wald` | `erlebniswald` (`eintritt: true`) |
 | `sl-c-73-alzines-can-portell.json` | `sl-c-73-alzines-can-portell` | `wald` |
 | `parc-forestal-mataro.json` | `parc-forestal-mataro` | `waldspielplatz` (`form: flaeche`) |
+| `can-jalpi-arenys.json` | `can-jalpi-arenys` | `naturerlebnis` (`form: flaeche`) |
+| `fonts-vallvidrera.json` | `fonts-vallvidrera` | `naturerlebnis` |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 

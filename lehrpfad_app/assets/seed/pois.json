@@ -1245,5 +1245,45 @@
     "lon": 2.45627,
     "website": "https://www.mataro.cat",
     "oeffnungszeiten": "Strand frei"
+  },
+  {
+    "id": "platja-cavaio-arenys",
+    "name": "Strand Cavaió",
+    "kategorie": "baden",
+    "kurztext": "Stadtstrand Arenys de Mar, drei Kilometer unter Can Jalpí — extra, nicht der Park.",
+    "lat": 41.5805263,
+    "lon": 2.5661221,
+    "website": "https://www.arenysdemar.cat",
+    "oeffnungszeiten": "Strand frei"
+  },
+  {
+    "id": "camping-marcos-arenys",
+    "name": "Camping Marcos",
+    "kategorie": "camping",
+    "kurztext": "Camping an der Platja del Cavaió, N-II — knapp drei Kilometer, extra, nicht der Park.",
+    "lat": 41.5833607,
+    "lon": 2.5687606,
+    "website": "https://campingmarcos.com/",
+    "oeffnungszeiten": "siehe Camping"
+  },
+  {
+    "id": "platja-barceloneta",
+    "name": "Strand Barceloneta",
+    "kategorie": "baden",
+    "kurztext": "Stadtstrand Barcelona, rund acht Kilometer unter Vallvidrera — extra, nicht die Quellenrunde.",
+    "lat": 41.3769,
+    "lon": 2.1925,
+    "website": "https://www.barcelona.cat",
+    "oeffnungszeiten": "Strand frei"
+  },
+  {
+    "id": "cosmocaixa-barcelona",
+    "name": "CosmoCaixa",
+    "kategorie": "museum",
+    "kurztext": "Wissenschaftsmuseum am Fuß von Collserola, Eintritt — extra, nicht die Quellenrunde.",
+    "lat": 41.4131,
+    "lon": 2.1336,
+    "website": "https://cosmocaixa.org",
+    "oeffnungszeiten": "siehe Museum, Eintritt"
   }
 ]

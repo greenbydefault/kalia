@@ -1,0 +1,820 @@
+{
+ "id": "fonts-vallvidrera",
+ "name": "Quellenrunde Vallvidrera",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Gelbe Quellenrunde am Baixador de Vallvidrera: Font Joana, Font Vella, Platanenallee. Eineinhalb Kilometer, frei, FGC-Halt.",
+ "beschreibung": "In Vallvidrera, Barcelona, im Naturpark Collserola, führt die gelbe Runde vom Infohaus an der Vil·la Joana zu den Quellen im Fondal. Eineinhalb Kilometer, zwanzig bis dreißig Minuten. Font Joana mit Waschbecken, Font Vella, Font Nova mit Braille, dazwischen die Platanenallee und Taststeine mit Tierspuren. Immer frei, ohne Anmeldung. Das Museum in der Vil·la Joana ist extra, der Pfad nicht. Eine Treppe zwischen Font Nova und Font Vella, Kinderwagen und Rollstuhl eher nicht. FGC-Halt Baixador de Vallvidrera liegt am unteren Ende. Der grüne Arm geht zum Stausee, der rote zur Budellera, der GR 92 ist der Weitwanderweg — andere Wege. Hunde anleinen, auf den Wegen bleiben.",
+ "laengeKm": 1.5,
+ "dauerMin": 30,
+ "rundkurs": true,
+ "markierung": "Gelb / itinerari groc / Braille an der Font Nova",
+ "betreiber": "Consorci del Parc Natural de la Serra de Collserola",
+ "region": "Vallvidrera, Barcelona, Barcelonès, Katalonien",
+ "website": "https://parcnaturalcollserola.cat/itinerais/passejada-per-les-fonts/",
+ "anreise": "Start Infohaus Collserola, Ctra. de l’Església 92, 08017 Barcelona. GPS 41.41962, 2.10100. FGC S1/S2 Halt Baixador de Vallvidrera, von der Station den Hang hoch oder die Runde unten beginnen. Auto: kleiner Parkplatz am Infohaus, frei. Nicht den GR 92 und nicht den grünen Arm zum Stausee, wenn du nur die Quellen willst.",
+ "startName": "Infohaus Collserola / Vil·la Joana",
+ "arten": [
+  "Steineiche",
+  "Pinie",
+  "Stieleiche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick",
+  "spielplatz",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   41.419627,
+   2.101066
+  ],
+  [
+   41.419806,
+   2.101102
+  ],
+  [
+   41.419846,
+   2.100903
+  ],
+  [
+   41.419845,
+   2.100614
+  ],
+  [
+   41.419845,
+   2.100588
+  ],
+  [
+   41.419845,
+   2.10052
+  ],
+  [
+   41.419842,
+   2.100424
+  ],
+  [
+   41.419837,
+   2.100355
+  ],
+  [
+   41.419828,
+   2.100316
+  ],
+  [
+   41.419817,
+   2.100286
+  ],
+  [
+   41.419802,
+   2.100261
+  ],
+  [
+   41.419874,
+   2.100214
+  ],
+  [
+   41.419885,
+   2.100103
+  ],
+  [
+   41.419893,
+   2.100007
+  ],
+  [
+   41.419913,
+   2.099792
+  ],
+  [
+   41.419893,
+   2.100007
+  ],
+  [
+   41.419885,
+   2.100103
+  ],
+  [
+   41.419874,
+   2.100214
+  ],
+  [
+   41.420264,
+   2.100721
+  ],
+  [
+   41.420339,
+   2.100815
+  ],
+  [
+   41.420415,
+   2.100888
+  ],
+  [
+   41.420339,
+   2.100815
+  ],
+  [
+   41.420264,
+   2.100721
+  ],
+  [
+   41.419874,
+   2.100214
+  ],
+  [
+   41.419865,
+   2.100312
+  ],
+  [
+   41.41987,
+   2.100535
+  ],
+  [
+   41.419878,
+   2.100796
+  ],
+  [
+   41.419964,
+   2.100776
+  ],
+  [
+   41.420007,
+   2.100746
+  ],
+  [
+   41.419964,
+   2.100776
+  ],
+  [
+   41.419878,
+   2.100796
+  ],
+  [
+   41.41987,
+   2.100535
+  ],
+  [
+   41.419865,
+   2.100312
+  ],
+  [
+   41.419874,
+   2.100214
+  ],
+  [
+   41.420264,
+   2.100721
+  ],
+  [
+   41.420339,
+   2.100815
+  ],
+  [
+   41.420415,
+   2.100888
+  ],
+  [
+   41.420523,
+   2.100968
+  ],
+  [
+   41.4206,
+   2.10107
+  ],
+  [
+   41.420675,
+   2.101196
+  ],
+  [
+   41.420875,
+   2.101492
+  ],
+  [
+   41.420975,
+   2.101627
+  ],
+  [
+   41.421088,
+   2.101783
+  ],
+  [
+   41.421165,
+   2.10182
+  ],
+  [
+   41.421119,
+   2.101706
+  ],
+  [
+   41.421128,
+   2.101677
+  ],
+  [
+   41.421156,
+   2.101677
+  ],
+  [
+   41.421185,
+   2.101696
+  ],
+  [
+   41.421224,
+   2.101729
+  ],
+  [
+   41.421228,
+   2.101759
+  ],
+  [
+   41.421225,
+   2.101767
+  ],
+  [
+   41.421232,
+   2.101776
+  ],
+  [
+   41.421262,
+   2.101714
+  ],
+  [
+   41.421254,
+   2.101667
+  ],
+  [
+   41.421254,
+   2.101595
+  ],
+  [
+   41.421234,
+   2.101544
+  ],
+  [
+   41.421229,
+   2.101529
+  ],
+  [
+   41.421221,
+   2.101507
+  ],
+  [
+   41.421246,
+   2.101528
+  ],
+  [
+   41.421308,
+   2.101582
+  ],
+  [
+   41.421343,
+   2.101601
+  ],
+  [
+   41.421349,
+   2.101595
+  ],
+  [
+   41.421376,
+   2.101599
+  ],
+  [
+   41.421399,
+   2.10162
+  ],
+  [
+   41.421414,
+   2.101654
+  ],
+  [
+   41.421513,
+   2.101817
+  ],
+  [
+   41.421548,
+   2.101818
+  ],
+  [
+   41.421542,
+   2.101798
+  ],
+  [
+   41.421469,
+   2.10168
+  ],
+  [
+   41.421402,
+   2.10154
+  ],
+  [
+   41.421371,
+   2.101481
+  ],
+  [
+   41.421355,
+   2.101446
+  ],
+  [
+   41.42134,
+   2.101403
+  ],
+  [
+   41.421321,
+   2.101337
+  ],
+  [
+   41.421297,
+   2.101195
+  ],
+  [
+   41.421268,
+   2.101101
+  ],
+  [
+   41.421201,
+   2.100882
+  ],
+  [
+   41.421163,
+   2.100785
+  ],
+  [
+   41.421065,
+   2.100542
+  ],
+  [
+   41.421016,
+   2.100414
+  ],
+  [
+   41.420974,
+   2.100293
+  ],
+  [
+   41.420928,
+   2.100187
+  ],
+  [
+   41.420895,
+   2.100122
+  ],
+  [
+   41.420854,
+   2.100027
+  ],
+  [
+   41.42084,
+   2.099937
+  ],
+  [
+   41.420839,
+   2.09969
+  ],
+  [
+   41.420822,
+   2.099585
+  ],
+  [
+   41.420797,
+   2.099509
+  ],
+  [
+   41.420756,
+   2.099452
+  ],
+  [
+   41.420709,
+   2.099318
+  ],
+  [
+   41.42067,
+   2.099208
+  ],
+  [
+   41.420626,
+   2.099097
+  ],
+  [
+   41.4206,
+   2.099014
+  ],
+  [
+   41.42059,
+   2.098934
+  ],
+  [
+   41.420619,
+   2.09874
+  ],
+  [
+   41.420671,
+   2.098565
+  ],
+  [
+   41.420683,
+   2.098478
+  ],
+  [
+   41.420648,
+   2.098407
+  ],
+  [
+   41.420589,
+   2.098336
+  ],
+  [
+   41.420488,
+   2.098102
+  ],
+  [
+   41.420423,
+   2.097989
+  ],
+  [
+   41.420374,
+   2.097817
+  ],
+  [
+   41.420338,
+   2.097745
+  ],
+  [
+   41.420276,
+   2.097597
+  ],
+  [
+   41.420126,
+   2.097514
+  ],
+  [
+   41.420057,
+   2.097379
+  ],
+  [
+   41.419888,
+   2.097406
+  ],
+  [
+   41.419804,
+   2.09748
+  ],
+  [
+   41.419782,
+   2.097444
+  ],
+  [
+   41.419646,
+   2.097283
+  ],
+  [
+   41.419698,
+   2.097215
+  ],
+  [
+   41.419705,
+   2.097195
+  ],
+  [
+   41.419698,
+   2.097215
+  ],
+  [
+   41.419646,
+   2.097283
+  ],
+  [
+   41.419643,
+   2.097386
+  ],
+  [
+   41.419629,
+   2.097649
+  ],
+  [
+   41.419631,
+   2.097766
+  ],
+  [
+   41.419637,
+   2.09792
+  ],
+  [
+   41.41964,
+   2.098098
+  ],
+  [
+   41.419628,
+   2.098201
+  ],
+  [
+   41.419618,
+   2.098317
+  ],
+  [
+   41.419613,
+   2.098438
+  ],
+  [
+   41.419608,
+   2.098561
+  ],
+  [
+   41.419709,
+   2.098558
+  ],
+  [
+   41.419788,
+   2.098555
+  ],
+  [
+   41.419847,
+   2.098565
+  ],
+  [
+   41.419849,
+   2.098599
+  ],
+  [
+   41.41983,
+   2.098628
+  ],
+  [
+   41.419755,
+   2.098754
+  ],
+  [
+   41.4197,
+   2.098826
+  ],
+  [
+   41.419666,
+   2.098878
+  ],
+  [
+   41.419565,
+   2.098975
+  ],
+  [
+   41.419544,
+   2.09913
+  ],
+  [
+   41.419534,
+   2.099327
+  ],
+  [
+   41.419553,
+   2.099328
+  ],
+  [
+   41.419603,
+   2.099289
+  ],
+  [
+   41.419666,
+   2.099239
+  ],
+  [
+   41.419744,
+   2.099203
+  ],
+  [
+   41.419792,
+   2.099202
+  ],
+  [
+   41.419819,
+   2.09922
+  ],
+  [
+   41.419831,
+   2.099243
+  ],
+  [
+   41.41984,
+   2.09926
+  ],
+  [
+   41.419848,
+   2.099296
+  ],
+  [
+   41.419884,
+   2.099445
+  ],
+  [
+   41.419928,
+   2.099605
+  ],
+  [
+   41.419913,
+   2.099792
+  ],
+  [
+   41.419893,
+   2.100007
+  ],
+  [
+   41.419885,
+   2.100103
+  ],
+  [
+   41.419874,
+   2.100214
+  ],
+  [
+   41.419802,
+   2.100261
+  ],
+  [
+   41.419817,
+   2.100286
+  ],
+  [
+   41.419828,
+   2.100316
+  ],
+  [
+   41.419837,
+   2.100355
+  ],
+  [
+   41.419842,
+   2.100424
+  ],
+  [
+   41.419845,
+   2.10052
+  ],
+  [
+   41.419845,
+   2.100588
+  ],
+  [
+   41.419845,
+   2.100614
+  ],
+  [
+   41.419846,
+   2.100903
+  ],
+  [
+   41.419806,
+   2.101102
+  ],
+  [
+   41.419627,
+   2.101066
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -1505561151,
+   "lat": 41.419624,
+   "lon": 2.101003,
+   "km": 0.0,
+   "titel": "Infohaus",
+   "thema": "Centre d’Informació, Start der gelben Runde",
+   "kurztext": "Hier sitzt das Infohaus, Ctra. de l’Església 92. Karte, Klo wenn offen, kleiner Spielplatz. Die gelbe Runde geht zur Vil·la Joana und den Quellen, nicht den GR 92.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3296807415,
+   "lat": 41.419775,
+   "lon": 2.099806,
+   "km": 0.14,
+   "titel": "Vil·la Joana",
+   "thema": "Masia, Museu Verdaguer, nur von außen",
+   "kurztext": "Masia von 1708, später Herrenhaus. Verdaguer ist hier gestorben, heute Museum. Du gehst außen vorbei. Der Pfad braucht kein Ticket.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 620075022,
+   "lat": 41.420342,
+   "lon": 2.1009447,
+   "km": 0.25,
+   "titel": "Font dels Plàtans",
+   "thema": "Quelle an der Platanenallee, Taststeine",
+   "kurztext": "Die Allee endet hier nicht, sie fängt an. Quelle am Weg, große Platanen. In den Steinen sitzen Spuren: Wildschwein, Fuchs, Eiche, Kiefer. Tasten, nicht mitnehmen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 620075020,
+   "lat": 41.4200781,
+   "lon": 2.1008213,
+   "km": 0.4,
+   "titel": "Font Joana",
+   "thema": "Quelle mit Safareig, Hahn aus dem Netz",
+   "kurztext": "Links runter vom Passeig. Häuschen, Marmorplatte mit Namen, Waschbecken. Der Hahn ist Leitungswasser, die Mine speist das Becken. Bank am Rand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 620074712,
+   "lat": 41.4209964,
+   "lon": 2.1014672,
+   "km": 0.63,
+   "titel": "Font Vella",
+   "thema": "Alte Quelle, Treppe vom Passeig",
+   "kurztext": "Treppe vom Passeig runter. Totnens: ohne Betrieb. Darunter der neue Hahn, zwei große Platanen. Kinderwagen bleibt oben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 620074715,
+   "lat": 41.4213757,
+   "lon": 2.1015991,
+   "km": 0.74,
+   "titel": "Font Nova",
+   "thema": "Placeta mit Bank, Braille-Tafel",
+   "kurztext": "Kleine Placeta, Balkon, Bank. Hier hängt Braille. totnens nimmt die Runde von unten, du kommst von oben. Weiter den Torrent runter zum Bahnhof.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3389613051,
+   "lat": 41.419811,
+   "lon": 2.097229,
+   "km": 1.25,
+   "titel": "Baixador de Vallvidrera",
+   "thema": "FGC-Halt, unteres Ende der Runde",
+   "kurztext": "S1/S2, hier steigen die meisten ein. Zurück zum Infohaus den Hang hoch, ein paar Minuten. Der grüne Arm geht über die Straße zum Stausee, extra.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1749472496,
+   "lat": 41.4196657,
+   "lon": 2.1018037,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 8265453217,
+   "lat": 41.419214,
+   "lon": 2.096969,
+   "kategorie": "gastro",
+   "name": "n9u"
+  },
+  {
+   "osmId": 11040081420,
+   "lat": 41.419594,
+   "lon": 2.1010537,
+   "kategorie": "shelter",
+   "name": "Refugi climàtic Centre Informació"
+  },
+  {
+   "osmId": 345535028,
+   "lat": 41.41971426,
+   "lon": 2.10018278,
+   "kategorie": "parking",
+   "name": "Parkplatz Infohaus Collserola"
+  },
+  {
+   "osmId": 5801825628,
+   "lat": 41.41927,
+   "lon": 2.096679,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ],
+ "besuchshinweise": "Treppe zwischen Font Nova und Font Vella, Kinderwagen eher nicht. Museum Vil·la Joana extra. Grüner Arm (Stausee) und roter Arm (Budellera) nicht mitlaufen, wenn du nur diese Runde willst.",
+ "hoertext": "Am FGC-Halt Baixador de Vallvidrera fängt die gelbe Runde an. Eineinhalb Kilometer durch Quellen. Font Joana, Font Vella, Font Nova, dazwischen die Platanenallee mit Taststeinen. Frei, ohne Ticket. Eine Treppe, Kinderwagen eher nicht. Das Infohaus sitzt an der Vil·la Joana, du musst nicht ins Museum.",
+ "bilderAsset": "assets/images/trails/fonts-vallvidrera/credits.json"
+}

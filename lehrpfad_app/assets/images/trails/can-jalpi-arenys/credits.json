@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-castell-estany.jpg",
+    "caption": "Castell de Jalpí vom See, Arenys de Munt.",
+    "credit": "Enric",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A205_Castell_Jalp%C3%AD_(Arenys_de_Munt),_des_de_l%27estany.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-castell.jpg",
+    "caption": "Castell de Jalpí am See, Arenys de Munt.",
+    "credit": "Deosringas",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastell_Jalp%C3%AD-1.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-platans.jpg",
+    "caption": "Platanenallee am Eingang Park Can Jalpí.",
+    "credit": "Enric",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A224_Parc_de_Can_Jalp%C3%AD_(Arenys_de_Munt),_avinguda_de_pl%C3%A0tans.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-estany.jpg",
+    "caption": "See von Can Jalpí, Burgtor im Hintergrund.",
+    "credit": "Enric",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A208_Castell_Jalp%C3%AD_(Arenys_de_Munt),_estany,_al_fons_l%27entrada_del_castell.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-stieleiche.jpg",
+    "caption": "Stieleiche, Quercus robur. Am Platz steht der Roure de Gernika.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStieleiche_Kleingarten_Am_Waldsaum1.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "06-steineiche.jpg",
+    "caption": "Steineiche in Blüte, Quercus ilex.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQUERCUS_ILEX_-_AGUDA_-_IB-179_(Alzinera).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "07-stockente.jpg",
+    "caption": "Stockente, Erpel. Am See von Can Jalpí, nicht dieser Vogel.",
+    "credit": "Jacek Halicki",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015_Kaczka_krzy%C5%BCowka_w_wodzie_%28samiec%29.jpg",
+    "kind": "art"
+  },
+  {
+    "file": "08-montnegre.jpg",
+    "caption": "Naturpark Montnegre-Corredor.",
+    "credit": "Alberto-g-rovi",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontnegre_i_el_corredor-2012.JPG",
+    "kind": "ort"
+  }
+]

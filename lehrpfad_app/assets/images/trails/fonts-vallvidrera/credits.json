@@ -1,0 +1,65 @@
+[
+  {
+    "file": "01-infohaus.jpg",
+    "caption": "Infohaus des Naturparks Collserola, Vallvidrera.",
+    "credit": "pere prlpz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre_d%27informaci%C3%B3_del_Parc_de_Collserola_P1320936.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-platans.jpg",
+    "caption": "Passeig dels Plàtans am Infohaus Collserola.",
+    "credit": "pere prlpz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACollserola_-_Passeig_dels_Pl%C3%A0tans_P1170619.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-villa-joana.jpg",
+    "caption": "Vil·la Joana, Vallvidrera.",
+    "credit": "Enric",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A159_Vil%C2%B7la_Joana_(Vallvidrera,_Barcelona).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-villa-joana-pins.jpg",
+    "caption": "Vil·la Joana vom Camí de la Font dels Pins.",
+    "credit": "Enric",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A246_Vil%C2%B7la_Joana_(Vallvidrera,_Barcelona),_des_del_cam%C3%AD_de_la_Font_dels_Pins.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-steineiche.jpg",
+    "caption": "Steineiche in Blüte, Quercus ilex.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQUERCUS_ILEX_-_AGUDA_-_IB-179_(Alzinera).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "06-pinie.jpg",
+    "caption": "Pinie, Pinus pinea.",
+    "credit": "Isidre blanc",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APINUS_PINEA_-_AGUDA_-_IB-1918_(Pi_pinyer).JPG",
+    "kind": "art"
+  },
+  {
+    "file": "07-stieleiche.jpg",
+    "caption": "Stieleiche, Quercus robur. An der Taula dels Set Bisbes stehen zwei alte Eichen.",
+    "credit": "Jan Tappenbeck",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStieleiche_Kleingarten_Am_Waldsaum1.jpg",
+    "kind": "art"
+  }
+]
