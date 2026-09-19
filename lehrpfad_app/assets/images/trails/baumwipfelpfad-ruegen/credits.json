@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-forsthaus.jpg",
+    "caption": "Forsthaus Prora, dahinter der Adlerhorst.",
+    "credit": "J.-H. Janßen",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerbe_Zentrum_Ruegen_Forsthaus_Prora_02.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-aufstieg.jpg",
+    "caption": "Rampe im Adlerhorst.",
+    "credit": "Jkg52-wiki",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAufstieg_zum_Adlerhorst_Baumwipfelpfad.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-steg.jpg",
+    "caption": "Steg durch den Buchenwald.",
+    "credit": "LeO Tiresias",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerbe-Zentrum_R%C3%BCgen%2C_Baumwipfelpfad.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-turm.jpg",
+    "caption": "Adlerhorst von unten.",
+    "credit": "Martin Kraft",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_im_Naturerbe-Zentrum_R%C3%BCgen-msu-2024-6555.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-schild.jpg",
+    "caption": "Infotafel am Baumwipfelpfad.",
+    "credit": "Gerryknips",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGut_gesch%C3%BCtzt%21_Baumwipfelpfad_auf_R%C3%BCgen_-_Naturerbe_Zentrum_R%C3%BCgen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-blick.jpg",
+    "caption": "Blick vom Adlerhorst über den Wald.",
+    "credit": "DominicW89",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAussicht_vom_Aussichtsturm_im_Naturerbe-Zentrum_Prora%2C_R%C3%BCgen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-prora.jpg",
+    "caption": "Blick Richtung Prora, Mukran und Sassnitz.",
+    "credit": "Strubbl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlick_Richtung_Prora%2C_Mukran_und_Sassnitz_vom_Naturerbezentrum_R%C3%BCgen_aus_2023-11-26.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-pfad.jpg",
+    "caption": "Steg und Adlerhorst im Wald.",
+    "credit": "Jkg52-wiki",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%BCgen%2C_Baumwipfelpfad.jpg",
+    "kind": "ort"
+  }
+]

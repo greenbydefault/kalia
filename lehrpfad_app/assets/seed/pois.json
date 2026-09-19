@@ -1285,5 +1285,94 @@
     "lon": 2.1336,
     "website": "https://cosmocaixa.org",
     "oeffnungszeiten": "siehe Museum, Eintritt"
+  },
+  {
+    "id": "camping-prora",
+    "name": "Camping Prora",
+    "kategorie": "camping",
+    "kurztext": "Familienplatz an der Proraer Chaussee, rund drei Kilometer vom Baumwipfelpfad — Strand 600 m.",
+    "lat": 54.4495,
+    "lon": 13.5658,
+    "website": "https://www.camping-prora-ruegen.de/",
+    "oeffnungszeiten": "Ende März–Anfang November, plus Silvester",
+    "telefon": "+49 38393 2085"
+  },
+  {
+    "id": "museum-dokumentationszentrum-prora",
+    "name": "Dokumentationszentrum Prora",
+    "kategorie": "museum",
+    "kurztext": "KdF-Seebad, zwei Kilometer östlich — extra, nicht der Baumwipfelpfad.",
+    "lat": 54.4378,
+    "lon": 13.5756,
+    "website": "https://www.prora.eu/",
+    "oeffnungszeiten": "siehe Haus, Eintritt"
+  },
+  {
+    "id": "baden-strand-prora",
+    "name": "Strand Prora",
+    "kategorie": "baden",
+    "kurztext": "Feinsand an der Prorer Wiek, knapp zwei Kilometer östlich — extra, nach dem Steg.",
+    "lat": 54.4392,
+    "lon": 13.5789,
+    "oeffnungszeiten": "Strand frei"
+  },
+  {
+    "id": "baden-strand-heringsdorf",
+    "name": "Strand Heringsdorf",
+    "kategorie": "baden",
+    "kurztext": "Kaiserbäder-Strand, rund einen Kilometer vom Baumwipfelpfad — extra, nach dem Steg.",
+    "lat": 53.9574,
+    "lon": 14.1718,
+    "oeffnungszeiten": "Strand frei"
+  },
+  {
+    "id": "seebruecke-heringsdorf",
+    "name": "Seebrücke Heringsdorf",
+    "kategorie": "aktivitaet",
+    "kurztext": "Längste Seebrücke auf Usedom, gut einen Kilometer nördlich — extra, nicht der Steg.",
+    "lat": 53.9578,
+    "lon": 14.1765,
+    "website": "https://www.usedom.de/",
+    "oeffnungszeiten": "Steg frei"
+  },
+  {
+    "id": "ostseetherme-ahlbeck",
+    "name": "OstseeTherme Usedom",
+    "kategorie": "aktivitaet",
+    "kurztext": "Therme in Ahlbeck, 850 m, Parkhaus auch für Wohnmobile — extra, nicht der Baumwipfelpfad.",
+    "lat": 53.9439,
+    "lon": 14.1893,
+    "website": "https://www.ostseetherme-usedom.de/",
+    "oeffnungszeiten": "siehe Haus, Eintritt"
+  },
+  {
+    "id": "camping-mobilcamp-heringsdorf",
+    "name": "Mobilcamp Heringsdorf",
+    "kategorie": "camping",
+    "kurztext": "Caravan- und Wohnmobilplatz in Heringsdorf, rund einen Kilometer nördlich, Strand 300 m.",
+    "lat": 53.9608,
+    "lon": 14.1654,
+    "website": "https://www.mobilcamp-heringsdorf.de/",
+    "oeffnungszeiten": "März–Oktober plus Jahreswechsel"
+  },
+  {
+    "id": "schloss-ivenack",
+    "name": "Gutshaus Ivenack",
+    "kategorie": "aktivitaet",
+    "kurztext": "Barockes Gutshaus am See, vom Turm sichtbar — extra, nicht der Steg.",
+    "lat": 53.7109,
+    "lon": 12.9565,
+    "website": "https://www.ivenack.de/",
+    "oeffnungszeiten": "Park frei, Haus privat"
+  },
+  {
+    "id": "ivenacker-see",
+    "name": "Ivenacker See",
+    "kategorie": "aktivitaet",
+    "kurztext": "See östlich des Hutewalds, Rundblick vom Turm — extra, nach dem Steg.",
+    "lat": 53.7118,
+    "lon": 12.9602,
+    "oeffnungszeiten": "Ufer frei"
   }
 ]
+

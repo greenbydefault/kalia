@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Steg durch den Hutewald in Ivenack.",
+    "credit": "Bybbisch94, Christian Gebhardt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-011.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-rampe.jpg",
+    "caption": "Rampe des Baumkronenpfads.",
+    "credit": "Bybbisch94, Christian Gebhardt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-012.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-turm.jpg",
+    "caption": "Aussichtsturm zwischen den Eichen.",
+    "credit": "Bybbisch94, Christian Gebhardt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-013.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-plattform.jpg",
+    "caption": "Plattform am Baumkronenpfad.",
+    "credit": "Bybbisch94, Christian Gebhardt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-014.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-kronen.jpg",
+    "caption": "Blick in die Kronen vom Steg.",
+    "credit": "Bybbisch94, Christian Gebhardt",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-015.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-pfad.jpg",
+    "caption": "Steg und Turm im Ivenacker Tiergarten.",
+    "credit": "Michael C. Horus",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Ivenacker_Eichen.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-schloss.jpg",
+    "caption": "Schloss Ivenack vom Wipfelpfad.",
+    "credit": "Ulf Heinsohn",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchloss_Ivenack_vom_Wipfelpfad_her.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-see.jpg",
+    "caption": "Kirche, Schloss und See von der Plattform.",
+    "credit": "Radomianin",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChurch%2C_castle_and_lake_of_Ivenack%2C_NW_view.jpg",
+    "kind": "ort"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Steg durch den Mischwald in Heringsdorf.",
+    "credit": "Maddl79",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Usedom_2023_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-abschnitt.jpg",
+    "caption": "Steg, im Hintergrund der Aussichtsturm.",
+    "credit": "MrBenjo",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbschnitt_Baumwipfelpfad_Usedom.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-aufstieg.jpg",
+    "caption": "Rampe zum Aussichtsturm.",
+    "credit": "Erell",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Usedom_Aufstieg_zum_Aussichtsturm.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-turm.jpg",
+    "caption": "Aussichtsplattform mit Netz.",
+    "credit": "MrBenjo",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAussichtsplattform_Baumwipfelpfad_Usedom.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-ahlbeck.jpg",
+    "caption": "Blick vom Turm nach Ahlbeck und Swinemünde.",
+    "credit": "MrBenjo",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhlbeck_vom_Baumwipfelpfad_Usedom.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-kronen.jpg",
+    "caption": "Kronen vom Steg, Naturpark Insel Usedom.",
+    "credit": "Kora27",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlick_vom_Baumwipfelpfad_in_Heringsdorf._Insel_Usedom_2H1A8779WI.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-tafel.jpg",
+    "caption": "Infotafel am Baumwipfelpfad.",
+    "credit": "Bärwinkel,Klaus",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Baumwipfelpfad_Info.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-pfad.jpg",
+    "caption": "Steg zwischen den Kronen.",
+    "credit": "Maddl79",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Usedom_2023_03.jpg",
+    "kind": "ort"
+  }
+]

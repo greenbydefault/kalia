@@ -3719,6 +3719,83 @@
     ]
   },
   {
+    "id": "seeadler",
+    "nameDe": "Seeadler",
+    "nameLat": "Haliaeetus albicilla",
+    "kategorie": "fauna",
+    "kurztext": "Vom Adlerhorst siehst du den Bodden – und manchmal einen Seeadler, der über dem Wald kreist.",
+    "aliases": [
+      "Haliaeetus albicilla",
+      "Weißschwanzadler"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Vom Adlerhorst siehst du den Bodden – und manchmal einen Seeadler, der über dem Wald kreist.",
+      "erkennung": [
+        "Breite Flügel, größer als ein Bussard",
+        "Altvogel: weißer Schwanz, gelber Schnabel",
+        "Kreist über Wald und Bodden, stürzt nicht senkrecht"
+      ],
+      "lebensraum": "Alte Buchen um Prora, Jagd über Prorer Wiek und Kleinem Jasmunder Bodden – vom Turm in Sichtweite.",
+      "funFacts": [
+        "Der Turm heißt Adlerhorst, weil sie hier brüten.",
+        "Spannweite bis 2,40 Meter.",
+        "Junge haben den weißen Schwanz noch nicht."
+      ],
+      "hinweis": "Fernglas, Horst in Ruhe lassen.",
+      "hoertext": "Schau vom Adlerhorst über den Wald. Irgendwo da draußen kreist der Seeadler. Größer als ein Bussard, breite Flügel, der Altvogel mit weißem Schwanz und gelbem Schnabel. Er stürzt nicht senkrecht ins Wasser wie der Fischadler. Er kreist, sucht, greift Fische und Wasservögel am Bodden. Der Turm steht um eine Rotbuche, weil genau hier die Horste liegen. Vom Steg siehst du denselben Wald, nur tiefer. Nimm ein Fernglas mit, wenn du eins hast, und bleib ruhig. Nicht rufen, nicht winken. Der Jäger braucht Distanz. Der Moment dauert Sekunden. Der Blick vom Turm bleibt den Nachmittag."
+    },
+    "gruppe": "voegel",
+    "seltenheit": "selten",
+    "gefahr": 2,
+    "nahrung": [
+      "Fische",
+      "Wasservögel"
+    ],
+    "taxonomie": {
+      "reich": "Animalia",
+      "stamm": "Chordata",
+      "klasse": "Aves",
+      "ordnung": "Accipitriformes",
+      "familie": "Accipitridae"
+    },
+    "masse": [
+      {
+        "key": "laenge",
+        "wert": "70–90 cm"
+      },
+      {
+        "key": "spannweite",
+        "wert": "190–240 cm"
+      },
+      {
+        "key": "gewicht",
+        "wert": "3–7 kg"
+      }
+    ],
+    "merkmale": [
+      "gefiedert",
+      "tagaktiv",
+      "fleischfresser",
+      "luftbewohnend",
+      "wanderer",
+      "wehrhaft"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "nameDe": "Fische",
+        "kurztext": "Greift Beute an Bodden und Ostsee."
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Alte Buchen",
+        "kurztext": "Horst in den Kronen um Prora."
+      }
+    ]
+  },
+  {
     "id": "stauehre-wehr",
     "nameDe": "Wehre und Stauelemente",
     "nameLat": "",

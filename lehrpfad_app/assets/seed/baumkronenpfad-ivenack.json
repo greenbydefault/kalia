@@ -1,0 +1,325 @@
+{
+ "id": "baumkronenpfad-ivenack",
+ "name": "Baumkronenpfad Ivenacker Eichen",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "620 Meter Steg durch den Hutewald in Ivenack – 14 Stationen, Turm 40 Meter mit Aufzug, Blick auf Schloss und See. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Im Nationalen Naturmonument Ivenacker Eichen windet sich der Steg von der Wurzel in die Kronen. 620 Meter, 16 bis 23 Meter hoch, der Turm 40 Meter mit Aufzug und drei Halten. An 14 Stationen Wald und Yoga am Geländer. Oben Schloss, Dorf und Ivenacker See. Betreiberin ist die Landesforstanstalt MV, Forstamt Stavenhagen. Hunde bleiben am Parkplatz unten, Assistenzhunde ausgenommen. Kinder unter 12 nur mit Erwachsenem. Naturlehrpfad, Streuobstwiese und Pavillon sind extra, nicht der Steg. November bis März zu. Eine Stunde für den Pfad, der Park braucht mehr.",
+ "laengeKm": 0.62,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Baumkronenpfad Ivenacker Eichen",
+ "betreiber": "Landesforstanstalt Mecklenburg-Vorpommern / Forstamt Stavenhagen",
+ "region": "Ivenack, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern",
+ "website": "https://www.ivenacker-eichen.de/",
+ "anreise": "Adresse: Tiergarten 1, 17153 Ivenack. GPS 53.71624, 12.94560. Parkplatz Ivenacker Eichen an der Eichenallee, frei, Wohnmobile am zweiten Platz Richtung Dorf. Bahn bis Stavenhagen, 3–4 km zu Fuß oder Rad. Bus 421 sporadisch Bahnhof–Ivenack Dorf, Fahrplan fahrplanauskunft-mv.de. Kasse am Ivenacker Tor, dann durch den Park zum Steg.",
+ "startName": "Rampe / Einstieg",
+ "arten": [
+  "Stieleiche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.715928,
+   12.946106
+  ],
+  [
+   53.715897,
+   12.946275
+  ],
+  [
+   53.715908,
+   12.946339
+  ],
+  [
+   53.715943,
+   12.946366
+  ],
+  [
+   53.715978,
+   12.946409
+  ],
+  [
+   53.716011,
+   12.946398
+  ],
+  [
+   53.716035,
+   12.946363
+  ],
+  [
+   53.71603,
+   12.946263
+  ],
+  [
+   53.716006,
+   12.946154
+  ],
+  [
+   53.715987,
+   12.945958
+  ],
+  [
+   53.715959,
+   12.945815
+  ],
+  [
+   53.715979,
+   12.945756
+  ],
+  [
+   53.716023,
+   12.945727
+  ],
+  [
+   53.716072,
+   12.945746
+  ],
+  [
+   53.716097,
+   12.945793
+  ],
+  [
+   53.716097,
+   12.945923
+  ],
+  [
+   53.716071,
+   12.946037
+  ],
+  [
+   53.716062,
+   12.946147
+  ],
+  [
+   53.716079,
+   12.946202
+  ],
+  [
+   53.716107,
+   12.946228
+  ],
+  [
+   53.716143,
+   12.94623
+  ],
+  [
+   53.716174,
+   12.946153
+  ],
+  [
+   53.716187,
+   12.9461
+  ],
+  [
+   53.716205,
+   12.945958
+  ],
+  [
+   53.716322,
+   12.945812
+  ],
+  [
+   53.716376,
+   12.945729
+  ],
+  [
+   53.716253,
+   12.9454
+  ],
+  [
+   53.716129,
+   12.945434
+  ],
+  [
+   53.716101,
+   12.945553
+  ],
+  [
+   53.716136,
+   12.945717
+  ],
+  [
+   53.71627,
+   12.94575
+  ],
+  [
+   53.716357,
+   12.945774
+  ],
+  [
+   53.716483,
+   12.945819
+  ],
+  [
+   53.716623,
+   12.94558
+  ],
+  [
+   53.716565,
+   12.945231
+  ],
+  [
+   53.716628,
+   12.944876
+  ],
+  [
+   53.71636,
+   12.944727
+  ],
+  [
+   53.71627,
+   12.945003
+  ],
+  [
+   53.716062,
+   12.945056
+  ],
+  [
+   53.716028,
+   12.945246
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2007879502,
+   "lat": 53.7159283,
+   "lon": 12.9461056,
+   "km": 0.0,
+   "titel": "Rampe / Einstieg",
+   "thema": "Von der Wurzel nach oben",
+   "kurztext": "Hier beginnt der Steg. Ticket schon an der Kasse am Tor. Die Rampe steigt mit sechs Prozent, ohne Stufe. Der Aufzug sitzt im Turm, drei Halte. Letzter Einlass vor 17 Uhr.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -995567605,
+   "lat": 53.716072,
+   "lon": 12.9457462,
+   "km": 0.15,
+   "titel": "14 Stationen",
+   "thema": "Wald am Geländer, Yoga dazu",
+   "kurztext": "Vierzehn Stationen am Weg: Wald, Kultur, ein paar Yoga-Übungen am Geländer. Kein Muss. Die Eichen stehen daneben, der Steg bleibt schmal.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -93718623,
+   "lat": 53.7166228,
+   "lon": 12.9455798,
+   "km": 0.35,
+   "titel": "Steg in den Kronen",
+   "thema": "16 bis 23 Meter über dem Boden",
+   "kurztext": "Holz über Hutewald. Unten Damwild und Koniks, oben die Kronen der Stieleichen. Der Steg bleibt in den Bäumen, der Turm kommt danach.",
+   "erlebnisse": [
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -458346498,
+   "lat": 53.7160195,
+   "lon": 12.9452585,
+   "km": 0.62,
+   "titel": "Aussichtsturm",
+   "thema": "40 Meter, Schloss und See",
+   "kurztext": "Drei Halte im Aufzug, oben 40 Meter. Ivenack, Gutshaus, See. Die Ringeiche steht im Park, nicht auf dem Holz. Runter Aufzug oder Rampe.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 620844962,
+   "lat": 53.7160195,
+   "lon": 12.9452585,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 13047951908,
+   "lat": 53.7157083,
+   "lon": 12.944233,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 889045310,
+   "lat": 53.7157646,
+   "lon": 12.9453803,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13047870484,
+   "lat": 53.7156948,
+   "lon": 12.9452592,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 889045286,
+   "lat": 53.715676,
+   "lon": 12.9467013,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 75284858,
+   "lat": 53.7166647,
+   "lon": 12.9518025,
+   "kategorie": "parking",
+   "name": "Ivenacker Eichen Parkplatz"
+  },
+  {
+   "osmId": 977804340,
+   "lat": 53.7163898,
+   "lon": 12.9526292,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 821018817,
+   "lat": 53.71211,
+   "lon": 12.9435357,
+   "kategorie": "gastro",
+   "name": "Café am Tiergarten"
+  },
+  {
+   "osmId": 1419931725,
+   "lat": 53.7120353,
+   "lon": 12.9437533,
+   "kategorie": "playground",
+   "name": null
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Kombi Tiergarten + Baumpfad: Erwachsene 12 €, ermäßigt 10 € (Ausweis: Behinderung, Azubi, Studierende, Rentner, Gruppe ab 15), Kinder 6–17 Jahre 5 €, unter 6 frei, Familie (2 Erwachsene + eigene Kinder 6–17) 28 €. Nur Tiergarten günstiger. Stand 2026, ivenacker-eichen.de.",
+ "oeffnungszeiten": "Pfad April–Oktober täglich 10–17 Uhr. Saison 2026: 1. April bis 1. November. November–März zu. Letzter Einlass an der Kasse beachten. Bei Sturm, Gewitter, Eis zu.",
+ "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeparkplatz am Fuß. Pfad max. 6 %, Kinderwagen und Rollstuhl, Aufzug im Turm mit drei Halten. Koniks nicht anfassen, nicht füttern. Führungen nur nach Anmeldung, nur Werktags.",
+ "hoertext": "Im Hutewald von Ivenack windet sich der Steg von der Wurzel in die Kronen. Ohne Stufe, der Aufzug nimmt den Kinderwagen mit. Oben der Turm, Schloss und See liegen vor dir. Die Eichen stehen seit Jahrhunderten. Hunde bleiben unten am Parkplatz. Von November bis März ist der Pfad zu.",
+ "bilderAsset": "assets/images/trails/baumkronenpfad-ivenack/credits.json"
+}
