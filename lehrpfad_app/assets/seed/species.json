@@ -4745,6 +4745,81 @@
     }
   },
   {
+    "id": "weisstanne",
+    "nameDe": "Weißtanne",
+    "nameLat": "Abies alba",
+    "kategorie": "flora",
+    "kurztext": "Zapfen stehen aufrecht, Nadeln glänzen unten weiß – das ist keine Fichte.",
+    "aliases": [
+      "Tanne",
+      "Edeltanne"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Zapfen stehen aufrecht, Nadeln glänzen unten weiß – das ist keine Fichte.",
+      "erkennung": [
+        "Zapfen stehen am Zweig, zerfallen dort",
+        "Nadeln flach, zwei weiße Streifen unten",
+        "Spitze weich, nicht stechend wie Fichte"
+      ],
+      "lebensraum": "Bergmischwald am Sommerberg und im Bayerischen Wald neben Buche und Fichte.",
+      "funFacts": [
+        "Die Zapfen zerfallen am Baum, du findest selten ganze.",
+        "Unten sind die Nadeln weiß gestreift, daher der Name.",
+        "Sie hält Schatten besser aus als die Fichte."
+      ],
+      "hinweis": "",
+      "hoertext": "Am Sommerberg und im Bayerischen Wald stehen Buche, Fichte und Tanne zusammen. Die Weißtanne verrät sich von unten: flache Nadeln, zwei helle Streifen. Die Spitze sticht nicht. Zapfen stehen aufrecht und zerfallen am Zweig. Deshalb liegen selten ganze Zapfen im Weg, anders als bei der Fichte. Der Betreibertext am Schwarzwald-Steg sagt Buchen, Tannen und Fichten. Im Nationalpark ist das der Bergmischwald, flächengrößter Lebensraum dieser Mischung. Fass eine Nadel, dreh sie um. Weiß unten, Tanne. Stechend und hängender Zapfen, Fichte. Der Steg bleibt der Steg. Die Krone daneben ist der Unterricht."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "mittel",
+    "gefahr": 1,
+    "nahrung": [
+      "Zapfen",
+      "Nadeln"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Pinopsida",
+      "ordnung": "Pinales",
+      "familie": "Pinaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "30–50 m"
+      },
+      {
+        "key": "alter",
+        "wert": "200–400 Jahre"
+      },
+      {
+        "key": "frucht",
+        "wert": "aufrechter Zapfen"
+      }
+    ],
+    "merkmale": [
+      "nadelbaum",
+      "immergruen",
+      "fruchttragend",
+      "schluesselart"
+    ],
+    "beziehungen": [
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Spechte",
+        "kurztext": "Höhlen in alten Tannen."
+      },
+      {
+        "typ": "frisst",
+        "nameDe": "Kreuzschnabel",
+        "kurztext": "Knackt Tannenzapfen."
+      }
+    ]
+  },
+  {
     "id": "wiedehopf",
     "nameDe": "Wiedehopf",
     "nameLat": "Upupa epops",

@@ -1,0 +1,537 @@
+{
+ "id": "skywalk-allgaeu",
+ "name": "Skywalk Allgäu",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "540 Meter Hängebrücke durch Weißtannen bei Scheidegg – Turm 40 Meter, Aufzug, ohne Stufe oben. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Oberhalb von Scheidegg, am Hof Oberschwenden, hängt der Skywalk durch den Plenterwald. 540 Meter Hängebrücke aus nordischer Lärche, 14 Stahlmasten, 15 bis 30 Meter über dem Boden, der Aussichtsturm 40 Meter – Treppe oder gläserner Aufzug, oben ohne Stufe. Der Steg federt. Blick auf Allgäu, Alpen und Bodensee. Betreiber ist die skywalk allgäu gemeinnützige GmbH, Tochter der KJF Augsburg, Integrationsbetrieb. Das Gelände heißt Waldwelt: Naturerlebnispfad, Barfußpfad, Spielplatz und Streichelzoo sind extra, nicht dieser Trail. Hunde anleinen, auf den Steg nur Assistenzhunde, Boxen unterm Turm. Kinder unter zehn nur mit Erwachsenem. Zwanzig bis dreißig Minuten auf dem Steg.",
+ "laengeKm": 0.54,
+ "dauerMin": 30,
+ "rundkurs": false,
+ "markierung": "Skywalk / Waldwelt Allgäu",
+ "betreiber": "skywalk allgäu gemeinnützige GmbH",
+ "region": "Oberschwenden, Scheidegg, Landkreis Lindau (Bodensee), Bayern",
+ "website": "https://www.waldwelt-allgaeu.de/erlebnisse/skywalk-baumwipfelpfad/",
+ "anreise": "Adresse: Oberschwenden 25, 88175 Scheidegg. GPS 47.56381, 9.82749. A96 Abfahrt Sigmarszell/Scheidegg, Beschilderung skywalk allgäu. Parkplatz am Haus, Tagesticket 5 €, 30 Minuten frei; Behindertenplätze direkt am Eingang. Bus ab Scheidegg Linie 21 Zollamt bzw. 11/141 Kurhaus, dann ca. 30 Minuten zu Fuß. Vom Kurhaus der Premiumwanderweg entgegen, rund 3 km. Bahnhof Lindau plus Bus.",
+ "startName": "Kasse / Eingang",
+ "arten": [
+  "Weißtanne",
+  "Fichte",
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   47.563809,
+   9.827485
+  ],
+  [
+   47.564405,
+   9.826985
+  ],
+  [
+   47.564461,
+   9.826979
+  ],
+  [
+   47.564513,
+   9.826989
+  ],
+  [
+   47.564561,
+   9.827018
+  ],
+  [
+   47.564894,
+   9.827347
+  ],
+  [
+   47.564932,
+   9.827376
+  ],
+  [
+   47.564976,
+   9.827391
+  ],
+  [
+   47.565014,
+   9.827395
+  ],
+  [
+   47.565057,
+   9.82739
+  ],
+  [
+   47.565102,
+   9.82737
+  ],
+  [
+   47.565157,
+   9.827355
+  ],
+  [
+   47.565193,
+   9.827313
+  ],
+  [
+   47.565212,
+   9.826665
+  ],
+  [
+   47.564912,
+   9.8264
+  ],
+  [
+   47.564592,
+   9.826524
+  ],
+  [
+   47.564305,
+   9.826555
+  ],
+  [
+   47.564265,
+   9.826542
+  ],
+  [
+   47.563952,
+   9.826251
+  ],
+  [
+   47.563895,
+   9.825936
+  ],
+  [
+   47.564093,
+   9.825973
+  ],
+  [
+   47.564456,
+   9.82606
+  ],
+  [
+   47.564777,
+   9.825962
+  ],
+  [
+   47.564846,
+   9.825964
+  ],
+  [
+   47.564912,
+   9.8264
+  ],
+  [
+   47.563952,
+   9.826251
+  ],
+  [
+   47.563675,
+   9.82611
+  ],
+  [
+   47.563509,
+   9.826346
+  ],
+  [
+   47.563722,
+   9.826609
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -315853064,
+   "lat": 47.563809,
+   "lon": 9.8274852,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ticket, dann Treppe oder Aufzug",
+   "kurztext": "Hier beginnt der Besuch. Ticket, Drehkreuz, dann rauf auf den Steg – Panoramatreppe oder gläserner Aufzug. Kinder unter zehn nur mit Erwachsenem. Hundeboxen stehen unterm Turm, nicht mit auf die Brücke.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -458346498,
+   "lat": 47.564405,
+   "lon": 9.826985,
+   "km": 0.08,
+   "titel": "Aussichtsturm",
+   "thema": "Vierzig Meter, Aufzug im Stahl",
+   "kurztext": "Der Turm trägt Treppe und Aufzug. Vierzig Meter Stahl, oben der Einstieg in die Hängebrücke. Wer nicht steigen will, fährt glas. Unten die Boxen für Hunde, oben der Wind.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2357087527,
+   "lat": 47.5644454,
+   "lon": 9.8260562,
+   "km": 0.22,
+   "titel": "Plenterwald",
+   "thema": "Weißtanne, Fichte, Buche durcheinander",
+   "kurztext": "Hier hängt der Steg im Hochwald. Alle Altersklassen, keine Schonung in Reih und Glied. Die Hälfte Weißtanne, dann Fichte, etwas Rotbuche. Der Flyer zählt den Bestand, du siehst die Kronen von der Seite.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -189385970,
+   "lat": 47.564305,
+   "lon": 9.8265551,
+   "km": 0.38,
+   "titel": "Aussichtspunkt Skywalk",
+   "thema": "Allgäu, Alpen, Bodensee",
+   "kurztext": "Hier öffnet sich der Wald. Hügel, Alpenkette, bei Klarheit der See. Tausend Meter über NN, die Grenze nach Österreich liegt hinterm Hang. Stehen bleiben, der Steg trägt.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -93718623,
+   "lat": 47.5639412,
+   "lon": 9.8262339,
+   "km": 0.5,
+   "titel": "Federnder Steg",
+   "thema": "Vierzehn Masten, Lärchenholz",
+   "kurztext": "Die Brücke schwingt, extra. Vierzehn Stahlmasten, Seile, nordische Lärche unter den Füßen. Wettertafel am Geländer. Netztunnel und Rutsche sind der andere Abstieg, extra – der Aufzug führt denselben Weg runter.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 986795753,
+   "lat": 47.564305,
+   "lon": 9.8265551,
+   "kategorie": "viewpoint",
+   "name": "Aussichtspunkt Skywalk"
+  },
+  {
+   "osmId": 1420270836,
+   "lat": 47.562593,
+   "lon": 9.8282776,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1420270863,
+   "lat": 47.5643309,
+   "lon": 9.8274899,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1420270895,
+   "lat": 47.5651263,
+   "lon": 9.8277617,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2018542405,
+   "lat": 47.5652853,
+   "lon": 9.8279737,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4349445598,
+   "lat": 47.5639858,
+   "lon": 9.827601,
+   "kategorie": "gastro",
+   "name": "Restaurant Waldglück"
+  },
+  {
+   "osmId": 4893599645,
+   "lat": 47.563745,
+   "lon": 9.8273939,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5964730306,
+   "lat": 47.5637066,
+   "lon": 9.8254325,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5964750302,
+   "lat": 47.5640244,
+   "lon": 9.8270354,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5964750303,
+   "lat": 47.56399,
+   "lon": 9.8270354,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13092037854,
+   "lat": 47.5636673,
+   "lon": 9.8274891,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13092038338,
+   "lat": 47.5637547,
+   "lon": 9.8274233,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13092041101,
+   "lat": 47.5636409,
+   "lon": 9.8274518,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802032,
+   "lat": 47.5629387,
+   "lon": 9.8278922,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802033,
+   "lat": 47.5630466,
+   "lon": 9.8280586,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802034,
+   "lat": 47.5631136,
+   "lon": 9.8282234,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802035,
+   "lat": 47.5631503,
+   "lon": 9.828405,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802036,
+   "lat": 47.5629775,
+   "lon": 9.8283374,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802037,
+   "lat": 47.5628515,
+   "lon": 9.8281782,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13669802038,
+   "lat": 47.5627729,
+   "lon": 9.8280394,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13672499219,
+   "lat": 47.5639109,
+   "lon": 9.8277885,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 14169517683,
+   "lat": 47.5641357,
+   "lon": 9.8271564,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169518252,
+   "lat": 47.5629453,
+   "lon": 9.827632,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169529339,
+   "lat": 47.5647538,
+   "lon": 9.827208,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169556558,
+   "lat": 47.5631153,
+   "lon": 9.8275983,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 14169580443,
+   "lat": 47.5640717,
+   "lon": 9.8259671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169585663,
+   "lat": 47.5645801,
+   "lon": 9.8265225,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169602816,
+   "lat": 47.5644503,
+   "lon": 9.8260541,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169650574,
+   "lat": 47.5646519,
+   "lon": 9.8253051,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169655286,
+   "lat": 47.564265,
+   "lon": 9.8254179,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169674789,
+   "lat": 47.5643645,
+   "lon": 9.8254932,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169676369,
+   "lat": 47.5637489,
+   "lon": 9.8254612,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169676374,
+   "lat": 47.5635285,
+   "lon": 9.826941,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169679969,
+   "lat": 47.5646015,
+   "lon": 9.8254358,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169686179,
+   "lat": 47.5630463,
+   "lon": 9.8270239,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169687334,
+   "lat": 47.5637735,
+   "lon": 9.8252723,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14169719612,
+   "lat": 47.5628494,
+   "lon": 9.8268512,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 340296717,
+   "lat": 47.56384201666666,
+   "lon": 9.827389883333334,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 631637800,
+   "lat": 47.5633334,
+   "lon": 9.827344060000001,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 631641914,
+   "lat": 47.56402416923076,
+   "lon": 9.826981815384615,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1222064668,
+   "lat": 47.564217490909094,
+   "lon": 9.827694354545454,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1222064669,
+   "lat": 47.5642997,
+   "lon": 9.8274967,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1491610713,
+   "lat": 47.563841142857136,
+   "lon": 9.827065728571428,
+   "kategorie": "playground",
+   "name": null
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 15,80 €, Kinder bis 17 Jahre 11,70 €, unter 1 m frei, Familie 2+2 49,90 €, Gruppe ab 15 Erwachsene 13,80 €, Schüler/Studierende/Senioren 13,80 €, Erwachsene mit Behinderung 12,80 €. Jahreskarte Erwachsene 42 €, Kind 32 € (Parken inkl.). Bodensee Card Plus frei. Stand Sommer 2026, waldwelt-allgaeu.de/dein-besuch.",
+ "oeffnungszeiten": "Sommer 20.3.–8.11.2026 täglich 10–18 Uhr, letzter Einlass 17. Winter 13.11.2026–28.2.2027 Fr–So 11–18 Uhr, in den bayerischen Schulferien täglich; 4./11./24.12. zu. Sommer 2027 ab 1.3. analog. Letzter Einlass 17 Uhr.",
+ "besuchshinweise": "Pfad und Turm barrierefrei: gläserner Aufzug, oben ohne Stufe, Kinderwagen und Rollstuhl. Panoramatreppe alternativ. Kinder unter 10 nur mit Erwachsenem. Hunde anleinen, nicht auf den Steg, Assistenzhunde ausgenommen; Hundehütten unterm Turm mit Wasser. Rauchen nur im Biergarten. Netztunnel und Röhrenrutsche optional extra. Naturerlebnispfad, Barfußpfad, Spielplatz und Streichelzoo extra. Parken 5 €/Tag.",
+ "hoertext": "Über Scheidegg hängt der Skywalk durch Weißtannen – fünfhundertvierzig Meter, der Turm vierzig hoch. Treppe oder gläserner Aufzug, oben ohne Stufe, der Steg federt. Kinderwagen und Rollstuhl kommen mit. Kinder unter zehn nur mit Erwachsenem. Hunde in die Box unterm Turm, Assistenzhunde ausgenommen. Letzter Einlass siebzehn Uhr. Streichelzoo und Barfußpfad extra.",
+ "bilderAsset": "assets/images/trails/skywalk-allgaeu/credits.json"
+}

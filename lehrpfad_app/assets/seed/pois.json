@@ -1404,6 +1404,26 @@
     "lon": 10.69485,
     "website": "https://www.fuessen.de/",
     "oeffnungszeiten": "Ufer frei"
+  },
+  {
+    "id": "scheidegger-wasserfaelle",
+    "name": "Scheidegger Wasserfälle",
+    "kategorie": "aktivitaet",
+    "kurztext": "Drei Stufen im Tobel, rund zwei Kilometer vom Steg — extra, nicht der Skywalk.",
+    "lat": 47.58083,
+    "lon": 9.85139,
+    "website": "https://www.scheidegg.de/scheidegger-wasserfaelle/",
+    "oeffnungszeiten": "Wege frei"
+  },
+  {
+    "id": "wohnmobilstellplatz-hammerweiher-scheidegg",
+    "name": "Wohnmobilstellplatz am Hammerweiher",
+    "kategorie": "camping",
+    "kurztext": "Stellplatz am Kurhaus Scheidegg, gut zwei Kilometer — extra, nicht der Steg.",
+    "lat": 47.5724827,
+    "lon": 9.8449313,
+    "website": "https://www.scheidegg.de/wohnmobilstellplatz-am-hammerweiher/",
+    "oeffnungszeiten": "siehe Gemeinde"
   }
 ]
 

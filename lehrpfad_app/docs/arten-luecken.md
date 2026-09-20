@@ -184,6 +184,20 @@ Quellen: https://www.wald-mv.de/landingpage/ivenacker-eichen/ · https://www.wal
 
 Quellen: https://www.nationalpark-bayerischer-wald.de/natur/lebensraeume/index.htm · https://treetop-walks.com/bayerischer-wald/
 
+### skywalk-allgaeu — Scheidegg / Oberschwenden
+
+`erlebniswald` · skywalk allgäu gGmbH (KJF Augsburg), Plenterwald
+
+**Ist:** Weißtanne, Fichte, Rotbuche
+
+**Link-Lücke:** —
+
+**Katalog-Kandidat:** —
+
+**Nicht:** Streichelzoo; Boden-Pfade (Barfuß, Entdecker); Lärche Bauholz; Rotmilan nur Tafel.
+
+Quellen: https://www.waldwelt-allgaeu.de/erlebnisse/skywalk-baumwipfelpfad/ · https://de.wikipedia.org/wiki/Skywalk_Allgäu
+
 ### baumkronenweg-ziegelwies — Füssen / Pinswang
 
 `erlebniswald` · Trägerverein Ostallgäu-Außerfern, AELF Kaufbeuren, Lech-Auwald

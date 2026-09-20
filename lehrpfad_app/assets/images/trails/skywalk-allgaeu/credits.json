@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Hängebrücke des Skywalk Allgäu bei Scheidegg.",
+    "credit": "Killarnee",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_Scheidegg_4.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-panorama.jpg",
+    "caption": "Blick vom Skywalk über das Westallgäu.",
+    "credit": "Killarnee",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_Scheidegg_1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kronen.jpg",
+    "caption": "Steg auf Augenhöhe mit den Kronen.",
+    "credit": "Killarnee",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_Scheidegg_2.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-turm.jpg",
+    "caption": "Aussichtsturm des Skywalk Allgäu, 40 Meter.",
+    "credit": "Vahrnhorst",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_allg%C3%A4u_Aussichtsturm.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-steg-hoch.jpg",
+    "caption": "Stahlmasten und Lärchenholz über dem Plenterwald.",
+    "credit": "Reustli",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_Allg%C3%A4u_%2852627%29.jpg",
+    "kind": "ort"
+  }
+]
