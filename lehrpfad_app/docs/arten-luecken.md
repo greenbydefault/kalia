@@ -184,6 +184,20 @@ Quellen: https://www.wald-mv.de/landingpage/ivenacker-eichen/ · https://www.wal
 
 Quellen: https://www.nationalpark-bayerischer-wald.de/natur/lebensraeume/index.htm · https://treetop-walks.com/bayerischer-wald/
 
+### baumkronenweg-ziegelwies — Füssen / Pinswang
+
+`erlebniswald` · Trägerverein Ostallgäu-Außerfern, AELF Kaufbeuren, Lech-Auwald
+
+**Ist:** Grauerle
+
+**Link-Lücke:** —
+
+**Katalog-Kandidat:** —
+
+**Nicht:** Auwaldpfad-Fauna (Floß extra); Ausstellung „Mein Wald“ indoor; Lärche nur Bauholz.
+
+Quellen: https://www.walderlebniszentrum.eu/baumkronenweg/ · https://aelf-kf.bayern.de/forstwirtschaft/wald/072604/index.php · https://www.ganz-meine-natur.bayern.de/hot-spots-uebersicht/falkenstein/
+
 ### baumwipfelpfad-steigerwald — Ebrach / Ebracher Forst
 
 `erlebniswald` · BaySF, Naturpark Steigerwald

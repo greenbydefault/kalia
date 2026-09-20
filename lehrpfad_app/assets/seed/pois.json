@@ -1394,6 +1394,16 @@
     "lon": 10.442801,
     "website": "https://www.steigerwald-zentrum.de/",
     "oeffnungszeiten": "siehe Betreiber"
+  },
+  {
+    "id": "lechfall-fuessen",
+    "name": "Lechfall",
+    "kategorie": "aktivitaet",
+    "kurztext": "Stufenfall am Lech, zehn Minuten vom Steg — extra, nicht der Kronenweg.",
+    "lat": 47.56177,
+    "lon": 10.69485,
+    "website": "https://www.fuessen.de/",
+    "oeffnungszeiten": "Ufer frei"
   }
 ]
 

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Baumkronenweg durch den Lech-Auwald bei Füssen.",
+    "credit": "Llez",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenweg_Walderlebniszentrum_Ziegelwies_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-konstruktion.jpg",
+    "caption": "Lärchenholz-Steg auf Stützen über dem Auwald.",
+    "credit": "Llez",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenweg_Walderlebniszentrum_Ziegelwies_03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kronen.jpg",
+    "caption": "Steg auf Augenhöhe mit den Kronen.",
+    "credit": "Llez",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenweg_Walderlebniszentrum_Ziegelwies_04.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-panorama.jpg",
+    "caption": "Blick vom Steg über Auwald und Lechtal.",
+    "credit": "Llez",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenweg_Walderlebniszentrum_Ziegelwies_06.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-steg-hoch.jpg",
+    "caption": "Holzsteg in den Baumkronen, Grenze nach Tirol.",
+    "credit": "Llez",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenweg_Walderlebniszentrum_Ziegelwies_08.jpg",
+    "kind": "ort"
+  }
+]

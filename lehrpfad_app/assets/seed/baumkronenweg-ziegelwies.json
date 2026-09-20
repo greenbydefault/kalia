@@ -1,0 +1,300 @@
+{
+ "id": "baumkronenweg-ziegelwies",
+ "name": "Baumkronenweg Ziegelwies",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "480 Meter Steg durch den Lech-Auwald bei Füssen – ein Schritt nach Tirol, 21 Meter hoch, ohne Stufe. Kinderwagen und Rollstuhl. Eintritt, Kinder bis 15 frei.",
+ "beschreibung": "Südlich von Füssen, am Walderlebniszentrum Ziegelwies, hängt der Baumkronenweg durch die Kronen des Lech-Auwalds. 480 Meter, bis 21 Meter hoch, vier Spannweiten aus Lärchenholz. In der Mitte zwei Bretter in den Landesfarben: ein Schritt, und du bist in Tirol. Start an der Kasse zwischen Ausstellung und WC auf bayerischer Seite; in der Hochsaison zusätzlich am Parkplatz P2 in Pinswang. Ohne Stufe, Kinderwagen und Rollstuhl. Betreiber ist der Trägerverein Walderlebniszentrum Ostallgäu-Außerfern, das Zentrum zusammen mit dem AELF Kaufbeuren. Auwaldpfad, Bergwaldpfad und Ausstellung „Mein Wald“ sind extra und ohne Ticket. Fünfzehn bis vierzig Minuten.",
+ "laengeKm": 0.48,
+ "dauerMin": 30,
+ "rundkurs": false,
+ "markierung": "Baumkronenweg / Walderlebniszentrum Ziegelwies",
+ "betreiber": "Walderlebniszentrum Ostallgäu-Außerfern e.V.",
+ "region": "Füssen-Ziegelwies / Pinswang, Landkreis Ostallgäu, Bayern",
+ "website": "https://www.walderlebniszentrum.eu/baumkronenweg/",
+ "anreise": "Adresse: Tiroler Straße 10, 87629 Füssen. GPS 47.55781, 10.69280. Von Füssen B17 Richtung Reutte, Ortsteil Ziegelwies, rechts das Zentrum. P1 Bayern: PKW und Behindertenplätze direkt am Haus. P2 Tirol: PKW, Wohnmobil, Bus. Parken 6–20 Uhr kostenfrei, Übernachten verboten. Bus RVO 74 Richtung Reutte, Halt Ziegelwies. Bahnhof Füssen plus 20–30 Minuten zu Fuß. Lechfall zehn Minuten den Fluss hoch, extra.",
+ "startName": "Kasse Bayern",
+ "arten": [
+  "Grauerle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   47.557928,
+   10.692965
+  ],
+  [
+   47.557937,
+   10.692956
+  ],
+  [
+   47.55789,
+   10.692806
+  ],
+  [
+   47.558717,
+   10.692343
+  ],
+  [
+   47.558022,
+   10.691835
+  ],
+  [
+   47.557944,
+   10.691503
+  ],
+  [
+   47.557745,
+   10.690661
+  ],
+  [
+   47.557742,
+   10.689542
+  ],
+  [
+   47.557353,
+   10.688982
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 47.5579284,
+   "lon": 10.692965,
+   "km": 0.0,
+   "titel": "Kasse Bayern",
+   "thema": "Zwischen Ausstellung und WC",
+   "kurztext": "Hier beginnt der Steg. Kassenhäuschen zwischen Ausstellungsgebäude und Toilette, Ticket nur für den Kronenweg. Kinder bis fünfzehn ohne. In der Hochsaison gibt es denselben Steg auch vom P2 – dann von der anderen Seite.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1975263899,
+   "lat": 47.5587169,
+   "lon": 10.6923425,
+   "km": 0.12,
+   "titel": "Erste Plattform",
+   "thema": "Vier Spannweiten, Bänke dazwischen",
+   "kurztext": "Der Steg schwingt von Stütze zu Stütze, achtzig bis hundert Meter frei. Lärchenholz, Fundament vierzehn Meter tief. Bank, stehen bleiben, Kronen auf Augenhöhe – nicht die Rutsche unten, das ist der Auwaldpfad.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1517026309,
+   "lat": 47.5580225,
+   "lon": 10.6918351,
+   "km": 0.22,
+   "titel": "Grenze Bayern–Tirol",
+   "thema": "Ein Schritt, anderes Land",
+   "kurztext": "Zwei Lärchenbretter in der Mitte: weiß-blau Bayern, rot-weiß Tirol. Ein Schritt reicht. Der Steg bleibt derselbe, der Fluss unten auch. Kein Zoll, nur Holz.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3908060006,
+   "lat": 47.5577448,
+   "lon": 10.6906615,
+   "km": 0.32,
+   "titel": "Blick zum Lech",
+   "thema": "Türkis unter den Kronen",
+   "kurztext": "Hier öffnet sich der Auwald zum Fluss. Türkisgrünes Wasser, Alpen dahinter. Der Steg bleibt oben, der Lechfall ist zehn Minuten extra am Ufer – nicht diese Linie.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1430285243,
+   "lat": 47.557353,
+   "lon": 10.6889815,
+   "km": 0.48,
+   "titel": "Ausgang Tirol / P2",
+   "thema": "Pinswang, Parkplatz Tirol",
+   "kurztext": "Der Steg endet auf österreichischer Seite am P2. Hochsaison: kleines Kassenhäuschen hier. Zurück denselben Steg oder unten am Haus vorbei. Waldimbiss und Ausstellung liegen am bayerischen Ende, extra.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5025024162,
+   "lat": 47.5579132,
+   "lon": 10.6930737,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 6715602485,
+   "lat": 47.5574047,
+   "lon": 10.6928639,
+   "kategorie": "gastro",
+   "name": "Waldimbiss"
+  },
+  {
+   "osmId": 8797478108,
+   "lat": 47.5578108,
+   "lon": 10.6928012,
+   "kategorie": "viewpoint",
+   "name": "Walderlebniszentrum Ziegelwies"
+  },
+  {
+   "osmId": 9901777581,
+   "lat": 47.5578615,
+   "lon": 10.6930941,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12556720550,
+   "lat": 47.5585325,
+   "lon": 10.6926871,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 12909770455,
+   "lat": 47.5576698,
+   "lon": 10.6926942,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12909775949,
+   "lat": 47.5575991,
+   "lon": 10.692492,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12909788311,
+   "lat": 47.5576424,
+   "lon": 10.6926105,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12909803290,
+   "lat": 47.5577494,
+   "lon": 10.6928305,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13287086470,
+   "lat": 47.5582833,
+   "lon": 10.6913992,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13287134424,
+   "lat": 47.558246,
+   "lon": 10.6914272,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13287157849,
+   "lat": 47.558912,
+   "lon": 10.6932143,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13287202737,
+   "lat": 47.5583046,
+   "lon": 10.6925194,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13287209501,
+   "lat": 47.5588929,
+   "lon": 10.6931527,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 14058007791,
+   "lat": 47.5588726,
+   "lon": 10.6929127,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14058007793,
+   "lat": 47.5584669,
+   "lon": 10.6927018,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14058007795,
+   "lat": 47.5589118,
+   "lon": 10.6929861,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14058007797,
+   "lat": 47.5586893,
+   "lon": 10.6941308,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 456761089,
+   "lat": 47.5580179,
+   "lon": 10.69336966,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 949712525,
+   "lat": 47.55761032857144,
+   "lon": 10.692183357142858,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 26815396,
+   "lat": 47.557064,
+   "lon": 10.688106,
+   "kategorie": "parking",
+   "name": "Walderlebniszentrum P2"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene ab 16 Jahre 5 €, Gruppe ab 10 Personen 4 €/Person, Kinder und Jugendliche bis 15 frei, Menschen mit Behinderung frei (Ausweis). Stand 2026, walderlebniszentrum.eu/informationen. Auwaldpfad, Bergwaldpfad und Ausstellung frei.",
+ "oeffnungszeiten": "März täglich 10–16 Uhr. Osterferien täglich 9–18 Uhr. April täglich 10–16:30 Uhr. 1.5.–15.10. täglich 9–19:30 Uhr. 16.10.–25.11. täglich 10–16:30 Uhr. Winter auf Anfrage. Bei starkem Regen, Sturm, Schnee oder Gewitter zu.",
+ "besuchshinweise": "Kinderwagen und Rollstuhl auf dem Steg. Hunde angeleint (OSM). In der Hochsaison Einstieg auch am P2 Tirol, kleines Kassenhäuschen. Ausstellung, Auwald- und Bergwaldpfad extra – nicht dieser Trail. Bei Unwetter Steg zu, die Bodenpfade bleiben offen ohne Winterdienst.",
+ "hoertext": "Am Lech bei Füssen hängt der Steg durch den Auwald – ein Schritt, und du bist in Tirol. Vierhundertachtzig Meter, einundzwanzig hoch, ohne Stufe. Kinderwagen und Rollstuhl kommen mit. Kasse zwischen Ausstellung und WC, in der Hochsaison auch am P2. Bei Sturm und Gewitter zu. Kinder bis fünfzehn frei. Hunde anleinen.",
+ "bilderAsset": "assets/images/trails/baumkronenweg-ziegelwies/credits.json"
+}

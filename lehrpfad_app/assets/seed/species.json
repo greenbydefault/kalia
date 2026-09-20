@@ -1275,6 +1275,78 @@
     }
   },
   {
+    "id": "grauerle",
+    "nameDe": "Grauerle",
+    "nameLat": "Alnus incana",
+    "kategorie": "flora",
+    "kurztext": "Graue Rinde, türkiser Lech – vom Steg siehst du den Auwald von oben, nicht den Bruchwald.",
+    "aliases": [
+      "Grauerle",
+      "Grau-Erle",
+      "Grau-Erlen-Auwald"
+    ],
+    "imagePath": null,
+    "imageCredit": "",
+    "content": {
+      "hook": "Graue Rinde, türkiser Lech – vom Steg siehst du den Auwald von oben, nicht den Bruchwald.",
+      "erkennung": [
+        "Glatte graue Rinde, oft mehrstämmig",
+        "Blätter unterseits grau, Rand doppelt gesägt",
+        "Kleine Zapfen und Kätzchen am Zweig"
+      ],
+      "lebensraum": "Weichholzaue am Lech bei Füssen-Ziegelwies. FFH-Auwald, den der Baumkronenweg oben durchquert.",
+      "funFacts": [
+        "Stickstoff aus der Luft, wie die Schwarzerle, nur am Gebirgsfluss.",
+        "Alnion incanae: der Auwaldtyp der Alpenflüsse.",
+        "Hochwasser darf kommen, sie treibt danach neu."
+      ],
+      "hinweis": "",
+      "hoertext": "Vom Steg bei Ziegelwies schaust du runter auf graue Stämme am Lech. Das ist oft die Grauerle. Glatte Rinde, Blätter unterseits grau, der Fluss daneben türkis. Sie hält Hochwasser aus und bindet Stickstoff mit Bakterien in den Wurzeln. Genau dieser Auwald trägt den Kronenweg. Nicht die dunkle Schwarzerle aus dem Bruchwald, die graue vom Gebirgsfluss. Im Herbst hängen kleine Zapfen, im Frühjahr die Kätzchen vor den Blättern. Ein Schritt weiter ist Tirol, der Wald bleibt derselbe. Bleib auf dem Steg, die Kronen sind nah genug. Unten rauscht der Lech, oben knarrt das Lärchenholz."
+    },
+    "gruppe": "baeume",
+    "seltenheit": "selten",
+    "gefahr": 1,
+    "nahrung": [
+      "Samen",
+      "Blätter"
+    ],
+    "taxonomie": {
+      "reich": "Plantae",
+      "stamm": "Tracheophyta",
+      "klasse": "Magnoliopsida",
+      "ordnung": "Fagales",
+      "familie": "Betulaceae"
+    },
+    "masse": [
+      {
+        "key": "hoehe",
+        "wert": "10–20 m"
+      },
+      {
+        "key": "alter",
+        "wert": "50–80 Jahre"
+      }
+    ],
+    "merkmale": [
+      "laubabwerfend",
+      "laubbaum",
+      "wasserlebend",
+      "fruchttragend"
+    ],
+    "beziehungen": [
+      {
+        "typ": "frisst",
+        "kurztext": "Nagt Rinde und fällt Weichhölzer.",
+        "toSpeciesId": "biber"
+      },
+      {
+        "typ": "wohnt_an",
+        "nameDe": "Lech-Auwald",
+        "kurztext": "Steht in der Weichholzaue am Gebirgsfluss."
+      }
+    ]
+  },
+  {
     "id": "grosse-moosjungfer",
     "nameDe": "Große Moosjungfer",
     "nameLat": "Leucorrhinia pectoralis",
