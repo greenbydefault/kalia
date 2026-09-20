@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-eingang.jpg",
+    "caption": "Eingangsgebäude zum Baumwipfelpfad Steigerwald.",
+    "credit": "Reinhold Möller",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_Eingang_170228.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-steg.jpg",
+    "caption": "Steg durch den Buchenwald.",
+    "credit": "Reinhold Möller",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_170234.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kronen.jpg",
+    "caption": "Steg auf Augenhöhe mit den Kronen.",
+    "credit": "Reinhold Möller",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_170345.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-turm.jpg",
+    "caption": "Kelchturm des Baumwipfelpfads.",
+    "credit": "Reinhold Möller",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_Aussichtsturm_170353.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-steg-hoch.jpg",
+    "caption": "Holzsteg über dem Ebracher Forst.",
+    "credit": "Reinhold Möller",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_170359.jpg",
+    "kind": "ort"
+  }
+]

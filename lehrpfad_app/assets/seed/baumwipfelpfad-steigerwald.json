@@ -1,0 +1,476 @@
+{
+ "id": "baumwipfelpfad-steigerwald",
+ "name": "Baumwipfelpfad Steigerwald",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "1150 Meter Steg durch den Buchenwald bei Ebrach – Kelchturm 42 Meter, max. 6 Prozent, ohne Stufe. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Zwischen Ebrach und Breitbach, im Ebracher Forst, führt der Baumwipfelpfad von der Kasse am Radstein durch Buchenkronen zum kelchförmigen Holzturm und endet am Ausgang mit Kiosk. 1150 Meter, der Steg durchschnittlich 26 Meter hoch, der Turm 42 Meter – Rampe außen rum, oben Rundumblick über den Steigerwald. Ohne Stufe, höchstens sechs Prozent. Dazwischen Fällschritte, Hochsitz, Nest und Kletterröhre; Tafeln zu Wald und Forst, Wipfel-App mit Quiz. Betreiber sind die Bayerischen Staatsforsten. Hunde bleiben in Boxen am Eingang, Assistenzhunde ausgenommen. Kinder unter 12 nur mit Erwachsenem. Wildgehege, Streichelwald und Kugelpfad sind extra, nicht dieser Trail. Das Steigerwald-Zentrum in Handthal liegt drei Kilometer weiter. Ein bis zwei Stunden.",
+ "laengeKm": 1.15,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Baumwipfelpfad Steigerwald / BaySF",
+ "betreiber": "Bayerische Staatsforsten",
+ "region": "Ebrach, Ebracher Forst, Landkreis Bamberg, Bayern",
+ "website": "https://www.baumwipfelpfadsteigerwald.de/",
+ "anreise": "Adresse: Radstein 2, 96157 Ebrach. GPS 49.85041, 10.46300. B22 zwischen Bamberg und Würzburg, Beschilderung folgen; Waldwege für PKW gesperrt. Parkplatz an der B22 kostenfrei, ca. 5 Minuten zu Fuß; bei Andrang Ausweichparkplatz südlich der B22. Behindertenparkplätze näher am Eingang, ausgeschildert. Bus VGN 930 Steigerwald-Express, Halt Ebrach Baumwipfelpfad / Waldrandparkplatz Radstein. Zwei E-Auto-Säulen am Parkplatz, sechs E-Bike-Säulen am Verwaltungsgebäude (Kabel selbst). Fahrradständer und Reparaturstation am Gebäude.",
+ "startName": "Kasse Radstein",
+ "arten": [
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   49.850393,
+   10.462883
+  ],
+  [
+   49.850377,
+   10.462833
+  ],
+  [
+   49.850096,
+   10.461939
+  ],
+  [
+   49.850081,
+   10.461828
+  ],
+  [
+   49.850172,
+   10.461286
+  ],
+  [
+   49.850203,
+   10.461005
+  ],
+  [
+   49.850345,
+   10.460649
+  ],
+  [
+   49.850374,
+   10.460101
+  ],
+  [
+   49.850389,
+   10.45991
+  ],
+  [
+   49.8504,
+   10.459811
+  ],
+  [
+   49.850468,
+   10.459515
+  ],
+  [
+   49.850583,
+   10.45918
+  ],
+  [
+   49.850748,
+   10.458852
+  ],
+  [
+   49.850815,
+   10.458705
+  ],
+  [
+   49.850935,
+   10.458674
+  ],
+  [
+   49.850948,
+   10.458586
+  ],
+  [
+   49.850983,
+   10.458514
+  ],
+  [
+   49.851024,
+   10.458476
+  ],
+  [
+   49.851072,
+   10.458462
+  ],
+  [
+   49.851119,
+   10.458475
+  ],
+  [
+   49.85116,
+   10.458512
+  ],
+  [
+   49.851191,
+   10.458569
+  ],
+  [
+   49.851207,
+   10.458638
+  ],
+  [
+   49.851206,
+   10.458723
+  ],
+  [
+   49.851183,
+   10.4588
+  ],
+  [
+   49.851166,
+   10.45883
+  ],
+  [
+   49.851151,
+   10.458849
+  ],
+  [
+   49.85112,
+   10.458882
+  ],
+  [
+   49.851076,
+   10.458891
+  ],
+  [
+   49.851033,
+   10.458879
+  ],
+  [
+   49.850982,
+   10.458835
+  ],
+  [
+   49.850959,
+   10.458773
+  ],
+  [
+   49.850954,
+   10.458737
+  ],
+  [
+   49.850954,
+   10.458707
+  ],
+  [
+   49.851166,
+   10.45883
+  ],
+  [
+   49.851208,
+   10.458964
+  ],
+  [
+   49.851244,
+   10.459122
+  ],
+  [
+   49.851312,
+   10.459198
+  ],
+  [
+   49.851383,
+   10.459268
+  ],
+  [
+   49.851575,
+   10.459597
+  ],
+  [
+   49.851937,
+   10.46015
+  ],
+  [
+   49.85224,
+   10.460149
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 49.8504054,
+   "lon": 10.4630013,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ohne Stufe in den Steg",
+   "kurztext": "Hier beginnt der Steg. Ticket bargeldlos am Automaten oder online, dann durchs Drehkreuz – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Wipfel-App lädt über WLAN. Hundeboxen stehen hier, Schloss selbst mitbringen.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -718780859,
+   "lat": 49.8498352,
+   "lon": 10.4618396,
+   "km": 0.12,
+   "titel": "Kletterröhre",
+   "thema": "Gitter nach oben",
+   "kurztext": "Abstecher neben der Hauptlinie. Eine Gitterröhre hängt am Steg, nach oben klettern. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2209884981,
+   "lat": 49.850279,
+   "lon": 10.4607911,
+   "km": 0.28,
+   "titel": "Fällschritte",
+   "thema": "Wie ein Stamm fällt",
+   "kurztext": "Tafel am Geländer: Schnitt für Schnitt, wie Forst einen Baum legt. Der Steg ist aus Lärche und Douglasie, der Wald drumherum Buche. Schau in den Stamm, nicht nur zum Turm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1469213122,
+   "lat": 49.8505349,
+   "lon": 10.4591356,
+   "km": 0.48,
+   "titel": "Hochsitz",
+   "thema": "Wer unten durchzieht",
+   "kurztext": "Tafel zum Wild. Vom Steg siehst du denselben Wald wie der Sitz, nur höher. Hirsch und Reh im Gehege sind extra – hier geht es um den Wald darunter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -458346498,
+   "lat": 49.8510345,
+   "lon": 10.458684,
+   "km": 0.72,
+   "titel": "Kelchturm",
+   "thema": "42 Meter, Rampe außen rum",
+   "kurztext": "Kelch aus Holz, der Steg windet sich außen hoch, oben ein kreisförmiger Umgang. Ohne Stufe, sechs Prozent. Rundumblick über den Steigerwald, bei klarem Blick die fränkische Platte. Zurück nicht denselben Steg – der Pfad geht zum Ausgang weiter.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -284161576,
+   "lat": 49.8515111,
+   "lon": 10.4596724,
+   "km": 0.92,
+   "titel": "Nest",
+   "thema": "Oben brüten sie",
+   "kurztext": "Station in den Kronen. Vögel und Eichhörnchen bauen hier, nicht am Boden. Der Steg liegt auf Augenhöhe mit den Nestern – stehen bleiben, nicht rütteln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -3895907155,
+   "lat": 49.8522396,
+   "lon": 10.460149,
+   "km": 1.15,
+   "titel": "Ausgang / Kiosk",
+   "thema": "Wieder Boden unter den Füßen",
+   "kurztext": "Der Steg endet am Drehkreuz. Kiosk Flo's Waldimbiss, Spielplatz und die große Kugelbahn daneben. Wildgehege und Streichelwald sind extra und nicht dieser Trail. Zurück zum Parkplatz den Waldweg, nicht den Steg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4171763490,
+   "lat": 49.8510345,
+   "lon": 10.458684,
+   "kategorie": "viewpoint",
+   "name": "Baumwipfelpfad Turm"
+  },
+  {
+   "osmId": 6677814765,
+   "lat": 49.8500279,
+   "lon": 10.4644427,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7573134618,
+   "lat": 49.8510117,
+   "lon": 10.4615967,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7573134619,
+   "lat": 49.8511276,
+   "lon": 10.4612096,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7573134622,
+   "lat": 49.8514246,
+   "lon": 10.4604999,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7573134623,
+   "lat": 49.8515551,
+   "lon": 10.4601595,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804255,
+   "lat": 49.8527584,
+   "lon": 10.4604883,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804256,
+   "lat": 49.8526388,
+   "lon": 10.4600549,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804257,
+   "lat": 49.8525835,
+   "lon": 10.4603341,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804258,
+   "lat": 49.852756,
+   "lon": 10.4601948,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804259,
+   "lat": 49.8525704,
+   "lon": 10.4599775,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467804260,
+   "lat": 49.8525943,
+   "lon": 10.4605181,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 8467810831,
+   "lat": 49.8504838,
+   "lon": 10.4630408,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8467869060,
+   "lat": 49.8521535,
+   "lon": 10.4599617,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 9124920712,
+   "lat": 49.8505319,
+   "lon": 10.4645687,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13274754981,
+   "lat": 49.8502234,
+   "lon": 10.4638897,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13789279276,
+   "lat": 49.8523521,
+   "lon": 10.4601866,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13789331870,
+   "lat": 49.852496,
+   "lon": 10.4601295,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13789375336,
+   "lat": 49.8526639,
+   "lon": 10.4601764,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 710355649,
+   "lat": 49.85258535714286,
+   "lon": 10.460115128571429,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 710355646,
+   "lat": 49.847665,
+   "lon": 10.467473,
+   "kategorie": "parking",
+   "name": "Waldrandparkplatz Radstein"
+  },
+  {
+   "osmId": 4070049656,
+   "lat": 49.8490047,
+   "lon": 10.4668249,
+   "kategorie": "gastro",
+   "name": "Am Baumwipfelpfad"
+  },
+  {
+   "osmId": 404732176,
+   "lat": 49.848883,
+   "lon": 10.466971,
+   "kategorie": "playground",
+   "name": "Spielplatz Eingang"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 11,50 €, ermäßigt 10 € (Ausweis: Behinderung, Schüler ab 16, Studierende, Azubi, Senioren), Kinder 6–15 Jahre 7,50 €, unter 6 frei, Familie (Eltern oder Großeltern + eigene Kinder/Enkel 6–15) 25 €, Single mit Kindern 15 €. Stand 2026, baumwipfelpfadsteigerwald.de/service/oeffnungszeiten-eintrittspreise. Während der Teilsperrung reduzierter Preis. Kugelpfad 2 € extra.",
+ "oeffnungszeiten": "Sommer 29.3.–24.10.2026 täglich 9–18 Uhr, letzter Einlass 17. Winter 25.10.2026–27.3.2027 täglich 10–16 Uhr, letzter Einlass 15. 24.–26.12., 31.12. und 1.1. zu. 7.10.2026 zu (interne Veranstaltung). Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
+ "besuchshinweise": "2026 Teilsperrung: einzelne Abschnitte zu, Turm und der überwiegende Teil offen; Eingang währenddessen am Ausgang, ab der Kasse den Schildern folgen. Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen am Eingang, Schloss selbst mitbringen. Pfad und Turm ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Leihrollstuhl kostenfrei, vorher Verwaltung. Laufrad, Fahrrad, Inliner nicht auf den Steg. Tickets nur bargeldlos am Automaten oder online. Letzter Einlass 1 Stunde vor Schluss. Wipfel-App vor Ort oder daheim. Münzgeld für Kugel- und Futterautomat.",
+ "hoertext": "Im Ebracher Forst hängt der Steg zwischen alten Buchen, der Kelchturm bringt dich ohne Stufe auf zweiundvierzig Meter. Oben der Steigerwald, unten die Kronen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben in der Box – Schloss selbst mitbringen. Tickets nur bargeldlos. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden, Wildgehege und Kugelpfad extra.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-steigerwald/credits.json"
+}

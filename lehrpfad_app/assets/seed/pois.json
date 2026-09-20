@@ -1373,6 +1373,27 @@
     "lat": 53.7118,
     "lon": 12.9602,
     "oeffnungszeiten": "Ufer frei"
+  },
+  {
+    "id": "camping-weihersee-ebrach",
+    "name": "Campingplatz Weihersee",
+    "kategorie": "camping",
+    "kurztext": "Camping und Wohnmobil am Weihersee, gut einen Kilometer vom Steg — Übernachtung nach dem Kelchturm.",
+    "lat": 49.84427,
+    "lon": 10.48079,
+    "website": "https://weihersee.de/",
+    "oeffnungszeiten": "März–Oktober plus Winterstellplätze",
+    "telefon": "+49 9553 9890579"
+  },
+  {
+    "id": "steigerwald-zentrum-handthal",
+    "name": "Steigerwald-Zentrum Handthal",
+    "kategorie": "museum",
+    "kurztext": "Ausstellung zur Waldbewirtschaftung, drei Kilometer Verbindungsweg — extra, nicht der Steg.",
+    "lat": 49.868481,
+    "lon": 10.442801,
+    "website": "https://www.steigerwald-zentrum.de/",
+    "oeffnungszeiten": "siehe Betreiber"
   }
 ]
 
