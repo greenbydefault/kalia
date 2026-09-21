@@ -1,0 +1,488 @@
+{
+ "id": "baumwipfelpfad-panarbora",
+ "name": "Baumwipfelpfad Panarbora",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "1635 Meter Lauflänge bei Waldbröl – Steg 510 Meter durch die Kronen, Turm 40 Meter, ohne Stufe. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Südlich von Waldbröl, am Rand des Naturparks Bergisches Land, steht der Panarbora-Turm im Nutscheid. 40 Meter Holz, Plattform 34 Meter, von dort NRWs längster barrierefreier Baumwipfelpfad: 510 Meter Steg, sieben Plattformen, bis 24 Meter über dem Boden, Lauflänge inklusive Turm 1635 Meter. Ohne Stufe, höchstens sechs Prozent. Sechs Lerninseln zur Flora, Fauna und Geschichte des Bergischen Waldes, gebaut mit NABU, BUND, Biologischer Station Oberberg und Waldbauernverband. Betreiber ist das DJH Rheinland. Hunde bleiben in Boxen am Parkplatz, Assistenzhunde ausgenommen. Spielplatz, Heckenirrgarten, Sinnesrundweg und Kleintiergehege sind extra, nicht dieser Trail. Eine Stunde.",
+ "laengeKm": 1.64,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Panarbora / DJH Rheinland",
+ "betreiber": "Deutsches Jugendherbergswerk Landesverband Rheinland e.V.",
+ "region": "Waldbröl, Oberbergischer Kreis, Nordrhein-Westfalen",
+ "website": "https://panarbora.de/der-baumwipfelpfad",
+ "anreise": "Adresse: Nutscheidstraße 1, 51545 Waldbröl. GPS 50.85965, 7.60678. Von Köln A4/B256 bzw. A3/B478 nach Waldbröl, Beschilderung Panarbora. Parkplatz direkt am Turm 4 €, weitere Plätze frei in der Nähe. Bus VRS 342 (Schladern/Sieg–Waldbröl), Halt Panarbora; nach Schladern S12/S19/RE9. Fahrradständer und RSVG-Bike an der Rezeption.",
+ "startName": "Kasse / Eingang",
+ "arten": [
+  "Rotbuche",
+  "Fichte",
+  "Stieleiche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   50.859652,
+   7.606783
+  ],
+  [
+   50.859672,
+   7.606856
+  ],
+  [
+   50.859727,
+   7.606997
+  ],
+  [
+   50.859729,
+   7.607053
+  ],
+  [
+   50.859713,
+   7.607104
+  ],
+  [
+   50.859674,
+   7.607099
+  ],
+  [
+   50.859626,
+   7.607041
+  ],
+  [
+   50.859526,
+   7.606947
+  ],
+  [
+   50.859507,
+   7.606941
+  ],
+  [
+   50.859338,
+   7.606906
+  ],
+  [
+   50.859244,
+   7.606866
+  ],
+  [
+   50.859177,
+   7.606815
+  ],
+  [
+   50.859149,
+   7.606762
+  ],
+  [
+   50.859128,
+   7.606737
+  ],
+  [
+   50.859116,
+   7.60671
+  ],
+  [
+   50.85911,
+   7.606679
+  ],
+  [
+   50.859109,
+   7.606656
+  ],
+  [
+   50.859115,
+   7.606618
+  ],
+  [
+   50.8591,
+   7.606604
+  ],
+  [
+   50.859081,
+   7.606584
+  ],
+  [
+   50.859011,
+   7.606541
+  ],
+  [
+   50.858933,
+   7.606489
+  ],
+  [
+   50.858893,
+   7.606568
+  ],
+  [
+   50.858835,
+   7.606681
+  ],
+  [
+   50.858785,
+   7.606767
+  ],
+  [
+   50.858706,
+   7.606843
+  ],
+  [
+   50.858622,
+   7.606918
+  ],
+  [
+   50.858569,
+   7.606886
+  ],
+  [
+   50.85846,
+   7.606787
+  ],
+  [
+   50.858391,
+   7.606715
+  ],
+  [
+   50.858311,
+   7.606546
+  ],
+  [
+   50.858183,
+   7.606612
+  ],
+  [
+   50.85816,
+   7.606818
+  ],
+  [
+   50.858101,
+   7.606809
+  ],
+  [
+   50.858029,
+   7.606794
+  ],
+  [
+   50.857973,
+   7.60671
+  ],
+  [
+   50.85793,
+   7.606638
+  ],
+  [
+   50.857813,
+   7.606767
+  ],
+  [
+   50.85778,
+   7.606896
+  ],
+  [
+   50.857698,
+   7.607155
+  ],
+  [
+   50.857595,
+   7.607424
+  ],
+  [
+   50.857648,
+   7.607535
+  ],
+  [
+   50.857676,
+   7.607596
+  ],
+  [
+   50.857864,
+   7.607699
+  ],
+  [
+   50.858,
+   7.607839
+  ],
+  [
+   50.858008,
+   7.607897
+  ],
+  [
+   50.857972,
+   7.607934
+  ],
+  [
+   50.857917,
+   7.607983
+  ],
+  [
+   50.858008,
+   7.607897
+  ],
+  [
+   50.858034,
+   7.607874
+  ],
+  [
+   50.85803,
+   7.607829
+  ],
+  [
+   50.858022,
+   7.60773
+  ],
+  [
+   50.858008,
+   7.607578
+  ],
+  [
+   50.857999,
+   7.607449
+  ],
+  [
+   50.858081,
+   7.607369
+  ],
+  [
+   50.858161,
+   7.607377
+  ],
+  [
+   50.858188,
+   7.607376
+  ],
+  [
+   50.858317,
+   7.607337
+  ],
+  [
+   50.858346,
+   7.607194
+  ],
+  [
+   50.858381,
+   7.607158
+  ],
+  [
+   50.858432,
+   7.607107
+  ],
+  [
+   50.858566,
+   7.607129
+  ],
+  [
+   50.858593,
+   7.607021
+  ],
+  [
+   50.858622,
+   7.606918
+  ],
+  [
+   50.858706,
+   7.606843
+  ],
+  [
+   50.858785,
+   7.606767
+  ],
+  [
+   50.858835,
+   7.606681
+  ],
+  [
+   50.858893,
+   7.606568
+  ],
+  [
+   50.858933,
+   7.606489
+  ],
+  [
+   50.859011,
+   7.606541
+  ],
+  [
+   50.859081,
+   7.606584
+  ],
+  [
+   50.8591,
+   7.606604
+  ],
+  [
+   50.859115,
+   7.606618
+  ],
+  [
+   50.859652,
+   7.606783
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -315853064,
+   "lat": 50.8596516,
+   "lon": 7.6067827,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ticket, dann in den Turm",
+   "kurztext": "Hier beginnt der Besuch. Ticket an der Rezeption, Info-Portal, dann rauf – ohne Stufe in den Turm, der Steg hängt oben. Hunde bleiben in der Box am Parkplatz, Assistenzhunde ausgenommen.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -458346498,
+   "lat": 50.8591846,
+   "lon": 7.6066592,
+   "km": 0.1,
+   "titel": "Aussichtsturm",
+   "thema": "Vierzig Meter, Plattform 34",
+   "kurztext": "Vierundzwanzig Brettschichtholz-Stützen, Rampe über fünfhundertsechzig Meter nach oben. Plattform zwölf Meter Durchmesser, Blick über das Bergische Land. Von hier geht's auf den Steg, derselbe Weg wieder runter.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3657458009,
+   "lat": 50.8583114,
+   "lon": 7.6065462,
+   "km": 0.22,
+   "titel": "Vom Urwald zum Wirtschaftswald",
+   "thema": "Waldtypen, nicht jeder Wald gleich",
+   "kurztext": "Erste der sechs Lerninseln. Urwald, Wirtschaftswald, was dazwischen – die Station stellt die Typen vor, unten stehen Buche, Eiche, Fichte. Der Steg ist hier noch niedrig, das Gelände fällt weg.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2951877252,
+   "lat": 50.8579168,
+   "lon": 7.6079832,
+   "km": 0.42,
+   "titel": "Der Baum ist tot – es lebe der Baum",
+   "thema": "Was unter der Rinde los ist",
+   "kurztext": "Südlichster Bogen, bis vierundzwanzig Meter über dem Hang. Totholz ist hier das Thema: wer unter der Rinde wohnt, nicht die Stille. Sieben Plattformen insgesamt, das ist eine davon.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1504476639,
+   "lat": 50.858188,
+   "lon": 7.6073758,
+   "km": 0.49,
+   "titel": "Der Wald schläft nie",
+   "thema": "Wer tags, wer nachts unterwegs ist",
+   "kurztext": "Rückweg, zweite Ebene. Tagaktive und Nachtaktive – die Station zeigt, wann wer im Wald unterwegs ist. Unten dieselben Kronen, anderer Blick.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3442351848,
+   "lat": 50.858835,
+   "lon": 7.6066806,
+   "km": 0.58,
+   "titel": "Stockausschlag",
+   "thema": "Niederwald, Bergische Landschaft",
+   "kurztext": "Niederwaldwirtschaft hat im 19. Jahrhundert die Hänge geprägt: ab, treibt wieder, Eiche und Hainbuche. Letzte Lerninsel vor dem Turm. Vom Wald leben und Wandel der Landschaft stehen daneben, extra lesen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 374914848,
+   "lat": 50.85944063333333,
+   "lon": 7.605517444444445,
+   "kategorie": "parking",
+   "name": "Parkplatz Panarbora"
+  },
+  {
+   "osmId": 374914847,
+   "lat": 50.85993666842105,
+   "lon": 7.6085203578947365,
+   "kategorie": "parking",
+   "name": "Parkplatz frei"
+  },
+  {
+   "osmId": 3641186861,
+   "lat": 50.8598973,
+   "lon": 7.6069087,
+   "kategorie": "gastro",
+   "name": "Panarbora-Restaurant"
+  },
+  {
+   "osmId": 14041234305,
+   "lat": 50.8598707,
+   "lon": 7.6067721,
+   "kategorie": "wc",
+   "name": "WC Eingang"
+  },
+  {
+   "osmId": 985020432,
+   "lat": 50.859425322222215,
+   "lon": 7.606109455555556,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3738746883,
+   "lat": 50.8600375,
+   "lon": 7.6061049,
+   "kategorie": "playground",
+   "name": "Abenteuer"
+  },
+  {
+   "osmId": 4109129471,
+   "lat": 50.8592125,
+   "lon": 7.606667,
+   "kategorie": "viewpoint",
+   "name": "Panarbora Baumwipfelpfad und Aussichtsturm"
+  },
+  {
+   "osmId": 3782978743,
+   "lat": 50.8579168,
+   "lon": 7.6079832,
+   "kategorie": "viewpoint",
+   "name": null
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 10,90 €, Kinder 4–17 Jahre 7,40 €, unter 4 frei, Familie (Eltern oder Großeltern + bis 3 Kinder 4–17) 29,90 €, ermäßigt 9,90 € (Ausweis: Behinderung, Schüler ab 18, Azubi/Studierende bis 25, Rentner), Kinder mit Behinderung 6,90 €, Begleitperson Stufe B/H frei. Gruppen ab 15: Erwachsene 9,90 €, Kinder 6,90 €. Jahreskarte Erwachsene 39 €, Kind 24 €, Familie 84 €. DJH-Mitglieder −1 €, DJH-Familie −2 € auf die Familienkarte. Stand 2026, panarbora.de/oeffnungszeiten-und-preise.",
+ "oeffnungszeiten": "Park ganzjährig außer Weihnachten. Mo–Sa 10–19 Uhr, So 10–18 Uhr (panarbora.de). Letzter Einlass Turm/Pfad saisonal: Mai–Sep 19 Uhr, März/Apr/Okt 17 Uhr, Nov–Feb 15 Uhr (nrw-tourismus.de). Restaurant warme Küche 12–17.15 Uhr. Bei Gewitter, Sturm, Glatteis oder starkem Schnee Turm und Pfad zu.",
+ "besuchshinweise": "Pfad und Turm barrierefrei: ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Hunde nicht aufs Gelände, Assistenzhunde ausgenommen; Hundeboxen am Parkplatz. Spielplatz, Irrgarten, Sinnesrundweg und Kleintiergehege extra. Restaurant/Spielplatz ohne Parkeintritt nur mit 5-€-Verzehrgutschein, dann kein Turm/Pfad. Übernachtung Jugendherberge extra, DJH-Mitgliedschaft.",
+ "hoertext": "In Waldbröl hängt NRWs längster Steg durch die Kronen. Fünfhundertzehn Meter Holz, der Turm vierzig hoch, ohne Stufe, sechs Prozent reichen. Kinderwagen und Rollstuhl kommen mit. Hunde in die Box am Parkplatz. Bei Gewitter, Sturm, Glatteis oder starkem Schnee zu. Letzter Einlass je nach Saison eine Stunde vor Schluss. Spielplatz, Irrgarten und Kleintiergehege extra.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-panarbora/credits.json"
+}

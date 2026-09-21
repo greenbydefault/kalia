@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Baumkronenweg Waldkirch, Steg durch die Kronen.",
+    "credit": "der sich den wolf tanzt",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://www.flickr.com/photos/65506604@N00/34795007301",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kronen.jpg",
+    "caption": "Steg über den Hang, Blick ins Elztal.",
+    "credit": "der sich den wolf tanzt",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+    "sourceUrl": "https://www.flickr.com/photos/65506604@N00/34763243252",
+    "kind": "ort"
+  }
+]

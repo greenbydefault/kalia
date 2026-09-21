@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Baumwipfelpfad Panarbora bei Waldbröl, Steg durch die Kronen.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_-_Baumwipfelpfad_08_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-turm.jpg",
+    "caption": "Aussichtsturm Panarbora, 40 Meter.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_(Panarbora-Aussichtsturm)_01_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-kronen.jpg",
+    "caption": "Steg auf Augenhöhe mit den Kronen.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_-_Baumwipfelpfad_12_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-panorama.jpg",
+    "caption": "Blick vom Aussichtsturm auf das Panarbora-Gelände.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_(Panarbora-Aussichtsturm)_04_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-konstruktion.jpg",
+    "caption": "Turm und Steg von der Nutscheidstraße.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_-_Baumwipfelpfad_%2B_Aussichtsturm_01_ies.jpg",
+    "kind": "ort"
+  }
+]

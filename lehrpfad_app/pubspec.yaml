@@ -139,6 +139,8 @@ flutter:
     - assets/images/trails/baumwipfelpfad-steigerwald/
     - assets/images/trails/baumkronenweg-ziegelwies/
     - assets/images/trails/skywalk-allgaeu/
+    - assets/images/trails/baumwipfelpfad-panarbora/
+    - assets/images/trails/baumkronenweg-waldkirch/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

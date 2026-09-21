@@ -1,0 +1,226 @@
+{
+ "id": "baumkronenweg-waldkirch",
+ "name": "Baumkronenweg Waldkirch",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "200 Meter Steg, 23 Meter hoch über Waldkirch – Blick ins Elztal und zum Kaiserstuhl. Sinnesweg rauf ist steil. Eintritt, Hunde angeleint.",
+ "beschreibung": "Über Waldkirch, am Hang über dem Stadtrainsee, hängt ein 200 Meter langer Holzsteg in den Kronen, bis 23 Meter hoch, sechs Prozent Steigung. Tafeln zum Wald, Blick nach Waldkirch, ins Elztal, Richtung Freiburg und über die Rheinebene bis zum Kaiserstuhl und den Vogesen. Eröffnet 10. April 2009. Betreiber Ismail Altun. Hoch kommt man über den Sinnesweg, 1,1 Kilometer, 150 Höhenmeter, im Schnitt 13 Prozent – das ist Zugang, nicht dieser Trail. Abenteuerpfad, Barfußpfad und Bambini-Seilpark liegen an der Kasse und sind extra. Die Röhrenrutsche 190 Meter kostet extra, Mindestalter acht. Schwarzwaldzoo und See gehören zum Naturerlebnispark, nicht zu diesem Seed. Eine halbe Stunde oben, mit Weg hoch eher eine bis zwei Stunden.",
+ "laengeKm": 0.2,
+ "dauerMin": 30,
+ "rundkurs": false,
+ "markierung": "Baumkronenweg Waldkirch",
+ "betreiber": "Baumkronenweg Waldkirch / Ismail Altun",
+ "region": "Waldkirch, Landkreis Emmendingen, Baden-Württemberg",
+ "website": "https://www.baumkronenweg-waldkirch.de/erleben/baumkronenweg",
+ "anreise": "Parkplatz: Erwin-Sick-Straße, 79183 Waldkirch, GPS 48.08678, 7.95193 (Naturerlebnispark / Stadtrainsee, 210 Plätze, Gebühr laut Automat, nachts frei). Von dort Fußweg und Sinnesweg ca. 1,2 km / 45 Min. bergauf zur Kasse. Bahn: Bahnhof Waldkirch, 10 Min. zum Stadtrainsee, dann derselbe Aufstieg. Rollstuhl oder starke Gehbehinderung: Tel. 0151 50404867, Zufahrt zur Kasse nach Anmeldung. Offroad-Kinderwagen für den Sinnesweg.",
+ "startName": "Kasse / Eingang",
+ "arten": [
+  "Rotbuche",
+  "Fichte"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "einkehr",
+  "spielplatz",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   48.082362,
+   7.959251
+  ],
+  [
+   48.082377,
+   7.959233
+  ],
+  [
+   48.082512,
+   7.959063
+  ],
+  [
+   48.082747,
+   7.958702
+  ],
+  [
+   48.082808,
+   7.958446
+  ],
+  [
+   48.08284,
+   7.958315
+  ],
+  [
+   48.082852,
+   7.958262
+  ],
+  [
+   48.082878,
+   7.958153
+  ],
+  [
+   48.083085,
+   7.957998
+  ],
+  [
+   48.083125,
+   7.957818
+  ],
+  [
+   48.083222,
+   7.957844
+  ],
+  [
+   48.083354,
+   7.957689
+  ],
+  [
+   48.083446,
+   7.957732
+  ],
+  [
+   48.083502,
+   7.957576
+  ],
+  [
+   48.083646,
+   7.957567
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 48.0823624,
+   "lon": 7.9592514,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ticket, dann auf den Steg",
+   "kurztext": "Hier ist die Kasse, Kiosk mit Eis, WC daneben. Ticket, dann aufs Holz. Der Sinnesweg liegt hinter dir. Hunde bleiben an der Leine. Abenteuer- und Barfußpfad starten hier, das ist extra.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -93718623,
+   "lat": 48.0831251,
+   "lon": 7.957818,
+   "km": 0.12,
+   "titel": "Steg durch die Kronen",
+   "thema": "Zweihundert Meter, dreiundzwanzig hoch",
+   "kurztext": "Holzbohlen, Geländer, der Hang fällt weg. Bis dreiundzwanzig Meter über dem Boden, sechs Prozent. Unten Buche und Fichte im Mischwald, Tafeln zum Wald. Kein Turm – der Steg selbst ist die Höhe.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -3912368165,
+   "lat": 48.0836461,
+   "lon": 7.9575675,
+   "km": 0.2,
+   "titel": "Blick Rheintal",
+   "thema": "Elztal, Kaiserstuhl, Vogesen",
+   "kurztext": "Westende des Stegs. Waldkirch unten, Elztal, bei klarer Sicht Freiburg, Rheinebene, Kaiserstuhl, Vogesen. OSM schreibt wheelchair yes – wer den Sinnesweg nicht schafft, fährt nach Anmeldung hierher.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3059717958,
+   "lat": 48.0837014,
+   "lon": 7.9579779,
+   "km": 0.21,
+   "titel": "Riesenröhrenrutsche",
+   "thema": "Hundertneunzig Meter, extra zwei Euro",
+   "kurztext": "Am Viewpoint geht die Röhre den Hang runter, hundertneunzig Meter. Extra Ticket, zwei Euro, Mindestalter acht. Nässe macht sie unangenehm. Zurück zur Kasse zu Fuß oder die Rutsche, dann den Hang wieder hoch.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3441299160,
+   "lat": 48.0821087,
+   "lon": 7.9593855,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3020977856,
+   "lat": 48.082508,
+   "lon": 7.9586435,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 360017980,
+   "lat": 48.082164,
+   "lon": 7.959643,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 3020997618,
+   "lat": 48.0827732,
+   "lon": 7.9583879,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 3646193742,
+   "lat": 48.0822145,
+   "lon": 7.9595293,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 519871062,
+   "lat": 48.0836461,
+   "lon": 7.9575675,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 610194359,
+   "lat": 48.086777,
+   "lon": 7.951927,
+   "kategorie": "parking",
+   "name": "Parkplatz Naturerlebnispark / Stadtrainsee"
+  },
+  {
+   "osmId": 360017981,
+   "lat": 48.0823632,
+   "lon": 7.9592881,
+   "kategorie": "gastro",
+   "name": "Kiosk Baumkronenweg"
+  },
+  {
+   "osmId": 425207541,
+   "lat": 48.0890036,
+   "lon": 7.9589496,
+   "kategorie": "gastro",
+   "name": "Restaurant Stadtrainsee"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 8 €, Kinder 4–15 Jahre 6 €, unter 4 frei, ermäßigt 7 € (Schüler ab 16, Studierende, Behinderung, Rentner, Nachweis). Familie ab 3 Personen und Kindergeburtstag (Geburtstagskind frei): Erwachsene 7 €, Kind 5 €, ermäßigt 6 €. Gruppen ab 15: Erwachsene 6 €, Kind 4 €, ermäßigt 5 €. Röhrenrutsche extra 2 € / Fahrt, ab 8 Jahren; Gruppe 1,50 €. Grillrost 15 €. Stand 2026, baumkronenweg-waldkirch.de/infos/oeffnungszeiten-preise.",
+ "oeffnungszeiten": "Saison 2026 ab 21.3., täglich bis 8.11. März–Juni und ab 14.9. 11–17:30 Uhr, 1.7.–13.9. 11–18:30 Uhr. Letzter Einlass eine Stunde vorher. Gruppen nach Voranmeldung auch früher. Betreiber-Seite listet 2026 die Preise, die Uhrzeiten nach walderlebnispfade.de.",
+ "besuchshinweise": "Steg sechs Prozent, Holz. Der Weg zur Kasse ist der Sinnesweg: steil, 13 Prozent, nicht rollstuhlgerecht; Kinderwagen nur offroad. Zufahrt zur Kasse nach Anmeldung Tel. 0151 50404867. Hunde angeleint. Abenteuerpfad, Barfußpfad, Bambini-Seilpark extra. Röhrenrutsche extra 2 €, ab 8, bei Nässe oft unangenehm. Zoo und See extra. Letzter Einlass eine Stunde vor Schluss.",
+ "hoertext": "Oben am Hang hängt ein zweihundert Meter langer Holzsteg, dreiundzwanzig Meter über dem Schwarzwald. Hoch geht's über den Sinnesweg, steil, dreizehn Prozent. Rollstuhl: anrufen, dann fährst du zur Kasse. Hunde angeleint. Die Röhrenrutsche extra, ab acht, zwei Euro. Letzter Einlass eine Stunde vor Schluss.",
+ "bilderAsset": "assets/images/trails/baumkronenweg-waldkirch/credits.json"
+}

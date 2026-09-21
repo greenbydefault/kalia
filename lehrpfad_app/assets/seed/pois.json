@@ -1424,6 +1424,27 @@
     "lon": 9.8449313,
     "website": "https://www.scheidegg.de/wohnmobilstellplatz-am-hammerweiher/",
     "oeffnungszeiten": "siehe Gemeinde"
+  },
+  {
+    "id": "wohnmobilstellplatz-stadtrain-waldkirch",
+    "name": "Wohnmobilstellplatz Am Stadtrain",
+    "kategorie": "camping",
+    "kurztext": "Sechs Plätze am Naturerlebnispark, 10 €, max. zwei bis drei Nächte — unten am See, nicht am Steg.",
+    "lat": 48.09062,
+    "lon": 7.95784,
+    "website": "https://www.zweitaelerland.de/",
+    "oeffnungszeiten": "ganzjährig",
+    "telefon": "+49 7681 19433"
+  },
+  {
+    "id": "elztalmuseum-waldkirch",
+    "name": "Elztalmuseum Waldkirch",
+    "kategorie": "museum",
+    "kurztext": "Orgelbau und Stadtgeschichte am Markt, zehn Minuten vom Bahnhof — extra, nicht der Steg.",
+    "lat": 48.09389,
+    "lon": 7.96083,
+    "website": "https://www.elztalmuseum.de/",
+    "oeffnungszeiten": "siehe Museum"
   }
 ]
 

@@ -75,6 +75,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/baumwipfelpfad-steigerwald.json',
     'assets/seed/baumkronenweg-ziegelwies.json',
     'assets/seed/skywalk-allgaeu.json',
+    'assets/seed/baumwipfelpfad-panarbora.json',
+    'assets/seed/baumkronenweg-waldkirch.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];
