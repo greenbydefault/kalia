@@ -56,9 +56,29 @@ Done: `assets/seed/<id>.json` existiert.
 
 ## 6. arten[]
 
-Namen gegen `assets/seed/species.json` auflösen (Aliases). Neue Art nur wenn der Name fehlt — dann `Read tools/SPECIES_CONTENT.md` (Gerät: `GERAETE_CONTENT.md`).
+Namen gegen `assets/seed/species.json` auflösen (Aliases). Gerät: `GERAETE_CONTENT.md`.
 
-Done: jeder Eintrag löst auf.
+HAVE-Lückenbestand (bestehende Trails): `lehrpfad_app/docs/arten-luecken.md`.
+
+### Nachweis
+
+Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf dem Weg sehen, hören oder antreffen kann (`SPECIES_CONTENT.md`: Ort zuerst).
+
+1. Trail-eigen: Stationstexte, Betreiber-Site/PDF, Research „Arten“, Tafeln
+2. Schutzgebiet, in dem der Pfad liegt: NP-/Naturpark-Liste, NSG-VO, Natura-2000-SDF, Landesforst — nur wenn der Text den Ort meint
+3. Nicht: „typischer Wald“, iNaturalist/GBIF-Dump, Bundesland-Typik, Maskottchen, andere Schleife desselben Parks
+
+| Region | Quelle |
+|---|---|
+| Überall | Betreiber, Flyer, Tafel **dieses** Pfads |
+| DE in NP/NSG/FFH | Natura-2000-SDF (EEA/BfN), NP-Seiten |
+| DE Forst | Landesforst / Stadtforst **dieses** Reviers |
+| DK | GeoCenter / Naturstyrelsen-Gebiet; Arter.dk nur site-scharf |
+| ES/CAT | Parc / Diputació-Flyer dieser Route; nicht FloraCat-Dump |
+
+Neue Art nur wenn der Name im Katalog fehlt. In diesem Schritt reicht Name + Lat + Quelle in Research — `content`/`hoertext` erst mit `SPECIES_CONTENT.md`, nicht beim HAVE-Gate.
+
+Done: jeder Eintrag löst auf, jeder Eintrag hat eine Ortsquelle (Leiter 1 oder 2).
 
 ## 7. hoertext
 
@@ -119,3 +139,4 @@ Push auf `github` laut `docs/golive/vercel.md`. Nicht dieser Skill’s Job, auß
 - Go-Bar unklar → `docs/traumdatensatz.md`
 - Lizenzfeld nach Nachbar-credits unklar → `docs/datenmodell.md` TrailBild
 - Stimme nach TRAIL_HOERTEXT unklar → `docs/audio/GRUND.md`
+- Arten-Vorkommen / Lücken → `docs/arten-luecken.md`

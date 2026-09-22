@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-berg.jpg",
+    "caption": "Hoherodskopf im Vogelsberg von Südwesten.",
+    "credit": "Jörg Braukmann",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoherodskopf_von_S%C3%BCdwesten.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-buchen.jpg",
+    "caption": "Buche und Basalt am Hoherodskopf, neben der Kasse.",
+    "credit": "UuMUfQ",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoher_Vogelsberg_Hoherodskopf_Acer_Fagus_Pteridophyta_Basalt.png",
+    "kind": "ort"
+  },
+  {
+    "file": "03-gipfel.jpg",
+    "caption": "Gipfelplateau Hoherodskopf im Winter.",
+    "credit": "MdE",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoherodskopf_Vogelsberg.jpg",
+    "kind": "ort"
+  }
+]

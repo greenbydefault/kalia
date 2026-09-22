@@ -1,0 +1,394 @@
+{
+ "id": "baumkronenpfad-hoherodskopf",
+ "name": "Baumkronenpfad Hoherodskopf",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "Hängebrücken an den Bäumen am Hoherodskopf – 500 Meter, 15 Meter hoch, kein Turm. Eintritt, Hunde nicht. Bei Unwetter zu.",
+ "beschreibung": "Auf dem Gipfelplateau des Hoherodskopfs, neben dem Sendeturm, hängen die Brücken in den Buchen. Holz-Stahl, nur an den Stämmen, bis 15 Meter über dem Boden, rund 500 Meter. Eröffnet 13. Juni 2012, Betreiber H&D Kletterwald. Seit 2014 Erlebnisbrücken am selben Pfad. Eine 50-Meter-Spannweite, Plattform mit Blick über den Vogelsberg bis Frankfurt bei klarer Sicht. Kein Turm. Kinder ab drei laufen selbst, nicht frei tragen, Tragetuch geht. Kletterwald, Minigolf, Sommerrodelbahn und Galileo sind extra, oft im Kombiticket. Eine halbe bis eine Stunde.",
+ "laengeKm": 0.5,
+ "dauerMin": 45,
+ "rundkurs": true,
+ "markierung": "Baumkronenpfad Hoherodskopf",
+ "betreiber": "H&D Kletterwald GmbH & Co. KG",
+ "region": "Schotten-Breungeshain, Vogelsbergkreis, Hessen",
+ "website": "https://www.hoherodskopf-aktiv.de/baumkronenpfad/baumkronenpfad-erleben",
+ "anreise": "Adresse: Am Hoherodskopf 9, 63679 Schotten. GPS 50.51090, 9.22725 (Kasse, neben dem Sendeturm). Parkplätze direkt am Plateau, gebührenpflichtig. Bus VGO VB-60/90/91/92/96 Halt Hoherodskopf; Vulkan-Express Sa/So/Feiertag 1.5.–31.10. Jugendherberge 200 m, Am Hoherodskopf 1.",
+ "startName": "Kasse / Eingang",
+ "arten": [
+  "Rotbuche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   50.510903,
+   9.22725
+  ],
+  [
+   50.51095,
+   9.2267
+  ],
+  [
+   50.51072,
+   9.22631
+  ],
+  [
+   50.51103,
+   9.22603
+  ],
+  [
+   50.51125,
+   9.22602
+  ],
+  [
+   50.51153,
+   9.22611
+  ],
+  [
+   50.51169,
+   9.22585
+  ],
+  [
+   50.51168,
+   9.22556
+  ],
+  [
+   50.51174,
+   9.2252
+  ],
+  [
+   50.51151,
+   9.22484
+  ],
+  [
+   50.51131,
+   9.22494
+  ],
+  [
+   50.51112,
+   9.22498
+  ],
+  [
+   50.51093,
+   9.22556
+  ],
+  [
+   50.51072,
+   9.226
+  ],
+  [
+   50.51095,
+   9.2267
+  ],
+  [
+   50.510903,
+   9.22725
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2822783460,
+   "lat": 50.5109031,
+   "lon": 9.2272501,
+   "km": 0.0,
+   "titel": "Kasse / Eingang",
+   "thema": "Ticket, dann in den Wald",
+   "kurztext": "Kasse neben dem Sendeturm, nur bar. Ticket, dann westlich in die Buchen. Hunde bleiben hier. Vor der Kasse stehen oft die Heidschnucken, das ist extra. Kletterwald-Anmeldung liegt daneben, anderer Ticket-Block.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1575506727,
+   "lat": 50.51125,
+   "lon": 9.22602,
+   "km": 0.12,
+   "titel": "Hängebrücken",
+   "thema": "Von Stamm zu Stamm, ohne Bodenstütze",
+   "kurztext": "Hier fängt der Pfad an zu hängen. Holzbohlen, Stahl, Netz, Brüstung 1,30 Meter. Die Last sitzt in den Buchen, nicht auf Pfeilern. Es wippt. Unten Laubdach, Rotbuche.",
+   "erlebnisse": [
+    "steg",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -681879300,
+   "lat": 50.51174,
+   "lon": 9.2252,
+   "km": 0.25,
+   "titel": "50-Meter-Brücke",
+   "thema": "Die lange Spannweite nach Nordwest",
+   "kurztext": "Die spektakuläre Spannweite, fünfzig Meter. Immer noch an den Bäumen, fünfzehn Meter über dem Boden. 2014 kamen die Erlebnisbrücken dazu, gleicher Rundgang, Vorgeschmack auf den Kletterwald – der bleibt extra.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3912368165,
+   "lat": 50.51151,
+   "lon": 9.22484,
+   "km": 0.32,
+   "titel": "Blick Frankfurt",
+   "thema": "Vogelsberg, bei Klarheit die Skyline",
+   "kurztext": "Westkante, die Wiese fällt weg. Plattform über dem Hang, Blick über den Hohen Vogelsberg. Bei klarer Sicht die Skyline von Frankfurt. Zurück dieselbe Insel, zur Kasse am Turm.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1929462574,
+   "lat": 50.5105232,
+   "lon": 9.2248874,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1929462579,
+   "lat": 50.5105362,
+   "lon": 9.224853,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2088936820,
+   "lat": 50.5102238,
+   "lon": 9.2256488,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 2114947189,
+   "lat": 50.5098661,
+   "lon": 9.2250997,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2615178973,
+   "lat": 50.5110061,
+   "lon": 9.2247182,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2707296660,
+   "lat": 50.5108815,
+   "lon": 9.2271112,
+   "kategorie": "gastro",
+   "name": "Cafe Baumhaus"
+  },
+  {
+   "osmId": 2707296937,
+   "lat": 50.5095945,
+   "lon": 9.2257874,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2707296999,
+   "lat": 50.5097828,
+   "lon": 9.2261782,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297008,
+   "lat": 50.5097872,
+   "lon": 9.2259342,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297018,
+   "lat": 50.5097912,
+   "lon": 9.2263932,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2707297041,
+   "lat": 50.5098041,
+   "lon": 9.2259201,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2707297054,
+   "lat": 50.509825,
+   "lon": 9.2259025,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297076,
+   "lat": 50.5099509,
+   "lon": 9.2262158,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2707297114,
+   "lat": 50.5102825,
+   "lon": 9.2279809,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297148,
+   "lat": 50.510296,
+   "lon": 9.227955,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297172,
+   "lat": 50.510438,
+   "lon": 9.228325,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297184,
+   "lat": 50.5104515,
+   "lon": 9.2280603,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297242,
+   "lat": 50.5105392,
+   "lon": 9.2280375,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 2707297285,
+   "lat": 50.5106951,
+   "lon": 9.2277183,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2823083502,
+   "lat": 50.5103909,
+   "lon": 9.2258856,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2823083701,
+   "lat": 50.5104382,
+   "lon": 9.2258481,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 6923829898,
+   "lat": 50.5104702,
+   "lon": 9.2248846,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8784942102,
+   "lat": 50.510098,
+   "lon": 9.2262572,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8784961348,
+   "lat": 50.5101358,
+   "lon": 9.2262156,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8829806496,
+   "lat": 50.5114292,
+   "lon": 9.2244574,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 120139351,
+   "lat": 50.51064799090909,
+   "lon": 9.225283545454545,
+   "kategorie": "gastro",
+   "name": "Berggasthof Hoherodskopf"
+  },
+  {
+   "osmId": 120139353,
+   "lat": 50.51021452,
+   "lon": 9.22463314,
+   "kategorie": "gastro",
+   "name": "Zur schönen Aussicht"
+  },
+  {
+   "osmId": 120139372,
+   "lat": 50.51020273333333,
+   "lon": 9.225676416666666,
+   "kategorie": "gastro",
+   "name": "Hoherodskopf-Klause"
+  },
+  {
+   "osmId": 123930544,
+   "lat": 50.51057044761904,
+   "lon": 9.227325442857145,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 187726976,
+   "lat": 50.51059642222222,
+   "lon": 9.228347466666667,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 199713912,
+   "lat": 50.51017731428572,
+   "lon": 9.2266934,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 263137014,
+   "lat": 50.50970368124999,
+   "lon": 9.22613205625,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 813477372,
+   "lat": 50.51004496,
+   "lon": 9.22577214,
+   "kategorie": "wc",
+   "name": null
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 8,90 €, Kinder und Jugendliche 4–17 Jahre 4,90 €. Gruppen ab 10: Erwachsene 7,50 €, 4–17 Jahre 3,50 €. Kinder unter 3 im Tragetuch, ab 3 selbst laufen. Kombiticket 1 (Kletterwald + Pfad + Minigolf + 1× Rodel) ab 14: 35,50 €, 7–13: 26,50 €. Kombiticket 2 (Pfad + Minigolf + Galileo) ab 14: 16,50 €, 7–13: 10,90 €. Stand 2026, hoherodskopf-aktiv.de/baumkronenpfad/baumkronen-preise.",
+ "oeffnungszeiten": "Täglich 10–18 Uhr, letzter Einlass 17 Uhr (hoherodskopf-aktiv.de). Erlebnisberg: April–Oktober so, November–März Homepage. Schulklassen ab 8:30 nach Anmeldung. Bei starkem Regen, Sturm, Gewitter zu, Tel. 06044 608945 / 06032 8699888.",
+ "besuchshinweise": "Hängebrücken, sie bewegen sich. Kinder ab drei selbst, nicht frei tragen. Hunde nicht. Bei Regen, Sturm, Gewitter zu – vorher anrufen. Kletterwald, Minigolf, Rodel und Galileo extra. Letzter Einlass 17 Uhr.",
+ "hoertext": "Am Hoherodskopf hängen die Brücken an den Bäumen, nicht am Boden. Fünfhundert Meter, fünfzehn hoch, von Krone zu Krone. Ticket an der Kasse neben dem Sendeturm. Kinder ab drei laufen selbst, nicht tragen. Hunde bleiben unten. Bei Sturm, Regen, Gewitter zu. Letzter Einlass siebzehn Uhr.",
+ "bilderAsset": "assets/images/trails/baumkronenpfad-hoherodskopf/credits.json"
+}

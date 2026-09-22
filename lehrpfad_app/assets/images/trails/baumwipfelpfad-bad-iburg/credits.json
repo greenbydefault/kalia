@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-turm.jpg",
+    "caption": "Einstiegsturm am Baumwipfelpfad Bad Iburg, Landesgartenschau 2018.",
+    "credit": "Basotxerri",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Iburg_-_Landesgartenschau_2018_-_Baumwipfelpfad_-BT-_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-aussicht.jpg",
+    "caption": "Blick vom Steg über den Waldkurpark.",
+    "credit": "Basotxerri",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Iburg_-_Landesgartenschau_2018_-_Baumwipfelpfad_-BT-_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-steg.jpg",
+    "caption": "Holzsteg im Kurwald Bad Iburg.",
+    "credit": "Corradox",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Iburg_Baumwipfelpfad.jpg",
+    "kind": "ort"
+  }
+]

@@ -1,0 +1,177 @@
+{
+ "id": "baumwipfelpfad-bad-iburg",
+ "name": "Baumwipfelpfad Bad Iburg",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "439 Meter Steg im Waldkurpark, Aufzug im östlichen Turm. Eintritt.",
+ "beschreibung": "Waldkurpark Bad Iburg, Südhang des Teutoburger Walds, im UNESCO-Geopark TERRA.vita. Zur Landesgartenschau 2018 gebaut, Betreiber Teammotion Adventure GmbH & Co. KG, Philipp-Sigismund-Allee 3. Der Holzsteg ist 439 Meter lang und läuft 10 bis 26 Meter über dem Boden, an 630 kartierten Bäumen vorbei. Einige Stämme sind bis 250 Jahre alt und über einen Meter dick. Einstiegsturm im Osten, etwa 32 Meter, drei Ebenen, Aufzug. Ausstiegsturm am Nordwestende, etwa 11 Meter, nur Treppe. Der Steg ist Einbahn. Rollstuhl und Kinderwagen drehen oben um und nehmen den Aufzug zurück. Über 30 Lernstationen, von Kreidezeit und Waldstockwerken bis Fledermaus, Specht und Pilz. Der Kletterwald daneben ist ein anderes Angebot.",
+ "laengeKm": 0.44,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Baumwipfelpfad Bad Iburg",
+ "betreiber": "Teammotion Adventure GmbH & Co. KG",
+ "region": "Bad Iburg, Osnabrück, Niedersachsen",
+ "website": "https://www.baumwipfelpfad-badiburg.de/",
+ "anreise": "Philipp-Sigismund-Allee 3, 49186 Bad Iburg. Öffentlicher Parkplatz etwa 200 m südlich, gebührenpflichtig, Rollstuhlplatz (OSM 366004238). GPS Einstiegsturm 52.16150, 8.03630. Toiletten im Gebäude an der Allee, Wickeltisch, barrierefrei.",
+ "startName": "Einstiegsturm",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Weißtanne",
+  "Fichte"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   52.161513,
+   8.036225
+  ],
+  [
+   52.161517,
+   8.036213
+  ],
+  [
+   52.161634,
+   8.035902
+  ],
+  [
+   52.161747,
+   8.035362
+  ],
+  [
+   52.161769,
+   8.034914
+  ],
+  [
+   52.16209,
+   8.034873
+  ],
+  [
+   52.162113,
+   8.034472
+  ],
+  [
+   52.162028,
+   8.034046
+  ],
+  [
+   52.161993,
+   8.033646
+  ],
+  [
+   52.16219,
+   8.033516
+  ],
+  [
+   52.162242,
+   8.033181
+  ],
+  [
+   52.162551,
+   8.033292
+  ],
+  [
+   52.162754,
+   8.033657
+  ],
+  [
+   52.162892,
+   8.033472
+  ],
+  [
+   52.163129,
+   8.033556
+  ],
+  [
+   52.163137,
+   8.033181
+  ],
+  [
+   52.163195,
+   8.032853
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 637507823,
+   "lat": 52.161196,
+   "lon": 8.036405,
+   "km": 0.0,
+   "titel": "Pfad-Finder",
+   "thema": "Kasse, Ausstellung, Toiletten",
+   "kurztext": "Gebäude an der Philipp-Sigismund-Allee 3, direkt vor dem Holz. Kasse und Toiletten mit Wickeltisch. Drinnen die Ausstellung zum Geopark TERRA.vita. Der Wegweiser draußen heißt TERRA.vita-Pavillon. Von hier zum Turm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 637507854,
+   "lat": 52.161499,
+   "lon": 8.036303,
+   "km": 0.02,
+   "titel": "Einstiegsturm",
+   "thema": "Aufzug, etwa 32 Meter",
+   "kurztext": "Östlicher Turm. In OSM steht er als Aussichtsturm. Drei Ebenen, Aufzug. Der Steg startet hier und läuft nach Nordwesten, zehn bis 26 Meter über dem Waldkurpark. Blick auf Schloss Iburg und den Großen Freeden.",
+   "erlebnisse": [
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 983591992,
+   "lat": 52.163204,
+   "lon": 8.032808,
+   "km": 0.44,
+   "titel": "Ausstiegsturm",
+   "thema": "Treppe runter, kein Aufzug",
+   "kurztext": "Nordwestliches Ende, etwa 11 Meter. Zu Fuß die Treppe in den Waldkurpark. Rollstuhl und Kinderwagen drehen um und nehmen den Aufzug am Einstieg. Der Steg ist Einbahn.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 637507869,
+   "lat": 52.1613919,
+   "lon": 8.0364901,
+   "kategorie": "wc",
+   "name": "Toiletten Pfad-Finder"
+  },
+  {
+   "osmId": 2069373661,
+   "lat": 52.16218,
+   "lon": 8.03704,
+   "kategorie": "gastro",
+   "name": "Die Försterei am Baumwipfelpfad"
+  },
+  {
+   "osmId": 366004238,
+   "lat": 52.1595557,
+   "lon": 8.0355403,
+   "kategorie": "parking",
+   "name": "Parkplatz Philipp-Sigismund-Allee"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 11,50 €, ermäßigt und ab 65 Jahre 10 €, Kinder 6–17 Jahre 5 €, bis 5 Jahre frei (nur an der Tageskasse), Familie 2 Erwachsene + 2 Kinder 28 €, Gruppen ab 10 Personen 10 €. Stand März 2025, baumwipfelpfad-badiburg.de/preise.",
+ "oeffnungszeiten": "Januar Sa–So und Feiertage 10–16. Februar Fr–So 10–16. März–Oktober täglich 10–18, im Mai–September Fr–So bis 20 Uhr. November–Dezember Do–So 10–16. 1. Januar, Heiligabend und Silvester 10–15. Kasse eine halbe Stunde vorher. Wetter kann früher schließen. Stand 2026, Öffnungszeiten auf baumwipfelpfad-badiburg.de, gleichlautend am OSM-Steg.",
+ "besuchshinweise": "Aufzug nur im östlichen Einstiegsturm, etwa 32 Meter. Am Ausstiegsturm eine Treppe, etwa 11 Meter, kein Aufzug. Rollstuhl und Kinderwagen drehen auf dem Steg um. Laufbreite 1,80 Meter. Kasse schließt 30 Minuten vor Ende. Kletterwald ist extra, eigenes Ticket.",
+ "hoertext": "Waldkurpark unter dem Schloss in Bad Iburg. Ticket im Pavillon, Aufzug im östlichen Turm. Vierhundertvierzig Meter Steg, zehn bis sechsundzwanzig Meter über alten Kronen. Zu Fuß geht es am anderen Turm die Treppe runter. Rollstuhl und Kinderwagen drehen oben um, der Ausstieg hat keine Rampe. Die Kasse macht eine halbe Stunde vor Schluss zu.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-bad-iburg/credits.json"
+}

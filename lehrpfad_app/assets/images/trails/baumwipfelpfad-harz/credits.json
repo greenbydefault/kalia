@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-krone.jpg",
+    "caption": "Einstiegskrone am Baumwipfelpfad Harz, Bad Harzburg.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Harzburg_Baumwipfelpfad_lub_2024-05-10_img04_Eingang.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-aussicht.jpg",
+    "caption": "Blick vom Steg auf den Großen Burgberg.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Harzburg_Baumwipfelpfad_lub_2024-05-10_img07_Aussicht.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-abenteuer.jpg",
+    "caption": "Abenteuerpfad auf dem Baumwipfelpfad Harz.",
+    "credit": "Lukas Beck",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Harzburg_Baumwipfelpfad_lub_2024-05-10_img08_Abenteuerpfad.jpg",
+    "kind": "ort"
+  }
+]

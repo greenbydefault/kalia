@@ -14,13 +14,14 @@
  "anreise": "Buslinien 1 und 11 bis Bad Homburg-Dornholzhausen Landgraf-Friedrich-Straße, dann etwa zehn Minuten Fußweg zum Hammelhansweg. Auto: nach Dornholzhausen, im Ort parken – nicht auf Weiden oder Gestütszufahrten.",
  "startName": "Hammelhansweg / Übersichtstafel",
  "arten": [
-  "Rotbuche",
-  "Stieleiche",
-  "Fichte",
-  "Schwarzerle",
-  "Kiefer",
-  "Schaf"
- ],
+    "Rotbuche",
+    "Stieleiche",
+    "Fichte",
+    "Schwarzerle",
+    "Kiefer",
+    "Schaf",
+    "Kultur-Apfel"
+  ],
  "tags": [
   "kinderfreundlich"
  ],

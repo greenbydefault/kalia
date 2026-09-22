@@ -14,9 +14,11 @@
  "anreise": "Adresse: Böhmstraße 43, 94556 Neuschönau. GPS 48.89237, 13.48860. Igelbus-Halt Nationalparkzentrum Lusen, direkt am Pfad; Fahrschein an der Kasse: 1 € Rabatt. Parkplätze P1 und P2 des Nationalparks direkt am Pfad, Tageskarte 5 € (erste 30 Minuten frei). P4/P5 April–Oktober, zehn Minuten. Behindertenparkplätze am P1, ca. 500 m zum Eingang. Wohnmobile Sommer P5 (8 €), Winter P1. GUTi ermäßigt, activCARD einmal frei – beides nur an der Kasse, nicht mit Online-Ticket.",
  "startName": "Kasse Böhmstraße",
  "arten": [
-  "Rotbuche",
-  "Fichte"
- ],
+    "Rotbuche",
+    "Fichte",
+    "Bergahorn",
+    "Weißtanne"
+  ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",

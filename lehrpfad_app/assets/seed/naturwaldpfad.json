@@ -14,10 +14,13 @@
  "anreise": "Start Waldstraße, Israelsdorf, 23566 Lübeck, am Hundefreilauf (ehemaliger Tierpark). Parken nördlich an der Waldstraße. Bus in Israelsdorf, nicht die Haltestelle Am Rittbrook. Der Rittbrookpfad startet woanders: Am Rittbrook, Höhe Reitschule.",
  "startName": "Station 1 Douglasie / Waldstraße",
  "arten": [
-  "Douglasie",
-  "Rotbuche",
-  "Fichte"
- ],
+    "Douglasie",
+    "Rotbuche",
+    "Fichte",
+    "Stieleiche",
+    "Bergahorn",
+    "Hainbuche"
+  ],
  "tags": [
   "hunde-erlaubt"
  ],

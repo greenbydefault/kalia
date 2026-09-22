@@ -1,0 +1,546 @@
+{
+ "id": "baumwipfelweg-bad-camberg",
+ "name": "Baumwipfelweg Bad Camberg",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "800 Meter Steg im Hintertaunus, zwei Türme bis 31 Meter. Eintritt, Hunde an der Leine, nicht barrierefrei.",
+ "beschreibung": "Östlich von Bad Camberg, Hintertaunus, führt der Rundweg vom Empfangsgebäude durch die Kronen. 800 Meter Holz, Rampen und Treppen, bis 31 Meter. Eröffnet Mai 2023, Betreiber Forest Adventures Deutschland GmbH. Zwei Türme: Aussicht rund 28 Meter, Treppenturm 31 Meter mit Abstieg zum Häuschen. Blick über den nördlichen Taunus, Kreuzkapelle, bei Klarheit Großer Feldberg. Hunde an der Leine, dreihundert Stufen, Kinderwagen und Rollstuhl nicht. Baumkronen Lodge am Eingang. Eine bis zwei Stunden.",
+ "laengeKm": 0.8,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Baumwipfelweg Bad Camberg",
+ "betreiber": "Forest Adventures Deutschland GmbH",
+ "region": "Bad Camberg, Limburg-Weilburg, Hessen",
+ "website": "https://baumwipfelweg-bad-camberg.de/",
+ "anreise": "Adresse: Am Vorderwald 1, 65520 Bad Camberg. GPS 50.29490, 8.30487 (Lodge). Navigation Hotel Waldschloss oder Baumkronen Lodge, nicht den Google-Pin in den Wald. Parkplatz kostenfrei an der L3031 zwischen Bad Camberg und Steinfischbach, dann 400 m Waldweg, Beschilderung Baumwipfelweg, Empfang rechts. Bus LM-32 Halt Röntgenstraße, dann 2,4 km zu Fuß. Kein Halt direkt am Steg.",
+ "startName": "Kasse / Lodge",
+ "arten": [
+  "Rotbuche",
+  "Stieleiche",
+  "Douglasie"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   50.294896,
+   8.304867
+  ],
+  [
+   50.295187,
+   8.304934
+  ],
+  [
+   50.295163,
+   8.304794
+  ],
+  [
+   50.295166,
+   8.304708
+  ],
+  [
+   50.295205,
+   8.304619
+  ],
+  [
+   50.29524,
+   8.304582
+  ],
+  [
+   50.295278,
+   8.304586
+  ],
+  [
+   50.295333,
+   8.304654
+  ],
+  [
+   50.295187,
+   8.304934
+  ],
+  [
+   50.295021,
+   8.30512
+  ],
+  [
+   50.294996,
+   8.305129
+  ],
+  [
+   50.294875,
+   8.305169
+  ],
+  [
+   50.294784,
+   8.305086
+  ],
+  [
+   50.29478,
+   8.304933
+  ],
+  [
+   50.294727,
+   8.304841
+  ],
+  [
+   50.294712,
+   8.304761
+  ],
+  [
+   50.294727,
+   8.304657
+  ],
+  [
+   50.294668,
+   8.304502
+  ],
+  [
+   50.29459,
+   8.3044
+  ],
+  [
+   50.294582,
+   8.304227
+  ],
+  [
+   50.294418,
+   8.304017
+  ],
+  [
+   50.294443,
+   8.303854
+  ],
+  [
+   50.294413,
+   8.303601
+  ],
+  [
+   50.29444,
+   8.303573
+  ],
+  [
+   50.29442,
+   8.30347
+  ],
+  [
+   50.294364,
+   8.303492
+  ],
+  [
+   50.294317,
+   8.303456
+  ],
+  [
+   50.294291,
+   8.303413
+  ],
+  [
+   50.294277,
+   8.303373
+  ],
+  [
+   50.294242,
+   8.303308
+  ],
+  [
+   50.294191,
+   8.303268
+  ],
+  [
+   50.294129,
+   8.303277
+  ],
+  [
+   50.294078,
+   8.303306
+  ],
+  [
+   50.294033,
+   8.303334
+  ],
+  [
+   50.293999,
+   8.303314
+  ],
+  [
+   50.293971,
+   8.303285
+  ],
+  [
+   50.293957,
+   8.303277
+  ],
+  [
+   50.293929,
+   8.303264
+  ],
+  [
+   50.293881,
+   8.303273
+  ],
+  [
+   50.293848,
+   8.303308
+  ],
+  [
+   50.293828,
+   8.303368
+  ],
+  [
+   50.293844,
+   8.30343
+  ],
+  [
+   50.293882,
+   8.303464
+  ],
+  [
+   50.2939,
+   8.303548
+  ],
+  [
+   50.293912,
+   8.303621
+  ],
+  [
+   50.29393,
+   8.303731
+  ],
+  [
+   50.294077,
+   8.303909
+  ],
+  [
+   50.294181,
+   8.304013
+  ],
+  [
+   50.294191,
+   8.304107
+  ],
+  [
+   50.29416,
+   8.304204
+  ],
+  [
+   50.294166,
+   8.304313
+  ],
+  [
+   50.294117,
+   8.304324
+  ],
+  [
+   50.294102,
+   8.304238
+  ],
+  [
+   50.294142,
+   8.304184
+  ],
+  [
+   50.29417,
+   8.304086
+  ],
+  [
+   50.294131,
+   8.303995
+  ],
+  [
+   50.294046,
+   8.303916
+  ],
+  [
+   50.293932,
+   8.303846
+  ],
+  [
+   50.29387,
+   8.303811
+  ],
+  [
+   50.293844,
+   8.30385
+  ],
+  [
+   50.293808,
+   8.30382
+  ],
+  [
+   50.293765,
+   8.303852
+  ],
+  [
+   50.293748,
+   8.30393
+  ],
+  [
+   50.293702,
+   8.303948
+  ],
+  [
+   50.293666,
+   8.303951
+  ],
+  [
+   50.293627,
+   8.303969
+  ],
+  [
+   50.29359,
+   8.304075
+  ],
+  [
+   50.293558,
+   8.304273
+  ],
+  [
+   50.293569,
+   8.304341
+  ],
+  [
+   50.29361,
+   8.304397
+  ],
+  [
+   50.29363,
+   8.304442
+  ],
+  [
+   50.293696,
+   8.304451
+  ],
+  [
+   50.293751,
+   8.304469
+  ],
+  [
+   50.293809,
+   8.304519
+  ],
+  [
+   50.293896,
+   8.304643
+  ],
+  [
+   50.294008,
+   8.304771
+  ],
+  [
+   50.293996,
+   8.304869
+  ],
+  [
+   50.293983,
+   8.304949
+  ],
+  [
+   50.294018,
+   8.305005
+  ],
+  [
+   50.294076,
+   8.305033
+  ],
+  [
+   50.294087,
+   8.305068
+  ],
+  [
+   50.294039,
+   8.305221
+  ],
+  [
+   50.294081,
+   8.30536
+  ],
+  [
+   50.294061,
+   8.305472
+  ],
+  [
+   50.294031,
+   8.305476
+  ],
+  [
+   50.29406,
+   8.305694
+  ],
+  [
+   50.294126,
+   8.305797
+  ],
+  [
+   50.294237,
+   8.305815
+  ],
+  [
+   50.29436,
+   8.305764
+  ],
+  [
+   50.294519,
+   8.305563
+  ],
+  [
+   50.294727,
+   8.305485
+  ],
+  [
+   50.294759,
+   8.305395
+  ],
+  [
+   50.294793,
+   8.305313
+  ],
+  [
+   50.294823,
+   8.3052
+  ],
+  [
+   50.29485,
+   8.305093
+  ],
+  [
+   50.294991,
+   8.304974
+  ],
+  [
+   50.294896,
+   8.304867
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 13258099117,
+   "lat": 50.2948963,
+   "lon": 8.3048671,
+   "km": 0.0,
+   "titel": "Kasse / Lodge",
+   "thema": "Ticket, dann aufs Holz",
+   "kurztext": "Empfang Am Vorderwald 1. Ticket, dann die ersten Stufen auf den Steg. Hund anleinen. Lodge und WC sitzen hier. Parkplatz bleibt vierhundert Meter unten an der Landstraße, kein Vorfahren.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 10900405243,
+   "lat": 50.2952247,
+   "lon": 8.3050984,
+   "km": 0.03,
+   "titel": "Holzsteg",
+   "thema": "Zwischen Buche, Eiche, Douglasie",
+   "kurztext": "Gleich hinter dem Häuschen liegt der Steg im Kronendach. Holz, Geländer, Didaktikstationen. Unten Buchen, Eichen, Douglasien. Der Treppenturm steht schon voraus, der Weg steigt erst.",
+   "erlebnisse": [
+    "steg",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 11403857603,
+   "lat": 50.2944209,
+   "lon": 8.3035877,
+   "km": 0.27,
+   "titel": "Aussichtsturm",
+   "thema": "Achtundzwanzig Meter, Blick Taunus",
+   "kurztext": "Erster Turm, rund achtundzwanzig Meter. Rundblick über den Hintertaunus, Kreuzkapelle, bei Klarheit der Große Feldberg. Treppe, nicht barrierefrei. Der Weg steigt danach weiter.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -4212483490,
+   "lat": 50.2935576,
+   "lon": 8.3042728,
+   "km": 0.57,
+   "titel": "Treppenturm",
+   "thema": "Einunddreißig Meter, Abstieg zum Häuschen",
+   "kurztext": "Höchster Punkt, einunddreißig Meter, Südschleife. Treppe runter zum Empfang. Rund 151 Stufen am Turm, insgesamt dreihundert auf dem Rundgang. Zurück an der Lodge.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 13258099117,
+   "lat": 50.2948963,
+   "lon": 8.3048671,
+   "kategorie": "gastro",
+   "name": "Baumkronen Lodge"
+  },
+  {
+   "osmId": 11403857604,
+   "lat": 50.294962,
+   "lon": 8.3049841,
+   "kategorie": "wc",
+   "name": "WC Lodge"
+  },
+  {
+   "osmId": 11403857599,
+   "lat": 50.2948673,
+   "lon": 8.305078,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11403857600,
+   "lat": 50.2938233,
+   "lon": 8.3043478,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11403857601,
+   "lat": 50.294175,
+   "lon": 8.30418,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11403857603,
+   "lat": 50.2944209,
+   "lon": 8.3035877,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14070867101,
+   "lat": 50.29538,
+   "lon": 8.304963,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1178811066,
+   "lat": 50.2990538,
+   "lon": 8.3020242,
+   "kategorie": "parking",
+   "name": "Baumwipfelweg-Parkplatz"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Mo–Fr 7,90 €, Sa/So/Feiertag 9,90 €, bis 5 Jahre frei, ab 6 gleicher Preis. Schulklassen unter der Woche ab 15: −2 €, eine Begleitung je 15 frei. Jahreskarte 24,90 € nur online. Stand 2026, baumwipfelweg-bad-camberg.de/index.php/home/.",
+ "oeffnungszeiten": "Aktuell Homepage. Oft 9–18:30 Uhr, Herbst 11 Uhr bis Dämmerung. Ruhetage; Winter zu (taunus.info). Bei Sturm, Gewitter, starkem Regen zu, Tel. 06434 6029761.",
+ "besuchshinweise": "Nicht barrierefrei: Rampen, Treppen, rund 300 Stufen, Türme. Kinderwagen und Rollstuhl nicht. Hunde an der Leine, Gitterroste mit Zacken. Picknick erlaubt. Lodge ab 11 Uhr bis 30 Min. vor Kassenschluss. Parkplatz 400 m, kein Vorfahren ans Haus. Bei Sturm und Gewitter zu.",
+ "hoertext": "Östlich von Bad Camberg, Hintertaunus. Ticket an der Lodge, dann achthundert Meter Holz durch Buchen, Eichen, Douglasien. Zwei Türme, der hintere einunddreißig hoch, dreihundert Stufen. Hund an der Leine geht, Kinderwagen und Rollstuhl nicht. Parkplatz an der Landstraße, vierhundert Meter zu Fuß. Bei Sturm und Gewitter zu.",
+ "bilderAsset": "assets/images/trails/baumwipfelweg-bad-camberg/credits.json"
+}

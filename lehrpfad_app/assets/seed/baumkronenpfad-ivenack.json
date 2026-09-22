@@ -14,8 +14,12 @@
  "anreise": "Adresse: Tiergarten 1, 17153 Ivenack. GPS 53.71624, 12.94560. Parkplatz Ivenacker Eichen an der Eichenallee, frei, Wohnmobile am zweiten Platz Richtung Dorf. Bahn bis Stavenhagen, 3–4 km zu Fuß oder Rad. Bus 421 sporadisch Bahnhof–Ivenack Dorf, Fahrplan fahrplanauskunft-mv.de. Kasse am Ivenacker Tor, dann durch den Park zum Steg.",
  "startName": "Rampe / Einstieg",
  "arten": [
-  "Stieleiche"
- ],
+    "Stieleiche",
+    "Rotbuche",
+    "Bergahorn",
+    "Konik",
+    "Hainbuche"
+  ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",

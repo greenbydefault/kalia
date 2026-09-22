@@ -1,0 +1,387 @@
+{
+ "id": "baumwipfelpfad-harz",
+ "name": "Baumwipfelpfad Harz",
+ "typ": "erlebniswald",
+ "kurzbeschreibung": "1000 Meter Steg über dem Kalten Tal, Glassteg in 26 Metern. Eintritt, barrierearm, keine Hunde.",
+ "beschreibung": "Südlich vom Großen Burgberg, Kaltes Tal, Bad Harzburg, auf Fläche der Niedersächsischen Landesforsten, Nationalpark direkt daneben. Erster Baumwipfelpfad in Niedersachsen, eröffnet 8. Mai 2015, Betreiber HarzVenture GmbH. Einstiegskrone rund 300 Meter, höchstens 5,8 Prozent, dann der Steg bis 26 Meter über Buche, Bergahorn, Lärche und Eiche. Glassteg auf der Plattform, auf halber Strecke die Brücke über den Schweineteich. Barrierearm, Kinderwagen und Rollstuhl. Hunde nicht. Eine bis zwei Stunden. Hinteres Ende: Ausstieg in den Wald. BaumSchwebeBahn endet dort, eigenes Ticket.",
+ "laengeKm": 1.0,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Baumwipfelpfad Harz",
+ "betreiber": "HarzVenture GmbH",
+ "region": "Bad Harzburg, Goslar, Niedersachsen",
+ "website": "https://www.baumwipfelpfad-harz.de/",
+ "anreise": "Navigation Nordhäuser Str. 4, 38667 Bad Harzburg. Ticket im BurgBergCenter, Nordhäuser Str. 2c, dann 200 m zur Einstiegskrone. Parkplatz an der Straße (OSM 116490266), tagsüber 0,50 € je 30 min, erste 15 min frei, höchstens 4 Stunden. Bus 871 und 873 bis Burgbergbahn. Bahnhof Bad Harzburg etwa 20 Minuten zu Fuß. GPS Krone 51.87013, 10.56344.",
+ "startName": "Einstiegskrone",
+ "arten": [
+  "Rotbuche",
+  "Bergahorn",
+  "Europäische Lärche",
+  "Stieleiche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.870133,
+   10.563436
+  ],
+  [
+   51.870114,
+   10.563409
+  ],
+  [
+   51.870079,
+   10.563361
+  ],
+  [
+   51.87003,
+   10.563287
+  ],
+  [
+   51.870005,
+   10.563332
+  ],
+  [
+   51.869911,
+   10.563326
+  ],
+  [
+   51.869845,
+   10.563216
+  ],
+  [
+   51.869845,
+   10.563064
+  ],
+  [
+   51.869909,
+   10.562954
+  ],
+  [
+   51.870003,
+   10.562946
+  ],
+  [
+   51.870074,
+   10.563045
+  ],
+  [
+   51.870069,
+   10.563199
+  ],
+  [
+   51.870002,
+   10.563313
+  ],
+  [
+   51.869916,
+   10.56331
+  ],
+  [
+   51.869857,
+   10.563211
+  ],
+  [
+   51.869858,
+   10.56307
+  ],
+  [
+   51.869915,
+   10.56297
+  ],
+  [
+   51.869999,
+   10.562963
+  ],
+  [
+   51.870064,
+   10.563052
+  ],
+  [
+   51.87006,
+   10.563196
+  ],
+  [
+   51.869995,
+   10.563303
+  ],
+  [
+   51.869916,
+   10.563302
+  ],
+  [
+   51.869867,
+   10.563217
+  ],
+  [
+   51.869867,
+   10.563088
+  ],
+  [
+   51.869919,
+   10.562991
+  ],
+  [
+   51.869997,
+   10.562987
+  ],
+  [
+   51.870052,
+   10.563065
+  ],
+  [
+   51.87005,
+   10.563198
+  ],
+  [
+   51.869988,
+   10.56329
+  ],
+  [
+   51.869919,
+   10.56329
+  ],
+  [
+   51.869877,
+   10.563215
+  ],
+  [
+   51.869877,
+   10.56309
+  ],
+  [
+   51.869922,
+   10.563007
+  ],
+  [
+   51.869994,
+   10.563001
+  ],
+  [
+   51.870041,
+   10.563068
+  ],
+  [
+   51.870034,
+   10.563187
+  ],
+  [
+   51.869979,
+   10.563267
+  ],
+  [
+   51.869922,
+   10.563271
+  ],
+  [
+   51.869907,
+   10.563255
+  ],
+  [
+   51.869872,
+   10.563203
+  ],
+  [
+   51.870027,
+   10.562902
+  ],
+  [
+   51.870012,
+   10.562968
+  ],
+  [
+   51.86999,
+   10.563053
+  ],
+  [
+   51.869907,
+   10.563255
+  ],
+  [
+   51.869829,
+   10.563479
+  ],
+  [
+   51.86939,
+   10.564276
+  ],
+  [
+   51.869097,
+   10.564583
+  ],
+  [
+   51.868912,
+   10.565052
+  ],
+  [
+   51.868886,
+   10.565524
+  ],
+  [
+   51.868966,
+   10.566014
+  ],
+  [
+   51.868693,
+   10.565987
+  ],
+  [
+   51.868612,
+   10.566327
+  ],
+  [
+   51.868776,
+   10.566766
+  ],
+  [
+   51.868673,
+   10.567149
+  ],
+  [
+   51.86864,
+   10.567519
+  ],
+  [
+   51.868327,
+   10.567704
+  ],
+  [
+   51.868256,
+   10.568233
+  ],
+  [
+   51.868365,
+   10.568676
+  ],
+  [
+   51.868455,
+   10.569046
+  ],
+  [
+   51.868467,
+   10.569468
+  ],
+  [
+   51.868464,
+   10.569682
+  ],
+  [
+   51.86847,
+   10.569759
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 3581823951,
+   "lat": 51.8701331,
+   "lon": 10.5634364,
+   "km": 0.0,
+   "titel": "Einstiegskrone",
+   "thema": "Dreihundert Meter Rampe, höchstens 5,8 Prozent",
+   "kurztext": "Unten an der Nordhäuser Straße. Ticket zweihundert Meter vorher im BurgBergCenter. Die Krone schraubt sich dreihundert Meter hoch, höchstens 5,8 Prozent. Kinderwagen und Rollstuhl gehen mit. Hund nicht.",
+   "erlebnisse": [
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 6712471763,
+   "lat": 51.8700273,
+   "lon": 10.5629015,
+   "km": 0.3,
+   "titel": "Glassteg",
+   "thema": "Sechsundzwanzig Meter, Glas unter den Füßen",
+   "kurztext": "Oben auf der Krone liegt ein kurzes Stück Glas im Boden, sechsundzwanzig Meter über dem Tal. Blick nach Westen auf die Nordhäuser Straße. Der Holzsteg läuft von hier nach Osten.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 3581823954,
+   "lat": 51.8683271,
+   "lon": 10.5677044,
+   "km": 0.6,
+   "titel": "Schweineteich",
+   "thema": "Brücke über den Teich",
+   "kurztext": "Halbe Strecke. Die Brücke geht über den Schweineteich, den der Kaltentalbach speist. Rechts und links Buche, Bergahorn, Lärche, Eiche. Die Wipfel Bar sitzt auf der Plattform daneben.",
+   "erlebnisse": [
+    "steg",
+    "bestimmung"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 7102248994,
+   "lat": 51.8684701,
+   "lon": 10.569759,
+   "km": 1.0,
+   "titel": "Hinterer Zugang",
+   "thema": "Östliches Ende, Schwebebahn kommt hier an",
+   "kurztext": "Ende des Stegs im Tal. Zurück über denselben Weg oder runter in den Wald. Die BaumSchwebeBahn endet hier, eigenes Ticket, nicht der Pfad.",
+   "erlebnisse": [
+    "steg"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3581827216,
+   "lat": 51.8700684,
+   "lon": 10.5633863,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 12296276936,
+   "lat": 51.8701191,
+   "lon": 10.5634437,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 3581827196,
+   "lat": 51.8699567,
+   "lon": 10.5632177,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 116490266,
+   "lat": 51.870566,
+   "lon": 10.56038,
+   "kategorie": "parking",
+   "name": "Parkplatz Nordhäuser Straße"
+  },
+  {
+   "osmId": 714007933,
+   "lat": 51.868874,
+   "lon": 10.5670792,
+   "kategorie": "gastro",
+   "name": "Wipfel Bar"
+  }
+ ],
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene 10 €, Kinder 4–14 Jahre 8,50 €, bis 3 Jahre frei, ab 65 Jahre 9,50 €. Familie 2 Erwachsene + 1 Kind 26 €. Gruppen ab 20: 8,50 €, Schulklassen 7 €. Stand 2026, baumwipfelpfad-harz.de.",
+ "oeffnungszeiten": "1.1.–20.3. 10–16, 21.3.–30.6. 9:30–18, 1.7.–31.8. 9:30–19, 1.9.–1.11. 9:30–18, 2.11.–31.12. 10–16. Täglich. Letzter Einlass eine Stunde vor Schluss. Bei Sturm und Eis zu. Stand 2026, baumwipfelpfad-harz.de.",
+ "besuchshinweise": "Barrierearm: Rampe höchstens 5,8 Prozent, Kinderwagen, Rollstuhl, Rollator. Hunde nicht. Ticket gilt auch für den hinteren Zugang, Kauf im BurgBergCenter, 200 m vor der Krone. Parken Nordhäuser Straße, tags 0,50 € je 30 min nach 15 min. Bei Sturm und Eis zu.",
+ "hoertext": "Kaltes Tal, südlich vom Burgberg in Bad Harzburg. Ticket im BurgBergCenter, zweihundert Meter bis zur Krone. Tausend Meter Holz, Rampe höchstens sechs Prozent, Kinderwagen und Rollstuhl gehen mit. Hund bleibt unten. Oben Buche, Ahorn, Lärche und Eiche, auf halber Strecke der Schweineteich, der Glassteg in sechsundzwanzig Metern. Bei Sturm und Eis bleibt der Steg zu.",
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-harz/credits.json"
+}

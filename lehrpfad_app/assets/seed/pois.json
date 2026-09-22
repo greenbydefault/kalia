@@ -1445,6 +1445,94 @@
     "lon": 7.96083,
     "website": "https://www.elztalmuseum.de/",
     "oeffnungszeiten": "siehe Museum"
+  },
+  {
+    "id": "sommerrodelbahn-hoherodskopf",
+    "name": "Sommerrodelbahn Hoherodskopf",
+    "kategorie": "aktivitaet",
+    "kurztext": "Rodelbahn am Plateau, extra Ticket — nicht der Baumkronenpfad.",
+    "lat": 50.5086442,
+    "lon": 9.2251504,
+    "website": "https://www.ski-und-rodelarena-hoherodskopf.de/",
+    "oeffnungszeiten": "siehe Betreiber, witterungsabhängig"
+  },
+  {
+    "id": "vulkaneum-schotten",
+    "name": "Vulkaneum Schotten",
+    "kategorie": "museum",
+    "kurztext": "Mitmach-Museum zum Vulkan Vogelsberg in der Stadt — extra, nicht der Steg.",
+    "lat": 50.5042896,
+    "lon": 9.1258847,
+    "website": "https://www.vulkaneum.com/",
+    "oeffnungszeiten": "siehe Museum"
+  },
+  {
+    "id": "niddastausee-schotten",
+    "name": "Niddastausee",
+    "kategorie": "baden",
+    "kurztext": "Stausee unterhalb von Schotten, Surfen und Ufer — extra, nicht der Gipfel.",
+    "lat": 50.4935,
+    "lon": 9.1320,
+    "website": "https://www.tourist-schotten.de/schotten/niddastausee.html",
+    "oeffnungszeiten": "Ufer frei"
+  },
+  {
+    "id": "rodelbahn-sankt-englmar",
+    "name": "Rodelbahn Sankt Englmar",
+    "kategorie": "aktivitaet",
+    "kurztext": "Sommerrodel und Park in Grün, extra — nicht der Waldwipfelweg, knapp 1 km.",
+    "lat": 49.011377,
+    "lon": 12.797527,
+    "website": "https://sommerrodeln.de/",
+    "oeffnungszeiten": "siehe Betreiber, Saison"
+  },
+  {
+    "id": "campingplatz-rehbach",
+    "name": "Campingplatz Rehbach",
+    "kategorie": "camping",
+    "kurztext": "Camping am Südufer, Strandweg Rehbach — extra, nicht der Steg, gut 700 m.",
+    "lat": 51.1829676,
+    "lon": 9.0218479,
+    "oeffnungszeiten": "Saison"
+  },
+  {
+    "id": "hotel-waldschloss-bad-camberg",
+    "name": "Hotel Waldschloss",
+    "kategorie": "restaurant",
+    "kurztext": "Hotel an der L3031, Orientierung für die Anfahrt — extra, nicht der Steg, gut 700 m.",
+    "lat": 50.2994662,
+    "lon": 8.2967278,
+    "website": "https://hotel-waldschloss.de/",
+    "oeffnungszeiten": "siehe Hotel"
+  },
+  {
+    "id": "fischerhuette-rehbach",
+    "name": "Restaurant Fischerhütte",
+    "kategorie": "restaurant",
+    "kurztext": "Fisch am Strandweg Rehbach — extra, wenige Minuten von der Kasse.",
+    "lat": 51.1821685,
+    "lon": 9.0219816,
+    "oeffnungszeiten": "siehe Restaurant"
+  },
+  {
+    "id": "harz-camp-goettingerode",
+    "name": "Harz-Camp Göttingerode",
+    "kategorie": "camping",
+    "kurztext": "Platz an der Kreisstraße 66, oberhalb von Bad Harzburg — extra, nicht der Steg, gut 4 km Luftlinie.",
+    "lat": 51.8915466,
+    "lon": 10.5116196,
+    "website": "https://www.harz-camp.de/",
+    "oeffnungszeiten": "ganzjährig",
+    "telefon": "+49 5322 81215"
+  },
+  {
+    "id": "sagenhaft-bad-harzburg",
+    "name": "Sagenhaft",
+    "kategorie": "restaurant",
+    "kurztext": "Küche an der Nordhäuser Straße 2b, neben der Kasse — extra, nicht der Steg, etwa 200 m.",
+    "lat": 51.870953,
+    "lon": 10.5606661,
+    "oeffnungszeiten": "siehe Restaurant"
   }
 ]
 

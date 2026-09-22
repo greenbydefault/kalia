@@ -4,7 +4,7 @@ Verbindliche Spec für `assets/seed/species.json` → Feld `content` (`kategorie
 Für `kategorie: geraete` siehe [`GERAETE_CONTENT.md`](GERAETE_CONTENT.md) (gleiche Limits, andere Semantik).
 Erzwungen durch `tools/validate_seeds.py`.
 
-**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md). Limits und Felder bleiben hier.
+**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) plus [`unslop`](../../.cursor/skills/unslop/SKILL.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md). Limits und Felder bleiben hier.
 
 ## Haltung
 

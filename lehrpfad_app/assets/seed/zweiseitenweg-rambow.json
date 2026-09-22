@@ -14,12 +14,13 @@
  "anreise": "Start Parkplatz Sportplatz, Mellener Weg, 19357 Boberow / Karstädt. Auto über Karstädt, Parken am Sportplatz. Alternative: Kirche Rambow oder Großsteingrab Mellen. ÖPNV: Bahnhof Karstädt, Bus 953 Richtung Lenzen, Bus 975 ab ZOB Perleberg nach Boberow. Wahrberge startet in Groß Woltersdorf, das ist der andere Prignitz-Pfad.",
  "startName": "Sportplatz Boberow / Mellener Weg",
  "arten": [
-  "Kranich",
-  "Großer Feuerfalter",
-  "Wollgras",
-  "Knabenkraut",
-  "Schwarzerle"
- ],
+    "Kranich",
+    "Großer Feuerfalter",
+    "Wollgras",
+    "Knabenkraut",
+    "Schwarzerle",
+    "Bekassine"
+  ],
  "tags": [
   "kinderfreundlich",
   "hunde-erlaubt",

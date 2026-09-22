@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Holzsteg Bad Camberg, Blick zum Treppenturm.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelweg_Bad_Camberg-01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-turm.jpg",
+    "caption": "Aussichtsturm am Baumwipfelweg Bad Camberg, rund 28 Meter.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelweg_Bad_Camberg-06.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-treppe.jpg",
+    "caption": "Blick vom Treppenturm zum Eingangshäuschen, Bad Camberg.",
+    "credit": "Muck",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelweg_Bad_Camberg-03.jpg",
+    "kind": "ort"
+  }
+]

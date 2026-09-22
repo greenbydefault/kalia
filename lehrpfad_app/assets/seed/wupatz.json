@@ -14,15 +14,16 @@
  "anreise": "RE1 oder S3 nach Erkner, von dort ca. 30 Minuten zu Fuß oder Bus 420/429/436 bis „Löcknitz Anlegestelle“. Auto: nördlicher Parkplatz Fangschleusenstraße (etwa Höhe Hausnummer 6).",
  "startName": "Nördlicher Parkplatz Fangschleusenstraße, Erkner",
  "arten": [
-  "Rote Waldameise",
-  "Kiefer",
-  "Stieleiche",
-  "Eisvogel",
-  "Igel",
-  "Distelfalter",
-  "Kleiner Fuchs",
-  "Schwarzerle"
- ],
+    "Rote Waldameise",
+    "Kiefer",
+    "Stieleiche",
+    "Eisvogel",
+    "Igel",
+    "Distelfalter",
+    "Kleiner Fuchs",
+    "Schwarzerle",
+    "Hainbuche"
+  ],
  "tags": [
   "kinderfreundlich",
   "picknick"

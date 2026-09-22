@@ -14,10 +14,15 @@
  "anreise": "Start Übersichtskarte am Kurparksee, Am Kurpark / Holstein Therme, 23611 Bad Schwartau. Parken am Parkhaus der Klinik und an der Geibelstraße. Zweiter Einstieg: Parkplatz Riesebusch, Höhe Grünes Klassenzimmer. Bus nach Bad Schwartau Markt, nicht die Haltestellen im Lübecker Lauerholz.",
  "startName": "Übersichtskarte / Kurparksee",
  "arten": [
-  "Schwarzerle",
-  "Rotbuche",
-  "Libelle"
- ],
+    "Schwarzerle",
+    "Rotbuche",
+    "Libelle",
+    "Honigbiene",
+    "Wildbiene",
+    "Igel",
+    "Kultur-Apfel",
+    "Kammmolch"
+  ],
  "tags": [
   "kinderfreundlich"
  ],

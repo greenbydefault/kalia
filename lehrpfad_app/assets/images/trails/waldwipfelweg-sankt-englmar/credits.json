@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Waldwipfelweg Sankt Englmar, Steg über Maibrunn.",
+    "credit": "Kora27",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaldwipfelweg_St._Englmar._Bayern...2011Bayern_1069WI.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-fichten.jpg",
+    "caption": "Steg von unten zwischen den Fichten, Maibrunn.",
+    "credit": "Kora27",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnblick_der_Waldwipfelpfad_von_unten...2011Bayern_1219WI.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-turm.jpg",
+    "caption": "Steg und 52-Meter-Turm, Maibrunn.",
+    "credit": "Pedemann",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaldwipfelweg_2025.jpg",
+    "kind": "ort"
+  }
+]

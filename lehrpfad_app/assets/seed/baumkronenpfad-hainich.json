@@ -14,13 +14,16 @@
  "anreise": "Adresse fürs Navi: Parkplatz Baumkronenpfad, 99991 Unstrut-Hainich OT Alterstedt. GPS 51.08142, 10.51765. Post: Thiemsburg 1, 99947 Schönstedt. Auto über B84, Parkplatz an der K515, zehn Minuten zu Fuß zum Steg. Nationalparkbus 154 Mühlhausen–Thiemsburg, Halt am Parkplatz. Rad: Gelbe Route Creuzburg–Bad Langensalza.",
  "startName": "Kasse / Lift am Baumturm",
  "arten": [
-  "Rotbuche",
-  "Bergahorn",
-  "Wildkatze",
-  "Bechsteinfledermaus",
-  "Buntspecht",
-  "Großer Schillerfalter"
- ],
+    "Rotbuche",
+    "Bergahorn",
+    "Wildkatze",
+    "Bechsteinfledermaus",
+    "Buntspecht",
+    "Großer Schillerfalter",
+    "Stieleiche",
+    "Schwarzerle",
+    "Hainbuche"
+  ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",

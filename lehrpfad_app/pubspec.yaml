@@ -141,6 +141,12 @@ flutter:
     - assets/images/trails/skywalk-allgaeu/
     - assets/images/trails/baumwipfelpfad-panarbora/
     - assets/images/trails/baumkronenweg-waldkirch/
+    - assets/images/trails/baumkronenpfad-hoherodskopf/
+    - assets/images/trails/waldwipfelweg-sankt-englmar/
+    - assets/images/trails/treetopwalk-edersee/
+    - assets/images/trails/baumwipfelweg-bad-camberg/
+    - assets/images/trails/baumwipfelpfad-harz/
+    - assets/images/trails/baumwipfelpfad-bad-iburg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

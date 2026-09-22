@@ -3,7 +3,7 @@
 Verbindliche Spec für Trail-`hoertext` — Studio-Vorlage für Play am Trail-Sheet, nicht Lesetext.
 Feld und Player sind **nicht v1** ([`docs/golive/GRUND.md`](../docs/golive/GRUND.md) → TTS); Texte werden trotzdem jetzt produziert, wie bei Species-`hoertext`.
 Schwester-Specs: [`SPECIES_CONTENT.md`](SPECIES_CONTENT.md) (Flora/Fauna), [`GERAETE_CONTENT.md`](GERAETE_CONTENT.md) (Geräte).
-**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md). Limits bleiben hier.
+**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) plus [`unslop`](../../.cursor/skills/unslop/SKILL.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md). Limits bleiben hier.
 
 ## Zweck
 

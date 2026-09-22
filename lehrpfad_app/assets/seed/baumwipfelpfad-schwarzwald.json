@@ -14,9 +14,10 @@
  "anreise": "Adresse: Peter-Liebig-Weg 16, 75323 Bad Wildbad. GPS 48.75030, 8.53573. S6 nach Bad Wildbad, Halt Uhlandplatz/Sommerbergbahn, dann Standseilbahn; von der Bergstation wenige Minuten zu Fuß. Parkplatz Sommerberg (Peter-Liebig-Weg 12, 168 Plätze, kostenpflichtig), fünf bis zehn Minuten. Behindertenparkplätze am Auerhahn, ca. 200 m. Wohnmobile nicht auf den Sommerberg.",
  "startName": "Kasse Peter-Liebig-Weg",
  "arten": [
-  "Rotbuche",
-  "Fichte"
- ],
+    "Rotbuche",
+    "Fichte",
+    "Weißtanne"
+  ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Baumkronenweg Edersee, Steg durch die Kronen.",
+    "credit": "Ot",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad-Edersee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-see.jpg",
+    "caption": "Blick vom Baumkronenweg auf den Edersee, Halbinsel Scheid.",
+    "credit": "Andreas Eichler",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2014.09.30.-06-Baumkronenweg_am_Edersee_-_Hemfurth-Edersee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-buchen.jpg",
+    "caption": "Buchenwald am Eschelberg beim Baumkronenweg, Edertal-Hemfurth.",
+    "credit": "Enibas23enibas",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKellerwald_beim_Baumwipfelpfad_Edertal-Hemfurth_in_Hessen_04.jpg",
+    "kind": "ort"
+  }
+]

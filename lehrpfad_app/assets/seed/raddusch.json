@@ -14,19 +14,20 @@
  "anreise": "RE 2 ab Berlin Hbf nach Raddusch, von dort ca. 10 Minuten zu Fuß zum Naturhafen. Auto: A 15 bis Abfahrt Boblitz, weiter der Ausschilderung nach Raddusch folgen, Parken am Naturhafen (Hafenweg / Radduscher Dorfstraße 10).",
  "startName": "Naturhafen Raddusch",
  "arten": [
-  "Moorfrosch",
-  "Rotbauchunke",
-  "Wollgras",
-  "Sumpfblutauge",
-  "Sumpf-Schwertlilie",
-  "Großer Feuerfalter",
-  "Große Moosjungfer",
-  "Schwarzerle",
-  "Sumpfdotterblume",
-  "Kranich",
-  "Schwarzstorch",
-  "Fischotter"
- ],
+    "Moorfrosch",
+    "Rotbauchunke",
+    "Wollgras",
+    "Sumpfblutauge",
+    "Sumpf-Schwertlilie",
+    "Großer Feuerfalter",
+    "Große Moosjungfer",
+    "Schwarzerle",
+    "Sumpfdotterblume",
+    "Kranich",
+    "Schwarzstorch",
+    "Fischotter",
+    "Bekassine"
+  ],
  "tags": [
   "kinderfreundlich",
   "einkehr"

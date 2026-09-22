@@ -922,3 +922,15 @@ Quelle: https://totnens.cat/que-fem/parc-i-castell-de-jalpi/
 4. Ist prüfen: Bechstein Prora / Stieleiche Vallvidrera / Buntspecht Saarschleife gestrichen
 
 HAVE-Skill Schritt 6 folgt derselben Leiter.
+
+### baumwipfelpfad-bad-iburg
+
+`erlebniswald`
+
+**Ist:** Rotbuche, Stieleiche, Weißtanne, Fichte
+
+**Katalog-Kandidat:** Vogelkirsche (FAQ „Kirsche“); Gemeine Esche *Fraxinus excelsior* (FAQ „Esche“).
+
+**Nicht:** Ahorn ohne Art (Bergahorn vs. Spitzahorn, FAQ unterscheidet nicht). Lärche ist Laufbelag. Fünf Fledermausarten, Spechte, Steinpilz, Marone, Pfifferling nur als Tafelthema, keine Art am Ort. Hirschkäfer und Wildschwein nur in der AR-App.
+
+Quelle: https://www.baumwipfelpfad-badiburg.de/faq/

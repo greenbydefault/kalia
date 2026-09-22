@@ -11,9 +11,11 @@ Living-Index. Stimme und Kanäle bleiben [`../oeffentlich/GRUND.md`](../oeffentl
 | [`videos/naturwaldpfad.md`](videos/naturwaldpfad.md) | Zweiter Lübeck-Pin, Lauerholz Israelsdorf |
 | [`videos/baumwipfelpfad-saarschleife.md`](videos/baumwipfelpfad-saarschleife.md) | Erster Saarland-HAVE, Steg + goldener Pin |
 | [`videos/baumwipfelpfad-schwarzwald.md`](videos/baumwipfelpfad-schwarzwald.md) | Erster BW-HAVE, Steg + goldener Pin |
+| [`videos/baumwipfelpfad-panarbora.md`](videos/baumwipfelpfad-panarbora.md) | Erster NRW-HAVE, Steg + goldener Pin |
 | [`videos/untereider.md`](videos/untereider.md) | Erster RD-HAVE, NER Untereider |
 | [`videos/moislinger-aue.md`](videos/moislinger-aue.md) | Vierter Lübeck-Pin, NER Moisling |
 | [`videos/sl-c-73-alzines-can-portell.md`](videos/sl-c-73-alzines-can-portell.md) | Erster Katalonien-HAVE, Hortsavinyà |
+| [`videos/baumwipfelpfad-harz.md`](videos/baumwipfelpfad-harz.md) | Erster Niedersachsen-HAVE, Steg + goldener Pin |
 
 Neue Form (Reel-Serie, Karussell, Ads) = neuer Unterordner plus Trello-Liste, wenn das erste Stück wirklich kommt. Keine leeren Ordner auf Vorrat.
 

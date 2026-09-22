@@ -63,6 +63,9 @@ Weitere HAVE-Seeds (gleiche Pipeline):
 | `baumwipfelpfad-steigerwald.json` | `baumwipfelpfad-steigerwald` | `erlebniswald` (`eintritt: true`) |
 | `baumkronenweg-ziegelwies.json` | `baumkronenweg-ziegelwies` | `erlebniswald` (`eintritt: true`) |
 | `skywalk-allgaeu.json` | `skywalk-allgaeu` | `erlebniswald` (`eintritt: true`) |
+| `treetopwalk-edersee.json` | `treetopwalk-edersee` | `erlebniswald` (`eintritt: true`) |
+| `baumwipfelweg-bad-camberg.json` | `baumwipfelweg-bad-camberg` | `erlebniswald` (`eintritt: true`) |
+| `baumwipfelpfad-bad-iburg.json` | `baumwipfelpfad-bad-iburg` | `erlebniswald` (`eintritt: true`) |
 
 Build: Config unter `tools/trails/<id>.json` → `tools/build_seed.py` → Seed (Linien) bzw. direkter Flächen-Seed mit `area[]`. Optional Supabase via `tools/seed_supabase.py` / `seed_sql.py`.
 

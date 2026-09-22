@@ -2,7 +2,7 @@
 
 Verbindliche Spec für `assets/seed/species.json` mit `kategorie: "geraete"`.
 Content-Shape und Limits wie [`SPECIES_CONTENT.md`](SPECIES_CONTENT.md) (gleicher Validator).
-**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md).
+**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) plus [`unslop`](../../.cursor/skills/unslop/SKILL.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md).
 Icons: `iconKey` → `geraeteKatalog` in `lib/shared/catalogs/icon_catalog.dart` (nie IconData im JSON).
 
 ## Haltung
