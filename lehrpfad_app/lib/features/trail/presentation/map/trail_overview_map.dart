@@ -160,6 +160,7 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
       options: MapOptions(
         initialCenter: MapConfig.defaultCenter,
         initialZoom: MapConfig.defaultZoom,
+        interactionOptions: MapConfig.interactionOptions,
         initialCameraFit: allPoints.isNotEmpty
             ? CameraFit.bounds(
                 bounds: LatLngBounds.fromPoints(allPoints),

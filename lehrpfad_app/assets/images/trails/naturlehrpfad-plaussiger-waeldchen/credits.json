@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-parthe.jpg",
+    "caption": "Parthe bei Plaußig, Mai 2018.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parthe_bei_Plau%C3%9Fig_2018_001.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-teich.jpg",
+    "caption": "Teich in Plaußig, Mai 2018.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teich_Plau%C3%9Fig_2018_001.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-aue.jpg",
+    "caption": "Graben in der Parthenaue bei Plaußig, Mai 2018.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parthenaue_bei_Plau%C3%9Fig_2018_001.jpg",
+    "kind": "ort"
+  }
+]

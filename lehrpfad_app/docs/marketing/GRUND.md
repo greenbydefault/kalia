@@ -16,6 +16,7 @@ Living-Index. Stimme und Kanäle bleiben [`../oeffentlich/GRUND.md`](../oeffentl
 | [`videos/moislinger-aue.md`](videos/moislinger-aue.md) | Vierter Lübeck-Pin, NER Moisling |
 | [`videos/sl-c-73-alzines-can-portell.md`](videos/sl-c-73-alzines-can-portell.md) | Erster Katalonien-HAVE, Hortsavinyà |
 | [`videos/baumwipfelpfad-harz.md`](videos/baumwipfelpfad-harz.md) | Erster Niedersachsen-HAVE, Steg + goldener Pin |
+| [`videos/wasserspielplatz-lene-voigt.md`](videos/wasserspielplatz-lene-voigt.md) | Erster Sachsen-HAVE, Wasserspielplatz Lene-Voigt |
 
 Neue Form (Reel-Serie, Karussell, Ads) = neuer Unterordner plus Trello-Liste, wenn das erste Stück wirklich kommt. Keine leeren Ordner auf Vorrat.
 

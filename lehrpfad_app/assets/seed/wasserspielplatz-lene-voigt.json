@@ -1,0 +1,348 @@
+{
+ "id": "wasserspielplatz-lene-voigt",
+ "name": "Wasserspielplatz Lene-Voigt-Park",
+ "typ": "wasserspielplatz",
+ "kurzbeschreibung": "Handpumpe und Holzrinne im Lene-Voigt-Park. Frei, Wasser nur in der warmen Saison.",
+ "beschreibung": "Am Ostrand des Lene-Voigt-Parks, Ecke Eilenburger Straße und Rubensstraße, liegt der städtische Wasserspielplatz. Eine Handpumpe speist die Holzstrecke mit Wasserlauf, daneben Sand zum Matschen. Die Stadt Leipzig listet Wasserpumpe, Holzrinne und Sandspielfläche; saniert wurde der Platz 2019. Zugang frei, ohne Anmeldung. Wasser läuft saisonal, in den warmen Monaten. Wechselkleidung mitnehmen. Märchenplatz und Kletterplatz im selben Park sind andere Spielplätze und gehören nicht zu diesem Ort. Tram 15 und Bus 60 halten am Ostplatz.",
+ "laengeKm": 0.0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Spielplatz Lene-Voigt-Park – Wasserspiel",
+ "betreiber": "Stadt Leipzig – Amt für Stadtgrün und Gewässer",
+ "region": "Leipzig, Reudnitz-Thonberg, Sachsen",
+ "website": "https://www.leipzig.de/kultur-und-freizeit/spielplaetze/detail/projekt/spielplatz-lene-voigt-park-wasserspiel",
+ "anreise": "Adresse: Eilenburger Straße / Rubensstraße, 04317 Leipzig (Reudnitz-Thonberg). Tram 15 und Bus 60, Haltestelle Ostplatz, von dort ein paar Minuten in den Park. Öffentliche Parkplätze an der Straße. Der Wasserspielplatz liegt am Ostrand. Märchenplatz und Kletterplatz im selben Park sind andere Spielplätze.",
+ "startName": "Wasserspielplatz Lene-Voigt-Park",
+ "arten": [
+  "Wasserpumpe",
+  "Wasserrinne"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   51.33334,
+   12.40316
+  ],
+  [
+   51.33326,
+   12.40323
+  ],
+  [
+   51.3332,
+   12.4033
+  ]
+ ],
+ "area": [
+  [
+   51.3333628,
+   12.4031356
+  ],
+  [
+   51.3333112,
+   12.4034082
+  ],
+  [
+   51.3332906,
+   12.4033982
+  ],
+  [
+   51.3331563,
+   12.4033332
+  ],
+  [
+   51.3332079,
+   12.4030606
+  ],
+  [
+   51.3333417,
+   12.4031254
+  ],
+  [
+   51.3333628,
+   12.4031356
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -4114585177,
+   "lat": 51.33334,
+   "lon": 12.40316,
+   "km": 0.0,
+   "titel": "Wasserpumpe",
+   "thema": "Muskelkraft",
+   "kurztext": "Ohne Pumpen bleibt die Rinne leer. Hier fängst du den Wasserlauf mit der Hand an.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3656767135,
+   "lat": 51.33326,
+   "lon": 12.40323,
+   "km": 0.01,
+   "titel": "Holzstrecke mit Wasserlauf",
+   "thema": "Fluss lenken",
+   "kurztext": "Die Holzrinne trägt das Wasser über den Platz. Stau setzen, öffnen, schauen wohin es läuft.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1113742334,
+   "lat": 51.3332,
+   "lon": 12.4033,
+   "km": 0.02,
+   "titel": "Sand und Matschtisch",
+   "thema": "Matschen",
+   "kurztext": "Sandfläche am Ende der Strecke. Hier wird aus dem Rinnsal Matsch, Wechselkleidung lohnt.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 255144340,
+   "lat": 51.3340584,
+   "lon": 12.4034792,
+   "kategorie": "gastro",
+   "name": "Anna Rosa"
+  },
+  {
+   "osmId": 2417473600,
+   "lat": 51.3337135,
+   "lon": 12.4013294,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2417473611,
+   "lat": 51.3336264,
+   "lon": 12.4017719,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2417473615,
+   "lat": 51.3336699,
+   "lon": 12.4015493,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3407712101,
+   "lat": 51.3327532,
+   "lon": 12.4042322,
+   "kategorie": "gastro",
+   "name": "Espresso Zack Zack"
+  },
+  {
+   "osmId": 5261734462,
+   "lat": 51.3336355,
+   "lon": 12.4044839,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5261734463,
+   "lat": 51.3335091,
+   "lon": 12.4046191,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7572419760,
+   "lat": 51.3337458,
+   "lon": 12.4034745,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7572419761,
+   "lat": 51.3337792,
+   "lon": 12.4035481,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7572419762,
+   "lat": 51.333748,
+   "lon": 12.4035227,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7836940342,
+   "lat": 51.3333288,
+   "lon": 12.4032601,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7840105805,
+   "lat": 51.3333433,
+   "lon": 12.4031876,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7840105806,
+   "lat": 51.3333156,
+   "lon": 12.4033445,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8888194369,
+   "lat": 51.333392,
+   "lon": 12.4026005,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8888194370,
+   "lat": 51.333416,
+   "lon": 12.4024671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8888194371,
+   "lat": 51.3333844,
+   "lon": 12.4022508,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8888194372,
+   "lat": 51.3334804,
+   "lon": 12.4021618,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385389,
+   "lat": 51.3340489,
+   "lon": 12.4016247,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385390,
+   "lat": 51.3339405,
+   "lon": 12.4021902,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385391,
+   "lat": 51.3338887,
+   "lon": 12.4024596,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385392,
+   "lat": 51.3338373,
+   "lon": 12.402727,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385393,
+   "lat": 51.3337303,
+   "lon": 12.4032734,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385394,
+   "lat": 51.3336621,
+   "lon": 12.4036208,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385395,
+   "lat": 51.3336223,
+   "lon": 12.4038249,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8934385396,
+   "lat": 51.3335631,
+   "lon": 12.4041284,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10159608812,
+   "lat": 51.3336171,
+   "lon": 12.4010475,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11306784857,
+   "lat": 51.333854,
+   "lon": 12.4030758,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 165643855,
+   "lat": 51.3332596,
+   "lon": 12.4032344,
+   "kategorie": "playground",
+   "name": "Wasserspiel"
+  },
+  {
+   "osmId": 165650183,
+   "lat": 51.332418,
+   "lon": 12.4045085,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 401553582,
+   "lat": 51.334186,
+   "lon": 12.4039444,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 960801576,
+   "lat": 51.3334,
+   "lon": 12.4025121,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1513579874,
+   "lat": 51.3330706,
+   "lon": 12.4034042,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1513581683,
+   "lat": 51.3341824,
+   "lon": 12.4022605,
+   "kategorie": "parking",
+   "name": null
+  }
+ ],
+ "hoertext": "Im Lene-Voigt-Park, Ecke Eilenburger Straße, steht die Handpumpe an der Holzrinne. Wasser kommt hier nur in den warmen Monaten, die Stadt schaltet es saisonal. Daneben Sand zum Matschen. Nimm Wechselkleidung mit, nass werden gehört dazu. Tram 15 hält am Ostplatz, von dort ein paar Minuten in den Park. Der Märchenplatz im selben Park ist ein eigener Spielplatz.",
+ "bilderAsset": "assets/images/trails/wasserspielplatz-lene-voigt/credits.json"
+}

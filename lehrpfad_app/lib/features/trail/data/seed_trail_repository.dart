@@ -83,6 +83,9 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/baumwipfelweg-bad-camberg.json',
     'assets/seed/baumwipfelpfad-harz.json',
     'assets/seed/baumwipfelpfad-bad-iburg.json',
+    'assets/seed/wasserspielplatz-lene-voigt.json',
+    'assets/seed/wasserspielplatz-giesserbruecke.json',
+    'assets/seed/naturlehrpfad-plaussiger-waeldchen.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

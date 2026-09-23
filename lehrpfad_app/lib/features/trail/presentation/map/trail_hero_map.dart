@@ -92,9 +92,7 @@ class _TrailHeroMapState extends State<TrailHeroMap>
       options: MapOptions(
         initialCenter: trail.startOrNull ?? MapConfig.defaultCenter,
         initialZoom: MapConfig.defaultZoom,
-        interactionOptions: const InteractionOptions(
-          flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
-        ),
+        interactionOptions: MapConfig.interactionOptions,
       ),
       children: [
         MapConfig.buildOsmTileLayer(),

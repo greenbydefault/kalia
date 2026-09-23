@@ -15,6 +15,11 @@ abstract final class MapConfig {
   /// Zoom beim FAB „Meinen Standort“ — Straßen-/Nachbarschaftsebene.
   static const locateZoom = 16.0;
 
+  /// Zoom, Pan, Fling, Doppel-Tap — ohne Zwei-Finger-Drehen.
+  static const interactionOptions = InteractionOptions(
+    flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
+  );
+
   static TileLayer buildOsmTileLayer() {
     return TileLayer(
       urlTemplate: tileUrl,

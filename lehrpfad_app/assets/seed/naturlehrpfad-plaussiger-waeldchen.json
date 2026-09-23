@@ -1,0 +1,545 @@
+{
+ "id": "naturlehrpfad-plaussiger-waeldchen",
+ "name": "Naturlehrpfad Plaußiger Wäldchen",
+ "typ": "wald",
+ "kurzbeschreibung": "Rundweg im Plaußiger Wäldchen, Tafeln von der Parthe bis zu den MiMo-Ruinen. Frei, grüner Diagonalstrich.",
+ "beschreibung": "Südlich der Naturschutzstation Partheland, am Rand von Leipzig-Plaußig, liegt der Naturlehrpfad durchs Plaußiger Wäldchen. Im FFH- und Landschaftsschutzgebiet Parthenaue. Das Faltblatt sagt etwa 1,5 Kilometer, die gemessene Schleife liegt bei 1,8. Markierung ein grüner Diagonalstrich auf weißem Quadrat. Das Faltblatt zählt dreizehn Tafeln: Parthe, Gehölze, Feld, Stein- und Reisighaufen, Kiesgrube, eiszeitliche Geschiebe, die Ruinen der Mitteldeutschen Motorenwerke, Hochstauden, Teich, Bombentrichter, Nisthilfen, Altarme, und eine Extra-Runde in den Sumpfwald nordöstlich vom Teich. Am Weg liegen Entdeckerstationen: Klangspiel, Totholzstapel, Barfußpfad, Holzwürfelspiel, Tierspuren. Die Nisthilfen-Schauwand aus dem Faltblatt hat keinen eigenen Kartenpunkt. Zugang frei, ohne Anmeldung. Nach Regen weich. Keine Toilette am Weg. Der Naturlehrpfad Staditzwald in Taucha ist eine andere Runde.",
+ "laengeKm": 1.8,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Grüner Diagonalstrich auf weißem Quadrat",
+ "betreiber": "Zweckverband Parthenaue",
+ "region": "Plaußiger Wäldchen, Leipzig-Plaußig-Portitz, Sachsen",
+ "website": "https://partheland.info",
+ "anreise": "Start an der Übersichtskarte, Grundstraße, südlich der Naturschutzstation, 04349 Leipzig-Plaußig. Bus 83, Haltestelle Plaußiger Dorfstraße, von dort ein paar Minuten zur Karte. Tram 9 bis Thekla, umsteigen in den 83. Die Station steht an der Plaußiger Dorfstraße 23. Kein ausgewiesener Wanderparkplatz, keine Toilette am Weg. Staditzwald in Taucha nicht mit dieser Runde verwechseln.",
+ "startName": "Übersichtskarte Plaußiger Wäldchen",
+ "arten": [
+  "Schwarzerle",
+  "Sumpf-Schwertlilie",
+  "Steinschmätzer"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.390205,
+   12.457154
+  ],
+  [
+   51.390212,
+   12.457314
+  ],
+  [
+   51.390232,
+   12.45751
+  ],
+  [
+   51.390273,
+   12.457994
+  ],
+  [
+   51.389952,
+   12.458747
+  ],
+  [
+   51.389799,
+   12.458942
+  ],
+  [
+   51.389718,
+   12.45899
+  ],
+  [
+   51.389476,
+   12.459311
+  ],
+  [
+   51.389374,
+   12.459839
+  ],
+  [
+   51.389356,
+   12.46002
+  ],
+  [
+   51.389187,
+   12.459954
+  ],
+  [
+   51.389144,
+   12.460077
+  ],
+  [
+   51.389178,
+   12.460378
+  ],
+  [
+   51.389305,
+   12.461655
+  ],
+  [
+   51.38936,
+   12.462375
+  ],
+  [
+   51.389448,
+   12.463453
+  ],
+  [
+   51.389534,
+   12.464543
+  ],
+  [
+   51.389654,
+   12.465212
+  ],
+  [
+   51.38984,
+   12.465181
+  ],
+  [
+   51.389916,
+   12.465279
+  ],
+  [
+   51.389934,
+   12.465409
+  ],
+  [
+   51.389882,
+   12.466007
+  ],
+  [
+   51.389818,
+   12.466351
+  ],
+  [
+   51.389748,
+   12.466558
+  ],
+  [
+   51.389815,
+   12.466662
+  ],
+  [
+   51.390065,
+   12.467052
+  ],
+  [
+   51.390455,
+   12.467017
+  ],
+  [
+   51.390573,
+   12.467148
+  ],
+  [
+   51.390611,
+   12.46719
+  ],
+  [
+   51.39078,
+   12.46716
+  ],
+  [
+   51.390962,
+   12.466852
+  ],
+  [
+   51.391093,
+   12.466768
+  ],
+  [
+   51.391404,
+   12.466764
+  ],
+  [
+   51.391717,
+   12.46682
+  ],
+  [
+   51.392012,
+   12.46678
+  ],
+  [
+   51.392117,
+   12.466741
+  ],
+  [
+   51.39221,
+   12.466747
+  ],
+  [
+   51.392318,
+   12.466665
+  ],
+  [
+   51.392317,
+   12.466455
+  ],
+  [
+   51.392271,
+   12.466354
+  ],
+  [
+   51.392242,
+   12.466189
+  ],
+  [
+   51.392119,
+   12.466014
+  ],
+  [
+   51.392067,
+   12.465861
+  ],
+  [
+   51.391984,
+   12.465697
+  ],
+  [
+   51.391894,
+   12.465616
+  ],
+  [
+   51.391797,
+   12.46549
+  ],
+  [
+   51.391706,
+   12.465293
+  ],
+  [
+   51.391392,
+   12.465208
+  ],
+  [
+   51.391179,
+   12.465046
+  ],
+  [
+   51.390978,
+   12.465035
+  ],
+  [
+   51.390841,
+   12.46506
+  ],
+  [
+   51.390828,
+   12.464814
+  ],
+  [
+   51.390781,
+   12.464676
+  ],
+  [
+   51.390677,
+   12.464536
+  ],
+  [
+   51.390496,
+   12.464038
+  ],
+  [
+   51.390175,
+   12.463248
+  ],
+  [
+   51.389927,
+   12.462756
+  ],
+  [
+   51.389889,
+   12.462647
+  ],
+  [
+   51.389753,
+   12.461668
+  ],
+  [
+   51.389754,
+   12.461385
+  ],
+  [
+   51.389728,
+   12.460718
+  ],
+  [
+   51.389637,
+   12.460392
+  ],
+  [
+   51.389864,
+   12.460114
+  ],
+  [
+   51.389847,
+   12.459721
+  ],
+  [
+   51.389823,
+   12.45949
+  ],
+  [
+   51.3898,
+   12.459099
+  ],
+  [
+   51.389799,
+   12.458942
+  ],
+  [
+   51.390205,
+   12.457154
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 7707692510,
+   "lat": 51.3902024,
+   "lon": 12.4571472,
+   "km": 0.0,
+   "titel": "Übersichtskarte",
+   "thema": "Start am grünen Strich",
+   "kurztext": "Hier hängt die Karte. Dreizehn Nummern, der Strich auf dem Schild ist grün, von links oben nach rechts unten. Rein in den Wald, nicht zurück zur Dorfstraße.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 7707254738,
+   "lat": 51.3908629,
+   "lon": 12.4562738,
+   "km": 0.0,
+   "titel": "Die Parthe",
+   "thema": "Begradigter Fluss, Fischtafel",
+   "kurztext": "Die Parthe entspringt im Glastener Forst, ist 56,7 Kilometer lang und mündet in Leipzig in die Weiße Elster. Seit den 1930ern streckenweise begradigt. Die Tafel zeigt die Fische, die heute drin leben. Eine zweite Tafel steht ein Stück weiter am Ufer.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 3416450533,
+   "lat": 51.3902138,
+   "lon": 12.4580685,
+   "km": 0.06,
+   "titel": "Gehölze",
+   "thema": "Blätter, Rinde, Scheiben",
+   "kurztext": "Schautafel mit Blättern, Rinden und Baumscheiben der Gehölze im Wäldchen. Damit bestimmst du, was hier steht. Auf der Tafel steht Gehölz.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 3416450545,
+   "lat": 51.3894337,
+   "lon": 12.4635105,
+   "km": 0.51,
+   "titel": "Feld am Waldrand",
+   "thema": "Wildkräuter, Hasen, Greifvögel",
+   "kurztext": "Am Waldrand wachsen Wildkräuter. Das Faltblatt nennt Feldhasen, Fasane und Greifvögel. Die Tafel vor Ort heißt Feldflur.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 3416450542,
+   "lat": 51.3896213,
+   "lon": 12.4651976,
+   "km": 0.63,
+   "titel": "Stein- und Reisighaufen",
+   "thema": "Versteck und Steinschmätzer",
+   "kurztext": "Stein- und Reisighaufen für Insekten, Eidechsen und Vögel. Das Faltblatt nennt den Steinschmätzer an dieser Station. Selten. Nicht im Haufen wühlen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 3404460334,
+   "lat": 51.3897932,
+   "lon": 12.4666638,
+   "km": 0.76,
+   "titel": "Kiesgrube",
+   "thema": "Trocken und warm",
+   "kurztext": "Kiesgrube mit Moränensand aus der Eiszeit. Trockenstandort, Pflanzen, die Wärme wollen. Die Tafel heißt Kiesgrube.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 3404460323,
+   "lat": 51.3900385,
+   "lon": 12.4670742,
+   "km": 0.8,
+   "titel": "Eiszeitliche Geschiebe",
+   "thema": "Steine aus Skandinavien",
+   "kurztext": "Die Steine lagen vor etwa 150.000 Jahren noch in Skandinavien. Das Eis hat sie in die Gegend um Plaußig gebracht, an der Station sind sie benannt. Die Tafel in der Karte heißt Endmoränen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 3404460327,
+   "lat": 51.3905865,
+   "lon": 12.4670988,
+   "km": 0.86,
+   "titel": "Industriebrache",
+   "thema": "MiMo-Hallen, 1945 gesprengt",
+   "kurztext": "Reste der Mitteldeutschen Motorenwerke, 1945 gesprengt. Hohlräume, Mauerwerk, Wald ohne Pflege. Fledermäuse nutzen die Hohlräume. Welche Art, sagt das Faltblatt nicht. Die Tafel heißt Industriebrachen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 3903516792,
+   "lat": 51.3922026,
+   "lon": 12.4666943,
+   "km": 1.06,
+   "titel": "Hochstaudenflur",
+   "thema": "Feucht, im Frühsommer Mädesüß",
+   "kurztext": "Geschütztes Biotop, wenig genutzt, deshalb artenreich. Im Frühsommer blüht hier Mädesüß. Die Tafel schreibt Hochstaudenfluren auf Feuchtstandorten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 3903516796,
+   "lat": 51.3923415,
+   "lon": 12.466642,
+   "km": 1.07,
+   "titel": "Teich",
+   "thema": "Angelegtes Gewässer",
+   "kurztext": "Ein Teich von Menschenhand. Laich, Brut, Deckung. Nordöstlich davon liegt der Sumpfwald, der Abstecher ist extra.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -3505823186,
+   "lat": 51.3928233,
+   "lon": 12.4663957,
+   "km": 1.08,
+   "titel": "Sumpfwald",
+   "thema": "Extra-Runde am Teich",
+   "kurztext": "Nordöstlich vom Teich, eine nasse Mulde. Wasserschwertlilien und Schwarzerlen. Das Faltblatt führt das als eigene kleine Runde, nicht als Teil der Hauptschleife.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 5334807078,
+   "lat": 51.3914279,
+   "lon": 12.4651817,
+   "km": 1.23,
+   "titel": "Bombentrichter",
+   "thema": "Nasse Löcher vom Motorenwerk",
+   "kurztext": "Das Motorenwerk westlich von hier wurde im Krieg bombardiert. Die Trichter halten Wasser. Das Faltblatt nennt Erdkröten, Schwertlilien und Schwarzerlen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": 3416450538,
+   "lat": 51.389771,
+   "lon": 12.4610362,
+   "km": 1.63,
+   "titel": "Altarme",
+   "thema": "Was die Begradigung übrig ließ",
+   "kurztext": "Als die Parthe begradigt wurde, blieben Bögen liegen. Heute Ufer für Pflanzen, die es nass brauchen. Die Tafel steht am Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 13
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3416450534,
+   "lat": 51.3902104,
+   "lon": 12.4580176,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3416450539,
+   "lat": 51.3897124,
+   "lon": 12.4610402,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3903516790,
+   "lat": 51.3922152,
+   "lon": 12.4666877,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3903516791,
+   "lat": 51.3923341,
+   "lon": 12.4666341,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3903516794,
+   "lat": 51.3923044,
+   "lon": 12.4666321,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 3903516798,
+   "lat": 51.392191,
+   "lon": 12.4667024,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5081537438,
+   "lat": 51.389811,
+   "lon": 12.4666163,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8309800581,
+   "lat": 51.3922864,
+   "lon": 12.4666379,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "hoertext": "Südlich der Naturschutzstation hängt die Karte. Ein grüner Strich nimmt dich mit, knapp zwei Kilometer im Kreis durchs Plaußiger Wäldchen. Du kommst an die Parthe, an eine Kiesgrube und an die gesprengten Hallen der Motorenwerke. Am Teich liegt der Sumpfwald einen Abstecher weiter. Nach Regen wird der Weg weich. An den Nisthilfen nur gucken, nicht anfassen.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-plaussiger-waeldchen/credits.json"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-bluete.jpg",
+    "caption": "Kirschblüte auf der alten Bahntrasse im Lene-Voigt-Park.",
+    "credit": "Andreas Wolf 01",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lene-Voigt-Park_(2025).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-wiese.jpg",
+    "caption": "Wiese und Weg im Lene-Voigt-Park, Blick Richtung Stadt.",
+    "credit": "Prolineserver",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lene-Voigt-Park.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-weg.jpg",
+    "caption": "Weg im Lene-Voigt-Park, 2018.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lene-Voigt-Park_Leipzig_2018.jpg",
+    "kind": "ort"
+  }
+]

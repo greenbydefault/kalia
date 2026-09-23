@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-bruecke.jpg",
+    "caption": "Gießerbrücke über den Karl-Heine-Kanal, Lindenau, Februar 2015.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gie%C3%9Ferbr%C3%BCcke_Lindenau_Februar_2015.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kanal.jpg",
+    "caption": "Karl-Heine-Kanal Richtung Gießerbrücke, Blick nach Westsüdwest.",
+    "credit": "Falk2",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L07_118_Karl-Heine-Kanal,_Gie%C3%9Ferbr%C3%BCcke.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-gleise.jpg",
+    "caption": "Ehemalige Gleisbrücke, dahinter die Gießerbrücke.",
+    "credit": "Falk2",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D0027_Eisenbahn-_und_Gie%C3%9Ferbr%C3%BCcke.jpg",
+    "kind": "ort"
+  }
+]
