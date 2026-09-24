@@ -1,0 +1,1201 @@
+{
+ "id": "naturlehrpfad-grabschuetzer-see",
+ "name": "Naturlehrpfad Grabschützer See",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Rundweg um den Grabschützer See, siebzehn Tafeln zur Bergbaufolgelandschaft. Frei, fast alles Schotter.",
+ "beschreibung": "An der Halleschen Straße in Zwochau, hinter der Schranke, startet der Naturlehrpfad Grabschützer See. Leipzig Tourismus nennt 7,0 Kilometer, die OSM-Relation misst 6,9. Links herum: erst zwischen Zwochauer See und Grabschützer See, dann die Gerade mit Blick auf den Werbeliner See, am Mottenhügel vorbei und zurück zum Parkplatz. LaNU und NABU zählen siebzehn Stationen, eingeweiht 2007. In der Karte fehlen nur die Tafel Rekultivierung, der Pin sitzt auf der Linie zwischen Station 11 und 13. Zugang frei, ohne Anmeldung. Kernzone gesperrt, der Rundweg bleibt offen. Wegbelag fast nur Schotter. Die Highlands weiden das Offenland, Abstand halten. Fernrohre stehen an einigen Stellen. Der Werbeliner See ist eine andere Tour.",
+ "laengeKm": 6.9,
+ "dauerMin": 105,
+ "rundkurs": true,
+ "markierung": "Schild Naturlehrpfad Grabschützer See",
+ "betreiber": "Sächsische Landesstiftung Natur und Umwelt / NABU Sachsen",
+ "region": "Grabschützer See, Zwochau, Wiedemar, Nordsachsen",
+ "website": "https://www.lanu.de/themen/natur-landschaft/lehrpfade/lehrpfad-grabschuetzer-see.html",
+ "anreise": "Start Parkplatz Hallesche Straße, 04509 Zwochau. A9 Abfahrt Wiedemar oder A14 Abfahrt Leipzig-Nord, dann die S2. Bus 217 Schkeuditz–Delitzsch, Haltestelle Zwochau, Leipziger Straße oder Am Teich, etwa 500 Meter. Der Werbeliner See liegt daneben, das ist die andere Tour.",
+ "startName": "Parkplatz Hallesche Straße",
+ "arten": [
+  "Braunkehlchen",
+  "Neuntöter",
+  "Wiedehopf",
+  "Kammmolch"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.473796,
+   12.276968
+  ],
+  [
+   51.474092,
+   12.276914
+  ],
+  [
+   51.474632,
+   12.276918
+  ],
+  [
+   51.475069,
+   12.276886
+  ],
+  [
+   51.475295,
+   12.276928
+  ],
+  [
+   51.475462,
+   12.276973
+  ],
+  [
+   51.475583,
+   12.277003
+  ],
+  [
+   51.475683,
+   12.277038
+  ],
+  [
+   51.475695,
+   12.277042
+  ],
+  [
+   51.475784,
+   12.277029
+  ],
+  [
+   51.475814,
+   12.276983
+  ],
+  [
+   51.475833,
+   12.276883
+  ],
+  [
+   51.475853,
+   12.276452
+  ],
+  [
+   51.475937,
+   12.276293
+  ],
+  [
+   51.476206,
+   12.275884
+  ],
+  [
+   51.476433,
+   12.275517
+  ],
+  [
+   51.476618,
+   12.275219
+  ],
+  [
+   51.476759,
+   12.274951
+  ],
+  [
+   51.476925,
+   12.274611
+  ],
+  [
+   51.477113,
+   12.274171
+  ],
+  [
+   51.477229,
+   12.273913
+  ],
+  [
+   51.477487,
+   12.273457
+  ],
+  [
+   51.477654,
+   12.273144
+  ],
+  [
+   51.477841,
+   12.272789
+  ],
+  [
+   51.478023,
+   12.272533
+  ],
+  [
+   51.478099,
+   12.27245
+  ],
+  [
+   51.478214,
+   12.272351
+  ],
+  [
+   51.478833,
+   12.272007
+  ],
+  [
+   51.479242,
+   12.271795
+  ],
+  [
+   51.479319,
+   12.271762
+  ],
+  [
+   51.4794,
+   12.271741
+  ],
+  [
+   51.479547,
+   12.271706
+  ],
+  [
+   51.479702,
+   12.271664
+  ],
+  [
+   51.479957,
+   12.271552
+  ],
+  [
+   51.480076,
+   12.271484
+  ],
+  [
+   51.480461,
+   12.271294
+  ],
+  [
+   51.48165,
+   12.270725
+  ],
+  [
+   51.481816,
+   12.270676
+  ],
+  [
+   51.482883,
+   12.270441
+  ],
+  [
+   51.483917,
+   12.270127
+  ],
+  [
+   51.484119,
+   12.270092
+  ],
+  [
+   51.484255,
+   12.270087
+  ],
+  [
+   51.484434,
+   12.270117
+  ],
+  [
+   51.484548,
+   12.270164
+  ],
+  [
+   51.484986,
+   12.270412
+  ],
+  [
+   51.485168,
+   12.270573
+  ],
+  [
+   51.485327,
+   12.270748
+  ],
+  [
+   51.485464,
+   12.270848
+  ],
+  [
+   51.486033,
+   12.271229
+  ],
+  [
+   51.486288,
+   12.271392
+  ],
+  [
+   51.486538,
+   12.271516
+  ],
+  [
+   51.4866,
+   12.271626
+  ],
+  [
+   51.486742,
+   12.272189
+  ],
+  [
+   51.486988,
+   12.273129
+  ],
+  [
+   51.487089,
+   12.273761
+  ],
+  [
+   51.487218,
+   12.274475
+  ],
+  [
+   51.487319,
+   12.275276
+  ],
+  [
+   51.48739,
+   12.27554
+  ],
+  [
+   51.487499,
+   12.275813
+  ],
+  [
+   51.487655,
+   12.276087
+  ],
+  [
+   51.487868,
+   12.276369
+  ],
+  [
+   51.487904,
+   12.276399
+  ],
+  [
+   51.488222,
+   12.276663
+  ],
+  [
+   51.488472,
+   12.276911
+  ],
+  [
+   51.488579,
+   12.277081
+  ],
+  [
+   51.488968,
+   12.277781
+  ],
+  [
+   51.489036,
+   12.277899
+  ],
+  [
+   51.489524,
+   12.278792
+  ],
+  [
+   51.48972,
+   12.279186
+  ],
+  [
+   51.489991,
+   12.279691
+  ],
+  [
+   51.490358,
+   12.280199
+  ],
+  [
+   51.49055,
+   12.28045
+  ],
+  [
+   51.490703,
+   12.280728
+  ],
+  [
+   51.491175,
+   12.281872
+  ],
+  [
+   51.491237,
+   12.282067
+  ],
+  [
+   51.491422,
+   12.282778
+  ],
+  [
+   51.491473,
+   12.28319
+  ],
+  [
+   51.491486,
+   12.283465
+  ],
+  [
+   51.491506,
+   12.284863
+  ],
+  [
+   51.491502,
+   12.285278
+  ],
+  [
+   51.491514,
+   12.286744
+  ],
+  [
+   51.491522,
+   12.287995
+  ],
+  [
+   51.491431,
+   12.289418
+  ],
+  [
+   51.49138,
+   12.289987
+  ],
+  [
+   51.491117,
+   12.291638
+  ],
+  [
+   51.491054,
+   12.292136
+  ],
+  [
+   51.491035,
+   12.292383
+  ],
+  [
+   51.491021,
+   12.293115
+  ],
+  [
+   51.491057,
+   12.293587
+  ],
+  [
+   51.491095,
+   12.293952
+  ],
+  [
+   51.491184,
+   12.29459
+  ],
+  [
+   51.491205,
+   12.294797
+  ],
+  [
+   51.491231,
+   12.295061
+  ],
+  [
+   51.491251,
+   12.29542
+  ],
+  [
+   51.491253,
+   12.295648
+  ],
+  [
+   51.491149,
+   12.295807
+  ],
+  [
+   51.49098,
+   12.295964
+  ],
+  [
+   51.490529,
+   12.296295
+  ],
+  [
+   51.49037,
+   12.296385
+  ],
+  [
+   51.490144,
+   12.296447
+  ],
+  [
+   51.48999,
+   12.296466
+  ],
+  [
+   51.489681,
+   12.296454
+  ],
+  [
+   51.489227,
+   12.296283
+  ],
+  [
+   51.488797,
+   12.296051
+  ],
+  [
+   51.488707,
+   12.296005
+  ],
+  [
+   51.488616,
+   12.295992
+  ],
+  [
+   51.488537,
+   12.296026
+  ],
+  [
+   51.488438,
+   12.296121
+  ],
+  [
+   51.4883,
+   12.296312
+  ],
+  [
+   51.488194,
+   12.296419
+  ],
+  [
+   51.488106,
+   12.296527
+  ],
+  [
+   51.487835,
+   12.296722
+  ],
+  [
+   51.487406,
+   12.296967
+  ],
+  [
+   51.487212,
+   12.29717
+  ],
+  [
+   51.48682,
+   12.297633
+  ],
+  [
+   51.486629,
+   12.297773
+  ],
+  [
+   51.48619,
+   12.297958
+  ],
+  [
+   51.485859,
+   12.298039
+  ],
+  [
+   51.485386,
+   12.297979
+  ],
+  [
+   51.485262,
+   12.297947
+  ],
+  [
+   51.485194,
+   12.297922
+  ],
+  [
+   51.485103,
+   12.297843
+  ],
+  [
+   51.485049,
+   12.297776
+  ],
+  [
+   51.484795,
+   12.297367
+  ],
+  [
+   51.484417,
+   12.296837
+  ],
+  [
+   51.484184,
+   12.296592
+  ],
+  [
+   51.483951,
+   12.296407
+  ],
+  [
+   51.483583,
+   12.296183
+  ],
+  [
+   51.48341,
+   12.29603
+  ],
+  [
+   51.483347,
+   12.295953
+  ],
+  [
+   51.483287,
+   12.295857
+  ],
+  [
+   51.483214,
+   12.295666
+  ],
+  [
+   51.483155,
+   12.2954
+  ],
+  [
+   51.483057,
+   12.295029
+  ],
+  [
+   51.482988,
+   12.294854
+  ],
+  [
+   51.48286,
+   12.294683
+  ],
+  [
+   51.482784,
+   12.294638
+  ],
+  [
+   51.482461,
+   12.294502
+  ],
+  [
+   51.482338,
+   12.294372
+  ],
+  [
+   51.482224,
+   12.294205
+  ],
+  [
+   51.482152,
+   12.29409
+  ],
+  [
+   51.482008,
+   12.293912
+  ],
+  [
+   51.481826,
+   12.293781
+  ],
+  [
+   51.481724,
+   12.293756
+  ],
+  [
+   51.481671,
+   12.293813
+  ],
+  [
+   51.481098,
+   12.294693
+  ],
+  [
+   51.480577,
+   12.294281
+  ],
+  [
+   51.480526,
+   12.294235
+  ],
+  [
+   51.47999,
+   12.293561
+  ],
+  [
+   51.479807,
+   12.293348
+  ],
+  [
+   51.479596,
+   12.293133
+  ],
+  [
+   51.479036,
+   12.292693
+  ],
+  [
+   51.478142,
+   12.291986
+  ],
+  [
+   51.477709,
+   12.291701
+  ],
+  [
+   51.476864,
+   12.29105
+  ],
+  [
+   51.475729,
+   12.290473
+  ],
+  [
+   51.475141,
+   12.290155
+  ],
+  [
+   51.474843,
+   12.290002
+  ],
+  [
+   51.474547,
+   12.289864
+  ],
+  [
+   51.47457,
+   12.2892
+  ],
+  [
+   51.474568,
+   12.289104
+  ],
+  [
+   51.474553,
+   12.289005
+  ],
+  [
+   51.474518,
+   12.28891
+  ],
+  [
+   51.474465,
+   12.288826
+  ],
+  [
+   51.47438,
+   12.288769
+  ],
+  [
+   51.474022,
+   12.288606
+  ],
+  [
+   51.473934,
+   12.288545
+  ],
+  [
+   51.473797,
+   12.288439
+  ],
+  [
+   51.473715,
+   12.28835
+  ],
+  [
+   51.473638,
+   12.288259
+  ],
+  [
+   51.473456,
+   12.287988
+  ],
+  [
+   51.473159,
+   12.287445
+  ],
+  [
+   51.473064,
+   12.28731
+  ],
+  [
+   51.47291,
+   12.287106
+  ],
+  [
+   51.472705,
+   12.286878
+  ],
+  [
+   51.472546,
+   12.286691
+  ],
+  [
+   51.472451,
+   12.286513
+  ],
+  [
+   51.472322,
+   12.28619
+  ],
+  [
+   51.472173,
+   12.285748
+  ],
+  [
+   51.472037,
+   12.285275
+  ],
+  [
+   51.471942,
+   12.285022
+  ],
+  [
+   51.471778,
+   12.28478
+  ],
+  [
+   51.471594,
+   12.284602
+  ],
+  [
+   51.471403,
+   12.284372
+  ],
+  [
+   51.471342,
+   12.284249
+  ],
+  [
+   51.471297,
+   12.284104
+  ],
+  [
+   51.471231,
+   12.283831
+  ],
+  [
+   51.471204,
+   12.283641
+  ],
+  [
+   51.471144,
+   12.283195
+  ],
+  [
+   51.471129,
+   12.282981
+  ],
+  [
+   51.471123,
+   12.282641
+  ],
+  [
+   51.471159,
+   12.282428
+  ],
+  [
+   51.471241,
+   12.282196
+  ],
+  [
+   51.471334,
+   12.282032
+  ],
+  [
+   51.471535,
+   12.281747
+  ],
+  [
+   51.471876,
+   12.281357
+  ],
+  [
+   51.471953,
+   12.281118
+  ],
+  [
+   51.471975,
+   12.280826
+  ],
+  [
+   51.471954,
+   12.279875
+  ],
+  [
+   51.471938,
+   12.278611
+  ],
+  [
+   51.471923,
+   12.278395
+  ],
+  [
+   51.471914,
+   12.27831
+  ],
+  [
+   51.471874,
+   12.278059
+  ],
+  [
+   51.47181,
+   12.27783
+  ],
+  [
+   51.471836,
+   12.277775
+  ],
+  [
+   51.472351,
+   12.277567
+  ],
+  [
+   51.472925,
+   12.277307
+  ],
+  [
+   51.473499,
+   12.277062
+  ],
+  [
+   51.473796,
+   12.276968
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 1286568203,
+   "lat": 51.47392,
+   "lon": 12.27688,
+   "km": 0.0,
+   "titel": "Zentraler Ausgangspunkt",
+   "thema": "Karte an der Schranke",
+   "kurztext": "Am Parkplatz Hallesche Straße. Hier hängt die Übersicht, der Rundweg beginnt hinter der Schranke und geht links herum. Drei Zugänge, dieser ist der in Zwochau.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 1286568217,
+   "lat": 51.47551,
+   "lon": 12.27695,
+   "km": 0.19,
+   "titel": "Amphibien und Wasservögel",
+   "thema": "Erste Tafel nördlich vom Parkplatz",
+   "kurztext": "Gleich nördlich vom Start, den Zwochauer See links. Die Tafel heißt Amphibien und Wasservögel. Der NABU hebt für Grabschütz Kammmolch und Wechselkröte hervor, neun Amphibienarten im Gebiet.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 1286568252,
+   "lat": 51.47753,
+   "lon": 12.27344,
+   "km": 0.54,
+   "titel": "Die Natur sieht wieder Land",
+   "thema": "Tagebau, der zuwächst",
+   "kurztext": "Weiter zwischen den beiden kleinen Seen. Die Tafel heißt Die Natur sieht wieder Land. Hier war der Tagebau Delitzsch-Südwest, die Stiftung hat das Restloch 1993 gekauft.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 1286568239,
+   "lat": 51.48015,
+   "lon": 12.27149,
+   "km": 0.87,
+   "titel": "Die Vogelwelt im Jahreslauf",
+   "thema": "Brut und Rast am See",
+   "kurztext": "Am Westufer. Die Tafel heißt Die Vogelwelt im Jahreslauf. Das Gebiet ist SPA, Rastplatz unter anderem für Saatgänse. Was die Tafel im Kalender zeigt, steht vor Ort.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 1286568207,
+   "lat": 51.48384,
+   "lon": 12.27009,
+   "km": 1.31,
+   "titel": "Lebensraum Boden",
+   "thema": "Kippenboden am Westufer",
+   "kurztext": "Weiter am Westufer. Die Tafel heißt Lebensraum Boden. Kippe, nicht gewachsener Waldboden. Die nächste Tafel fragt später, ob der Boden sauer, neutral oder basisch ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 1286568242,
+   "lat": 51.48534,
+   "lon": 12.27081,
+   "km": 1.47,
+   "titel": "Die Schüttrippe",
+   "thema": "Abraum, der stehen blieb",
+   "kurztext": "Noch am Westufer. Die Tafel heißt Die Schüttrippe. Der NABU nennt die Schüttrippenlandschaft den Grund, das Gebiet offenzuhalten. Der Rücken liegt neben dem Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 1286568240,
+   "lat": 51.48792,
+   "lon": 12.27632,
+   "km": 2.0,
+   "titel": "Artenreiches Grünland",
+   "thema": "Wiese statt Acker",
+   "kurztext": "Die Gerade nach Osten beginnt. Die Tafel heißt Artenreiches Grünland, so heißt auch das Projekt der Stiftung. Mahd und Weide, nicht der alte Tagebauacker.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 1286589256,
+   "lat": 51.49152,
+   "lon": 12.2842,
+   "km": 2.74,
+   "titel": "Reichtum des Mageren",
+   "thema": "Offener Boden, wenig Nährstoffe",
+   "kurztext": "Auf der Geraden zwischen Werbeliner See und Grabschützer See. Die Tafel heißt Reichtum des Mageren. Mager heißt hier: wenig Dünger, viel Lücke im Rasen. Der Werbeliner See liegt nördlich, nicht reingehen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 1286589279,
+   "lat": 51.4915,
+   "lon": 12.2881,
+   "km": 2.96,
+   "titel": "Pflanzliche Sieger",
+   "thema": "Wer den offenen Boden nimmt",
+   "kurztext": "Weiter auf der Geraden. Die Tafel heißt Pflanzliche Sieger. Der NABU schreibt, Sanddorn und Ölweide hätten die Flächen zugewachsen, die Rinder schieben das zurück. Die Büsche stehen noch, nur nicht mehr dicht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 1286589266,
+   "lat": 51.4911,
+   "lon": 12.2916,
+   "km": 3.22,
+   "titel": "Rinder als Landschaftspfleger",
+   "thema": "Hochlandrinder seit 2006",
+   "kurztext": "Kurz vor dem Mottenhügel. Die Tafel heißt Rinder als Landschaftspfleger. Schottische Hochlandrinder, seit 2006 auf etwa 50 Hektar, ganzjährig draußen, ohne Kraftfutter. Zottig, Hörner weit. Abstand, nicht füttern.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 1286589257,
+   "lat": 51.49179,
+   "lon": 12.29562,
+   "km": 3.5,
+   "titel": "Damals und heute",
+   "thema": "Dorf Grabschütz, das weggebaggert wurde",
+   "kurztext": "Am Mottenhügel, der kleine Aussichtspunkt, daneben die überdachte Bank. Die Tafel heißt Damals und heute. Das Dorf Grabschütz ist dem Tagebau gewichen. Die Broschüre der Stiftung erzählt den Ort, anfordern beim Naturschutzfonds.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 1286589281,
+   "lat": 51.49131,
+   "lon": 12.29579,
+   "km": 3.5,
+   "titel": "Energiegewinnung in der Zukunft",
+   "thema": "Nach der Kohle",
+   "kurztext": "Direkt am Mottenhügel, die nächste Tafel. Sie heißt Energiegewinnung in der Zukunft. Kohle ist hier vorbei, der See ist das Restloch. Was die Tafel als Nächstes vorschlägt, steht auf dem Schild.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": -3985313108,
+   "lat": 51.48519,
+   "lon": 12.29792,
+   "km": 4.23,
+   "titel": "Rekultivierung",
+   "thema": "Ostseite, Tafel ohne eigenen Pin",
+   "kurztext": "Auf der Ostseite, zwischen Mottenhügel und den Offenlandtafeln. Im Lageplan heißt die Station Rekultivierung. In der Karte hat sie keinen eigenen Punkt, der Pin liegt auf der Linie. Gemeint ist, wie aus Kippe wieder Fläche wird.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 13
+  },
+  {
+   "osmId": 1286589233,
+   "lat": 51.48103,
+   "lon": 12.29459,
+   "km": 4.82,
+   "titel": "Offenlandbewohner",
+   "thema": "Vögel der Weide",
+   "kurztext": "Weiter südlich am Ostufer. Die Tafel heißt Offenlandbewohner. Der NABU nennt für die Weide Braunkehlchen, Schwarzkehlchen, Grauammer, Raubwürger, Neuntöter und Wiedehopf. Der Pin in der Karte ist mit genauer Standort markiert, die Tafel kann ein paar Meter daneben stehen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 14
+  },
+  {
+   "osmId": 6566525670,
+   "lat": 51.47939,
+   "lon": 12.29292,
+   "km": 5.02,
+   "titel": "Sukzession",
+   "thema": "Was von allein kommt",
+   "kurztext": "Südlich der Offenlandtafel. Der Titel ist Sukzession, ein Ökosystem erschafft sich selbst. Nebenan hält die Beweidung die Fläche offen, hier darf der Bestand machen, was er macht. Auch dieser Pin ist ungenau kartiert.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 15
+  },
+  {
+   "osmId": 1286589235,
+   "lat": 51.47664,
+   "lon": 12.2909,
+   "km": 5.36,
+   "titel": "Grabschütz vor 23 Mio Jahren",
+   "thema": "Tertiär unter der Kippe",
+   "kurztext": "Weiter Richtung Süden. Die Tafel heißt Grabschütz vor 23 Millionen Jahren. Darunter liegt das Tertiär, darüber der Abraum. Die Jahreszahl steht so auf dem Schild.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 16
+  },
+  {
+   "osmId": 1286589268,
+   "lat": 51.47199,
+   "lon": 12.28598,
+   "km": 6.04,
+   "titel": "Findlinge aus Skandinavien",
+   "thema": "Eiszeitgeschiebe am Südufer",
+   "kurztext": "Am Südufer. Die Tafel heißt Einwanderer aus Skandinavien, Findlinge in Grabschütz. Steine, die das Eis mitgebracht hat, keine Findlinge aus dem Tagebau. Anfassen ja, nicht mitnehmen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 17
+  },
+  {
+   "osmId": 1286604424,
+   "lat": 51.472,
+   "lon": 12.27839,
+   "km": 6.64,
+   "titel": "Sauer, neutral oder basisch?",
+   "thema": "Bodenprobe kurz vor dem Parkplatz",
+   "kurztext": "Letzte Tafel, kurz vor dem Parkplatz. Sie heißt Sauer, neutral oder basisch. Dieselbe Frage wie beim Lebensraum Boden, hier mit der Probe. Danach rechts zurück zur Schranke.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 18
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 159819584,
+   "lat": 51.4918185,
+   "lon": 12.2956688,
+   "kategorie": "viewpoint",
+   "name": "Mottenhügel"
+  },
+  {
+   "osmId": 1286568241,
+   "lat": 51.4756171,
+   "lon": 12.2769425,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 7470811941,
+   "lat": 51.4818291,
+   "lon": 12.2937102,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8566934864,
+   "lat": 51.4740446,
+   "lon": 12.2907262,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 11896570169,
+   "lat": 51.4801274,
+   "lon": 12.2714468,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11896582269,
+   "lat": 51.485313,
+   "lon": 12.270795,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11896597869,
+   "lat": 51.487877,
+   "lon": 12.276391,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12666383343,
+   "lat": 51.4918294,
+   "lon": 12.2956354,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12666410173,
+   "lat": 51.4918276,
+   "lon": 12.2956838,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12666433519,
+   "lat": 51.4776188,
+   "lon": 12.2916925,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 113480753,
+   "lat": 51.4731054,
+   "lon": 12.2757743,
+   "kategorie": "parking",
+   "name": "Naturlehrpfad-Parkplatz"
+  }
+ ],
+ "hoertext": "Hinter der Schranke an der Halleschen Straße fängt die Runde an. Sieben Kilometer links herum um den Grabschützer See, erst zwischen den Seen, dann am Blick zum Werbeliner See. Am Mottenhügel steht die überdachte Bank. Die Highlands weiden das Offenland, Abstand halten. Die Kernzone bleibt zu. Werbeliner See ist eine andere Tour.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-grabschuetzer-see/credits.json"
+}

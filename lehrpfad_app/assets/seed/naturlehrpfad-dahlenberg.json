@@ -1,0 +1,780 @@
+{
+ "id": "naturlehrpfad-dahlenberg",
+ "name": "Naturlehrpfad Dahlenberg",
+ "typ": "wald",
+ "kurzbeschreibung": "Rundweg um die Talsperre Trossin, Tafeln zu Feuchtwiese, Tierspuren, Steinhaufen und Biber. Frei.",
+ "beschreibung": "Am Waldhotel Hachemühle, westlich der Talsperre Trossin, startet der Naturlehrpfad Dahlenberg. Die Entdeckertour des FFH-Gebiets Dommitzscher Grenzbach nennt 5,3 Kilometer, die Linie hier misst 5,4. Erst den Jagdhausweg, dann das Nordufer bis zum Damm, der benannte Pfad durch den Wald nach Dahlenberg, um den Dorfteich, am Südufer zurück und über Steinertsplan zum Hotel. Leipzig Tourismus zählt zwölf Stationen und nennt als Beispiele König der Lüfte, eine tierische Hochzeit in der Aue und die Rückkehr des Bibers. In der Karte haben vier Tafeln einen Namen: Die Lebensgemeinschaft Feuchtwiese, Die Spuren der Tiere, Leben im Steinhaufen, Der Biber. Die anderen Naturtafeln am Weg stehen ohne Titel. Zugang frei, ohne Anmeldung. Der Pfad ist Waldboden, nach Regen weich. Baden und Bootfahren sind am See durch eine rot-weiße Sperrlinie getrennt, das Naturbad liegt am Südufer. Der Naturlehrpfad Grabschützer See ist eine andere Tour.",
+ "laengeKm": 5.4,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Hinweisschild Naturlehrpfad",
+ "betreiber": "Naturpark Dübener Heide",
+ "region": "Talsperre Trossin, Dahlenberg, Trossin, Nordsachsen",
+ "website": "https://natura-in-nordsachsen.de/natur-a-erleben/entdeckertouren/entdeckertour-1.html",
+ "anreise": "Start am Waldhotel Hachemühle, 04880 Trossin-Dahlenberg. Parkplatz am Hotel oder am Naturbad, Am Stausee. Bus 782 Torgau–Dahlenberg, Haltestelle Dahlenberg, Hauptstraße, dann zum See. Der Naturlehrpfad Grabschützer See startet in Zwochau, das ist die andere Tour.",
+ "startName": "Waldhotel Hachemühle",
+ "arten": [
+  "Biber",
+  "Zauneidechse",
+  "Eisvogel",
+  "Schwarzerle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.646329,
+   12.765392
+  ],
+  [
+   51.646203,
+   12.765658
+  ],
+  [
+   51.646125,
+   12.765929
+  ],
+  [
+   51.646089,
+   12.76622
+  ],
+  [
+   51.646065,
+   12.766462
+  ],
+  [
+   51.646041,
+   12.766984
+  ],
+  [
+   51.646001,
+   12.767381
+  ],
+  [
+   51.645936,
+   12.76773
+  ],
+  [
+   51.64579,
+   12.768057
+  ],
+  [
+   51.645555,
+   12.768412
+  ],
+  [
+   51.645113,
+   12.769258
+  ],
+  [
+   51.644941,
+   12.769881
+  ],
+  [
+   51.644768,
+   12.77114
+  ],
+  [
+   51.644789,
+   12.771621
+  ],
+  [
+   51.644875,
+   12.772248
+  ],
+  [
+   51.644965,
+   12.772492
+  ],
+  [
+   51.645102,
+   12.77286
+  ],
+  [
+   51.645146,
+   12.773236
+  ],
+  [
+   51.645083,
+   12.773369
+  ],
+  [
+   51.645058,
+   12.774153
+  ],
+  [
+   51.645127,
+   12.774305
+  ],
+  [
+   51.645184,
+   12.774438
+  ],
+  [
+   51.645317,
+   12.774825
+  ],
+  [
+   51.645494,
+   12.775049
+  ],
+  [
+   51.645469,
+   12.775354
+  ],
+  [
+   51.645317,
+   12.775802
+  ],
+  [
+   51.645361,
+   12.775955
+  ],
+  [
+   51.645311,
+   12.776301
+  ],
+  [
+   51.645336,
+   12.776708
+  ],
+  [
+   51.645225,
+   12.777596
+  ],
+  [
+   51.645138,
+   12.77778
+  ],
+  [
+   51.645063,
+   12.778023
+  ],
+  [
+   51.645024,
+   12.778164
+  ],
+  [
+   51.644996,
+   12.778427
+  ],
+  [
+   51.644969,
+   12.778692
+  ],
+  [
+   51.644933,
+   12.778765
+  ],
+  [
+   51.644837,
+   12.778925
+  ],
+  [
+   51.644798,
+   12.778999
+  ],
+  [
+   51.644748,
+   12.77909
+  ],
+  [
+   51.644715,
+   12.779153
+  ],
+  [
+   51.644688,
+   12.779175
+  ],
+  [
+   51.644718,
+   12.779393
+  ],
+  [
+   51.644652,
+   12.779606
+  ],
+  [
+   51.644506,
+   12.779873
+  ],
+  [
+   51.644295,
+   12.780563
+  ],
+  [
+   51.64427,
+   12.78117
+  ],
+  [
+   51.644358,
+   12.781603
+  ],
+  [
+   51.644525,
+   12.782261
+  ],
+  [
+   51.644442,
+   12.782627
+  ],
+  [
+   51.643931,
+   12.782436
+  ],
+  [
+   51.643605,
+   12.782786
+  ],
+  [
+   51.643132,
+   12.783445
+  ],
+  [
+   51.642451,
+   12.785009
+  ],
+  [
+   51.642066,
+   12.786421
+  ],
+  [
+   51.641535,
+   12.787677
+  ],
+  [
+   51.641177,
+   12.788161
+  ],
+  [
+   51.640749,
+   12.788923
+  ],
+  [
+   51.640104,
+   12.790714
+  ],
+  [
+   51.638862,
+   12.790363
+  ],
+  [
+   51.638752,
+   12.790304
+  ],
+  [
+   51.638657,
+   12.790217
+  ],
+  [
+   51.638479,
+   12.790003
+  ],
+  [
+   51.63859,
+   12.789817
+  ],
+  [
+   51.638667,
+   12.78965
+  ],
+  [
+   51.638701,
+   12.789511
+  ],
+  [
+   51.638814,
+   12.789074
+  ],
+  [
+   51.638977,
+   12.788494
+  ],
+  [
+   51.639071,
+   12.78809
+  ],
+  [
+   51.639331,
+   12.787158
+  ],
+  [
+   51.639433,
+   12.786647
+  ],
+  [
+   51.639618,
+   12.785898
+  ],
+  [
+   51.639803,
+   12.785094
+  ],
+  [
+   51.63986,
+   12.784783
+  ],
+  [
+   51.639876,
+   12.784535
+  ],
+  [
+   51.639882,
+   12.784325
+  ],
+  [
+   51.639868,
+   12.783933
+  ],
+  [
+   51.639815,
+   12.783501
+  ],
+  [
+   51.639829,
+   12.782605
+  ],
+  [
+   51.639914,
+   12.781722
+  ],
+  [
+   51.639997,
+   12.781024
+  ],
+  [
+   51.640002,
+   12.780851
+  ],
+  [
+   51.640141,
+   12.780639
+  ],
+  [
+   51.640252,
+   12.780558
+  ],
+  [
+   51.640358,
+   12.780541
+  ],
+  [
+   51.640918,
+   12.780544
+  ],
+  [
+   51.641159,
+   12.780417
+  ],
+  [
+   51.641476,
+   12.780112
+  ],
+  [
+   51.642211,
+   12.779366
+  ],
+  [
+   51.64257,
+   12.778902
+  ],
+  [
+   51.642627,
+   12.778667
+  ],
+  [
+   51.64269,
+   12.778366
+  ],
+  [
+   51.642777,
+   12.777704
+  ],
+  [
+   51.6428,
+   12.777449
+  ],
+  [
+   51.64281,
+   12.777316
+  ],
+  [
+   51.642885,
+   12.777107
+  ],
+  [
+   51.642909,
+   12.777136
+  ],
+  [
+   51.643289,
+   12.777581
+  ],
+  [
+   51.642885,
+   12.777107
+  ],
+  [
+   51.642976,
+   12.77672
+  ],
+  [
+   51.643084,
+   12.77643
+  ],
+  [
+   51.643337,
+   12.77593
+  ],
+  [
+   51.643612,
+   12.77534
+  ],
+  [
+   51.643751,
+   12.774714
+  ],
+  [
+   51.643761,
+   12.773773
+  ],
+  [
+   51.643638,
+   12.773245
+  ],
+  [
+   51.643512,
+   12.77227
+  ],
+  [
+   51.643353,
+   12.771201
+  ],
+  [
+   51.643305,
+   12.77076
+  ],
+  [
+   51.643629,
+   12.769852
+  ],
+  [
+   51.643795,
+   12.769181
+  ],
+  [
+   51.643828,
+   12.768933
+  ],
+  [
+   51.643865,
+   12.768336
+  ],
+  [
+   51.643948,
+   12.767241
+  ],
+  [
+   51.644028,
+   12.766679
+  ],
+  [
+   51.644112,
+   12.766293
+  ],
+  [
+   51.64421,
+   12.766009
+  ],
+  [
+   51.644248,
+   12.765752
+  ],
+  [
+   51.644418,
+   12.764894
+  ],
+  [
+   51.644351,
+   12.764662
+  ],
+  [
+   51.643313,
+   12.7639
+  ],
+  [
+   51.642768,
+   12.763479
+  ],
+  [
+   51.642877,
+   12.763398
+  ],
+  [
+   51.643107,
+   12.763279
+  ],
+  [
+   51.643506,
+   12.763067
+  ],
+  [
+   51.644146,
+   12.762782
+  ],
+  [
+   51.644286,
+   12.762723
+  ],
+  [
+   51.644353,
+   12.762653
+  ],
+  [
+   51.644406,
+   12.762562
+  ],
+  [
+   51.644467,
+   12.762397
+  ],
+  [
+   51.644577,
+   12.761857
+  ],
+  [
+   51.644641,
+   12.761581
+  ],
+  [
+   51.6447,
+   12.761456
+  ],
+  [
+   51.644883,
+   12.761235
+  ],
+  [
+   51.645031,
+   12.7611
+  ],
+  [
+   51.645094,
+   12.761062
+  ],
+  [
+   51.645171,
+   12.76107
+  ],
+  [
+   51.645677,
+   12.761486
+  ],
+  [
+   51.645769,
+   12.761515
+  ],
+  [
+   51.645891,
+   12.761429
+  ],
+  [
+   51.646203,
+   12.761026
+  ],
+  [
+   51.646264,
+   12.761226
+  ],
+  [
+   51.646362,
+   12.761523
+  ],
+  [
+   51.646411,
+   12.761712
+  ],
+  [
+   51.64644,
+   12.761886
+  ],
+  [
+   51.646475,
+   12.762119
+  ],
+  [
+   51.646502,
+   12.762357
+  ],
+  [
+   51.646558,
+   12.762861
+  ],
+  [
+   51.646573,
+   12.762987
+  ],
+  [
+   51.646572,
+   12.763087
+  ],
+  [
+   51.646553,
+   12.763718
+  ],
+  [
+   51.646568,
+   12.763924
+  ],
+  [
+   51.646626,
+   12.764402
+  ],
+  [
+   51.646643,
+   12.764503
+  ],
+  [
+   51.646708,
+   12.764674
+  ],
+  [
+   51.646733,
+   12.764893
+  ],
+  [
+   51.64659,
+   12.764998
+  ],
+  [
+   51.646485,
+   12.765138
+  ],
+  [
+   51.646329,
+   12.765392
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 736724353,
+   "lat": 51.6463523,
+   "lon": 12.7655657,
+   "km": 0.0,
+   "titel": "Die Lebensgemeinschaft Feuchtwiese",
+   "thema": "Gemähtes Grünland am Nordufer",
+   "kurztext": "Kurz nach dem Waldhotel, am Nordufer. Die Tafel heißt Die Lebensgemeinschaft Feuchtwiese. Feuchtwiesen entstehen durch Mahd, einmal im Jahr oder öfter, und durch Beweidung. Abgebildet sind unter anderem Braunkehlchen, Kuckuckslichtnelke und Sumpfdotterblume. Die Wiese liegt am Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 736724150,
+   "lat": 51.6450407,
+   "lon": 12.7738296,
+   "km": 0.66,
+   "titel": "Die Spuren der Tiere",
+   "thema": "Fährten am Nordufer",
+   "kurztext": "Weiter am Nordufer, den See im Blick. Die Tafel heißt Die Spuren der Tiere. Was sie im Einzelnen zeigt, steht nur vor Ort. Gemeint sind Fährten, kein Gehege.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 540313315,
+   "lat": 51.6447565,
+   "lon": 12.7792745,
+   "km": 1.07,
+   "titel": "Leben im Steinhaufen",
+   "thema": "Lesesteine am Damm",
+   "kurztext": "Am Staudamm, der Lesesteinhaufen. Lücken und Höhlen, sonnig. Die Entdeckertour nennt Zauneidechse, Steinhummel und Mauerpfeffer. Vom Damm aus siehst du über den See. Der Stausee ist von 1976, Brauchwasser, heute Baden am Südufer.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 736724378,
+   "lat": 51.6433719,
+   "lon": 12.7704625,
+   "km": 3.99,
+   "titel": "Der Biber",
+   "thema": "Burg am Grenzbach",
+   "kurztext": "Am Südufer, auf dem Rückweg. Die Tafel heißt Der Biber. Beim Überqueren des Grenzbaches am Start der Runde liegt eine Burg. Spuren siehst du eher als das Tier. Der Bach verbindet Elbe, Heide und Mulde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 736724158,
+   "lat": 51.6401083,
+   "lon": 12.7805046,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 736724201,
+   "lat": 51.6401263,
+   "lon": 12.7807521,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 736724241,
+   "lat": 51.6433227,
+   "lon": 12.7708041,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 736724253,
+   "lat": 51.643185,
+   "lon": 12.7767555,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 736724257,
+   "lat": 51.6465461,
+   "lon": 12.7654029,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 736724280,
+   "lat": 51.6427355,
+   "lon": 12.76321,
+   "kategorie": "picnic",
+   "name": "An der Hachemühle"
+  },
+  {
+   "osmId": 736724332,
+   "lat": 51.6455975,
+   "lon": 12.7615675,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 13711290300,
+   "lat": 51.6448145,
+   "lon": 12.7791525,
+   "kategorie": "picnic",
+   "name": null
+  }
+ ],
+ "hoertext": "Am Waldhotel Hachemühle fängt die Runde an. Fünfeinhalb Kilometer um die Talsperre Trossin, erst am Nordufer, dann durch den Wald ins Dorf und am Südufer zurück. An der Feuchtwiese steht die erste Tafel, am Damm der Steinhaufen. Der Biber hat am Grenzbach seine Burg, Spuren siehst du eher als das Tier. Festes Schuhwerk, der Pfad ist Waldboden. Grabschütz ist eine andere Tour.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-dahlenberg/credits.json"
+}

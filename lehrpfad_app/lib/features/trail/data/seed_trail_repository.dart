@@ -86,6 +86,13 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/wasserspielplatz-lene-voigt.json',
     'assets/seed/wasserspielplatz-giesserbruecke.json',
     'assets/seed/naturlehrpfad-plaussiger-waeldchen.json',
+    'assets/seed/steinerlebnisplatz-markkleeberg.json',
+    'assets/seed/naturlehrpfad-staditzwald.json',
+    'assets/seed/wasserspielplatz-oberholz.json',
+    'assets/seed/auwald-erlebnispfad.json',
+    'assets/seed/naturlehrpfad-dahlenberg.json',
+    'assets/seed/naturlehrpfad-grabschuetzer-see.json',
+    'assets/seed/geopfad-markkleeberg.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

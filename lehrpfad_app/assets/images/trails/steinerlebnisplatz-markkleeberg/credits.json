@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-felsen.jpg",
+    "caption": "Steinerlebnisplatz am Störmthaler Kanal, Juli 2020. Vorn die Geopfad-Stele, dahinter Findlinge und Sand.",
+    "credit": "Andreas Huth",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergbaufolgelandschaft_Leipziger_Neuseenland,_Spielplatz_am_Geopfad,_Station_7.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kanal.jpg",
+    "caption": "Störmthaler Kanal an der Schleuse, Juli 2020. Der Bachlauf auf dem Platz nimmt Wasser aus diesem Kanal.",
+    "credit": "Andreas Huth",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergbaufolgelandschaft_Leipziger_Neuseenland,_An_der_Schleuse_zum_St%C3%B6rmthaler_See_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-bruecke.jpg",
+    "caption": "Klappbrücke über den Störmthaler Kanal, 2013. Der Platz liegt südöstlich davon.",
+    "credit": "Falk2",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:I12_308_Klappbr%C3%BCcke.jpg",
+    "kind": "ort"
+  }
+]

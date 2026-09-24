@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-promenade.jpg",
+    "caption": "Seepromenade am Markkleeberger See, Dezember 2017. Hier steht Stele 1.",
+    "credit": "Ansgar Koreng",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Markkleeberger_See,_Promenade,_1708081423,_ako.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-stoermthal.jpg",
+    "caption": "Störmthaler See. Die Stelen 8 bis 16 stehen an diesem Ufer.",
+    "credit": "Thomas Eckart",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St%C3%B6rmthaler_See_Panorama.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-ufer.jpg",
+    "caption": "Störmthaler See nach Westen. Der Geopfad bleibt am Ostufer.",
+    "credit": "Martin Geisler",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St%C3%B6rmthaler_See_nach_Westen.jpg",
+    "kind": "ort"
+  }
+]

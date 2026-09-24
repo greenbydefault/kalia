@@ -1,0 +1,128 @@
+{
+ "id": "wasserspielplatz-oberholz",
+ "name": "Wasserspielplatz Oberholz",
+ "typ": "wasserspielplatz",
+ "kurzbeschreibung": "Schwengelpumpe und Matschanlage unter den Bäumen am Bahnhof Oberholz. Frei. Wasser nur, wenn das Schichtenwasser reicht.",
+ "beschreibung": "Südlich der Rudolf-Breitscheid-Straße, am Bahnhof Oberholz, liegt der Waldspielplatz unter den Bäumen. Die Gemeinde Großpösna hat die Geräte 2019 erneuert. Den Wasserspielplatz macht die Schwengelpumpe: Sie zapft Schichtenwasser, und das ist im Oberholz nicht immer da. Daneben die Wasser- und Matschanlage, dazu eine Sandfläche. Zugang frei, ohne Anmeldung. Wechselkleidung mitnehmen, wenn die Pumpe läuft. Die Büffeltränke steht ein paar Schritte nördlich an der Straße. Der Naturlehrpfad durchs Oberholz, grüner Schrägstrich auf rotem Quadrat, beginnt hinter dem Platz und ist ein anderer Weg. RB 113 hält Oberholz auf Zuruf. Bus 75 hält Bahnhof Oberholz.",
+ "laengeKm": 0.0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Waldspielplatz an der Büffeltränke",
+ "betreiber": "Gemeinde Großpösna",
+ "region": "Großpösna, Oberholz, Sachsen",
+ "website": null,
+ "anreise": "Adresse: Rudolf-Breitscheid-Straße 32, 04463 Großpösna. RB 113, Halt Oberholz, Bedarfshalt. Bus 75, Haltestelle Bahnhof Oberholz. Der Platz liegt südlich der Straße, neben der Büffeltränke, am Waldrand. Parken an der Straße. Der Naturlehrpfad zweigt hinter dem Platz auf den Langen Weg ab und gehört nicht zu diesem Ort.",
+ "startName": "Waldspielplatz Oberholz",
+ "arten": [
+  "Wasserpumpe"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   51.25796,
+   12.50702
+  ],
+  [
+   51.2579,
+   12.50716
+  ],
+  [
+   51.25785,
+   12.50728
+  ]
+ ],
+ "area": [
+  [
+   51.25806,
+   12.5069
+  ],
+  [
+   51.25805,
+   12.50738
+  ],
+  [
+   51.2578,
+   12.50742
+  ],
+  [
+   51.25778,
+   12.50705
+  ],
+  [
+   51.25788,
+   12.50686
+  ],
+  [
+   51.25806,
+   12.5069
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1822207548,
+   "lat": 51.25796,
+   "lon": 12.50702,
+   "km": 0.0,
+   "titel": "Schwengelpumpe",
+   "thema": "Schichtenwasser",
+   "kurztext": "Handpumpe unter den Bäumen. Sie zapft Schichtenwasser, und das reicht im Oberholz nicht immer.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -183682830,
+   "lat": 51.2579,
+   "lon": 12.50716,
+   "km": 0.01,
+   "titel": "Matschanlage",
+   "thema": "Matschen",
+   "kurztext": "Wasser- und Matschanlage neben der Pumpe. Wenn der Schwengel läuft, wird hier aus dem Schwall Matsch.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1113742334,
+   "lat": 51.25785,
+   "lon": 12.50728,
+   "km": 0.02,
+   "titel": "Sandfläche",
+   "thema": "Sand",
+   "kurztext": "Sandfläche unter den Bäumen. Hier landet das Wasser, wenn die Pumpe gibt.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1787480888,
+   "lat": 51.257912,
+   "lon": 12.5070563,
+   "kategorie": "playground",
+   "name": "Waldspielplatz"
+  },
+  {
+   "osmId": 440812766,
+   "lat": 51.2582292,
+   "lon": 12.5063252,
+   "kategorie": "gastro",
+   "name": "Büffeltränke"
+  }
+ ],
+ "oeffnungszeiten": "Ganzjährig frei. Wasser nur, wenn das Schichtenwasser reicht.",
+ "besuchshinweise": "Wechselkleidung mitnehmen. Die Pumpe holt Schichtenwasser und ist nicht immer nass.",
+ "hoertext": "Unter den Bäumen am Bahnhof Oberholz steht die Schwengelpumpe. Sie holt Schichtenwasser, und das ist hier nicht immer da. Wenn sie läuft, matschst du direkt daneben. Nimm Wechselkleidung mit. Der RB 113 hält in Oberholz nur auf Zuruf. Die Büffeltränke ist ein paar Schritte die Straße runter. Der Naturlehrpfad durch den Wald ist ein anderer Weg.",
+ "bilderAsset": "assets/images/trails/wasserspielplatz-oberholz/credits.json"
+}

@@ -5015,6 +5015,65 @@
         ]
     },
     {
+        "id": "eiszeitlicher-bachlauf",
+        "nameDe": "Eiszeitlicher Bachlauf",
+        "nameLat": "",
+        "kategorie": "geraete",
+        "iconKey": "geraet",
+        "kurztext": "Aus dem Störmthaler Kanal läuft ein kleiner Bach den Hang runter, und du darfst rein.",
+        "aliases": [
+            "Bachlauf"
+        ],
+        "imagePath": null,
+        "imageCredit": "",
+        "content": {
+            "hook": "Aus dem Störmthaler Kanal läuft ein kleiner Bach den Hang runter, und du darfst rein.",
+            "erkennung": [
+                "Schmaler Bach auf der Sandfläche",
+                "Kommt aus dem Kanal, nicht aus einer Pumpe",
+                "Findlinge liegen direkt am Ufer"
+            ],
+            "lebensraum": "Auf dem Steinerlebnisplatz in Auenhain, die Fläche fällt zum Störmthaler Kanal. Der Bach ist nachgestellt, das Wasser kommt aus dem Kanal.",
+            "funFacts": [
+                "Wasser gibt es ungefähr von Ostern bis Ende der Oktoberferien.",
+                "Planschen ist hier ausdrücklich gewollt.",
+                "Neben dem Bach liegen Geschiebe, die das Eis aus Skandinavien brachte."
+            ],
+            "hinweis": "Wechselkleidung mitnehmen, der Bach macht nass.",
+            "hoertext": "Du stehst südöstlich der Klappbrücke, und unter dir läuft Wasser. Kein Pumpenschwengel, der Bach kommt aus dem Störmthaler Kanal. Die Fläche fällt zum Kanal hin ab, das Wasser sucht sich den Weg nach unten, an Findlingen vorbei. Die Steine hat das Eis aus Skandinavien hierher geschoben. Der Bach ist nachgestellt, eiszeitlich soll er aussehen. Fass rein. Planschen ist gewollt. Ungefähr von Ostern bis zum Ende der Oktoberferien läuft er, danach siehst du nur das Bett. Nimm Wechselkleidung mit. Folgst du dem Lauf, landest du wieder am Kanal, wo das Wasser herkam."
+        }
+    },
+    {
+        "id": "geopfad-stele",
+        "nameDe": "Geopfad-Stele",
+        "nameLat": "",
+        "kategorie": "geraete",
+        "iconKey": "geraet",
+        "kurztext": "Rostbraun, dreieinhalb Meter hoch, und jede Stele am Ufer erzählt eine andere Schicht.",
+        "aliases": [
+            "Stele",
+            "Geopfad Stele"
+        ],
+        "imagePath": null,
+        "imageCredit": "",
+        "content": {
+            "hook": "Rostbraun, dreieinhalb Meter hoch, und jede Stele am Ufer erzählt eine andere Schicht.",
+            "erkennung": [
+                "Rostbraune Tafel, etwa 3,30 Meter",
+                "Steht am Ostufer, nicht im Wald",
+                "Nummer und ein eigenes Thema"
+            ],
+            "lebensraum": "Sechzehn Stelen am Geopfad, vom Markkleeberger See bis zur Vineta am Störmthaler See. Du folgst ihnen am Ufer.",
+            "funFacts": [
+                "Die Farbe erinnert an die alten Tagebaugeräte.",
+                "Jede Stele ist für sich lesbar, die Reihe ist kein Pflichtprogramm.",
+                "Stele sieben steht am Steinerlebnisplatz, der Platz ist ein anderer Ort."
+            ],
+            "hinweis": "Am Ufer bleiben, dann kommt die nächste Stele von allein.",
+            "hoertext": "Du stehst vor einer rostbraunen Stele, dreieinhalb Meter hoch. Am Geopfad zwischen Markkleeberger See und Störmthaler See stehen sechzehn davon. Jede hat ein eigenes Thema, Altsteinzeit, Nordsee, Kohle, Tagebau. Die erste steht an der Seepromenade, die letzte an der Vineta. Du musst sie nicht der Reihe nach lesen. Jede Tafel ist für sich fertig. Der Rost erinnert an die Tagebaugeräte, die hier früher die Landschaft umgegraben haben. Bleib am Ufer, dann kommt die nächste von allein. Stele sieben steht am Rand des Steinerlebnisplatzes. Der Platz selbst, mit Bach und Findlingen, ist eine andere Tour. Der Weg ist offen, ohne Anmeldung. Festes Schuhwerk reicht. Wenn du mittendrin einsteigst, fehlt dir nichts, was eine Tafel weiter vorn schon erzählt hätte."
+        }
+    },
+    {
         "id": "wasser-matschtisch-pumpe",
         "nameDe": "Wasser- und Matschtisch mit Pumpe",
         "nameLat": "",

@@ -1,0 +1,625 @@
+{
+ "id": "naturlehrpfad-staditzwald",
+ "name": "Naturlehrpfad Staditzwald",
+ "typ": "wald",
+ "kurzbeschreibung": "Rundweg am Staditzteich, dreizehn Tafeln durch den Staditzwald. Frei, grüner Diagonalstrich.",
+ "beschreibung": "Am Südwestende des Staditzteichs, zwischen Taucha und Seegeritz, startet der Naturlehrpfad durch den Staditzwald. 69 Hektar Leipziger Stadtforst, FFH- und Landschaftsschutzgebiet Parthenaue. Das Faltblatt sagt etwa 2,7 Kilometer, die Schleife in der Karte ist genauso lang. Markierung ein grüner Diagonalstrich auf weißem Grund. Dreizehn Tafeln: Teich und Schutzhütte, Bruchwald, Grenzsteine von 1728, Misteln, Baumriesen, Dachs, die Erlebnisstation mit Holzarten, Barfußpfad und Klangspiel, alte Rotbuchen, Revierort Fasanerie, die Bank mit Blick auf St. Moritz, Steinrücken, Robinien mit Eremiten-Biotop, rote Stämme von der Luftalge. Zugang frei, ohne Anmeldung. Nicht barrierefrei. Nach Regen weich. Keine Toilette am Weg. Der Naturlehrpfad Plaußiger Wäldchen ist eine andere Runde.",
+ "laengeKm": 2.7,
+ "dauerMin": 75,
+ "rundkurs": true,
+ "markierung": "Grüner Diagonalstrich auf weißem Grund",
+ "betreiber": "Zweckverband Parthenaue",
+ "region": "Staditzwald, Taucha, Landkreis Leipzig, Sachsen",
+ "website": "https://partheland.info",
+ "anreise": "Start an der Übersichtskarte, Südwestende des Staditzteichs, Tauchaer Weg Richtung Seegeritz, 04425 Taucha. Die Schutzhütte Staditz-Klause steht direkt daneben. Kein ausgewiesener Wanderparkplatz am Teich. Der Naturlehrpfad Plaußiger Wäldchen startet an der Grundstraße in Plaußig, das ist die andere Runde.",
+ "startName": "Übersichtskarte Staditzteich",
+ "arten": [
+  "Stockente",
+  "Schwarzerle",
+  "Stieleiche",
+  "Rotbuche",
+  "Robinie",
+  "Zauneidechse"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.398613,
+   12.490275
+  ],
+  [
+   51.398724,
+   12.490357
+  ],
+  [
+   51.39884,
+   12.490055
+  ],
+  [
+   51.398925,
+   12.490017
+  ],
+  [
+   51.398969,
+   12.490058
+  ],
+  [
+   51.399042,
+   12.490196
+  ],
+  [
+   51.399074,
+   12.490211
+  ],
+  [
+   51.399166,
+   12.490484
+  ],
+  [
+   51.399233,
+   12.49063
+  ],
+  [
+   51.399363,
+   12.490933
+  ],
+  [
+   51.399465,
+   12.491251
+  ],
+  [
+   51.399582,
+   12.491573
+  ],
+  [
+   51.399755,
+   12.491962
+  ],
+  [
+   51.399881,
+   12.492207
+  ],
+  [
+   51.39997,
+   12.492373
+  ],
+  [
+   51.400105,
+   12.492577
+  ],
+  [
+   51.400243,
+   12.492939
+  ],
+  [
+   51.400349,
+   12.493049
+  ],
+  [
+   51.400448,
+   12.493237
+  ],
+  [
+   51.400677,
+   12.493504
+  ],
+  [
+   51.400772,
+   12.493667
+  ],
+  [
+   51.400931,
+   12.49382
+  ],
+  [
+   51.400983,
+   12.493925
+  ],
+  [
+   51.401373,
+   12.49386
+  ],
+  [
+   51.401533,
+   12.49391
+  ],
+  [
+   51.402257,
+   12.494231
+  ],
+  [
+   51.402506,
+   12.494379
+  ],
+  [
+   51.40271,
+   12.494439
+  ],
+  [
+   51.402912,
+   12.494423
+  ],
+  [
+   51.403065,
+   12.494338
+  ],
+  [
+   51.403184,
+   12.494187
+  ],
+  [
+   51.403372,
+   12.493959
+  ],
+  [
+   51.403624,
+   12.493618
+  ],
+  [
+   51.403919,
+   12.493382
+  ],
+  [
+   51.404106,
+   12.493312
+  ],
+  [
+   51.404529,
+   12.493186
+  ],
+  [
+   51.404809,
+   12.493156
+  ],
+  [
+   51.405073,
+   12.493352
+  ],
+  [
+   51.405127,
+   12.493564
+  ],
+  [
+   51.405216,
+   12.493776
+  ],
+  [
+   51.405456,
+   12.493768
+  ],
+  [
+   51.405783,
+   12.493977
+  ],
+  [
+   51.406048,
+   12.494095
+  ],
+  [
+   51.406251,
+   12.494093
+  ],
+  [
+   51.406445,
+   12.49406
+  ],
+  [
+   51.406679,
+   12.494564
+  ],
+  [
+   51.406838,
+   12.495
+  ],
+  [
+   51.406914,
+   12.495516
+  ],
+  [
+   51.407055,
+   12.495878
+  ],
+  [
+   51.406933,
+   12.496211
+  ],
+  [
+   51.406911,
+   12.496271
+  ],
+  [
+   51.40662,
+   12.497284
+  ],
+  [
+   51.406466,
+   12.497574
+  ],
+  [
+   51.406152,
+   12.498239
+  ],
+  [
+   51.405549,
+   12.499471
+  ],
+  [
+   51.405312,
+   12.499984
+  ],
+  [
+   51.405076,
+   12.500501
+  ],
+  [
+   51.404678,
+   12.500101
+  ],
+  [
+   51.404586,
+   12.500009
+  ],
+  [
+   51.404122,
+   12.499736
+  ],
+  [
+   51.403651,
+   12.499355
+  ],
+  [
+   51.40353,
+   12.499222
+  ],
+  [
+   51.403276,
+   12.49885
+  ],
+  [
+   51.40295,
+   12.498237
+  ],
+  [
+   51.40283,
+   12.498128
+  ],
+  [
+   51.402686,
+   12.497977
+  ],
+  [
+   51.402343,
+   12.497629
+  ],
+  [
+   51.402125,
+   12.497423
+  ],
+  [
+   51.401839,
+   12.497065
+  ],
+  [
+   51.401655,
+   12.496786
+  ],
+  [
+   51.401304,
+   12.496181
+  ],
+  [
+   51.401162,
+   12.49592
+  ],
+  [
+   51.400886,
+   12.4954
+  ],
+  [
+   51.400652,
+   12.49499
+  ],
+  [
+   51.400498,
+   12.494722
+  ],
+  [
+   51.400162,
+   12.494143
+  ],
+  [
+   51.399893,
+   12.49367
+  ],
+  [
+   51.399722,
+   12.493357
+  ],
+  [
+   51.399611,
+   12.493198
+  ],
+  [
+   51.399504,
+   12.493045
+  ],
+  [
+   51.399405,
+   12.492928
+  ],
+  [
+   51.398679,
+   12.492222
+  ],
+  [
+   51.398601,
+   12.492129
+  ],
+  [
+   51.398519,
+   12.492016
+  ],
+  [
+   51.398419,
+   12.491806
+  ],
+  [
+   51.39834,
+   12.491445
+  ],
+  [
+   51.398272,
+   12.49098
+  ],
+  [
+   51.398207,
+   12.490695
+  ],
+  [
+   51.398421,
+   12.490658
+  ],
+  [
+   51.398513,
+   12.49055
+  ],
+  [
+   51.398573,
+   12.490405
+  ],
+  [
+   51.398613,
+   12.490275
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 7707254740,
+   "lat": 51.3986652,
+   "lon": 12.4902329,
+   "km": 0.0,
+   "titel": "Staditzteich",
+   "thema": "Karte, Hütte, Karpfenteich",
+   "kurztext": "Hier hängt die Karte, daneben die Schutzhütte Staditz-Klause. Dreizehn Nummern, der Strich ist grün, von links oben nach rechts unten. Der Teich ist künstlich, um 1718, bis in die 1950er Karpfenzucht. Heute nährstoffreich. Stockenten, Blässhühner, manchmal ein Graureiher von der Kolonie nebenan.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3473855840,
+   "lat": 51.4006771,
+   "lon": 12.4935043,
+   "km": 0.36,
+   "titel": "Bruchwald",
+   "thema": "Schwarzerlen am Nordostende",
+   "kurztext": "Nordostende vom Teich, hinter dem Schilf. Schwarzerlen auf nassem Boden. Der Bruch schließt an die Verlandung an.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2559491393,
+   "lat": 51.4029122,
+   "lon": 12.4944232,
+   "km": 0.63,
+   "titel": "Grenzsteine",
+   "thema": "1728, Leipziger Wappen",
+   "kurztext": "Sieben Grenzsteine im Gebiet, Sandstein oder Porphyrtuff, Jahreszahl 1728, Leipziger Wappen. Drei liegen westlich und zeigen die alte Waldgrenze.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2078297348,
+   "lat": 51.4039185,
+   "lon": 12.4933818,
+   "km": 0.76,
+   "titel": "Misteln",
+   "thema": "Auf den Pappeln der 1960er",
+   "kurztext": "Misteln auf Pappeln, gepflanzt in den 1960ern. In der Leipziger Umgebung selten. Roterle, Esche, Traubenkirsche und Stieleiche sollen den Auenwald langfristig wieder herstellen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -694580010,
+   "lat": 51.406251,
+   "lon": 12.4940926,
+   "km": 1.05,
+   "titel": "Baumriesen",
+   "thema": "Feldahorn und Stieleichen",
+   "kurztext": "Dicke Bäume, die das Naturschutzgesetz schützt. Ein Feldahorn, 19 Meter hoch, 84 Zentimeter dick. Dazu alte Stieleichen. Das Faltblatt nennt den Blick über das Feld bis zum BMW-Werk.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -2325485652,
+   "lat": 51.4070547,
+   "lon": 12.4958784,
+   "km": 1.22,
+   "titel": "Dachs",
+   "thema": "Nachtaktiv, Bau am Waldrand",
+   "kurztext": "Seit über fünfzig Jahren im Staditzwald bekannt. Nachtaktiv, Allesfresser, Baue mit mehreren Einfahrten im Laubwald nah an offenen Flächen. Am Tag siehst du eher den Bau als das Tier.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 3476874109,
+   "lat": 51.4067464,
+   "lon": 12.497148,
+   "km": 1.32,
+   "titel": "Erlebnisstation",
+   "thema": "Hölzer, Barfußpfad, Klangspiel",
+   "kurztext": "Schautafel mit Holzarten, Barfußpfad, Holzklangspiel. Die Tafel in der Karte heißt Hölzer. Hier bleibst du eine Weile.",
+   "erlebnisse": [
+    "tafel",
+    "barfusspfad",
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -752219933,
+   "lat": 51.4055492,
+   "lon": 12.4994706,
+   "km": 1.52,
+   "titel": "Alte Rotbuchen",
+   "thema": "Über 170 Jahre, Spechte",
+   "kurztext": "Rotbuchen, über 170 Jahre. Sie beschatten den Boden so stark, dass darunter wenig anderes hochkommt. Das Faltblatt sagt, hier siehst du Spechte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -1224518972,
+   "lat": 51.4050757,
+   "lon": 12.5005009,
+   "km": 1.61,
+   "titel": "Revierort Fasanerie",
+   "thema": "Winterlinden, Pflanzgut",
+   "kurztext": "Erst Anfang des 20. Jahrhunderts aufgeforstet. Winterlinden, Sachsenforst holt hier Pflanzgut. Die Tafel heißt Revierort Fasanerie.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 1669007692,
+   "lat": 51.4034234,
+   "lon": 12.4989932,
+   "km": 1.84,
+   "titel": "Blick auf St. Moritz",
+   "thema": "Bank, Kirche, Kiesabbau",
+   "kurztext": "Die Bank schaut auf die Kirche St. Moritz in Taucha und über das freie Feld bis zum Kiesabbau.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -2043893987,
+   "lat": 51.401655,
+   "lon": 12.4967864,
+   "km": 2.07,
+   "titel": "Steinrücken",
+   "thema": "Lesesteine, Zauneidechse",
+   "kurztext": "Lesesteinhaufen von den Äckern, oft auf der Endmoräne. Warm und trocken. Das Faltblatt nennt die Zauneidechse. Nicht im Haufen wühlen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 8272197500,
+   "lat": 51.399715,
+   "lon": 12.4933105,
+   "km": 2.39,
+   "titel": "Robinien und Eremit",
+   "thema": "Hohle Stämme",
+   "kurztext": "Alte Robinien. In hohlen Stämmen lebt der Eremit, ein Käfer, stark gefährdet. Den Käfer siehst du selten, die Bäume stehen am Weg. Die Tafel heißt Eremiten-Biotop.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": -906017546,
+   "lat": 51.3984194,
+   "lon": 12.4918061,
+   "km": 2.57,
+   "titel": "Rote Baumstämme",
+   "thema": "Luftalge Trentepohlia",
+   "kurztext": "Braun bis rotorange auf der Rinde: die Luftalge Trentepohlia aurea. Dem Baum schadet sie nicht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 13
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1062227310,
+   "lat": 51.4067339,
+   "lon": 12.4970753,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1669007692,
+   "lat": 51.4034234,
+   "lon": 12.4989932,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8309799897,
+   "lat": 51.3988735,
+   "lon": 12.4899946,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8309799956,
+   "lat": 51.3986308,
+   "lon": 12.4910387,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8309799959,
+   "lat": 51.3987087,
+   "lon": 12.4901502,
+   "kategorie": "picnic",
+   "name": "Staditz-Klause"
+  }
+ ],
+ "hoertext": "Am Südwestende vom Staditzteich hängt die Karte, die Hütte steht daneben. Ein grüner Strich nimmt dich knapp drei Kilometer einmal durch den Wald. Erst am Teich in den Erlenbruch, dann zu den alten Buchen. Auf dem Rückweg die Robinien. Nach Regen wird der Weg weich. Plaußig ist eine andere Runde.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-staditzwald/credits.json"
+}

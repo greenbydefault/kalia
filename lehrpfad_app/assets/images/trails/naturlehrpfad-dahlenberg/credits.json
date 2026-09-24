@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-stausee.jpg",
+    "caption": "Talsperre Trossin, Stausee Dahlenberg, vom Südufer.",
+    "credit": "Doris Antony, Berlin",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dahlenberg_Stausee.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-staumauer.jpg",
+    "caption": "Staumauer des Stausees Dahlenberg, davor die Brücke über das Auslassbauwerk.",
+    "credit": "cmuelle8",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stausee_Dahlenberg_Staumauer.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-feuchtwiese.jpg",
+    "caption": "Tafel Die Lebensgemeinschaft Feuchtwiese am Nordufer der Talsperre Trossin.",
+    "credit": "cmuelle8",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stausee_Dahlenberg_Infotafel_Feuchtwiesen.jpg",
+    "kind": "ort"
+  }
+]

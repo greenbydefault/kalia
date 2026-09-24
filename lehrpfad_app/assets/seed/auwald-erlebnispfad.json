@@ -1,0 +1,500 @@
+{
+ "id": "auwald-erlebnispfad",
+ "name": "Auwald-Erlebnispfad",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Rundweg ab der Auwaldstation durch die Burgaue, über die Neue Luppe. App-GPS, frei.",
+ "beschreibung": "Am Schlosspark Lützschena, Schloßweg 11, startet der Auwald-Erlebnispfad an der Auwaldstation. Die Runde geht durch den nördlichen Auwald und das Naturschutzgebiet Burgaue. Leipzig Tourismus nennt knapp vier Kilometer und 14 Stationen in der App. Die Linie hier ist die Wegbeschreibung, gemessen 3,3 Kilometer: an der Weißen Elster vorbei, am Herkulesdenkmal links über die Brücke der Neuen Luppe, dann die Schleife in der Burgaue und denselben Weg zurück. Sechs Titel stehen in der Reportage, der Rest nur in der App. Wald frei, ohne Anmeldung. Hörstücke und Quiz auf dem eigenen Handy, Geräte zum Ausleihen in der Station zu den Öffnungszeiten. Auf den Wegen bleiben, Hunde anleinen, das Schild am Park sagt das so. Nach Regen weich. Der Schlosspark-Rundgang mit siebzehn Stationen ist eine andere Tour.",
+ "laengeKm": 3.3,
+ "dauerMin": 50,
+ "rundkurs": true,
+ "markierung": "GPS in der Auwald-App, kein Markierungsstrich",
+ "betreiber": "Auwaldstation Leipzig",
+ "region": "Nördlicher Auwald, NSG Burgaue, Lützschena, Leipzig",
+ "website": "https://www.auwaldstation.de",
+ "anreise": "Start Auwaldstation, Schloßweg 11, 04159 Leipzig. Tram 11 bis Lützschena, oder S3, dann zu Fuß. Mit dem Auto die Georg-Schumann-Straße Richtung Lützschena, Parkplatz am Schloßweg nördlich der Station. Der Schlosspark-Rundgang startet hier auch, das ist die andere Tour.",
+ "startName": "Auwaldstation Lützschena",
+ "arten": [
+  "Eisvogel",
+  "Moorfrosch"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.37728,
+   12.280759
+  ],
+  [
+   51.377474,
+   12.280545
+  ],
+  [
+   51.377603,
+   12.280408
+  ],
+  [
+   51.377751,
+   12.280285
+  ],
+  [
+   51.378002,
+   12.280132
+  ],
+  [
+   51.378113,
+   12.280052
+  ],
+  [
+   51.37675,
+   12.279041
+  ],
+  [
+   51.376644,
+   12.27896
+  ],
+  [
+   51.376565,
+   12.278866
+  ],
+  [
+   51.376447,
+   12.278777
+  ],
+  [
+   51.376363,
+   12.278661
+  ],
+  [
+   51.376266,
+   12.278488
+  ],
+  [
+   51.376144,
+   12.278268
+  ],
+  [
+   51.376108,
+   12.2782
+  ],
+  [
+   51.376074,
+   12.278136
+  ],
+  [
+   51.376035,
+   12.278062
+  ],
+  [
+   51.37563,
+   12.277344
+  ],
+  [
+   51.375608,
+   12.277304
+  ],
+  [
+   51.375339,
+   12.277629
+  ],
+  [
+   51.375002,
+   12.27805
+  ],
+  [
+   51.37455,
+   12.278678
+  ],
+  [
+   51.374105,
+   12.279358
+  ],
+  [
+   51.373685,
+   12.280044
+  ],
+  [
+   51.373279,
+   12.280787
+  ],
+  [
+   51.372757,
+   12.281854
+  ],
+  [
+   51.372566,
+   12.282297
+  ],
+  [
+   51.372375,
+   12.282754
+  ],
+  [
+   51.372095,
+   12.283485
+  ],
+  [
+   51.371725,
+   12.284545
+  ],
+  [
+   51.371482,
+   12.285304
+  ],
+  [
+   51.371189,
+   12.286398
+  ],
+  [
+   51.371092,
+   12.286801
+  ],
+  [
+   51.37101,
+   12.287145
+  ],
+  [
+   51.370848,
+   12.287935
+  ],
+  [
+   51.370777,
+   12.288463
+  ],
+  [
+   51.370705,
+   12.288997
+  ],
+  [
+   51.370596,
+   12.290121
+  ],
+  [
+   51.370546,
+   12.290409
+  ],
+  [
+   51.370464,
+   12.29066
+  ],
+  [
+   51.370474,
+   12.290553
+  ],
+  [
+   51.370494,
+   12.29028
+  ],
+  [
+   51.370569,
+   12.289802
+  ],
+  [
+   51.370632,
+   12.288973
+  ],
+  [
+   51.370684,
+   12.28869
+  ],
+  [
+   51.370792,
+   12.287911
+  ],
+  [
+   51.37095,
+   12.287108
+  ],
+  [
+   51.371128,
+   12.286356
+  ],
+  [
+   51.371394,
+   12.285292
+  ],
+  [
+   51.371927,
+   12.283553
+  ],
+  [
+   51.372059,
+   12.28324
+  ],
+  [
+   51.372231,
+   12.282891
+  ],
+  [
+   51.37231,
+   12.28267
+  ],
+  [
+   51.372556,
+   12.281976
+  ],
+  [
+   51.3726,
+   12.281856
+  ],
+  [
+   51.372683,
+   12.281673
+  ],
+  [
+   51.372817,
+   12.281444
+  ],
+  [
+   51.373198,
+   12.280683
+  ],
+  [
+   51.373621,
+   12.279936
+  ],
+  [
+   51.374033,
+   12.279237
+  ],
+  [
+   51.374474,
+   12.27856
+  ],
+  [
+   51.374949,
+   12.277887
+  ],
+  [
+   51.375258,
+   12.27748
+  ],
+  [
+   51.375313,
+   12.277304
+  ],
+  [
+   51.375333,
+   12.277155
+  ],
+  [
+   51.375304,
+   12.27701
+  ],
+  [
+   51.375138,
+   12.27668
+  ],
+  [
+   51.37517,
+   12.276517
+  ],
+  [
+   51.375575,
+   12.277234
+  ],
+  [
+   51.375608,
+   12.277304
+  ],
+  [
+   51.37563,
+   12.277344
+  ],
+  [
+   51.376035,
+   12.278062
+  ],
+  [
+   51.376074,
+   12.278136
+  ],
+  [
+   51.376108,
+   12.2782
+  ],
+  [
+   51.376144,
+   12.278268
+  ],
+  [
+   51.376266,
+   12.278488
+  ],
+  [
+   51.376363,
+   12.278661
+  ],
+  [
+   51.376447,
+   12.278777
+  ],
+  [
+   51.376565,
+   12.278866
+  ],
+  [
+   51.376644,
+   12.27896
+  ],
+  [
+   51.37675,
+   12.279041
+  ],
+  [
+   51.378113,
+   12.280052
+  ],
+  [
+   51.378002,
+   12.280132
+  ],
+  [
+   51.377751,
+   12.280285
+  ],
+  [
+   51.377603,
+   12.280408
+  ],
+  [
+   51.377474,
+   12.280545
+  ],
+  [
+   51.37728,
+   12.280759
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 427963698,
+   "lat": 51.37728,
+   "lon": 12.280759,
+   "km": 0.0,
+   "titel": "Weiße Elster",
+   "thema": "Eisvogel, erstes Stück Richtung Luppe",
+   "kurztext": "Hier steht die Station, hier fängt die App an. Die erste Geschichte gehört der Weißen Elster und dem Eisvogel. Der Fluss liegt gleich nördlich, türkis und orange, wenn der Vogel kommt, dann kurz. Richtung Neue Luppe.",
+   "erlebnisse": [
+    "audio",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 26981040,
+   "lat": 51.376565,
+   "lon": 12.278866,
+   "km": 0.3,
+   "titel": "Rotmilan",
+   "thema": "Greifvogel über der Aue",
+   "kurztext": "An der Kastanienallee, das Herkulesdenkmal steht daneben. Die Station ist der Rotmilan: gegabelter Schwanz, rotbraun, kreist über der offenen Aue. Die App legt ein Quiz drauf. Oben schauen.",
+   "erlebnisse": [
+    "audio",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 26981033,
+   "lat": 51.37563,
+   "lon": 12.277344,
+   "km": 0.45,
+   "titel": "Fluss- und Kanalnetz",
+   "thema": "Brücke über die Neue Luppe",
+   "kurztext": "Die Brücke über die Neue Luppe. Die Elster ist nicht mehr der einzige Lauf. Luppe, Hundewasser, Gräben. Die Station sortiert, was hier fließt und was umgeleitet wurde. Danach liegt die Burgaue.",
+   "erlebnisse": [
+    "audio",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3467077195,
+   "lat": 51.374105,
+   "lon": 12.279358,
+   "km": 0.67,
+   "titel": "Fledermäuse",
+   "thema": "Nachtjäger in der Burgaue",
+   "kurztext": "Links nach der Brücke, im Wald. Welche Art, sagt die App nicht. Tagsüber siehst du eher die Höhlenbäume als das Tier. Abends über dem Weg.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1746619201,
+   "lat": 51.371092,
+   "lon": 12.286801,
+   "km": 1.29,
+   "titel": "Heimische Bäume",
+   "thema": "Auenwald, nicht Parkrasen",
+   "kurztext": "Der lange Weg in der Burgaue. Die Station bleibt bei den Bäumen, die hierhin gehören. Unterwegs hängt eine Tafel mit einem Rezept für Schlehenmarmelade. Im Frühjahr blühen die Märzenbecher.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -994011194,
+   "lat": 51.372231,
+   "lon": 12.282891,
+   "km": 2.15,
+   "titel": "Moorfrosch",
+   "thema": "Blau zur Laichzeit",
+   "kurztext": "Nasse Stellen, Gräben, Tümpel auf dem Rückweg. Im Frühjahr laicht der Moorfrosch, die Männchen werden blau. Den Rest des Jahres siehst du eher das Wasser als den Frosch. Zweimal rechts, dann der bekannte Weg zurück zur Station.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 9616193981,
+   "lat": 51.37724,
+   "lon": 12.28068,
+   "kategorie": "wc",
+   "name": "Toilette Auwaldstation"
+  },
+  {
+   "osmId": 11812177470,
+   "lat": 51.37741,
+   "lon": 12.28056,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 10080586453,
+   "lat": 51.37715,
+   "lon": 12.2807,
+   "kategorie": "picnic",
+   "name": "Picknicktisch Auwaldstation"
+  },
+  {
+   "osmId": 7929386318,
+   "lat": 51.37744,
+   "lon": 12.28029,
+   "kategorie": "playground",
+   "name": "Spielplatz Auwaldstation"
+  },
+  {
+   "osmId": 493657695,
+   "lat": 51.37882,
+   "lon": 12.28063,
+   "kategorie": "parking",
+   "name": "Parkplatz Schloßweg"
+  }
+ ],
+ "hoertext": "An der Auwaldstation im Schlosspark Lützschena fängt die Runde an. Gut drei Kilometer durch die Burgaue, über die Brücke der Neuen Luppe und denselben Weg zurück. Am Herkulesdenkmal links in den Wald. Die Geschichten kommen aus der App. Festes Schuhwerk, nach Regen wird es weich. Der Schlosspark-Rundgang ist eine andere Tour.",
+ "bilderAsset": "assets/images/trails/auwald-erlebnispfad/credits.json"
+}

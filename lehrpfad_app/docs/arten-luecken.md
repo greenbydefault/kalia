@@ -133,6 +133,14 @@ Welle-1-IDs sind im Katalog. Hier der Rest plus die fünf, die schon drin sind (
 | Aronstab | *Arum maculatum* | ploener-seeufer |
 | Wildschwein | *Sus scrofa* | fonts-vallvidrera (Spur sicher) |
 | Zauneidechse | schon Katalog | heide, kollhorst, ravensberge, fischbek — **gelinkt** |
+| Graureiher | *Ardea cinerea* | staditzwald (Kolonie am Teich, Faltblatt Station 1) |
+| Blässhuhn | *Fulica atra* | staditzwald (Teich, Faltblatt Station 1) |
+| Feldahorn | *Acer campestre* | staditzwald (19 m, Station 5) |
+| Mistel | *Viscum album* | staditzwald (auf Pappeln, Station 4) |
+| Winterlinde | *Tilia cordata* | staditzwald (Pflanzgut Fasanerie, Station 9) |
+| Rotmilan | *Milvus milvus* | auwald-erlebnispfad (App-Station, Ahoi-Reportage) |
+| Märzenbecher | *Leucojum vernum* | auwald-erlebnispfad (Frühjahr auf dieser Runde, Ahoi) |
+| Schlehe | *Prunus spinosa* | auwald-erlebnispfad (Marmeladen-Tafel am Weg, Ahoi) |
 
 Nicht bauen ohne Ortsquelle: Reh/Fuchs/Kohlmeise als Default-Wald; Seehund am SPO-NER; Bechstein in Prora; Stieleiche in Vallvidrera; Traubeneiche wo nur „Eiche“ steht.
 
@@ -934,3 +942,37 @@ HAVE-Skill Schritt 6 folgt derselben Leiter.
 **Nicht:** Ahorn ohne Art (Bergahorn vs. Spitzahorn, FAQ unterscheidet nicht). Lärche ist Laufbelag. Fünf Fledermausarten, Spechte, Steinpilz, Marone, Pfifferling nur als Tafelthema, keine Art am Ort. Hirschkäfer und Wildschwein nur in der AR-App.
 
 Quelle: https://www.baumwipfelpfad-badiburg.de/faq/
+
+### auwald-erlebnispfad
+
+`walderlebnispfad` · NSG Burgaue, Lützschena
+
+**Ist:** Eisvogel, Moorfrosch
+
+**Katalog-Kandidat:** Rotmilan *Milvus milvus* (Station); Märzenbecher *Leucojum vernum*; Schlehe *Prunus spinosa* (Tafel am Weg). Quelle Ahoi-Reportage dieser Runde.
+
+**Nicht:** Fledermäuse unbestimmt. Kein Arten-Dump für den Leipziger Auwald.
+
+Quelle: https://ahoi-leipzig.de/artikel/wald-digital-erleben-1375/
+
+### naturlehrpfad-grabschuetzer-see
+
+`naturerlebnis` · Grabschützer See, Zwochau, NSG Werbeliner See
+
+**Ist:** Braunkehlchen, Neuntöter, Wiedehopf, Kammmolch
+
+**Katalog-Kandidat:** Schwarzkehlchen, Grauammer, Raubwürger, Wechselkröte. NABU-Beweidung Grabschütz, dieselbe Seite wie die Ist-Arten.
+
+**Nicht:** Schottisches Hochlandrind (Beweidung, Gerät). Seeadler, Rohrdommel und Saatgans nur als Gebietsbeispiel, nicht als Fund auf dem Rundweg.
+
+Quelle: https://sachsen.nabu.de/naturundlandschaft/landschaftspflege/beweidung/19145.html
+
+### geopfad-markkleeberg
+
+`naturerlebnis` · Ostufer Markkleeberger See / Störmthaler See
+
+**Ist:** Geopfad-Stele (Gerät)
+
+**Nicht:** Fische, Seekühe, Meeresschildkröten auf Stele 15 sind fossile Funde, keine Tiere am Ufer.
+
+Quelle: OSM-Tafeltexte der 16 Stelen, Node 2476685956.

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-teich.jpg",
+    "caption": "Staditzteich, Blick nach Süden.",
+    "credit": "Cookroach",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staditzteich_-_Teichansicht_S%C3%BCd.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-schild.jpg",
+    "caption": "Beschilderung am Staditzteich.",
+    "credit": "Cookroach",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staditzteich_-_Beschilderung_Staditzwald.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-wald.jpg",
+    "caption": "Südlicher Staditzwald bei Seegeritz, Mai 2018.",
+    "credit": "Don-kun",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staditzwald_2018_001.jpg",
+    "kind": "ort"
+  }
+]

@@ -150,6 +150,13 @@ flutter:
     - assets/images/trails/wasserspielplatz-lene-voigt/
     - assets/images/trails/wasserspielplatz-giesserbruecke/
     - assets/images/trails/naturlehrpfad-plaussiger-waeldchen/
+    - assets/images/trails/steinerlebnisplatz-markkleeberg/
+    - assets/images/trails/naturlehrpfad-staditzwald/
+    - assets/images/trails/wasserspielplatz-oberholz/
+    - assets/images/trails/auwald-erlebnispfad/
+    - assets/images/trails/naturlehrpfad-dahlenberg/
+    - assets/images/trails/naturlehrpfad-grabschuetzer-see/
+    - assets/images/trails/geopfad-markkleeberg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

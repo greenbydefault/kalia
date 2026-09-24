@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-tafel.jpg",
+    "caption": "Informationstafel am Naturlehrpfad Grabschützer See.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grabsch%C3%BCtzer_See_00.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-see.jpg",
+    "caption": "Grabschützer See bei Zwochau.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grabsch%C3%BCtzer_See_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-pfad.jpg",
+    "caption": "Weg des Naturlehrpfads am Westufer.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grabsch%C3%BCtzer_See-Naturlehrpfad.jpg",
+    "kind": "ort"
+  }
+]

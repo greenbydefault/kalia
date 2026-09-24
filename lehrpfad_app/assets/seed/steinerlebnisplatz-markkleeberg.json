@@ -1,0 +1,202 @@
+{
+ "id": "steinerlebnisplatz-markkleeberg",
+ "name": "Steinerlebnisplatz Markkleeberg",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Findlingsgarten an der Klappbrücke. Kletterfelsen, Bachschaukel, Sandkasten, Bachlauf aus dem Kanal. Frei, Wasser ungefähr von Ostern bis Ende der Oktoberferien.",
+ "beschreibung": "Südöstlich der Klappbrücke über den Störmthaler Kanal, in Markkleeberg-Auenhain, liegt der Steinerlebnisplatz. Die EGW hat ihn am 18. Juni 2020 eröffnet. Frei, etwa 2000 Quadratmeter. Ausgeschrieben sind ein zwei Meter hoher Kletterfelsen, die Bachschaukel, der Kletterbaum und in der Mitte ein beschatteter Fossiliensandkasten. Der Bachlauf ist ein nachgestellter eiszeitlicher Bach, das Wasser kommt aus dem Kanal. Planschen ist ausdrücklich gewollt, ungefähr von Ostern bis Ende der Oktoberferien. Auf der Fläche liegen Groß- und Kleingeschiebe, Tertiärquarzite und verkieselte Hölzer. Die Erklärungstafeln hat der Verein für Erdgeschichte im Südraum Leipzig beschriftet, die Steine kommen von der MIBRAG. Es gibt Sitzplätze. Der 14-km-Geopfad mit den Stelen am Ufer ist der lange Weg um die Seen.",
+ "laengeKm": 0.0,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Steinerlebnisplatz an der Klappbrücke",
+ "betreiber": "EGW Entwicklungsgesellschaft mbH",
+ "region": "Markkleeberg, Auenhain, Sachsen",
+ "website": "https://www.markkleeberger-see.de/angebote/steinerlebnisplatz.html",
+ "anreise": "Start an der Klappbrücke, Zum Wildwasser, 04416 Markkleeberg, OT Auenhain. Bus 106, Haltestelle Auenhain Kanupark, etwa sieben Minuten zu Fuß. Parken am Parkplatz Auenhainer Bucht neben dem Kanupark, ein paar Minuten weiter, kostenpflichtig. Fahrradbügel liegen am Westrand des Platzes. Geopfad-Stele 7 steht am Nordrand, die Sandfläche ist der Platz selbst.",
+ "startName": "Klappbrücke / Steinerlebnisplatz",
+ "arten": [
+  "Eiszeitlicher Bachlauf"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   51.2529,
+   12.42248
+  ],
+  [
+   51.25285,
+   12.4226
+  ],
+  [
+   51.2528,
+   12.42275
+  ],
+  [
+   51.25285,
+   12.4229
+  ],
+  [
+   51.25305,
+   12.42285
+  ],
+  [
+   51.25295,
+   12.42305
+  ]
+ ],
+ "area": [
+  [
+   51.2529413,
+   12.4223868
+  ],
+  [
+   51.2524327,
+   12.4223441
+  ],
+  [
+   51.2526227,
+   12.4227158
+  ],
+  [
+   51.2527559,
+   12.4229174
+  ],
+  [
+   51.252853,
+   12.4230306
+  ],
+  [
+   51.2530124,
+   12.4231211
+  ],
+  [
+   51.2531948,
+   12.4230879
+  ],
+  [
+   51.2531903,
+   12.4229986
+  ],
+  [
+   51.2530255,
+   12.4226643
+  ],
+  [
+   51.2529674,
+   12.422503
+  ],
+  [
+   51.2529413,
+   12.4223868
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1482847352,
+   "lat": 51.2529,
+   "lon": 12.42248,
+   "km": 0.0,
+   "titel": "Kletterfelsen",
+   "thema": "Einstieg",
+   "kurztext": "Zwei Meter hoch, am Westrand zur Brücke. Die Findlinge daneben hat das Eis aus Skandinavien hierher geschoben.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1641584876,
+   "lat": 51.25285,
+   "lon": 12.4226,
+   "km": 0.01,
+   "titel": "Bachschaukel",
+   "thema": "Über den Bach",
+   "kurztext": "Schaukel am nachgestellten Bachlauf. Wenn die Saison läuft, ist unter dir Wasser aus dem Kanal.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2670257315,
+   "lat": 51.2528,
+   "lon": 12.42275,
+   "km": 0.02,
+   "titel": "Kletterbaum",
+   "thema": "Klettern",
+   "kurztext": "Kletterbaum zwischen Felsen und Sandkasten. Danach bist du in der Mitte der Fläche.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -489623275,
+   "lat": 51.25285,
+   "lon": 12.4229,
+   "km": 0.03,
+   "titel": "Fossiliensandkasten",
+   "thema": "Buddeln",
+   "kurztext": "Beschattet, in der Mitte. Hier buddelst du und legst Zeugen der Erdgeschichte frei.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -463613937,
+   "lat": 51.25305,
+   "lon": 12.42285,
+   "km": 0.06,
+   "titel": "Bachlauf",
+   "thema": "Wasser aus dem Kanal",
+   "kurztext": "Nachgestellter eiszeitlicher Bach, gespeist aus dem Störmthaler Kanal. Ungefähr von Ostern bis Ende der Oktoberferien. Planschen ist gewollt.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -4073206705,
+   "lat": 51.25295,
+   "lon": 12.42305,
+   "km": 0.07,
+   "titel": "Geschiebe und Tafeln",
+   "thema": "Gestein lesen",
+   "kurztext": "Groß- und Kleingeschiebe, Tertiärquarzite, verkieselte Hölzer. Die Tafeln hat der Verein für Erdgeschichte beschriftet, die Steine kommen von der MIBRAG.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 369849741,
+   "lat": 51.2530536,
+   "lon": 12.4207548,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 7996800534,
+   "lat": 51.2530667,
+   "lon": 12.420692,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "oeffnungszeiten": "Platz frei. Bachlauf ungefähr Ostern bis Ende der Oktoberferien.",
+ "besuchshinweise": "Planschen am Bachlauf ist gewollt, Wechselkleidung mitnehmen. Die Uferstelen des Geopfads sind der 14-km-Weg, nicht die Stationen dieses Platzes.",
+ "hoertext": "Südöstlich der Klappbrücke am Störmthaler Kanal liegt der Findlingsgarten. Du fängst am zwei Meter hohen Kletterfelsen an, dann Bachschaukel und Kletterbaum. In der Mitte buddelst du im Fossiliensandkasten. Der Bachlauf holt Wasser aus dem Kanal. Planschen ist gewollt, ungefähr von Ostern bis Ende der Oktoberferien. Bus 106 hält Auenhain Kanupark, sieben Minuten zu Fuß. Die Stelen des Geopfads am Ufer gehören nicht zu diesem Platz.",
+ "bilderAsset": "assets/images/trails/steinerlebnisplatz-markkleeberg/credits.json"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-station.jpg",
+    "caption": "Auwaldstation am Schloßweg in Lützschena.",
+    "credit": "Frank Vincentz",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_-_Schlo%C3%9Fweg_-_Auwaldstation_01_ies.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-weg.jpg",
+    "caption": "Weg im Naturschutzgebiet Burgaue.",
+    "credit": "Kondephy",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weg_im_NSG_Burgaue.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-bach.jpg",
+    "caption": "Weg am Burgauebach im Naturschutzgebiet Burgaue.",
+    "credit": "Kondephy",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burgauebach.jpg",
+    "kind": "ort"
+  }
+]
