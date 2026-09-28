@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-teich.jpg",
+    "caption": "Bruch am Presseler Teich, Seggen und Birken, Frühjahr.",
+    "credit": "Lutz Lange",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Am_Presseler_Teich_(1).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-teich-weit.jpg",
+    "caption": "Presseler Teich, Badeufer mit Rutsche, 2010.",
+    "credit": "S. John, Elsterwerda",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Presseler_Teich.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-eichen.jpg",
+    "caption": "Eichen am Presseler Teich, daneben ein abgestorbener Stamm.",
+    "credit": "Lutz Lange",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eichen_Presseler_Teich_(1).jpg",
+    "kind": "ort"
+  }
+]

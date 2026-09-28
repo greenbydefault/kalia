@@ -93,6 +93,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/naturlehrpfad-dahlenberg.json',
     'assets/seed/naturlehrpfad-grabschuetzer-see.json',
     'assets/seed/geopfad-markkleeberg.json',
+    'assets/seed/naturlehrpfad-pressel.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

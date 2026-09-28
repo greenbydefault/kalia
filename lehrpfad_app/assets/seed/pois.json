@@ -1533,6 +1533,16 @@
     "lat": 51.870953,
     "lon": 10.5606661,
     "oeffnungszeiten": "siehe Restaurant"
+  },
+  {
+    "id": "camping-presseler-teich",
+    "name": "Campingplatz Presseler Teich",
+    "kategorie": "camping",
+    "kurztext": "Gemeindeplatz an der Neumühle, direkt am Start der Moor-Runde. Zelte und Wohnwagen, Anmeldung telefonisch.",
+    "lat": 51.57856,
+    "lon": 12.72963,
+    "website": "https://camping-pressel.de/",
+    "telefon": "+49 15753694175"
   }
 ]
 
