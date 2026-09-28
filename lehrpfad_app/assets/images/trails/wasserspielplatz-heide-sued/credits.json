@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-park.jpg",
+    "caption": "Stadtteilpark Grünes Dreieck in Heide-Süd, Blick nach Westen zur Dölauer Heide. Der Wasserspielplatz liegt in diesem Park.",
+    "credit": "Pomfuttge",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heide-S%C3%BCd_Gr%C3%BCnes_Dreieck.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-huegel.jpg",
+    "caption": "Blick von der Anhöhe im Grünen Dreieck nach Halle-Neustadt. Am Horizont das Kraftwerk Schkopau.",
+    "credit": "Pomfuttge",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick_%C3%BCber_Heide-S%C3%BCd_nach_Halle-Neustadt.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-wiese.jpg",
+    "caption": "Wiese und Weg im Grünen Dreieck, Heide-Süd, mit der Skyline von Halle-Neustadt.",
+    "credit": "Michael aus Halle",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heide-S%C3%BCd_-_panoramio_(2).jpg",
+    "kind": "ort"
+  }
+]

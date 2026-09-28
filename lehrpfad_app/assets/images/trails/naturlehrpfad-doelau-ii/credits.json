@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-bahnhof.jpg",
+    "caption": "Ehemaliger Heidebahnhof in der Dölauer Heide. Hier starten Bus 21 und 41 und der Naturlehrpfad II.",
+    "credit": "Giorno2",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halle-Heidebahnhof_1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-steig.jpg",
+    "caption": "Bergmannssteig in der Dölauer Heide, der Weg des Naturlehrpfads II.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B6lauerHeide_Bergmannssteig2.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-heidebad.jpg",
+    "caption": "Eingang zum Heidebad am Heidesee in Halle-Nietleben, Ende des Lehrpfads.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidebad_am_Heidesee,_Halle.jpg",
+    "kind": "ort"
+  }
+]

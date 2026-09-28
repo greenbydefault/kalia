@@ -53,7 +53,7 @@ Geräte in `arten[]` sind hier ignoriert.
 
 ## Stand
 
-60 HAVE-Trails. Link-Pass drin. Dünn bleiben: Everstorf, Harzungspfad, Usedom, Pflanzenschutz, Wasserspielplätze, Pinke-Panke (Hof), Trails ohne öffentliche Artliste.
+61 HAVE-Trails. Link-Pass drin. Dünn bleiben: Everstorf, Harzungspfad, Usedom, Pflanzenschutz, Wasserspielplätze, Pinke-Panke (Hof), Trails ohne öffentliche Artliste.
 
 Gold (Tafeln nennen die Arten): Heide-Erlebnisweg, Von Moor zu Moor, Raddusch.
 
@@ -976,3 +976,27 @@ Quelle: https://sachsen.nabu.de/naturundlandschaft/landschaftspflege/beweidung/1
 **Nicht:** Fische, Seekühe, Meeresschildkröten auf Stele 15 sind fossile Funde, keine Tiere am Ufer.
 
 Quelle: OSM-Tafeltexte der 16 Stelen, Node 2476685956.
+
+### wasserspielplatz-heide-sued
+
+`wasserspielplatz` · Grünes Dreieck, Heide-Süd, Halle (Saale)
+
+**Ist:** Wasserpumpe (2 Wipppumpen, Katalog-Alias)
+
+**Katalog-Kandidat:** Wasserspirale (Archimedische Spirale), Matschstrecke, Sandbagger, Balanciersteg, Holzstege. halle365-Inventar dieses Platzes.
+
+**Nicht:** Fontäne, Schaukeln im Duett, Aussichtshügel.
+
+Quelle: https://halle365.de/veranstaltungsort/wasserspielplatz-scharnhorststrasse
+
+### naturlehrpfad-doelau-ii
+
+`wald` · Dölauer Heide, Halle (Saale), Heidebahnhof bis Heidebad
+
+**Ist:** Waldkiefer (Alias auf Kiefer), Stieleiche, Haselnuss, Hainbuche, Europäische Lärche
+
+**Katalog-Kandidat:** Mahonie (Stein 11, 51.49919, 11.88192), Schwarzer Holunder (Stein 30, 51.48853, 11.87554). Broschüre dieses Pfads.
+
+**Nicht:** Lindbusch (Ort). Neuntöter, Spechte, Nachtigall, Waldohreule (Brutliste des NSG, Pfad bleibt auf dem Weg). Erdkröte (Laichplatz kleiner Heidesee). Rote Waldameise (Stubben „oft“, kein Stein).
+
+Quelle: https://halle.de/fileadmin/Binaries/Publikationen/Umwelt_Natur/Naturlehrpfad_II_Doelauer_Heide/Inhalt.pdf

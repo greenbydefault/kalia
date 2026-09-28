@@ -1,0 +1,274 @@
+{
+ "id": "wasserspielplatz-heide-sued",
+ "name": "Wasserspielplatz Heide-Süd",
+ "typ": "wasserspielplatz",
+ "kurzbeschreibung": "Zwei Wipppumpen und eine Wasserspirale im Grünen Dreieck. Frei, Mitte Mai bis September.",
+ "beschreibung": "An der Scharnhorststraße, im Stadtteilpark Grünes Dreieck in Halle-Heide-Süd, liegt der Wasserspielplatz. Die Stadt listet 1.200 Quadratmeter, 20.000 Liter aus zwei unterirdischen Tanks und einen 80-Meter-Weg. Zwei Wipppumpen schieben das Wasser, dazwischen eine Archimedische Spirale. Auf der Matschstrecke stehen Sandbagger, dazu ein Balanciersteg und vier Holzstege. Frei, ohne Anmeldung. Offen Mitte Mai bis September, täglich von 9:30 bis 18 Uhr. Wechselkleidung mitnehmen. Die Schaukeln im Duett und der Aussichtshügel im selben Park sind andere Orte. Haltestelle Bertha-von-Suttner-Platz.",
+ "laengeKm": 0.0,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Grünes Dreieck, Scharnhorststraße",
+ "betreiber": "Stadt Halle (Saale)",
+ "region": "Heide-Süd, Halle (Saale), Sachsen-Anhalt",
+ "website": "https://halle365.de/veranstaltungsort/wasserspielplatz-scharnhorststrasse",
+ "anreise": "Adresse: Scharnhorststraße, 06120 Halle (Saale), Heide-Süd. Haltestelle Bertha-von-Suttner-Platz. Der Platz liegt im Grünen Dreieck. Die Schaukeln im Duett und der Aussichtshügel im selben Park gehören nicht zu diesem Ort.",
+ "startName": "Wasserspielplatz Grünes Dreieck",
+ "arten": [
+  "Wasserpumpe"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   51.493332,
+   11.924896
+  ],
+  [
+   51.493354,
+   11.924886
+  ],
+  [
+   51.49329,
+   11.92482
+  ],
+  [
+   51.493388,
+   11.924977
+  ]
+ ],
+ "area": [
+  [
+   51.49324,
+   11.924716
+  ],
+  [
+   51.493287,
+   11.924602
+  ],
+  [
+   51.493458,
+   11.924688
+  ],
+  [
+   51.493476,
+   11.924701
+  ],
+  [
+   51.49354,
+   11.924798
+  ],
+  [
+   51.493556,
+   11.924899
+  ],
+  [
+   51.493511,
+   11.925038
+  ],
+  [
+   51.493474,
+   11.925031
+  ],
+  [
+   51.493371,
+   11.925002
+  ],
+  [
+   51.493307,
+   11.924984
+  ],
+  [
+   51.493295,
+   11.924979
+  ],
+  [
+   51.493285,
+   11.924969
+  ],
+  [
+   51.493278,
+   11.924958
+  ],
+  [
+   51.493271,
+   11.92494
+  ],
+  [
+   51.493267,
+   11.924923
+  ],
+  [
+   51.493241,
+   11.924726
+  ],
+  [
+   51.49324,
+   11.924716
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -3431507291,
+   "lat": 51.493332,
+   "lon": 11.924896,
+   "km": 0.0,
+   "titel": "Wipppumpen",
+   "thema": "Zwei Tanks",
+   "kurztext": "Zwei Wipppumpen holen das Wasser aus zwei unterirdischen Tanks. 20.000 Liter gehen in den Umlauf.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -748349212,
+   "lat": 51.493354,
+   "lon": 11.924886,
+   "km": 0.0,
+   "titel": "Wasserspirale",
+   "thema": "Archimedische Spirale",
+   "kurztext": "Archimedische Spirale auf dem 80-Meter-Weg. Hier dreht sich das Wasser weiter, das die Pumpen angeschoben haben.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -183682830,
+   "lat": 51.49329,
+   "lon": 11.92482,
+   "km": 0.01,
+   "titel": "Matschstrecke",
+   "thema": "Matschen",
+   "kurztext": "Matschstrecke mit Sandbaggern. Hier werden aus dem Wasser Burgen, der Bagger holt Sand nach.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -800972441,
+   "lat": 51.493388,
+   "lon": 11.924977,
+   "km": 0.03,
+   "titel": "Holzstege",
+   "thema": "Stege und Balanciersteg",
+   "kurztext": "Vier Holzstege über das Wasser, dazu ein Balanciersteg. Nass wird das Holz rutschig.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 387199389,
+   "lat": 51.493332,
+   "lon": 11.9248958,
+   "kategorie": "playground",
+   "name": "Wasserspielplatz"
+  },
+  {
+   "osmId": 387446452,
+   "lat": 51.4940834,
+   "lon": 11.9265765,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 9212874152,
+   "lat": 51.4934079,
+   "lon": 11.924568,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9212874153,
+   "lat": 51.4933651,
+   "lon": 11.9245836,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9212874154,
+   "lat": 51.4933917,
+   "lon": 11.9244994,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9212874155,
+   "lat": 51.4931054,
+   "lon": 11.9250422,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9212874156,
+   "lat": 51.4930812,
+   "lon": 11.9250707,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 9212874157,
+   "lat": 51.4931654,
+   "lon": 11.9248559,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9212874158,
+   "lat": 51.4932023,
+   "lon": 11.9247489,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9212874159,
+   "lat": 51.4931838,
+   "lon": 11.9248065,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9212874162,
+   "lat": 51.4933755,
+   "lon": 11.9250436,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9212874163,
+   "lat": 51.4933673,
+   "lon": 11.9250667,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 9212874164,
+   "lat": 51.4933581,
+   "lon": 11.9250914,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13918192550,
+   "lat": 51.493216,
+   "lon": 11.9247125,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "oeffnungszeiten": "Mitte Mai bis September, täglich 9:30–18 Uhr.",
+ "besuchshinweise": "Wasser nur in der Saison. Wechselkleidung mitnehmen. Nicht durchgehend rollstuhlgerecht.",
+ "hoertext": "Im Grünen Dreieck in Heide-Süd wippen zwei Pumpen das Wasser aus zwei Tanks in die Bahn. Dazwischen dreht die Archimedische Spirale. Auf der Matschstrecke baust du Burgen, der Sandbagger holt Sand nach. Offen ist von Mitte Mai bis September, jeden Tag von halb zehn bis sechs. Nimm Wechselkleidung mit. Die Schaukeln im Duett am Hügel sind ein anderer Platz.",
+ "bilderAsset": "assets/images/trails/wasserspielplatz-heide-sued/credits.json"
+}

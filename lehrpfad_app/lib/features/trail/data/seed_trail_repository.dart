@@ -89,6 +89,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/steinerlebnisplatz-markkleeberg.json',
     'assets/seed/naturlehrpfad-staditzwald.json',
     'assets/seed/wasserspielplatz-oberholz.json',
+    'assets/seed/wasserspielplatz-heide-sued.json',
+    'assets/seed/naturlehrpfad-doelau-ii.json',
     'assets/seed/auwald-erlebnispfad.json',
     'assets/seed/naturlehrpfad-dahlenberg.json',
     'assets/seed/naturlehrpfad-grabschuetzer-see.json',

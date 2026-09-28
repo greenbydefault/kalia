@@ -1,0 +1,1081 @@
+{
+ "id": "naturlehrpfad-doelau-ii",
+ "name": "Naturlehrpfad Dölauer Heide II",
+ "typ": "wald",
+ "kurzbeschreibung": "Vom Heidebahnhof zum Heidebad, weiße Steine mit roten Zahlen auf dem Bergmannssteig. Dölauer Heide, frei.",
+ "beschreibung": "Im Südwesten der Dölauer Heide, seit 2008 der zweite Lehrpfad. Er schließt am Heidebahnhof an Pfad I an und läuft bis zum Heidebad Nietleben, streckenweise auf dem Bergmannssteig. Den haben Dölauer Bergleute von 1865 bis 1936 als Trampelpfad zu den Gruben in Zscherben getreten. Weiße Steine mit roten Zahlen, 1 bis 32 rechts vom Weg, ab 33 links. In der App stehen die Stellen, an denen etwas zu sehen ist, nicht jeder Stein. Bis zum Lindbusch liegt der Weg auf Quarzsand. Der Porphyr ist lilarot und steht hier im Westen nicht an, zwei Blöcke markieren nur den Anfang. Der Lindbusch ist Naturschutzgebiet, Ton staut das Wasser, Eichen und Hainbuchen. Wege dort nicht verlassen. Am Ende der Bruchfeldsee, Grube Neuglück, Bad seit 1954. Waldweg, nicht barrierefrei. Pfad I mit der Sperrung an Kuhberg, Langer Berg und Kellerberg ist die andere Runde, Start Straße Waldkater. Der Braunkohlenpfad nutzt denselben Steig, ist aber eine andere Strecke.",
+ "laengeKm": 4.7,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Weiße Steine mit roten Zahlen, roter Balken",
+ "betreiber": "Stadt Halle (Saale)",
+ "region": "Dölauer Heide, Halle (Saale)",
+ "website": "https://halle.de/leben-in-halle/klimaschutz-und-umwelt/natur-und-artenschutz/doelauer-heide-naturlehrpfad-ii",
+ "anreise": "Start am Heidebahnhof. Bus 21 und 41, Haltestelle Heidebahnhof, Parkplatz gegenüber an der Salzmünder Straße. Ende am Heidebad Nietleben, Bus 41, Haltestelle Am Heidebad, Parken vor dem Bad. Pfad I startet an der Straße Waldkater, das ist die andere Runde.",
+ "startName": "Heidebahnhof",
+ "arten": [
+  "Waldkiefer",
+  "Stieleiche",
+  "Haselnuss",
+  "Hainbuche",
+  "Europäische Lärche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.50273,
+   11.887525
+  ],
+  [
+   51.50266,
+   11.887664
+  ],
+  [
+   51.50273,
+   11.887525
+  ],
+  [
+   51.502841,
+   11.887286
+  ],
+  [
+   51.502899,
+   11.887152
+  ],
+  [
+   51.502978,
+   11.886949
+  ],
+  [
+   51.503087,
+   11.886675
+  ],
+  [
+   51.502991,
+   11.886494
+  ],
+  [
+   51.502945,
+   11.886427
+  ],
+  [
+   51.502926,
+   11.886394
+  ],
+  [
+   51.502877,
+   11.886292
+  ],
+  [
+   51.502795,
+   11.886246
+  ],
+  [
+   51.502665,
+   11.886203
+  ],
+  [
+   51.502572,
+   11.886175
+  ],
+  [
+   51.502526,
+   11.886085
+  ],
+  [
+   51.50242,
+   11.885945
+  ],
+  [
+   51.502282,
+   11.885803
+  ],
+  [
+   51.502101,
+   11.885621
+  ],
+  [
+   51.502039,
+   11.885559
+  ],
+  [
+   51.501808,
+   11.885175
+  ],
+  [
+   51.501561,
+   11.884894
+  ],
+  [
+   51.501302,
+   11.884722
+  ],
+  [
+   51.501053,
+   11.884592
+  ],
+  [
+   51.500954,
+   11.884554
+  ],
+  [
+   51.500897,
+   11.884539
+  ],
+  [
+   51.500839,
+   11.884522
+  ],
+  [
+   51.500765,
+   11.884481
+  ],
+  [
+   51.50058,
+   11.884327
+  ],
+  [
+   51.500456,
+   11.884174
+  ],
+  [
+   51.500382,
+   11.884076
+  ],
+  [
+   51.500292,
+   11.8839
+  ],
+  [
+   51.500229,
+   11.883767
+  ],
+  [
+   51.500193,
+   11.883637
+  ],
+  [
+   51.500176,
+   11.883556
+  ],
+  [
+   51.500048,
+   11.883239
+  ],
+  [
+   51.500004,
+   11.883087
+  ],
+  [
+   51.499949,
+   11.882971
+  ],
+  [
+   51.49985,
+   11.882796
+  ],
+  [
+   51.499822,
+   11.882731
+  ],
+  [
+   51.499788,
+   11.88268
+  ],
+  [
+   51.499748,
+   11.882619
+  ],
+  [
+   51.499683,
+   11.882528
+  ],
+  [
+   51.499625,
+   11.882464
+  ],
+  [
+   51.499535,
+   11.882373
+  ],
+  [
+   51.499347,
+   11.882245
+  ],
+  [
+   51.49898,
+   11.88165
+  ],
+  [
+   51.498854,
+   11.881471
+  ],
+  [
+   51.498501,
+   11.881237
+  ],
+  [
+   51.498335,
+   11.881136
+  ],
+  [
+   51.497548,
+   11.880818
+  ],
+  [
+   51.497471,
+   11.880786
+  ],
+  [
+   51.49711,
+   11.880655
+  ],
+  [
+   51.49693,
+   11.880659
+  ],
+  [
+   51.496702,
+   11.880675
+  ],
+  [
+   51.496572,
+   11.880662
+  ],
+  [
+   51.496377,
+   11.880594
+  ],
+  [
+   51.495841,
+   11.880303
+  ],
+  [
+   51.495238,
+   11.880279
+  ],
+  [
+   51.494569,
+   11.880441
+  ],
+  [
+   51.494342,
+   11.880432
+  ],
+  [
+   51.494312,
+   11.880425
+  ],
+  [
+   51.494287,
+   11.880403
+  ],
+  [
+   51.494274,
+   11.880364
+  ],
+  [
+   51.493828,
+   11.880728
+  ],
+  [
+   51.493737,
+   11.880818
+  ],
+  [
+   51.493674,
+   11.8809
+  ],
+  [
+   51.49356,
+   11.880966
+  ],
+  [
+   51.493098,
+   11.881193
+  ],
+  [
+   51.493007,
+   11.881233
+  ],
+  [
+   51.492311,
+   11.881526
+  ],
+  [
+   51.49208,
+   11.881668
+  ],
+  [
+   51.491506,
+   11.881829
+  ],
+  [
+   51.491519,
+   11.88011
+  ],
+  [
+   51.491542,
+   11.87946
+  ],
+  [
+   51.491182,
+   11.879313
+  ],
+  [
+   51.490574,
+   11.879577
+  ],
+  [
+   51.490291,
+   11.879744
+  ],
+  [
+   51.48966,
+   11.879989
+  ],
+  [
+   51.489303,
+   11.878541
+  ],
+  [
+   51.489186,
+   11.878111
+  ],
+  [
+   51.488949,
+   11.877262
+  ],
+  [
+   51.488817,
+   11.876704
+  ],
+  [
+   51.488502,
+   11.875502
+  ],
+  [
+   51.488329,
+   11.874854
+  ],
+  [
+   51.488133,
+   11.87408
+  ],
+  [
+   51.487499,
+   11.871666
+  ],
+  [
+   51.487481,
+   11.871659
+  ],
+  [
+   51.487398,
+   11.871951
+  ],
+  [
+   51.487339,
+   11.87226
+  ],
+  [
+   51.487276,
+   11.87257
+  ],
+  [
+   51.487234,
+   11.872831
+  ],
+  [
+   51.487193,
+   11.873133
+  ],
+  [
+   51.487165,
+   11.873353
+  ],
+  [
+   51.48715,
+   11.873445
+  ],
+  [
+   51.487127,
+   11.873569
+  ],
+  [
+   51.487099,
+   11.873679
+  ],
+  [
+   51.487057,
+   11.87392
+  ],
+  [
+   51.486963,
+   11.874455
+  ],
+  [
+   51.48693,
+   11.874738
+  ],
+  [
+   51.486886,
+   11.874976
+  ],
+  [
+   51.486835,
+   11.875214
+  ],
+  [
+   51.486754,
+   11.875714
+  ],
+  [
+   51.486702,
+   11.876002
+  ],
+  [
+   51.486637,
+   11.876316
+  ],
+  [
+   51.486602,
+   11.876483
+  ],
+  [
+   51.486568,
+   11.876653
+  ],
+  [
+   51.486483,
+   11.877159
+  ],
+  [
+   51.486326,
+   11.878327
+  ],
+  [
+   51.486272,
+   11.878665
+  ],
+  [
+   51.486262,
+   11.878765
+  ],
+  [
+   51.486259,
+   11.878861
+  ],
+  [
+   51.486262,
+   11.878984
+  ],
+  [
+   51.486278,
+   11.879115
+  ],
+  [
+   51.48622,
+   11.879186
+  ],
+  [
+   51.48596,
+   11.87954
+  ],
+  [
+   51.485809,
+   11.879753
+  ],
+  [
+   51.485548,
+   11.88016
+  ],
+  [
+   51.485479,
+   11.880292
+  ],
+  [
+   51.485384,
+   11.880465
+  ],
+  [
+   51.485329,
+   11.880555
+  ],
+  [
+   51.485284,
+   11.880612
+  ],
+  [
+   51.485216,
+   11.880684
+  ],
+  [
+   51.485073,
+   11.880789
+  ],
+  [
+   51.484865,
+   11.88091
+  ],
+  [
+   51.484716,
+   11.880986
+  ],
+  [
+   51.484567,
+   11.881079
+  ],
+  [
+   51.484423,
+   11.881178
+  ],
+  [
+   51.484235,
+   11.881288
+  ],
+  [
+   51.484087,
+   11.881388
+  ],
+  [
+   51.484006,
+   11.881425
+  ],
+  [
+   51.483929,
+   11.881464
+  ],
+  [
+   51.483867,
+   11.881485
+  ],
+  [
+   51.483761,
+   11.881488
+  ],
+  [
+   51.483609,
+   11.881487
+  ],
+  [
+   51.483504,
+   11.881474
+  ],
+  [
+   51.483405,
+   11.881471
+  ],
+  [
+   51.483324,
+   11.881483
+  ],
+  [
+   51.483225,
+   11.881504
+  ],
+  [
+   51.483108,
+   11.88155
+  ],
+  [
+   51.48294,
+   11.881629
+  ],
+  [
+   51.482846,
+   11.881706
+  ],
+  [
+   51.48263,
+   11.881878
+  ],
+  [
+   51.482463,
+   11.882021
+  ],
+  [
+   51.482335,
+   11.882136
+  ],
+  [
+   51.482197,
+   11.882276
+  ],
+  [
+   51.482062,
+   11.882424
+  ],
+  [
+   51.481931,
+   11.882586
+  ],
+  [
+   51.481784,
+   11.882785
+  ],
+  [
+   51.481644,
+   11.882953
+  ],
+  [
+   51.481585,
+   11.883036
+  ],
+  [
+   51.481542,
+   11.883708
+  ],
+  [
+   51.481436,
+   11.88556
+  ],
+  [
+   51.481432,
+   11.885631
+  ],
+  [
+   51.481422,
+   11.885701
+  ],
+  [
+   51.481402,
+   11.885763
+  ],
+  [
+   51.481375,
+   11.885818
+  ],
+  [
+   51.48135,
+   11.885853
+  ],
+  [
+   51.481277,
+   11.885945
+  ],
+  [
+   51.481344,
+   11.886143
+  ],
+  [
+   51.481378,
+   11.886302
+  ],
+  [
+   51.48142,
+   11.886558
+  ],
+  [
+   51.481507,
+   11.887113
+  ],
+  [
+   51.481625,
+   11.887854
+  ],
+  [
+   51.481636,
+   11.887926
+  ],
+  [
+   51.481744,
+   11.888038
+  ],
+  [
+   51.481771,
+   11.888153
+  ],
+  [
+   51.481806,
+   11.88833
+  ],
+  [
+   51.481871,
+   11.888569
+  ],
+  [
+   51.481887,
+   11.888687
+  ],
+  [
+   51.48193,
+   11.889036
+  ],
+  [
+   51.48199,
+   11.889419
+  ],
+  [
+   51.482034,
+   11.889615
+  ],
+  [
+   51.482065,
+   11.889722
+  ],
+  [
+   51.482163,
+   11.890451
+  ],
+  [
+   51.482184,
+   11.890606
+  ],
+  [
+   51.48218,
+   11.890897
+  ],
+  [
+   51.482201,
+   11.890883
+  ],
+  [
+   51.48223,
+   11.890873
+  ],
+  [
+   51.48226,
+   11.890878
+  ],
+  [
+   51.482282,
+   11.890903
+  ],
+  [
+   51.482296,
+   11.890936
+  ],
+  [
+   51.482302,
+   11.890977
+  ],
+  [
+   51.482301,
+   11.891027
+  ],
+  [
+   51.482294,
+   11.891061
+  ],
+  [
+   51.482244,
+   11.891302
+  ],
+  [
+   51.482357,
+   11.891254
+  ],
+  [
+   51.48277,
+   11.891079
+  ],
+  [
+   51.482931,
+   11.890994
+  ],
+  [
+   51.482981,
+   11.89097
+  ],
+  [
+   51.483095,
+   11.890917
+  ],
+  [
+   51.483418,
+   11.89075
+  ],
+  [
+   51.483687,
+   11.890611
+  ],
+  [
+   51.483735,
+   11.890583
+  ],
+  [
+   51.484387,
+   11.890144
+  ],
+  [
+   51.484435,
+   11.890125
+  ],
+  [
+   51.484498,
+   11.890133
+  ],
+  [
+   51.484617,
+   11.890173
+  ],
+  [
+   51.484795,
+   11.890232
+  ],
+  [
+   51.48494,
+   11.890291
+  ],
+  [
+   51.485071,
+   11.890344
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 7999696432,
+   "lat": 51.5029783,
+   "lon": 11.8869486,
+   "km": 0.07,
+   "titel": "Heidebahnhof",
+   "thema": "Halt der Halle-Hettstedter Eisenbahn",
+   "kurztext": "Das alte Empfangsgebäude, nördlich vom Steig. 1896 ging die Bahn vom Klaustor über Nietleben und die Heide nach Lieskau. Heute halten hier die Busse 21 und 41. Gegenüber ein Parkplatz. Die Gaststätte im Haus ist zu. Der Pfad beginnt am Bergmannssteig, nicht an der Straße Waldkater.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 291778934,
+   "lat": 51.5025724,
+   "lon": 11.8861751,
+   "km": 0.17,
+   "titel": "Quarzporphyr",
+   "thema": "Zwei Blöcke am Anfang des Bergmannssteigs",
+   "kurztext": "Zwei Porphyrblöcke markieren den Steig. Der Obere Hallesche Porphyr ist lilarot und kleinkristallin, entstanden im Rotliegenden. Im Ostteil der Heide liegt er im Boden, hier im Westen kommt er nicht an die Oberfläche. Die Blöcke sind hingestellt. Bis Stein 32 läufst du auf Quarzsand, nur eine dünne Humusdecke darüber.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 4460834455,
+   "lat": 51.4992437,
+   "lon": 11.8820509,
+   "km": 0.63,
+   "titel": "Waldkiefer",
+   "thema": "Flügelkiefer, Stein 10",
+   "kurztext": "Stein 10, links. Eine Waldkiefer, deren alte Borke in Platten vom Stamm absteht, wie kleine Flügel. Darunter nisten Baumläufer, im Mulm sitzen Käferlarven. Nadeln zu zweit, unten graue Tafelborke, oben fuchsrot. Seit der Mitte des 19. Jahrhunderts ist die Kiefer der Hauptbaum der Heide, über die Hälfte der Bestände.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 4460834456,
+   "lat": 51.4991885,
+   "lon": 11.8819193,
+   "km": 0.63,
+   "titel": "Mahonie",
+   "thema": "Stein 11, immergrüner Strauch",
+   "kurztext": "Stein 11, rechts, ein paar Schritte nach dem Flügelkiefer. Immergrün, Blätter lederig und glänzend, im Winter fast schwarz, im Frühjahr gelbe Trauben. Aus Nordamerika, hier verwildert. Um 1970 stand sie fast nur bei der Kolonie Waldheil. Westlich der Salzmünder Straße ist sie inzwischen durch die Heide gelaufen.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 272855029,
+   "lat": 51.4915417,
+   "lon": 11.8794596,
+   "km": 1.72,
+   "titel": "Waldheil",
+   "thema": "Sommerkolonie von 1909",
+   "kurztext": "Kreuzung Köllmer Weg und Bergmannssteig. 150 Meter nach Westen liegt die Siedlung Waldheil. 1909 hat der Juwelier Franz Tittel den Verein für Sommerhäuser gegründet. Nach dem Ersten Weltkrieg wurden die Lauben zu Wohnhäusern. Die Waldgaststätte gibt es nicht mehr. Der Pfad geht nicht in die Siedlung, er bleibt auf dem Steig.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 4460834480,
+   "lat": 51.4875522,
+   "lon": 11.8716639,
+   "km": 2.56,
+   "titel": "Lindbusch",
+   "thema": "Naturschutzgebiet, Stein 32",
+   "kurztext": "Stein 32, Blick ins NSG. Reichster Fleck der Heide, Eichen-Hainbuchenwald. Ton im Untergrund staut das Wasser, in den Senken stehen Eschen. Der Name kommt von Lint, Schlange, nicht von der Linde. Wege nicht verlassen, nichts mitnehmen. Bis hierher war der Boden Quarzsand. Ab hier eine schmale Tonzone zum Granauer Weg.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 10094911815,
+   "lat": 51.4822943,
+   "lon": 11.8910612,
+   "km": 4.3,
+   "titel": "Heidebad",
+   "thema": "Bruchfeldsee in der Grube Neuglück",
+   "kurztext": "Ende des Pfads, Haltestelle Am Heidebad. Im Tiefbau hat hier die Grube Neuglück Braunkohle geholt. Nach dem Einsturz der Stollen staute sich ab 1930 Wasser, 1954 ging das Bad auf. Westlich davon der kleine Heidesee, alte Sandgrube, Röhricht, Laichplatz der Erdkröte.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1565592953,
+   "lat": 51.5028688,
+   "lon": 11.887449,
+   "kategorie": "gastro",
+   "name": "Imbiss Shiras"
+  },
+  {
+   "osmId": 2402663071,
+   "lat": 51.4849631,
+   "lon": 11.8808284,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2591347103,
+   "lat": 51.4863475,
+   "lon": 11.8792513,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2591347116,
+   "lat": 51.4874764,
+   "lon": 11.8718917,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2603663033,
+   "lat": 51.4850043,
+   "lon": 11.8807768,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 2604600543,
+   "lat": 51.485704,
+   "lon": 11.8888849,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 3166371333,
+   "lat": 51.4848357,
+   "lon": 11.890859,
+   "kategorie": "gastro",
+   "name": "NoMa"
+  },
+  {
+   "osmId": 4459449089,
+   "lat": 51.4866966,
+   "lon": 11.8759355,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4460834453,
+   "lat": 51.4915691,
+   "lon": 11.8795213,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4465097806,
+   "lat": 51.503059,
+   "lon": 11.8884292,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4465097810,
+   "lat": 51.5032441,
+   "lon": 11.8887557,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4831116216,
+   "lat": 51.4858388,
+   "lon": 11.8908825,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4831116217,
+   "lat": 51.5002784,
+   "lon": 11.8807861,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10094773064,
+   "lat": 51.4967218,
+   "lon": 11.8804831,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12118335383,
+   "lat": 51.4848969,
+   "lon": 11.8901133,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 12118365413,
+   "lat": 51.4818332,
+   "lon": 11.8869453,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 100165592,
+   "lat": 51.48442923125,
+   "lon": 11.89010415,
+   "kategorie": "parking",
+   "name": "Heidebad"
+  },
+  {
+   "osmId": 253159659,
+   "lat": 51.50289366,
+   "lon": 11.88800634,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 254387689,
+   "lat": 51.48170211428571,
+   "lon": 11.8880162,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 502910632,
+   "lat": 51.50211502,
+   "lon": 11.886135,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1195394751,
+   "lat": 51.481060400000004,
+   "lon": 11.88643772,
+   "kategorie": "parking",
+   "name": null
+  }
+ ],
+ "hoertext": "Am Heidebahnhof fängt der Bergmannssteig an, der Weg der Bergleute nach Zscherben. Weiße Steine mit roten Zahlen, bis Stein 32 rechts, danach links. Bis zum Lindbusch ist der Boden Quarzsand. Die Porphyrblöcke am Anfang sind hingestellt, der Fels liegt hier nicht frei. Im Lindbusch staut Ton das Wasser, der Pfad bleibt auf dem Pfad. Am Ende ein See in der alten Grube. Die Sperrung am Kuhberg gehört zu Pfad I.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-ii/credits.json"
+}
