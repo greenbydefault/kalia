@@ -91,11 +91,16 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/wasserspielplatz-oberholz.json',
     'assets/seed/wasserspielplatz-heide-sued.json',
     'assets/seed/naturlehrpfad-doelau-ii.json',
+    'assets/seed/naturlehrpfad-doelau-i.json',
+    'assets/seed/naturlehrpfad-angersdorfer-teiche.json',
+    'assets/seed/wasserspielplatz-peissnitzhaus.json',
     'assets/seed/auwald-erlebnispfad.json',
     'assets/seed/naturlehrpfad-dahlenberg.json',
     'assets/seed/naturlehrpfad-grabschuetzer-see.json',
     'assets/seed/geopfad-markkleeberg.json',
     'assets/seed/naturlehrpfad-pressel.json',
+    'assets/seed/jamnoer-urwald.json',
+    'assets/seed/bagower-bruch.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

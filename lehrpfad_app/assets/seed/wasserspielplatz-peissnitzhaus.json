@@ -1,0 +1,159 @@
+{
+ "id": "wasserspielplatz-peissnitzhaus",
+ "name": "Wasserspielplatz Peißnitzhaus",
+ "typ": "wasserspielplatz",
+ "kurzbeschreibung": "Schwengelpumpe und vier Matschtische am Gartenlokal. Nur bei offenem Haus, wetterabhängig.",
+ "beschreibung": "Am Ende des Gartenlokals auf der Peißnitzinsel, unter Bäumen, liegt ein kleiner Wasserspielplatz des Peißnitzhaus e.V. Vier Matschtische, Wasserbahnen und Röhren. Eine Schwengelpumpe bringt das Wasser von Hand in den Umlauf. Die meisten Teile sind aus recyceltem Material, gebaut 2024 mit Preisgeld des Wettbewerbs Revierpionier. Matten machen den Platz größtenteils befahrbar, ein Kinderrollstuhl passt unter die Tische. Kein Eintritt. Offen nur mit dem Haus und nur bei passendem Wetter: ab 1. April, Montag und Dienstag zu, Mittwoch 17 bis 24 Uhr, Donnerstag bis Sonntag 12 bis 19 Uhr. Die Stadtspielplätze und der Kletterwald weiter auf der Insel sind andere Orte. Haltestelle Diakoniewerk Halle.",
+ "laengeKm": 0.0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Gartenlokal Peißnitzhaus",
+ "betreiber": "Peißnitzhaus e.V.",
+ "region": "Peißnitzinsel, Halle (Saale), Sachsen-Anhalt",
+ "website": "https://halle365.de/veranstaltungsort/wasserspielplatz-am-peissnitzhaus",
+ "anreise": "Adresse: Peißnitzinsel 4, 06108 Halle (Saale). Haltestelle Diakoniewerk Halle. Der Platz liegt am Ende des Gartenlokals. Die Spielplätze und der Kletterwald weiter auf der Insel gehören nicht zu diesem Ort.",
+ "startName": "Wasserspielplatz Peißnitzhaus",
+ "arten": [
+  "Wasserpumpe"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   51.493583,
+   11.947116
+  ],
+  [
+   51.493574,
+   11.947044
+  ],
+  [
+   51.493538,
+   11.947073
+  ]
+ ],
+ "area": [
+  [
+   51.493511,
+   11.946943
+  ],
+  [
+   51.493511,
+   11.947131
+  ],
+  [
+   51.493592,
+   11.947131
+  ],
+  [
+   51.493592,
+   11.946943
+  ],
+  [
+   51.493511,
+   11.946943
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1822207548,
+   "lat": 51.493583,
+   "lon": 11.947116,
+   "km": 0.0,
+   "titel": "Schwengelpumpe",
+   "thema": "Handpumpe",
+   "kurztext": "Schwengelpumpe. Du holst das Wasser selbst, es kommt nicht aus einem Tank.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1169718529,
+   "lat": 51.493574,
+   "lon": 11.947044,
+   "km": 0.01,
+   "titel": "Wasserbahnen",
+   "thema": "Bahnen und Röhren",
+   "kurztext": "Bahnen und Röhren. Die Pumpe schiebt das Wasser hier durch.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -4023197249,
+   "lat": 51.493538,
+   "lon": 11.947073,
+   "km": 0.01,
+   "titel": "Matschtische",
+   "thema": "Vier Tische",
+   "kurztext": "Vier Matschtische. Ein Kinderrollstuhl passt darunter, Matten liegen auf dem Boden.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "reihenfolge": 3
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5895967055,
+   "lat": 51.494112,
+   "lon": 11.9478294,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 11947127782,
+   "lat": 51.4940601,
+   "lon": 11.9477815,
+   "kategorie": "gastro",
+   "name": "Peißnitzhaus"
+  },
+  {
+   "osmId": 11947127783,
+   "lat": 51.4942103,
+   "lon": 11.9476986,
+   "kategorie": "gastro",
+   "name": "Peißnitzhaus"
+  },
+  {
+   "osmId": 12116584214,
+   "lat": 51.4935829,
+   "lon": 11.9471163,
+   "kategorie": "playground",
+   "name": "Wasserspielplatz"
+  },
+  {
+   "osmId": 12797196699,
+   "lat": 51.4930829,
+   "lon": 11.9475548,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12797237744,
+   "lat": 51.4928709,
+   "lon": 11.9471159,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12797258469,
+   "lat": 51.4930816,
+   "lon": 11.9475075,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "oeffnungszeiten": "Ab 1. April. Mo/Di zu. Mi 17–24 Uhr, Do–So 12–19 Uhr. Nur bei passendem Wetter.",
+ "besuchshinweise": "Nur während das Haus offen ist. Wechselkleidung mitnehmen. Matten liegen aus, ein Kinderrollstuhl passt unter die Tische.",
+ "hoertext": "Am Ende des Gartenlokals auf der Peißnitz steht eine Schwengelpumpe unter den Bäumen. Du pumpst selbst, das Wasser läuft durch Bahnen und Röhren zu vier Matschtischen. Ein Kinderrollstuhl passt unter die Tische, Matten liegen auf dem Boden. Montag und Dienstag ist zu. Mittwoch geht es erst ab siebzehn Uhr, Donnerstag bis Sonntag ab zwölf, und nur wenn das Wetter mitspielt. Nimm Wechselkleidung mit.",
+ "bilderAsset": "assets/images/trails/wasserspielplatz-peissnitzhaus/credits.json"
+}

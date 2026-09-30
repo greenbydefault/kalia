@@ -111,7 +111,8 @@ Welle-1-IDs sind im Katalog. Hier der Rest plus die fünf, die schon drin sind (
 | Hängebirke | *Betula pendula* | wupatz |
 | Hainbuche | *Carpinus betulus* | wupatz, hainich, ivenack, naturwaldpfad — **Katalog, gelinkt** |
 | Esche | *Fraxinus excelsior* | hainich, ivenack, naturwaldpfad |
-| Sommerlinde | *Tilia platyphyllos* | kaeflingsberg-speck |
+| Sommerlinde | *Tilia platyphyllos* | kaeflingsberg-speck, naturlehrpfad-doelau-i (Stein 7) |
+| Rot-Eiche | *Quercus rubra* | naturlehrpfad-doelau-i (Stein 3) |
 | Schwarzspecht | *Dryocopus martius* | wupatz, hainich |
 | Mittelspecht | *Dendrocoptes medius* | hainich, heilige-hallen |
 | Rotfuchs | *Vulpes vulpes* | spurenweg-kratzeburg |
@@ -804,6 +805,28 @@ Quelle: https://www.erkner.de/rathaus-und-buergerservice/buergerinformationen/ak
 
 **Link-Lücke:** Libelle — nur wenn Grubensee-Tafel das sagt (Seenland-Text nicht).
 
+### bagower-bruch — Bagow
+
+`wald` · NSG Bagower Bruch / Naturpark Westhavelland
+
+**Ist:** Rotbuche, Fichte / Buntspecht
+
+**Katalog-Kandidat:** Karthäuser-Nelke, Graslilie, Stacheldolde (Flyer: „Sticheldolde“) — Tafel Steppenpflanzen, 52.51725, 12.69726. Flyer Amt Beetzsee 2018.
+
+**Nicht:** Vogelwelt-Tafel ohne Artliste. Fische ohne Artnamen. Höckerschwan nur ein Commons-Foto, keine Tafel. Gutshaus und KiEZ nicht auf der Runde.
+
+Quelle: Flyer Naturlehrpfad Bagower Bruch (Gemeinde Päwesin / Amt Beetzsee, 01/2018) · OSM-Tafeln Rel 15820551
+
+### jamnoer-urwald — Groß Jamno
+
+`wald` · LSG Wiesen- und Teichgebiet Eulo-Jamno
+
+**Ist:** Kiefer
+
+**Nicht:** Orchideenwiese ist ein Flurname am Weg, keine Art. Quellvegetation „typisch“ ohne Artnamen. Großteich ist die grüne-Punkt-Runde, nicht dieser Lehrpfad.
+
+Quelle: Landkreis Spree-Neiße, Broschüre 2018, Seite Jamnoer Urwald („durch einen Kiefernwald“) · https://www.forst-lausitz.de/auszug-broschuere-wanderungen-zwischen-spree-und-neisse.128925.htm
+
 ### ravensberge — Potsdam
 
 `wald`
@@ -1000,3 +1023,27 @@ Quelle: https://halle365.de/veranstaltungsort/wasserspielplatz-scharnhorststrass
 **Nicht:** Lindbusch (Ort). Neuntöter, Spechte, Nachtigall, Waldohreule (Brutliste des NSG, Pfad bleibt auf dem Weg). Erdkröte (Laichplatz kleiner Heidesee). Rote Waldameise (Stubben „oft“, kein Stein).
 
 Quelle: https://halle.de/fileadmin/Binaries/Publikationen/Umwelt_Natur/Naturlehrpfad_II_Doelauer_Heide/Inhalt.pdf
+
+### naturlehrpfad-angersdorfer-teiche
+
+`naturerlebnis` · Kleiner Angersdorfer Teich, Halle-Neustadt, Nordufer
+
+**Ist:** Stieleiche, Haselnuss, Bergahorn
+
+**Katalog-Kandidat:** Walnuss *Juglans regia* (51.46811, 11.90787, Flyer 3); Steinweichsel *Prunus mahaleb* (51.46771, 11.90889, Flyer 2, Tor).
+
+**Nicht:** Ringelnatter (Flyer trifft nur „Ringelborke“). Eschen-Ahorn (Flyer 34, invasiv, kein Zwang). Fuchs und Holunder liegen hinter dem kartierten Nordufer. Enten und Schwan ohne Art.
+
+Quelle: http://www.solaris-halle.de/ext_natrix/download/lehrpfad.pdf
+
+### naturlehrpfad-doelau-i
+
+`wald` · Dölauer Heide, Halle (Saale), offenes Stück Straße Waldkater bis Stein 24
+
+**Ist:** Robinie, Hainbuche, Stieleiche (Stein 13), Rotbuche (Stein 18), Waldkiefer (Stein 24, Alias auf Kiefer)
+
+**Katalog-Kandidat:** Rot-Eiche *Quercus rubra* (Stein 3, 51.50107, 11.92986), Sommerlinde *Tilia platyphyllos* (Stein 7, 51.50230, 11.92877). Broschüre dieses Pfads, offenes Stück.
+
+**Nicht:** Arten der Steine 25–44 (Kuhberg, Langer Berg, Kellerberg, gesperrt, nicht in der Linie). Hasel und Lungenkraut liegen auf dem zweiten offenen Stück ab Stein 45, das nicht angebunden ist.
+
+Quelle: https://halle.de/fileadmin/Binaries/Publikationen/Umwelt_Natur/Naturlehrpfad_I_Doelauer_Heide/Inhalt.pdf

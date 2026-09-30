@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-haus-so.jpg",
+    "caption": "Peißnitzhaus von Südosten, Turm und Ziegel. Der Wasserspielplatz von 2024 liegt am Gartenlokal, nicht in diesem Bild.",
+    "credit": "Heinrich Stürzl",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halle_Pei%C3%9Fnitzhaus_von_SO.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-haus-front.jpg",
+    "caption": "Biergarten vor dem Peißnitzhaus, Winter 2017. Der Wasserspielplatz sitzt am Ende dieses Gartenlokals.",
+    "credit": "Catatine",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HAL-Pei%C3%9Fnitzhaus1.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-haus-2021.jpg",
+    "caption": "Peißnitzhaus von der Insel, Juni 2021, vor dem Wasserspielplatz. Im Vordergrund ein Bauzaun.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halle-Pei%C3%9Fnitzhaus_2021_(1).jpg",
+    "kind": "ort"
+  }
+]

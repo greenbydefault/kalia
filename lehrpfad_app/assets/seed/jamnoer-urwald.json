@@ -1,0 +1,424 @@
+{
+ "id": "jamnoer-urwald",
+ "name": "Naturlehrpfad Jamnoer Urwald",
+ "typ": "wald",
+ "kurzbeschreibung": "Knapp zwei Kilometer Quellgebiet in Groß Jamno, Start am Landgasthaus Urwald. Grüner Schrägstrich, frei.",
+ "beschreibung": "In Groß Jamno, Forst (Lausitz), liegt das Quell- und Teichgebiet im Landschaftsschutzgebiet Wiesen- und Teichgebiet Eulo-Jamno. Heinrich Kloß hat es ab 1904 als Naturpark angelegt und Urwald genannt. Der Lehrpfad ist der grüne Schrägstrich, knapp 1,7 km auf der Karte, die Stadt sagt 2 km. Start an den Fischteichen beim Landgasthaus Urwald, Urwaldstraße 22. Erst der Brunnen mit der Tafel Die Wasseröhrenfahrt, dann am Rand der Orchideenwiese zur Quelle, durch den Kiefernwald, und über den feuchten Weg zum Gedenkstein. Den Stein hat Kloß gesetzt, als er die Konzession fürs Gasthaus bekam. Über Holzröhren lief das Quellwasser früher in den Ort. Der grüne Punkt ist die andere Runde und läuft am Großteich entlang. Immer frei, ohne Anmeldung. Das Landgasthaus ist Einkehr. Hupatz in Burg ist der andere Pfad im Kreis.",
+ "laengeKm": 1.7,
+ "dauerMin": 45,
+ "rundkurs": true,
+ "markierung": "Grüner Schrägstrich",
+ "betreiber": "Stadt Forst (Lausitz) / Tourismusverband Lausitzer Seenland",
+ "region": "Forst (Lausitz) OT Groß Jamno, Spree-Neiße, Brandenburg",
+ "website": "https://www.reiseland-brandenburg.de/poi/lausitzer-seenland/wandertouren/rundwanderung-jamnoer-urwald/",
+ "anreise": "Parkplatz Landgasthaus Urwald, Urwaldstraße 22, 03149 Forst (Lausitz) OT Groß Jamno. Auto über die L 122. Bus Forst–Cottbus, Haltestelle Groß Jamno. Der grüne Punkt am selben Parkplatz ist die andere Runde zum Großteich.",
+ "startName": "Parkplatz Landgasthaus Urwald",
+ "arten": [
+  "Kiefer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.715162,
+   14.579322
+  ],
+  [
+   51.715392,
+   14.579452
+  ],
+  [
+   51.71529,
+   14.579647
+  ],
+  [
+   51.715214,
+   14.579746
+  ],
+  [
+   51.714876,
+   14.580333
+  ],
+  [
+   51.714942,
+   14.580863
+  ],
+  [
+   51.714973,
+   14.580998
+  ],
+  [
+   51.715174,
+   14.581037
+  ],
+  [
+   51.715258,
+   14.581166
+  ],
+  [
+   51.715451,
+   14.581102
+  ],
+  [
+   51.715524,
+   14.58122
+  ],
+  [
+   51.715538,
+   14.581413
+  ],
+  [
+   51.715558,
+   14.581531
+  ],
+  [
+   51.715711,
+   14.581606
+  ],
+  [
+   51.715747,
+   14.581681
+  ],
+  [
+   51.71597,
+   14.581611
+  ],
+  [
+   51.716033,
+   14.581525
+  ],
+  [
+   51.716181,
+   14.581523
+  ],
+  [
+   51.716705,
+   14.581854
+  ],
+  [
+   51.716912,
+   14.582204
+  ],
+  [
+   51.716966,
+   14.582377
+  ],
+  [
+   51.716723,
+   14.582694
+  ],
+  [
+   51.71656,
+   14.582821
+  ],
+  [
+   51.716429,
+   14.582877
+  ],
+  [
+   51.716223,
+   14.583031
+  ],
+  [
+   51.715978,
+   14.583253
+  ],
+  [
+   51.715808,
+   14.583487
+  ],
+  [
+   51.715681,
+   14.583716
+  ],
+  [
+   51.715578,
+   14.583956
+  ],
+  [
+   51.715507,
+   14.584134
+  ],
+  [
+   51.715443,
+   14.58434
+  ],
+  [
+   51.715363,
+   14.584532
+  ],
+  [
+   51.715322,
+   14.584651
+  ],
+  [
+   51.715287,
+   14.584919
+  ],
+  [
+   51.715227,
+   14.585134
+  ],
+  [
+   51.715085,
+   14.585241
+  ],
+  [
+   51.714972,
+   14.585278
+  ],
+  [
+   51.714813,
+   14.5854
+  ],
+  [
+   51.714692,
+   14.585642
+  ],
+  [
+   51.714222,
+   14.586009
+  ],
+  [
+   51.714112,
+   14.586156
+  ],
+  [
+   51.714009,
+   14.586107
+  ],
+  [
+   51.713933,
+   14.586024
+  ],
+  [
+   51.713799,
+   14.585958
+  ],
+  [
+   51.713675,
+   14.585877
+  ],
+  [
+   51.713613,
+   14.585813
+  ],
+  [
+   51.713605,
+   14.585704
+  ],
+  [
+   51.713609,
+   14.585574
+  ],
+  [
+   51.713671,
+   14.585312
+  ],
+  [
+   51.713786,
+   14.584719
+  ],
+  [
+   51.713894,
+   14.584164
+  ],
+  [
+   51.714151,
+   14.582874
+  ],
+  [
+   51.714473,
+   14.58146
+  ],
+  [
+   51.714654,
+   14.580664
+  ],
+  [
+   51.714832,
+   14.580398
+  ],
+  [
+   51.714395,
+   14.580114
+  ],
+  [
+   51.714175,
+   14.580007
+  ],
+  [
+   51.714082,
+   14.579879
+  ],
+  [
+   51.713932,
+   14.579879
+  ],
+  [
+   51.713839,
+   14.579798
+  ],
+  [
+   51.713853,
+   14.579691
+  ],
+  [
+   51.71374,
+   14.579691
+  ],
+  [
+   51.713713,
+   14.579626
+  ],
+  [
+   51.713756,
+   14.579358
+  ],
+  [
+   51.713853,
+   14.579305
+  ],
+  [
+   51.713763,
+   14.578865
+  ],
+  [
+   51.713713,
+   14.578618
+  ],
+  [
+   51.71487,
+   14.579262
+  ],
+  [
+   51.714982,
+   14.579302
+  ],
+  [
+   51.715122,
+   14.579299
+  ],
+  [
+   51.715162,
+   14.579322
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 7264181147,
+   "lat": 51.7156431,
+   "lon": 14.5776743,
+   "km": 0.0,
+   "titel": "Parkplatz Landgasthaus",
+   "thema": "Start, grüner Schrägstrich",
+   "kurztext": "Hier hängt die Karte, am Parkplatz vom Landgasthaus Urwald. Der Lehrpfad ist der grüne Schrägstrich. Der grüne Punkt ist die andere Runde und läuft zum Großteich. Beide fangen an diesem Parkplatz an.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 7264181174,
+   "lat": 51.7150377,
+   "lon": 14.5809136,
+   "km": 0.16,
+   "titel": "Die Wasseröhrenfahrt",
+   "thema": "Holzröhren nach Groß Jamno",
+   "kurztext": "Die Tafel heißt Die Wasseröhrenfahrt. Über Holzröhren lief das Quellwasser früher nach Groß Jamno. Der Brunnen am Weg ist der Rest davon.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 7285212119,
+   "lat": 51.7147847,
+   "lon": 14.5855716,
+   "km": 0.79,
+   "titel": "Jamnoer Urwaldquelle",
+   "thema": "Quellgebiet",
+   "kurztext": "Vor der Quelle läuft der Lehrpfad am Rand der Orchideenwiese. Die Tafel heißt Jamnoer Urwaldquelle. Hier tritt das Wasser aus. Danach geht es durch den Kiefernwald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 7264195260,
+   "lat": 51.7138892,
+   "lon": 14.579315,
+   "km": 1.5,
+   "titel": "Gedenkstein",
+   "thema": "Naturpark ab 1904",
+   "kurztext": "Heinrich Kloß hat den Stein gesetzt, als er die Konzession fürs Gasthaus bekam. Den Namen Urwald hat er dem Gebiet ab 1904 gegeben. Der Weg hierher ist feucht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1767875024,
+   "lat": 51.715093,
+   "lon": 14.5791053,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1767875130,
+   "lat": 51.7156185,
+   "lon": 14.5789572,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1767911348,
+   "lat": 51.715371,
+   "lon": 14.5838602,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1775425558,
+   "lat": 51.7156608,
+   "lon": 14.5796306,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 165223723,
+   "lat": 51.71574686,
+   "lon": 14.57757196,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 32027479,
+   "lat": 51.71513736666666,
+   "lon": 14.577587483333334,
+   "kategorie": "gastro",
+   "name": "Landgasthaus Urwald"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Landgasthaus hat eigene Zeiten.",
+ "besuchshinweise": "Lehrpfad ist der grüne Schrägstrich. Der grüne Punkt führt zum Großteich, das ist die andere Runde. Quellgebiet, nach Regen weich.",
+ "hoertext": "Am Parkplatz vom Landgasthaus Urwald, mitten in Groß Jamno, fängt der Lehrpfad an. Grüner Schrägstrich, knapp zwei Kilometer, frei. Der grüne Punkt daneben ist die andere Runde und läuft zum Großteich. Auf dem Schrägstrich liegen die Quelle und die Holzröhren, die den Ort früher mit Wasser versorgt haben. Nach Regen ist der Boden weich.",
+ "bilderAsset": "assets/images/trails/jamnoer-urwald/credits.json"
+}

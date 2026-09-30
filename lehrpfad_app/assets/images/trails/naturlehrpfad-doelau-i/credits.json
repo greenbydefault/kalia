@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-waldkater.jpg",
+    "caption": "Gaststätte Waldkater an der Straße Waldkater. Hier beginnt der Naturlehrpfad I.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldkater_01_Halle_(Saale).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-hockergrab.jpg",
+    "caption": "Steinkiste am Waldkater, das Hockergrab von Stein 5. Glockenbecherzeit, im Laub.",
+    "credit": "Einsamer Schütze",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steinkiste_am_Waldkater_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-heide.jpg",
+    "caption": "Waldweg in der Dölauer Heide, Kiefern und Laubholz.",
+    "credit": "Hallunke",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B6lauer_Heide_11.jpg",
+    "kind": "ort"
+  }
+]

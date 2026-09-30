@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-schilf.jpg",
+    "caption": "Schilf und Birken am Kleinen Angersdorfer Teich, im Hintergrund die Leitungstrasse. Der Lehrpfad läuft am Nordufer.",
+    "credit": "Jwaller",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleiner_Angersdorfer_Teich.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-badesee.jpg",
+    "caption": "Uferweg am Großen Angersdorfer Teich. Das ist der Badesee neben dem Lehrpfad, nicht der Pfad selbst.",
+    "credit": "Jwaller",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_Angersdorfer_Teich.JPG",
+    "kind": "ort"
+  }
+]

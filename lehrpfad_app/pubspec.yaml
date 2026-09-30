@@ -155,11 +155,16 @@ flutter:
     - assets/images/trails/wasserspielplatz-oberholz/
     - assets/images/trails/wasserspielplatz-heide-sued/
     - assets/images/trails/naturlehrpfad-doelau-ii/
+    - assets/images/trails/naturlehrpfad-doelau-i/
+    - assets/images/trails/naturlehrpfad-angersdorfer-teiche/
+    - assets/images/trails/wasserspielplatz-peissnitzhaus/
     - assets/images/trails/auwald-erlebnispfad/
     - assets/images/trails/naturlehrpfad-dahlenberg/
     - assets/images/trails/naturlehrpfad-grabschuetzer-see/
     - assets/images/trails/geopfad-markkleeberg/
     - assets/images/trails/naturlehrpfad-pressel/
+    - assets/images/trails/jamnoer-urwald/
+    - assets/images/trails/bagower-bruch/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

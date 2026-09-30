@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-schwan.jpg",
+    "caption": "Höckerschwan im NSG Bagower Bruch.",
+    "credit": "Gb10777",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwan_in_Bagow.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-kirche.jpg",
+    "caption": "Jugendstilkirche Bagow von 1907. Die Tafel steht hier, der Pfad geht in den Wald.",
+    "credit": "Hans G. Oberlack",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorfkirche_Bagow_2020_SW.jpg",
+    "kind": "ort"
+  }
+]

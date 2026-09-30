@@ -1,0 +1,143 @@
+{
+ "id": "naturlehrpfad-angersdorfer-teiche",
+ "name": "Naturlehrpfad Angersdorfer Teiche",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Am Nordufer des Kleinen Angersdorfer Teichs, vom Tor der Naturstation bis zur Halbinsel. Halle-Neustadt, frei.",
+ "beschreibung": "NATRIX hat den Pfad um den Kleinen Angersdorfer Teich angelegt. Im Flyer stehen zweiundvierzig Nummern, Koordinaten hat er keine. OpenStreetMap führt als Route den Dirt-Pfad am Nordufer, vom Tor der Naturstation bis zur Halbinsel, knapp zweihundert Meter. Die App zeigt die Stellen auf diesem Stück, nicht jede Flyer-Nummer. Vom Ufer geht der Blick ins Nordholz, Hybrid-Pappeln und ein Bergahorn im Licht. Der Große Teich daneben ist der Badesee, nicht der Pfad. Ganzjährig frei, ohne Anmeldung. Der Boden ist uneben, für Rollstuhl und Kinderwagen nicht.",
+ "laengeKm": 0.2,
+ "dauerMin": 20,
+ "rundkurs": false,
+ "markierung": "Dirt-Pfad am Nordufer",
+ "betreiber": "NATRIX – Naturschutz und Bildung Halle e.V.",
+ "region": "Kleiner Angersdorfer Teich, Halle-Neustadt",
+ "website": "https://natrix-online.jimdofree.com/naturlehrpfad/",
+ "anreise": "Naturstation NATRIX am Ostufer des Kleinen Angersdorfer Teichs, Halle-Neustadt. Die Straße Angersdorfer Teiche führt ans Tor. Der Pfad läuft von dort am Nordufer nach Westen. HAVAG-Haltestelle Wolfgang-Borchert-Straße liegt nördlich der B 80, etwa 500 Meter. Ein ausgewiesener Parkplatz am Tor fehlt.",
+ "startName": "Naturstation NATRIX",
+ "arten": [
+  "Stieleiche",
+  "Haselnuss",
+  "Bergahorn"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   51.467711,
+   11.908886
+  ],
+  [
+   51.467749,
+   11.908761
+  ],
+  [
+   51.46779,
+   11.908661
+  ],
+  [
+   51.467823,
+   11.908608
+  ],
+  [
+   51.467917,
+   11.908549
+  ],
+  [
+   51.467989,
+   11.908478
+  ],
+  [
+   51.467998,
+   11.908439
+  ],
+  [
+   51.468107,
+   11.90787
+  ],
+  [
+   51.468151,
+   11.907609
+  ],
+  [
+   51.468193,
+   11.907169
+  ],
+  [
+   51.468202,
+   11.906914
+  ],
+  [
+   51.468276,
+   11.906526
+  ],
+  [
+   51.46828,
+   11.906476
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 2809425038,
+   "lat": 51.4677106,
+   "lon": 11.908886,
+   "km": 0.0,
+   "titel": "Eiche an der Uferwiese",
+   "thema": "Tor der Naturstation, Blick auf die Insel",
+   "kurztext": "Start am Tor der Naturstation. Die Steinweichsel steht direkt am Tor, die Eiche auf der Uferwiese. Von hier siehst du die Insel im Kleinen Teich und das steile Südufer. Die Eicheln hängen an langen Stielen, das Blatt ist gebuchtet und sitzt kurz am Zweig.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 2809425057,
+   "lat": 51.468107,
+   "lon": 11.9078696,
+   "km": 0.09,
+   "titel": "Walnuss",
+   "thema": "Anfang der Nuss-Allee",
+   "kurztext": "Anfang der Nuss-Allee, rechts ein großer Walnussbaum. Im Frühjahr grünt er als letzter, noch nach der Eiche, im Herbst wirft er früh ab. Zerreibst du ein Blatt, riecht es aromatisch. Die Rinde ist jung glatt und grau, später dunkel und rissig.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 2809425064,
+   "lat": 51.468193,
+   "lon": 11.9071694,
+   "km": 0.14,
+   "titel": "Haselnuss",
+   "thema": "Ende der Nuss-Allee",
+   "kurztext": "Ende der Allee. Die Hasel wächst hier als Strauch mit mehreren Stämmen, fünf bis sechs Meter. Das Blatt ist rundlich, der Rand grob doppelt gesägt, der Stiel drüsig. Im Vorfrühling hängen die Kätzchen, die Nüsse kommen später in einer gezackten Hülle.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 2809425074,
+   "lat": 51.4682797,
+   "lon": 11.9064758,
+   "km": 0.19,
+   "titel": "Halbinsel am Nordufer",
+   "thema": "Birken und Blick auf die flache Mitte",
+   "kurztext": "Hier endet der kartierte Pfad. Birken am Ufer, die Rinde hell, die Kätzchen hängen. Du schaust auf die flache Mitte des Teichs. Im Frühjahr und Sommer liegen Enten auf dem Wasser, oft ein Schwanenpaar mit Jungen. Der Flyer geht danach weiter um den Teich, diese Karte nicht.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [],
+ "hoertext": "Am Tor steht eine Steinweichsel. Gleich danach die Eiche, von der Wiese siehst du die Insel im Kleinen Teich. Die Nuss-Allee ist das nächste Stück, Hasel am Ende, Birken auf der Halbinsel. Der Flyer zählt weiter, die Karte hört hier auf. Der Pfad ist uneben, das Ufer gibt nach. Baden gehst du am großen Teich, nicht hier.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-angersdorfer-teiche/credits.json"
+}
