@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../../shared/images/exif_gps.dart';
 import '../../../shared/widgets/show_app_modal_sheet.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/station.dart';
@@ -12,6 +13,7 @@ import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
 import '../data/image_upload_service.dart';
 import '../data/upload_jobs.dart';
+import '../domain/photo_geo_check.dart';
 
 /// Bottom-Sheet fuer den Bild-Upload: Trail (falls nicht vorgegeben),
 /// Zuordnung (ganzer Trail oder eine Station), Credit, Rechte, dann
@@ -123,12 +125,16 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     }
 
     if (mounted) setState(() => _picking = false);
+    // Der EXIF-Ort bleibt lokal: er wird hier gegen den Trail verdichtet
+    // und danach verworfen. Nur die Ampel geht in den Upload.
+    final geoCheck = PhotoGeoCheck.evaluate(trail, readExifGps(bytes));
     unawaited(
       jobs.start(
         trailId: trail.id,
         stationId: stationId,
         credit: credit,
         bytes: bytes,
+        geoCheck: geoCheck,
       ),
     );
   }

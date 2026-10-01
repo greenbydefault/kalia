@@ -5,6 +5,8 @@ import 'package:image/image.dart' as img;
 import 'package:lehrpfad_app/features/community/domain/trail_image.dart';
 import 'package:lehrpfad_app/shared/images/image_variants.dart';
 
+import 'support/jpeg_fixtures.dart';
+
 Uint8List _png({required int width, required int height}) {
   final im = img.Image(width: width, height: height);
   for (final px in im) {
@@ -99,5 +101,26 @@ void main() {
       () => resizeVariants(Uint8List.fromList([1, 2, 3, 4])),
       throwsA(isA<ImageVariantsException>()),
     );
+  });
+
+  test('Zwischen-JPEGs enthalten kein EXIF (kein GPS, keine PII)', () {
+    final input = jpegWithGps(
+      lat: [(54, 1), (18, 1), (30, 1)],
+      latRef: 'N',
+      lon: [(10, 1), (6, 1), (0, 1)],
+      lonRef: 'E',
+    );
+    // Vorbedingung: das Original traegt wirklich GPS
+    expect(img.decodeJpgExif(input)?.gpsIfd.isEmpty, isFalse);
+
+    final out = resizeVariantsJpeg(input);
+    for (final entry in out.jpegBytes.entries) {
+      final exif = img.decodeJpgExif(entry.value);
+      expect(
+        exif == null || exif.isEmpty,
+        isTrue,
+        reason: '${entry.key.name} traegt noch EXIF',
+      );
+    }
   });
 }

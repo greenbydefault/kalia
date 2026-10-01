@@ -5,6 +5,7 @@ import 'package:uuid/uuid.dart';
 
 import '../../../shared/images/image_encoder.dart';
 import '../../../shared/images/image_variants.dart';
+import '../domain/photo_geo_check.dart';
 import '../domain/trail_image.dart';
 import 'supabase_images_repository.dart';
 
@@ -29,13 +30,15 @@ abstract class ImageUploader {
     required int? stationId,
     required String credit,
     required Uint8List bytes,
+    required PhotoGeoCheck geoCheck,
     void Function(UploadPhase phase)? onPhase,
   });
 }
 
 /// Erzeugt drei AVIF-Varianten und laedt sie in den Bucket `trail-images`;
 /// der Eintrag in `images` startet mit Status pending (Moderation).
-/// Das Aufnehmen/Waehlen des Fotos liegt beim Aufrufer.
+/// Das Aufnehmen/Waehlen des Fotos liegt beim Aufrufer. Der EXIF-Ort wird
+/// vorher lokal zu [PhotoGeoCheck] verdichtet; die Varianten tragen kein EXIF.
 class ImageUploadService implements ImageUploader {
   ImageUploadService(this._client);
 
@@ -49,6 +52,7 @@ class ImageUploadService implements ImageUploader {
     required int? stationId,
     required String credit,
     required Uint8List bytes,
+    required PhotoGeoCheck geoCheck,
     void Function(UploadPhase phase)? onPhase,
   }) async {
     // Anonymer Test-Upload: ohne Session bleibt uploader_id null
@@ -94,6 +98,8 @@ class ImageUploadService implements ImageUploader {
         'source': 'user',
         'status': 'pending',
         'credit': credit,
+        // Nur die Ampel, nie Koordinaten (siehe PhotoGeoCheck).
+        'geo_check': geoCheck.dbValue,
         'width': resized.width,
         'height': resized.height,
         'mime_type': 'image/avif',

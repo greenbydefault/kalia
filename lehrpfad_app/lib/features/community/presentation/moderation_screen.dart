@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
+import '../domain/photo_geo_check.dart';
 import '../domain/trail_image.dart';
 import 'fullscreen_image_viewer.dart';
 
@@ -83,6 +84,7 @@ class ModerationScreen extends ConsumerWidget {
                         DataColumn(label: Text('Bild')),
                         DataColumn(label: Text('Trail')),
                         DataColumn(label: Text('Zuordnung')),
+                        DataColumn(label: Text('Ort')),
                         DataColumn(label: Text('Format')),
                         DataColumn(label: Text('Größe')),
                         DataColumn(label: Text('Credit')),
@@ -131,6 +133,7 @@ class ModerationScreen extends ConsumerWidget {
                                 Text(_trailName(trails, images[i].trailId)),
                               ),
                               DataCell(Text(_zuordnung(trails, images[i]))),
+                              DataCell(_GeoCheckCell(images[i].geoCheck)),
                               DataCell(Text(images[i].formatLabel)),
                               DataCell(
                                 Column(
@@ -237,4 +240,39 @@ String _fmtBytes(int? n) {
     return '${kb.toStringAsFixed(1)} KB';
   }
   return '${(kb / 1024).toStringAsFixed(1)} MB';
+}
+
+/// Ampel aus der lokalen Foto-Ort-Pruefung des Uploaders. Nur ein Hinweis
+/// fuer die Moderation, keine Freigabe; Koordinaten gibt es hier nicht.
+class _GeoCheckCell extends StatelessWidget {
+  const _GeoCheckCell(this.check);
+
+  final PhotoGeoCheck? check;
+
+  @override
+  Widget build(BuildContext context) {
+    final c = check;
+    if (c == null) return const Text('—');
+    final (color, label) = switch (c) {
+      PhotoGeoCheck.match => (const Color(0xFF2E9E5B), 'Passt zum Trail'),
+      PhotoGeoCheck.near => (const Color(0xFFF2A100), 'Grob in der Nähe'),
+      PhotoGeoCheck.far => (const Color(0xFFD64545), 'Weit entfernt'),
+      PhotoGeoCheck.none => (const Color(0xFF9E9E9E), 'Kein GPS'),
+    };
+    return Tooltip(
+      message: 'Hinweis aus dem Foto-Ort, keine Freigabe',
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            width: 10,
+            height: 10,
+            decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+          ),
+          const SizedBox(width: 8),
+          Text(label),
+        ],
+      ),
+    );
+  }
 }

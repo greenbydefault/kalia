@@ -4,6 +4,7 @@ import 'dart:typed_data';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'community_providers.dart';
+import '../domain/photo_geo_check.dart';
 import 'image_upload_service.dart';
 
 /// Ein laufender Foto-Upload. Lebt im Speicher und endet mit dem Prozess;
@@ -60,6 +61,7 @@ class UploadJobs extends Notifier<List<UploadJob>> {
     required int? stationId,
     required String credit,
     required Uint8List bytes,
+    PhotoGeoCheck geoCheck = PhotoGeoCheck.none,
   }) async {
     final uploader = ref.read(imageUploadServiceProvider);
     if (uploader == null) return;
@@ -77,6 +79,7 @@ class UploadJobs extends Notifier<List<UploadJob>> {
         stationId: stationId,
         credit: credit,
         bytes: bytes,
+        geoCheck: geoCheck,
         onPhase: (phase) => _setPhase(id, phase),
       );
       result = const UploadResult.success();

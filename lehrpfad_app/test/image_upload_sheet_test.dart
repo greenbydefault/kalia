@@ -7,6 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:lehrpfad_app/features/community/data/community_providers.dart';
 import 'package:lehrpfad_app/features/community/data/image_upload_service.dart';
+import 'package:lehrpfad_app/features/community/domain/photo_geo_check.dart';
 import 'package:lehrpfad_app/features/community/presentation/image_upload_sheet.dart';
 import 'package:lehrpfad_app/features/trail/data/providers.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
@@ -40,6 +41,7 @@ class _HangingUploader implements ImageUploader {
     required int? stationId,
     required String credit,
     required Uint8List bytes,
+    required PhotoGeoCheck geoCheck,
     void Function(UploadPhase phase)? onPhase,
   }) {
     calls++;

@@ -1,3 +1,5 @@
+import 'photo_geo_check.dart';
+
 /// Herkunft eines Bildes: offiziell bereitgestellt oder User-Upload.
 enum TrailImageSource {
   official,
@@ -51,6 +53,9 @@ class TrailImage {
   final DateTime createdAt;
   final bool isMine;
 
+  /// Vorpruefung aus dem Foto-Ort (nur Hinweis). `null` = Altbestand.
+  final PhotoGeoCheck? geoCheck;
+
   /// Oeffentliche URLs der drei AVIF-Varianten (vom Repository befuellt).
   final String thumbUrl;
   final String smallUrl;
@@ -75,6 +80,7 @@ class TrailImage {
     required this.thumbUrl,
     required this.smallUrl,
     required this.mediumUrl,
+    this.geoCheck,
   });
 
   bool get isApproved => status == TrailImageStatus.approved;

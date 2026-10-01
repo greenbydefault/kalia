@@ -1,5 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../domain/photo_geo_check.dart';
 import '../domain/trail_image.dart';
 import 'images_repository.dart';
 
@@ -18,6 +19,10 @@ class SupabaseImagesRepository implements ImagesRepository {
       'width, height, mime_type, thumb_bytes, small_bytes, medium_bytes, '
       'created_at';
 
+  /// Die Geo-Ampel ist ein Moderations-Hinweis und wird nur fuer die
+  /// pending-Queue geladen, nicht fuer die oeffentliche Anzeige.
+  static const _pendingColumns = '$_columns, geo_check';
+
   @override
   Future<List<TrailImage>> getImages(String trailId) async {
     final rows = await _client
@@ -32,7 +37,7 @@ class SupabaseImagesRepository implements ImagesRepository {
   Future<List<TrailImage>> getPendingImages() async {
     final rows = await _client
         .from('images')
-        .select(_columns)
+        .select(_pendingColumns)
         .eq('status', 'pending')
         .order('created_at');
     return rows.map(_rowToImage).toList();
@@ -85,6 +90,7 @@ class SupabaseImagesRepository implements ImagesRepository {
       thumbUrl: url(TrailImageVariant.thumb),
       smallUrl: url(TrailImageVariant.small),
       mediumUrl: url(TrailImageVariant.medium),
+      geoCheck: PhotoGeoCheck.parse(row['geo_check'] as String?),
     );
   }
 }

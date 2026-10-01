@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/features/community/data/community_providers.dart';
 import 'package:lehrpfad_app/features/community/data/image_upload_service.dart';
 import 'package:lehrpfad_app/features/community/data/upload_jobs.dart';
+import 'package:lehrpfad_app/features/community/domain/photo_geo_check.dart';
 
 /// Fake-Uploader: jeder Aufruf haengt an einem eigenen Completer.
 class FakeUploader implements ImageUploader {
@@ -17,6 +18,7 @@ class FakeUploader implements ImageUploader {
     required int? stationId,
     required String credit,
     required Uint8List bytes,
+    required PhotoGeoCheck geoCheck,
     void Function(UploadPhase phase)? onPhase,
   }) {
     final c = Completer<void>();

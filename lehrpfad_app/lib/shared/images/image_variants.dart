@@ -97,6 +97,9 @@ _resizeWith(Uint8List input, List<int> Function(img.Image) encode) {
     );
   }
   final decoded = img.bakeOrientation(raw);
+  // Orientierung ist eingebacken. Den Rest (GPS, Geraet, Zeit, Seriennummer)
+  // verwerfen: copyResize/encodeJpg wuerden EXIF sonst mitschreiben.
+  decoded.exif = img.ExifData();
 
   Uint8List encodeVariant(int maxEdge) {
     final longest =
