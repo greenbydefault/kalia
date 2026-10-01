@@ -18,8 +18,8 @@ class EncodedVariants {
 }
 
 /// On-Device-Encoder für den User-Upload: EXIF, längste Kante, AVIF.
-/// Baut auf [resizeVariants] (pure Dart) und encodiert über das native
-/// flutter_avif-Plugin. Dateikonvention `{variant}.avif` — die Auslieferung
+/// Baut auf [resizeVariantsJpeg] (pure Dart, JPEG-Zwischenformat) und
+/// encodiert über das native flutter_avif-Plugin. Dateikonvention `{variant}.avif` — die Auslieferung
 /// (Storage) ist Sache des Aufrufers.
 ///
 /// Der Seed-Ingest nutzt dieselbe Resize-Logik, encodiert AVIF aber über
@@ -28,13 +28,16 @@ class ImageVariants {
   /// Dekodiert [input], skaliert auf die drei Kantenlängen und encodiert
   /// AVIF. Wirft [ImageVariantsException] bei unlesbarem Format.
   static Future<EncodedVariants> encode(Uint8List input) async {
-    final resized = await compute(resizeVariants, input);
+    final resized = await compute(resizeVariantsJpeg, input);
 
-    // encodeAvif arbeitet asynchron auf nativem Worker-Thread,
-    // blockiert die UI also nicht.
+    // Die drei Encodes laufen parallel; der native Encoder arbeitet auf
+    // Worker-Threads und blockiert die UI nicht.
+    final entries = resized.jpegBytes.entries.toList();
+    final encoded = await Future.wait([
+      for (final entry in entries) encodeAvif(entry.value),
+    ]);
     final bytes = <TrailImageVariant, Uint8List>{
-      for (final entry in resized.pngBytes.entries)
-        entry.key: await encodeAvif(entry.value),
+      for (var i = 0; i < entries.length; i++) entries[i].key: encoded[i],
     };
 
     return EncodedVariants(

@@ -36,7 +36,7 @@ final commentsRepositoryProvider = Provider<CommentsRepository?>((ref) {
   return SupabaseCommentsRepository(client);
 });
 
-final imageUploadServiceProvider = Provider<ImageUploadService?>((ref) {
+final imageUploadServiceProvider = Provider<ImageUploader?>((ref) {
   final client = ref.watch(supabaseClientProvider);
   if (client == null) return null;
   return ImageUploadService(client);

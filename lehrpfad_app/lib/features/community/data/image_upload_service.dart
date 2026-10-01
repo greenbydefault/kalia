@@ -1,4 +1,5 @@
-import 'package:image_picker/image_picker.dart';
+import 'dart:typed_data';
+
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:uuid/uuid.dart';
 
@@ -16,37 +17,45 @@ class ImageUploadException implements Exception {
   String toString() => message;
 }
 
-/// Nimmt ein Foto auf / waehlt eines aus, erzeugt drei AVIF-Varianten
-/// und laedt sie in den Bucket `trail-images`; der Eintrag in `images`
-/// startet mit Status pending (Moderation).
-class ImageUploadService {
+/// Phase eines laufenden Uploads, sichtbar fuer die UI.
+enum UploadPhase { verarbeiten, hochladen }
+
+/// Seam des Uploads: Bytes rein, pending-Eintrag raus. Prod ist
+/// [ImageUploadService], Tests nutzen einen Fake.
+abstract class ImageUploader {
+  /// Wirft [ImageUploadException] bei lesbaren Fehlern.
+  Future<void> upload({
+    required String trailId,
+    required int? stationId,
+    required String credit,
+    required Uint8List bytes,
+    void Function(UploadPhase phase)? onPhase,
+  });
+}
+
+/// Erzeugt drei AVIF-Varianten und laedt sie in den Bucket `trail-images`;
+/// der Eintrag in `images` startet mit Status pending (Moderation).
+/// Das Aufnehmen/Waehlen des Fotos liegt beim Aufrufer.
+class ImageUploadService implements ImageUploader {
   ImageUploadService(this._client);
 
   final SupabaseClient _client;
 
   static final _uuid = Uuid();
 
-  /// Gibt null zurueck, wenn der User die Auswahl abbricht.
-  /// Wirft [ImageUploadException] bei lesbaren Fehlern.
-  Future<void> pickAndUpload({
+  @override
+  Future<void> upload({
     required String trailId,
     required int? stationId,
     required String credit,
-    required ImageSource source,
+    required Uint8List bytes,
+    void Function(UploadPhase phase)? onPhase,
   }) async {
     // Anonymer Test-Upload: ohne Session bleibt uploader_id null
     // (RLS: images insert anon pending).
     final uid = _client.auth.currentUser?.id;
 
-    // imageQuality < 100 zwingt iOS zu JPEG- statt HEIF-Ausgabe,
-    // damit das Dekodieren garantiert klappt.
-    final picked = await ImagePicker().pickImage(
-      source: source,
-      imageQuality: 95,
-    );
-    if (picked == null) return;
-
-    final bytes = await picked.readAsBytes();
+    onPhase?.call(UploadPhase.verarbeiten);
     final EncodedVariants resized;
     try {
       resized = await ImageVariants.encode(bytes);
@@ -55,6 +64,7 @@ class ImageUploadService {
     }
     final variants = resized.bytes;
 
+    onPhase?.call(UploadPhase.hochladen);
     final imageId = _uuid.v4();
     final paths = SupabaseImagesRepository.pathsFor(trailId, imageId);
     try {

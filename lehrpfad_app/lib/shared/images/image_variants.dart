@@ -36,12 +36,51 @@ class ResizedVariants {
   final int height;
 }
 
+/// Wie [ResizedVariants], aber JPEG-Zwischenformat. Für den User-Upload:
+/// JPEG-Encoding ist ein Vielfaches schneller als PNG bei 2000 px und der
+/// native AVIF-Encoder dekodiert JPEG problemlos.
+class ResizedJpegVariants {
+  ResizedJpegVariants({
+    required this.jpegBytes,
+    required this.width,
+    required this.height,
+  });
+
+  final Map<TrailImageVariant, Uint8List> jpegBytes;
+  final int width;
+  final int height;
+}
+
+/// JPEG-Qualität des Zwischenformats. Hoch genug, dass erst der
+/// AVIF-Encoder (Quantizer 25–40) die sichtbare Kompression setzt.
+const kJpegIntermediateQuality = 92;
+
 /// Pure Dart, kein Plugin-Zugriff: dekodiert das Original, dreht es gemäß
-/// EXIF-Orientierung und erzeugt die drei Größen als PNG. Läuft in einem
-/// Isolate (Upload) und im Seed-Ingest-CLI (`dart run`).
+/// EXIF-Orientierung und erzeugt die drei Größen als PNG. Läuft im
+/// Seed-Ingest-CLI (`dart run`).
 ///
 /// Wirft [ImageVariantsException] bei unlesbarem Format.
 ResizedVariants resizeVariants(Uint8List input) {
+  final r = _resizeWith(input, (im) => img.encodePng(im));
+  return ResizedVariants(pngBytes: r.bytes, width: r.width, height: r.height);
+}
+
+/// Wie [resizeVariants], Zwischenformat JPEG. Läuft in einem Isolate
+/// (User-Upload).
+ResizedJpegVariants resizeVariantsJpeg(Uint8List input) {
+  final r = _resizeWith(
+    input,
+    (im) => img.encodeJpg(im, quality: kJpegIntermediateQuality),
+  );
+  return ResizedJpegVariants(
+    jpegBytes: r.bytes,
+    width: r.width,
+    height: r.height,
+  );
+}
+
+({Map<TrailImageVariant, Uint8List> bytes, int width, int height})
+_resizeWith(Uint8List input, List<int> Function(img.Image) encode) {
   final img.Image? raw;
   try {
     raw = img.decodeImage(input);
@@ -62,17 +101,17 @@ ResizedVariants resizeVariants(Uint8List input) {
   Uint8List encodeVariant(int maxEdge) {
     final longest =
         decoded.width > decoded.height ? decoded.width : decoded.height;
-    if (longest <= maxEdge) return img.encodePng(decoded);
+    if (longest <= maxEdge) return Uint8List.fromList(encode(decoded));
     final work = img.copyResize(
       decoded,
       width: decoded.width >= decoded.height ? maxEdge : null,
       height: decoded.height > decoded.width ? maxEdge : null,
     );
-    return img.encodePng(work);
+    return Uint8List.fromList(encode(work));
   }
 
-  return ResizedVariants(
-    pngBytes: {
+  return (
+    bytes: {
       for (final v in TrailImageVariant.values)
         v: encodeVariant(kVariantMaxEdge[v]!),
     },

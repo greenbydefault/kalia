@@ -6,6 +6,7 @@ import '../core/config/supabase_config.dart';
 import 'sync_lifecycle.dart';
 import '../features/auth/data/auth_providers.dart';
 import '../features/auth/presentation/account_tab.dart';
+import '../features/community/presentation/upload_snackbar_listener.dart';
 import '../features/onboarding/data/onboarding_providers.dart';
 import '../features/onboarding/presentation/onboarding_overlay.dart';
 import '../features/species/presentation/species_collection_screen.dart';
@@ -46,6 +47,7 @@ class AppShell extends ConsumerWidget {
             ],
           ),
           if (onboarding) const OnboardingOverlay(),
+          if (SupabaseConfig.isConfigured) const UploadSnackbarListener(),
         ],
       ),
       bottomNavigationBar: onboarding

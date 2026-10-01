@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
@@ -8,17 +11,27 @@ import '../../trail/domain/station.dart';
 import '../../trail/domain/trail.dart';
 import '../data/community_providers.dart';
 import '../data/image_upload_service.dart';
+import '../data/upload_jobs.dart';
 
 /// Bottom-Sheet fuer den Bild-Upload: Trail (falls nicht vorgegeben),
 /// Zuordnung (ganzer Trail oder eine Station), Credit, Rechte, dann
-/// Kamera oder Galerie. Drei AVIF-Groessen, Status pending.
+/// Kamera oder Galerie. Das Sheet bleibt nach jedem Foto offen; der
+/// Upload selbst laeuft als [UploadJobs]-Job und ueberlebt das Schliessen.
 class ImageUploadSheet extends ConsumerStatefulWidget {
   final Trail? trail;
 
   /// Vorausgewaehlte Station (z. B. beim Aufruf aus einer StationCard).
   final Station? initialStation;
 
-  const ImageUploadSheet({super.key, this.trail, this.initialStation});
+  /// Foto-Quelle, in Tests austauschbar.
+  final ImagePicker? picker;
+
+  const ImageUploadSheet({
+    super.key,
+    this.trail,
+    this.initialStation,
+    this.picker,
+  });
 
   static Future<void> show(
     BuildContext context, {
@@ -42,8 +55,11 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
   Trail? _trail;
   Station? _station;
   bool _rightsConfirmed = false;
-  bool _uploading = false;
+  bool _picking = false;
   String? _error;
+  UploadResult? _lastResult;
+  StreamSubscription<UploadResult>? _resultSub;
+  late final ImagePicker _picker = widget.picker ?? ImagePicker();
 
   @override
   void initState() {
@@ -52,54 +68,76 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     _station = widget.initialStation;
     final profile = ref.read(currentProfileProvider).value;
     _creditController = TextEditingController(text: profile?.displayName ?? '');
+    // Das Sheet deckt die Shell-Snackbar ab; das Ergebnis erscheint
+    // deshalb zusaetzlich inline, solange das Sheet offen ist.
+    _resultSub = ref
+        .read(uploadJobsProvider.notifier)
+        .results
+        .listen((r) => setState(() => _lastResult = r));
   }
 
   @override
   void dispose() {
+    _resultSub?.cancel();
     _creditController.dispose();
     super.dispose();
   }
 
-  bool get _canPick => _rightsConfirmed && _trail != null && !_uploading;
+  bool get _canPick => _rightsConfirmed && _trail != null && !_picking;
 
+  /// Erst Picker, dann Job. Abbruch im Picker laesst das Sheet stehen.
+  /// Der Job startet auch, wenn das Sheet waehrenddessen geschlossen wurde.
   Future<void> _pick(ImageSource source) async {
     final trail = _trail;
-    final service = ref.read(imageUploadServiceProvider);
-    if (service == null || trail == null) return;
+    if (trail == null) return;
+    final jobs = ref.read(uploadJobsProvider.notifier);
+    final stationId = _station?.id;
+    final credit = _creditController.text.trim();
     setState(() {
-      _uploading = true;
+      _picking = true;
       _error = null;
+      _lastResult = null;
     });
+
+    final Uint8List bytes;
     try {
-      await service.pickAndUpload(
-        trailId: trail.id,
-        stationId: _station?.id,
-        credit: _creditController.text.trim(),
+      // imageQuality < 100 zwingt iOS zu JPEG- statt HEIF-Ausgabe,
+      // damit das Dekodieren garantiert klappt.
+      final picked = await _picker.pickImage(
         source: source,
+        imageQuality: 95,
       );
-      ref.invalidate(trailImagesProvider(trail.id));
-      if (!mounted) return;
-      Navigator.of(context).pop();
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            'Danke! Dein Bild wird geprüft und dann freigeschaltet.',
-          ),
-        ),
-      );
-    } on ImageUploadException catch (e) {
-      setState(() => _error = e.message);
+      if (picked == null) {
+        if (mounted) setState(() => _picking = false);
+        return;
+      }
+      bytes = await picked.readAsBytes();
     } catch (e) {
-      setState(() => _error = 'Unerwarteter Fehler: $e');
-    } finally {
-      if (mounted) setState(() => _uploading = false);
+      if (mounted) {
+        setState(() {
+          _picking = false;
+          _error = 'Foto konnte nicht geladen werden: $e';
+        });
+      }
+      return;
     }
+
+    if (mounted) setState(() => _picking = false);
+    unawaited(
+      jobs.start(
+        trailId: trail.id,
+        stationId: stationId,
+        credit: credit,
+        bytes: bytes,
+      ),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final trailsAsync = ref.watch(trailsProvider);
+    final jobs = ref.watch(uploadJobsProvider);
     final stations =
         _trail?.stationen.where((s) => s.id != null).toList() ?? const [];
 
@@ -142,23 +180,21 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
                         child: Text(t.name, overflow: TextOverflow.ellipsis),
                       ),
                   ],
-                  onChanged: _uploading
-                      ? null
-                      : (id) {
-                          Trail? found;
-                          if (id != null) {
-                            for (final t in sorted) {
-                              if (t.id == id) {
-                                found = t;
-                                break;
-                              }
-                            }
-                          }
-                          setState(() {
-                            _trail = found;
-                            _station = null;
-                          });
-                        },
+                  onChanged: (id) {
+                    Trail? found;
+                    if (id != null) {
+                      for (final t in sorted) {
+                        if (t.id == id) {
+                          found = t;
+                          break;
+                        }
+                      }
+                    }
+                    setState(() {
+                      _trail = found;
+                      _station = null;
+                    });
+                  },
                 ),
               );
             },
@@ -186,15 +222,12 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
                     ),
                   ),
               ],
-              onChanged: _uploading
-                  ? null
-                  : (value) => setState(() => _station = value),
+              onChanged: (value) => setState(() => _station = value),
             ),
           ),
 
         TextField(
           controller: _creditController,
-          enabled: !_uploading,
           decoration: const InputDecoration(
             labelText: 'Bildnachweis (z. B. dein Name)',
             border: OutlineInputBorder(),
@@ -204,9 +237,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
 
         CheckboxListTile(
           value: _rightsConfirmed,
-          onChanged: _uploading
-              ? null
-              : (v) => setState(() => _rightsConfirmed = v ?? false),
+          onChanged: (v) => setState(() => _rightsConfirmed = v ?? false),
           contentPadding: EdgeInsets.zero,
           controlAffinity: ListTileControlAffinity.leading,
           title: const Text(
@@ -225,34 +256,58 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
             ),
           ),
 
-        if (_uploading) ...[
-          const LinearProgressIndicator(),
-          const SizedBox(height: 8),
-          Text(
-            'Bild wird verarbeitet und hochgeladen …',
-            style: theme.textTheme.bodySmall,
-            textAlign: TextAlign.center,
-          ),
-        ] else
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton.icon(
-                  onPressed: _canPick ? () => _pick(ImageSource.camera) : null,
-                  icon: const Icon(Icons.photo_camera_outlined),
-                  label: const Text('Kamera'),
-                ),
+        if (_lastResult case final result?)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Text(
+              result.message,
+              style: TextStyle(
+                color: result.success
+                    ? theme.colorScheme.primary
+                    : theme.colorScheme.error,
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: FilledButton.icon(
-                  onPressed: _canPick ? () => _pick(ImageSource.gallery) : null,
-                  icon: const Icon(Icons.photo_library_outlined),
-                  label: const Text('Galerie'),
-                ),
-              ),
-            ],
+            ),
           ),
+
+        for (final job in jobs)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const LinearProgressIndicator(),
+                const SizedBox(height: 4),
+                Text(
+                  switch (job.phase) {
+                    UploadPhase.verarbeiten => 'Foto wird verarbeitet …',
+                    UploadPhase.hochladen => 'Foto wird hochgeladen …',
+                  },
+                  style: theme.textTheme.bodySmall,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+
+        Row(
+          children: [
+            Expanded(
+              child: OutlinedButton.icon(
+                onPressed: _canPick ? () => _pick(ImageSource.camera) : null,
+                icon: const Icon(Icons.photo_camera_outlined),
+                label: const Text('Kamera'),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: FilledButton.icon(
+                onPressed: _canPick ? () => _pick(ImageSource.gallery) : null,
+                icon: const Icon(Icons.photo_library_outlined),
+                label: const Text('Galerie'),
+              ),
+            ),
+          ],
+        ),
       ],
     );
   }

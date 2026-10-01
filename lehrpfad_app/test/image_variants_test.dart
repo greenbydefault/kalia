@@ -64,6 +64,36 @@ void main() {
     }
   });
 
+  test('resizeVariantsJpeg liefert JPEG mit denselben Kanten', () {
+    final out = resizeVariantsJpeg(_png(width: 4000, height: 2000));
+
+    expect(out.width, 4000);
+    expect(out.height, 2000);
+    for (final entry in kVariantMaxEdge.entries) {
+      final bytes = out.jpegBytes[entry.key]!;
+      // JPEG-Magic FF D8
+      expect(bytes[0], 0xFF, reason: entry.key.name);
+      expect(bytes[1], 0xD8, reason: entry.key.name);
+      final decoded = img.decodeImage(bytes);
+      expect(decoded!.width, entry.value, reason: entry.key.name);
+      expect(decoded.height, entry.value ~/ 2, reason: entry.key.name);
+    }
+  });
+
+  test('resizeVariantsJpeg dreht Hochformat über die Höhe', () {
+    final out = resizeVariantsJpeg(_png(width: 1000, height: 4000));
+    final decoded = img.decodeImage(out.jpegBytes[TrailImageVariant.medium]!);
+    expect(decoded!.height, 2000);
+    expect(decoded.width, 500);
+  });
+
+  test('resizeVariantsJpeg wirft lesbaren Fehler bei unlesbarem Format', () {
+    expect(
+      () => resizeVariantsJpeg(Uint8List.fromList([1, 2, 3, 4])),
+      throwsA(isA<ImageVariantsException>()),
+    );
+  });
+
   test('resizeVariants wirft lesbaren Fehler bei unlesbarem Format', () {
     expect(
       () => resizeVariants(Uint8List.fromList([1, 2, 3, 4])),
