@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-steg.jpg",
+    "caption": "Steg bei Forst am See, Start des Moorlehrpfads.",
+    "credit": "Gras-Ober",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hofst%C3%A4tter_See_GO-2.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-ostufer.jpg",
+    "caption": "Hofstätter See vom Ostufer, Moorlehrpfad Burger Moos.",
+    "credit": "Rufus46",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hofstaetter_See_Moorlehrpfad_Vogtareuth-1.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-see.jpg",
+    "caption": "Hofstätter See, Blick nach Nordosten.",
+    "credit": "Gras-Ober",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hofst%C3%A4tter_See_GO-1.jpg",
+    "kind": "ort"
+  }
+]

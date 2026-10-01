@@ -1,0 +1,956 @@
+{
+ "id": "moorlehrpfad-burgermoos",
+ "name": "Moorlehrpfad Burger Moos",
+ "typ": "moor",
+ "kurzbeschreibung": "Vierzehn Tafeln am Hofstätter See, Knüppeldamm durchs Burger Moos, Beobachtungskanzel. Prutting, frei, holprig.",
+ "beschreibung": "Am Parkplatz Forst am See 3 in Prutting beginnt der Moorlehrpfad Burger Moos. 2,8 Kilometer, vierzehn Tafeln, Holzschilder mit der Aufschrift Moorlehrpfad. Erst am Ufer des Hofstätter Sees, dann über den Knüppeldamm durchs Moor. Die Beobachtungskanzel steht bei den Tafeln zu den Moortypen. Das Burger Moos liegt im FFH-Gebiet Moore und Seen nordöstlich von Rosenheim, Zwischenmoor, ohne Torfstich, der Betreiber rechnet über zehntausend Jahre. Frei, ohne Anmeldung. Führungen nur im Sommer, Termine am Kiosk und im Turm. Holprig, kein Kinderwagen, kein Rollstuhl. Festes Schuhwerk. Wege nicht verlassen. Der Rundweg um den See ist extra, etwa 3,5 Kilometer, mit Strandhaus. Im Sommer einer der wärmsten Seen im Landkreis.",
+ "laengeKm": 2.8,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Holzschilder Moorlehrpfad",
+ "betreiber": "Gemeinde Prutting",
+ "region": "Burger Moos, Forst am See, Prutting, Landkreis Rosenheim, Bayern",
+ "website": "http://moorlehrpfad-burgermoos.de/",
+ "anreise": "Parkplatz Forst am See 3, 83134 Prutting. Auto: A8 Ausfahrt Rohrdorf, durch Riedering und Stephanskirchen nach Prutting. Bahn: BRB bis Rosenheim, weiter Bus oder Taxi nach Prutting. Strandhaus und WC am Start. Der Seerundweg ist die längere Runde, nicht dieser Lehrpfad.",
+ "startName": "Parkplatz Forst am See",
+ "arten": [
+  "Torfmoos",
+  "Große Moosjungfer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   47.897342,
+   12.173965
+  ],
+  [
+   47.897347,
+   12.173413
+  ],
+  [
+   47.897328,
+   12.173181
+  ],
+  [
+   47.897285,
+   12.173033
+  ],
+  [
+   47.897247,
+   12.172966
+  ],
+  [
+   47.896951,
+   12.172945
+  ],
+  [
+   47.896666,
+   12.172936
+  ],
+  [
+   47.896377,
+   12.17286
+  ],
+  [
+   47.89612,
+   12.172752
+  ],
+  [
+   47.895947,
+   12.172627
+  ],
+  [
+   47.895668,
+   12.172304
+  ],
+  [
+   47.89545,
+   12.172144
+  ],
+  [
+   47.895176,
+   12.172048
+  ],
+  [
+   47.895102,
+   12.171952
+  ],
+  [
+   47.895017,
+   12.171671
+  ],
+  [
+   47.894851,
+   12.171271
+  ],
+  [
+   47.894464,
+   12.170704
+  ],
+  [
+   47.894235,
+   12.170417
+  ],
+  [
+   47.894183,
+   12.170136
+  ],
+  [
+   47.894083,
+   12.169908
+  ],
+  [
+   47.893988,
+   12.16974
+  ],
+  [
+   47.893871,
+   12.169544
+  ],
+  [
+   47.893814,
+   12.169485
+  ],
+  [
+   47.893774,
+   12.169364
+  ],
+  [
+   47.893733,
+   12.168977
+  ],
+  [
+   47.893701,
+   12.168666
+  ],
+  [
+   47.893622,
+   12.168322
+  ],
+  [
+   47.893426,
+   12.167797
+  ],
+  [
+   47.893255,
+   12.167374
+  ],
+  [
+   47.893073,
+   12.166953
+  ],
+  [
+   47.893037,
+   12.166857
+  ],
+  [
+   47.892907,
+   12.16686
+  ],
+  [
+   47.892757,
+   12.166756
+  ],
+  [
+   47.892565,
+   12.166669
+  ],
+  [
+   47.892512,
+   12.166558
+  ],
+  [
+   47.892518,
+   12.166378
+  ],
+  [
+   47.892536,
+   12.166155
+  ],
+  [
+   47.892544,
+   12.165993
+  ],
+  [
+   47.892557,
+   12.165916
+  ],
+  [
+   47.892598,
+   12.165813
+  ],
+  [
+   47.892603,
+   12.165627
+  ],
+  [
+   47.892657,
+   12.16548
+  ],
+  [
+   47.892721,
+   12.165374
+  ],
+  [
+   47.892801,
+   12.165325
+  ],
+  [
+   47.89285,
+   12.165203
+  ],
+  [
+   47.892939,
+   12.164886
+  ],
+  [
+   47.893138,
+   12.164301
+  ],
+  [
+   47.893171,
+   12.16411
+  ],
+  [
+   47.893178,
+   12.163967
+  ],
+  [
+   47.893165,
+   12.163699
+  ],
+  [
+   47.893164,
+   12.163248
+  ],
+  [
+   47.893176,
+   12.162831
+  ],
+  [
+   47.893198,
+   12.162773
+  ],
+  [
+   47.893239,
+   12.162678
+  ],
+  [
+   47.893176,
+   12.162831
+  ],
+  [
+   47.893096,
+   12.162786
+  ],
+  [
+   47.892968,
+   12.162759
+  ],
+  [
+   47.892864,
+   12.162759
+  ],
+  [
+   47.892738,
+   12.162778
+  ],
+  [
+   47.892674,
+   12.162805
+  ],
+  [
+   47.892625,
+   12.162842
+  ],
+  [
+   47.892521,
+   12.162955
+  ],
+  [
+   47.892455,
+   12.16299
+  ],
+  [
+   47.892444,
+   12.16298
+  ],
+  [
+   47.89243,
+   12.16297
+  ],
+  [
+   47.89238,
+   12.162931
+  ],
+  [
+   47.892352,
+   12.162894
+  ],
+  [
+   47.892342,
+   12.162781
+  ],
+  [
+   47.89231,
+   12.16265
+  ],
+  [
+   47.892266,
+   12.162525
+  ],
+  [
+   47.892192,
+   12.162363
+  ],
+  [
+   47.892192,
+   12.162777
+  ],
+  [
+   47.892214,
+   12.162695
+  ],
+  [
+   47.89221,
+   12.162551
+  ],
+  [
+   47.892192,
+   12.162363
+  ],
+  [
+   47.892159,
+   12.162269
+  ],
+  [
+   47.892111,
+   12.162161
+  ],
+  [
+   47.892058,
+   12.162097
+  ],
+  [
+   47.891987,
+   12.162052
+  ],
+  [
+   47.891876,
+   12.162045
+  ],
+  [
+   47.891512,
+   12.16219
+  ],
+  [
+   47.891323,
+   12.162241
+  ],
+  [
+   47.891238,
+   12.162239
+  ],
+  [
+   47.891193,
+   12.162243
+  ],
+  [
+   47.891161,
+   12.16214
+  ],
+  [
+   47.891131,
+   12.161895
+  ],
+  [
+   47.89107,
+   12.161737
+  ],
+  [
+   47.891034,
+   12.161672
+  ],
+  [
+   47.890928,
+   12.161613
+  ],
+  [
+   47.890826,
+   12.16151
+  ],
+  [
+   47.890757,
+   12.161445
+  ],
+  [
+   47.890701,
+   12.161415
+  ],
+  [
+   47.890631,
+   12.161393
+  ],
+  [
+   47.890701,
+   12.161415
+  ],
+  [
+   47.890757,
+   12.161445
+  ],
+  [
+   47.890826,
+   12.16151
+  ],
+  [
+   47.890928,
+   12.161613
+  ],
+  [
+   47.891034,
+   12.161672
+  ],
+  [
+   47.89107,
+   12.161737
+  ],
+  [
+   47.891131,
+   12.161895
+  ],
+  [
+   47.891161,
+   12.16214
+  ],
+  [
+   47.891193,
+   12.162243
+  ],
+  [
+   47.891238,
+   12.162239
+  ],
+  [
+   47.891323,
+   12.162241
+  ],
+  [
+   47.891512,
+   12.16219
+  ],
+  [
+   47.891876,
+   12.162045
+  ],
+  [
+   47.891987,
+   12.162052
+  ],
+  [
+   47.892058,
+   12.162097
+  ],
+  [
+   47.892111,
+   12.162161
+  ],
+  [
+   47.892159,
+   12.162269
+  ],
+  [
+   47.892192,
+   12.162363
+  ],
+  [
+   47.89221,
+   12.162551
+  ],
+  [
+   47.892214,
+   12.162695
+  ],
+  [
+   47.892192,
+   12.162777
+  ],
+  [
+   47.892192,
+   12.162363
+  ],
+  [
+   47.892266,
+   12.162525
+  ],
+  [
+   47.89231,
+   12.16265
+  ],
+  [
+   47.892342,
+   12.162781
+  ],
+  [
+   47.892352,
+   12.162894
+  ],
+  [
+   47.89238,
+   12.162931
+  ],
+  [
+   47.89243,
+   12.16297
+  ],
+  [
+   47.892444,
+   12.16298
+  ],
+  [
+   47.892455,
+   12.16299
+  ],
+  [
+   47.892521,
+   12.162955
+  ],
+  [
+   47.892625,
+   12.162842
+  ],
+  [
+   47.892674,
+   12.162805
+  ],
+  [
+   47.892738,
+   12.162778
+  ],
+  [
+   47.892864,
+   12.162759
+  ],
+  [
+   47.892968,
+   12.162759
+  ],
+  [
+   47.893096,
+   12.162786
+  ],
+  [
+   47.893176,
+   12.162831
+  ],
+  [
+   47.893239,
+   12.162678
+  ],
+  [
+   47.89329,
+   12.162497
+  ],
+  [
+   47.893413,
+   12.162166
+  ],
+  [
+   47.893593,
+   12.161765
+  ],
+  [
+   47.893766,
+   12.161366
+  ],
+  [
+   47.893805,
+   12.161251
+  ],
+  [
+   47.894014,
+   12.160576
+  ],
+  [
+   47.894189,
+   12.160102
+  ],
+  [
+   47.894475,
+   12.159303
+  ],
+  [
+   47.89452,
+   12.159187
+  ],
+  [
+   47.894587,
+   12.15894
+  ],
+  [
+   47.894644,
+   12.158804
+  ],
+  [
+   47.894714,
+   12.158665
+  ],
+  [
+   47.894729,
+   12.158622
+  ],
+  [
+   47.894737,
+   12.158569
+  ],
+  [
+   47.894745,
+   12.158459
+  ],
+  [
+   47.894733,
+   12.158376
+  ],
+  [
+   47.894702,
+   12.158328
+  ],
+  [
+   47.89469,
+   12.158247
+  ],
+  [
+   47.894691,
+   12.158214
+  ],
+  [
+   47.894709,
+   12.158192
+  ],
+  [
+   47.894743,
+   12.158174
+  ],
+  [
+   47.894777,
+   12.158178
+  ],
+  [
+   47.894844,
+   12.158207
+  ],
+  [
+   47.894879,
+   12.15819
+  ],
+  [
+   47.894925,
+   12.158141
+  ],
+  [
+   47.894951,
+   12.158103
+  ],
+  [
+   47.894993,
+   12.158057
+  ],
+  [
+   47.895033,
+   12.158027
+  ],
+  [
+   47.895079,
+   12.158006
+  ],
+  [
+   47.89512,
+   12.15818
+  ],
+  [
+   47.89514,
+   12.158359
+  ],
+  [
+   47.895166,
+   12.158611
+  ],
+  [
+   47.895183,
+   12.158729
+  ],
+  [
+   47.895207,
+   12.158834
+  ],
+  [
+   47.895244,
+   12.158947
+  ],
+  [
+   47.895284,
+   12.159039
+  ],
+  [
+   47.89532,
+   12.159106
+  ],
+  [
+   47.895644,
+   12.159697
+  ],
+  [
+   47.896476,
+   12.161313
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 765793361,
+   "lat": 47.8972265,
+   "lon": 12.1729014,
+   "km": 0.08,
+   "titel": "Start Moorlehrpfad",
+   "thema": "Tafel 1, Parkplatz Forst am See",
+   "kurztext": "Hier hängt Tafel 1, am Parkplatz Forst am See. Vierzehn Nummern, Holzschilder Moorlehrpfad. Ab hier holprig. Kinderwagen und Rollstuhl bleiben stehen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 765793362,
+   "lat": 47.8966677,
+   "lon": 12.172921,
+   "km": 0.14,
+   "titel": "Inngletscher",
+   "thema": "Entstehung von See und Moor",
+   "kurztext": "Tafel 2. Der Inngletscher hat die Wanne gelegt, in der See und Moor sitzen. Ohne das Eis kein Hofstätter See und kein Burger Moos.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 765793358,
+   "lat": 47.8963786,
+   "lon": 12.1727777,
+   "km": 0.17,
+   "titel": "Moorsee",
+   "thema": "Hofstätter See",
+   "kurztext": "Tafel 3, am Ufer. Was einen Moorsee ausmacht. Im Sommer baden die Leute am Strandhaus, der Lehrpfad geht am Schilf weiter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 765793360,
+   "lat": 47.8960467,
+   "lon": 12.1723537,
+   "km": 0.23,
+   "titel": "Verlandung",
+   "thema": "Vom See zum Moor",
+   "kurztext": "Tafel 4. Der See wächst zu. Schilf und Torf schieben das offene Wasser zurück. Das Burger Moos ist der Teil, der das geschafft hat.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 765793353,
+   "lat": 47.8944115,
+   "lon": 12.1703177,
+   "km": 0.49,
+   "titel": "Schilf",
+   "thema": "Röhricht am Ufer",
+   "kurztext": "Tafel 5. Schilf am Hofstätter See. Der Halm steht im Wasser, der Lehrpfad bleibt daneben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 765793357,
+   "lat": 47.8942193,
+   "lon": 12.1697217,
+   "km": 0.53,
+   "titel": "Moortypen",
+   "thema": "Tafeln 6 und 7, Beobachtungskanzel",
+   "kurztext": "Zwei Tafeln an einem Punkt: Moortypen und Besonderheiten. Daneben die Kanzel. Von oben Moose, Seggen, Schilf und Latschen, die Moortypen nebeneinander. Nicht ins Polster.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 3500069286,
+   "lat": 47.8930178,
+   "lon": 12.1668146,
+   "km": 0.79,
+   "titel": "Moorleichen",
+   "thema": "Tafel 8, Erhalt im Moor",
+   "kurztext": "Tafel 8. Warum Körper im Moor Jahrhunderte bleiben. Säure, kein Sauerstoff. Hier liegt keine Leiche, die Tafel erklärt den Fund anderswo.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 1988292428,
+   "lat": 47.8909278,
+   "lon": 12.1615806,
+   "km": 1.57,
+   "titel": "Moose",
+   "thema": "Tafel 9, Torfmoose",
+   "kurztext": "Tafel 9, am Südende. Torfmoose, die Polster, aus denen der Boden wird. Nass, weich, nicht draufsteigen. Zurück geht es auf den Knüppeldamm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 1988292426,
+   "lat": 47.8907444,
+   "lon": 12.1614172,
+   "km": 1.59,
+   "titel": "Hochmoor",
+   "thema": "Tafel 10",
+   "kurztext": "Tafel 10. Der Teil, der vom Regen lebt, nicht mehr vom Grundwasser. Das Burger Moos hat Hochmoor, Zwischenmoor und Bruch nebeneinander.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 765793344,
+   "lat": 47.8935927,
+   "lon": 12.1617649,
+   "km": 2.12,
+   "titel": "Bruchwald",
+   "thema": "Tafel 11, Anfang Knüppeldamm",
+   "kurztext": "Tafel 11, auf dem Holzsteg. Hier fängt der Knüppeldamm an, Bretter über dem Bruch. Nasser Wald, der Weg bleibt auf dem Holz.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 765793345,
+   "lat": 47.8938046,
+   "lon": 12.161251,
+   "km": 2.17,
+   "titel": "Quellaufstöße",
+   "thema": "Tafel 12, auf dem Knüppeldamm",
+   "kurztext": "Tafel 12, mitten auf dem Damm. Wasser drückt von unten durch den Torf. Deshalb ist das Burger Moos kein abgelassenes Hochmoor, sondern Durchströmung.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 765793346,
+   "lat": 47.8941887,
+   "lon": 12.1601016,
+   "km": 2.26,
+   "titel": "Tierwelt",
+   "thema": "Tafel 13, auf dem Knüppeldamm",
+   "kurztext": "Tafel 13, noch auf dem Holz. Was im Moor lebt. Im Sommer die Große Moosjungfer am Hofstätter See, Larven im Röhricht, die Alten auf Ansitz.",
+   "erlebnisse": [
+    "tafel",
+    "steg"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": 5225531489,
+   "lat": 47.8964396,
+   "lon": 12.1613529,
+   "km": 2.77,
+   "titel": "Naturschutz",
+   "thema": "Tafel 14, FFH und Landschaftsschutz",
+   "kurztext": "Tafel 14. FFH-Gebiet Moore und Seen nordöstlich von Rosenheim, dazu Landschaftsschutz. Wege nicht verlassen. Die Pflanzen stehen neben dem Damm, nicht darauf.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5849738144,
+   "lat": 47.8974584,
+   "lon": 12.1731465,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 2574806306,
+   "lat": 47.8938838,
+   "lon": 12.1609238,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 986455872,
+   "lat": 47.89712,
+   "lon": 12.174143,
+   "kategorie": "parking",
+   "name": "Forst am See"
+  },
+  {
+   "osmId": 343089464,
+   "lat": 47.897667,
+   "lon": 12.173097,
+   "kategorie": "gastro",
+   "name": "Strandhaus Hofstätter See"
+  },
+  {
+   "osmId": 343089460,
+   "lat": 47.894223,
+   "lon": 12.169618,
+   "kategorie": "viewpoint",
+   "name": "Aussichtsturm am Moor"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Führungen nur im Sommerhalbjahr.",
+ "besuchshinweise": "Holprig, kein Kinderwagen, kein Rollstuhl. Festes Schuhwerk. Wege nicht verlassen.",
+ "hoertext": "Am Parkplatz Forst am See hält sich der Weg an den Hofstätter See. Vierzehn Tafeln begleiten ihn, vom Gletscher über das Schilf bis zum Hochmoor. Der Boden holpert. Ein Kinderwagen bleibt hier stehen. An der Kanzel zeigen sich Moose, Seggen, Schilf und Latschen auf einmal. Südlich dreht ein Stich um, und auf dem Rückweg trägt ein alter Knüppeldamm quer durchs Burger Moos, Bretter über dem nassen Grund. Wer den See ganz umrundet, kehrt am Strandhaus ein. Im Sommer trägt der Hofstätter See Badewasser, direkt neben dem Strandhaus.",
+ "bilderAsset": "assets/images/trails/moorlehrpfad-burgermoos/credits.json"
+}

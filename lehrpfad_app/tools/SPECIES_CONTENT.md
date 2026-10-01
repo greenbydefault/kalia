@@ -4,7 +4,7 @@ Verbindliche Spec für `assets/seed/species.json` → Feld `content` (`kategorie
 Für `kategorie: geraete` siehe [`GERAETE_CONTENT.md`](GERAETE_CONTENT.md) (gleiche Limits, andere Semantik).
 Erzwungen durch `tools/validate_seeds.py`.
 
-**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) plus [`unslop`](../../.cursor/skills/unslop/SKILL.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md). Limits und Felder bleiben hier.
+**Stimme:** [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) plus [`unslop`](../../.cursor/skills/unslop/SKILL.md). **Form `hoertext`:** [`ART_HOERTEXT.md`](ART_HOERTEXT.md). Belege: [`docs/audio/quellen.md`](../docs/audio/quellen.md), [`docs/audio/quellen-art.md`](../docs/audio/quellen-art.md). Limits und Felder bleiben hier.
 
 ## Haltung
 
@@ -12,7 +12,7 @@ Erzwungen durch `tools/validate_seeds.py`.
 2. Provokation (Neugier) vor Belehrung.
 3. Besucher:in als Entdecker:in.
 4. Kein Zeigefinger; Schutzhinweise max. ein kurzer Satz.
-5. Ort zuerst: Brandenburg / Trail — was man sehen oder tun kann.
+5. Lebensraum zuerst — was man dort sehen oder tun kann. Kein Trailname, keine Region: eine Art hängt an vielen Trails.
 6. Plain Language, aktiv, konkrete Verben.
 
 ## Felder (`content`)
@@ -21,7 +21,7 @@ Erzwungen durch `tools/validate_seeds.py`.
 |---|---|---|---|
 | `hook` | ja | 1 Satz, 12–22 Wörter | Stärkster Satz zuerst |
 | `erkennung` | ja | 2–4 Bullets, je ≤ 12 Wörter | Beobachtungsfirst |
-| `lebensraum` | ja | ≤ 40 Wörter | Hier unterwegs |
+| `lebensraum` | ja | ≤ 40 Wörter | Lebensraum-Typ, kein Trailname |
 | `funFacts` | ja | 2–3 Bullets | Staunen, merkbar |
 | `hinweis` | nein | ≤ 15 Wörter oder `""` | Nur wenn relevant |
 | `hoertext` | ja | 90–120 Wörter | Einsprech-Skript (Play), nicht UI |
@@ -32,8 +32,9 @@ Erzwungen durch `tools/validate_seeds.py`.
 
 - **Scan-Felder** (`hook` … `funFacts`): Auge, stehend, Outdoor. In der App.
 - **`hoertext`**: Studio-Vorlage. Nutzer drückt Play. Nicht Konkatenation der Scan-Felder, nicht Lesetext.
-  Shape (eine Geschichte, Scaffold vs. Stück) und QA: [`docs/audio/GRUND.md`](../docs/audio/GRUND.md).
-  ~45–60 s. Probehören muss flüssig klingen.
+  Form (ohne Anrede, Lebensraum statt Ort), Gold und QA: [`ART_HOERTEXT.md`](ART_HOERTEXT.md), Dramaturgie [`docs/audio/GRUND.md`](../docs/audio/GRUND.md).
+  ~45–60 s. Geprüft mit `klang.py --art <id>`.
+- Scan-Felder dürfen ansprechen und Beobachtungsaufträge geben („Such …“). Der `hoertext` nicht.
 
 ## Profil (flora/fauna)
 
@@ -55,4 +56,4 @@ Erzwungen durch `tools/validate_seeds.py`.
 - [ ] So-what: warum *hier* interessant?
 - [ ] Kein Predigen / keine Floskeln
 - [ ] Hook+Erkennung+Lebensraum laut < 45 s
-- [ ] `hoertext` klingt wie eine Geschichte, Probehören ([`docs/audio/GRUND.md`](../docs/audio/GRUND.md))
+- [ ] `hoertext` klingt wie eine Geschichte, Probehören, QA in [`ART_HOERTEXT.md`](ART_HOERTEXT.md) geht auf

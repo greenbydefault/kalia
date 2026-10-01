@@ -1,10 +1,12 @@
 # Audio
 
-Index. Belege: [`quellen.md`](quellen.md). Feldlimits: [`../../tools/SPECIES_CONTENT.md`](../../tools/SPECIES_CONTENT.md), [`../../tools/TRAIL_HOERTEXT.md`](../../tools/TRAIL_HOERTEXT.md), [`../../tools/GERAETE_CONTENT.md`](../../tools/GERAETE_CONTENT.md). Instagram bleibt [`../oeffentlich/GRUND.md`](../oeffentlich/GRUND.md). Tracking: [Kalia · Audio](https://trello.com/b/7dzAKbdB/kalia-audio).
+Index. Belege: [`quellen.md`](quellen.md), Ort-Form [`quellen-ort.md`](quellen-ort.md), Art-Form [`quellen-art.md`](quellen-art.md). Form und Feldlimits: [`../../tools/ART_HOERTEXT.md`](../../tools/ART_HOERTEXT.md), [`../../tools/SPECIES_CONTENT.md`](../../tools/SPECIES_CONTENT.md), [`../../tools/TRAIL_HOERTEXT.md`](../../tools/TRAIL_HOERTEXT.md), [`../../tools/GERAETE_CONTENT.md`](../../tools/GERAETE_CONTENT.md). Instagram bleibt [`../oeffentlich/GRUND.md`](../oeffentlich/GRUND.md). Tracking: [Kalia · Audio](https://trello.com/b/7dzAKbdB/kalia-audio).
 
 | Datei | Wann |
 |---|---|
-| [`quellen.md`](quellen.md) | Recherche, übernehmen/verwerfen |
+| [`quellen.md`](quellen.md) | Recherche Art und Gerät, übernehmen/verwerfen |
+| [`quellen-ort.md`](quellen-ort.md) | Recherche Trail-Overview, Form |
+| [`quellen-art.md`](quellen-art.md) | Recherche Flora/Fauna-Hörtext, Form |
 | diese Datei + [`unslop`](../../../.cursor/skills/unslop/SKILL.md) | jede Hörtext-Generierung und jedes Einsprechen |
 
 Arbeit: [Kalia · Audio] audio-grund — [Trello](https://trello.com/c/740XFtdA).
@@ -26,7 +28,7 @@ Neu entscheiden → **Log**. Spec-Limits nur ändern, wenn das Log es sagt.
 | Felder | `hook`, `erkennung`, `lebensraum`, `funFacts`, `hinweis` | `hoertext` |
 | In der App | Steckbrief, lesbar | nur Play (`audioPath`) |
 | Job | stehend, Auge | eingesprochenes Stück |
-| Länge | Hook 12–22 Wörter; Rest laut < 45 s | Species/Geräte 90–120 Wörter (~45–60 s). Trail 40–70 (~20–35 s) |
+| Länge | Hook 12–22 Wörter; Rest laut < 45 s | Species/Geräte 90–120 Wörter (~45–60 s). Trail 70–110 (~35–50 s) |
 | Test | So-what, Hierarchie | Probehören: gesprochenes Deutsch, eine Geschichte |
 
 `hoertext` ist kein Zusammenkleben der Scan-Felder. Der Scan-Hook darf den Hörtext nicht wortgleich eröffnen.
@@ -42,6 +44,8 @@ Scan trägt die Idee im Hook. Hörtext erzählt sie. Fun Facts bleiben Bullets f
 ---
 
 ## Dramaturgie (alle Arten gleich)
+
+Die fünf Schläge und das Register darunter gelten für Art und Gerät. Flora und Fauna: Ton (ohne Anrede), Schlag 3 (Lebensraum statt Ort) und Gold in [`ART_HOERTEXT.md`](../../tools/ART_HOERTEXT.md), die Datei geht vor. Trail-Overview hat eigene Form und eigenes Register in [`TRAIL_HOERTEXT.md`](../../tools/TRAIL_HOERTEXT.md).
 
 Damit nicht 71 verschiedene Ansätze entstehen. Check beim Schreiben, keine hörbaren Kapitel:
 
@@ -68,7 +72,7 @@ Cue-out ist lokal. Einer, nicht Weg plus Krone plus Abstand plus Höhle. Verbote
 
 ## Schreiben fürs Ohr
 
-Klingt wie ein Interpreter neben der Familie. Kundig, ruhig, eine kleine Geschichte. Laut lesen. Stolpert der Mund, ist es Print. Stichpunkte sind falsch. Kumpel auf der Straße auch: nicht „die drei Töne sind weg“, nicht „halt lieber Abstand“, nicht „und das hier ist eine davon“. Den Ort in den Satz legen, nicht mit dem Finger draufzeigen.
+Klingt wie ein Interpreter neben der Familie. Kundig, ruhig, eine kleine Geschichte. Bei Flora und Fauna spricht er ohne Anrede, die Art ist Subjekt ([`ART_HOERTEXT.md`](../../tools/ART_HOERTEXT.md)). Laut lesen. Stolpert der Mund, ist es Print. Stichpunkte sind falsch. Kumpel auf der Straße auch: nicht „die drei Töne sind weg“, nicht „halt lieber Abstand“, nicht „und das hier ist eine davon“. Den Ort in den Satz legen, nicht mit dem Finger draufzeigen.
 
 Unslop vor dem Speichern. Skill [`unslop`](../../../.cursor/skills/unslop/SKILL.md). Writer-Deutsch raus, Echo-Sätze raus, lila Natur raus. Dreiergruppen nur, wenn die Sache drei ist. Verboten, weil Label: „Genau dafür liegt diese Heide offen.“
 
@@ -80,7 +84,7 @@ Kern am Satzende heißt: die Sache merken, nicht jeden Satz umdrehen. „Klappt 
 
 Pause ist Blickzeit, kein Ein-Wort-Satz. Telegramm nur, wenn jemand so redet. Auch tot: „Tief.“, „Dann Abstand.“, „Das hier ist eine.“, „und das hier ist eine davon.“ Wiedehopf-Beleg: kein Satz pro Schlag, kein Käfer nochmal als Fragment.
 
-Einmal hören muss reichen. SVO. Präsens, aktiv, konkrete Verben. Zahlen runden oder vergleichen. Keine runden Klammern, keine Anführungszeichen als Bedeutungsträger. Vermutung als Vermutung. Jede Art steht allein. Kein „wie eben beim Specht“.
+Einmal hören muss reichen. SVO. Präsens, aktiv, konkrete Verben. Zahlen runden oder vergleichen. Keine runden Klammern, keine Anführungszeichen als Bedeutungsträger. Vermutung als Vermutung. Jede Art steht allein. Kein „wie eben beim Specht“. Jede Art gilt an jedem Trail, an dem sie hängt: Lebensraum ja, Trailname, Gemeinde, Region nein.
 
 Register Flora: Blatt, Blüte, Frucht, was die Pflanze anbietet. Fauna: oft Laut oder Spur zuerst. Scheue Arten über Spuren. Geräte: tun, dann beschreiben.
 
@@ -144,3 +148,8 @@ Lesetext in der App. Podcast über Minuten. Naturlexikon. Instagram. Junior-Rang
 | 2026-09-22 | Fünf Schläge sind Zettel, nicht fünf Sätze. Ein Cue-out. Kürzen trifft Fett, nicht *wenn*/*deshalb*. Kern am Satzende ist kein Umdrehen. |
 | 2026-09-22 | Register: Interpreter neben der Familie. Nicht Kumpel, nicht „sind weg“, nicht „halt lieber“. |
 | 2026-09-22 | Warum-hier in den Satz. Verboten: „und das hier ist eine davon.“ |
+| 2026-10-01 | Trail-Overview hat eine eigene Form (`TRAIL_HOERTEXT.md`, Belege `quellen-ort.md`). Fünf Schläge bleiben Art und Gerät. |
+| 2026-10-01 | Trail-Overview: 40–70 → 70–110 Wörter (~35–50 s, Radio: 30 s ≈ 75 Wörter). Register: Empfehlung in Ihr-Form, erzählt, nicht Interpreter. Entwurf als Sprachnachricht, kein Pflicht-Kürzen. Usedom-Wurf war der Beleg. |
+| 2026-10-01 | Trail-Register: Erzähler ohne Anrede (Feature, Doku-Off, Vorleser), Ihr-Form und Sprachnachricht verworfen. Rhythmus, Verben, Satzanfänge Pflicht, geprüft mit `.cursor/skills/audio-trail/klang.py`. Gold- und Gegenbeispiel Usedom in der Spec. Länge bleibt 70–110. |
+| 2026-10-01 | Flora/Fauna-Hörtext: eigene Form in `tools/ART_HOERTEXT.md`, Belege `quellen-art.md`. Erzähler ohne Anrede, kein Befehl, Art ist Subjekt. Fünf Schläge bleiben, „Warum hier“ wird Lebensraum: kein Trailname, keine Region, weil eine Art an bis zu 41 Trails hängt. Länge bleibt 90–120. |
+| 2026-10-01 | Flora/Fauna: keine Verben fürs Wollen, Fühlen, Denken (Ganea, Conrad), Wirkung statt Zweck (Kelemen, Legare). Flora-Kernidee an einem Bruch (Tempo, Abwehr, Tier, Nutzen), Fauna Laut oder Spur, Abwesenheit als Verhalten. Gold Rotbuche und Biber, Gegenbeispiel Rotbuche im Seed. Geprüft mit `klang.py --art <id>`. Geräte unverändert. |

@@ -975,7 +975,7 @@
                 "Sein Gefieder sieht aus der Nähe noch greller aus als von weitem."
             ],
             "hinweis": "Brutufer nicht betreten, Abstand halten.",
-            "hoertext": "Am klaren Fließ lohnt ein ruhiger Blick. Manchmal sitzt dort ein kleiner Vogel mit riesigem Schnabel. Türkise und orange – das ist der Eisvogel. Er wartet. Dann stürzt er ins Wasser und kommt mit einem Fisch wieder hoch. Zum Brüten braucht er Steilwände am Ufer. Ohne Ruhe verschwindet er. Im Spreewald ist er ein besonderer Moment. Wenn du ihn siehst, bleib still. Oft kommt er zurück zum gleichen Ansitz. Und dann wirkt die Landschaft plötzlich wie ein Film – kurz, bunt und ganz nah. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr."
+            "hoertext": "Ein hoher, scharfer Pfiff knapp über dem Wasser, und ein blauer Strich ist vorbei, bevor sich der Kopf dreht. Der Eisvogel jagt von einem Ast über dem Ufer, stürzt sich kopfüber ins Wasser und packt kleine Fische, die er nur in klarem Wasser trifft. Trübt es ein, hungert er. Zum Brüten hackt er mit dem Schnabel eine Röhre in eine Uferkante aus Lehm oder Sand, so lang wie ein Arm, und scharrt die Erde mit den Füßen hinaus. Am Ende liegen die Eier auf einem Polster aus Fischgräten, die der Vogel als Gewölle hervorwürgt. Oft verrät nur ein faustgroßes Loch in einer steilen Uferwand, wo er brütet."
         },
         "gruppe": "voegel",
         "seltenheit": "selten",
@@ -2341,7 +2341,7 @@
                 "Reisighaufen sind für ihn wie ein Hotel."
             ],
             "hinweis": "Nicht anfassen, nicht füttern mit Milch.",
-            "hoertext": "Unter dem Reisighaufen kann tagsüber ein Gast schlafen: der Igel. Nachts wird er aktiv und sucht Käfer, Würmer und Schnecken. Siehst du ihn selten, ist das normal. Er meidet den Trubel. An Waldlehrpfaden findest du eher Spuren und Verstecke. Laub, Totholz und dichte Ecken sind sein Lebensraum. Bitte nicht anfassen und keine Milch hinstellen – das schadet ihm. Ein ungestörter Haufen Reisig hilft mehr als jedes Foto. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild. Schau genau hin – kleine Hinweise liegen oft direkt am Weg."
+            "hoertext": "Nachts schnauft und schmatzt es im Laub am Waldrand, so laut, dass es nach einem viel größeren Tier klingt. Ein Igel stochert dort nach Käfern, Regenwürmern und Schnecken und läuft in einer Nacht oft zwei, drei Kilometer, von Hecke zu Hecke. Tagsüber schläft er unter Reisig. Im Herbst schiebt er Laub zu einem Nest zusammen, kugelt sich hinein und senkt seine Körpertemperatur bis knapp über den Frost. Sein Herz, das im Sommer rast, schlägt dann nur noch wenige Male in der Minute. Monatelang frisst er nichts und zehrt vom eigenen Fett. Unter einem Laubhaufen, den im Herbst niemand wegräumt, schläft deshalb oft einer."
         },
         "gruppe": "saeugetiere",
         "seltenheit": "mittel",
@@ -2488,7 +2488,7 @@
                 "Ihre Zapfen öffnen sich bei Trockenheit und schließen sich bei Nässe."
             ],
             "hinweis": "",
-            "hoertext": "Schau den Stamm nach oben. Wird er orange und schuppig? Dann steht vor dir wahrscheinlich eine Waldkiefer. Ihre Nadeln wachsen zu zweit in einem Bündel. Zähl nach. Auf Brandenburgs Sandböden ist sie die Klassikerin. Sie braucht wenig und hält viel aus – Hitze, Trockenheit, magere Erde. Viele Lehrpfade führen durch solche Wälder. Und immer öfter siehst du dazwischen junge Laubbäume. Der Wald verändert sich – langsam, aber spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+            "hoertext": "An warmen Tagen riecht der Wald auf Sand würzig, und der Geruch stammt aus Wunden. Wo ein Ast abbricht oder ein Käfer sich durch die Rinde bohrt, quillt aus feinen Kanälen im Holz klebriges Baumharz, umschließt den Eindringling und härtet an der Luft zu einer Kruste, die den Stamm verschließt wie ein Pflaster. Die Sonne lässt einen Teil davon verdunsten. Auf trockenem Sand leiden Bäume oft unter Durst, und geschwächte Stämme ziehen Borkenkäfer an, deshalb trägt die Kiefer ihre Abwehr im Holz. Noch vor wenigen Jahrzehnten ritzten Arbeiter die Stämme in Rillen und fingen den Fluss in Töpfen auf, für Terpentin und Kolophonium. Wer einen frischen Tropfen berührt, riecht ihn abends noch an den Fingern."
         },
         "gruppe": "baeume",
         "seltenheit": "haeufig",
@@ -2871,7 +2871,7 @@
                 "Ihr Ruf trägt kilometerweit über offenes Land."
             ],
             "hinweis": "Zur Brutzeit großen Abstand halten.",
-            "hoertext": "Manchmal hörst du sie, bevor du sie siehst: ein trompetender Ruf über dem Moor. Kraniche. Groß, grau, mit langem Hals. Im Herbst ziehen sie in Formationen und prägen den Himmel. Zur Brutzeit brauchen sie Ruhe in Mooren und Feuchtwäldern. In Brandenburg sind sie zurückgekommen – ein Erfolg, den man hören kann. Wenn du einem Paar begegnest, bleib weit weg. Der schönste Moment ist oft der Ruf selbst. Er macht die Weite spürbar. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+            "hoertext": "Ein Trompeten fällt vom Himmel, lange bevor die Vögel zu sehen sind, und trägt kilometerweit über Moor und Feld. Den Klang formt eine Luftröhre, die länger ist als der Hals und sich in Schlingen durch das Brustbein windet, wie das Rohr einer Posaune. Paare rufen im Duett, eine tiefe und eine höhere Stimme eng ineinander. Zur Brut wird es still. Das Paar verschwindet in einem nassen Bruchwald oder Moor, wo Wasser rund um das Nest den Fuchs fernhält. Im Herbst sammeln sich Tausende an flachen Gewässern. Wer im Oktober in der Dämmerung über offenes Land schaut, hört die Rufe lange, bevor die Keile auftauchen."
         },
         "gruppe": "voegel",
         "seltenheit": "mittel",
@@ -3973,7 +3973,7 @@
                 "Im Winter erkennst du sie gut an den kleinen „Zapfen“."
             ],
             "hinweis": "",
-            "hoertext": "Am nassen Ufer stehen Bäume, die wirken, als laufen sie auf Stelzen. Das ist oft die Schwarzerle. Sie kann im dauernd nassen Boden leben, weil sie sich Stickstoff mit Hilfe von Bakterien holt. Im Spreewald und in Mooren prägt sie ganze Erlenbrüche. Schau im Winter auf die kleinen zapfenartigen Früchte – dann erkennst du sie sicher. Wo Erlen stehen, beginnt oft die Geschichte vom Wasser. Ein Baum, der nasse Füße nicht fürchtet. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+            "hoertext": "Im Herbst fallen am Ufer grüne Blätter, während ringsum alles gelb wird. Andere Bäume ziehen vor dem Winter den Stickstoff aus dem Laub zurück und werfen nur die leere Hülle ab, die Schwarzerle lässt ihn drin, denn an ihren Wurzeln sitzen Knöllchen, manche so groß wie eine Faust, voller Bakterien, die Stickstoff aus der Luft binden. Sparen muss sie nicht. Das grüne Laub düngt den nassen Boden, in dem andere Wurzeln ersticken, weil im stehenden Wasser kaum Sauerstoff steckt. Durch feine Poren am Stammfuß zieht die Erle Luft bis in die Wurzeln. Wer im November unter Erlen steht, steht auf grünem Laub."
         },
         "gruppe": "baeume",
         "seltenheit": "mittel",
@@ -4370,7 +4370,7 @@
                 "Manche Exemplare werden mehrere hundert Jahre alt."
             ],
             "hinweis": "",
-            "hoertext": "Vor einer großen Eiche lohnt ein zweiter Blick. Die Stieleiche trägt ihre Eicheln an langen Stielen. Merk dir das. Ihre Blätter sind gebuchtet und sitzen eher kurz gestielt. Aber das Spannendste ist nicht die Form – sondern das Leben daran. In der Rinde, in Höhlen, auf Ästen: Insekten, Pilze, Vögel. Eine alte Eiche ist eine Wohnanlage. Wenn du unter ihr stehst, stehst du in einer ganzen Geschichte aus Holz und Zeit. Bleib einen Moment stehen und nimm den Ort mit allen Sinnen wahr. Was du hier entdeckst, erzählt oft mehr als jedes Schild."
+            "hoertext": "Im Herbst liegen Eicheln unter der Krone, und jeden Tag werden es weniger. Ein Eichelhäher schluckt mehrere in den Kehlsack, klemmt eine in den Schnabel und trägt sie oft Hunderte Meter weit, bis er sie einzeln in den Boden steckt, unter Moos, an einen Waldrand, auf eine Lichtung. So versteckt ein einziger Vogel in einem Herbst mehrere tausend Eicheln. Viele holt er im Winter wieder. Aus den vergessenen keimen junge Eichen, weit weg vom Mutterbaum, wohin die schweren Früchte nie gerollt wären. Manchen Eichenwald hat ein Vogel gepflanzt. Wer im Frühjahr einen Eichenkeimling mitten auf einer Wiese findet, sieht einen Vorrat, den keiner abgeholt hat."
         },
         "gruppe": "baeume",
         "seltenheit": "haeufig",

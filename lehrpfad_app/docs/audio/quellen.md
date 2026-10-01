@@ -126,7 +126,7 @@ Wayfindr: Kopfhörer, die Umgebung zudecken, sind unterwegs schlecht. Stück mus
 | Stück | Spec | Tempo | Dauer |
 |---|---|---|---|
 | Species / Geräte `hoertext` | 90–120 Wörter | ~130–160 Wörter/min | ~45–60 s |
-| Trail-Overview | 40–70 Wörter | dasselbe | ~20–35 s |
+| Trail-Overview | 70–110 Wörter, siehe [`quellen-ort.md`](quellen-ort.md) | dasselbe | ~35–50 s |
 
 Kind plus Gehen, Fatigue. Nicht Galerie, nicht Nachricht. Validator unangetastet.
 
