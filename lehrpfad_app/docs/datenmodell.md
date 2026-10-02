@@ -12,8 +12,8 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `name` | string | ja | |
 | `typ` | string | ja | Key aus `typKatalog` |
 | `form` | `linie` \| `flaeche` | nein | Default: `linie`; Typen `wasserspielplatz`/`waldspielplatz`/`waldspazierplatz`/`kinderbauernhof` → `flaeche` |
-| `kurzbeschreibung` | string | ja | Card / Teaser |
-| `beschreibung` | string | ja | Detail |
+| `kurzbeschreibung` | string | ja | Card / Teaser. ≤ 180 Zeichen, keine Anrede ([`TRAIL_SCAN.md`](../tools/TRAIL_SCAN.md)) |
+| `beschreibung` | string | ja | Detail. 400–650 Zeichen, Satz 1 trägt allein ([`TRAIL_SCAN.md`](../tools/TRAIL_SCAN.md)) |
 | `laengeKm` | number | ja | Weglänge; bei `flaeche` = **0** |
 | `dauerMin` | int | ja | Gehzeit bzw. Aufenthaltsdauer |
 | `rundkurs` | bool | ja | bei `flaeche` immer **false** |
@@ -24,7 +24,7 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `eintritt` | bool | nein | Default `false`; `true` → Header-Chip „Eintritt“ |
 | `eintrittPreise` | string? | nein | z. B. `1,50 € ab 2 Jahren` / `frei, Spende willkommen` |
 | `oeffnungszeiten` | string? | nein | Freitext Sommer/Winter |
-| `besuchshinweise` | string? | nein | Fütterung, Streichelzeiten, Ruhetag |
+| `besuchshinweise` | string? | nein | Fütterung, Streichelzeiten, Ruhetag. ≤ 280 Zeichen, nur was kein Tag zeigt ([`TRAIL_SCAN.md`](../tools/TRAIL_SCAN.md)) |
 | `anreise` | string | ja | |
 | `startName` | string | ja | |
 | `arten` | string[] | ja | Namen/Aliases → Species (inkl. `geraete`) |

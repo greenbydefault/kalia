@@ -3,8 +3,9 @@
 Verbindliche Spec für Trail-`hoertext` — Studio-Vorlage für Play am Trail-Sheet, nicht Lesetext.
 Feld und Player sind **nicht v1** ([`docs/golive/GRUND.md`](../docs/golive/GRUND.md) → TTS); Texte werden trotzdem jetzt produziert, wie bei Species-`hoertext`.
 Schwester-Specs: [`ART_HOERTEXT.md`](ART_HOERTEXT.md) und [`SPECIES_CONTENT.md`](SPECIES_CONTENT.md) (Flora/Fauna), [`GERAETE_CONTENT.md`](GERAETE_CONTENT.md) (Geräte).
-**Form, Ton, Länge:** diese Datei. Belege: [`docs/audio/quellen-ort.md`](../docs/audio/quellen-ort.md).
-**Aus [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) gilt hier:** laut lesen, Zahlen runden, keine Klammern, Unslop. Die fünf Art-Schläge und das Art-Register gelten hier nicht.
+Lesetext am Sheet (`kurzbeschreibung`, `beschreibung`, `besuchshinweise`): [`TRAIL_SCAN.md`](TRAIL_SCAN.md). Gemeinsame Stimme für beide: [`docs/stimme.md`](../docs/stimme.md).
+**Form, Ton, Länge:** diese Datei. Belege: [`docs/archiv/quellen-ort.md`](../docs/archiv/quellen-ort.md).
+**Aus [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) gilt hier:** laut lesen, Zahlen runden, keine Klammern. Slop-Muster und Wortliste: [`docs/stimme.md`](../docs/stimme.md). Die fünf Art-Schläge und das Art-Register gelten hier nicht.
 
 ## Zweck
 

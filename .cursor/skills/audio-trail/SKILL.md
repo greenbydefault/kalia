@@ -10,7 +10,7 @@ description: >-
 
 cwd: `lehrpfad_app/`. `tools/` ist gitignored — Glob leer. `Read` auf den Pfad.
 
-Form, Ton, Klang, Länge: `tools/TRAIL_HOERTEXT.md`, 70–110 Wörter. Aus `docs/audio/GRUND.md` nur laut lesen, Zahlen, Klammern, Unslop. Die fünf Art-Schläge und das Art-Register gelten hier nicht. `validate_seeds.py` prüft diese Wortzahl nicht, `klang.py` schon.
+Form, Ton, Klang, Länge: `tools/TRAIL_HOERTEXT.md`, 70–110 Wörter. Stimme und Wortliste: `docs/stimme.md`. Aus `docs/audio/GRUND.md` nur laut lesen, Zahlen, Klammern. Die fünf Art-Schläge und das Art-Register gelten hier nicht. `validate_seeds.py` prüft diese Wortzahl nicht, `klang.py` schon.
 
 ## 1. Ziel
 
@@ -54,7 +54,7 @@ Done: Exit 0, schwache Verben begründet oder ersetzt.
 
 ## 6. Aufräumen
 
-`Read ../.cursor/skills/unslop/SKILL.md` und anwenden. Laut lesen, Stolperer raus. Neben das Gold-Beispiel legen: Hält es im Ton mit? Danach `klang.py` nochmal.
+Slop-Muster und Wortliste aus `docs/stimme.md` gegenprüfen. Laut lesen, Stolperer raus. Neben das Gold-Beispiel legen: Hält es im Ton mit? Danach `klang.py` nochmal.
 
 Done: QA in `TRAIL_HOERTEXT.md` geht ganz auf, `klang.py` grün.
 

@@ -1,13 +1,14 @@
 # Audio
 
-Index. Belege: [`quellen.md`](quellen.md), Ort-Form [`quellen-ort.md`](quellen-ort.md), Art-Form [`quellen-art.md`](quellen-art.md). Form und Feldlimits: [`../../tools/ART_HOERTEXT.md`](../../tools/ART_HOERTEXT.md), [`../../tools/SPECIES_CONTENT.md`](../../tools/SPECIES_CONTENT.md), [`../../tools/TRAIL_HOERTEXT.md`](../../tools/TRAIL_HOERTEXT.md), [`../../tools/GERAETE_CONTENT.md`](../../tools/GERAETE_CONTENT.md). Instagram bleibt [`../oeffentlich/GRUND.md`](../oeffentlich/GRUND.md). Tracking: [Kalia · Audio](https://trello.com/b/7dzAKbdB/kalia-audio).
+Index für Ohr-Form (Hörtext). Stimme und Wortliste für Lese- und Hörtext: [`../stimme.md`](../stimme.md). Trail-Lesetext: [`../../tools/TRAIL_SCAN.md`](../../tools/TRAIL_SCAN.md). Belege (Recherche, nicht zum Schreiben): [`../archiv/`](../archiv/). Tracking: [Kalia · Audio](https://trello.com/b/7dzAKbdB/kalia-audio).
 
-| Datei | Wann |
+| Spec | Gilt für |
 |---|---|
-| [`quellen.md`](quellen.md) | Recherche Art und Gerät, übernehmen/verwerfen |
-| [`quellen-ort.md`](quellen-ort.md) | Recherche Trail-Overview, Form |
-| [`quellen-art.md`](quellen-art.md) | Recherche Flora/Fauna-Hörtext, Form |
-| diese Datei + [`unslop`](../../../.cursor/skills/unslop/SKILL.md) | jede Hörtext-Generierung und jedes Einsprechen |
+| [`TRAIL_HOERTEXT.md`](../../tools/TRAIL_HOERTEXT.md) | Trail-Overview (70–110 Wörter) |
+| [`ART_HOERTEXT.md`](../../tools/ART_HOERTEXT.md), [`SPECIES_CONTENT.md`](../../tools/SPECIES_CONTENT.md) | Flora, Fauna |
+| [`GERAETE_CONTENT.md`](../../tools/GERAETE_CONTENT.md) | Geräte |
+
+Art und Gerät: zusätzlich Skill [`unslop`](../../../.cursor/skills/unslop/SKILL.md) vor jedem Speichern und Einsprechen.
 
 Arbeit: [Kalia · Audio] audio-grund — [Trello](https://trello.com/c/740XFtdA).
 
@@ -32,6 +33,8 @@ Neu entscheiden → **Log**. Spec-Limits nur ändern, wenn das Log es sagt.
 | Test | So-what, Hierarchie | Probehören: gesprochenes Deutsch, eine Geschichte |
 
 `hoertext` ist kein Zusammenkleben der Scan-Felder. Der Scan-Hook darf den Hörtext nicht wortgleich eröffnen.
+
+Die Tabelle gilt nur für Art und Gerät. Die Trail-Texte am Sheet haben ihre eigene Spec ([`TRAIL_SCAN.md`](../../tools/TRAIL_SCAN.md)). Beide Register teilen eine Stimme ([`../stimme.md`](../stimme.md)): Der Ton verschiebt sich nach Kanal, die Persönlichkeit nicht.
 
 ---
 
@@ -152,4 +155,5 @@ Lesetext in der App. Podcast über Minuten. Naturlexikon. Instagram. Junior-Rang
 | 2026-10-01 | Trail-Overview: 40–70 → 70–110 Wörter (~35–50 s, Radio: 30 s ≈ 75 Wörter). Register: Empfehlung in Ihr-Form, erzählt, nicht Interpreter. Entwurf als Sprachnachricht, kein Pflicht-Kürzen. Usedom-Wurf war der Beleg. |
 | 2026-10-01 | Trail-Register: Erzähler ohne Anrede (Feature, Doku-Off, Vorleser), Ihr-Form und Sprachnachricht verworfen. Rhythmus, Verben, Satzanfänge Pflicht, geprüft mit `.cursor/skills/audio-trail/klang.py`. Gold- und Gegenbeispiel Usedom in der Spec. Länge bleibt 70–110. |
 | 2026-10-01 | Flora/Fauna-Hörtext: eigene Form in `tools/ART_HOERTEXT.md`, Belege `quellen-art.md`. Erzähler ohne Anrede, kein Befehl, Art ist Subjekt. Fünf Schläge bleiben, „Warum hier“ wird Lebensraum: kein Trailname, keine Region, weil eine Art an bis zu 41 Trails hängt. Länge bleibt 90–120. |
+| 2026-10-02 | Gemeinsame Stimme für Lese- und Hörtext in `docs/stimme.md`. Trail-Lesetext (`TRAIL_SCAN.md`, Skill `scan-trail`): keine Anrede, wie der Hörtext. GRUND bleibt für Ohr-Form. Art-Scan zieht nach, nicht in diesem Schritt. |
 | 2026-10-01 | Flora/Fauna: keine Verben fürs Wollen, Fühlen, Denken (Ganea, Conrad), Wirkung statt Zweck (Kelemen, Legare). Flora-Kernidee an einem Bruch (Tempo, Abwehr, Tier, Nutzen), Fauna Laut oder Spur, Abwesenheit als Verhalten. Gold Rotbuche und Biber, Gegenbeispiel Rotbuche im Seed. Geprüft mit `klang.py --art <id>`. Geräte unverändert. |

@@ -1,6 +1,6 @@
 # Audio: Recherche
 
-Belege hinter [`GRUND.md`](GRUND.md). Claims nur, wenn der Eigentümer der Regel sie so sagt. Vendor-Blogs sind Hinweis, kein Beweis.
+Belege hinter [`audio/GRUND.md`](../audio/GRUND.md). Claims nur, wenn der Eigentümer der Regel sie so sagt. Vendor-Blogs sind Hinweis, kein Beweis.
 
 `hoertext` ist Einsprech-Skript. Nutzer drückt Play. Scan ist das, was man in der App liest.
 

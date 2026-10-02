@@ -11,7 +11,7 @@ description: >-
 
 cwd: `lehrpfad_app/`. `Read` auf die Pfade, Glob unter `tools/` findet nicht alles.
 
-Flora und Fauna: Form, Ton, Bau, Gold `tools/ART_HOERTEXT.md`. Felder und Limits `tools/SPECIES_CONTENT.md`. Aus `docs/audio/GRUND.md` Kernidee, fünf Schläge als Zettel, Kind, Unslop. Belege `docs/audio/quellen-art.md`, nur bei Zweifel an einer Regel.
+Flora und Fauna: Form, Ton, Bau, Gold `tools/ART_HOERTEXT.md`. Felder und Limits `tools/SPECIES_CONTENT.md`. Aus `docs/audio/GRUND.md` Kernidee, fünf Schläge als Zettel, Kind, Unslop. Belege `docs/archiv/quellen-art.md`, nur bei Zweifel an einer Regel.
 
 Geräte: eigener Zweig, siehe unten.
 

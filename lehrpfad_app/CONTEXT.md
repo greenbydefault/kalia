@@ -5,7 +5,7 @@ Digitale Begleit-App für Naturlehrpfade: Karte, Arten, Tour-Status und Communit
 Go-Live-Backlog: `docs/golive/GRUND.md`.
 Web-Preview (GitHub → Vercel Hobby): `docs/golive/vercel.md`.
 Öffentlich / Stimme / Kanäle: `docs/oeffentlich/GRUND.md`.
-Hörtexte: Einsprech-Skript, Play. Stimme `docs/audio/GRUND.md` plus Unslop (Belege `docs/audio/quellen.md`).
+Hörtexte: Einsprech-Skript, Play. Stimme `docs/stimme.md`, Ohr-Form `docs/audio/GRUND.md`. Trail-Lesetext am Sheet: `tools/TRAIL_SCAN.md`.
 Videos an Produkt koppeln: `docs/marketing/GRUND.md` (Board [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing)).
 
 ## Language
@@ -31,7 +31,7 @@ _Avoid_: Tag `eintritt` (Chip wäre doppelt); alte Ticket-NOGOs wieder öffnen; 
 _Avoid_: Standard-Spielgeräte (Schaukel/Rutsche) als `geraete`-Steckbriefe
 
 **Hörtext**:
-Einsprech-Skript in `content.hoertext` (Arten/Geräte) bzw. Trail-`hoertext`. Nutzer drückt Play. Stimme: `docs/audio/GRUND.md`. Limits in den Content-Specs.
+Einsprech-Skript in `content.hoertext` (Arten/Geräte) bzw. Trail-`hoertext`. Nutzer drückt Play. Stimme: `docs/stimme.md`, Ohr-Form `docs/audio/GRUND.md`. Limits in den Content-Specs.
 _Avoid_: Lesetext in der UI; Scan-Bullets einsprechen; Instagram-Caption; Podcast; Floskel-Schluss („nimm den Ort mit allen Sinnen wahr“)
 
 **Merkmal**:

@@ -2,7 +2,8 @@
 
 Verbindliche Spec für `hoertext` in `assets/seed/species.json` bei `kategorie: flora` und `fauna`. Studio-Vorlage für Play, kein Lesetext.
 Scan-Felder, Profil und Limits: [`SPECIES_CONTENT.md`](SPECIES_CONTENT.md). Geräte: [`GERAETE_CONTENT.md`](GERAETE_CONTENT.md). Trail-Overview: [`TRAIL_HOERTEXT.md`](TRAIL_HOERTEXT.md).
-**Form, Ton, Bau:** diese Datei. Belege: [`docs/audio/quellen-art.md`](../docs/audio/quellen-art.md).
+Gemeinsame Stimme für Lese- und Hörtext: [`docs/stimme.md`](../docs/stimme.md).
+**Form, Ton, Bau:** diese Datei. Belege: [`docs/archiv/quellen-art.md`](../docs/archiv/quellen-art.md).
 **Aus [`docs/audio/GRUND.md`](../docs/audio/GRUND.md) gilt hier:** These, Kernidee, die fünf Schläge als Zettel, Schreiben fürs Ohr, Kind, Unslop. Wo GRUND „Interpreter neben der Familie“ und „Warum hier“ sagt, gilt für Flora und Fauna diese Datei.
 
 ## Zweck

@@ -19,7 +19,7 @@ Neue Kreise/Länder → Karte/Liste auf Regionen, plus Ordner unter `research/L�
 Audio-Board:
 - 1 Trail-Karte = 1 HAVE-Seed, Checkliste „Produktion" (Hörtext · Sound). Neuer Trail = neue Karte.
 - Arten nicht als Einzelkarten: Flora/Fauna/Geräte sind Sammelkarten mit Checklisten Hörtext + Sound. Neue Art = Checklist-Item.
-- Stimme: `docs/audio/GRUND.md` (Belege `docs/audio/quellen.md`). `hoertext` = Einsprech-Skript, Play, nicht Lesetext in der App. Limits in den Specs (`tools/TRAIL_HOERTEXT.md`, `tools/SPECIES_CONTENT.md`, `tools/GERAETE_CONTENT.md`). Spec + GRUND sind Wahrheit, Karte nur Zeiger.
+- Stimme und Wortliste: `docs/stimme.md`. Ohr-Form: `docs/audio/GRUND.md`. `hoertext` = Einsprech-Skript, Play, nicht Lesetext in der App. Limits in den Specs (`tools/TRAIL_HOERTEXT.md`, `tools/SPECIES_CONTENT.md`, `tools/GERAETE_CONTENT.md`); Trail-Lesetext am Sheet `tools/TRAIL_SCAN.md`. Spec + stimme + GRUND sind Wahrheit, Karte nur Zeiger.
 - Abhaken erst nach Repo-Commit, nicht vorher. Zähler in Kartentiteln (z. B. `Fauna — 36 Arten · 36/36 Text · 1/36 Sound`) manuell pflegen, Zahlen aus dem Seed.
 
 Marketing-Board:

@@ -37,14 +37,16 @@ Done: Dateien unter `tools/osm/<id>_*.json`.
 
 ## 4. Config
 
-Shape kopieren, Inhalt neu:
+Struktur kopieren, Prosa nie:
 
 - Linie: `tools/trails/waldhusen.json`
 - Fläche: `tools/trails/kollhorst.json`
 
-Ziel: `tools/trails/<id>.json`.
+Von den Nachbarn nur Keys und Reihenfolge. Ihre Texte (`kurzbeschreibung`, `beschreibung`, `besuchshinweise`, `hoertext`) nicht lesen, nicht als Muster nehmen: Inventarstil, teils "du". Ziel: `tools/trails/<id>.json`, Textfelder leer starten.
 
-Done: Keys/Reihenfolge wie Nachbar, `id`/`stationen`/`route`-Anker gesetzt.
+`kurzbeschreibung`, `beschreibung`, `besuchshinweise`: **Skill `scan-trail` ausführen** (Rohstoff, Schreiben, `scan.py`). Einzige Textvorlage ist das Usedom-Gold in `tools/TRAIL_SCAN.md`. Stimme `docs/stimme.md`.
+
+Done: Keys/Reihenfolge wie Nachbar, `id`/`stationen`/`route`-Anker gesetzt, `scan.py <id>` grün.
 
 ## 5. Seed
 
@@ -56,13 +58,13 @@ Done: `assets/seed/<id>.json` existiert.
 
 ## 6. arten[]
 
-Namen gegen `assets/seed/species.json` auflösen (Aliases). Gerät: `GERAETE_CONTENT.md`.
+Nur Datenfeld. Namen gegen `assets/seed/species.json` auflösen (Aliases). Texte zu Arten und Geräten gehören nicht in diesen Lauf (Skill `audio-art`).
 
 HAVE-Lückenbestand (bestehende Trails): `lehrpfad_app/docs/arten-luecken.md`.
 
 ### Nachweis
 
-Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf dem Weg sehen, hören oder antreffen kann (`SPECIES_CONTENT.md`: Ort zuerst).
+Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf dem Weg sehen, hören oder antreffen kann (Ort zuerst).
 
 1. Trail-eigen: Stationstexte, Betreiber-Site/PDF, Research „Arten“, Tafeln
 2. Schutzgebiet, in dem der Pfad liegt: NP-/Naturpark-Liste, NSG-VO, Natura-2000-SDF, Landesforst — nur wenn der Text den Ort meint
@@ -76,15 +78,15 @@ Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf de
 | DK | GeoCenter / Naturstyrelsen-Gebiet; Arter.dk nur site-scharf |
 | ES/CAT | Parc / Diputació-Flyer dieser Route; nicht FloraCat-Dump |
 
-Neue Art nur wenn der Name im Katalog fehlt. In diesem Schritt reicht Name + Lat + Quelle in Research — `content`/`hoertext` erst mit `SPECIES_CONTENT.md`, nicht beim HAVE-Gate.
+Neue Art nur wenn der Name im Katalog fehlt. In diesem Schritt reicht Name + Lat + Quelle in Research — `content`/`hoertext` später mit `audio-art`, nicht beim HAVE-Gate.
 
 Done: jeder Eintrag löst auf, jeder Eintrag hat eine Ortsquelle (Leiter 1 oder 2).
 
 ## 7. hoertext
 
-`Read tools/TRAIL_HOERTEXT.md`. Dann `hoertext` in die Config, Seed neu bauen wenn nötig.
+**Skill `audio-trail` ausführen** (Spec `tools/TRAIL_HOERTEXT.md`, Prüfung `klang.py`). `hoertext` in die Config, Seed neu bauen. Der Lesetext aus Schritt 4 ist Rohstoff, nicht Vorlage: kein Satz wörtlich übernehmen (`scan.py` prüft Wortfolgen).
 
-Done: Feld gesetzt, Spec-Limit.
+Done: Feld gesetzt, `klang.py` und `scan.py <id>` grün.
 
 ## 8. Validate
 
@@ -125,7 +127,7 @@ Done: Trail-Row + Stationen + amenities + trail_species.
 
 - Regionen: Item **HAVE**
 - Audio: 1 Karte = 1 Seed, Checkliste Hörtext · Sound. Haken nach Commit.
-- Arbeit: `[Kalia · Trails] <id>`. Marketing-Datei nur bei erstem Pin im Bundesland oder wenn User es sagt.
+- Arbeit: `[Kalia · Trails] <id>` ist die HAVE-Karte, vorher suchen, keine zweite anlegen. Marketing-Datei nur bei erstem Pin im Bundesland oder wenn User es sagt.
 
 Done: Regionen + Audio stehen. Checks ungehabt bis Commit.
 
@@ -138,5 +140,5 @@ Push auf `github` laut `docs/golive/vercel.md`. Nicht dieser Skill’s Job, auß
 - Nearby 20 km (Camping 5 km) → `assets/seed/pois.json` + `python3 tools/seed_pois.py`
 - Go-Bar unklar → `docs/traumdatensatz.md`
 - Lizenzfeld nach Nachbar-credits unklar → `docs/datenmodell.md` TrailBild
-- Stimme nach TRAIL_HOERTEXT unklar → `docs/audio/GRUND.md`
+- Stimme, Wortliste (Lese- und Hörtext) → `docs/stimme.md`; Ohr-Form → `docs/audio/GRUND.md`
 - Arten-Vorkommen / Lücken → `docs/arten-luecken.md`
