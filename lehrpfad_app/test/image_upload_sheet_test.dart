@@ -42,9 +42,10 @@ class _HangingUploader implements ImageUploader {
     required String credit,
     required Uint8List bytes,
     required PhotoGeoCheck geoCheck,
-    void Function(UploadPhase phase)? onPhase,
+    void Function(UploadPhase phase, double fraction)? onProgress,
   }) {
     calls++;
+    onProgress?.call(UploadPhase.verarbeiten, 0.25);
     return done.future;
   }
 }
@@ -146,7 +147,14 @@ void main() {
 
     // Job laeuft, Sheet zeigt Phase statt Picker-Spinner
     expect(uploader.calls, 1);
-    expect(find.text('Foto wird verarbeitet …'), findsOneWidget);
+    expect(find.text('Foto wird verarbeitet … 25 %'), findsOneWidget);
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(
+      tester
+          .widget<LinearProgressIndicator>(find.byType(LinearProgressIndicator))
+          .value,
+      closeTo(0.25, 0.001),
+    );
     expect(
       tester.widget<FilledButton>(find.byType(FilledButton)).onPressed,
       isNotNull,
@@ -159,7 +167,7 @@ void main() {
     expect(find.byType(ImageUploadSheet), findsOneWidget);
     expect(find.textContaining('Danke'), findsOneWidget);
     expect(find.text('Oli'), findsOneWidget);
-    expect(find.text('Foto wird verarbeitet …'), findsNothing);
+    expect(find.textContaining('Foto wird'), findsNothing);
   });
 
   testWidgets('Schliessen waehrend des Uploads bricht den Job nicht ab', (
@@ -181,6 +189,8 @@ void main() {
     // Kein Fehler beim Abschluss ohne Sheet (Listener ist weg)
     uploader.done.complete();
     await tester.pumpAndSettle();
+    // Haltezeit bei 100 % laeuft ohne Frames weiter
+    await tester.pump(const Duration(milliseconds: 500));
     expect(tester.takeException(), isNull);
   });
 }

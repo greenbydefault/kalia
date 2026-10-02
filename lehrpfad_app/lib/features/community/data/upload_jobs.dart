@@ -14,14 +14,23 @@ class UploadJob {
     required this.id,
     required this.trailId,
     required this.phase,
+    this.progress = 0,
   });
 
   final int id;
   final String trailId;
   final UploadPhase phase;
 
-  UploadJob withPhase(UploadPhase next) =>
-      UploadJob(id: id, trailId: trailId, phase: next);
+  /// Gesamtfortschritt 0..1 (Verarbeiten, Encodieren, Upload, Eintrag).
+  final double progress;
+
+  /// Setzt Phase und Fortschritt; der Fortschritt laeuft nie rueckwaerts.
+  UploadJob withProgress(UploadPhase next, double fraction) => UploadJob(
+    id: id,
+    trailId: trailId,
+    phase: next,
+    progress: fraction.clamp(progress, 1.0).toDouble(),
+  );
 }
 
 /// Ausgang eines Uploads, einmal pro Foto.
@@ -45,6 +54,10 @@ final uploadJobsProvider = NotifierProvider<UploadJobs, List<UploadJob>>(
 class UploadJobs extends Notifier<List<UploadJob>> {
   final _results = StreamController<UploadResult>.broadcast();
   int _nextId = 0;
+
+  /// So lange bleibt ein erfolgreicher Job bei 100 % stehen, damit der
+  /// Balken sichtbar ankommt. In Tests auf [Duration.zero] setzen.
+  Duration doneHold = const Duration(milliseconds: 400);
 
   Stream<UploadResult> get results => _results.stream;
 
@@ -80,9 +93,11 @@ class UploadJobs extends Notifier<List<UploadJob>> {
         credit: credit,
         bytes: bytes,
         geoCheck: geoCheck,
-        onPhase: (phase) => _setPhase(id, phase),
+        onProgress: (phase, fraction) => _setProgress(id, phase, fraction),
       );
       result = const UploadResult.success();
+      _setProgress(id, UploadPhase.hochladen, 1);
+      if (doneHold > Duration.zero) await Future<void>.delayed(doneHold);
     } on ImageUploadException catch (e) {
       result = UploadResult.failure(e.message);
     } catch (e) {
@@ -98,10 +113,11 @@ class UploadJobs extends Notifier<List<UploadJob>> {
     _results.add(result);
   }
 
-  void _setPhase(int id, UploadPhase phase) {
+  void _setProgress(int id, UploadPhase phase, double fraction) {
     if (!ref.mounted) return;
     state = [
-      for (final job in state) job.id == id ? job.withPhase(phase) : job,
+      for (final job in state)
+        job.id == id ? job.withProgress(phase, fraction) : job,
     ];
   }
 }

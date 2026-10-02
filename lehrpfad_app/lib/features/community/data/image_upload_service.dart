@@ -31,9 +31,14 @@ abstract class ImageUploader {
     required String credit,
     required Uint8List bytes,
     required PhotoGeoCheck geoCheck,
-    void Function(UploadPhase phase)? onPhase,
+    void Function(UploadPhase phase, double fraction)? onProgress,
   });
 }
+
+/// Anteile am Gesamtfortschritt: Verarbeiten (Resize + AVIF) bis 40 %,
+/// Upload bis 90 %, Eintrag in `images` bis 100 %.
+const kProgressProcessed = 0.4;
+const kProgressUploaded = 0.9;
 
 /// Erzeugt drei AVIF-Varianten und laedt sie in den Bucket `trail-images`;
 /// der Eintrag in `images` startet mit Status pending (Moderation).
@@ -53,24 +58,31 @@ class ImageUploadService implements ImageUploader {
     required String credit,
     required Uint8List bytes,
     required PhotoGeoCheck geoCheck,
-    void Function(UploadPhase phase)? onPhase,
+    void Function(UploadPhase phase, double fraction)? onProgress,
   }) async {
     // Anonymer Test-Upload: ohne Session bleibt uploader_id null
     // (RLS: images insert anon pending).
     final uid = _client.auth.currentUser?.id;
 
-    onPhase?.call(UploadPhase.verarbeiten);
+    onProgress?.call(UploadPhase.verarbeiten, 0);
     final EncodedVariants resized;
     try {
-      resized = await ImageVariants.encode(bytes);
+      resized = await ImageVariants.encode(
+        bytes,
+        onStep: (f) =>
+            onProgress?.call(UploadPhase.verarbeiten, f * kProgressProcessed),
+      );
     } on ImageVariantsException catch (e) {
       throw ImageUploadException(e.message);
     }
     final variants = resized.bytes;
 
-    onPhase?.call(UploadPhase.hochladen);
+    onProgress?.call(UploadPhase.hochladen, kProgressProcessed);
     final imageId = _uuid.v4();
     final paths = SupabaseImagesRepository.pathsFor(trailId, imageId);
+    // Fortschritt nach Dateigroesse: die grosse Variante zaehlt mehr.
+    final totalBytes = variants.values.fold<int>(0, (a, b) => a + b.length);
+    var uploadedBytes = 0;
     try {
       await Future.wait([
         for (final entry in variants.entries)
@@ -83,7 +95,16 @@ class ImageUploadService implements ImageUploader {
                   contentType: 'image/avif',
                   cacheControl: '31536000',
                 ),
-              ),
+              )
+              .then((_) {
+                uploadedBytes += entry.value.length;
+                onProgress?.call(
+                  UploadPhase.hochladen,
+                  kProgressProcessed +
+                      (kProgressUploaded - kProgressProcessed) *
+                          (totalBytes == 0 ? 1 : uploadedBytes / totalBytes),
+                );
+              }),
       ]);
     } catch (e) {
       throw ImageUploadException('Upload fehlgeschlagen: $e');
@@ -115,5 +136,6 @@ class ImageUploadService implements ImageUploader {
           .catchError((_) => const <FileObject>[]);
       throw ImageUploadException('Speichern fehlgeschlagen: $e');
     }
+    onProgress?.call(UploadPhase.hochladen, 1);
   }
 }

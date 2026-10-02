@@ -139,6 +139,14 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     );
   }
 
+  static String _jobLabel(UploadJob job) {
+    final text = switch (job.phase) {
+      UploadPhase.verarbeiten => 'Foto wird verarbeitet …',
+      UploadPhase.hochladen => 'Foto wird hochgeladen …',
+    };
+    return '$text ${(job.progress * 100).round()} %';
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -281,13 +289,16 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                const LinearProgressIndicator(),
+                TweenAnimationBuilder<double>(
+                  tween: Tween<double>(begin: 0, end: job.progress),
+                  duration: const Duration(milliseconds: 400),
+                  curve: Curves.easeOut,
+                  builder: (_, value, _) =>
+                      LinearProgressIndicator(value: value),
+                ),
                 const SizedBox(height: 4),
                 Text(
-                  switch (job.phase) {
-                    UploadPhase.verarbeiten => 'Foto wird verarbeitet …',
-                    UploadPhase.hochladen => 'Foto wird hochgeladen …',
-                  },
+                  _jobLabel(job),
                   style: theme.textTheme.bodySmall,
                   textAlign: TextAlign.center,
                 ),

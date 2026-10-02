@@ -11,6 +11,7 @@ import 'package:lehrpfad_app/features/community/domain/photo_geo_check.dart';
 /// Fake-Uploader: jeder Aufruf haengt an einem eigenen Completer.
 class FakeUploader implements ImageUploader {
   final calls = <Completer<void>>[];
+  final progress = <void Function(UploadPhase, double)?>[];
 
   @override
   Future<void> upload({
@@ -19,12 +20,13 @@ class FakeUploader implements ImageUploader {
     required String credit,
     required Uint8List bytes,
     required PhotoGeoCheck geoCheck,
-    void Function(UploadPhase phase)? onPhase,
+    void Function(UploadPhase phase, double fraction)? onProgress,
   }) {
     final c = Completer<void>();
     calls.add(c);
-    onPhase?.call(UploadPhase.verarbeiten);
-    return c.future.then((_) => onPhase?.call(UploadPhase.hochladen));
+    progress.add(onProgress);
+    onProgress?.call(UploadPhase.verarbeiten, 0);
+    return c.future.then((_) => onProgress?.call(UploadPhase.hochladen, 1));
   }
 }
 
@@ -49,6 +51,7 @@ void main() {
       ],
     );
     addTearDown(container.dispose);
+    container.read(uploadJobsProvider.notifier).doneHold = Duration.zero;
   });
 
   Future<void> start({String trailId = 't1'}) => container
@@ -119,6 +122,24 @@ void main() {
     expect(results.single.message, 'kaputt');
     expect(container.read(uploadJobsProvider), isEmpty);
     expect(imageBuilds, before);
+  });
+
+  test('Fortschritt folgt dem Uploader und laeuft nie rueckwaerts', () async {
+    final job = start();
+    await Future<void>.delayed(Duration.zero);
+    double current() => container.read(uploadJobsProvider).single.progress;
+
+    expect(current(), 0);
+    uploader.progress.single!(UploadPhase.verarbeiten, 0.3);
+    expect(current(), closeTo(0.3, 1e-9));
+    uploader.progress.single!(UploadPhase.hochladen, 0.8);
+    expect(current(), closeTo(0.8, 1e-9));
+    uploader.progress.single!(UploadPhase.hochladen, 0.5);
+    expect(current(), closeTo(0.8, 1e-9), reason: 'nie rueckwaerts');
+
+    uploader.calls.single.complete();
+    await job;
+    expect(container.read(uploadJobsProvider), isEmpty);
   });
 
   test('Job startet in Phase verarbeiten und ist danach weg', () async {

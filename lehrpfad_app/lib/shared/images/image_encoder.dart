@@ -27,14 +27,29 @@ class EncodedVariants {
 class ImageVariants {
   /// Dekodiert [input], skaliert auf die drei Kantenlängen und encodiert
   /// AVIF. Wirft [ImageVariantsException] bei unlesbarem Format.
-  static Future<EncodedVariants> encode(Uint8List input) async {
+  ///
+  /// [onStep] meldet den Anteil 0..1 an der Encode-Arbeit: nach dem Resize
+  /// und nach jedem fertigen AVIF (Resize 3/8, je Encode 5/24).
+  static Future<EncodedVariants> encode(
+    Uint8List input, {
+    void Function(double fraction)? onStep,
+  }) async {
     final resized = await compute(resizeVariantsJpeg, input);
+    const resizeShare = 0.375;
+    onStep?.call(resizeShare);
 
     // Die drei Encodes laufen parallel; der native Encoder arbeitet auf
     // Worker-Threads und blockiert die UI nicht.
     final entries = resized.jpegBytes.entries.toList();
+    final perEncode = (1 - resizeShare) / entries.length;
+    var done = 0;
     final encoded = await Future.wait([
-      for (final entry in entries) encodeAvif(entry.value),
+      for (final entry in entries)
+        encodeAvif(entry.value).then((bytes) {
+          done++;
+          onStep?.call(resizeShare + perEncode * done);
+          return bytes;
+        }),
     ]);
     final bytes = <TrailImageVariant, Uint8List>{
       for (var i = 0; i < entries.length; i++) entries[i].key: encoded[i],
