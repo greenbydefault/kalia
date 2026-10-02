@@ -166,6 +166,7 @@ flutter:
     - assets/images/trails/jamnoer-urwald/
     - assets/images/trails/bagower-bruch/
     - assets/images/trails/moorlehrpfad-burgermoos/
+    - assets/images/trails/rimstinger-steinlehrpfad/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

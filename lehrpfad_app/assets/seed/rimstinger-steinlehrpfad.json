@@ -1,0 +1,1353 @@
+{
+ "id": "rimstinger-steinlehrpfad",
+ "name": "Rimstinger Steinlehrpfad",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Entlang der Prien liegen Findlinge aus den Zentralalpen, der älteste Gneis mindestens 290 Millionen Jahre alt. Der Weg führt bis zur Mündung in den Chiemsee.",
+ "beschreibung": "Auf dem Rücken des Inn-Gletschers kamen die Findlinge von Rimsting aus den Zentralalpen an den Chiemsee. Beim Kiesabbau und beim Hausbau tauchten sie wieder auf. Heute liegen sie mit Tafeln an der Prien, Gneis und Granit neben Kalk und Sandstein. Auf den Tafeln stehen Alter, Herkunft und Gesteinsart. Am Ende mündet die Prien in die Schafwaschener Bucht. Dort steht eine Biberburg, und im Winter rasten Löffelenten und Silberreiher.",
+ "laengeKm": 4.9,
+ "dauerMin": 75,
+ "rundkurs": true,
+ "markierung": "Schild Rundweg zum Chiemsee (Wellensymbol)",
+ "betreiber": "Gemeinde Rimsting",
+ "region": "Rimsting, Landkreis Rosenheim, Bayern",
+ "website": "https://www.rimsting.de/ortsinfo/weitere-einrichtungen/freizeiteinrichtungen/325-steinlehrpfad.html",
+ "anreise": "Start am Parkplatz an der Pfarrkirche St. Nikolaus, Rimsting (oder am Friedhof, alternativ Fischbrunnen). Auto: A8 Ausfahrt 106 Bernau, Richtung Prien, dann Rimstinger Straße. Bahn: BRB bis Prien am Chiemsee, weiter mit der Chiemseeringlinie oder dem Bürgerbus. Der Parkplatz Strandanlage Westernach liegt am Wendepunkt und kostet Gebühr.",
+ "startName": "Parkplatz Pfarrkirche Rimsting",
+ "arten": [
+  "Stockente",
+  "Biber"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "picknick",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   47.878584,
+   12.338221
+  ],
+  [
+   47.87853,
+   12.338407
+  ],
+  [
+   47.878513,
+   12.338544
+  ],
+  [
+   47.878464,
+   12.338821
+  ],
+  [
+   47.878415,
+   12.338904
+  ],
+  [
+   47.878357,
+   12.338964
+  ],
+  [
+   47.878288,
+   12.339017
+  ],
+  [
+   47.878225,
+   12.339052
+  ],
+  [
+   47.878129,
+   12.339065
+  ],
+  [
+   47.878061,
+   12.339066
+  ],
+  [
+   47.877724,
+   12.33898
+  ],
+  [
+   47.877433,
+   12.338906
+  ],
+  [
+   47.877181,
+   12.3389
+  ],
+  [
+   47.876866,
+   12.338914
+  ],
+  [
+   47.876808,
+   12.33892
+  ],
+  [
+   47.876722,
+   12.338933
+  ],
+  [
+   47.876644,
+   12.33895
+  ],
+  [
+   47.876526,
+   12.338971
+  ],
+  [
+   47.876261,
+   12.339039
+  ],
+  [
+   47.876241,
+   12.339116
+  ],
+  [
+   47.875988,
+   12.339251
+  ],
+  [
+   47.875874,
+   12.339362
+  ],
+  [
+   47.875757,
+   12.339476
+  ],
+  [
+   47.875693,
+   12.339621
+  ],
+  [
+   47.875667,
+   12.339757
+  ],
+  [
+   47.875667,
+   12.33991
+  ],
+  [
+   47.875706,
+   12.340387
+  ],
+  [
+   47.875726,
+   12.340662
+  ],
+  [
+   47.875712,
+   12.340854
+  ],
+  [
+   47.875681,
+   12.340961
+  ],
+  [
+   47.875649,
+   12.340969
+  ],
+  [
+   47.875526,
+   12.341162
+  ],
+  [
+   47.874774,
+   12.34219
+  ],
+  [
+   47.87447,
+   12.342655
+  ],
+  [
+   47.874298,
+   12.342971
+  ],
+  [
+   47.874139,
+   12.343355
+  ],
+  [
+   47.873912,
+   12.343988
+  ],
+  [
+   47.873886,
+   12.344064
+  ],
+  [
+   47.873781,
+   12.344362
+  ],
+  [
+   47.873601,
+   12.344772
+  ],
+  [
+   47.873508,
+   12.345003
+  ],
+  [
+   47.8734,
+   12.345198
+  ],
+  [
+   47.873404,
+   12.345303
+  ],
+  [
+   47.873819,
+   12.346795
+  ],
+  [
+   47.873868,
+   12.346931
+  ],
+  [
+   47.873922,
+   12.347052
+  ],
+  [
+   47.87409,
+   12.347526
+  ],
+  [
+   47.874134,
+   12.347713
+  ],
+  [
+   47.874166,
+   12.347901
+  ],
+  [
+   47.874192,
+   12.348066
+  ],
+  [
+   47.874363,
+   12.349475
+  ],
+  [
+   47.874566,
+   12.350945
+  ],
+  [
+   47.874597,
+   12.351098
+  ],
+  [
+   47.874647,
+   12.351266
+  ],
+  [
+   47.874707,
+   12.351432
+  ],
+  [
+   47.874876,
+   12.351767
+  ],
+  [
+   47.874912,
+   12.351863
+  ],
+  [
+   47.874924,
+   12.351911
+  ],
+  [
+   47.874929,
+   12.351952
+  ],
+  [
+   47.87494,
+   12.352053
+  ],
+  [
+   47.874984,
+   12.35213
+  ],
+  [
+   47.874997,
+   12.352326
+  ],
+  [
+   47.874999,
+   12.352355
+  ],
+  [
+   47.875,
+   12.352462
+  ],
+  [
+   47.87501,
+   12.352579
+  ],
+  [
+   47.875027,
+   12.352808
+  ],
+  [
+   47.875055,
+   12.353034
+  ],
+  [
+   47.875075,
+   12.35326
+  ],
+  [
+   47.87508,
+   12.353425
+  ],
+  [
+   47.87508,
+   12.353692
+  ],
+  [
+   47.875081,
+   12.353852
+  ],
+  [
+   47.875109,
+   12.353888
+  ],
+  [
+   47.875142,
+   12.354005
+  ],
+  [
+   47.875168,
+   12.354169
+  ],
+  [
+   47.875171,
+   12.354258
+  ],
+  [
+   47.875138,
+   12.354423
+  ],
+  [
+   47.875121,
+   12.354653
+  ],
+  [
+   47.875123,
+   12.354847
+  ],
+  [
+   47.875124,
+   12.35498
+  ],
+  [
+   47.875109,
+   12.355179
+  ],
+  [
+   47.875082,
+   12.355402
+  ],
+  [
+   47.875064,
+   12.355621
+  ],
+  [
+   47.875056,
+   12.355839
+  ],
+  [
+   47.875067,
+   12.356375
+  ],
+  [
+   47.875124,
+   12.356863
+  ],
+  [
+   47.875202,
+   12.357146
+  ],
+  [
+   47.875285,
+   12.357342
+  ],
+  [
+   47.875443,
+   12.357745
+  ],
+  [
+   47.875624,
+   12.358206
+  ],
+  [
+   47.875443,
+   12.357745
+  ],
+  [
+   47.875285,
+   12.357342
+  ],
+  [
+   47.875202,
+   12.357146
+  ],
+  [
+   47.875124,
+   12.356863
+  ],
+  [
+   47.875067,
+   12.356375
+  ],
+  [
+   47.875056,
+   12.355839
+  ],
+  [
+   47.875064,
+   12.355621
+  ],
+  [
+   47.875082,
+   12.355402
+  ],
+  [
+   47.875109,
+   12.355179
+  ],
+  [
+   47.875124,
+   12.35498
+  ],
+  [
+   47.875123,
+   12.354847
+  ],
+  [
+   47.875121,
+   12.354653
+  ],
+  [
+   47.875138,
+   12.354423
+  ],
+  [
+   47.875171,
+   12.354258
+  ],
+  [
+   47.875168,
+   12.354169
+  ],
+  [
+   47.875142,
+   12.354005
+  ],
+  [
+   47.875109,
+   12.353888
+  ],
+  [
+   47.875081,
+   12.353852
+  ],
+  [
+   47.87508,
+   12.353692
+  ],
+  [
+   47.87508,
+   12.353425
+  ],
+  [
+   47.875408,
+   12.353435
+  ],
+  [
+   47.875436,
+   12.353437
+  ],
+  [
+   47.875661,
+   12.353479
+  ],
+  [
+   47.87582,
+   12.353509
+  ],
+  [
+   47.875981,
+   12.35358
+  ],
+  [
+   47.876301,
+   12.353627
+  ],
+  [
+   47.876619,
+   12.353625
+  ],
+  [
+   47.876798,
+   12.353636
+  ],
+  [
+   47.877163,
+   12.353696
+  ],
+  [
+   47.877454,
+   12.353739
+  ],
+  [
+   47.87774,
+   12.353787
+  ],
+  [
+   47.877775,
+   12.353799
+  ],
+  [
+   47.877808,
+   12.353813
+  ],
+  [
+   47.877849,
+   12.353843
+  ],
+  [
+   47.877892,
+   12.353878
+  ],
+  [
+   47.877913,
+   12.353908
+  ],
+  [
+   47.877933,
+   12.353944
+  ],
+  [
+   47.877992,
+   12.354101
+  ],
+  [
+   47.878056,
+   12.354259
+  ],
+  [
+   47.878091,
+   12.354321
+  ],
+  [
+   47.878125,
+   12.354366
+  ],
+  [
+   47.87816,
+   12.354401
+  ],
+  [
+   47.878199,
+   12.354422
+  ],
+  [
+   47.878225,
+   12.354434
+  ],
+  [
+   47.878248,
+   12.354441
+  ],
+  [
+   47.87827,
+   12.354442
+  ],
+  [
+   47.878323,
+   12.354433
+  ],
+  [
+   47.878588,
+   12.354347
+  ],
+  [
+   47.878693,
+   12.354285
+  ],
+  [
+   47.878779,
+   12.354125
+  ],
+  [
+   47.878896,
+   12.353495
+  ],
+  [
+   47.878946,
+   12.353176
+  ],
+  [
+   47.879,
+   12.352864
+  ],
+  [
+   47.879064,
+   12.352464
+  ],
+  [
+   47.879111,
+   12.352055
+  ],
+  [
+   47.879173,
+   12.351844
+  ],
+  [
+   47.879258,
+   12.351679
+  ],
+  [
+   47.879619,
+   12.351369
+  ],
+  [
+   47.87972,
+   12.351261
+  ],
+  [
+   47.879812,
+   12.351118
+  ],
+  [
+   47.879881,
+   12.350933
+  ],
+  [
+   47.879927,
+   12.350748
+  ],
+  [
+   47.87994,
+   12.350606
+  ],
+  [
+   47.879932,
+   12.350472
+  ],
+  [
+   47.879905,
+   12.350361
+  ],
+  [
+   47.879839,
+   12.350297
+  ],
+  [
+   47.87948,
+   12.3502
+  ],
+  [
+   47.879372,
+   12.350157
+  ],
+  [
+   47.879249,
+   12.349986
+  ],
+  [
+   47.879061,
+   12.34958
+  ],
+  [
+   47.878849,
+   12.349042
+  ],
+  [
+   47.878817,
+   12.348794
+  ],
+  [
+   47.87884,
+   12.348518
+  ],
+  [
+   47.878806,
+   12.34758
+  ],
+  [
+   47.878795,
+   12.347481
+  ],
+  [
+   47.877597,
+   12.347784
+  ],
+  [
+   47.87741,
+   12.34781
+  ],
+  [
+   47.877079,
+   12.347797
+  ],
+  [
+   47.876821,
+   12.34776
+  ],
+  [
+   47.876681,
+   12.347717
+  ],
+  [
+   47.876406,
+   12.34754
+  ],
+  [
+   47.876303,
+   12.347474
+  ],
+  [
+   47.876121,
+   12.347408
+  ],
+  [
+   47.875542,
+   12.347338
+  ],
+  [
+   47.875024,
+   12.347186
+  ],
+  [
+   47.874819,
+   12.347087
+  ],
+  [
+   47.874551,
+   12.346955
+  ],
+  [
+   47.874451,
+   12.346943
+  ],
+  [
+   47.873953,
+   12.347024
+  ],
+  [
+   47.873899,
+   12.346903
+  ],
+  [
+   47.873851,
+   12.346772
+  ],
+  [
+   47.873435,
+   12.345278
+  ],
+  [
+   47.8734,
+   12.345198
+  ],
+  [
+   47.873508,
+   12.345003
+  ],
+  [
+   47.873601,
+   12.344772
+  ],
+  [
+   47.873781,
+   12.344362
+  ],
+  [
+   47.873886,
+   12.344064
+  ],
+  [
+   47.873912,
+   12.343988
+  ],
+  [
+   47.874139,
+   12.343355
+  ],
+  [
+   47.874298,
+   12.342971
+  ],
+  [
+   47.87447,
+   12.342655
+  ],
+  [
+   47.874774,
+   12.34219
+  ],
+  [
+   47.875526,
+   12.341162
+  ],
+  [
+   47.875649,
+   12.340969
+  ],
+  [
+   47.87568,
+   12.340867
+  ],
+  [
+   47.875693,
+   12.340762
+  ],
+  [
+   47.875689,
+   12.34063
+  ],
+  [
+   47.875672,
+   12.340438
+  ],
+  [
+   47.875656,
+   12.340193
+  ],
+  [
+   47.875636,
+   12.339987
+  ],
+  [
+   47.875614,
+   12.339778
+  ],
+  [
+   47.875656,
+   12.339579
+  ],
+  [
+   47.875747,
+   12.339397
+  ],
+  [
+   47.875945,
+   12.339177
+  ],
+  [
+   47.876209,
+   12.339052
+  ],
+  [
+   47.876261,
+   12.339039
+  ],
+  [
+   47.876526,
+   12.338971
+  ],
+  [
+   47.876644,
+   12.33895
+  ],
+  [
+   47.876722,
+   12.338933
+  ],
+  [
+   47.876808,
+   12.33892
+  ],
+  [
+   47.876866,
+   12.338914
+  ],
+  [
+   47.877181,
+   12.3389
+  ],
+  [
+   47.877433,
+   12.338906
+  ],
+  [
+   47.877724,
+   12.33898
+  ],
+  [
+   47.878061,
+   12.339066
+  ],
+  [
+   47.878129,
+   12.339065
+  ],
+  [
+   47.878225,
+   12.339052
+  ],
+  [
+   47.878288,
+   12.339017
+  ],
+  [
+   47.878357,
+   12.338964
+  ],
+  [
+   47.878415,
+   12.338904
+  ],
+  [
+   47.878464,
+   12.338821
+  ],
+  [
+   47.878513,
+   12.338544
+  ],
+  [
+   47.87853,
+   12.338407
+  ],
+  [
+   47.878584,
+   12.338221
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 4005922633,
+   "lat": 47.8784675,
+   "lon": 12.3375738,
+   "km": 0.0,
+   "titel": "Wegweiser Rundweg zum Chiemsee",
+   "thema": "Start an der Pfarrkirche, Wellensymbol",
+   "kurztext": "Ab dem Parkplatz an der Pfarrkirche folgt der Weg dem Schild Rundweg zum Chiemsee mit dem Wellensymbol. Hinter der Bahnunterführung geht es an die Prien. Das Gemeindeblatt von 2018 zählt 28 Findlinge zwischen Sporthalle und Strandanlage.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 7333239889,
+   "lat": 47.8738496,
+   "lon": 12.3470101,
+   "km": 1.03,
+   "titel": "Steinerne Zeugen der Eiszeit",
+   "thema": "Findlinge am Ufer der Prien",
+   "kurztext": "Tafel an der Prien. Am Ufer liegen die Findlinge, jeder mit Tafel für Alter, Herkunft und Gesteinsart. Gneis mit Quarzader, mindestens 290 Millionen Jahre alt, und Amphibolit gehören dazu, ebenso Nagelfluh aus dem Priental bei Aschau. Alle stammen aus Rimsting und wurden beim Bauen gefunden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 4006047187,
+   "lat": 47.8750638,
+   "lon": 12.3538636,
+   "km": 1.57,
+   "titel": "Findlinge",
+   "thema": "Ortsfremde Gesteine, Zeugen der Eiszeit",
+   "kurztext": "Zwei Tafeln der Gemeinde bei der Strandanlage. Granit und Basalt im Chiemgau stammen aus dem Teil der Zentralalpen, aus dem das Eis des Inn-Gletschers kam. Deshalb heißen sie Findlinge oder erratische Blöcke. Daneben liegen Muschelkalk von Nussdorf, etwa 240 Millionen Jahre alt, und Korallenkalk.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 9123847381,
+   "lat": 47.8755924,
+   "lon": 12.3582079,
+   "km": 1.92,
+   "titel": "Hütte an der Prienmündung",
+   "thema": "Vögel und Biber an der Schafwaschener Bucht",
+   "kurztext": "Vogeltafel am Ende der Strandanlage. Die Hütte ist einem Bootshaus nachempfunden und nur bei Führungen offen. Als Dauerbewohner nennt die Gemeinde Schwan, Graugans, Stockente, Blesshuhn und Graureiher. An der Einmündung steht eine große Biberburg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 3729863711,
+   "lat": 47.8758167,
+   "lon": 12.3585427,
+   "km": 1.92,
+   "titel": "Prienmündung",
+   "thema": "Aussicht über die Schafwaschener Bucht",
+   "kurztext": "Hier mündet der Gebirgsbach Prien in den Chiemsee. Die Bucht ist Brutplatz, Raststation und Winterquartier. Über 300 Vogelarten wurden hier bisher gesehen. Im Frühjahr kommen Haubentaucher, Trauerseeschwalben und Baumfalken.",
+   "erlebnisse": [],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1334338321,
+   "lat": 47.8752683,
+   "lon": 12.3535691,
+   "kategorie": "gastro",
+   "name": "Kiosk Strandanlage"
+  },
+  {
+   "osmId": 1766674848,
+   "lat": 47.8753749,
+   "lon": 12.3535494,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 1770756716,
+   "lat": 47.8758054,
+   "lon": 12.3584996,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2018828900,
+   "lat": 47.8768322,
+   "lon": 12.3372877,
+   "kategorie": "gastro",
+   "name": "HO Restaurant"
+  },
+  {
+   "osmId": 2393176359,
+   "lat": 47.8793618,
+   "lon": 12.3516798,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2393176856,
+   "lat": 47.8786113,
+   "lon": 12.3542714,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2393176986,
+   "lat": 47.8744651,
+   "lon": 12.3575464,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2398385801,
+   "lat": 47.8762886,
+   "lon": 12.3403128,
+   "kategorie": "bench",
+   "name": "Mauerer Sitzbankerl"
+  },
+  {
+   "osmId": 3729863711,
+   "lat": 47.8758167,
+   "lon": 12.3585427,
+   "kategorie": "viewpoint",
+   "name": "Prienmündung"
+  },
+  {
+   "osmId": 4005781583,
+   "lat": 47.8789999,
+   "lon": 12.3397661,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 4005781832,
+   "lat": 47.8784437,
+   "lon": 12.3376936,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005922612,
+   "lat": 47.8784724,
+   "lon": 12.3376326,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005922625,
+   "lat": 47.8784347,
+   "lon": 12.3376373,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005922626,
+   "lat": 47.8784199,
+   "lon": 12.3376924,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005922657,
+   "lat": 47.8785528,
+   "lon": 12.3386228,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 4005963315,
+   "lat": 47.8790325,
+   "lon": 12.3494096,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005963350,
+   "lat": 47.8786612,
+   "lon": 12.3542502,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4005993636,
+   "lat": 47.8752355,
+   "lon": 12.3568651,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 4006047188,
+   "lat": 47.8753317,
+   "lon": 12.3572518,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 7323026826,
+   "lat": 47.8755682,
+   "lon": 12.340898,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7326742304,
+   "lat": 47.8757152,
+   "lon": 12.3409013,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7333239890,
+   "lat": 47.8738775,
+   "lon": 12.3471113,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7333239891,
+   "lat": 47.8740488,
+   "lon": 12.3476283,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7333239901,
+   "lat": 47.8754891,
+   "lon": 12.3546241,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7334737051,
+   "lat": 47.8796052,
+   "lon": 12.337837,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11205780741,
+   "lat": 47.8742497,
+   "lon": 12.3486619,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11205789297,
+   "lat": 47.8744376,
+   "lon": 12.3500855,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825262388,
+   "lat": 47.8751357,
+   "lon": 12.3548806,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825284551,
+   "lat": 47.8751129,
+   "lon": 12.35567,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13825303425,
+   "lat": 47.8758751,
+   "lon": 12.3582047,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825325549,
+   "lat": 47.8751246,
+   "lon": 12.3556252,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13825330519,
+   "lat": 47.875258,
+   "lon": 12.3572317,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825332436,
+   "lat": 47.87552,
+   "lon": 12.357515,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825337114,
+   "lat": 47.8751613,
+   "lon": 12.3551527,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13825404882,
+   "lat": 47.8759067,
+   "lon": 12.3582455,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13849814948,
+   "lat": 47.8762082,
+   "lon": 12.3474684,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10060037,
+   "lat": 47.8755749,
+   "lon": 12.3522315,
+   "kategorie": "parking",
+   "name": "Strandanlage Westernach"
+  },
+  {
+   "osmId": 165535571,
+   "lat": 47.8752391,
+   "lon": 12.3538688,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 369173194,
+   "lat": 47.8749341,
+   "lon": 12.3512334,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 397805013,
+   "lat": 47.8795308,
+   "lon": 12.3379245,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 779063098,
+   "lat": 47.8777265,
+   "lon": 12.337253,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 779063136,
+   "lat": 47.8778443,
+   "lon": 12.3372716,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 782803125,
+   "lat": 47.8761924,
+   "lon": 12.3383069,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 784443792,
+   "lat": 47.8795503,
+   "lon": 12.3376092,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 784446311,
+   "lat": 47.8776643,
+   "lon": 12.3371642,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 1234984122,
+   "lat": 47.8768855,
+   "lon": 12.3392286,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1235153378,
+   "lat": 47.877085,
+   "lon": 12.3370857,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1235153379,
+   "lat": 47.8771945,
+   "lon": 12.3371931,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1235153380,
+   "lat": 47.8772922,
+   "lon": 12.3371527,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1235153388,
+   "lat": 47.8784585,
+   "lon": 12.3373848,
+   "kategorie": "parking",
+   "name": null
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Weg und Strandanlage frei. Parkplatz Strandanlage 3 Euro bis 3 Stunden, 5 Euro darüber, mit Gästekarte frei.",
+ "oeffnungszeiten": "Weg jederzeit frei, ohne Anmeldung. Strandkiosk Anfang Mai bis Ende September, je nach Witterung. Hütte an der Prienmündung nur bei Führungen.",
+ "besuchshinweise": "Steine dürfen angefasst und bestiegen werden. Die Hütte an der Prienmündung ist nur bei Führungen offen. Vom Parkplatz Strandanlage sind es etwa 1 km bis dorthin, geeignet für Kinderwagen und Rollstuhl. Strandkiosk von Mai bis September.",
+ "hoertext": "Hinter der Kirche von Rimsting senkt sich der Weg zur Prien, und am Ufer ruhen Steine von weit her. Ein Gletscher trug sie aus den Zentralalpen heran, auf dem Rücken des Eises. Gneis lagert darunter, mindestens 290 Millionen Jahre alt, daneben Granit, Sandstein und Kalk aus Korallen. Anfassen darf jeder. Flussabwärts weitet sich das Ufer, bis die Prien in den Chiemsee mündet, dort, wo eine Hütte an ein Bootshaus erinnert und an einzelnen Sonntagen ein Vogelführer die Bucht zeigt. Wer Badesachen dabeihat, erreicht nach dem letzten Stein gleich das Wasser.",
+ "bilderAsset": "assets/images/trails/rimstinger-steinlehrpfad/credits.json"
+}
