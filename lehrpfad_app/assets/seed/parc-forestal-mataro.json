@@ -17,7 +17,17 @@
   "Pinie",
   "Steineiche",
   "Korkeiche",
-  "Eichhörnchen"
+  "Eichhörnchen",
+  "Aleppokiefer",
+  "Erdbeerbaum",
+  "Eichelhäher",
+  "Mauereidechse",
+  "Mittelmeermöwe",
+  "Rosmarin",
+  "Montpellier-Zistrose",
+  "Schwalbenschwanz",
+  "Wildschwein",
+  "Kormoran"
  ],
  "tags": [
   "kinderfreundlich",
@@ -213,5 +223,25 @@
  ],
  "besuchshinweise": "SL-C 74 gesperrt (Sturmholz). Fläche, Quelle und Aussicht offen. Bosc Vertical ist Ticket, extra. Hunde anleinen.",
  "hoertext": "Am Hang über Mataró, Turó d’en Dori. Pinien, Tische, Spielplatz, Bar Tarannà. Frei, ohne Ticket. Der SL-C 74 ist zu, umgestürzte Kiefern. Bleib auf den offenen Wegen zur Drei-Röhren-Quelle und zum Aussichtspunkt. Stadt und Meer liegen unten. Bosc Vertical ist der Hochseilgarten, der kostet extra.",
- "bilderAsset": "assets/images/trails/parc-forestal-mataro/credits.json"
+ "bilderAsset": "assets/images/trails/parc-forestal-mataro/credits.json",
+ "lebensraeume": [
+  "mediterraner-wald"
+ ],
+ "naturraum": "katalonien",
+ "artenNachweis": {
+  "Pinie": "belegt",
+  "Steineiche": "belegt",
+  "Korkeiche": "belegt",
+  "Eichhörnchen": "belegt",
+  "Aleppokiefer": "typisch",
+  "Erdbeerbaum": "typisch",
+  "Eichelhäher": "typisch",
+  "Mauereidechse": "typisch",
+  "Mittelmeermöwe": "typisch",
+  "Rosmarin": "typisch",
+  "Montpellier-Zistrose": "typisch",
+  "Schwalbenschwanz": "typisch",
+  "Wildschwein": "typisch",
+  "Kormoran": "typisch"
+ }
 }

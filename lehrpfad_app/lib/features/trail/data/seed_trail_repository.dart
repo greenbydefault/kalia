@@ -103,6 +103,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/bagower-bruch.json',
     'assets/seed/moorlehrpfad-burgermoos.json',
     'assets/seed/rimstinger-steinlehrpfad.json',
+    'assets/seed/weltpfad-nicklheim.json',
+    'assets/seed/ostsee-lehrpfad-graal-mueritz.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

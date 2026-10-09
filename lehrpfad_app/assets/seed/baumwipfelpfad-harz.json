@@ -17,7 +17,17 @@
   "Rotbuche",
   "Bergahorn",
   "Europäische Lärche",
-  "Stieleiche"
+  "Stieleiche",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Grasfrosch",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -383,5 +393,26 @@
  "oeffnungszeiten": "1.1.–20.3. 10–16, 21.3.–30.6. 9:30–18, 1.7.–31.8. 9:30–19, 1.9.–1.11. 9:30–18, 2.11.–31.12. 10–16. Täglich. Letzter Einlass eine Stunde vor Schluss. Bei Sturm und Eis zu. Stand 2026, baumwipfelpfad-harz.de.",
  "besuchshinweise": "Barrierearm: Rampe höchstens 5,8 Prozent, Kinderwagen, Rollstuhl, Rollator. Hunde nicht. Ticket gilt auch für den hinteren Zugang, Kauf im BurgBergCenter, 200 m vor der Krone. Parken Nordhäuser Straße, tags 0,50 € je 30 min nach 15 min. Bei Sturm und Eis zu.",
  "hoertext": "Kaltes Tal, südlich vom Burgberg in Bad Harzburg. Ticket im BurgBergCenter, zweihundert Meter bis zur Krone. Tausend Meter Holz, Rampe höchstens sechs Prozent, Kinderwagen und Rollstuhl gehen mit. Hund bleibt unten. Oben Buche, Ahorn, Lärche und Eiche, auf halber Strecke der Schweineteich, der Glassteg in sechsundzwanzig Metern. Bei Sturm und Eis bleibt der Steg zu.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-harz/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-harz/credits.json",
+ "lebensraeume": [
+  "nadelforst",
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Bergahorn": "belegt",
+  "Europäische Lärche": "belegt",
+  "Stieleiche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Grasfrosch": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

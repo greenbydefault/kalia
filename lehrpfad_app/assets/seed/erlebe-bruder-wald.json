@@ -18,7 +18,16 @@
   "Stieleiche",
   "Kiefer",
   "Europäische Lärche",
-  "Bergahorn"
+  "Bergahorn",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -672,5 +681,26 @@
    "name": "Waldparkplatz Klinikum"
   }
  ],
- "bilderAsset": "assets/images/trails/erlebe-bruder-wald/credits.json"
+ "bilderAsset": "assets/images/trails/erlebe-bruder-wald/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "kiefernforst"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Kiefer": "belegt",
+  "Europäische Lärche": "belegt",
+  "Bergahorn": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

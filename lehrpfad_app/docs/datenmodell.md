@@ -28,6 +28,9 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `anreise` | string | ja | |
 | `startName` | string | ja | |
 | `arten` | string[] | ja | Namen/Aliases → Species (inkl. `geraete`) |
+| `artenNachweis` | object? | nein | Name → `belegt` \| `typisch`. Fehlt der Key: `belegt`. Nur Seed/Import, keine Anzeige |
+| `lebensraeume` | string[] | ja | 0–3 Keys aus `lebensraumKatalog`. Leer nur ohne passenden Lebensraum (Spielplatz, Geopfad) |
+| `naturraum` | string | ja | Key aus `naturraumKatalog`, aus der Koordinate |
 | `tags` | string[] | nein | redaktionell; plus Auto-Tags |
 | `route` | `[lat,lon][]` | bei `linie` | Polyline |
 | `area` | `[lat,lon][]` | bei `flaeche` | geschlossenes Polygon (≥3) |
@@ -93,7 +96,9 @@ Infrastruktur *am Weg* (WC, Bank, Parkplatz, `gastro`). Nicht für kuratierte Or
 
 ### Ort in der Nähe
 
-Katalog in `assets/seed/pois.json` / Tabelle `pois`. Kuratierte Cafés, Restaurants, Hofläden, Bäder, Museen, Aktivitäten und Campingplätze im Umfeld. Zugehörigkeit zum Trail ist geografisch (Distanz zu `Trail.start`, Default 20 km; Camping 5 km) — kein Join. Anzeige max. 8 pro Trail (erst max. 2 pro Kategorie, Rest nach Distanz).
+Katalog in `assets/seed/pois.json` / Tabelle `pois`. Kuratierte Cafés, Restaurants, Hofläden, Bäder, Museen, Aktivitäten und Campingplätze im Umfeld.
+
+**Zuordnung zum Trail = Auto-Fahrzeit vom Trail-Start, höchstens 20 Min (1200 s), alle Kategorien** (Familien rechnen Erreichbarkeit, nicht Kilometer: Café 10 km / 25 Min fällt raus). Kein Join am Trail im Katalog; die Zuordnung steht in `nearby_zeiten.json` / `trail_pois` (unten). Anzeige max. 8 pro Trail (erst max. 2 pro Kategorie, Rest nach Fahrzeit), sortiert nach Fahrzeit, Anzeige „12 Min Auto“.
 
 Kuratierung: keine Supermärkte, keine Hotels/Pensionen (nur Camping), keine Standard-Spielplätze (besondere Spielplätze sind Trail-Typen).
 
@@ -109,6 +114,19 @@ Kuratierung: keine Supermärkte, keine Hotels/Pensionen (nur Camping), keine Sta
 | `opening_hours` | string? | nein | OSM-Subset für „Jetzt geöffnet“-Badge |
 | `telefon` | string? | nein | |
 
+#### Fahrzeiten Trail → Ort (`nearby_zeiten.json` / `trail_pois`)
+
+Berechnet von `tools/nearby_zeiten.py` (OSRM-Table, Luftlinie 25 km nur als Vorfilter). Die App routet nie selbst (offline), sie liest nur diese Daten. Datei nie von Hand editieren.
+
+```json
+{ "<trailId>": [ { "poi": "<poiId>", "sek": 612 } ] }
+```
+
+- Nur Paare mit `sek` ≤ 1200, je Trail nach `sek` sortiert; Trail ohne Treffer → `[]`.
+- Start wie `Trail.startOrNull` (Fläche: Schwerpunkt, Linie: erster Routenpunkt, sonst erste Station).
+- Supabase: Tabelle `trail_pois (trail_id, poi_id → pois.id, sek)`, Public Read (Migration `0025_trail_pois.sql`). `tools/seed_pois.py` ersetzt pro Trail alle Zeilen. Fällt die Tabelle leer oder aus, nimmt die App Cache, dann Seed.
+- Ein neuer oder verschobener Ort ändert Zuordnungen auch bei Nachbar-Trails: danach `python3 tools/nearby_zeiten.py --all`. `validate_seeds.py` prüft Ort-IDs, Grenze und Sortierung.
+
 ### Species
 
 Katalog in `assets/seed/species.json` / Tabelle `species`.
@@ -120,7 +138,7 @@ Katalog in `assets/seed/species.json` / Tabelle `species`.
 | `nameLat` | string | nein |
 | `kategorie` | `flora` \| `fauna` \| `geraete` | ja |
 | `kurztext` | string | ja (Fallback-Hook) |
-| `content` | object | ja für Go | Spec: `tools/SPECIES_CONTENT.md` / bei `geraete`: `tools/GERAETE_CONTENT.md` |
+| `content` | object | ja für Go | Spec: `tools/SPECIES_CONTENT.md` / bei `geraete`: `tools/GERAETE_CONTENT.md`. `content.tiefe`: `voll` (Default, mit `hoertext`) oder `kurz` (ohne `hoertext`) |
 | `iconKey` | string? | nein | nur `geraete`; Key aus `geraeteKatalog` (IconData nie im JSON) |
 | `aliases` | string[] | nein |
 | `imagePath` / `imageCredit` / `audioPath` | | nein |
@@ -154,7 +172,17 @@ Katalog in `assets/seed/merkmale.json` / Tabelle `merkmale`. Geteilte Badges (Au
 
 ### trail_species (Supabase)
 
-Join `trail_id` ↔ `species_id` (Migration `0007_species.sql`). Im Seed: Trail-Feld `arten[]` wird beim Import aufgelöst.
+Join `trail_id` ↔ `species_id` (Migration `0007_species.sql`), plus `nachweis` `belegt` \| `typisch` (Migration `0026_arten_pool.sql`). Im Seed: `arten[]` wird aufgelöst, `artenNachweis` setzt die Stufe. Die App zeigt die Stufe nicht.
+
+`belegt`: Tafel, Betreiber, Stationsthema dieses Pfads. `typisch`: Art steht im Pool [`assets/seed/art_pools.json`](../assets/seed/art_pools.json) für `lebensraeume` × `naturraum` und eine Familie kann sie dort antreffen. Pool-Quelle ist der Lebensraumtyp, nicht ein Fundpunkt.
+
+### Lebensräume (`lebensraumKatalog`)
+
+`kuestenwald-kiefer`, `buchenwald`, `eichen-mischwald`, `kiefernforst`, `auwald`, `moor`, `heide`, `streuobst-hecke`, `teich-tuempel`, `fliessgewaesser`, `see-ufer`, `salzwiese-watt`, `duene-strand`, `trockenrasen`, `nadelforst`, `hof-nutztier`, `mediterraner-wald`, `alpen-wald`
+
+### Naturräume (`naturraumKatalog`)
+
+`nordsee`, `ostsee`, `norddt-tiefland`, `mittelgebirge`, `alpenvorland`, `katalonien`, `daenemark`
 
 ### Steckbrief (optional an Station)
 
@@ -174,7 +202,7 @@ Join `trail_id` ↔ `species_id` (Migration `0007_species.sql`). Im Seed: Trail-
 
 `cafe`, `restaurant`, `hofladen`, `baden`, `museum`, `aktivitaet`, `camping`
 
-Anzeige-Reihenfolge = Katalog-Reihenfolge. Radien: 20 km Default, 5 km `camping`, Distanz zu `Trail.start`.
+Anzeige-Reihenfolge = Katalog-Reihenfolge. Zuordnung zum Trail: Auto-Fahrzeit ≤ 20 Min ab `Trail.start`, alle Kategorien (siehe [Ort in der Nähe](#ort-in-der-nähe)).
 
 ### Tags (`tagKatalog`)
 

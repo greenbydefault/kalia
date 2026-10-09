@@ -15,7 +15,19 @@
  "startName": "Kasse Cloef-Atrium",
  "arten": [
   "Rotbuche",
-  "Douglasie"
+  "Douglasie",
+  "Buntspecht",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Kleiber"
  ],
  "tags": [
   "kinderfreundlich",
@@ -338,5 +350,25 @@
  "oeffnungszeiten": "Mai–Oktober täglich 9:30–18 Uhr. April 9:30–17. November–März 9:30–16. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Rollstuhl oder Rollator nach Anmeldung an der Kasse leihbar. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Vom Cloef-Atrium geht der Steg ohne Stufe durch die Kronen bis auf den Turm. Unten liegt die Saarschleife, über dir Buchen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, den Abenteuerwald am Ausgang extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-saarschleife/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-saarschleife/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Douglasie": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch"
+ }
 }

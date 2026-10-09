@@ -17,7 +17,17 @@
   "Steineiche",
   "Haselnuss",
   "Schwarzerle",
-  "Korkeiche"
+  "Korkeiche",
+  "Erdbeerbaum",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Mauereidechse",
+  "Mittelmeermöwe",
+  "Schwalbenschwanz",
+  "Wildschwein",
+  "Kormoran",
+  "Aleppokiefer",
+  "Pinie"
  ],
  "tags": [
   "kinderfreundlich",
@@ -842,5 +852,25 @@
  ],
  "besuchshinweise": "Infohaus temporär geschlossen, Pfad offen. Steile Stellen, Forstpisten mit Autos. Tafeln in Braille, Begleitung bei Sehbehinderung. SL-C 78 und GR 92 nicht mitlaufen, wenn du nur diese Runde willst.",
  "hoertext": "In Hortsavinyà, am alten Gasthaus, fängt die Runde an. Weiß-grün, SL-C 73, drei Kilometer. Zwei alte Steineichen, 1996 hat der Blitz eine getroffen. Davor der Kalkofen, danach ein siebzehn Meter hoher Fels, früher der Waldkauz. Das Infohaus ist zu, der Pfad nicht. Ein paar Stellen sind steil, auf den Pisten fahren Autos.",
- "bilderAsset": "assets/images/trails/sl-c-73-alzines-can-portell/credits.json"
+ "bilderAsset": "assets/images/trails/sl-c-73-alzines-can-portell/credits.json",
+ "lebensraeume": [
+  "mediterraner-wald"
+ ],
+ "naturraum": "katalonien",
+ "artenNachweis": {
+  "Steineiche": "belegt",
+  "Haselnuss": "belegt",
+  "Schwarzerle": "belegt",
+  "Korkeiche": "belegt",
+  "Erdbeerbaum": "belegt",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Mauereidechse": "typisch",
+  "Mittelmeermöwe": "typisch",
+  "Schwalbenschwanz": "typisch",
+  "Wildschwein": "typisch",
+  "Kormoran": "typisch",
+  "Aleppokiefer": "typisch",
+  "Pinie": "typisch"
+ }
 }

@@ -15,7 +15,19 @@
  "startName": "Parkplatz Forst am See",
  "arten": [
   "Torfmoos",
-  "Große Moosjungfer"
+  "Große Moosjungfer",
+  "Moorfrosch",
+  "Wollgras",
+  "Rundblättriger Sonnentau",
+  "Bekassine",
+  "Erdkröte",
+  "Glockenheide",
+  "Grasfrosch",
+  "Libelle",
+  "Moorbirke",
+  "Ringelnatter",
+  "Sumpfdotterblume",
+  "Waldeidechse"
  ],
  "tags": [
   "kinderfreundlich",
@@ -952,5 +964,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Führungen nur im Sommerhalbjahr.",
  "besuchshinweise": "Holprig, kein Kinderwagen, kein Rollstuhl. Festes Schuhwerk. Wege nicht verlassen.",
  "hoertext": "Am Parkplatz Forst am See hält sich der Weg an den Hofstätter See. Vierzehn Tafeln begleiten ihn, vom Gletscher über das Schilf bis zum Hochmoor. Der Boden holpert. Ein Kinderwagen bleibt hier stehen. An der Kanzel zeigen sich Moose, Seggen, Schilf und Latschen auf einmal. Südlich dreht ein Stich um, und auf dem Rückweg trägt ein alter Knüppeldamm quer durchs Burger Moos, Bretter über dem nassen Grund. Wer den See ganz umrundet, kehrt am Strandhaus ein. Im Sommer trägt der Hofstätter See Badewasser, direkt neben dem Strandhaus.",
- "bilderAsset": "assets/images/trails/moorlehrpfad-burgermoos/credits.json"
+ "bilderAsset": "assets/images/trails/moorlehrpfad-burgermoos/credits.json",
+ "lebensraeume": [
+  "moor"
+ ],
+ "naturraum": "alpenvorland",
+ "artenNachweis": {
+  "Torfmoos": "belegt",
+  "Große Moosjungfer": "belegt",
+  "Moorfrosch": "typisch",
+  "Wollgras": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Bekassine": "typisch",
+  "Erdkröte": "typisch",
+  "Glockenheide": "typisch",
+  "Grasfrosch": "typisch",
+  "Libelle": "typisch",
+  "Moorbirke": "typisch",
+  "Ringelnatter": "typisch",
+  "Sumpfdotterblume": "typisch",
+  "Waldeidechse": "typisch"
+ }
 }

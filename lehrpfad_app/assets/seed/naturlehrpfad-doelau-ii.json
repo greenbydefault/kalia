@@ -18,7 +18,16 @@
   "Stieleiche",
   "Haselnuss",
   "Hainbuche",
-  "Europäische Lärche"
+  "Europäische Lärche",
+  "Buchfink",
+  "Eichelhäher",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Kohlmeise",
+  "Mittelspecht"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1077,5 +1086,26 @@
   }
  ],
  "hoertext": "Am Heidebahnhof fängt der Bergmannssteig an, der Weg der Bergleute nach Zscherben. Weiße Steine mit roten Zahlen, bis Stein 32 rechts, danach links. Bis zum Lindbusch ist der Boden Quarzsand. Die Porphyrblöcke am Anfang sind hingestellt, der Fels liegt hier nicht frei. Im Lindbusch staut Ton das Wasser, der Pfad bleibt auf dem Pfad. Am Ende ein See in der alten Grube. Die Sperrung am Kuhberg gehört zu Pfad I.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-ii/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-ii/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Waldkiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Haselnuss": "belegt",
+  "Hainbuche": "belegt",
+  "Europäische Lärche": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Mittelspecht": "typisch"
+ }
 }

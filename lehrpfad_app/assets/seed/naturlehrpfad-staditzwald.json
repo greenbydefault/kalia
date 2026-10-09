@@ -19,7 +19,15 @@
   "Stieleiche",
   "Rotbuche",
   "Robinie",
-  "Zauneidechse"
+  "Zauneidechse",
+  "Buntspecht",
+  "Buchfink",
+  "Eichelhäher",
+  "Erdkröte",
+  "Grasfrosch",
+  "Teichfrosch",
+  "Blässhuhn",
+  "Eichhörnchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -621,5 +629,26 @@
   }
  ],
  "hoertext": "Am Südwestende vom Staditzteich hängt die Karte, die Hütte steht daneben. Ein grüner Strich nimmt dich knapp drei Kilometer einmal durch den Wald. Erst am Teich in den Erlenbruch, dann zu den alten Buchen. Auf dem Rückweg die Robinien. Nach Regen wird der Weg weich. Plaußig ist eine andere Runde.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-staditzwald/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-staditzwald/credits.json",
+ "lebensraeume": [
+  "eichen-mischwald",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Stockente": "belegt",
+  "Schwarzerle": "belegt",
+  "Stieleiche": "belegt",
+  "Rotbuche": "belegt",
+  "Robinie": "belegt",
+  "Zauneidechse": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Erdkröte": "typisch",
+  "Grasfrosch": "typisch",
+  "Teichfrosch": "typisch",
+  "Blässhuhn": "typisch",
+  "Eichhörnchen": "typisch"
+ }
 }

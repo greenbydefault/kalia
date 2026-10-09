@@ -15,7 +15,19 @@
  "startName": "Übersichtskarte / Waldhusener Forst",
  "arten": [
   "Rotbuche",
-  "Stieleiche"
+  "Stieleiche",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Kleiber"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1063,5 +1075,25 @@
   }
  ],
  "hoertext": "Gleich hinter Pöppendorf gräbt sich ein alter Fahrweg in den Forst, so tief haben ihn Fuhrwerke über Jahrhunderte ausgefahren. Ein Grenzstein trägt zwei Wappen, gesetzt achtzehnhundertvier. Am Herrenberg wölben sich neun Hügel aus dem Laub, Gräber aus der Bronzezeit, und der Weg heißt hier Reich der Toten. Die Findlinge des Steingrabs zählen gut fünftausend Jahre. Eine Treppe führt auf den slawischen Ringwall, und von seiner Krone aus fällt der Blick über die nassen Senken ringsum, die einst die Burg schützten. Manche Tafel fehlt inzwischen. Hinaufklettern sollte trotzdem niemand, denn bei den Hügeln steckt der Fund in der Erde selbst.",
- "bilderAsset": "assets/images/trails/waldhusen/credits.json"
+ "bilderAsset": "assets/images/trails/waldhusen/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch"
+ }
 }

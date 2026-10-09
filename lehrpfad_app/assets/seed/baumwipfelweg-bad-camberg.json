@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Stieleiche",
-  "Douglasie"
+  "Douglasie",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -542,5 +553,25 @@
  "oeffnungszeiten": "Aktuell Homepage. Oft 9–18:30 Uhr, Herbst 11 Uhr bis Dämmerung. Ruhetage; Winter zu (taunus.info). Bei Sturm, Gewitter, starkem Regen zu, Tel. 06434 6029761.",
  "besuchshinweise": "Nicht barrierefrei: Rampen, Treppen, rund 300 Stufen, Türme. Kinderwagen und Rollstuhl nicht. Hunde an der Leine, Gitterroste mit Zacken. Picknick erlaubt. Lodge ab 11 Uhr bis 30 Min. vor Kassenschluss. Parkplatz 400 m, kein Vorfahren ans Haus. Bei Sturm und Gewitter zu.",
  "hoertext": "Östlich von Bad Camberg, Hintertaunus. Ticket an der Lodge, dann achthundert Meter Holz durch Buchen, Eichen, Douglasien. Zwei Türme, der hintere einunddreißig hoch, dreihundert Stufen. Hund an der Leine geht, Kinderwagen und Rollstuhl nicht. Parkplatz an der Landstraße, vierhundert Meter zu Fuß. Bei Sturm und Gewitter zu.",
- "bilderAsset": "assets/images/trails/baumwipfelweg-bad-camberg/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelweg-bad-camberg/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Douglasie": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

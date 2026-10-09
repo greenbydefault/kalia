@@ -20,7 +20,14 @@
   "Torfmoos",
   "Kranich",
   "Eisvogel",
-  "Fischadler"
+  "Fischadler",
+  "Blässhuhn",
+  "Buchfink",
+  "Eichelhäher",
+  "Haubentaucher",
+  "Stockente",
+  "Amsel",
+  "Blaumeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -602,5 +609,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/kaeflingsberg-speck/credits.json"
+ "bilderAsset": "assets/images/trails/kaeflingsberg-speck/credits.json",
+ "lebensraeume": [
+  "eichen-mischwald",
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Kiefer": "belegt",
+  "Rotbuche": "belegt",
+  "Torfmoos": "belegt",
+  "Kranich": "belegt",
+  "Eisvogel": "belegt",
+  "Fischadler": "belegt",
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Haubentaucher": "typisch",
+  "Stockente": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch"
+ }
 }

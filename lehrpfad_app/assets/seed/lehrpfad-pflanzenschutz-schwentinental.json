@@ -15,7 +15,19 @@
  "startName": "Jahnstraße / Kleingarten",
  "arten": [
   "Honigbiene",
-  "Hummel"
+  "Hummel",
+  "Heckenrose",
+  "Kohlmeise",
+  "Kultur-Apfel",
+  "Eingriffeliger Weißdorn",
+  "Amsel",
+  "Blaumeise",
+  "Grünspecht",
+  "Schwarzer Holunder",
+  "Igel",
+  "Siebenpunkt-Marienkäfer",
+  "Rotkehlchen",
+  "Schlehe"
  ],
  "tags": [
   "kinderfreundlich",
@@ -191,5 +203,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Kleingärten nicht betreten. Freibad extra Eintritt, Saison. Wildpark extra, nicht dieser Pfad.",
  "hoertext": "An der Jahnstraße in Raisdorf stehen die Tafeln, direkt am Kleingarten. Frei, ohne Anmeldung. Zehn Stück, Klappen und Drehrad: Nützlinge statt Chemie. Der Bienenfutterautomat hängt am Weg. Das Freibad liegt daneben, der Wildpark ist extra. Nimm die Tafeln mit, bevor du schwimmen gehst.",
- "bilderAsset": "assets/images/trails/lehrpfad-pflanzenschutz-schwentinental/credits.json"
+ "bilderAsset": "assets/images/trails/lehrpfad-pflanzenschutz-schwentinental/credits.json",
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Honigbiene": "belegt",
+  "Hummel": "belegt",
+  "Heckenrose": "typisch",
+  "Kohlmeise": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Grünspecht": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Igel": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch",
+  "Rotkehlchen": "typisch",
+  "Schlehe": "typisch"
+ }
 }

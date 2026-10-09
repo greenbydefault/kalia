@@ -56,39 +56,40 @@ python3 tools/build_seed.py tools/trails/<id>.json
 
 Done: `assets/seed/<id>.json` existiert.
 
-## 6. arten[]
+## 6. Nearby
 
-Nur Datenfeld. Namen gegen `assets/seed/species.json` auflösen (Aliases). Texte zu Arten und Geräten gehören nicht in diesen Lauf (Skill `audio-art`).
+Orte in der Nähe sind ein globaler Katalog (`assets/seed/pois.json`). Zum Trail gehört ein Ort, wenn die **Auto-Fahrzeit** Trail-Start → Ort **höchstens 20 Min** beträgt (alle Kategorien, auch `camping`), nicht nach Kilometern. Die Zeiten liegen vorberechnet in `assets/seed/nearby_zeiten.json` (nie von Hand), die App routet nie selbst. Ohne Treffer bleibt das Accordion leer. Kuratierung und Felder: `docs/datenmodell.md` → Ort in der Nähe.
 
-HAVE-Lückenbestand (bestehende Trails): `lehrpfad_app/docs/arten-luecken.md`.
+1. `python3 tools/nearby_zeiten.py --trail <id> --report` → Treffer mit Minuten lesen. Vorhandene Orte wiederverwenden, nicht duplizieren.
+2. Lücken füllen aus Betreiber-Sites, OSM als Hinweis, Karte. Kategorien: `cafe`, `restaurant`, `hofladen`, `baden`, `museum`, `aktivitaet`, `camping`. Shape wie die Nachbarn in `pois.json`, `kurztext`: ein Satz Familien-Nutzen. Kandidaten nur nehmen, wenn die Familie nach dem Trail dort sinnvoll hinfährt (Café 10 km / 25 Min fällt raus).
+3. Neue Orte an `pois.json` anhängen, dann `python3 tools/nearby_zeiten.py --trail <id>` (schreibt die Datei). Ein neuer Ort kann auch Nachbar-Trails treffen: bei neuen Orten einmal `python3 tools/nearby_zeiten.py --all`. Ein Ort, der im Report nicht unter 20 Min kommt, ist kein Treffer: nicht aufnehmen oder wieder entfernen.
+4. `python3 tools/validate_seeds.py` (prüft auch `nearby_zeiten.json`).
 
-### Nachweis
+Router: öffentlicher OSRM-Demo-Server (`/table`, gedrosselt, Cache `tools/osm/nearby_cache.json`). Bei Ausfall `OSRM_URL=<eigene Instanz>` setzen.
 
-Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf dem Weg sehen, hören oder antreffen kann (Ort zuerst).
+Done: `nearby_zeiten.json` hat Einträge für `<id>`, jeder neue Ort steht dort mit ≤ 1200 s. Oder Research notiert „keine erreichbare Einkehr in 20 Min" mit Prüfung (leer nur nach Prüfung).
 
-1. Trail-eigen: Stationstexte, Betreiber-Site/PDF, Research „Arten“, Tafeln
-2. Schutzgebiet, in dem der Pfad liegt: NP-/Naturpark-Liste, NSG-VO, Natura-2000-SDF, Landesforst — nur wenn der Text den Ort meint
-3. Nicht: „typischer Wald“, iNaturalist/GBIF-Dump, Bundesland-Typik, Maskottchen, andere Schleife desselben Parks
+## 7. arten[]
 
-| Region | Quelle |
-|---|---|
-| Überall | Betreiber, Flyer, Tafel **dieses** Pfads |
-| DE in NP/NSG/FFH | Natura-2000-SDF (EEA/BfN), NP-Seiten |
-| DE Forst | Landesforst / Stadtforst **dieses** Reviers |
-| DK | GeoCenter / Naturstyrelsen-Gebiet; Arter.dk nur site-scharf |
-| ES/CAT | Parc / Diputació-Flyer dieser Route; nicht FloraCat-Dump |
+Skill `arten-pool`. Namen gegen `assets/seed/species.json` auflösen. Texte zu Arten und Geräten nicht in diesem Lauf (`audio-art` nur für Hörtext).
 
-Neue Art nur wenn der Name im Katalog fehlt. In diesem Schritt reicht Name + Lat + Quelle in Research — `content`/`hoertext` später mit `audio-art`, nicht beim HAVE-Gate.
+1. `lebensraeume` (1–3 Keys) und `naturraum` am Trail. Wasserspielplatz, Geo- und Steinpfad: `lebensraeume` leer.
+2. `python3 tools/arten_vorschlag.py --trail <id>` — Pool-Treffer, Katalog-Lücken, optional `--gbif` (25 km, nur Plausibilität).
+3. Ortsbelege aus Research/Tafel bleiben `belegt` und werden nicht vom Cap gestrichen. Stationsthema zählt als `belegt` (Amphibien-Station → Frosch aus dem passenden Pool).
+4. Ziel Flora ≥ 4, Fauna ≥ 6, weich 14, hart 16. Validator warnt darunter, blockiert nicht. Nacht-Arten nur bei Thema Fledermaus/Nacht/Eule.
+5. Lücke (Art im Pool, nicht im Katalog) → `tools/art_anlegen.py`, nicht von Hand. Typisch nur über den Pool, nie freihändig.
 
-Done: jeder Eintrag löst auf, jeder Eintrag hat eine Ortsquelle (Leiter 1 oder 2).
+Inventar der Ortsbelege: `lehrpfad_app/docs/arten-luecken.md`.
 
-## 7. hoertext
+Done: `arten[]` löst auf, `lebensraeume` und `naturraum` gesetzt, `artenNachweis` belegt|typisch, `validate_seeds.py` Exit 0.
+
+## 8. hoertext
 
 **Skill `audio-trail` ausführen** (Spec `tools/TRAIL_HOERTEXT.md`, Prüfung `klang.py`). `hoertext` in die Config, Seed neu bauen. Der Lesetext aus Schritt 4 ist Rohstoff, nicht Vorlage: kein Satz wörtlich übernehmen (`scan.py` prüft Wortfolgen).
 
 Done: Feld gesetzt, `klang.py` und `scan.py <id>` grün.
 
-## 8. Validate
+## 9. Validate
 
 ```
 python3 tools/validate_seeds.py
@@ -96,7 +97,7 @@ python3 tools/validate_seeds.py
 
 Exit 0. Rot → Seed/Config/`arten[]`, nicht das Script.
 
-## 9. Hero
+## 10. Hero
 
 `credits.json`-Shape: `assets/images/trails/waldhusen/credits.json`.
 
@@ -108,22 +109,24 @@ dart run tool/ingest_images.dart <id>
 
 Done: drei `.avif` pro File, `file` in credits bleibt der Slug.
 
-## 10. Registry
+## 11. Registry
 
 - `lib/features/trail/data/seed_trail_repository.dart` → `_seedPaths`
 - `pubspec.yaml` → `- assets/images/trails/<id>/`
 
 Done: beide Zeilen da.
 
-## 11. Supabase
+## 12. Supabase
 
 `SUPABASE_URL` + `SUPABASE_SERVICE_KEY` gesetzt → `python3 tools/seed_supabase.py assets/seed/<id>.json`.
 
 Sonst: `Read tools/seed_supabase.py`, gleicher Upsert über MCP `user-supabase-ako`.
 
-Done: Trail-Row + Stationen + amenities + trail_species.
+`pois.json` oder `nearby_zeiten.json` geändert (Schritt 6) → zusätzlich `python3 tools/seed_pois.py --trail <id>` (bei neuen Orten ohne `--trail`): Upsert `pois`, dann `trail_pois` des Trails löschen und neu setzen. Ohne Service-Key: gleicher Ablauf über MCP `user-supabase-ako` (`delete from trail_pois where trail_id = …`, dann insert).
 
-## 12. Trello
+Done: Trail-Row + Stationen + amenities + trail_species; bei neuen Orten auch `pois`, immer `trail_pois` für `<id>`.
+
+## 13. Trello
 
 - Regionen: Item **HAVE**
 - Audio: 1 Karte = 1 Seed, Checkliste Hörtext · Sound. Haken nach Commit.
@@ -131,13 +134,12 @@ Done: Trail-Row + Stationen + amenities + trail_species.
 
 Done: Regionen + Audio stehen. Checks ungehabt bis Commit.
 
-## 13. Live
+## 14. Live
 
 Push auf `github` laut `docs/golive/vercel.md`. Nicht dieser Skill’s Job, außer User sagt push.
 
 ## Branch
 
-- Nearby 20 km (Camping 5 km) → `assets/seed/pois.json` + `python3 tools/seed_pois.py`
 - Go-Bar unklar → `docs/traumdatensatz.md`
 - Lizenzfeld nach Nachbar-credits unklar → `docs/datenmodell.md` TrailBild
 - Stimme, Wortliste (Lese- und Hörtext) → `docs/stimme.md`; Ohr-Form → `docs/audio/GRUND.md`

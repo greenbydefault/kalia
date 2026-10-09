@@ -18,7 +18,16 @@
   "Knabenkraut",
   "Wanderfalke",
   "Seeadler",
-  "Kranich"
+  "Kranich",
+  "Buchfink",
+  "Kohlmeise",
+  "Sanddorn",
+  "Strandhafer",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Besenheide"
  ],
  "tags": [
   "kinderfreundlich"
@@ -763,5 +772,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/stubbenkammer-koenigsstuhl/credits.json"
+ "bilderAsset": "assets/images/trails/stubbenkammer-koenigsstuhl/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "duene-strand"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Knabenkraut": "belegt",
+  "Wanderfalke": "belegt",
+  "Seeadler": "belegt",
+  "Kranich": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Sanddorn": "typisch",
+  "Strandhafer": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Besenheide": "typisch"
+ }
 }

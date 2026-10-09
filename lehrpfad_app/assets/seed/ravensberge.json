@@ -23,7 +23,11 @@
   "Honigbiene",
   "Libelle",
   "Zauneidechse",
-  "Buntspecht"
+  "Buntspecht",
+  "Hängebirke",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Eberesche"
  ],
  "tags": [
   "kinderfreundlich"
@@ -1236,5 +1240,25 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/ravensberge/credits.json"
+ "bilderAsset": "assets/images/trails/ravensberge/credits.json",
+ "lebensraeume": [
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rote Waldameise": "belegt",
+  "Wildbiene": "belegt",
+  "Hummel": "belegt",
+  "Igel": "belegt",
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Honigbiene": "belegt",
+  "Libelle": "belegt",
+  "Zauneidechse": "belegt",
+  "Buntspecht": "belegt",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Eberesche": "typisch"
+ }
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-aussichtsturm.jpg",
+    "caption": "Aussichtsturm an der Moorstation Nicklheim, Holzbohlen führen durch die Filze zum Turm.",
+    "credit": "Thomas Wallner",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AussichtsturmMoorstationNicklheim.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-handtorfstich.jpg",
+    "caption": "Schau-Handtorfstich in der Nicklheimer Filze, der Torf wird hier nur noch von Hand gestochen.",
+    "credit": "Thomas W.",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handtorfstich_NIcklheim.jpg",
+    "kind": "ort"
+  }
+]

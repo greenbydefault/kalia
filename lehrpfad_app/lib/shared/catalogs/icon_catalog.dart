@@ -213,6 +213,7 @@ const speciesGruppeKatalog = <String, KatalogEintrag>{
   'straeucher': KatalogEintrag(PhosphorIcons.plant, 'Sträucher'),
   'kraeuter': KatalogEintrag(PhosphorIcons.flower, 'Kräuter'),
   'moose': KatalogEintrag(PhosphorIcons.plant, 'Moose'),
+  'pilze': KatalogEintrag(PhosphorIcons.plant, 'Pilze'),
 };
 
 /// Seltenheit auf unseren Trails (Species `seltenheit`).

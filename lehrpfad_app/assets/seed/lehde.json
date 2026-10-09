@@ -20,7 +20,14 @@
   "Fischotter",
   "Rotbauchunke",
   "Schwarzerle",
-  "Sumpfdotterblume"
+  "Sumpfdotterblume",
+  "Gemeine Esche",
+  "Stieleiche",
+  "Stockente",
+  "Amsel",
+  "Blaumeise",
+  "Buchfink",
+  "Grasfrosch"
  ],
  "tags": [
   "kinderfreundlich",
@@ -2381,5 +2388,26 @@
    "name": "die Fischhütte"
   }
  ],
- "bilderAsset": "assets/images/trails/lehde/credits.json"
+ "bilderAsset": "assets/images/trails/lehde/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Eisvogel": "belegt",
+  "Biber": "belegt",
+  "Kranich": "belegt",
+  "Fischotter": "belegt",
+  "Rotbauchunke": "belegt",
+  "Schwarzerle": "belegt",
+  "Sumpfdotterblume": "belegt",
+  "Gemeine Esche": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buchfink": "typisch",
+  "Grasfrosch": "typisch"
+ }
 }

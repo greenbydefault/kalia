@@ -14,7 +14,20 @@
  "anreise": "Adresse: Radstein 2, 96157 Ebrach. GPS 49.85041, 10.46300. B22 zwischen Bamberg und Würzburg, Beschilderung folgen; Waldwege für PKW gesperrt. Parkplatz an der B22 kostenfrei, ca. 5 Minuten zu Fuß; bei Andrang Ausweichparkplatz südlich der B22. Behindertenparkplätze näher am Eingang, ausgeschildert. Bus VGN 930 Steigerwald-Express, Halt Ebrach Baumwipfelpfad / Waldrandparkplatz Radstein. Zwei E-Auto-Säulen am Parkplatz, sechs E-Bike-Säulen am Verwaltungsgebäude (Kabel selbst). Fahrradständer und Reparaturstation am Gebäude.",
  "startName": "Kasse Radstein",
  "arten": [
-  "Rotbuche"
+  "Rotbuche",
+  "Eichhörnchen",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Gemeine Esche",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -472,5 +485,25 @@
  "oeffnungszeiten": "Sommer 29.3.–24.10.2026 täglich 9–18 Uhr, letzter Einlass 17. Winter 25.10.2026–27.3.2027 täglich 10–16 Uhr, letzter Einlass 15. 24.–26.12., 31.12. und 1.1. zu. 7.10.2026 zu (interne Veranstaltung). Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "2026 Teilsperrung: einzelne Abschnitte zu, Turm und der überwiegende Teil offen; Eingang währenddessen am Ausgang, ab der Kasse den Schildern folgen. Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen am Eingang, Schloss selbst mitbringen. Pfad und Turm ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Leihrollstuhl kostenfrei, vorher Verwaltung. Laufrad, Fahrrad, Inliner nicht auf den Steg. Tickets nur bargeldlos am Automaten oder online. Letzter Einlass 1 Stunde vor Schluss. Wipfel-App vor Ort oder daheim. Münzgeld für Kugel- und Futterautomat.",
  "hoertext": "Im Ebracher Forst hängt der Steg zwischen alten Buchen, der Kelchturm bringt dich ohne Stufe auf zweiundvierzig Meter. Oben der Steigerwald, unten die Kronen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben in der Box – Schloss selbst mitbringen. Tickets nur bargeldlos. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden, Wildgehege und Kugelpfad extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-steigerwald/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-steigerwald/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Eichhörnchen": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

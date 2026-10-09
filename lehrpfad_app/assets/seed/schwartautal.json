@@ -14,15 +14,21 @@
  "anreise": "Start Übersichtskarte am Kurparksee, Am Kurpark / Holstein Therme, 23611 Bad Schwartau. Parken am Parkhaus der Klinik und an der Geibelstraße. Zweiter Einstieg: Parkplatz Riesebusch, Höhe Grünes Klassenzimmer. Bus nach Bad Schwartau Markt, nicht die Haltestellen im Lübecker Lauerholz.",
  "startName": "Übersichtskarte / Kurparksee",
  "arten": [
-    "Schwarzerle",
-    "Rotbuche",
-    "Libelle",
-    "Honigbiene",
-    "Wildbiene",
-    "Igel",
-    "Kultur-Apfel",
-    "Kammmolch"
-  ],
+  "Schwarzerle",
+  "Rotbuche",
+  "Libelle",
+  "Honigbiene",
+  "Wildbiene",
+  "Igel",
+  "Kultur-Apfel",
+  "Kammmolch",
+  "Erdkröte",
+  "Gemeine Esche",
+  "Grasfrosch",
+  "Schilf",
+  "Stieleiche",
+  "Stockente"
+ ],
  "tags": [
   "kinderfreundlich"
  ],
@@ -449,5 +455,26 @@
   }
  ],
  "hoertext": "Am Kurparksee hängt die Karte, der Zaunkönig auf den runden Schildern zeigt den Weg. Zweieinhalb Kilometer, frei, ohne Anmeldung. Im Wald eine Reisigburg und ein Baumtelefon, später ein Bohlenweg aus Holz, nass und schmal. Das Grüne Klassenzimmer liegt in der Endstrecke, Bänke am Hang. Bleib auf den Stegen, der Boden nebenan ist Moor.",
- "bilderAsset": "assets/images/trails/schwartautal/credits.json"
+ "bilderAsset": "assets/images/trails/schwartautal/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "teich-tuempel"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Schwarzerle": "belegt",
+  "Rotbuche": "belegt",
+  "Libelle": "belegt",
+  "Honigbiene": "belegt",
+  "Wildbiene": "belegt",
+  "Igel": "belegt",
+  "Kultur-Apfel": "belegt",
+  "Kammmolch": "belegt",
+  "Erdkröte": "typisch",
+  "Gemeine Esche": "typisch",
+  "Grasfrosch": "typisch",
+  "Schilf": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch"
+ }
 }

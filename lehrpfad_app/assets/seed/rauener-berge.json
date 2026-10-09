@@ -19,7 +19,15 @@
   "Stieleiche",
   "Kiefer",
   "Robinie",
-  "Bergahorn"
+  "Bergahorn",
+  "Buchfink",
+  "Eichelhäher",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Kohlmeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -740,5 +748,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/rauener-berge/credits.json"
+ "bilderAsset": "assets/images/trails/rauener-berge/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rote Waldameise": "belegt",
+  "Europäische Lärche": "belegt",
+  "Stieleiche": "belegt",
+  "Kiefer": "belegt",
+  "Robinie": "belegt",
+  "Bergahorn": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch"
+ }
 }

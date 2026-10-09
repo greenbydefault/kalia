@@ -22,7 +22,12 @@
   "Rote Waldameise",
   "Igel",
   "Seeadler",
-  "Fischadler"
+  "Fischadler",
+  "Teichfrosch",
+  "Hängebirke",
+  "Heidelbeere",
+  "Schilf",
+  "Adlerfarn"
  ],
  "tags": [
   "kinderfreundlich",
@@ -366,5 +371,26 @@
    "name": "Waldmuseum Stendenitz"
   }
  ],
- "bilderAsset": "assets/images/trails/stendenitz/credits.json"
+ "bilderAsset": "assets/images/trails/stendenitz/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Rotbuche": "belegt",
+  "Biber": "belegt",
+  "Kranich": "belegt",
+  "Rote Waldameise": "belegt",
+  "Igel": "belegt",
+  "Seeadler": "belegt",
+  "Fischadler": "belegt",
+  "Teichfrosch": "belegt",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Schilf": "typisch",
+  "Adlerfarn": "typisch"
+ }
 }

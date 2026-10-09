@@ -19,7 +19,15 @@
   "Douglasie",
   "Europäische Lärche",
   "Kiefer",
-  "Buntspecht"
+  "Buntspecht",
+  "Eichhörnchen",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Eichelhäher",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -516,5 +524,26 @@
  "oeffnungszeiten": "Täglich 10–18 Uhr, letzter Einlass 17 Uhr (baumkronenweg.de). Februar Sa+So 10–16. Saison Outdooractive 1.3.–31.10.2026. Bei Extremwetter zu, Tel. 05623 9737977.",
  "besuchshinweise": "Steg und Eichhörnchenpfad ohne Stufen, Rollstuhl und Kinderwagen. Hunde an der Leine. WC im Kassenhaus, laut FAQ behindertengerecht. Kiosk an der Kasse. Kletterwald, Wildpark und NationalparkZentrum extra. Letzter Einlass 17 Uhr.",
  "hoertext": "Am Eschelberg überm Edersee. Ticket an der Kasse, dann der Eichhörnchenpfad zum Steg – siebenhundertfünfzig Meter, ohne Stufen. Oben zweihundertfünfzig Meter Holz, dreißig hoch. Kinderwagen und Rollstuhl mit, Hund an der Leine. Der See und Schloss Waldeck liegen vor dir. Wildpark extra. Letzter Einlass siebzehn Uhr.",
- "bilderAsset": "assets/images/trails/treetopwalk-edersee/credits.json"
+ "bilderAsset": "assets/images/trails/treetopwalk-edersee/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "see-ufer"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Hainbuche": "belegt",
+  "Douglasie": "belegt",
+  "Europäische Lärche": "belegt",
+  "Kiefer": "belegt",
+  "Buntspecht": "belegt",
+  "Eichhörnchen": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

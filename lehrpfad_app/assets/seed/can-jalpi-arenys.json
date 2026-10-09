@@ -16,7 +16,18 @@
  "arten": [
   "Stieleiche",
   "Steineiche",
-  "Stockente"
+  "Stockente",
+  "Aleppokiefer",
+  "Erdbeerbaum",
+  "Pinie",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Korkeiche",
+  "Mauereidechse",
+  "Mittelmeermöwe",
+  "Rosmarin",
+  "Montpellier-Zistrose",
+  "Schwalbenschwanz"
  ],
  "tags": [
   "kinderfreundlich",
@@ -213,5 +224,26 @@
  "oeffnungszeiten": "Park frei. Infohaus Werktags oft nur nach Anmeldung.",
  "besuchshinweise": "Burg nur von außen, innen Restaurant. SL-C 76 ist Wanderarm, extra. Jalpí Aventura ist Hochseil, Ticket. Hunde anleinen.",
  "hoertext": "Arenys de Munt, C-61, großer Parkplatz. Spiel, Tische, ein Tümpel mit Vögeln. Frei, ohne Ticket. Das Infohaus ist oft zu, der Park nicht. Oben der See, die Burg nur von außen, innen isst man. Der SL-C 76 geht in den Corredor, den brauchst du nicht. Jalpí Aventura ist Hochseil, extra.",
- "bilderAsset": "assets/images/trails/can-jalpi-arenys/credits.json"
+ "bilderAsset": "assets/images/trails/can-jalpi-arenys/credits.json",
+ "lebensraeume": [
+  "mediterraner-wald",
+  "teich-tuempel"
+ ],
+ "naturraum": "katalonien",
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Steineiche": "belegt",
+  "Stockente": "belegt",
+  "Aleppokiefer": "typisch",
+  "Erdbeerbaum": "typisch",
+  "Pinie": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Korkeiche": "typisch",
+  "Mauereidechse": "typisch",
+  "Mittelmeermöwe": "typisch",
+  "Rosmarin": "typisch",
+  "Montpellier-Zistrose": "typisch",
+  "Schwalbenschwanz": "typisch"
+ }
 }

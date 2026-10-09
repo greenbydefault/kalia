@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Kiefer",
-  "Seeadler"
+  "Seeadler",
+  "Buntspecht",
+  "Buchfink",
+  "Heidelbeere",
+  "Kohlmeise",
+  "Stieleiche",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Adlerfarn",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -303,5 +314,26 @@
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Steg, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Rollstuhl und Rollator nach Anmeldung, Einstieg mit Aufzug. Letzter Einlass eine Stunde vor Schluss. Bei Gewitter, Hagel, Sturm und Eis geschlossen.",
  "hoertext": "Gleich neben dem Bahnhof von Heringsdorf beginnt ein Holzsteg, und er hat es nicht eilig. Ganz allmählich steigt er durch Buchen und Kiefern, bis die Kronen auf Augenhöhe rauschen. An einer Stelle federn die Bretter. Auf dem Präsidentenberg wartet der Turm, und um ihn windet sich der Weg, Runde um Runde und ohne eine einzige Stufe, bis er hoch oben in ein Netz mündet. Wer sich hineinlegt, sieht durch die Maschen hinunter in den Wald. Und wer den Kopf hebt, hat die Ostsee vor sich. Spät sollte man allerdings nicht kommen, denn eine Stunde vor Schluss schließt unten die Kasse.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-usedom/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-usedom/credits.json",
+ "lebensraeume": [
+  "kuestenwald-kiefer",
+  "buchenwald"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Kiefer": "belegt",
+  "Seeadler": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Heidelbeere": "typisch",
+  "Kohlmeise": "typisch",
+  "Stieleiche": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch"
+ }
 }

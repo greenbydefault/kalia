@@ -18,7 +18,16 @@
   "Rotbuche",
   "Stieleiche",
   "Hainbuche",
-  "Waldkiefer"
+  "Waldkiefer",
+  "Buchfink",
+  "Eichelhäher",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Kohlmeise",
+  "Mittelspecht"
  ],
  "tags": [
   "kinderfreundlich",
@@ -536,5 +545,26 @@
  ],
  "besuchshinweise": "Steine 25 bis 44 sind gesperrt, Stand Dezember 2024, unbefristet. Äste und Bäume brechen. Die Stadt rät vom Besuch ab, besonders in Gruppen. Wald auf eigene Gefahr. Am Kiefernbestand, Stein 24, umkehren.",
  "hoertext": "An der Straße Waldkater stehen weiße Steine mit roten Zahlen, der Weg trägt einen roten Balken. Bis Stein 24 läufst du auf Porphyrgrus, links liegt ein Hockergrab aus der Jungsteinzeit. Danach ist Schluss. Die Steine 25 bis 44 an Kuhberg, Langer Berg und Kellerberg sind gesperrt. Die Stadt rät vom Besuch ab, weil Äste brechen. Wer geht, kehrt am Kiefernbestand um.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-i/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-i/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Robinie": "belegt",
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Hainbuche": "belegt",
+  "Waldkiefer": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Mittelspecht": "typisch"
+ }
 }

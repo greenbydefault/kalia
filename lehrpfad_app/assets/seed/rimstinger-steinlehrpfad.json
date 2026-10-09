@@ -1349,5 +1349,11 @@
  "oeffnungszeiten": "Weg jederzeit frei, ohne Anmeldung. Strandkiosk Anfang Mai bis Ende September, je nach Witterung. Hütte an der Prienmündung nur bei Führungen.",
  "besuchshinweise": "Steine dürfen angefasst und bestiegen werden. Die Hütte an der Prienmündung ist nur bei Führungen offen. Vom Parkplatz Strandanlage sind es etwa 1 km bis dorthin, geeignet für Kinderwagen und Rollstuhl. Strandkiosk von Mai bis September.",
  "hoertext": "Hinter der Kirche von Rimsting senkt sich der Weg zur Prien, und am Ufer ruhen Steine von weit her. Ein Gletscher trug sie aus den Zentralalpen heran, auf dem Rücken des Eises. Gneis lagert darunter, mindestens 290 Millionen Jahre alt, daneben Granit, Sandstein und Kalk aus Korallen. Anfassen darf jeder. Flussabwärts weitet sich das Ufer, bis die Prien in den Chiemsee mündet, dort, wo eine Hütte an ein Bootshaus erinnert und an einzelnen Sonntagen ein Vogelführer die Bucht zeigt. Wer Badesachen dabeihat, erreicht nach dem letzten Stein gleich das Wasser.",
- "bilderAsset": "assets/images/trails/rimstinger-steinlehrpfad/credits.json"
+ "bilderAsset": "assets/images/trails/rimstinger-steinlehrpfad/credits.json",
+ "lebensraeume": [],
+ "naturraum": "alpenvorland",
+ "artenNachweis": {
+  "Stockente": "belegt",
+  "Biber": "belegt"
+ }
 }

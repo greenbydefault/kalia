@@ -17,7 +17,17 @@
   "Kiefer",
   "Stieleiche",
   "Rote Waldameise",
-  "Igel"
+  "Igel",
+  "Buchfink",
+  "Eichelhäher",
+  "Hängebirke",
+  "Hainbuche",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -393,5 +403,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/wolfspfad-zwenzow/credits.json"
+ "bilderAsset": "assets/images/trails/wolfspfad-zwenzow/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Rote Waldameise": "belegt",
+  "Igel": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hängebirke": "typisch",
+  "Hainbuche": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch"
+ }
 }

@@ -14,13 +14,21 @@
  "anreise": "Start Parkplatz Sportplatz, Mellener Weg, 19357 Boberow / Karstädt. Auto über Karstädt, Parken am Sportplatz. Alternative: Kirche Rambow oder Großsteingrab Mellen. ÖPNV: Bahnhof Karstädt, Bus 953 Richtung Lenzen, Bus 975 ab ZOB Perleberg nach Boberow. Wahrberge startet in Groß Woltersdorf, das ist der andere Prignitz-Pfad.",
  "startName": "Sportplatz Boberow / Mellener Weg",
  "arten": [
-    "Kranich",
-    "Großer Feuerfalter",
-    "Wollgras",
-    "Knabenkraut",
-    "Schwarzerle",
-    "Bekassine"
-  ],
+  "Kranich",
+  "Großer Feuerfalter",
+  "Wollgras",
+  "Knabenkraut",
+  "Schwarzerle",
+  "Bekassine",
+  "Moorfrosch",
+  "Torfmoos",
+  "Rundblättriger Sonnentau",
+  "Erdkröte",
+  "Glockenheide",
+  "Grasfrosch",
+  "Große Moosjungfer",
+  "Libelle"
+ ],
  "tags": [
   "kinderfreundlich",
   "hunde-erlaubt",
@@ -613,5 +621,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Wege nicht verlassen. Hunde anleinen. Nass nach Regen, kein Rollstuhl. Naturwacht-Touren extra.",
  "hoertext": "Am Sportplatz in Boberow fängt die Runde an. Zwölf Kilometer, gelber Punkt, frei. Zwei Türme: Moorblick Boberow, der Rohrdommelturm, und Moorblick Rambow. Wege nicht verlassen, die Tiere sitzen im Schilf. Im Herbst trompeten die Kraniche über dem Moor. Die Touren der Naturwacht sind extra.",
- "bilderAsset": "assets/images/trails/zweiseitenweg-rambow/credits.json"
+ "bilderAsset": "assets/images/trails/zweiseitenweg-rambow/credits.json",
+ "lebensraeume": [
+  "moor"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kranich": "belegt",
+  "Großer Feuerfalter": "belegt",
+  "Wollgras": "belegt",
+  "Knabenkraut": "belegt",
+  "Schwarzerle": "belegt",
+  "Bekassine": "belegt",
+  "Moorfrosch": "typisch",
+  "Torfmoos": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Erdkröte": "typisch",
+  "Glockenheide": "typisch",
+  "Grasfrosch": "typisch",
+  "Große Moosjungfer": "typisch",
+  "Libelle": "typisch"
+ }
 }

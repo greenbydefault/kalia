@@ -20,7 +20,14 @@
   "Eisvogel",
   "Hummel",
   "Seeadler",
-  "Fischadler"
+  "Fischadler",
+  "Blässhuhn",
+  "Buchfink",
+  "Eichelhäher",
+  "Hängebirke",
+  "Hainbuche",
+  "Haubentaucher",
+  "Heidelbeere"
  ],
  "tags": [
   "kinderfreundlich",
@@ -556,5 +563,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/spurenweg-kratzeburg/credits.json"
+ "bilderAsset": "assets/images/trails/spurenweg-kratzeburg/credits.json",
+ "lebensraeume": [
+  "eichen-mischwald",
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Kiefer": "belegt",
+  "Igel": "belegt",
+  "Eisvogel": "belegt",
+  "Hummel": "belegt",
+  "Seeadler": "belegt",
+  "Fischadler": "belegt",
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hängebirke": "typisch",
+  "Hainbuche": "typisch",
+  "Haubentaucher": "typisch",
+  "Heidelbeere": "typisch"
+ }
 }

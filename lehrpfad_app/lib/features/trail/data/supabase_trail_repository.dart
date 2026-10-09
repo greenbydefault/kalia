@@ -18,7 +18,7 @@ class SupabaseTrailRepository implements TrailRepository {
   static const _columns = 'id, name, typ, form, kurzbeschreibung, beschreibung, '
       'laenge_km, dauer_min, rundkurs, markierung, betreiber, region, website, '
       'eintritt, eintritt_preise, oeffnungszeiten, besuchshinweise, '
-      'anreise, start_name, arten, tags, route, area, '
+      'anreise, start_name, arten, lebensraeume, naturraum, tags, route, area, '
       'stations(id, osm_id, lat, lon, km, reihenfolge, titel, thema, kurztext, '
       'erlebnisse, barrierefrei, steckbrief), '
       'amenities(osm_id, lat, lon, kategorie, name)';
@@ -61,6 +61,8 @@ class SupabaseTrailRepository implements TrailRepository {
     'anreise': row['anreise'],
     'startName': row['start_name'],
     'arten': row['arten'] ?? const <String>[],
+    'lebensraeume': row['lebensraeume'] ?? const <String>[],
+    'naturraum': row['naturraum'] ?? '',
     'tags': row['tags'] ?? const <String>[],
     'form': row['form'],
     'route': row['route'] ?? const <dynamic>[],

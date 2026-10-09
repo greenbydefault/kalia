@@ -124,5 +124,8 @@
  "oeffnungszeiten": "Ganzjährig frei. Wasser nur, wenn das Schichtenwasser reicht.",
  "besuchshinweise": "Wechselkleidung mitnehmen. Die Pumpe holt Schichtenwasser und ist nicht immer nass.",
  "hoertext": "Unter den Bäumen am Bahnhof Oberholz steht die Schwengelpumpe. Sie holt Schichtenwasser, und das ist hier nicht immer da. Wenn sie läuft, matschst du direkt daneben. Nimm Wechselkleidung mit. Der RB 113 hält in Oberholz nur auf Zuruf. Die Büffeltränke ist ein paar Schritte die Straße runter. Der Naturlehrpfad durch den Wald ist ein anderer Weg.",
- "bilderAsset": "assets/images/trails/wasserspielplatz-oberholz/credits.json"
+ "bilderAsset": "assets/images/trails/wasserspielplatz-oberholz/credits.json",
+ "lebensraeume": [],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {}
 }

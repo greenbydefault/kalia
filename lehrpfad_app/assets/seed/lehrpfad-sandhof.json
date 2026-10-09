@@ -20,7 +20,14 @@
   "Kranich",
   "Libelle",
   "Seeadler",
-  "Fischadler"
+  "Fischadler",
+  "Besenheide",
+  "Blässhuhn",
+  "Buchfink",
+  "Hängebirke",
+  "Haubentaucher",
+  "Heidelbeere",
+  "Heidelerche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -335,5 +342,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/lehrpfad-sandhof/credits.json"
+ "bilderAsset": "assets/images/trails/lehrpfad-sandhof/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "see-ufer",
+  "heide"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Fischotter": "belegt",
+  "Kranich": "belegt",
+  "Libelle": "belegt",
+  "Seeadler": "belegt",
+  "Fischadler": "belegt",
+  "Besenheide": "typisch",
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Haubentaucher": "typisch",
+  "Heidelbeere": "typisch",
+  "Heidelerche": "typisch"
+ }
 }

@@ -16,7 +16,18 @@
  "arten": [
   "Igel",
   "Hummel",
-  "Heckenrose"
+  "Heckenrose",
+  "Kohlmeise",
+  "Kultur-Apfel",
+  "Eingriffeliger Weißdorn",
+  "Amsel",
+  "Blaumeise",
+  "Grünspecht",
+  "Schwarzer Holunder",
+  "Honigbiene",
+  "Siebenpunkt-Marienkäfer",
+  "Rotkehlchen",
+  "Schlehe"
  ],
  "tags": [
   "kinderfreundlich",
@@ -211,5 +222,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
  "besuchshinweise": "Kein Winterdienst, nass rutschig, kein Rollstuhl. Nicht mit dem Auto in den Alten Kirchenstieg. Kleingärten nicht betreten. Klassenzimmer-Häuschen extra, Anmeldung.",
  "hoertext": "Am Kreisel Klausdorfer Weg hängt die Waldmaus. Alter Kirchenstieg, Kleingarten Ellerbek, frei. Fünfunddreißig Tafeln, die Lösung steht kopfüber in der Ecke. Auto bleibt am Aldi, Philipp-Reis-Weg, nicht in den Steig. Nass wird der Weg glatt, Rollstuhl kommt nicht durch. Die Hecke am Rehsenbach ist der Knick, da sitzen die Vögel.",
- "bilderAsset": "assets/images/trails/naturerlebnispfad-ellerbek/credits.json"
+ "bilderAsset": "assets/images/trails/naturerlebnispfad-ellerbek/credits.json",
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Igel": "belegt",
+  "Hummel": "belegt",
+  "Heckenrose": "belegt",
+  "Kohlmeise": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Grünspecht": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Honigbiene": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch",
+  "Rotkehlchen": "typisch",
+  "Schlehe": "typisch"
+ }
 }

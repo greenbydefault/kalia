@@ -27,7 +27,9 @@
   "Konik",
   "Seeadler",
   "Fischadler",
-  "Zauneidechse"
+  "Zauneidechse",
+  "Hängebirke",
+  "Heidelbeere"
  ],
  "tags": [
   "kinderfreundlich",
@@ -675,5 +677,28 @@
    "kategorie": "shelter",
    "name": null
   }
- ]
+ ],
+ "lebensraeume": [
+  "heide",
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Besenheide": "belegt",
+  "Wiedehopf": "belegt",
+  "Heidelerche": "belegt",
+  "Ziegenmelker": "belegt",
+  "Rote Röhrenspinne": "belegt",
+  "Heidekraut-Seidenbiene": "belegt",
+  "Braunkehlchen": "belegt",
+  "Neuntöter": "belegt",
+  "Steinschmätzer": "belegt",
+  "Kiefer": "belegt",
+  "Konik": "belegt",
+  "Seeadler": "belegt",
+  "Fischadler": "belegt",
+  "Zauneidechse": "belegt",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch"
+ }
 }

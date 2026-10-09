@@ -14,14 +14,21 @@
  "anreise": "Buslinien 1 und 11 bis Bad Homburg-Dornholzhausen Landgraf-Friedrich-Straße, dann etwa zehn Minuten Fußweg zum Hammelhansweg. Auto: nach Dornholzhausen, im Ort parken – nicht auf Weiden oder Gestütszufahrten.",
  "startName": "Hammelhansweg / Übersichtstafel",
  "arten": [
-    "Rotbuche",
-    "Stieleiche",
-    "Fichte",
-    "Schwarzerle",
-    "Kiefer",
-    "Schaf",
-    "Kultur-Apfel"
-  ],
+  "Rotbuche",
+  "Stieleiche",
+  "Fichte",
+  "Schwarzerle",
+  "Kiefer",
+  "Schaf",
+  "Kultur-Apfel",
+  "Buchfink",
+  "Kohlmeise",
+  "Eisvogel",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher"
+ ],
  "tags": [
   "kinderfreundlich"
  ],
@@ -596,5 +603,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/braumannswiesen/credits.json"
+ "bilderAsset": "assets/images/trails/braumannswiesen/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "streuobst-hecke",
+  "auwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Fichte": "belegt",
+  "Schwarzerle": "belegt",
+  "Kiefer": "belegt",
+  "Schaf": "belegt",
+  "Kultur-Apfel": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch"
+ }
 }

@@ -1,20 +1,25 @@
 # Arten-Lücken HAVE
 
-Stand 2026-09-19 (Link-Pass + Katalog-Welle 1). Inventar bleibt die Nachweis-Quelle. `arten[]` der Link-Lücken, Ist-prüfen-Streichungen und Welle-1-Joins stehen in den Seeds.
+Stand 2026-10-09. Das Inventar unten bleibt die Quelle für **belegt** (Tafel, Betreiber, Schutzgebiet dieses Orts). **Typisch** kommt nur aus dem Pool `assets/seed/art_pools.json` (Lebensraum × Naturraum), nie freihändig und nie aus einem GBIF-Dump. Die App zeigt die Stufe nicht.
 
-Arbeit: [arten-link](https://trello.com/c/uiRVDUk0) · Katalog: [arten-katalog](https://trello.com/c/fzqOiK3a). Inventar: [arten-der-trails](https://trello.com/c/0H25mOgs) (Review).
+Arbeit: [arten-pool](https://trello.com/c/SgCeNmXr) · [arten-link](https://trello.com/c/uiRVDUk0) · Katalog: [arten-katalog](https://trello.com/c/fzqOiK3a). Inventar: [arten-der-trails](https://trello.com/c/0H25mOgs).
 
 ## Was das ist
 
-Inventar: welcher HAVE-Trail welche Art **am Ort belegt** noch nicht hat. Link-Pass 2026-09-19 hat Katalogarten in `arten[]` gehängt, wo die Leiter schon grün war. Welle 1 hängt fünf Mehrfach-Arten (Kultur-Apfel, Hainbuche, Kammmolch, Bekassine, Weißtanne). Median Flora/Fauna **4**. Summe Zuordnungen ~303 (inkl. Geräte). Katalog: **27 Flora / 45 Fauna**.
+Zwei Stufen in `artenNachweis` / `trail_species.nachweis`:
 
-## Nachweis-Leiter
+- **belegt** — dieser Ort trägt die Art (Station, Tafel, Betreiber, SDF des Gebiets). Das Inventar hier.
+- **typisch** — Pool-Treffer für `lebensraeume` × `naturraum`, Familie kann sie antreffen. Skill `arten-pool`, Skript `tools/arten_vorschlag.py`.
 
-Aufnahme nur, wenn **dieser Ort** die Art trägt **und** eine Familie sie auf dem Weg sehen, hören oder antreffen kann ([`SPECIES_CONTENT.md`](../tools/SPECIES_CONTENT.md): Ort zuerst).
+Katalog 2026-10-09: **70 Flora / 96 Fauna / 13 Geräte**, davon 92 Kurzprofile (`content.tiefe: kurz`, ohne Hörtext).
 
-1. Trail-eigen: Stationstexte, Betreiber-Site/PDF, Research „Arten“, Tafeln
+## Nachweis
+
+Belegt nur, wenn **dieser Ort** die Art trägt und eine Familie sie sehen, hören oder antreffen kann.
+
+1. Trail-eigen: Stationstexte, Betreiber-Site/PDF, Research „Arten“, Tafeln. Ein Stationsthema („Amphibien“) belegt die passende Art aus dem Pool.
 2. Schutzgebiet, in dem der Pfad liegt: NP-/Naturpark-Liste, NSG-VO, Natura-2000-SDF, Landesforst — nur wenn der Text den **Ort** meint, nicht das Bundesland
-3. Nicht: „typischer deutscher Wald“, iNaturalist/GBIF-Dump, ein Punkt 8 km daneben, Maskottchen, Comic, andere Schleife desselben Parks
+3. Typisch: nur `art_pools.json`. Nicht: „typischer deutscher Wald“ aus dem Kopf, iNaturalist/GBIF als Quelle, Maskottchen, Comic, andere Schleife desselben Parks. GBIF im 25-km-Radius ist Plausibilität (`--gbif`), keine Aufnahmequelle.
 
 Kalia ist kein iNaturalist ([`oeffentlich/GRUND.md`](oeffentlich/GRUND.md)).
 

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-seebruecke.jpg",
+    "caption": "Seebrücke Graal-Müritz.",
+    "credit": "Unukorno",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Seebruecke_2019.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-strand-seebruecke.jpg",
+    "caption": "Seebrücke und Strand, vom Wasser aus.",
+    "credit": "Federal Waterways Engineering and Research Institute",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Ostsee_(50732453827).jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-ostseeblick.jpg",
+    "caption": "Strandzugang mit Blick auf die Ostsee.",
+    "credit": "LeToJe",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ostseeblick_Graal-M%C3%BCritz.jpg",
+    "kind": "ort"
+  }
+]

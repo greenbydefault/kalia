@@ -2630,5 +2630,8 @@
   }
  ],
  "hoertext": "An der Seepromenade in Markkleeberg steht die erste Stele. Sechzehn Stück, rostbraun, dreieinhalb Meter hoch, am Ostufer bis nach Vineta. Gut fünfzehn Kilometer, kein Rundweg. Jede Tafel steht für sich, du kannst auch mittendrin einsteigen. Bleib am Wasser, dann verlierst du die Reihe nicht. Stele sieben gehört zum Weg, der Steinerlebnisplatz daneben ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/geopfad-markkleeberg/credits.json"
+ "bilderAsset": "assets/images/trails/geopfad-markkleeberg/credits.json",
+ "lebensraeume": [],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {}
 }

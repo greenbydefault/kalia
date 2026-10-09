@@ -17,7 +17,19 @@
   "Braunkehlchen",
   "Neuntöter",
   "Wiedehopf",
-  "Kammmolch"
+  "Kammmolch",
+  "Teichfrosch",
+  "Blässhuhn",
+  "Haubentaucher",
+  "Margerite",
+  "Schilf",
+  "Stockente",
+  "Zauneidechse",
+  "Schwalbenschwanz",
+  "Graugans",
+  "Scharfer Hahnenfuß",
+  "Höckerschwan",
+  "Hummel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1197,5 +1209,28 @@
   }
  ],
  "hoertext": "Hinter der Schranke an der Halleschen Straße fängt die Runde an. Sieben Kilometer links herum um den Grabschützer See, erst zwischen den Seen, dann am Blick zum Werbeliner See. Am Mottenhügel steht die überdachte Bank. Die Highlands weiden das Offenland, Abstand halten. Die Kernzone bleibt zu. Werbeliner See ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-grabschuetzer-see/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-grabschuetzer-see/credits.json",
+ "lebensraeume": [
+  "see-ufer",
+  "trockenrasen"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Braunkehlchen": "belegt",
+  "Neuntöter": "belegt",
+  "Wiedehopf": "belegt",
+  "Kammmolch": "belegt",
+  "Teichfrosch": "belegt",
+  "Blässhuhn": "typisch",
+  "Haubentaucher": "typisch",
+  "Margerite": "typisch",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Zauneidechse": "typisch",
+  "Schwalbenschwanz": "typisch",
+  "Graugans": "typisch",
+  "Scharfer Hahnenfuß": "typisch",
+  "Höckerschwan": "typisch",
+  "Hummel": "typisch"
+ }
 }

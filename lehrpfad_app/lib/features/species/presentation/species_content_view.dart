@@ -17,6 +17,7 @@ class SpeciesContentView extends StatelessWidget {
     final c = species.content;
     final hook = species.displayHook;
     final audioPath = species.audioPath;
+    final hasAudio = species.hasPlayableAudio;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -59,8 +60,8 @@ class SpeciesContentView extends StatelessWidget {
           ),
           const SizedBox(height: 16),
         ],
-        if (audioPath != null && audioPath.isNotEmpty) ...[
-          AudioPlayerControl(assetPath: audioPath),
+        if (hasAudio) ...[
+          AudioPlayerControl(assetPath: audioPath!),
           const SizedBox(height: 16),
         ],
       ],

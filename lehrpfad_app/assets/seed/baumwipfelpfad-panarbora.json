@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Fichte",
-  "Stieleiche"
+  "Stieleiche",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -484,5 +495,25 @@
  "oeffnungszeiten": "Park ganzjährig außer Weihnachten. Mo–Sa 10–19 Uhr, So 10–18 Uhr (panarbora.de). Letzter Einlass Turm/Pfad saisonal: Mai–Sep 19 Uhr, März/Apr/Okt 17 Uhr, Nov–Feb 15 Uhr (nrw-tourismus.de). Restaurant warme Küche 12–17.15 Uhr. Bei Gewitter, Sturm, Glatteis oder starkem Schnee Turm und Pfad zu.",
  "besuchshinweise": "Pfad und Turm barrierefrei: ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Hunde nicht aufs Gelände, Assistenzhunde ausgenommen; Hundeboxen am Parkplatz. Spielplatz, Irrgarten, Sinnesrundweg und Kleintiergehege extra. Restaurant/Spielplatz ohne Parkeintritt nur mit 5-€-Verzehrgutschein, dann kein Turm/Pfad. Übernachtung Jugendherberge extra, DJH-Mitgliedschaft.",
  "hoertext": "In Waldbröl hängt NRWs längster Steg durch die Kronen. Fünfhundertzehn Meter Holz, der Turm vierzig hoch, ohne Stufe, sechs Prozent reichen. Kinderwagen und Rollstuhl kommen mit. Hunde in die Box am Parkplatz. Bei Gewitter, Sturm, Glatteis oder starkem Schnee zu. Letzter Einlass je nach Saison eine Stunde vor Schluss. Spielplatz, Irrgarten und Kleintiergehege extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-panarbora/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-panarbora/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Fichte": "belegt",
+  "Stieleiche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

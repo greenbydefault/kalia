@@ -16,7 +16,18 @@
  "arten": [
   "Strandflieder",
   "Queller",
-  "Austernfischer"
+  "Austernfischer",
+  "Sanddorn",
+  "Strandhafer",
+  "Besenheide",
+  "Brandgans",
+  "Graugans",
+  "Kiefer",
+  "Silbermöwe",
+  "Feldhase",
+  "Kormoran",
+  "Weißstorch",
+  "Seeadler"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1355,5 +1366,26 @@
    "name": "Seaside 26"
   }
  ],
- "bilderAsset": "assets/images/trails/erlebnisrundweg-friedrichskoog/credits.json"
+ "bilderAsset": "assets/images/trails/erlebnisrundweg-friedrichskoog/credits.json",
+ "lebensraeume": [
+  "salzwiese-watt",
+  "duene-strand"
+ ],
+ "naturraum": "nordsee",
+ "artenNachweis": {
+  "Strandflieder": "belegt",
+  "Queller": "belegt",
+  "Austernfischer": "belegt",
+  "Sanddorn": "typisch",
+  "Strandhafer": "typisch",
+  "Besenheide": "typisch",
+  "Brandgans": "typisch",
+  "Graugans": "typisch",
+  "Kiefer": "typisch",
+  "Silbermöwe": "typisch",
+  "Feldhase": "typisch",
+  "Kormoran": "typisch",
+  "Weißstorch": "typisch",
+  "Seeadler": "typisch"
+ }
 }

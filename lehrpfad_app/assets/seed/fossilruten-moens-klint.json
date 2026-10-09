@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Knabenkraut",
-  "Wanderfalke"
+  "Wanderfalke",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich"
@@ -435,5 +446,26 @@
    "name": "Holgers kig"
   }
  ],
- "bilderAsset": "assets/images/trails/fossilruten-moens-klint/credits.json"
+ "bilderAsset": "assets/images/trails/fossilruten-moens-klint/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "duene-strand"
+ ],
+ "naturraum": "daenemark",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Knabenkraut": "belegt",
+  "Wanderfalke": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

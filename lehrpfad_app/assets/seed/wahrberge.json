@@ -19,7 +19,15 @@
   "Bergahorn",
   "Rote Waldameise",
   "Igel",
-  "Hummel"
+  "Hummel",
+  "Buchfink",
+  "Eichelhäher",
+  "Hängebirke",
+  "Hainbuche",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -316,5 +324,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/wahrberge/credits.json"
+ "bilderAsset": "assets/images/trails/wahrberge/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Bergahorn": "belegt",
+  "Rote Waldameise": "belegt",
+  "Igel": "belegt",
+  "Hummel": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hängebirke": "typisch",
+  "Hainbuche": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch"
+ }
 }

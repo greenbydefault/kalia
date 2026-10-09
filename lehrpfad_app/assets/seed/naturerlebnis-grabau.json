@@ -16,7 +16,18 @@
  "arten": [
   "Schwarzerle",
   "Rotbuche",
-  "Buntspecht"
+  "Buntspecht",
+  "Buchfink",
+  "Gemeine Esche",
+  "Kohlmeise",
+  "Stieleiche",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Eisvogel",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Eichelhäher"
  ],
  "tags": [
   "kinderfreundlich",
@@ -355,5 +366,26 @@
   }
  ],
  "hoertext": "Am Parkplatz Hoherdamm hängt die Karte, der Waldspielplatz liegt daneben. Kurze Runde auf Eichhörnchen-, Wildschwein- und Fledermausweg, frei, ohne Pädagogen. Tafeln mit Eichhörnchen Muck, eine Hütte zur Vogelbeobachtung am See, später ein Barfußpfad. Der Steg im Erlenbruch ist nass. Bleib auf den Wegen. Waldtage mit Buchung sind extra.",
- "bilderAsset": "assets/images/trails/naturerlebnis-grabau/credits.json"
+ "bilderAsset": "assets/images/trails/naturerlebnis-grabau/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Schwarzerle": "belegt",
+  "Rotbuche": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kohlmeise": "typisch",
+  "Stieleiche": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch"
+ }
 }

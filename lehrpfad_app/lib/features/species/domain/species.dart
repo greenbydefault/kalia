@@ -67,6 +67,14 @@ class Species {
     return speciesKategorieEintrag(kategorie);
   }
 
+  /// Play nur mit Audiodatei und eingesprochenem Text. Kurzprofile haben beides nicht.
+  bool get hasPlayableAudio {
+    final path = audioPath;
+    return path != null &&
+        path.isNotEmpty &&
+        content.hoertext.trim().isNotEmpty;
+  }
+
   /// Hook aus [content], sonst [kurztext] (alte Caches / Seed ohne content).
   String get displayHook {
     final hook = content.hook.trim();

@@ -14,7 +14,20 @@
  "anreise": "Adresse: Am Hoherodskopf 9, 63679 Schotten. GPS 50.51090, 9.22725 (Kasse, neben dem Sendeturm). Parkplätze direkt am Plateau, gebührenpflichtig. Bus VGO VB-60/90/91/92/96 Halt Hoherodskopf; Vulkan-Express Sa/So/Feiertag 1.5.–31.10. Jugendherberge 200 m, Am Hoherodskopf 1.",
  "startName": "Kasse / Eingang",
  "arten": [
-  "Rotbuche"
+  "Rotbuche",
+  "Buchfink",
+  "Fichte",
+  "Kohlmeise",
+  "Weißtanne",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -390,5 +403,26 @@
  "oeffnungszeiten": "Täglich 10–18 Uhr, letzter Einlass 17 Uhr (hoherodskopf-aktiv.de). Erlebnisberg: April–Oktober so, November–März Homepage. Schulklassen ab 8:30 nach Anmeldung. Bei starkem Regen, Sturm, Gewitter zu, Tel. 06044 608945 / 06032 8699888.",
  "besuchshinweise": "Hängebrücken, sie bewegen sich. Kinder ab drei selbst, nicht frei tragen. Hunde nicht. Bei Regen, Sturm, Gewitter zu – vorher anrufen. Kletterwald, Minigolf, Rodel und Galileo extra. Letzter Einlass 17 Uhr.",
  "hoertext": "Am Hoherodskopf hängen die Brücken an den Bäumen, nicht am Boden. Fünfhundert Meter, fünfzehn hoch, von Krone zu Krone. Ticket an der Kasse neben dem Sendeturm. Kinder ab drei laufen selbst, nicht tragen. Hunde bleiben unten. Bei Sturm, Regen, Gewitter zu. Letzter Einlass siebzehn Uhr.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-hoherodskopf/credits.json"
+ "bilderAsset": "assets/images/trails/baumkronenpfad-hoherodskopf/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "nadelforst"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Buchfink": "typisch",
+  "Fichte": "typisch",
+  "Kohlmeise": "typisch",
+  "Weißtanne": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

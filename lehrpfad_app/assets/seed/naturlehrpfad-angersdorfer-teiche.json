@@ -16,7 +16,18 @@
  "arten": [
   "Stieleiche",
   "Haselnuss",
-  "Bergahorn"
+  "Bergahorn",
+  "Buchfink",
+  "Eichelhäher",
+  "Erdkröte",
+  "Grasfrosch",
+  "Hainbuche",
+  "Schilf",
+  "Stockente",
+  "Teichfrosch",
+  "Blässhuhn",
+  "Buntspecht",
+  "Eichhörnchen"
  ],
  "tags": [
   "kinderfreundlich"
@@ -139,5 +150,26 @@
  ],
  "amenities": [],
  "hoertext": "Am Tor steht eine Steinweichsel. Gleich danach die Eiche, von der Wiese siehst du die Insel im Kleinen Teich. Die Nuss-Allee ist das nächste Stück, Hasel am Ende, Birken auf der Halbinsel. Der Flyer zählt weiter, die Karte hört hier auf. Der Pfad ist uneben, das Ufer gibt nach. Baden gehst du am großen Teich, nicht hier.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-angersdorfer-teiche/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-angersdorfer-teiche/credits.json",
+ "lebensraeume": [
+  "teich-tuempel",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Haselnuss": "belegt",
+  "Bergahorn": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Erdkröte": "typisch",
+  "Grasfrosch": "typisch",
+  "Hainbuche": "typisch",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Teichfrosch": "typisch",
+  "Blässhuhn": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch"
+ }
 }

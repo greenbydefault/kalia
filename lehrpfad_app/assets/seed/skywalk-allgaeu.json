@@ -16,7 +16,18 @@
  "arten": [
   "Weißtanne",
   "Fichte",
-  "Rotbuche"
+  "Rotbuche",
+  "Rostblättrige Alpenrose",
+  "Tannenhäher",
+  "Bergahorn",
+  "Buchfink",
+  "Eichhörnchen",
+  "Europäische Lärche",
+  "Grasfrosch",
+  "Kohlmeise",
+  "Zitronenfalter",
+  "Reh",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -533,5 +544,26 @@
  "oeffnungszeiten": "Sommer 20.3.–8.11.2026 täglich 10–18 Uhr, letzter Einlass 17. Winter 13.11.2026–28.2.2027 Fr–So 11–18 Uhr, in den bayerischen Schulferien täglich; 4./11./24.12. zu. Sommer 2027 ab 1.3. analog. Letzter Einlass 17 Uhr.",
  "besuchshinweise": "Pfad und Turm barrierefrei: gläserner Aufzug, oben ohne Stufe, Kinderwagen und Rollstuhl. Panoramatreppe alternativ. Kinder unter 10 nur mit Erwachsenem. Hunde anleinen, nicht auf den Steg, Assistenzhunde ausgenommen; Hundehütten unterm Turm mit Wasser. Rauchen nur im Biergarten. Netztunnel und Röhrenrutsche optional extra. Naturerlebnispfad, Barfußpfad, Spielplatz und Streichelzoo extra. Parken 5 €/Tag.",
  "hoertext": "Über Scheidegg hängt der Skywalk durch Weißtannen – fünfhundertvierzig Meter, der Turm vierzig hoch. Treppe oder gläserner Aufzug, oben ohne Stufe, der Steg federt. Kinderwagen und Rollstuhl kommen mit. Kinder unter zehn nur mit Erwachsenem. Hunde in die Box unterm Turm, Assistenzhunde ausgenommen. Letzter Einlass siebzehn Uhr. Streichelzoo und Barfußpfad extra.",
- "bilderAsset": "assets/images/trails/skywalk-allgaeu/credits.json"
+ "bilderAsset": "assets/images/trails/skywalk-allgaeu/credits.json",
+ "lebensraeume": [
+  "alpen-wald",
+  "buchenwald"
+ ],
+ "naturraum": "alpenvorland",
+ "artenNachweis": {
+  "Weißtanne": "belegt",
+  "Fichte": "belegt",
+  "Rotbuche": "belegt",
+  "Rostblättrige Alpenrose": "typisch",
+  "Tannenhäher": "typisch",
+  "Bergahorn": "typisch",
+  "Buchfink": "typisch",
+  "Eichhörnchen": "typisch",
+  "Europäische Lärche": "typisch",
+  "Grasfrosch": "typisch",
+  "Kohlmeise": "typisch",
+  "Zitronenfalter": "typisch",
+  "Reh": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

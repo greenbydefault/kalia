@@ -25,7 +25,9 @@
   "Distelfalter",
   "Moosjungfer",
   "Schwarzerle",
-  "Biber"
+  "Biber",
+  "Blässhuhn",
+  "Haubentaucher"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1543,5 +1545,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/von-moor-zu-moor/credits.json"
+ "bilderAsset": "assets/images/trails/von-moor-zu-moor/credits.json",
+ "lebensraeume": [
+  "moor",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Torfmoos": "belegt",
+  "Wollgras": "belegt",
+  "Ringelnatter": "belegt",
+  "Sumpf-Iris": "belegt",
+  "Sumpfblutauge": "belegt",
+  "Kleiner Fuchs": "belegt",
+  "Knabenkraut": "belegt",
+  "Sumpfschrecke": "belegt",
+  "Distelfalter": "belegt",
+  "Moosjungfer": "belegt",
+  "Schwarzerle": "belegt",
+  "Biber": "belegt",
+  "Blässhuhn": "typisch",
+  "Haubentaucher": "typisch"
+ }
 }

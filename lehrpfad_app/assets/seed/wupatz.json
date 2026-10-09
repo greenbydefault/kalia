@@ -14,16 +14,21 @@
  "anreise": "RE1 oder S3 nach Erkner, von dort ca. 30 Minuten zu Fuß oder Bus 420/429/436 bis „Löcknitz Anlegestelle“. Auto: nördlicher Parkplatz Fangschleusenstraße (etwa Höhe Hausnummer 6).",
  "startName": "Nördlicher Parkplatz Fangschleusenstraße, Erkner",
  "arten": [
-    "Rote Waldameise",
-    "Kiefer",
-    "Stieleiche",
-    "Eisvogel",
-    "Igel",
-    "Distelfalter",
-    "Kleiner Fuchs",
-    "Schwarzerle",
-    "Hainbuche"
-  ],
+  "Rote Waldameise",
+  "Kiefer",
+  "Stieleiche",
+  "Eisvogel",
+  "Igel",
+  "Distelfalter",
+  "Kleiner Fuchs",
+  "Schwarzerle",
+  "Hainbuche",
+  "Grasfrosch",
+  "Buchfink",
+  "Gemeine Esche",
+  "Hängebirke",
+  "Heidelbeere"
+ ],
  "tags": [
   "kinderfreundlich",
   "picknick"
@@ -948,5 +953,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/wupatz/credits.json"
+ "bilderAsset": "assets/images/trails/wupatz/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rote Waldameise": "belegt",
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Eisvogel": "belegt",
+  "Igel": "belegt",
+  "Distelfalter": "belegt",
+  "Kleiner Fuchs": "belegt",
+  "Schwarzerle": "belegt",
+  "Hainbuche": "belegt",
+  "Grasfrosch": "belegt",
+  "Buchfink": "typisch",
+  "Gemeine Esche": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch"
+ }
 }

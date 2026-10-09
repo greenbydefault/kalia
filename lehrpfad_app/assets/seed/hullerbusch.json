@@ -19,7 +19,15 @@
   "Torfmoos",
   "Wollgras",
   "Rotbuche",
-  "Schaf"
+  "Schaf",
+  "Blässhuhn",
+  "Buchfink",
+  "Haubentaucher",
+  "Kohlmeise",
+  "Moorfrosch",
+  "Stockente",
+  "Amsel",
+  "Bekassine"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1262,5 +1270,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/hullerbusch/credits.json"
+ "bilderAsset": "assets/images/trails/hullerbusch/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "moor",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Torfmoos": "belegt",
+  "Wollgras": "belegt",
+  "Rotbuche": "belegt",
+  "Schaf": "belegt",
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Haubentaucher": "typisch",
+  "Kohlmeise": "typisch",
+  "Moorfrosch": "typisch",
+  "Stockente": "typisch",
+  "Amsel": "typisch",
+  "Bekassine": "typisch"
+ }
 }

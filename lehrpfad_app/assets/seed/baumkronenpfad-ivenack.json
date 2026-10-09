@@ -14,12 +14,21 @@
  "anreise": "Adresse: Tiergarten 1, 17153 Ivenack. GPS 53.71624, 12.94560. Parkplatz Ivenacker Eichen an der Eichenallee, frei, Wohnmobile am zweiten Platz Richtung Dorf. Bahn bis Stavenhagen, 3–4 km zu Fuß oder Rad. Bus 421 sporadisch Bahnhof–Ivenack Dorf, Fahrplan fahrplanauskunft-mv.de. Kasse am Ivenacker Tor, dann durch den Park zum Steg.",
  "startName": "Rampe / Einstieg",
  "arten": [
-    "Stieleiche",
-    "Rotbuche",
-    "Bergahorn",
-    "Konik",
-    "Hainbuche"
-  ],
+  "Stieleiche",
+  "Rotbuche",
+  "Bergahorn",
+  "Konik",
+  "Hainbuche",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Kohlmeise",
+  "Mittelspecht",
+  "Rotkehlchen",
+  "Reh"
+ ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",
@@ -325,5 +334,25 @@
  "oeffnungszeiten": "Pfad April–Oktober täglich 10–17 Uhr. Saison 2026: 1. April bis 1. November. November–März zu. Letzter Einlass an der Kasse beachten. Bei Sturm, Gewitter, Eis zu.",
  "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeparkplatz am Fuß. Pfad max. 6 %, Kinderwagen und Rollstuhl, Aufzug im Turm mit drei Halten. Koniks nicht anfassen, nicht füttern. Führungen nur nach Anmeldung, nur Werktags.",
  "hoertext": "Im Hutewald von Ivenack windet sich der Steg von der Wurzel in die Kronen. Ohne Stufe, der Aufzug nimmt den Kinderwagen mit. Oben der Turm, Schloss und See liegen vor dir. Die Eichen stehen seit Jahrhunderten. Hunde bleiben unten am Parkplatz. Von November bis März ist der Pfad zu.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-ivenack/credits.json"
+ "bilderAsset": "assets/images/trails/baumkronenpfad-ivenack/credits.json",
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Rotbuche": "belegt",
+  "Bergahorn": "belegt",
+  "Konik": "belegt",
+  "Hainbuche": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Mittelspecht": "typisch",
+  "Rotkehlchen": "typisch",
+  "Reh": "typisch"
+ }
 }

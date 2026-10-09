@@ -14,7 +14,20 @@
  "anreise": "Start Parkplatz B 105, Abzweig Barendorf, 23936 Grevesmühlen. Tafel direkt am Platz. Von Lübeck die B 105 Richtung Wismar, von Wismar Richtung Grevesmühlen. Bus Haltestelle Barendorf Abzweig. Die Nordgruppe startet an der Straße Hoikendorf–Grevesmühlen, nicht hier. Waldhusen startet in Kücknitz, das ist der andere Wald.",
  "startName": "Parkplatz B 105 / Abzweig Barendorf",
  "arten": [
-  "Rotbuche"
+  "Rotbuche",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich",
@@ -193,5 +206,25 @@
   }
  ],
  "hoertext": "Am Parkplatz B 105, Abzweig Barendorf, hängt die Tafel. Fünf Gräber der Südgruppe, drei südlich der Straße, zwei nördlich. Frei. Das Riesengrab ist ein Ganggrab, der Teufelsbackofen ein Dolmen mit Näpfchen auf dem Deckstein. Die Straße liegt dazwischen. Bleib unten, der Stein ist der Fund. Die Nordgruppe startet woanders.",
- "bilderAsset": "assets/images/trails/everstorfer-forst/credits.json"
+ "bilderAsset": "assets/images/trails/everstorfer-forst/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

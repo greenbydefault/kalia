@@ -1,0 +1,394 @@
+{
+ "id": "ostsee-lehrpfad-graal-mueritz",
+ "name": "Ostsee-Lehrpfad Graal-Müritz",
+ "typ": "kueste",
+ "kurzbeschreibung": "Westlich der Seebrücke hängen die Tafeln an der gepflasterten Strandpromenade. Die Reihe beginnt mit der Entstehung der Ostsee.",
+ "beschreibung": "Eine Tafel an der Promenade ist wie eine Zeitung aufgemacht. Hering, Seegras, Schweinswal und seemännische Wörter stehen dort in Spalten. Ein Stück weiter hängt eine Leine, an der sich der Palstek knüpfen lässt. Der Weg läuft von der Seebrücke bis zum Strandaufgang 35, flach auf Pflaster, das Wasser die ganze Zeit daneben. Die Tafeln hängen auf Deutsch und auf Englisch. Bernstein, ein Donnerkeil und die Sage von der versunkenen Stadt hängen an einer eigenen Tafel. Am westlichen Ende stehen sieben Küstenformen nebeneinander, von der Ausgleichsküste bis zur Schärenküste.",
+ "laengeKm": 1.0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Infotafeln an der Strandpromenade",
+ "betreiber": "Ostseeheilbad Graal-Müritz, Tafeln: natur-und-bildung.de",
+ "region": "Strandpromenade, Graal-Müritz, Landkreis Rostock",
+ "website": "https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/ostseelehrpfad-graal-mueritz.php",
+ "anreise": "Start westlich der Seebrücke auf der Strandpromenade, 18181 Graal-Müritz. Erste Tafel direkt an der Brücke, letzte am Strandaufgang 35. Auto durch den Ort bis zur Seebrücke. Bus aus Rostock bis Graal-Müritz.",
+ "startName": "Seebrücke / Entstehung der Ostsee",
+ "arten": [
+  "Seegras",
+  "Austernfischer",
+  "Queller",
+  "Sanddorn",
+  "Strandflieder",
+  "Strandhafer",
+  "Besenheide",
+  "Brandgans",
+  "Graugans",
+  "Kiefer",
+  "Silbermöwe",
+  "Feldhase",
+  "Kormoran",
+  "Weißstorch"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.258755,
+   12.241264
+  ],
+  [
+   54.25863,
+   12.24087
+  ],
+  [
+   54.258549,
+   12.240615
+  ],
+  [
+   54.258396,
+   12.240171
+  ],
+  [
+   54.258174,
+   12.239543
+  ],
+  [
+   54.258057,
+   12.239126
+  ],
+  [
+   54.257741,
+   12.237958
+  ],
+  [
+   54.257551,
+   12.237266
+  ],
+  [
+   54.25728,
+   12.236462
+  ],
+  [
+   54.257031,
+   12.235867
+  ],
+  [
+   54.25681,
+   12.234799
+  ],
+  [
+   54.256723,
+   12.234545
+  ],
+  [
+   54.256098,
+   12.232389
+  ],
+  [
+   54.255822,
+   12.231367
+  ],
+  [
+   54.255388,
+   12.229923
+  ],
+  [
+   54.255228,
+   12.229465
+  ],
+  [
+   54.255147,
+   12.229248
+  ],
+  [
+   54.255028,
+   12.228971
+  ],
+  [
+   54.254877,
+   12.228715
+  ],
+  [
+   54.254861,
+   12.228685
+  ],
+  [
+   54.254798,
+   12.228552
+  ],
+  [
+   54.254624,
+   12.227713
+  ],
+  [
+   54.254561,
+   12.227458
+  ],
+  [
+   54.254488,
+   12.227197
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 11109093402,
+   "lat": 54.2585893,
+   "lon": 12.2408251,
+   "km": 0.03,
+   "titel": "Entstehung der Ostsee",
+   "thema": "Vier Phasen vom Eisrand zum Becken",
+   "kurztext": "Vier Phasen, vom Eisrand bis zum heutigen Becken. Die Tafel hängt als erste westlich der Seebrücke.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 11109100005,
+   "lat": 54.2576651,
+   "lon": 12.2378151,
+   "km": 0.24,
+   "titel": "Schifffahrt",
+   "thema": "Schiffsformen und Palstek",
+   "kurztext": "Boots- und Schiffsformen, dazu eine Leine für den Palstek. Schräg gegenüber steht der Panorahmen.",
+   "erlebnisse": [
+    "tafel",
+    "audio",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 11109093395,
+   "lat": 54.2570887,
+   "lon": 12.2360803,
+   "km": 0.4,
+   "titel": "Salzgehalt der Ostsee",
+   "thema": "Brackwasser und was darin lebt",
+   "kurztext": "Wie salzig die Ostsee ist, und was das für Pflanzen und Tiere im Wasser ändert.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 11071699557,
+   "lat": 54.2566905,
+   "lon": 12.2344887,
+   "km": 0.49,
+   "titel": "Ostseeblatt",
+   "thema": "Tiere, Pflanzen und seemännische Wörter",
+   "kurztext": "Aufgemacht wie eine Zeitung: Hering, Einsiedlerkrebs, Hornhecht, Schweinswal, Miesmuschel, Seegras, Meersalat und Wörter von Bord.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 11072902015,
+   "lat": 54.2560464,
+   "lon": 12.2323159,
+   "km": 0.65,
+   "titel": "Verborgene Schätze",
+   "thema": "Bernstein, Donnerkeil, Flaschenpost",
+   "kurztext": "Bernstein, Donnerkeil, eine Flaschenpost und die Sage von der versunkenen Stadt. Vier Fragen auf einer Tafel.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 11072902016,
+   "lat": 54.2553945,
+   "lon": 12.2300303,
+   "km": 0.83,
+   "titel": "Windkraft",
+   "thema": "Windstärken und Strom aus Wind",
+   "kurztext": "Die Skala läuft von Windstille über frische Brise bis zum Orkan, daneben die Stromerzeugung aus Wind.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 11072902017,
+   "lat": 54.254889,
+   "lon": 12.2287861,
+   "km": 0.93,
+   "titel": "Fischerei",
+   "thema": "Acht Arten aus der Fischerei",
+   "kurztext": "Aal, Dorsch, Flunder, Flussbarsch, Hering, Hornhecht, Meeresforelle und Scholle. Was hier gefischt wird, steht auf der Tafel.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 11072902014,
+   "lat": 54.2544385,
+   "lon": 12.227092,
+   "km": 1.03,
+   "titel": "Küstentypen",
+   "thema": "Sieben Formen der Küste",
+   "kurztext": "Ausgleichs-, Bodden-, Fjord-, Förden-, Haff-, Kliff- und Schärenküste. Die letzte Tafel vor dem Strandaufgang 35.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4897083875,
+   "lat": 54.2582365,
+   "lon": 12.2430873,
+   "kategorie": "gastro",
+   "name": "Windflüchter"
+  },
+  {
+   "osmId": 4897130100,
+   "lat": 54.2586311,
+   "lon": 12.2435275,
+   "kategorie": "gastro",
+   "name": "Buhne 36"
+  },
+  {
+   "osmId": 4897133964,
+   "lat": 54.2584272,
+   "lon": 12.2428508,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4897834947,
+   "lat": 54.2583885,
+   "lon": 12.2427654,
+   "kategorie": "gastro",
+   "name": "Graal-Müritzer Fischhus"
+  },
+  {
+   "osmId": 4897834948,
+   "lat": 54.2583853,
+   "lon": 12.2426782,
+   "kategorie": "gastro",
+   "name": "Graal-Müritzer Fischhus"
+  },
+  {
+   "osmId": 6797088586,
+   "lat": 54.2586316,
+   "lon": 12.2410678,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 7923946011,
+   "lat": 54.2585597,
+   "lon": 12.2418163,
+   "kategorie": "gastro",
+   "name": "Strandrestaurant Achterdeck"
+  },
+  {
+   "osmId": 292197417,
+   "lat": 54.2559268,
+   "lon": 12.2323645,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 434654228,
+   "lat": 54.2546942,
+   "lon": 12.2277162,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 1404599113,
+   "lat": 54.2575273,
+   "lon": 12.2374843,
+   "kategorie": "gastro",
+   "name": "Düne 26"
+  },
+  {
+   "osmId": 2608195794,
+   "lat": 54.254922,
+   "lon": 12.2284187,
+   "kategorie": "gastro",
+   "name": "Strandoase 33"
+  },
+  {
+   "osmId": 4897846917,
+   "lat": 54.2560858,
+   "lon": 12.2325109,
+   "kategorie": "gastro",
+   "name": "Black Pier"
+  },
+  {
+   "osmId": 5807984042,
+   "lat": 54.2545206,
+   "lon": 12.2268305,
+   "kategorie": "gastro",
+   "name": "Seeblick"
+  },
+  {
+   "osmId": 10951499676,
+   "lat": 54.2542091,
+   "lon": 12.2265345,
+   "kategorie": "gastro",
+   "name": "Black Pier"
+  }
+ ],
+ "eintritt": false,
+ "besuchshinweise": "Fahrräder dürfen die Promenade nicht befahren. QR-Code und Hotline auf jeder Tafel öffnen ein Hörspiel zum Thema. Hinter der letzten Tafel beginnt die Wasserspiellandschaft Küstenschutz.",
+ "hoertext": "An der Seebrücke schwenkt die Promenade nach Westen, und der Wind trifft ohne Umweg vom Wasser. Pflaster trägt den Kinderwagen, die Schautafeln hängen in Griffhöhe. Wer an der Zeitungs-Tafel stehen bleibt, liest Hering und Seegras in Spalten, als wäre die Ostsee eine Ausgabe, und daneben übt eine Leine den Palstek, einen Knoten, der unter Zug hält und sich trotzdem wieder löst. So läuft das weiter, das Meer immer links, bis Strandaufgang 35 die Reihe schließt. Schräg gegenüber der Schifffahrt hängt ein Rahmen. Die Küste füllt ihn aus.",
+ "bilderAsset": "assets/images/trails/ostsee-lehrpfad-graal-mueritz/credits.json",
+ "lebensraeume": [
+  "duene-strand",
+  "salzwiese-watt"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Seegras": "belegt",
+  "Austernfischer": "typisch",
+  "Queller": "typisch",
+  "Sanddorn": "typisch",
+  "Strandflieder": "typisch",
+  "Strandhafer": "typisch",
+  "Besenheide": "typisch",
+  "Brandgans": "typisch",
+  "Graugans": "typisch",
+  "Kiefer": "typisch",
+  "Silbermöwe": "typisch",
+  "Feldhase": "typisch",
+  "Kormoran": "typisch",
+  "Weißstorch": "typisch"
+ }
+}

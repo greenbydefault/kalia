@@ -66,7 +66,7 @@ class _PeekTile extends StatelessWidget {
     final theme = Theme.of(context);
     final icon = species.displayIconEintrag.icon;
     final audioPath = species.audioPath;
-    final hasAudio = audioPath != null && audioPath.isNotEmpty;
+    final hasAudio = species.hasPlayableAudio;
     final hook = species.displayHook;
 
     return ContentTileShell(
@@ -122,7 +122,7 @@ class _PeekTile extends StatelessWidget {
               if (hasAudio)
                 AudioPlayerControl(
                   key: ValueKey('species-play-${species.id}'),
-                  assetPath: audioPath,
+                  assetPath: audioPath!,
                   iconOnly: true,
                 ),
             ],

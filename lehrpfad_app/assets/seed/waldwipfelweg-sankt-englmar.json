@@ -14,7 +14,20 @@
  "anreise": "Adresse: Maibrunn 9a, 94379 Sankt Englmar. GPS 49.01117, 12.78212 (Kasse). Parkplätze am Gelände. Expressbus VSL 58 ab Bogen und Viechtach, Halt Maibrunn Waldwipfelweg; Wanderbus RBO 6096/VSL 15 Saison. Rodel-Freizeitparadies in Grün liegt extra, knapp 1 km.",
  "startName": "Kasse / Eingang",
  "arten": [
-  "Fichte"
+  "Fichte",
+  "Buchfink",
+  "Kohlmeise",
+  "Rotbuche",
+  "Weißtanne",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -419,5 +432,26 @@
  "oeffnungszeiten": "Apr–Sep täglich 9–19 Uhr, Okt 9–18, Feb/Mär 9–17, Nov–Jan Mo und Do–So plus Feiertag 9–16 (Di/Mi zu, außer Ferien). Letzter Einlass 1 Stunde vorher. Ganzjährig, bei Extremwetter zu. waldwipfelweg.de/kontakt.",
  "besuchshinweise": "Steg und Turm barrierefrei: Rampe, Kinderwagen, Rollstuhl. Zwei Rutschen im Turm nur bei Trockenheit, klettern optional. Hunde an der Leine, nicht in den Bayerwaldflieger. Haus am Kopf extra 2 €. Naturerlebnispfad und Optik-Pfad extra am Boden. Waldgaststube nur mit Ticket. Gruppen ab 15 anmelden. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Ticket an der Kasse. In Maibrunn hängt der Steg durch die Fichten – dreihundertsiebzig Meter, dreißig hoch. Kinderwagen und Rollstuhl kommen mit. Der Turm zweiundfünfzig, Rampe oder klettern. Hunde an der Leine, nicht in den Flieger. Haus am Kopf extra. Letzter Einlass eine Stunde vor Schluss.",
- "bilderAsset": "assets/images/trails/waldwipfelweg-sankt-englmar/credits.json"
+ "bilderAsset": "assets/images/trails/waldwipfelweg-sankt-englmar/credits.json",
+ "lebensraeume": [
+  "nadelforst",
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Fichte": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotbuche": "typisch",
+  "Weißtanne": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

@@ -15,7 +15,19 @@
  "startName": "Waldparkplatz Große Straße",
  "arten": [
   "Buntspecht",
-  "Rotbuche"
+  "Rotbuche",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Kleiber",
+  "Mäusebussard"
  ],
  "tags": [
   "kinderfreundlich"
@@ -393,5 +405,25 @@
   }
  ],
  "hoertext": "Am Waldparkplatz Große Straße, nördlich von Ohe, fängt die Runde an. Drei Kilometer, frei, Billi Buntspecht auf den Tafeln. Fast zwanzig Hügel aus der Bronzezeit, ein Langbett ohne Kammer, ein Schalenstein mit fünfzig Näpfchen. Bleib unten, der Hügel ist der Fund. Die letzte Tafel erzählt vom Kiesabbau in den Sechzigern.",
- "bilderAsset": "assets/images/trails/oher-graeberfeld/credits.json"
+ "bilderAsset": "assets/images/trails/oher-graeberfeld/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Buntspecht": "belegt",
+  "Rotbuche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

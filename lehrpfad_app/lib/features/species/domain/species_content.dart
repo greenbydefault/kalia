@@ -10,6 +10,9 @@ class SpeciesContent {
   final String hinweis;
   final String hoertext;
 
+  /// `voll` (Hörtext) oder `kurz` (Scan-Felder, noch kein Hörtext).
+  final String tiefe;
+
   const SpeciesContent({
     this.hook = '',
     this.erkennung = const [],
@@ -17,6 +20,7 @@ class SpeciesContent {
     this.funFacts = const [],
     this.hinweis = '',
     this.hoertext = '',
+    this.tiefe = 'voll',
   });
 
   static const empty = SpeciesContent();
@@ -38,6 +42,7 @@ class SpeciesContent {
       funFacts: (json['funFacts'] as List? ?? const []).cast<String>(),
       hinweis: json['hinweis'] as String? ?? '',
       hoertext: json['hoertext'] as String? ?? '',
+      tiefe: json['tiefe'] as String? ?? 'voll',
     );
   }
 
@@ -48,5 +53,6 @@ class SpeciesContent {
     'funFacts': funFacts,
     'hinweis': hinweis,
     'hoertext': hoertext,
+    if (tiefe == 'kurz') 'tiefe': tiefe,
   };
 }

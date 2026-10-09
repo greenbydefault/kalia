@@ -17,7 +17,17 @@
   "Schwarzerle",
   "Libelle",
   "Eisvogel",
-  "Haselnuss"
+  "Haselnuss",
+  "Gemeine Esche",
+  "Stieleiche",
+  "Stockente",
+  "Amsel",
+  "Blaumeise",
+  "Buchfink",
+  "Grasfrosch",
+  "Schwarzer Holunder",
+  "Rotkehlchen",
+  "Salweide"
  ],
  "tags": [
   "kinderfreundlich",
@@ -264,5 +274,26 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Wege nass nach Regen. Forscherrucksack und Grünes Klassenzimmer sind extra, nicht der Spontanpfad. Der 11,3-km-Rundweg ist ein anderer Weg.",
  "hoertext": "Am Wohnmobilplatz an der Untereider fängt der Pfad an. Entlang der Eider, nördlich der Altstadt, frei, ohne Anmeldung. Tafeln zu Feuchtwiese, Ufer und Schutz. Der große Rundweg mit elf Kilometern ist extra. Den Rucksack holst du in der Altstadt, nicht hier. Bleib auf den Wegen, die Wiese ist nass.",
- "bilderAsset": "assets/images/trails/untereider/credits.json"
+ "bilderAsset": "assets/images/trails/untereider/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Schwarzerle": "belegt",
+  "Libelle": "belegt",
+  "Eisvogel": "belegt",
+  "Haselnuss": "belegt",
+  "Gemeine Esche": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buchfink": "typisch",
+  "Grasfrosch": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Rotkehlchen": "typisch",
+  "Salweide": "typisch"
+ }
 }

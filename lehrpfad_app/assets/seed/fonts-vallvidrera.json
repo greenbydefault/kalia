@@ -16,7 +16,18 @@
  "arten": [
   "Steineiche",
   "Pinie",
-  "Robinie"
+  "Robinie",
+  "Wildschwein",
+  "Aleppokiefer",
+  "Erdbeerbaum",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Korkeiche",
+  "Mauereidechse",
+  "Mittelmeermöwe",
+  "Rosmarin",
+  "Montpellier-Zistrose",
+  "Schwalbenschwanz"
  ],
  "tags": [
   "kinderfreundlich",
@@ -816,5 +827,25 @@
  ],
  "besuchshinweise": "Treppe zwischen Font Nova und Font Vella, Kinderwagen eher nicht. Museum Vil·la Joana extra. Grüner Arm (Stausee) und roter Arm (Budellera) nicht mitlaufen, wenn du nur diese Runde willst.",
  "hoertext": "Am FGC-Halt Baixador de Vallvidrera fängt die gelbe Runde an. Eineinhalb Kilometer durch Quellen. Font Joana, Font Vella, Font Nova, dazwischen die Platanenallee mit Taststeinen. Frei, ohne Ticket. Eine Treppe, Kinderwagen eher nicht. Das Infohaus sitzt an der Vil·la Joana, du musst nicht ins Museum.",
- "bilderAsset": "assets/images/trails/fonts-vallvidrera/credits.json"
+ "bilderAsset": "assets/images/trails/fonts-vallvidrera/credits.json",
+ "lebensraeume": [
+  "mediterraner-wald"
+ ],
+ "naturraum": "katalonien",
+ "artenNachweis": {
+  "Steineiche": "belegt",
+  "Pinie": "belegt",
+  "Robinie": "belegt",
+  "Wildschwein": "belegt",
+  "Aleppokiefer": "typisch",
+  "Erdbeerbaum": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Korkeiche": "typisch",
+  "Mauereidechse": "typisch",
+  "Mittelmeermöwe": "typisch",
+  "Rosmarin": "typisch",
+  "Montpellier-Zistrose": "typisch",
+  "Schwalbenschwanz": "typisch"
+ }
 }

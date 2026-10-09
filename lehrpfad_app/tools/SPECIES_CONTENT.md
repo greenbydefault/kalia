@@ -24,14 +24,16 @@ Erzwungen durch `tools/validate_seeds.py`.
 | `lebensraum` | ja | ≤ 40 Wörter | Lebensraum-Typ, kein Trailname |
 | `funFacts` | ja | 2–3 Bullets | Staunen, merkbar |
 | `hinweis` | nein | ≤ 15 Wörter oder `""` | Nur wenn relevant |
-| `hoertext` | ja | 90–120 Wörter | Einsprech-Skript (Play), nicht UI |
+| `hoertext` | bei `tiefe: voll` | 90–120 Wörter | Einsprech-Skript (Play), nicht UI. Bei `tiefe: kurz` leer oder weggelassen |
+| `tiefe` | nein | `voll` (Default) \| `kurz` | `kurz` = Scan-Felder ohne Hörtext. Play bleibt aus, bis Audio und `hoertext` da sind |
 
 `kurztext` bleibt als Fallback (meist = Hook oder Kurzfassung) für alte Caches.
 
 ## Register
 
 - **Scan-Felder** (`hook` … `funFacts`): Auge, stehend, Outdoor. In der App.
-- **`hoertext`**: Studio-Vorlage. Nutzer drückt Play. Nicht Konkatenation der Scan-Felder, nicht Lesetext.
+- **`tiefe: kurz`**: dieselben Scan-Felder, kein `hoertext`. Für Katalogarten aus dem Lebensraum-Pool, bevor ein Hörtext eingesprochen ist. Highlight-Arten bleiben `voll`.
+- **`hoertext`**: Studio-Vorlage. Nutzer drückt Play. Nicht Konkatenation der Scan-Felder, nicht Lesetext. Play in der App nur, wenn `audioPath` und `hoertext` beide gesetzt sind.
   Form (ohne Anrede, Lebensraum statt Ort), Gold und QA: [`ART_HOERTEXT.md`](ART_HOERTEXT.md), Dramaturgie [`docs/audio/GRUND.md`](../docs/audio/GRUND.md).
   ~45–60 s. Geprüft mit `klang.py --art <id>`.
 - Scan-Felder dürfen ansprechen und Beobachtungsaufträge geben („Such …“). Der `hoertext` nicht.

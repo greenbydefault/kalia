@@ -18,7 +18,16 @@
   "Stieleiche",
   "Igel",
   "Rote Waldameise",
-  "Rotbuche"
+  "Rotbuche",
+  "Buchfink",
+  "Eichelhäher",
+  "Hainbuche",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -252,5 +261,26 @@
    "name": "Wanderweg Heilige Hallen"
   }
  ],
- "bilderAsset": "assets/images/trails/heilige-hallen/credits.json"
+ "bilderAsset": "assets/images/trails/heilige-hallen/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Igel": "belegt",
+  "Rote Waldameise": "belegt",
+  "Rotbuche": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hainbuche": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch"
+ }
 }

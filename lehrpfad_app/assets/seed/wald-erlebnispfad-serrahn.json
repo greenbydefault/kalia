@@ -21,7 +21,13 @@
   "Wollgras",
   "Rotbuche",
   "Seeadler",
-  "Fischadler"
+  "Fischadler",
+  "Buchfink",
+  "Kohlmeise",
+  "Moorfrosch",
+  "Amsel",
+  "Bekassine",
+  "Blaumeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1030,5 +1036,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/wald-erlebnispfad-serrahn/credits.json"
+ "bilderAsset": "assets/images/trails/wald-erlebnispfad-serrahn/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "kiefernforst",
+  "moor"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Stieleiche": "belegt",
+  "Kranich": "belegt",
+  "Torfmoos": "belegt",
+  "Wollgras": "belegt",
+  "Rotbuche": "belegt",
+  "Seeadler": "belegt",
+  "Fischadler": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Moorfrosch": "typisch",
+  "Amsel": "typisch",
+  "Bekassine": "typisch",
+  "Blaumeise": "typisch"
+ }
 }

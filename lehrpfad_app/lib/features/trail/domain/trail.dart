@@ -41,6 +41,12 @@ class Trail {
   final String anreise;
   final String startName;
   final List<String> arten;
+
+  /// 0–3 Keys aus dem Lebensraum-Katalog. Leer, wenn kein Lebensraum passt.
+  final List<String> lebensraeume;
+
+  /// Key aus dem Naturraum-Katalog, aus der Koordinate.
+  final String naturraum;
   final List<String> tags;
   final List<LatLng> route;
   final List<LatLng> area;
@@ -69,6 +75,8 @@ class Trail {
     required this.anreise,
     required this.startName,
     required this.arten,
+    this.lebensraeume = const [],
+    this.naturraum = '',
     this.tags = const [],
     this.route = const [],
     this.area = const [],
@@ -214,6 +222,8 @@ class Trail {
       anreise: json['anreise'] as String,
       startName: json['startName'] as String,
       arten: (json['arten'] as List).cast<String>(),
+      lebensraeume: (json['lebensraeume'] as List? ?? const []).cast<String>(),
+      naturraum: json['naturraum'] as String? ?? '',
       tags: (json['tags'] as List? ?? []).cast<String>(),
       route: route,
       area: area,
@@ -250,6 +260,8 @@ class Trail {
     'anreise': anreise,
     'startName': startName,
     'arten': arten,
+    'lebensraeume': lebensraeume,
+    'naturraum': naturraum,
     'tags': tags,
     'route': route.map((p) => [p.latitude, p.longitude]).toList(),
     if (area.isNotEmpty)

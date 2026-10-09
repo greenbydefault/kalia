@@ -16,7 +16,18 @@
  "arten": [
   "Ringelnatter",
   "Heckenrose",
-  "Haselnuss"
+  "Haselnuss",
+  "Grasfrosch",
+  "Gemeine Esche",
+  "Kohlmeise",
+  "Kultur-Apfel",
+  "Schwarzerle",
+  "Stieleiche",
+  "Eingriffeliger Weißdorn",
+  "Eisvogel",
+  "Amsel",
+  "Blaumeise",
+  "Buchfink"
  ],
  "tags": [
   "kinderfreundlich"
@@ -502,5 +513,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/natter-pfad-goyatz/credits.json"
+ "bilderAsset": "assets/images/trails/natter-pfad-goyatz/credits.json",
+ "lebensraeume": [
+  "streuobst-hecke",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Ringelnatter": "belegt",
+  "Heckenrose": "belegt",
+  "Haselnuss": "belegt",
+  "Grasfrosch": "belegt",
+  "Gemeine Esche": "typisch",
+  "Kohlmeise": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Schwarzerle": "typisch",
+  "Stieleiche": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buchfink": "typisch"
+ }
 }

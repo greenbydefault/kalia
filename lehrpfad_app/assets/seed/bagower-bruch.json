@@ -16,7 +16,18 @@
  "arten": [
   "Buche",
   "Fichte",
-  "Specht"
+  "Specht",
+  "Erdkröte",
+  "Gemeine Esche",
+  "Grasfrosch",
+  "Schilf",
+  "Schwarzerle",
+  "Stieleiche",
+  "Stockente",
+  "Teichfrosch",
+  "Eisvogel",
+  "Amsel",
+  "Blässhuhn"
  ],
  "tags": [
   "hunde-erlaubt",
@@ -758,5 +769,26 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Naturschutzgebiet, auf den Wegen bleiben. Hunde anleinen, nichts pflücken. Der grüne Schrägstrich ist die Runde. KiEZ Bollmannsruh und Backwahn sind nicht der Pfad.",
  "hoertext": "An der Übersichtstafel zwischen Bagow und dem Bruchsee fängt der grüne Schrägstrich an. Rund sechs Kilometer, frei, einmal rum. Der See ist eine Tongrube, 1970 vollgelaufen. Oben auf dem Mühlenberg ist die Kuppe seit 1991 Naturdenkmal, da wachsen die Steppenpflanzen. Im Schutzgebiet auf dem Weg bleiben und den Hund anleinen.",
- "bilderAsset": "assets/images/trails/bagower-bruch/credits.json"
+ "bilderAsset": "assets/images/trails/bagower-bruch/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Buche": "belegt",
+  "Fichte": "belegt",
+  "Specht": "belegt",
+  "Erdkröte": "typisch",
+  "Gemeine Esche": "typisch",
+  "Grasfrosch": "typisch",
+  "Schilf": "typisch",
+  "Schwarzerle": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch",
+  "Teichfrosch": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Blässhuhn": "typisch"
+ }
 }

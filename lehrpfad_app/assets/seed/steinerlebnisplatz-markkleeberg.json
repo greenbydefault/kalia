@@ -198,5 +198,8 @@
  "oeffnungszeiten": "Platz frei. Bachlauf ungefähr Ostern bis Ende der Oktoberferien.",
  "besuchshinweise": "Planschen am Bachlauf ist gewollt, Wechselkleidung mitnehmen. Die Uferstelen des Geopfads sind der 14-km-Weg, nicht die Stationen dieses Platzes.",
  "hoertext": "Südöstlich der Klappbrücke am Störmthaler Kanal liegt der Findlingsgarten. Du fängst am zwei Meter hohen Kletterfelsen an, dann Bachschaukel und Kletterbaum. In der Mitte buddelst du im Fossiliensandkasten. Der Bachlauf holt Wasser aus dem Kanal. Planschen ist gewollt, ungefähr von Ostern bis Ende der Oktoberferien. Bus 106 hält Auenhain Kanupark, sieben Minuten zu Fuß. Die Stelen des Geopfads am Ufer gehören nicht zu diesem Platz.",
- "bilderAsset": "assets/images/trails/steinerlebnisplatz-markkleeberg/credits.json"
+ "bilderAsset": "assets/images/trails/steinerlebnisplatz-markkleeberg/credits.json",
+ "lebensraeume": [],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {}
 }

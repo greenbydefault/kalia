@@ -14,7 +14,20 @@
  "anreise": "Adresse: Stolper Waldstraße, hinter der Revierförsterei Stolpe, 16540 Hohen Neuendorf. ÖPNV: S8 Hohen Neuendorf, Bus 809 bis Stolpe (OHV), Dorfstraße, dann ca. 750 m zu Fuß die Waldstraße westlich, vorbei an der Revierförsterei und einer Schranke, rechts das Eingangsportal. Auto: Stolpe anfahren, Waldstraße Richtung Forst; Parken am Ortsrand / Försterei, nicht den Pfad zuparken. Nicht die 10-km-Runde NW03 als Anfahrt nutzen, wenn du nur den Lehrpfad willst.",
  "startName": "Eingang Harzungspfad / Vorarbeiten",
  "arten": [
-  "Kiefer"
+  "Kiefer",
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Kohlmeise",
+  "Rote Waldameise",
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -241,5 +254,25 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/harzungspfad/credits.json"
+ "bilderAsset": "assets/images/trails/harzungspfad/credits.json",
+ "lebensraeume": [
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Rote Waldameise": "typisch",
+  "Rotkehlchen": "typisch"
+ }
 }

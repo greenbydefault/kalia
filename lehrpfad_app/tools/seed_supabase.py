@@ -34,7 +34,6 @@ import urllib.request
 from resolve_arten import (
     load_catalog,
     merkmale_rows,
-    resolve_names,
     species_beziehungen_rows,
     species_merkmale_rows,
     species_rows,
@@ -103,6 +102,8 @@ def main():
         "anreise": t["anreise"],
         "start_name": t["startName"],
         "arten": t["arten"],
+        "lebensraeume": t.get("lebensraeume") or [],
+        "naturraum": t.get("naturraum") or "",
         "tags": t.get("tags", []),
         "route": route,
         "area": area,
@@ -167,11 +168,26 @@ def main():
     sb = species_beziehungen_rows(by_id)
     if sb:
         req("POST", "species_beziehungen", key, sb)
-    slugs = resolve_names(t["arten"], lookup)
+    nachweis = t.get("artenNachweis") or {}
+    zeilen = []
+    gesehen = set()
+    for name in t["arten"]:
+        sid = lookup.get(str(name).casefold())
+        if sid is None or sid in gesehen:
+            continue
+        gesehen.add(sid)
+        stufe = nachweis.get(name) or nachweis.get(sid) or "belegt"
+        if stufe not in ("belegt", "typisch"):
+            stufe = "belegt"
+        zeilen.append({
+            "trail_id": trail_id,
+            "species_id": sid,
+            "nachweis": stufe,
+        })
     req("DELETE", "trail_species?trail_id=eq." + trail_id, key)
-    if slugs:
-        req("POST", "trail_species", key,
-            [{"trail_id": trail_id, "species_id": s} for s in slugs])
+    if zeilen:
+        req("POST", "trail_species", key, zeilen)
+    slugs = [z["species_id"] for z in zeilen]
 
     print("OK: Trail '%s' mit %d Stationen, %d Amenities, %d Arten geladen."
           % (trail_id, len(stations), len(amenities), len(slugs)))

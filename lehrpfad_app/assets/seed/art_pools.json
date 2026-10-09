@@ -1,0 +1,2285 @@
+{
+ "pools": [
+  {
+   "lebensraum": "buchenwald",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge",
+    "daenemark"
+   ],
+   "arten": [
+    {
+     "id": "rotbuche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "waldmeister",
+     "rolle": "leit",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "buschwindroeschen",
+     "rolle": "leit",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "bergahorn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "esche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "blaumeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "eichelhaeher",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "kleiber",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "buntspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "fliegenpilz",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "leberbluemchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "mausebussard",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "schwarzspecht",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "dachs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    },
+    {
+     "id": "mittelspecht",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9130 Waldmeister-Buchenwald; DDA Monitoring häufiger Brutvögel"
+    }
+   ]
+  },
+  {
+   "lebensraum": "kuestenwald-kiefer",
+   "naturraeume": [
+    "ostsee",
+    "nordsee",
+    "norddt-tiefland"
+   ],
+   "arten": [
+    {
+     "id": "kiefer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "stieleiche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rotbuche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "heidelbeere",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "haengebirke",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eberesche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "adlerfarn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eichelhaeher",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "buntspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "tagpfauenauge",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "waldeidechse",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "seeadler",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "zwergfledermaus",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rothirsch",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    }
+   ]
+  },
+  {
+   "lebensraum": "kiefernforst",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge"
+   ],
+   "arten": [
+    {
+     "id": "kiefer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "heidelbeere",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "haengebirke",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "stieleiche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eberesche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "adlerfarn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eichelhaeher",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "buntspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rote-waldameise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "waldeidechse",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "blaumeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "schwarzspecht",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "rothirsch",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2180 / 9190, Bundeswaldinventur; DDA häufige Brutvögel"
+    }
+   ]
+  },
+  {
+   "lebensraum": "eichen-mischwald",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge"
+   ],
+   "arten": [
+    {
+     "id": "stieleiche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "hainbuche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "eichelhaeher",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "haengebirke",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "esche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "feldahorn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "winterlinde",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "buntspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "mittelspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "kleiber",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "fliegenpilz",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "schwarzspecht",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "dachs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    },
+    {
+     "id": "damhirsch",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 9190 alte bodensaure Eichenwälder; DDA"
+    }
+   ]
+  },
+  {
+   "lebensraum": "auwald",
+   "naturraeume": [
+    "norddt-tiefland",
+    "mittelgebirge",
+    "ostsee"
+   ],
+   "arten": [
+    {
+     "id": "schwarzerle",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "esche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "stieleiche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "eisvogel",
+     "rolle": "leit",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "holunder",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "schlehe",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "salweide",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "pirol",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "kuckuck",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "grasfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "stockente",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "biber",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "blaumeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "graureiher",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "weissstorch",
+     "rolle": "bonus",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "dachs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    }
+   ]
+  },
+  {
+   "lebensraum": "moor",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "alpenvorland"
+   ],
+   "arten": [
+    {
+     "id": "torfmoos",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "wollgras",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "moorfrosch",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "sonnentau",
+     "rolle": "leit",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "moorbirke",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "glockenheide",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "sumpfdotterblume",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "grasfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "erdkroete",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "ringelnatter",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "grosse-moosjungfer",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "libelle",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "kranich",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "bekassine",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "waldeidechse",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "rotbauchunke",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "kuckuck",
+     "rolle": "bonus",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    },
+    {
+     "id": "schwarzstorch",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 7120 und 7140; DGHT Amphibienatlas"
+    }
+   ]
+  },
+  {
+   "lebensraum": "heide",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee"
+   ],
+   "arten": [
+    {
+     "id": "besenheide",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "kiefer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "heidelerche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "zauneidechse",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "wacholder",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "glockenheide",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "feldhase",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "steinschmaetzer",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "neuntoeter",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "wiedehopf",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "tagpfauenauge",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "schwalbenschwanz",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "eberesche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "waldeidechse",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "goldammer",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "ziegenmelker",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "heidekraut-seidenbiene",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "braunkehlchen",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    },
+    {
+     "id": "schaf",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 4030 Trockene Heiden und 4010 Feuchte Heiden"
+    }
+   ]
+  },
+  {
+   "lebensraum": "teich-tuempel",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge"
+   ],
+   "arten": [
+    {
+     "id": "grasfrosch",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "erdkroete",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "teichfrosch",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "stockente",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "schilf",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "teichmolch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "plattbauch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "libelle",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "blaesshuhn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "hoeckerschwan",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "seerose",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "ringelnatter",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "graureiher",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "kammmolch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "rotbauchunke",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "eisvogel",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    },
+    {
+     "id": "zwergfledermaus",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150 eutrophe Seen; DGHT; NABU Vogelporträts"
+    }
+   ]
+  },
+  {
+   "lebensraum": "see-ufer",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "alpenvorland"
+   ],
+   "arten": [
+    {
+     "id": "haubentaucher",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "blaesshuhn",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "stockente",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "schilf",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "hoeckerschwan",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "graureiher",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "graugans",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "seerose",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "teichfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "libelle",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "eisvogel",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "plattbauch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "kranich",
+     "rolle": "bonus",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "seeadler",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "fischadler",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    },
+    {
+     "id": "kormoran",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 3150; NABU Wasservögel"
+    }
+   ]
+  },
+  {
+   "lebensraum": "fliessgewaesser",
+   "naturraeume": [
+    "norddt-tiefland",
+    "mittelgebirge",
+    "ostsee"
+   ],
+   "arten": [
+    {
+     "id": "eisvogel",
+     "rolle": "leit",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "schwarzerle",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "stockente",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "esche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "salweide",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "biber",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "graureiher",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "libelle",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "grasfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "fischotter",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "kormoran",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    },
+    {
+     "id": "weissstorch",
+     "rolle": "bonus",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 91E0 Erlen-Eschen-Auwälder; DDA"
+    }
+   ]
+  },
+  {
+   "lebensraum": "salzwiese-watt",
+   "naturraeume": [
+    "nordsee",
+    "ostsee"
+   ],
+   "arten": [
+    {
+     "id": "queller",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "strandflieder",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "austernfischer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "silbermoewe",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "brandgans",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "graugans",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "kormoran",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "seeadler",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    },
+    {
+     "id": "weissstorch",
+     "rolle": "bonus",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 1330 Atlantische Salzwiesen; Nationalpark Wattenmeer"
+    }
+   ]
+  },
+  {
+   "lebensraum": "duene-strand",
+   "naturraeume": [
+    "nordsee",
+    "ostsee"
+   ],
+   "arten": [
+    {
+     "id": "strandhafer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "sanddorn",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "silbermoewe",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "brandgans",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "besenheide",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "kiefer",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "feldhase",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "kormoran",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
+     "id": "austernfischer",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    }
+   ]
+  },
+  {
+   "lebensraum": "streuobst-hecke",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge"
+   ],
+   "arten": [
+    {
+     "id": "kultur-apfel",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "heckenrose",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "weissdorn",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "schlehe",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "holunder",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "vogelkirsche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "blaumeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "amsel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "gruenspecht",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "admiral",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "tagpfauenauge",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "marienkaefer",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "igel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "hummel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "honigbiene",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "goldammer",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "neuntoeter",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    },
+    {
+     "id": "distelfalter",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN-Biotop Hecken und Streuobst; DDA"
+    }
+   ]
+  },
+  {
+   "lebensraum": "nadelforst",
+   "naturraeume": [
+    "mittelgebirge",
+    "alpenvorland"
+   ],
+   "arten": [
+    {
+     "id": "fichte",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "weisstanne",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "rotbuche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "europaeische-laerche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "bergahorn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "tannenhaeher",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "grasfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "heidelbeere",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "schwarzspecht",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    },
+    {
+     "id": "waldkauz",
+     "rolle": "bonus",
+     "sichtbarkeit": "nacht",
+     "saison": "ganzjaehrig",
+     "quelle": "Bundeswaldinventur Fichte, Tanne, Lärche; Alpenflora"
+    }
+   ]
+  },
+  {
+   "lebensraum": "alpen-wald",
+   "naturraeume": [
+    "alpenvorland"
+   ],
+   "arten": [
+    {
+     "id": "fichte",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "weisstanne",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "alpenrose",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "tannenhaeher",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "rotbuche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "bergahorn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "europaeische-laerche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "buchfink",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "kohlmeise",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "reh",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "grasfrosch",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "rotfuchs",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    },
+    {
+     "id": "mausebussard",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN alpine Zwergstrauchheide und Bergmischwald"
+    }
+   ]
+  },
+  {
+   "lebensraum": "mediterraner-wald",
+   "naturraeume": [
+    "katalonien"
+   ],
+   "arten": [
+    {
+     "id": "steineiche",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "pinie",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "aleppokiefer",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "erdbeerbaum",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "korkeiche",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "rosmarin",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "zistrose",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "eichelhaeher",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "schwalbenschwanz",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "mauereidechse",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "mittelmeermoewe",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "eichhoernchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "wildschwein",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    },
+    {
+     "id": "kormoran",
+     "rolle": "bonus",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "Habitatkarte mediterraner Hartlaubwald, Collserola und Montnegre"
+    }
+   ]
+  },
+  {
+   "lebensraum": "trockenrasen",
+   "naturraeume": [
+    "mittelgebirge",
+    "norddt-tiefland"
+   ],
+   "arten": [
+    {
+     "id": "zauneidechse",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "schwalbenschwanz",
+     "rolle": "leit",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "margerite",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "feldhase",
+     "rolle": "typisch",
+     "sichtbarkeit": "geduld",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "goldammer",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "zitronefalter",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "tagpfauenauge",
+     "rolle": "typisch",
+     "sichtbarkeit": "saison",
+     "saison": "saison",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "rotklee",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "hahnenfuss",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "wildbiene",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "hummel",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "neuntoeter",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    },
+    {
+     "id": "wiedehopf",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 6210 Kalkmagerrasen, nur die weit verbreiteten Arten"
+    }
+   ]
+  },
+  {
+   "lebensraum": "hof-nutztier",
+   "naturraeume": [
+    "norddt-tiefland",
+    "ostsee",
+    "nordsee",
+    "mittelgebirge"
+   ],
+   "arten": [
+    {
+     "id": "ziege",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "schaf",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "haushuhn",
+     "rolle": "leit",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "hauskaninchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "honigbiene",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "loewenzahn",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "gaensebluemchen",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "rotklee",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "amsel",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    },
+    {
+     "id": "rotkehlchen",
+     "rolle": "bonus",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "Betreiber-Tierhaltung, Katalogbestand"
+    }
+   ]
+  }
+ ]
+}

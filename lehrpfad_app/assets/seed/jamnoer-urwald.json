@@ -14,7 +14,20 @@
  "anreise": "Parkplatz Landgasthaus Urwald, Urwaldstraße 22, 03149 Forst (Lausitz) OT Groß Jamno. Auto über die L 122. Bus Forst–Cottbus, Haltestelle Groß Jamno. Der grüne Punkt am selben Parkplatz ist die andere Runde zum Großteich.",
  "startName": "Parkplatz Landgasthaus Urwald",
  "arten": [
-  "Kiefer"
+  "Kiefer",
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Kohlmeise",
+  "Rote Waldameise",
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -420,5 +433,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Landgasthaus hat eigene Zeiten.",
  "besuchshinweise": "Lehrpfad ist der grüne Schrägstrich. Der grüne Punkt führt zum Großteich, das ist die andere Runde. Quellgebiet, nach Regen weich.",
  "hoertext": "Am Parkplatz vom Landgasthaus Urwald, mitten in Groß Jamno, fängt der Lehrpfad an. Grüner Schrägstrich, knapp zwei Kilometer, frei. Der grüne Punkt daneben ist die andere Runde und läuft zum Großteich. Auf dem Schrägstrich liegen die Quelle und die Holzröhren, die den Ort früher mit Wasser versorgt haben. Nach Regen ist der Boden weich.",
- "bilderAsset": "assets/images/trails/jamnoer-urwald/credits.json"
+ "bilderAsset": "assets/images/trails/jamnoer-urwald/credits.json",
+ "lebensraeume": [
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Rote Waldameise": "typisch",
+  "Rotkehlchen": "typisch"
+ }
 }

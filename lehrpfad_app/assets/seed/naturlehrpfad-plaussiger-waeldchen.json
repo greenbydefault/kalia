@@ -16,7 +16,18 @@
  "arten": [
   "Schwarzerle",
   "Sumpf-Schwertlilie",
-  "Steinschmätzer"
+  "Steinschmätzer",
+  "Buchfink",
+  "Eichelhäher",
+  "Gemeine Esche",
+  "Hainbuche",
+  "Stieleiche",
+  "Eisvogel",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Feldahorn"
  ],
  "tags": [
   "kinderfreundlich"
@@ -541,5 +552,26 @@
   }
  ],
  "hoertext": "Südlich der Naturschutzstation hängt die Karte. Ein grüner Strich nimmt dich mit, knapp zwei Kilometer im Kreis durchs Plaußiger Wäldchen. Du kommst an die Parthe, an eine Kiesgrube und an die gesprengten Hallen der Motorenwerke. Am Teich liegt der Sumpfwald einen Abstecher weiter. Nach Regen wird der Weg weich. An den Nisthilfen nur gucken, nicht anfassen.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-plaussiger-waeldchen/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-plaussiger-waeldchen/credits.json",
+ "lebensraeume": [
+  "eichen-mischwald",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Schwarzerle": "belegt",
+  "Sumpf-Schwertlilie": "belegt",
+  "Steinschmätzer": "belegt",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Gemeine Esche": "typisch",
+  "Hainbuche": "typisch",
+  "Stieleiche": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Feldahorn": "typisch"
+ }
 }

@@ -17,7 +17,17 @@
   "Schwarzerle",
   "Rotbuche",
   "Stockente",
-  "Seeadler"
+  "Seeadler",
+  "Schilf",
+  "Blässhuhn",
+  "Gemeine Esche",
+  "Haubentaucher",
+  "Stieleiche",
+  "Eisvogel",
+  "Amsel",
+  "Blaumeise",
+  "Buchfink",
+  "Grasfrosch"
  ],
  "tags": [
   "kinderfreundlich",
@@ -1555,5 +1565,26 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
  "besuchshinweise": "Nass auf Holzstegen, kein Winterdienst. Hunde anleinen. PlanetenPfad und Evolutionpfad sind andere Wege. Camping Spitzenort extra.",
  "hoertext": "An der Fegetasche liegt der Strand, frei, ohne Anmeldung. Einunddreißig Tafeln bis zur Prinzeninsel, Ufer und Schlosswald. Auto am Strandparkplatz oder am Spitzenort. Der PlanetenPfad mit den Kugeln ist der andere Weg. Nass wird das Holz am Steg, Hunde an die Leine.",
- "bilderAsset": "assets/images/trails/naturerlebnisweg-ploener-seeufer/credits.json"
+ "bilderAsset": "assets/images/trails/naturerlebnisweg-ploener-seeufer/credits.json",
+ "lebensraeume": [
+  "see-ufer",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Schwarzerle": "belegt",
+  "Rotbuche": "belegt",
+  "Stockente": "belegt",
+  "Seeadler": "belegt",
+  "Schilf": "belegt",
+  "Blässhuhn": "typisch",
+  "Gemeine Esche": "typisch",
+  "Haubentaucher": "typisch",
+  "Stieleiche": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buchfink": "typisch",
+  "Grasfrosch": "typisch"
+ }
 }

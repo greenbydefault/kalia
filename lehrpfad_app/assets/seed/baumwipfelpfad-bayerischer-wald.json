@@ -14,11 +14,21 @@
  "anreise": "Adresse: Böhmstraße 43, 94556 Neuschönau. GPS 48.89237, 13.48860. Igelbus-Halt Nationalparkzentrum Lusen, direkt am Pfad; Fahrschein an der Kasse: 1 € Rabatt. Parkplätze P1 und P2 des Nationalparks direkt am Pfad, Tageskarte 5 € (erste 30 Minuten frei). P4/P5 April–Oktober, zehn Minuten. Behindertenparkplätze am P1, ca. 500 m zum Eingang. Wohnmobile Sommer P5 (8 €), Winter P1. GUTi ermäßigt, activCARD einmal frei – beides nur an der Kasse, nicht mit Online-Ticket.",
  "startName": "Kasse Böhmstraße",
  "arten": [
-    "Rotbuche",
-    "Fichte",
-    "Bergahorn",
-    "Weißtanne"
-  ],
+  "Rotbuche",
+  "Fichte",
+  "Bergahorn",
+  "Weißtanne",
+  "Buntspecht",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Grasfrosch",
+  "Kleiber",
+  "Mäusebussard"
+ ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",
@@ -427,5 +437,26 @@
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Pfad max. 6 %, Einstiegsturm mit Aufzug, Kinderwagen und Rollstuhl. Letzte 4 Meter am Turm Treppe (Wikipedia). Rollstuhl oder Rollator nach Anmeldung. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Im Nationalparkzentrum Lusen geht der Steg ohne Treppe durch den Bergmischwald, im Ei stehen drei Bäume. Oben Rachel und Lusen, an klaren Tagen die Alpen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, das Tierfreigelände und das Hans-Eisenmann-Haus extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-bayerischer-wald/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-bayerischer-wald/credits.json",
+ "lebensraeume": [
+  "nadelforst",
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Fichte": "belegt",
+  "Bergahorn": "belegt",
+  "Weißtanne": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Grasfrosch": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch"
+ }
 }

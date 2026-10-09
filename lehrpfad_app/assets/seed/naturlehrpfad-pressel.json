@@ -16,7 +16,18 @@
  "arten": [
   "Kranich",
   "Torfmoos",
-  "Kiefer"
+  "Kiefer",
+  "Besenheide",
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Heidelerche",
+  "Moorfrosch",
+  "Wollgras",
+  "Zauneidechse",
+  "Rundblättriger Sonnentau",
+  "Adlerfarn",
+  "Amsel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -808,5 +819,27 @@
   }
  ],
  "hoertext": "Am Presseler Teich, bei der Neumühle, fängt die Runde an. Fünfeinhalb Kilometer, erst nach Süden am Mühlbach, dann auf der anderen Seite zurück. Die Markierung ist ein grüner Schrägstrich auf Weiß. An der Tafel Garantiert nasse Füße kannst du die Füße ins Bachwasser halten. Kraniche ziehen eher im Herbst über dem Moor. Festes Schuhwerk, der Boden ist weich. Naturschutzgebiet, also auf dem Weg bleiben.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-pressel/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-pressel/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "moor",
+  "heide"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kranich": "belegt",
+  "Torfmoos": "belegt",
+  "Kiefer": "belegt",
+  "Besenheide": "typisch",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Heidelerche": "typisch",
+  "Moorfrosch": "typisch",
+  "Wollgras": "typisch",
+  "Zauneidechse": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch"
+ }
 }

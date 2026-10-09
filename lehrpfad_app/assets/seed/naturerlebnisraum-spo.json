@@ -16,7 +16,18 @@
  "arten": [
   "Strandflieder",
   "Queller",
-  "Austernfischer"
+  "Austernfischer",
+  "Strandhafer",
+  "Sanddorn",
+  "Besenheide",
+  "Brandgans",
+  "Graugans",
+  "Kiefer",
+  "Silbermöwe",
+  "Feldhase",
+  "Kormoran",
+  "Weißstorch",
+  "Seeadler"
  ],
  "tags": [
   "kinderfreundlich",
@@ -724,5 +735,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/naturerlebnisraum-spo/credits.json"
+ "bilderAsset": "assets/images/trails/naturerlebnisraum-spo/credits.json",
+ "lebensraeume": [
+  "salzwiese-watt",
+  "duene-strand"
+ ],
+ "naturraum": "nordsee",
+ "artenNachweis": {
+  "Strandflieder": "belegt",
+  "Queller": "belegt",
+  "Austernfischer": "belegt",
+  "Strandhafer": "belegt",
+  "Sanddorn": "typisch",
+  "Besenheide": "typisch",
+  "Brandgans": "typisch",
+  "Graugans": "typisch",
+  "Kiefer": "typisch",
+  "Silbermöwe": "typisch",
+  "Feldhase": "typisch",
+  "Kormoran": "typisch",
+  "Weißstorch": "typisch",
+  "Seeadler": "typisch"
+ }
 }

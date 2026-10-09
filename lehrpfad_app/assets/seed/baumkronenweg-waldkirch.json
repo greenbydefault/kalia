@@ -15,7 +15,19 @@
  "startName": "Kasse / Eingang",
  "arten": [
   "Rotbuche",
-  "Fichte"
+  "Fichte",
+  "Buchfink",
+  "Kohlmeise",
+  "Weißtanne",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -222,5 +234,26 @@
  "oeffnungszeiten": "Saison 2026 ab 21.3., täglich bis 8.11. März–Juni und ab 14.9. 11–17:30 Uhr, 1.7.–13.9. 11–18:30 Uhr. Letzter Einlass eine Stunde vorher. Gruppen nach Voranmeldung auch früher. Betreiber-Seite listet 2026 die Preise, die Uhrzeiten nach walderlebnispfade.de.",
  "besuchshinweise": "Steg sechs Prozent, Holz. Der Weg zur Kasse ist der Sinnesweg: steil, 13 Prozent, nicht rollstuhlgerecht; Kinderwagen nur offroad. Zufahrt zur Kasse nach Anmeldung Tel. 0151 50404867. Hunde angeleint. Abenteuerpfad, Barfußpfad, Bambini-Seilpark extra. Röhrenrutsche extra 2 €, ab 8, bei Nässe oft unangenehm. Zoo und See extra. Letzter Einlass eine Stunde vor Schluss.",
  "hoertext": "Oben am Hang hängt ein zweihundert Meter langer Holzsteg, dreiundzwanzig Meter über dem Schwarzwald. Hoch geht's über den Sinnesweg, steil, dreizehn Prozent. Rollstuhl: anrufen, dann fährst du zur Kasse. Hunde angeleint. Die Röhrenrutsche extra, ab acht, zwei Euro. Letzter Einlass eine Stunde vor Schluss.",
- "bilderAsset": "assets/images/trails/baumkronenweg-waldkirch/credits.json"
+ "bilderAsset": "assets/images/trails/baumkronenweg-waldkirch/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "nadelforst"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Fichte": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Weißtanne": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

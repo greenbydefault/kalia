@@ -16,7 +16,18 @@
  "arten": [
   "Kiefer",
   "Igel",
-  "Hummel"
+  "Hummel",
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Kohlmeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -157,5 +168,25 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/fledermauspfad-bossow/credits.json"
+ "bilderAsset": "assets/images/trails/fledermauspfad-bossow/credits.json",
+ "lebensraeume": [
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Igel": "belegt",
+  "Hummel": "belegt",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch"
+ }
 }

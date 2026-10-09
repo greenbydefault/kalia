@@ -14,16 +14,21 @@
  "anreise": "Adresse fürs Navi: Parkplatz Baumkronenpfad, 99991 Unstrut-Hainich OT Alterstedt. GPS 51.08142, 10.51765. Post: Thiemsburg 1, 99947 Schönstedt. Auto über B84, Parkplatz an der K515, zehn Minuten zu Fuß zum Steg. Nationalparkbus 154 Mühlhausen–Thiemsburg, Halt am Parkplatz. Rad: Gelbe Route Creuzburg–Bad Langensalza.",
  "startName": "Kasse / Lift am Baumturm",
  "arten": [
-    "Rotbuche",
-    "Bergahorn",
-    "Wildkatze",
-    "Bechsteinfledermaus",
-    "Buntspecht",
-    "Großer Schillerfalter",
-    "Stieleiche",
-    "Schwarzerle",
-    "Hainbuche"
-  ],
+  "Rotbuche",
+  "Bergahorn",
+  "Wildkatze",
+  "Bechsteinfledermaus",
+  "Buntspecht",
+  "Großer Schillerfalter",
+  "Stieleiche",
+  "Schwarzerle",
+  "Hainbuche",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Eichelhäher"
+ ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",
@@ -439,5 +444,25 @@
  "oeffnungszeiten": "April–Oktober täglich 10–19 Uhr. März täglich 10–18. November täglich 10–16 (Wetter). Januar, Februar, Dezember: Do–So sowie Feier- und Ferientage Thüringen 10–16, Mo–Mi zu. 24.12., 31.12., 1.1. zu. Letzter Einlass 1 Stunde vorher, im Oktober 1,5 Stunden. Bei Sturm, Gewitter, Eis kurzfristig zu.",
  "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Steg, Boxen am Fuß. Assistenzhunde ausgenommen. Turm nur Treppe. Lift auf den Steg für Kinderwagen und Rollstuhl. Bei Gewitter und Sturm Evakuierung. Fotos nur privat.",
  "hoertext": "Über dir hängt der Buchenurwald, unter den Brettern knarzt der Steg. Der Lift nimmt den Kinderwagen mit, den Turm nur die Treppe. Vier Tiere erzählen auf der ersten Schleife, die zweite erklärt den Wald selbst. Hunde bleiben in der Box unten. Zwei Stunden reichen, wenn ihr Fagati noch mitnehmt.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-hainich/credits.json"
+ "bilderAsset": "assets/images/trails/baumkronenpfad-hainich/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Bergahorn": "belegt",
+  "Wildkatze": "belegt",
+  "Bechsteinfledermaus": "belegt",
+  "Buntspecht": "belegt",
+  "Großer Schillerfalter": "belegt",
+  "Stieleiche": "belegt",
+  "Schwarzerle": "belegt",
+  "Hainbuche": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch"
+ }
 }

@@ -39,8 +39,21 @@ const _wiedehopf = Species(
   nameLat: 'Upupa epops',
   kategorie: 'fauna',
   kurztext: 'Mit Haube.',
-  content: SpeciesContent(hook: 'Die Federhaube steht zu Berge.'),
+  content: SpeciesContent(
+    hook: 'Die Federhaube steht zu Berge.',
+    hoertext: 'Ein Satz zum Einsprechen, der in der UI nicht stehen darf.',
+  ),
   audioPath: 'assets/audio/species/wiedehopf.mp3',
+);
+
+const _ohneText = Species(
+  id: 'amsel',
+  nameDe: 'Amsel',
+  nameLat: 'Turdus merula',
+  kategorie: 'fauna',
+  kurztext: 'Schwarzer Sänger.',
+  content: SpeciesContent(hook: 'Abends singt jemand auf dem First.'),
+  audioPath: 'assets/audio/species/amsel.mp3',
 );
 
 void main() {
@@ -129,6 +142,10 @@ void main() {
     await pumpTile(tester, species: _wiedehopf, repo: repo);
     await tester.pumpAndSettle();
     expect(find.byTooltip('Stimme anhören'), findsOneWidget);
+
+    await pumpTile(tester, species: _ohneText, repo: repo);
+    await tester.pumpAndSettle();
+    expect(find.byTooltip('Stimme anhören'), findsNothing);
   });
 
   testWidgets('Play-Tap öffnet die Karte nicht', (tester) async {

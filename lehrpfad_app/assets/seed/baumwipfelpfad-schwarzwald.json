@@ -14,10 +14,21 @@
  "anreise": "Adresse: Peter-Liebig-Weg 16, 75323 Bad Wildbad. GPS 48.75030, 8.53573. S6 nach Bad Wildbad, Halt Uhlandplatz/Sommerbergbahn, dann Standseilbahn; von der Bergstation wenige Minuten zu Fuß. Parkplatz Sommerberg (Peter-Liebig-Weg 12, 168 Plätze, kostenpflichtig), fünf bis zehn Minuten. Behindertenparkplätze am Auerhahn, ca. 200 m. Wohnmobile nicht auf den Sommerberg.",
  "startName": "Kasse Peter-Liebig-Weg",
  "arten": [
-    "Rotbuche",
-    "Fichte",
-    "Weißtanne"
-  ],
+  "Rotbuche",
+  "Fichte",
+  "Weißtanne",
+  "Buntspecht",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche"
+ ],
  "tags": [
   "kinderfreundlich",
   "kinderwagentauglich",
@@ -297,5 +308,26 @@
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen. Rutsche April–Oktober 11–18, bei Nässe oft zu, Winter nur bei passendem Wetter.",
  "besuchshinweise": "Kinder nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Tunnelrutsche extra 2 €, Einstieg 25 m im Turm, bei Nässe oft zu. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Über den Brettern hängt der Bergmischwald, Buche neben Fichte. Der Steg bleibt ohne Stufe, den Turm nimmt die Rampe mit. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Die Rutsche im Turm kostet extra und bleibt nass zu. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, den Abenteuerwald am Turm extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-schwarzwald/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-schwarzwald/credits.json",
+ "lebensraeume": [
+  "nadelforst",
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Fichte": "belegt",
+  "Weißtanne": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ }
 }

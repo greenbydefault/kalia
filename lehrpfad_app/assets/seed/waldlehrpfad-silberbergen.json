@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Stieleiche",
-  "Buntspecht"
+  "Buntspecht",
+  "Buchfink",
+  "Kohlmeise",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Kleiber"
  ],
  "tags": [
   "kinderfreundlich",
@@ -598,5 +609,25 @@
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Wege nass nach Regen, kein Rollstuhl. Aschberg mit Turm und Bismarck ist extra, anderer Einstieg.",
  "hoertext": "Am Waldparkplatz Silberbergen, L265 zwischen Ahlefeld und Bistensee, fängt die Runde an. Zweieinhalb Kilometer durchs Gehege, frei, Tafeln zu Wald, Pflanzen und Tieren. Auto bleibt am Platz, nicht in den Bestand. Der Aschberg mit Turm und Bismarck ist extra, anderer Einstieg. Nass nach Regen, Hunde an die Leine.",
- "bilderAsset": "assets/images/trails/waldlehrpfad-silberbergen/credits.json"
+ "bilderAsset": "assets/images/trails/waldlehrpfad-silberbergen/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kleiber": "typisch"
+ }
 }

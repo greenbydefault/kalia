@@ -16,7 +16,18 @@
  "arten": [
   "Rotbuche",
   "Schwarzerle",
-  "Libelle"
+  "Libelle",
+  "Buchfink",
+  "Gemeine Esche",
+  "Kohlmeise",
+  "Stieleiche",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Eisvogel",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht"
  ],
  "tags": [
   "kinderfreundlich",
@@ -611,5 +622,26 @@
   }
  ],
  "hoertext": "Am Parkplatz Blaue Lehmkuhle, gegenüber der Tennishalle, fängt der Pfad an. Zwei Kilometer durch die Vogelbergniederung bis zum Elfenmoor, frei, ohne Anmeldung. Zehn Tafeln, dazu MP3s auf der ERNA-Seite. Der Knüppeldamm ist Holz und nass. Das Vereinshaus ist extra, gebuchte Klassen. Bleib auf den Stegen, nebenan ist Moor.",
- "bilderAsset": "assets/images/trails/naturerlebnispfad-eutin/credits.json"
+ "bilderAsset": "assets/images/trails/naturerlebnispfad-eutin/credits.json",
+ "lebensraeume": [
+  "buchenwald",
+  "auwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Schwarzerle": "belegt",
+  "Libelle": "belegt",
+  "Buchfink": "typisch",
+  "Gemeine Esche": "typisch",
+  "Kohlmeise": "typisch",
+  "Stieleiche": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Eisvogel": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch"
+ }
 }

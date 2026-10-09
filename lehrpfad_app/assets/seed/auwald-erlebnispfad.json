@@ -15,7 +15,19 @@
  "startName": "Auwaldstation Lützschena",
  "arten": [
   "Eisvogel",
-  "Moorfrosch"
+  "Moorfrosch",
+  "Grasfrosch",
+  "Gemeine Esche",
+  "Schwarzerle",
+  "Stieleiche",
+  "Stockente",
+  "Amsel",
+  "Blaumeise",
+  "Buchfink",
+  "Schwarzer Holunder",
+  "Libelle",
+  "Rotkehlchen",
+  "Salweide"
  ],
  "tags": [
   "kinderfreundlich",
@@ -496,5 +508,26 @@
   }
  ],
  "hoertext": "An der Auwaldstation im Schlosspark Lützschena fängt die Runde an. Gut drei Kilometer durch die Burgaue, über die Brücke der Neuen Luppe und denselben Weg zurück. Am Herkulesdenkmal links in den Wald. Die Geschichten kommen aus der App. Festes Schuhwerk, nach Regen wird es weich. Der Schlosspark-Rundgang ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/auwald-erlebnispfad/credits.json"
+ "bilderAsset": "assets/images/trails/auwald-erlebnispfad/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Eisvogel": "belegt",
+  "Moorfrosch": "belegt",
+  "Grasfrosch": "belegt",
+  "Gemeine Esche": "typisch",
+  "Schwarzerle": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buchfink": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Libelle": "typisch",
+  "Rotkehlchen": "typisch",
+  "Salweide": "typisch"
+ }
 }

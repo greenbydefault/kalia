@@ -17,7 +17,17 @@
   "Rotbuche",
   "Stieleiche",
   "Weißtanne",
-  "Fichte"
+  "Fichte",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichelhäher",
+  "Eichhörnchen",
+  "Kleiber",
+  "Mäusebussard",
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -173,5 +183,25 @@
  "oeffnungszeiten": "Januar Sa–So und Feiertage 10–16. Februar Fr–So 10–16. März–Oktober täglich 10–18, im Mai–September Fr–So bis 20 Uhr. November–Dezember Do–So 10–16. 1. Januar, Heiligabend und Silvester 10–15. Kasse eine halbe Stunde vorher. Wetter kann früher schließen. Stand 2026, Öffnungszeiten auf baumwipfelpfad-badiburg.de, gleichlautend am OSM-Steg.",
  "besuchshinweise": "Aufzug nur im östlichen Einstiegsturm, etwa 32 Meter. Am Ausstiegsturm eine Treppe, etwa 11 Meter, kein Aufzug. Rollstuhl und Kinderwagen drehen auf dem Steg um. Laufbreite 1,80 Meter. Kasse schließt 30 Minuten vor Ende. Kletterwald ist extra, eigenes Ticket.",
  "hoertext": "Waldkurpark unter dem Schloss in Bad Iburg. Ticket im Pavillon, Aufzug im östlichen Turm. Vierhundertvierzig Meter Steg, zehn bis sechsundzwanzig Meter über alten Kronen. Zu Fuß geht es am anderen Turm die Treppe runter. Rollstuhl und Kinderwagen drehen oben um, der Ausstieg hat keine Rampe. Die Kasse macht eine halbe Stunde vor Schluss zu.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-bad-iburg/credits.json"
+ "bilderAsset": "assets/images/trails/baumwipfelpfad-bad-iburg/credits.json",
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Weißtanne": "belegt",
+  "Fichte": "belegt",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Mäusebussard": "typisch",
+  "Rotkehlchen": "typisch"
+ }
 }

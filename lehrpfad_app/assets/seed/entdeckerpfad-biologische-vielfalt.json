@@ -17,7 +17,17 @@
   "Kiefer",
   "Rotbuche",
   "Stieleiche",
-  "Eisvogel"
+  "Eisvogel",
+  "Kammmolch",
+  "Teichmolch",
+  "Zwergfledermaus",
+  "Grasfrosch",
+  "Teichfrosch",
+  "Hainbuche",
+  "Heidelbeere",
+  "Schilf",
+  "Adlerfarn",
+  "Eberesche"
  ],
  "tags": [
   "kinderfreundlich",
@@ -618,5 +628,27 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/entdeckerpfad-biologische-vielfalt/credits.json"
+ "bilderAsset": "assets/images/trails/entdeckerpfad-biologische-vielfalt/credits.json",
+ "lebensraeume": [
+  "kuestenwald-kiefer",
+  "teich-tuempel",
+  "eichen-mischwald"
+ ],
+ "naturraum": "ostsee",
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Eisvogel": "belegt",
+  "Kammmolch": "belegt",
+  "Teichmolch": "belegt",
+  "Zwergfledermaus": "belegt",
+  "Grasfrosch": "belegt",
+  "Teichfrosch": "belegt",
+  "Hainbuche": "typisch",
+  "Heidelbeere": "typisch",
+  "Schilf": "typisch",
+  "Adlerfarn": "typisch",
+  "Eberesche": "typisch"
+ }
 }

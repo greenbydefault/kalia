@@ -17,7 +17,17 @@
   "Besenheide",
   "Kiefer",
   "Heidelerche",
-  "Zauneidechse"
+  "Zauneidechse",
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher",
+  "Eichhörnchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -802,5 +812,26 @@
    "name": null
   }
  ],
- "bilderAsset": "assets/images/trails/archaeologischer-wanderpfad-fischbek/credits.json"
+ "bilderAsset": "assets/images/trails/archaeologischer-wanderpfad-fischbek/credits.json",
+ "lebensraeume": [
+  "heide",
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Besenheide": "belegt",
+  "Kiefer": "belegt",
+  "Heidelerche": "belegt",
+  "Zauneidechse": "belegt",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch",
+  "Eichhörnchen": "typisch"
+ }
 }

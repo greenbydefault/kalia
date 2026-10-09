@@ -1,0 +1,578 @@
+{
+ "id": "weltpfad-nicklheim",
+ "name": "Weltpfad Nicklheim",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Ein Meter Weg sind zehn Millionen Jahre. Der Urknall steht am Parkplatz, die Erde folgt Hunderte Meter später, am Ende liegt ein Moor mit Libellen.",
+ "beschreibung": "Ein Meter Weg steht für zehn Millionen Jahre. Der Urknall hängt neben dem Parkplatz, die Erde entsteht erst weit dahinter. Lange tut sich wenig: Sauerstoff reichert die Luft an, der erste Kontinent bildet sich, ein Eispanzer legt sich über den Planeten. Danach rücken die Tafeln zusammen. Landpflanzen, Riesenlibellen, Saurier und Alpen folgen im Abstand von Schritten, und die Biber kommen kurz vor dem Ende. Dahinter liegen die Nicklheimer Filze, ein Moor, das wegen Schwarz-, Braun-, Blau- und Rotkehlchen auch Vierkehlchenland heißt.",
+ "laengeKm": 1.2,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Tafeln mit Zeitangabe (Jahre vor heute)",
+ "betreiber": "Gemeinde Raubling",
+ "region": "Nicklheim, Raubling, Landkreis Rosenheim, Bayern",
+ "website": "https://www.raubling.de/freizeit-tourismus/erlebnis-moor/",
+ "anreise": "Wanderparkplatz Moorstation Nicklheim an der Panger Straße, 83064 Raubling, gegenüber dem Sportplatz. Auto: A8 Ausfahrt Rosenheim Richtung Raubling oder A93 Ausfahrt Reischenhart, Großholzhausen, Raubling. Bus: Linie 348 ab Rosenheim bis Haltestelle Nicklheim, von dort wenige Hundert Meter zu Fuß.",
+ "startName": "Wanderparkplatz Moorstation Nicklheim",
+ "arten": [
+  "Biber",
+  "Torfmoos",
+  "Libelle",
+  "Braunkehlchen",
+  "Moorfrosch",
+  "Wollgras",
+  "Rundblättriger Sonnentau",
+  "Bekassine",
+  "Erdkröte",
+  "Glockenheide",
+  "Grasfrosch",
+  "Große Moosjungfer",
+  "Moorbirke",
+  "Ringelnatter"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   47.791957,
+   12.070447
+  ],
+  [
+   47.791934,
+   12.070361
+  ],
+  [
+   47.791893,
+   12.070216
+  ],
+  [
+   47.791779,
+   12.069903
+  ],
+  [
+   47.791491,
+   12.069167
+  ],
+  [
+   47.790738,
+   12.067489
+  ],
+  [
+   47.79065,
+   12.067284
+  ],
+  [
+   47.790313,
+   12.066586
+  ],
+  [
+   47.789896,
+   12.065674
+  ],
+  [
+   47.78991,
+   12.065494
+  ],
+  [
+   47.789944,
+   12.065255
+  ],
+  [
+   47.789934,
+   12.065013
+  ],
+  [
+   47.789797,
+   12.062729
+  ],
+  [
+   47.789724,
+   12.061208
+  ],
+  [
+   47.789682,
+   12.060448
+  ],
+  [
+   47.789681,
+   12.06038
+  ],
+  [
+   47.789686,
+   12.060311
+  ],
+  [
+   47.789698,
+   12.060268
+  ],
+  [
+   47.789723,
+   12.060225
+  ],
+  [
+   47.789747,
+   12.060186
+  ],
+  [
+   47.789763,
+   12.060167
+  ],
+  [
+   47.789802,
+   12.060141
+  ],
+  [
+   47.789826,
+   12.060133
+  ],
+  [
+   47.789931,
+   12.060121
+  ],
+  [
+   47.791997,
+   12.059959
+  ],
+  [
+   47.792454,
+   12.059898
+  ],
+  [
+   47.792807,
+   12.059838
+  ],
+  [
+   47.793387,
+   12.059732
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 9006734591,
+   "lat": 47.7918793,
+   "lon": 12.0701406,
+   "km": 0.02,
+   "titel": "Urknall",
+   "thema": "Start des Zeitstrahls, 13,8 Milliarden Jahre",
+   "kurztext": "Die erste Tafel steht nahe dem Parkplatz. Vor 13,8 Milliarden Jahren beginnt alles. Ein Meter Weg steht für zehn Millionen Jahre, der Abstand zwischen den Tafeln ist die Zeit bis zum nächsten Schritt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 9006734590,
+   "lat": 47.7898309,
+   "lon": 12.0601814,
+   "km": 0.85,
+   "titel": "Entstehung der Erde",
+   "thema": "Chaotikum, vor 4,57 Milliarden Jahren",
+   "kurztext": "Die Erde entsteht, mehr als neun Milliarden Jahre nach dem Urknall. Auf dem Weg liegt dazwischen der größte Teil der Strecke.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 9006734589,
+   "lat": 47.7899594,
+   "lon": 12.0601653,
+   "km": 0.86,
+   "titel": "Entstehung des Mondes",
+   "thema": "Chaotikum, vor 4,45 Milliarden Jahren",
+   "kurztext": "Der Mond entsteht, rund 120 Millionen Jahre nach der Erde. Auf dem Weg sind das wenige Schritte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 9006734588,
+   "lat": 47.7900957,
+   "lon": 12.0601476,
+   "km": 0.86,
+   "titel": "Älteste Gesteine",
+   "thema": "Zirconium, vor 4,28 Milliarden Jahren",
+   "kurztext": "Die Tafel nennt die ältesten nachweisbaren Gesteine, 4,28 Milliarden Jahre alt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 9006734587,
+   "lat": 47.7907133,
+   "lon": 12.0600961,
+   "km": 0.86,
+   "titel": "Leben in der Tiefsee",
+   "thema": "Paläoarchaikum, vor 3,45 Milliarden Jahren",
+   "kurztext": "Das Leben beginnt in der Tiefsee, vor 3,45 Milliarden Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 9006734586,
+   "lat": 47.7909989,
+   "lon": 12.0600711,
+   "km": 1.09,
+   "titel": "Erster Kontinent",
+   "thema": "Mesoarchaikum, vor 3,1 Milliarden Jahren",
+   "kurztext": "Ein erster Kontinent formt sich, vor 3,1 Milliarden Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 9006734585,
+   "lat": 47.7915186,
+   "lon": 12.0600344,
+   "km": 1.09,
+   "titel": "Sauerstoff",
+   "thema": "Paläoproterozoikum, vor 2,5 Milliarden Jahren",
+   "kurztext": "Sauerstoff bringt den Durchbruch, vor 2,5 Milliarden Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 9006734584,
+   "lat": 47.7927122,
+   "lon": 12.0599035,
+   "km": 1.18,
+   "titel": "Schneeball Erde",
+   "thema": "Neoproterozoikum, vor 750 Millionen Jahren",
+   "kurztext": "Die Tafel heißt Schneeball Erde und liegt vor 750 Millionen Jahren. Von hier an stehen die Tafeln dicht beieinander.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 9006734583,
+   "lat": 47.7929009,
+   "lon": 12.0598608,
+   "km": 1.18,
+   "titel": "Entstehung des Lebens",
+   "thema": "Paläozoikum, vor 540 Millionen Jahren",
+   "kurztext": "Das Paläozoikum beginnt, vor 540 Millionen Jahren. Die Tafel trägt den Titel Entstehung des Lebens.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 9006734582,
+   "lat": 47.7930205,
+   "lon": 12.0598329,
+   "km": 1.18,
+   "titel": "Erste Landpflanzen und Landtiere",
+   "thema": "Paläozoikum, vor 400 Millionen Jahren",
+   "kurztext": "Pflanzen und Tiere erobern das Land, vor 400 Millionen Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": 9006734581,
+   "lat": 47.7930837,
+   "lon": 12.0597623,
+   "km": 1.18,
+   "titel": "Riesenlibellen",
+   "thema": "Paläozoikum, vor 320 Millionen Jahren",
+   "kurztext": "Riesenlibellen fliegen vor 320 Millionen Jahren. Heutige Libellen sitzen in den Nicklheimer Filzen, am Ende des Wegs.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 9006734580,
+   "lat": 47.793143,
+   "lon": 12.059827,
+   "km": 1.25,
+   "titel": "Mesozoikum",
+   "thema": "Erdmittelalter, vor 240 Millionen Jahren",
+   "kurztext": "Das Erdmittelalter beginnt, vor 240 Millionen Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": 9006734579,
+   "lat": 47.7931618,
+   "lon": 12.0597417,
+   "km": 1.25,
+   "titel": "Erste Saurier",
+   "thema": "Mesozoikum, vor 220 Millionen Jahren",
+   "kurztext": "Die ersten Saurier besiedeln die Erde, vor 220 Millionen Jahren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 13
+  },
+  {
+   "osmId": 9006734578,
+   "lat": 47.7932833,
+   "lon": 12.0597314,
+   "km": 1.25,
+   "titel": "Entstehung der Alpen",
+   "thema": "Mesozoikum, vor 80 Millionen Jahren",
+   "kurztext": "Die Alpen entstehen, vor 80 Millionen Jahren. Auf dem Weg ist das ein kurzes Stück vor dem Ende.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 14
+  },
+  {
+   "osmId": 9006734577,
+   "lat": 47.7933199,
+   "lon": 12.0597321,
+   "km": 1.25,
+   "titel": "Ende der Saurier",
+   "thema": "Känozoikum, vor 66 Millionen Jahren",
+   "kurztext": "Die Saurier sterben aus, vor 66 Millionen Jahren. Damit beginnt das Känozoikum.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 15
+  },
+  {
+   "osmId": 9006734576,
+   "lat": 47.7933041,
+   "lon": 12.0597843,
+   "km": 1.25,
+   "titel": "Die Biber kommen",
+   "thema": "Känozoikum, vor 50 Millionen Jahren",
+   "kurztext": "Die Biber kommen, vor 50 Millionen Jahren. Die Wendetafeln BibErleben am Weg erzählen vom Leben der Biber.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 16
+  },
+  {
+   "osmId": 9006734575,
+   "lat": 47.793347,
+   "lon": 12.0597762,
+   "km": 1.25,
+   "titel": "Jetzt",
+   "thema": "Ende des Zeitstrahls",
+   "kurztext": "Das Jetzt ist die letzte Tafel. Hier endet der Weltpfad, ab hier führt der Weg weiter zur Moorstation.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 17
+  },
+  {
+   "osmId": 1352556991,
+   "lat": 47.7931309,
+   "lon": 12.0574215,
+   "km": 1.25,
+   "titel": "Aussicht über die Filze",
+   "thema": "Nicklheimer Filze, Moorstation",
+   "kurztext": "Von hier reicht der Blick über das wiedervernässte Moor. Ein fest montiertes Fernglas steht ohne Gebühr bereit.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 18
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1352544386,
+   "lat": 47.7894167,
+   "lon": 12.0591977,
+   "kategorie": "viewpoint",
+   "name": "Vogelbeobachtungsstation Schwarzkehlchenpfad"
+  },
+  {
+   "osmId": 6700479765,
+   "lat": 47.7894133,
+   "lon": 12.0592442,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6700479766,
+   "lat": 47.7907212,
+   "lon": 12.0600818,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6700479767,
+   "lat": 47.7924931,
+   "lon": 12.0598715,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6700479770,
+   "lat": 47.7939781,
+   "lon": 12.0592002,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6700479774,
+   "lat": 47.7925548,
+   "lon": 12.0698063,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6700479779,
+   "lat": 47.7939779,
+   "lon": 12.0591752,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7554377869,
+   "lat": 47.7899665,
+   "lon": 12.0649195,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10154133145,
+   "lat": 47.7897533,
+   "lon": 12.0622486,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10154134094,
+   "lat": 47.7920635,
+   "lon": 12.0599889,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10154140872,
+   "lat": 47.7897881,
+   "lon": 12.0630995,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10154163226,
+   "lat": 47.791013,
+   "lon": 12.0600688,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10154163553,
+   "lat": 47.7905052,
+   "lon": 12.0601151,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11473944710,
+   "lat": 47.7913326,
+   "lon": 12.0691864,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 11492652474,
+   "lat": 47.7931912,
+   "lon": 12.0589294,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11492669035,
+   "lat": 47.7894436,
+   "lon": 12.0592307,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11649945672,
+   "lat": 47.7912025,
+   "lon": 12.0651035,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 127068609,
+   "lat": 47.7912814,
+   "lon": 12.0689121,
+   "kategorie": "parking",
+   "name": "Parkplatz Moorstation"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei, Parkplatz kostenfrei.",
+ "oeffnungszeiten": "Weg und Moorstation ganzjährig frei zugänglich, ohne Anmeldung. Moorführungen nur nach Anmeldung bei der Gemeinde.",
+ "besuchshinweise": "Festes Schuhwerk. Auf den Wegen bleiben, die Vogelflächen im Moor sind bewusst nicht erschlossen. Fernglas mitnehmen. Moorführungen nur nach Anmeldung bei der Gemeinde.",
+ "hoertext": "Neben dem Parkplatz von Nicklheim wartet der Urknall auf einer Tafel, und von dort an verwandelt sich jeder Schritt in Zeit. Jeder Meter schluckt zehn Millionen Jahre. Lange geschieht wenig: Sauerstoff füllt die Luft, ein erster Kontinent formt sich, die Erde friert zum Schneeball ein. Erst gegen Ende rücken die Tafeln zusammen, mit Landpflanzen, Riesenlibellen, Sauriern und den Alpen, bis zuletzt die Biber kommen und der Weg bei Jetzt endet. Dahinter öffnet sich das Moor, über dem Libellen fliegen. Wer ein Fernglas dabeihat, kann nach den Kehlchen suchen, nach denen das Gebiet seinen Spitznamen trägt.",
+ "bilderAsset": "assets/images/trails/weltpfad-nicklheim/credits.json",
+ "lebensraeume": [
+  "moor"
+ ],
+ "naturraum": "alpenvorland",
+ "artenNachweis": {
+  "Biber": "belegt",
+  "Torfmoos": "belegt",
+  "Libelle": "belegt",
+  "Braunkehlchen": "belegt",
+  "Moorfrosch": "typisch",
+  "Wollgras": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Bekassine": "typisch",
+  "Erdkröte": "typisch",
+  "Glockenheide": "typisch",
+  "Grasfrosch": "typisch",
+  "Große Moosjungfer": "typisch",
+  "Moorbirke": "typisch",
+  "Ringelnatter": "typisch"
+ }
+}

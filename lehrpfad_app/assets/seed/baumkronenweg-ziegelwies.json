@@ -14,7 +14,20 @@
  "anreise": "Adresse: Tiroler Straße 10, 87629 Füssen. GPS 47.55781, 10.69280. Von Füssen B17 Richtung Reutte, Ortsteil Ziegelwies, rechts das Zentrum. P1 Bayern: PKW und Behindertenplätze direkt am Haus. P2 Tirol: PKW, Wohnmobil, Bus. Parken 6–20 Uhr kostenfrei, Übernachten verboten. Bus RVO 74 Richtung Reutte, Halt Ziegelwies. Bahnhof Füssen plus 20–30 Minuten zu Fuß. Lechfall zehn Minuten den Fluss hoch, extra.",
  "startName": "Kasse Bayern",
  "arten": [
-  "Grauerle"
+  "Grauerle",
+  "Rostblättrige Alpenrose",
+  "Fichte",
+  "Tannenhäher",
+  "Weißtanne",
+  "Bergahorn",
+  "Buchfink",
+  "Eichhörnchen",
+  "Europäische Lärche",
+  "Grasfrosch",
+  "Kohlmeise",
+  "Rotbuche",
+  "Zitronenfalter",
+  "Reh"
  ],
  "tags": [
   "kinderfreundlich",
@@ -296,5 +309,26 @@
  "oeffnungszeiten": "März täglich 10–16 Uhr. Osterferien täglich 9–18 Uhr. April täglich 10–16:30 Uhr. 1.5.–15.10. täglich 9–19:30 Uhr. 16.10.–25.11. täglich 10–16:30 Uhr. Winter auf Anfrage. Bei starkem Regen, Sturm, Schnee oder Gewitter zu.",
  "besuchshinweise": "Kinderwagen und Rollstuhl auf dem Steg. Hunde angeleint (OSM). In der Hochsaison Einstieg auch am P2 Tirol, kleines Kassenhäuschen. Ausstellung, Auwald- und Bergwaldpfad extra – nicht dieser Trail. Bei Unwetter Steg zu, die Bodenpfade bleiben offen ohne Winterdienst.",
  "hoertext": "Am Lech bei Füssen hängt der Steg durch den Auwald – ein Schritt, und du bist in Tirol. Vierhundertachtzig Meter, einundzwanzig hoch, ohne Stufe. Kinderwagen und Rollstuhl kommen mit. Kasse zwischen Ausstellung und WC, in der Hochsaison auch am P2. Bei Sturm und Gewitter zu. Kinder bis fünfzehn frei. Hunde anleinen.",
- "bilderAsset": "assets/images/trails/baumkronenweg-ziegelwies/credits.json"
+ "bilderAsset": "assets/images/trails/baumkronenweg-ziegelwies/credits.json",
+ "lebensraeume": [
+  "auwald",
+  "alpen-wald"
+ ],
+ "naturraum": "alpenvorland",
+ "artenNachweis": {
+  "Grauerle": "belegt",
+  "Rostblättrige Alpenrose": "typisch",
+  "Fichte": "typisch",
+  "Tannenhäher": "typisch",
+  "Weißtanne": "typisch",
+  "Bergahorn": "typisch",
+  "Buchfink": "typisch",
+  "Eichhörnchen": "typisch",
+  "Europäische Lärche": "typisch",
+  "Grasfrosch": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotbuche": "typisch",
+  "Zitronenfalter": "typisch",
+  "Reh": "typisch"
+ }
 }

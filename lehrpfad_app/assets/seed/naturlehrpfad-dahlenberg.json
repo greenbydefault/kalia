@@ -17,7 +17,17 @@
   "Biber",
   "Zauneidechse",
   "Eisvogel",
-  "Schwarzerle"
+  "Schwarzerle",
+  "Blässhuhn",
+  "Buchfink",
+  "Hängebirke",
+  "Haubentaucher",
+  "Heidelbeere",
+  "Kiefer",
+  "Schilf",
+  "Stockente",
+  "Adlerfarn",
+  "Amsel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -776,5 +786,26 @@
   }
  ],
  "hoertext": "Am Waldhotel Hachemühle fängt die Runde an. Fünfeinhalb Kilometer um die Talsperre Trossin, erst am Nordufer, dann durch den Wald ins Dorf und am Südufer zurück. An der Feuchtwiese steht die erste Tafel, am Damm der Steinhaufen. Der Biber hat am Grenzbach seine Burg, Spuren siehst du eher als das Tier. Festes Schuhwerk, der Pfad ist Waldboden. Grabschütz ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-dahlenberg/credits.json"
+ "bilderAsset": "assets/images/trails/naturlehrpfad-dahlenberg/credits.json",
+ "lebensraeume": [
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "artenNachweis": {
+  "Biber": "belegt",
+  "Zauneidechse": "belegt",
+  "Eisvogel": "belegt",
+  "Schwarzerle": "belegt",
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Haubentaucher": "typisch",
+  "Heidelbeere": "typisch",
+  "Kiefer": "typisch",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch"
+ }
 }
