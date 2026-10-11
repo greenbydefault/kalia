@@ -17,15 +17,10 @@ class OnboardingCompletedNotifier extends AsyncNotifier<bool> {
     return ref.watch(guestProfileStoreProvider).isCompleted();
   }
 
-  Future<void> complete({
-    required String displayName,
-    required List<String> childNames,
-  }) async {
-    await ref
-        .read(guestProfileStoreProvider)
-        .complete(displayName: displayName, childNames: childNames);
+  /// Setzt `onboardingDone`. Gast-Profil bleibt unangetastet.
+  Future<void> complete() async {
+    await ref.read(guestProfileStoreProvider).markCompleted();
     state = const AsyncData(true);
-    ref.invalidate(guestProfileProvider);
   }
 }
 

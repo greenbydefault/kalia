@@ -46,6 +46,9 @@ class LocalGuestProfileStore {
     );
   }
 
+  /// Onboarding abgeschlossen (`onboardingDone`), ohne Profil anzufassen.
+  Future<void> markCompleted() => _prefs.writeBool(completedKey, true);
+
   Future<void> complete({
     required String displayName,
     required List<String> childNames,

@@ -1587,6 +1587,13 @@
      "quelle": "BfN LRT 2120 Weißdünen"
     },
     {
+     "id": "sandlaufkaefer",
+     "rolle": "typisch",
+     "sichtbarkeit": "leicht",
+     "saison": "ganzjaehrig",
+     "quelle": "BfN LRT 2120 Weißdünen"
+    },
+    {
      "id": "kormoran",
      "rolle": "bonus",
      "sichtbarkeit": "geduld",

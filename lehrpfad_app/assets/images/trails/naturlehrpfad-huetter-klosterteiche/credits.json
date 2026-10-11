@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-teich.jpg",
+    "caption": "Herbstlicher Teich, der Mischwald spiegelt sich im Wasser.",
+    "credit": "Pagenkopf",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_H%C3%BCtter_Klosterteiche_3.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-uferweg.jpg",
+    "caption": "Uferweg unter herbstlichem Laub, Schilf am Teich.",
+    "credit": "Pagenkopf",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_H%C3%BCtter_Klosterteiche_4.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-frosch.jpg",
+    "caption": "Frosch im flachen Wasser am Teichrand.",
+    "credit": "Pagenkopf",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_H%C3%BCtter_Klosterteiche_1.jpg",
+    "kind": "ort"
+  }
+]

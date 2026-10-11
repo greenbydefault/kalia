@@ -1,0 +1,491 @@
+{
+ "id": "grossartige-kuestenflora-graal-mueritz",
+ "name": "GroßArtige Küstenflora und -fauna",
+ "typ": "kueste",
+ "kurzbeschreibung": "Östlich der Seebrücke stehen übergroße Skulpturen an der Promenade. Silke Schilling aus Lieblingshof hat sie gebaut.",
+ "beschreibung": "Neun Skulpturen von Silke Schilling stehen übergroß an der Promenade, und Kinder dürfen sie bespielen. An jeder Skulptur hängt eine kleine Steckbrieftafel zu Lebensraum und Lebensweise. Die Reihe beginnt beim Blasentang am Strandzugang 20 und endet bei der Ohrenqualle am Zugang 6. Pflaster trägt den Weg, das Wasser liegt daneben. Wer an einer Skulptur stehen bleibt, liest, wie das Lebewesen an der Küste lebt. Auf der anderen Seite der Seebrücke hängt der Ostsee-Lehrpfad.",
+ "laengeKm": 1.7,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "Skulpturen an der Strandpromenade",
+ "betreiber": "Ostseeheilbad Graal-Müritz",
+ "region": "Strandpromenade, Graal-Müritz, Landkreis Rostock",
+ "website": "https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/grossartige-kuestenflora-und-fauna-graal-mueritz.php",
+ "anreise": "Start an der Seebrücke, Promenade nach Osten bis Müritz-Ost, 18181 Graal-Müritz. Erste Skulptur am Strandzugang 20, letzte am Strandzugang 6. Auto bis zur Seebrücke. Bus aus Rostock bis Graal-Müritz.",
+ "startName": "Seebrücke / Blasentang",
+ "arten": [
+  "Austernfischer",
+  "Queller",
+  "Sanddorn",
+  "Strandflieder",
+  "Strandhafer",
+  "Besenheide",
+  "Brandgans",
+  "Graugans",
+  "Kiefer",
+  "Kupferbrauner Sandlaufkäfer",
+  "Silbermöwe",
+  "Feldhase",
+  "Kormoran",
+  "Weißstorch"
+ ],
+ "artenNachweis": {
+  "Austernfischer": "typisch",
+  "Queller": "typisch",
+  "Sanddorn": "typisch",
+  "Strandflieder": "typisch",
+  "Strandhafer": "belegt",
+  "Besenheide": "typisch",
+  "Brandgans": "typisch",
+  "Graugans": "typisch",
+  "Kiefer": "typisch",
+  "Kupferbrauner Sandlaufkäfer": "belegt",
+  "Silbermöwe": "belegt",
+  "Feldhase": "typisch",
+  "Kormoran": "typisch",
+  "Weißstorch": "typisch"
+ },
+ "lebensraeume": [
+  "duene-strand",
+  "salzwiese-watt"
+ ],
+ "naturraum": "ostsee",
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "einkehr"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.258755,
+   12.241264
+  ],
+  [
+   54.258983,
+   12.241967
+  ],
+  [
+   54.259117,
+   12.242398
+  ],
+  [
+   54.259271,
+   12.242889
+  ],
+  [
+   54.259359,
+   12.243184
+  ],
+  [
+   54.259622,
+   12.244018
+  ],
+  [
+   54.259764,
+   12.24448
+  ],
+  [
+   54.25982,
+   12.244834
+  ],
+  [
+   54.25991,
+   12.245203
+  ],
+  [
+   54.260104,
+   12.245788
+  ],
+  [
+   54.260332,
+   12.246502
+  ],
+  [
+   54.260638,
+   12.247482
+  ],
+  [
+   54.260959,
+   12.248349
+  ],
+  [
+   54.261431,
+   12.249572
+  ],
+  [
+   54.261871,
+   12.250726
+  ],
+  [
+   54.262088,
+   12.251282
+  ],
+  [
+   54.262847,
+   12.253308
+  ],
+  [
+   54.263404,
+   12.254851
+  ],
+  [
+   54.264031,
+   12.256708
+  ],
+  [
+   54.264265,
+   12.257357
+  ],
+  [
+   54.264587,
+   12.258247
+  ],
+  [
+   54.26515,
+   12.259727
+  ],
+  [
+   54.265592,
+   12.260848
+  ],
+  [
+   54.266002,
+   12.261874
+  ],
+  [
+   54.266429,
+   12.262931
+  ],
+  [
+   54.266797,
+   12.263822
+  ],
+  [
+   54.267038,
+   12.264519
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 6448605990,
+   "lat": 54.2596726,
+   "lon": 12.2442738,
+   "km": 0.24,
+   "titel": "Blasentang",
+   "thema": "Merkmale, Vorkommen, Vermehrung, Verwendung",
+   "kurztext": "Steckbrief zu Merkmalen, Vorkommen, Vermehrung und Verwendung. Die Skulptur ist aus Kunststoff und steht am Strandzugang 20.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 6448606001,
+   "lat": 54.2605114,
+   "lon": 12.247139,
+   "km": 0.46,
+   "titel": "Miesmuschel",
+   "thema": "Merkmale, Funktionsweise, Lebensraum",
+   "kurztext": "Steckbrief zu Merkmalen, Funktionsweise und Lebensraum. Die Skulptur steht an den Strandzugängen 16 und 17.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 6448606015,
+   "lat": 54.2613421,
+   "lon": 12.2493904,
+   "km": 0.62,
+   "titel": "Kupferbrauner Sandlaufkäfer",
+   "thema": "Lebensweise und Vorkommen",
+   "kurztext": "Steckbrief zu Lebensweise und Vorkommen des Sandlaufkäfers. Die Skulptur steht am Strandzugang 14.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 11048540354,
+   "lat": 54.2627913,
+   "lon": 12.2533083,
+   "km": 0.91,
+   "titel": "Strandhafer",
+   "thema": "Besonderheiten des Strandhafers",
+   "kurztext": "Steckbrief zu den Besonderheiten des Strandhafers. Die Skulptur steht am Strandzugang 12.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 11048540356,
+   "lat": 54.2635008,
+   "lon": 12.2552512,
+   "km": 1.02,
+   "titel": "Seepocke",
+   "thema": "Lebensweise und Vorkommen",
+   "kurztext": "Steckbrief zu Lebensweise und Vorkommen. Die Skulptur steht am Strandzugang 11.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 11048540364,
+   "lat": 54.2653707,
+   "lon": 12.2603746,
+   "km": 1.48,
+   "titel": "Flunder",
+   "thema": "Merkmale, Besonderheit, Vorkommen",
+   "kurztext": "Steckbrief zu Merkmalen, Besonderheit und Vorkommen. Die Skulptur steht am Strandzugang 9.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 11048540357,
+   "lat": 54.266086,
+   "lon": 12.2621363,
+   "km": 1.56,
+   "titel": "Silbermöwe",
+   "thema": "Merkmale, Vorkommen, Jungtiere, Ernährung",
+   "kurztext": "Steckbrief zu Merkmalen, Vorkommen, Jungtieren und Ernährung. Die Skulptur steht am Strandzugang 8.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 11048540350,
+   "lat": 54.2663728,
+   "lon": 12.2628606,
+   "km": 1.65,
+   "titel": "Seeringelwurm",
+   "thema": "Lebensweise",
+   "kurztext": "Steckbrief zur Lebensweise des Seeringelwurms. Die Skulptur steht am Strandzugang 7.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 11048540349,
+   "lat": 54.2669734,
+   "lon": 12.2644143,
+   "km": 1.77,
+   "titel": "Ohrenqualle",
+   "thema": "Bau und Vorkommen",
+   "kurztext": "Steckbrief zu Bau und Vorkommen. Die Skulptur steht am Strandzugang 6.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": true,
+   "steckbrief": null,
+   "reihenfolge": 9
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4897052494,
+   "lat": 54.2580378,
+   "lon": 12.2433545,
+   "kategorie": "gastro",
+   "name": "Pescado"
+  },
+  {
+   "osmId": 4897083875,
+   "lat": 54.2582365,
+   "lon": 12.2430873,
+   "kategorie": "gastro",
+   "name": "Windflüchter"
+  },
+  {
+   "osmId": 4897130100,
+   "lat": 54.2586311,
+   "lon": 12.2435275,
+   "kategorie": "gastro",
+   "name": "Buhne 36"
+  },
+  {
+   "osmId": 4897133964,
+   "lat": 54.2584272,
+   "lon": 12.2428508,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4897834947,
+   "lat": 54.2583885,
+   "lon": 12.2427654,
+   "kategorie": "gastro",
+   "name": "Graal-Müritzer Fischhus"
+  },
+  {
+   "osmId": 4897834948,
+   "lat": 54.2583853,
+   "lon": 12.2426782,
+   "kategorie": "gastro",
+   "name": "Graal-Müritzer Fischhus"
+  },
+  {
+   "osmId": 6448605988,
+   "lat": 54.2596491,
+   "lon": 12.2442171,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6448606003,
+   "lat": 54.26052,
+   "lon": 12.2472071,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6448606017,
+   "lat": 54.2613278,
+   "lon": 12.2493542,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6797088586,
+   "lat": 54.2586316,
+   "lon": 12.2410678,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 7923927789,
+   "lat": 54.2594846,
+   "lon": 12.2415983,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7923927790,
+   "lat": 54.2594772,
+   "lon": 12.2415504,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7923927791,
+   "lat": 54.2599724,
+   "lon": 12.2412058,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7923946011,
+   "lat": 54.2585597,
+   "lon": 12.2418163,
+   "kategorie": "gastro",
+   "name": "Strandrestaurant Achterdeck"
+  },
+  {
+   "osmId": 11048540353,
+   "lat": 54.2660631,
+   "lon": 12.2621024,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11048540355,
+   "lat": 54.2627736,
+   "lon": 12.2532576,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11048540358,
+   "lat": 54.2653458,
+   "lon": 12.2603204,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11048540359,
+   "lat": 54.2669922,
+   "lon": 12.2644688,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11048540362,
+   "lat": 54.2663543,
+   "lon": 12.2628269,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11071232635,
+   "lat": 54.2634848,
+   "lon": 12.2552061,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11071232636,
+   "lat": 54.2669847,
+   "lon": 12.26445,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12287890689,
+   "lat": 54.262069,
+   "lon": 12.2512713,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12892638725,
+   "lat": 54.2618105,
+   "lon": 12.2517506,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13246009510,
+   "lat": 54.2599625,
+   "lon": 12.2411551,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "eintritt": false,
+ "besuchshinweise": "Von der Seebrücke nach rechts bis Müritz-Ost. Fahrräder sind auf diesem Promenadenstück zugelassen.",
+ "hoertext": "Rechts von der Seebrücke schwenkt das Pflaster nach Osten, und die Ostsee bleibt links. Übergroße Skulpturen ragen aus der Reihe, vorn der Tang. Zwischen den Skulpturen hält das Meer Schritt, die ganze Promenade lang, bis zum letzten Zugang. Silke Schilling formte sie in Lieblingshof. Neben jeder Skulptur erklärt eine knappe Tafel das Leben an der Küste. Die Reihe zieht sich vom Blasentang bis zur Ohrenqualle, Zugang um Zugang, und wer eine Skulptur anfasst, darf sie bespielen. Räder dürfen auf diesem Stück mitrollen.",
+ "bilderAsset": "assets/images/trails/grossartige-kuestenflora-graal-mueritz/credits.json"
+}

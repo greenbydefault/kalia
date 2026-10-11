@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/config/supabase_config.dart';
 import '../../auth/data/auth_providers.dart';
+import '../../auth/presentation/account_prompt_sheet.dart';
 import '../data/community_providers.dart';
 
 /// Sterne-Bewertung eines Trails: Durchschnitt + Anzahl, darunter die
@@ -12,7 +14,15 @@ class RatingSection extends ConsumerWidget {
 
   const RatingSection({super.key, required this.trailId});
 
-  Future<void> _setRating(WidgetRef ref, BuildContext context, int stars) async {
+  Future<void> _setRating(
+    WidgetRef ref,
+    BuildContext context,
+    int stars,
+  ) async {
+    if (ref.read(authStateProvider).value == null) {
+      final ok = await requireAccount(context, reason: AccountReason.rate);
+      if (!ok || !context.mounted) return;
+    }
     final repo = ref.read(ratingsRepositoryProvider);
     if (repo == null) return;
     final current = ref.read(trailRatingProvider(trailId)).value?.myStars;
@@ -25,9 +35,9 @@ class RatingSection extends ConsumerWidget {
       ref.invalidate(trailRatingProvider(trailId));
     } catch (e) {
       if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Bewertung fehlgeschlagen: $e')),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Bewertung fehlgeschlagen: $e')));
       }
     }
   }
@@ -50,13 +60,13 @@ class RatingSection extends ConsumerWidget {
               rating == null || rating.count == 0
                   ? 'Noch keine Bewertungen'
                   : '${rating.average.toStringAsFixed(1)} '
-                      '(${rating.count} ${rating.count == 1 ? 'Bewertung' : 'Bewertungen'})',
+                        '(${rating.count} ${rating.count == 1 ? 'Bewertung' : 'Bewertungen'})',
               style: theme.textTheme.bodyMedium,
             ),
           ],
         ),
         const SizedBox(height: 8),
-        if (loggedIn)
+        if (loggedIn || SupabaseConfig.isConfigured)
           Row(
             children: [
               Text('Deine Bewertung:', style: theme.textTheme.bodySmall),
@@ -79,7 +89,7 @@ class RatingSection extends ConsumerWidget {
           )
         else
           Text(
-            'Melde dich an, um zu bewerten.',
+            'Bewerten gibt es mit Serververbindung.',
             style: theme.textTheme.bodySmall,
           ),
       ],
@@ -105,8 +115,8 @@ class _Stars extends StatelessWidget {
             value >= i
                 ? Icons.star
                 : value >= i - 0.5
-                    ? Icons.star_half
-                    : Icons.star_border,
+                ? Icons.star_half
+                : Icons.star_border,
             size: size,
             color: color,
           ),

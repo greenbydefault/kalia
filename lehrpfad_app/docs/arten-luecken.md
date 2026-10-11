@@ -11,7 +11,7 @@ Zwei Stufen in `artenNachweis` / `trail_species.nachweis`:
 - **belegt** — dieser Ort trägt die Art (Station, Tafel, Betreiber, SDF des Gebiets). Das Inventar hier.
 - **typisch** — Pool-Treffer für `lebensraeume` × `naturraum`, Familie kann sie antreffen. Skill `arten-pool`, Skript `tools/arten_vorschlag.py`.
 
-Katalog 2026-10-09: **70 Flora / 96 Fauna / 13 Geräte**, davon 92 Kurzprofile (`content.tiefe: kurz`, ohne Hörtext).
+Katalog 2026-10-10: **70 Flora / 97 Fauna / 13 Geräte**, davon 93 Kurzprofile (`content.tiefe: kurz`, ohne Hörtext).
 
 ## Nachweis
 
@@ -1052,3 +1052,45 @@ Quelle: http://www.solaris-halle.de/ext_natrix/download/lehrpfad.pdf
 **Nicht:** Arten der Steine 25–44 (Kuhberg, Langer Berg, Kellerberg, gesperrt, nicht in der Linie). Hasel und Lungenkraut liegen auf dem zweiten offenen Stück ab Stein 45, das nicht angebunden ist.
 
 Quelle: https://halle.de/fileadmin/Binaries/Publikationen/Umwelt_Natur/Naturlehrpfad_I_Doelauer_Heide/Inhalt.pdf
+
+### grossartige-kuestenflora-graal-mueritz — GroßArtige Küstenflora und -fauna
+
+`kueste` · Strandpromenade Graal-Müritz, Seebrücke bis Müritz-Ost
+
+**Ist:** Strandhafer, Silbermöwe, Kupferbrauner Sandlaufkäfer (Stationen)
+
+**Katalog-Kandidat:** Blasentang, Miesmuschel, Seepocke, Flunder, Seeringelwurm, Ohrenqualle. Stehen als Skulptur an der Promenade, keine `gruppe` im Katalog (Alge, Muschel, Krebstier, Fisch, Ringelwurm, Qualle).
+
+**Nicht:** Ostsee-Lehrpfad auf der Westseite der Brücke als zweite Artenliste.
+
+Quelle: https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/grossartige-kuestenflora-und-fauna-graal-mueritz.php
+
+### naturlehrpfad-huetter-klosterteiche — Naturlehrpfad Hütter Klosterteiche
+
+`wald` · Stauteiche im Hütter Wohld, Bartenshagen-Parkentin
+
+**Ist:** Rotbuche, Fichte (Tafel „Gemeine Fichte“), Douglasie, Damhirsch (Tafel „Damwild“), Dachs. Buntspecht über die Station Höhlenbauer, Specht aus dem Pool `buchenwald`. Schilf am Ufer, im Stationstext.
+
+**Nicht:** Schwarzspecht und Mittelspecht. Dieselbe Station, die Tafel nennt keine Art. Höckerschwan. Ein April-Besuch auf Treffpunkt, keine Tafel.
+
+Quelle: https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/lehrpfad-naturschutzgebiet-huetter-klosterteiche.php
+
+### kurwald-graal-mueritz — Kurwald Graal-Müritz
+
+`naturerlebnis` · Fläche, Rhododendronpark bis Mahlbusen
+
+**Ist:** Kiefer (Küstenwald, Tafel Harzgewinnung). Rotfuchs, Eichhörnchen (Holzfiguren im Grünen Klassenzimmer, beide im Pool `kuestenwald-kiefer`).
+
+**Nicht:** Wildschwein. Holzfigur im Klassenzimmer, im Pool nur `mediterraner-wald`, nicht an diesen Ort hängen. Neptun-Eiche ohne Art (Stiel oder Traube offen), Stieleiche bleibt typisch aus dem Pool.
+
+Quelle: https://www.graal-mueritz.de/kurwald/ · https://www.graal-mueritz.de/kinder/
+
+### waldspielplatz-jaegerhaus — Waldspielplatz Jägerhaus
+
+`waldspielplatz` · Schurwald, Liebersbronn
+
+**Ist:** Eiche, Art offen (Stadt: Eichen am Waldspielplatz, Eichenprozessionsspinner 2026). Stieleiche bleibt typisch aus dem Pool `eichen-mischwald`.
+
+**Nicht:** Traubeneiche nicht getrennt belegt.
+
+Quelle: https://www.esslingen.de/eichenprozessionsspinner

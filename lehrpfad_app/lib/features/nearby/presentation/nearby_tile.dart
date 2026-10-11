@@ -21,7 +21,7 @@ class NearbyTile extends StatelessWidget {
     final theme = Theme.of(context);
     final place = treffer.place;
     final kat = poiKategorieEintrag(place.kategorie);
-    final distanz = formatDistanzKm(treffer.distanzKm);
+    final distanz = formatFahrzeit(treffer.fahrzeitSek);
     final hasWebsite = place.website != null && place.website!.isNotEmpty;
     final hasTelefon = place.telefon != null && place.telefon!.isNotEmpty;
 

@@ -12,7 +12,9 @@ import '../../../location/visible_trails_provider.dart';
 import '../../../nearby/data/nearby_providers.dart';
 import '../../../nearby/domain/nearby.dart';
 import '../../../nearby/presentation/nearby_peek_card.dart';
-import '../../../onboarding/data/onboarding_providers.dart';
+import '../../../nearby_trails/presentation/nearby_trails_panel.dart';
+import '../../../player/data/mini_player_provider.dart';
+import '../../../player/presentation/mini_player.dart';
 import '../../../trail_progress/data/trail_progress_providers.dart';
 import '../../../trail_progress/presentation/paused_tour_bar.dart';
 import '../../../trail_progress/presentation/walk_mode_bar.dart';
@@ -71,6 +73,9 @@ class _MapScreenState extends ConsumerState<MapScreen>
   Trail? _cachedPeekTrail;
   bool _mapParked = false;
 
+  /// Höhe des Nähe-Panels in px (für den FAB-Versatz).
+  final ValueNotifier<double> _panelHeight = ValueNotifier(0);
+
   late final AnimationController _detailController = AnimationController(
     vsync: this,
     duration: SheetMotion.enter,
@@ -112,6 +117,7 @@ class _MapScreenState extends ConsumerState<MapScreen>
 
   @override
   void dispose() {
+    _panelHeight.dispose();
     _detailCurve.dispose();
     _peekCurve.dispose();
     _detailController.dispose();
@@ -170,7 +176,6 @@ class _MapScreenState extends ConsumerState<MapScreen>
 
   @override
   Widget build(BuildContext context) {
-    final onboarding = ref.watch(onboardingActiveProvider);
     final trailsAsync = ref.watch(trailsProvider);
     final selected = ref.watch(selectedTrailProvider);
     final visibleTrails = ref.watch(visibleTrailsProvider);
@@ -178,8 +183,10 @@ class _MapScreenState extends ConsumerState<MapScreen>
     final userFix = ref.watch(userPositionProvider).fix;
     final locateTarget = ref.watch(locateTargetProvider);
     final effectiveRadius = ref.watch(effectiveMapRadiusProvider);
+    final mapAnchor = ref.watch(mapAnchorProvider);
     final pendingCameraTrailId = ref.watch(pendingCameraTrailProvider);
     ref.watch(nearbyCatalogProvider);
+    ref.watch(nearbyZeitenProvider);
     final selectedVisible =
         selected != null &&
             (visibleTrails?.any((t) => t.id == selected.id) ?? false)
@@ -191,12 +198,20 @@ class _MapScreenState extends ConsumerState<MapScreen>
         : ref.watch(nearbyPlacesProvider(selectedVisible.id)).asData?.value ??
               const <NearbyTreffer>[];
 
+    final playerExtra = ref.watch(
+      miniPlayerProvider.select((s) => s == null ? 0.0 : MiniPlayerHost.height),
+    );
     final onMapTab = ref.watch(shellTabIndexProvider) == 0;
     final walkTrailId = onMapTab
         ? ref.watch(walkSnapshotProvider.select((s) => s?.trailId))
         : ref.read(walkSnapshotProvider)?.trailId;
     final tourTracking = walkTrailId != null;
     final tourActive = activeWalk != null;
+    final panelVisible =
+        !tourTracking &&
+        !tourActive &&
+        selectedVisible == null &&
+        !trailsAsync.hasError;
 
     final peekTrail =
         selectedVisible ??
@@ -287,7 +302,7 @@ class _MapScreenState extends ConsumerState<MapScreen>
               builder: (context, child) {
                 final t = _detailCurve.value;
                 if (t <= 0.001) {
-                  return IgnorePointer(ignoring: onboarding, child: child);
+                  return child!;
                 }
                 final fadeT = _mapFade.transform(t);
                 return IgnorePointer(
@@ -308,7 +323,7 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   walkRoute: walkRoute,
                   userFix: userFix?.position,
                   locateTarget: locateTarget,
-                  userAnchor: effectiveRadius.isAll ? null : userFix?.position,
+                  userAnchor: effectiveRadius.isAll ? null : mapAnchor,
                   onMapTab: onMapTab,
                   pendingCameraTrailId: pendingCameraTrailId,
                   onPendingCameraConsumed: () =>
@@ -316,16 +331,15 @@ class _MapScreenState extends ConsumerState<MapScreen>
                 ),
               ),
             ),
-            if (!onboarding &&
-                !tourTracking &&
+            if (!tourTracking &&
                 selectedVisible == null &&
                 trailsAsync.value != null)
               MapFiltersOverlay(allTrails: trailsAsync.value!),
-            if (!onboarding && !tourTracking && selectedNearby != null)
+            if (!tourTracking && selectedNearby != null)
               Positioned(
                 left: 12,
                 right: 12,
-                bottom: 12 + TrailPeekCard.height + 8,
+                bottom: 12 + playerExtra + TrailPeekCard.height + 8,
                 child: AnimatedBuilder(
                   animation: Listenable.merge([
                     _peekController,
@@ -349,11 +363,11 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   },
                 ),
               ),
-            if (!onboarding && !tourTracking && peekTrail != null)
+            if (!tourTracking && peekTrail != null)
               Positioned(
                 left: 12,
                 right: 12,
-                bottom: 12,
+                bottom: 12 + playerExtra,
                 child: AnimatedBuilder(
                   animation: Listenable.merge([
                     _peekController,
@@ -383,7 +397,7 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   },
                 ),
               ),
-            if (!onboarding && !tourTracking && selectedVisible != null)
+            if (!tourTracking && selectedVisible != null)
               Positioned.fill(
                 child: AnimatedBuilder(
                   animation: _detailController,
@@ -407,9 +421,16 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   ),
                 ),
               ),
-            if (!onboarding && trailsAsync.isLoading)
+            if (panelVisible)
+              Positioned.fill(
+                child: NearbyTrailsPanel(
+                  bottomInset: playerExtra,
+                  onHeightChanged: (px) => _panelHeight.value = px,
+                ),
+              ),
+            if (trailsAsync.isLoading && !panelVisible)
               const Center(child: CircularProgressIndicator()),
-            if (!onboarding && trailsAsync.hasError)
+            if (trailsAsync.hasError)
               Center(
                 child: Card(
                   margin: const EdgeInsets.all(24),
@@ -421,17 +442,23 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   ),
                 ),
               ),
-            if (!onboarding && tourTracking)
-              const Align(
-                alignment: Alignment.bottomCenter,
-                child: WalkModeBar(),
-              )
-            else if (!onboarding && tourActive && walkTrail != null)
+            if (tourTracking)
               Align(
                 alignment: Alignment.bottomCenter,
-                child: PausedTourBar(trail: walkTrail),
+                child: Padding(
+                  padding: EdgeInsets.only(bottom: playerExtra),
+                  child: const WalkModeBar(),
+                ),
+              )
+            else if (tourActive && walkTrail != null)
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Padding(
+                  padding: EdgeInsets.only(bottom: playerExtra),
+                  child: PausedTourBar(trail: walkTrail),
+                ),
               ),
-            if (!onboarding && !tourTracking)
+            if (!tourTracking)
               AnimatedBuilder(
                 animation: Listenable.merge([
                   _peekController,
@@ -442,14 +469,26 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   final extra = selectedNearby != null
                       ? NearbyPeekCard.height + 8
                       : 0;
-                  return Positioned(
-                    right: 16,
-                    bottom:
-                        24 + _peekCurve.value * (TrailPeekCard.height + extra),
-                    child: Offstage(
-                      offstage: hidden,
-                      child: IgnorePointer(ignoring: hidden, child: child),
-                    ),
+                  return ValueListenableBuilder<double>(
+                    valueListenable: _panelHeight,
+                    builder: (context, panelH, _) {
+                      final panel = panelVisible ? panelH : 0.0;
+                      final tooHigh =
+                          panel > MediaQuery.sizeOf(context).height * 0.7;
+                      final off = hidden || tooHigh;
+                      return Positioned(
+                        right: 16,
+                        bottom:
+                            24 +
+                            playerExtra +
+                            panel +
+                            _peekCurve.value * (TrailPeekCard.height + extra),
+                        child: Offstage(
+                          offstage: off,
+                          child: IgnorePointer(ignoring: off, child: child),
+                        ),
+                      );
+                    },
                   );
                 },
                 child: SafeArea(

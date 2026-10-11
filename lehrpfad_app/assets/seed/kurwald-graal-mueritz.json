@@ -1,0 +1,288 @@
+{
+ "id": "kurwald-graal-mueritz",
+ "name": "Kurwald Graal-Müritz",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Gongwände aus Holz stehen im Kurwald, daneben Fuchs, Wildschwein und Eichhörnchen zum Anfassen. Seit April 2020 sind 13 Hektar als Kurwald anerkannt.",
+ "beschreibung": "Seit April 2025 liegt der erste Achtsamkeitspfad Mecklenburg-Vorpommerns im Kurwald. Sechs Schilder nennen die Übungen. Ein QR-Code an jedem Schild spielt die Übung vor. Westlich vom Rhododendronpark liegt ein Barfußpfad aus Holz, Sand, Kies und Tannenzapfen, daneben stehen Fitnessgeräte. Unter der Neptun-Eiche erzählt eine Tafel von der alten Harzgewinnung. Am Mahlbusen steht ein Pavillon an der Schleuse. Im Entspannungswald stehen Liegen unter den Kronen. Die Hauptwege sind fest, einzelne Stücke bleiben wurzelig.",
+ "laengeKm": 0.0,
+ "dauerMin": 75,
+ "rundkurs": false,
+ "markierung": "Schilder an den Bereichen",
+ "betreiber": "Tourismus- und Kur GmbH Graal-Müritz",
+ "region": "Graal-Müritz, Landkreis Rostock",
+ "website": "https://www.graal-mueritz.de/kurwald/",
+ "anreise": "Parkplatz am Rhododendronpark, Zarnezweg 3, 18181 Graal-Müritz. GPS 54.25001, 12.22679. Achtsamkeitspfad startet Lindenweg Ecke Felsenburg, GPS 54.25251, 12.23427.",
+ "startName": "Parkplatz Rhododendronpark",
+ "arten": [
+  "Kiefer",
+  "Eichhörnchen",
+  "Rotfuchs",
+  "Heidelbeere",
+  "Rotbuche",
+  "Stieleiche",
+  "Adlerfarn",
+  "Amsel",
+  "Buchfink",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher",
+  "Hängebirke",
+  "Kohlmeise"
+ ],
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Eichhörnchen": "belegt",
+  "Rotfuchs": "belegt",
+  "Heidelbeere": "typisch",
+  "Rotbuche": "typisch",
+  "Stieleiche": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Buchfink": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch",
+  "Hängebirke": "typisch",
+  "Kohlmeise": "typisch"
+ },
+ "lebensraeume": [
+  "kuestenwald-kiefer"
+ ],
+ "naturraum": "ostsee",
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "barfusspfad",
+  "spielplatz",
+  "picknick"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   54.250005,
+   12.22679
+  ],
+  [
+   54.251074,
+   12.226835
+  ],
+  [
+   54.252216,
+   12.228517
+  ],
+  [
+   54.253256,
+   12.230139
+  ],
+  [
+   54.254202,
+   12.229557
+  ],
+  [
+   54.254274,
+   12.230142
+  ],
+  [
+   54.253012,
+   12.226537
+  ],
+  [
+   54.252352,
+   12.226351
+  ],
+  [
+   54.252137,
+   12.225407
+  ],
+  [
+   54.251226,
+   12.224841
+  ]
+ ],
+ "area": [
+  [
+   54.2504,
+   12.2266
+  ],
+  [
+   54.2504,
+   12.2283
+  ],
+  [
+   54.2512,
+   12.2284
+  ],
+  [
+   54.2521,
+   12.2288
+  ],
+  [
+   54.2529,
+   12.22995
+  ],
+  [
+   54.2534,
+   12.23055
+  ],
+  [
+   54.2542,
+   12.2307
+  ],
+  [
+   54.2547,
+   12.2304
+  ],
+  [
+   54.2547,
+   12.2286
+  ],
+  [
+   54.2542,
+   12.2272
+  ],
+  [
+   54.2536,
+   12.2264
+  ],
+  [
+   54.2528,
+   12.225
+  ],
+  [
+   54.2519,
+   12.22455
+  ],
+  [
+   54.251,
+   12.22455
+  ],
+  [
+   54.2507,
+   12.2254
+  ],
+  [
+   54.2504,
+   12.2266
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13253886512,
+   "lat": 54.2542023,
+   "lon": 12.2295567,
+   "km": 0.55,
+   "titel": "Klangwald",
+   "thema": "Gongwände aus Holz",
+   "kurztext": "Gongwände und Instrumente aus Holz am Spielplatz, nördlich des Rhododendronparks. Die Tafel steht direkt dabei.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 13253927325,
+   "lat": 54.2542743,
+   "lon": 12.2301424,
+   "km": 0.59,
+   "titel": "Grünes Klassenzimmer",
+   "thema": "Waldtiere zum Anfassen",
+   "kurztext": "Fuchs, Wildschwein und Eichhörnchen aus Holz, zum Anfassen. Die Tafel Wald steht am Vollrath-Kirsch-Weg.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 13253796346,
+   "lat": 54.2530121,
+   "lon": 12.2265371,
+   "km": 0.87,
+   "titel": "Aktivwald",
+   "thema": "Barfußpfad und Fitnessgeräte",
+   "kurztext": "Barfußpfad über Holz, Sand, Kies und Tannenzapfen, dazu Fitnessgeräte und ein Parkour. Die Tafel Aktivwald steht westlich des Rhododendronparks.",
+   "erlebnisse": [
+    "barfusspfad",
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -1486237668,
+   "lat": 54.252137,
+   "lon": 12.225407,
+   "km": 1.01,
+   "titel": "Entspannungswald",
+   "thema": "Liegen unter den Kronen",
+   "kurztext": "Liegen unter den Kronen, westlich des Rhododendronparks. Die Fitnessgeräte stehen im Aktivwald.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 5807655709,
+   "lat": 54.2512258,
+   "lon": 12.2248413,
+   "km": 1.11,
+   "titel": "Pavillon am Mahlbusen",
+   "thema": "Schleuse und Aussicht",
+   "kurztext": "Pavillon direkt an der Schleuse des Mahlbusens, abseits der anderen Bereiche. Am Aussichtspunkt steht eine Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 26346596,
+   "lat": 54.250005,
+   "lon": 12.22679,
+   "kategorie": "parking",
+   "name": "Parkplatz Rhododendronpark"
+  },
+  {
+   "osmId": 3029266727,
+   "lat": 54.2531396,
+   "lon": 12.2273567,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 13253938122,
+   "lat": 54.2534548,
+   "lon": 12.2299775,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13253886512,
+   "lat": 54.2542023,
+   "lon": 12.2295567,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 5807655709,
+   "lat": 54.2512258,
+   "lon": 12.2248413,
+   "kategorie": "viewpoint",
+   "name": "Pavillon am Mahlbusen"
+  }
+ ],
+ "oeffnungszeiten": "Ganzjährig frei, ohne Anmeldung.",
+ "besuchshinweise": "Achtsamkeitspfad an der Ecke Lindenweg und Felsenburg anfangen und 90 bis 120 Minuten einplanen. Bei Nässe festes Schuhwerk anziehen. Hunde anleinen. Der Parkplatz am Rhododendronpark, Zarnezweg 3, ist gebührenpflichtig.",
+ "hoertext": "Holz schlägt auf Holz, sobald jemand die Gongwände im Norden des Kurwalds anstößt. Ein hölzerner Fuchs, ein Wildschwein und ein Eichhörnchen lassen sich anfassen. Wer barfuß weitergeht, spürt erst Sand, dann Kies und schließlich die Zapfen der Kiefern, während die Neptun-Eiche daran erinnert, wie Harz früher aus den Stämmen lief. Der ruhige Teil hält Liegen unter den Kronen bereit. Vom Klang im Norden zieht sich der Wald nach Westen, bis ein Pavillon am Mahlbusen den Gang über der Schleuse auffängt. Sechs langsame Übungen setzen am Lindenweg bei der Felsenburg an und dauern etwa zwei Stunden. Nach Regen rutschen die Wurzeln.",
+ "bilderAsset": "assets/images/trails/kurwald-graal-mueritz/credits.json"
+}

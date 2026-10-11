@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../shared/images/exif_gps.dart';
+import '../../auth/presentation/account_prompt_sheet.dart';
 import '../../../shared/widgets/show_app_modal_sheet.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/station.dart';
@@ -39,7 +40,10 @@ class ImageUploadSheet extends ConsumerStatefulWidget {
     BuildContext context, {
     Trail? trail,
     Station? initialStation,
-  }) {
+  }) async {
+    // Fotos nur mit Konto, Abfrage mit Begründung im Kontext.
+    if (!await requireAccount(context, reason: AccountReason.photo)) return;
+    if (!context.mounted) return;
     return showAppModalSheet(
       context: context,
       padForKeyboard: true,
@@ -105,10 +109,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     try {
       // imageQuality < 100 zwingt iOS zu JPEG- statt HEIF-Ausgabe,
       // damit das Dekodieren garantiert klappt.
-      final picked = await _picker.pickImage(
-        source: source,
-        imageQuality: 95,
-      );
+      final picked = await _picker.pickImage(source: source, imageQuality: 95);
       if (picked == null) {
         if (mounted) setState(() => _picking = false);
         return;

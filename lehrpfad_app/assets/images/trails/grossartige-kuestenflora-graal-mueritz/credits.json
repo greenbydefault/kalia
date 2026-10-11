@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-miesmuschel.jpg",
+    "caption": "Miesmuschel-Skulptur an der Strandpromenade.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Strandpromenade_Miesmuschel-Modell.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-strandpromenade.jpg",
+    "caption": "Strandpromenade in Graal-Müritz.",
+    "credit": "Assenmacher",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Strandpromenade.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-buhne.jpg",
+    "caption": "Buhne am Strand östlich von Graal-Müritz.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Groyne_at_baltic_sea_near_Graal-M%C3%BCritz_in_winter.jpg",
+    "kind": "ort"
+  }
+]

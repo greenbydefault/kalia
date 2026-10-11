@@ -13,6 +13,6 @@ final visibleTrailsProvider = Provider<List<Trail>?>((ref) {
   final typ = ref.watch(mapTypFilterProvider);
   final byTyp = filterTrailsByTyp(trails, typ) ?? const [];
   final radius = ref.watch(effectiveMapRadiusProvider);
-  final pos = ref.watch(userPositionProvider).fix?.position;
+  final pos = ref.watch(mapAnchorProvider);
   return filterTrailsByRadius(byTyp, radius: radius, user: pos);
 });

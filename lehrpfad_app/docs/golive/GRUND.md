@@ -14,7 +14,7 @@ Quelle der ersten 14: Familien-Feature-Liste + Code-Stand Aug 2026.
 - [ ] `konto-loeschen` — Account in der App löschen (Auth + Profil + Uploads). Done wenn: eingeloggter Nutzer sich selbst löschen kann und danach Login + Community-Daten weg sind.
 - [ ] `passwort-reset` — Reset-Link im Login. Done wenn: „Passwort vergessen“ eine Reset-Mail über Supabase Auth auslöst und der neue Login funktioniert.
 - [ ] `auth-mails` — Supabase-Auth-Templates deutsch, Absender Kalia, kein „Supabase“ im Body. Done wenn: Signup-Confirm (Link oder Code), Reset-Mail und E-Mail-Änderung getestet rausgehen; ungenutzte Templates (Magic Link, Invite) aus oder deaktiviert.
-- [ ] `sso-stubs` — Google/Apple-Buttons im Onboarding entfernen, nicht implementieren. Done wenn: die Buttons weg sind und E-Mail/Passwort der einzige Login-Weg ist.
+- [x] `sso-stubs` — Google/Apple-Buttons entfernen, nicht implementieren. Done wenn: die Buttons weg sind und E-Mail/Passwort der einzige Login-Weg ist. (Onboarding-Umbau: Konto ist nur noch just-in-time im Kontext.)
 - [ ] `store-identitaet` — Display-Name, Icons, Screenshots, Age Rating. Done wenn: Store-Listing und Homescreen denselben finalen Namen/Icon zeigen, Screenshots und Age Rating stehen.
 - [ ] `launch-region` — Katalog auf die Launch-Region schneiden oder Leerzustand ehrlich machen. Done wenn: außerhalb der Region kein leerer Pin-Friedhof entsteht und der Text die tatsächliche Abdeckung sagt.
 - [ ] `admin-account` — Test-Admin weg, Staff manuell + MFA. Done wenn: kein Mail-Trigger mehr auf Admin; Testdaten raus aus Git; ein Staff-User mit MFA; `admin@lehrpfad.app` gelöscht; RLS unverändert hart.
@@ -24,7 +24,7 @@ Quelle der ersten 14: Familien-Feature-Liste + Code-Stand Aug 2026.
 - [ ] `station-open` — Tour öffnet das Stations-Sheet, nicht nur eine Snackbar. Done wenn: Station betreten → `StationDetailSheet` mit Inhalt, Snackbar allein reicht nicht.
 - [ ] `amenities-ui` — WC, Parkplatz, Bank, Picknick, Spielplatz sichtbar. Done wenn: Icon-Leiste im Trail-Sheet und Marker auf der Karte im Tour-Modus, beides aus `amenityKatalog`.
 - [ ] `familien-filter` — Karte filtert nach Kinderwagen, WC, Eintritt frei, max. Dauer, Hunde. Done wenn: jeder der fünf Filter die sichtbaren Trails verändert und ohne Treffer der Umkreis-Leerzustand gilt.
-- [ ] `fehler-melden` — Meldeweg, den das Onboarding verspricht. Done wenn: von Trail oder Konto aus ein Formular oder Mailto mit Trail-Kontext abgeht.
+- [ ] `fehler-melden` — Meldeweg für fehlerhafte Trail-Daten. Done wenn: von Trail oder Konto aus ein Formular oder Mailto mit Trail-Kontext abgeht.
 - [ ] `sammlung-ehrlich` — Schloss-Copy und Toggle dieselbe Regel. Done wenn: entweder Gesehen nur vor Ort (Tour + Nähe) oder Grid/Copy ohne „Am Lehrpfad freischalten“.
 - [ ] `trail-teilen` — Share-Sheet mit Name, Region, Maps-Link. Done wenn: das System-Share einen Text inkl. Maps-URL ausgibt. Deep Link nicht nötig.
 - [ ] `katalog-suche` — Couch-Suche über Name, Region, Typ. Done wenn: ein Suchfeld neben der Karte den Katalog filtert; „Meine Listen“ bleibt Bookmarks.

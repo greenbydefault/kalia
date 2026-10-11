@@ -6,6 +6,7 @@ import '../../../location/location_consent_sheet.dart';
 import '../../../location/location_gate.dart';
 import '../../../location/map_radius.dart';
 import '../../../location/user_position_provider.dart';
+import '../../../onboarding/data/onboarding_prefs_provider.dart';
 import '../../../trail_progress/tracking/location_service.dart';
 import 'map_typ_filter_bar.dart';
 
@@ -49,6 +50,8 @@ class MapRadiusFilterBar extends ConsumerWidget {
   ) async {
     await ref.read(mapRadiusProvider.notifier).select(radius);
     if (radius.isAll) return;
+    // Gewählter Ort reicht als Anker, kein Standort nötig.
+    if (ref.read(onboardingPrefsValueProvider).place != null) return;
     if (!context.mounted) return;
     try {
       final ok = await LocationGate.ensureMap(context, ref);

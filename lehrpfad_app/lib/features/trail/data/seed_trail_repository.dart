@@ -105,6 +105,10 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/rimstinger-steinlehrpfad.json',
     'assets/seed/weltpfad-nicklheim.json',
     'assets/seed/ostsee-lehrpfad-graal-mueritz.json',
+    'assets/seed/grossartige-kuestenflora-graal-mueritz.json',
+    'assets/seed/kurwald-graal-mueritz.json',
+    'assets/seed/naturlehrpfad-huetter-klosterteiche.json',
+    'assets/seed/waldspielplatz-jaegerhaus.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

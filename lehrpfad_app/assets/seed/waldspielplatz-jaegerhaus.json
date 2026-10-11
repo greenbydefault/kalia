@@ -1,0 +1,310 @@
+{
+ "id": "waldspielplatz-jaegerhaus",
+ "name": "Waldspielplatz Jägerhaus",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Am Jägerhaus stehen Unterschlüpfe im Eichenwald, und weiter drinnen sind sie größer gebaut.",
+ "beschreibung": "Außen stehen kleine Unterschlüpfe, weiter im Bestand werden sie groß. Der Boden bleibt Waldboden und geht in die Bäume über. Über die Lichtung laufen zwei Seilbahnen nebeneinander. Eine Holzburg trägt zwei Rutschen, daneben hängt eine Seilpyramide. Im Sand führt eine Rampe in ein Spielhaus. Balken zwischen den Geräten geben nach. Fitnessgeräte stehen am Ostrand, Tische zum Picknick zwischen den Stämmen.",
+ "laengeKm": 0.0,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "ohne Markierung",
+ "betreiber": "Stadt Esslingen, Grünflächenamt",
+ "region": "Schurwald, Liebersbronn, Esslingen am Neckar",
+ "website": "https://www.esslingen.de/start/es_themen/spielplaetze.html",
+ "anreise": "Gebührenfreier Parkplatz an den Tennisplätzen, Römerstraße, 144 m westlich der Lichtung (OSM Way 143945526). Bus 108 und 138, Haltestelle Jägerhaus.",
+ "startName": "Waldspielplatz Jägerhaus",
+ "arten": [
+  "Buchfink",
+  "Eichelhäher",
+  "Hainbuche",
+  "Stieleiche",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Gemeine Esche",
+  "Feldahorn",
+  "Hängebirke",
+  "Kleiber",
+  "Kohlmeise",
+  "Mittelspecht",
+  "Rotkehlchen",
+  "Winterlinde"
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hainbuche": "typisch",
+  "Stieleiche": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch",
+  "Feldahorn": "typisch",
+  "Hängebirke": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Mittelspecht": "typisch",
+  "Rotkehlchen": "typisch",
+  "Winterlinde": "typisch"
+ },
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "kinderwagentauglich"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   48.750371,
+   9.3528
+  ],
+  [
+   48.750735,
+   9.353477
+  ],
+  [
+   48.750906,
+   9.35417
+  ]
+ ],
+ "area": [
+  [
+   48.751185,
+   9.353469
+  ],
+  [
+   48.751136,
+   9.353432
+  ],
+  [
+   48.750923,
+   9.353482
+  ],
+  [
+   48.750915,
+   9.353411
+  ],
+  [
+   48.750888,
+   9.353304
+  ],
+  [
+   48.750625,
+   9.353126
+  ],
+  [
+   48.750569,
+   9.353108
+  ],
+  [
+   48.750437,
+   9.35269
+  ],
+  [
+   48.750321,
+   9.352787
+  ],
+  [
+   48.750203,
+   9.352849
+  ],
+  [
+   48.750175,
+   9.353366
+  ],
+  [
+   48.750356,
+   9.353703
+  ],
+  [
+   48.750498,
+   9.353968
+  ],
+  [
+   48.750831,
+   9.354115
+  ],
+  [
+   48.750913,
+   9.354271
+  ],
+  [
+   48.750989,
+   9.354178
+  ],
+  [
+   48.751076,
+   9.35386
+  ],
+  [
+   48.751185,
+   9.353469
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1113742334,
+   "lat": 48.75078,
+   "lon": 9.35335,
+   "km": 0.06,
+   "titel": "Spielhaus im Sand",
+   "thema": "Sand",
+   "kurztext": "Sandfläche mit Spielhaus. Eine Rampe führt hinein.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -1096437279,
+   "lat": 48.75055,
+   "lon": 9.3534,
+   "km": 0.06,
+   "titel": "Balancierelemente",
+   "thema": "Balance",
+   "kurztext": "Balken zwischen den anderen Geräten, sie geben nach.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -2994579511,
+   "lat": 48.7507,
+   "lon": 9.35355,
+   "km": 0.06,
+   "titel": "Seilbahn",
+   "thema": "Seilfahrt",
+   "kurztext": "Zwei Bahnen laufen nebeneinander über die Lichtung.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2267206629,
+   "lat": 48.75085,
+   "lon": 9.3537,
+   "km": 0.06,
+   "titel": "Kletterburg",
+   "thema": "Klettern",
+   "kurztext": "Holzburg mit zwei Rutschen.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2399792506,
+   "lat": 48.7506,
+   "lon": 9.3538,
+   "km": 0.06,
+   "titel": "Seilkletterpyramide",
+   "thema": "Hangeln",
+   "kurztext": "Seilpyramide auf der Lichtung.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 11768912087,
+   "lat": 48.750916,
+   "lon": 9.3542017,
+   "km": 0.12,
+   "titel": "Fitnessstation",
+   "thema": "Kraft",
+   "kurztext": "Kraftgeräte am Ostrand der Lichtung.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 10949920678,
+   "lat": 48.7507883,
+   "lon": 9.3524996,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10949920679,
+   "lat": 48.751166,
+   "lon": 9.3526774,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10949920680,
+   "lat": 48.7508461,
+   "lon": 9.3525219,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11768875217,
+   "lat": 48.7507559,
+   "lon": 9.3537743,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11768920376,
+   "lat": 48.7504186,
+   "lon": 9.3534526,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 11768921794,
+   "lat": 48.7508365,
+   "lon": 9.3537483,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 11768931922,
+   "lat": 48.7508217,
+   "lon": 9.353523,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 11768940294,
+   "lat": 48.7507649,
+   "lon": 9.3536351,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13103081331,
+   "lat": 48.7509387,
+   "lon": 9.352533,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13103081332,
+   "lat": 48.7510396,
+   "lon": 9.3526093,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13103081335,
+   "lat": 48.7512424,
+   "lon": 9.3527179,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 143945526,
+   "lat": 48.750684729411766,
+   "lon": 9.351511029411766,
+   "kategorie": "parking",
+   "name": null
+  }
+ ],
+ "besuchshinweise": "Im Frühsommer tragen die Eichen Nester des Eichenprozessionsspinners. Die Stadt sperrt die Fläche und gibt sie erst frei, wenn die Nester entfernt sind.",
+ "hoertext": "Oberhalb von Liebersbronn tritt der Schurwald auseinander. Ein Seil zieht über die offene Lichtung, dicht daneben ein zweites. Holz steigt in die Höhe, die Rutschen holen es zurück. Wer zwischen die Stämme weitergeht, findet Unterschlüpfe, die nach innen hin zulegen, bis unter dem letzten Dach richtig Platz bleibt. Eine schräge Bahn führt in das Häuschen im Sand. Die Balken geben unter dem Gewicht nach. Kraftgeräte stehen noch am Rand. Der Frühsommer schließt die Lichtung, bis die Nester abgenommen sind.",
+ "bilderAsset": "assets/images/trails/waldspielplatz-jaegerhaus/credits.json"
+}

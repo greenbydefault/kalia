@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../location/location_consent_sheet.dart';
 import '../../../location/location_gate.dart';
-import '../../../location/location_permission_controller.dart';
 import '../../../location/map_radius.dart';
 import '../../../location/user_position_provider.dart';
 import '../../../location/visible_trails_provider.dart';
@@ -24,9 +23,8 @@ class MapFiltersOverlay extends ConsumerWidget {
     final visible = ref.watch(visibleTrailsProvider) ?? const <Trail>[];
     final preferred = ref.watch(mapRadiusProvider);
     final effective = ref.watch(effectiveMapRadiusProvider);
-    final enabled = ref.watch(mapLocationEnabledProvider);
-    final hasFix = ref.watch(userPositionProvider).fix != null;
-    final showBanner = !preferred.isAll && (!enabled || !hasFix);
+    final hasAnchor = ref.watch(mapAnchorProvider) != null;
+    final showBanner = !preferred.isAll && !hasAnchor;
     final emptyRadius =
         visible.isEmpty && allTrails.isNotEmpty && !effective.isAll;
 

@@ -1,12 +1,16 @@
-import '../../trail/domain/haversine.dart';
 import '../../trail/domain/trail.dart';
 import 'nearby_place.dart';
 
-/// Default-Umkreis für Orte in der Nähe (Distanz zu [Trail.start]).
-const nearbyRadiusDefaultKm = 20.0;
+/// Vorberechnete Auto-Fahrzeiten: Trail-ID → Ort-ID → Sekunden.
+///
+/// Quelle: `assets/seed/nearby_zeiten.json` / Tabelle `trail_pois`
+/// (`tools/nearby_zeiten.py`). Enthält nur Paare bis [nearbyMaxFahrzeitSek].
+typedef NearbyZeiten = Map<String, Map<String, int>>;
 
-/// Engerer Umkreis für Übernachtung — nur Camping.
-const nearbyRadiusProKategorie = <String, double>{'camping': 5.0};
+/// Ein Ort gehört zum Trail, wenn die Auto-Fahrt vom Trail-Start höchstens
+/// so lange dauert (alle Kategorien). Muss zu `MAX_SEK` in
+/// `tools/nearby_zeiten.py` passen.
+const nearbyMaxFahrzeitSek = 20 * 60;
 
 /// Harte Kappung der Anzeige pro Trail (Liste + Marker).
 const nearbyMaxProTrail = 8;
@@ -15,41 +19,49 @@ const nearbyMaxProTrail = 8;
 /// bevor [nearbyMaxProTrail] mit den Nächsten (auch gleicher Kategorie) voll wird.
 const nearbyMaxProKategorie = 2;
 
-double nearbyRadiusKmFor(String kategorie) =>
-    nearbyRadiusProKategorie[kategorie] ?? nearbyRadiusDefaultKm;
-
-/// Treffer: Ort plus Distanz in km zum Trail-Start.
+/// Treffer: Ort plus Auto-Fahrzeit in Sekunden vom Trail-Start.
 class NearbyTreffer {
   final NearbyPlace place;
-  final double distanzKm;
+  final int fahrzeitSek;
 
-  const NearbyTreffer({required this.place, required this.distanzKm});
+  const NearbyTreffer({required this.place, required this.fahrzeitSek});
+
+  /// Auf ganze Minuten gerundet, mindestens 1.
+  int get fahrzeitMin => (fahrzeitSek / 60).round().clamp(1, 1 << 30);
 }
 
-/// Orte im Umkreis um [Trail.start], nach Distanz sortiert, max. [nearbyMaxProTrail].
+/// Orte zum Trail, nach Fahrzeit sortiert, max. [nearbyMaxProTrail].
 ///
-/// Distanz = Haversine zu [Trail.startOrNull]. Kein Start → leere Liste.
-/// Radius pro Kategorie: [nearbyRadiusKmFor] (Camping 5 km, sonst 20 km).
-/// Cap: erst max. [nearbyMaxProKategorie] pro Kategorie, Rest nach Distanz.
-List<NearbyTreffer> nearby(Trail trail, List<NearbyPlace> catalog) {
-  final start = trail.startOrNull;
-  if (start == null) return const [];
+/// Fahrzeiten kommen aus [zeiten] (vorberechnet, App routet nie selbst).
+/// Trail ohne Eintrag → leere Liste. Orte, die nicht im Katalog stehen, werden
+/// übersprungen. Cap: erst max. [nearbyMaxProKategorie] pro Kategorie, Rest
+/// nach Fahrzeit.
+List<NearbyTreffer> nearby(
+  Trail trail,
+  List<NearbyPlace> catalog,
+  NearbyZeiten zeiten,
+) {
+  final fuerTrail = zeiten[trail.id];
+  if (fuerTrail == null || fuerTrail.isEmpty) return const [];
   final hits = <NearbyTreffer>[];
   for (final place in catalog) {
-    final radiusM = nearbyRadiusKmFor(place.kategorie) * 1000;
-    final m = haversineMeters(place.position, start);
-    if (m <= radiusM) {
-      hits.add(NearbyTreffer(place: place, distanzKm: m / 1000));
-    }
+    final sek = fuerTrail[place.id];
+    if (sek == null || sek > nearbyMaxFahrzeitSek) continue;
+    hits.add(NearbyTreffer(place: place, fahrzeitSek: sek));
   }
-  hits.sort((a, b) => a.distanzKm.compareTo(b.distanzKm));
+  hits.sort(_nachFahrzeit);
   return capNearby(hits);
 }
 
-/// Kürzt [hits] (bereits distanzsortiert) auf [nearbyMaxProTrail].
+int _nachFahrzeit(NearbyTreffer a, NearbyTreffer b) {
+  final c = a.fahrzeitSek.compareTo(b.fahrzeitSek);
+  return c != 0 ? c : a.place.id.compareTo(b.place.id);
+}
+
+/// Kürzt [hits] (bereits nach Fahrzeit sortiert) auf [nearbyMaxProTrail].
 ///
 /// Erster Durchlauf: nächste Treffer, solange die Kategorie unter
-/// [nearbyMaxProKategorie] liegt. Zweiter Durchlauf: Rest nach Distanz.
+/// [nearbyMaxProKategorie] liegt. Zweiter Durchlauf: Rest nach Fahrzeit.
 List<NearbyTreffer> capNearby(List<NearbyTreffer> hits) {
   if (hits.length <= nearbyMaxProTrail) return hits;
   final picked = <NearbyTreffer>[];
@@ -70,13 +82,12 @@ List<NearbyTreffer> capNearby(List<NearbyTreffer> hits) {
       picked.add(t);
     }
   }
-  picked.sort((a, b) => a.distanzKm.compareTo(b.distanzKm));
+  picked.sort(_nachFahrzeit);
   return picked;
 }
 
-/// Anzeige: `320 m` / `3,2 km` / `12 km`.
-String formatDistanzKm(double km) {
-  if (km < 0.1) return '${(km * 1000).round()} m';
-  if (km < 10) return '${km.toStringAsFixed(1).replaceAll('.', ',')} km';
-  return '${km.round()} km';
+/// Anzeige: `direkt am Trail` (unter 1 Min) / `12 Min Auto`.
+String formatFahrzeit(int sek) {
+  if (sek < 60) return 'direkt am Trail';
+  return '${(sek / 60).round()} Min Auto';
 }

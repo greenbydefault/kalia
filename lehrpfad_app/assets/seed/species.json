@@ -12218,5 +12218,69 @@
         },
         "imagePath": null,
         "imageCredit": ""
+    },
+    {
+        "id": "sandlaufkaefer",
+        "nameDe": "Kupferbrauner Sandlaufkäfer",
+        "nameLat": "Cicindela hybrida",
+        "kategorie": "fauna",
+        "gruppe": "insekten",
+        "seltenheit": "mittel",
+        "gefahr": 1,
+        "nahrung": [
+            "Insekten"
+        ],
+        "taxonomie": {
+            "reich": "Animalia",
+            "stamm": "Arthropoda",
+            "klasse": "Insecta",
+            "ordnung": "Coleoptera",
+            "familie": "Carabidae"
+        },
+        "masse": [
+            {
+                "key": "laenge",
+                "wert": "11–16 mm"
+            }
+        ],
+        "merkmale": [
+            "tagaktiv",
+            "fleischfresser",
+            "tarnung",
+            "wehrhaft"
+        ],
+        "beziehungen": [
+            {
+                "typ": "frisst",
+                "nameDe": "Insekten",
+                "kurztext": "Jagt kleine Insekten im Lauf auf offenem Sand."
+            },
+            {
+                "typ": "wohnt_an",
+                "nameDe": "Düne",
+                "kurztext": "Die Larve sitzt in einer Röhre im Sand."
+            }
+        ],
+        "aliases": [
+            "Sandlaufkäfer"
+        ],
+        "kurztext": "Auf dem offenen Sand rennt ein kupferbrauner Käfer mit hellen Binden, bleibt stehen und fliegt ein Stück weiter.",
+        "content": {
+            "tiefe": "kurz",
+            "hook": "Auf dem offenen Sand rennt ein kupferbrauner Käfer mit hellen Binden, bleibt stehen und fliegt ein Stück weiter.",
+            "erkennung": [
+                "Kupferbraune Flügeldecken mit hellen Querbinden",
+                "Große Augen, lange Beine",
+                "Läuft ruckartig und fliegt kurz auf"
+            ],
+            "lebensraum": "Offene Sandflächen, Dünen und sandige Wege an der Küste.",
+            "funFacts": [
+                "Die Larve lauert in einer senkrechten Röhre im Sand auf Beute.",
+                "Die hellen Binden zerreißen die Umrisslinie auf dem Sand."
+            ],
+            "hinweis": "Nicht festhalten, der Käfer zwickt."
+        },
+        "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cicindela_hybrida_2_Richard_Bartz.jpg/960px-Cicindela_hybrida_2_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": "Richard Bartz, Munich aka Makro Freak, CC BY-SA 2.5"
     }
 ]

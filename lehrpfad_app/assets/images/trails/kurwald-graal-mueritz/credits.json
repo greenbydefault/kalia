@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-kiefern.jpg",
+    "caption": "Kiefern über dem Rhododendronpark, Bank am Weg.",
+    "credit": "Nikater",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Rhododendronpark01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-waldgarten.jpg",
+    "caption": "Blühende Büsche unter Laubbäumen im Rhododendronpark.",
+    "credit": "Nikater",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Rhododendronpark05.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-blueten.jpg",
+    "caption": "Rhododendronblüte im Park, Wald dahinter.",
+    "credit": "Nikater",
+    "license": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Rhododendronpark03.jpg",
+    "kind": "ort"
+  }
+]

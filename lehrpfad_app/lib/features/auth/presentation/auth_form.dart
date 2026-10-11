@@ -127,8 +127,9 @@ class _AuthFormState extends ConsumerState<AuthForm> {
             ),
             const SizedBox(height: 4),
             Text(
-              'Mit einem Konto kannst du Strecken bewerten und kommentieren. '
-              'Fotos hochladen geht auch ohne Anmeldung.',
+              'Die App funktioniert ohne Konto. Mit Konto könnt ihr Fotos '
+              'hochladen, bewerten, kommentieren und eure Merkliste auf '
+              'mehreren Geräten behalten.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 16),

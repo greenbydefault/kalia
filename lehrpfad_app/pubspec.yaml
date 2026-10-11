@@ -47,6 +47,7 @@ dependencies:
   url_launcher: ^6.3.2
   supercluster: ^3.2.0
   flutter_svg: ^2.2.3
+  flutter_animate: ^4.5.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -169,6 +170,10 @@ flutter:
     - assets/images/trails/rimstinger-steinlehrpfad/
     - assets/images/trails/weltpfad-nicklheim/
     - assets/images/trails/ostsee-lehrpfad-graal-mueritz/
+    - assets/images/trails/grossartige-kuestenflora-graal-mueritz/
+    - assets/images/trails/kurwald-graal-mueritz/
+    - assets/images/trails/naturlehrpfad-huetter-klosterteiche/
+    - assets/images/trails/waldspielplatz-jaegerhaus/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

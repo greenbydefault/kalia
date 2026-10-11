@@ -9,6 +9,7 @@ import 'package:lehrpfad_app/features/trail/data/trail_hero_assets.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail_bild.dart';
 import 'package:lehrpfad_app/features/nearby/data/seed_nearby_repository.dart';
+import 'package:lehrpfad_app/features/nearby/data/seed_nearby_zeiten_repository.dart';
 import 'package:lehrpfad_app/features/nearby/domain/nearby.dart';
 import 'package:lehrpfad_app/features/trail/presentation/map/trail_hero.dart';
 
@@ -655,15 +656,24 @@ void main() {
     }
   });
 
-  test('Untereider Nearby enthält Café Flora Breiholz', () async {
+  test('Untereider Nearby enthält Aquacity und Schwebefähre Rendsburg', () async {
     final trails = await SeedTrailRepository().getTrails();
     final trail = trails.firstWhere((t) => t.id == 'untereider');
     final catalog = await SeedNearbyRepository().getCatalog();
-    final hits = nearby(trail, catalog);
+    final zeiten = await SeedNearbyZeitenRepository().getZeiten();
+    final hits = nearby(trail, catalog, zeiten);
     expect(hits, isNotEmpty);
     expect(
       hits.map((t) => t.place.id),
-      contains('cafe-flora-breiholz'),
+      containsAll([
+        'baden-aquacity-rendsburg',
+        'aktivitaet-schwebefaehre-rendsburg',
+      ]),
+    );
+    // Café Flora Breiholz: 13 km Luftlinie, aber über 20 Min Fahrt.
+    expect(
+      hits.map((t) => t.place.id),
+      isNot(contains('cafe-flora-breiholz')),
     );
   });
 
@@ -815,7 +825,8 @@ void main() {
       (t) => t.id == 'naturerlebnisweg-ploener-seeufer',
     );
     final catalog = await SeedNearbyRepository().getCatalog();
-    final hits = nearby(trail, catalog);
+    final zeiten = await SeedNearbyZeitenRepository().getZeiten();
+    final hits = nearby(trail, catalog, zeiten);
     expect(hits, isNotEmpty);
     expect(
       hits.map((t) => t.place.id),
@@ -833,7 +844,8 @@ void main() {
       (t) => t.id == 'waldlehrpfad-silberbergen',
     );
     final catalog = await SeedNearbyRepository().getCatalog();
-    final hits = nearby(trail, catalog);
+    final zeiten = await SeedNearbyZeitenRepository().getZeiten();
+    final hits = nearby(trail, catalog, zeiten);
     expect(hits, isNotEmpty);
     expect(
       hits.map((t) => t.place.id),
@@ -851,7 +863,8 @@ void main() {
       (t) => t.id == 'naturerlebnispfad-ellerbek',
     );
     final catalog = await SeedNearbyRepository().getCatalog();
-    final hits = nearby(trail, catalog);
+    final zeiten = await SeedNearbyZeitenRepository().getZeiten();
+    final hits = nearby(trail, catalog, zeiten);
     expect(hits, isNotEmpty);
     expect(
       hits.map((t) => t.place.id),
@@ -865,7 +878,8 @@ void main() {
       (t) => t.id == 'lehrpfad-pflanzenschutz-schwentinental',
     );
     final catalog = await SeedNearbyRepository().getCatalog();
-    final hits = nearby(trail, catalog);
+    final zeiten = await SeedNearbyZeitenRepository().getZeiten();
+    final hits = nearby(trail, catalog, zeiten);
     expect(hits, isNotEmpty);
     expect(
       hits.map((t) => t.place.id),

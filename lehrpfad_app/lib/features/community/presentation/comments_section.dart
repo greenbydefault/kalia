@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/config/supabase_config.dart';
 import '../../auth/data/auth_providers.dart';
+import '../../auth/presentation/account_prompt_sheet.dart';
 import '../data/community_providers.dart';
 import '../domain/trail_comment.dart';
 
@@ -28,6 +30,10 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
   }
 
   Future<void> _send() async {
+    if (ref.read(authStateProvider).value == null) {
+      final ok = await requireAccount(context, reason: AccountReason.comment);
+      if (!ok || !mounted) return;
+    }
     final repo = ref.read(commentsRepositoryProvider);
     final text = _controller.text.trim();
     if (repo == null || text.isEmpty) return;
@@ -38,9 +44,9 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
       ref.invalidate(trailCommentsProvider(widget.trailId));
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Kommentar fehlgeschlagen: $e')),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Kommentar fehlgeschlagen: $e')));
       }
     } finally {
       if (mounted) setState(() => _sending = false);
@@ -55,9 +61,9 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
       ref.invalidate(trailCommentsProvider(widget.trailId));
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Löschen fehlgeschlagen: $e')),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Löschen fehlgeschlagen: $e')));
       }
     }
   }
@@ -127,7 +133,7 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
               ),
             ),
         const SizedBox(height: 4),
-        if (loggedIn)
+        if (loggedIn || SupabaseConfig.isConfigured)
           Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
@@ -160,7 +166,7 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
           )
         else
           Text(
-            'Melde dich an, um zu kommentieren.',
+            'Kommentieren gibt es mit Serververbindung.',
             style: theme.textTheme.bodySmall,
           ),
       ],

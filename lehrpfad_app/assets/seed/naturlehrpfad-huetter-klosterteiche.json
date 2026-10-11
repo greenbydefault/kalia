@@ -1,0 +1,470 @@
+{
+ "id": "naturlehrpfad-huetter-klosterteiche",
+ "name": "Naturlehrpfad Hütter Klosterteiche",
+ "typ": "wald",
+ "kurzbeschreibung": "Die Mönche von Doberan haben die Kanbek aufgestaut. Der Weg läuft auf den Dämmen zwischen den Teichen.",
+ "beschreibung": "Zisterzienser aus Doberan haben die Kanbek zu Teichen aufgestaut. Niedrige Dämme trennen die Becken bis heute. Wer über einen Damm geht, hat links und rechts Schilf und Wasser. Pflanzgartenteich, Schunbergteich und Klosterteich liegen dicht beieinander. Tafeln am Ufer erzählen von Totholz, von Höhlen in alten Bäumen und von dem, was in einem Reisighaufen wohnt. Ein Insektenhotel steht am Beginn der Runde. Ringsum liegt der Hütter Wohld, für diese Küste ungewöhnlich hügelig.",
+ "laengeKm": 2.8,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Holzschild Lehrpfad",
+ "betreiber": "StALU Mittleres Mecklenburg",
+ "region": "Hütter Wohld, Bartenshagen-Parkentin",
+ "website": "https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/lehrpfad-naturschutzgebiet-huetter-klosterteiche.php",
+ "anreise": "Parkplatz an der Straße Am Hütter Wohld, zwischen Doberaner Straße und Wiesenstraße. Zuweg durch den Wald bis zum Insektenhotel. Bus 128 bis Parkentin, Doberaner Straße. Bahn bis Parkentin.",
+ "startName": "Parkplatz Am Hütter Wohld",
+ "arten": [
+  "Rotbuche",
+  "Fichte",
+  "Douglasie",
+  "Damhirsch",
+  "Dachs",
+  "Buntspecht",
+  "Buchfink",
+  "Erdkröte",
+  "Grasfrosch",
+  "Kohlmeise",
+  "Schilf",
+  "Stockente",
+  "Teichfrosch",
+  "Buschwindröschen"
+ ],
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Fichte": "belegt",
+  "Douglasie": "belegt",
+  "Damhirsch": "belegt",
+  "Dachs": "belegt",
+  "Buntspecht": "belegt",
+  "Buchfink": "typisch",
+  "Erdkröte": "typisch",
+  "Grasfrosch": "typisch",
+  "Kohlmeise": "typisch",
+  "Schilf": "belegt",
+  "Stockente": "typisch",
+  "Teichfrosch": "typisch",
+  "Buschwindröschen": "typisch"
+ },
+ "lebensraeume": [
+  "teich-tuempel",
+  "buchenwald",
+  "nadelforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   54.075915,
+   11.960719
+  ],
+  [
+   54.075122,
+   11.958607
+  ],
+  [
+   54.074569,
+   11.957121
+  ],
+  [
+   54.074193,
+   11.956074
+  ],
+  [
+   54.07412,
+   11.955849
+  ],
+  [
+   54.073175,
+   11.953208
+  ],
+  [
+   54.073491,
+   11.952825
+  ],
+  [
+   54.073684,
+   11.952417
+  ],
+  [
+   54.074119,
+   11.95118
+  ],
+  [
+   54.073973,
+   11.950775
+  ],
+  [
+   54.074089,
+   11.950148
+  ],
+  [
+   54.07436,
+   11.949714
+  ],
+  [
+   54.074515,
+   11.949408
+  ],
+  [
+   54.074774,
+   11.948767
+  ],
+  [
+   54.074536,
+   11.948631
+  ],
+  [
+   54.074394,
+   11.948472
+  ],
+  [
+   54.074207,
+   11.948386
+  ],
+  [
+   54.073913,
+   11.948391
+  ],
+  [
+   54.073729,
+   11.948421
+  ],
+  [
+   54.073485,
+   11.948474
+  ],
+  [
+   54.073372,
+   11.948526
+  ],
+  [
+   54.073153,
+   11.948645
+  ],
+  [
+   54.072959,
+   11.948697
+  ],
+  [
+   54.072798,
+   11.948697
+  ],
+  [
+   54.072666,
+   11.948651
+  ],
+  [
+   54.072536,
+   11.948539
+  ],
+  [
+   54.0725,
+   11.948508
+  ],
+  [
+   54.07204,
+   11.947746
+  ],
+  [
+   54.071776,
+   11.947401
+  ],
+  [
+   54.071487,
+   11.947241
+  ],
+  [
+   54.071226,
+   11.947154
+  ],
+  [
+   54.071049,
+   11.947173
+  ],
+  [
+   54.070848,
+   11.947308
+  ],
+  [
+   54.070674,
+   11.947454
+  ],
+  [
+   54.070929,
+   11.947669
+  ],
+  [
+   54.070996,
+   11.947722
+  ],
+  [
+   54.071047,
+   11.947765
+  ],
+  [
+   54.071292,
+   11.947949
+  ],
+  [
+   54.071449,
+   11.948127
+  ],
+  [
+   54.07153,
+   11.948328
+  ],
+  [
+   54.071671,
+   11.948833
+  ],
+  [
+   54.071855,
+   11.949222
+  ],
+  [
+   54.071967,
+   11.949498
+  ],
+  [
+   54.072095,
+   11.949847
+  ],
+  [
+   54.072223,
+   11.950051
+  ],
+  [
+   54.072391,
+   11.950145
+  ],
+  [
+   54.072635,
+   11.950253
+  ],
+  [
+   54.072738,
+   11.950244
+  ],
+  [
+   54.072818,
+   11.950199
+  ],
+  [
+   54.072988,
+   11.950029
+  ],
+  [
+   54.073289,
+   11.949708
+  ],
+  [
+   54.073508,
+   11.949573
+  ],
+  [
+   54.073658,
+   11.949542
+  ],
+  [
+   54.073821,
+   11.949573
+  ],
+  [
+   54.073966,
+   11.949648
+  ],
+  [
+   54.07436,
+   11.949714
+  ],
+  [
+   54.074089,
+   11.950148
+  ],
+  [
+   54.073973,
+   11.950775
+  ],
+  [
+   54.074119,
+   11.95118
+  ],
+  [
+   54.073684,
+   11.952417
+  ],
+  [
+   54.073491,
+   11.952825
+  ],
+  [
+   54.073175,
+   11.953208
+  ],
+  [
+   54.07412,
+   11.955849
+  ],
+  [
+   54.074193,
+   11.956074
+  ],
+  [
+   54.074569,
+   11.957121
+  ],
+  [
+   54.075122,
+   11.958607
+  ],
+  [
+   54.075915,
+   11.960719
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -3638745056,
+   "lat": 54.07436,
+   "lon": 11.949536,
+   "km": 0.86,
+   "titel": "Insektenhotel",
+   "thema": "Beginn der Runde",
+   "kurztext": "Hier fängt die Runde um die Teiche an. Das Hotel aus Holz steht am Weg, der Abzweig ist damit wiederzufinden. Geradeaus führt der Weg nach Althof, die Runde biegt links ab.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -578703867,
+   "lat": 54.073919,
+   "lon": 11.948286,
+   "km": 1.04,
+   "titel": "Forstwirtschaft, Waldwirtschaft",
+   "thema": "Was der Forst im Wald tut",
+   "kurztext": "Die Tafel steht am Pflanzgartenteich, das Wasser liegt rechts vom Weg. Sie trennt, was der Forst entnimmt und was im Wald bleibt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1562253385,
+   "lat": 54.07333,
+   "lon": 11.948356,
+   "km": 1.1,
+   "titel": "Höhlenbauer und Nachmieter",
+   "thema": "Wer eine verlassene Höhle nutzt",
+   "kurztext": "Spechte schlagen Höhlen in alte Stämme. Andere ziehen später ein. Die Tafel steht wenige Meter hinter der Forsttafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -4012390612,
+   "lat": 54.072557,
+   "lon": 11.948324,
+   "km": 1.2,
+   "titel": "Wer lebt im Reisighaufen?",
+   "thema": "Leben im aufgeschichteten Holz",
+   "kurztext": "Ein Haufen Reisig reicht als Wohnung. Die Tafel zeigt, wer sich darin aufhält. Schilf steht im Wasser neben dem Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2951877252,
+   "lat": 54.071883,
+   "lon": 11.949407,
+   "km": 1.64,
+   "titel": "Alt- und Totholz voller Leben",
+   "thema": "Was von totem Holz lebt",
+   "kurztext": "Totes Holz bleibt liegen. Käfer, Pilze und Vögel leben davon. Die Tafel steht an der Südspitze, nach der spitzen Linkskurve.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3843704851,
+   "lat": 54.073359,
+   "lon": 11.949611,
+   "km": 1.82,
+   "titel": "Tiere und Pflanzen des Waldes",
+   "thema": "Mischwald am Teich",
+   "kurztext": "Letzte Tafel vor dem Insektenhotel. Rotbuche, Fichte und Douglasie, dazu Damwild und Dachs. Der Weg führt von hier zurück an den Start.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 378908264,
+   "lat": 54.0756026,
+   "lon": 11.9477622,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 378908273,
+   "lat": 54.0744347,
+   "lon": 11.9489969,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 378908298,
+   "lat": 54.0730909,
+   "lon": 11.948707,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 378908304,
+   "lat": 54.072809,
+   "lon": 11.9498016,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 403771822,
+   "lat": 54.0760697,
+   "lon": 11.9610323,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 27672650,
+   "lat": 54.0762861,
+   "lon": 11.9608622,
+   "kategorie": "parking",
+   "name": "Parkplatz Am Hütter Wohld"
+  }
+ ],
+ "eintritt": false,
+ "besuchshinweise": "Festes Schuhwerk. Auf den Dämmen wird der Weg schmal, ein Kinderwagen kommt dort nicht durch. An der spitzen Kurve links halten, rechts wird die Runde länger.",
+ "hoertext": "Der Boden zwischen den Becken steigt zu einem Wall auf. Schilf wächst links aus dem Wasser, das nächste Becken öffnet sich rechts. Über den schmalen Streifen läuft der Weg. Klosterleute aus Doberan fassten die Kanbek, die Wälle tragen den Weg. Pflanzgarten, Schunberg und Kloster rücken so nah zusammen, dass ein Damm oft beide Ufer zugleich zeigt. An der spitzen Biegung teilt sich die Länge. Links hält die Runde bei diesen drei Becken. Rechts zieht der Hütter Wohld noch weiter, hügeliger als diese Küste sonst, über weitere Dämme und tiefer in den Wald. Käfer leben im Totholz. Ein Hotel aus Holz markiert den Punkt, an dem die Runde sich wieder schließt.",
+ "bilderAsset": "assets/images/trails/naturlehrpfad-huetter-klosterteiche/credits.json"
+}

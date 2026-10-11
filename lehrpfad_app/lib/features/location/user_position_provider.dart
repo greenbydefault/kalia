@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../trail_progress/data/trail_progress_providers.dart';
 import '../trail_progress/tracking/location_service.dart';
 import '../trail_progress/tracking/walk_tracking_controller.dart';
+import '../onboarding/data/onboarding_prefs_provider.dart';
 import 'location_permission_controller.dart';
 import 'map_radius.dart';
 
@@ -87,7 +88,9 @@ class UserPositionController extends Notifier<UserPosition> {
   Future<LocationFix?> refreshIfStale() async {
     if (_tourActive) return state.fix;
     if (!ref.read(mapLocationEnabledProvider)) return state.fix;
-    final status = await ref.read(locationPermissionProvider.notifier).refresh();
+    final status = await ref
+        .read(locationPermissionProvider.notifier)
+        .refresh();
     if (!status.isGranted) return state.fix;
     final last = state.fix;
     if (last != null &&
@@ -146,12 +149,22 @@ LatLng _roundForStorage(LatLng p) => LatLng(
   (p.longitude / _roundStep).round() * _roundStep,
 );
 
-/// Effektiver Umkreis: ohne Fix oder ohne Consent = Alle.
-final effectiveMapRadiusProvider = Provider<MapRadius>((ref) {
-  final preferred = ref.watch(mapRadiusProvider);
+/// Bezugspunkt für Umkreis, Nähe-Liste und Anfahrt: der gewählte Ort,
+/// sonst der Gerätestandort. `null` = kein Anker (alles zeigen).
+///
+/// Ort und Standort schließen sich aus (siehe `OnboardingPrefsNotifier`).
+final mapAnchorProvider = Provider<LatLng?>((ref) {
+  final place = ref.watch(onboardingPrefsValueProvider).place;
+  if (place != null) return place.position;
   final enabled = ref.watch(mapLocationEnabledProvider);
   final fix = ref.watch(userPositionProvider).fix;
-  if (!enabled || fix == null) return MapRadius.all;
+  return enabled ? fix?.position : null;
+});
+
+/// Effektiver Umkreis: ohne Anker (kein Ort, kein Standort) = Alle.
+final effectiveMapRadiusProvider = Provider<MapRadius>((ref) {
+  final preferred = ref.watch(mapRadiusProvider);
+  if (ref.watch(mapAnchorProvider) == null) return MapRadius.all;
   return preferred;
 });
 
@@ -176,8 +189,8 @@ class LocateTarget {
 
 final locateTargetProvider =
     NotifierProvider<LocateTargetNotifier, LocateTarget?>(
-  LocateTargetNotifier.new,
-);
+      LocateTargetNotifier.new,
+    );
 
 class LocateTargetNotifier extends Notifier<LocateTarget?> {
   int _nonce = 0;

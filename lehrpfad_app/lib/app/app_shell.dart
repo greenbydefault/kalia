@@ -6,9 +6,12 @@ import '../core/config/supabase_config.dart';
 import 'sync_lifecycle.dart';
 import '../features/auth/data/auth_providers.dart';
 import '../features/auth/presentation/account_tab.dart';
+import '../features/auth/presentation/saved_list_prompt_host.dart';
 import '../features/community/presentation/upload_snackbar_listener.dart';
+import '../features/nearby_trails/presentation/coach_mark_overlay.dart';
 import '../features/onboarding/data/onboarding_providers.dart';
-import '../features/onboarding/presentation/onboarding_overlay.dart';
+import '../features/player/presentation/mini_player.dart';
+import '../features/onboarding/presentation/onboarding_flow.dart';
 import '../features/species/presentation/species_collection_screen.dart';
 import '../features/trail/presentation/map/map_screen.dart';
 import '../features/trail_progress/presentation/my_routes_screen.dart';
@@ -28,63 +31,68 @@ class AppShell extends ConsumerWidget {
       return const Scaffold(backgroundColor: AppColors.paper);
     }
 
-    final onboarding = completed.value != true;
-    final index = onboarding ? 0 : ref.watch(shellTabIndexProvider);
+    if (completed.value != true) return const OnboardingFlow();
+
+    final index = ref.watch(shellTabIndexProvider);
     final loggedIn =
         SupabaseConfig.isConfigured &&
         ref.watch(authStateProvider).value != null;
 
-    return Scaffold(
-      body: Stack(
-        children: [
-          IndexedStack(
-            index: index,
-            children: const [
-              MapScreen(),
-              MyRoutesScreen(),
-              SpeciesCollectionScreen(),
-              AccountTab(),
+    return Stack(
+      children: [
+        Scaffold(
+          body: Stack(
+            children: [
+              IndexedStack(
+                index: index,
+                children: const [
+                  MapScreen(),
+                  MyRoutesScreen(),
+                  SpeciesCollectionScreen(),
+                  AccountTab(),
+                ],
+              ),
+              if (SupabaseConfig.isConfigured) const UploadSnackbarListener(),
+              const MiniPlayerHost(),
+              const SavedListPromptHost(),
             ],
           ),
-          if (onboarding) const OnboardingOverlay(),
-          if (SupabaseConfig.isConfigured) const UploadSnackbarListener(),
-        ],
-      ),
-      bottomNavigationBar: onboarding
-          ? null
-          : NavigationBar(
-              selectedIndex: index,
-              onDestinationSelected: (i) =>
-                  ref.read(shellTabIndexProvider.notifier).goTo(i),
-              destinations: [
-                const NavigationDestination(
-                  icon: Icon(Icons.map_outlined),
-                  selectedIcon: Icon(Icons.map),
-                  label: 'Karte',
+          bottomNavigationBar: NavigationBar(
+            selectedIndex: index,
+            onDestinationSelected: (i) =>
+                ref.read(shellTabIndexProvider.notifier).goTo(i),
+            destinations: [
+              const NavigationDestination(
+                icon: Icon(Icons.map_outlined),
+                selectedIcon: Icon(Icons.map),
+                label: 'Karte',
+              ),
+              const NavigationDestination(
+                icon: Icon(Icons.bookmark_border),
+                selectedIcon: Icon(Icons.bookmark),
+                label: 'Meine Listen',
+              ),
+              NavigationDestination(
+                icon: PhosphorIcon(PhosphorIcons.stack, size: 24),
+                selectedIcon: PhosphorIcon(PhosphorIcons.stack, size: 24),
+                label: 'Sammlung',
+              ),
+              NavigationDestination(
+                icon: Icon(
+                  loggedIn
+                      ? Icons.account_circle_outlined
+                      : Icons.person_outline,
                 ),
-                const NavigationDestination(
-                  icon: Icon(Icons.bookmark_border),
-                  selectedIcon: Icon(Icons.bookmark),
-                  label: 'Meine Listen',
+                selectedIcon: Icon(
+                  loggedIn ? Icons.account_circle : Icons.person,
                 ),
-                NavigationDestination(
-                  icon: PhosphorIcon(PhosphorIcons.stack, size: 24),
-                  selectedIcon: PhosphorIcon(PhosphorIcons.stack, size: 24),
-                  label: 'Sammlung',
-                ),
-                NavigationDestination(
-                  icon: Icon(
-                    loggedIn
-                        ? Icons.account_circle_outlined
-                        : Icons.person_outline,
-                  ),
-                  selectedIcon: Icon(
-                    loggedIn ? Icons.account_circle : Icons.person,
-                  ),
-                  label: 'Konto',
-                ),
-              ],
-            ),
+                label: 'Konto',
+              ),
+            ],
+          ),
+        ),
+        const CoachMarkHost(),
+      ],
     );
   }
 }

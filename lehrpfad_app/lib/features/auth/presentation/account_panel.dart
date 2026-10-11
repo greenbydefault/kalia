@@ -81,8 +81,9 @@ class _GuestSummary extends StatelessWidget {
           Text('Kinder: $kids', style: theme.textTheme.bodyMedium),
         const SizedBox(height: 8),
         Text(
-          'Konto für Community — Bewertungen und Kommentare. '
-          'Fotos gehen auch ohne Anmeldung.',
+          'Konto für Community und Sync: Fotos hochladen, bewerten, '
+          'kommentieren, Merkliste auf mehreren Geräten. Alles andere '
+          'geht ohne.',
           style: theme.textTheme.bodySmall,
         ),
       ],

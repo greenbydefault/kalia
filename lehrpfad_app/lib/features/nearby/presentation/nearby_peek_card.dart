@@ -61,7 +61,7 @@ class NearbyPeekCard extends StatelessWidget {
                           children: [
                             Flexible(
                               child: Text(
-                                '${kat.label} · ${formatDistanzKm(treffer.distanzKm)}',
+                                '${kat.label} · ${formatFahrzeit(treffer.fahrzeitSek)}',
                                 style: theme.textTheme.labelSmall,
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
