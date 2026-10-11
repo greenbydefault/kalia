@@ -89,6 +89,6 @@ List<Trail> filterTrailsByRadius(
 }
 
 bool _within(Trail trail, LatLng user, double maxM) {
-  final d = distanceToTrailM(trail, user);
+  final d = distanceToStartM(trail, user);
   return d != null && d <= maxM;
 }

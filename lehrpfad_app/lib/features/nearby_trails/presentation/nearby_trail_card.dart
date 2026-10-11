@@ -8,6 +8,7 @@ import '../../../shared/catalogs/icon_catalog.dart';
 import '../../community/domain/trail_image.dart';
 import '../../player/data/mini_player_provider.dart';
 import '../../player/presentation/equalizer_bars.dart';
+import '../../location/proximity.dart';
 import '../../trail/presentation/map/trail_hero.dart';
 import '../../trail_progress/presentation/open_trail_on_map.dart';
 import '../../trail_progress/presentation/quick_merken.dart';
@@ -94,22 +95,15 @@ class NearbyTrailCard extends ConsumerWidget {
                       ),
                       const SizedBox(height: AppSpacing.x1),
                       Text(
-                        trail.isFlaeche
-                            ? 'Platz'
-                            : '${trail.laengeLabel} · ${trail.dauerLabel}',
+                        distance == null
+                            ? (trail.isFlaeche
+                                  ? 'Platz'
+                                  : '${trail.laengeLabel} · ${trail.dauerLabel}')
+                            : '${formatDistanceM(distance)} · ${anfahrtLabel(distance)}',
                         style: theme.textTheme.bodySmall,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
-                      if (distance != null)
-                        Text(
-                          anfahrtLabel(distance),
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: AppColors.inkMuted,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
                       const Spacer(),
                       Row(
                         children: [

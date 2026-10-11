@@ -109,6 +109,30 @@ void main() {
       expect(r.every((e) => e.matches), isTrue);
     });
 
+    test('Berlin: Distanz ist Luftlinie zum Start, nicht die Weglänge', () {
+      const berlin = LatLng(52.532, 13.385);
+      final r = selectNearbyTrails(
+        trails,
+        maxKm: null,
+        stroller: false,
+        lengthOn: false,
+        strollerOn: false,
+        anchor: berlin,
+        limit: trails.length,
+      );
+      final outside = r
+          .where((e) => !e.trail.region.contains('Berlin'))
+          .toList();
+      expect(outside, isNotEmpty);
+      outside.sort((a, b) => a.distanceM!.compareTo(b.distanceM!));
+      final nearest = outside.first;
+      expect(nearest.distanceM!, greaterThan(5000));
+      expect(
+        (nearest.distanceM! - nearest.trail.laengeKm * 1000).abs(),
+        greaterThan(1000),
+      );
+    });
+
     test('ohne Anker keine Distanz', () {
       final r = selectNearbyTrails(
         trails,

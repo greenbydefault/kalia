@@ -30,7 +30,7 @@ class NearbyIntroPlayedNotifier extends Notifier<bool> {
   void markPlayed() => state = true;
 }
 
-/// „Kurze Wege in eurer Nähe“: ziehbares Panel über der Karte.
+/// „Nächste Wege“: ziehbares Panel über der Karte.
 class NearbyTrailsPanel extends ConsumerStatefulWidget {
   const NearbyTrailsPanel({
     super.key,
@@ -48,7 +48,7 @@ class NearbyTrailsPanel extends ConsumerStatefulWidget {
   static const initialSize = 0.55;
   static const maxSize = 0.92;
 
-  static const headline = 'Kurze Wege in eurer Nähe';
+  static const headline = 'Nächste Wege';
 
   @override
   ConsumerState<NearbyTrailsPanel> createState() => _NearbyTrailsPanelState();

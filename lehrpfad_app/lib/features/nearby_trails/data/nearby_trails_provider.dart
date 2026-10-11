@@ -63,7 +63,7 @@ class NearbyTrailEntry {
   /// Erfüllt alle aktiven Filter.
   final bool matches;
 
-  /// Luftlinie Anker → Trail, `null` ohne Anker.
+  /// Luftlinie Anker → Start, `null` ohne Anker.
   final double? distanceM;
 }
 
@@ -86,7 +86,7 @@ List<NearbyTrailEntry> selectNearbyTrails(
         matches:
             (!lengthOn || t.isFlaeche || t.laengeKm <= cap) &&
             (!(stroller && strollerOn) || isStrollerFriendly(t)),
-        distanceM: anchor == null ? null : distanceToTrailM(t, anchor),
+        distanceM: anchor == null ? null : distanceToStartM(t, anchor),
       ),
   ];
   int byDistance(NearbyTrailEntry a, NearbyTrailEntry b) {

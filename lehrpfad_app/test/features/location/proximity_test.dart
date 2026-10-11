@@ -127,7 +127,32 @@ void main() {
     );
   });
 
-  test('Umkreis-Filter: Kanten-Distanz, skip ohne Geometrie', () {
+  test('distanceToStartM ist der Start, nicht die Kante', () {
+    final trail = Trail(
+      id: 'weit',
+      name: 'Weit',
+      typ: 'wald',
+      kurzbeschreibung: '',
+      beschreibung: '',
+      laengeKm: 1,
+      dauerMin: 30,
+      rundkurs: false,
+      markierung: '',
+      betreiber: '',
+      region: '',
+      anreise: '',
+      startName: '',
+      arten: const [],
+      route: const [LatLng(54.5, 13.0), LatLng(53.0, 13.0)],
+      stationen: const [],
+      amenities: const [],
+    );
+    const user = LatLng(53.0, 13.0);
+    expect(distanceToTrailM(trail, user)!, lessThan(5));
+    expect(distanceToStartM(trail, user)!, greaterThan(100000));
+  });
+
+  test('Umkreis-Filter: Distanz zum Start, skip ohne Geometrie', () {
     final near = _linie();
     final far = Trail(
       id: 'far',
@@ -166,9 +191,29 @@ void main() {
       stationen: const [],
       amenities: const [],
     );
+    final passesNear = Trail(
+      id: 'passes',
+      name: 'Passes',
+      typ: 'wald',
+      kurzbeschreibung: '',
+      beschreibung: '',
+      laengeKm: 1,
+      dauerMin: 30,
+      rundkurs: false,
+      markierung: '',
+      betreiber: '',
+      region: '',
+      anreise: '',
+      startName: '',
+      arten: const [],
+      route: const [LatLng(54.5, 13.0), LatLng(53.0, 13.0)],
+      stationen: const [],
+      amenities: const [],
+    );
     final user = const LatLng(53.0, 13.0);
+    expect(distanceToStartM(broken, user), isNull);
     final filtered = filterTrailsByRadius(
-      [near, far, broken],
+      [near, far, broken, passesNear],
       radius: MapRadius.km20,
       user: user,
     );

@@ -30,6 +30,14 @@ double? distanceToTrailM(Trail trail, LatLng user) {
   return haversineMeters(user, start);
 }
 
+/// Luftlinie zum Ankunftspunkt (Start bzw. Flächen-Centroid).
+/// Für Liste, Anfahrt und Umkreis. Vor-Ort bleibt [distanceToTrailM].
+double? distanceToStartM(Trail trail, LatLng from) {
+  final start = trail.startOrNull;
+  if (start == null) return null;
+  return haversineMeters(from, start);
+}
+
 double onSiteRadiusM(Trail trail) =>
     trail.isFlaeche ? flaecheOnSiteRadiusM : linieOnSiteRadiusM;
 
