@@ -116,18 +116,27 @@ class SeedTrailRepository implements TrailRepository {
 
   @override
   Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) async {
-    final trails = <Trail>[];
-    for (final path in _seedPaths) {
-      try {
-        final raw = await rootBundle.loadString(path);
-        final json = jsonDecode(raw) as Map<String, dynamic>;
-        await attachHeroBilder(json);
-        trails.add(Trail.fromJson(json));
-      } catch (e) {
-        // Ein fehlender/fehlerhafter Seed darf die übrigen Trails nicht blockieren.
-        debugPrint('SeedTrailRepository: "$path" übersprungen ($e)');
-      }
-    }
+    final heroes = Stopwatch()..start();
+    final loaded = await Future.wait([
+      for (final path in _seedPaths) _loadSeed(path),
+    ]);
+    final trails = [for (final trail in loaded) ?trail];
+    debugPrint(
+      'attachHeroBilder ${trails.length} Seeds ${heroes.elapsedMilliseconds} ms',
+    );
     return trails;
+  }
+
+  Future<Trail?> _loadSeed(String path) async {
+    try {
+      final raw = await rootBundle.loadString(path);
+      final json = jsonDecode(raw) as Map<String, dynamic>;
+      await attachHeroBilder(json);
+      return Trail.fromJson(json);
+    } catch (e) {
+      // Ein fehlender/fehlerhafter Seed darf die übrigen Trails nicht blockieren.
+      debugPrint('SeedTrailRepository: "$path" übersprungen ($e)');
+      return null;
+    }
   }
 }

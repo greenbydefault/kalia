@@ -11,6 +11,10 @@ import '../../trail/domain/trail.dart';
 /// Wie viele Wege die Nähe-Liste zeigt.
 const nearbyTrailCount = 4;
 
+/// Bis hierhin stehen passende Wege vor unpassenden. Weiter weg zählt
+/// nur die Entfernung, sonst verdrängt ein ferner Treffer die nächsten Wege.
+const matchPreferenceKm = 25;
+
 /// „Kurze Wege“, wenn im Onboarding niemand gewählt wurde.
 const defaultShortKm = 5;
 
@@ -67,8 +71,9 @@ class NearbyTrailEntry {
   final double? distanceM;
 }
 
-/// Auswahl für die Nähe-Liste: passende Wege zuerst, dann nach Entfernung.
-/// Nie leer, solange der Katalog Wege hat.
+/// Auswahl für die Nähe-Liste. Innerhalb von [matchPreferenceKm] passende
+/// Wege vor unpassenden, jeweils nach Entfernung. Darüber nur die Entfernung.
+/// Ohne Anker: passende zuerst. Nie leer, solange der Katalog Wege hat.
 List<NearbyTrailEntry> selectNearbyTrails(
   List<Trail> trails, {
   required int? maxKm,
@@ -98,8 +103,17 @@ List<NearbyTrailEntry> selectNearbyTrails(
     return da.compareTo(db);
   }
 
+  final preferenceM = matchPreferenceKm * 1000.0;
+  bool near(NearbyTrailEntry e) =>
+      e.distanceM != null && e.distanceM! <= preferenceM;
   entries.sort((a, b) {
-    if (a.matches != b.matches) return a.matches ? -1 : 1;
+    if (anchor == null) {
+      if (a.matches != b.matches) return a.matches ? -1 : 1;
+      return byDistance(a, b);
+    }
+    if (near(a) && near(b) && a.matches != b.matches) {
+      return a.matches ? -1 : 1;
+    }
     return byDistance(a, b);
   });
   return entries.take(limit).toList();

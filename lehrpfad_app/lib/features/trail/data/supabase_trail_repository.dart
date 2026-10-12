@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -15,7 +16,8 @@ class SupabaseTrailRepository implements TrailRepository {
 
   // Explizite Spaltenliste: die Generated Columns (pos/start_pos) kämen als
   // unlesbare WKB-Hex-Strings mit und werden hier ausgeklammert.
-  static const _columns = 'id, name, typ, form, kurzbeschreibung, beschreibung, '
+  static const _columns =
+      'id, name, typ, form, kurzbeschreibung, beschreibung, '
       'laenge_km, dauer_min, rundkurs, markierung, betreiber, region, website, '
       'eintritt, eintritt_preise, oeffnungszeiten, besuchshinweise, '
       'anreise, start_name, arten, lebensraeume, naturraum, tags, route, area, '
@@ -30,12 +32,18 @@ class SupabaseTrailRepository implements TrailRepository {
         .select(_columns)
         .order('reihenfolge', referencedTable: 'stations', ascending: true)
         .order('name', ascending: true);
-    final trails = <Trail>[];
-    for (final row in rows) {
-      final json = trailRowToJson(row);
-      await attachHeroBilder(json);
-      trails.add(Trail.fromJson(json));
-    }
+    final heroes = Stopwatch()..start();
+    final trails = await Future.wait([
+      for (final row in rows)
+        () async {
+          final json = trailRowToJson(row);
+          await attachHeroBilder(json);
+          return Trail.fromJson(json);
+        }(),
+    ]);
+    debugPrint(
+      'attachHeroBilder ${trails.length} Trails ${heroes.elapsedMilliseconds} ms',
+    );
     return trails;
   }
 

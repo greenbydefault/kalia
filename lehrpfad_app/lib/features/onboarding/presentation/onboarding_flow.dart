@@ -4,8 +4,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../app/theme/app_colors.dart';
 import '../../../core/motion/reduced_motion.dart';
 import '../../location/location_permission_controller.dart';
+import '../../nearby/data/nearby_providers.dart';
+import '../../trail/data/providers.dart';
 import '../../trail_progress/tracking/location_service.dart';
 import '../data/onboarding_providers.dart';
+import '../data/place_search.dart';
 import 'screens/group_screen.dart';
 import 'screens/location_screen.dart';
 import 'screens/place_screen.dart';
@@ -28,6 +31,17 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
   /// Ort-Screen direkt (Berechtigung früher dauerhaft abgelehnt).
   var _skippedLocation = false;
   var _showSettingsHint = false;
+
+  @override
+  void initState() {
+    super.initState();
+    // Katalog und Ortsindex laden, während Willkommen und Gruppe laufen,
+    // damit die Nähe-Liste nach der Ortseingabe nicht erst dann startet.
+    ref.read(trailsProvider);
+    ref.read(nearbyCatalogProvider);
+    ref.read(nearbyZeitenProvider);
+    ref.read(placeIndexProvider);
+  }
 
   void _go(OnboardingStep step, {required bool forward}) {
     setState(() {

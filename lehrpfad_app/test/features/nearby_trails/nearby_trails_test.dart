@@ -76,19 +76,52 @@ void main() {
       expect(r, hasLength(nearbyTrailCount));
     });
 
-    test('passende Wege vor unpassenden, danach nach Entfernung', () {
-      final r = select(maxKm: 3);
-      final firstMiss = r.indexWhere((e) => !e.matches);
-      if (firstMiss >= 0) {
-        expect(r.skip(firstMiss).every((e) => !e.matches), isTrue);
-      }
-      for (final group in [
-        r.where((e) => e.matches),
-        r.where((e) => !e.matches),
-      ]) {
-        final d = group.map((e) => e.distanceM!).toList();
-        expect(d, orderedEquals([...d]..sort()));
-      }
+    test('naher unpassender Weg schlägt weit entfernten passenden', () {
+      // 1° Breite ≈ 111 km. Anker bei 53°.
+      Trail at(String id, double dLat, {bool stroller = false}) => Trail(
+        id: id,
+        name: id,
+        typ: 'wald',
+        kurzbeschreibung: 'k',
+        beschreibung: 'b',
+        laengeKm: 1,
+        dauerMin: 10,
+        rundkurs: true,
+        markierung: '-',
+        betreiber: '-',
+        region: '-',
+        anreise: '-',
+        startName: '-',
+        arten: const [],
+        tags: [if (stroller) 'kinderwagentauglich'],
+        route: [LatLng(53 + dLat, 13)],
+        stationen: const [],
+        amenities: const [],
+      );
+
+      final sample = [
+        at('nah-daneben', 0.05),
+        at('nah-passend', 0.18, stroller: true),
+        at('weit-passend', 0.55, stroller: true),
+      ];
+      final r = selectNearbyTrails(
+        sample,
+        maxKm: null,
+        stroller: true,
+        lengthOn: false,
+        strollerOn: true,
+        anchor: const LatLng(53, 13),
+        limit: sample.length,
+      );
+      expect(r.map((e) => e.trail.id), [
+        'nah-passend',
+        'nah-daneben',
+        'weit-passend',
+      ]);
+      expect(r[1].distanceM!, lessThan(matchPreferenceKm * 1000));
+      expect(r[2].distanceM!, greaterThan(matchPreferenceKm * 1000));
+      expect(r[1].matches, isFalse);
+      expect(r[2].matches, isTrue);
     });
 
     test('Länge-Filter: Treffer sind Fläche oder innerhalb des Limits', () {
