@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/config/build_stamp.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../core/motion/reduced_motion.dart';
 import '../../../../shared/widgets/lowpoly_placeholder_scene.dart';
@@ -70,6 +71,7 @@ class _LocationScreenState extends ConsumerState<LocationScreen> {
             .refresh(force: true)
             .then((fix) => locate.goTo(fix?.position)),
       );
+      markNearbyRequested();
       if (mounted) widget.onGranted();
       return;
     }

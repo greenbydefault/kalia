@@ -40,6 +40,20 @@ final mapLocationEnabledProvider =
       MapLocationEnabledNotifier.new,
     );
 
+/// `false`, bis die gespeicherte Einstellung gelesen ist. Sonst wirkt ein
+/// noch ladender Standort wie „nicht gefunden“.
+final mapLocationResolvedProvider =
+    NotifierProvider<MapLocationResolvedNotifier, bool>(
+      MapLocationResolvedNotifier.new,
+    );
+
+class MapLocationResolvedNotifier extends Notifier<bool> {
+  @override
+  bool build() => false;
+
+  void mark() => state = true;
+}
+
 class MapLocationEnabledNotifier extends Notifier<bool> {
   @override
   bool build() {
@@ -51,10 +65,12 @@ class MapLocationEnabledNotifier extends Notifier<bool> {
     final prefs = await SharedPreferences.getInstance();
     final enabled = prefs.getBool(_mapEnabledKey) ?? false;
     if (enabled != state) state = enabled;
+    ref.read(mapLocationResolvedProvider.notifier).mark();
   }
 
   Future<void> setEnabled(bool enabled) async {
     state = enabled;
+    ref.read(mapLocationResolvedProvider.notifier).mark();
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(_mapEnabledKey, enabled);
   }

@@ -17,10 +17,33 @@ final trailRepositoryProvider = Provider<TrailRepository>((ref) {
   return SeedTrailRepository();
 });
 
-/// Alle verfügbaren Trails, asynchron geladen.
-final trailsProvider = FutureProvider<List<Trail>>(
-  (ref) => ref.watch(trailRepositoryProvider).getTrails(),
-);
+final _trailsFastProvider = FutureProvider<List<Trail>>((ref) async {
+  final repo = ref.watch(trailRepositoryProvider);
+  if (repo is CachedTrailRepository) return repo.loadFast();
+  return repo.getTrails();
+});
+
+final _trailsRemoteProvider = FutureProvider<List<Trail>>((ref) async {
+  final repo = ref.watch(trailRepositoryProvider);
+  if (repo is! CachedTrailRepository) return const [];
+  return repo.loadRemote();
+});
+
+/// Cache oder Seed sofort, Supabase danach. Die Nähe-Liste wartet nicht
+/// auf Netz und Hero-Credits.
+final trailsProvider = Provider<AsyncValue<List<Trail>>>((ref) {
+  final repo = ref.watch(trailRepositoryProvider);
+  final fast = ref.watch(_trailsFastProvider);
+  if (repo is! CachedTrailRepository) return fast;
+  // Remote erst danach: sonst belegen die Hero-Requests die Verbindungen,
+  // und der Seed kommt nicht durch.
+  if (!fast.hasValue) {
+    return fast.isLoading ? const AsyncLoading() : fast;
+  }
+  final remote = ref.watch(_trailsRemoteProvider);
+  if (remote.hasValue) return remote;
+  return fast;
+});
 
 /// Aktuell ausgewählter Trail (öffnet das Detail-Sheet).
 final selectedTrailProvider = NotifierProvider<SelectedTrailNotifier, Trail?>(

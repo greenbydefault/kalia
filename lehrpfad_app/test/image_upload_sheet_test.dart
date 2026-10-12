@@ -79,7 +79,7 @@ Future<void> _openSheet(
       overrides: [
         imageUploadServiceProvider.overrideWithValue(uploader),
         currentProfileProvider.overrideWith((ref) async => null),
-        trailsProvider.overrideWith((ref) async => [_trail()]),
+        trailsProvider.overrideWith((ref) => AsyncData([_trail()])),
         trailImagesProvider('heide-erlebnisweg').overrideWith((ref) => []),
       ],
       child: MaterialApp(

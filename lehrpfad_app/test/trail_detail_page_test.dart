@@ -61,7 +61,7 @@ void main() {
     await tester.pumpWidget(
       ProviderScope(
         overrides: [
-          trailsProvider.overrideWith((ref) async => [trail]),
+          trailsProvider.overrideWith((ref) => AsyncData([trail])),
         ],
         child: MaterialApp(
           home: TrailDetailPage(trail: trail, onClose: () {}),

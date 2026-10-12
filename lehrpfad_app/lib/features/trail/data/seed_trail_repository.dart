@@ -114,24 +114,32 @@ class SeedTrailRepository implements TrailRepository {
     // 'assets/seed/alt-daber.json',
   ];
 
+  /// Ohne Hero-Credits. Für die erste Nähe-Liste, bevor Supabase da ist.
+  Future<List<Trail>> loadBodies() => _loadAll(heroes: false);
+
   @override
-  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) async {
-    final heroes = Stopwatch()..start();
+  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) =>
+      _loadAll(heroes: true);
+
+  Future<List<Trail>> _loadAll({required bool heroes}) async {
+    final sw = Stopwatch()..start();
     final loaded = await Future.wait([
-      for (final path in _seedPaths) _loadSeed(path),
+      for (final path in _seedPaths) _loadSeed(path, heroes: heroes),
     ]);
     final trails = [for (final trail in loaded) ?trail];
     debugPrint(
-      'attachHeroBilder ${trails.length} Seeds ${heroes.elapsedMilliseconds} ms',
+      heroes
+          ? 'attachHeroBilder ${trails.length} Seeds ${sw.elapsedMilliseconds} ms'
+          : 'trails seed ${trails.length} ${sw.elapsedMilliseconds} ms',
     );
     return trails;
   }
 
-  Future<Trail?> _loadSeed(String path) async {
+  Future<Trail?> _loadSeed(String path, {required bool heroes}) async {
     try {
       final raw = await rootBundle.loadString(path);
       final json = jsonDecode(raw) as Map<String, dynamic>;
-      await attachHeroBilder(json);
+      if (heroes) await attachHeroBilder(json);
       return Trail.fromJson(json);
     } catch (e) {
       // Ein fehlender/fehlerhafter Seed darf die übrigen Trails nicht blockieren.

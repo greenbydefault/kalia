@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_spacing.dart';
+import '../../../core/config/build_stamp.dart';
 import '../../../core/motion/reduced_motion.dart';
 import '../../../shared/widgets/bottom_content_card.dart';
 import '../../../shared/widgets/placeholder_block.dart';
@@ -142,21 +143,25 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
   }
 
   List<Widget> _cards() {
+    final anchorState = ref.watch(nearbyAnchorStateProvider);
+    if (anchorState == NearbyAnchorState.unavailable) {
+      return const [_LocateFailed()];
+    }
     final entries = ref.watch(nearbyTrailEntriesProvider);
-    final targetKey = ref.watch(coachTargetKeyProvider);
-    if (entries == null) {
+    if (anchorState == NearbyAnchorState.locating || entries == null) {
       return [
-        for (var i = 0; i < 3; i++)
-          const Padding(
-            padding: EdgeInsets.only(bottom: AppSpacing.x3),
-            child: PlaceholderBlock(
-              height: NearbyTrailCard.height,
-              radius: AppSpacing.x5,
-              color: AppColors.n100,
-            ),
+        for (var i = 0; i < 3; i++) const _NearbySkeleton(),
+        if (anchorState == NearbyAnchorState.locating)
+          Text(
+            'Standort wird gesucht…',
+            style: Theme.of(
+              context,
+            ).textTheme.bodyMedium?.copyWith(color: AppColors.inkMuted),
           ),
       ];
     }
+    logNearbyVisible();
+    final targetKey = ref.watch(coachTargetKeyProvider);
     return [
       for (var i = 0; i < entries.length; i++)
         _intro(
@@ -203,7 +208,7 @@ class _FilterChips extends ConsumerWidget {
     final chips = <Widget>[
       if (km != null)
         FilterPill(
-          label: 'Bis ca. $km km',
+          label: 'Weg bis $km km lang',
           selected: filter.lengthOn,
           onTap: notifier.toggleLength,
         ),
@@ -215,7 +220,7 @@ class _FilterChips extends ConsumerWidget {
         ),
       if (km == null && !prefs.stroller)
         FilterPill(
-          label: 'Alle kurzen Wege',
+          label: 'Weg bis $defaultShortKm km lang',
           selected: filter.lengthOn,
           onTap: notifier.toggleLength,
         ),
@@ -276,6 +281,50 @@ class FilterPill extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class _NearbySkeleton extends StatelessWidget {
+  const _NearbySkeleton();
+
+  @override
+  Widget build(BuildContext context) {
+    return const Padding(
+      padding: EdgeInsets.only(bottom: AppSpacing.x3),
+      child: PlaceholderBlock(
+        height: NearbyTrailCard.height,
+        radius: AppSpacing.x5,
+        color: AppColors.n100,
+      ),
+    );
+  }
+}
+
+class _LocateFailed extends StatelessWidget {
+  const _LocateFailed();
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text('Standort nicht gefunden', style: theme.textTheme.titleMedium),
+        const SizedBox(height: AppSpacing.x2),
+        Text(
+          'Gebt stattdessen Ort oder Postleitzahl ein.',
+          style: theme.textTheme.bodyMedium?.copyWith(
+            color: AppColors.inkMuted,
+          ),
+        ),
+        const SizedBox(height: AppSpacing.x4),
+        FilledButton(
+          style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
+          onPressed: () => openPlaceScreen(context),
+          child: const Text('Ort eingeben'),
+        ),
+      ],
     );
   }
 }

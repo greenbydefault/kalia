@@ -24,7 +24,7 @@ class NearbyTrailCard extends ConsumerWidget {
   /// Ziel für den Coach-Mark (nur erste Karte).
   final GlobalKey? hoerenKey;
 
-  static const double height = 176;
+  static const double height = 220;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -96,14 +96,29 @@ class NearbyTrailCard extends ConsumerWidget {
                       const SizedBox(height: AppSpacing.x1),
                       Text(
                         distance == null
-                            ? (trail.isFlaeche
-                                  ? 'Platz'
-                                  : '${trail.laengeLabel} · ${trail.dauerLabel}')
-                            : '${formatDistanceM(distance)} · ${anfahrtLabel(distance)}',
+                            ? 'Entfernung folgt'
+                            : '${formatDistanceM(distance)} entfernt · ${anfahrtLabel(distance)}',
                         style: theme.textTheme.bodySmall,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      Text(
+                        trail.isFlaeche ? 'Platz' : 'Weg ${trail.laengeLabel}',
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: AppColors.inkMuted,
+                        ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
+                      if (entry.hints.isNotEmpty)
+                        Text(
+                          entry.hints.join(' · '),
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: AppColors.inkMuted,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
                       const Spacer(),
                       Row(
                         children: [

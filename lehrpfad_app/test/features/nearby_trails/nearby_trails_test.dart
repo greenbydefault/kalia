@@ -166,6 +166,66 @@ void main() {
       );
     });
 
+    test(
+      'Heiligengrabe: nächster Weg ist Wittstock, nicht ein ferner Treffer',
+      () {
+        const heiligengrabe = LatLng(53.145, 12.363);
+        final r = selectNearbyTrails(
+          trails,
+          maxKm: 4,
+          stroller: true,
+          lengthOn: true,
+          strollerOn: true,
+          anchor: heiligengrabe,
+        );
+        expect(r.first.trail.id, 'libellen-wasserspielplatz-wittstock');
+        expect(r.first.distanceM!, lessThan(15000));
+        expect(r.first.hints, contains('nicht kinderwagentauglich'));
+        for (var i = 0; i < r.length; i++) {
+          for (var j = i + 1; j < r.length; j++) {
+            expect(
+              r[i].distanceM! > 40000 && r[j].distanceM! < 30000,
+              isFalse,
+              reason: '${r[i].trail.id} vor ${r[j].trail.id}',
+            );
+          }
+        }
+      },
+    );
+
+    test('ohne Standort-Fix keine Liste', () {
+      expect(
+        resolveNearbyAnchor(
+          hasAnchor: false,
+          locationKnown: true,
+          locationOn: true,
+          loading: true,
+          hasError: false,
+        ),
+        NearbyAnchorState.locating,
+      );
+      expect(
+        resolveNearbyAnchor(
+          hasAnchor: false,
+          locationKnown: true,
+          locationOn: true,
+          loading: false,
+          hasError: true,
+        ),
+        NearbyAnchorState.unavailable,
+      );
+      expect(
+        resolveNearbyAnchor(
+          hasAnchor: true,
+          locationKnown: true,
+          locationOn: false,
+          loading: false,
+          hasError: false,
+        ),
+        NearbyAnchorState.ready,
+      );
+    });
+
     test('ohne Anker keine Distanz', () {
       final r = selectNearbyTrails(
         trails,

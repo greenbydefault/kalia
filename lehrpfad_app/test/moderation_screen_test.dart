@@ -90,7 +90,7 @@ void main() {
       ProviderScope(
         overrides: [
           pendingImagesProvider.overrideWith((ref) async => [_image()]),
-          trailsProvider.overrideWith((ref) async => [_trail()]),
+          trailsProvider.overrideWith((ref) => AsyncData([_trail()])),
         ],
         child: const MaterialApp(home: ModerationScreen()),
       ),
@@ -112,7 +112,7 @@ void main() {
       ProviderScope(
         overrides: [
           pendingImagesProvider.overrideWith((ref) async => [_image()]),
-          trailsProvider.overrideWith((ref) async => [_trail()]),
+          trailsProvider.overrideWith((ref) => AsyncData([_trail()])),
         ],
         child: const MaterialApp(home: ModerationScreen()),
       ),
@@ -170,7 +170,7 @@ void main() {
               withCheck('e', null),
             ],
           ),
-          trailsProvider.overrideWith((ref) async => [_trail()]),
+          trailsProvider.overrideWith((ref) => AsyncData([_trail()])),
         ],
         child: const MaterialApp(home: ModerationScreen()),
       ),

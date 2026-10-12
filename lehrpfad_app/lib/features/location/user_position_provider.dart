@@ -1,5 +1,8 @@
+import 'dart:async';
+
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -49,8 +52,15 @@ class UserPositionController extends Notifier<UserPosition> {
   UserPosition build() {
     _lifecycle = AppLifecycleListener(onResume: () => unawaitedRefresh());
     ref.onDispose(() => _lifecycle?.dispose());
-    _restoreThenRefresh();
-    return const UserPosition();
+    ref.listen(mapLocationEnabledProvider, (prev, next) {
+      if (next && prev != true && state.fix == null) {
+        state = const UserPosition(loading: true);
+        unawaited(_restoreThenRefresh());
+      }
+    });
+    final enabled = ref.read(mapLocationEnabledProvider);
+    if (enabled) unawaited(_restoreThenRefresh());
+    return UserPosition(loading: enabled);
   }
 
   LocationService get _location => ref.read(locationServiceProvider);
@@ -106,7 +116,11 @@ class UserPositionController extends Notifier<UserPosition> {
     state = state.copyWith(loading: true, clearError: true);
     try {
       await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
-      final fix = await _location.getFix();
+      // Stadtgenauigkeit reicht für die Nähe-Liste. Die Tour bleibt auf high.
+      final fix = await _location.getFix(
+        timeLimit: const Duration(seconds: 4),
+        accuracy: LocationAccuracy.low,
+      );
       state = UserPosition(fix: fix);
       await _persist(fix);
       return fix;

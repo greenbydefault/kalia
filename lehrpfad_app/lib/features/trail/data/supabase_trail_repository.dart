@@ -27,22 +27,23 @@ class SupabaseTrailRepository implements TrailRepository {
 
   @override
   Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) async {
+    final querySw = Stopwatch()..start();
     final rows = await _client
         .from('trails')
         .select(_columns)
         .order('reihenfolge', referencedTable: 'stations', ascending: true)
         .order('name', ascending: true);
-    final heroes = Stopwatch()..start();
-    final trails = await Future.wait([
-      for (final row in rows)
-        () async {
-          final json = trailRowToJson(row);
-          await attachHeroBilder(json);
-          return Trail.fromJson(json);
-        }(),
-    ]);
+    final queryMs = querySw.elapsedMilliseconds;
+    final jsons = [for (final row in rows) trailRowToJson(row)];
+    final heroSw = Stopwatch()..start();
+    await Future.wait([for (final json in jsons) attachHeroBilder(json)]);
+    final heroMs = heroSw.elapsedMilliseconds;
+    final parseSw = Stopwatch()..start();
+    final trails = [for (final json in jsons) Trail.fromJson(json)];
     debugPrint(
-      'attachHeroBilder ${trails.length} Trails ${heroes.elapsedMilliseconds} ms',
+      'trails supabase query $queryMs ms, '
+      'attachHeroBilder $heroMs ms, '
+      'fromJson ${parseSw.elapsedMilliseconds} ms',
     );
     return trails;
   }

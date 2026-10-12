@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../core/config/build_stamp.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../trail_progress/tracking/location_service.dart';
 import '../../data/onboarding_prefs_provider.dart';
@@ -84,6 +85,7 @@ class _PlaceScreenState extends ConsumerState<PlaceScreen> {
   }
 
   Future<void> _submit() async {
+    markNearbyRequested();
     var place = _selected;
     if (place == null) {
       final index = ref.read(placeIndexProvider).asData?.value;

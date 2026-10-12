@@ -37,4 +37,5 @@ flutter pub get
 
 flutter build web --release --base-href / \
   --dart-define="SUPABASE_URL=${SUPABASE_URL}" \
-  --dart-define="SUPABASE_PUBLISHABLE_KEY=${SUPABASE_PUBLISHABLE_KEY}"
+  --dart-define="SUPABASE_PUBLISHABLE_KEY=${SUPABASE_PUBLISHABLE_KEY}" \
+  --dart-define="GIT_SHA=${VERCEL_GIT_COMMIT_SHA:-dev}"
