@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-garder-see.jpg",
+    "caption": "Garder See bei Lohmen, Start am Campingplatz.",
+    "credit": "Alma",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garder_See_2008.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-laehnwitzsee.jpg",
+    "caption": "Lähnwitzer See am Lehrpfad.",
+    "credit": "Horst Alsleben",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A4hnwitzsee.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-forsthaus.jpg",
+    "caption": "Forsthaus Lähnwitz, Beginn der Runde.",
+    "credit": "Horst Alsleben",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forsthaus_L%C3%A4hnwitz.JPG",
+    "kind": "ort"
+  }
+]

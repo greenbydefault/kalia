@@ -51,6 +51,22 @@ flutter run -d web-server --web-port=8080 \
 - Agent holt sie bei Bedarf über Supabase MCP **`user-supabase-ako`** (`get_project_url`, `get_publishable_keys`).
 - **Ohne** Defines: App läuft gegen lokalen Seed (Offline-Entwicklung).
 
+## Admin-CMS
+
+Eigener Einstieg `lib/admin/admin_main.dart`, **immer mit Supabase-Defines** (ohne sie zeigt die Seite nur einen Hinweis):
+
+```bash
+cd lehrpfad_app
+flutter run -d chrome -t lib/admin/admin_main.dart --web-port=8081 \
+  --dart-define=SUPABASE_URL=<URL> \
+  --dart-define=SUPABASE_PUBLISHABLE_KEY=<KEY>
+```
+
+- Port 8081, damit die App parallel auf 8080 läuft.
+- Login: Admin-Konto, danach TOTP (Schreiben braucht `aal2`). Beim ersten Mal führt die Seite durch die Einrichtung.
+- Schreibt in die **Live-DB**. Migrationen `0028`–`0030` müssen eingespielt sein, sonst scheitern Speichern, Pool und Upload.
+- Build/Deploy: `bash lehrpfad_app/vercel-build-admin.sh`, Vercel-Projekt mit Root Directory `lehrpfad_app/admin_deploy` ([`lehrpfad_app/docs/golive/vercel.md`](lehrpfad_app/docs/golive/vercel.md)).
+
 ## Änderungen sichtbar machen
 
 Im **selben Terminal**, in dem `flutter run` läuft:

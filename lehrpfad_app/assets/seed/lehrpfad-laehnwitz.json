@@ -1,0 +1,1056 @@
+{
+ "id": "lehrpfad-laehnwitz",
+ "name": "Lehrpfad Lähnwitz",
+ "typ": "wald",
+ "kurzbeschreibung": "Im Forst bei Lohmen läuft der Weg vom Garder See am Lähnwitzer See vorbei. Am Ende steht der Steintanz Lenzen.",
+ "beschreibung": "Neun große Steine stehen als Steintanz Lenzen im Kreis. Der Kreis ist ein archäologisches Denkmal in Mecklenburg-Vorpommern. Der Weg beginnt am Campingplatz Garden am Garder See, läuft am Forsthaus Lähnwitz vorbei und am Lähnwitzer See entlang. Ein Abzweig führt zu einem bronzezeitlichen Hügelgrab und einem Großsteingrab. Danach führt ein kurzer Weg zur Schwedenkiefer und wieder zurück. Weiter liegen das Postmoor, ein zweiter Grabhügel und der Rastplatz Dröger Kraug. Ein Findling dort erinnert an die Rast der bespannten Holzabfuhr. Wegweiser-Steine an den Kreuzungen zeigen nach Lenzen und nach Klein Upahl.",
+ "laengeKm": 11.9,
+ "dauerMin": 180,
+ "rundkurs": true,
+ "markierung": "Wegweiser-Steine und Schilder Lehrpfad Lähnwitz",
+ "betreiber": "Landesforst Mecklenburg-Vorpommern",
+ "region": "Forstrevier Lohmen, Naturpark Sternberger Seenland",
+ "website": "https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/lehrpfad-laehnwitz.php",
+ "anreise": "Parkplatz und Start am Campingplatz am Garder See, Am See, 18276 Lohmen. Die Tafel zum Lehrpfad steht links neben dem Platz. Von dort geht es am Platz vorbei in den Forst.",
+ "startName": "Campingplatz am Garder See",
+ "arten": [
+  "Blässhuhn",
+  "Buchfink",
+  "Eichelhäher",
+  "Hainbuche",
+  "Haubentaucher",
+  "Moorfrosch",
+  "Schilf",
+  "Stieleiche",
+  "Stockente",
+  "Torfmoos",
+  "Wollgras",
+  "Rundblättriger Sonnentau",
+  "Bekassine",
+  "Buntspecht"
+ ],
+ "artenNachweis": {
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hainbuche": "typisch",
+  "Haubentaucher": "typisch",
+  "Moorfrosch": "typisch",
+  "Schilf": "typisch",
+  "Stieleiche": "typisch",
+  "Stockente": "typisch",
+  "Torfmoos": "typisch",
+  "Wollgras": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Bekassine": "typisch",
+  "Buntspecht": "typisch"
+ },
+ "lebensraeume": [
+  "eichen-mischwald",
+  "moor",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "picknick",
+  "spielplatz"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   53.692195,
+   12.060883
+  ],
+  [
+   53.692359,
+   12.060967
+  ],
+  [
+   53.692677,
+   12.061186
+  ],
+  [
+   53.693404,
+   12.061696
+  ],
+  [
+   53.6935,
+   12.061763
+  ],
+  [
+   53.693881,
+   12.062027
+  ],
+  [
+   53.694071,
+   12.062169
+  ],
+  [
+   53.694291,
+   12.062298
+  ],
+  [
+   53.694915,
+   12.0627
+  ],
+  [
+   53.695517,
+   12.063088
+  ],
+  [
+   53.695575,
+   12.06314
+  ],
+  [
+   53.695821,
+   12.063355
+  ],
+  [
+   53.695939,
+   12.062757
+  ],
+  [
+   53.695933,
+   12.062327
+  ],
+  [
+   53.696043,
+   12.061766
+  ],
+  [
+   53.696062,
+   12.061309
+  ],
+  [
+   53.69624,
+   12.060234
+  ],
+  [
+   53.696568,
+   12.058626
+  ],
+  [
+   53.697836,
+   12.055935
+  ],
+  [
+   53.698323,
+   12.053701
+  ],
+  [
+   53.698336,
+   12.052464
+  ],
+  [
+   53.698019,
+   12.049968
+  ],
+  [
+   53.697521,
+   12.046698
+  ],
+  [
+   53.697375,
+   12.045497
+  ],
+  [
+   53.696855,
+   12.041635
+  ],
+  [
+   53.696613,
+   12.041256
+  ],
+  [
+   53.696718,
+   12.040833
+  ],
+  [
+   53.696825,
+   12.040112
+  ],
+  [
+   53.697025,
+   12.039601
+  ],
+  [
+   53.697335,
+   12.038927
+  ],
+  [
+   53.697811,
+   12.03796
+  ],
+  [
+   53.69823,
+   12.037053
+  ],
+  [
+   53.698968,
+   12.035428
+  ],
+  [
+   53.699577,
+   12.034063
+  ],
+  [
+   53.699811,
+   12.033573
+  ],
+  [
+   53.699939,
+   12.033646
+  ],
+  [
+   53.700867,
+   12.03387
+  ],
+  [
+   53.701077,
+   12.034294
+  ],
+  [
+   53.701384,
+   12.034609
+  ],
+  [
+   53.701622,
+   12.034742
+  ],
+  [
+   53.702498,
+   12.034904
+  ],
+  [
+   53.702871,
+   12.035109
+  ],
+  [
+   53.703015,
+   12.035618
+  ],
+  [
+   53.703099,
+   12.035913
+  ],
+  [
+   53.703321,
+   12.036726
+  ],
+  [
+   53.703584,
+   12.037627
+  ],
+  [
+   53.703432,
+   12.037713
+  ],
+  [
+   53.703331,
+   12.038026
+  ],
+  [
+   53.703285,
+   12.038603
+  ],
+  [
+   53.703323,
+   12.039104
+  ],
+  [
+   53.703285,
+   12.038603
+  ],
+  [
+   53.703331,
+   12.038026
+  ],
+  [
+   53.703432,
+   12.037713
+  ],
+  [
+   53.703584,
+   12.037627
+  ],
+  [
+   53.703321,
+   12.036726
+  ],
+  [
+   53.703099,
+   12.035913
+  ],
+  [
+   53.703015,
+   12.035618
+  ],
+  [
+   53.702871,
+   12.035109
+  ],
+  [
+   53.703017,
+   12.034699
+  ],
+  [
+   53.703063,
+   12.034539
+  ],
+  [
+   53.70386,
+   12.033951
+  ],
+  [
+   53.70422,
+   12.033811
+  ],
+  [
+   53.704495,
+   12.033752
+  ],
+  [
+   53.704689,
+   12.033803
+  ],
+  [
+   53.70507,
+   12.034315
+  ],
+  [
+   53.705452,
+   12.034728
+  ],
+  [
+   53.70507,
+   12.034315
+  ],
+  [
+   53.704689,
+   12.033803
+  ],
+  [
+   53.704495,
+   12.033752
+  ],
+  [
+   53.70422,
+   12.033811
+  ],
+  [
+   53.70386,
+   12.033951
+  ],
+  [
+   53.703063,
+   12.034539
+  ],
+  [
+   53.703236,
+   12.033935
+  ],
+  [
+   53.703415,
+   12.033114
+  ],
+  [
+   53.703482,
+   12.032537
+  ],
+  [
+   53.703608,
+   12.031208
+  ],
+  [
+   53.703867,
+   12.030736
+  ],
+  [
+   53.704969,
+   12.028828
+  ],
+  [
+   53.705849,
+   12.027898
+  ],
+  [
+   53.706524,
+   12.02764
+  ],
+  [
+   53.707899,
+   12.028414
+  ],
+  [
+   53.708094,
+   12.02772
+  ],
+  [
+   53.708519,
+   12.026106
+  ],
+  [
+   53.708978,
+   12.024375
+  ],
+  [
+   53.709014,
+   12.023422
+  ],
+  [
+   53.709093,
+   12.022919
+  ],
+  [
+   53.709349,
+   12.022291
+  ],
+  [
+   53.709466,
+   12.021771
+  ],
+  [
+   53.709426,
+   12.021409
+  ],
+  [
+   53.709363,
+   12.020821
+  ],
+  [
+   53.709248,
+   12.020144
+  ],
+  [
+   53.709032,
+   12.018855
+  ],
+  [
+   53.709013,
+   12.018391
+  ],
+  [
+   53.709015,
+   12.017316
+  ],
+  [
+   53.707899,
+   12.017246
+  ],
+  [
+   53.707361,
+   12.01718
+  ],
+  [
+   53.707421,
+   12.016398
+  ],
+  [
+   53.707215,
+   12.01609
+  ],
+  [
+   53.706998,
+   12.015965
+  ],
+  [
+   53.706865,
+   12.015875
+  ],
+  [
+   53.706769,
+   12.015559
+  ],
+  [
+   53.707023,
+   12.014717
+  ],
+  [
+   53.707049,
+   12.014535
+  ],
+  [
+   53.707025,
+   12.013732
+  ],
+  [
+   53.706992,
+   12.013483
+  ],
+  [
+   53.706865,
+   12.013284
+  ],
+  [
+   53.706739,
+   12.01343
+  ],
+  [
+   53.706586,
+   12.013581
+  ],
+  [
+   53.705097,
+   12.014326
+  ],
+  [
+   53.704443,
+   12.014707
+  ],
+  [
+   53.704295,
+   12.014801
+  ],
+  [
+   53.703614,
+   12.015233
+  ],
+  [
+   53.7029,
+   12.015775
+  ],
+  [
+   53.701214,
+   12.017133
+  ],
+  [
+   53.697602,
+   12.020502
+  ],
+  [
+   53.696621,
+   12.021381
+  ],
+  [
+   53.695982,
+   12.021972
+  ],
+  [
+   53.695237,
+   12.02277
+  ],
+  [
+   53.693799,
+   12.024198
+  ],
+  [
+   53.693853,
+   12.024367
+  ],
+  [
+   53.693907,
+   12.024421
+  ],
+  [
+   53.694023,
+   12.024532
+  ],
+  [
+   53.693907,
+   12.024421
+  ],
+  [
+   53.693853,
+   12.024367
+  ],
+  [
+   53.693799,
+   12.024198
+  ],
+  [
+   53.692124,
+   12.025744
+  ],
+  [
+   53.691907,
+   12.025958
+  ],
+  [
+   53.691965,
+   12.026262
+  ],
+  [
+   53.692047,
+   12.026394
+  ],
+  [
+   53.69216,
+   12.026538
+  ],
+  [
+   53.692493,
+   12.026742
+  ],
+  [
+   53.692676,
+   12.026925
+  ],
+  [
+   53.692894,
+   12.0273
+  ],
+  [
+   53.693092,
+   12.02763
+  ],
+  [
+   53.693202,
+   12.027756
+  ],
+  [
+   53.693388,
+   12.027901
+  ],
+  [
+   53.694144,
+   12.028336
+  ],
+  [
+   53.694565,
+   12.028564
+  ],
+  [
+   53.694734,
+   12.028678
+  ],
+  [
+   53.69505,
+   12.028942
+  ],
+  [
+   53.695585,
+   12.029464
+  ],
+  [
+   53.695875,
+   12.029746
+  ],
+  [
+   53.697464,
+   12.031417
+  ],
+  [
+   53.69829,
+   12.03236
+  ],
+  [
+   53.69894,
+   12.03306
+  ],
+  [
+   53.699281,
+   12.033338
+  ],
+  [
+   53.699811,
+   12.033573
+  ],
+  [
+   53.699577,
+   12.034063
+  ],
+  [
+   53.698968,
+   12.035428
+  ],
+  [
+   53.69823,
+   12.037053
+  ],
+  [
+   53.697811,
+   12.03796
+  ],
+  [
+   53.697335,
+   12.038927
+  ],
+  [
+   53.697025,
+   12.039601
+  ],
+  [
+   53.696825,
+   12.040112
+  ],
+  [
+   53.696718,
+   12.040833
+  ],
+  [
+   53.696613,
+   12.041256
+  ],
+  [
+   53.696855,
+   12.041635
+  ],
+  [
+   53.697375,
+   12.045497
+  ],
+  [
+   53.697521,
+   12.046698
+  ],
+  [
+   53.698019,
+   12.049968
+  ],
+  [
+   53.698336,
+   12.052464
+  ],
+  [
+   53.698323,
+   12.053701
+  ],
+  [
+   53.697836,
+   12.055935
+  ],
+  [
+   53.696568,
+   12.058626
+  ],
+  [
+   53.69624,
+   12.060234
+  ],
+  [
+   53.696062,
+   12.061309
+  ],
+  [
+   53.696043,
+   12.061766
+  ],
+  [
+   53.695933,
+   12.062327
+  ],
+  [
+   53.695939,
+   12.062757
+  ],
+  [
+   53.695821,
+   12.063355
+  ],
+  [
+   53.695575,
+   12.06314
+  ],
+  [
+   53.695517,
+   12.063088
+  ],
+  [
+   53.694915,
+   12.0627
+  ],
+  [
+   53.694291,
+   12.062298
+  ],
+  [
+   53.694071,
+   12.062169
+  ],
+  [
+   53.693881,
+   12.062027
+  ],
+  [
+   53.6935,
+   12.061763
+  ],
+  [
+   53.693404,
+   12.061696
+  ],
+  [
+   53.692677,
+   12.061186
+  ],
+  [
+   53.692359,
+   12.060967
+  ],
+  [
+   53.692195,
+   12.060883
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 4833468032,
+   "lat": 53.6967049,
+   "lon": 12.041139,
+   "km": 1.99,
+   "titel": "Beginn des Rundweges",
+   "thema": "Tafel am Forsthaus Lähnwitz",
+   "kurztext": "Hier beginnt die Runde. Tafel zum Lehrpfad und ein überdachter Rastplatz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 12995864528,
+   "lat": 53.6997726,
+   "lon": 12.0336235,
+   "km": 2.62,
+   "titel": "Wegweiser",
+   "thema": "Abzweig am Lähnwitzer See",
+   "kurztext": "Tafel vor dem Abzweig. Der Wegweiser-Stein zeigt Richtung Klein Upahl.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 4834400400,
+   "lat": 53.7032613,
+   "lon": 12.0385413,
+   "km": 3.24,
+   "titel": "Hügelgrab",
+   "thema": "Bronzezeitlicher Grabhügel",
+   "kurztext": "Grabhügel aus der Bronzezeit, über einen schmalen Weg im Wald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 597671073,
+   "lat": 53.7033227,
+   "lon": 12.0391735,
+   "km": 3.28,
+   "titel": "Großsteingrab",
+   "thema": "Megalithgrab Klein Upahl",
+   "kurztext": "Großsteingrab am Ende des Abzweigs.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 4834400387,
+   "lat": 53.7039552,
+   "lon": 12.0337844,
+   "km": 3.71,
+   "titel": "Schwedenkiefer",
+   "thema": "Kiefer am Abzweig",
+   "kurztext": "Kurzer Weg von der Gabel zur Kiefer und zurück.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 4833517150,
+   "lat": 53.7090563,
+   "lon": 12.0195284,
+   "km": 5.68,
+   "titel": "Postmoor",
+   "thema": "Moor im Forstrevier",
+   "kurztext": "Tafel am Postmoor.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 2485646347,
+   "lat": 53.70144,
+   "lon": 12.01892,
+   "km": 6.96,
+   "titel": "Hügelgrab",
+   "thema": "Grabhügel vor dem Steintanz",
+   "kurztext": "Zweiter Grabhügel, am Weg zum Steintanz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 8284370506,
+   "lat": 53.6940229,
+   "lon": 12.0245319,
+   "km": 7.94,
+   "titel": "Steintanz Lenzen",
+   "thema": "Neun Steine im Kreis",
+   "kurztext": "Neun große Steine und eine Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 2485646195,
+   "lat": 53.69192,
+   "lon": 12.02621,
+   "km": 8.23,
+   "titel": "Dröger Kraug",
+   "thema": "Rastplatz der Holzabfuhr",
+   "kurztext": "Überdachter Rastplatz. Ein Findling erinnert an die bespannte Holzabfuhr.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": 4833500482,
+   "lat": 53.6931102,
+   "lon": 12.0275429,
+   "km": 8.39,
+   "titel": "Brümmelmoor",
+   "thema": "Moor am Weg",
+   "kurztext": "Tafel am Brümmelmoor.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 597669042,
+   "lat": 53.6919383,
+   "lon": 12.0598984,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 597669093,
+   "lat": 53.6917562,
+   "lon": 12.0617365,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4833517170,
+   "lat": 53.6918699,
+   "lon": 12.0263211,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4833517171,
+   "lat": 53.6919207,
+   "lon": 12.0263587,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4833517172,
+   "lat": 53.6919699,
+   "lon": 12.0263869,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 7203599211,
+   "lat": 53.6940917,
+   "lon": 12.0622574,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 9395383956,
+   "lat": 53.6967443,
+   "lon": 12.0412116,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 10171074454,
+   "lat": 53.7032528,
+   "lon": 12.0385761,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14023976385,
+   "lat": 53.69277,
+   "lon": 12.0610092,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 14029054701,
+   "lat": 53.6921156,
+   "lon": 12.0596613,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 14029466201,
+   "lat": 53.6918965,
+   "lon": 12.0615119,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14177207746,
+   "lat": 53.691855,
+   "lon": 12.0616115,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14177280722,
+   "lat": 53.691736,
+   "lon": 12.0617382,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 14177302096,
+   "lat": 53.6920033,
+   "lon": 12.0607484,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14177315560,
+   "lat": 53.6919012,
+   "lon": 12.0606626,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14177316816,
+   "lat": 53.6915822,
+   "lon": 12.061715,
+   "kategorie": "bench",
+   "name": null
+  }
+ ],
+ "eintritt": false,
+ "besuchshinweise": "Schuhwerk mit Profil. Zum Hügelgrab und zum Großsteingrab nur mit Unterstützung. Zwischen Postmoor und dem Feldrand ist der Weg nicht barrierefrei.",
+ "hoertext": "Neben dem Campingplatz in Garden löst sich ein Waldweg vom Garder See und läuft in den Forst von Lohmen. Am Forsthaus öffnet sich die Runde. Vom See zieht der Weg durch den Forst, biegt schmal ab zu einem bronzezeitlichen Grabhügel und einem Großsteingrab und findet auf der Lichtung den Steintanz Lenzen, neun große Steine im Kreis. Die Steine rühren sich nicht. Ein Findling am Rastplatz Dröger Kraug nennt die alte Rast der bespannten Holzabfuhr. Ohne stützende Hand trägt der schmale Weg zum Grabhügel niemanden.",
+ "bilderAsset": "assets/images/trails/lehrpfad-laehnwitz/credits.json"
+}

@@ -108,6 +108,7 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/grossartige-kuestenflora-graal-mueritz.json',
     'assets/seed/kurwald-graal-mueritz.json',
     'assets/seed/naturlehrpfad-huetter-klosterteiche.json',
+    'assets/seed/lehrpfad-laehnwitz.json',
     'assets/seed/waldspielplatz-jaegerhaus.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',

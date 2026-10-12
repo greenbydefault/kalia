@@ -19,18 +19,34 @@ class SupabaseImagesRepository implements ImagesRepository {
       'width, height, mime_type, thumb_bytes, small_bytes, medium_bytes, '
       'created_at';
 
+  /// Redaktionelle Zusatzspalten (Migration 0030). Fehlen sie noch in der
+  /// Datenbank, laeuft die Abfrage ohne sie weiter.
+  static const _cmsColumns =
+      'caption, license, license_url, source_url, kind, sort';
+
   /// Die Geo-Ampel ist ein Moderations-Hinweis und wird nur fuer die
   /// pending-Queue geladen, nicht fuer die oeffentliche Anzeige.
   static const _pendingColumns = '$_columns, geo_check';
 
   @override
   Future<List<TrailImage>> getImages(String trailId) async {
-    final rows = await _client
-        .from('images')
-        .select(_columns)
-        .eq('trail_id', trailId)
-        .order('created_at');
-    return rows.map(_rowToImage).toList();
+    try {
+      final rows = await _client
+          .from('images')
+          .select('$_columns, $_cmsColumns')
+          .eq('trail_id', trailId)
+          .order('created_at');
+      return rows.map(_rowToImage).toList();
+    } on PostgrestException catch (e) {
+      // 42703 = undefined_column: Migration 0030 noch nicht eingespielt.
+      if (e.code != '42703') rethrow;
+      final rows = await _client
+          .from('images')
+          .select(_columns)
+          .eq('trail_id', trailId)
+          .order('created_at');
+      return rows.map(_rowToImage).toList();
+    }
   }
 
   @override
@@ -85,12 +101,19 @@ class SupabaseImagesRepository implements ImagesRepository {
       smallBytes: row['small_bytes'] as int?,
       mediumBytes: row['medium_bytes'] as int?,
       createdAt: DateTime.parse(row['created_at'] as String),
-      isMine: row['uploader_id'] != null &&
+      isMine:
+          row['uploader_id'] != null &&
           row['uploader_id'] == _client.auth.currentUser?.id,
       thumbUrl: url(TrailImageVariant.thumb),
       smallUrl: url(TrailImageVariant.small),
       mediumUrl: url(TrailImageVariant.medium),
       geoCheck: PhotoGeoCheck.parse(row['geo_check'] as String?),
+      caption: row['caption'] as String? ?? '',
+      license: row['license'] as String? ?? '',
+      licenseUrl: row['license_url'] as String? ?? '',
+      sourceUrl: row['source_url'] as String? ?? '',
+      kind: row['kind'] as String?,
+      sort: (row['sort'] as num?)?.toInt() ?? 0,
     );
   }
 }

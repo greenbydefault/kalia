@@ -19,19 +19,34 @@ class HeroSlide {
 
   bool get isNetwork => community != null;
 
+  /// Quelle/Lizenz anzeigen: Seed-Bilder und offizielle Bilder aus dem
+  /// CMS. Nutzerfotos haben nur einen Urheber.
+  bool get showsLicense => community == null || community!.isOfficial;
+
   bool get hasCreditBadge {
     final img = community;
-    if (img != null) return img.credit.trim().isNotEmpty;
+    if (img != null) {
+      if (img.isOfficial) {
+        return img.credit.trim().isNotEmpty || img.license.trim().isNotEmpty;
+      }
+      return img.credit.trim().isNotEmpty;
+    }
     return seed!.hasCreditBadge;
   }
 
   String get badgeText {
     final img = community;
-    if (img != null) return '© ${img.credit}';
+    if (img != null) {
+      if (!img.isOfficial) return '© ${img.credit}';
+      final label = TrailBild.licenseLabelOf(img.license);
+      final author = img.credit.trim();
+      if (author.isEmpty) return label;
+      return label.isEmpty ? author : '$author · $label';
+    }
     return seed!.badgeText;
   }
 
-  String get caption => seed?.caption ?? '';
+  String get caption => community?.caption ?? seed?.caption ?? '';
 
   String get credit {
     final img = community;
@@ -39,11 +54,15 @@ class HeroSlide {
     return seed?.credit ?? '';
   }
 
-  String get sourceUrl => seed?.sourceUrl ?? '';
+  String get sourceUrl => community?.sourceUrl ?? seed?.sourceUrl ?? '';
 
-  String get licenseLabel => seed?.licenseLabel ?? '';
+  String get licenseLabel {
+    final img = community;
+    if (img != null) return TrailBild.licenseLabelOf(img.license);
+    return seed?.licenseLabel ?? '';
+  }
 
-  String get licenseUrl => seed?.licenseUrl ?? '';
+  String get licenseUrl => community?.licenseUrl ?? seed?.licenseUrl ?? '';
 }
 
 /// Zentraler Hero-Fallback: echte Seed-Fotos oder ein gemeinsames Platzhalter-Asset.
@@ -67,21 +86,28 @@ class TrailHero {
   static List<TrailBild> pagesFor(Trail trail) =>
       trail.bilder.isNotEmpty ? trail.bilder : const [placeholderBild];
 
-  /// Seed-Fotos zuerst, danach freigegebene Trail-weite Community-Fotos.
-  /// Leer → Platzhalter.
+  /// Offizielle Bilder aus der Datenbank (CMS) ersetzen die gebündelten
+  /// Seed-Fotos; ohne DB-Bilder bleiben die Seed-Fotos. Danach freigegebene
+  /// Trail-weite Community-Fotos. Leer → Platzhalter.
   static List<HeroSlide> slidesFor(
     Trail trail, [
     List<TrailImage> community = const [],
   ]) {
-    final ugc = [
+    final trailWide = [
       for (final img in community)
         if (img.stationId == null && img.isApproved) img,
     ];
-    if (trail.bilder.isEmpty && ugc.isEmpty) {
+    final official = trailWide.where((i) => i.isOfficial).toList()
+      ..sort((a, b) => a.sort.compareTo(b.sort));
+    final ugc = trailWide.where((i) => !i.isOfficial).toList();
+    if (trail.bilder.isEmpty && official.isEmpty && ugc.isEmpty) {
       return const [HeroSlide.seed(placeholderBild)];
     }
     return [
-      for (final b in trail.bilder) HeroSlide.seed(b),
+      if (official.isNotEmpty)
+        for (final img in official) HeroSlide.community(img)
+      else
+        for (final b in trail.bilder) HeroSlide.seed(b),
       for (final img in ugc) HeroSlide.community(img),
     ];
   }

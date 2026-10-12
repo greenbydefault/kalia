@@ -63,6 +63,8 @@ Ingest: `dart run tool/ingest_images.dart <trail_id>` (oder `--all`). Nutzt dies
 | `sourceUrl` | string | nein | Quelle (meist Wikimedia-File-Seite) |
 | `kind` | string? | nein | `ort` \| `art` \| `placeholder` — UI filtert nur `placeholder` |
 
+**Hero aus der Datenbank (Admin-CMS):** Zeilen in `images` mit `source = official`, `status = approved`, `station_id` leer. Dateien im Bucket `trail-images` (`{trail}/{image}/{thumb|small|medium}.avif`), Reihenfolge `sort`, Quelle/Lizenz in `caption`, `credit`, `license`, `license_url`, `source_url`, `kind` (Migration `0030_catalog_media.sql`). Gibt es mindestens ein offizielles DB-Bild, ersetzt es die gebündelten Seed-Fotos (`TrailHero.slidesFor`); Nutzerfotos folgen danach. Ohne DB-Bild bleibt das Seed-Hero der Fallback. Import der Bündel-Fotos: `tools/upload_catalog_media.py`.
+
 Abgeleitet: `isFlaeche` / `isLinie`, `mapPoints`, `start` (Centroid bei Fläche), `autoTags`, Eignungs-Scores.
 
 **Fläche vs. Linie:** Spiel-/Erlebnisplätze ohne Wegnetz (`form: flaeche`) zeichnen auf der Karte ein Polygon, keine Route. Kein Fake-Rundkurs.
@@ -141,7 +143,7 @@ Katalog in `assets/seed/species.json` / Tabelle `species`.
 | `content` | object | ja für Go | Spec: `tools/SPECIES_CONTENT.md` / bei `geraete`: `tools/GERAETE_CONTENT.md`. `content.tiefe`: `voll` (Default, mit `hoertext`) oder `kurz` (ohne `hoertext`) |
 | `iconKey` | string? | nein | nur `geraete`; Key aus `geraeteKatalog` (IconData nie im JSON) |
 | `aliases` | string[] | nein |
-| `imagePath` / `imageCredit` / `audioPath` | | nein |
+| `imagePath` / `imageCredit` / `audioPath` | | nein | Drei Formen: `assets/…` (gebündelt), `https://…`, `storage:catalog-media/<pfad>` (Upload aus dem Admin-CMS, Bucket `catalog-media`). Auflösung: `MediaUrl.resolve` |
 | `gruppe` | string | flora/fauna | Key aus `speciesGruppeKatalog` |
 | `seltenheit` | string | flora/fauna | Key aus `seltenheitKatalog` |
 | `gefahr` | int 1–5 | flora/fauna | |
@@ -172,9 +174,13 @@ Katalog in `assets/seed/merkmale.json` / Tabelle `merkmale`. Geteilte Badges (Au
 
 ### trail_species (Supabase)
 
-Join `trail_id` ↔ `species_id` (Migration `0007_species.sql`), plus `nachweis` `belegt` \| `typisch` (Migration `0026_arten_pool.sql`). Im Seed: `arten[]` wird aufgelöst, `artenNachweis` setzt die Stufe. Die App zeigt die Stufe nicht.
+Join `trail_id` ↔ `species_id` (Migration `0007_species.sql`), plus `nachweis` `belegt` \| `typisch` (Migration `0026_arten_pool.sql`) und `sortierung` (Migration `0029`). Master für Trail ↔ Art; `trails.arten` (Namen, von `SpeciesResolver` gelesen) wird per Trigger daraus abgeleitet (`recompute_trail_arten`). Im Seed: `arten[]` wird aufgelöst, `artenNachweis` setzt die Stufe. Die App zeigt die Stufe nicht.
 
 `belegt`: Tafel, Betreiber, Stationsthema dieses Pfads. `typisch`: Art steht im Pool [`assets/seed/art_pools.json`](../assets/seed/art_pools.json) für `lebensraeume` × `naturraum` und eine Familie kann sie dort antreffen. Pool-Quelle ist der Lebensraumtyp, nicht ein Fundpunkt.
+
+### Arten-Pool (Supabase, Migration `0029_arten_pool_db.sql`)
+
+Der Pool aus `assets/seed/art_pools.json` liegt zusätzlich in der DB, damit das CMS ihn pflegt: `lebensraeume(id, name_de, sortierung)`, `pool_naturraeume(lebensraum, naturraum)`, `pool_arten(lebensraum, species_id, rolle, sichtbarkeit, saison, quelle)`. Schreiben nur für Katalog-Editoren. Import: `tools/seed_pools.py`; Export zurück in die Seeds: `tools/export_catalog.py`.
 
 ### Lebensräume (`lebensraumKatalog`)
 

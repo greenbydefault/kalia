@@ -26,8 +26,9 @@ class StationImageStrip extends ConsumerWidget {
     final isAdmin = ref.watch(isAdminProvider);
     final theme = Theme.of(context);
 
-    final images = imagesAsync.value
-            ?.where((img) => img.stationId == stationId)
+    final images =
+        imagesAsync.value
+            ?.where((img) => img.stationId == stationId && !img.isOfficial)
             .toList() ??
         const <TrailImage>[];
     if (images.isEmpty) return const SizedBox.shrink();

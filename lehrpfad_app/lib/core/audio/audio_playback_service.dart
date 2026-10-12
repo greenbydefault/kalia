@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:just_audio/just_audio.dart';
 
+import '../media/media_url.dart';
+
 /// Ein zentraler Player für die ganze App.
 ///
 /// Ein einziger [AudioPlayer] verhindert Overlap zwischen Arten-/Stations-Audio.
@@ -12,10 +14,17 @@ class AudioPlaybackService {
   bool get playing => _player.playing;
   String? get currentSource => _currentSource;
 
+  /// Spielt ein gebuendeltes Asset oder, bei `http(s)://` bzw.
+  /// `storage:`-Pfaden (Admin-CMS), die Datei aus dem Netz.
   Future<void> playAsset(String assetPath) async {
     try {
       if (_currentSource != assetPath) {
-        await _player.setAsset(assetPath);
+        final url = MediaUrl.resolve(assetPath);
+        if (url != null) {
+          await _player.setUrl(url);
+        } else {
+          await _player.setAsset(assetPath);
+        }
         _currentSource = assetPath;
       }
       await _player.play();

@@ -53,6 +53,17 @@ class TrailImage {
   final DateTime createdAt;
   final bool isMine;
 
+  /// Redaktionelle Angaben offizieller Bilder (Admin-CMS); bei
+  /// Nutzerfotos leer.
+  final String caption;
+  final String license;
+  final String licenseUrl;
+  final String sourceUrl;
+  final String? kind;
+
+  /// Reihenfolge der offiziellen Hero-Bilder.
+  final int sort;
+
   /// Vorpruefung aus dem Foto-Ort (nur Hinweis). `null` = Altbestand.
   final PhotoGeoCheck? geoCheck;
 
@@ -81,9 +92,18 @@ class TrailImage {
     required this.smallUrl,
     required this.mediumUrl,
     this.geoCheck,
+    this.caption = '',
+    this.license = '',
+    this.licenseUrl = '',
+    this.sourceUrl = '',
+    this.kind,
+    this.sort = 0,
   });
 
   bool get isApproved => status == TrailImageStatus.approved;
+
+  /// Redaktionelles Bild (aus dem Admin-CMS), kein Nutzerfoto.
+  bool get isOfficial => source == TrailImageSource.official;
 
   /// Kurzlabel fuer die Moderations-Tabelle (image/avif → AVIF).
   String get formatLabel {

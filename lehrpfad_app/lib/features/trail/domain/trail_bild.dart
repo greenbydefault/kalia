@@ -48,7 +48,10 @@ class TrailBild {
     return 'assets/images/trails/$trailId/$slug.${variant.fileName}.avif';
   }
 
-  String get licenseLabel => switch (license) {
+  String get licenseLabel => licenseLabelOf(license);
+
+  /// Kurzlabel einer Lizenz-ID (`cc-by-sa-4.0` → `CC BY-SA`).
+  static String licenseLabelOf(String license) => switch (license) {
     'cc-by-sa-4.0' || 'cc-by-sa-3.0' || 'cc-by-sa-2.0' => 'CC BY-SA',
     'cc-by-4.0' || 'cc-by-3.0' || 'cc-by-2.0' => 'CC BY',
     'cc0' => 'CC0',

@@ -128,12 +128,12 @@ class _TrailHeroFullscreenState extends State<TrailHeroFullscreen> {
                       ),
                     ),
                   ],
-                  if (!slide.isNetwork && slide.sourceUrl.isNotEmpty)
+                  if (slide.showsLicense && slide.sourceUrl.isNotEmpty)
                     _TaslLink(
                       label: 'Quelle',
                       onTap: () => _open(slide.sourceUrl),
                     ),
-                  if (!slide.isNetwork && slide.licenseLabel.isNotEmpty)
+                  if (slide.showsLicense && slide.licenseLabel.isNotEmpty)
                     _TaslLink(
                       label: slide.licenseUrl.isEmpty
                           ? slide.licenseLabel

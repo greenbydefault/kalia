@@ -1712,5 +1712,33 @@
   "lat": 48.751698,
   "lon": 9.351437,
   "oeffnungszeiten": "Di-Fr 11:30-22:00, Sa 11:00-21:00, keine Küche 14:00-17:00"
+ },
+ {
+  "id": "gasthaus-seeblick-garden",
+  "name": "Gasthaus Seeblick",
+  "kategorie": "restaurant",
+  "kurztext": "Regionale Küche direkt am Garder See, mit Plätzen draußen.",
+  "lat": 53.691348,
+  "lon": 12.0630805,
+  "oeffnungszeiten": "Mo, Do, Fr 15–22 Uhr, Sa und So 11–22 Uhr, Di und Mi zu",
+  "opening_hours": "Mo,Th,Fr 15:00-22:00; Sa,Su 11:00-22:00"
+ },
+ {
+  "id": "camping-garder-see",
+  "name": "Campingplatz am Garder See",
+  "kategorie": "camping",
+  "kurztext": "Stellplätze und Mietunterkünfte am See, Baden direkt vor der Tür.",
+  "lat": 53.6928485,
+  "lon": 12.0632189,
+  "website": "https://campingplatz-gardersee.com/",
+  "telefon": "+49 38458 20722"
+ },
+ {
+  "id": "badestelle-garder-see",
+  "name": "Badestelle Garder See",
+  "kategorie": "baden",
+  "kurztext": "Baden im Garder See, wenige Minuten vom Parkplatz am Campingplatz.",
+  "lat": 53.6902484,
+  "lon": 12.0569165
  }
 ]

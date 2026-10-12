@@ -146,6 +146,11 @@
   "lehde": [
     {"poi": "gasthaus-wotschofska", "sek": 60}
   ],
+  "lehrpfad-laehnwitz": [
+    {"poi": "gasthaus-seeblick-garden", "sek": 106},
+    {"poi": "badestelle-garder-see", "sek": 129},
+    {"poi": "camping-garder-see", "sek": 138}
+  ],
   "lehrpfad-pflanzenschutz-schwentinental": [
     {"poi": "restaurant-athena-schwentinental", "sek": 22},
     {"poi": "baden-freibad-schwentinental", "sek": 23},

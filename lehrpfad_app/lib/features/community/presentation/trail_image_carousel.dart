@@ -18,8 +18,7 @@ class TrailImageCarousel extends ConsumerStatefulWidget {
   const TrailImageCarousel({super.key, required this.trailId});
 
   @override
-  ConsumerState<TrailImageCarousel> createState() =>
-      _TrailImageCarouselState();
+  ConsumerState<TrailImageCarousel> createState() => _TrailImageCarouselState();
 }
 
 class _TrailImageCarouselState extends ConsumerState<TrailImageCarousel> {
@@ -42,8 +41,9 @@ class _TrailImageCarouselState extends ConsumerState<TrailImageCarousel> {
     final isAdmin = ref.watch(isAdminProvider);
     final theme = Theme.of(context);
 
-    final images = imagesAsync.value
-            ?.where((img) => img.stationId == null)
+    final images =
+        imagesAsync.value
+            ?.where((img) => img.stationId == null && !img.isOfficial)
             .toList() ??
         const <TrailImage>[];
     if (images.isEmpty) return const SizedBox.shrink();
