@@ -32,6 +32,9 @@ class TrailOverviewMap extends StatefulWidget {
   final TourMapState tour;
   final LocateTarget? locateTarget;
   final LatLng? userAnchor;
+
+  /// [userAnchor] ist ein eingegebener Ort, kein GPS-Fix.
+  final bool framePlace;
   final List<NearbyTreffer> nearbyPlaces;
   final NearbyTreffer? selectedNearby;
   final ValueChanged<NearbyTreffer>? onNearbySelected;
@@ -48,6 +51,7 @@ class TrailOverviewMap extends StatefulWidget {
     this.tour = TourMapState.empty,
     this.locateTarget,
     this.userAnchor,
+    this.framePlace = false,
     this.nearbyPlaces = const [],
     this.selectedNearby,
     this.onNearbySelected,
@@ -108,6 +112,7 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
     followPosition: w.tour.followPosition,
     locateTarget: w.locateTarget,
     userAnchor: w.userAnchor,
+    framePlace: w.framePlace,
   );
 
   @override
@@ -124,9 +129,16 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
   Widget build(BuildContext context) {
     final trails = widget.trails;
     final selectedTrail = widget.selectedTrail;
-    final allPoints = trails != null
-        ? MapCameraController.allPoints(trails, anchor: widget.userAnchor)
-        : <LatLng>[if (widget.userAnchor != null) widget.userAnchor!];
+    final anchor = widget.userAnchor;
+    final framing = widget.framePlace && anchor != null;
+    final placePoints = framing
+        ? MapCameraController.placeFramePoints(anchor, trails ?? const [])
+        : null;
+    final allPoints = framing
+        ? (placePoints!.length >= 2 ? placePoints : const <LatLng>[])
+        : trails != null
+        ? MapCameraController.allPoints(trails, anchor: anchor)
+        : <LatLng>[?anchor];
     final inWalk = widget.tour.hasProgress;
     final walkPolylines = inWalk
         ? walkProgressPolylines(
@@ -158,8 +170,12 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
     return FlutterMap(
       mapController: _camera.mapController,
       options: MapOptions(
-        initialCenter: MapConfig.defaultCenter,
-        initialZoom: MapConfig.defaultZoom,
+        initialCenter: framing && allPoints.isEmpty
+            ? anchor
+            : MapConfig.defaultCenter,
+        initialZoom: framing && allPoints.isEmpty
+            ? MapConfig.placeZoom
+            : MapConfig.defaultZoom,
         interactionOptions: MapConfig.interactionOptions,
         initialCameraFit: allPoints.isNotEmpty
             ? CameraFit.bounds(

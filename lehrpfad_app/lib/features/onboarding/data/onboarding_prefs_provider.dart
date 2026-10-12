@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../location/location_permission_controller.dart';
 import '../domain/age_group.dart';
 import '../domain/user_place.dart';
 import 'onboarding_prefs_store.dart';
@@ -38,6 +39,7 @@ class OnboardingPrefsNotifier extends AsyncNotifier<OnboardingPrefs> {
     state = AsyncData(_current.copyWith(place: place, useLocation: false));
     await _store.writePlace(place);
     await _store.writeUseLocation(false);
+    await ref.read(mapLocationEnabledProvider.notifier).setEnabled(false);
   }
 
   Future<void> setUseLocation(bool value) async {

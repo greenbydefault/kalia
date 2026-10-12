@@ -8,6 +8,7 @@ import '../../../../core/config/supabase_config.dart';
 import '../../../../shared/widgets/sheet_motion.dart';
 import '../../../community/presentation/upload_fab.dart';
 import '../../../location/user_position_provider.dart';
+import '../../../onboarding/data/onboarding_prefs_provider.dart';
 import '../../../location/visible_trails_provider.dart';
 import '../../../nearby/data/nearby_providers.dart';
 import '../../../nearby/domain/nearby.dart';
@@ -182,8 +183,8 @@ class _MapScreenState extends ConsumerState<MapScreen>
     final activeWalk = ref.watch(activeWalkProvider).asData?.value;
     final userFix = ref.watch(userPositionProvider).fix;
     final locateTarget = ref.watch(locateTargetProvider);
-    final effectiveRadius = ref.watch(effectiveMapRadiusProvider);
     final mapAnchor = ref.watch(mapAnchorProvider);
+    final place = ref.watch(onboardingPrefsValueProvider).place;
     final pendingCameraTrailId = ref.watch(pendingCameraTrailProvider);
     ref.watch(nearbyCatalogProvider);
     ref.watch(nearbyZeitenProvider);
@@ -321,9 +322,10 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   nearbyPlaces: nearbyPlaces,
                   selectedNearby: selectedNearby,
                   walkRoute: walkRoute,
-                  userFix: userFix?.position,
+                  userFix: place?.position ?? userFix?.position,
                   locateTarget: locateTarget,
-                  userAnchor: effectiveRadius.isAll ? null : mapAnchor,
+                  userAnchor: mapAnchor,
+                  framePlace: place != null,
                   onMapTab: onMapTab,
                   pendingCameraTrailId: pendingCameraTrailId,
                   onPendingCameraConsumed: () =>
@@ -543,6 +545,7 @@ class _WalkMapLayer extends ConsumerWidget {
     required this.userFix,
     required this.locateTarget,
     required this.userAnchor,
+    required this.framePlace,
     required this.onMapTab,
     required this.pendingCameraTrailId,
     required this.onPendingCameraConsumed,
@@ -556,6 +559,7 @@ class _WalkMapLayer extends ConsumerWidget {
   final LatLng? userFix;
   final LocateTarget? locateTarget;
   final LatLng? userAnchor;
+  final bool framePlace;
   final bool onMapTab;
   final String? pendingCameraTrailId;
   final VoidCallback onPendingCameraConsumed;
@@ -584,6 +588,7 @@ class _WalkMapLayer extends ConsumerWidget {
         ),
         locateTarget: locateTarget,
         userAnchor: userAnchor,
+        framePlace: framePlace,
         pendingCameraTrailId: pendingCameraTrailId,
         onPendingCameraConsumed: onPendingCameraConsumed,
       ),

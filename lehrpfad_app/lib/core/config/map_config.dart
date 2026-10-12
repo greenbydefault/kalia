@@ -15,6 +15,9 @@ abstract final class MapConfig {
   /// Zoom beim FAB „Meinen Standort“ — Straßen-/Nachbarschaftsebene.
   static const locateZoom = 16.0;
 
+  /// Zoom auf einen eingegebenen Ort, wenn kein Pfad in der Nähe liegt.
+  static const placeZoom = 12.0;
+
   /// Zoom, Pan, Fling, Doppel-Tap — ohne Zwei-Finger-Drehen.
   static const interactionOptions = InteractionOptions(
     flags: InteractiveFlag.all & ~InteractiveFlag.rotate,

@@ -7,6 +7,8 @@ import 'package:latlong2/latlong.dart';
 import '../../../../core/config/map_config.dart';
 import '../../../../core/config/map_motion.dart';
 import '../../../location/user_position_provider.dart';
+import '../../../nearby_trails/data/nearby_trails_provider.dart';
+import '../../domain/haversine.dart';
 import '../../domain/trail.dart';
 import 'camera_target.dart';
 import 'map_camera_animator.dart';
@@ -21,6 +23,7 @@ class MapCameraInputs {
     this.followPosition,
     this.locateTarget,
     this.userAnchor,
+    this.framePlace = false,
   });
 
   final Trail? selected;
@@ -29,6 +32,10 @@ class MapCameraInputs {
   final LatLng? followPosition;
   final LocateTarget? locateTarget;
   final LatLng? userAnchor;
+
+  /// [userAnchor] ist ein eingegebener Ort: Ausschnitt auf die nächsten
+  /// Pfade, nicht auf den ganzen Katalog und nicht auf Straßen-Zoom.
+  final bool framePlace;
 
   static Set<String> idSet(List<Trail>? trails) => {
     if (trails != null)
@@ -81,18 +88,26 @@ class MapCameraController {
     final locateChanged =
         current.locateTarget != null &&
         current.locateTarget != previous.locateTarget;
+    final oldIds = MapCameraInputs.idSet(previous.trails);
+    final newIds = MapCameraInputs.idSet(current.trails);
+    final trailsArrived = oldIds.isEmpty && newIds.isNotEmpty;
+    final anchorChanged =
+        current.userAnchor != null && current.userAnchor != previous.userAnchor;
+    final framePlace =
+        current.framePlace &&
+        current.userAnchor != null &&
+        !locateChanged &&
+        (trailsArrived || anchorChanged);
 
     if (selected == null) {
       if (oldSelected != null) {
         clearSelection();
       }
-      final oldIds = MapCameraInputs.idSet(previous.trails);
-      final newIds = MapCameraInputs.idSet(current.trails);
-      if (oldSelected == null &&
-          !locateChanged &&
-          oldIds != newIds &&
-          newIds.isNotEmpty) {
+      if (oldSelected == null && oldIds != newIds && newIds.isNotEmpty) {
         fitCatalog(current.trails!, anchor: current.userAnchor);
+      }
+      if (framePlace) {
+        fitAroundPlace(current.userAnchor!, current.trails ?? const []);
       }
     } else if (selected.id != oldSelected?.id) {
       final pending = current.pendingCameraTrailId;
@@ -145,6 +160,48 @@ class MapCameraController {
   void follow(LatLng position) {
     if (_followPaused || _flight.isAnimating) return;
     _flight.follow(position);
+  }
+
+  /// Nächste Pfad-Starts um einen eingegebenen Ort. Weiter als
+  /// [placeFrameCapM] zählt nicht; dann bleibt nur der Ort (Stadt-Zoom).
+  static const placeFrameCapM = 80000.0;
+
+  static List<LatLng> placeFramePoints(LatLng anchor, List<Trail> trails) {
+    final ranked = <(double, LatLng)>[];
+    for (final trail in trails) {
+      final start = trail.startOrNull;
+      if (start == null) continue;
+      ranked.add((haversineMeters(anchor, start), start));
+    }
+    ranked.sort((a, b) => a.$1.compareTo(b.$1));
+    if (ranked.isEmpty || ranked.first.$1 > placeFrameCapM) return [anchor];
+    return [
+      anchor,
+      for (final hit in ranked.take(nearbyTrailCount))
+        if (hit.$1 <= placeFrameCapM) hit.$2,
+    ];
+  }
+
+  /// Orts-Fit. Macht einen schon geplanten [fitCatalog] über [_intentGen]
+  /// ungültig, analog zu [locate].
+  void fitAroundPlace(LatLng anchor, List<Trail> trails) {
+    _followPaused = true;
+    _bumpGen();
+    final pts = placeFramePoints(anchor, trails);
+    if (pts.length < 2) {
+      unawaited(_runFlight(() => _flight.flyTo(anchor, MapConfig.placeZoom)));
+      return;
+    }
+    final target = CameraTarget.fromPoints(
+      pts,
+      padding: CameraTarget.catalogPadding,
+    );
+    if (target == null) return;
+    unawaited(
+      _runFlight(
+        () => _flight.flyToBounds(target.bounds, padding: target.padding),
+      ),
+    );
   }
 
   /// Katalog-Fit (Filterwechsel, keine Selection). Post-Frame; neuere
