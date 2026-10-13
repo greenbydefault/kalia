@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-steg-pechsee.jpg",
+    "caption": "Holzsteg zur Aussichtsplattform am Pechsee.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition_at_Pechsee_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-pechsee.jpg",
+    "caption": "Der Pechsee im Grunewald im Sommer.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pechsee_in_summer_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-barssee.jpg",
+    "caption": "Der Barssee im Grunewald, von der Aussichtsplattform aus.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barssee_in_summer_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-start.jpg",
+    "caption": "Start- und Zielpunkt der Waldausstellung am Grunewaldturm.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-plattform.jpg",
+    "caption": "Aussichtsplattform an einem Pfuhl der Waldausstellung.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition_plattform.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "06-pechsee-steg.jpg",
+    "caption": "Steg und Plattform am Pechsee.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition_at_Pechsee_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "07-picknick.jpg",
+    "caption": "Picknickfläche bei der Waldausstellung im Grunewald.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition_picnic_area.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "08-barssee-wiese.jpg",
+    "caption": "Der Barssee im Grunewald, von der Aussichtsplattform aus.",
+    "credit": "Leonhard Lenz",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barssee_in_summer_02.jpg",
+    "kind": "ort"
+  }
+]

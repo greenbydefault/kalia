@@ -179,7 +179,9 @@ flutter:
     - assets/images/trails/heilwald-bad-doberan/
     - assets/images/trails/pilzlehrpfad-vierburg/
     - assets/images/trails/waldlehrpfad-hermsdorf/
+    - assets/images/trails/erlebnisweg-mueggelberge-teufelssee/
     - assets/images/trails/waldspielplatz-jaegerhaus/
+    - assets/images/trails/wald-berlin-klima/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

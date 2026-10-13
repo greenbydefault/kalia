@@ -1,0 +1,1124 @@
+{
+ "id": "erlebnisweg-mueggelberge-teufelssee",
+ "name": "Erlebnisweg Müggelberge Teufelssee",
+ "typ": "walderlebnispfad",
+ "kurzbeschreibung": "Am Teufelssee führt der Weg über die Müggelberge bis zum Müggelturm. Neue Tafeln stehen seit Dezember 2025.",
+ "beschreibung": "Im Dezember 2025 ersetzten neue Tafeln den Lehrpfad von 1965. 36 Stationen stehen um den See, im Moor und auf dem Bergrücken, wo die Bismarckwarte stand. Vier Themen teilen den Weg: Wald, Wasser, Klima und Geschichte. Ein Bohlenweg quert das Teufelsseemoor. Die markierte Linie läuft weiter bis zum Müggelturm und kehrt nicht von allein zum Parkplatz zurück. Wer zum Anfang will, steigt den Westhang wieder hinauf.",
+ "laengeKm": 3.5,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Grüner Rückstrich auf weißem Grund (WLT)",
+ "betreiber": "Berliner Forsten",
+ "region": "Müggelberge / Teufelssee, Treptow-Köpenick",
+ "website": "https://www.berlin.de/forsten/waldbildung/waldlehrpfade/mueggelberge-und-teufelssee/",
+ "anreise": "Bus 169 bis Haltestelle Rübezahl. Parkplatz Rübezahl, 180 Plätze, kostenlos. Haupteingang in Richtung Waldspielplatz Promenade Teufelssee.",
+ "startName": "Parkplatz Rübezahl",
+ "arten": [
+  "Blässhuhn",
+  "Buchfink",
+  "Hängebirke",
+  "Haubentaucher",
+  "Heidelbeere",
+  "Kiefer",
+  "Moorfrosch",
+  "Schilf",
+  "Stockente",
+  "Torfmoos",
+  "Wollgras",
+  "Rundblättriger Sonnentau",
+  "Adlerfarn",
+  "Amsel"
+ ],
+ "artenNachweis": {
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Haubentaucher": "typisch",
+  "Heidelbeere": "typisch",
+  "Kiefer": "typisch",
+  "Moorfrosch": "typisch",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Torfmoos": "typisch",
+  "Wollgras": "typisch",
+  "Rundblättriger Sonnentau": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch"
+ },
+ "lebensraeume": [
+  "moor",
+  "see-ufer",
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   52.424008,
+   13.629248
+  ],
+  [
+   52.423988,
+   13.62924
+  ],
+  [
+   52.423929,
+   13.629186
+  ],
+  [
+   52.423881,
+   13.629167
+  ],
+  [
+   52.423735,
+   13.629102
+  ],
+  [
+   52.423607,
+   13.629076
+  ],
+  [
+   52.423413,
+   13.629044
+  ],
+  [
+   52.422721,
+   13.628911
+  ],
+  [
+   52.422358,
+   13.628843
+  ],
+  [
+   52.422047,
+   13.628785
+  ],
+  [
+   52.420973,
+   13.628574
+  ],
+  [
+   52.42085,
+   13.628601
+  ],
+  [
+   52.420807,
+   13.628641
+  ],
+  [
+   52.420674,
+   13.628762
+  ],
+  [
+   52.420614,
+   13.628843
+  ],
+  [
+   52.420487,
+   13.628921
+  ],
+  [
+   52.420412,
+   13.62893
+  ],
+  [
+   52.420335,
+   13.628935
+  ],
+  [
+   52.420174,
+   13.62911
+  ],
+  [
+   52.420114,
+   13.629131
+  ],
+  [
+   52.419645,
+   13.628805
+  ],
+  [
+   52.419562,
+   13.628551
+  ],
+  [
+   52.419485,
+   13.628497
+  ],
+  [
+   52.419143,
+   13.628385
+  ],
+  [
+   52.419003,
+   13.628436
+  ],
+  [
+   52.418903,
+   13.628522
+  ],
+  [
+   52.418876,
+   13.628774
+  ],
+  [
+   52.41884,
+   13.629063
+  ],
+  [
+   52.418821,
+   13.629394
+  ],
+  [
+   52.418803,
+   13.629738
+  ],
+  [
+   52.418818,
+   13.629888
+  ],
+  [
+   52.418847,
+   13.630033
+  ],
+  [
+   52.418903,
+   13.630181
+  ],
+  [
+   52.419101,
+   13.630578
+  ],
+  [
+   52.419118,
+   13.630648
+  ],
+  [
+   52.419198,
+   13.630649
+  ],
+  [
+   52.419281,
+   13.630683
+  ],
+  [
+   52.419361,
+   13.630583
+  ],
+  [
+   52.419409,
+   13.630598
+  ],
+  [
+   52.419534,
+   13.630636
+  ],
+  [
+   52.419725,
+   13.630783
+  ],
+  [
+   52.419808,
+   13.630771
+  ],
+  [
+   52.419853,
+   13.630764
+  ],
+  [
+   52.419895,
+   13.630758
+  ],
+  [
+   52.420175,
+   13.630589
+  ],
+  [
+   52.420196,
+   13.630535
+  ],
+  [
+   52.420222,
+   13.630475
+  ],
+  [
+   52.420432,
+   13.630138
+  ],
+  [
+   52.420507,
+   13.630089
+  ],
+  [
+   52.420572,
+   13.630118
+  ],
+  [
+   52.420837,
+   13.630233
+  ],
+  [
+   52.420919,
+   13.6302
+  ],
+  [
+   52.420968,
+   13.630126
+  ],
+  [
+   52.421005,
+   13.63011
+  ],
+  [
+   52.42121,
+   13.630667
+  ],
+  [
+   52.421229,
+   13.630952
+  ],
+  [
+   52.421171,
+   13.631394
+  ],
+  [
+   52.421108,
+   13.631484
+  ],
+  [
+   52.421039,
+   13.631531
+  ],
+  [
+   52.420952,
+   13.631536
+  ],
+  [
+   52.420675,
+   13.63143
+  ],
+  [
+   52.420563,
+   13.631437
+  ],
+  [
+   52.420251,
+   13.631841
+  ],
+  [
+   52.420154,
+   13.632088
+  ],
+  [
+   52.420171,
+   13.632391
+  ],
+  [
+   52.420378,
+   13.633327
+  ],
+  [
+   52.420398,
+   13.633547
+  ],
+  [
+   52.420377,
+   13.633767
+  ],
+  [
+   52.420324,
+   13.634066
+  ],
+  [
+   52.420284,
+   13.634228
+  ],
+  [
+   52.420247,
+   13.634328
+  ],
+  [
+   52.420216,
+   13.634377
+  ],
+  [
+   52.420058,
+   13.634611
+  ],
+  [
+   52.41999,
+   13.634569
+  ],
+  [
+   52.419819,
+   13.634462
+  ],
+  [
+   52.419779,
+   13.634396
+  ],
+  [
+   52.419649,
+   13.634513
+  ],
+  [
+   52.419355,
+   13.634633
+  ],
+  [
+   52.419146,
+   13.634738
+  ],
+  [
+   52.418564,
+   13.635306
+  ],
+  [
+   52.418276,
+   13.635723
+  ],
+  [
+   52.417527,
+   13.635929
+  ],
+  [
+   52.417464,
+   13.636384
+  ],
+  [
+   52.417319,
+   13.637127
+  ],
+  [
+   52.417192,
+   13.637721
+  ],
+  [
+   52.416966,
+   13.638286
+  ],
+  [
+   52.416937,
+   13.639102
+  ],
+  [
+   52.416814,
+   13.639468
+  ],
+  [
+   52.416755,
+   13.639622
+  ],
+  [
+   52.416666,
+   13.63979
+  ],
+  [
+   52.416615,
+   13.639992
+  ],
+  [
+   52.416609,
+   13.640222
+  ],
+  [
+   52.416612,
+   13.640361
+  ],
+  [
+   52.416681,
+   13.640446
+  ],
+  [
+   52.416964,
+   13.640618
+  ],
+  [
+   52.417048,
+   13.640713
+  ],
+  [
+   52.416977,
+   13.640808
+  ],
+  [
+   52.416909,
+   13.640952
+  ],
+  [
+   52.416889,
+   13.641079
+  ],
+  [
+   52.416883,
+   13.641253
+  ],
+  [
+   52.416846,
+   13.641457
+  ],
+  [
+   52.416765,
+   13.641592
+  ],
+  [
+   52.416641,
+   13.641705
+  ],
+  [
+   52.416549,
+   13.641747
+  ],
+  [
+   52.416464,
+   13.641725
+  ],
+  [
+   52.416386,
+   13.641606
+  ],
+  [
+   52.41615,
+   13.641047
+  ],
+  [
+   52.416099,
+   13.640979
+  ],
+  [
+   52.416029,
+   13.640936
+  ],
+  [
+   52.415982,
+   13.640937
+  ],
+  [
+   52.415926,
+   13.640939
+  ],
+  [
+   52.415838,
+   13.64098
+  ],
+  [
+   52.415637,
+   13.641011
+  ],
+  [
+   52.415553,
+   13.64095
+  ],
+  [
+   52.415485,
+   13.640762
+  ],
+  [
+   52.415573,
+   13.640144
+  ],
+  [
+   52.415483,
+   13.639987
+  ],
+  [
+   52.415418,
+   13.639667
+  ],
+  [
+   52.41543,
+   13.639469
+  ],
+  [
+   52.41544,
+   13.639235
+  ],
+  [
+   52.41551,
+   13.639121
+  ],
+  [
+   52.415533,
+   13.639033
+  ],
+  [
+   52.415542,
+   13.638631
+  ],
+  [
+   52.415675,
+   13.638358
+  ],
+  [
+   52.415803,
+   13.637904
+  ],
+  [
+   52.415868,
+   13.637479
+  ],
+  [
+   52.415891,
+   13.637218
+  ],
+  [
+   52.415879,
+   13.637011
+  ],
+  [
+   52.415811,
+   13.636817
+  ],
+  [
+   52.415633,
+   13.636454
+  ],
+  [
+   52.415556,
+   13.636183
+  ],
+  [
+   52.415534,
+   13.635982
+  ],
+  [
+   52.415571,
+   13.635566
+  ],
+  [
+   52.41555,
+   13.635245
+  ],
+  [
+   52.415496,
+   13.635003
+  ],
+  [
+   52.415253,
+   13.634344
+  ],
+  [
+   52.415212,
+   13.634158
+  ],
+  [
+   52.415201,
+   13.633963
+  ],
+  [
+   52.415213,
+   13.633811
+  ],
+  [
+   52.41527,
+   13.633513
+  ],
+  [
+   52.415281,
+   13.633483
+  ],
+  [
+   52.415342,
+   13.633307
+  ],
+  [
+   52.415648,
+   13.632591
+  ],
+  [
+   52.415757,
+   13.632407
+  ],
+  [
+   52.415936,
+   13.631956
+  ],
+  [
+   52.416006,
+   13.631605
+  ],
+  [
+   52.416087,
+   13.63103
+  ],
+  [
+   52.416218,
+   13.630397
+  ],
+  [
+   52.416227,
+   13.63029
+  ],
+  [
+   52.416262,
+   13.629859
+  ],
+  [
+   52.416248,
+   13.629527
+  ],
+  [
+   52.416203,
+   13.62934
+  ],
+  [
+   52.416035,
+   13.628846
+  ],
+  [
+   52.416017,
+   13.62867
+  ],
+  [
+   52.416031,
+   13.628532
+  ],
+  [
+   52.416184,
+   13.627706
+  ],
+  [
+   52.416228,
+   13.627066
+  ],
+  [
+   52.416255,
+   13.626002
+  ],
+  [
+   52.416353,
+   13.625155
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 12963954206,
+   "lat": 52.423384,
+   "lon": 13.6290879,
+   "km": 0.07,
+   "titel": "Raus aus dem Großstadtmief",
+   "thema": "Lehrpfad von 1965, neu seit Dezember 2025, 36 Stationen",
+   "kurztext": "Tafel der Berliner Forsten am Nordrand, kurz hinter dem Parkplatz Rübezahl.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 12963954205,
+   "lat": 52.4230907,
+   "lon": 13.6289205,
+   "km": 0.07,
+   "titel": "Unser Wald als Klimaretter",
+   "thema": "Klima",
+   "kurztext": "Tafel der Berliner Forsten zum Wald und zum Klima, wenige Schritte hinter dem Einstieg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 12963954204,
+   "lat": 52.4217308,
+   "lon": 13.6287566,
+   "km": 0.22,
+   "titel": "Auf der Jagd nach Geschichten",
+   "thema": "Geschichte",
+   "kurztext": "Tafel der Berliner Forsten am Westhang.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 12963954203,
+   "lat": 52.4210057,
+   "lon": 13.6285078,
+   "km": 0.34,
+   "titel": "Der Wald als Arbeitsplatz",
+   "thema": "Waldarbeit",
+   "kurztext": "Tafel der Berliner Forsten zur Arbeit im Wald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 12963935386,
+   "lat": 52.4188246,
+   "lon": 13.629128,
+   "km": 0.64,
+   "titel": "Tierische Wohnungssuche",
+   "thema": "Tiere",
+   "kurztext": "Tafel der Berliner Forsten zu Tieren am Westufer des Teufelssees.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 11669094611,
+   "lat": 52.4210222,
+   "lon": 13.6301164,
+   "km": 0.99,
+   "titel": "Die Prinzessin im Teufelssee",
+   "thema": "Sage",
+   "kurztext": "Die Tafel erzählt die Sage von der Prinzessin im Teufelssee.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 12963952271,
+   "lat": 52.4202864,
+   "lon": 13.6340913,
+   "km": 1.36,
+   "titel": "Zwei Berge, zwei Türme",
+   "thema": "Müggelberge",
+   "kurztext": "Tafel östlich des Sees. Der Titel nennt zwei Berge und zwei Türme.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 12963952270,
+   "lat": 52.4196086,
+   "lon": 13.6341633,
+   "km": 1.46,
+   "titel": "Zwischen Land und Wasser",
+   "thema": "Teufelsseemoor",
+   "kurztext": "Tafel am Übergang zum Teufelsseemoor, östlich des Sees.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 4311518402,
+   "lat": 52.416923,
+   "lon": 13.6367429,
+   "km": 1.8,
+   "titel": "Gesteinsreste der Bismarckwarte",
+   "thema": "Bismarckwarte",
+   "kurztext": "Steine der abgerissenen Bismarckwarte auf dem Bergrücken.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 9
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 262137153,
+   "lat": 52.4168386,
+   "lon": 13.6349599,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 292728693,
+   "lat": 52.4168757,
+   "lon": 13.6252804,
+   "kategorie": "gastro",
+   "name": "Imbiss am Müggelturm"
+  },
+  {
+   "osmId": 292728694,
+   "lat": 52.4167606,
+   "lon": 13.6349991,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 415308246,
+   "lat": 52.4224599,
+   "lon": 13.6289789,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Promenade Teufelssee"
+  },
+  {
+   "osmId": 528938535,
+   "lat": 52.4197464,
+   "lon": 13.6347278,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 3825536180,
+   "lat": 52.4170873,
+   "lon": 13.6255275,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4095347301,
+   "lat": 52.4190093,
+   "lon": 13.6331511,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4095347308,
+   "lat": 52.42055,
+   "lon": 13.628775,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4095347311,
+   "lat": 52.4207694,
+   "lon": 13.6295091,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526287811,
+   "lat": 52.420157,
+   "lon": 13.6305371,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526290637,
+   "lat": 52.4193781,
+   "lon": 13.6305491,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526290638,
+   "lat": 52.4189489,
+   "lon": 13.6297843,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526290639,
+   "lat": 52.4189545,
+   "lon": 13.6298532,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526304091,
+   "lat": 52.4225172,
+   "lon": 13.6287726,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526304092,
+   "lat": 52.4225976,
+   "lon": 13.6291744,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 4526304093,
+   "lat": 52.422763,
+   "lon": 13.628846,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526304094,
+   "lat": 52.4223855,
+   "lon": 13.6287506,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4526304199,
+   "lat": 52.4231802,
+   "lon": 13.6289337,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4623454275,
+   "lat": 52.4170268,
+   "lon": 13.6427068,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4623465763,
+   "lat": 52.4155616,
+   "lon": 13.6387579,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4624009413,
+   "lat": 52.4170863,
+   "lon": 13.6424895,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 4822723876,
+   "lat": 52.4163686,
+   "lon": 13.6283678,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4839859937,
+   "lat": 52.4202839,
+   "lon": 13.6342283,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4839859938,
+   "lat": 52.4197789,
+   "lon": 13.6346452,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4839859939,
+   "lat": 52.4203092,
+   "lon": 13.6339671,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4839859940,
+   "lat": 52.4202988,
+   "lon": 13.6340276,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4839859941,
+   "lat": 52.4198269,
+   "lon": 13.6346597,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4839859942,
+   "lat": 52.4212736,
+   "lon": 13.6309278,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4839859943,
+   "lat": 52.4202749,
+   "lon": 13.6342822,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 10239842537,
+   "lat": 52.4188609,
+   "lon": 13.6306536,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 12772158230,
+   "lat": 52.4226473,
+   "lon": 13.6290899,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 12772158235,
+   "lat": 52.4208635,
+   "lon": 13.6295123,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12772158249,
+   "lat": 52.4189754,
+   "lon": 13.6298523,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12772158250,
+   "lat": 52.4189697,
+   "lon": 13.6297759,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12963935384,
+   "lat": 52.4191043,
+   "lon": 13.6282501,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12963935385,
+   "lat": 52.4189813,
+   "lon": 13.6298124,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 12963935387,
+   "lat": 52.419671,
+   "lon": 13.6287811,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12963935388,
+   "lat": 52.4193939,
+   "lon": 13.630553,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 12963935389,
+   "lat": 52.4198294,
+   "lon": 13.6307518,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 12963935390,
+   "lat": 52.4201684,
+   "lon": 13.6304919,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 12963952269,
+   "lat": 52.4198856,
+   "lon": 13.6349444,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 23370026,
+   "lat": 52.4243032,
+   "lon": 13.6300064,
+   "kategorie": "parking",
+   "name": "Parkplatz Rübezahl"
+  }
+ ],
+ "eintritt": false,
+ "oeffnungszeiten": "Ganzjährig, rund um die Uhr.",
+ "besuchshinweise": "Rad nur bis zum Lehrkabinett. Bohlenweg und Moor zu Fuß. Moorsteg und die rot gepunktete Linie auf der Forsten-Karte tragen Kinderwagen und Rollstuhl, der übrige Weg nicht. WC am Müggelturm ist kostenpflichtig. Zurück vom Turm den Westhang zum Parkplatz.",
+ "hoertext": "Hinter dem Parkplatz Rübezahl senkt sich der Kiefernwald zum Teufelssee hinab. Über das Moor legen sich Bretter. Unter den Brettern hält das Moor das Wasser fest. Wer dort stehen bleibt, sieht den See zwischen Schilf und Kiefern. Kiefern geben den Hang frei, und der Müggelturm zeigt sich über den Kronen. Den Bergrücken hinauf zieht die Linie an den Steinen der alten Bismarckwarte vorbei und hört erst am Müggelturm auf, wo der Westhang den Rückweg zum Anfang öffnet. Das Rad bleibt am Lehrkabinett.",
+ "bilderAsset": "assets/images/trails/erlebnisweg-mueggelberge-teufelssee/credits.json"
+}

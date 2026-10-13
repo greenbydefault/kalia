@@ -82,6 +82,12 @@
     {"poi": "camping-swienskopp", "sek": 120},
     {"poi": "aktivitaet-seehundstation-friedrichskoog", "sek": 436}
   ],
+  "erlebnisweg-mueggelberge-teufelssee": [
+    {"poi": "restaurant-mueggelsee-terrassen-ruebezahl", "sek": 68},
+    {"poi": "restaurant-mueggelturm-baude", "sek": 475},
+    {"poi": "cafe-hoernchen", "sek": 672},
+    {"poi": "strandbad-mueggelsee", "sek": 936}
+  ],
   "everstorfer-forst": [
     {"poi": "baden-ploggensee-grevesmuehlen", "sek": 451},
     {"poi": "restaurant-seeschloesschen-grevesmuehlen", "sek": 479},
@@ -289,7 +295,9 @@
     {"poi": "gurkenmuseum-leipe", "sek": 1196}
   ],
   "rauener-berge": [],
-  "ravensberge": [],
+  "ravensberge": [
+    {"poi": "strandbad-wannsee", "sek": 964}
+  ],
   "rimstinger-steinlehrpfad": [],
   "rittbrookpfad": [
     {"poi": "cafe-marli-hofcafe", "sek": 305},
@@ -350,6 +358,11 @@
     {"poi": "restaurant-forsthaus-hainholz", "sek": 871},
     {"poi": "waldschwimmbad-hainholz", "sek": 896}
   ],
+  "wald-berlin-klima": [
+    {"poi": "restaurant-waldhaus-havelchaussee", "sek": 62},
+    {"poi": "restaurant-kaisergarten-grunewaldturm", "sek": 78},
+    {"poi": "strandbad-wannsee", "sek": 933}
+  ],
   "wald-erlebnispfad-serrahn": [],
   "waldhusen": [
     {"poi": "hofladen-thorn-ivendorf", "sek": 562},
@@ -396,7 +409,9 @@
     {"poi": "biohof-schlarb", "sek": 953}
   ],
   "wolfspfad-zwenzow": [],
-  "wupatz": [],
+  "wupatz": [
+    {"poi": "strandbad-mueggelsee", "sek": 815}
+  ],
   "zweiseitenweg-rambow": [
     {"poi": "cafe-moorscheune-boberow", "sek": 0},
     {"poi": "camping-hof-richert-boberow", "sek": 358},

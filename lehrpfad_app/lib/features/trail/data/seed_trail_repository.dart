@@ -112,7 +112,9 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/heilwald-bad-doberan.json',
     'assets/seed/pilzlehrpfad-vierburg.json',
     'assets/seed/waldlehrpfad-hermsdorf.json',
+    'assets/seed/erlebnisweg-mueggelberge-teufelssee.json',
     'assets/seed/waldspielplatz-jaegerhaus.json',
+    'assets/seed/wald-berlin-klima.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

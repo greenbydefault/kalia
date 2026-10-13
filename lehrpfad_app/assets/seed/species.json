@@ -12282,5 +12282,78 @@
         },
         "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cicindela_hybrida_2_Richard_Bartz.jpg/960px-Cicindela_hybrida_2_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "imageCredit": "Richard Bartz, Munich aka Makro Freak, CC BY-SA 2.5"
+    },
+    {
+        "id": "spaetbluehende-traubenkirsche",
+        "nameDe": "Spätblühende Traubenkirsche",
+        "nameLat": "Prunus serotina",
+        "kategorie": "flora",
+        "gruppe": "baeume",
+        "seltenheit": "haeufig",
+        "gefahr": 2,
+        "nahrung": [
+            "Licht",
+            "Magerer Boden"
+        ],
+        "taxonomie": {
+            "reich": "Plantae",
+            "stamm": "Tracheophyta",
+            "klasse": "Magnoliopsida",
+            "ordnung": "Rosales",
+            "familie": "Rosaceae"
+        },
+        "masse": [
+            {
+                "key": "hoehe",
+                "wert": "bis 20 m"
+            },
+            {
+                "key": "frucht",
+                "wert": "Schwarze Kirschen in Trauben"
+            },
+            {
+                "key": "bluetezeit",
+                "wert": "Mai bis Juni"
+            }
+        ],
+        "merkmale": [
+            "laubabwerfend",
+            "laubbaum",
+            "bluete",
+            "fruchttragend"
+        ],
+        "beziehungen": [
+            {
+                "typ": "wohnt_an",
+                "nameDe": "Kiefernforst",
+                "kurztext": "Bildet dort Unterwuchs, der den Boden beschattet."
+            },
+            {
+                "typ": "wohnt_an",
+                "nameDe": "Waldrand",
+                "kurztext": "Wächst auch auf trockenem, nährstoffarmem Boden."
+            }
+        ],
+        "aliases": [
+            "Spätblühende Traubenkirsche"
+        ],
+        "kurztext": "Aus Nordamerika eingeführt, bildet sie dichtes Gebüsch, in dem junge Buchen und Eichen kaum Licht bekommen.",
+        "content": {
+            "tiefe": "kurz",
+            "hook": "Aus Nordamerika eingeführt, bildet sie dichtes Gebüsch, in dem junge Buchen und Eichen kaum Licht bekommen.",
+            "erkennung": [
+                "Weiße Blütentrauben im Mai",
+                "Glänzende, fein gesägte Blätter",
+                "Schwarze Früchte in hängenden Trauben"
+            ],
+            "lebensraum": "Kiefernforst, Waldränder und lichte Wälder auf trockenem Boden.",
+            "funFacts": [
+                "Die Blätter enthalten Blausäure, Rehe meiden sie.",
+                "Aus Baumstümpfen treiben nach dem Fällen neue Triebe."
+            ],
+            "hinweis": "Blätter und Samen sind giftig."
+        },
+        "imagePath": null,
+        "imageCredit": ""
     }
 ]
