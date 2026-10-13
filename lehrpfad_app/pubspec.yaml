@@ -188,10 +188,16 @@ flutter:
   # https://flutter.dev/to/asset-from-package
 
   fonts:
-    - family: Instrument Serif
+    - family: Hanken Grotesk
       fonts:
-        - asset: assets/fonts/InstrumentSerif-Regular.ttf
+        - asset: assets/fonts/HankenGrotesk-Regular.ttf
           weight: 400
-        - asset: assets/fonts/InstrumentSerif-Italic.ttf
+        - asset: assets/fonts/HankenGrotesk-Italic.ttf
           weight: 400
           style: italic
+        - asset: assets/fonts/HankenGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/HankenGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/HankenGrotesk-Bold.ttf
+          weight: 700

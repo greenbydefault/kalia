@@ -81,7 +81,11 @@ class TrailSheetHeader extends StatelessWidget {
         const SizedBox(height: AppSpacing.x2),
         Text(
           trail.name.toUpperCase(),
-          style: theme.textTheme.headlineSmall?.copyWith(fontSize: 48),
+          style: theme.textTheme.headlineSmall?.copyWith(
+            fontSize: 32,
+            fontWeight: FontWeight.w700,
+            height: 1.1,
+          ),
         ),
         const SizedBox(height: AppSpacing.x1),
         Text(trail.kurzbeschreibung, style: theme.textTheme.bodyMedium),

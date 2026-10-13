@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../app/theme/app_typography.dart';
 import '../domain/station.dart';
 import 'terrain_contours.dart';
 import 'track_layout.dart';
@@ -34,6 +35,7 @@ class TrackPainter extends CustomPainter {
         text: TextSpan(
           text: '${s.station.reihenfolge}',
           style: TextStyle(
+            fontFamily: AppTypography.family,
             color: color,
             fontSize: 13,
             fontWeight: FontWeight.bold,
@@ -138,6 +140,7 @@ class TrackPainter extends CustomPainter {
       text: TextSpan(
         text: letter,
         style: TextStyle(
+          fontFamily: AppTypography.family,
           color: fg,
           fontSize: 13,
           fontWeight: FontWeight.bold,

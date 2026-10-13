@@ -26,13 +26,11 @@ abstract final class AppTheme {
       scrim: AppColors.n950,
     );
 
-    final theme = ThemeData(
+    return ThemeData(
       colorScheme: scheme,
       useMaterial3: true,
       scaffoldBackgroundColor: AppColors.paper,
-    );
-    return theme.copyWith(
-      textTheme: AppTypography.applyHeadlines(theme.textTheme),
+      fontFamily: AppTypography.family,
     );
   }
 }
