@@ -1752,5 +1752,55 @@
   "oeffnungszeiten": "März–Oktober täglich 10–18 Uhr, Juni–August bis 20 Uhr",
   "telefon": "+49 38203 407401",
   "opening_hours": "Mar-Oct: 10:00-18:00"
+ },
+ {
+  "id": "cafe-am-markt-buetzow",
+  "name": "Cafe am Markt",
+  "kategorie": "cafe",
+  "kurztext": "Kuchen am Markt von Bützow, nach dem Wald.",
+  "lat": 53.848221,
+  "lon": 11.983055,
+  "oeffnungszeiten": "Mo–Do 11–17 Uhr, Fr 9–17 Uhr, Sa und So 14–17 Uhr",
+  "opening_hours": "Mo-Th 11:00-17:00; Fr 09:00-17:00; Sa-Su 14:00-17:00"
+ },
+ {
+  "id": "restaurant-zur-boerse-buetzow",
+  "name": "Zur Börse",
+  "kategorie": "restaurant",
+  "kurztext": "Mittagstisch in der Bützower Altstadt, wenn der Weg zu Ende ist.",
+  "lat": 53.848021,
+  "lon": 11.983341,
+  "oeffnungszeiten": "Mi–Fr 11–21 Uhr, Sa 11:30–21 Uhr, So 11:30–20 Uhr, Mo und Di zu",
+  "opening_hours": "Mo,Tu off; We-Fr 11:00-21:00; Sa 11:30-21:00; Su 11:30-20:00"
+ },
+ {
+  "id": "cafe-zwei-kraniche",
+  "name": "Zwei Kraniche",
+  "kategorie": "cafe",
+  "kurztext": "Kaffee und Kuchen im S-Bahnhof Hermsdorf, Terrasse zum Max-Beckmann-Platz.",
+  "lat": 52.6182031,
+  "lon": 13.3065509,
+  "website": "https://www.zweikraniche.com/",
+  "telefon": "+49 30 43654350",
+  "oeffnungszeiten": "Mo–Fr 7–17 Uhr, Sa und So 8–17 Uhr",
+  "opening_hours": "Mo-Fr 07:00-17:00; Sa,Su 08:00-17:00"
+ },
+ {
+  "id": "restaurant-da-michelino",
+  "name": "Da Michelino",
+  "kategorie": "restaurant",
+  "kurztext": "Pizza und Pasta mit Plätzen draußen, am Falkentaler Steig.",
+  "lat": 52.6259414,
+  "lon": 13.2916075
+ },
+ {
+  "id": "strandbad-tegeler-see",
+  "name": "Strandbad Tegeler See",
+  "kategorie": "baden",
+  "kurztext": "Sandstrand am Tegeler See mit Rutsche und Spielplatz, im Sommer.",
+  "lat": 52.5778962,
+  "lon": 13.2448935,
+  "website": "https://www.berlinerbaeder.de/baeder/detail/strandbad-tegeler-see/",
+  "oeffnungszeiten": "Sommersaison, Eintritt"
  }
 ]

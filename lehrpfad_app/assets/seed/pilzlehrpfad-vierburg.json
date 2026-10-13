@@ -1,0 +1,298 @@
+{
+ "id": "pilzlehrpfad-vierburg",
+ "name": "Pilzlehrpfad Vierburg",
+ "typ": "wald",
+ "kurzbeschreibung": "Tafeln im Vierburgwald nennen Speisepilze, Giftpilze und ihre Doppelgänger. Eine Plattform blickt auf den Großen Peetscher See.",
+ "beschreibung": "Am Großen Peetscher See nennen Tafeln Speisepilz, Giftpilz und den Doppelgänger daneben beim Namen. Eine Plattform schiebt sich an den See. Vom Weg zweigt sie nur kurz ab. Tafeln dort nennen Brutvögel und die Vögel, die auf dem Wasser rasten. Buchen, Eichen und Nadelbäume stehen nebeneinander, zum See hin wird der Boden torfig. Davor liegt Sand, dazwischen feuchte Senken. Bänke stehen am Weg. Nach Regen wird der Boden weich.",
+ "laengeKm": 4.0,
+ "dauerMin": 90,
+ "rundkurs": true,
+ "markierung": "Wegweiser",
+ "betreiber": "Stadt Bützow",
+ "region": "Vierburgwald, Dreetz-Peetsch, Landkreis Rostock",
+ "website": "https://www.treffpunkt-ostsee.de/ostsee/sehenswertes/naturlehrpfade-erlebnispfade/pilzpfad-pilzlehrpfad-vierburgwald.php",
+ "anreise": "Parkplatz rechts am Waldrand der Bützower Straße, von Dreetz in Richtung Rühn. Der Weg beginnt an der Tafel zum Peetscher See.",
+ "startName": "Parkplatz Waldrand, Bützower Straße",
+ "arten": [
+  "Blässhuhn",
+  "Buchfink",
+  "Hängebirke",
+  "Haubentaucher",
+  "Heidelbeere",
+  "Kiefer",
+  "Kohlmeise",
+  "Rotbuche",
+  "Schilf",
+  "Stockente",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Adlerfarn",
+  "Amsel",
+  "Stieleiche"
+ ],
+ "artenNachweis": {
+  "Blässhuhn": "typisch",
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Haubentaucher": "typisch",
+  "Heidelbeere": "typisch",
+  "Kiefer": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotbuche": "belegt",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Stieleiche": "belegt"
+ },
+ "lebensraeume": [
+  "kiefernforst",
+  "buchenwald",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [],
+ "form": "linie",
+ "route": [
+  [
+   53.81171,
+   11.94923
+  ],
+  [
+   53.810546,
+   11.951329
+  ],
+  [
+   53.812184,
+   11.955511
+  ],
+  [
+   53.8126,
+   11.9625
+  ],
+  [
+   53.8124,
+   11.97
+  ],
+  [
+   53.812228,
+   11.976003
+  ],
+  [
+   53.811373,
+   11.976936
+  ],
+  [
+   53.81008,
+   11.977348
+  ],
+  [
+   53.8107,
+   11.971
+  ],
+  [
+   53.8102,
+   11.9645
+  ],
+  [
+   53.8099,
+   11.958
+  ],
+  [
+   53.810546,
+   11.951329
+  ],
+  [
+   53.81171,
+   11.94923
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -721553703,
+   "lat": 53.81171,
+   "lon": 11.94923,
+   "km": 0.0,
+   "titel": "Tafel am Peetscher See",
+   "thema": "Naturschutzgebiet am Start",
+   "kurztext": "Am Waldrand hängt die Tafel zum Großen Peetscher See. Links davon führt der Weg in den Vierburgwald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -2709350051,
+   "lat": 53.811843,
+   "lon": 11.954641,
+   "km": 0.45,
+   "titel": "Pilze der Jahreszeiten",
+   "thema": "Waldregeln und was hier wächst",
+   "kurztext": "Die erste Tafel hängt die Waldregeln aus und ordnet die Pilze nach der Jahreszeit.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -4154179279,
+   "lat": 53.812483,
+   "lon": 11.960534,
+   "km": 0.85,
+   "titel": "Speisepilze und Giftpilze",
+   "thema": "Pilze bei Buchen",
+   "kurztext": "Unter Buchen stellt die Tafel Speisepilze neben ihre giftigen Doppelgänger.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2957620705,
+   "lat": 53.81249,
+   "lon": 11.966613,
+   "km": 1.25,
+   "titel": "Pilze in Feuchtgebieten",
+   "thema": "Nasse Senken",
+   "kurztext": "Wo der Boden feucht bleibt, zeigt die Tafel die Pilze der Senken.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1827232812,
+   "lat": 53.812301,
+   "lon": 11.973459,
+   "km": 1.7,
+   "titel": "Heimische Pilze auf Holz",
+   "thema": "Totholz",
+   "kurztext": "An Stubben und liegendem Holz wachsen andere Pilze als am Boden. Die Tafel nennt sie.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -1975263899,
+   "lat": 53.810085,
+   "lon": 11.977297,
+   "km": 2.13,
+   "titel": "Beobachtungsplattform",
+   "thema": "Brut- und Rastvögel",
+   "kurztext": "Die Plattform reicht an den Peetscher See. Tafeln nennen Brutvögel und die Vögel, die hier rasten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -786201089,
+   "lat": 53.810699,
+   "lon": 11.970986,
+   "km": 2.55,
+   "titel": "Heimische Giftpilze",
+   "thema": "Pilze bei Eichen",
+   "kurztext": "Bei den Eichen hängt die Tafel zu den Giftpilzen und zu dem, was unter Eichen wächst.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -3404069325,
+   "lat": 53.8102,
+   "lon": 11.964491,
+   "km": 2.98,
+   "titel": "Schutzhütte",
+   "thema": "Rast am Weg",
+   "kurztext": "Die Schutzhütte steht am Weg, daneben eine Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -2919803639,
+   "lat": 53.809904,
+   "lon": 11.957962,
+   "km": 3.41,
+   "titel": "Heimische Speisepilze",
+   "thema": "Speisepilze dieses Waldes",
+   "kurztext": "Die Tafel stellt die Speisepilze vor, die in diesem Wald vorkommen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -854729364,
+   "lat": 53.810399,
+   "lon": 11.952852,
+   "km": 3.75,
+   "titel": "Essbare Pilze im Waldgebiet",
+   "thema": "Was in diesem Stück wächst",
+   "kurztext": "Die letzte Tafel bleibt bei den essbaren Pilzen dieses Waldstücks.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": -419046840,
+   "lat": 53.81171,
+   "lon": 11.94923,
+   "kategorie": "parking",
+   "name": "Parkplatz Waldrand"
+  },
+  {
+   "osmId": -9389192452,
+   "lat": 53.81008,
+   "lon": 11.977348,
+   "kategorie": "viewpoint",
+   "name": "Beobachtungsplattform Peetscher See"
+  },
+  {
+   "osmId": -9389192453,
+   "lat": 53.8102,
+   "lon": 11.964491,
+   "kategorie": "shelter",
+   "name": "Schutzhütte"
+  }
+ ],
+ "besuchshinweise": "Nicht barrierefrei. Nach Regen weicher Boden. An der ersten Tafel hängen die Regeln fürs Sammeln.",
+ "hoertext": "Am Waldrand hängt eine Tafel zum See, und links davon biegt der Weg in den Vierburgwald. Unter Buchen und Eichen nennen die Tafeln den Pilz und den Doppelgänger, der daneben wächst, und wo der Boden zum See hin torfig wird, wechseln die Namen, bis eine Plattform ans Wasser reicht. Wer dort stehen bleibt, blickt auf Vögel, die hier brüten oder rasten. Bänke stehen dazwischen. Nach Regen federt der Boden. Die Regeln fürs Sammeln hängen an der ersten Tafel.",
+ "bilderAsset": "assets/images/trails/pilzlehrpfad-vierburg/credits.json"
+}

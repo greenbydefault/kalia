@@ -1,0 +1,447 @@
+{
+ "id": "waldlehrpfad-hermsdorf",
+ "name": "Waldlehrpfad Hermsdorf",
+ "typ": "wald",
+ "kurzbeschreibung": "Ein Eichelhäher an den Stämmen weist durch den Hermsdorfer Wald. Vom Podest fällt der Blick auf Rotwild, Damwild und Wildschweine.",
+ "beschreibung": "Am Hang liegt der Podsol offen, Schicht auf Schicht. Gruppen der Bäume des Jahres stehen daneben, jede mit einer eigenen Tafel. Achtzehn Schautafeln behandeln Tiere, Holz und die Bewirtschaftung des Waldes. An einigen Stellen stehen Geräte zum Balancieren. Zwei Waldsofas stehen am Aussichtspodest über dem Damwildgehege. Wildschweine und Rotwild leben in den Nachbargehegen. Am Zaun hängt ein Automat mit Futter für die Tiere.",
+ "laengeKm": 2.1,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Eichelhäher an den Bäumen",
+ "betreiber": "Berliner Forsten",
+ "region": "Tegeler Forst, Hermsdorf, Reinickendorf",
+ "website": "https://www.berlin.de/forsten/waldbildung/waldlehrpfade/hermsdorf/",
+ "anreise": "Waldparkplatz am Ende des Ehrenpfortensteigs, 13467 Berlin-Hermsdorf. Bus 125 bis Dohnensteig, von dort rund 750 Meter zu Fuß. Auch Schulzendorfer Straße (Bus 125). U6 Alt-Tegel, weiter mit dem Bus 125.",
+ "startName": "Waldparkplatz Wildgehege",
+ "arten": [
+  "Buchfink",
+  "Eichelhäher",
+  "Hängebirke",
+  "Hainbuche",
+  "Traubeneiche",
+  "Heidelbeere",
+  "Kiefer",
+  "Stieleiche",
+  "Adlerfarn",
+  "Amsel",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichhörnchen",
+  "Gemeine Esche"
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hängebirke": "typisch",
+  "Hainbuche": "belegt",
+  "Traubeneiche": "belegt",
+  "Heidelbeere": "typisch",
+  "Kiefer": "typisch",
+  "Stieleiche": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "belegt",
+  "Eberesche": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ },
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   52.612093,
+   13.285179
+  ],
+  [
+   52.612108,
+   13.285132
+  ],
+  [
+   52.61227,
+   13.284751
+  ],
+  [
+   52.612396,
+   13.284547
+  ],
+  [
+   52.612527,
+   13.284448
+  ],
+  [
+   52.612908,
+   13.284228
+  ],
+  [
+   52.613102,
+   13.284244
+  ],
+  [
+   52.613313,
+   13.28443
+  ],
+  [
+   52.613495,
+   13.284633
+  ],
+  [
+   52.613832,
+   13.28507
+  ],
+  [
+   52.614195,
+   13.285874
+  ],
+  [
+   52.614581,
+   13.286976
+  ],
+  [
+   52.61485,
+   13.286694
+  ],
+  [
+   52.615053,
+   13.286613
+  ],
+  [
+   52.615315,
+   13.286655
+  ],
+  [
+   52.615594,
+   13.286785
+  ],
+  [
+   52.615881,
+   13.286967
+  ],
+  [
+   52.616258,
+   13.287307
+  ],
+  [
+   52.61633,
+   13.284909
+  ],
+  [
+   52.616058,
+   13.284674
+  ],
+  [
+   52.615783,
+   13.284447
+  ],
+  [
+   52.615613,
+   13.284156
+  ],
+  [
+   52.615324,
+   13.283604
+  ],
+  [
+   52.615153,
+   13.282922
+  ],
+  [
+   52.615008,
+   13.282464
+  ],
+  [
+   52.614906,
+   13.282046
+  ],
+  [
+   52.614843,
+   13.281688
+  ],
+  [
+   52.614592,
+   13.281779
+  ],
+  [
+   52.614248,
+   13.281963
+  ],
+  [
+   52.613891,
+   13.282076
+  ],
+  [
+   52.613755,
+   13.282163
+  ],
+  [
+   52.613661,
+   13.282303
+  ],
+  [
+   52.613542,
+   13.281903
+  ],
+  [
+   52.613387,
+   13.281417
+  ],
+  [
+   52.613263,
+   13.281112
+  ],
+  [
+   52.613219,
+   13.281026
+  ],
+  [
+   52.613062,
+   13.280768
+  ],
+  [
+   52.612956,
+   13.280297
+  ],
+  [
+   52.612868,
+   13.279789
+  ],
+  [
+   52.612757,
+   13.27941
+  ],
+  [
+   52.612596,
+   13.278924
+  ],
+  [
+   52.612687,
+   13.27774
+  ],
+  [
+   52.612763,
+   13.277628
+  ],
+  [
+   52.612687,
+   13.27774
+  ],
+  [
+   52.612596,
+   13.278924
+  ],
+  [
+   52.61256,
+   13.279696
+  ],
+  [
+   52.612462,
+   13.280452
+  ],
+  [
+   52.612057,
+   13.281704
+  ],
+  [
+   52.611963,
+   13.282321
+  ],
+  [
+   52.611985,
+   13.283438
+  ],
+  [
+   52.612095,
+   13.284551
+  ],
+  [
+   52.612108,
+   13.285132
+  ],
+  [
+   52.612093,
+   13.285179
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 291349863,
+   "lat": 52.6120925,
+   "lon": 13.2851785,
+   "km": 0.0,
+   "titel": "Waldparkplatz",
+   "thema": "Einstieg am Wildgehege",
+   "kurztext": "Am Ende des Ehrenpfortensteigs liegt der Parkplatz. Der Rundweg beginnt am Zaun der Gehege.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 12926433964,
+   "lat": 52.614069,
+   "lon": 13.2853965,
+   "km": 0.24,
+   "titel": "Aussichtspodest",
+   "thema": "Blick ins Damwildgehege",
+   "kurztext": "Ein überdachtes Podest schaut ins Damwildgehege. Hinauf führen neun Stufen, eine Rampe fehlt. Zwei Waldsofas stehen daneben.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 12926475437,
+   "lat": 52.614594,
+   "lon": 13.2869074,
+   "km": 0.39,
+   "titel": "Waldtiere Quiz",
+   "thema": "Tiere im Wald",
+   "kurztext": "Die Tafel fragt die Arten ab, die im Hermsdorfer Wald leben.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 5148605309,
+   "lat": 52.6162506,
+   "lon": 13.2859456,
+   "km": 0.75,
+   "titel": "Traubeneiche",
+   "thema": "Baum des Jahres",
+   "kurztext": "Die Tafel steht an der Traubeneiche, einer der Jahresbäume am Weg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 14159204013,
+   "lat": 52.6162686,
+   "lon": 13.2856955,
+   "km": 0.75,
+   "titel": "Baum des Jahres",
+   "thema": "Bäume des Jahres seit 1989",
+   "kurztext": "Tafeln stehen direkt an den Baumgruppen, vom Jahr 1989 bis zu den jüngeren.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": 12509385464,
+   "lat": 52.6162241,
+   "lon": 13.2847742,
+   "km": 0.75,
+   "titel": "Der Wald und seine Nutzung",
+   "thema": "Waldbewirtschaftung",
+   "kurztext": "Die Tafel erklärt, warum und wie dieser Wald bewirtschaftet wird.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": 12926452322,
+   "lat": 52.6148575,
+   "lon": 13.2818855,
+   "km": 1.01,
+   "titel": "Unsere Spechte",
+   "thema": "Spechte",
+   "kurztext": "Die Tafel stellt die Spechte des Waldes vor.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": 12926452321,
+   "lat": 52.6148211,
+   "lon": 13.2815301,
+   "km": 1.04,
+   "titel": "Laubbäume",
+   "thema": "Laubbäume am Weg",
+   "kurztext": "Die Tafel benennt die Laubbäume, die hier stehen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 12829858588,
+   "lat": 52.6128466,
+   "lon": 13.2774377,
+   "km": 1.53,
+   "titel": "Der Podsol",
+   "thema": "Bodenprofil am Hang",
+   "kurztext": "Am Hang liegen die Bodenschichten frei. Die Tafel erklärt den Podsol.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 9
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 11659507922,
+   "lat": 52.6139638,
+   "lon": 13.285127,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12926433963,
+   "lat": 52.6140754,
+   "lon": 13.2853905,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 12926433964,
+   "lat": 52.614069,
+   "lon": 13.2853965,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 12926433967,
+   "lat": 52.6141615,
+   "lon": 13.2857179,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 12926475438,
+   "lat": 52.6146076,
+   "lon": 13.2869897,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 827724555,
+   "lat": 52.61205448,
+   "lon": 13.285609680000002,
+   "kategorie": "parking",
+   "name": "Wildgehege"
+  }
+ ],
+ "oeffnungszeiten": "Ganzjährig, rund um die Uhr.",
+ "besuchshinweise": "Futter nur aus dem Automaten am Gehege. Mitgebrachtes Futter nicht verfüttern. Zum Podest führen neun Stufen, ohne Rampe.",
+ "hoertext": "Hinter dem Parkplatz übernimmt der Wald. Als Zeichen führt der Eichelhäher die Runde durch Kiefern und Eichen. Mal steigt der Weg, mal fällt er. An einem Hang öffnet sich der Boden, hell und dunkel übereinander. Zwischen den Zäunen äsen Damwild und Rotwild, Wildschweine wühlen im Nachbargehege, und wer die Stufen zum Podest hochsteigt, schaut ihnen auf einmal ins Fell. Mitgebrachtes Futter bleibt in der Tasche. Am Zaun füllt ein Automat die Schalen.",
+ "bilderAsset": "assets/images/trails/waldlehrpfad-hermsdorf/credits.json"
+}

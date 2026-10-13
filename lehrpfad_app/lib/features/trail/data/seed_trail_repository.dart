@@ -110,6 +110,8 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/naturlehrpfad-huetter-klosterteiche.json',
     'assets/seed/lehrpfad-laehnwitz.json',
     'assets/seed/heilwald-bad-doberan.json',
+    'assets/seed/pilzlehrpfad-vierburg.json',
+    'assets/seed/waldlehrpfad-hermsdorf.json',
     'assets/seed/waldspielplatz-jaegerhaus.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',

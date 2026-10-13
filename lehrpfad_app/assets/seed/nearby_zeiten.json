@@ -106,7 +106,10 @@
     {"poi": "aktivitaet-karls-roevershagen", "sek": 993},
     {"poi": "museum-koehlerhof-wiethagen", "sek": 1061}
   ],
-  "harzungspfad": [],
+  "harzungspfad": [
+    {"poi": "restaurant-da-michelino", "sek": 1116},
+    {"poi": "cafe-zwei-kraniche", "sek": 1130}
+  ],
   "heide-erlebnisweg": [
     {"poi": "tierpark-kunsterspring", "sek": 443},
     {"poi": "schifffahrt-stendenitz", "sek": 852},
@@ -133,7 +136,9 @@
     {"poi": "imbiss-fuchsbau-speck", "sek": 34}
   ],
   "kinderbauernhof-pinke-panke": [
-    {"poi": "cafe-panke", "sek": 253}
+    {"poi": "cafe-panke", "sek": 253},
+    {"poi": "cafe-zwei-kraniche", "sek": 1032},
+    {"poi": "restaurant-da-michelino", "sek": 1170}
   ],
   "kinderwald-maerkisch-buchholz": [],
   "kollhorst": [
@@ -270,6 +275,10 @@
     {"poi": "platja-cavaio-arenys", "sek": 1149},
     {"poi": "camping-marcos-arenys", "sek": 1200}
   ],
+  "pilzlehrpfad-vierburg": [
+    {"poi": "restaurant-zur-boerse-buetzow", "sek": 463},
+    {"poi": "cafe-am-markt-buetzow", "sek": 529}
+  ],
   "raddusch": [
     {"poi": "gurkenkahn-raddusch", "sek": 0},
     {"poi": "kahnhafen-raddusch", "sek": 0},
@@ -350,6 +359,11 @@
     {"poi": "aktivitaet-kanuhafen-luebeck", "sek": 940},
     {"poi": "cafe-marli-hofcafe", "sek": 1003},
     {"poi": "museum-natur-umwelt-luebeck", "sek": 1199}
+  ],
+  "waldlehrpfad-hermsdorf": [
+    {"poi": "cafe-zwei-kraniche", "sek": 392},
+    {"poi": "restaurant-da-michelino", "sek": 435},
+    {"poi": "strandbad-tegeler-see", "sek": 1048}
   ],
   "waldlehrpfad-silberbergen": [
     {"poi": "restaurant-baumgarten-bistensee", "sek": 63},
