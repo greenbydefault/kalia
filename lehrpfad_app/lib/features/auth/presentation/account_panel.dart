@@ -9,6 +9,10 @@ import '../data/auth_providers.dart';
 import 'account_prefs_sections.dart';
 import 'auth_form.dart';
 
+/// Testversion: Anmelden/Registrieren im Konto-Tab nicht zeigen.
+/// Auf `true` stellen, wenn das Formular wieder sichtbar sein soll.
+bool get _accountSignInVisible => false;
+
 /// Konto-Tab: Login/Register oder Profil, darunter die lokalen Angaben aus
 /// dem Onboarding (Gruppe, Startpunkt, Standort), die ohne Konto gelten.
 class AccountPanel extends ConsumerWidget {
@@ -19,19 +23,23 @@ class AccountPanel extends ConsumerWidget {
     final user = SupabaseConfig.isConfigured
         ? ref.watch(authStateProvider).value
         : null;
+    final showSignIn = _accountSignInVisible;
+    final showAuthHeader = user != null || showSignIn;
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          if (!SupabaseConfig.isConfigured)
-            const _OfflineHint()
-          else if (user != null)
-            _ProfileHeader(user: user)
-          else
-            const AuthForm(),
-          const SizedBox(height: 32),
+          if (showAuthHeader) ...[
+            if (!SupabaseConfig.isConfigured)
+              const _OfflineHint()
+            else if (user != null)
+              _ProfileHeader(user: user)
+            else
+              const AuthForm(),
+            const SizedBox(height: 32),
+          ],
           const GroupPrefsSection(),
           const SizedBox(height: 24),
           const StartpointSection(),

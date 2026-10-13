@@ -5,10 +5,12 @@ import 'package:latlong2/latlong.dart';
 import 'package:lehrpfad_app/app/theme/app_theme.dart';
 import 'package:lehrpfad_app/features/auth/presentation/account_prompt_sheet.dart';
 import 'package:lehrpfad_app/features/nearby_trails/data/nearby_trails_provider.dart';
+import 'package:lehrpfad_app/features/location/map_radius.dart';
 import 'package:lehrpfad_app/features/nearby_trails/domain/anfahrt.dart';
 import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_provider.dart';
 import 'package:lehrpfad_app/features/player/data/mini_player_provider.dart';
 import 'package:lehrpfad_app/features/trail/data/seed_trail_repository.dart';
+import 'package:lehrpfad_app/features/trail/domain/catalog_filter.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail_progress/data/trail_progress_providers.dart';
 import 'package:lehrpfad_app/features/trail_progress/data/trail_list_providers.dart';
@@ -54,21 +56,33 @@ void main() {
     test('nie unter 1 Minute', () => expect(anfahrtMinuten(0), 1));
   });
 
-  group('selectNearbyTrails', () {
+  group('filterCatalog + rankNearbyTrails', () {
     const anchor = LatLng(53.0, 13.0);
 
+    /// Die Pipeline der App: `filterCatalog` (wie `visibleTrailsProvider`),
+    /// dann Rang (wie `nearbyTrailEntriesProvider`).
     List<NearbyTrailEntry> select({
+      List<Trail>? from,
       int? maxKm,
       bool stroller = false,
       bool lengthOn = true,
       bool strollerOn = true,
-    }) => selectNearbyTrails(
-      trails,
-      maxKm: maxKm,
-      stroller: stroller,
-      lengthOn: lengthOn,
-      strollerOn: strollerOn,
-      anchor: anchor,
+      String? typ,
+      MapRadius radius = MapRadius.all,
+      LatLng? at = anchor,
+      int limit = nearbyTrailCount,
+    }) => rankNearbyTrails(
+      filterCatalog(
+        from ?? trails,
+        typ: typ,
+        radius: radius,
+        anchor: at,
+        maxKm: maxKm,
+        lengthOn: lengthOn,
+        strollerOn: stroller && strollerOn,
+      ),
+      anchor: at,
+      limit: limit,
     );
 
     test('höchstens $nearbyTrailCount Wege', () {
@@ -78,14 +92,7 @@ void main() {
 
     test('unpassende Wege fallen weg, Liste darf leer sein', () {
       final wege = trails.where((t) => !t.isFlaeche).toList();
-      final r = selectNearbyTrails(
-        wege,
-        maxKm: 0,
-        stroller: false,
-        lengthOn: true,
-        strollerOn: true,
-        anchor: anchor,
-      );
+      final r = select(from: wege, maxKm: 0);
       expect(r, isEmpty);
     });
 
@@ -117,16 +124,33 @@ void main() {
         at('nah-passend', 0.18, stroller: true),
         at('weit-passend', 0.55, stroller: true),
       ];
-      final r = selectNearbyTrails(
-        sample,
-        maxKm: null,
+      final r = select(
+        from: sample,
         stroller: true,
         lengthOn: false,
-        strollerOn: true,
-        anchor: const LatLng(53, 13),
         limit: sample.length,
       );
       expect(r.map((e) => e.trail.id), ['nah-passend', 'weit-passend']);
+
+      // Umkreis 50 km (0,55° ≈ 61 km fällt raus): dieselbe Menge, die die
+      // Karte bekäme.
+      final near = select(
+        from: sample,
+        stroller: true,
+        lengthOn: false,
+        radius: MapRadius.km50,
+        limit: sample.length,
+      );
+      expect(near.map((e) => e.trail.id), ['nah-passend']);
+      expect(
+        filterCatalog(
+          sample,
+          radius: MapRadius.km50,
+          anchor: anchor,
+          strollerOn: true,
+        ).map((t) => t.id),
+        near.map((e) => e.trail.id),
+      );
     });
 
     test('Länge-Filter: nur Fläche oder innerhalb des Limits', () {
@@ -152,13 +176,10 @@ void main() {
 
     test('Berlin: Distanz ist Luftlinie zum Start, nicht die Weglänge', () {
       const berlin = LatLng(52.532, 13.385);
-      final r = selectNearbyTrails(
-        trails,
-        maxKm: null,
-        stroller: false,
+      final r = select(
         lengthOn: false,
         strollerOn: false,
-        anchor: berlin,
+        at: berlin,
         limit: trails.length,
       );
       final outside = r
@@ -176,14 +197,7 @@ void main() {
 
     test('Heiligengrabe: 4 km + Kinderwagen zeigt nur passende Wege', () {
       const heiligengrabe = LatLng(53.145, 12.363);
-      final r = selectNearbyTrails(
-        trails,
-        maxKm: 4,
-        stroller: true,
-        lengthOn: true,
-        strollerOn: true,
-        anchor: heiligengrabe,
-      );
+      final r = select(maxKm: 4, stroller: true, at: heiligengrabe);
       for (final e in r) {
         expect(e.trail.isFlaeche || e.trail.laengeKm <= 4, isTrue);
         expect(isStrollerFriendly(e.trail), isTrue);
@@ -230,14 +244,7 @@ void main() {
     });
 
     test('ohne Anker keine Distanz', () {
-      final r = selectNearbyTrails(
-        trails,
-        maxKm: null,
-        stroller: false,
-        lengthOn: true,
-        strollerOn: true,
-        anchor: null,
-      );
+      final r = select(at: null);
       expect(r.every((e) => e.distanceM == null), isTrue);
     });
   });

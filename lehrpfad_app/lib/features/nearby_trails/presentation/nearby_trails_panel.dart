@@ -9,7 +9,11 @@ import '../../../core/motion/reduced_motion.dart';
 import '../../../shared/widgets/bottom_content_card.dart';
 import '../../../shared/widgets/empty_filter_notice.dart';
 import '../../../shared/widgets/placeholder_block.dart';
+import '../../location/home_filter.dart';
+import '../../location/map_radius.dart';
+import '../../location/user_position_provider.dart';
 import '../../onboarding/data/onboarding_prefs_provider.dart';
+import '../../trail/domain/catalog_filter.dart';
 import '../data/nearby_trails_provider.dart';
 import 'nearby_trail_card.dart';
 import 'place_pill.dart';
@@ -161,7 +165,17 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
           ),
       ];
     }
-    if (entries.isEmpty) return const [EmptyFilterNotice()];
+    if (entries.isEmpty) {
+      final radiusAll = ref.watch(effectiveMapRadiusProvider).isAll;
+      return [
+        EmptyFilterNotice(
+          actionLabel: radiusAll ? null : 'Umkreis vergrößern',
+          onAction: radiusAll
+              ? null
+              : () => ref.read(mapRadiusProvider.notifier).enlarge(),
+        ),
+      ];
+    }
     logNearbyVisible();
     final targetKey = ref.watch(coachTargetKeyProvider);
     return [
