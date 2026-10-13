@@ -118,6 +118,14 @@
     {"poi": "hofladen-herzsprung", "sek": 1170}
   ],
   "heilige-hallen": [],
+  "heilwald-bad-doberan": [
+    {"poi": "aktivitaet-molli-doberan", "sek": 129},
+    {"poi": "museum-moeckelhaus-doberan", "sek": 229},
+    {"poi": "cafe-kornhaus-doberan", "sek": 285},
+    {"poi": "aktivitaet-sommerrodelbahn-doberan", "sek": 288},
+    {"poi": "baden-strand-heiligendamm", "sek": 665},
+    {"poi": "restaurant-fischereihof-detlefsen", "sek": 1016}
+  ],
   "hullerbusch": [],
   "jamnoer-urwald": [],
   "kaeflingsberg-speck": [
@@ -225,6 +233,7 @@
     {"poi": "aktivitaet-molli-doberan", "sek": 850},
     {"poi": "museum-moeckelhaus-doberan", "sek": 876},
     {"poi": "cafe-kornhaus-doberan", "sek": 921},
+    {"poi": "aktivitaet-sommerrodelbahn-doberan", "sek": 926},
     {"poi": "baden-strand-heiligendamm", "sek": 1124}
   ],
   "naturlehrpfad-plaussiger-waeldchen": [],

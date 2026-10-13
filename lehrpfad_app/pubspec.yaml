@@ -176,6 +176,7 @@ flutter:
     - assets/images/trails/kurwald-graal-mueritz/
     - assets/images/trails/naturlehrpfad-huetter-klosterteiche/
     - assets/images/trails/lehrpfad-laehnwitz/
+    - assets/images/trails/heilwald-bad-doberan/
     - assets/images/trails/waldspielplatz-jaegerhaus/
 
   # An image asset can refer to one or more resolution-specific "variants", see

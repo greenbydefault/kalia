@@ -1740,5 +1740,17 @@
   "kurztext": "Baden im Garder See, wenige Minuten vom Parkplatz am Campingplatz.",
   "lat": 53.6902484,
   "lon": 12.0569165
+ },
+ {
+  "id": "aktivitaet-sommerrodelbahn-doberan",
+  "name": "Sommerrodelbahn Bad Doberan",
+  "kategorie": "aktivitaet",
+  "kurztext": "Rodelbahn mit Kreisel und Brücke in den Stülower Bergen, dazu Trampolin, Spielplatz und Kiosk.",
+  "lat": 54.0969302,
+  "lon": 11.8911521,
+  "website": "https://sommerrodelbahn-dbr.de/",
+  "oeffnungszeiten": "März–Oktober täglich 10–18 Uhr, Juni–August bis 20 Uhr",
+  "telefon": "+49 38203 407401",
+  "opening_hours": "Mar-Oct: 10:00-18:00"
  }
 ]
