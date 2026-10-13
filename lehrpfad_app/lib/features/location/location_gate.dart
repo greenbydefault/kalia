@@ -5,6 +5,7 @@ import '../trail/domain/trail.dart';
 import '../trail_progress/tracking/location_service.dart';
 import 'location_consent_sheet.dart';
 import 'location_permission_controller.dart';
+import '../onboarding/data/onboarding_prefs_provider.dart';
 import 'proximity.dart';
 import 'user_position_provider.dart';
 
@@ -12,7 +13,9 @@ import 'user_position_provider.dart';
 abstract final class LocationGate {
   static Future<bool> ensureMap(BuildContext context, WidgetRef ref) async {
     final enabled = ref.read(mapLocationEnabledProvider);
-    final status = await ref.read(locationPermissionProvider.notifier).refresh();
+    final status = await ref
+        .read(locationPermissionProvider.notifier)
+        .refresh();
     if (enabled && status.isGranted) return true;
 
     if (status == OsLocationStatus.deniedForever) {
@@ -37,13 +40,15 @@ abstract final class LocationGate {
       if (!ok) return false;
       await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
     }
-    await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
+    await ref.read(onboardingPrefsProvider.notifier).useDevicePosition();
     await ref.read(userPositionProvider.notifier).refresh(force: true);
     return ref.read(locationPermissionProvider).isGranted;
   }
 
   static Future<void> ensureTour(BuildContext context, WidgetRef ref) async {
-    final status = await ref.read(locationPermissionProvider.notifier).refresh();
+    final status = await ref
+        .read(locationPermissionProvider.notifier)
+        .refresh();
     if (status.isGranted) return;
 
     if (status == OsLocationStatus.deniedForever) {
@@ -65,7 +70,10 @@ abstract final class LocationGate {
         'Standortberechtigung wurde verweigert.',
       );
     }
-    final ok = await showLocationConsentSheet(context, LocationConsentKind.tour);
+    final ok = await showLocationConsentSheet(
+      context,
+      LocationConsentKind.tour,
+    );
     if (!ok) {
       throw LocationException(
         LocationFailure.denied,

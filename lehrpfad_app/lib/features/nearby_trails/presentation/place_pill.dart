@@ -105,7 +105,6 @@ Future<void> useDeviceLocation(BuildContext context, WidgetRef ref) async {
   try {
     final ok = await LocationGate.ensureMap(context, ref);
     if (!ok) return;
-    await ref.read(onboardingPrefsProvider.notifier).setUseLocation(true);
     final fix = ref.read(userPositionProvider).fix;
     ref.read(locateTargetProvider.notifier).goTo(fix?.position);
   } on LocationException catch (e) {

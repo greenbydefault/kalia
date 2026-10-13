@@ -13,7 +13,7 @@ final locationPermissionProvider =
 class LocationPermissionController extends Notifier<OsLocationStatus> {
   @override
   OsLocationStatus build() {
-    _refresh();
+    refresh();
     return OsLocationStatus.unknown;
   }
 
@@ -24,8 +24,6 @@ class LocationPermissionController extends Notifier<OsLocationStatus> {
     state = next;
     return next;
   }
-
-  Future<OsLocationStatus> _refresh() => refresh();
 
   Future<OsLocationStatus> requestWhenInUse() async {
     await _location.ensurePermission(requestAlways: false);

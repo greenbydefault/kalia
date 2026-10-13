@@ -7,7 +7,7 @@ import '../../location/location_permission_controller.dart';
 import '../../nearby/data/nearby_providers.dart';
 import '../../trail/data/providers.dart';
 import '../../trail_progress/tracking/location_service.dart';
-import '../data/onboarding_providers.dart';
+import '../data/onboarding_prefs_provider.dart';
 import '../data/place_search.dart';
 import 'screens/group_screen.dart';
 import 'screens/location_screen.dart';
@@ -92,7 +92,7 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
   }
 
   Future<void> _finish() =>
-      ref.read(onboardingCompletedProvider.notifier).complete();
+      ref.read(onboardingPrefsProvider.notifier).complete();
 
   Widget _child() {
     return switch (_step) {

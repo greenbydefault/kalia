@@ -8,18 +8,14 @@ import '../data/auth_providers.dart';
 class AuthForm extends ConsumerStatefulWidget {
   const AuthForm({
     super.key,
-    this.initialDisplayName,
     this.startInRegisterMode = false,
     this.showHeadline = true,
-    this.aboveFields,
     this.belowActions,
     this.onSuccess,
   });
 
-  final String? initialDisplayName;
   final bool startInRegisterMode;
   final bool showHeadline;
-  final Widget? aboveFields;
   final Widget? belowActions;
   final VoidCallback? onSuccess;
 
@@ -31,7 +27,7 @@ class _AuthFormState extends ConsumerState<AuthForm> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  late final TextEditingController _nameController;
+  final _nameController = TextEditingController();
 
   late bool _isRegisterMode;
   bool _isLoading = false;
@@ -42,9 +38,6 @@ class _AuthFormState extends ConsumerState<AuthForm> {
   void initState() {
     super.initState();
     _isRegisterMode = widget.startInRegisterMode;
-    _nameController = TextEditingController(
-      text: widget.initialDisplayName ?? '',
-    );
   }
 
   @override
@@ -65,10 +58,7 @@ class _AuthFormState extends ConsumerState<AuthForm> {
     final auth = ref.read(authControllerProvider.notifier);
     final email = _emailController.text.trim();
     final password = _passwordController.text;
-    final typedName = _nameController.text.trim();
-    final displayName = typedName.isNotEmpty
-        ? typedName
-        : widget.initialDisplayName?.trim();
+    final displayName = _nameController.text.trim();
 
     try {
       if (_isRegisterMode) {
@@ -132,10 +122,6 @@ class _AuthFormState extends ConsumerState<AuthForm> {
               'mehreren Geräten behalten.',
               style: theme.textTheme.bodyMedium,
             ),
-            const SizedBox(height: 16),
-          ],
-          if (widget.aboveFields != null) ...[
-            widget.aboveFields!,
             const SizedBox(height: 16),
           ],
           if (_isRegisterMode) ...[

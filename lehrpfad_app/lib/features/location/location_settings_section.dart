@@ -10,7 +10,7 @@ import 'location_permission_controller.dart';
 import 'map_radius.dart';
 import 'user_position_provider.dart';
 
-/// Standort-Einstellungen — in allen drei Konto-Zuständen.
+/// Standort-Einstellungen im Konto: Toggle, Umkreis, Status, Position löschen.
 class LocationSettingsSection extends ConsumerWidget {
   const LocationSettingsSection({super.key});
 
@@ -19,6 +19,7 @@ class LocationSettingsSection extends ConsumerWidget {
     final theme = Theme.of(context);
     final enabled = ref.watch(mapLocationEnabledProvider);
     final radius = ref.watch(mapRadiusProvider);
+    final hasAnchor = ref.watch(mapAnchorProvider) != null;
     final status = ref.watch(locationPermissionProvider);
 
     return Column(
@@ -48,6 +49,13 @@ class LocationSettingsSection extends ConsumerWidget {
               ),
           ],
         ),
+        if (!hasAnchor) ...[
+          const SizedBox(height: AppSpacing.x1),
+          Text(
+            'Ohne Ort oder Standort zeigt die Karte alle Wege.',
+            style: theme.textTheme.bodySmall,
+          ),
+        ],
         const SizedBox(height: AppSpacing.x3),
         Text(_statusLabel(status), style: theme.textTheme.bodySmall),
         if (!kIsWeb &&
@@ -72,12 +80,22 @@ class LocationSettingsSection extends ConsumerWidget {
         Align(
           alignment: Alignment.centerLeft,
           child: TextButton(
-            onPressed: () =>
-                ref.read(userPositionProvider.notifier).clearStored(),
+            onPressed: () => _clearPosition(context, ref),
             child: const Text('Letzte bekannte Position löschen'),
           ),
         ),
       ],
+    );
+  }
+
+  Future<void> _clearPosition(BuildContext context, WidgetRef ref) async {
+    await ref.read(userPositionProvider.notifier).clearStored();
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        behavior: SnackBarBehavior.floating,
+        content: Text('Position gelöscht, Standort aus.'),
+      ),
     );
   }
 

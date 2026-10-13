@@ -139,7 +139,10 @@ class UserPositionController extends Notifier<UserPosition> {
     }
   }
 
+  /// Löscht gemerkte und aktuelle Position und schaltet den Standort aus.
+  /// Sonst bliebe die Nähe-Liste bei „Standort wird gesucht“ hängen.
   Future<void> clearStored() async {
+    await ref.read(mapLocationEnabledProvider.notifier).setEnabled(false);
     state = const UserPosition();
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_latKey);

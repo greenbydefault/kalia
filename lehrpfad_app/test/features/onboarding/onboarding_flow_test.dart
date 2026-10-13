@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/app/theme/app_theme.dart';
-import 'package:lehrpfad_app/features/onboarding/data/local_guest_profile_store.dart';
 import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_provider.dart';
-import 'package:lehrpfad_app/features/onboarding/data/onboarding_providers.dart';
+import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_store.dart';
 import 'package:lehrpfad_app/features/onboarding/data/place_search.dart';
 import 'package:lehrpfad_app/features/onboarding/domain/age_group.dart';
 import 'package:lehrpfad_app/features/onboarding/domain/user_place.dart';
@@ -145,11 +144,11 @@ void main() {
     await settle(tester);
 
     expect(find.text('HOME'), findsOneWidget);
-    expect(await LocalGuestProfileStore().isCompleted(), isTrue);
     final prefs = await tester.runAsync(
       () => ProviderContainer().read(onboardingPrefsStoreProvider).read(),
     );
-    expect(prefs!.place?.name, 'Leipzig');
+    expect(prefs!.completed, isTrue);
+    expect(prefs.place?.name, 'Leipzig');
     expect(prefs.place?.plz, '04103');
   });
 
@@ -326,7 +325,7 @@ void main() {
 
     testWidgets('zweiter Start → direkt fertig', (tester) async {
       SharedPreferences.setMockInitialValues({
-        LocalGuestProfileStore.completedKey: true,
+        OnboardingPrefsStore.completedKey: true,
       });
       await tester.pumpWidget(_gateApp());
       await tester.pump();

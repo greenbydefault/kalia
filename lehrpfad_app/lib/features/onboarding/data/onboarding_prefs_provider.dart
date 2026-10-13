@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../location/location_permission_controller.dart';
+import '../../location/user_position_provider.dart';
 import '../domain/age_group.dart';
 import '../domain/user_place.dart';
 import 'onboarding_prefs_store.dart';
@@ -35,21 +36,26 @@ class OnboardingPrefsNotifier extends AsyncNotifier<OnboardingPrefs> {
     await _store.writeGroups(groups, stroller: stroller);
   }
 
+  /// Gewählter Ort ersetzt den Gerätestandort: Standort aus, gespeicherte
+  /// Position weg.
   Future<void> setPlace(UserPlace place) async {
-    state = AsyncData(_current.copyWith(place: place, useLocation: false));
+    state = AsyncData(_current.copyWith(place: place));
     await _store.writePlace(place);
-    await _store.writeUseLocation(false);
-    await ref.read(mapLocationEnabledProvider.notifier).setEnabled(false);
+    await ref.read(userPositionProvider.notifier).clearStored();
   }
 
-  Future<void> setUseLocation(bool value) async {
-    state = AsyncData(
-      value
-          ? _current.copyWith(useLocation: true, clearPlace: true)
-          : _current.copyWith(useLocation: false),
-    );
-    await _store.writeUseLocation(value);
-    if (value) await _store.writePlace(null);
+  /// Gerätestandort ersetzt den gewählten Ort. Ort und Standort schließen sich
+  /// aus, darum läuft jeder Wechsel zum Standort hierüber.
+  Future<void> useDevicePosition() async {
+    state = AsyncData(_current.copyWith(clearPlace: true));
+    await _store.writePlace(null);
+    await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
+  }
+
+  Future<void> complete() async {
+    if (_current.completed) return;
+    state = AsyncData(_current.copyWith(completed: true));
+    await _store.writeCompleted();
   }
 
   Future<void> markCoachMarkSeen() async {
@@ -70,3 +76,13 @@ class OnboardingPrefsNotifier extends AsyncNotifier<OnboardingPrefs> {
     await _store.writeSaveToastSeen();
   }
 }
+
+/// Onboarding-Flag, `loading` bis die Prefs gelesen sind.
+final onboardingCompletedProvider = Provider<AsyncValue<bool>>((ref) {
+  return ref.watch(onboardingPrefsProvider).whenData((p) => p.completed);
+});
+
+/// True nur wenn Prefs geladen und Onboarding noch offen.
+final onboardingActiveProvider = Provider<bool>((ref) {
+  return ref.watch(onboardingCompletedProvider).asData?.value == false;
+});

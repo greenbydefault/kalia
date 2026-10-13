@@ -74,8 +74,7 @@ class _LocationScreenState extends ConsumerState<LocationScreen> {
     setState(() => _busy = false);
 
     if (granted) {
-      await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
-      await ref.read(onboardingPrefsProvider.notifier).setUseLocation(true);
+      await ref.read(onboardingPrefsProvider.notifier).useDevicePosition();
       final locate = ref.read(locateTargetProvider.notifier);
       unawaited(
         ref

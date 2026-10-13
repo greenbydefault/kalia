@@ -10,7 +10,7 @@ class OnboardingPrefs {
     this.ageGroups = const {},
     this.stroller = false,
     this.place,
-    this.useLocation = false,
+    this.completed = false,
     this.coachMarkSeen = false,
     this.accountPromptSeen = false,
     this.saveToastSeen = false,
@@ -19,7 +19,9 @@ class OnboardingPrefs {
   final Set<AgeGroup> ageGroups;
   final bool stroller;
   final UserPlace? place;
-  final bool useLocation;
+
+  /// Onboarding-Flow durchlaufen (`onboarding_completed`).
+  final bool completed;
   final bool coachMarkSeen;
   final bool accountPromptSeen;
 
@@ -34,7 +36,7 @@ class OnboardingPrefs {
     bool? stroller,
     UserPlace? place,
     bool clearPlace = false,
-    bool? useLocation,
+    bool? completed,
     bool? coachMarkSeen,
     bool? accountPromptSeen,
     bool? saveToastSeen,
@@ -43,7 +45,7 @@ class OnboardingPrefs {
       ageGroups: ageGroups ?? this.ageGroups,
       stroller: stroller ?? this.stroller,
       place: clearPlace ? null : (place ?? this.place),
-      useLocation: useLocation ?? this.useLocation,
+      completed: completed ?? this.completed,
       coachMarkSeen: coachMarkSeen ?? this.coachMarkSeen,
       accountPromptSeen: accountPromptSeen ?? this.accountPromptSeen,
       saveToastSeen: saveToastSeen ?? this.saveToastSeen,
@@ -57,7 +59,7 @@ class OnboardingPrefsStore {
   static const ageGroupsKey = 'onb_age_groups';
   static const strollerKey = 'onb_stroller';
   static const placeKey = 'onb_place';
-  static const useLocationKey = 'onb_use_location';
+  static const completedKey = 'onboarding_completed';
   static const coachMarkSeenKey = 'onb_coach_mark_seen';
   static const accountPromptSeenKey = 'onb_account_prompt_seen';
   static const saveToastSeenKey = 'onb_save_toast_seen';
@@ -88,7 +90,7 @@ class OnboardingPrefsStore {
       ageGroups: groups,
       stroller: await _prefs.readBool(strollerKey),
       place: place,
-      useLocation: await _prefs.readBool(useLocationKey),
+      completed: await _prefs.readBool(completedKey),
       coachMarkSeen: await _prefs.readBool(coachMarkSeenKey),
       accountPromptSeen: await _prefs.readBool(accountPromptSeenKey),
       saveToastSeen: await _prefs.readBool(saveToastSeenKey),
@@ -113,8 +115,7 @@ class OnboardingPrefsStore {
     );
   }
 
-  Future<void> writeUseLocation(bool value) =>
-      _prefs.writeBool(useLocationKey, value);
+  Future<void> writeCompleted() => _prefs.writeBool(completedKey, true);
 
   Future<void> writeCoachMarkSeen() => _prefs.writeBool(coachMarkSeenKey, true);
 
