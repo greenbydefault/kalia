@@ -132,6 +132,12 @@ class GeolocatorLocationService extends LocationService {
     if (permission == LocationPermission.denied ||
         (kIsWeb && permission == LocationPermission.deniedForever)) {
       permission = await Geolocator.requestPermission();
+      // geolocator_web meldet jeden Positionsfehler als deniedForever, auch
+      // wenn der Browser die Freigabe erteilt hat. Der Stand der Permissions
+      // API entscheidet.
+      if (kIsWeb && permission == LocationPermission.deniedForever) {
+        permission = await Geolocator.checkPermission();
+      }
     }
     if (permission == LocationPermission.denied) {
       throw LocationException(

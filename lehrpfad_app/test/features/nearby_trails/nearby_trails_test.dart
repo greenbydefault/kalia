@@ -71,12 +71,25 @@ void main() {
       anchor: anchor,
     );
 
-    test('höchstens $nearbyTrailCount Wege, nie leer', () {
-      final r = select(maxKm: 0, stroller: true);
+    test('höchstens $nearbyTrailCount Wege', () {
+      final r = select(lengthOn: false, strollerOn: false);
       expect(r, hasLength(nearbyTrailCount));
     });
 
-    test('naher unpassender Weg schlägt weit entfernten passenden', () {
+    test('unpassende Wege fallen weg, Liste darf leer sein', () {
+      final wege = trails.where((t) => !t.isFlaeche).toList();
+      final r = selectNearbyTrails(
+        wege,
+        maxKm: 0,
+        stroller: false,
+        lengthOn: true,
+        strollerOn: true,
+        anchor: anchor,
+      );
+      expect(r, isEmpty);
+    });
+
+    test('nur Treffer, nach Entfernung sortiert', () {
       // 1° Breite ≈ 111 km. Anker bei 53°.
       Trail at(String id, double dLat, {bool stroller = false}) => Trail(
         id: id,
@@ -113,33 +126,28 @@ void main() {
         anchor: const LatLng(53, 13),
         limit: sample.length,
       );
-      expect(r.map((e) => e.trail.id), [
-        'nah-passend',
-        'nah-daneben',
-        'weit-passend',
-      ]);
-      expect(r[1].distanceM!, lessThan(matchPreferenceKm * 1000));
-      expect(r[2].distanceM!, greaterThan(matchPreferenceKm * 1000));
-      expect(r[1].matches, isFalse);
-      expect(r[2].matches, isTrue);
+      expect(r.map((e) => e.trail.id), ['nah-passend', 'weit-passend']);
     });
 
-    test('Länge-Filter: Treffer sind Fläche oder innerhalb des Limits', () {
-      for (final e in select(maxKm: 3).where((e) => e.matches)) {
+    test('Länge-Filter: nur Fläche oder innerhalb des Limits', () {
+      final r = select(maxKm: 3);
+      expect(r, isNotEmpty);
+      for (final e in r) {
         expect(e.trail.isFlaeche || e.trail.laengeKm <= 3, isTrue);
       }
     });
 
-    test('Kinderwagen: Treffer sind kinderwagentauglich', () {
+    test('Kinderwagen: nur kinderwagentauglich', () {
       final r = select(stroller: true, lengthOn: false);
-      for (final e in r.where((e) => e.matches)) {
+      expect(r, isNotEmpty);
+      for (final e in r) {
         expect(isStrollerFriendly(e.trail), isTrue);
       }
     });
 
-    test('Filter aus: alles passt', () {
+    test('Filter aus: Kinderwagen-Wunsch ändert nichts', () {
       final r = select(lengthOn: false, strollerOn: false, stroller: true);
-      expect(r.every((e) => e.matches), isTrue);
+      expect(r, hasLength(nearbyTrailCount));
     });
 
     test('Berlin: Distanz ist Luftlinie zum Start, nicht die Weglänge', () {
@@ -166,32 +174,27 @@ void main() {
       );
     });
 
-    test(
-      'Heiligengrabe: nächster Weg ist Wittstock, nicht ein ferner Treffer',
-      () {
-        const heiligengrabe = LatLng(53.145, 12.363);
-        final r = selectNearbyTrails(
-          trails,
-          maxKm: 4,
-          stroller: true,
-          lengthOn: true,
-          strollerOn: true,
-          anchor: heiligengrabe,
-        );
-        expect(r.first.trail.id, 'libellen-wasserspielplatz-wittstock');
-        expect(r.first.distanceM!, lessThan(15000));
-        expect(r.first.hints, contains('nicht kinderwagentauglich'));
-        for (var i = 0; i < r.length; i++) {
-          for (var j = i + 1; j < r.length; j++) {
-            expect(
-              r[i].distanceM! > 40000 && r[j].distanceM! < 30000,
-              isFalse,
-              reason: '${r[i].trail.id} vor ${r[j].trail.id}',
-            );
-          }
-        }
-      },
-    );
+    test('Heiligengrabe: 4 km + Kinderwagen zeigt nur passende Wege', () {
+      const heiligengrabe = LatLng(53.145, 12.363);
+      final r = selectNearbyTrails(
+        trails,
+        maxKm: 4,
+        stroller: true,
+        lengthOn: true,
+        strollerOn: true,
+        anchor: heiligengrabe,
+      );
+      for (final e in r) {
+        expect(e.trail.isFlaeche || e.trail.laengeKm <= 4, isTrue);
+        expect(isStrollerFriendly(e.trail), isTrue);
+      }
+      expect(r.map((e) => e.trail.id), isNot(contains(
+        'libellen-wasserspielplatz-wittstock',
+      )));
+      for (var i = 1; i < r.length; i++) {
+        expect(r[i - 1].distanceM!, lessThanOrEqualTo(r[i].distanceM!));
+      }
+    });
 
     test('ohne Standort-Fix keine Liste', () {
       expect(

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -38,20 +39,31 @@ class LocationScreen extends ConsumerStatefulWidget {
 class _LocationScreenState extends ConsumerState<LocationScreen> {
   var _busy = false;
 
+  Future<OsLocationStatus> _status(LocationPermissionController ctrl) async {
+    try {
+      return await ctrl.refresh();
+    } catch (_) {
+      return OsLocationStatus.unknown;
+    }
+  }
+
   Future<void> _allow() async {
     if (_busy) return;
     setState(() => _busy = true);
     var granted = false;
     try {
       final ctrl = ref.read(locationPermissionProvider.notifier);
-      var status = await ctrl.refresh();
+      // Web: Prompt direkt im Tap auslösen, ohne vorherige Status-Abfrage.
+      var status = kIsWeb ? OsLocationStatus.unknown : await _status(ctrl);
       if (!status.isGranted &&
           status != OsLocationStatus.deniedForever &&
           status != OsLocationStatus.servicesDisabled) {
         try {
           status = await ctrl.requestWhenInUse();
-        } on LocationException {
-          status = await ctrl.refresh();
+        } catch (_) {
+          // Der Browser meldet einen fehlgeschlagenen Fix (Timeout, kein
+          // Signal) als „dauerhaft verweigert“. Der echte Stand entscheidet.
+          status = await _status(ctrl);
         }
       }
       granted = status.isGranted;

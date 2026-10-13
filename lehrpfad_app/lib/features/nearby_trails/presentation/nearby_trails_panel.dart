@@ -7,6 +7,7 @@ import '../../../app/theme/app_spacing.dart';
 import '../../../core/config/build_stamp.dart';
 import '../../../core/motion/reduced_motion.dart';
 import '../../../shared/widgets/bottom_content_card.dart';
+import '../../../shared/widgets/empty_filter_notice.dart';
 import '../../../shared/widgets/placeholder_block.dart';
 import '../../onboarding/data/onboarding_prefs_provider.dart';
 import '../data/nearby_trails_provider.dart';
@@ -160,6 +161,7 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
           ),
       ];
     }
+    if (entries.isEmpty) return const [EmptyFilterNotice()];
     logNearbyVisible();
     final targetKey = ref.watch(coachTargetKeyProvider);
     return [

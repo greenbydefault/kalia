@@ -110,15 +110,6 @@ class NearbyTrailCard extends ConsumerWidget {
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
-                      if (entry.hints.isNotEmpty)
-                        Text(
-                          entry.hints.join(' · '),
-                          style: theme.textTheme.labelSmall?.copyWith(
-                            color: AppColors.inkMuted,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
                       const Spacer(),
                       Row(
                         children: [

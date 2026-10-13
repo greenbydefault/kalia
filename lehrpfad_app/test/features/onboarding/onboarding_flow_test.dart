@@ -33,6 +33,19 @@ Widget _flowApp(FakeLocationService location) {
   );
 }
 
+/// Browser hat erlaubt, `ensurePermission` wirft trotzdem (Positionsfehler als
+/// „dauerhaft verweigert“ gemeldet); der Status selbst ist erlaubt.
+class _GrantedButFailingLocation extends FakeLocationService {
+  @override
+  Future<bool> ensurePermission({bool requestAlways = false}) async {
+    status0 = OsLocationStatus.whileInUse;
+    throw LocationException(
+      LocationFailure.deniedForever,
+      LocationException.deniedForeverMessage,
+    );
+  }
+}
+
 /// Wie AppShell: Flow solange `onboardingDone` fehlt, sonst „Home“.
 class _Gate extends ConsumerWidget {
   const _Gate();
@@ -154,6 +167,25 @@ void main() {
     await settle(tester);
 
     expect(fake.requests, greaterThanOrEqualTo(1));
+    expect(find.text('HOME'), findsOneWidget);
+  });
+
+  testWidgets('Freigabe trotz Positionsfehler (Web) → Home, kein Ort-Screen', (
+    tester,
+  ) async {
+    await bigScreen(tester);
+    final fake = _GrantedButFailingLocation();
+    await tester.pumpWidget(_flowApp(fake));
+    await settle(tester);
+
+    await tester.tap(find.text('Los geht’s'));
+    await settle(tester);
+    await tester.tap(find.text('Überspringen'));
+    await settle(tester);
+    await tester.tap(find.text('Standort freigeben'));
+    await settle(tester);
+
+    expect(find.text('Von wo startet ihr meistens?'), findsNothing);
     expect(find.text('HOME'), findsOneWidget);
   });
 

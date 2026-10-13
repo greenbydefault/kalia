@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../app/theme/app_spacing.dart';
+import '../../../../shared/widgets/empty_filter_notice.dart';
 import '../../../location/location_consent_sheet.dart';
 import '../../../location/location_gate.dart';
 import '../../../location/map_radius.dart';
@@ -25,8 +26,7 @@ class MapFiltersOverlay extends ConsumerWidget {
     final effective = ref.watch(effectiveMapRadiusProvider);
     final hasAnchor = ref.watch(mapAnchorProvider) != null;
     final showBanner = !preferred.isAll && !hasAnchor;
-    final emptyRadius =
-        visible.isEmpty && allTrails.isNotEmpty && !effective.isAll;
+    final noResults = visible.isEmpty && allTrails.isNotEmpty;
 
     return Align(
       alignment: Alignment.topCenter,
@@ -51,12 +51,20 @@ class MapFiltersOverlay extends ConsumerWidget {
                     }
                   },
                 ),
-              if (emptyRadius)
-                _BannerCard(
-                  text: 'Keine Orte im Umkreis',
-                  action: 'Umkreis vergrößern',
-                  onAction: () =>
-                      ref.read(mapRadiusProvider.notifier).enlarge(),
+              if (noResults)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(
+                    AppSpacing.x3,
+                    AppSpacing.x1,
+                    AppSpacing.x3,
+                    0,
+                  ),
+                  child: EmptyFilterNotice(
+                    actionLabel: effective.isAll ? null : 'Umkreis vergrößern',
+                    onAction: effective.isAll
+                        ? null
+                        : () => ref.read(mapRadiusProvider.notifier).enlarge(),
+                  ),
                 ),
             ],
           ),

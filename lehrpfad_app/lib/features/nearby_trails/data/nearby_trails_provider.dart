@@ -12,10 +12,6 @@ import '../../trail/domain/trail.dart';
 /// Wie viele Wege die Nähe-Liste zeigt.
 const nearbyTrailCount = 4;
 
-/// Bis hierhin stehen passende Wege vor unpassenden. Weiter weg zählt
-/// nur die Entfernung, sonst verdrängt ein ferner Treffer die nächsten Wege.
-const matchPreferenceKm = 25;
-
 /// „Kurze Wege“, wenn im Onboarding niemand gewählt wurde.
 const defaultShortKm = 5;
 
@@ -57,23 +53,12 @@ bool isStrollerFriendly(Trail t) {
 }
 
 class NearbyTrailEntry {
-  const NearbyTrailEntry({
-    required this.trail,
-    required this.matches,
-    this.distanceM,
-    this.hints = const [],
-  });
+  const NearbyTrailEntry({required this.trail, this.distanceM});
 
   final Trail trail;
 
-  /// Erfüllt alle aktiven Filter.
-  final bool matches;
-
   /// Luftlinie Anker → Start, `null` ohne Anker.
   final double? distanceM;
-
-  /// Weiche Filter: warum der Weg nicht passt. Die Liste bleibt trotzdem da.
-  final List<String> hints;
 }
 
 enum NearbyAnchorState { ready, locating, unavailable }
@@ -92,9 +77,9 @@ NearbyAnchorState resolveNearbyAnchor({
   return NearbyAnchorState.unavailable;
 }
 
-/// Auswahl für die Nähe-Liste. Innerhalb von [matchPreferenceKm] passende
-/// Wege vor unpassenden, jeweils nach Entfernung. Darüber nur die Entfernung.
-/// Ohne Anker: passende zuerst. Nie leer, solange der Katalog Wege hat.
+/// Auswahl für die Nähe-Liste: nur Wege, die alle aktiven Filter erfüllen,
+/// nach Entfernung sortiert (ohne Anker unsortiert in Katalogreihenfolge).
+/// Leer, wenn kein Weg passt.
 List<NearbyTrailEntry> selectNearbyTrails(
   List<Trail> trails, {
   required int? maxKm,
@@ -107,19 +92,12 @@ List<NearbyTrailEntry> selectNearbyTrails(
   final cap = maxKm ?? defaultShortKm;
   final entries = <NearbyTrailEntry>[
     for (final t in trails)
-      () {
-        final lengthOk = !lengthOn || t.isFlaeche || t.laengeKm <= cap;
-        final strollerOk = !(stroller && strollerOn) || isStrollerFriendly(t);
-        return NearbyTrailEntry(
+      if ((!lengthOn || t.isFlaeche || t.laengeKm <= cap) &&
+          (!(stroller && strollerOn) || isStrollerFriendly(t)))
+        NearbyTrailEntry(
           trail: t,
-          matches: lengthOk && strollerOk,
           distanceM: anchor == null ? null : distanceToStartM(t, anchor),
-          hints: [
-            if (!lengthOk) 'länger als $cap km',
-            if (!strollerOk) 'nicht kinderwagentauglich',
-          ],
-        );
-      }(),
+        ),
   ];
   int byDistance(NearbyTrailEntry a, NearbyTrailEntry b) {
     final da = a.distanceM;
@@ -130,19 +108,7 @@ List<NearbyTrailEntry> selectNearbyTrails(
     return da.compareTo(db);
   }
 
-  final preferenceM = matchPreferenceKm * 1000.0;
-  bool near(NearbyTrailEntry e) =>
-      e.distanceM != null && e.distanceM! <= preferenceM;
-  entries.sort((a, b) {
-    if (anchor == null) {
-      if (a.matches != b.matches) return a.matches ? -1 : 1;
-      return byDistance(a, b);
-    }
-    if (near(a) && near(b) && a.matches != b.matches) {
-      return a.matches ? -1 : 1;
-    }
-    return byDistance(a, b);
-  });
+  entries.sort(byDistance);
   return entries.take(limit).toList();
 }
 
