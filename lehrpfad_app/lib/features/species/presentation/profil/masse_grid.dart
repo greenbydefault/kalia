@@ -27,7 +27,6 @@ class _MasseGrid extends StatelessWidget {
                     m.eintrag.label.toUpperCase(),
                     style: theme.textTheme.labelSmall?.copyWith(
                       color: AppColors.inkMuted,
-                      letterSpacing: 0.5,
                     ),
                   ),
                   const SizedBox(height: 4),

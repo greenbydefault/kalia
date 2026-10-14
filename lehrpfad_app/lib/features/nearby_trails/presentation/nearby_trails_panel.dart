@@ -287,9 +287,12 @@ class FilterPill extends StatelessWidget {
                 children: [
                   Text(
                     label,
-                    style: theme.textTheme.labelLarge?.copyWith(
-                      color: selected ? AppColors.paper : AppColors.ink,
-                    ),
+                    style:
+                        (theme.chipTheme.labelStyle ??
+                                theme.textTheme.labelLarge)
+                            ?.copyWith(
+                              color: selected ? AppColors.paper : AppColors.ink,
+                            ),
                   ),
                 ],
               ),

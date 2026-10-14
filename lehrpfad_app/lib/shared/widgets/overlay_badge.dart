@@ -18,7 +18,9 @@ class OverlayBadge extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: const TextStyle(color: AppColors.n50, fontSize: 11),
+        style: Theme.of(
+          context,
+        ).textTheme.labelSmall?.copyWith(color: AppColors.n50),
       ),
     );
   }

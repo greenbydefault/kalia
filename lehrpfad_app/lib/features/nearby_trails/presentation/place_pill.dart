@@ -48,7 +48,10 @@ class PlacePill extends ConsumerWidget {
                   Flexible(
                     child: Text(
                       text,
-                      style: theme.textTheme.labelLarge,
+                      style:
+                          (theme.chipTheme.labelStyle ??
+                                  theme.textTheme.labelLarge)
+                              ?.copyWith(color: AppColors.ink),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),

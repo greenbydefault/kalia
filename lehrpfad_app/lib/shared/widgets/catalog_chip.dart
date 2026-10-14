@@ -17,7 +17,7 @@ class CatalogChip extends StatelessWidget {
       children: [
         eintrag.buildIcon(size: iconSize, color: theme.colorScheme.primary),
         const SizedBox(width: 4),
-        Text(eintrag.label, style: theme.textTheme.bodySmall),
+        Text(eintrag.label, style: theme.textTheme.labelSmall),
       ],
     );
   }

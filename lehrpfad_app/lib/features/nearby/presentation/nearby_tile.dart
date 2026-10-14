@@ -44,7 +44,7 @@ class NearbyTile extends StatelessWidget {
                   place.name,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: theme.textTheme.labelMedium?.copyWith(
+                  style: theme.textTheme.titleMedium?.copyWith(
                     color: AppColors.ink,
                     fontWeight: FontWeight.w700,
                     height: 1.2,

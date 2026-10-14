@@ -11,7 +11,7 @@ class FactChip extends StatelessWidget {
   Widget build(BuildContext context) {
     return Chip(
       avatar: Icon(icon, size: 18),
-      label: Text(label, style: Theme.of(context).textTheme.bodySmall),
+      label: Text(label, style: Theme.of(context).textTheme.labelSmall),
       visualDensity: VisualDensity.compact,
     );
   }
