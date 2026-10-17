@@ -31,6 +31,12 @@ class AdminSection {
   final IconData icon;
 }
 
+const reportsSection = AdminSection(
+  'meldungen',
+  'Meldungen',
+  Icons.flag_outlined,
+);
+
 const moderationSection = AdminSection(
   'moderation',
   'Moderation',

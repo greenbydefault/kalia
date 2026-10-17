@@ -6,6 +6,7 @@ import '../../../core/config/supabase_config.dart';
 import '../../community/data/community_providers.dart';
 import '../../location/location_settings_section.dart';
 import '../data/auth_providers.dart';
+import '../../report/presentation/report_account_tiles.dart';
 import 'account_prefs_sections.dart';
 import 'auth_form.dart';
 
@@ -40,6 +41,8 @@ class AccountPanel extends ConsumerWidget {
               const AuthForm(),
             const SizedBox(height: 32),
           ],
+          const ReportAccountTiles(),
+          const SizedBox(height: 24),
           const GroupPrefsSection(),
           const SizedBox(height: 24),
           const StartpointSection(),

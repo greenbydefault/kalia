@@ -7,6 +7,7 @@ import '../../features/community/data/community_providers.dart';
 import '../auth/admin_session.dart';
 import '../collections/registry.dart';
 import '../core/admin_repository.dart';
+import '../moderation/reports_page.dart';
 
 /// Rahmen: links der Katalog (Ordner mit Anzahl), rechts der Inhalt.
 /// Unter 900 px wird die Sidebar zum Drawer.
@@ -61,6 +62,7 @@ class _Sidebar extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final pending = ref.watch(pendingImagesProvider).value?.length ?? 0;
+    final openReports = ref.watch(openSubmissionCountProvider).value ?? 0;
     return ColoredBox(
       color: AppColors.n100,
       child: SafeArea(
@@ -88,6 +90,14 @@ class _Sidebar extends ConsumerWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 8, horizontal: 8),
                     child: Divider(height: 1, color: AppColors.n300),
+                  ),
+                  _NavItem(
+                    icon: reportsSection.icon,
+                    label: reportsSection.label,
+                    selected: location.startsWith('/${reportsSection.id}'),
+                    count: openReports > 0 ? openReports : null,
+                    highlight: openReports > 0,
+                    onTap: () => _go(context, '/${reportsSection.id}'),
                   ),
                   _NavItem(
                     icon: moderationSection.icon,

@@ -18,6 +18,8 @@ import '../features/onboarding/data/onboarding_prefs_provider.dart';
 import '../features/species/presentation/species_collection_screen.dart';
 import '../features/trail/presentation/map/map_screen.dart';
 import '../features/trail_progress/presentation/my_routes_screen.dart';
+import '../features/report/data/report_uploader.dart';
+import '../features/report/presentation/report_banner.dart';
 import 'shell_tab_provider.dart';
 import 'theme/app_colors.dart';
 
@@ -29,6 +31,7 @@ class AppShell extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // Sync-Lebenszyklus aktivieren (Queue-Flush, Login-Merge).
     ref.watch(syncLifecycleProvider);
+    ref.watch(reportUploadLifecycleProvider);
     final completed = ref.watch(onboardingCompletedProvider);
     if (!completed.hasValue && !completed.hasError) {
       return const Scaffold(backgroundColor: AppColors.paper);
@@ -59,6 +62,7 @@ class AppShell extends ConsumerWidget {
               if (SupabaseConfig.isConfigured) const UploadSnackbarListener(),
               const MiniPlayerHost(),
               const SavedListPromptHost(),
+              const ReportRecoveryHost(),
             ],
           ),
           bottomNavigationBar: NavigationBar(

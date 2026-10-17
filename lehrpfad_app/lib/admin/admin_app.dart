@@ -7,6 +7,7 @@ import 'auth/admin_session.dart';
 import 'auth/auth_pages.dart';
 import 'collections/registry.dart';
 import 'moderation/moderation_page.dart';
+import 'moderation/reports_page.dart';
 import 'shell/admin_shell.dart';
 import 'shell/collection_page.dart';
 
@@ -121,6 +122,20 @@ GoRouter buildAdminRouter(AdminSession session) {
               ),
             ),
           ],
+          GoRoute(
+            path: '/${reportsSection.id}',
+            pageBuilder: (_, _) => const NoTransitionPage(
+              key: ValueKey('page-meldungen'),
+              child: ReportsPage(),
+            ),
+          ),
+          GoRoute(
+            path: '/${reportsSection.id}/:id',
+            pageBuilder: (_, state) => NoTransitionPage(
+              key: const ValueKey('page-meldungen'),
+              child: ReportsPage(itemId: state.pathParameters['id']),
+            ),
+          ),
           GoRoute(
             path: '/${moderationSection.id}',
             pageBuilder: (_, _) => const NoTransitionPage(

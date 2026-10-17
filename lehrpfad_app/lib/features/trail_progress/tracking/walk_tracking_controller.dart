@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:latlong2/latlong.dart';
 
@@ -68,11 +67,7 @@ class WalkTrackingController extends Notifier<WalkSnapshot?> {
     await _location.ensurePermission(requestAlways: false);
     final fix = await _location.getFix();
     assertOnSite(trail, fix);
-    if (!kIsWeb) {
-      try {
-        await _location.ensurePermission(requestAlways: true);
-      } catch (_) {}
-    }
+    // Nie „Immer“-Zugriff anfragen (Spec Pfad melden, Entscheidung 7).
   }
 
   Future<void> _attach(Trail trail, TrailWalk walk) async {

@@ -1,7 +1,12 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/theme/app_colors.dart';
+import '../../../core/config/supabase_config.dart';
+import '../../report/presentation/report_hub.dart';
+import '../../report/report_copy.dart';
+import '../../trail/data/providers.dart';
 import '../tracking/walk_snapshot.dart';
 import '../tracking/walk_tracking_controller.dart';
 
@@ -69,6 +74,26 @@ class WalkModeBar extends ConsumerWidget {
                           ],
                         ),
                       ),
+                      if (SupabaseConfig.isConfigured && !kIsWeb)
+                        PopupMenuButton<String>(
+                          tooltip: 'Mehr',
+                          onSelected: (_) {
+                            final trail = ref
+                                .read(trailsProvider)
+                                .value
+                                ?.where((t) => t.id == snapshot.trailId)
+                                .firstOrNull;
+                            if (trail != null) {
+                              startFixFlow(context, trail: trail);
+                            }
+                          },
+                          itemBuilder: (_) => [
+                            PopupMenuItem(
+                              value: 'report',
+                              child: Text(rt('report.tile.title')),
+                            ),
+                          ],
+                        ),
                       IconButton(
                         tooltip: 'Tour beenden',
                         onPressed: () => ref

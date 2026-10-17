@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -8,6 +9,8 @@ import '../../../community/presentation/add_photo_button.dart';
 import '../../../community/presentation/comments_section.dart';
 import '../../../community/presentation/rating_section.dart';
 import '../../../nearby/data/nearby_providers.dart';
+import '../../../nearby_trails/domain/karte_copy.dart';
+import '../../../report/presentation/report_hub.dart';
 import '../../../nearby/presentation/nearby_section.dart';
 import '../../../species/data/species_providers.dart';
 import '../../../species/presentation/arten_section.dart';
@@ -41,9 +44,19 @@ class TrailSheetBody extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (SupabaseConfig.isConfigured) ...[
-          Align(
-            alignment: Alignment.centerLeft,
-            child: AddPhotoButton(trail: trail),
+          Wrap(
+            spacing: AppSpacing.chip,
+            runSpacing: AppSpacing.chip,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            children: [
+              AddPhotoButton(trail: trail),
+              if (!kIsWeb)
+                TextButton.icon(
+                  onPressed: () => startFixFlow(context, trail: trail),
+                  icon: const Icon(Icons.flag_outlined),
+                  label: Text(kt('karte.melden')),
+                ),
+            ],
           ),
           const SizedBox(height: AppSpacing.stack),
         ],
