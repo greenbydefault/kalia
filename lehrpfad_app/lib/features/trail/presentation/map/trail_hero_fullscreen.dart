@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../app/theme/app_colors.dart';
+import '../../../../app/theme/app_typography.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../community/domain/trail_image.dart';
 import 'trail_hero.dart';
@@ -124,7 +125,7 @@ class _TrailHeroFullscreenState extends State<TrailHeroFullscreen> {
                       'Foto: ${slide.credit}',
                       style: const TextStyle(
                         color: AppColors.onImage70,
-                        fontSize: 13,
+                        fontSize: AppTypography.labelSmall,
                       ),
                     ),
                   ],
@@ -168,7 +169,7 @@ class _TaslLink extends StatelessWidget {
           label,
           style: TextStyle(
             color: AppColors.n50,
-            fontSize: 13,
+            fontSize: AppTypography.labelSmall,
             decoration: onTap == null
                 ? TextDecoration.none
                 : TextDecoration.underline,

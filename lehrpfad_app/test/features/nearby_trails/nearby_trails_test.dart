@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:latlong2/latlong.dart';
 import 'package:lehrpfad_app/app/theme/app_theme.dart';
 import 'package:lehrpfad_app/features/auth/presentation/account_prompt_sheet.dart';
-import 'package:lehrpfad_app/features/nearby_trails/data/nearby_trails_provider.dart';
-import 'package:lehrpfad_app/features/location/map_radius.dart';
 import 'package:lehrpfad_app/features/nearby_trails/domain/anfahrt.dart';
+import 'package:lehrpfad_app/features/nearby_trails/domain/eintrag.dart';
 import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_provider.dart';
 import 'package:lehrpfad_app/features/player/data/mini_player_provider.dart';
 import 'package:lehrpfad_app/features/trail/data/seed_trail_repository.dart';
-import 'package:lehrpfad_app/features/trail/domain/catalog_filter.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail_progress/data/trail_progress_providers.dart';
 import 'package:lehrpfad_app/features/trail_progress/data/trail_list_providers.dart';
@@ -56,221 +53,35 @@ void main() {
     test('nie unter 1 Minute', () => expect(anfahrtMinuten(0), 1));
   });
 
-  group('filterCatalog + rankNearbyTrails', () {
-    const anchor = LatLng(53.0, 13.0);
-
-    /// Die Pipeline der App: `filterCatalog` (wie `visibleTrailsProvider`),
-    /// dann Rang (wie `nearbyTrailEntriesProvider`).
-    List<NearbyTrailEntry> select({
-      List<Trail>? from,
-      int? maxKm,
-      bool stroller = false,
-      bool lengthOn = true,
-      bool strollerOn = true,
-      String? typ,
-      MapRadius radius = MapRadius.all,
-      LatLng? at = anchor,
-      int limit = nearbyTrailCount,
-    }) => rankNearbyTrails(
-      filterCatalog(
-        from ?? trails,
-        typ: typ,
-        radius: radius,
-        anchor: at,
-        maxKm: maxKm,
-        lengthOn: lengthOn,
-        strollerOn: stroller && strollerOn,
-      ),
-      anchor: at,
-      limit: limit,
-    );
-
-    test('höchstens $nearbyTrailCount Wege', () {
-      final r = select(lengthOn: false, strollerOn: false);
-      expect(r, hasLength(nearbyTrailCount));
-    });
-
-    test('unpassende Wege fallen weg, Liste darf leer sein', () {
-      final wege = trails.where((t) => !t.isFlaeche).toList();
-      final r = select(from: wege, maxKm: 0);
-      expect(r, isEmpty);
-    });
-
-    test('nur Treffer, nach Entfernung sortiert', () {
-      // 1° Breite ≈ 111 km. Anker bei 53°.
-      Trail at(String id, double dLat, {bool stroller = false}) => Trail(
-        id: id,
-        name: id,
-        typ: 'wald',
-        kurzbeschreibung: 'k',
-        beschreibung: 'b',
-        laengeKm: 1,
-        dauerMin: 10,
-        rundkurs: true,
-        markierung: '-',
-        betreiber: '-',
-        region: '-',
-        anreise: '-',
-        startName: '-',
-        arten: const [],
-        tags: [if (stroller) 'kinderwagentauglich'],
-        route: [LatLng(53 + dLat, 13)],
-        stationen: const [],
-        amenities: const [],
-      );
-
-      final sample = [
-        at('nah-daneben', 0.05),
-        at('nah-passend', 0.18, stroller: true),
-        at('weit-passend', 0.55, stroller: true),
-      ];
-      final r = select(
-        from: sample,
-        stroller: true,
-        lengthOn: false,
-        limit: sample.length,
-      );
-      expect(r.map((e) => e.trail.id), ['nah-passend', 'weit-passend']);
-
-      // Umkreis 50 km (0,55° ≈ 61 km fällt raus): dieselbe Menge, die die
-      // Karte bekäme.
-      final near = select(
-        from: sample,
-        stroller: true,
-        lengthOn: false,
-        radius: MapRadius.km50,
-        limit: sample.length,
-      );
-      expect(near.map((e) => e.trail.id), ['nah-passend']);
-      expect(
-        filterCatalog(
-          sample,
-          radius: MapRadius.km50,
-          anchor: anchor,
-          strollerOn: true,
-        ).map((t) => t.id),
-        near.map((e) => e.trail.id),
-      );
-    });
-
-    test('Länge-Filter: nur Fläche oder innerhalb des Limits', () {
-      final r = select(maxKm: 3);
-      expect(r, isNotEmpty);
-      for (final e in r) {
-        expect(e.trail.isFlaeche || e.trail.laengeKm <= 3, isTrue);
-      }
-    });
-
-    test('Kinderwagen: nur kinderwagentauglich', () {
-      final r = select(stroller: true, lengthOn: false);
-      expect(r, isNotEmpty);
-      for (final e in r) {
-        expect(isStrollerFriendly(e.trail), isTrue);
-      }
-    });
-
-    test('Filter aus: Kinderwagen-Wunsch ändert nichts', () {
-      final r = select(lengthOn: false, strollerOn: false, stroller: true);
-      expect(r, hasLength(nearbyTrailCount));
-    });
-
-    test('Berlin: Distanz ist Luftlinie zum Start, nicht die Weglänge', () {
-      const berlin = LatLng(52.532, 13.385);
-      final r = select(
-        lengthOn: false,
-        strollerOn: false,
-        at: berlin,
-        limit: trails.length,
-      );
-      final outside = r
-          .where((e) => !e.trail.region.contains('Berlin'))
-          .toList();
-      expect(outside, isNotEmpty);
-      outside.sort((a, b) => a.distanceM!.compareTo(b.distanceM!));
-      final nearest = outside.first;
-      expect(nearest.distanceM!, greaterThan(5000));
-      expect(
-        (nearest.distanceM! - nearest.trail.laengeKm * 1000).abs(),
-        greaterThan(1000),
-      );
-    });
-
-    test('Heiligengrabe: 4 km + Kinderwagen zeigt nur passende Wege', () {
-      const heiligengrabe = LatLng(53.145, 12.363);
-      final r = select(maxKm: 4, stroller: true, at: heiligengrabe);
-      for (final e in r) {
-        expect(e.trail.isFlaeche || e.trail.laengeKm <= 4, isTrue);
-        expect(isStrollerFriendly(e.trail), isTrue);
-      }
-      expect(r.map((e) => e.trail.id), isNot(contains(
-        'libellen-wasserspielplatz-wittstock',
-      )));
-      for (var i = 1; i < r.length; i++) {
-        expect(r[i - 1].distanceM!, lessThanOrEqualTo(r[i].distanceM!));
-      }
-    });
-
-    test('ohne Standort-Fix keine Liste', () {
-      expect(
-        resolveNearbyAnchor(
-          hasAnchor: false,
-          locationKnown: true,
-          locationOn: true,
-          loading: true,
-          hasError: false,
-        ),
-        NearbyAnchorState.locating,
-      );
-      expect(
-        resolveNearbyAnchor(
-          hasAnchor: false,
-          locationKnown: true,
-          locationOn: true,
-          loading: false,
-          hasError: true,
-        ),
-        NearbyAnchorState.unavailable,
-      );
-      expect(
-        resolveNearbyAnchor(
-          hasAnchor: true,
-          locationKnown: true,
-          locationOn: false,
-          loading: false,
-          hasError: false,
-        ),
-        NearbyAnchorState.ready,
-      );
-    });
-
-    test('ohne Anker keine Distanz', () {
-      final r = select(at: null);
-      expect(r.every((e) => e.distanceM == null), isTrue);
-    });
-  });
-
   group('Mini-Player', () {
-    test('play, pausieren, fortsetzen, stoppen', () {
+    const audio = EintragAudio(url: '', titel: 'Einführung', dauerSek: 60);
+
+    test('play, pausieren, fortsetzen, ersetzen, stoppen', () async {
       final c = ProviderContainer();
       addTearDown(c.dispose);
       final n = c.read(miniPlayerProvider.notifier);
       final t = trails.first;
 
       expect(c.read(miniPlayerProvider), isNull);
-      n.play(t);
+      await n.play(t, audio);
       expect(c.read(miniPlayerProvider)!.trail.id, t.id);
       expect(n.isPlaying(t.id), isTrue);
 
-      n.play(t); // gleicher Trail = toggle
+      await n.play(t, audio); // gleicher Eintrag = toggle
       expect(c.read(miniPlayerProvider)!.playing, isFalse);
-      n.toggle();
+      await n.toggle();
       expect(c.read(miniPlayerProvider)!.playing, isTrue);
 
-      n.play(trails[1]);
+      await n.play(trails[1], audio); // ersetzt das laufende
       expect(c.read(miniPlayerProvider)!.trail.id, trails[1].id);
 
-      n.stop();
+      await n.stop();
       expect(c.read(miniPlayerProvider), isNull);
+    });
+
+    test('Fortschritt und Zeitformat', () {
+      expect(formatZeit(const Duration(seconds: 42)), '0:42');
+      expect(formatZeit(const Duration(seconds: 190)), '3:10');
     });
   });
 

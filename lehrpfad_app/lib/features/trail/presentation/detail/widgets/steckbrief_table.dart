@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../../../app/theme/app_spacing.dart';
 import '../../../domain/steckbrief.dart';
 
 /// Steckbrief-Werte (Größe, Alter, Tiefe, ...) als beschriftete Zeilen.
@@ -22,7 +23,7 @@ class SteckbriefTable extends StatelessWidget {
       if (steckbrief.werdegang != null) ('Werdegang', steckbrief.werdegang!),
     ];
     return Container(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(AppSpacing.x3),
       decoration: BoxDecoration(
         color: theme.colorScheme.surfaceContainerHighest,
         borderRadius: BorderRadius.circular(10),

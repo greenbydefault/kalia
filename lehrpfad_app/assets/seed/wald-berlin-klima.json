@@ -2,6 +2,7 @@
  "id": "wald-berlin-klima",
  "name": "Wald. Berlin. Klima.",
  "typ": "wald",
+ "gebiet": "wald",
  "kurzbeschreibung": "Ein Steg führt zum Pechsee, einem Moor mitten im Grunewald. Elf Infoinseln erzählen, wie aus Kiefernforst Mischwald wird.",
  "beschreibung": "Das Himmelsauge im Grunewald verdankt sich Lastwagen. Sie verdichteten Mitte der 1980er Jahre bei der Munitionsräumung den Boden, seither staut sich dort das Wasser. Molche, Wasserfrösche und Kröten laichen darin. Der Pechsee daneben verlor durch Brunnen fast seine Wasserfläche und gilt doch als besterhaltenes Moor im westlichen Grunewald. Der Barssee fiel ganz trocken. Ringsum wird aus Kiefernforst Mischwald, mit Buchen, Eichen und Hainbuchen. Den Gegenspieler zeigt Infoinsel 9, die Spätblühende Traubenkirsche.",
  "laengeKm": 4.0,

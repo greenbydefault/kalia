@@ -2,7 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:latlong2/latlong.dart';
 
+import '../../trail/domain/haversine.dart';
 import '../domain/user_place.dart';
 
 const placesAsset = 'assets/seed/orte_de.json';
@@ -36,6 +38,23 @@ class PlaceIndex {
 
   /// Mindestlänge, ab der „Pfade anzeigen“ auch ohne Auswahl aktiv ist.
   static const minChars = 3;
+
+  /// Nächster Ort zur Koordinate (Reverse-Geocoding gegen die gebündelte
+  /// Liste). `null`, wenn keiner innerhalb von [maxKm] liegt.
+  UserPlace? nearest(LatLng point, {double maxKm = 20}) {
+    UserPlace? best;
+    var bestM = maxKm * 1000;
+    for (final p in places) {
+      // Grobe Vorauswahl, spart die Haversine-Formel für den Großteil.
+      if ((p.lat - point.latitude).abs() > 0.5) continue;
+      final d = haversineMeters(point, p.position);
+      if (d < bestM) {
+        bestM = d;
+        best = p;
+      }
+    }
+    return best;
+  }
 
   List<UserPlace> search(String query, {int limit = 4}) {
     final q = _fold(query.trim());

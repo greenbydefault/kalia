@@ -45,11 +45,11 @@ class TrailSheetBody extends ConsumerWidget {
             alignment: Alignment.centerLeft,
             child: AddPhotoButton(trail: trail),
           ),
-          const SizedBox(height: AppSpacing.x2),
+          const SizedBox(height: AppSpacing.stack),
         ],
         Wrap(
-          spacing: AppSpacing.x2,
-          runSpacing: AppSpacing.x2,
+          spacing: AppSpacing.chip,
+          runSpacing: AppSpacing.chip,
           children: [
             if (trail.isFlaeche)
               const FactChip(icon: Icons.park_outlined, label: 'Platz')
@@ -60,28 +60,28 @@ class TrailSheetBody extends ConsumerWidget {
             FactChip(icon: Icons.signpost_outlined, label: trail.markierung),
           ],
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.stack),
         EignungSection(trail: trail),
         if (trail.displayTags.isNotEmpty) ...[
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.stack),
           Wrap(
-            spacing: AppSpacing.x3,
-            runSpacing: AppSpacing.x2,
+            spacing: AppSpacing.chip,
+            runSpacing: AppSpacing.chip,
             children: [
               for (final tag in trail.displayTags) TagChip(tagKey: tag),
             ],
           ),
         ],
-        const SizedBox(height: AppSpacing.x4),
+        const SizedBox(height: AppSpacing.stack),
         GelaufenAction(trailId: trail.id),
-        const SizedBox(height: AppSpacing.x5),
+        const SizedBox(height: AppSpacing.section),
         Text(trail.beschreibung, style: theme.textTheme.bodyMedium),
-        const SizedBox(height: AppSpacing.x5),
+        const SizedBox(height: AppSpacing.section),
         Text('Stationen', style: headingStyle),
-        const SizedBox(height: AppSpacing.x2),
+        const SizedBox(height: AppSpacing.afterHeading),
         if (trail.isLinie) ...[
           TrailTrackView(trail: trail),
-          const SizedBox(height: AppSpacing.x1),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         SheetAccordionSection(
           title: 'Stationen',
@@ -129,7 +129,7 @@ class TrailSheetBody extends ConsumerWidget {
             title: 'Bewertungen & Kommentare',
             children: [
               RatingSection(trailId: trail.id),
-              const SizedBox(height: AppSpacing.x4),
+              const SizedBox(height: AppSpacing.stack),
               CommentsSection(trailId: trail.id),
             ],
           ),

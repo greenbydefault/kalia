@@ -7,7 +7,6 @@ import 'package:latlong2/latlong.dart';
 import '../../../../core/config/map_config.dart';
 import '../../../../core/config/map_motion.dart';
 import '../../../location/user_position_provider.dart';
-import '../../../nearby_trails/data/nearby_trails_provider.dart';
 import '../../domain/haversine.dart';
 import '../../domain/trail.dart';
 import 'camera_target.dart';
@@ -166,6 +165,16 @@ class MapCameraController {
   /// [placeFrameCapM] zählt nicht; dann bleibt nur der Ort (Stadt-Zoom).
   static const placeFrameCapM = 80000.0;
 
+  /// Wie viele nächste Pfad-Starts der Orts-Fit einbezieht.
+  static const placeFrameCount = 4;
+
+  /// Zusätzlicher unterer Rand: Höhe des Sheets, damit nichts darunter liegt.
+  double bottomInset = 0;
+
+  EdgeInsets get _catalogPadding => CameraTarget.catalogPadding.copyWith(
+    bottom: CameraTarget.catalogPadding.bottom + bottomInset,
+  );
+
   static List<LatLng> placeFramePoints(LatLng anchor, List<Trail> trails) {
     final ranked = <(double, LatLng)>[];
     for (final trail in trails) {
@@ -177,7 +186,7 @@ class MapCameraController {
     if (ranked.isEmpty || ranked.first.$1 > placeFrameCapM) return [anchor];
     return [
       anchor,
-      for (final hit in ranked.take(nearbyTrailCount))
+      for (final hit in ranked.take(placeFrameCount))
         if (hit.$1 <= placeFrameCapM) hit.$2,
     ];
   }
@@ -194,7 +203,7 @@ class MapCameraController {
     }
     final target = CameraTarget.fromPoints(
       pts,
-      padding: CameraTarget.catalogPadding,
+      padding: _catalogPadding,
     );
     if (target == null) return;
     unawaited(
@@ -214,7 +223,7 @@ class MapCameraController {
       final pts = allPoints(trails, anchor: anchor);
       final target = CameraTarget.fromPoints(
         pts,
-        padding: CameraTarget.catalogPadding,
+        padding: _catalogPadding,
       );
       if (target == null) return;
       unawaited(
@@ -272,7 +281,7 @@ class MapCameraController {
     if (childStarts.length >= 2) {
       final target = CameraTarget.fromPoints(
         childStarts,
-        padding: CameraTarget.catalogPadding,
+        padding: _catalogPadding,
       );
       if (target == null) return Future.value();
       return _runFlight(
@@ -280,7 +289,10 @@ class MapCameraController {
       );
     }
     return _runFlight(
-      () => _flight.flyTo(cluster.center, cluster.expansionZoom.toDouble()),
+      () => _flight.flyTo(
+        cluster.center,
+        cluster.expansionZoom.toDouble().clamp(0, _currentZoom + 3),
+      ),
     );
   }
 

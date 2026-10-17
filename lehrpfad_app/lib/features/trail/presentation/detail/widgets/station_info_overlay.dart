@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../../../app/theme/app_spacing.dart';
 import '../../../../../shared/widgets/erlebnis_chip.dart';
 import '../../../domain/station.dart';
 import 'station_identity.dart';
@@ -47,7 +48,7 @@ class StationInfoOverlay extends StatelessWidget {
               ],
             ),
             Text(station.thema, style: theme.textTheme.bodySmall),
-            const SizedBox(height: 6),
+            const SizedBox(height: AppSpacing.x2),
             Wrap(
               spacing: 10,
               children: [

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "01-seilbruecke.jpg",
+    "caption": "Seilbrücke über die Sprotte zwischen Rothenmühle und Nöbdenitz.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprottetal-Seilbr%C3%BCcke.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "02-wasserstandsorgel.jpg",
+    "caption": "Wasserstandsorgel an der Sprotte in Nöbdenitz.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:N%C3%B6bdenitzWasserstandsorgel.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "03-fischtreppe.jpg",
+    "caption": "Fischtreppe in der Sprotte zwischen Rothenmühle und Nöbdenitz.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprotte-Fischtreppe.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "04-rothenmuehle.jpg",
+    "caption": "Rothenmühle im Sprottetal bei Posterstein.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rothenm%C3%BChle-nah.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "05-sprotte-rothenmuehle.jpg",
+    "caption": "Sprotte an der Rothenmühle.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprotte-Rothenm%C3%BChle1.JPG",
+    "kind": "ort"
+  },
+  {
+    "file": "06-sprottetal.jpg",
+    "caption": "Sprottetal bei Nöbdenitz.",
+    "credit": "Jwaller / Wikimedia Commons",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SprottetalN%C3%B6bdenitz.JPG",
+    "kind": "ort"
+  }
+]

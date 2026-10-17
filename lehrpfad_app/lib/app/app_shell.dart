@@ -8,6 +8,9 @@ import '../features/auth/data/auth_providers.dart';
 import '../features/auth/presentation/account_tab.dart';
 import '../features/auth/presentation/saved_list_prompt_host.dart';
 import '../features/community/presentation/upload_snackbar_listener.dart';
+import '../features/erkunden/erkunden_screen.dart';
+import '../features/nearby_trails/data/karte_state.dart';
+import '../features/nearby_trails/domain/karte_copy.dart';
 import '../features/nearby_trails/presentation/coach_mark_overlay.dart';
 import '../features/player/presentation/mini_player.dart';
 import '../features/onboarding/presentation/onboarding_flow.dart';
@@ -18,7 +21,7 @@ import '../features/trail_progress/presentation/my_routes_screen.dart';
 import 'shell_tab_provider.dart';
 import 'theme/app_colors.dart';
 
-/// Root-Shell: Karte · Meine Listen · Arten · Konto.
+/// Root-Shell: Karte · Erkunden · Meine Listen · Sammlung · Konto.
 class AppShell extends ConsumerWidget {
   const AppShell({super.key});
 
@@ -47,6 +50,7 @@ class AppShell extends ConsumerWidget {
                 index: index,
                 children: const [
                   MapScreen(),
+                  ErkundenScreen(),
                   MyRoutesScreen(),
                   SpeciesCollectionScreen(),
                   AccountTab(),
@@ -59,23 +63,33 @@ class AppShell extends ConsumerWidget {
           ),
           bottomNavigationBar: NavigationBar(
             selectedIndex: index,
-            onDestinationSelected: (i) =>
-                ref.read(shellTabIndexProvider.notifier).goTo(i),
+            onDestinationSelected: (i) {
+              // Erneut auf „Karte“: Liste nach oben, ganz → halb.
+              if (i == 0 && index == 0) {
+                ref.read(karteRetapProvider.notifier).trigger();
+              }
+              ref.read(shellTabIndexProvider.notifier).goTo(i);
+            },
             destinations: [
-              const NavigationDestination(
-                icon: Icon(Icons.map_outlined),
-                selectedIcon: Icon(Icons.map),
-                label: 'Karte',
+              NavigationDestination(
+                icon: const Icon(Icons.map_outlined),
+                selectedIcon: const Icon(Icons.map),
+                label: kt('nav.karte'),
               ),
-              const NavigationDestination(
-                icon: Icon(Icons.bookmark_border),
-                selectedIcon: Icon(Icons.bookmark),
-                label: 'Meine Listen',
+              NavigationDestination(
+                icon: const Icon(Icons.explore_outlined),
+                selectedIcon: const Icon(Icons.explore),
+                label: kt('nav.erkunden'),
+              ),
+              NavigationDestination(
+                icon: const Icon(Icons.bookmark_border),
+                selectedIcon: const Icon(Icons.bookmark),
+                label: kt('nav.listen'),
               ),
               NavigationDestination(
                 icon: PhosphorIcon(PhosphorIcons.stack, size: 24),
                 selectedIcon: PhosphorIcon(PhosphorIcons.stack, size: 24),
-                label: 'Sammlung',
+                label: kt('nav.sammlung'),
               ),
               NavigationDestination(
                 icon: Icon(
@@ -86,7 +100,7 @@ class AppShell extends ConsumerWidget {
                 selectedIcon: Icon(
                   loggedIn ? Icons.account_circle : Icons.person,
                 ),
-                label: 'Konto',
+                label: kt('nav.konto'),
               ),
             ],
           ),

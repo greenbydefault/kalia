@@ -124,9 +124,11 @@ Welle-1-IDs sind im Katalog. Hier der Rest plus die fünf, die schon drin sind (
 | Wolf | *Canis lupus* | wolfspfad-zwenzow; bayerischer-wald nur Freigelände |
 | Damhirsch | *Dama dama* | ivenack (Park), jasmund NP-weit |
 | Rothirsch | *Cervus elaphus* | müritz NP, bayerischer-wald Freigelände |
-| Hausesel | *Equus asinus* | pinke-panke |
+| Hausesel | *Equus asinus* | pinke-panke, mauerplatz |
 | Hausschwein | *Sus scrofa domesticus* | pinke-panke |
-| Hausgans | *Anser anser domesticus* | pinke-panke |
+| Hausgans | *Anser anser domesticus* | pinke-panke, mauerplatz |
+| Hauspferd | *Equus caballus* | mauerplatz (Ponys) |
+| Hausente | *Anas platyrhynchos domesticus* | mauerplatz |
 | Liguster | *Ligustrum vulgare* | natter-pfad |
 | Traubenkirsche | *Prunus padus* | natter-pfad |
 | Salweide | *Salix caprea* | natter-pfad |
@@ -757,6 +759,18 @@ Quelle: https://forst.brandenburg.de/lfb/de/ueber-uns/oberfoerstereien/oberfoers
 **Nicht:** Hausente als Stockente; Katze/Meerschweinchen; Apfel als Futterspende.
 
 Quelle: http://kinderbauernhof-pinke-panke.de/erwachsene/programm/tiere.html
+
+### kinderbauernhof-mauerplatz
+
+`kinderbauernhof`
+
+**Ist:** — / Ziege, Schaf, Haushuhn, Hauskaninchen
+
+**Katalog-Kandidat:** Hauspferd (Ponys), Hausesel, Hausgans, Hausente — Betreiberseite, analog Haushuhn.
+
+**Nicht:** Hausente als Stockente; Medizinrad.
+
+Quelle: https://kbh-mauerplatz.de/wir.html
 
 ### arboretum-dreetz
 

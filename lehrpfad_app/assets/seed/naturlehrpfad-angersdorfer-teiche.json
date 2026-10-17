@@ -2,6 +2,7 @@
  "id": "naturlehrpfad-angersdorfer-teiche",
  "name": "Naturlehrpfad Angersdorfer Teiche",
  "typ": "naturerlebnis",
+ "gebiet": "wasser",
  "kurzbeschreibung": "Am Nordufer des Kleinen Angersdorfer Teichs, vom Tor der Naturstation bis zur Halbinsel. Halle-Neustadt, frei.",
  "beschreibung": "NATRIX hat den Pfad um den Kleinen Angersdorfer Teich angelegt. Im Flyer stehen zweiundvierzig Nummern, Koordinaten hat er keine. OpenStreetMap führt als Route den Dirt-Pfad am Nordufer, vom Tor der Naturstation bis zur Halbinsel, knapp zweihundert Meter. Die App zeigt die Stellen auf diesem Stück, nicht jede Flyer-Nummer. Vom Ufer geht der Blick ins Nordholz, Hybrid-Pappeln und ein Bergahorn im Licht. Der Große Teich daneben ist der Badesee, nicht der Pfad. Ganzjährig frei, ohne Anmeldung. Der Boden ist uneben, für Rollstuhl und Kinderwagen nicht.",
  "laengeKm": 0.2,

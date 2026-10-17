@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/theme/app_colors.dart';
+import '../../../app/theme/app_spacing.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
 import '../../../shared/widgets/content_carousel_style.dart';
 import '../data/species_providers.dart';
@@ -41,11 +42,11 @@ class ArtenSection extends ConsumerWidget {
       children: [
         if (showTitle) ...[
           Text(title, style: headingStyle),
-          const SizedBox(height: 8),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         speciesAsync.when(
           loading: () => const Padding(
-            padding: EdgeInsets.symmetric(vertical: 16),
+            padding: EdgeInsets.symmetric(vertical: AppSpacing.stack),
             child: Center(child: CircularProgressIndicator.adaptive()),
           ),
           error: (e, _) => Text(
@@ -75,7 +76,7 @@ class ArtenSection extends ConsumerWidget {
             void addSection(List<Species> items) {
               if (items.isEmpty) return;
               if (sections.isNotEmpty) {
-                sections.add(const SizedBox(height: 16));
+                sections.add(const SizedBox(height: AppSpacing.stack));
               }
               if (showCategoryHeaders) {
                 final kat = speciesKategorieEintrag(items.first.kategorie);
@@ -87,7 +88,7 @@ class ArtenSection extends ConsumerWidget {
                     isGeraete: items.first.isGeraet,
                   ),
                 );
-                sections.add(const SizedBox(height: 8));
+                sections.add(const SizedBox(height: AppSpacing.afterHeading));
               }
               sections.add(
                 SpeciesCarousel(

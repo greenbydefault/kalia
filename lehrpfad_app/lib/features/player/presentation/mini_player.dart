@@ -5,10 +5,14 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_spacing.dart';
 import '../../../core/motion/reduced_motion.dart';
+import '../../community/domain/trail_image.dart';
+import '../../nearby_trails/domain/karte_copy.dart';
+import '../../trail/presentation/map/trail_hero.dart';
+import '../../trail_progress/presentation/open_trail_on_map.dart';
 import '../data/mini_player_provider.dart';
-import 'equalizer_bars.dart';
 
-/// Mini-Player über der Tab-Bar. Gleitet mit `easeOutBack` ein und aus.
+/// Mini-Player direkt über der Tab-Bar, auf allen Tabs, bis er geschlossen
+/// wird. Gleitet mit `easeOutBack` ein und aus.
 class MiniPlayerHost extends ConsumerStatefulWidget {
   const MiniPlayerHost({super.key});
 
@@ -60,6 +64,8 @@ class _MiniPlayerCard extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final notifier = ref.read(miniPlayerProvider.notifier);
+    final trail = state.trail;
+    final zeit = '${formatZeit(state.position)} / ${formatZeit(state.dauer)}';
     return Material(
       color: AppColors.ink,
       borderRadius: BorderRadius.circular(AppSpacing.x4),
@@ -73,47 +79,83 @@ class _MiniPlayerCard extends ConsumerWidget {
             Expanded(
               child: Row(
                 children: [
-                  const SizedBox(width: AppSpacing.x4),
-                  EqualizerBars(playing: state.playing, color: AppColors.paper),
-                  const SizedBox(width: AppSpacing.x3),
+                  // Tipp auf die Fläche öffnet den Detail-Screen.
                   Expanded(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          state.stationTitle,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.titleSmall?.copyWith(
-                            color: AppColors.paper,
+                    child: InkWell(
+                      onTap: () =>
+                          openTrailOnMap(context, ref, trail, detail: true),
+                      child: Row(
+                        children: [
+                          const SizedBox(width: AppSpacing.x3),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(AppSpacing.x2),
+                            child: TrailHeroImage(
+                              trailId: trail.id,
+                              slide: HeroSlide.seed(
+                                TrailHero.pagesFor(trail).first,
+                              ),
+                              fit: BoxFit.cover,
+                              variant: TrailImageVariant.thumb,
+                              width: 40,
+                              height: 40,
+                            ),
                           ),
-                        ),
-                        Text(
-                          state.trail.name,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: AppColors.onImage70,
+                          const SizedBox(width: AppSpacing.x3),
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  trail.name,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: theme.textTheme.titleSmall?.copyWith(
+                                    color: AppColors.paper,
+                                  ),
+                                ),
+                                Text(
+                                  '${state.titel} · $zeit',
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: theme.textTheme.bodySmall?.copyWith(
+                                    color: AppColors.onImage70,
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                   IconButton(
-                    tooltip: state.playing ? 'Pause' : 'Abspielen',
-                    onPressed: notifier.toggle,
+                    tooltip: state.playing
+                        ? kt('hoeren.pause')
+                        : kt('hoeren.weiter'),
+                    onPressed: state.loading ? null : notifier.toggle,
                     constraints: const BoxConstraints(
                       minWidth: 48,
                       minHeight: 48,
                     ),
-                    icon: PhosphorIcon(
-                      state.playing ? PhosphorIcons.pause : PhosphorIcons.play,
-                      color: AppColors.paper,
-                    ),
+                    icon: state.loading
+                        ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: AppColors.paper,
+                            ),
+                          )
+                        : PhosphorIcon(
+                            state.playing
+                                ? PhosphorIcons.pause
+                                : PhosphorIcons.play,
+                            color: AppColors.paper,
+                          ),
                   ),
                   IconButton(
-                    tooltip: 'Schließen',
+                    tooltip: kt('allg.schliessen'),
                     onPressed: notifier.stop,
                     constraints: const BoxConstraints(
                       minWidth: 48,

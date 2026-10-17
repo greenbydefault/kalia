@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/theme/app_spacing.dart';
+import '../nearby_trails/data/bezug_provider.dart';
+import '../nearby_trails/domain/karte_copy.dart';
+import '../nearby_trails/presentation/ortssuche_page.dart';
 import '../trail_progress/tracking/location_service.dart';
 import 'location_consent_sheet.dart';
 import 'location_gate.dart';
 import 'location_permission_controller.dart';
-import 'map_radius.dart';
 import 'user_position_provider.dart';
 
 /// Standort-Einstellungen im Konto: Toggle, Umkreis, Status, Position löschen.
@@ -18,7 +20,7 @@ class LocationSettingsSection extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final enabled = ref.watch(mapLocationEnabledProvider);
-    final radius = ref.watch(mapRadiusProvider);
+    final umkreis = ref.watch(umkreisProvider);
     final hasAnchor = ref.watch(mapAnchorProvider) != null;
     final status = ref.watch(locationPermissionProvider);
 
@@ -35,19 +37,11 @@ class LocationSettingsSection extends ConsumerWidget {
           onChanged: (value) => _onToggle(context, ref, value),
         ),
         const SizedBox(height: AppSpacing.x2),
-        Text('Umkreis', style: theme.textTheme.labelLarge),
+        Text(kt('filter.anfahrt'), style: theme.textTheme.labelLarge),
         const SizedBox(height: AppSpacing.x1),
-        Wrap(
-          spacing: AppSpacing.x2,
-          children: [
-            for (final option in MapRadius.values)
-              ChoiceChip(
-                label: Text(option.label),
-                selected: radius == option,
-                onSelected: (_) =>
-                    ref.read(mapRadiusProvider.notifier).select(option),
-              ),
-          ],
+        UmkreisAuswahl(
+          wert: umkreis,
+          onChanged: ref.read(umkreisProvider.notifier).set,
         ),
         if (!hasAnchor) ...[
           const SizedBox(height: AppSpacing.x1),

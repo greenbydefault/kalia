@@ -2,6 +2,7 @@
  "id": "lehrpfad-sandhof",
  "name": "Naturlehrpfad Sandhof",
  "typ": "wald",
+ "gebiet": "wald",
  "kurzbeschreibung": "Acht Kilometer durch Heidewälder und an Klarwasserseen – Lehrpfad ab Festplatz Sandhof bis zum Aussichtsturm Rothirsch. Frei.",
  "beschreibung": "Ausgangspunkt ist der Pavillon auf dem Festplatz in Sandhof. Beschilderte Stationen: Park Sandhof mit fast 100 Gehölzarten, Aussichtsturm Rothirsch am NSG Großer Serrahn (nicht der NP-Teil Serrahn), Paschensee, Wooster Teerofen, Damerower See, Moor am Langhagensee, Kieferndünen. Seeadler und Fischadler sind Park-Charakterarten. Frei, Outdoor. Lang für kleine Kinder – als Ganztag oder Teilstrecke planen.",
  "laengeKm": 6.5,

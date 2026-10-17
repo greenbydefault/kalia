@@ -2,6 +2,7 @@ import 'package:latlong2/latlong.dart';
 
 import 'amenity.dart';
 import 'eignung_score.dart';
+import 'gebiet.dart';
 import 'haversine.dart';
 import 'station.dart';
 import 'trail_bild.dart';
@@ -22,6 +23,10 @@ class Trail {
   final String id;
   final String name;
   final String typ;
+
+  /// Hauptgebiet aus dem Seed (`gebiet`), `null` wenn der Seed keins trägt.
+  /// Auswertung über [gebiet].
+  final String? gebietKey;
 
   /// `linie` (Polyline) oder `flaeche` (Polygon).
   final String form;
@@ -54,10 +59,17 @@ class Trail {
   final List<Amenity> amenities;
   final List<TrailBild> bilder;
 
+  /// Einsprech-Skript der Trail-Einführung (Seed). Kein Lesetext.
+  final String? hoertext;
+
+  /// Audiodatei der Einführung. TODO: noch keine Aufnahmen im Katalog.
+  final String? audioPath;
+
   const Trail({
     required this.id,
     required this.name,
     required this.typ,
+    this.gebietKey,
     this.form = 'linie',
     required this.kurzbeschreibung,
     required this.beschreibung,
@@ -83,7 +95,13 @@ class Trail {
     required this.stationen,
     required this.amenities,
     this.bilder = const [],
+    this.hoertext,
+    this.audioPath,
   });
+
+  /// Hauptgebiet: Seed-Wert, sonst aus `typ` + `lebensraeume` abgeleitet.
+  Gebiet get gebiet =>
+      Gebiet.fromKey(gebietKey) ?? deriveGebiet(typ, lebensraeume);
 
   bool get isFlaeche => form == 'flaeche';
   bool get isLinie => !isFlaeche;
@@ -205,6 +223,7 @@ class Trail {
       id: json['id'] as String,
       name: json['name'] as String,
       typ: typ,
+      gebietKey: json['gebiet'] as String?,
       form: form,
       kurzbeschreibung: json['kurzbeschreibung'] as String,
       beschreibung: json['beschreibung'] as String,
@@ -236,6 +255,8 @@ class Trail {
       bilder: (json['bilder'] as List? ?? const [])
           .map((b) => TrailBild.fromJson(b as Map<String, dynamic>))
           .toList(),
+      hoertext: json['hoertext'] as String?,
+      audioPath: json['audioPath'] as String?,
     );
   }
 
@@ -243,6 +264,7 @@ class Trail {
     'id': id,
     'name': name,
     'typ': typ,
+    if (gebietKey != null) 'gebiet': gebietKey,
     'form': form,
     'kurzbeschreibung': kurzbeschreibung,
     'beschreibung': beschreibung,
@@ -269,5 +291,7 @@ class Trail {
     'stationen': stationen.map((s) => s.toJson()).toList(),
     'amenities': amenities.map((a) => a.toJson()).toList(),
     if (bilder.isNotEmpty) 'bilder': bilder.map((b) => b.toJson()).toList(),
+    if (hoertext != null) 'hoertext': hoertext,
+    if (audioPath != null) 'audioPath': audioPath,
   };
 }

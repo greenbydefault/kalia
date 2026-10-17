@@ -115,6 +115,9 @@ class SeedTrailRepository implements TrailRepository {
     'assets/seed/erlebnisweg-mueggelberge-teufelssee.json',
     'assets/seed/waldspielplatz-jaegerhaus.json',
     'assets/seed/wald-berlin-klima.json',
+    'assets/seed/kinderbauernhof-mauerplatz.json',
+    'assets/seed/plansche-plaenterwald.json',
+    'assets/seed/wasser-erlebnispfad-sprotte.json',
     // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
     // 'assets/seed/alt-daber.json',
   ];

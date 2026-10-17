@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../../app/theme/app_spacing.dart';
+
 /// Eingeklappter Abschnitt im Trail-Sheet (Material-3 ExpansionTile).
 ///
 /// Beim Öffnen scrollt das Parent-Scrollable nach der Expand-Animation
@@ -58,7 +60,7 @@ class _SheetAccordionSectionState extends State<SheetAccordionSection> {
     return ExpansionTile(
       initiallyExpanded: false,
       tilePadding: EdgeInsets.zero,
-      childrenPadding: const EdgeInsets.only(bottom: 8),
+      childrenPadding: const EdgeInsets.only(bottom: AppSpacing.section),
       shape: const Border(),
       collapsedShape: const Border(),
       expansionAnimationStyle: const AnimationStyle(

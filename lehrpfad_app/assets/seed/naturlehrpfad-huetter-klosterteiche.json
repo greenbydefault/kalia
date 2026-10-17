@@ -2,6 +2,7 @@
  "id": "naturlehrpfad-huetter-klosterteiche",
  "name": "Naturlehrpfad Hütter Klosterteiche",
  "typ": "wald",
+ "gebiet": "wasser",
  "kurzbeschreibung": "Die Mönche von Doberan haben die Kanbek aufgestaut. Der Weg läuft auf den Dämmen zwischen den Teichen.",
  "beschreibung": "Zisterzienser aus Doberan haben die Kanbek zu Teichen aufgestaut. Niedrige Dämme trennen die Becken bis heute. Wer über einen Damm geht, hat links und rechts Schilf und Wasser. Pflanzgartenteich, Schunbergteich und Klosterteich liegen dicht beieinander. Tafeln am Ufer erzählen von Totholz, von Höhlen in alten Bäumen und von dem, was in einem Reisighaufen wohnt. Ein Insektenhotel steht am Beginn der Runde. Ringsum liegt der Hütter Wohld, für diese Küste ungewöhnlich hügelig.",
  "laengeKm": 2.8,

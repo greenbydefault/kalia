@@ -2,6 +2,7 @@
  "id": "ostsee-lehrpfad-graal-mueritz",
  "name": "Ostsee-Lehrpfad Graal-Müritz",
  "typ": "kueste",
+ "gebiet": "kueste",
  "kurzbeschreibung": "Westlich der Seebrücke hängen die Tafeln an der gepflasterten Strandpromenade. Die Reihe beginnt mit der Entstehung der Ostsee.",
  "beschreibung": "Eine Tafel an der Promenade ist wie eine Zeitung aufgemacht. Hering, Seegras, Schweinswal und seemännische Wörter stehen dort in Spalten. Ein Stück weiter hängt eine Leine, an der sich der Palstek knüpfen lässt. Der Weg läuft von der Seebrücke bis zum Strandaufgang 35, flach auf Pflaster, das Wasser die ganze Zeit daneben. Die Tafeln hängen auf Deutsch und auf Englisch. Bernstein, ein Donnerkeil und die Sage von der versunkenen Stadt hängen an einer eigenen Tafel. Am westlichen Ende stehen sieben Küstenformen nebeneinander, von der Ausgleichsküste bis zur Schärenküste.",
  "laengeKm": 1.0,

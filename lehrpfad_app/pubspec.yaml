@@ -50,6 +50,7 @@ dependencies:
   flutter_animate: ^4.5.2
   go_router: ^17.5.0
   file_selector: ^1.1.0
+  connectivity_plus: ^7.3.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -182,6 +183,9 @@ flutter:
     - assets/images/trails/erlebnisweg-mueggelberge-teufelssee/
     - assets/images/trails/waldspielplatz-jaegerhaus/
     - assets/images/trails/wald-berlin-klima/
+    - assets/images/trails/kinderbauernhof-mauerplatz/
+    - assets/images/trails/plansche-plaenterwald/
+    - assets/images/trails/wasser-erlebnispfad-sprotte/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

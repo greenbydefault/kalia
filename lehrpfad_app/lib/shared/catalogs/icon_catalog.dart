@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
+import '../../features/trail/domain/gebiet.dart';
+
 /// Icon + Anzeigename für einen Katalog-Schlüssel aus den JSON-Daten.
 ///
 /// [buildIcon] kapselt die Darstellung: Soll das Icon-Set später erneut
@@ -118,6 +120,19 @@ const typKatalog = <String, KatalogEintrag>{
   'barfusspfad': KatalogEintrag(PhosphorIcons.footprints, 'Barfußpfad'),
   'kueste': KatalogEintrag(PhosphorIcons.waves, 'Küstenpfad'),
   'kinderbauernhof': KatalogEintrag(PhosphorIcons.barn, 'Kinderbauernhof'),
+};
+
+/// Gebiets-Icons: Chip-Reihe, Marker und Eintragskarte nutzen dieselben,
+/// damit die Chip-Reihe als Kartenlegende taugt. Das Label steht in der Copy
+/// (`gebiet.*`).
+const gebietIcons = <Gebiet, IconData>{
+  Gebiet.wald: PhosphorIcons.tree,
+  Gebiet.heide: PhosphorIcons.flowerTulip,
+  Gebiet.moor: PhosphorIcons.grains,
+  Gebiet.kueste: PhosphorIcons.sunHorizon,
+  Gebiet.wasser: PhosphorIcons.drop,
+  Gebiet.spreewald: PhosphorIcons.boat,
+  Gebiet.hof: PhosphorIcons.barn,
 };
 
 /// Species-Kategorie (Flora / Fauna / Geräte) — Sektions-Header, Chips, Tiles.

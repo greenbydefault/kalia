@@ -23,7 +23,7 @@ Quelle der ersten 14: Familien-Feature-Liste + Code-Stand Aug 2026.
 
 - [ ] `station-open` — Tour öffnet das Stations-Sheet, nicht nur eine Snackbar. Done wenn: Station betreten → `StationDetailSheet` mit Inhalt, Snackbar allein reicht nicht.
 - [ ] `amenities-ui` — WC, Parkplatz, Bank, Picknick, Spielplatz sichtbar. Done wenn: Icon-Leiste im Trail-Sheet und Marker auf der Karte im Tour-Modus, beides aus `amenityKatalog`.
-- [ ] `familien-filter` — Karte filtert nach Kinderwagen, WC, Eintritt frei, max. Dauer, Hunde. Done wenn: jeder der fünf Filter die sichtbaren Trails verändert und ohne Treffer der Umkreis-Leerzustand gilt.
+- [ ] `familien-filter` — Filter-Sheet im Karte-Tab (Anfahrt, Was, Dauer, Länge, Wichtig für euch: Kinderwagen, Barrierefrei, Rundkurs, Parkplatz, WC, Einkehr), Spec „Karte – In eurer Nähe“. Done wenn: jede Sektion Liste und Marker verändert und leere Mengen E5/E6/E7 zeigen. Offen: Eintritt frei und Hunde sind in der Spec kein Filter.
 - [ ] `fehler-melden` — Meldeweg für fehlerhafte Trail-Daten. Done wenn: von Trail oder Konto aus ein Formular oder Mailto mit Trail-Kontext abgeht.
 - [ ] `sammlung-ehrlich` — Schloss-Copy und Toggle dieselbe Regel. Done wenn: entweder Gesehen nur vor Ort (Tour + Nähe) oder Grid/Copy ohne „Am Lehrpfad freischalten“.
 - [ ] `trail-teilen` — Share-Sheet mit Name, Region, Maps-Link. Done wenn: das System-Share einen Text inkl. Maps-URL ausgibt. Deep Link nicht nötig.

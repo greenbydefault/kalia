@@ -43,8 +43,8 @@ class TrailSheetHeader extends StatelessWidget {
           children: [
             Expanded(
               child: Wrap(
-                spacing: AppSpacing.x2,
-                runSpacing: AppSpacing.x2,
+                spacing: AppSpacing.chip,
+                runSpacing: AppSpacing.chip,
                 children: [
                   Chip(
                     label: Text(typ.label),
@@ -73,21 +73,20 @@ class TrailSheetHeader extends StatelessWidget {
               ),
             ),
             if (peekActions != null) ...[
-              const SizedBox(width: AppSpacing.x2),
+              const SizedBox(width: AppSpacing.chip),
               Flexible(flex: 0, fit: FlexFit.loose, child: peekActions!),
             ],
           ],
         ),
-        const SizedBox(height: AppSpacing.x2),
+        const SizedBox(height: AppSpacing.stack),
         Text(
           trail.name.toUpperCase(),
-          style: theme.textTheme.headlineSmall?.copyWith(
-            fontSize: 32,
+          style: theme.textTheme.headlineMedium?.copyWith(
             fontWeight: FontWeight.w700,
             height: 1.1,
           ),
         ),
-        const SizedBox(height: AppSpacing.x1),
+        const SizedBox(height: AppSpacing.afterHeading),
         Text(trail.kurzbeschreibung, style: theme.textTheme.bodyMedium),
       ],
     );

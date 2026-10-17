@@ -2,18 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
+
+import '../../../../app/theme/app_spacing.dart';
 
 import '../../../../app/shell_tab_provider.dart';
 import '../../../../core/config/supabase_config.dart';
 import '../../../../shared/widgets/sheet_motion.dart';
 import '../../../community/presentation/upload_fab.dart';
 import '../../../location/user_position_provider.dart';
-import '../../../onboarding/data/onboarding_prefs_provider.dart';
 import '../../../location/visible_trails_provider.dart';
 import '../../../nearby/data/nearby_providers.dart';
 import '../../../nearby/domain/nearby.dart';
 import '../../../nearby/presentation/nearby_peek_card.dart';
+import '../../../nearby_trails/data/bezug_provider.dart';
+import '../../../nearby_trails/data/karte_state.dart';
+import '../../../nearby_trails/domain/bezugspunkt.dart';
+import '../../../nearby_trails/domain/karte_copy.dart';
+import '../../../nearby_trails/domain/karte_logik.dart';
+import '../../../nearby_trails/presentation/bezug_aktionen.dart';
 import '../../../nearby_trails/presentation/nearby_trails_panel.dart';
+import '../../../nearby_trails/presentation/ortssuche_page.dart';
 import '../../../player/data/mini_player_provider.dart';
 import '../../../player/presentation/mini_player.dart';
 import '../../../trail_progress/data/trail_progress_providers.dart';
@@ -25,7 +34,6 @@ import '../../data/providers.dart';
 import '../../domain/trail.dart';
 import '../detail/trail_detail_page.dart';
 import 'locate_fab.dart';
-import 'map_filters_overlay.dart';
 import 'tour_map_state.dart';
 import 'trail_overview_map.dart';
 import 'trail_peek_card.dart';
@@ -77,6 +85,9 @@ class _MapScreenState extends ConsumerState<MapScreen>
   /// Höhe des Nähe-Panels in px (für den FAB-Versatz).
   final ValueNotifier<double> _panelHeight = ValueNotifier(0);
 
+  /// Kartenmitte, wenn „In diesem Bereich suchen“ sichtbar sein soll.
+  final ValueNotifier<LatLng?> _bereichMitte = ValueNotifier(null);
+
   late final AnimationController _detailController = AnimationController(
     vsync: this,
     duration: SheetMotion.enter,
@@ -119,6 +130,7 @@ class _MapScreenState extends ConsumerState<MapScreen>
   @override
   void dispose() {
     _panelHeight.dispose();
+    _bereichMitte.dispose();
     _detailCurve.dispose();
     _peekCurve.dispose();
     _detailController.dispose();
@@ -183,16 +195,14 @@ class _MapScreenState extends ConsumerState<MapScreen>
     final activeWalk = ref.watch(activeWalkProvider).asData?.value;
     final userFix = ref.watch(userPositionProvider).fix;
     final locateTarget = ref.watch(locateTargetProvider);
-    final mapAnchor = ref.watch(mapAnchorProvider);
-    final place = ref.watch(onboardingPrefsValueProvider).place;
+    final bezug = ref.watch(aktuellerBezugProvider);
+    final umkreis = ref.watch(umkreisProvider);
+    final sheetHoehe = ref.watch(sheetHoeheProvider);
     final pendingCameraTrailId = ref.watch(pendingCameraTrailProvider);
     ref.watch(nearbyCatalogProvider);
     ref.watch(nearbyZeitenProvider);
-    final selectedVisible =
-        selected != null &&
-            (visibleTrails?.any((t) => t.id == selected.id) ?? false)
-        ? selected
-        : null;
+    // Auch Einträge außerhalb von M (aus der Suche) dürfen offen sein.
+    final selectedVisible = selected;
     final selectedNearby = ref.watch(selectedNearbyPlaceProvider);
     final nearbyPlaces = selectedVisible == null
         ? const <NearbyTreffer>[]
@@ -209,10 +219,14 @@ class _MapScreenState extends ConsumerState<MapScreen>
     final tourTracking = walkTrailId != null;
     final tourActive = activeWalk != null;
     final panelVisible =
-        !tourTracking &&
-        !tourActive &&
-        selectedVisible == null &&
-        !trailsAsync.hasError;
+        !tourTracking && !tourActive && selectedVisible == null;
+    final screenH = MediaQuery.sizeOf(context).height;
+    // Unterer Kartenrand für Fits: Sheet-Höhe, bei ganz wie halb.
+    final mapBottomInset = !panelVisible
+        ? 0.0
+        : sheetHoehe == SheetHoehe.eingeklappt
+        ? NearbyTrailsPanel.kopfHoehe + AppSpacing.x2
+        : NearbyTrailsPanel.halbSize * screenH;
 
     final peekTrail =
         selectedVisible ??
@@ -237,13 +251,10 @@ class _MapScreenState extends ConsumerState<MapScreen>
       }
     });
 
-    ref.listen(visibleTrailsProvider, (prev, next) {
-      final current = ref.read(selectedTrailProvider);
-      if (current == null || next == null) return;
-      if (!next.any((t) => t.id == current.id)) {
-        ref.read(selectedTrailProvider.notifier).clear();
-        ref.read(pendingCameraTrailProvider.notifier).clear();
-      }
+    ref.listen(detailAnfrageProvider, (_, _) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted && ref.read(selectedTrailProvider) != null) _openDetail();
+      });
     });
 
     ref.listen(walkSnapshotProvider.select((s) => s?.justVisitedStationId), (
@@ -285,14 +296,17 @@ class _MapScreenState extends ConsumerState<MapScreen>
       resolvedWalkTrailId,
     );
 
+    final sheetGanz = onMapTab && panelVisible && sheetHoehe == SheetHoehe.ganz;
     return PopScope(
-      canPop: selectedVisible == null,
+      canPop: selectedVisible == null && !sheetGanz,
       onPopInvokedWithResult: (didPop, _) {
         if (didPop) return;
         if (_detailController.value > 0.001) {
           _closeDetail();
-        } else {
+        } else if (selectedVisible != null) {
           ref.read(selectedTrailProvider.notifier).clear();
+        } else if (sheetGanz) {
+          ref.read(sheetHoeheProvider.notifier).set(SheetHoehe.halb);
         }
       },
       child: Scaffold(
@@ -322,10 +336,23 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   nearbyPlaces: nearbyPlaces,
                   selectedNearby: selectedNearby,
                   walkRoute: walkRoute,
-                  userFix: place?.position ?? userFix?.position,
+                  userFix: bezug?.quelle == BezugQuelle.gps
+                      ? (userFix?.position ?? bezug?.coords)
+                      : null,
                   locateTarget: locateTarget,
-                  userAnchor: mapAnchor,
-                  framePlace: place != null,
+                  userAnchor: bezug?.coords,
+                  framePlace: bezug?.quelle == BezugQuelle.suche,
+                  bezugPin: bezug != null && bezug.quelle != BezugQuelle.gps
+                      ? bezug.coords
+                      : null,
+                  umkreisM: bezug == null ? null : umkreisMeter(umkreis),
+                  bottomInset: mapBottomInset,
+                  onBereichSuchen: (mitte) => _bereichMitte.value = mitte,
+                  onMapTap: () {
+                    if (ref.read(selectedTrailProvider) != null) {
+                      ref.read(selectedTrailProvider.notifier).clear();
+                    }
+                  },
                   onMapTab: onMapTab,
                   pendingCameraTrailId: pendingCameraTrailId,
                   onPendingCameraConsumed: () =>
@@ -333,10 +360,34 @@ class _MapScreenState extends ConsumerState<MapScreen>
                 ),
               ),
             ),
-            if (!tourTracking &&
-                selectedVisible == null &&
-                trailsAsync.value != null)
-              MapFiltersOverlay(allTrails: trailsAsync.value!),
+            if (!tourTracking && selectedVisible != null)
+              Positioned(
+                top: 0,
+                left: AppSpacing.x3,
+                child: SafeArea(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: AppSpacing.x2),
+                    child: AnimatedBuilder(
+                      animation: _detailController,
+                      builder: (context, child) => Opacity(
+                        opacity: 1 - _peekHide.transform(_detailCurve.value),
+                        child: child,
+                      ),
+                      child: ActionChip(
+                        avatar: const PhosphorIcon(
+                          PhosphorIcons.caretLeft,
+                          size: 16,
+                        ),
+                        label: Text(kt('karte.zurueckListe')),
+                        onPressed: () =>
+                            ref.read(selectedTrailProvider.notifier).clear(),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            if (panelVisible && onMapTab)
+              _BereichSuchenButton(notifier: _bereichMitte),
             if (!tourTracking && selectedNearby != null)
               Positioned(
                 left: 12,
@@ -432,18 +483,6 @@ class _MapScreenState extends ConsumerState<MapScreen>
               ),
             if (trailsAsync.isLoading && !panelVisible)
               const Center(child: CircularProgressIndicator()),
-            if (trailsAsync.hasError)
-              Center(
-                child: Card(
-                  margin: const EdgeInsets.all(24),
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: Text(
-                      'Seed konnte nicht geladen werden:\n${trailsAsync.error}',
-                    ),
-                  ),
-                ),
-              ),
             if (tourTracking)
               Align(
                 alignment: Alignment.bottomCenter,
@@ -480,8 +519,9 @@ class _MapScreenState extends ConsumerState<MapScreen>
                       final off = hidden || tooHigh;
                       return Positioned(
                         right: 16,
+                        // Knapp über der Sheet-Oberkante, wandert mit.
                         bottom:
-                            24 +
+                            12 +
                             playerExtra +
                             panel +
                             _peekCurve.value * (TrailPeekCard.height + extra),
@@ -493,16 +533,44 @@ class _MapScreenState extends ConsumerState<MapScreen>
                     },
                   );
                 },
+                child: const LocateFab(),
+              ),
+            // Kartenleiste: Suchen, Melden. Bei Sheet ganz offen weg.
+            if (!tourTracking &&
+                !(panelVisible && sheetHoehe == SheetHoehe.ganz))
+              AnimatedBuilder(
+                animation: _detailController,
+                builder: (context, child) {
+                  final hidden = _mapFade.transform(_detailCurve.value) > 0;
+                  return Positioned(
+                    top: 0,
+                    right: AppSpacing.x4,
+                    child: Offstage(
+                      offstage: hidden,
+                      child: IgnorePointer(ignoring: hidden, child: child),
+                    ),
+                  );
+                },
                 child: SafeArea(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      if (SupabaseConfig.isConfigured) ...[
-                        UploadFab(trail: peekTrail),
-                        const SizedBox(height: 8),
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: AppSpacing.x2),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        FloatingActionButton.small(
+                          heroTag: 'suchen',
+                          tooltip: kt('karte.suchen'),
+                          onPressed: () => openOrtssuche(context),
+                          child: const PhosphorIcon(
+                            PhosphorIcons.magnifyingGlass,
+                          ),
+                        ),
+                        if (SupabaseConfig.isConfigured) ...[
+                          const SizedBox(height: AppSpacing.x2),
+                          UploadFab(trail: peekTrail),
+                        ],
                       ],
-                      const LocateFab(),
-                    ],
+                    ),
                   ),
                 ),
               ),
@@ -549,7 +617,18 @@ class _WalkMapLayer extends ConsumerWidget {
     required this.onMapTab,
     required this.pendingCameraTrailId,
     required this.onPendingCameraConsumed,
+    required this.bezugPin,
+    required this.umkreisM,
+    required this.bottomInset,
+    required this.onBereichSuchen,
+    required this.onMapTap,
   });
+
+  final LatLng? bezugPin;
+  final double? umkreisM;
+  final double bottomInset;
+  final ValueChanged<LatLng?> onBereichSuchen;
+  final VoidCallback onMapTap;
 
   final List<Trail>? trails;
   final Trail? selectedVisible;
@@ -591,7 +670,60 @@ class _WalkMapLayer extends ConsumerWidget {
         framePlace: framePlace,
         pendingCameraTrailId: pendingCameraTrailId,
         onPendingCameraConsumed: onPendingCameraConsumed,
+        bezugPin: bezugPin,
+        umkreisM: umkreisM,
+        bottomInset: bottomInset,
+        onBereichSuchen: onBereichSuchen,
+        onMapTap: onMapTap,
       ),
+    );
+  }
+}
+
+/// Kreisradius in Metern, passend zur Anfahrtsschätzung
+/// (`min = km * 1,3 / 45 * 60`). `null` bei „egal“.
+double? umkreisMeter(Umkreis u) {
+  final min = u.minuten;
+  if (min == null) return null;
+  return min / 60 * 45 / 1.3 * 1000;
+}
+
+/// „In diesem Bereich suchen“, oben mittig, nur nach einer Kartengeste.
+class _BereichSuchenButton extends ConsumerWidget {
+  const _BereichSuchenButton({required this.notifier});
+
+  final ValueNotifier<LatLng?> notifier;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return ValueListenableBuilder<LatLng?>(
+      valueListenable: notifier,
+      builder: (context, mitte, _) {
+        if (mitte == null) return const SizedBox.shrink();
+        return Align(
+          alignment: Alignment.topCenter,
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.only(top: AppSpacing.x2),
+              child: FilledButton.icon(
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size(0, 44),
+                  shape: const StadiumBorder(),
+                ),
+                onPressed: () {
+                  notifier.value = null;
+                  BezugAktionen(ref).sucheImBereich(mitte);
+                },
+                icon: const PhosphorIcon(
+                  PhosphorIcons.magnifyingGlass,
+                  size: 18,
+                ),
+                label: Text(kt('karte.bereichSuchen')),
+              ),
+            ),
+          ),
+        );
+      },
     );
   }
 }

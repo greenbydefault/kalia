@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-/// Shell-Tab-Index (Karte=0, Meine Listen=1, Sammlung=2, Konto=3).
+/// Shell-Tab-Index (Karte=0, Erkunden=1, Meine Listen=2, Sammlung=3, Konto=4).
 final shellTabIndexProvider = NotifierProvider<ShellTabIndexNotifier, int>(
   ShellTabIndexNotifier.new,
 );

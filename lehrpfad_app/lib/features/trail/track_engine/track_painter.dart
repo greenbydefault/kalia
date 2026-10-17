@@ -37,7 +37,7 @@ class TrackPainter extends CustomPainter {
           style: TextStyle(
             fontFamily: AppTypography.family,
             color: color,
-            fontSize: 13,
+            fontSize: AppTypography.labelSmall,
             fontWeight: FontWeight.bold,
             height: 1,
           ),
@@ -142,7 +142,7 @@ class TrackPainter extends CustomPainter {
         style: TextStyle(
           fontFamily: AppTypography.family,
           color: fg,
-          fontSize: 13,
+          fontSize: AppTypography.labelSmall,
           fontWeight: FontWeight.bold,
           height: 1,
         ),

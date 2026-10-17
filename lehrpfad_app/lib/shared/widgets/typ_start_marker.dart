@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../app/theme/app_colors.dart';
+import '../../features/trail/domain/gebiet.dart';
 import '../../features/trail/domain/trail.dart';
 import '../catalogs/icon_catalog.dart';
 
@@ -14,6 +16,9 @@ abstract final class MapMarkerStyle {
   static const shadowBlur = 8.0;
   static const iconSize = size - 2 * borderWidth - 2 * iconPadding;
   static const letterScale = 0.85;
+
+  /// Mindest-Tippfläche (Spec: 44 × 44).
+  static const hitSize = 44.0;
 
   static const poiSize = 26.0;
   static const poiSelectedSize = 30.0;
@@ -30,6 +35,10 @@ class TypStartMarker extends StatelessWidget {
   final int? count;
   final bool inverted;
   final bool eintritt;
+
+  /// Gebiets-Icon statt Typ-Icon (Karte-Tab).
+  final Gebiet? gebiet;
+  final String? semanticLabel;
   final VoidCallback? onTap;
   final double size;
   final double iconSize;
@@ -38,6 +47,8 @@ class TypStartMarker extends StatelessWidget {
     super.key,
     required String this.typ,
     this.eintritt = false,
+    this.gebiet,
+    this.semanticLabel,
     this.onTap,
     this.size = MapMarkerStyle.size,
     this.iconSize = MapMarkerStyle.iconSize,
@@ -57,6 +68,8 @@ class TypStartMarker extends StatelessWidget {
       key: key,
       typ: trail.typ,
       eintritt: trail.eintritt,
+      gebiet: trail.gebiet,
+      semanticLabel: '${trail.name}, ${typEintrag(trail.typ).label}',
       onTap: onTap,
       size: size,
       iconSize: iconSize,
@@ -72,6 +85,8 @@ class TypStartMarker extends StatelessWidget {
     this.iconSize = MapMarkerStyle.iconSize,
   }) : typ = null,
        count = null,
+       gebiet = null,
+       semanticLabel = null,
        eintritt = false;
 
   const TypStartMarker.count(
@@ -83,9 +98,11 @@ class TypStartMarker extends StatelessWidget {
   }) : typ = null,
        letter = null,
        inverted = false,
+       gebiet = null,
+       semanticLabel = null,
        eintritt = false;
 
-  /// Hitbox = [size]. Optional [wrap] für Appear-Animation.
+  /// Hitbox mindestens 44 pt. Optional [wrap] für Appear-Animation.
   Marker toMarker(
     LatLng point, {
     Key? key,
@@ -94,8 +111,8 @@ class TypStartMarker extends StatelessWidget {
     return Marker(
       key: key,
       point: point,
-      width: size,
-      height: size,
+      width: size < MapMarkerStyle.hitSize ? MapMarkerStyle.hitSize : size,
+      height: size < MapMarkerStyle.hitSize ? MapMarkerStyle.hitSize : size,
       alignment: Alignment.center,
       child: wrap == null ? this : wrap(this),
     );
@@ -114,6 +131,8 @@ class TypStartMarker extends StatelessWidget {
       inner = _letterBox('$count', fg);
     } else if (letter != null) {
       inner = _letterBox(letter!, fg);
+    } else if (gebiet != null) {
+      inner = PhosphorIcon(gebietIcons[gebiet]!, size: iconSize, color: fg);
     } else {
       inner = typEintrag(typ!).buildIcon(size: iconSize, color: fg);
     }
@@ -140,7 +159,16 @@ class TypStartMarker extends StatelessWidget {
       label: _semanticsLabel,
       child: onTap == null
           ? marker
-          : GestureDetector(onTap: onTap, child: marker),
+          : GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onTap: onTap,
+              child: SizedBox.square(
+                dimension: size < MapMarkerStyle.hitSize
+                    ? MapMarkerStyle.hitSize
+                    : size,
+                child: Center(child: marker),
+              ),
+            ),
     );
   }
 
@@ -165,6 +193,7 @@ class TypStartMarker extends StatelessWidget {
     if (count != null) return '$count Orte';
     if (letter == 'B') return 'Ziel';
     if (letter == 'A') return 'Start';
+    if (semanticLabel != null) return semanticLabel!;
     return typEintrag(typ!).label;
   }
 }

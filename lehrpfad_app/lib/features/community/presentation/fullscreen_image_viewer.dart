@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_avif/flutter_avif.dart';
 
 import '../../../app/theme/app_colors.dart';
+import '../../../app/theme/app_typography.dart';
 import '../domain/trail_image.dart';
 
 /// Vollbild-Ansicht fuer Bilder: Wischen zwischen Bildern, Zoomen per
@@ -137,7 +138,10 @@ class _FullscreenImageViewerState extends State<FullscreenImageViewer> {
               child: Text(
                 '© ${image.credit}',
                 textAlign: TextAlign.center,
-                style: const TextStyle(color: AppColors.onImage70, fontSize: 13),
+                style: const TextStyle(
+                  color: AppColors.onImage70,
+                  fontSize: AppTypography.labelSmall,
+                ),
               ),
             ),
         ],

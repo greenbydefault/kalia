@@ -79,8 +79,19 @@ Geräteposition (When-in-use). Für Umkreis und Vor-Ort ein One-Shot, für die T
 _Avoid_: GPS als Synonym für den Kartenfilter
 
 **Umkreis**:
-Kartenfilter um den Standort (20 / 50 / 100 km / Alle). Default 20 km. Ohne Consent = Alle.
-_Avoid_: Radius (in der UI), Nearby; mit „Ort in der Nähe“ (kuratierte Cafés/Camping) verwechseln
+Maximale Anfahrt in Minuten (15 / 30 / 1 Std / egal), Default 30 Min. Die Anfahrt wird lokal aus der Luftlinie geschätzt (`min = max(2, km · 1,3 / 45 · 60)`) und immer mit „ca.“ gezeigt. Gleicher State im Filter-Sheet, in der Ortssuche und im Konto.
+_Avoid_: Radius (in der UI), km-Chips, Nearby; mit „Ort in der Nähe“ (kuratierte Cafés/Camping) verwechseln
+
+**Bezugspunkt**:
+Punkt, ab dem die Anfahrt rechnet: GPS-Standort, gesuchter Ort oder Kartenmitte („In diesem Bereich suchen“, nur in der Sitzung). Ohne Bezugspunkt gilt Zustand E3 („Wo seid ihr unterwegs?“). Quelle: `aktuellerBezugProvider`.
+_Avoid_: Anker, Home, Ankerpunkt
+
+**Gebiet**:
+Hauptgebiet eines Eintrags (wald, heide, moor, kueste, wasser, spreewald, hof). Seed-Feld `gebiet`, sonst abgeleitet aus `typ` und erstem `lebensraum` (`tools/gebiet.py` und `deriveGebiet` müssen übereinstimmen). Treibt Chip-Reihe, Marker-Icon und die Vorschläge „Je Gebiet das Nächste“.
+_Avoid_: Kategorie, Typ (der Typ ist die Wegart: Rundweg, Lehrpfad …)
+
+**Menge M**:
+Alle Einträge, die Umkreis, Gebiet und Filter erfüllen. Liste und Marker zeigen immer genau M (`mengeProvider`, `visibleTrailsProvider`).
 
 **Ort in der Nähe**:
 Kuratierter Ort im Umfeld eines Trails (`cafe` / `restaurant` / `hofladen` / `baden` / `museum` / `aktivitaet` / `camping`). Eigene Katalog-Entity; Zugehörigkeit über Distanz zu Trail-`start` (Default 20 km, Camping 5 km). Anzeige max. 8 (erst max. 2 pro Kategorie, Rest nach Distanz). Marker-Layer bei Trail-Auswahl, Accordion „In der Nähe“ im Detail.

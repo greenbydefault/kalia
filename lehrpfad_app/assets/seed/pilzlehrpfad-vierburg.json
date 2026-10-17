@@ -2,6 +2,7 @@
  "id": "pilzlehrpfad-vierburg",
  "name": "Pilzlehrpfad Vierburg",
  "typ": "wald",
+ "gebiet": "wald",
  "kurzbeschreibung": "Tafeln im Vierburgwald nennen Speisepilze, Giftpilze und ihre Doppelgänger. Eine Plattform blickt auf den Großen Peetscher See.",
  "beschreibung": "Am Großen Peetscher See nennen Tafeln Speisepilz, Giftpilz und den Doppelgänger daneben beim Namen. Eine Plattform schiebt sich an den See. Vom Weg zweigt sie nur kurz ab. Tafeln dort nennen Brutvögel und die Vögel, die auf dem Wasser rasten. Buchen, Eichen und Nadelbäume stehen nebeneinander, zum See hin wird der Boden torfig. Davor liegt Sand, dazwischen feuchte Senken. Bänke stehen am Weg. Nach Regen wird der Boden weich.",
  "laengeKm": 4.0,

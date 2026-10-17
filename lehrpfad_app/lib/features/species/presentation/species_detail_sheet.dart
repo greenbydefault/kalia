@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_colors.dart';
+import '../../../app/theme/app_spacing.dart';
 import '../../../shared/widgets/show_app_modal_sheet.dart';
 import '../data/species_providers.dart';
 import '../domain/species.dart';
@@ -38,7 +39,7 @@ class SpeciesDetailSheet extends ConsumerWidget {
         Row(
           children: [
             PhosphorIcon(icon, size: 32, color: AppColors.ink),
-            const SizedBox(width: 12),
+            const SizedBox(width: AppSpacing.afterHeading),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -57,22 +58,22 @@ class SpeciesDetailSheet extends ConsumerWidget {
             ),
           ],
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: AppSpacing.afterHeading),
         Text(
           species.kategorieLabel,
           style: theme.textTheme.labelLarge?.copyWith(
             color: AppColors.inkMuted,
           ),
         ),
-        const SizedBox(height: 12),
+        const SizedBox(height: AppSpacing.stack),
         GesehenToggle(
           seen: seen,
           onChanged: (v) =>
               ref.read(sightingsProvider.notifier).setSeen(species.id, v),
         ),
-        const SizedBox(height: 16),
+        const SizedBox(height: AppSpacing.stack),
         SpeciesContentView(species: species),
-        const SizedBox(height: 8),
+        const SizedBox(height: AppSpacing.stack),
         SpeciesProfilView(species: species),
       ],
     );

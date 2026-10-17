@@ -2,6 +2,7 @@
  "id": "ravensberge",
  "name": "Naturlehrpfad Ravensberge",
  "typ": "wald",
+ "gebiet": "wald",
  "kurzbeschreibung": "Naturlehrpfad durch den Erholungswald Ravensberge in Potsdam-Waldstadt – Tafeln zu eiszeitlichen Findlingen, Waldameisen, Wildbienen und dem Naturschutzgebiet Moosfenn.",
  "beschreibung": "Der Naturlehrpfad führt durch den Erholungswald Ravensberge zwischen Waldstadt und Templiner See. An den Tafeln entlang des Weges geht es um die Findlinge des Findlingsparks, die das Eis einst aus Skandinavien hierher transportierte, um Reisighaufen und alte, abgestorbene Bäume als Lebensraum, um die Rote Waldameise sowie um Wildbienen und Hummeln. Ein Abstecher lohnt sich in das angrenzende Naturschutzgebiet Moosfenn mit seinen Feuchtflächen.",
  "laengeKm": 9.6,

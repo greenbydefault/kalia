@@ -112,9 +112,9 @@ class _TrailDetailPageState extends State<TrailDetailPage> {
               ),
               SliverPadding(
                 padding: EdgeInsets.fromLTRB(
-                  AppSpacing.x5,
-                  AppSpacing.x2,
-                  AppSpacing.x5,
+                  AppSpacing.page,
+                  AppSpacing.page,
+                  AppSpacing.page,
                   AppSpacing.x8 + media.padding.bottom,
                 ),
                 sliver: SliverToBoxAdapter(
@@ -135,7 +135,7 @@ class _TrailDetailPageState extends State<TrailDetailPage> {
                             onTourStarted: widget.onTourStarted,
                           ),
                         ),
-                        const SizedBox(height: AppSpacing.x4),
+                        const SizedBox(height: AppSpacing.stack),
                         TrailSheetBody(trail: widget.trail),
                       ],
                     ),

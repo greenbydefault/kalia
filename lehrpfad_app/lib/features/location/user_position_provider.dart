@@ -118,7 +118,7 @@ class UserPositionController extends Notifier<UserPosition> {
       await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
       // Stadtgenauigkeit reicht für die Nähe-Liste. Die Tour bleibt auf high.
       final fix = await _location.getFix(
-        timeLimit: const Duration(seconds: 4),
+        timeLimit: const Duration(seconds: 10),
         accuracy: LocationAccuracy.low,
       );
       state = UserPosition(fix: fix);

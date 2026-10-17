@@ -2,6 +2,7 @@
  "id": "waldspielplatz-jaegerhaus",
  "name": "Waldspielplatz Jägerhaus",
  "typ": "waldspielplatz",
+ "gebiet": "wald",
  "kurzbeschreibung": "Am Jägerhaus stehen Unterschlüpfe im Eichenwald, und weiter drinnen sind sie größer gebaut.",
  "beschreibung": "Außen stehen kleine Unterschlüpfe, weiter im Bestand werden sie groß. Der Boden bleibt Waldboden und geht in die Bäume über. Über die Lichtung laufen zwei Seilbahnen nebeneinander. Eine Holzburg trägt zwei Rutschen, daneben hängt eine Seilpyramide. Im Sand führt eine Rampe in ein Spielhaus. Balken zwischen den Geräten geben nach. Fitnessgeräte stehen am Ostrand, Tische zum Picknick zwischen den Stämmen.",
  "laengeKm": 0.0,

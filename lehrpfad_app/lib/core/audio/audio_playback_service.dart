@@ -11,22 +11,31 @@ class AudioPlaybackService {
   String? _currentSource;
 
   Stream<PlayerState> get playerStateStream => _player.playerStateStream;
+  Stream<Duration> get positionStream => _player.positionStream;
+  Duration get position => _player.position;
+  Future<void> seek(Duration position) => _player.seek(position);
+  void resume() => _player.play();
   bool get playing => _player.playing;
   String? get currentSource => _currentSource;
+
+  /// Lädt die Quelle, ohne zu spielen. Gebündeltes Asset oder, bei
+  /// `http(s)://` bzw. `storage:`-Pfaden (Admin-CMS), die Datei aus dem Netz.
+  Future<void> prepare(String assetPath) async {
+    if (_currentSource == assetPath) return;
+    final url = MediaUrl.resolve(assetPath);
+    if (url != null) {
+      await _player.setUrl(url);
+    } else {
+      await _player.setAsset(assetPath);
+    }
+    _currentSource = assetPath;
+  }
 
   /// Spielt ein gebuendeltes Asset oder, bei `http(s)://` bzw.
   /// `storage:`-Pfaden (Admin-CMS), die Datei aus dem Netz.
   Future<void> playAsset(String assetPath) async {
     try {
-      if (_currentSource != assetPath) {
-        final url = MediaUrl.resolve(assetPath);
-        if (url != null) {
-          await _player.setUrl(url);
-        } else {
-          await _player.setAsset(assetPath);
-        }
-        _currentSource = assetPath;
-      }
+      await prepare(assetPath);
       await _player.play();
     } catch (e, st) {
       debugPrint('AudioPlaybackService.playAsset failed ($assetPath): $e\n$st');

@@ -1877,5 +1877,104 @@
   "lon": 13.1775391,
   "website": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/",
   "oeffnungszeiten": "Sommersaison, Mai bis Mitte September, Eintritt"
+ },
+ {
+  "id": "cafe-engelbecken",
+  "name": "Café am Engelbecken",
+  "kategorie": "cafe",
+  "kurztext": "Kuchen und Terrasse am Wasser, wenige Minuten zu Fuß vom Hof.",
+  "lat": 52.5062635,
+  "lon": 13.4186972,
+  "website": "https://cafe-am-engelbecken.de/",
+  "oeffnungszeiten": "Täglich 10–24 Uhr",
+  "telefon": "+49 30 69596793"
+ },
+ {
+  "id": "sommerbad-kreuzberg",
+  "name": "Sommerbad Kreuzberg",
+  "kategorie": "baden",
+  "kurztext": "Nichtschwimmerbecken mit Rutsche und Planschbecken, im Sommer nach dem Hof.",
+  "lat": 52.4975998,
+  "lon": 13.4026495,
+  "website": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-kreuzberg",
+  "oeffnungszeiten": "Sommersaison, Eintritt",
+  "telefon": "+49 30 787322170"
+ },
+ {
+  "id": "zenner-biergarten",
+  "name": "Zenner Biergarten",
+  "kategorie": "restaurant",
+  "kurztext": "Biergarten an der Spree im Treptower Park, Kuchen, Eis und warme Küche, mit Wickeltisch.",
+  "lat": 52.4875057,
+  "lon": 13.4777625,
+  "website": "https://zenner.berlin/",
+  "oeffnungszeiten": "Mo–Mi 12–21, Do–Fr 12–22, Sa–So 11–22 Uhr, bei gutem Wetter. Wickeltisch.",
+  "telefon": null
+ },
+ {
+  "id": "cafe-eiserne-bank",
+  "name": "Café Zur eisernen Bank",
+  "kategorie": "cafe",
+  "kurztext": "Café im Herrenhaus an der Burg Posterstein, direkt am Start.",
+  "lat": 50.86274,
+  "lon": 12.25358,
+  "website": "https://posterstein.de/gastro/cafe-zur-eisernen-bank/",
+  "oeffnungszeiten": "Mi/Do 12–17, Fr/Sa 12–21, So 12–17:30, Mo/Di Ruhetag",
+  "telefon": "+49 34496 163911"
+ },
+ {
+  "id": "imbiss-rothenmuehle",
+  "name": "Imbiss Zur Rothenmühle",
+  "kategorie": "restaurant",
+  "kurztext": "Imbiss mit Rastplatz an der Rothenmühle, etwa auf dem ersten Drittel des Wegs.",
+  "lat": 50.86544,
+  "lon": 12.26746,
+  "website": "https://posterstein.de/gastro/imbiss-rothenmuehle/",
+  "oeffnungszeiten": "Mo–Fr ab 15, Sa/So/Feiertag ab 11, Dez–März Mo/Di geschlossen",
+  "telefon": ""
+ },
+ {
+  "id": "museum-burg-posterstein",
+  "name": "Museum Burg Posterstein",
+  "kategorie": "museum",
+  "kurztext": "Burgmuseum am Start, nach dem Weg oder davor.",
+  "lat": 50.86312,
+  "lon": 12.25298,
+  "website": "https://www.burg-posterstein.de/",
+  "oeffnungszeiten": "März–Okt Di–So 10–17, Nov–Feb Di–Fr 10–16, Sa/So 10–17",
+  "telefon": "+49 34496 22595"
+ },
+ {
+  "id": "knopfmuseum-schmoelln",
+  "name": "Knopf- und Regionalmuseum Schmölln",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Knopfindustrie am Sprottenanger, am Ziel des Wegs.",
+  "lat": 50.89505,
+  "lon": 12.34404,
+  "website": "",
+  "oeffnungszeiten": "",
+  "telefon": ""
+ },
+ {
+  "id": "tatami-schmoelln",
+  "name": "Freizeitbad Tatami",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad am Ende des Wegs, neben Barfußpfad und Matschplatz.",
+  "lat": 50.8925,
+  "lon": 12.33681,
+  "website": "https://www.freizeitbad-tatami.de/",
+  "oeffnungszeiten": "Hallenbad Mo/Fr 13–21, Di–Do und Sa/So 11–21",
+  "telefon": ""
+ },
+ {
+  "id": "museumsschaenke-schmoelln",
+  "name": "Museumsschänke Schmölln",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte am Knopfmuseum, Einkehr am Ziel.",
+  "lat": 50.89501,
+  "lon": 12.34408,
+  "website": "https://www.museumsschaenke-schmoelln.de/",
+  "oeffnungszeiten": "Do/Fr ab 16, Sa/So ab 11:30, nur Barzahlung",
+  "telefon": "+49 34491 81461"
  }
 ]

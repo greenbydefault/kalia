@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/catalogs/icon_catalog.dart';
 import '../../../community/domain/trail_image.dart';
+import '../../../nearby_trails/data/karte_state.dart';
+import '../../../nearby_trails/domain/eintrag_mapper.dart';
+import '../../../nearby_trails/domain/karte_logik.dart';
+import '../../../nearby_trails/presentation/eintrag_karte.dart';
 import '../../../trail_progress/presentation/trail_sheet_peek_actions.dart';
 import '../../domain/trail.dart';
 import 'trail_hero.dart';
@@ -68,7 +73,7 @@ class TrailPeekCard extends StatelessWidget {
                       slide: HeroSlide.seed(bild),
                       fit: BoxFit.cover,
                       variant: TrailImageVariant.thumb,
-                      width: 116,
+                      width: 96,
                       height: double.infinity,
                     ),
                   ),
@@ -131,41 +136,21 @@ class TrailPeekCard extends StatelessWidget {
   }
 }
 
-class _QuickFacts extends StatelessWidget {
+/// Dieselben Fakten wie die Eintragskarte: Anfahrt, Dauer, Länge, Kinder
+/// bzw. Anfahrt, Saison, Eintritt.
+class _QuickFacts extends ConsumerWidget {
   const _QuickFacts({required this.trail});
 
   final Trail trail;
 
   @override
-  Widget build(BuildContext context) {
-    final style = Theme.of(context).textTheme.bodySmall;
-    return Row(
-      children: [
-        if (trail.isFlaeche) ...[
-          const Icon(Icons.park_outlined, size: 14),
-          const SizedBox(width: AppSpacing.x1),
-          Text('Platz', style: style),
-        ] else ...[
-          const Icon(Icons.route, size: 14),
-          const SizedBox(width: AppSpacing.x1),
-          Text(trail.laengeLabel, style: style),
-          const SizedBox(width: AppSpacing.x2),
-          const Icon(Icons.schedule, size: 14),
-          const SizedBox(width: AppSpacing.x1),
-          Text(trail.dauerLabel, style: style),
-        ],
-        const SizedBox(width: AppSpacing.x2),
-        const Icon(Icons.place_outlined, size: 14),
-        const SizedBox(width: AppSpacing.x1),
-        Expanded(
-          child: Text(
-            trail.region,
-            style: style,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-          ),
-        ),
-      ],
-    );
+  Widget build(BuildContext context, WidgetRef ref) {
+    final eintrag = eintragVon(trail);
+    if (eintrag == null) return const SizedBox.shrink();
+    final bezug = ref.watch(bezugCoordsProvider);
+    final min = bezug == null
+        ? null
+        : schaetzeAnfahrtMin(bezug, eintrag.startpunkt);
+    return FaktenRaster(treffer: Treffer(eintrag, min));
   }
 }

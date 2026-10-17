@@ -3,7 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
+import '../../../../app/theme/app_colors.dart';
 import '../../../../core/config/map_config.dart';
 import '../../../../core/config/map_motion.dart';
 import '../../../../shared/widgets/poi_marker.dart';
@@ -12,6 +14,7 @@ import '../../../location/user_position_provider.dart';
 import '../../../nearby/domain/nearby.dart';
 import '../../../trail_progress/presentation/walk_route_layers.dart';
 import '../../../trail_progress/presentation/walk_user_marker.dart';
+import '../../domain/haversine.dart';
 import '../../domain/trail.dart';
 import 'camera_target.dart';
 import 'map_camera_controller.dart';
@@ -43,6 +46,22 @@ class TrailOverviewMap extends StatefulWidget {
   final String? pendingCameraTrailId;
   final VoidCallback? onPendingCameraConsumed;
 
+  /// Unterer Kartenrand für Fits: Höhe des Sheets.
+  final double bottomInset;
+
+  /// Pin am gesuchten Ort (bei GPS: `null`, der Standort ist der Punkt).
+  final LatLng? bezugPin;
+
+  /// Radius des dezenten Kreises um den Bezugspunkt in Metern, `null` = keiner.
+  final double? umkreisM;
+
+  /// Meldet die Kartenmitte, sobald „In diesem Bereich suchen“ gelten soll,
+  /// sonst `null`. Nur nach Nutzergesten.
+  final ValueChanged<LatLng?>? onBereichSuchen;
+
+  /// Tipp auf leere Kartenfläche.
+  final VoidCallback? onMapTap;
+
   const TrailOverviewMap({
     super.key,
     required this.trails,
@@ -57,6 +76,11 @@ class TrailOverviewMap extends StatefulWidget {
     this.onNearbySelected,
     this.pendingCameraTrailId,
     this.onPendingCameraConsumed,
+    this.bottomInset = 0,
+    this.bezugPin,
+    this.umkreisM,
+    this.onBereichSuchen,
+    this.onMapTap,
   });
 
   @override
@@ -78,10 +102,13 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
   )..addListener(_onTrackFade);
 
   double _trackOpacity = 0;
+  double? _refZoom;
+  LatLng? _bereichMitte;
 
   @override
   void initState() {
     super.initState();
+    _camera.bottomInset = widget.bottomInset;
     if (widget.selectedTrail != null) _trackOpacity = 1;
   }
 
@@ -105,6 +132,28 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
     unawaited(_trackFadeController.forward(from: 0));
   }
 
+  void _meldeBereich(LatLng? mitte) {
+    if (_bereichMitte == mitte) return;
+    _bereichMitte = mitte;
+    widget.onBereichSuchen?.call(mitte);
+  }
+
+  /// Nach einer Nutzergeste: weit genug vom Bezugspunkt weg oder Zoom um
+  /// mindestens eine Stufe geändert.
+  void _pruefeBereich(MapCamera camera) {
+    final anchor = widget.userAnchor;
+    if (anchor == null || widget.onBereichSuchen == null) return;
+    final b = camera.visibleBounds;
+    final lat = camera.center.latitude;
+    final breiteM = haversineMeters(LatLng(lat, b.west), LatLng(lat, b.east));
+    final abstandM = haversineMeters(camera.center, anchor);
+    final zoomGeaendert =
+        _refZoom != null && (camera.zoom - _refZoom!).abs() >= 1;
+    _meldeBereich(
+      abstandM > 0.2 * breiteM || zoomGeaendert ? camera.center : null,
+    );
+  }
+
   MapCameraInputs _inputs(TrailOverviewMap w) => MapCameraInputs(
     selected: w.selectedTrail,
     trails: w.trails,
@@ -118,6 +167,8 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
   @override
   void didUpdateWidget(covariant TrailOverviewMap oldWidget) {
     super.didUpdateWidget(oldWidget);
+    _camera.bottomInset = widget.bottomInset;
+    if (oldWidget.userAnchor != widget.userAnchor) _meldeBereich(null);
     _camera.apply(
       current: _inputs(widget),
       previous: _inputs(oldWidget),
@@ -180,15 +231,37 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
         initialCameraFit: allPoints.isNotEmpty
             ? CameraFit.bounds(
                 bounds: LatLngBounds.fromPoints(allPoints),
-                padding: CameraTarget.catalogPadding,
+                padding: CameraTarget.catalogPadding.copyWith(
+                  bottom:
+                      CameraTarget.catalogPadding.bottom + widget.bottomInset,
+                ),
               )
             : null,
-        onPositionChanged: (_, hasGesture) {
-          if (hasGesture) _camera.onUserGesture();
+        onTap: (_, _) => widget.onMapTap?.call(),
+        onPositionChanged: (camera, hasGesture) {
+          if (hasGesture) {
+            _camera.onUserGesture();
+            _pruefeBereich(camera);
+          } else {
+            _refZoom = camera.zoom;
+          }
         },
       ),
       children: [
         MapConfig.buildOsmTileLayer(),
+        if (widget.umkreisM != null && anchor != null)
+          CircleLayer(
+            circles: [
+              CircleMarker(
+                point: anchor,
+                radius: widget.umkreisM!,
+                useRadiusInMeter: true,
+                color: AppColors.brand.withValues(alpha: 0.06),
+                borderColor: AppColors.brand.withValues(alpha: 0.35),
+                borderStrokeWidth: 1.5,
+              ),
+            ],
+          ),
         if (trails != null) ...[
           if (areaPolygons.isNotEmpty) PolygonLayer(polygons: areaPolygons),
           if (selectedTrack != null) PolylineLayer(polylines: [selectedTrack]),
@@ -227,6 +300,22 @@ class _TrailOverviewMapState extends State<TrailOverviewMap>
               ],
             ),
           if (userMarkers.isNotEmpty) MarkerLayer(markers: userMarkers),
+          if (widget.bezugPin != null)
+            MarkerLayer(
+              markers: [
+                Marker(
+                  point: widget.bezugPin!,
+                  width: 44,
+                  height: 44,
+                  alignment: Alignment.topCenter,
+                  child: const PhosphorIcon(
+                    PhosphorIconsFill.mapPin,
+                    size: 36,
+                    color: AppColors.brand,
+                  ),
+                ),
+              ],
+            ),
         ],
       ],
     );

@@ -11,8 +11,7 @@ import '../../../core/motion/reduced_motion.dart';
 import '../../onboarding/data/onboarding_prefs_provider.dart';
 import '../../player/data/mini_player_provider.dart';
 import '../../trail/data/providers.dart';
-import '../data/nearby_trails_provider.dart';
-import 'nearby_trails_panel.dart';
+import '../data/karte_state.dart';
 
 /// Zeigt den Coach-Mark genau einmal über der ersten Karte der Nähe-Liste.
 class CoachMarkHost extends ConsumerStatefulWidget {
@@ -68,9 +67,18 @@ class _CoachMarkHostState extends ConsumerState<CoachMarkHost> {
 
   Future<void> _finish({bool play = false}) async {
     if (play) {
-      final entries = ref.read(nearbyTrailEntriesProvider);
-      if (entries != null && entries.isNotEmpty) {
-        ref.read(miniPlayerProvider.notifier).play(entries.first.trail);
+      final treffer = ref
+          .read(karteAnzeigeProvider)
+          ?.sichtbar
+          .where((t) => t.eintrag.audio != null)
+          .firstOrNull;
+      final trail = treffer == null
+          ? null
+          : ref.read(trailsByIdProvider)[treffer.eintrag.id];
+      if (treffer != null && trail != null) {
+        await ref
+            .read(miniPlayerProvider.notifier)
+            .play(trail, treffer.eintrag.audio!);
       }
     }
     await ref.read(onboardingPrefsProvider.notifier).markCoachMarkSeen();
@@ -83,7 +91,11 @@ class _CoachMarkHostState extends ConsumerState<CoachMarkHost> {
     final onMap = ref.watch(shellTabIndexProvider) == 0;
     final noSelection = ref.watch(selectedTrailProvider) == null;
     final hasCards =
-        (ref.watch(nearbyTrailEntriesProvider) ?? const []).isNotEmpty;
+        ref
+            .watch(karteAnzeigeProvider)
+            ?.sichtbar
+            .any((t) => t.eintrag.audio != null) ??
+        false;
     final eligible = !seen && onMap && noSelection && hasCards;
 
     if (!eligible) {

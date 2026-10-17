@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/app/theme/app_theme.dart';
 import 'package:lehrpfad_app/app/theme/app_typography.dart';
@@ -6,8 +5,6 @@ import 'package:lehrpfad_app/app/theme/app_typography.dart';
 void main() {
   final theme = AppTheme.light();
   final text = theme.textTheme;
-  // Material-3-Geometrie, auf der die Hebel aufsetzen.
-  const base = Typography.englishLike2021;
 
   final all = {
     'displayLarge': text.displayLarge,
@@ -27,6 +24,24 @@ void main() {
     'labelSmall': text.labelSmall,
   };
 
+  const sizes = {
+    'displayLarge': AppTypography.displayLarge,
+    'displayMedium': AppTypography.displayMedium,
+    'displaySmall': AppTypography.displaySmall,
+    'headlineLarge': AppTypography.headlineLarge,
+    'headlineMedium': AppTypography.headlineMedium,
+    'headlineSmall': AppTypography.headlineSmall,
+    'titleLarge': AppTypography.titleLarge,
+    'titleMedium': AppTypography.titleMedium,
+    'titleSmall': AppTypography.titleSmall,
+    'bodyLarge': AppTypography.bodyLarge,
+    'bodyMedium': AppTypography.bodyMedium,
+    'bodySmall': AppTypography.bodySmall,
+    'labelLarge': AppTypography.labelLarge,
+    'labelMedium': AppTypography.labelMedium,
+    'labelSmall': AppTypography.labelSmall,
+  };
+
   test('Alle Text-Styles nutzen Hanken Grotesk', () {
     expect(AppTypography.family, 'Hanken Grotesk');
     expect(theme.textTheme.bodyMedium?.fontFamily, AppTypography.family);
@@ -43,38 +58,13 @@ void main() {
     expect(theme.chipTheme.labelStyle?.letterSpacing, 0);
   });
 
-  test('Body-Stufen wachsen um bodyBoost', () {
-    expect(
-      text.bodyLarge?.fontSize,
-      base.bodyLarge!.fontSize! + AppTypography.bodyBoost,
-    );
-    expect(
-      text.bodyMedium?.fontSize,
-      base.bodyMedium!.fontSize! + AppTypography.bodyBoost,
-    );
-    expect(
-      text.bodySmall?.fontSize,
-      base.bodySmall!.fontSize! + AppTypography.bodyBoost,
-    );
-  });
-
-  test('Tags und Chip-Label wachsen um chipBoost', () {
-    expect(
-      text.labelSmall?.fontSize,
-      base.labelSmall!.fontSize! + AppTypography.chipBoost,
-    );
-    expect(
-      theme.chipTheme.labelStyle?.fontSize,
-      base.labelLarge!.fontSize! + AppTypography.chipBoost,
-    );
-  });
-
-  test('Titel-, Headline-, Display- und Label-Stufen bleiben', () {
-    expect(text.titleLarge?.fontSize, base.titleLarge!.fontSize);
-    expect(text.titleMedium?.fontSize, base.titleMedium!.fontSize);
-    expect(text.headlineSmall?.fontSize, base.headlineSmall!.fontSize);
-    expect(text.displayLarge?.fontSize, base.displayLarge!.fontSize);
-    expect(text.labelLarge?.fontSize, base.labelLarge!.fontSize);
-    expect(text.labelMedium?.fontSize, base.labelMedium!.fontSize);
+  test('Schriftgrößen liegen fest auf dem 2-px-Raster', () {
+    for (final e in sizes.entries) {
+      final size = all[e.key]?.fontSize;
+      expect(size, e.value, reason: e.key);
+      expect(size! % 2, 0, reason: e.key);
+    }
+    expect(theme.chipTheme.labelStyle?.fontSize, AppTypography.labelSmall);
+    expect(theme.primaryTextTheme.bodyMedium?.fontSize, AppTypography.bodyMedium);
   });
 }

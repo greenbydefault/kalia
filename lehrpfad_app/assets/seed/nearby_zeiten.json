@@ -141,9 +141,17 @@
     {"poi": "jagdschloss-speck-cafe", "sek": 24},
     {"poi": "imbiss-fuchsbau-speck", "sek": 34}
   ],
+  "kinderbauernhof-mauerplatz": [
+    {"poi": "cafe-engelbecken", "sek": 69},
+    {"poi": "sommerbad-kreuzberg", "sek": 297},
+    {"poi": "zenner-biergarten", "sek": 646},
+    {"poi": "cafe-panke", "sek": 984}
+  ],
   "kinderbauernhof-pinke-panke": [
     {"poi": "cafe-panke", "sek": 253},
     {"poi": "cafe-zwei-kraniche", "sek": 1032},
+    {"poi": "cafe-engelbecken", "sek": 1046},
+    {"poi": "sommerbad-kreuzberg", "sek": 1163},
     {"poi": "restaurant-da-michelino", "sek": 1170}
   ],
   "kinderwald-maerkisch-buchholz": [],
@@ -285,6 +293,11 @@
     {"poi": "restaurant-zur-boerse-buetzow", "sek": 463},
     {"poi": "cafe-am-markt-buetzow", "sek": 529}
   ],
+  "plansche-plaenterwald": [
+    {"poi": "zenner-biergarten", "sek": 184},
+    {"poi": "cafe-engelbecken", "sek": 664},
+    {"poi": "sommerbad-kreuzberg", "sek": 859}
+  ],
   "raddusch": [
     {"poi": "gurkenkahn-raddusch", "sek": 0},
     {"poi": "kahnhafen-raddusch", "sek": 0},
@@ -391,6 +404,14 @@
   ],
   "waldwipfelweg-sankt-englmar": [
     {"poi": "rodelbahn-sankt-englmar", "sek": 466}
+  ],
+  "wasser-erlebnispfad-sprotte": [
+    {"poi": "cafe-eiserne-bank", "sek": 156},
+    {"poi": "museum-burg-posterstein", "sek": 165},
+    {"poi": "imbiss-rothenmuehle", "sek": 173},
+    {"poi": "tatami-schmoelln", "sek": 711},
+    {"poi": "knopfmuseum-schmoelln", "sek": 786},
+    {"poi": "museumsschaenke-schmoelln", "sek": 790}
   ],
   "wasserspielplatz-giesserbruecke": [],
   "wasserspielplatz-heide-sued": [],

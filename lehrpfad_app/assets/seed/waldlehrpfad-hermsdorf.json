@@ -2,6 +2,7 @@
  "id": "waldlehrpfad-hermsdorf",
  "name": "Waldlehrpfad Hermsdorf",
  "typ": "wald",
+ "gebiet": "wald",
  "kurzbeschreibung": "Ein Eichelhäher an den Stämmen weist durch den Hermsdorfer Wald. Vom Podest fällt der Blick auf Rotwild, Damwild und Wildschweine.",
  "beschreibung": "Am Hang liegt der Podsol offen, Schicht auf Schicht. Gruppen der Bäume des Jahres stehen daneben, jede mit einer eigenen Tafel. Achtzehn Schautafeln behandeln Tiere, Holz und die Bewirtschaftung des Waldes. An einigen Stellen stehen Geräte zum Balancieren. Zwei Waldsofas stehen am Aussichtspodest über dem Damwildgehege. Wildschweine und Rotwild leben in den Nachbargehegen. Am Zaun hängt ein Automat mit Futter für die Tiere.",
  "laengeKm": 2.1,

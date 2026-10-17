@@ -11,6 +11,7 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `id` | string | ja | stabil, snake-case |
 | `name` | string | ja | |
 | `typ` | string | ja | Key aus `typKatalog` |
+| `gebiet` | string | nein | Hauptgebiet für Karte-Chips: `wald` \| `heide` \| `moor` \| `kueste` \| `wasser` \| `spreewald` \| `hof`. Fehlt es, leitet die App es aus `typ` + `lebensraeume` ab (`tools/gebiet.py`, `deriveGebiet`). Noch keine DB-Spalte. |
 | `form` | `linie` \| `flaeche` | nein | Default: `linie`; Typen `wasserspielplatz`/`waldspielplatz`/`waldspazierplatz`/`kinderbauernhof` → `flaeche` |
 | `kurzbeschreibung` | string | ja | Card / Teaser. ≤ 180 Zeichen, keine Anrede ([`TRAIL_SCAN.md`](../tools/TRAIL_SCAN.md)) |
 | `beschreibung` | string | ja | Detail. 400–650 Zeichen, Satz 1 trägt allein ([`TRAIL_SCAN.md`](../tools/TRAIL_SCAN.md)) |

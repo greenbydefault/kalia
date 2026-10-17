@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../location/location_consent_sheet.dart';
-import '../../../location/location_gate.dart';
 import '../../../location/user_position_provider.dart';
-import '../../../trail_progress/tracking/location_service.dart';
+import '../../../nearby_trails/domain/karte_copy.dart';
+import '../../../nearby_trails/presentation/bezug_aktionen.dart';
 
+/// „Standort zentrieren“. Die Systemabfrage kommt nur nach diesem Tipp.
 class LocateFab extends ConsumerWidget {
   const LocateFab({super.key});
 
@@ -14,8 +14,10 @@ class LocateFab extends ConsumerWidget {
     final loading = ref.watch(userPositionProvider).loading;
     return FloatingActionButton.small(
       heroTag: 'locate',
-      tooltip: 'Meinen Standort',
-      onPressed: loading ? null : () => _locate(context, ref),
+      tooltip: kt('a11y.zentrieren'),
+      onPressed: loading
+          ? null
+          : () => BezugAktionen(ref).zentriereAufStandort(context),
       child: loading
           ? const SizedBox(
               width: 18,
@@ -24,20 +26,5 @@ class LocateFab extends ConsumerWidget {
             )
           : const Icon(Icons.my_location),
     );
-  }
-
-  Future<void> _locate(BuildContext context, WidgetRef ref) async {
-    try {
-      final ok = await LocationGate.ensureMap(context, ref);
-      if (!ok) return;
-      final fix = await ref
-          .read(userPositionProvider.notifier)
-          .refresh(force: true);
-      if (fix != null) {
-        ref.read(locateTargetProvider.notifier).goTo(fix.position);
-      }
-    } on LocationException catch (e) {
-      if (context.mounted) showLocationError(context, e);
-    }
   }
 }

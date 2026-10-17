@@ -1,0 +1,301 @@
+{
+ "id": "plansche-plaenterwald",
+ "name": "Plansche Plänterwald",
+ "typ": "wasserspielplatz",
+ "gebiet": "wasser",
+ "kurzbeschreibung": "Im Plänterwald schaltet sich ein Wasserlabyrinth von allein ein, sobald 21 Grad erreicht sind.",
+ "beschreibung": "Der Ozeanstrudel hält kein Wasser. Auf dem Beton speien Sandsteintiere, Kanonen und Schirme, und alles läuft ab. Zwanzig Minuten arbeitet der Takt, dann bleibt es zwanzig Minuten still. Ab 21 Grad übernimmt das die Anlage selbst. Mit etwa 10 bis 12 Grad trifft das Leitungswasser auf. Wer hineintritt, steht im Sprüh und nicht in einem Becken, deshalb reicht der Platz auch für Nichtschwimmer. Bei starkem Wind, Gewitter oder Starkregen schaltet sich das Labyrinth ab. In der Pause trocknet der Beton.",
+ "laengeKm": 0.0,
+ "dauerMin": 60,
+ "rundkurs": false,
+ "markierung": "",
+ "betreiber": "Bezirksamt Treptow-Köpenick, Straßen- und Grünflächenamt",
+ "region": "Plänterwald, Berlin",
+ "website": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/gruen/spielplaetze/der-wasserspielplatz-plansche-1111820.php",
+ "anreise": "Bus 265 bis Neue Krugallee/Dammweg, etwa fünf Minuten zu Fuß. Bus 165, 166 und 377 bis Köpenicker Landstraße/Dammweg, etwa zehn Minuten. Kein Parkplatz am Dammweg.",
+ "startName": "Eingang Dammweg",
+ "arten": [
+  "Sprühdüsen"
+ ],
+ "artenNachweis": {
+  "Sprühdüsen": "belegt"
+ },
+ "lebensraeume": [],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   52.481313,
+   13.489159
+  ],
+  [
+   52.481282,
+   13.4885
+  ],
+  [
+   52.481462,
+   13.489761
+  ],
+  [
+   52.481762,
+   13.488964
+  ]
+ ],
+ "area": [
+  [
+   52.4815497,
+   13.4899999
+  ],
+  [
+   52.4817451,
+   13.4894557
+  ],
+  [
+   52.4818787,
+   13.4890478
+  ],
+  [
+   52.4819173,
+   13.4889274
+  ],
+  [
+   52.481998,
+   13.4886875
+  ],
+  [
+   52.4817356,
+   13.4884308
+  ],
+  [
+   52.4816787,
+   13.4883712
+  ],
+  [
+   52.4814523,
+   13.4881573
+  ],
+  [
+   52.4812931,
+   13.4880225
+  ],
+  [
+   52.481077,
+   13.4884344
+  ],
+  [
+   52.4809382,
+   13.48858
+  ],
+  [
+   52.4807911,
+   13.4887973
+  ],
+  [
+   52.4807848,
+   13.4892215
+  ],
+  [
+   52.4807749,
+   13.4896278
+  ],
+  [
+   52.481142,
+   13.4898101
+  ],
+  [
+   52.4815497,
+   13.4899999
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1270806839,
+   "lat": 52.481313,
+   "lon": 13.489159,
+   "km": 0.0,
+   "titel": "Ozeanstrudel",
+   "thema": "Wasserlabyrinth",
+   "kurztext": "Sandsteintiere, Nebeldüsen, Wasserkanonen, Wasserschirme und Schläuche auf Beton. Das Wasser steht nicht.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -183682830,
+   "lat": 52.481282,
+   "lon": 13.4885,
+   "km": 0.1,
+   "titel": "Matsch",
+   "thema": "Sandflächen",
+   "kurztext": "Sandflächen zum Matschen, abseits der betonierten Wasserspielfläche.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1474600508,
+   "lat": 52.481462,
+   "lon": 13.489761,
+   "km": 0.2,
+   "titel": "Netzpyramide",
+   "thema": "Klettern",
+   "kurztext": "Netzpyramide zum Klettern, darunter Sand.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -3725709036,
+   "lat": 52.481762,
+   "lon": 13.488964,
+   "km": 0.3,
+   "titel": "Holzschiff",
+   "thema": "Sand",
+   "kurztext": "Holzschiff im Sand.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 13059426490,
+   "lat": 52.4810228,
+   "lon": 13.4892267,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059426491,
+   "lat": 52.4810695,
+   "lon": 13.4894632,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059426492,
+   "lat": 52.4810674,
+   "lon": 13.4889534,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059613604,
+   "lat": 52.4809233,
+   "lon": 13.4894814,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059613612,
+   "lat": 52.4809031,
+   "lon": 13.4894358,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059613619,
+   "lat": 52.4809619,
+   "lon": 13.4895272,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13059633025,
+   "lat": 52.4808555,
+   "lon": 13.488846,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 13059633026,
+   "lat": 52.481658,
+   "lon": 13.4894082,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633028,
+   "lat": 52.4814062,
+   "lon": 13.4885328,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633029,
+   "lat": 52.4816437,
+   "lon": 13.4894433,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633030,
+   "lat": 52.4815537,
+   "lon": 13.4896072,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633031,
+   "lat": 52.4815706,
+   "lon": 13.4895845,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633034,
+   "lat": 52.481707,
+   "lon": 13.4891776,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633038,
+   "lat": 52.4817035,
+   "lon": 13.489222,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633040,
+   "lat": 52.481514,
+   "lon": 13.4885831,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13059633042,
+   "lat": 52.4814611,
+   "lon": 13.4885536,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 364130415,
+   "lat": 52.4808892,
+   "lon": 13.4886845,
+   "kategorie": "wc",
+   "name": "WC Plansche"
+  },
+  {
+   "osmId": 35897145,
+   "lat": 52.4813941,
+   "lon": 13.4889732,
+   "kategorie": "playground",
+   "name": "Plansche Plänterwald"
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei",
+ "oeffnungszeiten": "Winterpause seit dem 28. September 2026. Ab Mai 2027 dienstags bis sonntags 9 bis 19 Uhr, montags zu. Wasserspiel ab 21 Grad, von 10 bis 17:40 Uhr, 20 Minuten an, 20 Minuten Pause. Wassertemperatur etwa 10 bis 12 Grad. Altersempfehlung 2 bis 8 Jahre.",
+ "besuchshinweise": "Wechselsachen mitnehmen, das Sprühwasser hat 10 bis 12 Grad und ist kein Trinkwasser. Hunde bleiben draußen. Im Windelalter eine Schwimmwindel. Alltagskleidung oder Badekleidung reicht.",
+ "hoertext": "Am Dammweg wacht der Beton auf, sobald die Luft über zwanzig Grad steigt. Sandsteintiere speien, Nebel zieht, Kanonen und Schirme werfen Bögen, und das Ganze hält zwanzig Minuten, dann wird es still, der Boden trocknet, und erst danach setzt der Takt neu ein. Nichts sammelt sich. Wer hineingeht, trifft den Strahl, Füße auf Beton, das Wasser kalt aus der Leitung. Zieht ein Gewitter auf, leert sich das Gelände. Nasse Sachen gehören vorher in die Tasche.",
+ "bilderAsset": "assets/images/trails/plansche-plaenterwald/credits.json"
+}

@@ -27,7 +27,7 @@ class AnreiseSection extends StatelessWidget {
             title: const Text('Öffnungszeiten'),
             subtitle: Text(trail.oeffnungszeiten!),
           ),
-          const SizedBox(height: AppSpacing.x2),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         if (trail.eintrittPreise != null &&
             trail.eintrittPreise!.isNotEmpty) ...[
@@ -40,7 +40,7 @@ class AnreiseSection extends StatelessWidget {
             title: Text(trail.eintritt ? 'Eintritt' : 'Preise'),
             subtitle: Text(trail.eintrittPreise!),
           ),
-          const SizedBox(height: AppSpacing.x2),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         if (trail.besuchshinweise != null &&
             trail.besuchshinweise!.isNotEmpty) ...[
@@ -50,7 +50,7 @@ class AnreiseSection extends StatelessWidget {
             title: const Text('Vor dem Besuch'),
             subtitle: Text(trail.besuchshinweise!),
           ),
-          const SizedBox(height: AppSpacing.x2),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         if (trail.website != null && trail.website!.isNotEmpty) ...[
           ListTile(
@@ -59,10 +59,10 @@ class AnreiseSection extends StatelessWidget {
             title: const Text('Website'),
             onTap: () => _openWebsite(trail.website!),
           ),
-          const SizedBox(height: AppSpacing.x2),
+          const SizedBox(height: AppSpacing.afterHeading),
         ],
         Text(trail.anreise, style: theme.textTheme.bodyMedium),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.stack),
         if (trail.startOrNull != null) ...[
           Align(
             alignment: Alignment.centerLeft,
@@ -72,7 +72,7 @@ class AnreiseSection extends StatelessWidget {
               label: const Text('Navigation starten'),
             ),
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.stack),
         ],
         ListTile(
           contentPadding: EdgeInsets.zero,

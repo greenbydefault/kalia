@@ -1,0 +1,484 @@
+{
+ "id": "kinderbauernhof-mauerplatz",
+ "name": "Kinderbauernhof am Mauerplatz",
+ "typ": "kinderbauernhof",
+ "gebiet": "hof",
+ "kurzbeschreibung": "Auf einem alten Trümmergrundstück an der Mauer stehen Schafe, Ziegen und Ponys. Den Hof haben Nachbarn 1981 selbst aufgebaut.",
+ "beschreibung": "Nachbarn haben 1981 ein Trümmergrundstück an der Berliner Mauer entmüllt und den ersten Kinderbauernhof der Stadt darauf gebaut. Mitgebaut haben eine Mutter-Kind-Gruppe und Jugendliche aus dem Kiez, zum großen Teil unbezahlt. In den Koppeln stehen Schafe, Ziegen, Ponys und Esel, dazwischen Enten, Gänse, Hühner und Kaninchen. Auf den Beeten wachsen Futterpflanzen, Heilpflanzen und Gemüse. Ein Lehrpfad quert das Gelände. Das Gemeinschaftshaus ist aus Lehm, das Solarcafé kam 2001 dazu.",
+ "laengeKm": 0.0,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Kinderbauernhof am Mauerplatz",
+ "betreiber": "Kinderbauernhof am Mauerplatz e. V.",
+ "region": "Kreuzberg, Berlin",
+ "website": "http://www.kbh-mauerplatz.de/",
+ "anreise": "Bus 147 bis Adalbertstraße, oder U-Bahn Kottbusser Tor (U1, U3, U8) und zehn Minuten zu Fuß. Haupteingang Adalbertstraße 71, zweiter Eingang Bethaniendamm 61.",
+ "startName": "Eingang Adalbertstraße",
+ "arten": [
+  "Haushuhn",
+  "Schaf",
+  "Ziege",
+  "Gänseblümchen",
+  "Hauskaninchen",
+  "Honigbiene",
+  "Löwenzahn",
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "artenNachweis": {
+  "Haushuhn": "belegt",
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Gänseblümchen": "typisch",
+  "Hauskaninchen": "belegt",
+  "Honigbiene": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ },
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "tags": [
+  "kinderfreundlich",
+  "rollstuhltauglich",
+  "spielplatz"
+ ],
+ "form": "flaeche",
+ "route": [
+  [
+   52.504658,
+   13.421524
+  ],
+  [
+   52.504846,
+   13.420863
+  ],
+  [
+   52.504894,
+   13.420048
+  ],
+  [
+   52.504963,
+   13.419977
+  ]
+ ],
+ "area": [
+  [
+   52.5047794,
+   13.4205263
+  ],
+  [
+   52.5047087,
+   13.4207722
+  ],
+  [
+   52.5045851,
+   13.4212081
+  ],
+  [
+   52.5045176,
+   13.4214413
+  ],
+  [
+   52.5046051,
+   13.4215015
+  ],
+  [
+   52.504633,
+   13.4215207
+  ],
+  [
+   52.5046753,
+   13.4215498
+  ],
+  [
+   52.5050352,
+   13.4217974
+  ],
+  [
+   52.5050954,
+   13.4214935
+  ],
+  [
+   52.5051711,
+   13.4211833
+  ],
+  [
+   52.5053486,
+   13.4205474
+  ],
+  [
+   52.5050475,
+   13.4203171
+  ],
+  [
+   52.5049926,
+   13.4202761
+  ],
+  [
+   52.5050517,
+   13.4200625
+  ],
+  [
+   52.5050329,
+   13.4197739
+  ],
+  [
+   52.5050646,
+   13.4196764
+  ],
+  [
+   52.5047968,
+   13.4194802
+  ],
+  [
+   52.5048376,
+   13.4192531
+  ],
+  [
+   52.5048478,
+   13.4192422
+  ],
+  [
+   52.5048255,
+   13.4191718
+  ],
+  [
+   52.5047833,
+   13.419173
+  ],
+  [
+   52.504738,
+   13.4191742
+  ],
+  [
+   52.5046393,
+   13.4195445
+  ],
+  [
+   52.5046325,
+   13.41957
+  ],
+  [
+   52.504726,
+   13.4196447
+  ],
+  [
+   52.5046932,
+   13.419805
+  ],
+  [
+   52.5047974,
+   13.4205399
+  ],
+  [
+   52.5047794,
+   13.4205263
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -320113688,
+   "lat": 52.504968,
+   "lon": 13.421672,
+   "km": 0.0,
+   "titel": "Gärten",
+   "thema": "Beete",
+   "kurztext": "Futterpflanzen, Heilpflanzen und Gemüse auf den Beeten.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -3574493821,
+   "lat": 52.504621,
+   "lon": 13.421341,
+   "km": 0.0,
+   "titel": "Weide",
+   "thema": "Wiese",
+   "kurztext": "Weide und Tobefläche neben den Koppeln.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1938915840,
+   "lat": 52.504942,
+   "lon": 13.420086,
+   "km": 0.1,
+   "titel": "Tiere",
+   "thema": "Koppel",
+   "kurztext": "Schafe, Ziegen, Ponys, Esel, Enten, Gänse, Hühner und Kaninchen in den Koppeln.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -2460327612,
+   "lat": 52.505046,
+   "lon": 13.420467,
+   "km": 0.1,
+   "titel": "Naturlehrpfad",
+   "thema": "Weg",
+   "kurztext": "Der Weg über den Hof ist als Naturlehrpfad angelegt.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -2059335328,
+   "lat": 52.504963,
+   "lon": 13.419977,
+   "km": 0.11,
+   "titel": "Lehmhaus",
+   "thema": "Haus",
+   "kurztext": "Gemeinschaftshaus aus Lehm. Das Solarcafé steht seit 2001, der Hof seit 1981.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "reihenfolge": 5
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1140720245,
+   "lat": 52.5050085,
+   "lon": 13.4221577,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1144597338,
+   "lat": 52.503508,
+   "lon": 13.420545,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1144597398,
+   "lat": 52.5035055,
+   "lon": 13.4204066,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 1144597416,
+   "lat": 52.5034705,
+   "lon": 13.4205925,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2143522422,
+   "lat": 52.5035659,
+   "lon": 13.4215008,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2760829009,
+   "lat": 52.5058091,
+   "lon": 13.4211228,
+   "kategorie": "gastro",
+   "name": "Blumental"
+  },
+  {
+   "osmId": 4162844592,
+   "lat": 52.505261,
+   "lon": 13.422476,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4162845190,
+   "lat": 52.5052922,
+   "lon": 13.4224839,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4317186689,
+   "lat": 52.5044699,
+   "lon": 13.4230263,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4317186789,
+   "lat": 52.5044406,
+   "lon": 13.4231596,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4344303889,
+   "lat": 52.504183,
+   "lon": 13.420258,
+   "kategorie": "gastro",
+   "name": "Bonanza"
+  },
+  {
+   "osmId": 4613783931,
+   "lat": 52.505469,
+   "lon": 13.4189241,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4613783933,
+   "lat": 52.5057338,
+   "lon": 13.4191188,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5774438887,
+   "lat": 52.5044433,
+   "lon": 13.4235221,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 6499004720,
+   "lat": 52.5052812,
+   "lon": 13.4234436,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004722,
+   "lat": 52.5052722,
+   "lon": 13.42317,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004723,
+   "lat": 52.5052281,
+   "lon": 13.423052,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004724,
+   "lat": 52.5052746,
+   "lon": 13.4229246,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004725,
+   "lat": 52.5054101,
+   "lon": 13.4215214,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004726,
+   "lat": 52.5053787,
+   "lon": 13.4213618,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004727,
+   "lat": 52.5054768,
+   "lon": 13.421274,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004728,
+   "lat": 52.5054472,
+   "lon": 13.4211074,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004729,
+   "lat": 52.5055463,
+   "lon": 13.4210205,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004730,
+   "lat": 52.5055163,
+   "lon": 13.4208599,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004731,
+   "lat": 52.5056168,
+   "lon": 13.4207674,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004732,
+   "lat": 52.5055856,
+   "lon": 13.4206058,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004733,
+   "lat": 52.5056844,
+   "lon": 13.4205133,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004734,
+   "lat": 52.5057261,
+   "lon": 13.4201042,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004735,
+   "lat": 52.5056575,
+   "lon": 13.4203497,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004736,
+   "lat": 52.5057534,
+   "lon": 13.4202641,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 6499004737,
+   "lat": 52.5058216,
+   "lon": 13.420009,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11212033182,
+   "lat": 52.503866,
+   "lon": 13.4188304,
+   "kategorie": "gastro",
+   "name": "clánndestino"
+  },
+  {
+   "osmId": 11648825125,
+   "lat": 52.5041949,
+   "lon": 13.4204774,
+   "kategorie": "wc",
+   "name": null
+  }
+ ],
+ "eintritt": false,
+ "eintrittPreise": "Eintritt frei, Spende willkommen",
+ "oeffnungszeiten": "Täglich 8 bis 18 Uhr. Im Spätherbst und Winter 8 bis 17 Uhr. Mittwoch Ruhetag.",
+ "besuchshinweise": "Zweiter Eingang am Bethaniendamm 61. Kreativkreis und gemietete Veranstaltungen laufen extra. Der Hof selbst braucht keine Anmeldung.",
+ "hoertext": "Wo früher die Mauer lief, räumt eine Mutter-Kind-Gruppe 1981 den Schutt beiseite. Daraus wächst ein Hof. Hühner scharren in den Gattern, Kaninchen sitzen hinter dem Draht, Schafe und Ziegen strecken die Köpfe hoch über den Zaun. Ponys und Esel teilen sich die Wiese. Enten und Gänse laufen zwischen den Koppeln. Zwischen den Beeten führt ein schmaler Weg zum Lehmhaus, und seit 2001 öffnet daneben das Solarcafé. Mittwochs bleibt das Tor zu.",
+ "bilderAsset": "assets/images/trails/kinderbauernhof-mauerplatz/credits.json"
+}

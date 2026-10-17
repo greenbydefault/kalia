@@ -2,6 +2,7 @@
  "id": "naturwaldpfad",
  "name": "Naturwaldpfad",
  "typ": "walderlebnispfad",
+ "gebiet": "wald",
  "kurzbeschreibung": "Fast drei Kilometer durchs östliche Lauerholz zu acht Tafeln. Start Waldstraße, frei, ab 14.",
  "beschreibung": "Nördlich der Altstadt, im Stadtwald Lauerholz, startet der Naturwaldpfad an der Waldstraße in Israelsdorf, am Hundefreilauf. Acht Geländetafeln, Zielgruppe ab 14. Der Weg ist uneben, geländetauglicher Buggy ja, Kinderwagen und Rollstuhl eher nicht. Immer frei, ohne Anmeldung. Comic gibt es beim Holzhof Wesloe und im Forstamt Lauerhof extra, das ist nicht die App-Route. Der Rittbrookpfad ist der andere Rundweg im selben Wald, Start Am Rittbrook, ab 6. Hunde anleinen. Äste, Nässe am Quellmoor, Zecken. Prolog, Sinnespfad und Epilog stehen nur im Comic, nicht als eigene Stationen.",
  "laengeKm": 2.8,

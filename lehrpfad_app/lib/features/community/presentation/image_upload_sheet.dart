@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../../app/theme/app_typography.dart';
 import '../../../shared/images/exif_gps.dart';
 import '../../auth/presentation/account_prompt_sheet.dart';
 import '../../../shared/widgets/show_app_modal_sheet.dart';
@@ -258,7 +259,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
           title: const Text(
             'Ich besitze die Rechte an diesem Bild und erlaube der App, '
             'es dauerhaft zu zeigen.',
-            style: TextStyle(fontSize: 13),
+            style: TextStyle(fontSize: AppTypography.labelSmall),
           ),
         ),
 
