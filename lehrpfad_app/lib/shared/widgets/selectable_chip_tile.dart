@@ -66,7 +66,7 @@ class _SelectableChipTileState extends State<SelectableChipTile>
           child: AnimatedContainer(
             duration: context.motion(const Duration(milliseconds: 180)),
             curve: Curves.easeOutCubic,
-            constraints: const BoxConstraints(minHeight: 92),
+            constraints: const BoxConstraints(minHeight: 80),
             padding: const EdgeInsets.all(AppSpacing.x4),
             decoration: BoxDecoration(
               color: selected ? AppColors.n200 : AppColors.n100,
@@ -86,13 +86,13 @@ class _SelectableChipTileState extends State<SelectableChipTile>
                       padding: const EdgeInsets.only(right: AppSpacing.x5),
                       child: Text(
                         widget.title,
-                        style: theme.textTheme.titleLarge,
+                        style: theme.textTheme.titleMedium,
                       ),
                     ),
                     const SizedBox(height: AppSpacing.x1),
                     Text(
                       widget.subtitle,
-                      style: theme.textTheme.bodySmall?.copyWith(
+                      style: theme.textTheme.labelMedium?.copyWith(
                         color: AppColors.inkMuted,
                       ),
                     ),

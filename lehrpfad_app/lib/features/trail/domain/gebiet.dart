@@ -7,7 +7,7 @@ enum Gebiet {
   moor,
   kueste,
   wasser,
-  spreewald,
+  aue,
   hof;
 
   /// Wire-Key im Seed (`gebiet`).
@@ -24,7 +24,7 @@ enum Gebiet {
 const _typGebiet = {
   'kueste': Gebiet.kueste,
   'moor': Gebiet.moor,
-  'spreewald': Gebiet.spreewald,
+  'aue': Gebiet.aue,
   'kinderbauernhof': Gebiet.hof,
   'wasserspielplatz': Gebiet.wasser,
 };

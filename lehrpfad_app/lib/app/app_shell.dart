@@ -77,22 +77,18 @@ class AppShell extends ConsumerWidget {
             destinations: [
               NavigationDestination(
                 icon: const Icon(Icons.map_outlined),
-                selectedIcon: const Icon(Icons.map),
                 label: kt('nav.karte'),
               ),
               NavigationDestination(
                 icon: const Icon(Icons.explore_outlined),
-                selectedIcon: const Icon(Icons.explore),
                 label: kt('nav.erkunden'),
               ),
               NavigationDestination(
                 icon: const Icon(Icons.bookmark_border),
-                selectedIcon: const Icon(Icons.bookmark),
                 label: kt('nav.listen'),
               ),
               NavigationDestination(
                 icon: PhosphorIcon(PhosphorIcons.stack, size: 24),
-                selectedIcon: PhosphorIcon(PhosphorIcons.stack, size: 24),
                 label: kt('nav.sammlung'),
               ),
               NavigationDestination(
@@ -100,9 +96,6 @@ class AppShell extends ConsumerWidget {
                   loggedIn
                       ? Icons.account_circle_outlined
                       : Icons.person_outline,
-                ),
-                selectedIcon: Icon(
-                  loggedIn ? Icons.account_circle : Icons.person,
                 ),
                 label: kt('nav.konto'),
               ),

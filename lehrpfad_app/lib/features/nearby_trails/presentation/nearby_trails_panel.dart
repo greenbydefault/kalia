@@ -258,7 +258,7 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
                               height:
                                   AppSpacing.x5 +
                                   widget.bottomInset +
-                                  (ganz ? 72 : 0),
+                                  (ganz ? 60 : 0),
                             ),
                           ),
                         ],
@@ -274,13 +274,30 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
                 right: 0,
                 bottom: AppSpacing.x4 + widget.bottomInset,
                 child: Center(
-                  child: FloatingActionButton.extended(
-                    heroTag: null,
-                    onPressed: () => ref
-                        .read(sheetHoeheProvider.notifier)
-                        .set(SheetHoehe.halb),
-                    icon: const PhosphorIcon(PhosphorIcons.mapTrifold),
-                    label: Text(kt('karte.kartenButton')),
+                  child: Theme(
+                    data: theme.copyWith(
+                      floatingActionButtonTheme: theme.floatingActionButtonTheme
+                          .copyWith(
+                            extendedSizeConstraints:
+                                const BoxConstraints.tightFor(height: 44),
+                            extendedPadding: const EdgeInsetsDirectional.only(
+                              start: 14,
+                              end: 16,
+                            ),
+                            extendedIconLabelSpacing: 6,
+                          ),
+                    ),
+                    child: FloatingActionButton.extended(
+                      heroTag: null,
+                      onPressed: () => ref
+                          .read(sheetHoeheProvider.notifier)
+                          .set(SheetHoehe.halb),
+                      icon: const PhosphorIcon(
+                        PhosphorIcons.mapTrifold,
+                        size: 18,
+                      ),
+                      label: Text(kt('karte.kartenButton')),
+                    ),
                   ),
                 ),
               ),

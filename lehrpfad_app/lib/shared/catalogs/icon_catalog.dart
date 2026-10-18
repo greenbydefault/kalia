@@ -105,7 +105,7 @@ const poiKategorieKatalog = <String, KatalogEintrag>{
 const typKatalog = <String, KatalogEintrag>{
   'wald': KatalogEintrag(PhosphorIcons.tree, 'Naturlehrpfad'),
   'moor': KatalogEintrag(PhosphorIcons.drop, 'Moorlehrpfad'),
-  'spreewald': KatalogEintrag(PhosphorIcons.boat, 'Spreewald-Lehrpfad'),
+  'aue': KatalogEintrag(PhosphorIcons.boat, 'Auenlehrpfad'),
   'walderlebnispfad': KatalogEintrag(PhosphorIcons.path, 'Walderlebnispfad'),
   'erlebniswald': KatalogEintrag(PhosphorIcons.treeEvergreen, 'Erlebniswald'),
   'naturerlebnis': KatalogEintrag(PhosphorIcons.park, 'Naturerlebnisraum'),
@@ -128,10 +128,10 @@ const typKatalog = <String, KatalogEintrag>{
 const gebietIcons = <Gebiet, IconData>{
   Gebiet.wald: PhosphorIcons.tree,
   Gebiet.heide: PhosphorIcons.flowerTulip,
-  Gebiet.moor: PhosphorIcons.grains,
-  Gebiet.kueste: PhosphorIcons.sunHorizon,
-  Gebiet.wasser: PhosphorIcons.drop,
-  Gebiet.spreewald: PhosphorIcons.boat,
+  Gebiet.moor: PhosphorIcons.drop,
+  Gebiet.kueste: PhosphorIcons.waves,
+  Gebiet.wasser: PhosphorIcons.waveSine,
+  Gebiet.aue: PhosphorIcons.boat,
   Gebiet.hof: PhosphorIcons.barn,
 };
 

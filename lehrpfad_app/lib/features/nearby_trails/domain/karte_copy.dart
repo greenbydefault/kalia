@@ -26,7 +26,7 @@ const karteTexte = <String, String>{
   'gebiet.moor': 'Moor',
   'gebiet.kueste': 'Küste',
   'gebiet.wasser': 'Wasser',
-  'gebiet.spreewald': 'Spreewald',
+  'gebiet.aue': 'Aue',
   'gebiet.hof': 'Hof',
   'liste.vorschlaege': 'Je Gebiet das Nächste',
   'liste.alleAnzeigen': 'Alle {n} anzeigen',

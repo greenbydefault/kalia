@@ -54,6 +54,6 @@ const reportAreas = [
   'moor',
   'kueste',
   'wasser',
-  'spreewald',
+  'aue',
   'hof',
 ];

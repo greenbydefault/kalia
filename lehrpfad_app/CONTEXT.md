@@ -19,7 +19,7 @@ _Avoid_: Route (allein), Path, Track (als Synonym); Fake-Rundkurs für Plätze o
 _Avoid_: Mini-Routen als Platzhalter für Areas
 
 **Trail-`typ`**:
-Ortstyp-Key (`typKatalog` in `lib/shared/catalogs/icon_catalog.dart`): u. a. `wald`, `moor`, `spreewald`, `walderlebnispfad`, `erlebniswald`, `naturerlebnis`/`naturerlebnisraum`, `waldspielplatz`, `wasserspielplatz`, `waldspazierplatz`, `sinnespfad`, `barfusspfad`, `kueste`, `kinderbauernhof`. Arboretum / beschilderter Baumgarten = `naturerlebnis` (meist `form: flaeche`), kein eigener Key. Details: `docs/datenmodell.md`.
+Ortstyp-Key (`typKatalog` in `lib/shared/catalogs/icon_catalog.dart`): u. a. `wald`, `moor`, `aue`, `walderlebnispfad`, `erlebniswald`, `naturerlebnis`/`naturerlebnisraum`, `waldspielplatz`, `wasserspielplatz`, `waldspazierplatz`, `sinnespfad`, `barfusspfad`, `kueste`, `kinderbauernhof`. Arboretum / beschilderter Baumgarten = `naturerlebnis` (meist `form: flaeche`), kein eigener Key. Details: `docs/datenmodell.md`.
 _Avoid_: freie Labels statt Keys; `typ: arboretum`; Tag/Erlebnis `barfusspfad` mit Trail-`typ` verwechseln (parallel erlaubt); Stadtspielplatz (nur Schaukel/Rutsche/Kletter) als `wasserspielplatz` seeden; Kita-only-Hof oder Produktionsstall als `kinderbauernhof`
 
 **Besuch**:
@@ -87,7 +87,7 @@ Punkt, ab dem die Anfahrt rechnet: GPS-Standort, gesuchter Ort oder Kartenmitte 
 _Avoid_: Anker, Home, Ankerpunkt
 
 **Gebiet**:
-Hauptgebiet eines Eintrags (wald, heide, moor, kueste, wasser, spreewald, hof). Seed-Feld `gebiet`, sonst abgeleitet aus `typ` und erstem `lebensraum` (`tools/gebiet.py` und `deriveGebiet` müssen übereinstimmen). Treibt Chip-Reihe, Marker-Icon und die Vorschläge „Je Gebiet das Nächste“.
+Hauptgebiet eines Eintrags (wald, heide, moor, kueste, wasser, aue, hof). Seed-Feld `gebiet`, sonst abgeleitet aus `typ` und erstem `lebensraum` (`tools/gebiet.py` und `deriveGebiet` müssen übereinstimmen). Treibt Chip-Reihe, Marker-Icon und die Vorschläge „Je Gebiet das Nächste“.
 _Avoid_: Kategorie, Typ (der Typ ist die Wegart: Rundweg, Lehrpfad …)
 
 **Menge M**:
