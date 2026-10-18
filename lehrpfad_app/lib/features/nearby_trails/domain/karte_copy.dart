@@ -8,6 +8,8 @@ const karteTexte = <String, String>{
   'bezug.karteOhneName': 'Rund um den Kartenausschnitt, {umkreisText}',
   'bezug.ermittelt': 'Standort wird ermittelt …',
   'bezug.keinStart': 'Kein Startpunkt gewählt',
+  'startpunkt.gps': 'Euer Standort',
+  'startpunkt.karte': 'Kartenausschnitt',
   'umkreis.15': 'bis 15 Min Anfahrt',
   'umkreis.30': 'bis 30 Min Anfahrt',
   'umkreis.60': 'bis 1 Std Anfahrt',

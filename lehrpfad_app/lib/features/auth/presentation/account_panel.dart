@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../../../app/theme/app_spacing.dart';
 import '../../../core/config/supabase_config.dart';
 import '../../community/data/community_providers.dart';
-import '../../location/location_settings_section.dart';
 import '../data/auth_providers.dart';
 import '../../report/presentation/report_account_tiles.dart';
 import 'account_prefs_sections.dart';
@@ -15,7 +15,7 @@ import 'auth_form.dart';
 bool get _accountSignInVisible => false;
 
 /// Konto-Tab: Login/Register oder Profil, darunter die lokalen Angaben aus
-/// dem Onboarding (Gruppe, Startpunkt, Standort), die ohne Konto gelten.
+/// dem Onboarding (Gruppe, Startpunkt), die ohne Konto gelten.
 class AccountPanel extends ConsumerWidget {
   const AccountPanel({super.key});
 
@@ -39,17 +39,15 @@ class AccountPanel extends ConsumerWidget {
               _ProfileHeader(user: user)
             else
               const AuthForm(),
-            const SizedBox(height: 32),
+            const SizedBox(height: AppSpacing.x8),
           ],
           const ReportAccountTiles(),
-          const SizedBox(height: 24),
+          const SizedBox(height: AppSpacing.x6),
           const GroupPrefsSection(),
-          const SizedBox(height: 24),
-          const StartpointSection(),
-          const SizedBox(height: 24),
-          const LocationSettingsSection(),
+          const SizedBox(height: AppSpacing.x6),
+          const StartpointCard(),
           if (user != null) ...[
-            const SizedBox(height: 24),
+            const SizedBox(height: AppSpacing.x6),
             OutlinedButton.icon(
               onPressed: () =>
                   ref.read(authControllerProvider.notifier).signOut(),

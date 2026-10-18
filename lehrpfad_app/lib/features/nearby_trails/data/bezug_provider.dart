@@ -137,6 +137,12 @@ class KarteBezugNotifier extends Notifier<KarteBezugState> {
     await _save();
   }
 
+  /// Startpunkt entfernt: auch die gemerkte Kartenmitte fällt weg.
+  Future<void> loescheKarte() async {
+    state = state.copyWith(clearKarte: true, karteAktiv: false);
+    await _save();
+  }
+
   /// Ort oder GPS wurde gewählt: die Kartenmitte gilt nicht mehr.
   void verwerfeKarte() {
     if (state.karteAktiv) state = state.copyWith(karteAktiv: false);

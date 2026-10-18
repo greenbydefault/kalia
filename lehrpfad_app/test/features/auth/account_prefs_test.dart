@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:latlong2/latlong.dart';
 import 'package:lehrpfad_app/app/theme/app_theme.dart';
 import 'package:lehrpfad_app/features/auth/presentation/account_prefs_sections.dart';
 import 'package:lehrpfad_app/features/location/location_permission_controller.dart';
-import 'package:lehrpfad_app/features/location/location_settings_section.dart';
 import 'package:lehrpfad_app/features/location/user_position_provider.dart';
+import 'package:lehrpfad_app/features/nearby_trails/data/bezug_provider.dart';
+import 'package:lehrpfad_app/features/nearby_trails/domain/bezugspunkt.dart';
+import 'package:lehrpfad_app/features/nearby_trails/presentation/bezug_aktionen.dart';
 import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_provider.dart';
 import 'package:lehrpfad_app/features/onboarding/data/onboarding_prefs_store.dart';
 import 'package:lehrpfad_app/features/onboarding/domain/age_group.dart';
@@ -59,7 +62,7 @@ void main() {
       await c.read(onboardingPrefsProvider.notifier).setPlace(_leipzig);
 
       expect(c.read(mapLocationEnabledProvider), isFalse);
-      expect(c.read(mapAnchorProvider), _leipzig.position);
+      expect(c.read(aktuellerBezugProvider)?.coords, _leipzig.position);
       final prefs = await SharedPreferences.getInstance();
       expect(prefs.getDouble('last_map_lat'), isNull);
       expect(prefs.getBool('map_location_enabled'), isFalse);
@@ -83,12 +86,12 @@ void main() {
       await _settleContainer(c);
       await c.read(onboardingPrefsProvider.notifier).useDevicePosition();
       await c.read(userPositionProvider.notifier).refresh(force: true);
-      expect(c.read(mapAnchorProvider), isNotNull);
+      expect(c.read(aktuellerBezugProvider), isNotNull);
 
       await c.read(userPositionProvider.notifier).clearStored();
 
       expect(c.read(mapLocationEnabledProvider), isFalse);
-      expect(c.read(mapAnchorProvider), isNull);
+      expect(c.read(aktuellerBezugProvider), isNull);
       final prefs = await SharedPreferences.getInstance();
       expect(prefs.getDouble('last_map_lat'), isNull);
     });
@@ -110,8 +113,7 @@ void main() {
                 child: Column(
                   children: [
                     GroupPrefsSection(),
-                    StartpointSection(),
-                    LocationSettingsSection(),
+                    StartpointCard(),
                   ],
                 ),
               ),
@@ -147,27 +149,53 @@ void main() {
 
     testWidgets('Startpunkt zeigt gewählten Ort', (tester) async {
       final c = await pump(tester);
-      expect(find.text('Ort wählen'), findsOneWidget);
+      expect(find.text('Kein Startpunkt gewählt'), findsOneWidget);
 
       await tester.runAsync(
         () => c.read(onboardingPrefsProvider.notifier).setPlace(_leipzig),
       );
       await tester.pump();
 
-      expect(find.text('Rund um Leipzig (04103)'), findsOneWidget);
+      expect(find.text('Leipzig'), findsOneWidget);
+      expect(find.text('Kein Startpunkt gewählt'), findsNothing);
     });
 
-    testWidgets('Umkreis-Hinweis nur ohne Ort und Standort', (tester) async {
+    testWidgets('Ort wählen verwirft eine aktive Kartenmitte', (tester) async {
       final c = await pump(tester);
-      const hint = 'Ohne Ort oder Standort zeigt die Karte alle Wege.';
-      expect(find.text(hint), findsOneWidget);
+      final ref = tester.element(find.byType(StartpointCard)) as WidgetRef;
 
       await tester.runAsync(
-        () => c.read(onboardingPrefsProvider.notifier).setPlace(_leipzig),
+        () => c
+            .read(karteBezugProvider.notifier)
+            .setzeKarte(
+              const Bezugspunkt(
+                quelle: BezugQuelle.karte,
+                coords: LatLng(50, 10),
+              ),
+            ),
       );
+      expect(c.read(aktuellerBezugProvider)?.quelle, BezugQuelle.karte);
+
+      await tester.runAsync(() => BezugAktionen(ref).waehleOrt(_leipzig));
       await tester.pump();
 
-      expect(find.text(hint), findsNothing);
+      expect(c.read(karteBezugProvider).karteAktiv, isFalse);
+      expect(c.read(aktuellerBezugProvider)?.quelle, BezugQuelle.suche);
+      expect(find.text('Leipzig'), findsOneWidget);
+    });
+
+    testWidgets('Startpunkt entfernen: kein Bezug mehr', (tester) async {
+      final c = await pump(tester);
+      final ref = tester.element(find.byType(StartpointCard)) as WidgetRef;
+      await tester.runAsync(() => BezugAktionen(ref).waehleOrt(_leipzig));
+      expect(c.read(aktuellerBezugProvider), isNotNull);
+
+      await tester.runAsync(() => BezugAktionen(ref).entferneStartpunkt());
+      await tester.pump();
+
+      expect(c.read(aktuellerBezugProvider), isNull);
+      expect(c.read(onboardingPrefsValueProvider).place, isNull);
+      expect(find.text('Kein Startpunkt gewählt'), findsOneWidget);
     });
   });
 }

@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:lehrpfad_app/features/location/map_radius.dart';
 import 'package:lehrpfad_app/features/location/proximity.dart';
 import 'package:lehrpfad_app/features/trail/domain/trail.dart';
 import 'package:lehrpfad_app/features/trail_progress/tracking/location_service.dart';
@@ -150,78 +149,6 @@ void main() {
     const user = LatLng(53.0, 13.0);
     expect(distanceToTrailM(trail, user)!, lessThan(5));
     expect(distanceToStartM(trail, user)!, greaterThan(100000));
-  });
-
-  test('Umkreis-Filter: Distanz zum Start, skip ohne Geometrie', () {
-    final near = _linie();
-    final far = Trail(
-      id: 'far',
-      name: 'Far',
-      typ: 'wald',
-      kurzbeschreibung: '',
-      beschreibung: '',
-      laengeKm: 1,
-      dauerMin: 30,
-      rundkurs: false,
-      markierung: '',
-      betreiber: '',
-      region: '',
-      anreise: '',
-      startName: '',
-      arten: const [],
-      route: const [LatLng(54.5, 13.0), LatLng(54.51, 13.0)],
-      stationen: const [],
-      amenities: const [],
-    );
-    final broken = Trail(
-      id: 'broken',
-      name: 'Broken',
-      typ: 'wald',
-      kurzbeschreibung: '',
-      beschreibung: '',
-      laengeKm: 0,
-      dauerMin: 0,
-      rundkurs: false,
-      markierung: '',
-      betreiber: '',
-      region: '',
-      anreise: '',
-      startName: '',
-      arten: const [],
-      stationen: const [],
-      amenities: const [],
-    );
-    final passesNear = Trail(
-      id: 'passes',
-      name: 'Passes',
-      typ: 'wald',
-      kurzbeschreibung: '',
-      beschreibung: '',
-      laengeKm: 1,
-      dauerMin: 30,
-      rundkurs: false,
-      markierung: '',
-      betreiber: '',
-      region: '',
-      anreise: '',
-      startName: '',
-      arten: const [],
-      route: const [LatLng(54.5, 13.0), LatLng(53.0, 13.0)],
-      stationen: const [],
-      amenities: const [],
-    );
-    final user = const LatLng(53.0, 13.0);
-    expect(distanceToStartM(broken, user), isNull);
-    final filtered = filterTrailsByRadius(
-      [near, far, broken, passesNear],
-      radius: MapRadius.km20,
-      user: user,
-    );
-    expect(filtered.map((t) => t.id), ['linie']);
-    expect(
-      filterTrailsByRadius([near, far], radius: MapRadius.all, user: user),
-      [near, far],
-    );
   });
 
   test('formatDistanceM', () {

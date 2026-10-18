@@ -52,6 +52,13 @@ class OnboardingPrefsNotifier extends AsyncNotifier<OnboardingPrefs> {
     await ref.read(mapLocationEnabledProvider.notifier).setEnabled(true);
   }
 
+  /// Kein Startpunkt mehr: Ort weg, Standort aus, gespeicherte Position weg.
+  Future<void> clearStartpoint() async {
+    state = AsyncData(_current.copyWith(clearPlace: true));
+    await _store.writePlace(null);
+    await ref.read(userPositionProvider.notifier).clearStored();
+  }
+
   Future<void> complete() async {
     if (_current.completed) return;
     state = AsyncData(_current.copyWith(completed: true));

@@ -28,6 +28,14 @@ class BezugAktionen {
     _ref.read(locateTargetProvider.notifier).goTo(place.position);
   }
 
+  /// Startpunkt entfernen: Ort, Standort, Position und Kartenmitte weg, die
+  /// Karte zeigt wieder alle Wege.
+  Future<void> entferneStartpunkt() async {
+    await _ref.read(onboardingPrefsProvider.notifier).clearStartpoint();
+    await _ref.read(karteBezugProvider.notifier).loescheKarte();
+    _ref.read(locateTargetProvider.notifier).goTo(null);
+  }
+
   /// Karte auf den Standort, Bezugspunkt wird GPS. Die Systemabfrage kommt
   /// nur hier, also nach einem Tipp. Dauerhaft abgelehnt: Dialog.
   Future<void> zentriereAufStandort(BuildContext context) async {

@@ -111,6 +111,20 @@ String bezugszeileText({
   };
 }
 
+/// Kurzname des Bezugs ohne Umkreis, z. B. für das Konto: „Leipzig“,
+/// „Euer Standort“, „Kein Startpunkt gewählt“.
+String startpunktTitel({required Bezugspunkt? bezug, bool ermittelt = false}) {
+  if (ermittelt && bezug == null) return kt('bezug.ermittelt');
+  if (bezug == null) return kt('bezug.keinStart');
+  final name = bezug.ortName;
+  if (name != null && name.isNotEmpty) return name;
+  return switch (bezug.quelle) {
+    BezugQuelle.gps => kt('startpunkt.gps'),
+    BezugQuelle.karte => kt('startpunkt.karte'),
+    BezugQuelle.suche => kt('bezug.keinStart'),
+  };
+}
+
 String _fold(String s) => s
     .toLowerCase()
     .replaceAll('ä', 'ae')

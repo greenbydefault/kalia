@@ -5,6 +5,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 import '../../../../app/theme/app_colors.dart';
 import '../../../../core/config/build_stamp.dart';
 import '../../../../app/theme/app_spacing.dart';
+import '../../../nearby_trails/presentation/bezug_aktionen.dart';
 import '../../../trail_progress/tracking/location_service.dart';
 import '../../data/onboarding_prefs_provider.dart';
 import '../../data/place_search.dart';
@@ -100,7 +101,7 @@ class _PlaceScreenState extends ConsumerState<PlaceScreen> {
         ),
       );
     } else {
-      await ref.read(onboardingPrefsProvider.notifier).setPlace(place);
+      await BezugAktionen(ref).waehleOrt(place);
     }
     if (mounted) widget.onDone();
   }
