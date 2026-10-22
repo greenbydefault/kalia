@@ -56,7 +56,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    54.075915,
@@ -327,97 +326,90 @@
    11.960719
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -3638745056,
    "lat": 54.07436,
    "lon": 11.949536,
    "km": 0.86,
+   "reihenfolge": 1,
    "titel": "Insektenhotel",
    "thema": "Beginn der Runde",
    "kurztext": "Hier fängt die Runde um die Teiche an. Das Hotel aus Holz steht am Weg, der Abzweig ist damit wiederzufinden. Geradeaus führt der Weg nach Althof, die Runde biegt links ab.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -578703867,
    "lat": 54.073919,
    "lon": 11.948286,
    "km": 1.04,
+   "reihenfolge": 2,
    "titel": "Forstwirtschaft, Waldwirtschaft",
    "thema": "Was der Forst im Wald tut",
    "kurztext": "Die Tafel steht am Pflanzgartenteich, das Wasser liegt rechts vom Weg. Sie trennt, was der Forst entnimmt und was im Wald bleibt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -1562253385,
    "lat": 54.07333,
    "lon": 11.948356,
    "km": 1.1,
+   "reihenfolge": 3,
    "titel": "Höhlenbauer und Nachmieter",
    "thema": "Wer eine verlassene Höhle nutzt",
    "kurztext": "Spechte schlagen Höhlen in alte Stämme. Andere ziehen später ein. Die Tafel steht wenige Meter hinter der Forsttafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -4012390612,
    "lat": 54.072557,
    "lon": 11.948324,
    "km": 1.2,
+   "reihenfolge": 4,
    "titel": "Wer lebt im Reisighaufen?",
    "thema": "Leben im aufgeschichteten Holz",
    "kurztext": "Ein Haufen Reisig reicht als Wohnung. Die Tafel zeigt, wer sich darin aufhält. Schilf steht im Wasser neben dem Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -2951877252,
    "lat": 54.071883,
    "lon": 11.949407,
    "km": 1.64,
+   "reihenfolge": 5,
    "titel": "Alt- und Totholz voller Leben",
    "thema": "Was von totem Holz lebt",
    "kurztext": "Totes Holz bleibt liegen. Käfer, Pilze und Vögel leben davon. Die Tafel steht an der Südspitze, nach der spitzen Linkskurve.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -3843704851,
    "lat": 54.073359,
    "lon": 11.949611,
    "km": 1.82,
+   "reihenfolge": 6,
    "titel": "Tiere und Pflanzen des Waldes",
    "thema": "Mischwald am Teich",
    "kurztext": "Letzte Tafel vor dem Insektenhotel. Rotbuche, Fichte und Douglasie, dazu Damwild und Dachs. Der Weg führt von hier zurück an den Start.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -425,36 +417,31 @@
    "osmId": 378908264,
    "lat": 54.0756026,
    "lon": 11.9477622,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 378908273,
    "lat": 54.0744347,
    "lon": 11.9489969,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 378908298,
    "lat": 54.0730909,
    "lon": 11.948707,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 378908304,
    "lat": 54.072809,
    "lon": 11.9498016,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 403771822,
    "lat": 54.0760697,
    "lon": 11.9610323,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 27672650,
@@ -464,8 +451,19 @@
    "name": "Parkplatz Am Hütter Wohld"
   }
  ],
- "eintritt": false,
  "besuchshinweise": "Festes Schuhwerk. Auf den Dämmen wird der Weg schmal, ein Kinderwagen kommt dort nicht durch. An der spitzen Kurve links halten, rechts wird die Runde länger.",
  "hoertext": "Der Boden zwischen den Becken steigt zu einem Wall auf. Schilf wächst links aus dem Wasser, das nächste Becken öffnet sich rechts. Über den schmalen Streifen läuft der Weg. Klosterleute aus Doberan fassten die Kanbek, die Wälle tragen den Weg. Pflanzgarten, Schunberg und Kloster rücken so nah zusammen, dass ein Damm oft beide Ufer zugleich zeigt. An der spitzen Biegung teilt sich die Länge. Links hält die Runde bei diesen drei Becken. Rechts zieht der Hütter Wohld noch weiter, hügeliger als diese Küste sonst, über weitere Dämme und tiefer in den Wald. Käfer leben im Totholz. Ein Hotel aus Holz markiert den Punkt, an dem die Runde sich wieder schließt.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-huetter-klosterteiche/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "1c7df3d0-a602-5573-a29f-59539e9dd14f",
+   "id": "1c7df3d0-a602-5573-a29f-59539e9dd14f",
+   "caption": "Herbstlicher Teich, der Mischwald spiegelt sich im Wasser.",
+   "credit": "Pagenkopf",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_H%C3%BCtter_Klosterteiche_3.jpg",
+   "kind": "ort"
+  }
+ ]
 }

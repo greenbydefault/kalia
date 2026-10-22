@@ -35,7 +35,6 @@
   "kinderwagentauglich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    49.867415,
@@ -486,43 +485,41 @@
    10.894591
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 5329632863,
    "lat": 49.86738,
    "lon": 10.89449,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Eingang Bruderwald",
    "thema": "Start an der Übersichtskarte",
    "kurztext": "Hier am Klinikum beginnt der Rundweg. Die Karte zeigt zwanzig Stationen. Folge den Schildern mit dem Wolfskopf – gut zwei Kilometer durch den Staatswald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 5329632860,
    "lat": 49.86657,
    "lon": 10.89453,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Ökorohstoff Holz",
    "thema": "Holz, das wir alle brauchen",
    "kurztext": "Die erste Tafel steht gleich hinter dem Eingang. Holz als Werkstoff, nicht nur als Kulisse – vom Bleistift bis zum Dachstuhl. Lupi fragt: wo steckt Wald in deinem Alltag?",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 5329632848,
    "lat": 49.86471,
    "lon": 10.89698,
    "km": 0.5,
+   "reihenfolge": 3,
    "titel": "Baumarten des Bruderwaldes",
    "thema": "Kennst du mich?",
    "kurztext": "Tafeln zu Rotbuche, Kiefer, Lärche, Ahorn. Rinde, Blatt, Nadel – erst schauen, dann den Namen kippen. Der Bruderwald ist kein reiner Fichtenacker.",
@@ -530,84 +527,77 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 4756281617,
    "lat": 49.86386,
    "lon": 10.89719,
    "km": 0.63,
+   "reihenfolge": 4,
    "titel": "Die besten Schinken",
    "thema": "Eicheln, Schweine, Waldweide",
    "kurztext": "Auf den Eichen wachsen die besten Schinken – so steht es auf der Tafel. Eicheln mästen, Waldweide, warum die Stieleiche hier zählt. Kein Stall, nur die Geschichte am Stamm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": 8568905572,
    "lat": 49.86117,
    "lon": 10.90144,
    "km": 1.43,
+   "reihenfolge": 5,
    "titel": "Naturwaldreservat Wolfsruhe",
    "thema": "Wald, der sich selbst überlassen bleibt",
    "kurztext": "Hier darf der Wald alt werden: Totholz, Lücken, kein Durchforsten. Wolfsruhe heißt das Reservat – nicht weil Wölfe wohnen, sondern weil Ruhe der Punkt ist.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": 8568905570,
    "lat": 49.86245,
    "lon": 10.90075,
    "km": 1.61,
+   "reihenfolge": 6,
    "titel": "Barfußraupe",
    "thema": "Grüße an die Füße",
    "kurztext": "Schuhe aus. Die Barfußraupe führt über Rinde, Zapfen, Erde. Nasses Holz wird rutschig – langsam. Danach wieder anziehen, der Pfad geht weiter auf festem Weg.",
    "erlebnisse": [
     "barfusspfad"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 8568905558,
    "lat": 49.86511,
    "lon": 10.89901,
    "km": 1.94,
+   "reihenfolge": 7,
    "titel": "Sprunggrube",
    "thema": "Wie weit springen Reh und Hase?",
    "kurztext": "Eine Grube zum Weitsprung. Die Markierungen zeigen, was Reh, Hase oder Fuchs schaffen. Du darfst mit – und merkst, wie kurz der eigene Satz ist.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 8568905551,
    "lat": 49.86696,
    "lon": 10.89668,
    "km": 2.26,
+   "reihenfolge": 8,
    "titel": "Mein Bruder Wald",
    "thema": "Schluss an der Tafel",
    "kurztext": "Schön, dass ihr da wart. Die letzte Tafel schließt die Runde, das Klinikum liegt wieder nah. Pavillon und Waldwerkstatt zum Unterstellen liegen am Weg zurück.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -615,64 +605,55 @@
    "osmId": 1797272632,
    "lat": 49.8669225,
    "lon": 10.8976869,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4756281584,
    "lat": 49.8611866,
    "lon": 10.9014586,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4756281605,
    "lat": 49.8607402,
    "lon": 10.8975628,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 4756281612,
    "lat": 49.8628112,
    "lon": 10.8964784,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5329632857,
    "lat": 49.8659105,
    "lon": 10.894897,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8568905548,
    "lat": 49.867399,
    "lon": 10.8945349,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8568905550,
    "lat": 49.8669858,
    "lon": 10.8964312,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8568905561,
    "lat": 49.8631182,
    "lon": 10.9003526,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10062020450,
    "lat": 49.8651057,
    "lon": 10.8992734,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1050828127,
@@ -682,7 +663,6 @@
    "name": "Waldparkplatz Klinikum"
   }
  ],
- "bilderAsset": "assets/images/trails/erlebe-bruder-wald/credits.json",
  "lebensraeume": [
   "buchenwald",
   "kiefernforst"
@@ -703,5 +683,18 @@
   "Eichhörnchen": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "d701e935-f865-5566-9529-69f4c3623f3b",
+   "id": "d701e935-f865-5566-9529-69f4c3623f3b",
+   "caption": "Bruderwald hinterm Bamberger Klinikum.",
+   "credit": "ermell",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABruderwald-220116-1225371.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    47.563809,
@@ -156,13 +155,13 @@
    9.826609
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -315853064,
    "lat": 47.563809,
    "lon": 9.8274852,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann Treppe oder Aufzug",
    "kurztext": "Hier beginnt der Besuch. Ticket, Drehkreuz, dann rauf auf den Steg – Panoramatreppe oder gläserner Aufzug. Kinder unter zehn nur mit Erwachsenem. Hundeboxen stehen unterm Turm, nicht mit auf die Brücke.",
@@ -170,30 +169,28 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 47.564405,
    "lon": 9.826985,
    "km": 0.08,
+   "reihenfolge": 2,
    "titel": "Aussichtsturm",
    "thema": "Vierzig Meter, Aufzug im Stahl",
    "kurztext": "Der Turm trägt Treppe und Aufzug. Vierzig Meter Stahl, oben der Einstieg in die Hängebrücke. Wer nicht steigen will, fährt glas. Unten die Boxen für Hunde, oben der Wind.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
-   "osmId": -2357087527,
+   "osmId": -2147483648,
    "lat": 47.5644454,
    "lon": 9.8260562,
    "km": 0.22,
+   "reihenfolge": 3,
    "titel": "Plenterwald",
    "thema": "Weißtanne, Fichte, Buche durcheinander",
    "kurztext": "Hier hängt der Steg im Hochwald. Alle Altersklassen, keine Schonung in Reih und Glied. Die Hälfte Weißtanne, dann Fichte, etwas Rotbuche. Der Flyer zählt den Bestand, du siehst die Kronen von der Seite.",
@@ -201,30 +198,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -189385970,
    "lat": 47.564305,
    "lon": 9.8265551,
    "km": 0.38,
+   "reihenfolge": 4,
    "titel": "Aussichtspunkt Skywalk",
    "thema": "Allgäu, Alpen, Bodensee",
    "kurztext": "Hier öffnet sich der Wald. Hügel, Alpenkette, bei Klarheit der See. Tausend Meter über NN, die Grenze nach Österreich liegt hinterm Hang. Stehen bleiben, der Steg trägt.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -93718623,
    "lat": 47.5639412,
    "lon": 9.8262339,
    "km": 0.5,
+   "reihenfolge": 5,
    "titel": "Federnder Steg",
    "thema": "Vierzehn Masten, Lärchenholz",
    "kurztext": "Die Brücke schwingt, extra. Vierzehn Stahlmasten, Seile, nordische Lärche unter den Füßen. Wettertafel am Geländer. Netztunnel und Rutsche sind der andere Abstieg, extra – der Aufzug führt denselben Weg runter.",
@@ -232,9 +227,7 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -249,29 +242,25 @@
    "osmId": 1420270836,
    "lat": 47.562593,
    "lon": 9.8282776,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1420270863,
    "lat": 47.5643309,
    "lon": 9.8274899,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1420270895,
    "lat": 47.5651263,
    "lon": 9.8277617,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2018542405,
    "lat": 47.5652853,
    "lon": 9.8279737,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4349445598,
@@ -284,260 +273,223 @@
    "osmId": 4893599645,
    "lat": 47.563745,
    "lon": 9.8273939,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5964730306,
    "lat": 47.5637066,
    "lon": 9.8254325,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5964750302,
    "lat": 47.5640244,
    "lon": 9.8270354,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5964750303,
    "lat": 47.56399,
    "lon": 9.8270354,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13092037854,
    "lat": 47.5636673,
    "lon": 9.8274891,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13092038338,
    "lat": 47.5637547,
    "lon": 9.8274233,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13092041101,
    "lat": 47.5636409,
    "lon": 9.8274518,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802032,
    "lat": 47.5629387,
    "lon": 9.8278922,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802033,
    "lat": 47.5630466,
    "lon": 9.8280586,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802034,
    "lat": 47.5631136,
    "lon": 9.8282234,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802035,
    "lat": 47.5631503,
    "lon": 9.828405,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802036,
    "lat": 47.5629775,
    "lon": 9.8283374,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802037,
    "lat": 47.5628515,
    "lon": 9.8281782,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13669802038,
    "lat": 47.5627729,
    "lon": 9.8280394,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13672499219,
    "lat": 47.5639109,
    "lon": 9.8277885,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 14169517683,
    "lat": 47.5641357,
    "lon": 9.8271564,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169518252,
    "lat": 47.5629453,
    "lon": 9.827632,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169529339,
    "lat": 47.5647538,
    "lon": 9.827208,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169556558,
    "lat": 47.5631153,
    "lon": 9.8275983,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 14169580443,
    "lat": 47.5640717,
    "lon": 9.8259671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169585663,
    "lat": 47.5645801,
    "lon": 9.8265225,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169602816,
    "lat": 47.5644503,
    "lon": 9.8260541,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169650574,
    "lat": 47.5646519,
    "lon": 9.8253051,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169655286,
    "lat": 47.564265,
    "lon": 9.8254179,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169674789,
    "lat": 47.5643645,
    "lon": 9.8254932,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169676369,
    "lat": 47.5637489,
    "lon": 9.8254612,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169676374,
    "lat": 47.5635285,
    "lon": 9.826941,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169679969,
    "lat": 47.5646015,
    "lon": 9.8254358,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169686179,
    "lat": 47.5630463,
    "lon": 9.8270239,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169687334,
    "lat": 47.5637735,
    "lon": 9.8252723,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14169719612,
    "lat": 47.5628494,
    "lon": 9.8268512,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 340296717,
-   "lat": 47.56384201666666,
-   "lon": 9.827389883333334,
-   "kategorie": "wc",
-   "name": null
+   "lat": 47.5638420166667,
+   "lon": 9.82738988333333,
+   "kategorie": "wc"
   },
   {
    "osmId": 631637800,
    "lat": 47.5633334,
-   "lon": 9.827344060000001,
-   "kategorie": "parking",
-   "name": null
+   "lon": 9.82734406,
+   "kategorie": "parking"
   },
   {
    "osmId": 631641914,
-   "lat": 47.56402416923076,
-   "lon": 9.826981815384615,
-   "kategorie": "playground",
-   "name": null
+   "lat": 47.5640241692308,
+   "lon": 9.82698181538461,
+   "kategorie": "playground"
   },
   {
    "osmId": 1222064668,
-   "lat": 47.564217490909094,
-   "lon": 9.827694354545454,
-   "kategorie": "playground",
-   "name": null
+   "lat": 47.5642174909091,
+   "lon": 9.82769435454545,
+   "kategorie": "playground"
   },
   {
    "osmId": 1222064669,
    "lat": 47.5642997,
    "lon": 9.8274967,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 1491610713,
-   "lat": 47.563841142857136,
-   "lon": 9.827065728571428,
-   "kategorie": "playground",
-   "name": null
+   "lat": 47.5638411428571,
+   "lon": 9.82706572857143,
+   "kategorie": "playground"
   }
  ],
  "eintritt": true,
@@ -545,7 +497,6 @@
  "oeffnungszeiten": "Sommer 20.3.–8.11.2026 täglich 10–18 Uhr, letzter Einlass 17. Winter 13.11.2026–28.2.2027 Fr–So 11–18 Uhr, in den bayerischen Schulferien täglich; 4./11./24.12. zu. Sommer 2027 ab 1.3. analog. Letzter Einlass 17 Uhr.",
  "besuchshinweise": "Pfad und Turm barrierefrei: gläserner Aufzug, oben ohne Stufe, Kinderwagen und Rollstuhl. Panoramatreppe alternativ. Kinder unter 10 nur mit Erwachsenem. Hunde anleinen, nicht auf den Steg, Assistenzhunde ausgenommen; Hundehütten unterm Turm mit Wasser. Rauchen nur im Biergarten. Netztunnel und Röhrenrutsche optional extra. Naturerlebnispfad, Barfußpfad, Spielplatz und Streichelzoo extra. Parken 5 €/Tag.",
  "hoertext": "Über Scheidegg hängt der Skywalk durch Weißtannen – fünfhundertvierzig Meter, der Turm vierzig hoch. Treppe oder gläserner Aufzug, oben ohne Stufe, der Steg federt. Kinderwagen und Rollstuhl kommen mit. Kinder unter zehn nur mit Erwachsenem. Hunde in die Box unterm Turm, Assistenzhunde ausgenommen. Letzter Einlass siebzehn Uhr. Streichelzoo und Barfußpfad extra.",
- "bilderAsset": "assets/images/trails/skywalk-allgaeu/credits.json",
  "lebensraeume": [
   "alpen-wald",
   "buchenwald"
@@ -566,5 +517,18 @@
   "Zitronenfalter": "typisch",
   "Reh": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "98d60788-d5c3-5c53-82c8-21c92528b49c",
+   "id": "98d60788-d5c3-5c53-82c8-21c92528b49c",
+   "caption": "Hängebrücke des Skywalk Allgäu bei Scheidegg.",
+   "credit": "Killarnee",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkywalk_Scheidegg_4.jpg",
+   "kind": "ort"
+  }
+ ]
 }

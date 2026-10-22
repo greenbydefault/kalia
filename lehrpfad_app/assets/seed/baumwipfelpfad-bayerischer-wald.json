@@ -36,7 +36,6 @@
   "rollstuhltauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    48.892208,
@@ -243,13 +242,13 @@
    13.485671
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 48.8923698,
    "lon": 13.4885978,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Einstiegsturm",
    "thema": "Lift, dann ohne Stufe",
    "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, zehn Meter rauf mit dem Aufzug – danach keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse.",
@@ -257,30 +256,28 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -1651685044,
    "lat": 48.8915658,
    "lon": 13.4867818,
    "km": 0.22,
+   "reihenfolge": 2,
    "titel": "Fußspuren",
    "thema": "Wer lief hier durch",
    "kurztext": "Abstecher neben der Hauptlinie. Abdrücke im Holz, Luchs neben Hirsch. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -1096437279,
    "lat": 48.8918883,
    "lon": 13.4852033,
    "km": 0.42,
+   "reihenfolge": 3,
    "titel": "Balancierweg",
    "thema": "Der Steg gibt nach",
    "kurztext": "Wackelsteg neben der Hauptlinie. Die Bretter federen, der Rest bleibt starr. Nicht rennen – darunter ist Luft. Wer nicht will, geht am festen Steg vorbei.",
@@ -288,30 +285,28 @@
     "mitmach-modell",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1898246817,
    "lat": 48.8918184,
    "lon": 13.4845644,
    "km": 0.55,
+   "reihenfolge": 4,
    "titel": "Mit Hammer und Meißel",
    "thema": "Was im Stamm arbeitet",
    "kurztext": "Tafel zum Specht am Geländer. Schnabel statt Axt, Totholz bleibt stehen. Der Pfad räumt nicht – der Wald braucht die Löcher. Schau in den Stamm, nicht nur zum Ei.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -1746619201,
    "lat": 48.8912337,
    "lon": 13.4829099,
    "km": 0.72,
+   "reihenfolge": 5,
    "titel": "Bäume",
    "thema": "Kampf ums Licht",
    "kurztext": "Buche, Fichte, Tanne auf Steghöhe. Wer oben ist, hat gewonnen. Tafel zum Bergmischwald, nicht Wikipedia. Die Comic-Tafeln daneben gehören zur Rallye – Fragen stehen im Heft von der Kasse.",
@@ -319,39 +314,35 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 48.8908632,
    "lon": 13.4847349,
    "km": 1.05,
+   "reihenfolge": 6,
    "titel": "Baumei",
    "thema": "44 Meter, drei Bäume innen",
    "kurztext": "Ei aus Holz, Rampe in Windungen. Innen Tanne und Buche, geschützt und trotzdem Licht. Oben Rachel und Lusen, bei klarer Sicht der Alpenkamm. Bis 40 Meter ohne Stufe, die letzten vier Meter Treppe. Zurück nicht denselben Steg – der Pfad geht zum Ausgang weiter.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -3895907155,
    "lat": 48.8902977,
    "lon": 13.486482,
    "km": 1.3,
+   "reihenfolge": 7,
    "titel": "Ausgang Hans-Eisenmann-Haus",
    "thema": "Wieder Boden unter den Füßen",
    "kurztext": "Der Steg endet ebenerdig vor dem Besucherzentrum. Café Eisenmann und Waldwirtschaft daneben. Indoor, Kletterberg und Tierfreigelände sind extra und nicht dieser Trail.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -373,29 +364,25 @@
    "osmId": 10863782414,
    "lat": 48.8903419,
    "lon": 13.486488,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11026087561,
    "lat": 48.891059,
    "lon": 13.4873873,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9111237968,
    "lat": 48.8913988,
    "lon": 13.4832047,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 11026087562,
    "lat": 48.8905377,
    "lon": 13.4863303,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 604961847,
@@ -438,7 +425,6 @@
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Pfad max. 6 %, Einstiegsturm mit Aufzug, Kinderwagen und Rollstuhl. Letzte 4 Meter am Turm Treppe (Wikipedia). Rollstuhl oder Rollator nach Anmeldung. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Im Nationalparkzentrum Lusen geht der Steg ohne Treppe durch den Bergmischwald, im Ei stehen drei Bäume. Oben Rachel und Lusen, an klaren Tagen die Alpen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, das Tierfreigelände und das Hans-Eisenmann-Haus extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-bayerischer-wald/credits.json",
  "lebensraeume": [
   "nadelforst",
   "buchenwald"
@@ -459,5 +445,18 @@
   "Grasfrosch": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "ce88d38b-97e4-5edd-ad46-2897d22dec92",
+   "id": "ce88d38b-97e4-5edd-ad46-2897d22dec92",
+   "caption": "Eingang zum Baumwipfelpfad, Einstiegsturm.",
+   "credit": "High Contrast",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanopy_walkway_of_Neusch%C3%B6nau_-_entrance.jpg",
+   "kind": "ort"
+  }
+ ]
 }

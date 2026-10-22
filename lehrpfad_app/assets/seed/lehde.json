@@ -1530,105 +1530,98 @@
    "lat": 51.8673815,
    "lon": 13.973351,
    "km": 3.37,
+   "reihenfolge": 1,
    "titel": "Großer Spreewaldhafen",
    "thema": "Start am Kahnhafen",
    "kurztext": "Am Großen Spreewaldhafen, dem bekanntesten Kahnhafen des Spreewalds, beginnt die Runde. Von hier stechen die Kahnfährleute ihre Gäste in die Fließlandschaft – und wir starten zu Fuß in Richtung Lehde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 5679599845,
    "lat": 51.8691896,
    "lon": 13.9805129,
    "km": 3.91,
+   "reihenfolge": 2,
    "titel": "Biosphärenreservat Spreewald",
    "thema": "Lebensraum Fließlandschaft",
    "kurztext": "Die Tafel des Biosphärenreservats erklärt die Landschaft, durch die wir gehen: die weit verzweigten Fließe, die traditionellen Wasserschlagwiesen, die regelmäßig überflutet werden, und die Reste eiszeitlicher Moore, die enorme Mengen Kohlenstoff speichern.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 1396123638,
    "lat": 51.8689086,
    "lon": 13.9820097,
    "km": 3.97,
+   "reihenfolge": 3,
    "titel": "Sehenswertes um Lehde",
    "thema": "Überblick über das Spreewalddorf",
    "kurztext": "Die Wanderkarte zeigt Lehde und seine Umgebung: das „Grüne Venedig“ besteht aus so vielen Inseln, wie es Häuser hat – die Fließe zwischen den Gehöften übernehmen weitgehend die Funktion von Straßen. Die gesamte Dorfanlage steht unter Denkmalschutz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 748503040,
    "lat": 51.8660418,
    "lon": 13.9910155,
    "km": 4.72,
+   "reihenfolge": 4,
    "titel": "Gurkenmuseum",
    "thema": "Die Spreewaldgurke",
    "kurztext": "Im Gurkenmuseum dreht sich alles um die berühmteste Frucht der Region: Vom Anbau auf den Feldern zwischen den Fließen über die Ernte mit dem Kahn bis zur Einlage in den Fässern. Die Spreewaldgurke ist heute eine geschützte Herkunftsbezeichnung.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 5921188527,
    "lat": 51.8626556,
    "lon": 13.9909703,
    "km": 5.07,
+   "reihenfolge": 5,
    "titel": "Freilandmuseum Lehde",
    "thema": "Leben im Spreewald um 1900",
    "kurztext": "Das Freilandmuseum Lehde zeigt mit seinen historischen Gehöften, wie die sorbisch/wendischen und deutschen Spreewaldbewohner früher lebten und arbeiteten. Die Tafel beschreibt die einzelnen Stationen des Museums – ein lohnender Abstecher direkt am Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 8978006356,
    "lat": 51.86922,
    "lon": 13.968538,
    "km": 7.42,
+   "reihenfolge": 6,
    "titel": "Haus für Mensch und Natur",
    "thema": "Das Biosphärenreservat verstehen",
    "kurztext": "Das Haus für Mensch und Natur ist die Umweltbildungsstätte des Biosphärenreservats Spreewald. Hier erfahren wir, wie die einzigartige Kulturlandschaft aus Fließen, Wiesen und Wäldern entstanden ist und warum sie seit 1991 von der UNESCO als Biosphärenreservat geschützt wird.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 1396044942,
    "lat": 51.8698059,
    "lon": 13.9706367,
    "km": 7.52,
+   "reihenfolge": 7,
    "titel": "Kahnfährmannsverein der Spreewaldfreunde",
    "thema": "Kahnfahrten durch den Spreewald",
    "kurztext": "Der Spreewaldkahn ist das traditionelle Fortbewegungsmittel zwischen den Fließen – früher wurden damit Heu, Gurken und sogar die Post transportiert. Der Kahnfährmannsverein hält die Kahnfahrt-Tradition in Lehde lebendig; von den Anlegestellen starten die Rundfahrten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -1671,15 +1664,13 @@
    "osmId": 876355246,
    "lat": 51.8681313,
    "lon": 13.969261,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355250,
    "lat": 51.8681654,
    "lon": 13.9690769,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355276,
@@ -1692,15 +1683,13 @@
    "osmId": 876355316,
    "lat": 51.8681381,
    "lon": 13.9689855,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355344,
    "lat": 51.8681517,
    "lon": 13.9691742,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355351,
@@ -1713,43 +1702,37 @@
    "osmId": 876355353,
    "lat": 51.8680425,
    "lon": 13.9693026,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355386,
    "lat": 51.868036,
    "lon": 13.9691868,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355401,
    "lat": 51.8680547,
    "lon": 13.9690625,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355417,
    "lat": 51.8680534,
    "lon": 13.9696552,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355420,
    "lat": 51.8680372,
    "lon": 13.9691737,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 876355506,
    "lat": 51.8681166,
    "lon": 13.9693549,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1164733843,
@@ -1797,57 +1780,49 @@
    "osmId": 1396044936,
    "lat": 51.8678898,
    "lon": 13.9681496,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 1396044954,
    "lat": 51.8751232,
    "lon": 14.0031077,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123629,
    "lat": 51.8666838,
    "lon": 13.9885278,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123630,
    "lat": 51.8670339,
    "lon": 13.9883057,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123633,
    "lat": 51.8680837,
    "lon": 13.987079,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123634,
    "lat": 51.8684772,
    "lon": 13.9855852,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123635,
    "lat": 51.868526,
    "lon": 13.9847396,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1396123637,
    "lat": 51.8687109,
    "lon": 13.9833227,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1760682861,
@@ -1867,15 +1842,13 @@
    "osmId": 1760682881,
    "lat": 51.8681572,
    "lon": 13.9721339,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1760682886,
    "lat": 51.8726983,
    "lon": 13.9746802,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1760682902,
@@ -1895,36 +1868,31 @@
    "osmId": 1782493049,
    "lat": 51.8675816,
    "lon": 13.9744831,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1782493053,
    "lat": 51.8675859,
    "lon": 13.9744068,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1782493122,
    "lat": 51.8675873,
    "lon": 13.9745898,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1782493126,
    "lat": 51.8676109,
    "lon": 13.9749006,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1782493130,
    "lat": 51.867641,
    "lon": 13.9751563,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2313650694,
@@ -1937,50 +1905,43 @@
    "osmId": 2866693713,
    "lat": 51.8754066,
    "lon": 13.9866193,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2866694112,
    "lat": 51.8721601,
    "lon": 13.9770437,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2866694120,
    "lat": 51.8773826,
    "lon": 13.9959825,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2957599289,
    "lat": 51.8674167,
    "lon": 13.9738183,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2957599292,
    "lat": 51.8697173,
    "lon": 13.9801208,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3127599802,
    "lat": 51.8665738,
    "lon": 13.974172,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3627131657,
    "lat": 51.8741424,
    "lon": 14.0090041,
-   "kategorie": "gastro",
-   "name": null
+   "kategorie": "gastro"
   },
   {
    "osmId": 4177158390,
@@ -1993,85 +1954,73 @@
    "osmId": 4818212302,
    "lat": 51.8675643,
    "lon": 13.9876666,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5673325542,
    "lat": 51.8694438,
    "lon": 13.9801041,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5673496625,
    "lat": 51.8697474,
    "lon": 13.9800915,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 5679743074,
    "lat": 51.8676207,
    "lon": 13.9740156,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743075,
    "lat": 51.8676346,
    "lon": 13.9735103,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743076,
    "lat": 51.8676348,
    "lon": 13.9734936,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743077,
    "lat": 51.867661,
    "lon": 13.9732971,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743078,
    "lat": 51.8676632,
    "lon": 13.9732858,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743079,
    "lat": 51.8676653,
    "lon": 13.9732746,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743080,
    "lat": 51.8676675,
    "lon": 13.9732634,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5679743081,
    "lat": 51.8676869,
    "lon": 13.9731233,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5681549123,
    "lat": 51.8683896,
    "lon": 13.9678186,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5681593821,
@@ -2084,15 +2033,13 @@
    "osmId": 5850755768,
    "lat": 51.8606263,
    "lon": 13.9856728,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5850755769,
    "lat": 51.8596143,
    "lon": 13.9876771,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5870751122,
@@ -2119,22 +2066,19 @@
    "osmId": 6231694193,
    "lat": 51.8700947,
    "lon": 13.9703044,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 6235345831,
    "lat": 51.8681951,
    "lon": 13.9796353,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6235345833,
    "lat": 51.870641,
    "lon": 13.9738746,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6343488253,
@@ -2147,8 +2091,7 @@
    "osmId": 6718442036,
    "lat": 51.8658195,
    "lon": 13.9764158,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 8980063942,
@@ -2161,141 +2104,121 @@
    "osmId": 9752846850,
    "lat": 51.8618264,
    "lon": 13.9828971,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9760327384,
    "lat": 51.8677801,
    "lon": 13.9745609,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9760327385,
    "lat": 51.8677148,
    "lon": 13.9748625,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9761539618,
    "lat": 51.8744595,
    "lon": 14.0083518,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9982591650,
    "lat": 51.8624859,
    "lon": 13.9907021,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9982591651,
    "lat": 51.8624597,
    "lon": 13.9907011,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9983379788,
    "lat": 51.8700908,
    "lon": 13.9746514,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9983379789,
    "lat": 51.8699855,
    "lon": 13.9740586,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10016557284,
    "lat": 51.8674007,
    "lon": 13.9748094,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10951335843,
    "lat": 51.8755599,
    "lon": 13.9931969,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10970877766,
    "lat": 51.8748789,
    "lon": 14.0037379,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11513712237,
    "lat": 51.8721731,
    "lon": 13.9765054,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11513730347,
    "lat": 51.8767734,
    "lon": 13.9977933,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12327471400,
    "lat": 51.8739401,
    "lon": 13.9826312,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609349390,
    "lat": 51.8681519,
    "lon": 13.9721278,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609364672,
    "lat": 51.8654333,
    "lon": 13.9736469,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609538258,
    "lat": 51.8680625,
    "lon": 13.9871114,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609538259,
    "lat": 51.8680132,
    "lon": 13.9767537,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609563367,
    "lat": 51.8612295,
    "lon": 13.9900986,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12609563371,
    "lat": 51.8604881,
    "lon": 13.9895955,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12770911401,
@@ -2315,29 +2238,25 @@
    "osmId": 13002184961,
    "lat": 51.8672245,
    "lon": 13.9745372,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13002222959,
    "lat": 51.8677316,
    "lon": 13.9752386,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13002226824,
    "lat": 51.8674105,
    "lon": 13.9738581,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13002230933,
    "lat": 51.8678731,
    "lon": 13.9753626,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13002242656,
@@ -2350,36 +2269,31 @@
    "osmId": 13002253967,
    "lat": 51.8676712,
    "lon": 13.9752126,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13004522605,
    "lat": 51.8658869,
    "lon": 13.9737453,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13877581626,
    "lat": 51.8684539,
    "lon": 13.972888,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13877588478,
    "lat": 51.8684302,
    "lon": 13.9727531,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13912190301,
    "lat": 51.8636239,
    "lon": 13.9924932,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14023863498,
@@ -2389,7 +2303,6 @@
    "name": "die Fischhütte"
   }
  ],
- "bilderAsset": "assets/images/trails/lehde/credits.json",
  "lebensraeume": [
   "auwald",
   "fliessgewaesser"
@@ -2410,5 +2323,18 @@
   "Blaumeise": "typisch",
   "Buchfink": "typisch",
   "Grasfrosch": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "034aa6b0-1a6a-51a0-acc0-3c8b0dfac447",
+   "id": "034aa6b0-1a6a-51a0-acc0-3c8b0dfac447",
+   "caption": "Freilandmuseum Lehde – Blockhäuser zwischen den Fließen.",
+   "credit": "Derbrauni",
+   "license": "cc-by-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFreilandmuseum_Lehde.jpg",
+   "kind": "ort"
+  }
+ ]
 }

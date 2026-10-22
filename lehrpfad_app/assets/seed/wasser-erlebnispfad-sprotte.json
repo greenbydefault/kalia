@@ -50,7 +50,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    50.86298,
@@ -1709,157 +1708,146 @@
    12.347127
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2512743281,
    "lat": 50.86358,
    "lon": 12.25229,
    "km": 0.09,
+   "reihenfolge": 1,
    "titel": "Fluss-Steine",
    "thema": "Die Sprotten im Altenburger Land",
    "kurztext": "Die Tafel zeigt die Bäche, die hier zusammenfließen: Paitzdorfer, Mannichswalder und Großensteiner Sprotte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2808271705,
    "lat": 50.86618,
    "lon": 12.26756,
    "km": 1.67,
+   "reihenfolge": 2,
    "titel": "Weidenkopf",
    "thema": "Kopfweide Dickköpfchen",
    "kurztext": "Eine Kopfweide steht hier als Figur Dickköpfchen. Die Zweige sind zur Hütte geflochten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -566330394,
    "lat": 50.86683,
    "lon": 12.2684,
    "km": 1.77,
+   "reihenfolge": 3,
    "titel": "Vögel am Bach",
    "thema": "Eisvogel am Wasser",
    "kurztext": "Die Tafel stellt Vögel am Bach vor, darunter den Eisvogel. Ein Fernrohr ist am Weg erwähnt, die Zuordnung zu dieser Tafel ist offen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3138992960,
    "lat": 50.86913,
    "lon": 12.27077,
    "km": 2.1,
+   "reihenfolge": 4,
    "titel": "Brücken und Furten",
    "thema": "Zusammenfluss zweier Sprotte-Bäche",
    "kurztext": "Paitzdorfer und Mannichswalder Sprotte treffen sich. Zwei Brücken und große Trittsteine führen über den Fluss.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -4154261455,
    "lat": 50.87172,
    "lon": 12.27702,
    "km": 2.67,
+   "reihenfolge": 5,
    "titel": "Fisch und Treppe",
    "thema": "Fischtreppe an einem früheren Wehr",
    "kurztext": "Wo früher ein Wehr den Fluss sperrte, steigen Fische heute über eine Treppe aus Becken.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -2457835318,
    "lat": 50.87251,
    "lon": 12.27966,
    "km": 2.88,
+   "reihenfolge": 6,
    "titel": "Geräusche des Wassers",
    "thema": "Plätschern, Gluckern, Rauschen",
    "kurztext": "Die Tafel hält an zum Hören. Jede Stelle am Fluss klingt anders, Klangschalen sind dieser Station nicht sicher zugeordnet.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -492279398,
    "lat": 50.87346,
    "lon": 12.27994,
    "km": 3.03,
+   "reihenfolge": 7,
    "titel": "Flößer-Sprung",
    "thema": "Holzflöße auf der Sprotte",
    "kurztext": "Die Tafel erinnert an Holzflößerei auf der Sprotte. Zeitraum und Details der Tafel sind nicht belegt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -3055694349,
    "lat": 50.87524,
    "lon": 12.27976,
    "km": 3.31,
+   "reihenfolge": 8,
    "titel": "Wasserstandsorgel",
    "thema": "Hochwasser an der Sprotte",
    "kurztext": "Eine Wasserstandsorgel am Ufer in Nöbdenitz zeigt, wie hoch die Sprotte bei Hochwasser steigen kann.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -2718062652,
    "lat": 50.89159,
    "lon": 12.33351,
    "km": 8.33,
+   "reihenfolge": 9,
    "titel": "Matschplatz",
    "thema": "Graben am Tatami",
    "kurztext": "Am Picknickplatz beim Freizeitbad Tatami liegt ein Matschplatz zum Graben. Die Lage ist auf etwa 200 Meter genau.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -3382593575,
    "lat": 50.89216,
    "lon": 12.33521,
    "km": 8.52,
+   "reihenfolge": 10,
    "titel": "Kneipp- und Tastpfad",
    "thema": "Barfuß am Tatami",
    "kurztext": "Neben dem Freizeitbad Tatami wechselt ein Barfußpfad die Untergründe. Die Lage ist auf etwa 200 Meter genau.",
    "erlebnisse": [
     "barfusspfad"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -1901,5 +1889,17 @@
  ],
  "besuchshinweise": "Rückweg einplanen, die Strecke endet in Schmölln. Trittsteine nur bei niedrigem Wasser. Kinderwagen nur geländegängig. Parken am Start vor dem Burghof, in Schmölln auf dem kostenlosen Parkplatz Wassererlebnispfad Sprotte. Kein Trinkwasser und kein WC am Weg.",
  "hoertext": "Zwei Bäche laufen unter der Burg zusammen. Ab dort heißt das Wasser Sprotte, der Weg folgt knapp zehn Kilometer. Brücken hängen über den Furten, Steine liegen im Bett, und eine Treppe aus Becken hebt die Fische Stufe um Stufe über ein früheres Wehr. Am Ufer in Nöbdenitz zeigt eine Orgel aus Rohren die alten Hochwasserstände. Hinter dem Freizeitbad wechseln die Böden unter nackten Füßen. Daneben wartet ein Platz aus Matsch, und in Schmölln fängt der Rückweg erst an. Nasse Schuhe gehören an die Furten.",
- "bilderAsset": "assets/images/trails/wasser-erlebnispfad-sprotte/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "76bc07a5-b33a-58af-88b0-18df66022269",
+   "id": "76bc07a5-b33a-58af-88b0-18df66022269",
+   "caption": "Seilbrücke über die Sprotte zwischen Rothenmühle und Nöbdenitz.",
+   "credit": "Jwaller / Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprottetal-Seilbr%C3%BCcke.JPG",
+   "kind": "ort"
+  }
+ ]
 }

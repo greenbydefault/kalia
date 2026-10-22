@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    51.37728,
@@ -381,13 +380,13 @@
    12.280759
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 427963698,
    "lat": 51.37728,
    "lon": 12.280759,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Weiße Elster",
    "thema": "Eisvogel, erstes Stück Richtung Luppe",
    "kurztext": "Hier steht die Station, hier fängt die App an. Die erste Geschichte gehört der Weißen Elster und dem Eisvogel. Der Fluss liegt gleich nördlich, türkis und orange, wenn der Vogel kommt, dann kurz. Richtung Neue Luppe.",
@@ -395,14 +394,14 @@
     "audio",
     "quiz"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 26981040,
    "lat": 51.376565,
    "lon": 12.278866,
    "km": 0.3,
+   "reihenfolge": 2,
    "titel": "Rotmilan",
    "thema": "Greifvogel über der Aue",
    "kurztext": "An der Kastanienallee, das Herkulesdenkmal steht daneben. Die Station ist der Rotmilan: gegabelter Schwanz, rotbraun, kreist über der offenen Aue. Die App legt ein Quiz drauf. Oben schauen.",
@@ -410,14 +409,14 @@
     "audio",
     "quiz"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 26981033,
    "lat": 51.37563,
    "lon": 12.277344,
    "km": 0.45,
+   "reihenfolge": 3,
    "titel": "Fluss- und Kanalnetz",
    "thema": "Brücke über die Neue Luppe",
    "kurztext": "Die Brücke über die Neue Luppe. Die Elster ist nicht mehr der einzige Lauf. Luppe, Hundewasser, Gräben. Die Station sortiert, was hier fließt und was umgeleitet wurde. Danach liegt die Burgaue.",
@@ -425,50 +424,49 @@
     "audio",
     "quiz"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3467077195,
    "lat": 51.374105,
    "lon": 12.279358,
    "km": 0.67,
+   "reihenfolge": 4,
    "titel": "Fledermäuse",
    "thema": "Nachtjäger in der Burgaue",
    "kurztext": "Links nach der Brücke, im Wald. Welche Art, sagt die App nicht. Tagsüber siehst du eher die Höhlenbäume als das Tier. Abends über dem Weg.",
    "erlebnisse": [
     "audio"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -1746619201,
    "lat": 51.371092,
    "lon": 12.286801,
    "km": 1.29,
+   "reihenfolge": 5,
    "titel": "Heimische Bäume",
    "thema": "Auenwald, nicht Parkrasen",
    "kurztext": "Der lange Weg in der Burgaue. Die Station bleibt bei den Bäumen, die hierhin gehören. Unterwegs hängt eine Tafel mit einem Rezept für Schlehenmarmelade. Im Frühjahr blühen die Märzenbecher.",
    "erlebnisse": [
     "audio"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -994011194,
    "lat": 51.372231,
    "lon": 12.282891,
    "km": 2.15,
+   "reihenfolge": 6,
    "titel": "Moorfrosch",
    "thema": "Blau zur Laichzeit",
    "kurztext": "Nasse Stellen, Gräben, Tümpel auf dem Rückweg. Im Frühjahr laicht der Moorfrosch, die Männchen werden blau. Den Rest des Jahres siehst du eher das Wasser als den Frosch. Zweimal rechts, dann der bekannte Weg zurück zur Station.",
    "erlebnisse": [
     "audio"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -483,8 +481,7 @@
    "osmId": 11812177470,
    "lat": 51.37741,
    "lon": 12.28056,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 10080586453,
@@ -509,7 +506,6 @@
   }
  ],
  "hoertext": "An der Auwaldstation im Schlosspark Lützschena fängt die Runde an. Gut drei Kilometer durch die Burgaue, über die Brücke der Neuen Luppe und denselben Weg zurück. Am Herkulesdenkmal links in den Wald. Die Geschichten kommen aus der App. Festes Schuhwerk, nach Regen wird es weich. Der Schlosspark-Rundgang ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/auwald-erlebnispfad/credits.json",
  "lebensraeume": [
   "auwald",
   "fliessgewaesser"
@@ -530,5 +526,18 @@
   "Libelle": "typisch",
   "Rotkehlchen": "typisch",
   "Salweide": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "5125f3d1-6740-55a8-ad6b-5705cfbf67a8",
+   "id": "5125f3d1-6740-55a8-ad6b-5705cfbf67a8",
+   "caption": "Auwaldstation am Schloßweg in Lützschena.",
+   "credit": "Frank Vincentz",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_-_Schlo%C3%9Fweg_-_Auwaldstation_01_ies.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    51.398613,
@@ -405,97 +404,97 @@
    12.490275
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 7707254740,
    "lat": 51.3986652,
    "lon": 12.4902329,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Staditzteich",
    "thema": "Karte, Hütte, Karpfenteich",
    "kurztext": "Hier hängt die Karte, daneben die Schutzhütte Staditz-Klause. Dreizehn Nummern, der Strich ist grün, von links oben nach rechts unten. Der Teich ist künstlich, um 1718, bis in die 1950er Karpfenzucht. Heute nährstoffreich. Stockenten, Blässhühner, manchmal ein Graureiher von der Kolonie nebenan.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -3473855840,
    "lat": 51.4006771,
    "lon": 12.4935043,
    "km": 0.36,
+   "reihenfolge": 2,
    "titel": "Bruchwald",
    "thema": "Schwarzerlen am Nordostende",
    "kurztext": "Nordostende vom Teich, hinter dem Schilf. Schwarzerlen auf nassem Boden. Der Bruch schließt an die Verlandung an.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -2559491393,
    "lat": 51.4029122,
    "lon": 12.4944232,
    "km": 0.63,
+   "reihenfolge": 3,
    "titel": "Grenzsteine",
    "thema": "1728, Leipziger Wappen",
    "kurztext": "Sieben Grenzsteine im Gebiet, Sandstein oder Porphyrtuff, Jahreszahl 1728, Leipziger Wappen. Drei liegen westlich und zeigen die alte Waldgrenze.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -2078297348,
    "lat": 51.4039185,
    "lon": 12.4933818,
    "km": 0.76,
+   "reihenfolge": 4,
    "titel": "Misteln",
    "thema": "Auf den Pappeln der 1960er",
    "kurztext": "Misteln auf Pappeln, gepflanzt in den 1960ern. In der Leipziger Umgebung selten. Roterle, Esche, Traubenkirsche und Stieleiche sollen den Auenwald langfristig wieder herstellen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -694580010,
    "lat": 51.406251,
    "lon": 12.4940926,
    "km": 1.05,
+   "reihenfolge": 5,
    "titel": "Baumriesen",
    "thema": "Feldahorn und Stieleichen",
    "kurztext": "Dicke Bäume, die das Naturschutzgesetz schützt. Ein Feldahorn, 19 Meter hoch, 84 Zentimeter dick. Dazu alte Stieleichen. Das Faltblatt nennt den Blick über das Feld bis zum BMW-Werk.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -2325485652,
    "lat": 51.4070547,
    "lon": 12.4958784,
    "km": 1.22,
+   "reihenfolge": 6,
    "titel": "Dachs",
    "thema": "Nachtaktiv, Bau am Waldrand",
    "kurztext": "Seit über fünfzig Jahren im Staditzwald bekannt. Nachtaktiv, Allesfresser, Baue mit mehreren Einfahrten im Laubwald nah an offenen Flächen. Am Tag siehst du eher den Bau als das Tier.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 3476874109,
    "lat": 51.4067464,
    "lon": 12.497148,
    "km": 1.32,
+   "reihenfolge": 7,
    "titel": "Erlebnisstation",
    "thema": "Hölzer, Barfußpfad, Klangspiel",
    "kurztext": "Schautafel mit Holzarten, Barfußpfad, Holzklangspiel. Die Tafel in der Karte heißt Hölzer. Hier bleibst du eine Weile.",
@@ -504,92 +503,91 @@
     "barfusspfad",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -752219933,
    "lat": 51.4055492,
    "lon": 12.4994706,
    "km": 1.52,
+   "reihenfolge": 8,
    "titel": "Alte Rotbuchen",
    "thema": "Über 170 Jahre, Spechte",
    "kurztext": "Rotbuchen, über 170 Jahre. Sie beschatten den Boden so stark, dass darunter wenig anderes hochkommt. Das Faltblatt sagt, hier siehst du Spechte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -1224518972,
    "lat": 51.4050757,
    "lon": 12.5005009,
    "km": 1.61,
+   "reihenfolge": 9,
    "titel": "Revierort Fasanerie",
    "thema": "Winterlinden, Pflanzgut",
    "kurztext": "Erst Anfang des 20. Jahrhunderts aufgeforstet. Winterlinden, Sachsenforst holt hier Pflanzgut. Die Tafel heißt Revierort Fasanerie.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 1669007692,
    "lat": 51.4034234,
    "lon": 12.4989932,
    "km": 1.84,
+   "reihenfolge": 10,
    "titel": "Blick auf St. Moritz",
    "thema": "Bank, Kirche, Kiesabbau",
    "kurztext": "Die Bank schaut auf die Kirche St. Moritz in Taucha und über das freie Feld bis zum Kiesabbau.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": -2043893987,
    "lat": 51.401655,
    "lon": 12.4967864,
    "km": 2.07,
+   "reihenfolge": 11,
    "titel": "Steinrücken",
    "thema": "Lesesteine, Zauneidechse",
    "kurztext": "Lesesteinhaufen von den Äckern, oft auf der Endmoräne. Warm und trocken. Das Faltblatt nennt die Zauneidechse. Nicht im Haufen wühlen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 8272197500,
    "lat": 51.399715,
    "lon": 12.4933105,
    "km": 2.39,
+   "reihenfolge": 12,
    "titel": "Robinien und Eremit",
    "thema": "Hohle Stämme",
    "kurztext": "Alte Robinien. In hohlen Stämmen lebt der Eremit, ein Käfer, stark gefährdet. Den Käfer siehst du selten, die Bäume stehen am Weg. Die Tafel heißt Eremiten-Biotop.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": -906017546,
    "lat": 51.3984194,
    "lon": 12.4918061,
    "km": 2.57,
+   "reihenfolge": 13,
    "titel": "Rote Baumstämme",
    "thema": "Luftalge Trentepohlia",
    "kurztext": "Braun bis rotorange auf der Rinde: die Luftalge Trentepohlia aurea. Dem Baum schadet sie nicht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 13
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -597,29 +595,25 @@
    "osmId": 1062227310,
    "lat": 51.4067339,
    "lon": 12.4970753,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1669007692,
    "lat": 51.4034234,
    "lon": 12.4989932,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8309799897,
    "lat": 51.3988735,
    "lon": 12.4899946,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8309799956,
    "lat": 51.3986308,
    "lon": 12.4910387,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8309799959,
@@ -630,7 +624,6 @@
   }
  ],
  "hoertext": "Am Südwestende vom Staditzteich hängt die Karte, die Hütte steht daneben. Ein grüner Strich nimmt dich knapp drei Kilometer einmal durch den Wald. Erst am Teich in den Erlenbruch, dann zu den alten Buchen. Auf dem Rückweg die Robinien. Nach Regen wird der Weg weich. Plaußig ist eine andere Runde.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-staditzwald/credits.json",
  "lebensraeume": [
   "eichen-mischwald",
   "teich-tuempel"
@@ -651,5 +644,18 @@
   "Teichfrosch": "typisch",
   "Blässhuhn": "typisch",
   "Eichhörnchen": "typisch"
- }
+ },
+ "dataVersion": 3,
+ "bilder": [
+  {
+   "file": "e66d544d-72b3-5048-8e95-31909e29d387",
+   "id": "e66d544d-72b3-5048-8e95-31909e29d387",
+   "caption": "Staditzteich, Blick nach Süden.",
+   "credit": "Cookroach",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staditzteich_-_Teichansicht_S%C3%BCd.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -5,7 +5,7 @@
  "gebiet": "moor",
  "kurzbeschreibung": "Rundweg ums Rambower Moor in der Prignitz – zwei Aussichtstürme, Stationen zu Natur und Geschichte, frei. Im Herbst rasten Kraniche.",
  "beschreibung": "Am Sportplatz in Boberow, Mellener Weg, startet der Zweiseitenweg ums Rambower Moor. UNESCO-Biosphärenreservat Flusslandschaft Elbe, zwölf Kilometer, gelber Punkt auf weiß. Rundweg. Stationen zeigen das Moor von zwei Seiten: naturkundlich und historisch. Zwei Türme: Moorblick Boberow, der Rohrdommelturm, und Moorblick Rambow. Großsteingrab Mellen, Bohlenweg an den Quellen, Moorscheune zum Schluss. Immer frei, ohne Anmeldung. Die geführten Kranichtouren der Naturwacht Lenzen sind extra. Wege nicht verlassen, die Tiere sitzen im Schilf. Nass nach Regen, Kinderwagen und Rollstuhl eher nicht. Hunde anleinen. Start auch in Rambow an der Kirche oder in Mellen am Großsteingrab. Wahrberge ist der andere Prignitz-Pfad, Groß Pankow.",
- "laengeKm": 12.0,
+ "laengeKm": 12,
  "dauerMin": 180,
  "rundkurs": true,
  "markierung": "Gelber Punkt auf weiß",
@@ -36,7 +36,6 @@
   "picknick",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    53.14613,
@@ -451,58 +450,55 @@
    11.613085
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 11261609720,
    "lat": 53.144786,
    "lon": 11.6164105,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Sportplatz Boberow",
    "thema": "Start Mellener Weg, gelber Punkt",
    "kurztext": "Hier steht das Auto, Mellener Weg, Sportplatz Boberow. Gelber Punkt, zwölf Kilometer, frei. Die Moorscheune liegt am Weg, die Türme kommen. Wahrberge ist der andere Prignitz-Pfad, Groß Pankow.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 13140684879,
    "lat": 53.1395207,
    "lon": 11.6006745,
    "km": 1.19,
+   "reihenfolge": 2,
    "titel": "Moorblick Boberow",
    "thema": "Rohrdommelturm, Vogelbeobachtung",
    "kurztext": "Holzturm am Ostrand, frei, 24 Stunden. Weitblick übers Moor. Kraniche, Seeadler, Weihen wenn du Glück hast. Unten im Schilf bleiben die, die man nur hört. Abstand, Glas reicht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 1834987759,
    "lat": 53.1451653,
    "lon": 11.5785645,
    "km": 8.31,
+   "reihenfolge": 3,
    "titel": "Moorblick Rambow",
    "thema": "Aussichtsturm südlich Rambow",
    "kurztext": "Zweiter Turm, südlich vom Dorf. Blick auf Restwasser und Röhricht. Im Herbst sitzen Kraniche am Ufer. Glas und Ruhe, nicht runter ins Schilf.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1435955938,
    "lat": 53.151051,
    "lon": 11.588565,
    "km": 9.47,
+   "reihenfolge": 4,
    "titel": "Moorquellen",
    "thema": "Bohlenweg an den Quellen von Mellen",
    "kurztext": "Bohlenweg, nass, Kalk. Kinder können Rindenboote, wenn Wasser da ist. Auf dem Steg bleiben, das Moor trägt nicht. Die Quellen selbst sind kein Spielplatz.",
@@ -510,39 +506,35 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 1652140975,
    "lat": 53.1548827,
    "lon": 11.5910008,
    "km": 9.79,
+   "reihenfolge": 5,
    "titel": "Großsteingrab Mellen",
    "thema": "Hünenbett an der L13, Sprockhoff 453",
    "kurztext": "Hünenbett an der Karstädter Straße. Drei Decksteine noch da, acht Tragsteine. Rund 5500 Jahre. Unten bleiben, der Stein ist der Fund. Hier kannst du auch einsteigen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -199657660,
    "lat": 53.1469063,
    "lon": 11.6125844,
    "km": 11.59,
+   "reihenfolge": 6,
    "titel": "Moorscheune Boberow",
    "thema": "Pause Mellener Weg 3",
    "kurztext": "Alte Scheune, Café, Kuchen. Mellener Weg 3, zweihundert Meter vom Sportplatz. Nicht immer offen, Aushang. Zelten und Kremser sind extra, nicht der Rundweg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -550,50 +542,43 @@
    "osmId": 1652140880,
    "lat": 53.1492351,
    "lon": 11.5813317,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4370945372,
    "lat": 53.1444548,
    "lon": 11.6120255,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 4439551650,
    "lat": 53.1451979,
    "lon": 11.5786171,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12135700076,
    "lat": 53.144943,
    "lon": 11.6118206,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 12135728069,
    "lat": 53.1446887,
    "lon": 11.6115896,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12135749905,
    "lat": 53.1448461,
    "lon": 11.6116384,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13016787593,
    "lat": 53.1510688,
    "lon": 11.6083861,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1233816476,
@@ -617,12 +602,10 @@
    "name": "Moorblick Rambow"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Wege nicht verlassen. Hunde anleinen. Nass nach Regen, kein Rollstuhl. Naturwacht-Touren extra.",
  "hoertext": "Am Sportplatz in Boberow fängt die Runde an. Zwölf Kilometer, gelber Punkt, frei. Zwei Türme: Moorblick Boberow, der Rohrdommelturm, und Moorblick Rambow. Wege nicht verlassen, die Tiere sitzen im Schilf. Im Herbst trompeten die Kraniche über dem Moor. Die Touren der Naturwacht sind extra.",
- "bilderAsset": "assets/images/trails/zweiseitenweg-rambow/credits.json",
  "lebensraeume": [
   "moor"
  ],
@@ -642,5 +625,18 @@
   "Grasfrosch": "typisch",
   "Große Moosjungfer": "typisch",
   "Libelle": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "c3de7dbb-9ffe-554f-a373-9f9d6791ae08",
+   "id": "c3de7dbb-9ffe-554f-a373-9f9d6791ae08",
+   "caption": "Rambower Moor im Herbst, Blick nach Osten über Seggen und offene Wasserflächen.",
+   "credit": "Christian Fischer",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambowerMoor1.jpg",
+   "kind": "ort"
+  }
+ ]
 }

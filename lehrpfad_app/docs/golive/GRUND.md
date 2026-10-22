@@ -18,6 +18,7 @@ Quelle der ersten 14: Familien-Feature-Liste + Code-Stand Aug 2026.
 - [ ] `store-identitaet` — Display-Name, Icons, Screenshots, Age Rating. Done wenn: Store-Listing und Homescreen denselben finalen Namen/Icon zeigen, Screenshots und Age Rating stehen.
 - [ ] `launch-region` — Katalog auf die Launch-Region schneiden oder Leerzustand ehrlich machen. Done wenn: außerhalb der Region kein leerer Pin-Friedhof entsteht und der Text die tatsächliche Abdeckung sagt.
 - [ ] `admin-account` — Test-Admin weg, Staff manuell + MFA. Done wenn: kein Mail-Trigger mehr auf Admin; Testdaten raus aus Git; ein Staff-User mit MFA; `admin@lehrpfad.app` gelöscht; RLS unverändert hart.
+- [ ] `android-test` — App-Flow auf echtem Android-Gerät testen (Release-APK per USB, Setup in [`DEV-SERVER.md`](../../../DEV-SERVER.md)). Done wenn: Onboarding, Standort/Foreground-Notification, Audio, Karte, Pfad melden und Login auf dem Gerät durchgespielt sind und Befunde als Karten stehen.
 
 ## Produktbruch
 

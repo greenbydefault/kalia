@@ -1,12 +1,16 @@
+import 'dart:io' show File;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_avif/flutter_avif.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../app/theme/app_colors.dart';
 import '../../../community/domain/trail_image.dart';
+import '../../../offline/offline.dart';
 import '../../domain/trail.dart';
 import '../../domain/trail_bild.dart';
 
-/// Eine Hero-Seite: Seed-Asset oder freigegebenes Community-Foto.
+/// Eine Hero-Seite: redaktionelles Foto (Trail-Daten) oder Community-Foto.
 class HeroSlide {
   const HeroSlide._({this.seed, this.community});
 
@@ -113,8 +117,10 @@ class TrailHero {
   }
 }
 
-/// Hero-Foto; bei Ladefehler derselbe zentrale Platzhalter (kein Recursion-Loop).
-class TrailHeroImage extends StatelessWidget {
+/// Hero-Foto. Quelle und Reihenfolge entscheidet der [AssetResolver]
+/// (lokal → Storage → Seed-Thumb → Platzhalter); bei Ladefehler wird die
+/// nächste Quelle versucht.
+class TrailHeroImage extends ConsumerWidget {
   const TrailHeroImage({
     super.key,
     required this.trailId,
@@ -158,7 +164,7 @@ class TrailHeroImage extends StatelessWidget {
   };
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final community = slide.community;
     if (community != null) {
       return CachedNetworkAvifImage(
@@ -173,26 +179,46 @@ class TrailHeroImage extends StatelessWidget {
     final seed = slide.seed!;
     final debugBuilder = debugSeedImageBuilder;
     if (debugBuilder != null) return debugBuilder(fit);
-    final path = seed.isPlaceholder
-        ? TrailHero.placeholderVariant(variant)
-        : seed.variantAssetPath(trailId, variant);
-    return AvifImage.asset(
-      path,
-      fit: fit,
-      width: width,
-      height: height,
-      alignment: alignment,
-      errorBuilder: (context, error, stack) {
-        if (seed.isPlaceholder) return _broken;
-        return AvifImage.asset(
-          TrailHero.placeholderVariant(variant),
-          fit: fit,
-          width: width,
-          height: height,
-          alignment: alignment,
-          errorBuilder: (_, _, _) => _broken,
-        );
-      },
-    );
+    final resolver = ref.watch(assetResolverProvider);
+    final id = seed.id;
+    final sources = (seed.isPlaceholder || id == null)
+        ? resolver.placeholder(variant)
+        : resolver.image(
+            ImageRef(trailId: trailId, imageId: id),
+            variant,
+            online: ref.watch(isOnlineProvider),
+          );
+    return _chain(sources, 0);
+  }
+
+  Widget _chain(List<ImageSource> sources, int i) {
+    Widget next(BuildContext context, Object error, StackTrace? stack) =>
+        i + 1 < sources.length ? _chain(sources, i + 1) : _broken;
+    return switch (sources[i]) {
+      ImageSourceFile(:final path) => AvifImage.file(
+        File(path),
+        fit: fit,
+        width: width,
+        height: height,
+        alignment: alignment,
+        errorBuilder: next,
+      ),
+      ImageSourceNetwork(:final url) => CachedNetworkAvifImage(
+        url,
+        fit: fit,
+        width: width,
+        height: height,
+        alignment: alignment,
+        errorBuilder: next,
+      ),
+      ImageSourceAsset(:final path) => AvifImage.asset(
+        path,
+        fit: fit,
+        width: width,
+        height: height,
+        alignment: alignment,
+        errorBuilder: next,
+      ),
+    };
   }
 }

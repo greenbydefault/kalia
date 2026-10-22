@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    50.294896,
@@ -426,13 +425,13 @@
    8.304867
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 13258099117,
    "lat": 50.2948963,
    "lon": 8.3048671,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Lodge",
    "thema": "Ticket, dann aufs Holz",
    "kurztext": "Empfang Am Vorderwald 1. Ticket, dann die ersten Stufen auf den Steg. Hund anleinen. Lodge und WC sitzen hier. Parkplatz bleibt vierhundert Meter unten an der Landstraße, kein Vorfahren.",
@@ -440,15 +439,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 10900405243,
    "lat": 50.2952247,
    "lon": 8.3050984,
    "km": 0.03,
+   "reihenfolge": 2,
    "titel": "Holzsteg",
    "thema": "Zwischen Buche, Eiche, Douglasie",
    "kurztext": "Gleich hinter dem Häuschen liegt der Steg im Kronendach. Holz, Geländer, Didaktikstationen. Unten Buchen, Eichen, Douglasien. Der Treppenturm steht schon voraus, der Weg steigt erst.",
@@ -456,39 +454,35 @@
     "steg",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 11403857603,
    "lat": 50.2944209,
    "lon": 8.3035877,
    "km": 0.27,
+   "reihenfolge": 3,
    "titel": "Aussichtsturm",
    "thema": "Achtundzwanzig Meter, Blick Taunus",
    "kurztext": "Erster Turm, rund achtundzwanzig Meter. Rundblick über den Hintertaunus, Kreuzkapelle, bei Klarheit der Große Feldberg. Treppe, nicht barrierefrei. Der Weg steigt danach weiter.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -4212483490,
    "lat": 50.2935576,
    "lon": 8.3042728,
    "km": 0.57,
+   "reihenfolge": 4,
    "titel": "Treppenturm",
    "thema": "Einunddreißig Meter, Abstieg zum Häuschen",
    "kurztext": "Höchster Punkt, einunddreißig Meter, Südschleife. Treppe runter zum Empfang. Rund 151 Stufen am Turm, insgesamt dreihundert auf dem Rundgang. Zurück an der Lodge.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -510,36 +504,31 @@
    "osmId": 11403857599,
    "lat": 50.2948673,
    "lon": 8.305078,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11403857600,
    "lat": 50.2938233,
    "lon": 8.3043478,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11403857601,
    "lat": 50.294175,
    "lon": 8.30418,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11403857603,
    "lat": 50.2944209,
    "lon": 8.3035877,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14070867101,
    "lat": 50.29538,
    "lon": 8.304963,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1178811066,
@@ -554,7 +543,6 @@
  "oeffnungszeiten": "Aktuell Homepage. Oft 9–18:30 Uhr, Herbst 11 Uhr bis Dämmerung. Ruhetage; Winter zu (taunus.info). Bei Sturm, Gewitter, starkem Regen zu, Tel. 06434 6029761.",
  "besuchshinweise": "Nicht barrierefrei: Rampen, Treppen, rund 300 Stufen, Türme. Kinderwagen und Rollstuhl nicht. Hunde an der Leine, Gitterroste mit Zacken. Picknick erlaubt. Lodge ab 11 Uhr bis 30 Min. vor Kassenschluss. Parkplatz 400 m, kein Vorfahren ans Haus. Bei Sturm und Gewitter zu.",
  "hoertext": "Östlich von Bad Camberg, Hintertaunus. Ticket an der Lodge, dann achthundert Meter Holz durch Buchen, Eichen, Douglasien. Zwei Türme, der hintere einunddreißig hoch, dreihundert Stufen. Hund an der Leine geht, Kinderwagen und Rollstuhl nicht. Parkplatz an der Landstraße, vierhundert Meter zu Fuß. Bei Sturm und Gewitter zu.",
- "bilderAsset": "assets/images/trails/baumwipfelweg-bad-camberg/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -574,5 +562,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "5b12ebd3-909b-5514-b31e-bf1e06736e74",
+   "id": "5b12ebd3-909b-5514-b31e-bf1e06736e74",
+   "caption": "Holzsteg Bad Camberg, Blick zum Treppenturm.",
+   "credit": "Muck",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelweg_Bad_Camberg-01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

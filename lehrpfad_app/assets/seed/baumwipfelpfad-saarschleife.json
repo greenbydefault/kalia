@@ -36,7 +36,6 @@
   "rollstuhltauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    49.50404,
@@ -183,13 +182,13 @@
    6.540354
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 49.5040701,
    "lon": 6.5348444,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Cloef-Atrium",
    "thema": "Ohne Stufe auf den Steg",
    "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, dann rauf – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse, Rollstuhl und Rollator nach Anmeldung.",
@@ -197,15 +196,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -382637576,
    "lat": 49.504036,
    "lon": 6.536031,
    "km": 0.19,
+   "reihenfolge": 2,
    "titel": "Rialtobrücke",
    "thema": "Der Steg gibt nach",
    "kurztext": "Kurze Wackelbrücke früh auf dem Weg. Die Bretter federen, der Rest des Stegs bleibt starr. Nicht rennen – darunter ist Luft, und der Steg ist nur 2,50 Meter breit.",
@@ -213,30 +211,28 @@
     "mitmach-modell",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -2380471405,
    "lat": 49.5043375,
    "lon": 6.5372572,
    "km": 0.4,
+   "reihenfolge": 3,
    "titel": "Quarzit",
    "thema": "Harter Fels, weites Tal",
    "kurztext": "Der Höhenrücken unter dem Steg ist Quarzit. Hartes Gestein, die Saar hat sich trotzdem durchgefressen – die Schleife liegt deshalb so tief unter dir. Tafel am Geländer, nicht Wikipedia.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -4016219679,
    "lat": 49.5044736,
    "lon": 6.5385852,
    "km": 0.61,
+   "reihenfolge": 4,
    "titel": "Buchenwald",
    "thema": "Kronen auf Augenhöhe",
    "kurztext": "Rotbuchen, jetzt auf Steghöhe. Im Sommer ein Dach, im Winter Gerippe. Die Comic-Tafeln neben der Lehrtafel gehören zur Rallye – Fragen stehen im Heft von der Kasse.",
@@ -244,69 +240,63 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -2951877252,
    "lat": 49.5038883,
    "lon": 6.5392137,
    "km": 0.8,
+   "reihenfolge": 5,
    "titel": "Totholz",
    "thema": "Was grau wirkt, lebt",
    "kurztext": "Liegende Stämme unter dem Steg. Specht zimmert, Käfer und Pilz räumen auf. Der Pfad räumt nicht – Totholz bleibt, weil der Wald es braucht. Schau nach unten, nicht nur zur Schleife.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -3059717958,
    "lat": 49.503156,
    "lon": 6.539883,
    "km": 0.98,
+   "reihenfolge": 6,
    "titel": "Rutsche",
    "thema": "Runter, dann weiter zum Turm",
    "kurztext": "Röhrenrutsche für Kinder, der Steg geht daneben weiter. Wer rutscht, holt die anderen am Fuß wieder ein. Kein Muss – der Trail bleibt oben barrierefrei.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -2638786246,
    "lat": 49.5025289,
    "lon": 6.5403456,
    "km": 1.16,
+   "reihenfolge": 7,
    "titel": "Saarschleife",
    "thema": "Das Wahrzeichen von oben",
    "kurztext": "Hier hängt der Steg über der Cloef. Unten die berühmte Schleife, gegenüber die Steilhänge. Der Boden-Aussichtspunkt Cloef liegt tiefer – du siehst denselben Bogen, nur aus den Kronen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 49.5021782,
    "lon": 6.5403542,
    "km": 1.25,
+   "reihenfolge": 8,
    "titel": "Aussichtsturm",
    "thema": "42 Meter, immer noch ohne Stufe",
    "kurztext": "Serpentinen mit Ruhezonen, Plattform 70 Quadratmeter. Bei klarer Sicht bis zu den Vogesen. Anders als mancher Turm: die Rampe nimmt Kinderwagen und Rollstuhl mit nach oben. Zurück denselben Steg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -314,15 +304,13 @@
    "osmId": 5000519226,
    "lat": 49.5048667,
    "lon": 6.5346541,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 10160057966,
    "lat": 49.5031738,
    "lon": 6.5384625,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 454930295,
@@ -351,7 +339,6 @@
  "oeffnungszeiten": "Mai–Oktober täglich 9:30–18 Uhr. April 9:30–17. November–März 9:30–16. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Rollstuhl oder Rollator nach Anmeldung an der Kasse leihbar. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Vom Cloef-Atrium geht der Steg ohne Stufe durch die Kronen bis auf den Turm. Unten liegt die Saarschleife, über dir Buchen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben unten. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden reichen, den Abenteuerwald am Ausgang extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-saarschleife/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -371,5 +358,18 @@
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "662be932-2df6-54cb-bf11-238a4302fe03",
+   "id": "662be932-2df6-54cb-bf11-238a4302fe03",
+   "caption": "Eingang am Cloef-Atrium.",
+   "credit": "Muck",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Saarschleife-02-Eingang.jpg",
+   "kind": "ort"
+  }
+ ]
 }

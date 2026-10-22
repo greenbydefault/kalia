@@ -20,7 +20,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    51.27062,
@@ -2303,231 +2302,230 @@
    12.451101
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 5457603522,
    "lat": 51.27063,
    "lon": 12.40387,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Altsteinzeitliche Funde",
    "thema": "Stele 1, Seepromenade",
    "kurztext": "Hier fängt die Reihe an, am unteren Uferweg der Seepromenade. Die Tafel bleibt bei den altsteinzeitlichen Funden aus Markkleeberg. Danach geht es nach Osten am Wasser entlang.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 6522721465,
    "lat": 51.26501,
    "lon": 12.42006,
    "km": 1.48,
+   "reihenfolge": 2,
    "titel": "Vom Tagebau zum Badesee",
    "thema": "Stele 2, Seengeschichte",
    "kurztext": "Weiter am Ostufer. Die Stele erzählt, wie aus dem Tagebau der See wurde. Der Weg bleibt am Wasser.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 6522700195,
    "lat": 51.2631,
    "lon": 12.42294,
    "km": 1.78,
+   "reihenfolge": 3,
    "titel": "Archiv der Erdgeschichte",
    "thema": "Stele 3, der Tagebau",
    "kurztext": "Die dritte Stele. Der Tagebau hat die Schichten aufgeschnitten, die Tafel sortiert, was dabei offen lag. Weiter Richtung Auenhain.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 6522742376,
    "lat": 51.25979,
    "lon": 12.42625,
    "km": 2.23,
+   "reihenfolge": 4,
    "titel": "Quartäre Schichtenfolge",
    "thema": "Stele 4, Kälte",
    "kurztext": "Am Ufer vor Auenhain. Die Tafel bleibt bei der quartären Schichtenfolge, dem Stapel aus der Kaltzeit. Der Strand liegt in der Nähe, die Stele steht am Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 3273166380,
    "lat": 51.25592,
    "lon": 12.42742,
    "km": 2.69,
+   "reihenfolge": 5,
    "titel": "Südküste der Nordsee",
    "thema": "Stele 5, vor 45 bis 20 Millionen Jahren",
    "kurztext": "Kurz vor dem Kanal. Die Region lag damals an der Südküste der Nordsee, vor 45 bis 20 Millionen Jahren. Die Tafel sagt das so. Weiter zur Brücke.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 5530359750,
    "lat": 51.25488,
    "lon": 12.42605,
    "km": 3.07,
+   "reihenfolge": 6,
    "titel": "Oligozäner Meeresgrund",
    "thema": "Stele 6, vor 30 Millionen Jahren",
    "kurztext": "Land unter, vor 30 Millionen Jahren. Die Stele steht am Weg zum Kanal und bleibt beim Leben auf dem oligozänen Meeresgrund.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 6523873228,
    "lat": 51.25323,
    "lon": 12.42304,
    "km": 3.5,
+   "reihenfolge": 7,
    "titel": "Tertiäre Flusslandschaften",
    "thema": "Stele 7, Nordrand des Steinerlebnisplatzes",
    "kurztext": "Am Nordrand des Steinerlebnisplatzes, an der Klappbrücke. Die Stele gehört zum Geopfad. Der Findlingsgarten daneben ist ein eigener Ort, nicht diese Station.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 6523957228,
    "lat": 51.2529,
    "lon": 12.42074,
    "km": 3.71,
+   "reihenfolge": 8,
    "titel": "Kälteschock",
    "thema": "Stele 8, Eis über dem Leipziger Raum",
    "kurztext": "Gleich hinter der Brücke, am Ufer des Störmthaler Sees. Hunderte Meter Eis über dem Raum, sagt die Tafel. Danach hältst du dich rechts, Richtung Pflaumenallee.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 6523995447,
    "lat": 51.2484,
    "lon": 12.42513,
    "km": 4.61,
+   "reihenfolge": 9,
    "titel": "Geschichte der Kohle",
    "thema": "Stele 9, Moore und Meere",
    "kurztext": "Am Ufer nach der Weggabel. Moore und Meere, daraus wurde die Kohle. Die Tafel bleibt dabei. Weiter geradeaus am See.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 6524000458,
    "lat": 51.25317,
    "lon": 12.44537,
    "km": 7.28,
+   "reihenfolge": 10,
    "titel": "Von der Eiszeit in die Gegenwart",
    "thema": "Stele 10, Ostufer Störmthaler See",
    "kurztext": "Langes Stück am Ostufer. Die Stele setzt die Eiszeit an die heutige Landschaft. Immer am Wasser bleiben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 1950485470,
    "lat": 51.25026,
    "lon": 12.459,
    "km": 8.29,
+   "reihenfolge": 11,
    "titel": "Spurensuche am Meeresgrund",
    "thema": "Stele 11",
    "kurztext": "Weiter südlich am selben Ufer. Die Tafel sucht Spuren auf dem alten Meeresgrund. Der Weg bleibt geradeaus.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 6524109039,
    "lat": 51.24184,
    "lon": 12.47517,
    "km": 9.78,
+   "reihenfolge": 12,
    "titel": "Anatomie eines glazialen Zyklus",
    "thema": "Stele 12, Eis im Raum Leipzig",
    "kurztext": "Die zwölfte Stele, noch am Ostufer. Sie nimmt einen glazialen Zyklus auseinander. Richtung Magdeborner Halbinsel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 4121862322,
    "lat": 51.23543,
    "lon": 12.48168,
-   "km": 11.0,
+   "km": 11,
+   "reihenfolge": 13,
    "titel": "Der tiefere Untergrund",
    "thema": "Stele 13",
    "kurztext": "Kurz vor der Halbinsel. Die Tafel geht unter die Schichten, die die anderen Stelen zeigen. Danach wird das Ufer enger.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": 3076815818,
    "lat": 51.22821,
    "lon": 12.46497,
    "km": 12.46,
+   "reihenfolge": 14,
    "titel": "Phänomene in den tertiären Schichten",
    "thema": "Stele 14, Magdeborner Halbinsel",
    "kurztext": "Auf der Magdeborner Halbinsel. Besondere Stellen in den tertiären Schichten, nicht noch einmal die ganze Folge. Hafen Störmthal liegt in der Nähe.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": 2476685956,
    "lat": 51.22632,
    "lon": 12.45447,
    "km": 13.24,
+   "reihenfolge": 15,
    "titel": "Fische, Seekühe, Meeresschildkröten",
    "thema": "Stele 15",
    "kurztext": "Die Tiere auf der Tafel sind Funde aus dem Meer, das hier lag, keine Tiere am heutigen Ufer. Fische, Seekühe, Schildkröten. Eine Stele noch bis Vineta.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 6524134256,
    "lat": 51.22694,
    "lon": 12.45115,
    "km": 15.63,
+   "reihenfolge": 16,
    "titel": "Tagebaulandschaften",
    "thema": "Stele 16, Vineta",
    "kurztext": "Letzte Stele, an der Vineta. Die Tafel bleibt bei dem, was der Braunkohlenbergbau hinterlassen hat: die Seen, an denen du die letzten Kilometer gelaufen bist. Bus 106 hält hier.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 16
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -2535,50 +2533,43 @@
    "osmId": 316772878,
    "lat": 51.2361423,
    "lon": 12.484432,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 316773175,
    "lat": 51.2446717,
    "lon": 12.4700226,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 988903416,
    "lat": 51.2269963,
    "lon": 12.4511378,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 1200584397,
    "lat": 51.2570616,
    "lon": 12.4293879,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 1885234276,
    "lat": 51.2615491,
    "lon": 12.4242224,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 1885234346,
    "lat": 51.2681679,
    "lon": 12.4162268,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4407472690,
    "lat": 51.2694257,
    "lon": 12.4165654,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 5184884931,
@@ -2591,48 +2582,53 @@
    "osmId": 5184886340,
    "lat": 51.2571997,
    "lon": 12.4307051,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 5554686890,
    "lat": 51.2362287,
    "lon": 12.4851751,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 6724258202,
    "lat": 51.2560991,
    "lon": 12.4276253,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11062937754,
    "lat": 51.2349995,
    "lon": 12.4796131,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11968453168,
    "lat": 51.2591397,
    "lon": 12.4287605,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 13067728070,
    "lat": 51.2273991,
    "lon": 12.4563799,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   }
  ],
  "hoertext": "An der Seepromenade in Markkleeberg steht die erste Stele. Sechzehn Stück, rostbraun, dreieinhalb Meter hoch, am Ostufer bis nach Vineta. Gut fünfzehn Kilometer, kein Rundweg. Jede Tafel steht für sich, du kannst auch mittendrin einsteigen. Bleib am Wasser, dann verlierst du die Reihe nicht. Stele sieben gehört zum Weg, der Steinerlebnisplatz daneben ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/geopfad-markkleeberg/credits.json",
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "artenNachweis": {}
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "27382b27-327a-51cb-aab9-0ffcba1ef16e",
+   "id": "27382b27-327a-51cb-aab9-0ffcba1ef16e",
+   "caption": "Seepromenade am Markkleeberger See, Dezember 2017. Hier steht Stele 1.",
+   "credit": "Ansgar Koreng",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Markkleeberger_See,_Promenade,_1708081423,_ako.jpg",
+   "kind": "ort"
+  }
+ ]
 }

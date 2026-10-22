@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    49.850393,
@@ -208,13 +207,13 @@
    10.460149
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 49.8504054,
    "lon": 10.4630013,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ohne Stufe in den Steg",
    "kurztext": "Hier beginnt der Steg. Ticket bargeldlos am Automaten oder online, dann durchs Drehkreuz – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Wipfel-App lädt über WLAN. Hundeboxen stehen hier, Schloss selbst mitbringen.",
@@ -222,60 +221,56 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -718780859,
    "lat": 49.8498352,
    "lon": 10.4618396,
    "km": 0.12,
+   "reihenfolge": 2,
    "titel": "Kletterröhre",
    "thema": "Gitter nach oben",
    "kurztext": "Abstecher neben der Hauptlinie. Eine Gitterröhre hängt am Steg, nach oben klettern. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -2209884981,
    "lat": 49.850279,
    "lon": 10.4607911,
    "km": 0.28,
+   "reihenfolge": 3,
    "titel": "Fällschritte",
    "thema": "Wie ein Stamm fällt",
    "kurztext": "Tafel am Geländer: Schnitt für Schnitt, wie Forst einen Baum legt. Der Steg ist aus Lärche und Douglasie, der Wald drumherum Buche. Schau in den Stamm, nicht nur zum Turm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -1469213122,
    "lat": 49.8505349,
    "lon": 10.4591356,
    "km": 0.48,
+   "reihenfolge": 4,
    "titel": "Hochsitz",
    "thema": "Wer unten durchzieht",
    "kurztext": "Tafel zum Wild. Vom Steg siehst du denselben Wald wie der Sitz, nur höher. Hirsch und Reh im Gehege sind extra – hier geht es um den Wald darunter.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 49.8510345,
    "lon": 10.458684,
    "km": 0.72,
+   "reihenfolge": 5,
    "titel": "Kelchturm",
    "thema": "42 Meter, Rampe außen rum",
    "kurztext": "Kelch aus Holz, der Steg windet sich außen hoch, oben ein kreisförmiger Umgang. Ohne Stufe, sechs Prozent. Rundumblick über den Steigerwald, bei klarem Blick die fränkische Platte. Zurück nicht denselben Steg – der Pfad geht zum Ausgang weiter.",
@@ -283,39 +278,35 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -284161576,
    "lat": 49.8515111,
    "lon": 10.4596724,
    "km": 0.92,
+   "reihenfolge": 6,
    "titel": "Nest",
    "thema": "Oben brüten sie",
    "kurztext": "Station in den Kronen. Vögel und Eichhörnchen bauen hier, nicht am Boden. Der Steg liegt auf Augenhöhe mit den Nestern – stehen bleiben, nicht rütteln.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -3895907155,
    "lat": 49.8522396,
    "lon": 10.460149,
    "km": 1.15,
+   "reihenfolge": 7,
    "titel": "Ausgang / Kiosk",
    "thema": "Wieder Boden unter den Füßen",
    "kurztext": "Der Steg endet am Drehkreuz. Kiosk Flo's Waldimbiss, Spielplatz und die große Kugelbahn daneben. Wildgehege und Streichelwald sind extra und nicht dieser Trail. Zurück zum Parkplatz den Waldweg, nicht den Steg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -330,134 +321,115 @@
    "osmId": 6677814765,
    "lat": 49.8500279,
    "lon": 10.4644427,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7573134618,
    "lat": 49.8510117,
    "lon": 10.4615967,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7573134619,
    "lat": 49.8511276,
    "lon": 10.4612096,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7573134622,
    "lat": 49.8514246,
    "lon": 10.4604999,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7573134623,
    "lat": 49.8515551,
    "lon": 10.4601595,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804255,
    "lat": 49.8527584,
    "lon": 10.4604883,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804256,
    "lat": 49.8526388,
    "lon": 10.4600549,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804257,
    "lat": 49.8525835,
    "lon": 10.4603341,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804258,
    "lat": 49.852756,
    "lon": 10.4601948,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804259,
    "lat": 49.8525704,
    "lon": 10.4599775,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467804260,
    "lat": 49.8525943,
    "lon": 10.4605181,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 8467810831,
    "lat": 49.8504838,
    "lon": 10.4630408,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8467869060,
    "lat": 49.8521535,
    "lon": 10.4599617,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9124920712,
    "lat": 49.8505319,
    "lon": 10.4645687,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13274754981,
    "lat": 49.8502234,
    "lon": 10.4638897,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13789279276,
    "lat": 49.8523521,
    "lon": 10.4601866,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13789331870,
    "lat": 49.852496,
    "lon": 10.4601295,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 13789375336,
    "lat": 49.8526639,
    "lon": 10.4601764,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 710355649,
-   "lat": 49.85258535714286,
-   "lon": 10.460115128571429,
-   "kategorie": "playground",
-   "name": null
+   "lat": 49.8525853571429,
+   "lon": 10.4601151285714,
+   "kategorie": "playground"
   },
   {
    "osmId": 710355646,
@@ -486,7 +458,6 @@
  "oeffnungszeiten": "Sommer 29.3.–24.10.2026 täglich 9–18 Uhr, letzter Einlass 17. Winter 25.10.2026–27.3.2027 täglich 10–16 Uhr, letzter Einlass 15. 24.–26.12., 31.12. und 1.1. zu. 7.10.2026 zu (interne Veranstaltung). Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "2026 Teilsperrung: einzelne Abschnitte zu, Turm und der überwiegende Teil offen; Eingang währenddessen am Ausgang, ab der Kasse den Schildern folgen. Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen am Eingang, Schloss selbst mitbringen. Pfad und Turm ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Leihrollstuhl kostenfrei, vorher Verwaltung. Laufrad, Fahrrad, Inliner nicht auf den Steg. Tickets nur bargeldlos am Automaten oder online. Letzter Einlass 1 Stunde vor Schluss. Wipfel-App vor Ort oder daheim. Münzgeld für Kugel- und Futterautomat.",
  "hoertext": "Im Ebracher Forst hängt der Steg zwischen alten Buchen, der Kelchturm bringt dich ohne Stufe auf zweiundvierzig Meter. Oben der Steigerwald, unten die Kronen. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben in der Box – Schloss selbst mitbringen. Tickets nur bargeldlos. Letzter Einlass eine Stunde vor Schluss. Ein bis zwei Stunden, Wildgehege und Kugelpfad extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-steigerwald/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -506,5 +477,18 @@
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "845a9760-66a5-5043-a06f-38e612dfb21e",
+   "id": "845a9760-66a5-5043-a06f-38e612dfb21e",
+   "caption": "Eingangsgebäude zum Baumwipfelpfad Steigerwald.",
+   "credit": "Reinhold Möller",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach_Baumwipfelpfad_Eingang_170228.jpg",
+   "kind": "ort"
+  }
+ ]
 }

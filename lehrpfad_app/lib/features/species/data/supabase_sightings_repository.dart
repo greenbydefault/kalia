@@ -36,5 +36,4 @@ class SupabaseSightingsRepository {
         .eq('user_id', uid)
         .eq('species_id', speciesId);
   }
-
 }

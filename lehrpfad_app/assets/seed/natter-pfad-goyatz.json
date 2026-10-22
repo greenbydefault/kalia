@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    52.01073,
@@ -408,80 +407,74 @@
    14.183336
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 2975055277,
    "lat": 52.010675,
    "lon": 14.183246,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Spreewaldbahnhof Goyatz",
    "thema": "Start an der Tafel Naturlehrpfad",
    "kurztext": "Hier am Ortsrand beginnt der Natter-Pfad. Der ehemalige Spreewaldbahnhof liegt 150 Meter nordwestlich. Folge den grünen Schildern mit der Schlange – zwei Kilometer durchs Grünland.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 3129486544,
    "lat": 52.007368,
    "lon": 14.186178,
    "km": 0.64,
+   "reihenfolge": 2,
    "titel": "Feuchtwiesen",
    "thema": "Kriechtiere, Amphibien, Insekten",
    "kurztext": "Tafeln und Exponate erklären die bedrohten Lebensräume von Kriechtieren, Amphibien und Insekten. Wie sehen Amphibien die Welt – und wo fühlen sie sich wohl?",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 3108319131,
    "lat": 52.00709,
    "lon": 14.1865,
    "km": 0.7,
+   "reihenfolge": 3,
    "titel": "Holzbank an der Orchideenwiese",
    "thema": "Blick auf Wiese und Waldinseln",
    "kurztext": "Eine Holzbank zum Verweilen. Blick auf die Orchideenwiese und die Waldinseln daneben. Weiter südlich zweigt der Rehpfad ab – der bleibt ein anderer Weg.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1234188506,
    "lat": 52.0061373,
    "lon": 14.1865802,
    "km": 0.8,
+   "reihenfolge": 4,
    "titel": "Stamm in Ringelnatter-Form",
    "thema": "Balancieren wie eine Amphibie",
    "kurztext": "Ein Stamm in Form einer Ringelnatter. Darüber balancierst du wie über Äste im Unterholz – so bewegt sich eine Amphibie durchs Dickicht.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -2956006548,
    "lat": 52.0050037,
    "lon": 14.1857819,
    "km": 0.95,
+   "reihenfolge": 5,
    "titel": "Hecken am Weg",
    "thema": "Rose, Liguster, Traubenkirsche, Weide, Haselnuss",
    "kurztext": "Der Weg wird von Hecken eingefasst: Heckenrose, Liguster, Traubenkirsche, Salweide, Haselnuss. Im Frühling Insekten, im Winter Vögel.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -489,15 +482,13 @@
    "osmId": 2439609223,
    "lat": 52.0107475,
    "lon": 14.1834774,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3108319131,
    "lat": 52.0070897,
    "lon": 14.1865002,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8709107997,
@@ -510,11 +501,9 @@
    "osmId": 8990065965,
    "lat": 52.0107798,
    "lon": 14.1832508,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/natter-pfad-goyatz/credits.json",
  "lebensraeume": [
   "streuobst-hecke",
   "auwald"
@@ -535,5 +524,18 @@
   "Amsel": "typisch",
   "Blaumeise": "typisch",
   "Buchfink": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "75bbcb1d-b6a7-56e3-b665-16cd55301d29",
+   "id": "75bbcb1d-b6a7-56e3-b665-16cd55301d29",
+   "caption": "Schwielochsee bei Goyatz – der Pfad startet am Bahnhof.",
+   "credit": "Amargeddon6",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoyatz_see.jpg",
+   "kind": "ort"
+  }
+ ]
 }

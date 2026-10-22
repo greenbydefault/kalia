@@ -1,0 +1,739 @@
+{
+ "trails": [
+  {
+   "id": "arboretum-dreetz",
+   "dataVersion": 1,
+   "file": "arboretum-dreetz.json",
+   "thumb": "thumbs/arboretum-dreetz.avif",
+   "thumbImage": "e5402f6a-6b6f-55ef-9b10-372d0040ae31"
+  },
+  {
+   "id": "archaeologischer-wanderpfad-fischbek",
+   "dataVersion": 1,
+   "file": "archaeologischer-wanderpfad-fischbek.json",
+   "thumb": "thumbs/archaeologischer-wanderpfad-fischbek.avif",
+   "thumbImage": "74de28f8-bdd6-5e3e-8381-67fe7ef68759"
+  },
+  {
+   "id": "auwald-erlebnispfad",
+   "dataVersion": 2,
+   "file": "auwald-erlebnispfad.json",
+   "thumb": "thumbs/auwald-erlebnispfad.avif",
+   "thumbImage": "5125f3d1-6740-55a8-ad6b-5705cfbf67a8"
+  },
+  {
+   "id": "bagower-bruch",
+   "dataVersion": 2,
+   "file": "bagower-bruch.json",
+   "thumb": "thumbs/bagower-bruch.avif",
+   "thumbImage": "b8926283-92e8-5cdd-9a4f-5ec7caea1bdf"
+  },
+  {
+   "id": "baumkronenpfad-hainich",
+   "dataVersion": 2,
+   "file": "baumkronenpfad-hainich.json",
+   "thumb": "thumbs/baumkronenpfad-hainich.avif",
+   "thumbImage": "1187bdc9-5af5-5fc7-a1ce-bbbfa90a2997"
+  },
+  {
+   "id": "baumkronenpfad-hoherodskopf",
+   "dataVersion": 2,
+   "file": "baumkronenpfad-hoherodskopf.json",
+   "thumb": "thumbs/baumkronenpfad-hoherodskopf.avif",
+   "thumbImage": "9acd0834-8dde-5751-94f1-619815acf96b"
+  },
+  {
+   "id": "baumkronenpfad-ivenack",
+   "dataVersion": 2,
+   "file": "baumkronenpfad-ivenack.json",
+   "thumb": "thumbs/baumkronenpfad-ivenack.avif",
+   "thumbImage": "cc9f6090-9902-5106-9631-e9dabb0e3c92"
+  },
+  {
+   "id": "baumkronenweg-waldkirch",
+   "dataVersion": 2,
+   "file": "baumkronenweg-waldkirch.json",
+   "thumb": "thumbs/baumkronenweg-waldkirch.avif",
+   "thumbImage": "8aee6b6d-887f-54b4-ab6e-b8c177a1301d"
+  },
+  {
+   "id": "baumkronenweg-ziegelwies",
+   "dataVersion": 2,
+   "file": "baumkronenweg-ziegelwies.json",
+   "thumb": "thumbs/baumkronenweg-ziegelwies.avif",
+   "thumbImage": "a2812f31-be26-5c09-974b-8a9851cc0f88"
+  },
+  {
+   "id": "baumwipfelpfad-bad-iburg",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-bad-iburg.json",
+   "thumb": "thumbs/baumwipfelpfad-bad-iburg.avif",
+   "thumbImage": "35f34e94-e00e-5197-81ea-2b2fb8e67b64"
+  },
+  {
+   "id": "baumwipfelpfad-bayerischer-wald",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-bayerischer-wald.json",
+   "thumb": "thumbs/baumwipfelpfad-bayerischer-wald.avif",
+   "thumbImage": "ce88d38b-97e4-5edd-ad46-2897d22dec92"
+  },
+  {
+   "id": "baumwipfelpfad-harz",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-harz.json",
+   "thumb": "thumbs/baumwipfelpfad-harz.avif",
+   "thumbImage": "9584fcf5-fc12-517e-9cc1-2c1fae1203aa"
+  },
+  {
+   "id": "baumwipfelpfad-panarbora",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-panarbora.json",
+   "thumb": "thumbs/baumwipfelpfad-panarbora.avif",
+   "thumbImage": "4c484c4b-1b4b-52cd-9f84-b0aed61ad380"
+  },
+  {
+   "id": "baumwipfelpfad-ruegen",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-ruegen.json",
+   "thumb": "thumbs/baumwipfelpfad-ruegen.avif",
+   "thumbImage": "0b1bec64-57d4-56a8-a220-f4254edd0794"
+  },
+  {
+   "id": "baumwipfelpfad-saarschleife",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-saarschleife.json",
+   "thumb": "thumbs/baumwipfelpfad-saarschleife.avif",
+   "thumbImage": "662be932-2df6-54cb-bf11-238a4302fe03"
+  },
+  {
+   "id": "baumwipfelpfad-schwarzwald",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-schwarzwald.json",
+   "thumb": "thumbs/baumwipfelpfad-schwarzwald.avif",
+   "thumbImage": "95f3301c-86fc-53ad-b72a-e2dd90eb7806"
+  },
+  {
+   "id": "baumwipfelpfad-steigerwald",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-steigerwald.json",
+   "thumb": "thumbs/baumwipfelpfad-steigerwald.avif",
+   "thumbImage": "845a9760-66a5-5043-a06f-38e612dfb21e"
+  },
+  {
+   "id": "baumwipfelpfad-usedom",
+   "dataVersion": 2,
+   "file": "baumwipfelpfad-usedom.json",
+   "thumb": "thumbs/baumwipfelpfad-usedom.avif",
+   "thumbImage": "d5305daf-780b-5929-8240-7d4d4252e4e2"
+  },
+  {
+   "id": "baumwipfelweg-bad-camberg",
+   "dataVersion": 2,
+   "file": "baumwipfelweg-bad-camberg.json",
+   "thumb": "thumbs/baumwipfelweg-bad-camberg.avif",
+   "thumbImage": "5b12ebd3-909b-5514-b31e-bf1e06736e74"
+  },
+  {
+   "id": "braumannswiesen",
+   "dataVersion": 1,
+   "file": "braumannswiesen.json",
+   "thumb": "thumbs/braumannswiesen.avif",
+   "thumbImage": "d3b95531-09d2-5fab-bb67-8838b033eed6"
+  },
+  {
+   "id": "can-jalpi-arenys",
+   "dataVersion": 2,
+   "file": "can-jalpi-arenys.json",
+   "thumb": "thumbs/can-jalpi-arenys.avif",
+   "thumbImage": "389f560b-e5fc-5605-865f-1905f6a4a439"
+  },
+  {
+   "id": "entdeckerpfad-biologische-vielfalt",
+   "dataVersion": 1,
+   "file": "entdeckerpfad-biologische-vielfalt.json",
+   "thumb": "thumbs/entdeckerpfad-biologische-vielfalt.avif",
+   "thumbImage": "54515ce9-86ab-5071-867d-a382fa523c66"
+  },
+  {
+   "id": "erlebe-bruder-wald",
+   "dataVersion": 1,
+   "file": "erlebe-bruder-wald.json",
+   "thumb": "thumbs/erlebe-bruder-wald.avif",
+   "thumbImage": "d701e935-f865-5566-9529-69f4c3623f3b"
+  },
+  {
+   "id": "erlebnisrundweg-friedrichskoog",
+   "dataVersion": 1,
+   "file": "erlebnisrundweg-friedrichskoog.json",
+   "thumb": "thumbs/erlebnisrundweg-friedrichskoog.avif",
+   "thumbImage": "6d10ca1e-ea04-5bd9-9efe-fa7bfc5c687c"
+  },
+  {
+   "id": "erlebnisweg-mueggelberge-teufelssee",
+   "dataVersion": 2,
+   "file": "erlebnisweg-mueggelberge-teufelssee.json",
+   "thumb": "thumbs/erlebnisweg-mueggelberge-teufelssee.avif",
+   "thumbImage": "682b8653-8ef4-5659-9eac-e0ba7b292878"
+  },
+  {
+   "id": "everstorfer-forst",
+   "dataVersion": 2,
+   "file": "everstorfer-forst.json",
+   "thumb": "thumbs/everstorfer-forst.avif",
+   "thumbImage": "529cf610-7279-5dd9-9109-715990a48f1f"
+  },
+  {
+   "id": "fledermauspfad-bossow",
+   "dataVersion": 1,
+   "file": "fledermauspfad-bossow.json",
+   "thumb": "thumbs/fledermauspfad-bossow.avif",
+   "thumbImage": "9395f0f8-04ec-53de-9f08-f4d2b182c5cd"
+  },
+  {
+   "id": "fonts-vallvidrera",
+   "dataVersion": 2,
+   "file": "fonts-vallvidrera.json",
+   "thumb": "thumbs/fonts-vallvidrera.avif",
+   "thumbImage": "76e2129f-6a41-58d7-a015-c5da8f4dc536"
+  },
+  {
+   "id": "fossilruten-moens-klint",
+   "dataVersion": 1,
+   "file": "fossilruten-moens-klint.json",
+   "thumb": "thumbs/fossilruten-moens-klint.avif",
+   "thumbImage": "a8c7e7c9-850b-598d-8b98-9152b5e33acd"
+  },
+  {
+   "id": "geopfad-markkleeberg",
+   "dataVersion": 2,
+   "file": "geopfad-markkleeberg.json",
+   "thumb": "thumbs/geopfad-markkleeberg.avif",
+   "thumbImage": "27382b27-327a-51cb-aab9-0ffcba1ef16e"
+  },
+  {
+   "id": "grossartige-kuestenflora-graal-mueritz",
+   "dataVersion": 2,
+   "file": "grossartige-kuestenflora-graal-mueritz.json",
+   "thumb": "thumbs/grossartige-kuestenflora-graal-mueritz.avif",
+   "thumbImage": "922f0f67-0dbb-5642-b2e4-991bb5b2d7ca"
+  },
+  {
+   "id": "harzungspfad",
+   "dataVersion": 1,
+   "file": "harzungspfad.json",
+   "thumb": "thumbs/harzungspfad.avif",
+   "thumbImage": "49b9622a-6293-5964-97f7-040388c600fe"
+  },
+  {
+   "id": "heide-erlebnisweg",
+   "dataVersion": 1,
+   "file": "heide-erlebnisweg.json",
+   "thumb": "thumbs/heide-erlebnisweg.avif",
+   "thumbImage": "89e9bbc5-6524-5142-b84e-ee39b8ee1eda"
+  },
+  {
+   "id": "heilige-hallen",
+   "dataVersion": 1,
+   "file": "heilige-hallen.json",
+   "thumb": "thumbs/heilige-hallen.avif",
+   "thumbImage": "7c3dc3f6-5c8c-5053-8561-cae6fcdd9d2b"
+  },
+  {
+   "id": "heilwald-bad-doberan",
+   "dataVersion": 2,
+   "file": "heilwald-bad-doberan.json",
+   "thumb": "thumbs/heilwald-bad-doberan.avif",
+   "thumbImage": "c668044f-39a0-5a26-826e-c36b9d6aaa8f"
+  },
+  {
+   "id": "hullerbusch",
+   "dataVersion": 1,
+   "file": "hullerbusch.json",
+   "thumb": "thumbs/hullerbusch.avif",
+   "thumbImage": "f2470035-ebbb-501f-8a5b-d625f0fb660f"
+  },
+  {
+   "id": "jamnoer-urwald",
+   "dataVersion": 2,
+   "file": "jamnoer-urwald.json",
+   "thumb": "thumbs/jamnoer-urwald.avif",
+   "thumbImage": "55580eaa-367a-508d-a9a8-2846ee8e5f7e"
+  },
+  {
+   "id": "kaeflingsberg-speck",
+   "dataVersion": 1,
+   "file": "kaeflingsberg-speck.json",
+   "thumb": "thumbs/kaeflingsberg-speck.avif",
+   "thumbImage": "5637b957-563e-567e-aa48-92ad1547d9ad"
+  },
+  {
+   "id": "kinderbauernhof-mauerplatz",
+   "dataVersion": 2,
+   "file": "kinderbauernhof-mauerplatz.json",
+   "thumb": "thumbs/kinderbauernhof-mauerplatz.avif",
+   "thumbImage": "6e3dda94-8f6d-5652-af4b-41831d0571b8"
+  },
+  {
+   "id": "kinderbauernhof-pinke-panke",
+   "dataVersion": 1,
+   "file": "kinderbauernhof-pinke-panke.json",
+   "thumb": "thumbs/kinderbauernhof-pinke-panke.avif",
+   "thumbImage": "40f4a88f-bc33-5967-9553-6f038100bf9f"
+  },
+  {
+   "id": "kinderwald-maerkisch-buchholz",
+   "dataVersion": 1,
+   "file": "kinderwald-maerkisch-buchholz.json",
+   "thumb": "thumbs/kinderwald-maerkisch-buchholz.avif",
+   "thumbImage": "027c4f4f-90fa-5fbb-beb3-971a95c9bd41"
+  },
+  {
+   "id": "kollhorst",
+   "dataVersion": 2,
+   "file": "kollhorst.json",
+   "thumb": "thumbs/kollhorst.avif",
+   "thumbImage": "9ae1cee7-93f5-5dba-9f7a-5885cf1806ba"
+  },
+  {
+   "id": "kurwald-graal-mueritz",
+   "dataVersion": 2,
+   "file": "kurwald-graal-mueritz.json",
+   "thumb": "thumbs/kurwald-graal-mueritz.avif",
+   "thumbImage": "5e07c2fe-c7f6-56bd-b16e-7f15c2343c73"
+  },
+  {
+   "id": "lehde",
+   "dataVersion": 1,
+   "file": "lehde.json",
+   "thumb": "thumbs/lehde.avif",
+   "thumbImage": "034aa6b0-1a6a-51a0-acc0-3c8b0dfac447"
+  },
+  {
+   "id": "lehrpfad-laehnwitz",
+   "dataVersion": 2,
+   "file": "lehrpfad-laehnwitz.json",
+   "thumb": "thumbs/lehrpfad-laehnwitz.avif",
+   "thumbImage": "4a4c5942-9ea0-5f64-94c3-0573b169c245"
+  },
+  {
+   "id": "lehrpfad-pflanzenschutz-schwentinental",
+   "dataVersion": 2,
+   "file": "lehrpfad-pflanzenschutz-schwentinental.json",
+   "thumb": "thumbs/lehrpfad-pflanzenschutz-schwentinental.avif",
+   "thumbImage": "a3fef7a4-6800-579d-a340-31aafe2dbc74"
+  },
+  {
+   "id": "lehrpfad-sandhof",
+   "dataVersion": 1,
+   "file": "lehrpfad-sandhof.json",
+   "thumb": "thumbs/lehrpfad-sandhof.avif",
+   "thumbImage": "d8fe5042-d197-5131-bc92-5dd6f7600451"
+  },
+  {
+   "id": "libellen-wasserspielplatz-wittstock",
+   "dataVersion": 2,
+   "file": "libellen-wasserspielplatz-wittstock.json",
+   "thumb": "thumbs/libellen-wasserspielplatz-wittstock.avif",
+   "thumbImage": "7997986a-80d9-5d5a-bfcf-8bc6ac054971"
+  },
+  {
+   "id": "moislinger-aue",
+   "dataVersion": 2,
+   "file": "moislinger-aue.json",
+   "thumb": "thumbs/moislinger-aue.avif",
+   "thumbImage": "e562305d-796c-54ea-a1d4-ac341f190a4a"
+  },
+  {
+   "id": "moorlehrpfad-burgermoos",
+   "dataVersion": 2,
+   "file": "moorlehrpfad-burgermoos.json",
+   "thumb": "thumbs/moorlehrpfad-burgermoos.avif",
+   "thumbImage": "6fc0947a-e318-5d5a-834d-3f460d6b8b64"
+  },
+  {
+   "id": "natter-pfad-goyatz",
+   "dataVersion": 1,
+   "file": "natter-pfad-goyatz.json",
+   "thumb": "thumbs/natter-pfad-goyatz.avif",
+   "thumbImage": "75bbcb1d-b6a7-56e3-b665-16cd55301d29"
+  },
+  {
+   "id": "naturerlebnis-grabau",
+   "dataVersion": 2,
+   "file": "naturerlebnis-grabau.json",
+   "thumb": "thumbs/naturerlebnis-grabau.avif",
+   "thumbImage": "4aab7622-830d-5374-b506-d5a4eba1f014"
+  },
+  {
+   "id": "naturerlebnispfad-ellerbek",
+   "dataVersion": 2,
+   "file": "naturerlebnispfad-ellerbek.json",
+   "thumb": "thumbs/naturerlebnispfad-ellerbek.avif",
+   "thumbImage": "0e9ab3c9-7464-5b49-b5a4-e1783d3c5e12"
+  },
+  {
+   "id": "naturerlebnispfad-eutin",
+   "dataVersion": 2,
+   "file": "naturerlebnispfad-eutin.json",
+   "thumb": "thumbs/naturerlebnispfad-eutin.avif",
+   "thumbImage": "c6288000-19e8-51cf-b098-6e756310da82"
+  },
+  {
+   "id": "naturerlebnisraum-spo",
+   "dataVersion": 1,
+   "file": "naturerlebnisraum-spo.json",
+   "thumb": "thumbs/naturerlebnisraum-spo.avif",
+   "thumbImage": "6fd864b2-b76c-5a86-9c10-8adf1623d307"
+  },
+  {
+   "id": "naturerlebnisweg-ploener-seeufer",
+   "dataVersion": 2,
+   "file": "naturerlebnisweg-ploener-seeufer.json",
+   "thumb": "thumbs/naturerlebnisweg-ploener-seeufer.avif",
+   "thumbImage": "081f5faf-2303-509b-a31a-f55f1e6848a1"
+  },
+  {
+   "id": "naturlehrpfad-angersdorfer-teiche",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-angersdorfer-teiche.json",
+   "thumb": "thumbs/naturlehrpfad-angersdorfer-teiche.avif",
+   "thumbImage": "67f40eac-0d7e-5f6d-aede-f9980afcb887"
+  },
+  {
+   "id": "naturlehrpfad-dahlenberg",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-dahlenberg.json",
+   "thumb": "thumbs/naturlehrpfad-dahlenberg.avif",
+   "thumbImage": "eb4be863-0ebb-5acd-b8b2-c9945d29db24"
+  },
+  {
+   "id": "naturlehrpfad-doelau-i",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-doelau-i.json",
+   "thumb": "thumbs/naturlehrpfad-doelau-i.avif",
+   "thumbImage": "f470e056-6d20-59db-a941-0da05d28064a"
+  },
+  {
+   "id": "naturlehrpfad-doelau-ii",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-doelau-ii.json",
+   "thumb": "thumbs/naturlehrpfad-doelau-ii.avif",
+   "thumbImage": "243abd68-8937-5196-9a65-36a48110366a"
+  },
+  {
+   "id": "naturlehrpfad-grabschuetzer-see",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-grabschuetzer-see.json",
+   "thumb": "thumbs/naturlehrpfad-grabschuetzer-see.avif",
+   "thumbImage": "16346317-be6a-59f0-a4a5-2013ef6fba61"
+  },
+  {
+   "id": "naturlehrpfad-huetter-klosterteiche",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-huetter-klosterteiche.json",
+   "thumb": "thumbs/naturlehrpfad-huetter-klosterteiche.avif",
+   "thumbImage": "1c7df3d0-a602-5573-a29f-59539e9dd14f"
+  },
+  {
+   "id": "naturlehrpfad-plaussiger-waeldchen",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-plaussiger-waeldchen.json",
+   "thumb": "thumbs/naturlehrpfad-plaussiger-waeldchen.avif",
+   "thumbImage": "7bca1bee-e8c0-51f9-aea1-75e530dcda72"
+  },
+  {
+   "id": "naturlehrpfad-pressel",
+   "dataVersion": 2,
+   "file": "naturlehrpfad-pressel.json",
+   "thumb": "thumbs/naturlehrpfad-pressel.avif",
+   "thumbImage": "2f40d890-f660-5799-acbc-b67210b95372"
+  },
+  {
+   "id": "naturlehrpfad-staditzwald",
+   "dataVersion": 3,
+   "file": "naturlehrpfad-staditzwald.json",
+   "thumb": "thumbs/naturlehrpfad-staditzwald.avif",
+   "thumbImage": "e66d544d-72b3-5048-8e95-31909e29d387"
+  },
+  {
+   "id": "naturwaldpfad",
+   "dataVersion": 2,
+   "file": "naturwaldpfad.json",
+   "thumb": "thumbs/naturwaldpfad.avif",
+   "thumbImage": "e814fbc1-97a9-5cf2-beb3-da94ac383138"
+  },
+  {
+   "id": "oher-graeberfeld",
+   "dataVersion": 2,
+   "file": "oher-graeberfeld.json",
+   "thumb": "thumbs/oher-graeberfeld.avif",
+   "thumbImage": "36f15f57-bb51-5835-a5d1-57c22411cf24"
+  },
+  {
+   "id": "ostsee-lehrpfad-graal-mueritz",
+   "dataVersion": 2,
+   "file": "ostsee-lehrpfad-graal-mueritz.json",
+   "thumb": "thumbs/ostsee-lehrpfad-graal-mueritz.avif",
+   "thumbImage": "4e241164-d39a-543b-9d4a-378c741e2200"
+  },
+  {
+   "id": "parc-forestal-mataro",
+   "dataVersion": 2,
+   "file": "parc-forestal-mataro.json",
+   "thumb": "thumbs/parc-forestal-mataro.avif",
+   "thumbImage": "5f20a5e3-ab37-57ed-be00-0e641f90a576"
+  },
+  {
+   "id": "pilzlehrpfad-vierburg",
+   "dataVersion": 2,
+   "file": "pilzlehrpfad-vierburg.json",
+   "thumb": "thumbs/pilzlehrpfad-vierburg.avif",
+   "thumbImage": "5adb2768-1c66-5ed4-9bc5-b3d5d2e15385"
+  },
+  {
+   "id": "plansche-plaenterwald",
+   "dataVersion": 2,
+   "file": "plansche-plaenterwald.json",
+   "thumb": "thumbs/plansche-plaenterwald.avif",
+   "thumbImage": "1c9bc562-0ecb-5e63-bcb6-02afa9719634"
+  },
+  {
+   "id": "raddusch",
+   "dataVersion": 1,
+   "file": "raddusch.json",
+   "thumb": "thumbs/raddusch.avif",
+   "thumbImage": "870d4bc1-cdf8-5554-abb7-8276f4346b97"
+  },
+  {
+   "id": "rauener-berge",
+   "dataVersion": 1,
+   "file": "rauener-berge.json",
+   "thumb": "thumbs/rauener-berge.avif",
+   "thumbImage": "0445f281-6bb4-57c9-9530-4846c5a10cdc"
+  },
+  {
+   "id": "ravensberge",
+   "dataVersion": 1,
+   "file": "ravensberge.json",
+   "thumb": "thumbs/ravensberge.avif",
+   "thumbImage": "21ecb7d0-0909-583f-ab29-51c4718cd983"
+  },
+  {
+   "id": "rimstinger-steinlehrpfad",
+   "dataVersion": 2,
+   "file": "rimstinger-steinlehrpfad.json",
+   "thumb": "thumbs/rimstinger-steinlehrpfad.avif",
+   "thumbImage": "5d4e31d7-cf75-5f25-930a-44469fed28b7"
+  },
+  {
+   "id": "rittbrookpfad",
+   "dataVersion": 2,
+   "file": "rittbrookpfad.json",
+   "thumb": "thumbs/rittbrookpfad.avif",
+   "thumbImage": "e3b6af6c-92db-5cbc-a94f-0435fd30230e"
+  },
+  {
+   "id": "schwartautal",
+   "dataVersion": 2,
+   "file": "schwartautal.json",
+   "thumb": "thumbs/schwartautal.avif",
+   "thumbImage": "e9249b25-4ac2-5ac2-b340-fbcfbbde7269"
+  },
+  {
+   "id": "skywalk-allgaeu",
+   "dataVersion": 2,
+   "file": "skywalk-allgaeu.json",
+   "thumb": "thumbs/skywalk-allgaeu.avif",
+   "thumbImage": "98d60788-d5c3-5c53-82c8-21c92528b49c"
+  },
+  {
+   "id": "sl-c-73-alzines-can-portell",
+   "dataVersion": 2,
+   "file": "sl-c-73-alzines-can-portell.json",
+   "thumb": "thumbs/sl-c-73-alzines-can-portell.avif",
+   "thumbImage": "ba4de494-0c61-59e0-abc9-07004faec00f"
+  },
+  {
+   "id": "spurenweg-kratzeburg",
+   "dataVersion": 1,
+   "file": "spurenweg-kratzeburg.json",
+   "thumb": "thumbs/spurenweg-kratzeburg.avif",
+   "thumbImage": "928d1302-9d96-5405-a398-33b52fef71b0"
+  },
+  {
+   "id": "steinerlebnisplatz-markkleeberg",
+   "dataVersion": 2,
+   "file": "steinerlebnisplatz-markkleeberg.json",
+   "thumb": "thumbs/steinerlebnisplatz-markkleeberg.avif",
+   "thumbImage": "0acba82d-c00f-510c-9224-14f067ba2ffe"
+  },
+  {
+   "id": "stendenitz",
+   "dataVersion": 1,
+   "file": "stendenitz.json",
+   "thumb": "thumbs/stendenitz.avif",
+   "thumbImage": "8a3d5984-aeae-5398-8c39-c64eadeea4ab"
+  },
+  {
+   "id": "stubbenkammer-koenigsstuhl",
+   "dataVersion": 1,
+   "file": "stubbenkammer-koenigsstuhl.json",
+   "thumb": "thumbs/stubbenkammer-koenigsstuhl.avif",
+   "thumbImage": "7c81d02c-b806-5693-9550-412911bfb7ae"
+  },
+  {
+   "id": "treetopwalk-edersee",
+   "dataVersion": 2,
+   "file": "treetopwalk-edersee.json",
+   "thumb": "thumbs/treetopwalk-edersee.avif",
+   "thumbImage": "adbfc2ab-ef16-56c9-87af-6beda6f887be"
+  },
+  {
+   "id": "untereider",
+   "dataVersion": 2,
+   "file": "untereider.json",
+   "thumb": "thumbs/untereider.avif",
+   "thumbImage": "29fccb90-ef54-5109-86e7-c49b1e59473d"
+  },
+  {
+   "id": "von-moor-zu-moor",
+   "dataVersion": 1,
+   "file": "trail.json",
+   "thumb": "thumbs/von-moor-zu-moor.avif",
+   "thumbImage": "4f8c35e9-3ce4-5f3b-9060-95b22688b651"
+  },
+  {
+   "id": "wahrberge",
+   "dataVersion": 1,
+   "file": "wahrberge.json",
+   "thumb": "thumbs/wahrberge.avif",
+   "thumbImage": "eae5f0de-985a-5e6b-99ab-47ca1c94162a"
+  },
+  {
+   "id": "wald-berlin-klima",
+   "dataVersion": 2,
+   "file": "wald-berlin-klima.json",
+   "thumb": "thumbs/wald-berlin-klima.avif",
+   "thumbImage": "60166c4a-2dcb-5544-b5c1-5931dabc65c7"
+  },
+  {
+   "id": "wald-erlebnispfad-serrahn",
+   "dataVersion": 1,
+   "file": "wald-erlebnispfad-serrahn.json",
+   "thumb": "thumbs/wald-erlebnispfad-serrahn.avif",
+   "thumbImage": "4bede66b-d6c6-56de-99ca-3967fdfe8588"
+  },
+  {
+   "id": "waldhusen",
+   "dataVersion": 2,
+   "file": "waldhusen.json",
+   "thumb": "thumbs/waldhusen.avif",
+   "thumbImage": "68ab6cc7-b935-5741-81a6-cfa505f5cacd"
+  },
+  {
+   "id": "waldlehrpfad-hermsdorf",
+   "dataVersion": 2,
+   "file": "waldlehrpfad-hermsdorf.json",
+   "thumb": "thumbs/waldlehrpfad-hermsdorf.avif",
+   "thumbImage": "da986fec-7466-52f0-8610-be62236f7bd2"
+  },
+  {
+   "id": "waldlehrpfad-silberbergen",
+   "dataVersion": 2,
+   "file": "waldlehrpfad-silberbergen.json",
+   "thumb": "thumbs/waldlehrpfad-silberbergen.avif",
+   "thumbImage": "eaaf92d2-7136-51f8-9c6a-96e73183b8fc"
+  },
+  {
+   "id": "waldspielplatz-jaegerhaus",
+   "dataVersion": 2,
+   "file": "waldspielplatz-jaegerhaus.json",
+   "thumb": "thumbs/waldspielplatz-jaegerhaus.avif",
+   "thumbImage": "9b79931f-371a-59c8-9f62-84b48bfad402"
+  },
+  {
+   "id": "waldwipfelweg-sankt-englmar",
+   "dataVersion": 2,
+   "file": "waldwipfelweg-sankt-englmar.json",
+   "thumb": "thumbs/waldwipfelweg-sankt-englmar.avif",
+   "thumbImage": "5c8c37a0-bc40-546a-a246-c70d0a4f3608"
+  },
+  {
+   "id": "wasser-erlebnispfad-sprotte",
+   "dataVersion": 2,
+   "file": "wasser-erlebnispfad-sprotte.json",
+   "thumb": "thumbs/wasser-erlebnispfad-sprotte.avif",
+   "thumbImage": "76bc07a5-b33a-58af-88b0-18df66022269"
+  },
+  {
+   "id": "wasserspielplatz-giesserbruecke",
+   "dataVersion": 2,
+   "file": "wasserspielplatz-giesserbruecke.json",
+   "thumb": "thumbs/wasserspielplatz-giesserbruecke.avif",
+   "thumbImage": "e5628af4-a889-5107-b09f-b26f22f02386"
+  },
+  {
+   "id": "wasserspielplatz-heide-sued",
+   "dataVersion": 2,
+   "file": "wasserspielplatz-heide-sued.json",
+   "thumb": "thumbs/wasserspielplatz-heide-sued.avif",
+   "thumbImage": "f2cd5ea1-c373-5104-a855-e7bbff7307cc"
+  },
+  {
+   "id": "wasserspielplatz-lene-voigt",
+   "dataVersion": 2,
+   "file": "wasserspielplatz-lene-voigt.json",
+   "thumb": "thumbs/wasserspielplatz-lene-voigt.avif",
+   "thumbImage": "2e94758b-94a6-5101-a1d3-40867794d670"
+  },
+  {
+   "id": "wasserspielplatz-oberholz",
+   "dataVersion": 3,
+   "file": "wasserspielplatz-oberholz.json",
+   "thumb": "thumbs/wasserspielplatz-oberholz.avif",
+   "thumbImage": "1769ccd3-c0e7-5a85-aab3-14784690e100"
+  },
+  {
+   "id": "wasserspielplatz-peissnitzhaus",
+   "dataVersion": 2,
+   "file": "wasserspielplatz-peissnitzhaus.json",
+   "thumb": "thumbs/wasserspielplatz-peissnitzhaus.avif",
+   "thumbImage": "39021085-0ff9-5e7d-ab42-2dfc55131de9"
+  },
+  {
+   "id": "wasserspielplatz-roebel",
+   "dataVersion": 1,
+   "file": "wasserspielplatz-roebel.json",
+   "thumb": "thumbs/wasserspielplatz-roebel.avif",
+   "thumbImage": "1fd3467f-6149-5cc5-a872-8127f535651a"
+  },
+  {
+   "id": "weltpfad-nicklheim",
+   "dataVersion": 2,
+   "file": "weltpfad-nicklheim.json",
+   "thumb": "thumbs/weltpfad-nicklheim.avif",
+   "thumbImage": "c7ae1037-4c56-51ba-ae46-09510c0411cd"
+  },
+  {
+   "id": "wolfspfad-zwenzow",
+   "dataVersion": 1,
+   "file": "wolfspfad-zwenzow.json",
+   "thumb": "thumbs/wolfspfad-zwenzow.avif",
+   "thumbImage": "be84c635-d8e1-5aaa-bf23-0e9de866dd76"
+  },
+  {
+   "id": "wupatz",
+   "dataVersion": 1,
+   "file": "wupatz.json",
+   "thumb": "thumbs/wupatz.avif",
+   "thumbImage": "a4830200-ba03-5d79-8413-4d89fd720531"
+  },
+  {
+   "id": "zweiseitenweg-rambow",
+   "dataVersion": 2,
+   "file": "zweiseitenweg-rambow.json",
+   "thumb": "thumbs/zweiseitenweg-rambow.avif",
+   "thumbImage": "c3de7dbb-9ffe-554f-a373-9f9d6791ae08"
+  }
+ ]
+}

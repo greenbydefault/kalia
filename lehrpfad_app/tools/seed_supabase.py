@@ -112,6 +112,7 @@ def main():
         "eintritt_preise": t.get("eintrittPreise"),
         "oeffnungszeiten": t.get("oeffnungszeiten"),
         "besuchshinweise": t.get("besuchshinweise"),
+        "hoertext": t.get("hoertext"),
         "anreise": t["anreise"],
         "start_name": t["startName"],
         "arten": t["arten"],

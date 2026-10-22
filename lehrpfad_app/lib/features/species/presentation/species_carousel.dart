@@ -21,9 +21,9 @@ class SpeciesCarousel extends StatelessWidget {
   final ContentCarouselLayout layout;
 
   SpeciesTileLayout get _tileLayout => switch (layout) {
-        ContentCarouselLayout.peek => SpeciesTileLayout.peek,
-        ContentCarouselLayout.compact3 => SpeciesTileLayout.compact,
-      };
+    ContentCarouselLayout.peek => SpeciesTileLayout.peek,
+    ContentCarouselLayout.compact3 => SpeciesTileLayout.compact,
+  };
 
   @override
   Widget build(BuildContext context) {

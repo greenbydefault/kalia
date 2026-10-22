@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Tafeln im Vierburgwald nennen Speisepilze, Giftpilze und ihre Doppelgänger. Eine Plattform blickt auf den Großen Peetscher See.",
  "beschreibung": "Am Großen Peetscher See nennen Tafeln Speisepilz, Giftpilz und den Doppelgänger daneben beim Namen. Eine Plattform schiebt sich an den See. Vom Weg zweigt sie nur kurz ab. Tafeln dort nennen Brutvögel und die Vögel, die auf dem Wasser rasten. Buchen, Eichen und Nadelbäume stehen nebeneinander, zum See hin wird der Boden torfig. Davor liegt Sand, dazwischen feuchte Senken. Bänke stehen am Weg. Nach Regen wird der Boden weich.",
- "laengeKm": 4.0,
+ "laengeKm": 4,
  "dauerMin": 90,
  "rundkurs": true,
  "markierung": "Wegweiser",
@@ -55,7 +55,6 @@
  ],
  "naturraum": "norddt-tiefland",
  "tags": [],
- "form": "linie",
  "route": [
   [
    53.81171,
@@ -110,28 +109,27 @@
    11.94923
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -721553703,
    "lat": 53.81171,
    "lon": 11.94923,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Tafel am Peetscher See",
    "thema": "Naturschutzgebiet am Start",
    "kurztext": "Am Waldrand hängt die Tafel zum Großen Peetscher See. Links davon führt der Weg in den Vierburgwald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2709350051,
    "lat": 53.811843,
    "lon": 11.954641,
    "km": 0.45,
+   "reihenfolge": 2,
    "titel": "Pilze der Jahreszeiten",
    "thema": "Waldregeln und was hier wächst",
    "kurztext": "Die erste Tafel hängt die Waldregeln aus und ordnet die Pilze nach der Jahreszeit.",
@@ -139,15 +137,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -4154179279,
    "lat": 53.812483,
    "lon": 11.960534,
    "km": 0.85,
+   "reihenfolge": 3,
    "titel": "Speisepilze und Giftpilze",
    "thema": "Pilze bei Buchen",
    "kurztext": "Unter Buchen stellt die Tafel Speisepilze neben ihre giftigen Doppelgänger.",
@@ -155,15 +152,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -2957620705,
    "lat": 53.81249,
    "lon": 11.966613,
    "km": 1.25,
+   "reihenfolge": 4,
    "titel": "Pilze in Feuchtgebieten",
    "thema": "Nasse Senken",
    "kurztext": "Wo der Boden feucht bleibt, zeigt die Tafel die Pilze der Senken.",
@@ -171,15 +167,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -1827232812,
    "lat": 53.812301,
    "lon": 11.973459,
    "km": 1.7,
+   "reihenfolge": 5,
    "titel": "Heimische Pilze auf Holz",
    "thema": "Totholz",
    "kurztext": "An Stubben und liegendem Holz wachsen andere Pilze als am Boden. Die Tafel nennt sie.",
@@ -187,30 +182,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -1975263899,
    "lat": 53.810085,
    "lon": 11.977297,
    "km": 2.13,
+   "reihenfolge": 6,
    "titel": "Beobachtungsplattform",
    "thema": "Brut- und Rastvögel",
    "kurztext": "Die Plattform reicht an den Peetscher See. Tafeln nennen Brutvögel und die Vögel, die hier rasten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -786201089,
    "lat": 53.810699,
    "lon": 11.970986,
    "km": 2.55,
+   "reihenfolge": 7,
    "titel": "Heimische Giftpilze",
    "thema": "Pilze bei Eichen",
    "kurztext": "Bei den Eichen hängt die Tafel zu den Giftpilzen und zu dem, was unter Eichen wächst.",
@@ -218,30 +211,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -3404069325,
    "lat": 53.8102,
    "lon": 11.964491,
    "km": 2.98,
+   "reihenfolge": 8,
    "titel": "Schutzhütte",
    "thema": "Rast am Weg",
    "kurztext": "Die Schutzhütte steht am Weg, daneben eine Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -2919803639,
    "lat": 53.809904,
    "lon": 11.957962,
    "km": 3.41,
+   "reihenfolge": 9,
    "titel": "Heimische Speisepilze",
    "thema": "Speisepilze dieses Waldes",
    "kurztext": "Die Tafel stellt die Speisepilze vor, die in diesem Wald vorkommen.",
@@ -249,15 +240,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -854729364,
    "lat": 53.810399,
    "lon": 11.952852,
    "km": 3.75,
+   "reihenfolge": 10,
    "titel": "Essbare Pilze im Waldgebiet",
    "thema": "Was in diesem Stück wächst",
    "kurztext": "Die letzte Tafel bleibt bei den essbaren Pilzen dieses Waldstücks.",
@@ -265,9 +255,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -295,5 +283,17 @@
  ],
  "besuchshinweise": "Nicht barrierefrei. Nach Regen weicher Boden. An der ersten Tafel hängen die Regeln fürs Sammeln.",
  "hoertext": "Am Waldrand hängt eine Tafel zum See, und links davon biegt der Weg in den Vierburgwald. Unter Buchen und Eichen nennen die Tafeln den Pilz und den Doppelgänger, der daneben wächst, und wo der Boden zum See hin torfig wird, wechseln die Namen, bis eine Plattform ans Wasser reicht. Wer dort stehen bleibt, blickt auf Vögel, die hier brüten oder rasten. Bänke stehen dazwischen. Nach Regen federt der Boden. Die Regeln fürs Sammeln hängen an der ersten Tafel.",
- "bilderAsset": "assets/images/trails/pilzlehrpfad-vierburg/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "5adb2768-1c66-5ed4-9bc5-b3d5d2e15385",
+   "id": "5adb2768-1c66-5ed4-9bc5-b3d5d2e15385",
+   "caption": "Erlenbruch im Naturschutzgebiet Peetscher See.",
+   "credit": "Patrice77",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_Peetscher_See_Erlenbruch.jpg",
+   "kind": "ort"
+  }
+ ]
 }

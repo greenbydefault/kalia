@@ -24,7 +24,6 @@
   "picknick",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    47.878584,
@@ -919,78 +918,72 @@
    12.338221
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 4005922633,
    "lat": 47.8784675,
    "lon": 12.3375738,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Wegweiser Rundweg zum Chiemsee",
    "thema": "Start an der Pfarrkirche, Wellensymbol",
    "kurztext": "Ab dem Parkplatz an der Pfarrkirche folgt der Weg dem Schild Rundweg zum Chiemsee mit dem Wellensymbol. Hinter der Bahnunterführung geht es an die Prien. Das Gemeindeblatt von 2018 zählt 28 Findlinge zwischen Sporthalle und Strandanlage.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 7333239889,
    "lat": 47.8738496,
    "lon": 12.3470101,
    "km": 1.03,
+   "reihenfolge": 2,
    "titel": "Steinerne Zeugen der Eiszeit",
    "thema": "Findlinge am Ufer der Prien",
    "kurztext": "Tafel an der Prien. Am Ufer liegen die Findlinge, jeder mit Tafel für Alter, Herkunft und Gesteinsart. Gneis mit Quarzader, mindestens 290 Millionen Jahre alt, und Amphibolit gehören dazu, ebenso Nagelfluh aus dem Priental bei Aschau. Alle stammen aus Rimsting und wurden beim Bauen gefunden.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 4006047187,
    "lat": 47.8750638,
    "lon": 12.3538636,
    "km": 1.57,
+   "reihenfolge": 3,
    "titel": "Findlinge",
    "thema": "Ortsfremde Gesteine, Zeugen der Eiszeit",
    "kurztext": "Zwei Tafeln der Gemeinde bei der Strandanlage. Granit und Basalt im Chiemgau stammen aus dem Teil der Zentralalpen, aus dem das Eis des Inn-Gletschers kam. Deshalb heißen sie Findlinge oder erratische Blöcke. Daneben liegen Muschelkalk von Nussdorf, etwa 240 Millionen Jahre alt, und Korallenkalk.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 9123847381,
    "lat": 47.8755924,
    "lon": 12.3582079,
    "km": 1.92,
+   "reihenfolge": 4,
    "titel": "Hütte an der Prienmündung",
    "thema": "Vögel und Biber an der Schafwaschener Bucht",
    "kurztext": "Vogeltafel am Ende der Strandanlage. Die Hütte ist einem Bootshaus nachempfunden und nur bei Führungen offen. Als Dauerbewohner nennt die Gemeinde Schwan, Graugans, Stockente, Blesshuhn und Graureiher. An der Einmündung steht eine große Biberburg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": 3729863711,
    "lat": 47.8758167,
    "lon": 12.3585427,
    "km": 1.92,
+   "reihenfolge": 5,
    "titel": "Prienmündung",
    "thema": "Aussicht über die Schafwaschener Bucht",
    "kurztext": "Hier mündet der Gebirgsbach Prien in den Chiemsee. Die Bucht ist Brutplatz, Raststation und Winterquartier. Über 300 Vogelarten wurden hier bisher gesehen. Im Frühjahr kommen Haubentaucher, Trauerseeschwalben und Baumfalken.",
    "erlebnisse": [],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -1005,15 +998,13 @@
    "osmId": 1766674848,
    "lat": 47.8753749,
    "lon": 12.3535494,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 1770756716,
    "lat": 47.8758054,
    "lon": 12.3584996,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2018828900,
@@ -1026,22 +1017,19 @@
    "osmId": 2393176359,
    "lat": 47.8793618,
    "lon": 12.3516798,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2393176856,
    "lat": 47.8786113,
    "lon": 12.3542714,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2393176986,
    "lat": 47.8744651,
    "lon": 12.3575464,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2398385801,
@@ -1061,190 +1049,163 @@
    "osmId": 4005781583,
    "lat": 47.8789999,
    "lon": 12.3397661,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 4005781832,
    "lat": 47.8784437,
    "lon": 12.3376936,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005922612,
    "lat": 47.8784724,
    "lon": 12.3376326,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005922625,
    "lat": 47.8784347,
    "lon": 12.3376373,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005922626,
    "lat": 47.8784199,
    "lon": 12.3376924,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005922657,
    "lat": 47.8785528,
    "lon": 12.3386228,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 4005963315,
    "lat": 47.8790325,
    "lon": 12.3494096,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005963350,
    "lat": 47.8786612,
    "lon": 12.3542502,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4005993636,
    "lat": 47.8752355,
    "lon": 12.3568651,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 4006047188,
    "lat": 47.8753317,
    "lon": 12.3572518,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 7323026826,
    "lat": 47.8755682,
    "lon": 12.340898,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7326742304,
    "lat": 47.8757152,
    "lon": 12.3409013,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7333239890,
    "lat": 47.8738775,
    "lon": 12.3471113,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7333239891,
    "lat": 47.8740488,
    "lon": 12.3476283,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7333239901,
    "lat": 47.8754891,
    "lon": 12.3546241,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7334737051,
    "lat": 47.8796052,
    "lon": 12.337837,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11205780741,
    "lat": 47.8742497,
    "lon": 12.3486619,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11205789297,
    "lat": 47.8744376,
    "lon": 12.3500855,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825262388,
    "lat": 47.8751357,
    "lon": 12.3548806,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825284551,
    "lat": 47.8751129,
    "lon": 12.35567,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 13825303425,
    "lat": 47.8758751,
    "lon": 12.3582047,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825325549,
    "lat": 47.8751246,
    "lon": 12.3556252,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 13825330519,
    "lat": 47.875258,
    "lon": 12.3572317,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825332436,
    "lat": 47.87552,
    "lon": 12.357515,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825337114,
    "lat": 47.8751613,
    "lon": 12.3551527,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13825404882,
    "lat": 47.8759067,
    "lon": 12.3582455,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13849814948,
    "lat": 47.8762082,
    "lon": 12.3474684,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10060037,
@@ -1257,104 +1218,98 @@
    "osmId": 165535571,
    "lat": 47.8752391,
    "lon": 12.3538688,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 369173194,
    "lat": 47.8749341,
    "lon": 12.3512334,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 397805013,
    "lat": 47.8795308,
    "lon": 12.3379245,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 779063098,
    "lat": 47.8777265,
    "lon": 12.337253,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 779063136,
    "lat": 47.8778443,
    "lon": 12.3372716,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 782803125,
    "lat": 47.8761924,
    "lon": 12.3383069,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 784443792,
    "lat": 47.8795503,
    "lon": 12.3376092,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 784446311,
    "lat": 47.8776643,
    "lon": 12.3371642,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 1234984122,
    "lat": 47.8768855,
    "lon": 12.3392286,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1235153378,
    "lat": 47.877085,
    "lon": 12.3370857,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1235153379,
    "lat": 47.8771945,
    "lon": 12.3371931,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1235153380,
    "lat": 47.8772922,
    "lon": 12.3371527,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1235153388,
    "lat": 47.8784585,
    "lon": 12.3373848,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Weg und Strandanlage frei. Parkplatz Strandanlage 3 Euro bis 3 Stunden, 5 Euro darüber, mit Gästekarte frei.",
  "oeffnungszeiten": "Weg jederzeit frei, ohne Anmeldung. Strandkiosk Anfang Mai bis Ende September, je nach Witterung. Hütte an der Prienmündung nur bei Führungen.",
  "besuchshinweise": "Steine dürfen angefasst und bestiegen werden. Die Hütte an der Prienmündung ist nur bei Führungen offen. Vom Parkplatz Strandanlage sind es etwa 1 km bis dorthin, geeignet für Kinderwagen und Rollstuhl. Strandkiosk von Mai bis September.",
  "hoertext": "Hinter der Kirche von Rimsting senkt sich der Weg zur Prien, und am Ufer ruhen Steine von weit her. Ein Gletscher trug sie aus den Zentralalpen heran, auf dem Rücken des Eises. Gneis lagert darunter, mindestens 290 Millionen Jahre alt, daneben Granit, Sandstein und Kalk aus Korallen. Anfassen darf jeder. Flussabwärts weitet sich das Ufer, bis die Prien in den Chiemsee mündet, dort, wo eine Hütte an ein Bootshaus erinnert und an einzelnen Sonntagen ein Vogelführer die Bucht zeigt. Wer Badesachen dabeihat, erreicht nach dem letzten Stein gleich das Wasser.",
- "bilderAsset": "assets/images/trails/rimstinger-steinlehrpfad/credits.json",
  "lebensraeume": [],
  "naturraum": "alpenvorland",
- "artenNachweis": {
-  "Stockente": "belegt",
-  "Biber": "belegt"
- }
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "5d4e31d7-cf75-5f25-930a-44469fed28b7",
+   "id": "5d4e31d7-cf75-5f25-930a-44469fed28b7",
+   "caption": "Prienmündung bei Rimsting, Schilf am Ufer der Schafwaschener Bucht.",
+   "credit": "Rufus46",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prienmuendung_Rimsting-1.jpg",
+   "kind": "ort"
+  }
+ ]
 }

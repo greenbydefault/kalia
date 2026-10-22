@@ -35,7 +35,6 @@
   "einkehr",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    47.897342,
@@ -722,148 +721,139 @@
    12.161313
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 765793361,
    "lat": 47.8972265,
    "lon": 12.1729014,
    "km": 0.08,
+   "reihenfolge": 1,
    "titel": "Start Moorlehrpfad",
    "thema": "Tafel 1, Parkplatz Forst am See",
    "kurztext": "Hier hängt Tafel 1, am Parkplatz Forst am See. Vierzehn Nummern, Holzschilder Moorlehrpfad. Ab hier holprig. Kinderwagen und Rollstuhl bleiben stehen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 765793362,
    "lat": 47.8966677,
    "lon": 12.172921,
    "km": 0.14,
+   "reihenfolge": 2,
    "titel": "Inngletscher",
    "thema": "Entstehung von See und Moor",
    "kurztext": "Tafel 2. Der Inngletscher hat die Wanne gelegt, in der See und Moor sitzen. Ohne das Eis kein Hofstätter See und kein Burger Moos.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 765793358,
    "lat": 47.8963786,
    "lon": 12.1727777,
    "km": 0.17,
+   "reihenfolge": 3,
    "titel": "Moorsee",
    "thema": "Hofstätter See",
    "kurztext": "Tafel 3, am Ufer. Was einen Moorsee ausmacht. Im Sommer baden die Leute am Strandhaus, der Lehrpfad geht am Schilf weiter.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 765793360,
    "lat": 47.8960467,
    "lon": 12.1723537,
    "km": 0.23,
+   "reihenfolge": 4,
    "titel": "Verlandung",
    "thema": "Vom See zum Moor",
    "kurztext": "Tafel 4. Der See wächst zu. Schilf und Torf schieben das offene Wasser zurück. Das Burger Moos ist der Teil, der das geschafft hat.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 765793353,
    "lat": 47.8944115,
    "lon": 12.1703177,
    "km": 0.49,
+   "reihenfolge": 5,
    "titel": "Schilf",
    "thema": "Röhricht am Ufer",
    "kurztext": "Tafel 5. Schilf am Hofstätter See. Der Halm steht im Wasser, der Lehrpfad bleibt daneben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 765793357,
    "lat": 47.8942193,
    "lon": 12.1697217,
    "km": 0.53,
+   "reihenfolge": 6,
    "titel": "Moortypen",
    "thema": "Tafeln 6 und 7, Beobachtungskanzel",
    "kurztext": "Zwei Tafeln an einem Punkt: Moortypen und Besonderheiten. Daneben die Kanzel. Von oben Moose, Seggen, Schilf und Latschen, die Moortypen nebeneinander. Nicht ins Polster.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 3500069286,
    "lat": 47.8930178,
    "lon": 12.1668146,
    "km": 0.79,
+   "reihenfolge": 7,
    "titel": "Moorleichen",
    "thema": "Tafel 8, Erhalt im Moor",
    "kurztext": "Tafel 8. Warum Körper im Moor Jahrhunderte bleiben. Säure, kein Sauerstoff. Hier liegt keine Leiche, die Tafel erklärt den Fund anderswo.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 1988292428,
    "lat": 47.8909278,
    "lon": 12.1615806,
    "km": 1.57,
+   "reihenfolge": 8,
    "titel": "Moose",
    "thema": "Tafel 9, Torfmoose",
    "kurztext": "Tafel 9, am Südende. Torfmoose, die Polster, aus denen der Boden wird. Nass, weich, nicht draufsteigen. Zurück geht es auf den Knüppeldamm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 1988292426,
    "lat": 47.8907444,
    "lon": 12.1614172,
    "km": 1.59,
+   "reihenfolge": 9,
    "titel": "Hochmoor",
    "thema": "Tafel 10",
    "kurztext": "Tafel 10. Der Teil, der vom Regen lebt, nicht mehr vom Grundwasser. Das Burger Moos hat Hochmoor, Zwischenmoor und Bruch nebeneinander.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 765793344,
    "lat": 47.8935927,
    "lon": 12.1617649,
    "km": 2.12,
+   "reihenfolge": 10,
    "titel": "Bruchwald",
    "thema": "Tafel 11, Anfang Knüppeldamm",
    "kurztext": "Tafel 11, auf dem Holzsteg. Hier fängt der Knüppeldamm an, Bretter über dem Bruch. Nasser Wald, der Weg bleibt auf dem Holz.",
@@ -871,15 +861,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 765793345,
    "lat": 47.8938046,
    "lon": 12.161251,
    "km": 2.17,
+   "reihenfolge": 11,
    "titel": "Quellaufstöße",
    "thema": "Tafel 12, auf dem Knüppeldamm",
    "kurztext": "Tafel 12, mitten auf dem Damm. Wasser drückt von unten durch den Torf. Deshalb ist das Burger Moos kein abgelassenes Hochmoor, sondern Durchströmung.",
@@ -887,15 +876,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 765793346,
    "lat": 47.8941887,
    "lon": 12.1601016,
    "km": 2.26,
+   "reihenfolge": 12,
    "titel": "Tierwelt",
    "thema": "Tafel 13, auf dem Knüppeldamm",
    "kurztext": "Tafel 13, noch auf dem Holz. Was im Moor lebt. Im Sommer die Große Moosjungfer am Hofstätter See, Larven im Röhricht, die Alten auf Ansitz.",
@@ -903,24 +891,21 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 5225531489,
    "lat": 47.8964396,
    "lon": 12.1613529,
    "km": 2.77,
+   "reihenfolge": 13,
    "titel": "Naturschutz",
    "thema": "Tafel 14, FFH und Landschaftsschutz",
    "kurztext": "Tafel 14. FFH-Gebiet Moore und Seen nordöstlich von Rosenheim, dazu Landschaftsschutz. Wege nicht verlassen. Die Pflanzen stehen neben dem Damm, nicht darauf.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 13
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -928,15 +913,13 @@
    "osmId": 5849738144,
    "lat": 47.8974584,
    "lon": 12.1731465,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 2574806306,
    "lat": 47.8938838,
    "lon": 12.1609238,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 986455872,
@@ -960,12 +943,10 @@
    "name": "Aussichtsturm am Moor"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Führungen nur im Sommerhalbjahr.",
  "besuchshinweise": "Holprig, kein Kinderwagen, kein Rollstuhl. Festes Schuhwerk. Wege nicht verlassen.",
  "hoertext": "Am Parkplatz Forst am See hält sich der Weg an den Hofstätter See. Vierzehn Tafeln begleiten ihn, vom Gletscher über das Schilf bis zum Hochmoor. Der Boden holpert. Ein Kinderwagen bleibt hier stehen. An der Kanzel zeigen sich Moose, Seggen, Schilf und Latschen auf einmal. Südlich dreht ein Stich um, und auf dem Rückweg trägt ein alter Knüppeldamm quer durchs Burger Moos, Bretter über dem nassen Grund. Wer den See ganz umrundet, kehrt am Strandhaus ein. Im Sommer trägt der Hofstätter See Badewasser, direkt neben dem Strandhaus.",
- "bilderAsset": "assets/images/trails/moorlehrpfad-burgermoos/credits.json",
  "lebensraeume": [
   "moor"
  ],
@@ -985,5 +966,18 @@
   "Ringelnatter": "typisch",
   "Sumpfdotterblume": "typisch",
   "Waldeidechse": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "6fc0947a-e318-5d5a-834d-3f460d6b8b64",
+   "id": "6fc0947a-e318-5d5a-834d-3f460d6b8b64",
+   "caption": "Steg bei Forst am See, Start des Moorlehrpfads.",
+   "credit": "Gras-Ober",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hofst%C3%A4tter_See_GO-2.jpg",
+   "kind": "ort"
+  }
+ ]
 }

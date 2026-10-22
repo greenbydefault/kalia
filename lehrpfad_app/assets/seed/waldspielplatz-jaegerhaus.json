@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Am Jägerhaus stehen Unterschlüpfe im Eichenwald, und weiter drinnen sind sie größer gebaut.",
  "beschreibung": "Außen stehen kleine Unterschlüpfe, weiter im Bestand werden sie groß. Der Boden bleibt Waldboden und geht in die Bäume über. Über die Lichtung laufen zwei Seilbahnen nebeneinander. Eine Holzburg trägt zwei Rutschen, daneben hängt eine Seilpyramide. Im Sand führt eine Rampe in ein Spielhaus. Balken zwischen den Geräten geben nach. Fitnessgeräte stehen am Ostrand, Tische zum Picknick zwischen den Stämmen.",
- "laengeKm": 0.0,
+ "laengeKm": 0,
  "dauerMin": 90,
  "rundkurs": false,
  "markierung": "ohne Markierung",
@@ -151,72 +151,72 @@
    "lat": 48.75078,
    "lon": 9.35335,
    "km": 0.06,
+   "reihenfolge": 1,
    "titel": "Spielhaus im Sand",
    "thema": "Sand",
    "kurztext": "Sandfläche mit Spielhaus. Eine Rampe führt hinein.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -1096437279,
    "lat": 48.75055,
    "lon": 9.3534,
    "km": 0.06,
+   "reihenfolge": 2,
    "titel": "Balancierelemente",
    "thema": "Balance",
    "kurztext": "Balken zwischen den anderen Geräten, sie geben nach.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -2994579511,
    "lat": 48.7507,
    "lon": 9.35355,
    "km": 0.06,
+   "reihenfolge": 3,
    "titel": "Seilbahn",
    "thema": "Seilfahrt",
    "kurztext": "Zwei Bahnen laufen nebeneinander über die Lichtung.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -2267206629,
    "lat": 48.75085,
    "lon": 9.3537,
    "km": 0.06,
+   "reihenfolge": 4,
    "titel": "Kletterburg",
    "thema": "Klettern",
    "kurztext": "Holzburg mit zwei Rutschen.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -2399792506,
    "lat": 48.7506,
    "lon": 9.3538,
    "km": 0.06,
+   "reihenfolge": 5,
    "titel": "Seilkletterpyramide",
    "thema": "Hangeln",
    "kurztext": "Seilpyramide auf der Lichtung.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 11768912087,
    "lat": 48.750916,
    "lon": 9.3542017,
    "km": 0.12,
+   "reihenfolge": 6,
    "titel": "Fitnessstation",
    "thema": "Kraft",
    "kurztext": "Kraftgeräte am Ostrand der Lichtung.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -224,88 +224,88 @@
    "osmId": 10949920678,
    "lat": 48.7507883,
    "lon": 9.3524996,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10949920679,
    "lat": 48.751166,
    "lon": 9.3526774,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10949920680,
    "lat": 48.7508461,
    "lon": 9.3525219,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11768875217,
    "lat": 48.7507559,
    "lon": 9.3537743,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11768920376,
    "lat": 48.7504186,
    "lon": 9.3534526,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 11768921794,
    "lat": 48.7508365,
    "lon": 9.3537483,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 11768931922,
    "lat": 48.7508217,
    "lon": 9.353523,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 11768940294,
    "lat": 48.7507649,
    "lon": 9.3536351,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 13103081331,
    "lat": 48.7509387,
    "lon": 9.352533,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13103081332,
    "lat": 48.7510396,
    "lon": 9.3526093,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13103081335,
    "lat": 48.7512424,
    "lon": 9.3527179,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 143945526,
-   "lat": 48.750684729411766,
-   "lon": 9.351511029411766,
-   "kategorie": "parking",
-   "name": null
+   "lat": 48.7506847294118,
+   "lon": 9.35151102941177,
+   "kategorie": "parking"
   }
  ],
  "besuchshinweise": "Im Frühsommer tragen die Eichen Nester des Eichenprozessionsspinners. Die Stadt sperrt die Fläche und gibt sie erst frei, wenn die Nester entfernt sind.",
  "hoertext": "Oberhalb von Liebersbronn tritt der Schurwald auseinander. Ein Seil zieht über die offene Lichtung, dicht daneben ein zweites. Holz steigt in die Höhe, die Rutschen holen es zurück. Wer zwischen die Stämme weitergeht, findet Unterschlüpfe, die nach innen hin zulegen, bis unter dem letzten Dach richtig Platz bleibt. Eine schräge Bahn führt in das Häuschen im Sand. Die Balken geben unter dem Gewicht nach. Kraftgeräte stehen noch am Rand. Der Frühsommer schließt die Lichtung, bis die Nester abgenommen sind.",
- "bilderAsset": "assets/images/trails/waldspielplatz-jaegerhaus/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "9b79931f-371a-59c8-9f62-84b48bfad402",
+   "id": "9b79931f-371a-59c8-9f62-84b48bfad402",
+   "caption": "Albtrauf vom Schurwald, Aussicht am Jägerhaus.",
+   "credit": "Werner Schüle",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landappbw_306488_1817_Aussicht_Schurwald,_oberhalb_Esslingen,_beim_%22J%C3%A4gerhaus%22.jpg",
+   "kind": "ort"
+  }
+ ]
 }

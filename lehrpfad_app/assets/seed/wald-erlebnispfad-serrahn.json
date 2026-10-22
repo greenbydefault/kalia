@@ -36,7 +36,6 @@
   "einkehr",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.361426,
@@ -807,28 +806,27 @@
    13.240989
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -3437516949,
    "lat": 53.3613708,
    "lon": 13.1745291,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Eingang Zinow",
    "thema": "Start Welterbe-Pfad",
    "kurztext": "Parkplatz am Waldrand, Tafeln zum Welterbe. Ab hier führt das Buchenblatt vom Forst in den Urwald. Bleib auf dem markierten Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2247490492,
    "lat": 53.3615519,
    "lon": 13.1759677,
    "km": 0.12,
+   "reihenfolge": 2,
    "titel": "Die Fichte ist hier nicht verwurzelt",
    "thema": "Pionier / Fehlstandort",
    "kurztext": "Die Fichte steht, ist hier aber fehl am Platz. Warum, sagt die Tafel – und der Boden darunter.",
@@ -836,30 +834,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -2837209846,
    "lat": 53.3615435,
    "lon": 13.1778512,
    "km": 0.27,
+   "reihenfolge": 3,
    "titel": "Pioniere!",
    "thema": "Erste Bäume nach Störung",
    "kurztext": "Nach Sturm oder Hieb kommen zuerst die Schnellen. Welche Art siehst du in den ersten Metern?",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1358191216,
    "lat": 53.3570065,
    "lon": 13.1882854,
    "km": 1.22,
+   "reihenfolge": 4,
    "titel": "Gemeine Kiefer – der Brotbaum",
    "thema": "Wirtschaftswald",
    "kurztext": "Die Kiefer hat den Forst ernährt. Hier beginnt der Kontrast zum Buchenwald, der später kommt.",
@@ -867,45 +863,42 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -874416943,
    "lat": 53.3545776,
    "lon": 13.1921873,
    "km": 1.74,
+   "reihenfolge": 5,
    "titel": "Der gefiederte Waldgärtner",
    "thema": "Tiere pflanzen Wald",
    "kurztext": "Wer hat die kleinen Bäume gepflanzt? Oft ein Vogel. Die nächste Tafel nennt ihn.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -1451062441,
    "lat": 53.3534676,
    "lon": 13.1990094,
    "km": 2.49,
+   "reihenfolge": 6,
    "titel": "Großer Serrahnsee",
    "thema": "Aussicht, Adler, Kranich",
    "kurztext": "Blick über Moor und See. Seeadler, Fischadler, Kranich – Glückssache. Glas und Abstand.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -1717439610,
    "lat": 53.3493763,
    "lon": 13.2003116,
    "km": 2.99,
+   "reihenfolge": 7,
    "titel": "Rotbuche – die Dominante",
    "thema": "Urwald / Welterbe",
    "kurztext": "Die Dominante des Welterbes. Totholz, Lichtflecken, Jungbuchen. So sieht Wald aus, den niemand mehr aufräumt.",
@@ -913,60 +906,56 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -2653212444,
    "lat": 53.3482422,
    "lon": 13.2005317,
    "km": 3.13,
+   "reihenfolge": 8,
    "titel": "Dorfstelle Saran",
    "thema": "Menschliche Spur im Wald",
    "kurztext": "Hier lag eine Siedlung. Der Wald hat sie übernommen. Menschliche Spuren unter Buchen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -2055536233,
    "lat": 53.3484349,
    "lon": 13.1945904,
    "km": 3.3,
+   "reihenfolge": 9,
    "titel": "UNESCO-Welterbe",
    "thema": "Alte Buchenwälder",
    "kurztext": "Seit 2011 Teil der Alten Buchenwälder Deutschlands. Kein Extra-Ticket, aber Regeln: Weg, Leine, keine Souvenirs aus dem Reservat.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -1155976572,
    "lat": 53.3442857,
    "lon": 13.2020332,
    "km": 3.67,
+   "reihenfolge": 10,
    "titel": "Forsthaus Serrahn",
    "thema": "Zielort / Pause",
    "kurztext": "Dorf im Wald. Café in der Saison, Ausstellung hinter der Tür – der Pfad endet draußen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": -3987976421,
    "lat": 53.3467817,
    "lon": 13.20229,
    "km": 3.83,
+   "reihenfolge": 11,
    "titel": "Ein lebendiges Moor ist baumfrei",
    "thema": "Moorsteg-Thema",
    "kurztext": "Lebendiges Moor bleibt offen. Der Steg schützt die Fläche – und dich vor nassen Füßen.",
@@ -974,9 +963,7 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -984,8 +971,7 @@
    "osmId": 903186329,
    "lat": 53.34561,
    "lon": 13.2002851,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 903187001,
@@ -998,46 +984,40 @@
    "osmId": 903187152,
    "lat": 53.3576312,
    "lon": 13.1844956,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5368959220,
    "lat": 53.3493337,
    "lon": 13.217316,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 5375851320,
    "lat": 53.3539025,
    "lon": 13.2298273,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 5375851321,
    "lat": 53.3538485,
    "lon": 13.2301363,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 937102977,
    "lat": 53.3613872,
-   "lon": 13.174528140000001,
+   "lon": 13.17452814,
    "kategorie": "shelter",
    "name": "Weltnaturerbe-Pavillon"
   },
   {
    "osmId": 1155986668,
-   "lat": 53.36138857499999,
-   "lon": 13.174461112500001,
-   "kategorie": "parking",
-   "name": null
+   "lat": 53.361388575,
+   "lon": 13.1744611125,
+   "kategorie": "parking"
   }
  ],
- "bilderAsset": "assets/images/trails/wald-erlebnispfad-serrahn/credits.json",
  "lebensraeume": [
   "buchenwald",
   "kiefernforst",
@@ -1059,5 +1039,18 @@
   "Amsel": "typisch",
   "Bekassine": "typisch",
   "Blaumeise": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "4bede66b-d6c6-56de-99ca-3967fdfe8588",
+   "id": "4bede66b-d6c6-56de-99ca-3967fdfe8588",
+   "caption": "Buchenwald Serrahn – UNESCO-Weltnaturerbe.",
+   "credit": "C. Löser",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarpin-Serrahn_Buchenwald_Juli-2017_DSC_0642.JPG",
+   "kind": "ort"
+  }
+ ]
 }

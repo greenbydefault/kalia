@@ -23,7 +23,6 @@
   "kinderfreundlich",
   "spielplatz"
  ],
- "route": [],
  "area": [
   [
    53.3864576,
@@ -79,8 +78,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 920002,
@@ -94,8 +92,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 3839884042,
@@ -109,8 +106,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -129,11 +125,19 @@
    "name": "Marina"
   }
  ],
- "bilderAsset": "assets/images/trails/wasserspielplatz-roebel/credits.json",
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "artenNachweis": {
-  "Libelle": "belegt",
-  "Eisvogel": "belegt"
- }
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "1fd3467f-6149-5cc5-a872-8127f535651a",
+   "id": "1fd3467f-6149-5cc5-a872-8127f535651a",
+   "caption": "Seglerhafen Röbel – der Wasserspielplatz liegt direkt am Hafen.",
+   "credit": "Andy Mendyk",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASegelyachthafen_R%C3%B6bel_-_panoramio.jpg",
+   "kind": "ort"
+  }
+ ]
 }

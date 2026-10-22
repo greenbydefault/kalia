@@ -56,7 +56,6 @@
   "picknick",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    53.692195,
@@ -783,157 +782,146 @@
    12.060883
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 4833468032,
    "lat": 53.6967049,
    "lon": 12.041139,
    "km": 1.99,
+   "reihenfolge": 1,
    "titel": "Beginn des Rundweges",
    "thema": "Tafel am Forsthaus Lähnwitz",
    "kurztext": "Hier beginnt die Runde. Tafel zum Lehrpfad und ein überdachter Rastplatz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 12995864528,
    "lat": 53.6997726,
    "lon": 12.0336235,
    "km": 2.62,
+   "reihenfolge": 2,
    "titel": "Wegweiser",
    "thema": "Abzweig am Lähnwitzer See",
    "kurztext": "Tafel vor dem Abzweig. Der Wegweiser-Stein zeigt Richtung Klein Upahl.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 4834400400,
    "lat": 53.7032613,
    "lon": 12.0385413,
    "km": 3.24,
+   "reihenfolge": 3,
    "titel": "Hügelgrab",
    "thema": "Bronzezeitlicher Grabhügel",
    "kurztext": "Grabhügel aus der Bronzezeit, über einen schmalen Weg im Wald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 597671073,
    "lat": 53.7033227,
    "lon": 12.0391735,
    "km": 3.28,
+   "reihenfolge": 4,
    "titel": "Großsteingrab",
    "thema": "Megalithgrab Klein Upahl",
    "kurztext": "Großsteingrab am Ende des Abzweigs.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 4834400387,
    "lat": 53.7039552,
    "lon": 12.0337844,
    "km": 3.71,
+   "reihenfolge": 5,
    "titel": "Schwedenkiefer",
    "thema": "Kiefer am Abzweig",
    "kurztext": "Kurzer Weg von der Gabel zur Kiefer und zurück.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 4833517150,
    "lat": 53.7090563,
    "lon": 12.0195284,
    "km": 5.68,
+   "reihenfolge": 6,
    "titel": "Postmoor",
    "thema": "Moor im Forstrevier",
    "kurztext": "Tafel am Postmoor.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 2485646347,
    "lat": 53.70144,
    "lon": 12.01892,
    "km": 6.96,
+   "reihenfolge": 7,
    "titel": "Hügelgrab",
    "thema": "Grabhügel vor dem Steintanz",
    "kurztext": "Zweiter Grabhügel, am Weg zum Steintanz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 8284370506,
    "lat": 53.6940229,
    "lon": 12.0245319,
    "km": 7.94,
+   "reihenfolge": 8,
    "titel": "Steintanz Lenzen",
    "thema": "Neun Steine im Kreis",
    "kurztext": "Neun große Steine und eine Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 2485646195,
    "lat": 53.69192,
    "lon": 12.02621,
    "km": 8.23,
+   "reihenfolge": 9,
    "titel": "Dröger Kraug",
    "thema": "Rastplatz der Holzabfuhr",
    "kurztext": "Überdachter Rastplatz. Ein Findling erinnert an die bespannte Holzabfuhr.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 4833500482,
    "lat": 53.6931102,
    "lon": 12.0275429,
    "km": 8.39,
+   "reihenfolge": 10,
    "titel": "Brümmelmoor",
    "thema": "Moor am Weg",
    "kurztext": "Tafel am Brümmelmoor.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -941,117 +929,112 @@
    "osmId": 597669042,
    "lat": 53.6919383,
    "lon": 12.0598984,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 597669093,
    "lat": 53.6917562,
    "lon": 12.0617365,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4833517170,
    "lat": 53.6918699,
    "lon": 12.0263211,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4833517171,
    "lat": 53.6919207,
    "lon": 12.0263587,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4833517172,
    "lat": 53.6919699,
    "lon": 12.0263869,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 7203599211,
    "lat": 53.6940917,
    "lon": 12.0622574,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9395383956,
    "lat": 53.6967443,
    "lon": 12.0412116,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 10171074454,
    "lat": 53.7032528,
    "lon": 12.0385761,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14023976385,
    "lat": 53.69277,
    "lon": 12.0610092,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 14029054701,
    "lat": 53.6921156,
    "lon": 12.0596613,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 14029466201,
    "lat": 53.6918965,
    "lon": 12.0615119,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14177207746,
    "lat": 53.691855,
    "lon": 12.0616115,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14177280722,
    "lat": 53.691736,
    "lon": 12.0617382,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 14177302096,
    "lat": 53.6920033,
    "lon": 12.0607484,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14177315560,
    "lat": 53.6919012,
    "lon": 12.0606626,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14177316816,
    "lat": 53.6915822,
    "lon": 12.061715,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "eintritt": false,
  "besuchshinweise": "Schuhwerk mit Profil. Zum Hügelgrab und zum Großsteingrab nur mit Unterstützung. Zwischen Postmoor und dem Feldrand ist der Weg nicht barrierefrei.",
  "hoertext": "Neben dem Campingplatz in Garden löst sich ein Waldweg vom Garder See und läuft in den Forst von Lohmen. Am Forsthaus öffnet sich die Runde. Vom See zieht der Weg durch den Forst, biegt schmal ab zu einem bronzezeitlichen Grabhügel und einem Großsteingrab und findet auf der Lichtung den Steintanz Lenzen, neun große Steine im Kreis. Die Steine rühren sich nicht. Ein Findling am Rastplatz Dröger Kraug nennt die alte Rast der bespannten Holzabfuhr. Ohne stützende Hand trägt der schmale Weg zum Grabhügel niemanden.",
- "bilderAsset": "assets/images/trails/lehrpfad-laehnwitz/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "4a4c5942-9ea0-5f64-94c3-0573b169c245",
+   "id": "4a4c5942-9ea0-5f64-94c3-0573b169c245",
+   "caption": "Garder See bei Lohmen, Start am Campingplatz.",
+   "credit": "Alma",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garder_See_2008.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -33,10 +33,7 @@ class EignungMeter extends StatelessWidget {
         children: [
           Row(
             children: [
-              eintrag.buildIcon(
-                size: 16,
-                color: theme.colorScheme.primary,
-              ),
+              eintrag.buildIcon(size: 16, color: theme.colorScheme.primary),
               const SizedBox(width: 6),
               Expanded(
                 child: Text(

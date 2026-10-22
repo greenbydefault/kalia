@@ -19,18 +19,18 @@ class _BeziehungCard extends ConsumerWidget {
 
     final targetName = beziehung.isKatalogArt
         ? catalogAsync.asData?.value
-                .where((s) => s.id == beziehung.toSpeciesId)
-                .firstOrNull
-                ?.nameDe ??
-            beziehung.nameDe
+                  .where((s) => s.id == beziehung.toSpeciesId)
+                  .firstOrNull
+                  ?.nameDe ??
+              beziehung.nameDe
         : beziehung.nameDe;
 
     final targetLat = beziehung.isKatalogArt
         ? catalogAsync.asData?.value
-                .where((s) => s.id == beziehung.toSpeciesId)
-                .firstOrNull
-                ?.nameLat ??
-            beziehung.nameLat
+                  .where((s) => s.id == beziehung.toSpeciesId)
+                  .firstOrNull
+                  ?.nameLat ??
+              beziehung.nameLat
         : beziehung.nameLat;
 
     return Container(

@@ -5,7 +5,7 @@
  "gebiet": "wasser",
  "kurzbeschreibung": "Schwengelpumpe und vier Matschtische am Gartenlokal. Nur bei offenem Haus, wetterabhängig.",
  "beschreibung": "Am Ende des Gartenlokals auf der Peißnitzinsel, unter Bäumen, liegt ein kleiner Wasserspielplatz des Peißnitzhaus e.V. Vier Matschtische, Wasserbahnen und Röhren. Eine Schwengelpumpe bringt das Wasser von Hand in den Umlauf. Die meisten Teile sind aus recyceltem Material, gebaut 2024 mit Preisgeld des Wettbewerbs Revierpionier. Matten machen den Platz größtenteils befahrbar, ein Kinderrollstuhl passt unter die Tische. Kein Eintritt. Offen nur mit dem Haus und nur bei passendem Wetter: ab 1. April, Montag und Dienstag zu, Mittwoch 17 bis 24 Uhr, Donnerstag bis Sonntag 12 bis 19 Uhr. Die Stadtspielplätze und der Kletterwald weiter auf der Insel sind andere Orte. Haltestelle Diakoniewerk Halle.",
- "laengeKm": 0.0,
+ "laengeKm": 0,
  "dauerMin": 45,
  "rundkurs": false,
  "markierung": "Gartenlokal Peißnitzhaus",
@@ -63,43 +63,43 @@
    "osmId": -1822207548,
    "lat": 51.493583,
    "lon": 11.947116,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Schwengelpumpe",
    "thema": "Handpumpe",
    "kurztext": "Schwengelpumpe. Du holst das Wasser selbst, es kommt nicht aus einem Tank.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -1169718529,
    "lat": 51.493574,
    "lon": 11.947044,
    "km": 0.01,
+   "reihenfolge": 2,
    "titel": "Wasserbahnen",
    "thema": "Bahnen und Röhren",
    "kurztext": "Bahnen und Röhren. Die Pumpe schiebt das Wasser hier durch.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -4023197249,
    "lat": 51.493538,
    "lon": 11.947073,
    "km": 0.01,
+   "reihenfolge": 3,
    "titel": "Matschtische",
    "thema": "Vier Tische",
    "kurztext": "Vier Matschtische. Ein Kinderrollstuhl passt darunter, Matten liegen auf dem Boden.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "reihenfolge": 3
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -107,8 +107,7 @@
    "osmId": 5895967055,
    "lat": 51.494112,
    "lon": 11.9478294,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11947127782,
@@ -135,29 +134,37 @@
    "osmId": 12797196699,
    "lat": 51.4930829,
    "lon": 11.9475548,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12797237744,
    "lat": 51.4928709,
    "lon": 11.9471159,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12797258469,
    "lat": 51.4930816,
    "lon": 11.9475075,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
  "oeffnungszeiten": "Ab 1. April. Mo/Di zu. Mi 17–24 Uhr, Do–So 12–19 Uhr. Nur bei passendem Wetter.",
  "besuchshinweise": "Nur während das Haus offen ist. Wechselkleidung mitnehmen. Matten liegen aus, ein Kinderrollstuhl passt unter die Tische.",
  "hoertext": "Am Ende des Gartenlokals auf der Peißnitz steht eine Schwengelpumpe unter den Bäumen. Du pumpst selbst, das Wasser läuft durch Bahnen und Röhren zu vier Matschtischen. Ein Kinderrollstuhl passt unter die Tische, Matten liegen auf dem Boden. Montag und Dienstag ist zu. Mittwoch geht es erst ab siebzehn Uhr, Donnerstag bis Sonntag ab zwölf, und nur wenn das Wetter mitspielt. Nimm Wechselkleidung mit.",
- "bilderAsset": "assets/images/trails/wasserspielplatz-peissnitzhaus/credits.json",
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "artenNachweis": {}
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "39021085-0ff9-5e7d-ab42-2dfc55131de9",
+   "id": "39021085-0ff9-5e7d-ab42-2dfc55131de9",
+   "caption": "Peißnitzhaus von Südosten, Turm und Ziegel. Der Wasserspielplatz von 2024 liegt am Gartenlokal, nicht in diesem Bild.",
+   "credit": "Heinrich Stürzl",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halle_Pei%C3%9Fnitzhaus_von_SO.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -38,7 +38,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    49.011172,
@@ -221,13 +220,13 @@
    12.782125
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 49.0111715,
    "lon": 12.7821246,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann auf den Steg",
    "kurztext": "Kasse am Woid-Wipfe-Häusl. Ticket, dann westlich aufs Holz. Kinderwagen und Rollstuhl mit. Hund anleinen. Die Waldgaststube sitzt hier, nur mit Ticket. Haus am Kopf und Flieger sind extra, anderer Block.",
@@ -235,15 +234,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -93718623,
    "lat": 49.0107953,
    "lon": 12.7806073,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Panoramasteg",
    "thema": "Holz auf 36 Masten, Fichtenkronen",
    "kurztext": "Hier hängt der Steg im Hang. Zweieinhalb Meter breit, Holz, bis dreißig Meter über dem Boden. Unten Fichten, der B-Plan nennt fast nur die. Es wippt kaum, die Masten tragen. Blick nach Süden öffnet sich schon.",
@@ -251,39 +249,35 @@
     "steg",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -189385970,
    "lat": 49.0107065,
    "lon": 12.7802576,
    "km": 0.25,
+   "reihenfolge": 3,
    "titel": "Aussichtssteg",
    "thema": "Bayerwald, Donau, bei Klarheit Alpen",
    "kurztext": "Abzweig auf halber Länge. Plattform über dem Hang: Höhenzüge, Donautal, Gäuboden. Bei klarer Sicht die Alpen. Hängebrücke 25 Meter liegt extra an der Seite, gleicher Steg.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 49.0111117,
    "lon": 12.7797704,
    "km": 0.37,
+   "reihenfolge": 4,
    "titel": "Waldturm",
    "thema": "Zweiundfünfzig Meter, Rampe außen",
    "kurztext": "Der neue Turm. Rampe an der Außenseite, barrierefrei bis zur Plattform, Rundblick. Klettern geht kürzer hoch. Zwei Röhrenrutschen runter, nur trocken, unbegrenzt im Ticket. Zurück am Boden zur Kasse.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -291,132 +285,114 @@
    "osmId": 280047448,
    "lat": 49.0107065,
    "lon": 12.7802576,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 3398631829,
    "lat": 49.0110694,
    "lon": 12.7819438,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3823616589,
    "lat": 49.0110001,
    "lon": 12.782437,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 4675488692,
    "lat": 49.0112553,
    "lon": 12.7820842,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 5638401306,
    "lat": 49.010313,
    "lon": 12.7817786,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8432447904,
    "lat": 49.0111841,
    "lon": 12.7798002,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 9774929809,
    "lat": 49.0115623,
    "lon": 12.7832131,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 9779211672,
    "lat": 49.0116275,
    "lon": 12.7813334,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 10913965738,
    "lat": 49.0112019,
    "lon": 12.7801779,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10913984071,
    "lat": 49.0110831,
    "lon": 12.7802812,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10914006423,
    "lat": 49.0108524,
    "lon": 12.7804547,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12001473998,
    "lat": 49.0110977,
    "lon": 12.7819665,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12001474003,
    "lat": 49.0113907,
    "lon": 12.7815374,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12847640094,
    "lat": 49.0115702,
    "lon": 12.7817543,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12847660229,
    "lat": 49.0111999,
    "lon": 12.7815639,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12847660230,
    "lat": 49.0113239,
    "lon": 12.7818924,
-   "kategorie": "gastro",
-   "name": null
+   "kategorie": "gastro"
   },
   {
    "osmId": 12847660231,
    "lat": 49.0117039,
    "lon": 12.7809497,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12847660241,
    "lat": 49.0113521,
    "lon": 12.7819622,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 39173883,
-   "lat": 49.011147853846154,
-   "lon": 12.782014338461538,
+   "lat": 49.0111478538462,
+   "lon": 12.7820143384615,
    "kategorie": "gastro",
    "name": "Woid-Wipfe-Häusl"
   },
@@ -424,8 +400,7 @@
    "osmId": 384799653,
    "lat": 49.01113242,
    "lon": 12.7834884,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
  "eintritt": true,
@@ -433,7 +408,6 @@
  "oeffnungszeiten": "Apr–Sep täglich 9–19 Uhr, Okt 9–18, Feb/Mär 9–17, Nov–Jan Mo und Do–So plus Feiertag 9–16 (Di/Mi zu, außer Ferien). Letzter Einlass 1 Stunde vorher. Ganzjährig, bei Extremwetter zu. waldwipfelweg.de/kontakt.",
  "besuchshinweise": "Steg und Turm barrierefrei: Rampe, Kinderwagen, Rollstuhl. Zwei Rutschen im Turm nur bei Trockenheit, klettern optional. Hunde an der Leine, nicht in den Bayerwaldflieger. Haus am Kopf extra 2 €. Naturerlebnispfad und Optik-Pfad extra am Boden. Waldgaststube nur mit Ticket. Gruppen ab 15 anmelden. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Ticket an der Kasse. In Maibrunn hängt der Steg durch die Fichten – dreihundertsiebzig Meter, dreißig hoch. Kinderwagen und Rollstuhl kommen mit. Der Turm zweiundfünfzig, Rampe oder klettern. Hunde an der Leine, nicht in den Flieger. Haus am Kopf extra. Letzter Einlass eine Stunde vor Schluss.",
- "bilderAsset": "assets/images/trails/waldwipfelweg-sankt-englmar/credits.json",
  "lebensraeume": [
   "nadelforst",
   "buchenwald"
@@ -454,5 +428,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "5c8c37a0-bc40-546a-a246-c70d0a4f3608",
+   "id": "5c8c37a0-bc40-546a-a246-c70d0a4f3608",
+   "caption": "Waldwipfelweg Sankt Englmar, Steg über Maibrunn.",
+   "credit": "Kora27",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaldwipfelweg_St._Englmar._Bayern...2011Bayern_1069WI.jpg",
+   "kind": "ort"
+  }
+ ]
 }

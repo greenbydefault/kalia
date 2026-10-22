@@ -10,8 +10,8 @@ class SupabaseSpeciesRepository implements SpeciesRepository {
 
   final SupabaseClient _client;
 
-  static const _columns =
-      'id, name_de, name_lat, kategorie, kurztext, content, aliases, '
+  static const columns =
+      'id, name_de, name_lat, kategorie, kurztext, content, aliases, version, '
       'image_path, image_credit, audio_path, icon_key, '
       'gruppe, seltenheit, gefahr, nahrung, '
       'tax_reich, tax_stamm, tax_klasse, tax_ordnung, tax_familie, masse, '
@@ -22,7 +22,7 @@ class SupabaseSpeciesRepository implements SpeciesRepository {
   Future<List<Species>> getCatalog() async {
     final rows = await _client
         .from('species')
-        .select(_columns)
+        .select(columns)
         .order('name_de', ascending: true);
     return rows.map(rowToJson).map(Species.fromJson).toList();
   }
@@ -44,6 +44,7 @@ class SupabaseSpeciesRepository implements SpeciesRepository {
     'kategorie': row['kategorie'],
     'kurztext': row['kurztext'] ?? '',
     'content': row['content'] ?? const <String, dynamic>{},
+    'version': row['version'] ?? 1,
     'aliases': row['aliases'] ?? const <String>[],
     'imagePath': row['image_path'],
     'imageCredit': row['image_credit'] ?? '',

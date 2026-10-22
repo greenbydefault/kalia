@@ -38,7 +38,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    54.433338,
@@ -189,13 +188,13 @@
    13.556505
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 54.4333383,
    "lon": 13.5593225,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Einstiegsturm",
    "thema": "Ohne Stufe auf den Steg",
    "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, dann rauf – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse, der junge Seeadler sucht den Horst.",
@@ -203,15 +202,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -1096437279,
    "lat": 54.4328565,
    "lon": 13.5599901,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Balancier",
    "thema": "Der Steg gibt nach",
    "kurztext": "Erster Wackelsteg neben der Hauptlinie. Die Bretter federen, der Rest bleibt starr. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
@@ -219,30 +217,28 @@
     "mitmach-modell",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3489443251,
    "lat": 54.432367,
    "lon": 13.558848,
    "km": 0.32,
+   "reihenfolge": 3,
    "titel": "Vom Forst zum Naturwald",
    "thema": "Was die DBU liegen lässt",
    "kurztext": "Tafel am Geländer. Hier war Forst, jetzt Naturerbefläche. Totholz bleibt, Specht zimmert, Fledermaus zieht ein. Der Pfad räumt nicht – der Wald braucht die Löcher. Schau in den Stamm, nicht nur zum Turm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -3072999974,
    "lat": 54.4324286,
    "lon": 13.5581719,
    "km": 0.4,
+   "reihenfolge": 4,
    "titel": "Barfußpfad",
    "thema": "Siebzehn Kästen, Füße zuerst",
    "kurztext": "Knapp 40 Meter, 17 Fühlkästen. Schuhe aus, dann Rinde, Kies, Zapfen. Daneben bleibt der Steg für Kinderwagen. Kein Muss – wer Socken anlässt, geht außen rum.",
@@ -250,15 +246,14 @@
     "barfusspfad",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -2456670892,
    "lat": 54.431825,
    "lon": 13.5575137,
    "km": 0.55,
+   "reihenfolge": 5,
    "titel": "Adlerhorst",
    "thema": "40 Meter um eine Buche",
    "kurztext": "Rampe ohne Stufe, 600 Meter Spirale, in der Mitte eine Rotbuche. Oben 29 Meter Plattform: Prorer Wiek, Kleiner Jasmunder Bodden, bei klarer Sicht Stralsund. Der Turm heißt so, weil Seeadler hier brüten – Fernglas, nicht rufen.",
@@ -266,54 +261,49 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -3059717958,
    "lat": 54.431874,
    "lon": 13.557369,
    "km": 0.62,
+   "reihenfolge": 6,
    "titel": "Tunnelrutsche",
    "thema": "Runter, 52 Meter",
    "kurztext": "Einstieg 19 Meter über dem Boden, extra 2 €. Bei Regen oft zu. Kinder unter 6 auf der Matte des Erwachsenen. Kein Muss – der Trail bleibt oben barrierefrei bis zum Ausstiegsturm.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -2961402205,
    "lat": 54.432829,
    "lon": 13.557024,
    "km": 0.95,
+   "reihenfolge": 7,
    "titel": "Lebensraum Ostsee",
    "thema": "Zwei Meere, ein Höhenrücken",
    "kurztext": "Links irgendwann die Prorer Wiek, rechts der Bodden. Der Rücken dazwischen ist Schanzenberg, Kreide und Sand. Tafel zu Zugvögeln und Geologie – nicht Wikipedia. Der Blick kommt erst richtig oben am Turm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": -2619646449,
    "lat": 54.4338875,
    "lon": 13.5565217,
    "km": 1.25,
+   "reihenfolge": 8,
    "titel": "Ausstiegsturm",
    "thema": "Runter mit dem Aufzug",
    "kurztext": "Hier endet der Steg. Aufzug ins Umweltinformationszentrum, WC, Boomhus, Spielplatz. Die Ausstellung 360° Naturerbe Prora ist Indoor und extra. Zurück zum Parkplatz unten rum, nicht nochmal den Steg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -321,15 +311,13 @@
    "osmId": 2664696190,
    "lat": 54.4336869,
    "lon": 13.5574268,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 2460203307,
    "lat": 54.4341478,
    "lon": 13.5579963,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 2659586893,
@@ -363,29 +351,25 @@
    "osmId": 13089317879,
    "lat": 54.4328574,
    "lon": 13.5570256,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13089317880,
    "lat": 54.4323389,
    "lon": 13.5576197,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13089317882,
    "lat": 54.4324333,
    "lon": 13.5582239,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14135720135,
    "lat": 54.4339305,
    "lon": 13.558123,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12229942729,
@@ -400,7 +384,6 @@
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
  "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Pfad und Adlerhorst ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Ausstiegsturm mit Aufzug. Rollstuhl oder Rollator nach Anmeldung. Tunnelrutsche 2 € extra, Einstieg 19 m, bei Nässe oft zu; April 10:30–17, Mai–Oktober 10:30–18. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Über den Brettern hängt der Buchenwald, im Turm steht eine Rotbuche. Der Steg bleibt ohne Stufe, den Adlerhorst nimmt die Rampe mit. Bei klarem Blick Ostsee und Bodden, manchmal ein Seeadler. Kinderwagen und Rollstuhl kommen mit, Hunde bleiben in der Box. Die Rutsche kostet extra und bleibt nass zu. Letzter Einlass eine Stunde vor Schluss.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-ruegen/credits.json",
  "lebensraeume": [
   "buchenwald",
   "kuestenwald-kiefer"
@@ -422,5 +405,18 @@
   "Amsel": "typisch",
   "Bergahorn": "typisch",
   "Blaumeise": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "0b1bec64-57d4-56a8-a220-f4254edd0794",
+   "id": "0b1bec64-57d4-56a8-a220-f4254edd0794",
+   "caption": "Forsthaus Prora, dahinter der Adlerhorst.",
+   "credit": "J.-H. Janßen",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerbe_Zentrum_Ruegen_Forsthaus_Prora_02.JPG",
+   "kind": "ort"
+  }
+ ]
 }

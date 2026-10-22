@@ -1,12 +1,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:just_audio/just_audio.dart';
 
+import '../../features/offline/resolver/asset_resolver.dart';
 import '../media/media_url.dart';
 
 /// Ein zentraler Player für die ganze App.
 ///
 /// Ein einziger [AudioPlayer] verhindert Overlap zwischen Arten-/Stations-Audio.
 class AudioPlaybackService {
+  /// [resolve] entscheidet die Quelle (lokale Datei → Netz → Bundle-Asset,
+  /// siehe `AssetResolver.audio`). Ohne Resolver: wie bisher Asset oder URL.
+  AudioPlaybackService({this._resolve});
+
+  final ResolvedAudio? Function(String path)? _resolve;
   final AudioPlayer _player = AudioPlayer();
   String? _currentSource;
 
@@ -22,11 +28,25 @@ class AudioPlaybackService {
   /// `http(s)://` bzw. `storage:`-Pfaden (Admin-CMS), die Datei aus dem Netz.
   Future<void> prepare(String assetPath) async {
     if (_currentSource == assetPath) return;
-    final url = MediaUrl.resolve(assetPath);
-    if (url != null) {
-      await _player.setUrl(url);
+    final resolve = _resolve;
+    if (resolve != null) {
+      switch (resolve(assetPath)) {
+        case AudioFileSource(:final path):
+          await _player.setFilePath(path);
+        case AudioUrlSource(:final url):
+          await _player.setUrl(url);
+        case AudioAssetSource(:final path):
+          await _player.setAsset(path);
+        case null:
+          throw StateError('Audio offline nicht verfügbar: $assetPath');
+      }
     } else {
-      await _player.setAsset(assetPath);
+      final url = MediaUrl.resolve(assetPath);
+      if (url != null) {
+        await _player.setUrl(url);
+      } else {
+        await _player.setAsset(assetPath);
+      }
     }
     _currentSource = assetPath;
   }

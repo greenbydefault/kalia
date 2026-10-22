@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    53.715928,
@@ -200,28 +199,27 @@
    12.945246
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2007879502,
    "lat": 53.7159283,
    "lon": 12.9461056,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Rampe / Einstieg",
    "thema": "Von der Wurzel nach oben",
    "kurztext": "Hier beginnt der Steg. Ticket schon an der Kasse am Tor. Die Rampe steigt mit sechs Prozent, ohne Stufe. Der Aufzug sitzt im Turm, drei Halte. Letzter Einlass vor 17 Uhr.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -995567605,
    "lat": 53.716072,
    "lon": 12.9457462,
    "km": 0.15,
+   "reihenfolge": 2,
    "titel": "14 Stationen",
    "thema": "Wald am Geländer, Yoga dazu",
    "kurztext": "Vierzehn Stationen am Weg: Wald, Kultur, ein paar Yoga-Übungen am Geländer. Kein Muss. Die Eichen stehen daneben, der Steg bleibt schmal.",
@@ -229,15 +227,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -93718623,
    "lat": 53.7166228,
    "lon": 12.9455798,
    "km": 0.35,
+   "reihenfolge": 3,
    "titel": "Steg in den Kronen",
    "thema": "16 bis 23 Meter über dem Boden",
    "kurztext": "Holz über Hutewald. Unten Damwild und Koniks, oben die Kronen der Stieleichen. Der Steg bleibt in den Bäumen, der Turm kommt danach.",
@@ -245,24 +242,21 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 53.7160195,
    "lon": 12.9452585,
    "km": 0.62,
+   "reihenfolge": 4,
    "titel": "Aussichtsturm",
    "thema": "40 Meter, Schloss und See",
    "kurztext": "Drei Halte im Aufzug, oben 40 Meter. Ivenack, Gutshaus, See. Die Ringeiche steht im Park, nicht auf dem Holz. Runter Aufzug oder Rampe.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -270,36 +264,31 @@
    "osmId": 620844962,
    "lat": 53.7160195,
    "lon": 12.9452585,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 13047951908,
    "lat": 53.7157083,
    "lon": 12.944233,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 889045310,
    "lat": 53.7157646,
    "lon": 12.9453803,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13047870484,
    "lat": 53.7156948,
    "lon": 12.9452592,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 889045286,
    "lat": 53.715676,
    "lon": 12.9467013,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 75284858,
@@ -312,8 +301,7 @@
    "osmId": 977804340,
    "lat": 53.7163898,
    "lon": 12.9526292,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 821018817,
@@ -326,8 +314,7 @@
    "osmId": 1419931725,
    "lat": 53.7120353,
    "lon": 12.9437533,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   }
  ],
  "eintritt": true,
@@ -335,7 +322,6 @@
  "oeffnungszeiten": "Pfad April–Oktober täglich 10–17 Uhr. Saison 2026: 1. April bis 1. November. November–März zu. Letzter Einlass an der Kasse beachten. Bei Sturm, Gewitter, Eis zu.",
  "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeparkplatz am Fuß. Pfad max. 6 %, Kinderwagen und Rollstuhl, Aufzug im Turm mit drei Halten. Koniks nicht anfassen, nicht füttern. Führungen nur nach Anmeldung, nur Werktags.",
  "hoertext": "Im Hutewald von Ivenack windet sich der Steg von der Wurzel in die Kronen. Ohne Stufe, der Aufzug nimmt den Kinderwagen mit. Oben der Turm, Schloss und See liegen vor dir. Die Eichen stehen seit Jahrhunderten. Hunde bleiben unten am Parkplatz. Von November bis März ist der Pfad zu.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-ivenack/credits.json",
  "lebensraeume": [
   "eichen-mischwald"
  ],
@@ -355,5 +341,18 @@
   "Mittelspecht": "typisch",
   "Rotkehlchen": "typisch",
   "Reh": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "cc9f6090-9902-5106-9631-e9dabb0e3c92",
+   "id": "cc9f6090-9902-5106-9631-e9dabb0e3c92",
+   "caption": "Steg durch den Hutewald in Ivenack.",
+   "credit": "Bybbisch94, Christian Gebhardt",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190906.Baumkronenpfad_Ivenacker_Eichen.-011.jpg",
+   "kind": "ort"
+  }
+ ]
 }

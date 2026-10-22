@@ -605,37 +605,36 @@
    "osmId": -3750050274,
    "lat": 52.420464,
    "lon": 13.764193,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Wandern im Waldreich",
    "thema": "Start mit Wupatz",
    "kurztext": "Hier beginnt der Rundweg ins „Waldreich“ des Löcknitztals. Der Waldwichtel Wupatz begrüßt dich und stimmt auf 16 Stationen ein, an denen gerätselt, gehört und mitgemacht wird – zwischen Kiefernwald, Wiesen und Wasser.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -3601886540,
    "lat": 52.4194,
    "lon": 13.7665,
    "km": 0.21,
+   "reihenfolge": 2,
    "titel": "Waldauge",
    "thema": "Genau hinschauen",
    "kurztext": "Das Waldauge lädt ein, den Blick zu schärfen: Formen, Farben und kleine Bewegungen am Wegesrand. Wer hier bewusst hinsieht, entdeckt schon vor den großen Tafeln die ersten Bewohner des Löcknitztals.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 7820192746,
    "lat": 52.4188224,
    "lon": 13.769266,
    "km": 0.4,
+   "reihenfolge": 3,
    "titel": "Wiesen an der Löcknitz",
    "thema": "Offene Aue",
    "kurztext": "Entlang der Löcknitz öffnen sich bunte Wiesen – Lebensraum für Insekten, Vögel und Pflanzen wie das Wiesenschaumkraut. Die Tafel erklärt, warum diese offenen Flächen im Wechsel mit dem Wald so wertvoll sind.",
@@ -643,15 +642,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 7820192745,
    "lat": 52.4187133,
    "lon": 13.7705268,
    "km": 0.49,
+   "reihenfolge": 4,
    "titel": "Baumarten und Waldrand",
    "thema": "Wer steht hier?",
    "kurztext": "Am Waldrand treffen sich Licht und Schatten. Die Station zu den Baumarten hilft, Birke, Hainbuche („Eisenholz“) und Co. zu unterscheiden – und zeigt, warum gerade der Übergang vom Wald zur Wiese so artenreich ist.",
@@ -660,15 +658,14 @@
     "bestimmung",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 7902509920,
    "lat": 52.4207525,
    "lon": 13.772071,
    "km": 0.75,
+   "reihenfolge": 5,
    "titel": "Nahrungskette",
    "thema": "Wer frisst wen?",
    "kurztext": "Von der Pflanze über Insekten bis zum Fuchs: An dieser Station wird die Nahrungskette im Waldreich sichtbar. Ameisen „melken“ Blattläuse, Jäger folgen Spuren – alles hängt zusammen.",
@@ -676,15 +673,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 7902509919,
    "lat": 52.4200324,
    "lon": 13.7782703,
    "km": 1.22,
+   "reihenfolge": 6,
    "titel": "Spurensuche",
    "thema": "Trittsiegel lesen",
    "kurztext": "Im Sand und am Wegrand hinterlassen Tiere Trittsiegel. Die Station trainiert das Spurenlesen: Welches Tier war hier unterwegs – und was verrät ein einzelner Abdruck über Gang und Größe?",
@@ -692,15 +688,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 7902521091,
    "lat": 52.4188141,
    "lon": 13.7777096,
    "km": 1.36,
+   "reihenfolge": 7,
    "titel": "Wupatzsee und Froschkonzert",
    "thema": "Wasserleben",
    "kurztext": "Am Wupatzsee wird’s laut und grün: Schilf filtert das Wasser, Frösche stimmen ihr Konzert an – und die Station „Der Frosch wird zum Sänger“ macht Amphibien hör- und begreifbar. Ein guter Ort für Pause und Ausblick.",
@@ -708,30 +703,28 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -333701859,
    "lat": 52.4180208,
    "lon": 13.777159,
    "km": 1.45,
+   "reihenfolge": 8,
    "titel": "Leben an der Löcknitz",
    "thema": "Am Leistikowsteg",
    "kurztext": "Über den Leistikowsteg kreuzt der Weg die weitläufige Löcknitz. Hier leben Fische, Wasservögel und Uferpflanzen dicht beieinander – und Ausflugsdampfer teilen sich das Wasser mit dem Lehrpfad.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -1784677288,
    "lat": 52.417116,
    "lon": 13.775197,
    "km": 1.64,
+   "reihenfolge": 9,
    "titel": "Pilzwald",
    "thema": "Unter dem Hut",
    "kurztext": "Im schattigen Abschnitt geht’s um Pilze: Was ist die Röhrenschicht unter dem Hut – und warum sind Pilze Partner der Bäume? Die Station macht das Unsichtbare im Waldboden begreiflich.",
@@ -739,30 +732,28 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -3664845530,
    "lat": 52.4162602,
    "lon": 13.7738016,
    "km": 1.77,
+   "reihenfolge": 10,
    "titel": "Balancierstrecke",
    "thema": "Gleichgewicht am Hubertussteg",
    "kurztext": "Am Hubertussteg über den Altarm der Löcknitz wird der Pfad zur Mitmachstrecke: Balancieren schärft Gleichgewicht und Konzentration – und führt durch urwäldlich anmutendes Ufergrün.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": -3899663678,
    "lat": 52.416508,
    "lon": 13.77061,
-   "km": 2.0,
+   "km": 2,
+   "reihenfolge": 11,
    "titel": "Leben in der Löcknitz",
    "thema": "Unter Wasser",
    "kurztext": "Was schwimmt und laicht im Fließ? Die Station blickt unter die Wasseroberfläche – vom Flussbarsch mit geteilter Rückenflosse bis zu den Pflanzen, die das Gewässer strukturieren.",
@@ -770,30 +761,28 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": -3553968506,
    "lat": 52.416441,
    "lon": 13.768226,
    "km": 2.16,
+   "reihenfolge": 12,
    "titel": "Naturschutzgebiet Löcknitztal",
    "thema": "Schutz mit System",
    "kurztext": "Das Löcknitztal ist Schutzgebiet: Hier gelten Regeln, damit Wiese, Bruch und Fließ für seltene Arten erhalten bleiben. Die Station erklärt, warum Wege bleiben, wo sie sind – und was das für Pflanzen und Tiere bringt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 7837394572,
    "lat": 52.4160495,
    "lon": 13.7656677,
    "km": 2.34,
+   "reihenfolge": 13,
    "titel": "Landschaft und Waldharfe",
    "thema": "Hören und Schauen",
    "kurztext": "Zwischen Oberförsterei und Löcknitzinsel öffnet sich die Landschaft. An der Waldharfe wird Natur hörbar – Klang und Blick verbinden sich zu einer Pause mit allen Sinnen.",
@@ -801,15 +790,14 @@
     "tafel",
     "audio"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": -2101906878,
    "lat": 52.416039,
    "lon": 13.763513,
    "km": 2.5,
+   "reihenfolge": 14,
    "titel": "Spürnasentest",
    "thema": "Riechen wie ein Profi",
    "kurztext": "Duftstelen und Klapptafeln fordern die Nase: Welche Gerüche gehören zum Wald – und warum riecht ein Hund millionenfach besser als wir? Hier wird der Spürsinn zum Mitmachspiel.",
@@ -817,15 +805,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": -4209217355,
    "lat": 52.416539,
    "lon": 13.762019,
    "km": 2.64,
+   "reihenfolge": 15,
    "titel": "Trommelwirbel",
    "thema": "Schwarzspecht und Echo",
    "kurztext": "Wie weit trägt der Ruf des Schwarzspechts – und wie orientieren sich Fledermäuse im Dunkeln? Trommelwirbel und Echo-Ortung machen den akustischen Wald erlebbar.",
@@ -834,24 +821,21 @@
     "quiz",
     "audio"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 9633064958,
    "lat": 52.4180814,
    "lon": 13.7607386,
    "km": 2.82,
+   "reihenfolge": 16,
    "titel": "Naturschutz in der Stadt",
    "thema": "Stadt trifft Natur",
    "kurztext": "Kurz vor dem Rückweg in die Stadt zeigt die Station, wie Naturschutz auch am Siedlungsrand funktioniert. Der Kreis schließt sich: Vom Parkplatz ins Waldreich – und mit neuen Entdeckungen zurück.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 16
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -859,102 +843,87 @@
    "osmId": 662209770,
    "lat": 52.4201344,
    "lon": 13.7660708,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 1407174069,
    "lat": 52.4179728,
    "lon": 13.777088,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 2178495125,
    "lat": 52.4160958,
    "lon": 13.7606332,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 3209276314,
    "lat": 52.4188234,
    "lon": 13.7704307,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3209276315,
    "lat": 52.4188652,
    "lon": 13.7691304,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7820134396,
    "lat": 52.4179655,
    "lon": 13.7769176,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7820168130,
    "lat": 52.4200427,
    "lon": 13.7781828,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7820168132,
    "lat": 52.4199705,
    "lon": 13.7782419,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7820215347,
    "lat": 52.420948,
    "lon": 13.7629716,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8248216538,
    "lat": 52.4164407,
    "lon": 13.7741698,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 9196271537,
    "lat": 52.4164404,
    "lon": 13.7740898,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 9633064957,
    "lat": 52.4180627,
    "lon": 13.7607751,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9689393397,
    "lat": 52.4218266,
    "lon": 13.7637574,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13127681478,
    "lat": 52.4184725,
    "lon": 13.7759286,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   }
  ],
- "bilderAsset": "assets/images/trails/wupatz/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "auwald"
@@ -975,5 +944,18 @@
   "Gemeine Esche": "typisch",
   "Hängebirke": "typisch",
   "Heidelbeere": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "a4830200-ba03-5d79-8413-4d89fd720531",
+   "id": "a4830200-ba03-5d79-8413-4d89fd720531",
+   "caption": "Löcknitztal bei Erkner – Wiesen, Erlen, stilles Wasser.",
+   "credit": "Assenmacher",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturschutzgebiet_L%C3%B6cknitztal_04.jpg",
+   "kind": "ort"
+  }
+ ]
 }

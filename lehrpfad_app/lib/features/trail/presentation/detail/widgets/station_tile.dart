@@ -8,11 +8,7 @@ import 'station_identity.dart';
 
 /// Peek-Kachel einer Station im Content-Slider.
 class StationTile extends StatelessWidget {
-  const StationTile({
-    super.key,
-    required this.station,
-    required this.onTap,
-  });
+  const StationTile({super.key, required this.station, required this.onTap});
 
   final Station station;
   final VoidCallback onTap;

@@ -36,7 +36,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    51.473796,
@@ -875,259 +874,258 @@
    12.276968
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 1286568203,
    "lat": 51.47392,
    "lon": 12.27688,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Zentraler Ausgangspunkt",
    "thema": "Karte an der Schranke",
    "kurztext": "Am Parkplatz Hallesche Straße. Hier hängt die Übersicht, der Rundweg beginnt hinter der Schranke und geht links herum. Drei Zugänge, dieser ist der in Zwochau.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 1286568217,
    "lat": 51.47551,
    "lon": 12.27695,
    "km": 0.19,
+   "reihenfolge": 2,
    "titel": "Amphibien und Wasservögel",
    "thema": "Erste Tafel nördlich vom Parkplatz",
    "kurztext": "Gleich nördlich vom Start, den Zwochauer See links. Die Tafel heißt Amphibien und Wasservögel. Der NABU hebt für Grabschütz Kammmolch und Wechselkröte hervor, neun Amphibienarten im Gebiet.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 1286568252,
    "lat": 51.47753,
    "lon": 12.27344,
    "km": 0.54,
+   "reihenfolge": 3,
    "titel": "Die Natur sieht wieder Land",
    "thema": "Tagebau, der zuwächst",
    "kurztext": "Weiter zwischen den beiden kleinen Seen. Die Tafel heißt Die Natur sieht wieder Land. Hier war der Tagebau Delitzsch-Südwest, die Stiftung hat das Restloch 1993 gekauft.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 1286568239,
    "lat": 51.48015,
    "lon": 12.27149,
    "km": 0.87,
+   "reihenfolge": 4,
    "titel": "Die Vogelwelt im Jahreslauf",
    "thema": "Brut und Rast am See",
    "kurztext": "Am Westufer. Die Tafel heißt Die Vogelwelt im Jahreslauf. Das Gebiet ist SPA, Rastplatz unter anderem für Saatgänse. Was die Tafel im Kalender zeigt, steht vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 1286568207,
    "lat": 51.48384,
    "lon": 12.27009,
    "km": 1.31,
+   "reihenfolge": 5,
    "titel": "Lebensraum Boden",
    "thema": "Kippenboden am Westufer",
    "kurztext": "Weiter am Westufer. Die Tafel heißt Lebensraum Boden. Kippe, nicht gewachsener Waldboden. Die nächste Tafel fragt später, ob der Boden sauer, neutral oder basisch ist.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 1286568242,
    "lat": 51.48534,
    "lon": 12.27081,
    "km": 1.47,
+   "reihenfolge": 6,
    "titel": "Die Schüttrippe",
    "thema": "Abraum, der stehen blieb",
    "kurztext": "Noch am Westufer. Die Tafel heißt Die Schüttrippe. Der NABU nennt die Schüttrippenlandschaft den Grund, das Gebiet offenzuhalten. Der Rücken liegt neben dem Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 1286568240,
    "lat": 51.48792,
    "lon": 12.27632,
-   "km": 2.0,
+   "km": 2,
+   "reihenfolge": 7,
    "titel": "Artenreiches Grünland",
    "thema": "Wiese statt Acker",
    "kurztext": "Die Gerade nach Osten beginnt. Die Tafel heißt Artenreiches Grünland, so heißt auch das Projekt der Stiftung. Mahd und Weide, nicht der alte Tagebauacker.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 1286589256,
    "lat": 51.49152,
    "lon": 12.2842,
    "km": 2.74,
+   "reihenfolge": 8,
    "titel": "Reichtum des Mageren",
    "thema": "Offener Boden, wenig Nährstoffe",
    "kurztext": "Auf der Geraden zwischen Werbeliner See und Grabschützer See. Die Tafel heißt Reichtum des Mageren. Mager heißt hier: wenig Dünger, viel Lücke im Rasen. Der Werbeliner See liegt nördlich, nicht reingehen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 1286589279,
    "lat": 51.4915,
    "lon": 12.2881,
    "km": 2.96,
+   "reihenfolge": 9,
    "titel": "Pflanzliche Sieger",
    "thema": "Wer den offenen Boden nimmt",
    "kurztext": "Weiter auf der Geraden. Die Tafel heißt Pflanzliche Sieger. Der NABU schreibt, Sanddorn und Ölweide hätten die Flächen zugewachsen, die Rinder schieben das zurück. Die Büsche stehen noch, nur nicht mehr dicht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 1286589266,
    "lat": 51.4911,
    "lon": 12.2916,
    "km": 3.22,
+   "reihenfolge": 10,
    "titel": "Rinder als Landschaftspfleger",
    "thema": "Hochlandrinder seit 2006",
    "kurztext": "Kurz vor dem Mottenhügel. Die Tafel heißt Rinder als Landschaftspfleger. Schottische Hochlandrinder, seit 2006 auf etwa 50 Hektar, ganzjährig draußen, ohne Kraftfutter. Zottig, Hörner weit. Abstand, nicht füttern.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 1286589257,
    "lat": 51.49179,
    "lon": 12.29562,
    "km": 3.5,
+   "reihenfolge": 11,
    "titel": "Damals und heute",
    "thema": "Dorf Grabschütz, das weggebaggert wurde",
    "kurztext": "Am Mottenhügel, der kleine Aussichtspunkt, daneben die überdachte Bank. Die Tafel heißt Damals und heute. Das Dorf Grabschütz ist dem Tagebau gewichen. Die Broschüre der Stiftung erzählt den Ort, anfordern beim Naturschutzfonds.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 1286589281,
    "lat": 51.49131,
    "lon": 12.29579,
    "km": 3.5,
+   "reihenfolge": 12,
    "titel": "Energiegewinnung in der Zukunft",
    "thema": "Nach der Kohle",
    "kurztext": "Direkt am Mottenhügel, die nächste Tafel. Sie heißt Energiegewinnung in der Zukunft. Kohle ist hier vorbei, der See ist das Restloch. Was die Tafel als Nächstes vorschlägt, steht auf dem Schild.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": -3985313108,
    "lat": 51.48519,
    "lon": 12.29792,
    "km": 4.23,
+   "reihenfolge": 13,
    "titel": "Rekultivierung",
    "thema": "Ostseite, Tafel ohne eigenen Pin",
    "kurztext": "Auf der Ostseite, zwischen Mottenhügel und den Offenlandtafeln. Im Lageplan heißt die Station Rekultivierung. In der Karte hat sie keinen eigenen Punkt, der Pin liegt auf der Linie. Gemeint ist, wie aus Kippe wieder Fläche wird.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": 1286589233,
    "lat": 51.48103,
    "lon": 12.29459,
    "km": 4.82,
+   "reihenfolge": 14,
    "titel": "Offenlandbewohner",
    "thema": "Vögel der Weide",
    "kurztext": "Weiter südlich am Ostufer. Die Tafel heißt Offenlandbewohner. Der NABU nennt für die Weide Braunkehlchen, Schwarzkehlchen, Grauammer, Raubwürger, Neuntöter und Wiedehopf. Der Pin in der Karte ist mit genauer Standort markiert, die Tafel kann ein paar Meter daneben stehen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": 6566525670,
    "lat": 51.47939,
    "lon": 12.29292,
    "km": 5.02,
+   "reihenfolge": 15,
    "titel": "Sukzession",
    "thema": "Was von allein kommt",
    "kurztext": "Südlich der Offenlandtafel. Der Titel ist Sukzession, ein Ökosystem erschafft sich selbst. Nebenan hält die Beweidung die Fläche offen, hier darf der Bestand machen, was er macht. Auch dieser Pin ist ungenau kartiert.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 1286589235,
    "lat": 51.47664,
    "lon": 12.2909,
    "km": 5.36,
+   "reihenfolge": 16,
    "titel": "Grabschütz vor 23 Mio Jahren",
    "thema": "Tertiär unter der Kippe",
    "kurztext": "Weiter Richtung Süden. Die Tafel heißt Grabschütz vor 23 Millionen Jahren. Darunter liegt das Tertiär, darüber der Abraum. Die Jahreszahl steht so auf dem Schild.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 16
+   "barrierefrei": false
   },
   {
    "osmId": 1286589268,
    "lat": 51.47199,
    "lon": 12.28598,
    "km": 6.04,
+   "reihenfolge": 17,
    "titel": "Findlinge aus Skandinavien",
    "thema": "Eiszeitgeschiebe am Südufer",
    "kurztext": "Am Südufer. Die Tafel heißt Einwanderer aus Skandinavien, Findlinge in Grabschütz. Steine, die das Eis mitgebracht hat, keine Findlinge aus dem Tagebau. Anfassen ja, nicht mitnehmen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 17
+   "barrierefrei": false
   },
   {
    "osmId": 1286604424,
    "lat": 51.472,
    "lon": 12.27839,
    "km": 6.64,
+   "reihenfolge": 18,
    "titel": "Sauer, neutral oder basisch?",
    "thema": "Bodenprobe kurz vor dem Parkplatz",
    "kurztext": "Letzte Tafel, kurz vor dem Parkplatz. Sie heißt Sauer, neutral oder basisch. Dieselbe Frage wie beim Lebensraum Boden, hier mit der Probe. Danach rechts zurück zur Schranke.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 18
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -1142,64 +1140,55 @@
    "osmId": 1286568241,
    "lat": 51.4756171,
    "lon": 12.2769425,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 7470811941,
    "lat": 51.4818291,
    "lon": 12.2937102,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8566934864,
    "lat": 51.4740446,
    "lon": 12.2907262,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 11896570169,
    "lat": 51.4801274,
    "lon": 12.2714468,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11896582269,
    "lat": 51.485313,
    "lon": 12.270795,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11896597869,
    "lat": 51.487877,
    "lon": 12.276391,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12666383343,
    "lat": 51.4918294,
    "lon": 12.2956354,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12666410173,
    "lat": 51.4918276,
    "lon": 12.2956838,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12666433519,
    "lat": 51.4776188,
    "lon": 12.2916925,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 113480753,
@@ -1210,7 +1199,6 @@
   }
  ],
  "hoertext": "Hinter der Schranke an der Halleschen Straße fängt die Runde an. Sieben Kilometer links herum um den Grabschützer See, erst zwischen den Seen, dann am Blick zum Werbeliner See. Am Mottenhügel steht die überdachte Bank. Die Highlands weiden das Offenland, Abstand halten. Die Kernzone bleibt zu. Werbeliner See ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-grabschuetzer-see/credits.json",
  "lebensraeume": [
   "see-ufer",
   "trockenrasen"
@@ -1233,5 +1221,18 @@
   "Scharfer Hahnenfuß": "typisch",
   "Höckerschwan": "typisch",
   "Hummel": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "16346317-be6a-59f0-a4a5-2013ef6fba61",
+   "id": "16346317-be6a-59f0-a4a5-2013ef6fba61",
+   "caption": "Informationstafel am Naturlehrpfad Grabschützer See.",
+   "credit": "Catatine",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grabsch%C3%BCtzer_See_00.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -35,7 +35,6 @@
   "picknick",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.574434,
@@ -198,28 +197,27 @@
    12.1947
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -4142580846,
    "lat": 53.5744344,
    "lon": 12.1947004,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Pavillon Festplatz",
    "thema": "Start Lehrpfad",
    "kurztext": "Pavillon, Dorf, Start. Acht Kilometer sind eine Ansage – Teilstrecke ist erlaubt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2672845124,
    "lat": 53.5733,
    "lon": 12.19326,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Park Sandhof",
    "thema": "~100 Gehölzarten",
    "kurztext": "Arboretum im Kleinen: fast 100 Arten. Schilder lesen, Blätter vergleichen.",
@@ -227,69 +225,63 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3365226648,
    "lat": 53.5743305,
    "lon": 12.1866557,
    "km": 0.61,
+   "reihenfolge": 3,
    "titel": "Aussichtsturm Rothirsch",
    "thema": "NSG Großer Serrahn, Adler",
    "kurztext": "Blick ins NSG Großer Serrahn. Adler kreisen lassen, nicht rufen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -2498115689,
    "lat": 53.5876949,
    "lon": 12.2142194,
    "km": 2.97,
+   "reihenfolge": 4,
    "titel": "Wooster Teerofen",
    "thema": "Waldgeschichte, Teer",
    "kurztext": "Ortsname ist Arbeitsname. Waldglas und Teer brauchen Holz – die Heide erinnert daran.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -2042155757,
    "lat": 53.58549,
    "lon": 12.227,
    "km": 3.85,
+   "reihenfolge": 5,
    "titel": "Westufer Paschensee",
    "thema": "Klarwassersee",
    "kurztext": "Klarwasser, Wald bis ans Ufer. Die Seenrunde ist offiziell Teil des Lehrpfads.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -1524749080,
    "lat": 53.575,
    "lon": 12.21,
    "km": 5.47,
+   "reihenfolge": 6,
    "titel": "Westufer Damerower See",
    "thema": "See / Adler",
    "kurztext": "Westufer, weites Wasser. Mit Glück Adler, ohne Glück trotzdem Wind.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -297,53 +289,45 @@
    "osmId": 2887750881,
    "lat": 53.573722,
    "lon": 12.1898513,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2887750886,
    "lat": 53.5739789,
    "lon": 12.1888379,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 3041976461,
    "lat": 53.5750333,
    "lon": 12.1965243,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 3041976462,
    "lat": 53.5751607,
    "lon": 12.1964653,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 3041976481,
    "lat": 53.5750007,
    "lon": 12.1962709,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3041976483,
    "lat": 53.5744344,
    "lon": 12.1947004,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 3043043224,
    "lat": 53.5743207,
    "lon": 12.1967724,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
- "bilderAsset": "assets/images/trails/lehrpfad-sandhof/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "see-ufer",
@@ -365,5 +349,18 @@
   "Haubentaucher": "typisch",
   "Heidelbeere": "typisch",
   "Heidelerche": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "d8fe5042-d197-5131-bc92-5dd6f7600451",
+   "id": "d8fe5042-d197-5131-bc92-5dd6f7600451",
+   "caption": "Paschensee – Klarwassersee am Lehrpfad Sandhof.",
+   "credit": "Saturn61",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANSG_Paschensee.jpg",
+   "kind": "ort"
+  }
+ ]
 }

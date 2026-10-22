@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    54.316451,
@@ -145,43 +144,41 @@
    10.19042
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2379339010,
    "lat": 54.3164506,
    "lon": 10.1822591,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Alter Kirchenstieg",
    "thema": "Start am Kreisel, Waldmaus",
    "kurztext": "Hier fängt der Steig an, Klausdorfer Weg. Waldmaus auf den Schildern. Frei, ohne Anmeldung. Auto bleibt am Aldi, Philipp-Reis-Weg. Nicht in den Steig fahren. Kollhorst ist der andere Kiel-Pfad, Westen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -112514386,
    "lat": 54.3194186,
    "lon": 10.1855567,
    "km": 0.42,
+   "reihenfolge": 2,
    "titel": "Waldgarten am Rosenberg",
    "thema": "Lifegarten Kiel, halbe Strecke",
    "kurztext": "Auf halber Strecke liegt der Waldgarten. Lifegarten Kiel, Treffpunkt. Das Häuschen für Schulklassen ist extra, nur mit Anmeldung. Die Tafeln stehen am Weg, nicht im Garten nebenan.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3573666796,
    "lat": 54.3190082,
    "lon": 10.1885265,
    "km": 0.66,
+   "reihenfolge": 3,
    "titel": "Frage-Antwort",
    "thema": "Lösung kopfüber in der Ecke",
    "kurztext": "Tafeln mit Fragen zu Flora und Fauna. Die Lösung steht verkehrt in der oberen Ecke. Erst gucken, was am Weg sitzt, dann drehen. Fünfunddreißig Stück insgesamt, nicht jede hat eine Frage.",
@@ -189,41 +186,36 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -293080689,
    "lat": 54.319899,
    "lon": 10.1904203,
    "km": 0.82,
+   "reihenfolge": 4,
    "titel": "Vogelschutzhecke",
    "thema": "Knick am Rehsenbach, Blühstreifen",
    "kurztext": "Am Graben steht der Knick. Vogelschutzhecke, davor Blühstreifen. Vögel und Kleinsäuger, Insekten an der Blüte. Hier endet die Runde. Zurück denselben Steig, Waldmaus zurück zum Kreisel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
   {
    "osmId": 147382567,
-   "lat": 54.31731148695652,
-   "lon": 10.182756486956526,
+   "lat": 54.3173114869565,
+   "lon": 10.1827564869565,
    "kategorie": "parking",
    "name": "Parkplatz Markant/Aldi Philipp-Reis-Weg"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
  "besuchshinweise": "Kein Winterdienst, nass rutschig, kein Rollstuhl. Nicht mit dem Auto in den Alten Kirchenstieg. Kleingärten nicht betreten. Klassenzimmer-Häuschen extra, Anmeldung.",
  "hoertext": "Am Kreisel Klausdorfer Weg hängt die Waldmaus. Alter Kirchenstieg, Kleingarten Ellerbek, frei. Fünfunddreißig Tafeln, die Lösung steht kopfüber in der Ecke. Auto bleibt am Aldi, Philipp-Reis-Weg, nicht in den Steig. Nass wird der Weg glatt, Rollstuhl kommt nicht durch. Die Hecke am Rehsenbach ist der Knick, da sitzen die Vögel.",
- "bilderAsset": "assets/images/trails/naturerlebnispfad-ellerbek/credits.json",
  "lebensraeume": [
   "streuobst-hecke"
  ],
@@ -243,5 +235,18 @@
   "Siebenpunkt-Marienkäfer": "typisch",
   "Rotkehlchen": "typisch",
   "Schlehe": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "0e9ab3c9-7464-5b49-b5a4-e1783d3c5e12",
+   "id": "0e9ab3c9-7464-5b49-b5a4-e1783d3c5e12",
+   "caption": "Heim des Kleingärtnervereins Kiel-Ellerbek, Rehsenweg 32. Der Lehrpfad liegt am Alten Kirchenstieg, derselbe Kleingarten.",
+   "credit": "Friedrich Magnussen",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeim_des_Kleingärtnervereins_Kiel-Ellerbek_im_Rehsenweg_32_in_Ellerbek_(Kiel_77.842).jpg",
+   "kind": "ort"
+  }
+ ]
 }

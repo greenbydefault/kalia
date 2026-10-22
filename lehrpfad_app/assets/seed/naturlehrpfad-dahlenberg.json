@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    51.646329,
@@ -669,63 +668,62 @@
    12.765392
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 736724353,
    "lat": 51.6463523,
    "lon": 12.7655657,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Die Lebensgemeinschaft Feuchtwiese",
    "thema": "Gemähtes Grünland am Nordufer",
    "kurztext": "Kurz nach dem Waldhotel, am Nordufer. Die Tafel heißt Die Lebensgemeinschaft Feuchtwiese. Feuchtwiesen entstehen durch Mahd, einmal im Jahr oder öfter, und durch Beweidung. Abgebildet sind unter anderem Braunkehlchen, Kuckuckslichtnelke und Sumpfdotterblume. Die Wiese liegt am Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 736724150,
    "lat": 51.6450407,
    "lon": 12.7738296,
    "km": 0.66,
+   "reihenfolge": 2,
    "titel": "Die Spuren der Tiere",
    "thema": "Fährten am Nordufer",
    "kurztext": "Weiter am Nordufer, den See im Blick. Die Tafel heißt Die Spuren der Tiere. Was sie im Einzelnen zeigt, steht nur vor Ort. Gemeint sind Fährten, kein Gehege.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 540313315,
    "lat": 51.6447565,
    "lon": 12.7792745,
    "km": 1.07,
+   "reihenfolge": 3,
    "titel": "Leben im Steinhaufen",
    "thema": "Lesesteine am Damm",
    "kurztext": "Am Staudamm, der Lesesteinhaufen. Lücken und Höhlen, sonnig. Die Entdeckertour nennt Zauneidechse, Steinhummel und Mauerpfeffer. Vom Damm aus siehst du über den See. Der Stausee ist von 1976, Brauchwasser, heute Baden am Südufer.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 736724378,
    "lat": 51.6433719,
    "lon": 12.7704625,
    "km": 3.99,
+   "reihenfolge": 4,
    "titel": "Der Biber",
    "thema": "Burg am Grenzbach",
    "kurztext": "Am Südufer, auf dem Rückweg. Die Tafel heißt Der Biber. Beim Überqueren des Grenzbaches am Start der Runde liegt eine Burg. Spuren siehst du eher als das Tier. Der Bach verbindet Elbe, Heide und Mulde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -733,36 +731,31 @@
    "osmId": 736724158,
    "lat": 51.6401083,
    "lon": 12.7805046,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 736724201,
    "lat": 51.6401263,
    "lon": 12.7807521,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 736724241,
    "lat": 51.6433227,
    "lon": 12.7708041,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 736724253,
    "lat": 51.643185,
    "lon": 12.7767555,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 736724257,
    "lat": 51.6465461,
    "lon": 12.7654029,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 736724280,
@@ -775,19 +768,16 @@
    "osmId": 736724332,
    "lat": 51.6455975,
    "lon": 12.7615675,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 13711290300,
    "lat": 51.6448145,
    "lon": 12.7791525,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
  "hoertext": "Am Waldhotel Hachemühle fängt die Runde an. Fünfeinhalb Kilometer um die Talsperre Trossin, erst am Nordufer, dann durch den Wald ins Dorf und am Südufer zurück. An der Feuchtwiese steht die erste Tafel, am Damm der Steinhaufen. Der Biber hat am Grenzbach seine Burg, Spuren siehst du eher als das Tier. Festes Schuhwerk, der Pfad ist Waldboden. Grabschütz ist eine andere Tour.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-dahlenberg/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "see-ufer"
@@ -808,5 +798,18 @@
   "Stockente": "typisch",
   "Adlerfarn": "typisch",
   "Amsel": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "eb4be863-0ebb-5acd-b8b2-c9945d29db24",
+   "id": "eb4be863-0ebb-5acd-b8b2-c9945d29db24",
+   "caption": "Talsperre Trossin, Stausee Dahlenberg, vom Südufer.",
+   "credit": "Doris Antony, Berlin",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dahlenberg_Stausee.jpg",
+   "kind": "ort"
+  }
+ ]
 }

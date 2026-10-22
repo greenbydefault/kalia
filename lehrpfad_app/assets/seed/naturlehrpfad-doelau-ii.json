@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    51.50273,
@@ -837,104 +836,96 @@
    11.890344
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 7999696432,
    "lat": 51.5029783,
    "lon": 11.8869486,
    "km": 0.07,
+   "reihenfolge": 1,
    "titel": "Heidebahnhof",
    "thema": "Halt der Halle-Hettstedter Eisenbahn",
    "kurztext": "Das alte Empfangsgebäude, nördlich vom Steig. 1896 ging die Bahn vom Klaustor über Nietleben und die Heide nach Lieskau. Heute halten hier die Busse 21 und 41. Gegenüber ein Parkplatz. Die Gaststätte im Haus ist zu. Der Pfad beginnt am Bergmannssteig, nicht an der Straße Waldkater.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 291778934,
    "lat": 51.5025724,
    "lon": 11.8861751,
    "km": 0.17,
+   "reihenfolge": 2,
    "titel": "Quarzporphyr",
    "thema": "Zwei Blöcke am Anfang des Bergmannssteigs",
    "kurztext": "Zwei Porphyrblöcke markieren den Steig. Der Obere Hallesche Porphyr ist lilarot und kleinkristallin, entstanden im Rotliegenden. Im Ostteil der Heide liegt er im Boden, hier im Westen kommt er nicht an die Oberfläche. Die Blöcke sind hingestellt. Bis Stein 32 läufst du auf Quarzsand, nur eine dünne Humusdecke darüber.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 4460834455,
    "lat": 51.4992437,
    "lon": 11.8820509,
    "km": 0.63,
+   "reihenfolge": 3,
    "titel": "Waldkiefer",
    "thema": "Flügelkiefer, Stein 10",
    "kurztext": "Stein 10, links. Eine Waldkiefer, deren alte Borke in Platten vom Stamm absteht, wie kleine Flügel. Darunter nisten Baumläufer, im Mulm sitzen Käferlarven. Nadeln zu zweit, unten graue Tafelborke, oben fuchsrot. Seit der Mitte des 19. Jahrhunderts ist die Kiefer der Hauptbaum der Heide, über die Hälfte der Bestände.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 4460834456,
    "lat": 51.4991885,
    "lon": 11.8819193,
    "km": 0.63,
+   "reihenfolge": 4,
    "titel": "Mahonie",
    "thema": "Stein 11, immergrüner Strauch",
    "kurztext": "Stein 11, rechts, ein paar Schritte nach dem Flügelkiefer. Immergrün, Blätter lederig und glänzend, im Winter fast schwarz, im Frühjahr gelbe Trauben. Aus Nordamerika, hier verwildert. Um 1970 stand sie fast nur bei der Kolonie Waldheil. Westlich der Salzmünder Straße ist sie inzwischen durch die Heide gelaufen.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 272855029,
    "lat": 51.4915417,
    "lon": 11.8794596,
    "km": 1.72,
+   "reihenfolge": 5,
    "titel": "Waldheil",
    "thema": "Sommerkolonie von 1909",
    "kurztext": "Kreuzung Köllmer Weg und Bergmannssteig. 150 Meter nach Westen liegt die Siedlung Waldheil. 1909 hat der Juwelier Franz Tittel den Verein für Sommerhäuser gegründet. Nach dem Ersten Weltkrieg wurden die Lauben zu Wohnhäusern. Die Waldgaststätte gibt es nicht mehr. Der Pfad geht nicht in die Siedlung, er bleibt auf dem Steig.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 4460834480,
    "lat": 51.4875522,
    "lon": 11.8716639,
    "km": 2.56,
+   "reihenfolge": 6,
    "titel": "Lindbusch",
    "thema": "Naturschutzgebiet, Stein 32",
    "kurztext": "Stein 32, Blick ins NSG. Reichster Fleck der Heide, Eichen-Hainbuchenwald. Ton im Untergrund staut das Wasser, in den Senken stehen Eschen. Der Name kommt von Lint, Schlange, nicht von der Linde. Wege nicht verlassen, nichts mitnehmen. Bis hierher war der Boden Quarzsand. Ab hier eine schmale Tonzone zum Granauer Weg.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 10094911815,
    "lat": 51.4822943,
    "lon": 11.8910612,
    "km": 4.3,
+   "reihenfolge": 7,
    "titel": "Heidebad",
    "thema": "Bruchfeldsee in der Grube Neuglück",
    "kurztext": "Ende des Pfads, Haltestelle Am Heidebad. Im Tiefbau hat hier die Grube Neuglück Braunkohle geholt. Nach dem Einsturz der Stollen staute sich ab 1930 Wasser, 1954 ging das Bad auf. Westlich davon der kleine Heidesee, alte Sandgrube, Röhricht, Laichplatz der Erdkröte.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -949,36 +940,31 @@
    "osmId": 2402663071,
    "lat": 51.4849631,
    "lon": 11.8808284,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2591347103,
    "lat": 51.4863475,
    "lon": 11.8792513,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2591347116,
    "lat": 51.4874764,
    "lon": 11.8718917,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2603663033,
    "lat": 51.4850043,
    "lon": 11.8807768,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 2604600543,
    "lat": 51.485704,
    "lon": 11.8888849,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 3166371333,
@@ -991,64 +977,55 @@
    "osmId": 4459449089,
    "lat": 51.4866966,
    "lon": 11.8759355,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4460834453,
    "lat": 51.4915691,
    "lon": 11.8795213,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4465097806,
    "lat": 51.503059,
    "lon": 11.8884292,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4465097810,
    "lat": 51.5032441,
    "lon": 11.8887557,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4831116216,
    "lat": 51.4858388,
    "lon": 11.8908825,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4831116217,
    "lat": 51.5002784,
    "lon": 11.8807861,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10094773064,
    "lat": 51.4967218,
    "lon": 11.8804831,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12118335383,
    "lat": 51.4848969,
    "lon": 11.8901133,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 12118365413,
    "lat": 51.4818332,
    "lon": 11.8869453,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 100165592,
@@ -1061,33 +1038,28 @@
    "osmId": 253159659,
    "lat": 51.50289366,
    "lon": 11.88800634,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 254387689,
-   "lat": 51.48170211428571,
+   "lat": 51.4817021142857,
    "lon": 11.8880162,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 502910632,
    "lat": 51.50211502,
    "lon": 11.886135,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1195394751,
-   "lat": 51.481060400000004,
+   "lat": 51.4810604,
    "lon": 11.88643772,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
  "hoertext": "Am Heidebahnhof fängt der Bergmannssteig an, der Weg der Bergleute nach Zscherben. Weiße Steine mit roten Zahlen, bis Stein 32 rechts, danach links. Bis zum Lindbusch ist der Boden Quarzsand. Die Porphyrblöcke am Anfang sind hingestellt, der Fels liegt hier nicht frei. Im Lindbusch staut Ton das Wasser, der Pfad bleibt auf dem Pfad. Am Ende ein See in der alten Grube. Die Sperrung am Kuhberg gehört zu Pfad I.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-ii/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
@@ -1108,5 +1080,18 @@
   "Kleiber": "typisch",
   "Kohlmeise": "typisch",
   "Mittelspecht": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "243abd68-8937-5196-9a65-36a48110366a",
+   "id": "243abd68-8937-5196-9a65-36a48110366a",
+   "caption": "Ehemaliger Heidebahnhof in der Dölauer Heide. Hier starten Bus 21 und 41 und der Naturlehrpfad II.",
+   "credit": "Giorno2",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halle-Heidebahnhof_1.jpg",
+   "kind": "ort"
+  }
+ ]
 }

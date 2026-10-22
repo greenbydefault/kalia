@@ -55,7 +55,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    52.424008,
@@ -694,131 +693,130 @@
    13.625155
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 12963954206,
    "lat": 52.423384,
    "lon": 13.6290879,
    "km": 0.07,
+   "reihenfolge": 1,
    "titel": "Raus aus dem Großstadtmief",
    "thema": "Lehrpfad von 1965, neu seit Dezember 2025, 36 Stationen",
    "kurztext": "Tafel der Berliner Forsten am Nordrand, kurz hinter dem Parkplatz Rübezahl.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 12963954205,
    "lat": 52.4230907,
    "lon": 13.6289205,
    "km": 0.07,
+   "reihenfolge": 2,
    "titel": "Unser Wald als Klimaretter",
    "thema": "Klima",
    "kurztext": "Tafel der Berliner Forsten zum Wald und zum Klima, wenige Schritte hinter dem Einstieg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12963954204,
    "lat": 52.4217308,
    "lon": 13.6287566,
    "km": 0.22,
+   "reihenfolge": 3,
    "titel": "Auf der Jagd nach Geschichten",
    "thema": "Geschichte",
    "kurztext": "Tafel der Berliner Forsten am Westhang.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 12963954203,
    "lat": 52.4210057,
    "lon": 13.6285078,
    "km": 0.34,
+   "reihenfolge": 4,
    "titel": "Der Wald als Arbeitsplatz",
    "thema": "Waldarbeit",
    "kurztext": "Tafel der Berliner Forsten zur Arbeit im Wald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12963935386,
    "lat": 52.4188246,
    "lon": 13.629128,
    "km": 0.64,
+   "reihenfolge": 5,
    "titel": "Tierische Wohnungssuche",
    "thema": "Tiere",
    "kurztext": "Tafel der Berliner Forsten zu Tieren am Westufer des Teufelssees.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 11669094611,
    "lat": 52.4210222,
    "lon": 13.6301164,
    "km": 0.99,
+   "reihenfolge": 6,
    "titel": "Die Prinzessin im Teufelssee",
    "thema": "Sage",
    "kurztext": "Die Tafel erzählt die Sage von der Prinzessin im Teufelssee.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 12963952271,
    "lat": 52.4202864,
    "lon": 13.6340913,
    "km": 1.36,
+   "reihenfolge": 7,
    "titel": "Zwei Berge, zwei Türme",
    "thema": "Müggelberge",
    "kurztext": "Tafel östlich des Sees. Der Titel nennt zwei Berge und zwei Türme.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 12963952270,
    "lat": 52.4196086,
    "lon": 13.6341633,
    "km": 1.46,
+   "reihenfolge": 8,
    "titel": "Zwischen Land und Wasser",
    "thema": "Teufelsseemoor",
    "kurztext": "Tafel am Übergang zum Teufelsseemoor, östlich des Sees.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 4311518402,
    "lat": 52.416923,
    "lon": 13.6367429,
    "km": 1.8,
+   "reihenfolge": 9,
    "titel": "Gesteinsreste der Bismarckwarte",
    "thema": "Bismarckwarte",
    "kurztext": "Steine der abgerissenen Bismarckwarte auf dem Bergrücken.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -826,8 +824,7 @@
    "osmId": 262137153,
    "lat": 52.4168386,
    "lon": 13.6349599,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 292728693,
@@ -840,8 +837,7 @@
    "osmId": 292728694,
    "lat": 52.4167606,
    "lon": 13.6349991,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 415308246,
@@ -854,260 +850,223 @@
    "osmId": 528938535,
    "lat": 52.4197464,
    "lon": 13.6347278,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 3825536180,
    "lat": 52.4170873,
    "lon": 13.6255275,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4095347301,
    "lat": 52.4190093,
    "lon": 13.6331511,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4095347308,
    "lat": 52.42055,
    "lon": 13.628775,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4095347311,
    "lat": 52.4207694,
    "lon": 13.6295091,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526287811,
    "lat": 52.420157,
    "lon": 13.6305371,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526290637,
    "lat": 52.4193781,
    "lon": 13.6305491,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526290638,
    "lat": 52.4189489,
    "lon": 13.6297843,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526290639,
    "lat": 52.4189545,
    "lon": 13.6298532,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526304091,
    "lat": 52.4225172,
    "lon": 13.6287726,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526304092,
    "lat": 52.4225976,
    "lon": 13.6291744,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 4526304093,
    "lat": 52.422763,
    "lon": 13.628846,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526304094,
    "lat": 52.4223855,
    "lon": 13.6287506,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4526304199,
    "lat": 52.4231802,
    "lon": 13.6289337,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4623454275,
    "lat": 52.4170268,
    "lon": 13.6427068,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4623465763,
    "lat": 52.4155616,
    "lon": 13.6387579,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4624009413,
    "lat": 52.4170863,
    "lon": 13.6424895,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 4822723876,
    "lat": 52.4163686,
    "lon": 13.6283678,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4839859937,
    "lat": 52.4202839,
    "lon": 13.6342283,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4839859938,
    "lat": 52.4197789,
    "lon": 13.6346452,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4839859939,
    "lat": 52.4203092,
    "lon": 13.6339671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4839859940,
    "lat": 52.4202988,
    "lon": 13.6340276,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4839859941,
    "lat": 52.4198269,
    "lon": 13.6346597,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4839859942,
    "lat": 52.4212736,
    "lon": 13.6309278,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4839859943,
    "lat": 52.4202749,
    "lon": 13.6342822,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10239842537,
    "lat": 52.4188609,
    "lon": 13.6306536,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 12772158230,
    "lat": 52.4226473,
    "lon": 13.6290899,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12772158235,
    "lat": 52.4208635,
    "lon": 13.6295123,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12772158249,
    "lat": 52.4189754,
    "lon": 13.6298523,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12772158250,
    "lat": 52.4189697,
    "lon": 13.6297759,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12963935384,
    "lat": 52.4191043,
    "lon": 13.6282501,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12963935385,
    "lat": 52.4189813,
    "lon": 13.6298124,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 12963935387,
    "lat": 52.419671,
    "lon": 13.6287811,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12963935388,
    "lat": 52.4193939,
    "lon": 13.630553,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 12963935389,
    "lat": 52.4198294,
    "lon": 13.6307518,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 12963935390,
    "lat": 52.4201684,
    "lon": 13.6304919,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 12963952269,
    "lat": 52.4198856,
    "lon": 13.6349444,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 23370026,
@@ -1117,9 +1076,20 @@
    "name": "Parkplatz Rübezahl"
   }
  ],
- "eintritt": false,
  "oeffnungszeiten": "Ganzjährig, rund um die Uhr.",
  "besuchshinweise": "Rad nur bis zum Lehrkabinett. Bohlenweg und Moor zu Fuß. Moorsteg und die rot gepunktete Linie auf der Forsten-Karte tragen Kinderwagen und Rollstuhl, der übrige Weg nicht. WC am Müggelturm ist kostenpflichtig. Zurück vom Turm den Westhang zum Parkplatz.",
  "hoertext": "Hinter dem Parkplatz Rübezahl senkt sich der Kiefernwald zum Teufelssee hinab. Über das Moor legen sich Bretter. Unter den Brettern hält das Moor das Wasser fest. Wer dort stehen bleibt, sieht den See zwischen Schilf und Kiefern. Kiefern geben den Hang frei, und der Müggelturm zeigt sich über den Kronen. Den Bergrücken hinauf zieht die Linie an den Steinen der alten Bismarckwarte vorbei und hört erst am Müggelturm auf, wo der Westhang den Rückweg zum Anfang öffnet. Das Rad bleibt am Lehrkabinett.",
- "bilderAsset": "assets/images/trails/erlebnisweg-mueggelberge-teufelssee/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "682b8653-8ef4-5659-9eac-e0ba7b292878",
+   "id": "682b8653-8ef4-5659-9eac-e0ba7b292878",
+   "caption": "Teufelssee, im Hintergrund der Müggelturm.",
+   "credit": "Leonhard Lenz",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teufelssee_K%C3%B6penick_2019-06-13_08.jpg",
+   "kind": "ort"
+  }
+ ]
 }

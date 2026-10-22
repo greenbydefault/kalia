@@ -1191,6 +1191,7 @@
    "lat": 53.1142557,
    "lon": 13.0368469,
    "km": 1.86,
+   "reihenfolge": 1,
    "titel": "Grubitzwisch",
    "thema": "Aufbruch – ein Moor kehrt zurück",
    "kurztext": "In einem spannenden Quiz erfahren wir, wie ein Moor entsteht, wie das „Laacher Seetuffband“ hilft, die Entstehungszeit des Grubitzwisch zu bestimmen und wie sich Flora und Fauna allmählich auf die sich verändernden Bedingungen einstellen.",
@@ -1201,19 +1202,19 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": 3.8,
-    "alterJahre": 13000,
     "tiefeM": 4.25,
-    "lebenselixier": "Wasser",
-    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese und wieder zum Moor?"
-   },
-   "reihenfolge": 1
+    "groesseHa": 3.8,
+    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese und wieder zum Moor?",
+    "alterJahre": 13000,
+    "lebenselixier": "Wasser"
+   }
   },
   {
    "osmId": 427675476,
    "lat": 53.1183827,
    "lon": 13.0204306,
    "km": 3.31,
+   "reihenfolge": 2,
    "titel": "Schleusenwiese",
    "thema": "Vielfalt – blühende Feuchtwiese",
    "kurztext": "Die durch Entwässerung entstandenen Feuchtwiesen werden im Spätsommer gemäht. Durch diese schonende Nutzung kann dieser artenreiche, deutschlandweit gefährdete Biotoptyp erhalten werden.",
@@ -1222,34 +1223,33 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": 2.7,
-    "alterJahre": null,
     "tiefeM": 7.0,
-    "lebenselixier": "hohe Feuchte, 1-mal Mahd im August",
-    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese"
-   },
-   "reihenfolge": 2
+    "groesseHa": 2.7,
+    "werdegang": "vom See – zum Verlandungsmoor – zur Wiese",
+    "alterJahre": null,
+    "lebenselixier": "hohe Feuchte, 1-mal Mahd im August"
+   }
   },
   {
    "osmId": 7196045996,
    "lat": 53.1243166,
    "lon": 13.0095506,
    "km": 4.38,
+   "reihenfolge": 3,
    "titel": "Vom Riss zum Harz",
    "thema": "Vom Riss zum Harz",
    "kurztext": "Infotafel zur Entstehung von Harz und Pech – vom Riss in der Baumrinde bis zum fertigen Produkt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 886115730,
    "lat": 53.1251063,
    "lon": 13.0047662,
    "km": 4.77,
+   "reihenfolge": 4,
    "titel": "Kesselmoor",
    "thema": "Ein Kessel Saures – Torfentwicklung",
    "kurztext": "Wir lernen an dieser Station, wie Torf entsteht. Auf den sauren Standorten wachsen überwiegend Torfmoose, die enorme Wassermengen speichern können und sich wie ein Schwamm ausdrücken lassen.",
@@ -1258,34 +1258,33 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": 0.25,
-    "alterJahre": null,
     "tiefeM": 3.45,
-    "lebenselixier": "Regenwasser",
-    "werdegang": "vom Kleinsee – zum Verlandungsmoor – und zum Kesselmoor"
-   },
-   "reihenfolge": 4
+    "groesseHa": 0.25,
+    "werdegang": "vom Kleinsee – zum Verlandungsmoor – und zum Kesselmoor",
+    "alterJahre": null,
+    "lebenselixier": "Regenwasser"
+   }
   },
   {
    "osmId": 13034916580,
    "lat": 53.1255597,
    "lon": 13.0040635,
    "km": 4.86,
+   "reihenfolge": 5,
    "titel": "Dietrichs Teerofen",
    "thema": "Leben der Teerofenbewohner",
    "kurztext": "Am ehemaligen Standort von Dietrichs Teerofen am Teufelssee informiert eine Tafel über das Leben der Teerofenbewohner.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 886115569,
    "lat": 53.1128594,
    "lon": 12.9992364,
    "km": 6.69,
+   "reihenfolge": 6,
    "titel": "Großer Barschsee",
    "thema": "Harmonie – Zusammenspiel der Lebewesen",
    "kurztext": "Ein weit in das Moor ragender Steg macht es möglich, Annette von Droste-Hülshoffs Zeilen „O, schaurig ist‘s übers Moor zu gehn“ nachzuempfinden. Ein Bohrkernmodell lässt uns tief in den 12.000 Jahre alten Moorboden hineinschauen.",
@@ -1296,19 +1295,19 @@
    ],
    "barrierefrei": true,
    "steckbrief": {
-    "groesseHa": 5.8,
-    "alterJahre": 12000,
     "tiefeM": 8.2,
-    "lebenselixier": "nährstoffarmes Wasser",
-    "werdegang": "vom See – zum Verlandungsmoor – zum echten Kesselmoor"
-   },
-   "reihenfolge": 6
+    "groesseHa": 5.8,
+    "werdegang": "vom See – zum Verlandungsmoor – zum echten Kesselmoor",
+    "alterJahre": 12000,
+    "lebenselixier": "nährstoffarmes Wasser"
+   }
   },
   {
    "osmId": 427675478,
    "lat": 53.1172831,
    "lon": 13.0188488,
    "km": 8.8,
+   "reihenfolge": 7,
    "titel": "Bruch am Roofensee",
    "thema": "Geheimnis – Erlen im Wasser",
    "kurztext": "Der Erlenwald am Ende des Roofensees scheint auf Stelzen zu stehen. Schwarzerlen gehören zu den wenigen heimischen Baumarten, die sich unter solchen Extrembedingungen behaupten können.",
@@ -1317,28 +1316,26 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": null,
     "tiefeM": 8.0,
-    "lebenselixier": "mal mehr, mal weniger Wasser",
-    "werdegang": "vom See – zum Verlandungsmoor"
-   },
-   "reihenfolge": 7
+    "groesseHa": null,
+    "werdegang": "vom See – zum Verlandungsmoor",
+    "alterJahre": null,
+    "lebenselixier": "mal mehr, mal weniger Wasser"
+   }
   },
   {
    "osmId": 7196045988,
    "lat": 53.11735,
    "lon": 13.0193017,
    "km": 8.84,
+   "reihenfolge": 8,
    "titel": "Gewusst wie – leben mit dem Biber",
    "thema": "Die Rückkehr des Bibers",
    "kurztext": "Infotafel über die Rückkehr des Bibers in die Region und das Zusammenleben mit ihm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -1353,200 +1350,171 @@
    "osmId": 1358845797,
    "lat": 53.1184788,
    "lon": 13.0206131,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3637956317,
    "lat": 53.107273,
    "lon": 13.0364705,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 5439966160,
    "lat": 53.1057991,
    "lon": 13.0424152,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 7196043200,
    "lat": 53.1065493,
    "lon": 13.044941,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 7196045989,
    "lat": 53.117294,
    "lon": 13.0187385,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045990,
    "lat": 53.117315,
    "lon": 13.0187613,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045998,
    "lat": 53.1195119,
    "lon": 13.0189276,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045999,
    "lat": 53.1169443,
    "lon": 13.0247372,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196046017,
    "lat": 53.1046194,
    "lon": 13.0477184,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196046024,
    "lat": 53.1062039,
    "lon": 13.0434966,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196046025,
    "lat": 53.1062055,
    "lon": 13.0436575,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7622929749,
    "lat": 53.1038794,
    "lon": 13.0505234,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7622929750,
    "lat": 53.1042273,
    "lon": 13.0508379,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7999216392,
    "lat": 53.1079819,
    "lon": 13.0377167,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8284119227,
    "lat": 53.1043612,
    "lon": 13.0531663,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8425225648,
    "lat": 53.1134181,
    "lon": 13.0371596,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12814653250,
    "lat": 53.1070251,
    "lon": 13.0502611,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12814653251,
    "lat": 53.108434,
    "lon": 13.0478471,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12814653252,
    "lat": 53.1104627,
    "lon": 13.0390763,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13351499188,
    "lat": 53.1033588,
    "lon": 13.0508546,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13351568818,
    "lat": 53.1033411,
    "lon": 13.0509155,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1358845797,
    "lat": 53.1184788,
    "lon": 13.0206131,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045989,
    "lat": 53.117294,
    "lon": 13.0187385,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045990,
    "lat": 53.117315,
    "lon": 13.0187613,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045998,
    "lat": 53.1195119,
    "lon": 13.0189276,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7196045999,
    "lat": 53.1169443,
    "lon": 13.0247372,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8425225648,
    "lat": 53.1134181,
    "lon": 13.0371596,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12814653252,
    "lat": 53.1104627,
    "lon": 13.0390763,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/von-moor-zu-moor/credits.json",
  "lebensraeume": [
   "moor",
   "see-ufer"
@@ -1567,5 +1535,18 @@
   "Biber": "belegt",
   "Blässhuhn": "typisch",
   "Haubentaucher": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "4f8c35e9-3ce4-5f3b-9060-95b22688b651",
+   "id": "4f8c35e9-3ce4-5f3b-9060-95b22688b651",
+   "caption": "Großer Stechlinsee – klar und tief, direkt neben den Mooren.",
+   "credit": "Karsten Majok",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALakestechlin.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "1000 Meter Steg über dem Kalten Tal, Glassteg in 26 Metern. Eintritt, barrierearm, keine Hunde.",
  "beschreibung": "Südlich vom Großen Burgberg, Kaltes Tal, Bad Harzburg, auf Fläche der Niedersächsischen Landesforsten, Nationalpark direkt daneben. Erster Baumwipfelpfad in Niedersachsen, eröffnet 8. Mai 2015, Betreiber HarzVenture GmbH. Einstiegskrone rund 300 Meter, höchstens 5,8 Prozent, dann der Steg bis 26 Meter über Buche, Bergahorn, Lärche und Eiche. Glassteg auf der Plattform, auf halber Strecke die Brücke über den Schweineteich. Barrierearm, Kinderwagen und Rollstuhl. Hunde nicht. Eine bis zwei Stunden. Hinteres Ende: Ausstieg in den Wald. BaumSchwebeBahn endet dort, eigenes Ticket.",
- "laengeKm": 1.0,
+ "laengeKm": 1,
  "dauerMin": 90,
  "rundkurs": false,
  "markierung": "Baumwipfelpfad Harz",
@@ -36,7 +36,6 @@
   "rollstuhltauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    51.870133,
@@ -287,13 +286,13 @@
    10.569759
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 3581823951,
    "lat": 51.8701331,
    "lon": 10.5634364,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Einstiegskrone",
    "thema": "Dreihundert Meter Rampe, höchstens 5,8 Prozent",
    "kurztext": "Unten an der Nordhäuser Straße. Ticket zweihundert Meter vorher im BurgBergCenter. Die Krone schraubt sich dreihundert Meter hoch, höchstens 5,8 Prozent. Kinderwagen und Rollstuhl gehen mit. Hund nicht.",
@@ -301,30 +300,28 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 6712471763,
    "lat": 51.8700273,
    "lon": 10.5629015,
    "km": 0.3,
+   "reihenfolge": 2,
    "titel": "Glassteg",
    "thema": "Sechsundzwanzig Meter, Glas unter den Füßen",
    "kurztext": "Oben auf der Krone liegt ein kurzes Stück Glas im Boden, sechsundzwanzig Meter über dem Tal. Blick nach Westen auf die Nordhäuser Straße. Der Holzsteg läuft von hier nach Osten.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 3581823954,
    "lat": 51.8683271,
    "lon": 10.5677044,
    "km": 0.6,
+   "reihenfolge": 3,
    "titel": "Schweineteich",
    "thema": "Brücke über den Teich",
    "kurztext": "Halbe Strecke. Die Brücke geht über den Schweineteich, den der Kaltentalbach speist. Rechts und links Buche, Bergahorn, Lärche, Eiche. Die Wipfel Bar sitzt auf der Plattform daneben.",
@@ -332,24 +329,21 @@
     "steg",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 7102248994,
    "lat": 51.8684701,
    "lon": 10.569759,
-   "km": 1.0,
+   "km": 1,
+   "reihenfolge": 4,
    "titel": "Hinterer Zugang",
    "thema": "Östliches Ende, Schwebebahn kommt hier an",
    "kurztext": "Ende des Stegs im Tal. Zurück über denselben Weg oder runter in den Wald. Die BaumSchwebeBahn endet hier, eigenes Ticket, nicht der Pfad.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -357,22 +351,19 @@
    "osmId": 3581827216,
    "lat": 51.8700684,
    "lon": 10.5633863,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 12296276936,
    "lat": 51.8701191,
    "lon": 10.5634437,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3581827196,
    "lat": 51.8699567,
    "lon": 10.5632177,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 116490266,
@@ -394,7 +385,6 @@
  "oeffnungszeiten": "1.1.–20.3. 10–16, 21.3.–30.6. 9:30–18, 1.7.–31.8. 9:30–19, 1.9.–1.11. 9:30–18, 2.11.–31.12. 10–16. Täglich. Letzter Einlass eine Stunde vor Schluss. Bei Sturm und Eis zu. Stand 2026, baumwipfelpfad-harz.de.",
  "besuchshinweise": "Barrierearm: Rampe höchstens 5,8 Prozent, Kinderwagen, Rollstuhl, Rollator. Hunde nicht. Ticket gilt auch für den hinteren Zugang, Kauf im BurgBergCenter, 200 m vor der Krone. Parken Nordhäuser Straße, tags 0,50 € je 30 min nach 15 min. Bei Sturm und Eis zu.",
  "hoertext": "Kaltes Tal, südlich vom Burgberg in Bad Harzburg. Ticket im BurgBergCenter, zweihundert Meter bis zur Krone. Tausend Meter Holz, Rampe höchstens sechs Prozent, Kinderwagen und Rollstuhl gehen mit. Hund bleibt unten. Oben Buche, Ahorn, Lärche und Eiche, auf halber Strecke der Schweineteich, der Glassteg in sechsundzwanzig Metern. Bei Sturm und Eis bleibt der Steg zu.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-harz/credits.json",
  "lebensraeume": [
   "nadelforst",
   "buchenwald"
@@ -415,5 +405,18 @@
   "Grasfrosch": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "9584fcf5-fc12-517e-9cc1-2c1fae1203aa",
+   "id": "9584fcf5-fc12-517e-9cc1-2c1fae1203aa",
+   "caption": "Einstiegskrone am Baumwipfelpfad Harz, Bad Harzburg.",
+   "credit": "Lukas Beck",
+   "license": "cc-by-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Harzburg_Baumwipfelpfad_lub_2024-05-10_img04_Eingang.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    51.467711,
@@ -88,70 +87,64 @@
    11.906476
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 2809425038,
    "lat": 51.4677106,
    "lon": 11.908886,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Eiche an der Uferwiese",
    "thema": "Tor der Naturstation, Blick auf die Insel",
    "kurztext": "Start am Tor der Naturstation. Die Steinweichsel steht direkt am Tor, die Eiche auf der Uferwiese. Von hier siehst du die Insel im Kleinen Teich und das steile Südufer. Die Eicheln hängen an langen Stielen, das Blatt ist gebuchtet und sitzt kurz am Zweig.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 2809425057,
    "lat": 51.468107,
    "lon": 11.9078696,
    "km": 0.09,
+   "reihenfolge": 2,
    "titel": "Walnuss",
    "thema": "Anfang der Nuss-Allee",
    "kurztext": "Anfang der Nuss-Allee, rechts ein großer Walnussbaum. Im Frühjahr grünt er als letzter, noch nach der Eiche, im Herbst wirft er früh ab. Zerreibst du ein Blatt, riecht es aromatisch. Die Rinde ist jung glatt und grau, später dunkel und rissig.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 2809425064,
    "lat": 51.468193,
    "lon": 11.9071694,
    "km": 0.14,
+   "reihenfolge": 3,
    "titel": "Haselnuss",
    "thema": "Ende der Nuss-Allee",
    "kurztext": "Ende der Allee. Die Hasel wächst hier als Strauch mit mehreren Stämmen, fünf bis sechs Meter. Das Blatt ist rundlich, der Rand grob doppelt gesägt, der Stiel drüsig. Im Vorfrühling hängen die Kätzchen, die Nüsse kommen später in einer gezackten Hülle.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 2809425074,
    "lat": 51.4682797,
    "lon": 11.9064758,
    "km": 0.19,
+   "reihenfolge": 4,
    "titel": "Halbinsel am Nordufer",
    "thema": "Birken und Blick auf die flache Mitte",
    "kurztext": "Hier endet der kartierte Pfad. Birken am Ufer, die Rinde hell, die Kätzchen hängen. Du schaust auf die flache Mitte des Teichs. Im Frühjahr und Sommer liegen Enten auf dem Wasser, oft ein Schwanenpaar mit Jungen. Der Flyer geht danach weiter um den Teich, diese Karte nicht.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [],
  "hoertext": "Am Tor steht eine Steinweichsel. Gleich danach die Eiche, von der Wiese siehst du die Insel im Kleinen Teich. Die Nuss-Allee ist das nächste Stück, Hasel am Ende, Birken auf der Halbinsel. Der Flyer zählt weiter, die Karte hört hier auf. Der Pfad ist uneben, das Ufer gibt nach. Baden gehst du am großen Teich, nicht hier.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-angersdorfer-teiche/credits.json",
  "lebensraeume": [
   "teich-tuempel",
   "eichen-mischwald"
@@ -172,5 +165,18 @@
   "Blässhuhn": "typisch",
   "Buntspecht": "typisch",
   "Eichhörnchen": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "67f40eac-0d7e-5f6d-aede-f9980afcb887",
+   "id": "67f40eac-0d7e-5f6d-aede-f9980afcb887",
+   "caption": "Schilf und Birken am Kleinen Angersdorfer Teich, im Hintergrund die Leitungstrasse. Der Lehrpfad läuft am Nordufer.",
+   "credit": "Jwaller",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleiner_Angersdorfer_Teich.JPG",
+   "kind": "ort"
+  }
+ ]
 }

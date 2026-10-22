@@ -11,28 +11,45 @@ Nutzung:
   python3 tools/export_catalog.py [--dry-run]
 
 Schreibt:
-  assets/seed/<trail>.json      bestehende Dateien: nur DB-Felder werden ersetzt,
-                                Repo-only-Felder (bilderAsset, ...) bleiben.
-                                Neue Trails: neue Datei + Hinweis fuer
-                                SeedTrailRepository._seedPaths / pubspec.
-  assets/seed/species.json      inkl. merkmale[] und beziehungen[]
+  assets/seed/<trail>.json      nur sichtbare Trails. Bestehende Dateien: nur
+                                DB-Felder werden ersetzt, Repo-only-Felder
+                                bleiben. Enthaelt dataVersion, hoertext und das
+                                erste Hero-Bild (bilder[0], Rest liegt im Storage).
+  assets/seed/index.json        {"trails": [{id, dataVersion, file, thumb}]}.
+                                Die App liest nur diese Liste (kein _seedPaths).
+  assets/seed/thumbs/<id>.avif  1 Thumb je Ort (Quelle: Storage, sonst lokales
+                                Bundle assets/images/trails/<id>/).
+  assets/seed/species.json      inkl. merkmale[], beziehungen[] und version
   assets/seed/merkmale.json
   assets/seed/pois.json
   assets/seed/nearby_zeiten.json
 
 Geometrie (route/area/Koordinaten) kommt aus der DB, das CMS aendert sie nicht.
+Bricht mit Exit 1 ab, wenn assets/seed/ ueber 5 MB waechst.
 Nur Stdlib.
 """
 import glob
 import json
 import os
 import re
+import shutil
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
-SEED_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "seed")
-NON_TRAIL = {"species", "merkmale", "pois", "nearby_zeiten", "art_pools", "orte_de"}
+sys.path.insert(0, os.path.dirname(__file__))
+from migrate_hero_images import image_id, slug_of  # noqa: E402
+
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+SEED_DIR = os.path.join(ROOT, "assets", "seed")
+THUMB_DIR = os.path.join(SEED_DIR, "thumbs")
+TRAILS_IMG_DIR = os.path.join(ROOT, "assets", "images", "trails")
+BUCKET = "trail-images"
+SEED_MAX_BYTES = 5 * 1024 * 1024
+NON_TRAIL = {
+    "species", "merkmale", "pois", "nearby_zeiten", "art_pools", "orte_de", "index",
+}
 
 
 def get(path):
@@ -94,27 +111,118 @@ def seed_files_by_trail_id():
     return out
 
 
+def bild_json(row):
+    return drop_none({
+        "file": row["id"],
+        "id": row["id"],
+        "caption": row.get("caption") or "",
+        "credit": row.get("credit") or "",
+        "license": row.get("license") or "",
+        "licenseUrl": row.get("license_url") or "",
+        "sourceUrl": row.get("source_url") or "",
+        "kind": row.get("kind") or "ort",
+    })
+
+
+def local_hero(tid):
+    """Fallback vor migrate_hero_images.py: erstes Bild aus credits.json."""
+    path = os.path.join(TRAILS_IMG_DIR, tid, "credits.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            rows = json.load(f)
+    except (OSError, ValueError):
+        return None, None
+    if not rows:
+        return None, None
+    first = rows[0]
+    row = {
+        "id": image_id(tid, first["file"]),
+        "caption": first.get("caption"),
+        "credit": first.get("credit"),
+        "license": first.get("license"),
+        "license_url": first.get("licenseUrl"),
+        "source_url": first.get("sourceUrl"),
+        "kind": first.get("kind"),
+    }
+    thumb = os.path.join(TRAILS_IMG_DIR, tid, slug_of(first["file"]) + ".thumb.avif")
+    return row, thumb if os.path.isfile(thumb) else None
+
+
+def fetch_thumb(tid, iid):
+    url = "%s/storage/v1/object/public/%s/%s/%s/thumb.avif" % (
+        os.environ["SUPABASE_URL"].rstrip("/"), BUCKET, tid, iid)
+    try:
+        with urllib.request.urlopen(url) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        if e.code in (400, 404):
+            return None
+        raise
+
+
+def write_thumb(tid, iid, local_thumb, old_thumb_ids, dry):
+    """Thumb nach assets/seed/thumbs/<tid>.avif. Gibt True zurueck, wenn vorhanden."""
+    dest = os.path.join(THUMB_DIR, tid + ".avif")
+    if os.path.isfile(dest) and old_thumb_ids.get(tid) == iid:
+        return True
+    if dry:
+        return True
+    data = fetch_thumb(tid, iid)
+    os.makedirs(THUMB_DIR, exist_ok=True)
+    if data is not None:
+        with open(dest, "wb") as f:
+            f.write(data)
+        return True
+    if local_thumb:
+        shutil.copyfile(local_thumb, dest)
+        return True
+    print("  WARNUNG %s: kein Thumb (Storage und Bundle leer)" % tid)
+    return False
+
+
+def load_old_index():
+    try:
+        with open(os.path.join(SEED_DIR, "index.json"), encoding="utf-8") as f:
+            return {t["id"]: t.get("thumbImage") for t in json.load(f).get("trails", [])}
+    except (OSError, ValueError):
+        return {}
+
+
 def export_trails(dry):
     cols = (
         "id,name,typ,form,kurzbeschreibung,beschreibung,laenge_km,dauer_min,rundkurs,"
         "markierung,betreiber,region,website,eintritt,eintritt_preise,oeffnungszeiten,"
-        "besuchshinweise,anreise,start_name,arten,lebensraeume,naturraum,tags,route,area"
+        "besuchshinweise,anreise,start_name,arten,lebensraeume,naturraum,tags,route,area,"
+        "hoertext,data_version"
     )
-    trails = get("trails?select=%s&order=id" % cols)
+    trails = get("trails?select=%s&sichtbar=eq.true&order=id" % cols)
+    visible = {t["id"] for t in trails}
+    heroes = get("images?select=id,trail_id,sort,credit,caption,license,license_url,"
+                 "source_url,kind&source=eq.official&status=eq.approved&station_id=is.null"
+                 "&order=trail_id,sort")
+    hero_by = {}
+    for h in heroes:
+        hero_by.setdefault(h["trail_id"], []).append(h)
     stations = get("stations?select=trail_id,osm_id,lat,lon,km,reihenfolge,titel,thema,"
                    "kurztext,erlebnisse,barrierefrei,steckbrief&order=trail_id,reihenfolge")
     amenities = get("amenities?select=trail_id,osm_id,lat,lon,kategorie,name&order=id")
     ts = get("trail_species?select=trail_id,nachweis,species(name_de)&nachweis=eq.typisch")
     st_by, am_by, nw_by = {}, {}, {}
     for s in stations:
-        st_by.setdefault(s["trail_id"], []).append(s)
+        if s["trail_id"] in visible:
+            st_by.setdefault(s["trail_id"], []).append(s)
     for a in amenities:
-        am_by.setdefault(a["trail_id"], []).append(a)
+        if a["trail_id"] in visible:
+            am_by.setdefault(a["trail_id"], []).append(a)
     for r in ts:
+        if r["trail_id"] not in visible:
+            continue
         nw_by.setdefault(r["trail_id"], {})[r["species"]["name_de"]] = "typisch"
 
     existing = seed_files_by_trail_id()
+    old_thumb_ids = load_old_index()
     new_files = []
+    index = []
     print("Trails:")
     for t in trails:
         tid = t["id"]
@@ -140,6 +248,7 @@ def export_trails(dry):
             "tags": t["tags"] or [],
             "lebensraeume": t["lebensraeume"] or [],
             "naturraum": t["naturraum"] or "",
+            "dataVersion": t.get("data_version") or 1,
         }
         optional = {
             "form": form if form and form != "linie" else None,
@@ -148,6 +257,7 @@ def export_trails(dry):
             "eintrittPreise": t.get("eintritt_preise"),
             "oeffnungszeiten": t.get("oeffnungszeiten"),
             "besuchshinweise": t.get("besuchshinweise"),
+            "hoertext": t.get("hoertext"),
         }
         data.update(fields)
         for k, v in optional.items():
@@ -186,11 +296,47 @@ def export_trails(dry):
             data["artenNachweis"] = full
         else:
             data.pop("artenNachweis", None)
+        # Hero: nur das erste Bild liegt im Bundle (Thumb), der Rest im Storage.
+        db_rows = hero_by.get(tid)
+        local_row, local_thumb = local_hero(tid)
+        row = db_rows[0] if db_rows else local_row
+        data.pop("bilderAsset", None)
+        has_thumb = False
+        if row:
+            data["bilder"] = [bild_json(row)]
+            has_thumb = write_thumb(tid, row["id"], local_thumb, old_thumb_ids, dry)
+        else:
+            data.pop("bilder", None)
         write_json(path, data, 1, dry)
+        index.append({
+            "id": tid,
+            "dataVersion": data["dataVersion"],
+            "file": os.path.basename(path),
+            "thumb": ("thumbs/%s.avif" % tid) if has_thumb else None,
+            "thumbImage": row["id"] if has_thumb else None,
+        })
     if new_files:
-        print("\nNeue Trails ohne Seed-Datei, jetzt angelegt:")
-        for tid in new_files:
-            print("  - %s: in SeedTrailRepository._seedPaths eintragen" % tid)
+        print("\nNeue Trails ohne Seed-Datei, jetzt angelegt: %s" % ", ".join(new_files))
+    stale = sorted(set(existing) - visible)
+    if stale:
+        print("\nWARNUNG: Seed-Dateien ohne sichtbaren DB-Trail (nicht im Index): %s"
+              % ", ".join(stale))
+    return [dict(e) for e in index]
+
+
+def write_index(index, dry):
+    write_json(os.path.join(SEED_DIR, "index.json"),
+               {"trails": [drop_none(e) for e in index]}, 1, dry)
+
+
+def check_seed_size():
+    total = 0
+    for base, _dirs, files in os.walk(SEED_DIR):
+        for name in files:
+            total += os.path.getsize(os.path.join(base, name))
+    print("assets/seed/: %.2f MB (Limit %.0f MB)" % (total / 1048576, SEED_MAX_BYTES / 1048576))
+    if total > SEED_MAX_BYTES:
+        sys.exit("Seed ueber dem 5-MB-Limit.")
 
 
 def export_species(dry):
@@ -234,6 +380,7 @@ def export_species(dry):
             "imagePath": r.get("image_path"),
             "imageCredit": r.get("image_credit") or "",
             "content": r.get("content") or {},
+            "version": r.get("version") or 1,
         })
         if r.get("audio_path"):
             s["audioPath"] = r["audio_path"]
@@ -294,10 +441,13 @@ def export_pois(dry):
 
 def main():
     dry = "--dry-run" in sys.argv[1:]
-    export_trails(dry)
+    index = export_trails(dry)
+    write_index(index, dry)
     export_species(dry)
     export_merkmale(dry)
     export_pois(dry)
+    if not dry:
+        check_seed_size()
     print("Fertig." + (" (dry-run)" if dry else " Diff pruefen, dann committen."))
 
 

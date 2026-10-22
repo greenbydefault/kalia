@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    54.96606,
@@ -280,28 +279,27 @@
    12.548337
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -128514624,
    "lat": 54.96606,
    "lon": 12.5483374,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "GeoCenter Møns Klint",
    "thema": "Start an den Tafeln",
    "kurztext": "Vor dem GeoCenter beginnen die markierten Runden. Die Tafeln erklären das UNESCO-Kliff – 70 Millionen Jahre Kreide, von Eiszeiten hochgeschoben. Wir bleiben draußen: die Ausstellung ist extra.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2286197260,
    "lat": 54.966435,
    "lon": 12.5484361,
    "km": 0.05,
+   "reihenfolge": 2,
    "titel": "Maglevandstrappen",
    "thema": "497 Holzstufen zur Ostsee",
    "kurztext": "Dänemarks längste Treppe: 497 Stufen durch den Buchenhang. Handlauf ja, Rampe nein. Nasser Holzbelag wird glatt. Am Split unten rechts, wenn der Nordarm gesperrt ist.",
@@ -311,29 +309,28 @@
    "barrierefrei": false,
    "steckbrief": {
     "werdegang": "vom Klintwald – zur Kreidestrandkante"
-   },
-   "reihenfolge": 2
+   }
   },
   {
    "osmId": -3656152605,
    "lat": 54.965893,
    "lon": 12.5520789,
    "km": 0.35,
+   "reihenfolge": 3,
    "titel": "Fossilstrand",
    "thema": "Kreide, Seeigel, Vættelys",
    "kurztext": "Unter 128 Meter Kliff liegt der Strand voller Feuerstein und Kreidebruch. Hier findest du Seeigel, Schwämme, Muscheln – Reste aus dem Kreidemeer. Nur vom Boden, nicht aus der Wand.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3669815567,
    "lat": 54.964977,
    "lon": 12.5521588,
    "km": 0.49,
+   "reihenfolge": 4,
    "titel": "Freuchens Pynt",
    "thema": "Kliffsturz 1998",
    "kurztext": "Die Landzunge stürzte 1998 ins Meer. Das Kliff lebt: jeder Winter frisst Kreide. Die Pynt trägt den Namen des Polarforschers Peter Freuchen.",
@@ -343,36 +340,33 @@
    "barrierefrei": false,
    "steckbrief": {
     "werdegang": "vom Kreidevorsprung – zur Brandungshalbinsel"
-   },
-   "reihenfolge": 4
+   }
   },
   {
    "osmId": -2460322384,
    "lat": 54.9617926,
    "lon": 12.5519228,
    "km": 0.86,
+   "reihenfolge": 5,
    "titel": "Sommerspirspynten",
    "thema": "Sommerspiret und Wanderfalke",
    "kurztext": "Bis Januar 1988 stand hier das Sommerspiret, Wahrzeichen der Klint. Heute sitzt oft der Wanderfalke auf der Kante und jagt über der Ostsee.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -4254760422,
    "lat": 54.9647122,
    "lon": 12.5508452,
    "km": 1.97,
+   "reihenfolge": 6,
    "titel": "Holgers kig",
    "thema": "Buchenwald und Blick zurück",
    "kurztext": "Aussicht vom Waldrand der Klinteskov. Silberglatte Buchen, darunter im Frühsommer Orchideen auf dem Kalk. Hinter dir liegt die weiße Wand, vor dir der Rückweg zum GeoCenter.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -387,29 +381,25 @@
    "osmId": 1090676318,
    "lat": 54.966707,
    "lon": 12.547485,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 4080402262,
    "lat": 54.9658071,
    "lon": 12.5482665,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 7722022285,
    "lat": 54.9658106,
    "lon": 12.548033,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3774531371,
    "lat": 54.9628692,
    "lon": 12.5488179,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 1915584260,
@@ -422,8 +412,7 @@
    "osmId": 167998188,
    "lat": 54.966535,
    "lon": 12.548069,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 2790294521,
@@ -447,7 +436,6 @@
    "name": "Holgers kig"
   }
  ],
- "bilderAsset": "assets/images/trails/fossilruten-moens-klint/credits.json",
  "lebensraeume": [
   "buchenwald",
   "duene-strand"
@@ -468,5 +456,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "a8c7e7c9-850b-598d-8b98-9152b5e33acd",
+   "id": "a8c7e7c9-850b-598d-8b98-9152b5e33acd",
+   "caption": "Møns Klint – weißes Kreidekliff über der Ostsee.",
+   "credit": "Maria Eklind",
+   "license": "cc-by-sa-2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns_klint%2C_DK%2C_2024_11.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    51.084092,
@@ -192,28 +191,27 @@
    10.510736
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 51.0841767,
    "lon": 10.5107112,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Lift",
    "thema": "Auf den Steg, ohne Treppe",
    "kurztext": "Hier beginnt der Steg. Ticket, dann Lift oder Wendeltreppe. Der Lift nimmt Kinderwagen und Rollstuhl mit auf zehn Meter. Der Turm später ist Treppe, der Steg nicht. Letzter Einlass eine Stunde vor Schluss.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -2087608778,
    "lat": 51.084141,
    "lon": 10.51147,
    "km": 0.05,
+   "reihenfolge": 2,
    "titel": "Fledermaus",
    "thema": "Echo im Dunkeln",
    "kurztext": "Erstes der vier Tore. Klänge und Licht zeigen, wie Fledermäuse im Kronendach jagen. Im Hainich hängt die Bechsteinfledermaus tagsüber in alten Buchen. Du hörst sie hier, siehst sie selten.",
@@ -222,15 +220,14 @@
     "mitmach-modell",
     "audio"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -1898246817,
    "lat": 51.084497,
    "lon": 10.511401,
    "km": 0.11,
+   "reihenfolge": 3,
    "titel": "Specht",
    "thema": "Wer die Wohnungen zimmert",
    "kurztext": "Klopfen darfst du an der Tafel. Der Buntspecht hämmert Höhlen, die später Fledermaus und Käfer übernehmen. Such die Löcher in den Stämmen unter dir – nicht jedes ist frisch.",
@@ -239,15 +236,14 @@
     "mitmach-modell",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -895218128,
    "lat": 51.084753,
    "lon": 10.510924,
    "km": 0.16,
+   "reihenfolge": 4,
    "titel": "Wildkatze",
    "thema": "Dick geringelter Schwanz, kein Hauskater",
    "kurztext": "Im Hainich lebt sie wirklich, scheu und nachtaktiv. Der Schwanz ist buschig und klar geringelt, die Binde vorne schwarz. Hauskatzen kreuzen sich mit ihr – deshalb bleibt Abstand besser als ein Foto aus dem Gebüsch.",
@@ -255,15 +251,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -1189299018,
    "lat": 51.084397,
    "lon": 10.510597,
    "km": 0.21,
+   "reihenfolge": 5,
    "titel": "Schillerfalter",
    "thema": "Violett, wenn die Sonne trifft",
    "kurztext": "Großer Schillerfalter: das Männchen schillert, das Weibchen nicht. Modelle und Lupen zeigen Ei, Raupe, Puppe, Falter. Die Raupen brauchen Traubenkirsche und Weide im Unterholz.",
@@ -272,114 +267,105 @@
     "mitmach-modell",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -2107956005,
    "lat": 51.0841,
    "lon": 10.510803,
    "km": 0.26,
+   "reihenfolge": 6,
    "titel": "Fotosynthese",
    "thema": "Was die Blätter mit Licht machen",
    "kurztext": "Zweite Schleife, überdachte Plattform. Die Tafeln erklären, wie die Krone aus Licht und Luft Zucker baut – und warum ein Loch im Dach den Boden darunter ändert.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -1883596456,
    "lat": 51.083682,
    "lon": 10.51086,
    "km": 0.33,
+   "reihenfolge": 7,
    "titel": "Wilder Wald",
    "thema": "Totholz bleibt liegen",
    "kurztext": "Hier darf der Baum umfallen. Specht, Käfer, Pilz brauchen das liegende Holz. Der Nationalpark räumt nicht auf. Schau nach unten: was grau und tot wirkt, ist voller Leben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": -3893835391,
    "lat": 51.083405,
    "lon": 10.510333,
    "km": 0.4,
+   "reihenfolge": 8,
    "titel": "Vergessener Wald",
    "thema": "Als der Hainich Militär war",
    "kurztext": "Jahrzehnte Sperrgebiet, wenig Forst. Genau das hat den Buchenurwald gerettet. Die Plattform erzählt die Lücke in der Nutzung, nicht eine Mär vom ewigen Urwald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   },
   {
    "osmId": -952999993,
    "lat": 51.083448,
    "lon": 10.509689,
    "km": 0.46,
+   "reihenfolge": 9,
    "titel": "Forscher-Wald",
    "thema": "Messung statt Klettergurt",
    "kurztext": "Der Steg ist auch Labor. Oben am Turm sitzt eine Wetterstation, in den Kronen laufen Langzeitbeobachtungen. Du gehst denselben Weg wie die Forschung, nur ohne Netz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": true
   },
   {
    "osmId": -386502794,
    "lat": 51.083895,
    "lon": 10.509462,
    "km": 0.52,
+   "reihenfolge": 10,
    "titel": "Hängebrücke",
    "thema": "Der Wald schwingt",
    "kurztext": "Bretter, die nachgeben. Mutige spüren, wie der Baum im Wind arbeitet. Daneben ein Kletterseil. Nicht rennen, nicht schubsen – der Steg ist schmal und hoch.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 51.0841065,
    "lon": 10.51085,
    "km": 0.58,
+   "reihenfolge": 11,
    "titel": "Baumturm",
    "thema": "Über die Wipfel, nur Treppe",
    "kurztext": "44 Meter, offene Plattform, Blick bis ins Thüringer Becken. Kein Lift. Schwindelfreie gehen rauf. Im Turminnern hängt eine Ausstellung – optional, der Trail bleibt draußen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": -814637900,
    "lat": 51.081946,
    "lon": 10.515405,
    "km": 0.85,
+   "reihenfolge": 12,
    "titel": "Abenteuerwildnis Fagati",
    "thema": "Draußen, ohne Ticket",
    "kurztext": "Am Nationalparkzentrum, nicht auf dem Steg. Fabelwesen-Spuren, zum Rennen und Suchen. April bis Oktober 10–19 Uhr, Eintritt frei. Hainichwelt und Wurzelhöhle daneben sind Indoor – nicht hier.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -394,22 +380,19 @@
    "osmId": 963476906,
    "lat": 51.0841767,
    "lon": 10.5107112,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 7285172239,
    "lat": 51.0826174,
    "lon": 10.5085325,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11821993030,
    "lat": 51.0824189,
    "lon": 10.5101422,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4779915,
@@ -445,7 +428,6 @@
  "oeffnungszeiten": "April–Oktober täglich 10–19 Uhr. März täglich 10–18. November täglich 10–16 (Wetter). Januar, Februar, Dezember: Do–So sowie Feier- und Ferientage Thüringen 10–16, Mo–Mi zu. 24.12., 31.12., 1.1. zu. Letzter Einlass 1 Stunde vorher, im Oktober 1,5 Stunden. Bei Sturm, Gewitter, Eis kurzfristig zu.",
  "besuchshinweise": "Kinder unter 12 nur mit Erwachsenem. Hunde nicht auf den Steg, Boxen am Fuß. Assistenzhunde ausgenommen. Turm nur Treppe. Lift auf den Steg für Kinderwagen und Rollstuhl. Bei Gewitter und Sturm Evakuierung. Fotos nur privat.",
  "hoertext": "Über dir hängt der Buchenurwald, unter den Brettern knarzt der Steg. Der Lift nimmt den Kinderwagen mit, den Turm nur die Treppe. Vier Tiere erzählen auf der ersten Schleife, die zweite erklärt den Wald selbst. Hunde bleiben in der Box unten. Zwei Stunden reichen, wenn ihr Fagati noch mitnehmt.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-hainich/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -465,5 +447,18 @@
   "Amsel": "typisch",
   "Blaumeise": "typisch",
   "Eichelhäher": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "1187bdc9-5af5-5fc7-a1ce-bbbfa90a2997",
+   "id": "1187bdc9-5af5-5fc7-a1ce-bbbfa90a2997",
+   "caption": "Steg durch die Buchenkronen.",
+   "credit": "Dietmar Rabich",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASch%C3%B6nstedt%2C_Nationalpark_Hainich%2C_Baumkronenpfad_--_2017_--_0190.jpg",
+   "kind": "ort"
+  }
+ ]
 }

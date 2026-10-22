@@ -3,7 +3,6 @@ import 'package:latlong2/latlong.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../domain/trail.dart';
-import 'trail_hero_assets.dart';
 import 'trail_repository.dart';
 
 /// Lädt Trails inkl. Stationen und Amenities aus Supabase (ein Request über
@@ -16,11 +15,13 @@ class SupabaseTrailRepository implements TrailRepository {
 
   // Explizite Spaltenliste: die Generated Columns (pos/start_pos) kämen als
   // unlesbare WKB-Hex-Strings mit und werden hier ausgeklammert.
-  static const _columns =
+  static const columns =
       'id, name, typ, form, kurzbeschreibung, beschreibung, '
       'laenge_km, dauer_min, rundkurs, markierung, betreiber, region, website, '
       'eintritt, eintritt_preise, oeffnungszeiten, besuchshinweise, '
       'anreise, start_name, arten, lebensraeume, naturraum, tags, route, area, '
+      'hoertext, data_version, '
+      'images(id, credit, caption, license, license_url, source_url, kind, sort), '
       'stations(id, osm_id, lat, lon, km, reihenfolge, titel, thema, kurztext, '
       'erlebnisse, barrierefrei, steckbrief), '
       'amenities(osm_id, lat, lon, kategorie, name)';
@@ -30,19 +31,19 @@ class SupabaseTrailRepository implements TrailRepository {
     final querySw = Stopwatch()..start();
     final rows = await _client
         .from('trails')
-        .select(_columns)
+        .select(columns)
+        .eq('images.source', 'official')
+        .eq('images.status', 'approved')
+        .isFilter('images.station_id', null)
         .order('reihenfolge', referencedTable: 'stations', ascending: true)
+        .order('sort', referencedTable: 'images', ascending: true)
         .order('name', ascending: true);
     final queryMs = querySw.elapsedMilliseconds;
     final jsons = [for (final row in rows) trailRowToJson(row)];
-    final heroSw = Stopwatch()..start();
-    await Future.wait([for (final json in jsons) attachHeroBilder(json)]);
-    final heroMs = heroSw.elapsedMilliseconds;
     final parseSw = Stopwatch()..start();
     final trails = [for (final json in jsons) Trail.fromJson(json)];
     debugPrint(
       'trails supabase query $queryMs ms, '
-      'attachHeroBilder $heroMs ms, '
       'fromJson ${parseSw.elapsedMilliseconds} ms',
     );
     return trails;
@@ -82,6 +83,23 @@ class SupabaseTrailRepository implements TrailRepository {
     'amenities': (row['amenities'] as List? ?? const [])
         .map((a) => amenityRowToJson(a as Map<String, dynamic>))
         .toList(),
+    'hoertext': row['hoertext'],
+    'dataVersion': row['data_version'] ?? 1,
+    'bilder': (row['images'] as List? ?? const [])
+        .map((i) => bildRowToJson(i as Map<String, dynamic>))
+        .toList(),
+  };
+
+  /// Offizielles Hero-Foto (`images`, source=official) → [TrailBild.fromJson].
+  static Map<String, dynamic> bildRowToJson(Map<String, dynamic> row) => {
+    'file': row['id'],
+    'id': row['id'],
+    'caption': row['caption'] ?? '',
+    'credit': row['credit'] ?? '',
+    'license': row['license'] ?? '',
+    'licenseUrl': row['license_url'] ?? '',
+    'sourceUrl': row['source_url'] ?? '',
+    'kind': row['kind'] ?? 'ort',
   };
 
   static Map<String, dynamic> stationRowToJson(Map<String, dynamic> row) => {

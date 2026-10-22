@@ -77,10 +77,7 @@ Uri directionsUri(MapProvider provider, LatLng destination) {
         'travelmode': 'driving',
       });
     case MapProvider.appleMaps:
-      return Uri.https('maps.apple.com', '/', {
-        'daddr': dest,
-        'dirflg': 'd',
-      });
+      return Uri.https('maps.apple.com', '/', {'daddr': dest, 'dirflg': 'd'});
     case MapProvider.openStreetMap:
       return Uri.https('www.openstreetmap.org', '/directions', {
         'engine': 'fossgis_osrm_car',

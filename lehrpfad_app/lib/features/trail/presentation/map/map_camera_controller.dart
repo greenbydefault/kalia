@@ -201,10 +201,7 @@ class MapCameraController {
       unawaited(_runFlight(() => _flight.flyTo(anchor, MapConfig.placeZoom)));
       return;
     }
-    final target = CameraTarget.fromPoints(
-      pts,
-      padding: _catalogPadding,
-    );
+    final target = CameraTarget.fromPoints(pts, padding: _catalogPadding);
     if (target == null) return;
     unawaited(
       _runFlight(
@@ -221,10 +218,7 @@ class MapCameraController {
       if (!_isMounted()) return;
       if (gen != _intentGen) return;
       final pts = allPoints(trails, anchor: anchor);
-      final target = CameraTarget.fromPoints(
-        pts,
-        padding: _catalogPadding,
-      );
+      final target = CameraTarget.fromPoints(pts, padding: _catalogPadding);
       if (target == null) return;
       unawaited(
         _runFlight(

@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    54.408717,
@@ -490,82 +489,76 @@
    9.68675
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -721553703,
    "lat": 54.40861,
    "lon": 9.68673,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Waldparkplatz",
    "thema": "Einstieg L265, Steintafel Silberbergen",
    "kurztext": "Hier steht das Auto, an der L265 zwischen Ahlefeld und Bistensee. Steintafel Silberbergen, der Rundweg fängt an. Frei, ohne Förster. Nicht den Hotelparkplatz am Aschberg. Untereider ist der andere RD-Pfad, Rendsburg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 5523642021,
    "lat": 54.410027,
    "lon": 9.6849232,
    "km": 0.19,
+   "reihenfolge": 2,
    "titel": "Tafel am Waldrand",
    "thema": "Erste Infotafel, vom Parkplatz in den Bestand",
    "kurztext": "Wenige Meter vom Platz, westlich in den Wald. OSM-Tafel ohne Titel, Inhalt Wald, Pflanzen, Tiere. Du bleibst auf dem Weg, der Bestand ist FFH.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 5523638306,
    "lat": 54.4116732,
    "lon": 9.6823158,
    "km": 0.44,
+   "reihenfolge": 3,
    "titel": "Tafel am Hang",
    "thema": "Westlicher Anstieg im Gehege",
    "kurztext": "Weiter den Westweg hoch. Wieder eine Tafel ohne öffentlichen Titel. Buchen, Eichen, Totholz. Der Aschberg-Gipfel liegt noch nördlich, nicht hier.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 5523639371,
    "lat": 54.4124965,
    "lon": 9.6821098,
    "km": 0.55,
+   "reihenfolge": 4,
    "titel": "Tafel am Nordweg",
    "thema": "Obere Kante vor dem Rastplatz",
    "kurztext": "Nördlicher Schenkel, kurz vor Bank und Unterstand. Tafel im Bestand, nicht die Naturpark-Tafel am Picknick. Rundkurs, du kommst denselben Parkplatz wieder.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 602588317,
    "lat": 54.4140607,
    "lon": 9.6824629,
    "km": 0.75,
+   "reihenfolge": 5,
    "titel": "Naturtafel am Rastplatz",
    "thema": "Bank, Unterstand, Picknick",
    "kurztext": "Hier hängt die Naturpark-Tafel, daneben Bank, Unterstand, Picknickplatz. Rast, dann weiter die Runde oder zurück. Der Aussichtsturm am Aschberg ist extra, anderer Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -573,15 +566,13 @@
    "osmId": 602588306,
    "lat": 54.4142405,
    "lon": 9.6825759,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 602588313,
    "lat": 54.4141652,
    "lon": 9.6824322,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 1020779292,
@@ -599,18 +590,16 @@
   },
   {
    "osmId": 30088361,
-   "lat": 54.408612716666674,
+   "lat": 54.4086127166667,
    "lon": 9.68673405,
    "kategorie": "parking",
    "name": "Silberbergen"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Wege nass nach Regen, kein Rollstuhl. Aschberg mit Turm und Bismarck ist extra, anderer Einstieg.",
  "hoertext": "Am Waldparkplatz Silberbergen, L265 zwischen Ahlefeld und Bistensee, fängt die Runde an. Zweieinhalb Kilometer durchs Gehege, frei, Tafeln zu Wald, Pflanzen und Tieren. Auto bleibt am Platz, nicht in den Bestand. Der Aschberg mit Turm und Bismarck ist extra, anderer Einstieg. Nass nach Regen, Hunde an die Leine.",
- "bilderAsset": "assets/images/trails/waldlehrpfad-silberbergen/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -630,5 +619,18 @@
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "eaaf92d2-7136-51f8-9c6a-96e73183b8fc",
+   "id": "eaaf92d2-7136-51f8-9c6a-96e73183b8fc",
+   "caption": "Beginn und Ende des Waldlehrpfads Silberbergen, Waldparkplatz an der L265.",
+   "credit": "Kommentator1989",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFFH-Teilgebiet_Gehege_Silberbergen_(1_von_7).jpg",
+   "kind": "ort"
+  }
+ ]
 }

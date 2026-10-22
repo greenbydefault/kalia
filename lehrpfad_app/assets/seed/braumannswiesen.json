@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    50.248063,
@@ -380,43 +379,41 @@
    8.577912
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -1702877040,
    "lat": 50.248063,
    "lon": 8.577912,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Naturwandel in den Braumannswiesen",
    "thema": "Kulturlandschaft im Umbau",
    "kurztext": "Hier beginnt der Rundweg: Wiese, Weide, Waldstück und Gestüt liegen nah beieinander. Die erste Tafel erklärt, warum diese Landschaft kein Naturzustand ist – sondern das Ergebnis von Mahd, Beweidung, Aufforstung und Aufgabe. Schau dich um, bevor du losgehst: Was ist offen, was wächst zu?",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -180765618,
    "lat": 50.251731,
    "lon": 8.576413,
    "km": 0.42,
+   "reihenfolge": 2,
    "titel": "Beweidung und ihre Auswirkung",
    "thema": "Wer die Wiese offen hält",
    "kurztext": "Schafe und andere Weidetiere fressen Jungwuchs, treten Lücken und halten blütenreiche Flächen offen. Ohne Verbiss würde Gebüsch die Wiese schließen. Die Station zeigt die Wirkung – und warum du Tiere nur aus der Distanz beobachtest, nicht fütterst.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -4273237128,
    "lat": 50.253179,
    "lon": 8.575787,
    "km": 0.59,
+   "reihenfolge": 3,
    "titel": "Fichtenwald auf einer Feuchtwiese",
    "thema": "Nadelholz am falschen Ort",
    "kurztext": "Fichten wollen durchlässigen Bergboden, keine nasse Wiese im Taunusvorland. Hier stehen sie trotzdem: schnell wachsend, dicht, dunkel. Unter dem Schirm bleibt wenig Blüte. Die Tafel macht den Konflikt sichtbar – Forstidee gegen Feuchtwiesen-Leben.",
@@ -424,45 +421,42 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -709318741,
    "lat": 50.255579,
    "lon": 8.57459,
    "km": 0.87,
+   "reihenfolge": 4,
    "titel": "Es war einmal eine Streuobstwiese",
    "thema": "Hochstämme ohne Pflege",
    "kurztext": "Alte Apfel- und Birnbäume brauchen Schnitt und Mahd. Fehlt beides, übernimmt Gebüsch, die Kronen brechen, die Wiese verdichtet sich. Du siehst Relikte einer Nutzungsform, die Insekten und Vögel füttert – solange Licht auf den Boden fällt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -1625679548,
    "lat": 50.255279,
    "lon": 8.571814,
    "km": 1.12,
+   "reihenfolge": 5,
    "titel": "Gehölzsukzession",
    "thema": "Was nachwächst, wenn niemand mäht",
    "kurztext": "Zuerst Kräuter, dann Sträucher, dann Bäume: Sukzession ist kein Unfall, sondern die Standardgeschichte offener Flächen. Die Station zeigt die Stufen – und warum Naturschutz manchmal eingreift, damit Wiese Wiese bleibt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -3700933064,
    "lat": 50.253569,
    "lon": 8.568714,
    "km": 1.46,
+   "reihenfolge": 6,
    "titel": "Die Wiese – reich an vielen Arten",
    "thema": "Blüten, statt nur Gras",
    "kurztext": "Eine gemähte oder beweidete Feuchtwiese trägt Dutzende Kräuter, nicht nur Futtergras. Zähl Blütenfarben, statt Namen zu pauken. Je nährstoffärmer und offener, desto mehr Insekten. Die Tafel hilft beim Hinsehen, nicht beim Abpflücken.",
@@ -470,30 +464,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -290596413,
    "lat": 50.25156,
    "lon": 8.566644,
    "km": 1.73,
+   "reihenfolge": 7,
    "titel": "Wald und Wasser",
    "thema": "Nasse Böden, nasse Wurzeln",
    "kurztext": "Wo es im Boden steht, entscheiden wenige Baumarten. Erlen vertragen nasse Füße, Fichten oft nicht dauerhaft. Die Station verbindet Graben, Staunässe und Bestand – und warum Wasser hier die Artenliste schreibt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -274399789,
    "lat": 50.251823,
    "lon": 8.565008,
    "km": 1.92,
+   "reihenfolge": 8,
    "titel": "Baumarten und ihre Blätter",
    "thema": "Buche, Eiche, Fichte, Erle",
    "kurztext": "Blatt, Nadel, Rinde: hier vergleichst du die Bäume, die den Pfad prägen. Eiche gebuchtet, Buche glattrandig, Fichte einzelnadelig, Erle am Nassen. Kein Quizdruck – erst schauen, dann den Namen auf der Tafel kippen.",
@@ -501,84 +493,77 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -250668824,
    "lat": 50.250812,
    "lon": 8.568499,
    "km": 2.19,
+   "reihenfolge": 9,
    "titel": "Das Ende eines Fichtenwaldes",
    "thema": "Sturm, Käfer, Umbau",
    "kurztext": "Dichte Fichtenbestände auf nassem Grund sind anfällig: Windwurf, Borkenkäfer, Umfallen im Verbund. Lücken reißen Licht auf die Fläche. Die Tafel fragt, was danach kommt – und warum Aufräumen nicht immer die beste Pflege ist.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -3002328358,
    "lat": 50.249068,
    "lon": 8.571086,
    "km": 2.5,
+   "reihenfolge": 10,
    "titel": "Mittelwald – alte Waldnutzung",
    "thema": "Stockausschlag und Überhälter",
    "kurztext": "Mittelwald kombiniert niedrigen Ausschlag (Brennholz) mit einzelnen Hochstämmen (Bauholz). Das Lichtregime ist unruhig, der Unterwuchs artenreich. Die Station ist ein Blick in eine Nutzungsform, die fast verschwunden ist – und Spuren hinterlässt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": -1022348840,
    "lat": 50.248507,
    "lon": 8.572854,
    "km": 2.64,
+   "reihenfolge": 11,
    "titel": "Naturverjüngung",
    "thema": "Keimlinge statt Pflanzverband",
    "kurztext": "Wo Licht auf den Boden fällt, keimen Buche, Eiche oder Weide von allein. Naturverjüngung braucht Geduld und Verbissschutz, keinen geraden Raster. Such nach Sämlingen am Wegrand – klein, leicht zu übersehen, die nächste Waldgeneration.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": -2592930829,
    "lat": 50.248066,
    "lon": 8.577506,
-   "km": 3.0,
+   "km": 3,
+   "reihenfolge": 12,
    "titel": "Bachufergehölz",
    "thema": "Erlen, Schatten, Uferhalt",
    "kurztext": "Am Bach halten Erlen und Weiden die Böschung, spenden Schatten und füttern Insekten, die wieder Fische füttern. Das Gehölz ist schmal, aber entscheidend. Bleib auf dem Weg: Ufer treten sich schnell kaputt. Die letzte Tafel schließt den Kreis zur nassen Wiese am Start.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": -473077645,
    "lat": 50.245383,
    "lon": 8.576338,
    "km": 3.34,
+   "reihenfolge": 13,
    "titel": "Weide des Gestüts Erlenhof",
    "thema": "Pferde als Landschaftspfleger",
    "kurztext": "Am Gestüt Erlenhof weiden Pferde auf großen Koppeln. Ihr Verbiss hält Flächen offen, tritt den Boden aber anders als Schafe. Bleib hinter dem Zaun: das sind Betrieb und Tiere, kein Streichelzoo. Die Tafel ordnet die Weide in die Kulturlandschaft ein.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 13
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -586,25 +571,21 @@
    "osmId": 781780368,
    "lat": 50.2478375,
    "lon": 8.5778456,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3813488452,
    "lat": 50.2536331,
    "lon": 8.5686922,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4197638058,
    "lat": 50.255475,
    "lon": 8.5748544,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/braumannswiesen/credits.json",
  "lebensraeume": [
   "buchenwald",
   "streuobst-hecke",
@@ -626,5 +607,18 @@
   "Blaumeise": "typisch",
   "Buntspecht": "typisch",
   "Eichelhäher": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "d3b95531-09d2-5fab-bb67-8838b033eed6",
+   "id": "d3b95531-09d2-5fab-bb67-8838b033eed6",
+   "caption": "Offene Wiese – so weit das Licht reicht, bleibt die Fläche blütenreich.",
+   "credit": "Safa Heraghi",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow.jpg",
+   "kind": "ort"
+  }
+ ]
 }

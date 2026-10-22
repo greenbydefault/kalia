@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Drei Kilometer um Kurparksee und Schwartauwiesen. Märchenbuch, Baumtelefon, Bohlenweg. Start am Kurpark, frei.",
  "beschreibung": "Direkt nördlich von Lübeck, in Bad Schwartau, startet der Naturerlebnisraum am Kurparksee. Rund drei Kilometer, Markierung Zaunkönig. Der Weg geht durch den alten Laubwald am Mönchkamp und zurück in die Schwartauwiesen. Mitmach-Stationen: Märchenbuch, Reisigburg mit Baumtelefon, Bohlenweg mit Holztieren, Grünes Klassenzimmer mit Schautafeln und Bienenwand. Immer frei, ohne Anmeldung. Führungen gibt es extra, die brauchst du nicht. Der Bohlenweg ist Holz, nass, schmal, Rollstuhl und Kinderwagen eher nicht. Hunde anleinen. Zecken, nasse Wiesen, auf den Stegen bleiben. Rittbrookpfad und Naturwaldpfad liegen im Lauerholz, das ist der andere Wald, andere Stadt.",
- "laengeKm": 3.0,
+ "laengeKm": 3,
  "dauerMin": 75,
  "rundkurs": true,
  "markierung": "Runde Schilder mit Zaunkönig",
@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    53.921543,
@@ -316,88 +315,83 @@
    10.701832
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 409767221,
    "lat": 53.9216389,
    "lon": 10.7019069,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Übersichtskarte",
    "thema": "Start am Kurparksee",
    "kurztext": "Hier hängt die Karte, der See liegt davor. Runde Schilder mit Zaunkönig, nicht die Stadt-Wanderwege mit Nummern. Rhododendron, alter Baumbestand, ein Pavillon. Der Pfad ist frei, die Klinik daneben ist nur der Parkplatz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -1436306127,
    "lat": 53.9204341,
    "lon": 10.702292,
    "km": 0.12,
+   "reihenfolge": 2,
    "titel": "Reisigburg und Baumtelefon",
    "thema": "Höhle aus Zweigen, Leitung im Stamm",
    "kurztext": "Eine Burg aus Reisig am Weg, daneben ein Baumtelefon. Klopfen, rufen, horchen. Igel und Waldmaus sollen so einen Haufen nutzen, steht auf dem Flyer. Du lässt das Holz stehen und gehst weiter, sonst fällt die Höhle in sich zusammen.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -2477088944,
    "lat": 53.9232944,
    "lon": 10.7055474,
    "km": 0.57,
+   "reihenfolge": 3,
    "titel": "Nachtkobolde",
    "thema": "Buchenwald am Mönchkamp",
    "kurztext": "Alter Laubwald östlich vom See. Buchen, Eichen, dämmerig. Der Flyer nennt Fledermäuse und ein Naturfenster im Stumpf. Bei Tag siehst du Löcher und Totholz, nicht die Tiere. Auf dem Weg bleiben, der Hang ist der Rodelhang aus dem Text, kein Spielplatz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1652358258,
    "lat": 53.9260221,
    "lon": 10.7094481,
    "km": 1.14,
+   "reihenfolge": 4,
    "titel": "Gert-Kayser-Weg",
    "thema": "Bohlenweg mit Holztieren",
    "kurztext": "Holzbohlen, dreißig Zentimeter breit, nass. Links und rechts Eule, Eichhörnchen, Reh, Hase, Wildschwein, Fuchs aus Holz. Das Eichhörnchen sitzt höher. Rollstuhl und Kinderwagen hier nicht. Bei Nässe langsam, das Holz zieht.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 8572349117,
    "lat": 53.9246749,
    "lon": 10.710872,
    "km": 1.35,
+   "reihenfolge": 5,
    "titel": "Ökosystem Feuchtgebiet",
    "thema": "Schwartauwiesen, Natura 2000",
    "kurztext": "Nasswiese, Weiden, Erlenbruch. Früher Au kanalisiert, Wiesen drainiert, bis in die siebziger Jahre. Jetzt liegt der Talraum im Natura-2000-Netz. Die Tafel hängt am Rand, du bleibst darauf, sonst trittst du die Wiese kaputt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 951849944,
    "lat": 53.9284564,
    "lon": 10.7008361,
    "km": 2.3,
+   "reihenfolge": 6,
    "titel": "Grünes Klassenzimmer",
    "thema": "Bänke am Südhang, Schautafeln",
    "kurztext": "Offene Bänke am Hang, Schautafeln, Baumscheiben, Bienenwand, Nistkästen. Totholz, Modellknick, Feuchtwiese, Steinhaufen. Führungsunabhängig, auch ohne Klasse. Danach geht es zurück zum See, nicht raus auf die L 309.",
@@ -405,24 +399,21 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 8075452935,
    "lat": 53.9251203,
    "lon": 10.7017699,
    "km": 2.67,
+   "reihenfolge": 7,
    "titel": "Märchenbuch",
    "thema": "Zauberwald am See",
    "kurztext": "Ein Buch im Wald, Geschichten und Bilder. Nördlich vom Kurparksee, bevor die Runde zum Start schließt. Der Flyer spricht von Fee und Waldlesebuch. Du liest, lässt das Buch hängen, gehst den letzten Abschnitt zur Karte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -430,8 +421,7 @@
    "osmId": 359604612,
    "lat": 53.9225015,
    "lon": 10.7006331,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 409767286,
@@ -444,8 +434,7 @@
    "osmId": 13637950890,
    "lat": 53.9272177,
    "lon": 10.7093994,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 333626956,
@@ -456,7 +445,6 @@
   }
  ],
  "hoertext": "Am Kurparksee hängt die Karte, der Zaunkönig auf den runden Schildern zeigt den Weg. Zweieinhalb Kilometer, frei, ohne Anmeldung. Im Wald eine Reisigburg und ein Baumtelefon, später ein Bohlenweg aus Holz, nass und schmal. Das Grüne Klassenzimmer liegt in der Endstrecke, Bänke am Hang. Bleib auf den Stegen, der Boden nebenan ist Moor.",
- "bilderAsset": "assets/images/trails/schwartautal/credits.json",
  "lebensraeume": [
   "auwald",
   "teich-tuempel"
@@ -477,5 +465,18 @@
   "Schilf": "typisch",
   "Stieleiche": "typisch",
   "Stockente": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "e9249b25-4ac2-5ac2-b340-fbcfbbde7269",
+   "id": "e9249b25-4ac2-5ac2-b340-fbcfbbde7269",
+   "caption": "Holzbrücke über den Kurparksee.",
+   "credit": "Nightflyer",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20Schwartau%2C%20Naturerlebnisraum%20Schwartautal%2C%20am%20Kurpark%20IMG%209881.JPG",
+   "kind": "ort"
+  }
+ ]
 }

@@ -517,82 +517,78 @@
    "osmId": 6052962405,
    "lat": 52.3100063,
    "lon": 14.0199217,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Eingang zum Naturlehrpfad",
    "thema": "Übersicht – Wald und Bergbau",
    "kurztext": "An der Eingangstafel beginnt der rund 3 km lange Rundweg durch die Rauener Berge. Die Karte zeigt den Wegverlauf durch das waldreiche Gelände und die Stationen, an denen wir typische Baumarten der Region und die Geschichte des Braunkohleabbaus kennenlernen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 2209900240,
    "lat": 52.310074,
    "lon": 14.0198405,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 2,
    "titel": "Bergbau in den Rauener Bergen",
    "thema": "Braunkohleabbau",
    "kurztext": "Mitten im Wald erinnert diese Tafel an eine andere Zeit: In den Rauener Bergen wurde früher Braunkohle abgebaut. Der ehemalige Stollenausgang der Braunkohleförderung liegt direkt am Weg – ein Relikt, das die Landschaft bis heute prägt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 8244599364,
    "lat": 52.3101511,
    "lon": 14.0197198,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 3,
    "titel": "Bergbau Bahnhof",
    "thema": "Abtransport der Kohle",
    "kurztext": "An diesem Punkt endete einst der Transportweg der Braunkohle: Was in den Gruben der Rauener Berge gefördert wurde, ging von hier aus auf die weitere Reise. Die Tafel erzählt vom Zusammenspiel aus Bergbau und Bahn in der Region.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 8887815747,
    "lat": 52.3194484,
    "lon": 14.0356004,
    "km": 2.61,
+   "reihenfolge": 4,
    "titel": "Nest der Roten Waldameise",
    "thema": "Die Baumpolizei des Waldes",
    "kurztext": "Der große Nadelhügel am Wegesrand ist ein Nest der Roten Waldameise. Die Ameisen erledigen im Wald Aufräumarbeiten und regulieren Schädlinge – die Tafel erklärt, wie so ein Staat aus Hunderttausenden Tieren funktioniert und warum er geschützt ist.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 8887815750,
    "lat": 52.3193355,
    "lon": 14.0352,
    "km": 2.61,
+   "reihenfolge": 5,
    "titel": "Die Rauener Berge und die Markgrafensteine",
    "thema": "Eiszeit und Findlinge",
    "kurztext": "Die Rauener Berge sind eine Stauch- und Endmoräne der letzten Eiszeit. Mit dem Eis kamen riesige Findlinge aus dem Norden hierher – darunter die Markgrafensteine, die größten Findlinge Brandenburgs. Der Große Markgrafenstein wurde 1827 gespalten; aus seinem Mittelstück entstand die riesige Granitschale im Berliner Lustgarten. Die Steine sind als Nationales Geotop ausgewiesen und über einen kurzen Abstecher erreichbar.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 8887815753,
    "lat": 52.3112467,
    "lon": 14.0362751,
    "km": 4.34,
+   "reihenfolge": 6,
    "titel": "Europäische Lärche",
    "thema": "Baumarten kennenlernen",
    "kurztext": "Die Europäische Lärche ist ein Nadelbaum, der im Winter seine Nadeln abwirft – und sich im Herbst goldgelb färbt. An dieser Station lernen wir, sie von Kiefer, Fichte und Co. zu unterscheiden.",
@@ -600,39 +596,35 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 8887815736,
    "lat": 52.3108826,
    "lon": 14.0360206,
    "km": 4.38,
+   "reihenfolge": 7,
    "titel": "Grubensee",
    "thema": "Wasser im Wald",
    "kurztext": "Der kleine Grubensee liegt still zwischen den Bäumen. An solchen Stillgewässern zeigt sich, wie vielfältig der Wald der Rauener Berge ist – von Libellen über Wasserpflanzen bis zu den Vögeln am Ufer.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 6052962423,
    "lat": 52.3088776,
    "lon": 14.0228519,
    "km": 5.64,
+   "reihenfolge": 8,
    "titel": "Am Hirschbrunnen",
    "thema": "Rast am Brunnen",
    "kurztext": "Die Tafel am Hirschbrunnen ist ein ruhiger Punkt auf dem Rundweg – hier geht es um das Wasser im Wald und die Tiere, die sich solche Rastplätze gern aussuchen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -640,116 +632,99 @@
    "osmId": 1826012585,
    "lat": 52.3192613,
    "lon": 14.0351834,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 6052962406,
    "lat": 52.3100031,
    "lon": 14.0196642,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 6052962408,
    "lat": 52.3101171,
    "lon": 14.0195732,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6052962413,
    "lat": 52.3111887,
    "lon": 14.0238967,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6052962416,
    "lat": 52.3118114,
    "lon": 14.0277623,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8887815739,
    "lat": 52.3192589,
    "lon": 14.0355607,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8887815741,
    "lat": 52.3190622,
    "lon": 14.0355483,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041388,
    "lat": 52.3194643,
    "lon": 14.0352366,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041391,
    "lat": 52.3193378,
    "lon": 14.0353184,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041392,
    "lat": 52.3192805,
    "lon": 14.035173,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041394,
    "lat": 52.3193161,
    "lon": 14.0352946,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041395,
    "lat": 52.3192563,
    "lon": 14.035217,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9764041396,
    "lat": 52.319607,
    "lon": 14.035492,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9827261205,
    "lat": 52.3069206,
    "lon": 14.0316832,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9827335357,
    "lat": 52.3074895,
    "lon": 14.0269193,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9862267041,
    "lat": 52.3126908,
    "lon": 14.0200496,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/rauener-berge/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
@@ -770,5 +745,18 @@
   "Eichhörnchen": "typisch",
   "Kleiber": "typisch",
   "Kohlmeise": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "0445f281-6bb4-57c9-9530-4846c5a10cdc",
+   "id": "0445f281-6bb4-57c9-9530-4846c5a10cdc",
+   "caption": "Kleiner Markgrafenstein – Findling aus der Eiszeit.",
+   "credit": "Jocki84",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKleiner_Markgrafenstein.jpg",
+   "kind": "ort"
+  }
+ ]
 }

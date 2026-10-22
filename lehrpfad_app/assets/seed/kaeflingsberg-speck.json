@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    53.438044,
@@ -478,13 +477,13 @@
    12.858718
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2357751726,
    "lat": 53.4380442,
    "lon": 12.838517,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Sommerlinde Speck",
    "thema": "Naturdenkmal am Start",
    "kurztext": "Eine Sommerlinde mit neun Metern Umfang, gepflanzt um das 15. Jahrhundert. Speck heißt so viel wie Damm durchs Moor – der Baum steht mitten im Dorf, vor dem Weg in den Nationalpark. Parken hier, nicht hinter der Schranke.",
@@ -493,16 +492,16 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "alterJahre": 600,
-    "werdegang": "vom Handelsdamm – zum Nationalparkdorf"
-   },
-   "reihenfolge": 1
+    "werdegang": "vom Handelsdamm – zum Nationalparkdorf",
+    "alterJahre": 600
+   }
   },
   {
    "osmId": -3927819477,
    "lat": 53.4327396,
    "lon": 12.8484089,
    "km": 1.24,
+   "reihenfolge": 2,
    "titel": "Huteeiche",
    "thema": "700 Jahre Mastwald",
    "kurztext": "Im Mittelalter trieb man Schweine in den Wald, die Eicheln fraßen. Dafür pflanzte man Eichen und hielt den Unterwuchs kurz. Diese Stieleiche ist Naturdenkmal: rund 700 Jahre, 26 Meter hoch, Stammumfang 5,8 Meter. Die Tafel erklärt, warum solche Riesen nur in Hutewäldern alt werden.",
@@ -510,15 +509,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -870274627,
    "lat": 53.4307874,
    "lon": 12.8453938,
    "km": 1.55,
+   "reihenfolge": 3,
    "titel": "Priesterbäker See",
    "thema": "Moorsteg zur Plattform",
    "kurztext": "Ein 350-Meter-Stichweg, dann Holzsteg über das Ufermoor. Die Plattform ist rollstuhlgerecht und gibt den Blick über den langgestreckten See frei – Kernzone, also Wege halten. Eisvogel und manchmal Fischadler über dem Wasser. Zurück denselben Steg, dann weiter zum Turm.",
@@ -529,29 +527,28 @@
    "barrierefrei": true,
    "steckbrief": {
     "werdegang": "vom Ufermoor – zum Beobachtungssteg"
-   },
-   "reihenfolge": 3
+   }
   },
   {
    "osmId": -643599734,
    "lat": 53.4298131,
    "lon": 12.8498706,
    "km": 2.14,
+   "reihenfolge": 4,
    "titel": "Tafel am Käflingsberg",
    "thema": "Wald, der sich selbst überlassen bleibt",
    "kurztext": "Unterm Anstieg steht eine Nationalpark-Tafel zur natürlichen Waldentwicklung. Ab hier wird der Weg steiler. Die Straße daneben dürfen nur Busse und Anwohnende nutzen – du bleibst auf dem Wanderweg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -458346498,
    "lat": 53.4292029,
    "lon": 12.8586489,
    "km": 2.87,
+   "reihenfolge": 5,
    "titel": "Käflingsbergturm",
    "thema": "167 Stufen, 360 Grad",
    "kurztext": "Auf 100 Metern Höhe steht der 55-Meter-Turm: Mobilfunk, Waldbrandwache und Aussicht. 167 Stufen zur Plattform in 31 Metern, Fernrohr oben, kein Ticket. Bei Klarheit siehst du Waren, Röbel, Neustrelitz – und die Müritz dazwischen. Tafeln zu Wald und Gewässer stehen am Fuß. Zurück derselbe Weg nach Speck.",
@@ -562,8 +559,7 @@
    "barrierefrei": false,
    "steckbrief": {
     "werdegang": "vom Funkmast – zur Aussicht über den Nationalpark"
-   },
-   "reihenfolge": 5
+   }
   }
  ],
  "amenities": [
@@ -571,8 +567,7 @@
    "osmId": 6275859311,
    "lat": 53.4378381,
    "lon": 12.838732,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1926807909,
@@ -592,25 +587,21 @@
    "osmId": 1399992594,
    "lat": 53.4293326,
    "lon": 12.858672,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 6275859246,
    "lat": 53.4292826,
    "lon": 12.8584644,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 5435435539,
    "lat": 53.4294743,
    "lon": 12.8536311,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/kaeflingsberg-speck/credits.json",
  "lebensraeume": [
   "eichen-mischwald",
   "kiefernforst",
@@ -632,5 +623,18 @@
   "Stockente": "typisch",
   "Amsel": "typisch",
   "Blaumeise": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "5637b957-563e-567e-aa48-92ad1547d9ad",
+   "id": "5637b957-563e-567e-aa48-92ad1547d9ad",
+   "caption": "Käflingsbergturm zwischen Kiefern im Müritz-Nationalpark.",
+   "credit": "Lotte76",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANationalpark_M%C3%BCritz_-_K%C3%A4flingsbergturm_%282%29.jpg",
+   "kind": "ort"
+  }
+ ]
 }

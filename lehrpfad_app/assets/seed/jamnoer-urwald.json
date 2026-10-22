@@ -35,7 +35,6 @@
   "picknick",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    51.715162,
@@ -322,67 +321,62 @@
    14.579322
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 7264181147,
    "lat": 51.7156431,
    "lon": 14.5776743,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Parkplatz Landgasthaus",
    "thema": "Start, grüner Schrägstrich",
    "kurztext": "Hier hängt die Karte, am Parkplatz vom Landgasthaus Urwald. Der Lehrpfad ist der grüne Schrägstrich. Der grüne Punkt ist die andere Runde und läuft zum Großteich. Beide fangen an diesem Parkplatz an.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 7264181174,
    "lat": 51.7150377,
    "lon": 14.5809136,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Die Wasseröhrenfahrt",
    "thema": "Holzröhren nach Groß Jamno",
    "kurztext": "Die Tafel heißt Die Wasseröhrenfahrt. Über Holzröhren lief das Quellwasser früher nach Groß Jamno. Der Brunnen am Weg ist der Rest davon.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 7285212119,
    "lat": 51.7147847,
    "lon": 14.5855716,
    "km": 0.79,
+   "reihenfolge": 3,
    "titel": "Jamnoer Urwaldquelle",
    "thema": "Quellgebiet",
    "kurztext": "Vor der Quelle läuft der Lehrpfad am Rand der Orchideenwiese. Die Tafel heißt Jamnoer Urwaldquelle. Hier tritt das Wasser aus. Danach geht es durch den Kiefernwald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 7264195260,
    "lat": 51.7138892,
    "lon": 14.579315,
    "km": 1.5,
+   "reihenfolge": 4,
    "titel": "Gedenkstein",
    "thema": "Naturpark ab 1904",
    "kurztext": "Heinrich Kloß hat den Stein gesetzt, als er die Konzession fürs Gasthaus bekam. Den Namen Urwald hat er dem Gebiet ab 1904 gegeben. Der Weg hierher ist feucht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -390,51 +384,44 @@
    "osmId": 1767875024,
    "lat": 51.715093,
    "lon": 14.5791053,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1767875130,
    "lat": 51.7156185,
    "lon": 14.5789572,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1767911348,
    "lat": 51.715371,
    "lon": 14.5838602,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1775425558,
    "lat": 51.7156608,
    "lon": 14.5796306,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 165223723,
    "lat": 51.71574686,
    "lon": 14.57757196,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 32027479,
-   "lat": 51.71513736666666,
-   "lon": 14.577587483333334,
+   "lat": 51.7151373666667,
+   "lon": 14.5775874833333,
    "kategorie": "gastro",
    "name": "Landgasthaus Urwald"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Landgasthaus hat eigene Zeiten.",
  "besuchshinweise": "Lehrpfad ist der grüne Schrägstrich. Der grüne Punkt führt zum Großteich, das ist die andere Runde. Quellgebiet, nach Regen weich.",
  "hoertext": "Am Parkplatz vom Landgasthaus Urwald, mitten in Groß Jamno, fängt der Lehrpfad an. Grüner Schrägstrich, knapp zwei Kilometer, frei. Der grüne Punkt daneben ist die andere Runde und läuft zum Großteich. Auf dem Schrägstrich liegen die Quelle und die Holzröhren, die den Ort früher mit Wasser versorgt haben. Nach Regen ist der Boden weich.",
- "bilderAsset": "assets/images/trails/jamnoer-urwald/credits.json",
  "lebensraeume": [
   "kiefernforst"
  ],
@@ -454,5 +441,18 @@
   "Kohlmeise": "typisch",
   "Rote Waldameise": "typisch",
   "Rotkehlchen": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "55580eaa-367a-508d-a9a8-2846ee8e5f7e",
+   "id": "55580eaa-367a-508d-a9a8-2846ee8e5f7e",
+   "caption": "Preußischer Meilenstein in Groß Jamno. Der Lehrpfad startet am Landgasthaus Urwald, nicht am Stein.",
+   "credit": "Oberlausitzerin64",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst_Gross_Jamno_preussischer_Meilenstein.jpg",
+   "kind": "ort"
+  }
+ ]
 }

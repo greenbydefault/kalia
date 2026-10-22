@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    51.579332,
@@ -429,343 +428,342 @@
    12.733157
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 601157736,
    "lat": 51.5792917,
    "lon": 12.7331222,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Naturlehrpfad Pressel",
    "thema": "Starttafel am Teich",
    "kurztext": "Am Presseler Teich, Neumühle. Die Tafel trägt den Namen des Rundwegs. Daneben hängt die Kranich-Tafel, ein paar Meter weiter eine Karte Weg der Moore. Markierung ab hier: grüner Schrägstrich auf Weiß.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 601157749,
    "lat": 51.5793497,
    "lon": 12.7331879,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 2,
    "titel": "Kraniche",
    "thema": "Zug über dem Moor",
    "kurztext": "Direkt an der Starttafel. Die Tafel heißt Kraniche. Der Naturpark schreibt zum Weg der Moore: früh im Herbst kann man sie über dem Moor ziehen sehen. Nicht das ganze Jahr.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12334638444,
    "lat": 51.576115,
    "lon": 12.7303233,
    "km": 0.46,
+   "reihenfolge": 3,
    "titel": "Wie entstehen eigentlich Baumhöhlen?",
    "thema": "Höhlen im Stamm",
    "kurztext": "Südlich vom Teich, Westseite. Die Tafel heißt Weg der Moore: Wie entstehen eigentlich Baumhöhlen? Den Wortlaut hat nur die Tafel. Gleich daneben nennt die Karte Vogelhäuser.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 601157734,
    "lat": 51.576155,
    "lon": 12.7302519,
    "km": 0.46,
+   "reihenfolge": 4,
    "titel": "Vogelhäuser",
    "thema": "Kästen neben der Baumhöhlen-Tafel",
    "kurztext": "Ein paar Meter neben der Baumhöhlen-Tafel. Die Karte nennt den Punkt Vogelhäuser, ohne eigenen Tafeltext. Ob die Kästen noch hängen, sieht man vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12334629392,
    "lat": 51.5713976,
    "lon": 12.7306098,
    "km": 0.99,
+   "reihenfolge": 5,
    "titel": "Blick in die Mühlbachaue",
    "thema": "Aue am Westufer",
    "kurztext": "Weiter südlich auf der Westseite, neben der Tafel Die Heide. Die Tafel heißt Weg der Moore: Blick in die Mühlbachaue. Der Rundweg folgt diesem Bach.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 608471896,
    "lat": 51.571366,
    "lon": 12.7307242,
    "km": 0.99,
+   "reihenfolge": 6,
    "titel": "Die Heide",
    "thema": "Neben der Mühlbachaue",
    "kurztext": "Gleich bei Blick in die Mühlbachaue. Die Tafel heißt Die Heide. Gemeint ist die Landschaft hier, nicht eine einzelne Pflanze. Der Wortlaut steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 12334623484,
    "lat": 51.568994,
    "lon": 12.7290513,
    "km": 1.29,
+   "reihenfolge": 7,
    "titel": "Ohne MOOS nix los",
    "thema": "Torfmoose am Weg",
    "kurztext": "Westseite, noch vor der Südspitze. Die Tafel heißt Ohne MOOS nix los. Der Naturpark beschreibt diesen Rundweg als Weg an Torfmoosen und Birken. Welche Moose die Tafel zeigt, steht nur dort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 12334618963,
    "lat": 51.56466,
    "lon": 12.72917,
    "km": 1.82,
+   "reihenfolge": 8,
    "titel": "STAMM schön was los",
    "thema": "Am Stamm",
    "kurztext": "Weiter südlich auf der Westseite. Die Tafel heißt STAMM schön was los. Der Wortlaut steht auf der Tafel, online liegt er nicht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 12334630058,
    "lat": 51.56368,
    "lon": 12.73288,
    "km": 2.12,
+   "reihenfolge": 9,
    "titel": "Garantiert nasse Füße",
    "thema": "Fußbad im Mühlbach",
    "kurztext": "An der Südwestecke. Die Tafel heißt Weg der Moore: Garantiert nasse Füße. Leipzig Tourismus nennt hier den Rastplatz Fußbad: Füße in den Bach. Komoot nennt dieselbe Stelle Saueres Moorwasser-Fußbad. Der Bach ist der Mühlbach.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 3577345364,
    "lat": 51.56365,
    "lon": 12.73276,
    "km": 2.12,
+   "reihenfolge": 10,
    "titel": "Einheimische Insekten",
    "thema": "Neben dem Fußbad",
    "kurztext": "Direkt beim Fußbad. Die Tafel heißt Einheimische Insekten. Welche Arten drauf sind, steht nur vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 12334621384,
    "lat": 51.56277,
    "lon": 12.73295,
    "km": 2.21,
+   "reihenfolge": 11,
    "titel": "Der König der Wiesen",
    "thema": "Südspitze",
    "kurztext": "Kurz nach dem Fußbad. Die Tafel heißt Weg der Moore: Der König der Wiesen. Welches Tier oder welche Pflanze gemeint ist, steht auf der Tafel, nicht in den Online-Texten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 3577361178,
    "lat": 51.56208,
    "lon": 12.73333,
    "km": 2.28,
+   "reihenfolge": 12,
    "titel": "Leben im Steinhaufen",
    "thema": "Steine an der Südspitze",
    "kurztext": "An der Südspitze, ein Stück ab vom Strich. Die Tafel heißt Leben im Steinhaufen. Lücken und Sonne, der Wortlaut steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 12334641242,
    "lat": 51.56179,
    "lon": 12.73393,
    "km": 2.35,
+   "reihenfolge": 13,
    "titel": "Das Seggenried",
    "thema": "Zu nass für Bäume",
    "kurztext": "Südspitze. Die Tafel heißt Weg der Moore: Das Seggenried – zu nass für Bäume. Seggen statt Wald, der Rest steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": 12334615492,
    "lat": 51.56173,
    "lon": 12.73398,
    "km": 2.35,
+   "reihenfolge": 14,
    "titel": "Jetzt wird's wild",
    "thema": "Neben dem Seggenried",
    "kurztext": "Gleich neben dem Seggenried. Die Tafel heißt Weg der Moore: Jetzt wird's wild. Der Wortlaut steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": 12334641402,
    "lat": 51.56129,
    "lon": 12.73483,
    "km": 2.45,
+   "reihenfolge": 15,
    "titel": "Bunte Wiese",
    "thema": "Wiese an der Südspitze",
    "kurztext": "Südspitze, am Strich. Die Tafel heißt Weg der Moore: Bunte Wiese. Was dort blüht, steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 12334633365,
    "lat": 51.56081,
    "lon": 12.7371,
    "km": 2.62,
+   "reihenfolge": 16,
    "titel": "Frühblüher am Denkmal",
    "thema": "Südspitze, Ostseite",
    "kurztext": "Wo der Weg nach Osten dreht. Die Tafel heißt Weg der Moore: Frühblüher am Denkmal. Welches Denkmal und welche Blüten, steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 16
+   "barrierefrei": false
   },
   {
    "osmId": 12334629391,
    "lat": 51.56309,
    "lon": 12.73938,
    "km": 2.99,
+   "reihenfolge": 17,
    "titel": "Kiefernforste in der Dübener Heide",
    "thema": "Kiefern am Ostrand",
    "kurztext": "Ostseite, etwas ab vom Strich, noch an der Runde. Die Tafel heißt Weg der Moore: Kiefernforste in der Dübener Heide. Kiefern als Bestand, nicht als Einzelbaum im Topf.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 17
+   "barrierefrei": false
   },
   {
    "osmId": 12334636685,
    "lat": 51.5652975,
    "lon": 12.7390608,
    "km": 3.21,
+   "reihenfolge": 18,
    "titel": "Die heimische Tierwelt im Winter",
    "thema": "Ostseite",
    "kurztext": "Ostseite, auf dem Rückweg nach Norden. Die Tafel heißt Die heimische Tierwelt im Winter. Welche Arten sie zeigt, steht nur vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 18
+   "barrierefrei": false
   },
   {
    "osmId": 12334638441,
    "lat": 51.5661464,
    "lon": 12.7386985,
    "km": 3.31,
+   "reihenfolge": 19,
    "titel": "3.000 Jahre Geschichte",
    "thema": "Ostseite",
    "kurztext": "Ostseite, neben den Spechten. Die Tafel heißt Weg der Moore: 3.000 Jahre Geschichte. Den Zeitraum nennt die Überschrift. Was sie an dieser Stelle erzählt, steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 19
+   "barrierefrei": false
   },
   {
    "osmId": 12334609185,
    "lat": 51.5663848,
    "lon": 12.7385363,
    "km": 3.31,
+   "reihenfolge": 20,
    "titel": "Heimische Spechte",
    "thema": "Ostseite",
    "kurztext": "Gleich bei 3.000 Jahre Geschichte. Die Tafel heißt Heimische Spechte. Welche Spechtarten drauf sind, steht nur vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 20
+   "barrierefrei": false
   },
   {
    "osmId": 12334615787,
    "lat": 51.5685079,
    "lon": 12.738436,
    "km": 3.58,
+   "reihenfolge": 21,
    "titel": "Einheimische Singvögel in Park und Wald",
    "thema": "Ostseite, Picknick",
    "kurztext": "Ostseite, neben einer Picknickbank. Die Tafel heißt Einheimische Singvögel in Park und Wald. Komoot beschreibt an der überdachten Bank eine Tafel zu den Singvögeln der Region. Die Artenliste steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 21
+   "barrierefrei": false
   },
   {
    "osmId": 12334637915,
    "lat": 51.5708738,
    "lon": 12.7389149,
    "km": 3.83,
+   "reihenfolge": 22,
    "titel": "Totes Holz? Von wegen ...",
    "thema": "Totholz auf der Ostseite",
    "kurztext": "Ostseite, auf dem Rückweg. Die Tafel heißt Weg der Moore: Totes Holz? Von wegen ... Was die Tafel im Holz leben lässt, steht nur dort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 22
+   "barrierefrei": false
   },
   {
    "osmId": 12334638443,
    "lat": 51.5784777,
    "lon": 12.7392509,
    "km": 4.75,
+   "reihenfolge": 23,
    "titel": "Speisepilze",
    "thema": "Kurz vor dem Teich",
    "kurztext": "Ostseite, kurz bevor der Weg den Teich wieder erreicht. Die Tafel heißt Speisepilze. Welche Pilze sie zeigt, steht nur vor Ort.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 23
+   "barrierefrei": false
   },
   {
    "osmId": 12334615491,
    "lat": 51.580447,
    "lon": 12.7381911,
    "km": 4.98,
+   "reihenfolge": 24,
    "titel": "Die Natur kommt zurück",
    "thema": "Nordost, vor dem Schluss",
    "kurztext": "Nördlich vom Teich, letzte Tafel vor dem Schluss. Die Tafel heißt Weg der Moore: Die Natur kommt zurück. Was zurückkommt, steht auf der Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 24
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -773,43 +771,37 @@
    "osmId": 11964595373,
    "lat": 51.579324,
    "lon": 12.7331327,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 12052779133,
    "lat": 51.571313,
    "lon": 12.7306309,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12052826448,
    "lat": 51.562354,
    "lon": 12.7328672,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12334609184,
    "lat": 51.5785019,
    "lon": 12.7393013,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12334636684,
    "lat": 51.5685262,
    "lon": 12.7384374,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 12334638442,
    "lat": 51.5638974,
    "lon": 12.7399396,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 536880025,
@@ -820,7 +812,6 @@
   }
  ],
  "hoertext": "Am Presseler Teich, bei der Neumühle, fängt die Runde an. Fünfeinhalb Kilometer, erst nach Süden am Mühlbach, dann auf der anderen Seite zurück. Die Markierung ist ein grüner Schrägstrich auf Weiß. An der Tafel Garantiert nasse Füße kannst du die Füße ins Bachwasser halten. Kraniche ziehen eher im Herbst über dem Moor. Festes Schuhwerk, der Boden ist weich. Naturschutzgebiet, also auf dem Weg bleiben.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-pressel/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "moor",
@@ -842,5 +833,18 @@
   "Rundblättriger Sonnentau": "typisch",
   "Adlerfarn": "typisch",
   "Amsel": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "2f40d890-f660-5799-acbc-b67210b95372",
+   "id": "2f40d890-f660-5799-acbc-b67210b95372",
+   "caption": "Bruch am Presseler Teich, Seggen und Birken, Frühjahr.",
+   "credit": "Lutz Lange",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Am_Presseler_Teich_(1).jpg",
+   "kind": "ort"
+  }
+ ]
 }

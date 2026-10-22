@@ -13,10 +13,6 @@
  "betreiber": "Roland Protz / Landesbetrieb Forst Brandenburg",
  "region": "Dreetz, Ostprignitz-Ruppin, Brandenburg",
  "website": "https://arboretum-dreetz.de/",
- "eintritt": false,
- "eintrittPreise": "Eintritt frei",
- "oeffnungszeiten": "Ganzjährig geöffnet, Eintritt frei, ohne Anmeldung.",
- "besuchshinweise": "Obstwiesen: Schilder lesen, naschen an alten Sorten ist vorgesehen. Veranstaltungen und Lehmbackofen sind extra, nicht der Spontanrundgang. Barfußpfad nicht belegt.",
  "anreise": "Adresse: Bartschendorfer Str. 13, 16845 Dreetz. Auto über Neustadt (Dosse) / L14, Ortsteil Lüttgen Dreetz. Bahn: Neustadt (Dosse), weiter Bus oder Rad. Eingang am Forsthaus, Gelände ist der Waldgarten südlich der Straße.",
  "startName": "Eingang Arboretum Lüttgen Dreetz",
  "arten": [
@@ -38,7 +34,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "route": [],
  "area": [
   [
    52.7843851,
@@ -103,8 +98,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 950102,
@@ -119,8 +113,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 950103,
@@ -135,8 +128,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -148,7 +140,6 @@
    "name": "Holzbänke im Waldgarten"
   }
  ],
- "bilderAsset": "assets/images/trails/arboretum-dreetz/credits.json",
  "lebensraeume": [
   "eichen-mischwald",
   "streuobst-hecke"
@@ -169,5 +160,18 @@
   "Grünspecht": "typisch",
   "Honigbiene": "typisch",
   "Hummel": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "e5402f6a-6b6f-55ef-9b10-372d0040ae31",
+   "id": "e5402f6a-6b6f-55ef-9b10-372d0040ae31",
+   "caption": "Stieleiche – das Arboretum hat ein ganzes Eichenquartier.",
+   "credit": "Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuercus_robur.jpg",
+   "kind": "art"
+  }
+ ]
 }

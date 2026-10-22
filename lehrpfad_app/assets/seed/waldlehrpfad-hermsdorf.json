@@ -56,7 +56,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    52.612093,
@@ -271,37 +270,37 @@
    13.285179
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 291349863,
    "lat": 52.6120925,
    "lon": 13.2851785,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Waldparkplatz",
    "thema": "Einstieg am Wildgehege",
    "kurztext": "Am Ende des Ehrenpfortensteigs liegt der Parkplatz. Der Rundweg beginnt am Zaun der Gehege.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 12926433964,
    "lat": 52.614069,
    "lon": 13.2853965,
    "km": 0.24,
+   "reihenfolge": 2,
    "titel": "Aussichtspodest",
    "thema": "Blick ins Damwildgehege",
    "kurztext": "Ein überdachtes Podest schaut ins Damwildgehege. Hinauf führen neun Stufen, eine Rampe fehlt. Zwei Waldsofas stehen daneben.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12926475437,
    "lat": 52.614594,
    "lon": 13.2869074,
    "km": 0.39,
+   "reihenfolge": 3,
    "titel": "Waldtiere Quiz",
    "thema": "Tiere im Wald",
    "kurztext": "Die Tafel fragt die Arten ab, die im Hermsdorfer Wald leben.",
@@ -309,92 +308,91 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 5148605309,
    "lat": 52.6162506,
    "lon": 13.2859456,
    "km": 0.75,
+   "reihenfolge": 4,
    "titel": "Traubeneiche",
    "thema": "Baum des Jahres",
    "kurztext": "Die Tafel steht an der Traubeneiche, einer der Jahresbäume am Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 14159204013,
    "lat": 52.6162686,
    "lon": 13.2856955,
    "km": 0.75,
+   "reihenfolge": 5,
    "titel": "Baum des Jahres",
    "thema": "Bäume des Jahres seit 1989",
    "kurztext": "Tafeln stehen direkt an den Baumgruppen, vom Jahr 1989 bis zu den jüngeren.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 12509385464,
    "lat": 52.6162241,
    "lon": 13.2847742,
    "km": 0.75,
+   "reihenfolge": 6,
    "titel": "Der Wald und seine Nutzung",
    "thema": "Waldbewirtschaftung",
    "kurztext": "Die Tafel erklärt, warum und wie dieser Wald bewirtschaftet wird.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 12926452322,
    "lat": 52.6148575,
    "lon": 13.2818855,
    "km": 1.01,
+   "reihenfolge": 7,
    "titel": "Unsere Spechte",
    "thema": "Spechte",
    "kurztext": "Die Tafel stellt die Spechte des Waldes vor.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 12926452321,
    "lat": 52.6148211,
    "lon": 13.2815301,
    "km": 1.04,
+   "reihenfolge": 8,
    "titel": "Laubbäume",
    "thema": "Laubbäume am Weg",
    "kurztext": "Die Tafel benennt die Laubbäume, die hier stehen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 12829858588,
    "lat": 52.6128466,
    "lon": 13.2774377,
    "km": 1.53,
+   "reihenfolge": 9,
    "titel": "Der Podsol",
    "thema": "Bodenprofil am Hang",
    "kurztext": "Am Hang liegen die Bodenschichten frei. Die Tafel erklärt den Podsol.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -402,41 +400,36 @@
    "osmId": 11659507922,
    "lat": 52.6139638,
    "lon": 13.285127,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12926433963,
    "lat": 52.6140754,
    "lon": 13.2853905,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 12926433964,
    "lat": 52.614069,
    "lon": 13.2853965,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 12926433967,
    "lat": 52.6141615,
    "lon": 13.2857179,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12926475438,
    "lat": 52.6146076,
    "lon": 13.2869897,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 827724555,
    "lat": 52.61205448,
-   "lon": 13.285609680000002,
+   "lon": 13.28560968,
    "kategorie": "parking",
    "name": "Wildgehege"
   }
@@ -444,5 +437,17 @@
  "oeffnungszeiten": "Ganzjährig, rund um die Uhr.",
  "besuchshinweise": "Futter nur aus dem Automaten am Gehege. Mitgebrachtes Futter nicht verfüttern. Zum Podest führen neun Stufen, ohne Rampe.",
  "hoertext": "Hinter dem Parkplatz übernimmt der Wald. Als Zeichen führt der Eichelhäher die Runde durch Kiefern und Eichen. Mal steigt der Weg, mal fällt er. An einem Hang öffnet sich der Boden, hell und dunkel übereinander. Zwischen den Zäunen äsen Damwild und Rotwild, Wildschweine wühlen im Nachbargehege, und wer die Stufen zum Podest hochsteigt, schaut ihnen auf einmal ins Fell. Mitgebrachtes Futter bleibt in der Tasche. Am Zaun füllt ein Automat die Schalen.",
- "bilderAsset": "assets/images/trails/waldlehrpfad-hermsdorf/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "da986fec-7466-52f0-8610-be62236f7bd2",
+   "id": "da986fec-7466-52f0-8610-be62236f7bd2",
+   "caption": "Waldweg im südlichen Tegeler Forst.",
+   "credit": "Colin Smith",
+   "license": "cc-by-sa-2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berliner_Forst_Tegel_-_Waldweg_(Berlin_Forest_-_Path_in_Tegel_Wood)_-_geo.hlipp.de_-_32751.jpg",
+   "kind": "ort"
+  }
+ ]
 }

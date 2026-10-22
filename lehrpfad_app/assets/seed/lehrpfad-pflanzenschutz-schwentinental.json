@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    54.284984,
@@ -97,73 +96,69 @@
    10.245788
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -3287010680,
    "lat": 54.2850546,
    "lon": 10.2473204,
    "km": 0.01,
+   "reihenfolge": 1,
    "titel": "Jahnstraße",
    "thema": "Start am Kleingarten, Raisdorf",
    "kurztext": "Hier steht das Auto, der Kleingarten fängt an. Tafeln direkt am Weg, frei, ohne Anmeldung. Das Freibad liegt weiter die Straße runter. Der Wildpark ist extra, nicht dieser Pfad.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 12037115468,
    "lat": 54.2851322,
    "lon": 10.2471388,
    "km": 0.03,
+   "reihenfolge": 2,
    "titel": "Mit der Natur schützen",
    "thema": "Biologischer Pflanzenschutz statt Chemie",
    "kurztext": "Erste Tafeln im kleinen Park an der Jahnstraße. Bakterien, Pilze, Nützlinge: Schutz, der aus der Natur kommt. Zehn Stück insgesamt, 2024 aufgestellt. Nicht in den Kleingarten nebenan.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12037115465,
    "lat": 54.2852706,
    "lon": 10.2469764,
    "km": 0.05,
+   "reihenfolge": 3,
    "titel": "Nützlinge",
    "thema": "Insekten, die Schädlinge fressen",
    "kurztext": "Tafel an der Nordkante, nah an der Straße. Wer hier fliegt, arbeitet im Garten: Bienen, Hummeln, Käfer. Chemie nimmt ihnen die Arbeit weg. Schau, was am Weg wirklich sitzt, bevor du die Klappe aufmachst.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 12037119972,
    "lat": 54.2852433,
    "lon": 10.2468096,
    "km": 0.06,
+   "reihenfolge": 4,
    "titel": "Bienenfutterautomat",
    "thema": "Saatgut für Blühstreifen",
    "kurztext": "Ein Automat am Weg, kein Süßkram. Saatgut für Bienen. Die Tafeln daneben erklären, warum Blüten am Zaun mehr bringen als ein aufgeräumtes Beet. Geld einwerfen extra, der Pfad nicht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12037115466,
    "lat": 54.2851289,
    "lon": 10.2469719,
    "km": 0.07,
+   "reihenfolge": 5,
    "titel": "Klappen und Drehrad",
    "thema": "Quiz: Tipps für den eigenen Garten",
    "kurztext": "Klappen, Drehrad, Lösung oft hinter der Klappe. Was du zu Hause lassen kannst: Gift, Kies statt Blüte, der aufgeräumte Herbst. Hier endet die Runde im Park. Zurück die Jahnstraße oder weiter zum Freibad.",
@@ -171,9 +166,7 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -188,8 +181,7 @@
    "osmId": 2193428704,
    "lat": 54.2860989,
    "lon": 10.2462384,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 30729665,
@@ -199,12 +191,10 @@
    "name": "Parkplatz Jahnstraße"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Kleingärten nicht betreten. Freibad extra Eintritt, Saison. Wildpark extra, nicht dieser Pfad.",
  "hoertext": "An der Jahnstraße in Raisdorf stehen die Tafeln, direkt am Kleingarten. Frei, ohne Anmeldung. Zehn Stück, Klappen und Drehrad: Nützlinge statt Chemie. Der Bienenfutterautomat hängt am Weg. Das Freibad liegt daneben, der Wildpark ist extra. Nimm die Tafeln mit, bevor du schwimmen gehst.",
- "bilderAsset": "assets/images/trails/lehrpfad-pflanzenschutz-schwentinental/credits.json",
  "lebensraeume": [
   "streuobst-hecke"
  ],
@@ -224,5 +214,18 @@
   "Siebenpunkt-Marienkäfer": "typisch",
   "Rotkehlchen": "typisch",
   "Schlehe": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "a3fef7a4-6800-579d-a340-31aafe2dbc74",
+   "id": "a3fef7a4-6800-579d-a340-31aafe2dbc74",
+   "caption": "Anlegestelle an der Schwentine in Raisdorf. Der Lehrpfad startet an der Jahnstraße, nicht am Fluss.",
+   "credit": "humungoulus",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnlegestelle_Raisdorf_Schwentine_-_panoramio.jpg",
+   "kind": "ort"
+  }
+ ]
 }

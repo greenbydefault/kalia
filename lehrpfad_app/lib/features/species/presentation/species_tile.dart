@@ -32,17 +32,17 @@ class SpeciesTile extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return switch (layout) {
       SpeciesTileLayout.peek => _PeekTile(
-          species: species,
-          seen: seen,
-          onTap: onTap,
-          onToggleSeen: () =>
-              ref.read(sightingsProvider.notifier).setSeen(species.id, !seen),
-        ),
+        species: species,
+        seen: seen,
+        onTap: onTap,
+        onToggleSeen: () =>
+            ref.read(sightingsProvider.notifier).setSeen(species.id, !seen),
+      ),
       SpeciesTileLayout.compact => _CompactTile(
-          species: species,
-          seen: seen,
-          onTap: onTap,
-        ),
+        species: species,
+        seen: seen,
+        onTap: onTap,
+      ),
     };
   }
 }

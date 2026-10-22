@@ -86,10 +86,8 @@ class TrackLayout {
     final cosLat = math.cos((minLat + maxLat) / 2 * math.pi / 180);
     final safeCos = cosLat.abs() < 1e-6 ? 1e-6 : cosLat;
 
-    TrackPoint toLocal(LatLng p) => TrackPoint(
-      (p.longitude - minLon) * safeCos,
-      maxLat - p.latitude,
-    );
+    TrackPoint toLocal(LatLng p) =>
+        TrackPoint((p.longitude - minLon) * safeCos, maxLat - p.latitude);
 
     final localRoute = [for (final p in simplified) toLocal(p)];
     final localStations = [

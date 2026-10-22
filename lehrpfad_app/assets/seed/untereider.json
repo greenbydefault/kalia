@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    54.30403,
@@ -169,82 +168,76 @@
    9.647036
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -4058593124,
    "lat": 54.30403,
    "lon": 9.65659,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Wohnmobilplatz",
    "thema": "Start An der Untereider",
    "kurztext": "Hier steht das Auto, nebenan das Aquacity. Der Informationspfad fängt an der Eider an, nicht im Alten Rathaus. Tafeln, frei, ohne Anmeldung. Der elf Kilometer lange Rundweg ist extra.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 12309518064,
    "lat": 54.3053295,
    "lon": 9.6540045,
    "km": 0.22,
+   "reihenfolge": 2,
    "titel": "Gefährdung und Schutz",
    "thema": "Warum die Eider Hilfe braucht",
    "kurztext": "Tafel am nördlichen Ufer. Die Eider ist verbaut, begradigt, die Wiese trotzdem nass. Schutz heißt: auf dem Weg bleiben, Hunde anleinen, nicht in die Feuchtwiese. Die Tafel hängt am Geländer, nicht Wikipedia.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12309531379,
    "lat": 54.3038742,
    "lon": 9.6518042,
    "km": 0.62,
+   "reihenfolge": 3,
    "titel": "Feuchtgrünland",
    "thema": "Goldwiese, zweimal mähen",
    "kurztext": "Nasse Wiese am Grundwasser, Wiesenschaumkraut. Die Stadt mäht erst nach dem 1. Juli, zweimal im Jahr. So bleibt Platz für Wiesenvögel. Du bleibst auf dem Weg, sonst trittst du die Fläche kaputt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 1436294668,
    "lat": 54.3017811,
    "lon": 9.6478316,
    "km": 1.1,
+   "reihenfolge": 4,
    "titel": "Uferzone",
    "thema": "Puffer zwischen Wiese und Eider",
    "kurztext": "Schilf, Weiden, ein Streifen zwischen Nutzfläche und Wasser. Tiere sitzen hier, nicht mitten auf der Wiese. Die Tafel heißt Eider. Nicht ans Wasser, die Kante ist weich.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 14125452826,
    "lat": 54.301479,
    "lon": 9.647036,
    "km": 1.12,
+   "reihenfolge": 5,
    "titel": "Die Mühlenau",
    "thema": "Bach in die Eider",
    "kurztext": "Ein Zufluss, nicht die Eider selbst. Wasser aus dem Kronwerk, dann in den Fluss. Die Tafel sitzt am Zusammenfluss. Hier endet der Informationspfad nach Westen, zurück denselben Weg oder raus zur Stadt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -270,12 +263,10 @@
    "name": "Wohnmobilhafen am Rendsburger Stadtsee"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Wege nass nach Regen. Forscherrucksack und Grünes Klassenzimmer sind extra, nicht der Spontanpfad. Der 11,3-km-Rundweg ist ein anderer Weg.",
  "hoertext": "Am Wohnmobilplatz an der Untereider fängt der Pfad an. Entlang der Eider, nördlich der Altstadt, frei, ohne Anmeldung. Tafeln zu Feuchtwiese, Ufer und Schutz. Der große Rundweg mit elf Kilometern ist extra. Den Rucksack holst du in der Altstadt, nicht hier. Bleib auf den Wegen, die Wiese ist nass.",
- "bilderAsset": "assets/images/trails/untereider/credits.json",
  "lebensraeume": [
   "auwald",
   "fliessgewaesser"
@@ -296,5 +287,18 @@
   "Schwarzer Holunder": "typisch",
   "Rotkehlchen": "typisch",
   "Salweide": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "29fccb90-ef54-5109-86e7-c49b1e59473d",
+   "id": "29fccb90-ef54-5109-86e7-c49b1e59473d",
+   "caption": "Untereider in Rendsburg, Blick über das Wasser. Der Informationspfad liegt am nördlichen Ufer, nicht in der Altstadt.",
+   "credit": "Jürgen Oetting",
+   "license": "pd",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUntereider_in_Rendsburg.JPG",
+   "kind": "ort"
+  }
+ ]
 }

@@ -42,10 +42,7 @@ class _MerkmalSheet extends ConsumerWidget {
             ),
             const SizedBox(width: 12),
             Expanded(
-              child: Text(
-                merkmal.nameDe,
-                style: theme.textTheme.headlineSmall,
-              ),
+              child: Text(merkmal.nameDe, style: theme.textTheme.headlineSmall),
             ),
           ],
         ),
@@ -55,12 +52,17 @@ class _MerkmalSheet extends ConsumerWidget {
           const SizedBox(height: 16),
           Text('Auch bei:', style: theme.textTheme.titleSmall),
           const SizedBox(height: 8),
-          ...andere.take(5).map(
-            (s) => Padding(
-              padding: const EdgeInsets.only(bottom: 4),
-              child: Text('· ${s.nameDe}', style: theme.textTheme.bodyMedium),
-            ),
-          ),
+          ...andere
+              .take(5)
+              .map(
+                (s) => Padding(
+                  padding: const EdgeInsets.only(bottom: 4),
+                  child: Text(
+                    '· ${s.nameDe}',
+                    style: theme.textTheme.bodyMedium,
+                  ),
+                ),
+              ),
         ],
       ],
     );

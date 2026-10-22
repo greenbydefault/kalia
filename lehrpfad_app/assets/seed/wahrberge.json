@@ -257,22 +257,22 @@
    "osmId": -1716574282,
    "lat": 53.085853,
    "lon": 12.161665,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Willkommen im Waldlehrpark",
    "thema": "Start am Märchenwald",
    "kurztext": "Hier beginnt der freie Besuch auf dem Gelände der Wahrberge. Rund 70.000 m² Wald und Freifläche, Wege mit Lehrtafeln – ohne Ticket, ohne Anmeldung. Nimm dir Zeit: Der Park ist zum Entdecken gebaut, nicht zum Durchhetzen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -4125315897,
    "lat": 53.08517,
    "lon": 12.162805,
    "km": 0.25,
+   "reihenfolge": 2,
    "titel": "Balancieren und Mitmachen",
    "thema": "Erlebnisstationen",
    "kurztext": "Balancierstämme, Waldmoorspiel, Zapfenzielweitwurf – hier wird Geschicklichkeit getestet. Die Stationen sind für Familien gedacht und selbsterklärend. In der Nähe liegt die Waldbühne, die bei den Märchentagen zur Märchenwelt wird.",
@@ -280,15 +280,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3537177166,
    "lat": 53.084718,
    "lon": 12.162456,
    "km": 0.34,
+   "reihenfolge": 3,
    "titel": "Arboretum und Lehrtafeln",
    "thema": "Bäume erkennen",
    "kurztext": "Über 200 Baum- und Straucharten säumen die Wege – mit Arboretumschildern und Lehrtafeln zum bewussten Hinschauen. Der Landesbetrieb Forst Brandenburg begleitet den Park fachlich. Vergleiche Blätter, Rinde und Standort statt nur Namen zu lesen.",
@@ -296,24 +295,21 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3601322129,
    "lat": 53.087012,
    "lon": 12.159632,
    "km": 0.76,
+   "reihenfolge": 4,
    "titel": "Schutzhütte und Picknick",
    "thema": "Pause im Zentrum",
    "kurztext": "Im Zentrum des Parks steht die große Schutzhütte – zum Verweilen offen. Picknick im Gelände ist Teil des Familienbesuchs. Miete von Hütte, Grill oder WC kann der Verein gesondert berechnen; der Spontanrundgang selbst bleibt frei.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -321,11 +317,9 @@
    "osmId": 1937127899,
    "lat": 53.087012,
    "lon": 12.1596318,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
- "bilderAsset": "assets/images/trails/wahrberge/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
@@ -346,5 +340,18 @@
   "Adlerfarn": "typisch",
   "Amsel": "typisch",
   "Blaumeise": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "eae5f0de-985a-5e6b-99ab-47ca1c94162a",
+   "id": "eae5f0de-985a-5e6b-99ab-47ca1c94162a",
+   "caption": "Kiefer – Leitbaum im Waldlehrpark Wahrberge.",
+   "credit": "Lakkahillo",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinus_sylvestris.jpg",
+   "kind": "art"
+  }
+ ]
 }

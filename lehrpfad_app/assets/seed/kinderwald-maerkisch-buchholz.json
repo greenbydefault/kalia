@@ -43,7 +43,6 @@
   "picknick",
   "hunde-erlaubt"
  ],
- "route": [],
  "area": [
   [
    52.1124,
@@ -79,8 +78,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 930002,
@@ -95,8 +93,7 @@
     "mitmach-modell",
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 930003,
@@ -110,8 +107,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 930004,
@@ -126,8 +122,7 @@
     "mitmach-modell",
     "barfusspfad"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 930005,
@@ -141,8 +136,7 @@
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null
+   "barrierefrei": true
   },
   {
    "osmId": 930006,
@@ -157,8 +151,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 930007,
@@ -173,8 +166,7 @@
     "mitmach-modell",
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -189,24 +181,27 @@
    "osmId": 1768032071,
    "lat": 52.1131435,
    "lon": 13.7616886,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 1028703476,
    "lat": 52.113976,
    "lon": 13.760614,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
- "bilderAsset": "assets/images/trails/kinderwald-maerkisch-buchholz/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
  ],
  "naturraum": "norddt-tiefland",
  "artenNachweis": {
+  "Baumstämme zum Klettern und Balancieren": "belegt",
+  "Kinderhochstand": "belegt",
+  "Wald-Theater": "belegt",
+  "12-Meter-Tau": "belegt",
+  "Bienen-Schaukasten": "belegt",
+  "Raum-Meter-Holzstapel": "belegt",
   "Honigbiene": "belegt",
   "Zauneidechse": "belegt",
   "Wildbiene": "belegt",
@@ -221,5 +216,18 @@
   "Heidelbeere": "typisch",
   "Adlerfarn": "typisch",
   "Amsel": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "027c4f4f-90fa-5fbb-beb3-971a95c9bd41",
+   "id": "027c4f4f-90fa-5fbb-beb3-971a95c9bd41",
+   "caption": "Dahme-Radweg am Ortsrand von Märkisch Buchholz.",
+   "credit": "Assenmacher",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADahme-Radweg_am_n%C3%B6rdlichen_Ortsausgang_von_M%C3%A4rkisch_Buchholz.jpg",
+   "kind": "ort"
+  }
+ ]
 }

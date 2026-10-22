@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    52.661885,
@@ -105,13 +104,13 @@
    13.246811
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 7999807807,
    "lat": 52.6619098,
    "lon": 13.2468477,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Vorarbeiten",
    "thema": "Bäume auswählen",
    "kurztext": "Nicht jede Kiefer wurde geharzt. Hier beginnt die Arbeit: Stammstärke, Gesundheit, Platz für die Lachte. Schau den Stamm an – würde ein Harzer ihn nehmen?",
@@ -119,15 +118,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 7999807809,
    "lat": 52.66203,
    "lon": 13.2466739,
    "km": 0.02,
+   "reihenfolge": 2,
    "titel": "Röten",
    "thema": "Borke runter, Lachte frei",
    "kurztext": "Im Winter schabte der Harzer die Borke bis auf eine rötliche Schicht. Deshalb Röten. Die freie Fläche heißt Lachte – das Arbeitsfeld am Stamm.",
@@ -135,15 +133,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 7999807808,
    "lat": 52.6622061,
    "lon": 13.2464859,
    "km": 0.04,
+   "reihenfolge": 3,
    "titel": "Ziehen der Tropfrinne",
    "thema": "Senkrechte Bahn fürs Harz",
    "kurztext": "Mitten in der Lachte zog er eine senkrechte Rinne. Dort soll das Harz nach unten laufen – wie eine Dachrinne aus Holz. Such die Kerbe am Stamm.",
@@ -151,30 +148,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 7999807810,
    "lat": 52.6622123,
    "lon": 13.2467455,
    "km": 0.05,
+   "reihenfolge": 4,
    "titel": "Topfhalter und Topf",
    "thema": "Auffangen am Stamm",
    "kurztext": "Unten an der Rinne saß der Topf. Halter, Blech, Gefäß – ohne den läuft das Bernsteingold in den Boden. Schau, wo er am Baum hing.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 7999807811,
    "lat": 52.66218,
    "lon": 13.2470275,
    "km": 0.07,
+   "reihenfolge": 5,
    "titel": "Reißen",
    "thema": "Fischgräte aus Schnitten",
    "kurztext": "Ab April riss der Harzer schräge Rillen auf die Tropfrinne zu. Schnitt um Schnitt entsteht das Fischgrätenmuster. Das lässt den Baum Harz geben.",
@@ -182,54 +177,49 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 7999807812,
    "lat": 52.6620808,
    "lon": 13.2472238,
    "km": 0.1,
+   "reihenfolge": 6,
    "titel": "Stimulationsharzung",
    "thema": "Damit mehr fließt",
    "kurztext": "Zusätzlicher Schritt, damit das Harz überhaupt in Gang kommt. Die Tafel sagt, welche Vorbereitung nötig war, bis das Bernsteingold lief.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 7999807813,
    "lat": 52.6619767,
    "lon": 13.2472994,
    "km": 0.11,
+   "reihenfolge": 7,
    "titel": "Schöpfen",
    "thema": "Ernte aus dem Topf",
    "kurztext": "Das Harz im Topf wurde geschöpft – klebrig, zäh, wertvoll. Terpentin-Balsam, später Kolophonium und Öl. Hier endet der Fluss am Stamm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 7999807814,
    "lat": 52.6618217,
    "lon": 13.2472585,
    "km": 0.14,
+   "reihenfolge": 8,
    "titel": "Transport",
    "thema": "Raus aus dem Wald",
    "kurztext": "Töpfe voll, Weg zum Sammelplatz. Harzung war schwere, eigenverantwortliche Arbeit – bis Mai 1990, dann war sie unwirtschaftlich. Der Pfad erinnert, der Beruf ist weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -237,8 +227,7 @@
    "osmId": 765936646,
    "lat": 52.6615914,
    "lon": 13.2471125,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 765936648,
@@ -251,11 +240,9 @@
    "osmId": 765936649,
    "lat": 52.6616501,
    "lon": 13.2472846,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
- "bilderAsset": "assets/images/trails/harzungspfad/credits.json",
  "lebensraeume": [
   "kiefernforst"
  ],
@@ -275,5 +262,18 @@
   "Kohlmeise": "typisch",
   "Rote Waldameise": "typisch",
   "Rotkehlchen": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "49b9622a-6293-5964-97f7-040388c600fe",
+   "id": "49b9622a-6293-5964-97f7-040388c600fe",
+   "caption": "Felder bei Stolpe – die Försterei liegt am Waldrand.",
+   "credit": "Leonhard Lenz",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AField_in_Stolpe_2021-08-26_12.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -5,7 +5,7 @@
  "gebiet": "heide",
  "kurzbeschreibung": "Drei Kilometer durch die Fischbeker Heide zu elf Tafeln an Grabhügeln, Steinkammern und einem unsichtbaren Urnenfriedhof. Frei, ohne Ticket.",
  "beschreibung": "Am südwestlichen Stadtrand, in der Fischbeker Heide, liegt der archäologische Wanderpfad des Archäologischen Museums Hamburg. Seit 1975, 2002 restauriert. Elf Stationen erzählen, wie hier von der Jungsteinzeit bis um Christi Geburt begraben wurde: Hügel, Megalithreste, ein Langhügel, ein Urnenfeld, von dem oberirdisch nichts zu sehen ist. Ein paar Hügel sind Rekonstruktionen, einer kam aus Lüllau hierher, weil er am Ursprungsort nicht bleiben konnte. Der Weg ist Wald- und Heideboden, Kinderwagen nur eingeschränkt. Immer frei, ohne Anmeldung. Führungen des Museums sind extra, nicht die App-Route. Der Heidschnuckenweg und die GPS-Touren der Stadt-App sind andere Wege. Hunde anleinen, auf den Wegen bleiben. Schilder können fehlen, die Hügel bleiben.",
- "laengeKm": 3.0,
+ "laengeKm": 3,
  "dauerMin": 90,
  "rundkurs": true,
  "markierung": "Nummerierte Schautafeln / lokaler Waldweg",
@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    53.442947,
@@ -622,172 +621,160 @@
    9.854345
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 1737515255,
    "lat": 53.4427588,
    "lon": 9.8539426,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Zeitraffer",
    "thema": "Archäologische Denkmäler der Fischbeker Heide",
    "kurztext": "Hier liegt die größte Gruppe sichtbarer Bodendenkmale auf Hamburger Gebiet. Über 170 Fundstellen, von der Jungsteinzeit bis ins 19. Jahrhundert. Die Tafel sortiert, was du gleich an Hügeln und Gruben siehst.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 11800277726,
    "lat": 53.446505,
    "lon": 9.8568667,
    "km": 0.33,
+   "reihenfolge": 2,
    "titel": "Sinneswandel",
    "thema": "Langhügel, Bestattungsplatz der Bronzezeit",
    "kurztext": "Fünfzig Meter lang. Erst dachten die Ausgräber an ein steinzeitliches Hünenbett. Drin: neun bronzezeitliche Gräber, Körper und Brand. Am Ostende Steinsetzungen und Scherben, vermutlich zum Totenritual.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 1737515240,
    "lat": 53.4439633,
    "lon": 9.858698,
    "km": 1.28,
+   "reihenfolge": 3,
    "titel": "Restbestände",
    "thema": "Doppelgrabhügel der Stein- und Bronzezeit",
    "kurztext": "Zwei Meter hoch, zwei Steinkreise ineinander. Unten Einzelgrabkultur, oben Bronzezeit. Eine Pfeilspitze aus Feuerstein, sonst fast leer. Sand frisst Holz, Leder, den Toten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 1737515237,
    "lat": 53.4439642,
    "lon": 9.8589647,
    "km": 1.28,
+   "reihenfolge": 4,
    "titel": "Aufhebenswertes",
    "thema": "Baumsargbestattung, hergezogen aus Lüllau",
    "kurztext": "Kein originaler Hügel von hier. Das Grab lag bei Lüllau, südwestlich von Jesteburg, und wäre dort verloren. Rekonstruiert: Baumsarg unter Steinkreis, später eine Urne in einer kleinen Steinkiste.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 1737515244,
    "lat": 53.4441059,
    "lon": 9.8591943,
    "km": 1.3,
+   "reihenfolge": 5,
    "titel": "Grabesstille",
    "thema": "Bronzezeitlicher Grabhügel",
    "kurztext": "Noch ein Hügel der Bronzezeit in der Gruppe am Stadtweg. Weniger Spektakel als die Rekonstruktionen daneben, dafür der Originalbefund, so weit er steht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 1737515245,
    "lat": 53.4443409,
    "lon": 9.859163,
    "km": 1.33,
+   "reihenfolge": 6,
    "titel": "Spurensuche",
    "thema": "Rekonstruierter Doppelgrabhügel",
    "kurztext": "Die Zentralbestattung war ausgeraubt. Ein sichelförmiger Anbau, später eine Urne der vorrömischen Eisenzeit. Die Pflasterung der Hügelkuppe haben die Ausgräber wiederhergestellt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 1737515246,
    "lat": 53.4416003,
    "lon": 9.8551452,
    "km": 1.94,
+   "reihenfolge": 7,
    "titel": "Fundgrube",
    "thema": "Lehm- und Mergelkuhlen des 18./19. Jahrhunderts",
    "kurztext": "Keine Urgeschichte. Bauern holten hier Lehm und Mergel. Die Gruben liegen zwischen den Gräbern und erklären, warum so viele Hügel Löcher haben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 1737515248,
    "lat": 53.4392448,
    "lon": 9.852951,
    "km": 2.25,
+   "reihenfolge": 8,
    "titel": "Wiederverwendung",
    "thema": "Großsteingrab der Jungsteinzeit",
    "kurztext": "Die Steinkammer ist seit dem 18. Jahrhundert weg, Steinschläger haben sie zerlegt. 140 zerschlagene Gefäße am Rand: Sachsen nutzten den 4000 Jahre älteren Bau noch im 8./9. Jahrhundert als Kultplatz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 1737515222,
    "lat": 53.4404309,
    "lon": 9.851129,
    "km": 2.62,
+   "reihenfolge": 9,
    "titel": "Blickfang",
    "thema": "Grabhügel der älteren Bronzezeit",
    "kurztext": "Ein Hügel, den du wirklich siehst. Ältere Bronzezeit, aufgeschüttet über einer Bestattung. Vergleich ihn mit Station 3 nebenan: derselbe Typ, einmal noch da, einmal weggegraben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 13011543293,
    "lat": 53.4409476,
    "lon": 9.8509622,
    "km": 2.68,
+   "reihenfolge": 10,
    "titel": "Goldgräberstimmung",
    "thema": "Zerstörter Grabhügel der älteren Bronzezeit",
    "kurztext": "Ein Hügel, den Steinsucher und Landwirtschaft fast plattgemacht haben. Die Tafel zeigt, was fehlt: Kammer, Beigaben, Form. Zerstörung ist hier der Befund, nicht nur ein Schaden.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 1737515258,
    "lat": 53.4420972,
    "lon": 9.8525819,
    "km": 2.86,
+   "reihenfolge": 11,
    "titel": "Glaubensbekenntnis",
    "thema": "Urnenfriedhof der Bronze- und Eisenzeit",
    "kurztext": "Oberirdisch nichts. Unter dem Waldboden lag ein Urnenfriedhof, den Gustav Schwantes in den 1920ern grub. Asche in Ton, manchmal Schmuck, der im Scheiterhaufen verschmolz. Die jüngsten Urnen kamen kurz vor Christi Geburt in die Erde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -795,25 +782,21 @@
    "osmId": 4781823242,
    "lat": 53.4427883,
    "lon": 9.8539021,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8312977785,
    "lat": 53.4468618,
    "lon": 9.8506997,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4781823241,
    "lat": 53.444211,
    "lon": 9.8590968,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
- "bilderAsset": "assets/images/trails/archaeologischer-wanderpfad-fischbek/credits.json",
  "lebensraeume": [
   "heide",
   "kiefernforst"
@@ -834,5 +817,18 @@
   "Eberesche": "typisch",
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "74de28f8-bdd6-5e3e-8381-67fe7ef68759",
+   "id": "74de28f8-bdd6-5e3e-8381-67fe7ef68759",
+   "caption": "Pfad durch die Fischbeker Heide.",
+   "credit": "G.Steinbrenner",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APfad_der_Fischbeker_Heide.jpg",
+   "kind": "ort"
+  }
+ ]
 }

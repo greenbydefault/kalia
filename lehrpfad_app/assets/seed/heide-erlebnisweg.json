@@ -37,7 +37,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "bilderAsset": "assets/images/trails/heide-erlebnisweg/credits.json",
  "route": [
   [
    53.059516,
@@ -450,21 +449,21 @@
    "lat": 53.059633,
    "lon": 12.731022,
    "km": 0.03,
+   "reihenfolge": 1,
    "titel": "Stille und Sterne",
    "thema": "Dunkler Himmel über der Heide",
    "kurztext": "Die Kyritz-Ruppiner Heide gehört zu den dunkelsten Orten Deutschlands: Im Umkreis von mehreren Kilometern liegen kaum Siedlungen. Nachts kannst du hier Sternbilder und im August die Perseiden besonders klar sehen. Tagsüber spürst du dieselbe Weite als Stille – wenig Verkehrslärm, viel Raum für Heide, Wind und Vogelstimmen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -3436975237,
    "lat": 53.057907,
    "lon": 12.707167,
    "km": 1.79,
+   "reihenfolge": 2,
    "titel": "Moose und Flechten",
    "thema": "Pioniere auf Sand und Holz",
    "kurztext": "Auf offenem Sand, an Kiefernstämmen und Totholz wachsen Moose und Flechten, die mit Nährstoffarmut und Trockenheit zurechtkommen. Die Tafel zeigt, wie diese unscheinbaren Organismen den Boden festhalten, Feuchte speichern und anderen Arten den Weg bereiten – echte Pioniere der Heidelandschaft.",
@@ -472,105 +471,98 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3065765237,
    "lat": 53.05246,
    "lon": 12.685632,
    "km": 3.35,
+   "reihenfolge": 3,
    "titel": "Pflanzenfresser",
    "thema": "Wer die Heide offen hält",
    "kurztext": "Ohne Verbiss und Pflege würde die Heide zuwachsen. Konik-Pferde und andere Pflanzenfresser halten Flächen offen, fressen Jungwuchs und schaffen so Lebensraum für Heidekraut, Wildbienen und Bodenbrüter. Die Station erklärt, warum Landschaftspflege hier Naturschutz ist – und warum du die Tiere nur aus der Distanz beobachten solltest.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -941559575,
    "lat": 53.05006,
    "lon": 12.67474,
    "km": 4.13,
+   "reihenfolge": 4,
    "titel": "Rote Röhrenspinne",
    "thema": "Die Nachhaltigkeitskünstlerin im Sand",
    "kurztext": "Die Rote Röhrenspinne baut Wohnröhren im sandigen Boden der Heide. Wenn der Nachwuchs fast ausgewachsen ist, verwandelt sich das Weibchen selbst in Nahrung – ein extremes, aber wirkungsvolles Fürsorge-Modell. Die Tafel lädt ein, den Boden vorsichtig zu beobachten, ohne Röhren zu zerstören.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -1441534080,
    "lat": 53.049467,
    "lon": 12.672062,
    "km": 4.32,
+   "reihenfolge": 5,
    "titel": "Geschichte(n)",
    "thema": "Vom Bombodrom zum Naturerbe",
    "kurztext": "Nach dem Zweiten Weltkrieg wurde hier der Truppenübungsplatz Wittstock eingerichtet – das „Bombodrom“. Die Bürgerinitiative Freie Heide verhinderte die Weiternutzung als Bombenabwurfplatz. Heute ist die Fläche Nationales Naturerbe: Wege wurden entmunitioniert, Infotafeln und Rastplätze laden zum Entdecken ein – unter klaren Regeln zum Schutz von Mensch und Natur.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -1650385240,
    "lat": 53.048743,
    "lon": 12.66736,
    "km": 4.65,
+   "reihenfolge": 6,
    "titel": "Aussicht Heideturm",
    "thema": "Blick über die Calluna-Heide",
    "kurztext": "Vom Aussichtsturm auf dem Heinz-Sielmann-Hügel schweift der Blick über eine der größten zusammenhängenden Calluna-Heiden Europas. 75 Stufen führen zur Plattform – unterwegs erzählen Tafeln von der Landschaftsgeschichte. Im Spätsommer färbt sich die Fläche lila; mit Glück siehst du Seeadler, Wiedehopf oder weidende Koniks.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -2808959669,
    "lat": 53.047785,
    "lon": 12.664852,
    "km": 4.84,
+   "reihenfolge": 7,
    "titel": "Heinz Sielmann Stiftung",
    "thema": "Naturschutz zum Anfassen",
    "kurztext": "Die Heinz Sielmann Stiftung betreut hier rund 4.000 Hektar Nationale-Naturerbe-Fläche. Mit Landschaftspflege, Forschung und sanftem Tourismus soll die Heide als Lebensraum für seltene Arten erhalten bleiben. Die Station stellt die Stiftung und ihre Arbeit vor – und warum Besucher auf den freigegebenen Wegen bleiben müssen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -3076754588,
    "lat": 53.046433,
    "lon": 12.641387,
    "km": 6.52,
+   "reihenfolge": 8,
    "titel": "Spezialisten im Wüstensand",
    "thema": "Leben bei Hitze und Trockenheit",
    "kurztext": "Offener Sand heizt sich stark auf und speichert kaum Wasser – trotzdem leben hier spezialisierte Insekten, Spinnen und Pflanzen. Die Tafel zeigt Anpassungen an Trockenheit und Hitze und warum solche „Wüsteninseln“ in Brandenburg selten und schützenswert sind. In der Nähe liegt die Neuntöter-Hütte als Rastpunkt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -1022019465,
    "lat": 53.047659,
    "lon": 12.635818,
    "km": 6.92,
+   "reihenfolge": 9,
    "titel": "Heidekraut",
    "thema": "Lila Blütenmeer im Spätsommer",
    "kurztext": "Die Besenheide (Calluna) prägt von August bis September das Bild der Landschaft: ein lilafarbenes Blütenmeer, umsummt von Wildbienen. Die Tafel erklärt, warum die Heide nährstoffarme Böden braucht – und warum Ginster zwar hübsch blüht, die Heide aber verdrängen kann, wenn er den Boden anreichert.",
@@ -578,30 +570,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -759768280,
    "lat": 53.053244,
    "lon": 12.609152,
    "km": 8.82,
+   "reihenfolge": 10,
    "titel": "Heide als Kulturlandschaft",
    "thema": "Vom Wald zur Heide und zurück?",
    "kurztext": "Die Heide ist kein Urzustand: Abholzung, Brände und militärische Nutzung haben offene Flächen geschaffen. Heute braucht sie Pflege, damit sie nicht wieder zum Wald wird. Die Station erzählt, wie Kulturlandschaft und Naturschutz hier zusammenkommen – und was „Hasengeil-gestellt“ und ähnliche Themen am Weg über Nutzung und Artenvielfalt sagen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": -3008502993,
    "lat": 53.051735,
    "lon": 12.602491,
    "km": 9.32,
+   "reihenfolge": 11,
    "titel": "Vogelwelt",
    "thema": "Heidelerche, Wiedehopf und Co.",
    "kurztext": "Offene Heide und lichte Kiefernwälder bieten Lebensraum für Heidelerche, Wiedehopf, Ziegenmelker, Neuntöter und Steinschmätzer. Mit Geduld und Fernglas lohnt sich das Beobachten – besonders morgens und abends. Die Tafel stellt typische Arten vor und erinnert daran, Bodenbrüter nicht zu stören und Hunde angeleint zu lassen.",
@@ -609,9 +599,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -640,15 +628,13 @@
    "osmId": 6427501733,
    "lat": 53.0486125,
    "lon": 12.6672753,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 6427501734,
    "lat": 53.0487806,
    "lon": 12.6672001,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 8713125144,
@@ -668,15 +654,13 @@
    "osmId": 8732037938,
    "lat": 53.0485919,
    "lon": 12.6671304,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 9915083923,
    "lat": 53.0600193,
    "lon": 12.7312697,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   }
  ],
  "lebensraeume": [
@@ -701,5 +685,18 @@
   "Zauneidechse": "belegt",
   "Hängebirke": "typisch",
   "Heidelbeere": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "89e9bbc5-6524-5142-b84e-ee39b8ee1eda",
+   "id": "89e9bbc5-6524-5142-b84e-ee39b8ee1eda",
+   "caption": "Blick vom Aussichtsturm auf dem Heinz-Sielmann-Hügel über Sandwege und Heide.",
+   "credit": "Ferkeltaxe",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKyritz-Ruppiner-Heide_-_Fernblick_Richtung_Westen.jpg",
+   "kind": "ort"
+  }
+ ]
 }

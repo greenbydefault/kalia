@@ -841,36 +841,35 @@
    "lat": 52.3567911,
    "lon": 13.0889657,
    "km": 0.79,
+   "reihenfolge": 1,
    "titel": "Erholungswald Ravensberge",
    "thema": "Übersicht – Wanderwege im Wald",
    "kurztext": "Die Wanderkarte am Eingang zeigt die Wege durch den Erholungswald Ravensberge. Von hier startet der Naturlehrpfad zu den Tafelstationen im Wald – vom Findlingspark bis zum Naturschutzgebiet Moosfenn.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 2994769706,
    "lat": 52.3530733,
    "lon": 13.0790728,
    "km": 1.77,
+   "reihenfolge": 2,
    "titel": "Engelsquelle",
    "thema": "Wasser im Wald",
    "kurztext": "An der Engelsquelle geht es um das nasse Element mitten im Wald: Quellen und feuchte Senken sind wertvolle Lebensräume für Amphibien, Insekten und Vögel – und empfindliche Stellen, die wir auf den Wegen besonders schonen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12839620095,
    "lat": 52.3507456,
    "lon": 13.0670702,
    "km": 3.75,
+   "reihenfolge": 3,
    "titel": "Wildbienen und Hummeln",
    "thema": "Bestäuber unter sich",
    "kurztext": "Neben der Honigbiene gibt es Hunderte Wildbienenarten – viele davon hochspezialisiert und bedroht. Die Tafel stellt Wildbienen und Hummeln vor und zeigt, woran man sie erkennt und was sie zum Blühen des Waldes brauchen.",
@@ -878,15 +877,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 12115220495,
    "lat": 52.3508197,
    "lon": 13.0666955,
    "km": 3.78,
+   "reihenfolge": 4,
    "titel": "Findlingspark",
    "thema": "Zeugen der Eiszeit",
    "kurztext": "Die Findlinge im Findlingspark wurden während der Eiszeiten von Gletschern aus Skandinavien bis hierher geschleppt. An den Steinen lernen wir, wie man Granit, Gneis und Co. unterscheidet – und was sie über die Eisströme von damals verraten.",
@@ -894,69 +892,63 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12115220489,
    "lat": 52.3508886,
    "lon": 13.0667354,
    "km": 3.78,
+   "reihenfolge": 5,
    "titel": "Vielfältiges Leben im Reisighaufen",
    "thema": "Unterschlupf aus Ästen",
    "kurztext": "Was wie ein simpler Asthaufen aussieht, ist ein Miniatur-Biotop: Igel, Eidechsen, Kröten und unzählige Insekten finden im Reisighaufen Unterschlupf, Nahrung und Winterquartier. Die Tafel erklärt, warum solche Haufen im Wald bewusst liegen bleiben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 12829819614,
    "lat": 52.3509336,
    "lon": 13.0665601,
    "km": 3.78,
+   "reihenfolge": 6,
    "titel": "Alte und abgestorbene Bäume als Lebensraum",
    "thema": "Totholz steckt voller Leben",
    "kurztext": "Ein toter Baum ist alles andere als tot: Käfer, Pilze, Flechten, Fledermäuse und Höhlenbrüter wie Spechte nutzen Totholz als Nahrung, Brutplatz und Versteck. Warum alte und abgestorbene Bäume im Wald bleiben dürfen, erklärt diese Station.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 12829819613,
    "lat": 52.3511584,
    "lon": 13.0665105,
    "km": 3.82,
+   "reihenfolge": 7,
    "titel": "Die Rote Waldameise",
    "thema": "Die Baumpolizei des Waldes",
    "kurztext": "Die Nadelhügel der Roten Waldameise beherbergen Staaten aus Hunderttausenden Tieren. Die Ameisen räumen den Wald auf und regulieren Schädlinge – die Tafel zeigt, wie so ein Ameisenstaat funktioniert und warum er unter Schutz steht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 12829816556,
    "lat": 52.3544188,
    "lon": 13.0615564,
    "km": 4.35,
+   "reihenfolge": 8,
    "titel": "Naturschutzgebiet Moosfenn",
    "thema": "Feuchtgebiet am Waldrand",
    "kurztext": "Das Naturschutzgebiet Moosfenn ist ein Feuchtgebiet mit Gräben, Röhrichten und feuchten Wiesen – ein Refugium für Libellen, Amphibien und Wasservögel. Die Tafel des Potsdamer Naturschutzes erklärt, warum das Gebiet besonders geschützt ist.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -964,8 +956,7 @@
    "osmId": 411858706,
    "lat": 52.3574601,
    "lon": 13.0578395,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 678524200,
@@ -978,8 +969,7 @@
    "osmId": 1359318973,
    "lat": 52.3593191,
    "lon": 13.0957678,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 1359318985,
@@ -999,57 +989,49 @@
    "osmId": 2271735529,
    "lat": 52.3732446,
    "lon": 13.0151346,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2423515666,
    "lat": 52.3509666,
    "lon": 13.0665336,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2680508870,
    "lat": 52.3581297,
    "lon": 13.0981183,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2680508874,
    "lat": 52.3581854,
    "lon": 13.0981758,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2680508877,
    "lat": 52.3583483,
    "lon": 13.0983437,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2844092878,
    "lat": 52.3580025,
    "lon": 13.097747,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2844092879,
    "lat": 52.3581223,
    "lon": 13.0978791,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2844092884,
    "lat": 52.3582551,
    "lon": 13.0980001,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3392516575,
@@ -1062,134 +1044,115 @@
    "osmId": 3765024859,
    "lat": 52.3568119,
    "lon": 13.089061,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3765024860,
    "lat": 52.3568757,
    "lon": 13.0889884,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3838748340,
    "lat": 52.3723315,
    "lon": 13.0151394,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3838748354,
    "lat": 52.3728811,
    "lon": 13.015118,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3838748557,
    "lat": 52.3730558,
    "lon": 13.015128,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4612319714,
    "lat": 52.348102,
    "lon": 13.0712955,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8594861089,
    "lat": 52.3486943,
    "lon": 13.0697907,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9580072687,
    "lat": 52.3571508,
    "lon": 13.0893283,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11248701731,
    "lat": 52.3603394,
    "lon": 13.0943609,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11248701732,
    "lat": 52.360408,
    "lon": 13.0945251,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 11252364530,
    "lat": 52.3601947,
    "lon": 13.0950724,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972049,
    "lat": 52.3731808,
    "lon": 13.0115733,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972052,
    "lat": 52.3733622,
    "lon": 13.0116937,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972059,
    "lat": 52.3728228,
    "lon": 13.0109654,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972060,
    "lat": 52.3728454,
    "lon": 13.0109219,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972061,
    "lat": 52.3726879,
    "lon": 13.0108615,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11862972062,
    "lat": 52.3727134,
    "lon": 13.0108117,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12037975070,
    "lat": 52.3572632,
    "lon": 13.0577646,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12046026980,
    "lat": 52.3591447,
    "lon": 13.0908059,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 12115220496,
@@ -1202,46 +1165,39 @@
    "osmId": 13083959089,
    "lat": 52.3575537,
    "lon": 13.0935933,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 13123556101,
    "lat": 52.3580381,
    "lon": 13.0886171,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 13453483084,
    "lat": 52.3575888,
    "lon": 13.0975582,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13453503959,
    "lat": 52.3575953,
    "lon": 13.0973636,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13453736877,
    "lat": 52.3578509,
    "lon": 13.0976071,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13453737355,
    "lat": 52.3578876,
    "lon": 13.097853,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/ravensberge/credits.json",
  "lebensraeume": [
   "kiefernforst"
  ],
@@ -1261,5 +1217,18 @@
   "Heidelbeere": "typisch",
   "Adlerfarn": "typisch",
   "Eberesche": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "21ecb7d0-0909-583f-ab29-51c4718cd983",
+   "id": "21ecb7d0-0909-583f-ab29-51c4718cd983",
+   "caption": "Moosfenn in den Ravensbergen – kleines Moor im Wald.",
+   "credit": "G.G.-Pdm",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoosfenn_in_den_Ravensbergen_-_panoramio.jpg",
+   "kind": "ort"
+  }
+ ]
 }

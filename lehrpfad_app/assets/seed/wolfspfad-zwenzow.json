@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Zwei Kilometer Waldpfad bei Zwenzow – Wolfswissen zum Mitmachen, historische Fanggrube und eine Märchenhütte. Frei, ohne Ticket.",
  "beschreibung": "Südlich von Zwenzow, an der Straße nach Wesenberg, liegt der Wolfspfad des Müritz-Nationalparks. Auf rund zwei Kilometern erzählen die fiktiven Junior Ranger Lotta und Lars, seit wann Wölfe wieder hier leben, wo sie jagen und wie man sich ihnen gegenüber verhält. Stationen verlangen Köpfchen und Körpereinsatz: Wolfsquiz, Sprache der Wölfe, Spurenlesen. Die historische Wolfsfanggrube (1710, nach einem Schafsriss bei Userin) ist als Modell und Relikt präsent. In der Märchenhütte werden Mythen vom Wolf aufgegriffen. Ein Glöckchenspiel sitzt am Pfad. Der Outdoor-Besuch ist frei – ohne Ticket, ohne Anmeldung. Führungen sind optional und nicht Scope. Hunde im Nationalpark an der Leine. Der 5 km-Windwurf-Rundweg (Sturm Ela 2014) tangiert den Pfad, ist aber ein eigener Weg.",
- "laengeKm": 2.0,
+ "laengeKm": 2,
  "dauerMin": 50,
  "rundkurs": true,
  "markierung": "Wolfspfad / lokale NP-Wegweisung",
@@ -35,7 +35,6 @@
   "spielplatz",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.309213,
@@ -222,28 +221,27 @@
    12.937496
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -3918323001,
    "lat": 53.3092791,
    "lon": 12.9373789,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Willkommen am Wolfspfad",
    "thema": "Start am Parkplatz Wolfsfang",
    "kurztext": "Hier beginnt der freie Rundweg. Zwei Kilometer Wald, Stationen von Lotta und Lars – ohne Ticket. Parke am nördlichen Wolfsfang-Platz, nicht am Familotel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -537460519,
    "lat": 53.3093819,
    "lon": 12.9354615,
    "km": 0.16,
+   "reihenfolge": 2,
    "titel": "Die Wolfsfanggrube",
    "thema": "Historische Falle von 1710",
    "kurztext": "1710 rissen Wölfe bei Userin Schafe. Die Leute bauten eine Fanggrube. Reste und ein Modell stehen hier. Schau in die Grube – und denk nach, warum der Wolf damals Feind war.",
@@ -251,15 +249,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -12724907,
    "lat": 53.3093979,
    "lon": 12.9334684,
    "km": 0.36,
+   "reihenfolge": 3,
    "titel": "Märchenhütte",
    "thema": "Geschichten vom Wolf",
    "kurztext": "In der Hütte werden Mythen vom bösen Wolf aufgegriffen. Setz dich, lies, widersprich. Draußen wartet der echte Wald, in dem heute wieder Wölfe leben.",
@@ -267,30 +264,28 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3480950587,
    "lat": 53.309292,
    "lon": 12.9334639,
    "km": 0.43,
+   "reihenfolge": 4,
    "titel": "Unser Verhältnis zum Wolf",
    "thema": "Mythen und Angst",
    "kurztext": "Angst, Märchen, Bewunderung. Diese Tafel stellt die Beziehung Mensch–Wolf gerade. Was weißt du wirklich – und was ist Geschichte?",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -3970537072,
    "lat": 53.3083818,
    "lon": 12.9330806,
    "km": 0.43,
+   "reihenfolge": 5,
    "titel": "Wolfsspuren",
    "thema": "Spuren lesen",
    "kurztext": "Trittsiegel, Losung, Riss – so wird der Wolf sichtbar, ohne dass du ihn siehst. Vergleich die Größe. Bleib auf dem Weg.",
@@ -298,30 +293,28 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -32192729,
    "lat": 53.3078403,
    "lon": 12.9329462,
    "km": 0.59,
+   "reihenfolge": 6,
    "titel": "Wölfe in Mecklenburg-Vorpommern",
    "thema": "Rückkehr der Art",
    "kurztext": "Rudel gibt es wieder in Mecklenburg-Vorpommern, auch im Nationalpark. Die Tafel sagt, seit wann und wo. Abstand halten ist die Regel, nicht die Ausnahme.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -2383087066,
    "lat": 53.3076564,
    "lon": 12.9330068,
    "km": 0.59,
+   "reihenfolge": 7,
    "titel": "Auf Wolfspirsch",
    "thema": "Verhalten verstehen",
    "kurztext": "Köpfchen und Körpereinsatz: Wie pirscht ein Wolf? Station zum Nachmachen, nicht zum Nachjagen.",
@@ -329,30 +322,28 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -189472709,
    "lat": 53.3076409,
    "lon": 12.9331045,
    "km": 0.59,
+   "reihenfolge": 8,
    "titel": "Glöckchenspiel",
    "thema": "Mitmachen",
    "kurztext": "Kleines Spielgerät am Pfad. Klang im Wald – und Pause für kürzere Beine.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -3877391155,
    "lat": 53.3046502,
    "lon": 12.9326769,
    "km": 0.93,
+   "reihenfolge": 9,
    "titel": "Wie verständigen sich Wölfe?",
    "thema": "Körpersprache / Laut",
    "kurztext": "Heulen, Mimik, Rute. Wölfe sprechen, ohne Wörter. Probier die Haltung, die die Tafel zeigt.",
@@ -360,15 +351,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -3642205306,
    "lat": 53.3037528,
    "lon": 12.932747,
    "km": 0.99,
+   "reihenfolge": 10,
    "titel": "Wolfswissen",
    "thema": "Quiz / Abschluss Südschleife",
    "kurztext": "Südlicher Wendepunkt. Quiz und Fakten, bevor es zurück zum Parkplatz geht.",
@@ -376,9 +366,7 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -393,18 +381,15 @@
    "osmId": 7861640472,
    "lat": 53.309104,
    "lon": 12.9373113,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 11482280654,
    "lat": 53.3093091,
    "lon": 12.9336596,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/wolfspfad-zwenzow/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
@@ -425,5 +410,18 @@
   "Blaumeise": "typisch",
   "Buntspecht": "typisch",
   "Eberesche": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "be84c635-d8e1-5aaa-bf23-0e9de866dd76",
+   "id": "be84c635-d8e1-5aaa-bf23-0e9de866dd76",
+   "caption": "Großer Weißer See bei Wesenberg – Wald und Wasser um Zwenzow.",
+   "credit": "Thilo Kühne",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9Fer_Wei%C3%9Fer_See.JPG",
+   "kind": "ort"
+  }
+ ]
 }

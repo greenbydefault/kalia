@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/config/supabase_client_provider.dart';
+import '../../offline/providers/catalog_providers.dart';
 import '../domain/trail.dart';
 import 'cached_trail_repository.dart';
 import 'seed_trail_repository.dart';
@@ -29,9 +30,20 @@ final _trailsRemoteProvider = FutureProvider<List<Trail>>((ref) async {
   return repo.loadRemote();
 });
 
-/// Cache oder Seed sofort, Supabase danach. Die Nähe-Liste wartet nicht
-/// auf Netz und Hero-Credits.
+/// Nativ mit Backend: der lokale Katalog (drift). Wartet nur auf den
+/// Seed-Import, nie aufs Netz; der Sync schreibt in die DB, der Stream folgt.
+final _catalogTrailsProvider = StreamProvider<List<Trail>>((ref) async* {
+  final catalog = ref.watch(catalogRepositoryProvider)!;
+  await ref.watch(catalogBootProvider.future);
+  yield* catalog.watchTrails();
+});
+
+/// Nativ: lokaler Katalog. Web und Entwicklung ohne Backend: Cache oder Seed
+/// sofort, Supabase danach.
 final trailsProvider = Provider<AsyncValue<List<Trail>>>((ref) {
+  if (ref.watch(catalogRepositoryProvider) != null) {
+    return ref.watch(_catalogTrailsProvider);
+  }
   final repo = ref.watch(trailRepositoryProvider);
   final fast = ref.watch(_trailsFastProvider);
   if (repo is! CachedTrailRepository) return fast;

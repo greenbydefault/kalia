@@ -35,7 +35,6 @@
   "picknick",
   "barfusspfad"
  ],
- "form": "linie",
  "route": [
   [
    53.00673,
@@ -202,28 +201,27 @@
    12.819666
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -3631814897,
    "lat": 53.00673,
    "lon": 12.819666,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Vorstellung",
    "thema": "Hier stehst du!",
    "kurztext": "Starttafel am Waldmuseum. Förster Zander und Waldtraut (12) schicken dich auf den Rundweg. Sammle unterwegs etwas Spitzes, Rundes, Weiches, Duftendes, Raues und Leichtes – am Ende kommt alles in den Setzkasten. Tipp: Wenn du dich traust, barfuß.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -1999530219,
    "lat": 53.007266,
    "lon": 12.818305,
    "km": 0.13,
+   "reihenfolge": 2,
    "titel": "Rätselbuche",
    "thema": "Klapptafel-Rätsel",
    "kurztext": "Bleibt ein eingeritztes Herz in 20 Jahren weiter oben? Nein – der Stamm wird nur dicker, die Höhe wächst an der Spitze. Daneben neun Klapptafeln mit Waldrätseln. Klapp auf, wenn du die Antwort weißt.",
@@ -231,15 +229,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -1557053778,
    "lat": 53.009806,
    "lon": 12.817772,
    "km": 0.42,
+   "reihenfolge": 3,
    "titel": "Waldauge",
    "thema": "Tiere in den Kronen",
    "kurztext": "Schau dich um: In den Baumkronen haben sich sechs Tiere versteckt. Kolkrabe, Waldohreule, Laubfrosch, Wanderfalke, Baummarder, Eichhörnchen – findest du sie in den Bäumen und auf der Tafel?",
@@ -247,99 +244,91 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3523258963,
    "lat": 53.010966,
    "lon": 12.815355,
    "km": 0.64,
+   "reihenfolge": 4,
    "titel": "Baum-Bandolino",
    "thema": "Nördliche Wegkreuzung",
    "kurztext": "Nördliche Kreuzung der Wege, oben an der Runde – so liegt Baum-Bandolino auf der Tafelkarte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -3392788427,
    "lat": 53.00889,
    "lon": 12.815959,
    "km": 0.88,
+   "reihenfolge": 5,
    "titel": "Spurenpfütze",
    "thema": "Westseite nach der Nordschleife",
    "kurztext": "Westlich der Straße, nach der Nordschleife – Spurenpfütze laut Tafelkarte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": -3495957951,
    "lat": 53.007005,
    "lon": 12.81447,
    "km": 1.11,
+   "reihenfolge": 6,
    "titel": "Spechtholz",
    "thema": "Westlicher Waldrand",
    "kurztext": "Westlicher Waldrand vor den Kellen – Spechtholz auf der Tafelkarte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -3725547791,
    "lat": 53.006277,
    "lon": 12.815867,
    "km": 1.24,
+   "reihenfolge": 7,
    "titel": "Wasserliebe",
    "thema": "Nordufer der Kellen",
    "kurztext": "Am Nordufer der Kellen – Wasserliebe, so eingezeichnet auf der Starttafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -996098956,
    "lat": 53.007089,
    "lon": 12.817265,
    "km": 1.37,
+   "reihenfolge": 8,
    "titel": "Pilztopf",
    "thema": "Zurück zur Straße",
    "kurztext": "Zurück Richtung Straße, östlich der Kellen – Pilztopf auf der Tafelkarte.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -4016065908,
    "lat": 53.006751,
    "lon": 12.818175,
    "km": 1.44,
+   "reihenfolge": 9,
    "titel": "Waldgeschichte",
    "thema": "Zurück am Museum",
    "kurztext": "Wieder am Waldmuseum – Waldgeschichte schließt die Runde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -347,15 +336,13 @@
    "osmId": 6697834507,
    "lat": 53.0069644,
    "lon": 12.8193712,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 6697834511,
    "lat": 53.0065351,
    "lon": 12.8200015,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1804748070,
@@ -372,7 +359,6 @@
    "name": "Waldmuseum Stendenitz"
   }
  ],
- "bilderAsset": "assets/images/trails/stendenitz/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "see-ufer"
@@ -393,5 +379,18 @@
   "Heidelbeere": "typisch",
   "Schilf": "typisch",
   "Adlerfarn": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "8a3d5984-aeae-5398-8c39-c64eadeea4ab",
+   "id": "8a3d5984-aeae-5398-8c39-c64eadeea4ab",
+   "caption": "Zermützelsee bei Stendenitz – Wasser neben dem Walderlebnispfad.",
+   "credit": "Brunhilde Schaefer",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012-01-15_Zerm%C3%BCtzelsee_Stendenitz_003.jpg",
+   "kind": "ort"
+  }
+ ]
 }

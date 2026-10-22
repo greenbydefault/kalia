@@ -33,7 +33,6 @@
  "tags": [
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.89078,
@@ -652,13 +651,13 @@
    10.7375
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 10989998448,
    "lat": 53.8907837,
    "lon": 10.7375007,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Douglasie",
    "thema": "Gepflanzter Gast aus Nordamerika",
    "kurztext": "Nadeln auf einem Stielchen, Geruch nach Zitrone, Zapfen mit dreizackiger Schuppe. Der Baum kommt von der pazifischen Küste. Hier hat ihn der Forst hingestellt, der Buchenwald nicht.",
@@ -666,45 +665,42 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 10989998446,
    "lat": 53.8891969,
    "lon": 10.7379603,
    "km": 0.19,
+   "reihenfolge": 2,
    "titel": "Bach",
    "thema": "Wasser im Stadtwald",
    "kurztext": "Ein Bach schneidet sich durch den Bestand. Nass, rutschig, Wurzeln. Die Tafel bleibt am Weg, du auch, sonst trittst du die Ufer kaputt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12302015063,
    "lat": 53.889595,
    "lon": 10.738369,
    "km": 0.26,
+   "reihenfolge": 3,
    "titel": "Windwurf",
    "thema": "Sturmholz, das liegen bleibt",
    "kurztext": "Stämme quer, Krone am Boden. Im Lübecker Modell bleibt das liegen. Käfer, Pilz, Specht. Die Tafel erklärt, warum Aufräumen hier die falsche Ordnung wäre.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 12302015064,
    "lat": 53.8883061,
    "lon": 10.7456066,
    "km": 0.84,
+   "reihenfolge": 4,
    "titel": "Buchenberg",
    "thema": "Schattenhang aus Rotbuche",
    "kurztext": "Steil, dunkel, Buchen. Der Boden ist fast nackt, das Licht bleibt in der Krone. Typisches Lauerholz, nicht die Douglasie von eben.",
@@ -712,45 +708,42 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12302015065,
    "lat": 53.8884236,
    "lon": 10.747453,
    "km": 1.1,
+   "reihenfolge": 5,
    "titel": "Adam und Eva",
    "thema": "Zwei alte Bäume, ein Standort",
    "kurztext": "Zwei Stämme dicht beieinander, lange hier. Die Tafel hängt den Namen an das Paar, nicht an ein Märchen. Umfang, Rinde, wer älter wirkt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 12302015066,
    "lat": 53.8890738,
    "lon": 10.7468268,
    "km": 1.19,
+   "reihenfolge": 6,
    "titel": "Quellmoor",
    "thema": "Nasse Senke, Quelle unter dem Bestand",
    "kurztext": "Nass unter den Füßen, Torf, Quelle. Betreiber sagt Moor. Bleib auf dem Weg, sonst sackt der Boden und die Vegetation gleich mit.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 12302015067,
    "lat": 53.8910964,
    "lon": 10.7431324,
    "km": 1.54,
+   "reihenfolge": 7,
    "titel": "Fichte",
    "thema": "Pflanzung statt Buchenwald",
    "kurztext": "Nadeln einzeln, Zapfen hängen, Krone spitz. Oft eine Pflanzung, wo Laubwald stehen könnte. Vergleich mit der Douglasie: anderer Geruch, andere Zapfen.",
@@ -758,24 +751,21 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 12302015068,
    "lat": 53.8923109,
    "lon": 10.7402297,
    "km": 1.8,
+   "reihenfolge": 8,
    "titel": "Referenz",
    "thema": "Fläche ohne Holzeinschlag",
    "kurztext": "Hier wird nicht geerntet. Was der Wald allein macht, steht neben den bewirtschafteten Teilen. Die Tafel schließt die Runde, ein paar hundert Meter vom Start.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -788,7 +778,6 @@
   }
  ],
  "hoertext": "Am Hundefreilauf an der Waldstraße wächst eine Douglasie, deren Nadeln nach Zitrone riechen. Bald schneidet sich ein Bach durch den Bestand, über nasse Wurzeln. Steil und dunkel folgt der Buchenberg. Nach einem Sturm bleiben die Bäume hier liegen, quer im Bestand, die Krone im Laub, und Käfer, Pilz und Specht fallen darüber her, weil niemand das Holz wegräumt. Zwei alte Stämme drängen sich so dicht aneinander, dass die Tafel sie Adam und Eva nennt. Im Quellmoor wird es unter den Füßen nass, und wer vom Weg abweicht, drückt den Torf samt Pflanzen ein. Zum Schluss wächst ein Stück Wald, das keiner mehr erntet.",
- "bilderAsset": "assets/images/trails/naturwaldpfad/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -808,5 +797,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Kleiber": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "e814fbc1-97a9-5cf2-beb3-da94ac383138",
+   "id": "e814fbc1-97a9-5cf2-beb3-da94ac383138",
+   "caption": "Depenmoor im Lauerholz.",
+   "credit": "Kresspahl",
+   "license": "pd",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALauerholzDepenmoor.JPG",
+   "kind": "ort"
+  }
+ ]
 }

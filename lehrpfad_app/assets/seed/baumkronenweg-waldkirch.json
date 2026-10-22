@@ -37,7 +37,6 @@
   "spielplatz",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    48.082362,
@@ -100,13 +99,13 @@
    7.957567
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 48.0823624,
    "lon": 7.9592514,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann auf den Steg",
    "kurztext": "Hier ist die Kasse, Kiosk mit Eis, WC daneben. Ticket, dann aufs Holz. Der Sinnesweg liegt hinter dir. Hunde bleiben an der Leine. Abenteuer- und Barfußpfad starten hier, das ist extra.",
@@ -114,15 +113,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -93718623,
    "lat": 48.0831251,
    "lon": 7.957818,
    "km": 0.12,
+   "reihenfolge": 2,
    "titel": "Steg durch die Kronen",
    "thema": "Zweihundert Meter, dreiundzwanzig hoch",
    "kurztext": "Holzbohlen, Geländer, der Hang fällt weg. Bis dreiundzwanzig Meter über dem Boden, sechs Prozent. Unten Buche und Fichte im Mischwald, Tafeln zum Wald. Kein Turm – der Steg selbst ist die Höhe.",
@@ -130,39 +128,35 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -3912368165,
    "lat": 48.0836461,
    "lon": 7.9575675,
    "km": 0.2,
+   "reihenfolge": 3,
    "titel": "Blick Rheintal",
    "thema": "Elztal, Kaiserstuhl, Vogesen",
    "kurztext": "Westende des Stegs. Waldkirch unten, Elztal, bei klarer Sicht Freiburg, Rheinebene, Kaiserstuhl, Vogesen. OSM schreibt wheelchair yes – wer den Sinnesweg nicht schafft, fährt nach Anmeldung hierher.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -3059717958,
    "lat": 48.0837014,
    "lon": 7.9579779,
    "km": 0.21,
+   "reihenfolge": 4,
    "titel": "Riesenröhrenrutsche",
    "thema": "Hundertneunzig Meter, extra zwei Euro",
    "kurztext": "Am Viewpoint geht die Röhre den Hang runter, hundertneunzig Meter. Extra Ticket, zwei Euro, Mindestalter acht. Nässe macht sie unangenehm. Zurück zur Kasse zu Fuß oder die Rutsche, dann den Hang wieder hoch.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -170,43 +164,37 @@
    "osmId": 3441299160,
    "lat": 48.0821087,
    "lon": 7.9593855,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 3020977856,
    "lat": 48.082508,
    "lon": 7.9586435,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 360017980,
    "lat": 48.082164,
    "lon": 7.959643,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 3020997618,
    "lat": 48.0827732,
    "lon": 7.9583879,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 3646193742,
    "lat": 48.0822145,
    "lon": 7.9595293,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 519871062,
    "lat": 48.0836461,
    "lon": 7.9575675,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 610194359,
@@ -235,7 +223,6 @@
  "oeffnungszeiten": "Saison 2026 ab 21.3., täglich bis 8.11. März–Juni und ab 14.9. 11–17:30 Uhr, 1.7.–13.9. 11–18:30 Uhr. Letzter Einlass eine Stunde vorher. Gruppen nach Voranmeldung auch früher. Betreiber-Seite listet 2026 die Preise, die Uhrzeiten nach walderlebnispfade.de.",
  "besuchshinweise": "Steg sechs Prozent, Holz. Der Weg zur Kasse ist der Sinnesweg: steil, 13 Prozent, nicht rollstuhlgerecht; Kinderwagen nur offroad. Zufahrt zur Kasse nach Anmeldung Tel. 0151 50404867. Hunde angeleint. Abenteuerpfad, Barfußpfad, Bambini-Seilpark extra. Röhrenrutsche extra 2 €, ab 8, bei Nässe oft unangenehm. Zoo und See extra. Letzter Einlass eine Stunde vor Schluss.",
  "hoertext": "Oben am Hang hängt ein zweihundert Meter langer Holzsteg, dreiundzwanzig Meter über dem Schwarzwald. Hoch geht's über den Sinnesweg, steil, dreizehn Prozent. Rollstuhl: anrufen, dann fährst du zur Kasse. Hunde angeleint. Die Röhrenrutsche extra, ab acht, zwei Euro. Letzter Einlass eine Stunde vor Schluss.",
- "bilderAsset": "assets/images/trails/baumkronenweg-waldkirch/credits.json",
  "lebensraeume": [
   "buchenwald",
   "nadelforst"
@@ -256,5 +243,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "8aee6b6d-887f-54b4-ab6e-b8c177a1301d",
+   "id": "8aee6b6d-887f-54b4-ab6e-b8c177a1301d",
+   "caption": "Baumkronenweg Waldkirch, Steg durch die Kronen.",
+   "credit": "der sich den wolf tanzt",
+   "license": "cc-by-sa-2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.de",
+   "sourceUrl": "https://www.flickr.com/photos/65506604@N00/34795007301",
+   "kind": "ort"
+  }
+ ]
 }

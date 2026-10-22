@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    51.500856,
@@ -293,127 +292,118 @@
    11.915843
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 2638484777,
    "lat": 51.5008796,
    "lon": 11.9300206,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Robinie",
    "thema": "Stein 1, Eingang Waldkater",
    "kurztext": "Stein 1, rechts an der Straße. Die Gaststätte heißt seit 1854 Waldkater, Carl Gottlieb Schurig hat hier 1848 eine Schenke aufgemacht. Robinien stehen an der Straße, im Wald selbst nur an wenigen Stellen. Gefiederte Blätter, Dornen, im Frühsommer weiße Trauben. Aus Nordamerika, sät sich auf trockenen Stellen selbst aus.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 2638488364,
    "lat": 51.5010008,
    "lon": 11.929927,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 2,
    "titel": "Oberer Hallescher Porphyr",
    "thema": "Stein 2, Grus auf dem Weg",
    "kurztext": "Stein 2, rechts und auf dem Weg. Der Obere Hallesche Porphyr ist sonst fest und rötlich. Hier ist er zu hellem, lockerem Grus verwittert. Von Stein 1 bis Stein 15 läuft der Pfad darauf.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 2638489273,
    "lat": 51.5010739,
    "lon": 11.929863,
    "km": 0.06,
+   "reihenfolge": 3,
    "titel": "Rot-Eiche",
    "thema": "Stein 3, spitze Blattlappen",
    "kurztext": "Stein 3, rechts. Blätter mit spitzen Lappen, im Herbst orange bis scharlachrot. Aus dem östlichen Nordamerika, seit Anfang des 20. Jahrhunderts häufiger gepflanzt, weil sie Mehltau besser wegsteckt als die heimischen Eichen. Sie sät sich auch außerhalb der Forste aus.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 2638490827,
    "lat": 51.5012203,
    "lon": 11.9297465,
    "km": 0.06,
+   "reihenfolge": 4,
    "titel": "Hainbuche",
    "thema": "Stein 4, links",
    "kurztext": "Stein 4, links. Stamm mit Längswülsten, Rinde glatt und silbergrau, oft mehrere Stämme aus dem Stock. Blätter doppelt gesägt. Das Holz ist fast weiß und sehr hart. In Hecken behält sie das braune Laub über den Winter.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 2638486993,
    "lat": 51.5015721,
    "lon": 11.9293947,
    "km": 0.11,
+   "reihenfolge": 5,
    "titel": "Hockergrab",
    "thema": "Stein 5, Steinkiste",
    "kurztext": "Stein 5, links. Eine Steinkiste aus der Jungsteinzeit. Verzierte Scherben gehören zur Glockenbecherkultur, etwa 2000 vor unserer Zeitrechnung. Möglicherweise eine Nachbestattung in einem älteren schnurkeramischen Grab. Die Kammer ist klein, deshalb der Name. Nichts anheben, der Stein ist der Fund.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 10017829031,
    "lat": 51.5021921,
    "lon": 11.9288658,
    "km": 0.16,
+   "reihenfolge": 6,
    "titel": "Bodenprofil",
    "thema": "Stein 6, Braunerde",
    "kurztext": "Stein 6, rechts. Auf den Porphyrkuppen liegt flachgründige Braunerde. Oben etwa zehn Zentimeter schwarzbrauner Humus, darunter ein brauner Verwitterungshorizont aus Grus. Darunter das Porphyrgestein, oben gelbgrau verwittert.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 10017829030,
    "lat": 51.5022965,
    "lon": 11.9287726,
    "km": 0.22,
+   "reihenfolge": 7,
    "titel": "Sommer-Linde",
    "thema": "Stein 7, links",
    "kurztext": "Stein 7, links. Schief herzförmige Blätter, unterseits weißbärtig in den Nervenwinkeln. Junge Zweige dunkelrotbraun und flaumig. Blüte im Juni, das Hochblatt fliegt später mit der Frucht. Das Holz taugt schlecht zum Bauen und gut zum Schnitzen. Lindenblüten sind eine Bienenweide.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 5420889218,
    "lat": 51.5092214,
    "lon": 11.9156884,
    "km": 1.86,
+   "reihenfolge": 8,
    "titel": "Waldkiefer",
    "thema": "Stein 24, Ende des offenen Stücks",
    "kurztext": "Stein 24, links. Ein alter Kiefernbestand, gemischt mit Hänge-Birken und Eichen. Nadeln zu zweit, unten graue Tafelborke. Nach dem nächsten Weg steigt der Pfad zum Kuhberg. Die Steine 25 bis 44 sind gesperrt. Hier umkehren.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -428,125 +418,107 @@
    "osmId": 2592968247,
    "lat": 51.5008439,
    "lon": 11.9310718,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943489,
    "lat": 51.5075662,
    "lon": 11.9202339,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943490,
    "lat": 51.5100877,
    "lon": 11.9184165,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943491,
    "lat": 51.5100647,
    "lon": 11.918521,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943492,
    "lat": 51.5099193,
    "lon": 11.9188099,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943493,
    "lat": 51.5098199,
    "lon": 11.9191726,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943494,
    "lat": 51.5086089,
    "lon": 11.9196398,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943498,
    "lat": 51.505785,
    "lon": 11.9260334,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4641943499,
    "lat": 51.5057534,
    "lon": 11.9260303,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7679642359,
    "lat": 51.5041743,
    "lon": 11.9238861,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8259974127,
    "lat": 51.508965,
    "lon": 11.9144714,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12667243604,
    "lat": 51.500858,
    "lon": 11.9310431,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12667256255,
    "lat": 51.500845,
    "lon": 11.9309361,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12667266505,
    "lat": 51.5008146,
    "lon": 11.9309137,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12668873735,
    "lat": 51.4996907,
    "lon": 11.9299285,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12668873736,
    "lat": 51.4995715,
    "lon": 11.9300794,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12668873737,
    "lat": 51.4996012,
    "lon": 11.9301241,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
  "besuchshinweise": "Steine 25 bis 44 sind gesperrt, Stand Dezember 2024, unbefristet. Äste und Bäume brechen. Die Stadt rät vom Besuch ab, besonders in Gruppen. Wald auf eigene Gefahr. Am Kiefernbestand, Stein 24, umkehren.",
  "hoertext": "An der Straße Waldkater stehen weiße Steine mit roten Zahlen, der Weg trägt einen roten Balken. Bis Stein 24 läufst du auf Porphyrgrus, links liegt ein Hockergrab aus der Jungsteinzeit. Danach ist Schluss. Die Steine 25 bis 44 an Kuhberg, Langer Berg und Kellerberg sind gesperrt. Die Stadt rät vom Besuch ab, weil Äste brechen. Wer geht, kehrt am Kiefernbestand um.",
- "bilderAsset": "assets/images/trails/naturlehrpfad-doelau-i/credits.json",
  "lebensraeume": [
   "kiefernforst",
   "eichen-mischwald"
@@ -567,5 +539,18 @@
   "Kleiber": "typisch",
   "Kohlmeise": "typisch",
   "Mittelspecht": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "f470e056-6d20-59db-a941-0da05d28064a",
+   "id": "f470e056-6d20-59db-a941-0da05d28064a",
+   "caption": "Gaststätte Waldkater an der Straße Waldkater. Hier beginnt der Naturlehrpfad I.",
+   "credit": "Catatine",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldkater_01_Halle_(Saale).jpg",
+   "kind": "ort"
+  }
+ ]
 }

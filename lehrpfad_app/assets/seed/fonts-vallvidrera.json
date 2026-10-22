@@ -37,7 +37,6 @@
   "spielplatz",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    41.419627,
@@ -680,43 +679,41 @@
    2.101066
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -1505561151,
    "lat": 41.419624,
    "lon": 2.101003,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Infohaus",
    "thema": "Centre d’Informació, Start der gelben Runde",
    "kurztext": "Hier sitzt das Infohaus, Ctra. de l’Església 92. Karte, Klo wenn offen, kleiner Spielplatz. Die gelbe Runde geht zur Vil·la Joana und den Quellen, nicht den GR 92.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -3296807415,
    "lat": 41.419775,
    "lon": 2.099806,
    "km": 0.14,
+   "reihenfolge": 2,
    "titel": "Vil·la Joana",
    "thema": "Masia, Museu Verdaguer, nur von außen",
    "kurztext": "Masia von 1708, später Herrenhaus. Verdaguer ist hier gestorben, heute Museum. Du gehst außen vorbei. Der Pfad braucht kein Ticket.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 620075022,
    "lat": 41.420342,
    "lon": 2.1009447,
    "km": 0.25,
+   "reihenfolge": 3,
    "titel": "Font dels Plàtans",
    "thema": "Quelle an der Platanenallee, Taststeine",
    "kurztext": "Die Allee endet hier nicht, sie fängt an. Quelle am Weg, große Platanen. In den Steinen sitzen Spuren: Wildschwein, Fuchs, Eiche, Kiefer. Tasten, nicht mitnehmen.",
@@ -724,69 +721,63 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 620075020,
    "lat": 41.4200781,
    "lon": 2.1008213,
    "km": 0.4,
+   "reihenfolge": 4,
    "titel": "Font Joana",
    "thema": "Quelle mit Safareig, Hahn aus dem Netz",
    "kurztext": "Links runter vom Passeig. Häuschen, Marmorplatte mit Namen, Waschbecken. Der Hahn ist Leitungswasser, die Mine speist das Becken. Bank am Rand.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 620074712,
    "lat": 41.4209964,
    "lon": 2.1014672,
    "km": 0.63,
+   "reihenfolge": 5,
    "titel": "Font Vella",
    "thema": "Alte Quelle, Treppe vom Passeig",
    "kurztext": "Treppe vom Passeig runter. Totnens: ohne Betrieb. Darunter der neue Hahn, zwei große Platanen. Kinderwagen bleibt oben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 620074715,
    "lat": 41.4213757,
    "lon": 2.1015991,
    "km": 0.74,
+   "reihenfolge": 6,
    "titel": "Font Nova",
    "thema": "Placeta mit Bank, Braille-Tafel",
    "kurztext": "Kleine Placeta, Balkon, Bank. Hier hängt Braille. totnens nimmt die Runde von unten, du kommst von oben. Weiter den Torrent runter zum Bahnhof.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": -3389613051,
    "lat": 41.419811,
    "lon": 2.097229,
    "km": 1.25,
+   "reihenfolge": 7,
    "titel": "Baixador de Vallvidrera",
    "thema": "FGC-Halt, unteres Ende der Runde",
    "kurztext": "S1/S2, hier steigen die meisten ein. Zurück zum Infohaus den Hang hoch, ein paar Minuten. Der grüne Arm geht über die Straße zum Stausee, extra.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -794,8 +785,7 @@
    "osmId": 1749472496,
    "lat": 41.4196657,
    "lon": 2.1018037,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 8265453217,
@@ -822,13 +812,11 @@
    "osmId": 5801825628,
    "lat": 41.41927,
    "lon": 2.096679,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
  "besuchshinweise": "Treppe zwischen Font Nova und Font Vella, Kinderwagen eher nicht. Museum Vil·la Joana extra. Grüner Arm (Stausee) und roter Arm (Budellera) nicht mitlaufen, wenn du nur diese Runde willst.",
  "hoertext": "Am FGC-Halt Baixador de Vallvidrera fängt die gelbe Runde an. Eineinhalb Kilometer durch Quellen. Font Joana, Font Vella, Font Nova, dazwischen die Platanenallee mit Taststeinen. Frei, ohne Ticket. Eine Treppe, Kinderwagen eher nicht. Das Infohaus sitzt an der Vil·la Joana, du musst nicht ins Museum.",
- "bilderAsset": "assets/images/trails/fonts-vallvidrera/credits.json",
  "lebensraeume": [
   "mediterraner-wald"
  ],
@@ -848,5 +836,18 @@
   "Rosmarin": "typisch",
   "Montpellier-Zistrose": "typisch",
   "Schwalbenschwanz": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "76e2129f-6a41-58d7-a015-c5da8f4dc536",
+   "id": "76e2129f-6a41-58d7-a015-c5da8f4dc536",
+   "caption": "Infohaus des Naturparks Collserola, Vallvidrera.",
+   "credit": "pere prlpz",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre_d%27informaci%C3%B3_del_Parc_de_Collserola_P1320936.jpg",
+   "kind": "ort"
+  }
+ ]
 }

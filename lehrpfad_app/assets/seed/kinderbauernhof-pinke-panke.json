@@ -13,7 +13,6 @@
  "betreiber": "Spielraum Pankow e.V.",
  "region": "Pankow, Berlin",
  "website": "http://www.kinderbauernhof-pinke-panke.de/",
- "eintritt": false,
  "eintrittPreise": "Eintritt frei, Spende willkommen",
  "oeffnungszeiten": "Sommer (1. Apr–31. Okt): Mo Ruhetag; Di nur Schulkinder 12–18 Uhr; Mi–Fr 12–18:30 Uhr; Wochenende, Feiertage und Ferien 10–18:30 Uhr. Winter: jeweils eine Stunde früher.",
  "besuchshinweise": "Nicht frei füttern. Fütterung 16 Uhr, alle dürfen mit. Streicheln nur mit Betreuer um 11 und 15 Uhr. Dienstag nur Schulkinder. Gruppen ab 9 Uhr nur mit Anmeldung.",
@@ -35,7 +34,6 @@
   "kinderfreundlich",
   "spielplatz"
  ],
- "route": [],
  "area": [
   [
    52.5694791,
@@ -103,8 +101,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 940002,
@@ -118,8 +115,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null
+   "barrierefrei": true
   },
   {
    "osmId": 940003,
@@ -133,8 +129,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -146,7 +141,6 @@
    "name": "Kinderbauernhof Pinke-Panke"
   }
  ],
- "bilderAsset": "assets/images/trails/kinderbauernhof-pinke-panke/credits.json",
  "lebensraeume": [
   "hof-nutztier"
  ],
@@ -162,5 +156,18 @@
   "Rotklee": "typisch",
   "Amsel": "typisch",
   "Rotkehlchen": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "40f4a88f-bc33-5967-9553-6f038100bf9f",
+   "id": "40f4a88f-bc33-5967-9553-6f038100bf9f",
+   "caption": "Panke am Bürgerpark Pankow – der Hof liegt an diesem Fluss.",
+   "credit": "Boonekamp",
+   "license": "pd",
+   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanke-Buergerpark.jpg",
+   "kind": "ort"
+  }
+ ]
 }

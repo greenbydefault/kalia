@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Ein Kneipp-Becken liegt direkt im Bachlauf. Im Süden des Waldes erheben sich Hügelgräber aus der Bronzezeit, am Stadtrand von Bad Doberan.",
  "beschreibung": "Der Quellbach windet sich naturbelassen durch den Wald, und mitten in ihm liegt das Kneipp-Becken. Eine neue Brücke führt über das Wasser. Ein Balancierbalken und ein Kletterbereich fordern das Gleichgewicht, der Bewegungsparcours folgt weiter nördlich. Drehbare Liegen und Bänke stehen am Weg. Gut zehn Jahre dauerte die Planung, im Juli 2025 öffnete der Wald. Direkt nebenan liegt die Reha-Klinik Moorbad.",
- "laengeKm": 0.0,
+ "laengeKm": 0,
  "dauerMin": 60,
  "rundkurs": false,
  "markierung": "Wegweiser mit Entfernungsangaben",
@@ -15,37 +15,21 @@
  "anreise": "Schwaaner Chaussee 2, 18209 Bad Doberan, am Waldrand neben der Moorbad-Klinik. Tafel am Eingang, GPS 54.09035, 11.90508. Fahrradständer an der Tafel.",
  "startName": "Tafel Kur- und Heilwald",
  "arten": [
+  "Amsel",
   "Buchfink",
+  "Buntspecht",
   "Eichelhäher",
+  "Eichhörnchen",
+  "Eisvogel",
+  "Feldahorn",
+  "Gemeine Esche",
+  "Grasfrosch",
   "Hainbuche",
+  "Hängebirke",
   "Schwarzerle",
   "Stieleiche",
-  "Stockente",
-  "Eisvogel",
-  "Amsel",
-  "Buntspecht",
-  "Eichhörnchen",
-  "Gemeine Esche",
-  "Feldahorn",
-  "Grasfrosch",
-  "Hängebirke"
+  "Stockente"
  ],
- "artenNachweis": {
-  "Buchfink": "typisch",
-  "Eichelhäher": "typisch",
-  "Hainbuche": "typisch",
-  "Schwarzerle": "typisch",
-  "Stieleiche": "typisch",
-  "Stockente": "typisch",
-  "Eisvogel": "typisch",
-  "Amsel": "typisch",
-  "Buntspecht": "typisch",
-  "Eichhörnchen": "typisch",
-  "Gemeine Esche": "typisch",
-  "Feldahorn": "typisch",
-  "Grasfrosch": "typisch",
-  "Hängebirke": "typisch"
- },
  "lebensraeume": [
   "eichen-mischwald",
   "fliessgewaesser"
@@ -144,55 +128,51 @@
    "osmId": 13413397629,
    "lat": 54.09035,
    "lon": 11.90508,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Eingangstafel",
    "thema": "Übersicht am Waldrand",
    "kurztext": "Tafel und Wegweiser am Waldrand an der Schwaaner Chaussee. Die Wegweiser im Wald nennen Entfernungen zu Hügelgräbern, Wassertretanlage und Bewegungsparcours.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 1376194702,
    "lat": 54.0909159,
    "lon": 11.9037938,
    "km": 0.14,
+   "reihenfolge": 2,
    "titel": "Hügelgräber",
    "thema": "Bronzezeit im Wald",
    "kurztext": "Bronzezeitliche Hügelgräber im Süden der Waldfläche, nicht weit vom Eingang.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 13413554638,
    "lat": 54.0903604,
    "lon": 11.9039902,
    "km": 0.2,
+   "reihenfolge": 3,
    "titel": "Balancierbereich",
    "thema": "Gleichgewicht und Klettern",
    "kurztext": "Ein Balancierbalken, westlich der Eingangstafel. Er gehört zum Balancier- und Kletterbereich des Heilwalds.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 13413554639,
    "lat": 54.0918144,
    "lon": 11.89943,
    "km": 0.54,
+   "reihenfolge": 4,
    "titel": "Wassertretanlage",
    "thema": "Kneipp-Becken im Bachlauf",
    "kurztext": "Kneippsches Wasserbecken direkt im Bachlauf, ohne Eintritt. Der Quellbach mäandriert hier naturbelassen durch den Wald.",
    "erlebnisse": [],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -200,33 +180,41 @@
    "osmId": 571798787,
    "lat": 54.0900129,
    "lon": 11.9070766,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13413554636,
    "lat": 54.0902961,
    "lon": 11.9046655,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13413554650,
    "lat": 54.0903308,
    "lon": 11.9040725,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13413554652,
    "lat": 54.0902958,
    "lon": 11.9046953,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
  "oeffnungszeiten": "Ganzjährig frei, ohne Anmeldung.",
  "besuchshinweise": "Das Gelände der Klinik ist kein Teil des Waldes. Teile der Wege sind nicht barrierefrei. Handtuch und trockene Socken fürs Wassertreten mitnehmen.",
  "hoertext": "Am Waldrand der Schwaaner Chaussee darf der Quellbach noch verlaufen, wie er will. Er windet sich durch das Quellholz, unter einer neuen Brücke hindurch, und in seinem Lauf wartet ein Kneipp-Becken, in dem barfuß durchs Wasser getreten wird. Nicht weit vom Eingang heben sich Hügelgräber aus der Bronzezeit aus dem Boden. Ein Balancierbalken trainiert das Gleichgewicht. Drehbare Liegen warten auf alle, die danach nur zuhören wollen. Wer das Becken nutzt, packt besser ein Handtuch ein, denn es liegt direkt im Bachlauf.",
- "bilderAsset": "assets/images/trails/heilwald-bad-doberan/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "c668044f-39a0-5a26-826e-c36b9d6aaa8f",
+   "id": "c668044f-39a0-5a26-826e-c36b9d6aaa8f",
+   "caption": "Waldbach im Cepeliner Holz bei Bad Doberan.",
+   "credit": "An-d",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lange_Zunge_im_Cepeliner_Holz.jpg",
+   "kind": "ort"
+  }
+ ]
 }

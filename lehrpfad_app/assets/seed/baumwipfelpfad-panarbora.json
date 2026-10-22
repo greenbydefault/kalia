@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    50.859652,
@@ -336,13 +335,13 @@
    7.606783
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -315853064,
    "lat": 50.8596516,
    "lon": 7.6067827,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann in den Turm",
    "kurztext": "Hier beginnt der Besuch. Ticket an der Rezeption, Info-Portal, dann rauf – ohne Stufe in den Turm, der Steg hängt oben. Hunde bleiben in der Box am Parkplatz, Assistenzhunde ausgenommen.",
@@ -350,30 +349,28 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 50.8591846,
    "lon": 7.6066592,
    "km": 0.1,
+   "reihenfolge": 2,
    "titel": "Aussichtsturm",
    "thema": "Vierzig Meter, Plattform 34",
    "kurztext": "Vierundzwanzig Brettschichtholz-Stützen, Rampe über fünfhundertsechzig Meter nach oben. Plattform zwölf Meter Durchmesser, Blick über das Bergische Land. Von hier geht's auf den Steg, derselbe Weg wieder runter.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -3657458009,
    "lat": 50.8583114,
    "lon": 7.6065462,
    "km": 0.22,
+   "reihenfolge": 3,
    "titel": "Vom Urwald zum Wirtschaftswald",
    "thema": "Waldtypen, nicht jeder Wald gleich",
    "kurztext": "Erste der sechs Lerninseln. Urwald, Wirtschaftswald, was dazwischen – die Station stellt die Typen vor, unten stehen Buche, Eiche, Fichte. Der Steg ist hier noch niedrig, das Gelände fällt weg.",
@@ -381,15 +378,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -2951877252,
    "lat": 50.8579168,
    "lon": 7.6079832,
    "km": 0.42,
+   "reihenfolge": 4,
    "titel": "Der Baum ist tot – es lebe der Baum",
    "thema": "Was unter der Rinde los ist",
    "kurztext": "Südlichster Bogen, bis vierundzwanzig Meter über dem Hang. Totholz ist hier das Thema: wer unter der Rinde wohnt, nicht die Stille. Sieben Plattformen insgesamt, das ist eine davon.",
@@ -397,30 +393,28 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -1504476639,
    "lat": 50.858188,
    "lon": 7.6073758,
    "km": 0.49,
+   "reihenfolge": 5,
    "titel": "Der Wald schläft nie",
    "thema": "Wer tags, wer nachts unterwegs ist",
    "kurztext": "Rückweg, zweite Ebene. Tagaktive und Nachtaktive – die Station zeigt, wann wer im Wald unterwegs ist. Unten dieselben Kronen, anderer Blick.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -3442351848,
    "lat": 50.858835,
    "lon": 7.6066806,
    "km": 0.58,
+   "reihenfolge": 6,
    "titel": "Stockausschlag",
    "thema": "Niederwald, Bergische Landschaft",
    "kurztext": "Niederwaldwirtschaft hat im 19. Jahrhundert die Hänge geprägt: ab, treibt wieder, Eiche und Hainbuche. Letzte Lerninsel vor dem Turm. Vom Wald leben und Wandel der Landschaft stehen daneben, extra lesen.",
@@ -428,23 +422,21 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   }
  ],
  "amenities": [
   {
    "osmId": 374914848,
-   "lat": 50.85944063333333,
-   "lon": 7.605517444444445,
+   "lat": 50.8594406333333,
+   "lon": 7.60551744444444,
    "kategorie": "parking",
    "name": "Parkplatz Panarbora"
   },
   {
    "osmId": 374914847,
-   "lat": 50.85993666842105,
-   "lon": 7.6085203578947365,
+   "lat": 50.859936668421,
+   "lon": 7.60852035789474,
    "kategorie": "parking",
    "name": "Parkplatz frei"
   },
@@ -464,10 +456,9 @@
   },
   {
    "osmId": 985020432,
-   "lat": 50.859425322222215,
-   "lon": 7.606109455555556,
-   "kategorie": "wc",
-   "name": null
+   "lat": 50.8594253222222,
+   "lon": 7.60610945555556,
+   "kategorie": "wc"
   },
   {
    "osmId": 3738746883,
@@ -487,8 +478,7 @@
    "osmId": 3782978743,
    "lat": 50.8579168,
    "lon": 7.6079832,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   }
  ],
  "eintritt": true,
@@ -496,7 +486,6 @@
  "oeffnungszeiten": "Park ganzjährig außer Weihnachten. Mo–Sa 10–19 Uhr, So 10–18 Uhr (panarbora.de). Letzter Einlass Turm/Pfad saisonal: Mai–Sep 19 Uhr, März/Apr/Okt 17 Uhr, Nov–Feb 15 Uhr (nrw-tourismus.de). Restaurant warme Küche 12–17.15 Uhr. Bei Gewitter, Sturm, Glatteis oder starkem Schnee Turm und Pfad zu.",
  "besuchshinweise": "Pfad und Turm barrierefrei: ohne Stufe, max. 6 %, Kinderwagen und Rollstuhl. Hunde nicht aufs Gelände, Assistenzhunde ausgenommen; Hundeboxen am Parkplatz. Spielplatz, Irrgarten, Sinnesrundweg und Kleintiergehege extra. Restaurant/Spielplatz ohne Parkeintritt nur mit 5-€-Verzehrgutschein, dann kein Turm/Pfad. Übernachtung Jugendherberge extra, DJH-Mitgliedschaft.",
  "hoertext": "In Waldbröl hängt NRWs längster Steg durch die Kronen. Fünfhundertzehn Meter Holz, der Turm vierzig hoch, ohne Stufe, sechs Prozent reichen. Kinderwagen und Rollstuhl kommen mit. Hunde in die Box am Parkplatz. Bei Gewitter, Sturm, Glatteis oder starkem Schnee zu. Letzter Einlass je nach Saison eine Stunde vor Schluss. Spielplatz, Irrgarten und Kleintiergehege extra.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-panarbora/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -516,5 +505,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "4c484c4b-1b4b-52cd-9f84-b0aed61ad380",
+   "id": "4c484c4b-1b4b-52cd-9f84-b0aed61ad380",
+   "caption": "Baumwipfelpfad Panarbora bei Waldbröl, Steg durch die Kronen.",
+   "credit": "Frank Vincentz",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldbr%C3%B6l_-_Panarbora_-_Baumwipfelpfad_08_ies.jpg",
+   "kind": "ort"
+  }
+ ]
 }

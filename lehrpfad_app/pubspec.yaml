@@ -51,6 +51,9 @@ dependencies:
   go_router: ^17.5.0
   file_selector: ^1.1.0
   connectivity_plus: ^7.3.1
+  drift: ^2.35.2
+  drift_flutter: ^0.3.1
+  http: ^1.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,6 +64,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  drift_dev: ^2.35.1
+  build_runner: ^2.15.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -75,117 +81,13 @@ flutter:
 
   assets:
     - assets/seed/
+    - assets/seed/thumbs/
     - assets/icons/pois/
     - assets/icons/ui/
     - assets/audio/species/
     - assets/images/trails/_placeholder.thumb.avif
     - assets/images/trails/_placeholder.small.avif
     - assets/images/trails/_placeholder.medium.avif
-    - assets/images/trails/heide-erlebnisweg/
-    - assets/images/trails/braumannswiesen/
-    - assets/images/trails/naturerlebnisraum-spo/
-    - assets/images/trails/erlebnisrundweg-friedrichskoog/
-    - assets/images/trails/kaeflingsberg-speck/
-    - assets/images/trails/entdeckerpfad-biologische-vielfalt/
-    - assets/images/trails/von-moor-zu-moor/
-    - assets/images/trails/raddusch/
-    - assets/images/trails/rauener-berge/
-    - assets/images/trails/lehde/
-    - assets/images/trails/ravensberge/
-    - assets/images/trails/wupatz/
-    - assets/images/trails/stendenitz/
-    - assets/images/trails/wahrberge/
-    - assets/images/trails/libellen-wasserspielplatz-wittstock/
-    - assets/images/trails/wolfspfad-zwenzow/
-    - assets/images/trails/spurenweg-kratzeburg/
-    - assets/images/trails/wald-erlebnispfad-serrahn/
-    - assets/images/trails/hullerbusch/
-    - assets/images/trails/heilige-hallen/
-    - assets/images/trails/fledermauspfad-bossow/
-    - assets/images/trails/lehrpfad-sandhof/
-    - assets/images/trails/wasserspielplatz-roebel/
-    - assets/images/trails/harzungspfad/
-    - assets/images/trails/kinderwald-maerkisch-buchholz/
-    - assets/images/trails/kinderbauernhof-pinke-panke/
-    - assets/images/trails/arboretum-dreetz/
-    - assets/images/trails/natter-pfad-goyatz/
-    - assets/images/trails/erlebe-bruder-wald/
-    - assets/images/trails/fossilruten-moens-klint/
-    - assets/images/trails/stubbenkammer-koenigsstuhl/
-    - assets/images/trails/baumkronenpfad-hainich/
-    - assets/images/trails/archaeologischer-wanderpfad-fischbek/
-    - assets/images/trails/rittbrookpfad/
-    - assets/images/trails/naturwaldpfad/
-    - assets/images/trails/waldhusen/
-    - assets/images/trails/schwartautal/
-    - assets/images/trails/oher-graeberfeld/
-    - assets/images/trails/naturerlebnis-grabau/
-    - assets/images/trails/naturerlebnispfad-eutin/
-    - assets/images/trails/kollhorst/
-    - assets/images/trails/untereider/
-    - assets/images/trails/baumwipfelpfad-saarschleife/
-    - assets/images/trails/baumwipfelpfad-schwarzwald/
-    - assets/images/trails/everstorfer-forst/
-    - assets/images/trails/moislinger-aue/
-    - assets/images/trails/lehrpfad-pflanzenschutz-schwentinental/
-    - assets/images/trails/naturerlebnispfad-ellerbek/
-    - assets/images/trails/naturerlebnisweg-ploener-seeufer/
-    - assets/images/trails/waldlehrpfad-silberbergen/
-    - assets/images/trails/zweiseitenweg-rambow/
-    - assets/images/trails/baumwipfelpfad-bayerischer-wald/
-    - assets/images/trails/sl-c-73-alzines-can-portell/
-    - assets/images/trails/parc-forestal-mataro/
-    - assets/images/trails/can-jalpi-arenys/
-    - assets/images/trails/fonts-vallvidrera/
-    - assets/images/trails/baumwipfelpfad-ruegen/
-    - assets/images/trails/baumwipfelpfad-usedom/
-    - assets/images/trails/baumkronenpfad-ivenack/
-    - assets/images/trails/baumwipfelpfad-steigerwald/
-    - assets/images/trails/baumkronenweg-ziegelwies/
-    - assets/images/trails/skywalk-allgaeu/
-    - assets/images/trails/baumwipfelpfad-panarbora/
-    - assets/images/trails/baumkronenweg-waldkirch/
-    - assets/images/trails/baumkronenpfad-hoherodskopf/
-    - assets/images/trails/waldwipfelweg-sankt-englmar/
-    - assets/images/trails/treetopwalk-edersee/
-    - assets/images/trails/baumwipfelweg-bad-camberg/
-    - assets/images/trails/baumwipfelpfad-harz/
-    - assets/images/trails/baumwipfelpfad-bad-iburg/
-    - assets/images/trails/wasserspielplatz-lene-voigt/
-    - assets/images/trails/wasserspielplatz-giesserbruecke/
-    - assets/images/trails/naturlehrpfad-plaussiger-waeldchen/
-    - assets/images/trails/steinerlebnisplatz-markkleeberg/
-    - assets/images/trails/naturlehrpfad-staditzwald/
-    - assets/images/trails/wasserspielplatz-oberholz/
-    - assets/images/trails/wasserspielplatz-heide-sued/
-    - assets/images/trails/naturlehrpfad-doelau-ii/
-    - assets/images/trails/naturlehrpfad-doelau-i/
-    - assets/images/trails/naturlehrpfad-angersdorfer-teiche/
-    - assets/images/trails/wasserspielplatz-peissnitzhaus/
-    - assets/images/trails/auwald-erlebnispfad/
-    - assets/images/trails/naturlehrpfad-dahlenberg/
-    - assets/images/trails/naturlehrpfad-grabschuetzer-see/
-    - assets/images/trails/geopfad-markkleeberg/
-    - assets/images/trails/naturlehrpfad-pressel/
-    - assets/images/trails/jamnoer-urwald/
-    - assets/images/trails/bagower-bruch/
-    - assets/images/trails/moorlehrpfad-burgermoos/
-    - assets/images/trails/rimstinger-steinlehrpfad/
-    - assets/images/trails/weltpfad-nicklheim/
-    - assets/images/trails/ostsee-lehrpfad-graal-mueritz/
-    - assets/images/trails/grossartige-kuestenflora-graal-mueritz/
-    - assets/images/trails/kurwald-graal-mueritz/
-    - assets/images/trails/naturlehrpfad-huetter-klosterteiche/
-    - assets/images/trails/lehrpfad-laehnwitz/
-    - assets/images/trails/heilwald-bad-doberan/
-    - assets/images/trails/pilzlehrpfad-vierburg/
-    - assets/images/trails/waldlehrpfad-hermsdorf/
-    - assets/images/trails/erlebnisweg-mueggelberge-teufelssee/
-    - assets/images/trails/waldspielplatz-jaegerhaus/
-    - assets/images/trails/wald-berlin-klima/
-    - assets/images/trails/kinderbauernhof-mauerplatz/
-    - assets/images/trails/plansche-plaenterwald/
-    - assets/images/trails/wasser-erlebnispfad-sprotte/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -207,3 +109,18 @@ flutter:
           weight: 600
         - asset: assets/fonts/HankenGrotesk-Bold.ttf
           weight: 700
+
+# Platzhalter-Icon aus tool/make_placeholder_icon.py; echtes Logo: PNGs ersetzen,
+# dann `dart run flutter_launcher_icons`.
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icons/app/icon_placeholder.png
+  adaptive_icon_background: "#141414"
+  adaptive_icon_foreground: assets/icons/app/icon_placeholder_fg.png
+  min_sdk_android: 24
+  web:
+    generate: true
+    image_path: assets/icons/app/icon_placeholder.png
+    background_color: "#141414"
+    theme_color: "#141414"

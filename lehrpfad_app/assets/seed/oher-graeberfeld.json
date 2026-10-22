@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Drei Kilometer durch die Oher Tannen zu Hügelgräbern, Langbett und Schalenstein. Start Waldparkplatz Große Straße, Reinbek-Ohe. Frei.",
  "beschreibung": "Nordöstlich von Reinbek-Ohe, am Rand der Oher Tannen, liegt das größte bronzezeitliche Gräberfeld in Südstormarn. Rundweg, gut eine Stunde, zehn Tafeln. Billi Buntspecht führt von der Eiszeit bis in die Bronzezeit. Fast zwanzig Hügel, ein steinzeitliches Langbett ohne Kammer, zwei Kultsteine (einer mit rund fünfzig Schälchen). Die letzte Tafel erzählt, wie in den Sechzigern ein Hügel beim Kiesabbau aufgerissen wurde. Immer frei, ohne Anmeldung. Broschüre und Projekt-Rucksack im Rathaus Reinbek, extra. Waldweg, Kinderwagen und Rollstuhl eher nicht. Hügel nicht betreten, der Buckel ist der Fund. Naturerlebnis Grabau ist der andere Stormarn-Pfad, Bad Oldesloe, andere Stationen.",
- "laengeKm": 3.0,
+ "laengeKm": 3,
  "dauerMin": 60,
  "rundkurs": true,
  "markierung": "Billi Buntspecht / zehn Schautafeln",
@@ -33,7 +33,6 @@
  "tags": [
   "kinderfreundlich"
  ],
- "form": "linie",
  "route": [
   [
    53.551938,
@@ -296,97 +295,90 @@
    10.290347
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -721553703,
    "lat": 53.551938,
    "lon": 10.290347,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Waldparkplatz",
    "thema": "Einstieg Große Straße, Oher Tannen",
    "kurztext": "Hier steht das Auto, der Wald fängt an. Runde gut eine Stunde. Billi Buntspecht auf den Tafeln, zehn Stück. Nicht der Königsweg, nicht Schloss Reinbek. Frei, ohne Anmeldung.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 7470950560,
    "lat": 53.5545539,
    "lon": 10.2860015,
    "km": 0.77,
+   "reihenfolge": 2,
    "titel": "Eiszeit",
    "thema": "Die Anhöhe über der Bille",
    "kurztext": "Die Tafeln fangen bei der Altsteinzeit an. Das Gräberfeld sitzt auf einer Anhöhe, die nach Süden zur Bille abfällt. Kein Zufall: Überblick, trockener Rücken, Wasser unten. Du stehst auf der Geologie, nicht auf einem Hügel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 7470956647,
    "lat": 53.5542015,
    "lon": 10.2883665,
    "km": 1.01,
+   "reihenfolge": 3,
    "titel": "Hügelgräber",
    "thema": "Bronzezeit, rund zwanzig Buckel",
    "kurztext": "Buckel im Wald, jüngere Bronzezeit. Tote in Baumstämmen, Steinpackung, Erde, Grassoden. Weithin sichtbar, Territorium. Nicht raufklettern. Viele Hügel waren beraubt, 2015 von außen restauriert.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 7470956715,
    "lat": 53.5519359,
    "lon": 10.2928099,
    "km": 1.61,
+   "reihenfolge": 4,
    "titel": "Schalenstein",
    "thema": "Kultstein mit rund fünfzig Näpfchen",
    "kurztext": "Ein Findling, rund fünfzig Schälchen. Hierher gesetzt, Fundort unbekannt. Wozu, weiß niemand. Weil solche Steine oft bei Gräbern liegen, denkt man an Opfergaben. Daneben steht ein zweiter Stein mit einer Rille. Anfassen ja, wegtragen nein.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 7470958251,
    "lat": 53.5490591,
    "lon": 10.2932563,
    "km": 2.06,
+   "reihenfolge": 5,
    "titel": "Kiesabbau",
    "thema": "Letzte Tafel, Grabhügel der 1960er",
    "kurztext": "Die letzte Tafel springt in die 1960er. Sand und Kies auf einem Feld, ein großer bronzezeitlicher Hügel beschädigt. Den Archäologen blieb die Untersuchung. Hasenclever hat die Gräber zuerst beschrieben und die Broschüre von 1975 angestoßen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 7470948953,
    "lat": 53.5494029,
    "lon": 10.2929493,
    "km": 2.12,
+   "reihenfolge": 6,
    "titel": "Langbett",
    "thema": "Kammerloses Großsteingrab, Jungsteinzeit",
    "kurztext": "Eine langgestreckte Erhöhung, rund 5500 Jahre. Rechteckige Steinumrandung, keine Kammer. Sesshaft, Feld, Vieh, Tote über Generationen am selben Ort. Die Einfassung ist weg. Was bleibt, ist der Wall im Boden.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -394,8 +386,7 @@
    "osmId": 1308918911,
    "lat": 53.5546744,
    "lon": 10.2862366,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 900223552,
@@ -406,7 +397,6 @@
   }
  ],
  "hoertext": "Am Waldparkplatz Große Straße, nördlich von Ohe, fängt die Runde an. Drei Kilometer, frei, Billi Buntspecht auf den Tafeln. Fast zwanzig Hügel aus der Bronzezeit, ein Langbett ohne Kammer, ein Schalenstein mit fünfzig Näpfchen. Bleib unten, der Hügel ist der Fund. Die letzte Tafel erzählt vom Kiesabbau in den Sechzigern.",
- "bilderAsset": "assets/images/trails/oher-graeberfeld/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -426,5 +416,18 @@
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "36f15f57-bb51-5835-a5d1-57c22411cf24",
+   "id": "36f15f57-bb51-5835-a5d1-57c22411cf24",
+   "caption": "Weg im Sachsenwald bei Reinbek.",
+   "credit": "Reinhard Kraasch",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK%202104%20P1840743%20Sachsenwald.jpg",
+   "kind": "ort"
+  }
+ ]
 }

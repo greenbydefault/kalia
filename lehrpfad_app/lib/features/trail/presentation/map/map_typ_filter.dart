@@ -20,5 +20,8 @@ List<String> typsIn(Iterable<Trail> trails) {
 /// [typ] == null → unverändert; sonst nur Trails dieses Typs.
 List<Trail>? filterTrailsByTyp(List<Trail>? trails, String? typ) {
   if (trails == null || typ == null) return trails;
-  return [for (final trail in trails) if (trail.typ == typ) trail];
+  return [
+    for (final trail in trails)
+      if (trail.typ == typ) trail,
+  ];
 }

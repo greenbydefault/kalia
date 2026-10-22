@@ -29,10 +29,7 @@ class LocalSightingsStore implements SightingsStore {
     if (prefs.containsKey(_prefsKey)) return;
     final legacy = await readLegacySightingsFile();
     if (legacy == null) return;
-    await prefs.setString(
-      _prefsKey,
-      jsonEncode(legacy.toList()..sort()),
-    );
+    await prefs.setString(_prefsKey, jsonEncode(legacy.toList()..sort()));
   }
 
   @override

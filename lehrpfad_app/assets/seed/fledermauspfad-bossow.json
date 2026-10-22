@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.610087,
@@ -65,43 +64,41 @@
    12.231505
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2737864182,
    "lat": 53.6100875,
    "lon": 12.2315048,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Stationen auf dem Fledermauspfad",
    "thema": "Übersicht",
    "kurztext": "Parken, Karte der Stationen. Draußen kannst du mehrere mitnehmen – den Bunker nur mit Führung.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -2238978710,
    "lat": 53.6098888,
    "lon": 12.2307353,
    "km": 0.06,
+   "reihenfolge": 2,
    "titel": "Die Lichtverschmutzung",
    "thema": "Nacht, Sterne, Fledermaus",
    "kurztext": "Nacht wird hell, Fledermäuse verlieren Insektenstraßen. Der Sternenpark fängt hier thematisch an.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -1655178530,
    "lat": 53.60863,
    "lon": 12.23066,
    "km": 0.2,
+   "reihenfolge": 3,
    "titel": "Orientierung im Dunkeln",
    "thema": "Echoortung nachfühlen",
    "kurztext": "Augen zu, Ohren auf. Die Station spielt Echoortung nach, ohne dass du eine Fledermaus brauchst.",
@@ -109,15 +106,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -2395216657,
    "lat": 53.608,
    "lon": 12.2285,
    "km": 0.35,
+   "reihenfolge": 4,
    "titel": "Dicht an dicht",
    "thema": "Winterquartier-Metapher",
    "kurztext": "Im Winter hängen sie eng. Die Outdoor-Station zeigt das Prinzip – das Quartier selbst bleibt zu.",
@@ -125,15 +121,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": -3701075417,
    "lat": 53.6092,
    "lon": 12.2295,
    "km": 0.5,
+   "reihenfolge": 5,
    "titel": "Schall und Tonhöhe",
    "thema": "Reichweite",
    "kurztext": "Hohe Töne tragen anders. Quiz am Kasten, dann weiter auf dem befestigten Weg.",
@@ -141,9 +136,7 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -151,25 +144,21 @@
    "osmId": 12023732697,
    "lat": 53.6098758,
    "lon": 12.2307618,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12023732698,
    "lat": 53.6098649,
    "lon": 12.230803,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1297781127,
-   "lat": 53.61082322000001,
+   "lat": 53.61082322,
    "lon": 12.2320838,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
- "bilderAsset": "assets/images/trails/fledermauspfad-bossow/credits.json",
  "lebensraeume": [
   "kiefernforst"
  ],
@@ -189,5 +178,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Kohlmeise": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "9395f0f8-04ec-53de-9f08-f4d2b182c5cd",
+   "id": "9395f0f8-04ec-53de-9f08-f4d2b182c5cd",
+   "caption": "Ehemaliges VP-Zentrallager Bossow – der Pfad liegt auf Militärgelände.",
+   "credit": "photo: Niteshift , driver and motive selection: Klostermönch",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABossow_ehemaliges_Zentrallager_Volkspolizei_2011-03-03_135.JPG",
+   "kind": "ort"
+  }
+ ]
 }

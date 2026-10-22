@@ -4,8 +4,8 @@
  "typ": "naturerlebnis",
  "gebiet": "wald",
  "form": "flaeche",
- "kurzbeschreibung": "Zwischen Fachhallenhaus und Apfelweide liegen acht Hektar alte Stadtgärtnerei. Auf der Weide stehen Rinder zwischen den Obstbäumen.",
- "beschreibung": "Die alte Stadtgärtnerei Kollhorst ist seit 1994 der erste anerkannte Naturerlebnisraum in Schleswig-Holstein. Auf gut acht Hektar liegen Bauerngarten, Sinnesgarten, Weidendom und Teiche. Über 100 Apfelbäume in mehr als 20 Sorten stehen auf der Weide, dazwischen grasen Rinder. Im Sinnesgarten liegt der Barfußpfad. Dazu kommen Weidenlabyrinth, Lindenkreis und Trockenmauer. Das reetgedeckte Fachhallenhaus ist Baudenkmal und Vereinshaus.",
+ "kurzbeschreibung": "Acht Hektar alte Stadtgärtnerei in Hasseldieksdamm. Fachhallenhaus, Sinnesgarten, Barfußpfad, Apfelweide, Teiche. Frei, ohne Anmeldung.",
+ "beschreibung": "Mitten im Kieler Grüngürtel, Kollhorster Weg 1 in Hasseldieksdamm, liegt der Naturerlebnisraum Alte Stadtgärtnerei Kollhorst. Seit 1994, erster anerkannter NER in Schleswig-Holstein. Gut acht Hektar: Bauerngarten, Sinnesgarten, Barfußpfad, Weidendom, Apfelweide mit Rindern, Teiche. Über 100 Apfelbäume, mehr als 20 Sorten. Das Gelände ist jederzeit frei, ohne Anmeldung. Das reetgedeckte Fachhallenhaus ist Baudenkmal und Vereinshaus. Büro, Tenne, Schulklassen und Ferienprogramm sind extra, die brauchst du nicht. Hunde anleinen, kein Feuer. Bus Haltestelle Königstein, Parken am Haus ohne Gebühr.",
  "laengeKm": 0,
  "dauerMin": 90,
  "rundkurs": false,
@@ -13,7 +13,6 @@
  "betreiber": "Kollhorst e.V. / Landeshauptstadt Kiel Umweltschutzamt",
  "region": "Hasseldieksdamm, Kiel, Schleswig-Holstein",
  "website": "https://nez-kollhorst.de/verein/naturerlebnisraum",
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Vereinshaus extra.",
  "besuchshinweise": "Hunde anleinen. Kein Feuer, nicht zelten. Tenne, Klassen und Ferienprogramm sind Buchung, nicht der Spontanbesuch. Barfußpfad bei Nässe rutschig.",
@@ -42,7 +41,6 @@
   "picknick"
  ],
  "hoertext": "Kollhorster Weg 1. Das Reetdach ist das Fachhallenhaus, dahinter acht Hektar alte Stadtgärtnerei. Frei, ohne Anmeldung. Barfußpfad im Sinnesgarten, Apfelweide mit Rindern, Teiche im Gras. Das Vereinshaus ist extra, gebuchte Klassen. Hunde anleinen. Die Weide ist zum Gucken, nicht zum Durchqueren. Äpfel hängen an den Hochstämmen, naschen ist gedacht.",
- "route": [],
  "area": [
   [
    54.326663,
@@ -114,8 +112,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 373793576,
@@ -130,8 +127,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880103,
@@ -145,8 +141,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880104,
@@ -161,8 +156,7 @@
     "barfusspfad",
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880105,
@@ -176,8 +170,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 373793579,
@@ -191,8 +184,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 452128662,
@@ -206,8 +198,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880108,
@@ -222,8 +213,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 373793580,
@@ -238,8 +228,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880110,
@@ -254,8 +243,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 373793581,
@@ -269,8 +257,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880112,
@@ -284,8 +271,7 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 880113,
@@ -300,8 +286,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 373793577,
@@ -316,8 +301,7 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -336,7 +320,6 @@
    "name": "Picknick unter dem Obstbaum"
   }
  ],
- "bilderAsset": "assets/images/trails/kollhorst/credits.json",
  "lebensraeume": [
   "buchenwald",
   "teich-tuempel",
@@ -358,5 +341,18 @@
   "Teichfrosch": "belegt",
   "Heckenrose": "typisch",
   "Schilf": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "9ae1cee7-93f5-5dba-9f7a-5885cf1806ba",
+   "id": "9ae1cee7-93f5-5dba-9f7a-5885cf1806ba",
+   "caption": "Fachhallenhaus Kollhorster Weg 1, Reetdach. Naturerlebniszentrum, das Gelände ist frei.",
+   "credit": "Christian Alexander Tietgen",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKollhorster%20Weg%201%20%283%29.jpg",
+   "kind": "ort"
+  }
+ ]
 }

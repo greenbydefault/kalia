@@ -1258,6 +1258,7 @@
    "lat": 51.8258637,
    "lon": 14.0509525,
    "km": 0.94,
+   "reihenfolge": 1,
    "titel": "Schorschkoa",
    "thema": "Was sind Moore?",
    "kurztext": "Moore sind Naturräume, die vom Wasser geprägt werden: Ein langanhaltender Überschuss hält den Boden permanent wassergesättigt, reicht aber nicht für einen See. Weil zersetzende Mikroorganismen unter Sauerstoffabschluss kaum arbeiten können, lagert sich organische Substanz als Torf an – nur etwa 1 mm pro Jahr. Wir erfahren außerdem, wie die Niedermoore des Spreewalds nach der letzten Eiszeit im Baruther Urstromtal entstanden und was die spreewaldtypische „Klockschicht“ damit zu tun hat.",
@@ -1266,34 +1267,33 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": 10000,
     "tiefeM": null,
-    "lebenselixier": "Grundwasser und Spreehochwässer",
-    "werdegang": "vom sandigen Binnendelta – zur großflächig vermoorten Spreewaldaue"
-   },
-   "reihenfolge": 1
+    "groesseHa": null,
+    "werdegang": "vom sandigen Binnendelta – zur großflächig vermoorten Spreewaldaue",
+    "alterJahre": 10000,
+    "lebenselixier": "Grundwasser und Spreehochwässer"
+   }
   },
   {
    "osmId": 12749657756,
    "lat": 51.8342495,
    "lon": 14.0471221,
    "km": 2.62,
+   "reihenfolge": 2,
    "titel": "Rastplatz Buschmühle",
    "thema": "Rast an der historischen Mühle",
    "kurztext": "Der Rastplatz an der Buschmühle am Krummen Wehrfließ ist der erste Halt nach dem Naturhafen. Wer eine kürzere Runde gehen möchte, kann den Lehrpfad hier abkürzen. Gleich dahinter beginnt mit der „Stauabsenkung Süd“ das Naturschutzgebiet – rechts am Fließ ist die Steinschwelle zu sehen, mit der das Wasser angestaut wird.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 12730609983,
    "lat": 51.8413125,
    "lon": 14.05578,
    "km": 3.6,
+   "reihenfolge": 3,
    "titel": "Dubkowmoor",
    "thema": "Bedeutung und Funktionen von Mooren",
    "kurztext": "Intakte Moore sind Klimaschützer, Wasserspeicher, Wasserfilter und Archive der Landschaftsgeschichte zugleich. Das Dubkowmoor ist mit einer Torfmächtigkeit von bis zu drei Metern besonders wertvoll: Naturnahe Niedermoore speichern je nach Typ rund 550 bis 2.000 Tonnen Kohlenstoff pro Hektar. Wird ein Moor entwässert, oxidiert der Torf und der Jahrtausende lang eingelagerte Kohlenstoff entweicht als CO2.",
@@ -1302,19 +1302,19 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": 10000,
     "tiefeM": 3.0,
-    "lebenselixier": "mineralstoffreiches Grund- und Oberflächenwasser",
-    "werdegang": "vom Überflutungsgebiet der Spree – zum torfbildenden Niedermoor"
-   },
-   "reihenfolge": 3
+    "groesseHa": null,
+    "werdegang": "vom Überflutungsgebiet der Spree – zum torfbildenden Niedermoor",
+    "alterJahre": 10000,
+    "lebenselixier": "mineralstoffreiches Grund- und Oberflächenwasser"
+   }
   },
   {
    "osmId": 5179763864,
    "lat": 51.848112,
    "lon": 14.0437414,
    "km": 4.84,
+   "reihenfolge": 4,
    "titel": "Hirschmoor",
    "thema": "Pflanzen und Tiere im Niedermoor",
    "kurztext": "Die Stauabsenkung Süd ist heute ein artenreiches Refugium: Rotbauchunke, Wollgras und das Sumpfblutauge – hier mit seinem größten zusammenhängenden Vorkommen im Spreewald – sind ebenso zu Hause wie Kiebitz, Bekassine, Kranich und der scheue Schwarzstorch. Im Auwald stehen Schwarzerlen, dazwischen sprossen Sumpfdotterblumen und Kalmus. Welche Arten entdecken wir auf dem Weg durch die Moorlandschaft?",
@@ -1324,19 +1324,19 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": 10000,
     "tiefeM": null,
-    "lebenselixier": "hohe Wasserstände durch Winterstau",
-    "werdegang": "vom entwässerten Wiesenland – zum renaturierten Niedermoor-Refugium"
-   },
-   "reihenfolge": 4
+    "groesseHa": null,
+    "werdegang": "vom entwässerten Wiesenland – zum renaturierten Niedermoor-Refugium",
+    "alterJahre": 10000,
+    "lebenselixier": "hohe Wasserstände durch Winterstau"
+   }
   },
   {
    "osmId": 5179763862,
    "lat": 51.8476402,
    "lon": 14.008588,
    "km": 7.49,
+   "reihenfolge": 5,
    "titel": "Sauenmoor",
    "thema": "Eingriffe in den Wasserhaushalt",
    "kurztext": "Deiche, Umfluter und über 100 Stauanlagen haben den Spreewald im 20. Jahrhundert tiefgreifend verändert: Der Grundwasserspiegel fiel stellenweise um bis zu zwei Meter, Torfe zersetzten sich und der Boden sackte um bis zu 50 cm ab. Die rund 510 Hektar große „Stauabsenkung Süd“, in der wir hier stehen, wurde erst in den 1970er Jahren entwässert – ein Eingriff, der schon damals in der Bevölkerung heftig umstritten war.",
@@ -1345,34 +1345,33 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": 510.0,
-    "alterJahre": null,
     "tiefeM": null,
-    "lebenselixier": "gesteuerte Wasserstände über Schöpfwerke und Wehre",
-    "werdegang": "vom Niedermoor – zur Intensiv-Melioration – zur Wiedervernässung"
-   },
-   "reihenfolge": 5
+    "groesseHa": 510.0,
+    "werdegang": "vom Niedermoor – zur Intensiv-Melioration – zur Wiedervernässung",
+    "alterJahre": null,
+    "lebenselixier": "gesteuerte Wasserstände über Schöpfwerke und Wehre"
+   }
   },
   {
    "osmId": 2819118201,
    "lat": 51.8431529,
    "lon": 14.0010231,
    "km": 9.09,
+   "reihenfolge": 6,
    "titel": "Schwarzer Weg",
    "thema": "Das Gewässerrandstreifenprojekt",
    "kurztext": "Von 2001 bis 2014 wurden hier die Wasserstände wieder erhöht und stabilisiert, um den Torfschwund zu stoppen: Im Winter werden weite Teile der Stauabsenkung geflutet, im Sommer nur dosiert Wasser eingelassen; eine Steinschwelle im Krummen Wehrfließ staut zusätzlich. Die Sommer-Wasserstände stiegen dadurch um bis zu 60 cm. Die Station zeigt auch, wie jeder selbst zum Moorschutz beitragen kann – etwa durch torffreie Blumenerde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 1288038156,
    "lat": 51.8357022,
    "lon": 14.008283,
    "km": 10.29,
+   "reihenfolge": 7,
    "titel": "Gustewitz",
    "thema": "Torfabbau im Spreewald",
    "kurztext": "„Am Torfstich“ – der Flurname erinnert an eine fast vergessene Arbeit: Seit dem frühen 19. Jahrhundert wurde hier Brenntorf von Hand gestochen, in Raddusch bis 1924; zu DDR-Zeiten folgten in den 1980er Jahren Mobilbagger für Düngetorf. Die Station beschreibt die mühsamen Arbeitsabläufe in den Handtorfstichen – vom „Abbanker“ bis zum „Stichler“. Mehr dazu in der Radduscher Heimatstube.",
@@ -1381,19 +1380,19 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": null,
     "tiefeM": null,
-    "lebenselixier": null,
-    "werdegang": "vom Handtorfstich des 19. Jahrhunderts – zum Mobilbagger-Abbau der DDR"
-   },
-   "reihenfolge": 7
+    "groesseHa": null,
+    "werdegang": "vom Handtorfstich des 19. Jahrhunderts – zum Mobilbagger-Abbau der DDR",
+    "alterJahre": null,
+    "lebenselixier": null
+   }
   },
   {
    "osmId": 2819118301,
    "lat": 51.8255491,
    "lon": 14.0232024,
    "km": 11.96,
+   "reihenfolge": 8,
    "titel": "Quellgebiet Carna Gora",
    "thema": "Braunkohle und ihre Spätfolgen",
    "kurztext": "Die Tagebaue südwestlich von Raddusch ließen bis in die 1990er Jahre den Grundwasserspiegel absinken – Moore sackten um bis zu 60 cm ein, Häuser in Raddusch bekamen Schäden. Am Schwarzen Berg (niedersorbisch: Carna Gora) ist heute der Grundwasserwiederanstieg mit wieder aktiver Quelle zu sehen – und das Problem der Verockerung: Eisenocker färbt die Spreewässer braun und bedroht Fische, Schwarzstorch und Fischotter.",
@@ -1402,13 +1401,12 @@
    ],
    "barrierefrei": false,
    "steckbrief": {
-    "groesseHa": null,
-    "alterJahre": null,
     "tiefeM": null,
-    "lebenselixier": "wiederansteigendes Grundwasser aus den rekultivierten Tagebauen",
-    "werdegang": "vom Grundwasser-Absenkungstrichter – zum renaturierten Quellgebiet"
-   },
-   "reihenfolge": 8
+    "groesseHa": null,
+    "werdegang": "vom Grundwasser-Absenkungstrichter – zum renaturierten Quellgebiet",
+    "alterJahre": null,
+    "lebenselixier": "wiederansteigendes Grundwasser aus den rekultivierten Tagebauen"
+   }
   }
  ],
  "amenities": [
@@ -1416,137 +1414,117 @@
    "osmId": 9585791882,
    "lat": 51.8194765,
    "lon": 14.0419845,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 9585791885,
    "lat": 51.8197895,
    "lon": 14.0419931,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 10739281790,
    "lat": 51.8194102,
    "lon": 14.0424226,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12190034848,
    "lat": 51.8239986,
    "lon": 14.0260702,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12730550602,
    "lat": 51.8198549,
    "lon": 14.0432823,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12730550604,
    "lat": 51.8201534,
    "lon": 14.0437884,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12730550606,
    "lat": 51.8190374,
    "lon": 14.0429174,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12730976664,
    "lat": 51.8207134,
    "lon": 14.0397228,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731040443,
    "lat": 51.8193137,
    "lon": 14.0424043,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731040445,
    "lat": 51.8195575,
    "lon": 14.0423028,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731040446,
    "lat": 51.820179,
    "lon": 14.0411374,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731040447,
    "lat": 51.8193715,
    "lon": 14.0424608,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731145326,
    "lat": 51.8191744,
    "lon": 14.0418103,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731145330,
    "lat": 51.8191686,
    "lon": 14.0421299,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731145333,
    "lat": 51.8191622,
    "lon": 14.0419933,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12731178356,
    "lat": 51.8195365,
    "lon": 14.0416657,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12749888589,
    "lat": 51.8234338,
    "lon": 14.0275323,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12749919941,
    "lat": 51.8223324,
    "lon": 14.033448,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12749919944,
    "lat": 51.8222648,
    "lon": 14.0335845,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "bilderAsset": "assets/images/trails/raddusch/credits.json",
  "lebensraeume": [
   "moor"
  ],
@@ -1566,5 +1544,18 @@
   "Fischotter": "belegt",
   "Bekassine": "belegt",
   "Torfmoos": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "870d4bc1-cdf8-5554-abb7-8276f4346b97",
+   "id": "870d4bc1-cdf8-5554-abb7-8276f4346b97",
+   "caption": "Naturhafen Raddusch – Kahn und Fließ am Moorrand.",
+   "credit": "J.-H. Janßen",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturhafen_Raddusch_01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

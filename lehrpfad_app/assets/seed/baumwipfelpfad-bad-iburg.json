@@ -36,7 +36,6 @@
   "rollstuhltauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    52.161513,
@@ -107,28 +106,27 @@
    8.032853
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 637507823,
    "lat": 52.161196,
    "lon": 8.036405,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Pfad-Finder",
    "thema": "Kasse, Ausstellung, Toiletten",
    "kurztext": "Gebäude an der Philipp-Sigismund-Allee 3, direkt vor dem Holz. Kasse und Toiletten mit Wickeltisch. Drinnen die Ausstellung zum Geopark TERRA.vita. Der Wegweiser draußen heißt TERRA.vita-Pavillon. Von hier zum Turm.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 637507854,
    "lat": 52.161499,
    "lon": 8.036303,
    "km": 0.02,
+   "reihenfolge": 2,
    "titel": "Einstiegsturm",
    "thema": "Aufzug, etwa 32 Meter",
    "kurztext": "Östlicher Turm. In OSM steht er als Aussichtsturm. Drei Ebenen, Aufzug. Der Steg startet hier und läuft nach Nordwesten, zehn bis 26 Meter über dem Waldkurpark. Blick auf Schloss Iburg und den Großen Freeden.",
@@ -136,24 +134,21 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 983591992,
    "lat": 52.163204,
    "lon": 8.032808,
    "km": 0.44,
+   "reihenfolge": 3,
    "titel": "Ausstiegsturm",
    "thema": "Treppe runter, kein Aufzug",
    "kurztext": "Nordwestliches Ende, etwa 11 Meter. Zu Fuß die Treppe in den Waldkurpark. Rollstuhl und Kinderwagen drehen um und nehmen den Aufzug am Einstieg. Der Steg ist Einbahn.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -184,7 +179,6 @@
  "oeffnungszeiten": "Januar Sa–So und Feiertage 10–16. Februar Fr–So 10–16. März–Oktober täglich 10–18, im Mai–September Fr–So bis 20 Uhr. November–Dezember Do–So 10–16. 1. Januar, Heiligabend und Silvester 10–15. Kasse eine halbe Stunde vorher. Wetter kann früher schließen. Stand 2026, Öffnungszeiten auf baumwipfelpfad-badiburg.de, gleichlautend am OSM-Steg.",
  "besuchshinweise": "Aufzug nur im östlichen Einstiegsturm, etwa 32 Meter. Am Ausstiegsturm eine Treppe, etwa 11 Meter, kein Aufzug. Rollstuhl und Kinderwagen drehen auf dem Steg um. Laufbreite 1,80 Meter. Kasse schließt 30 Minuten vor Ende. Kletterwald ist extra, eigenes Ticket.",
  "hoertext": "Waldkurpark unter dem Schloss in Bad Iburg. Ticket im Pavillon, Aufzug im östlichen Turm. Vierhundertvierzig Meter Steg, zehn bis sechsundzwanzig Meter über alten Kronen. Zu Fuß geht es am anderen Turm die Treppe runter. Rollstuhl und Kinderwagen drehen oben um, der Ausstieg hat keine Rampe. Die Kasse macht eine halbe Stunde vor Schluss zu.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-bad-iburg/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -204,5 +198,18 @@
   "Kleiber": "typisch",
   "Mäusebussard": "typisch",
   "Rotkehlchen": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "35f34e94-e00e-5197-81ea-2b2fb8e67b64",
+   "id": "35f34e94-e00e-5197-81ea-2b2fb8e67b64",
+   "caption": "Einstiegsturm am Baumwipfelpfad Bad Iburg, Landesgartenschau 2018.",
+   "credit": "Basotxerri",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad_Iburg_-_Landesgartenschau_2018_-_Baumwipfelpfad_-BT-_01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

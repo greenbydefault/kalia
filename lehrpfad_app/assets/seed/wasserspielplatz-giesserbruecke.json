@@ -5,7 +5,7 @@
  "gebiet": "wasser",
  "kurzbeschreibung": "Wipp-Pumpe unter der Gießerbrücke holt Kanalwasser in Rinnen und Aquädukte. Frei, nur in der warmen Saison.",
  "beschreibung": "Unter der Gießerbrücke in Leipzig-Lindenau liegt der Spielplatz Brückenplatz am Karl-Heine-Kanal. Eine Wipp-Saugpumpe holt Wasser aus dem zwölf Meter entfernten Kanal in drei Rinnen und drei Aquädukte, zusammen 25 Meter. Zwei Wasserkurbeln speisen die Bahn zusätzlich. Die Stadt Leipzig listet Wasserpumpe, Wasserbahn und zwei Wasserkurbeln. Saniert 2012, seither Stahl und Beton. Zugang frei, ohne Anmeldung. Wasser läuft in den warmen Monaten. Keine Toilette am Platz. Der Knochenplatz am Karl-Heine-Platz ist ein anderer Spielplatz. Tram 8 und 15, Haltestelle Henriettenstraße, etwa sieben Minuten zu Fuß. Tram 14 hält Karl-Heine-/Gießerstraße.",
- "laengeKm": 0.0,
+ "laengeKm": 0,
  "dauerMin": 45,
  "rundkurs": false,
  "markierung": "Spielplatz Brückenplatz",
@@ -85,43 +85,43 @@
    "osmId": 6224841634,
    "lat": 51.3316284,
    "lon": 12.3259784,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Wasserpumpe",
    "thema": "Kanalwasser holen",
    "kurztext": "Wipp-Saugpumpe zieht Wasser aus dem Karl-Heine-Kanal, zwölf Meter weiter. Ohne Wippen bleibt die Bahn trocken.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 6224841635,
    "lat": 51.3316661,
    "lon": 12.3259275,
    "km": 0.01,
+   "reihenfolge": 2,
    "titel": "Rinnen",
    "thema": "Wasser führen",
    "kurztext": "Drei Rinnen tragen das Kanalwasser über den Platz. Stau setzen, öffnen, schauen wohin es läuft.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 6224841636,
    "lat": 51.3317402,
    "lon": 12.3260331,
    "km": 0.02,
+   "reihenfolge": 3,
    "titel": "Aquädukte",
    "thema": "Hoch führen",
    "kurztext": "Drei Aquädukte heben den Lauf an. Zusammen mit den Rinnen sind es 25 Meter. Zwei Wasserkurbeln speisen extra ein.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -143,97 +143,95 @@
    "osmId": 3544523099,
    "lat": 51.3321962,
    "lon": 12.3250104,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698492,
    "lat": 51.3312738,
    "lon": 12.3253901,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698493,
    "lat": 51.3312912,
    "lon": 12.3254169,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698494,
    "lat": 51.3313299,
    "lon": 12.3254722,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698495,
    "lat": 51.3313488,
    "lon": 12.3254944,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698501,
    "lat": 51.3314621,
    "lon": 12.3256576,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4144698502,
    "lat": 51.3314829,
    "lon": 12.3256825,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12704178034,
    "lat": 51.3321647,
    "lon": 12.3266969,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12704195152,
    "lat": 51.3321841,
    "lon": 12.3267514,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12719930180,
    "lat": 51.3311163,
    "lon": 12.3251171,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12719930182,
    "lat": 51.331092,
    "lon": 12.3250805,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12719930183,
    "lat": 51.3310779,
    "lon": 12.3250579,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13290535343,
    "lat": 51.3311251,
    "lon": 12.3251317,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
  "hoertext": "Unter der Gießerbrücke wippst du an der Pumpe, und das Wasser kommt aus dem Karl-Heine-Kanal, zwölf Meter weiter. Es läuft durch Rinnen und Aquädukte, zusammen fünfundzwanzig Meter, und du kannst es stauen. Zwei Kurbeln schieben noch welches nach. Das geht nur in den warmen Monaten. Eine Toilette gibt es hier nicht, nimm Wechselkleidung mit.",
- "bilderAsset": "assets/images/trails/wasserspielplatz-giesserbruecke/credits.json",
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "artenNachweis": {}
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "e5628af4-a889-5107-b09f-b26f22f02386",
+   "id": "e5628af4-a889-5107-b09f-b26f22f02386",
+   "caption": "Gießerbrücke über den Karl-Heine-Kanal, Lindenau, Februar 2015.",
+   "credit": "Don-kun",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gie%C3%9Ferbr%C3%BCcke_Lindenau_Februar_2015.JPG",
+   "kind": "ort"
+  }
+ ]
 }

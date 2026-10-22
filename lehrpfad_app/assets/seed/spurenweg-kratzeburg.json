@@ -37,7 +37,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    53.429525,
@@ -396,28 +395,27 @@
    12.937967
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -480097577,
    "lat": 53.4295435,
    "lon": 12.9379185,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Spuren-Weg Start",
    "thema": "Reliefkarte, Braille",
    "kurztext": "Relief und Großdruck zeigen den Rundweg. Nach links in den Wald; rechts unten die Stamm-Markierung zum Ertasten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -332489383,
    "lat": 53.4352437,
    "lon": 12.932275,
    "km": 0.75,
+   "reihenfolge": 2,
    "titel": "Schirmeiche",
    "thema": "Baum als Zeuge",
    "kurztext": "Eine Eiche als Dach. Tast die Rinde, miss den Schatten.",
@@ -425,99 +423,91 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -3109754284,
    "lat": 53.4377021,
    "lon": 12.9354718,
    "km": 1.24,
+   "reihenfolge": 3,
    "titel": "Eine Pause",
    "thema": "Dambeck, zweite Tafel",
    "kurztext": "Dorf im Grünen. Hier kannst du wenden oder den zweiten Abschnitt beginnen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -2094701801,
    "lat": 53.4418844,
    "lon": 12.9375508,
    "km": 1.86,
+   "reihenfolge": 4,
    "titel": "URAL 72",
    "thema": "Fahrzeugspur / Relikt",
    "kurztext": "Ein Relikt mit Namen. Technik rostet langsamer als Erinnerung.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -3461216520,
    "lat": 53.4409782,
    "lon": 12.9377988,
    "km": 2.16,
+   "reihenfolge": 5,
    "titel": "Am Ufer entlang",
    "thema": "See / Havelquelle-Nähe",
    "kurztext": "Wasser, Schilf, vielleicht Eisvogel. Bleib auf dem Weg, das Ufer ist weich.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -1503587279,
    "lat": 53.4364961,
    "lon": 12.938279,
    "km": 2.67,
+   "reihenfolge": 6,
    "titel": "Ehemalige Siedlungsplätze",
    "thema": "Natur übernimmt",
    "kurztext": "Fundamente, dann Fuchs und Greif. Natur auf den Spuren der Menschen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -4076849692,
    "lat": 53.431229,
    "lon": 12.9383124,
    "km": 3.3,
+   "reihenfolge": 7,
    "titel": "Die Bahn",
    "thema": "Verkehrsspur",
    "kurztext": "Schienen und Takt haben den Ort geprägt. Heute hörst du den Wald dazwischen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": -856186604,
    "lat": 53.4311054,
    "lon": 12.9370064,
    "km": 3.67,
+   "reihenfolge": 8,
    "titel": "Fundamente im Wald",
    "thema": "Beton, Moos, Flechten",
    "kurztext": "1950er-Beton, darauf Moos. Der Mensch ging, die Kruste bleibt, das Leben zieht ein.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -525,46 +515,39 @@
    "osmId": 459520206,
    "lat": 53.4293014,
    "lon": 12.9374117,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12124905905,
    "lat": 53.4399777,
    "lon": 12.9365282,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12124964788,
    "lat": 53.4376174,
    "lon": 12.9355638,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12124964789,
    "lat": 53.4375485,
    "lon": 12.9355757,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12124964791,
    "lat": 53.4364802,
    "lon": 12.9322092,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 564144089,
-   "lat": 53.429399312499996,
-   "lon": 12.937228300000001,
-   "kategorie": "shelter",
-   "name": null
+   "lat": 53.4293993125,
+   "lon": 12.9372283,
+   "kategorie": "shelter"
   }
  ],
- "bilderAsset": "assets/images/trails/spurenweg-kratzeburg/credits.json",
  "lebensraeume": [
   "eichen-mischwald",
   "kiefernforst",
@@ -586,5 +569,18 @@
   "Hainbuche": "typisch",
   "Haubentaucher": "typisch",
   "Heidelbeere": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "928d1302-9d96-5405-a398-33b52fef71b0",
+   "id": "928d1302-9d96-5405-a398-33b52fef71b0",
+   "caption": "Bahnwärterhaus Kratzeburg – die Bahn hat Spuren hinterlassen.",
+   "credit": "Global Fish",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKratzeburgBahnw%C3%A4rterhaus.jpg",
+   "kind": "ort"
+  }
+ ]
 }

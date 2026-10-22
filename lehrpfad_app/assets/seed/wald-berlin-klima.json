@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Ein Steg führt zum Pechsee, einem Moor mitten im Grunewald. Elf Infoinseln erzählen, wie aus Kiefernforst Mischwald wird.",
  "beschreibung": "Das Himmelsauge im Grunewald verdankt sich Lastwagen. Sie verdichteten Mitte der 1980er Jahre bei der Munitionsräumung den Boden, seither staut sich dort das Wasser. Molche, Wasserfrösche und Kröten laichen darin. Der Pechsee daneben verlor durch Brunnen fast seine Wasserfläche und gilt doch als besterhaltenes Moor im westlichen Grunewald. Der Barssee fiel ganz trocken. Ringsum wird aus Kiefernforst Mischwald, mit Buchen, Eichen und Hainbuchen. Den Gegenspieler zeigt Infoinsel 9, die Spätblühende Traubenkirsche.",
- "laengeKm": 4.0,
+ "laengeKm": 4,
  "dauerMin": 90,
  "rundkurs": true,
  "markierung": "Inselmarker mit Gehminuten, Wegemarker",
@@ -61,7 +61,6 @@
   "picknick",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    52.478729,
@@ -652,55 +651,55 @@
    13.198021
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 5737653215,
    "lat": 52.4786401,
    "lon": 13.1981085,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Haupteingang",
    "thema": "Einstieg am Grunewaldturm",
    "kurztext": "Der Rundweg beginnt gegenüber dem Grunewaldturm. Drei Nebeneingänge erlauben den Einstieg an anderer Stelle.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 5737653123,
    "lat": 52.4798742,
    "lon": 13.2016264,
    "km": 0.29,
+   "reihenfolge": 2,
    "titel": "Achtung Baustelle",
    "thema": "Infoinsel 1 · Waldumbau",
    "kurztext": "Zäune schützen die Setzlinge. Aus Kiefernforst wird Mischwald, an die Stelle der entfernten Traubenkirschen treten Buchen, Eichen und Hainbuchen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 5737653124,
    "lat": 52.4800547,
    "lon": 13.2034805,
    "km": 0.42,
+   "reihenfolge": 3,
    "titel": "Zurück in die Zukunft",
    "thema": "Infoinsel 2 · Zwei Wälder im Vergleich",
    "kurztext": "Ein Fenster zeigt zwei Wälder nebeneinander: dichter Nadelforst mit Unterwuchs auf der einen Seite, lichter Mischwald auf der anderen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 5737653126,
    "lat": 52.4799973,
    "lon": 13.2074136,
    "km": 0.67,
+   "reihenfolge": 4,
    "titel": "Klimaschutz – Berlin macht mit",
    "thema": "Infoinsel 3 · Kohlendioxid pro Kopf",
    "kurztext": "Holzpfosten stellen den Jahresausstoß an Kohlendioxid dar, den ein Berliner verursacht. Ein kleiner Pfosten in der Mitte steht für 0,03 Tonnen im Kongo. Die Wetterschutzhütte steht daneben.",
@@ -708,14 +707,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 5737653143,
    "lat": 52.4814947,
    "lon": 13.2130739,
    "km": 1.16,
+   "reihenfolge": 5,
    "titel": "Glücksfall Pechsee",
    "thema": "Infoinsel 4 · Moor mit Aussichtssteg",
    "kurztext": "Ein Steg führt zum Aussichtspunkt über dem Pechsee. Um 1500 wurde hier Pech gewonnen. Heute ist es das besterhaltene Moor im westlichen Grunewald.",
@@ -723,14 +722,14 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 5737653147,
    "lat": 52.4807976,
    "lon": 13.2153927,
    "km": 1.37,
+   "reihenfolge": 6,
    "titel": "Explosion der Artenvielfalt",
    "thema": "Infoinsel 5 · Himmelsauge",
    "kurztext": "Ein Steg führt ans Ufer des Himmelsauges. Lastwagen verdichteten hier Mitte der 1980er Jahre bei der Munitionsräumung den Boden. Seither staut sich das Wasser, Molche, Wasserfrösche und Kröten laichen darin.",
@@ -738,14 +737,14 @@
     "steg",
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 5737653194,
    "lat": 52.4787641,
    "lon": 13.2154856,
    "km": 1.68,
+   "reihenfolge": 7,
    "titel": "Moore in Gefahr",
    "thema": "Infoinsel 6 · Barssee",
    "kurztext": "Unter der Wiese liegt eine meterdicke Torfschicht. Der Barssee fiel in den 1970er Jahren trocken, nachdem Brunnen das Grundwasser abgesenkt hatten. Drei Sichtgeräte zeigen das Moor in drei Stadien.",
@@ -753,14 +752,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 5737653200,
    "lat": 52.4757683,
    "lon": 13.2124445,
    "km": 2.43,
+   "reihenfolge": 8,
    "titel": "Waldgeflüster",
    "thema": "Infoinsel 7 · Totholz",
    "kurztext": "Eine Kurbel lässt junge Birke, Kiefer und alte Eiche miteinander reden. Die Tafel erklärt, warum Totholz liegen bleibt: Mehr als 6000 Arten leben davon.",
@@ -768,64 +767,63 @@
     "audio",
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 5737653204,
    "lat": 52.4766738,
    "lon": 13.2101853,
    "km": 2.59,
+   "reihenfolge": 9,
    "titel": "Jetzt wird's nass",
    "thema": "Infoinsel 8 · Trinkwasser aus dem Wald",
    "kurztext": "Der Trinkwasserbrunnen am Forsthaus Alte Saubucht spendet den Berliner Waldquell. Der Waldboden filtert das Wasser, bevor es wieder austritt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 5737653210,
    "lat": 52.476673,
    "lon": 13.203826,
    "km": 3.06,
+   "reihenfolge": 10,
    "titel": "Ab ins Dickicht!",
    "thema": "Infoinsel 9 · Spätblühende Traubenkirsche",
    "kurztext": "Der Weg führt in einen Waldteil, der noch nicht umgebaut ist. Die Spätblühende Traubenkirsche aus Nordamerika bildet dort ein dichtes Gebüsch und nimmt jungen Laubbäumen das Licht.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 5737653212,
    "lat": 52.4772925,
    "lon": 13.2019395,
    "km": 3.2,
+   "reihenfolge": 11,
    "titel": "Der Wald: Ein starker Klimaschützer",
    "thema": "Infoinsel 10 · Kohlenstoffspeicher Baum",
    "kurztext": "Markierte Bäume zeigen, wie viel Wald nötig ist, um den Jahresausstoß eines Berliners an Kohlendioxid zu binden. In einer 120 Jahre alten Buche steckt bis zu eine Tonne Kohlenstoff.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 5737653214,
    "lat": 52.4780265,
    "lon": 13.1989095,
    "km": 3.42,
+   "reihenfolge": 12,
    "titel": "Holzwa(h)ren",
    "thema": "Infoinsel 11 · Holz als Rohstoff",
    "kurztext": "Die Infoinsel zeigt, welche Stoffe Holz ersetzen kann. Jeder Deutsche verbraucht im Jahr 1,3 Kubikmeter Holz.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "reihenfolge": 12
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -833,250 +831,227 @@
    "osmId": 254999847,
    "lat": 52.4800887,
    "lon": 13.197762,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 275916509,
    "lat": 52.4798387,
    "lon": 13.2072973,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 5737653131,
    "lat": 52.4799929,
    "lon": 13.2086611,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653135,
    "lat": 52.480053,
    "lon": 13.2087121,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653137,
    "lat": 52.4800621,
    "lon": 13.2088401,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653160,
    "lat": 52.478638,
    "lon": 13.1979831,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653161,
    "lat": 52.4786847,
    "lon": 13.1979533,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653165,
    "lat": 52.4786619,
    "lon": 13.1980887,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653166,
    "lat": 52.4786345,
    "lon": 13.1980066,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653167,
    "lat": 52.4786811,
    "lon": 13.1979768,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653170,
    "lat": 52.4805527,
    "lon": 13.2154832,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653189,
    "lat": 52.4814814,
    "lon": 13.2130744,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653190,
    "lat": 52.4811831,
    "lon": 13.2131345,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653191,
    "lat": 52.4798152,
    "lon": 13.2164269,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653195,
    "lat": 52.4772284,
    "lon": 13.2173283,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653199,
    "lat": 52.4758096,
    "lon": 13.2123855,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653201,
    "lat": 52.4765514,
    "lon": 13.210375,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653202,
    "lat": 52.4766856,
    "lon": 13.2101048,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653205,
    "lat": 52.476717,
    "lon": 13.2086407,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653208,
    "lat": 52.4762734,
    "lon": 13.2055119,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5737653213,
    "lat": 52.4774215,
    "lon": 13.2014847,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6284480285,
    "lat": 52.4781536,
    "lon": 13.1961625,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11500940813,
    "lat": 52.4780299,
    "lon": 13.1989481,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11500945249,
    "lat": 52.4800424,
    "lon": 13.2074062,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11500945250,
    "lat": 52.4800155,
    "lon": 13.2073724,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12071625159,
    "lat": 52.4781999,
    "lon": 13.1979745,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12455817395,
    "lat": 52.4798404,
    "lon": 13.2016196,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12455818740,
    "lat": 52.4800759,
    "lon": 13.2032949,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13068112941,
    "lat": 52.4767335,
    "lon": 13.2101997,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 13347649921,
    "lat": 52.4786396,
    "lon": 13.1981691,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 5737653142,
    "lat": 52.4815106,
    "lon": 13.2130759,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 5737653171,
    "lat": 52.4805352,
    "lon": 13.2154899,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 5737653178,
    "lat": 52.4800763,
    "lon": 13.2034159,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 5737653193,
    "lat": 52.4787376,
    "lon": 13.2155162,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 13068159136,
    "lat": 52.4758389,
    "lon": 13.2124512,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   }
  ],
  "oeffnungszeiten": "Ganzjährig frei zugänglich.",
  "besuchshinweise": "Hunde an der Leine führen. Im Naturschutzgebiet auf den Wegen bleiben, die Zäune schützen Laichgewässer. Toiletten gibt es in den Restaurants Grunewaldturm und Waldhaus. Zwischen Infoinsel 3 und 8 halbiert eine Abkürzung den Rundweg. Trinkwasser fließt an Infoinsel 8.",
  "hoertext": "Gegenüber vom Grunewaldturm beginnt ein Kiefernwald, der gerade ein anderer wird. Zäune schützen die Setzlinge, und zwischen den alten Stämmen wachsen Buchen, Eichen und Hainbuchen nach, Stück für Stück ein Mischwald. Weiter vorn trägt ein Holzsteg hinaus zum Pechsee, an dem um 1500 Pech gewonnen wurde und der heute als Glücksfall für den Grunewald gilt. Beim Barssee blieb vom Wasser nur der Torf, meterdick. Wer an der Kurbel dreht, hört Birke, Kiefer und Eiche miteinander reden. Trinkwasser fließt am Forsthaus aus dem Brunnen. Der Rundweg lässt sich in beiden Richtungen umrunden, denn keine Infoinsel baut auf der anderen auf.",
- "bilderAsset": "assets/images/trails/wald-berlin-klima/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "60166c4a-2dcb-5544-b5c1-5931dabc65c7",
+   "id": "60166c4a-2dcb-5544-b5c1-5931dabc65c7",
+   "caption": "Holzsteg zur Aussichtsplattform am Pechsee.",
+   "credit": "Leonhard Lenz",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wald_Berlin_Klima%22_open_air_exhibition_at_Pechsee_01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

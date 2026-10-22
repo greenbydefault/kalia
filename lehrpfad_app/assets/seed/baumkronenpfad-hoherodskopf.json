@@ -34,7 +34,6 @@
   "kinderfreundlich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    50.510903,
@@ -101,13 +100,13 @@
    9.22725
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 50.5109031,
    "lon": 9.2272501,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann in den Wald",
    "kurztext": "Kasse neben dem Sendeturm, nur bar. Ticket, dann westlich in die Buchen. Hunde bleiben hier. Vor der Kasse stehen oft die Heidschnucken, das ist extra. Kletterwald-Anmeldung liegt daneben, anderer Ticket-Block.",
@@ -115,15 +114,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -1575506727,
    "lat": 50.51125,
    "lon": 9.22602,
    "km": 0.12,
+   "reihenfolge": 2,
    "titel": "Hängebrücken",
    "thema": "Von Stamm zu Stamm, ohne Bodenstütze",
    "kurztext": "Hier fängt der Pfad an zu hängen. Holzbohlen, Stahl, Netz, Brüstung 1,30 Meter. Die Last sitzt in den Buchen, nicht auf Pfeilern. Es wippt. Unten Laubdach, Rotbuche.",
@@ -131,39 +129,35 @@
     "steg",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -681879300,
    "lat": 50.51174,
    "lon": 9.2252,
    "km": 0.25,
+   "reihenfolge": 3,
    "titel": "50-Meter-Brücke",
    "thema": "Die lange Spannweite nach Nordwest",
    "kurztext": "Die spektakuläre Spannweite, fünfzig Meter. Immer noch an den Bäumen, fünfzehn Meter über dem Boden. 2014 kamen die Erlebnisbrücken dazu, gleicher Rundgang, Vorgeschmack auf den Kletterwald – der bleibt extra.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3912368165,
    "lat": 50.51151,
    "lon": 9.22484,
    "km": 0.32,
+   "reihenfolge": 4,
    "titel": "Blick Frankfurt",
    "thema": "Vogelsberg, bei Klarheit die Skyline",
    "kurztext": "Westkante, die Wiese fällt weg. Plattform über dem Hang, Blick über den Hohen Vogelsberg. Bei klarer Sicht die Skyline von Frankfurt. Zurück dieselbe Insel, zur Kasse am Turm.",
    "erlebnisse": [
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -171,36 +165,31 @@
    "osmId": 1929462574,
    "lat": 50.5105232,
    "lon": 9.2248874,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1929462579,
    "lat": 50.5105362,
    "lon": 9.224853,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2088936820,
    "lat": 50.5102238,
    "lon": 9.2256488,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 2114947189,
    "lat": 50.5098661,
    "lon": 9.2250997,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2615178973,
    "lat": 50.5110061,
    "lon": 9.2247182,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2707296660,
@@ -213,139 +202,120 @@
    "osmId": 2707296937,
    "lat": 50.5095945,
    "lon": 9.2257874,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2707296999,
    "lat": 50.5097828,
    "lon": 9.2261782,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297008,
    "lat": 50.5097872,
    "lon": 9.2259342,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297018,
    "lat": 50.5097912,
    "lon": 9.2263932,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2707297041,
    "lat": 50.5098041,
    "lon": 9.2259201,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2707297054,
    "lat": 50.509825,
    "lon": 9.2259025,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297076,
    "lat": 50.5099509,
    "lon": 9.2262158,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2707297114,
    "lat": 50.5102825,
    "lon": 9.2279809,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297148,
    "lat": 50.510296,
    "lon": 9.227955,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297172,
    "lat": 50.510438,
    "lon": 9.228325,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297184,
    "lat": 50.5104515,
    "lon": 9.2280603,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297242,
    "lat": 50.5105392,
    "lon": 9.2280375,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 2707297285,
    "lat": 50.5106951,
    "lon": 9.2277183,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2823083502,
    "lat": 50.5103909,
    "lon": 9.2258856,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2823083701,
    "lat": 50.5104382,
    "lon": 9.2258481,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 6923829898,
    "lat": 50.5104702,
    "lon": 9.2248846,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8784942102,
    "lat": 50.510098,
    "lon": 9.2262572,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8784961348,
    "lat": 50.5101358,
    "lon": 9.2262156,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8829806496,
    "lat": 50.5114292,
    "lon": 9.2244574,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 120139351,
-   "lat": 50.51064799090909,
-   "lon": 9.225283545454545,
+   "lat": 50.5106479909091,
+   "lon": 9.22528354545454,
    "kategorie": "gastro",
    "name": "Berggasthof Hoherodskopf"
   },
@@ -358,45 +328,40 @@
   },
   {
    "osmId": 120139372,
-   "lat": 50.51020273333333,
-   "lon": 9.225676416666666,
+   "lat": 50.5102027333333,
+   "lon": 9.22567641666667,
    "kategorie": "gastro",
    "name": "Hoherodskopf-Klause"
   },
   {
    "osmId": 123930544,
-   "lat": 50.51057044761904,
-   "lon": 9.227325442857145,
-   "kategorie": "parking",
-   "name": null
+   "lat": 50.510570447619,
+   "lon": 9.22732544285715,
+   "kategorie": "parking"
   },
   {
    "osmId": 187726976,
-   "lat": 50.51059642222222,
-   "lon": 9.228347466666667,
-   "kategorie": "shelter",
-   "name": null
+   "lat": 50.5105964222222,
+   "lon": 9.22834746666667,
+   "kategorie": "shelter"
   },
   {
    "osmId": 199713912,
-   "lat": 50.51017731428572,
+   "lat": 50.5101773142857,
    "lon": 9.2266934,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 263137014,
-   "lat": 50.50970368124999,
+   "lat": 50.50970368125,
    "lon": 9.22613205625,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 813477372,
    "lat": 50.51004496,
    "lon": 9.22577214,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   }
  ],
  "eintritt": true,
@@ -404,7 +369,6 @@
  "oeffnungszeiten": "Täglich 10–18 Uhr, letzter Einlass 17 Uhr (hoherodskopf-aktiv.de). Erlebnisberg: April–Oktober so, November–März Homepage. Schulklassen ab 8:30 nach Anmeldung. Bei starkem Regen, Sturm, Gewitter zu, Tel. 06044 608945 / 06032 8699888.",
  "besuchshinweise": "Hängebrücken, sie bewegen sich. Kinder ab drei selbst, nicht frei tragen. Hunde nicht. Bei Regen, Sturm, Gewitter zu – vorher anrufen. Kletterwald, Minigolf, Rodel und Galileo extra. Letzter Einlass 17 Uhr.",
  "hoertext": "Am Hoherodskopf hängen die Brücken an den Bäumen, nicht am Boden. Fünfhundert Meter, fünfzehn hoch, von Krone zu Krone. Ticket an der Kasse neben dem Sendeturm. Kinder ab drei laufen selbst, nicht tragen. Hunde bleiben unten. Bei Sturm, Regen, Gewitter zu. Letzter Einlass siebzehn Uhr.",
- "bilderAsset": "assets/images/trails/baumkronenpfad-hoherodskopf/credits.json",
  "lebensraeume": [
   "buchenwald",
   "nadelforst"
@@ -425,5 +389,18 @@
   "Eichelhäher": "typisch",
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "9acd0834-8dde-5751-94f1-619815acf96b",
+   "id": "9acd0834-8dde-5751-94f1-619815acf96b",
+   "caption": "Hoherodskopf im Vogelsberg von Südwesten.",
+   "credit": "Jörg Braukmann",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoherodskopf_von_S%C3%BCdwesten.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -35,7 +35,6 @@
   "kinderwagentauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    54.029703,
@@ -610,43 +609,41 @@
    8.838191
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 7999803352,
    "lat": 54.0296731,
    "lon": 8.8383454,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Erlebnisrundweg im Überblick",
    "thema": "Pricken und Start",
    "kurztext": "Elf Pricken stehen in der Ebene – Seezeichen wie im Watt, hier für den Rundweg. Start am Großparkplatz, nur zu Fuß, Rad und Quad bleiben draußen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 7999803350,
    "lat": 54.0308128,
    "lon": 8.839188,
    "km": 0.17,
+   "reihenfolge": 2,
    "titel": "Lebendiges Wattenmeer",
    "thema": "Was im Schlick wohnt",
    "kurztext": "Vor dem Deich liegt Nationalpark. Im Schlick Wattwurm, Muschel, Krabbe. Du bleibst auf dem Weg – das Leben sitzt daneben, nicht unter dem Schuh.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 8004417952,
    "lat": 54.0344208,
    "lon": 8.8421943,
    "km": 0.66,
+   "reihenfolge": 3,
    "titel": "Leben im Rhythmus der Gezeiten",
    "thema": "Ebbe und Flut zum Anfassen",
    "kurztext": "Zweimal am Tag kommt das Meer, zweimal geht es. Das Modell zeigt, warum der Schlick nass wird und wieder frei. Dreh, schau, merks.",
@@ -654,15 +651,14 @@
     "mitmach-modell",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 8004417948,
    "lat": 54.0367963,
    "lon": 8.8457087,
    "km": 1.06,
+   "reihenfolge": 4,
    "titel": "Salzwiese – Leben zwischen Land und Meer",
    "thema": "Rotlichtfilter und Queller",
    "kurztext": "Salzwiese verträgt Flut. Queller wird im Herbst rot, Strandflieder blüht lila. Durch den Rotlichtfilter siehst du, was im Grün versteckt sitzt.",
@@ -670,30 +666,28 @@
     "bestimmung",
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 7999803351,
    "lat": 54.0370312,
    "lon": 8.8507093,
    "km": 1.42,
+   "reihenfolge": 5,
    "titel": "Das Wattenmeer in Straßennamen",
    "thema": "Queller, Anwaß, Balje",
    "kurztext": "Die Siedlung spricht Watt: Straße Queller, Anwaß, Große Balje. Namen aus Prielen und Pflanzen, nicht aus dem Stadtplan irgendwo.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": 8004417941,
    "lat": 54.0365494,
    "lon": 8.8508378,
    "km": 1.58,
+   "reihenfolge": 6,
    "titel": "Rätselpfad",
    "thema": "Nordseestraße zum Knobeln",
    "kurztext": "Entlang der Nordseestraße liegen Fragen. Watt, Gezeiten, Müll – erst gucken, dann raten. Kein Preis, nur ob du's weißt.",
@@ -701,15 +695,14 @@
     "quiz",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": 8004417928,
    "lat": 54.0328867,
    "lon": 8.8482556,
    "km": 2.06,
+   "reihenfolge": 7,
    "titel": "Vogelzug",
    "thema": "Tankstelle Wattenmeer",
    "kurztext": "Millionen Zugvögel tanken im Watt. Pfeifen oft der Austernfischer, schwarzweiß, oranger Schnabel. Abstand – sie müssen fressen, nicht posieren.",
@@ -717,15 +710,14 @@
     "bestimmung",
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": 8001161843,
    "lat": 54.0284917,
    "lon": 8.8452661,
    "km": 2.56,
+   "reihenfolge": 8,
    "titel": "Das Weltnaturerbe",
    "thema": "UNESCO-Wattenmeer",
    "kurztext": "Seit 2009 Weltnaturerbe: ein Watt von den Niederlanden bis Dänemark. Hier beginnt es vor dem Deich. Kein Zaun, trotzdem Schutzgebiet.",
@@ -735,53 +727,49 @@
    "barrierefrei": true,
    "steckbrief": {
     "werdegang": "2009 – UNESCO-Weltnaturerbe Wattenmeer"
-   },
-   "reihenfolge": 8
+   }
   },
   {
    "osmId": 7999803349,
    "lat": 54.0253713,
    "lon": 8.843023,
    "km": 2.96,
+   "reihenfolge": 9,
    "titel": "Plastikmüll in der Nordsee",
    "thema": "Was das Meer nicht braucht",
-   "kurztext": "Kunststoff schwimmt, zerreißt, bleibt. Vögel und Fische halten ihn für Futter. Was du mitnimmst, landet nicht im Priel.",
+   "kurztext": "Kunststoff schwimmt, zerreisst, bleibt. Vögel und Fische halten ihn für Futter. Was du mitnimmst, landet nicht im Priel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": true
   },
   {
    "osmId": 8001161844,
    "lat": 54.0251524,
    "lon": 8.8407364,
    "km": 3.25,
+   "reihenfolge": 10,
    "titel": "Natur Natur sein lassen",
    "thema": "Wegegebot",
    "kurztext": "Salzwiese und Watt brauchen Ruhe, vor allem April bis Juli. Nur vorhandene Wege. Wer abkürzt, tritt Nester platt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": true
   },
   {
    "osmId": 7999803353,
    "lat": 54.02689,
    "lon": 8.8387208,
    "km": 3.5,
+   "reihenfolge": 11,
    "titel": "Leben und Arbeiten im Nationalpark",
    "thema": "Kutter, Koog, Schutzstation",
    "kurztext": "Krabbenkutter, Deichbau, Schutzstation – der Nationalpark ist Arbeitsplatz. Die Ausstellung am Hafen ist extra, diese Tafel reicht für die Runde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -789,8 +777,7 @@
    "osmId": 1691775709,
    "lat": 54.0342334,
    "lon": 8.8420865,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 1697426087,
@@ -803,8 +790,7 @@
    "osmId": 1716245131,
    "lat": 54.0297945,
    "lon": 8.8395879,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 2809383004,
@@ -831,253 +817,217 @@
    "osmId": 4613515528,
    "lat": 54.0302821,
    "lon": 8.8385238,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 7991154497,
    "lat": 54.0298396,
    "lon": 8.8396649,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7992887046,
    "lat": 54.0298478,
    "lon": 8.8396204,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7997001942,
    "lat": 54.0250477,
    "lon": 8.8397093,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7999948188,
    "lat": 54.0301808,
    "lon": 8.8392857,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7999948189,
    "lat": 54.0301941,
    "lon": 8.8392259,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8017939050,
    "lat": 54.0322285,
    "lon": 8.8407622,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8017939051,
    "lat": 54.0323233,
    "lon": 8.8406627,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8017939052,
    "lat": 54.0323158,
    "lon": 8.840463,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8017939053,
    "lat": 54.0323371,
    "lon": 8.8405669,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8021361319,
    "lat": 54.0284348,
    "lon": 8.8394827,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8041779341,
    "lat": 54.0243068,
    "lon": 8.842535,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 8043634029,
    "lat": 54.0332618,
    "lon": 8.8465744,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8043634030,
    "lat": 54.037017,
    "lon": 8.8507546,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8044003497,
    "lat": 54.0254098,
    "lon": 8.8428421,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8044003498,
    "lat": 54.0253964,
    "lon": 8.8428113,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8046272176,
    "lat": 54.0329092,
    "lon": 8.8482435,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8047022711,
    "lat": 54.0251644,
    "lon": 8.8420757,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8047022712,
    "lat": 54.025151,
    "lon": 8.8420449,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8047078736,
    "lat": 54.0283171,
    "lon": 8.8448073,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8047231599,
    "lat": 54.0308439,
    "lon": 8.8392166,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8047231600,
    "lat": 54.0344563,
    "lon": 8.8422162,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9990443355,
    "lat": 54.027716,
    "lon": 8.8372283,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10081120307,
    "lat": 54.0263564,
    "lon": 8.8434532,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10083023930,
    "lat": 54.0275891,
    "lon": 8.8437677,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10083023931,
    "lat": 54.0270153,
    "lon": 8.8433402,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10112939500,
    "lat": 54.0302721,
    "lon": 8.8385561,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10112939506,
    "lat": 54.0330646,
    "lon": 8.8403417,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10113244519,
    "lat": 54.0369263,
    "lon": 8.8450079,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10113244523,
    "lat": 54.0379434,
    "lon": 8.8477281,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10113438986,
    "lat": 54.0284636,
    "lon": 8.8452394,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10113439003,
    "lat": 54.0253967,
    "lon": 8.84308,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10115624351,
    "lat": 54.0268607,
    "lon": 8.8387306,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10115640122,
    "lat": 54.0367815,
    "lon": 8.8456652,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10116431647,
    "lat": 54.0251861,
    "lon": 8.840634,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10116882007,
    "lat": 54.0353348,
    "lon": 8.8432247,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11231359424,
@@ -1090,267 +1040,229 @@
    "osmId": 11232301982,
    "lat": 54.0304306,
    "lon": 8.840891,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11258227025,
    "lat": 54.0300889,
    "lon": 8.8401483,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11258227026,
    "lat": 54.0301603,
    "lon": 8.8402008,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12033247668,
    "lat": 54.0352398,
    "lon": 8.8451999,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12035824435,
    "lat": 54.03012,
    "lon": 8.838659,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12035853102,
    "lat": 54.0301109,
    "lon": 8.8386869,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12636206468,
    "lat": 54.0308615,
    "lon": 8.8396653,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12636206469,
    "lat": 54.0308391,
    "lon": 8.8397472,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12636206471,
    "lat": 54.0307998,
    "lon": 8.839925,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12636206473,
    "lat": 54.0307541,
    "lon": 8.8400915,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12643531337,
    "lat": 54.0302593,
    "lon": 8.8405311,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12643531339,
    "lat": 54.0302662,
    "lon": 8.8404979,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12645273027,
    "lat": 54.0310521,
    "lon": 8.8398139,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828528840,
    "lat": 54.0342948,
    "lon": 8.8425805,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652481,
    "lat": 54.0319385,
    "lon": 8.8402348,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652486,
    "lat": 54.0341122,
    "lon": 8.84211,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652487,
    "lat": 54.0338226,
    "lon": 8.8418141,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652488,
    "lat": 54.0312749,
    "lon": 8.8401384,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652489,
    "lat": 54.0312804,
    "lon": 8.8401377,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652491,
    "lat": 54.0313759,
    "lon": 8.8401005,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652493,
    "lat": 54.0314124,
    "lon": 8.8400471,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652494,
    "lat": 54.031448,
    "lon": 8.8399843,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652497,
    "lat": 54.0320916,
    "lon": 8.8404991,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828652500,
    "lat": 54.0326924,
    "lon": 8.8407832,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801902,
    "lat": 54.0326904,
    "lon": 8.8408844,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801904,
    "lat": 54.032922,
    "lon": 8.8410911,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801906,
    "lat": 54.0330397,
    "lon": 8.8410028,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 13828801908,
    "lat": 54.0331347,
    "lon": 8.8411545,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801911,
    "lat": 54.0334637,
    "lon": 8.8415197,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801913,
    "lat": 54.0336259,
    "lon": 8.8417423,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13828801915,
    "lat": 54.0337823,
    "lon": 8.8416554,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 13828801916,
    "lat": 54.0333787,
    "lon": 8.8413969,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855924575,
    "lat": 54.0297081,
    "lon": 8.837843,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855945971,
    "lat": 54.0304472,
    "lon": 8.8382335,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855965083,
    "lat": 54.0304949,
    "lon": 8.8382585,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855971860,
    "lat": 54.0297448,
    "lon": 8.8378528,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855974471,
    "lat": 54.0296674,
    "lon": 8.8378354,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13855989462,
    "lat": 54.0305256,
    "lon": 8.8382756,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 156951315,
@@ -1367,7 +1279,6 @@
    "name": "Seaside 26"
   }
  ],
- "bilderAsset": "assets/images/trails/erlebnisrundweg-friedrichskoog/credits.json",
  "lebensraeume": [
   "salzwiese-watt",
   "duene-strand"
@@ -1388,5 +1299,18 @@
   "Kormoran": "typisch",
   "Weißstorch": "typisch",
   "Seeadler": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "6d10ca1e-ea04-5bd9-9efe-fa7bfc5c687c",
+   "id": "6d10ca1e-ea04-5bd9-9efe-fa7bfc5c687c",
+   "caption": "Trischendamm von der Seeseite, Deich von Friedrichskoog-Spitze im Hintergrund.",
+   "credit": "5snake5",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFriedrichskoog_-_Trischendamm.jpg",
+   "kind": "ort"
+  }
+ ]
 }

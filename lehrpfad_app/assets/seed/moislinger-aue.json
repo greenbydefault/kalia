@@ -13,7 +13,6 @@
  "betreiber": "Hansestadt Lübeck, Bereich Umwelt-, Natur- und Verbraucherschutz",
  "region": "Moisling, Lübeck, Schleswig-Holstein",
  "website": "https://www.luebeck.de/de/stadtleben/freizeit/natur-erleben/erholung-naturerleben/naturerlebnisraeume/index.html",
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Hunde anleinen. Klettern und Aufstauen sind hier erlaubt. Mountainbikerunde ist extra. Fußweg vom Sterntalerweg, kaum Schilder.",
@@ -41,7 +40,6 @@
   "hunde-erlaubt"
  ],
  "hoertext": "Vom Sterntalerweg zweigt ein Fußweg ab, fast ohne Schild, und dahinter öffnet sich die Aue zwischen Trave und Freibad. Was in jedem Stadtpark verboten wäre, gehört hier zum Spiel. Kletterbäume nehmen auf, wer hinaufwill, am Graben stauen kleine Hände das Wasser, bis es steigt, und an den Kullerhängen rollt mancher hinab, schneller als gedacht. Im Gebüsch warten Höhlen. Über die Wassertreppe springt das Wasser Stufe um Stufe. Am Ufer klebt der Matsch an Schuhen und Knien, trockene Sachen zum Wechseln gehören also ins Gepäck.",
- "route": [],
  "area": [
   [
    53.843181,
@@ -249,8 +247,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 960002,
@@ -264,8 +261,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 960003,
@@ -279,8 +275,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 960004,
@@ -294,8 +289,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -307,7 +301,6 @@
    "name": "Parken Sterntalerweg / Brüder-Grimm-Ring"
   }
  ],
- "bilderAsset": "assets/images/trails/moislinger-aue/credits.json",
  "lebensraeume": [
   "auwald",
   "buchenwald"
@@ -328,5 +321,18 @@
   "Bergahorn": "typisch",
   "Blaumeise": "typisch",
   "Buntspecht": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "e562305d-796c-54ea-a1d4-ac341f190a4a",
+   "id": "e562305d-796c-54ea-a1d4-ac341f190a4a",
+   "caption": "Wiese und Waldrand in der Moislinger Aue.",
+   "credit": "Nightflyer",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturerlebnisraum_Moislinger_Aue_und_Kr%C3%A4henwald_IMG_9837.JPG",
+   "kind": "ort"
+  }
+ ]
 }

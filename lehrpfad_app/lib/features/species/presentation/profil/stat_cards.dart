@@ -33,7 +33,8 @@ class _StatCards extends StatelessWidget {
             theme: theme,
             icon: PhosphorIcons.warning,
             label: 'Gefahr',
-            value: '${species.gefahr}/5 · ${gefahrLabels[species.gefahr] ?? ''}',
+            value:
+                '${species.gefahr}/5 · ${gefahrLabels[species.gefahr] ?? ''}',
           ),
         ),
       ],

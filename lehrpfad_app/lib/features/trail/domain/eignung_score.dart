@@ -64,6 +64,7 @@ class _EignungContext {
   final Set<String> tags;
   final Set<String> amenityKats;
   final Set<String> erlebnisse;
+
   /// Anteil barrierefreier Stationen, 0 wenn keine Stationen.
   final double barrierefreiRatio;
 
@@ -116,8 +117,7 @@ final List<_EignungSignal> _eignungSignale = [
     id: 'interaktiv',
     art: EignungArt.kinderfreundlich,
     weight: 1,
-    matches: (ctx) =>
-        ctx.erlebnisse.any(_interaktivErlebnisse.contains),
+    matches: (ctx) => ctx.erlebnisse.any(_interaktivErlebnisse.contains),
   ),
   _EignungSignal(
     id: 'picknick',
@@ -149,8 +149,7 @@ final List<_EignungSignal> _eignungSignale = [
     id: 'stationen-barrierefrei-teilweise',
     art: EignungArt.barrierefreundlich,
     weight: 1,
-    matches: (ctx) =>
-        ctx.barrierefreiRatio > 0 && ctx.barrierefreiRatio < 0.5,
+    matches: (ctx) => ctx.barrierefreiRatio > 0 && ctx.barrierefreiRatio < 0.5,
   ),
   _EignungSignal(
     id: 'stationen-barrierefrei-mehrheit',

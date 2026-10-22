@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Gemeindepark in Arenys de Munt: Spiel, Tische, Tümpel, See und Burg von außen. Frei. Das Infohaus oft nur nach Anmeldung.",
  "beschreibung": "In Arenys de Munt, an der Straße nach Sant Celoni, liegt der Gemeindepark Can Jalpí am Rand des Montnegre-Corredor. Großer Parkplatz, Infohaus der Provinz, Spiel, Tische, ein Tümpel. Oben der See und die Burg — die Burg ist Restaurant, nur von außen. Immer frei, ohne Anmeldung. Das Infohaus zeigt Montnegre-Film und Wirbeltiere, Werktags oft nur nach Anmeldung, der Park nicht. SL-C 76 geht den Torrent d’en Puig hoch, Wanderarm, keine Stationen, extra. Jalpí Aventura im selben Gelände ist Hochseil, Ticket, extra. Hunde anleinen, auf den Wegen bleiben.",
- "laengeKm": 0.0,
+ "laengeKm": 0,
  "dauerMin": 75,
  "rundkurs": false,
  "markierung": "Parkwege / Plaça del Roure de Gernika",
@@ -38,7 +38,6 @@
   "einkehr"
  ],
  "form": "flaeche",
- "route": [],
  "area": [
   [
    41.600405,
@@ -107,75 +106,70 @@
    "lat": 41.5989466,
    "lon": 2.5418554,
    "km": 0.09,
+   "reihenfolge": 1,
    "titel": "Infohaus Montnegre",
    "thema": "Audiovisual, Wirbeltiere, Start",
    "kurztext": "Hier ist der Parkplatz. Infohaus der Provinz, Film Montnegre, Ausstellung Wirbeltiere. Werktags oft nur nach Anmeldung. Der Park ist offen. Nicht Jalpí Aventura, das ist Hochseil.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 550973163,
    "lat": 41.5988954,
    "lon": 2.5402933,
    "km": 0.2,
+   "reihenfolge": 2,
    "titel": "See und Burg",
    "thema": "Llac, Castell nur von außen",
    "kurztext": "Weg um den See. Enten, Pause. Die Burg ist Restaurant, nur von außen. Zwei Türme an der Einfahrt. Nicht rein, wenn du nur den Park willst.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 9187623132,
    "lat": 41.5978944,
    "lon": 2.5403458,
    "km": 0.36,
+   "reihenfolge": 3,
    "titel": "Plaça del Roure de Gernika",
    "thema": "Stieleiche, Weg Spielzone ↔ See",
    "kurztext": "Platz zwischen Spielzone und Burg. Die Stieleiche soll um 1900 aus Gernika gekommen sein, Comarca-Baum. Hier knickt der Weg zum See. Nicht den SL-C 76 mitnehmen.",
    "erlebnisse": [
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 1417965120,
    "lat": 41.5960498,
    "lon": 2.5418759,
    "km": 0.6,
+   "reihenfolge": 4,
    "titel": "Tümpel / Aiguamoll",
    "thema": "Vogelbeobachtung, periodisch",
    "kurztext": "Kleine Wasserfläche zwischen Spielzone und See. Vögel, nach Regen mehr Wasser. Nicht füttern. Der große See liegt weiter oben an der Burg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 12846497701,
    "lat": 41.5942406,
    "lon": 2.5422269,
    "km": 0.8,
+   "reihenfolge": 5,
    "titel": "Spiel- und Picknickplatz",
    "thema": "Spiel, Tische, parallel zur Straße",
    "kurztext": "Große offene Fläche an der C-61. Schaukeln, Tische, Wiese. Hier bleibt man. Der Tümpel liegt ein Stück den Park hoch, nicht am Spielgerät.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -204,15 +198,13 @@
    "osmId": 12846497701,
    "lat": 41.5942406,
    "lon": 2.5422269,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 13707381201,
    "lat": 41.5948259,
    "lon": 2.5418708,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 13712328453,
@@ -225,7 +217,6 @@
  "oeffnungszeiten": "Park frei. Infohaus Werktags oft nur nach Anmeldung.",
  "besuchshinweise": "Burg nur von außen, innen Restaurant. SL-C 76 ist Wanderarm, extra. Jalpí Aventura ist Hochseil, Ticket. Hunde anleinen.",
  "hoertext": "Arenys de Munt, C-61, großer Parkplatz. Spiel, Tische, ein Tümpel mit Vögeln. Frei, ohne Ticket. Das Infohaus ist oft zu, der Park nicht. Oben der See, die Burg nur von außen, innen isst man. Der SL-C 76 geht in den Corredor, den brauchst du nicht. Jalpí Aventura ist Hochseil, extra.",
- "bilderAsset": "assets/images/trails/can-jalpi-arenys/credits.json",
  "lebensraeume": [
   "mediterraner-wald",
   "teich-tuempel"
@@ -246,5 +237,18 @@
   "Rosmarin": "typisch",
   "Montpellier-Zistrose": "typisch",
   "Schwalbenschwanz": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "389f560b-e5fc-5605-865f-1905f6a4a439",
+   "id": "389f560b-e5fc-5605-865f-1905f6a4a439",
+   "caption": "Castell de Jalpí vom See, Arenys de Munt.",
+   "credit": "Enric",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A205_Castell_Jalp%C3%AD_(Arenys_de_Munt),_des_de_l%27estany.jpg",
+   "kind": "ort"
+  }
+ ]
 }

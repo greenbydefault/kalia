@@ -34,7 +34,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    52.512908,
@@ -433,292 +432,272 @@
    12.693375
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 10875064486,
    "lat": 52.5128713,
    "lon": 12.6932505,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Übersichtstafel",
    "thema": "Start, grüner Schrägstrich",
    "kurztext": "Hier hängt die Karte. Grüner Schrägstrich, die Gemeinde sagt 6 km. Der Weg geht zum Bruchsee und über den Mühlenberg zurück.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 10934121317,
    "lat": 52.5128032,
    "lon": 12.6896342,
    "km": 0.23,
+   "reihenfolge": 2,
    "titel": "Gletschereis und Schmelzwasser",
    "thema": "Beetzseelandschaft",
    "kurztext": "Die Tafel erzählt, wie Gletschereis und Schmelzwasser die Beetzseelandschaft geformt haben. Grundmoräne, dann die Berge: Schreiberg, Eichberg, Mühlenberg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 10934121318,
    "lat": 52.5136641,
    "lon": 12.6854826,
    "km": 0.55,
+   "reihenfolge": 3,
    "titel": "Kräfte der Nacheiszeit",
    "thema": "Sölle, Dünen, Eiskeil",
    "kurztext": "Nach der Eiszeit blieben Sölle, Dünen in der Heide und ein Eiskeil am Schreiberg. Die Kuppen sind Stauchmoränen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 10934121319,
    "lat": 52.5136609,
    "lon": 12.6810222,
    "km": 0.85,
+   "reihenfolge": 4,
    "titel": "Die Hecke",
    "thema": "Feldgehölz",
    "kurztext": "Die Tafel heißt Die Hecke und ihr ökologischer Wert. Im Flyer steht dasselbe als Feldgehölz. Neben dem Weg liegen die Felder, die Hecke ist der Streifen dazwischen.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 10934121320,
    "lat": 52.5145329,
    "lon": 12.6777259,
    "km": 1.13,
+   "reihenfolge": 5,
    "titel": "Tongrube",
    "thema": "Ziegel ab dem 19. Jahrhundert",
    "kurztext": "Das Bagower Bruch war Tongrube. Auenlehm für die Ziegeleien im Beetzseegebiet, bis 1970. Danach lief Grundwasser in die Grube. Das ist der Bruchsee.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 10934121321,
    "lat": 52.5148399,
    "lon": 12.6757514,
    "km": 1.29,
+   "reihenfolge": 6,
    "titel": "Abbau 1962 bis 1970",
    "thema": "Letzte Tongrube",
    "kurztext": "Die Tafel hängt am zweiten Abbau, 1962 bis 1970. Danach war Schluss mit den Ziegeln. Der See ist der Rest der Grube.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 10934121322,
    "lat": 52.5158162,
    "lon": 12.6740591,
    "km": 1.42,
+   "reihenfolge": 7,
    "titel": "Wildfährten",
    "thema": "Spuren im Boden",
    "kurztext": "Die Tafel zeigt Spuren, nicht das Tier. Nach Regen liegt mehr im Boden.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 10934121325,
    "lat": 52.5193845,
    "lon": 12.6723438,
    "km": 1.86,
+   "reihenfolge": 8,
    "titel": "Vogelwelt der Heide",
    "thema": "Bagower Heide",
    "kurztext": "Die Tafel heißt Die Vogelwelt der Bagower Heide. Welche Arten draufstehen, steht auf der Tafel. Der Flyer nennt das Thema, keine Liste.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 10934121328,
    "lat": 52.5212445,
    "lon": 12.6730537,
    "km": 2.04,
+   "reihenfolge": 9,
    "titel": "Spechtschmiede",
    "thema": "Specht",
    "kurztext": "Eine Spechtschmiede ist eine Ritze, in die der Specht Zapfen klemmt und aufhackt. Die Tafel erklärt die Stelle am Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 10934121329,
    "lat": 52.5215328,
    "lon": 12.6759094,
    "km": 2.28,
+   "reihenfolge": 10,
    "titel": "Bruchsee, Fischerei",
    "thema": "Fischereigewässer",
    "kurztext": "Die Tafel heißt Der Bruchsee als Fischereigewässer. Der Flyer sagt, hier geht es um die Fische und die Fischproduktion im See. Angeln ist das Gewässer, nicht die Runde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 10934121333,
    "lat": 52.5243522,
    "lon": 12.6778995,
    "km": 2.69,
+   "reihenfolge": 11,
    "titel": "Alt- und Totholz",
    "thema": "Liegendes Holz",
    "kurztext": "Die Tafel heißt Alt- und Totholz, voller Leben. Das Holz am Weg bleibt liegen. Die Tafel sagt, was darin steckt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 10934121334,
    "lat": 52.5273659,
    "lon": 12.6827458,
    "km": 3.3,
+   "reihenfolge": 12,
    "titel": "Stoffkreislauf",
    "thema": "Wald",
    "kurztext": "Die Tafel heißt Der Stoffkreislauf im Wald. Laub wird Boden, Boden wird wieder Laub. Sie steht am Nordstück der Runde.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 10934121338,
    "lat": 52.5276675,
    "lon": 12.6838205,
    "km": 3.32,
+   "reihenfolge": 13,
    "titel": "Fünfarmkreuzung",
    "thema": "Wegekreuz",
    "kurztext": "Fünf Wege treffen sich. Die Tafel zeigt die Arme, sie ist keine Lehrtafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": 10934121339,
    "lat": 52.5249815,
    "lon": 12.6903634,
    "km": 3.89,
+   "reihenfolge": 14,
    "titel": "Vogelgesang",
    "thema": "Vorwerk",
    "kurztext": "Vorwerk Vogelgesang liegt direkt an der Runde. Das Forsthaus steht hier. Das Gutshaus derer von Ribbeck steht in Bagow, nicht an dieser Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": 10934121340,
    "lat": 52.52303,
    "lon": 12.6920526,
    "km": 4.13,
+   "reihenfolge": 15,
    "titel": "Ein Soll",
    "thema": "Toteiskessel",
    "kurztext": "Ein Soll ist ein Loch von einem Eisblock, der beim Abschmelzen im Boden stecken blieb. Der Flyer nennt Sölle zwischen Mühlenberg und Schreiberg. Die Tafel steht an einem.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 10934121341,
    "lat": 52.5186701,
    "lon": 12.6958769,
    "km": 4.71,
+   "reihenfolge": 16,
    "titel": "Übersicht Päwesin",
    "thema": "Gemeinde",
    "kurztext": "Die Tafel ist die Übersicht der Gemeinde: Bagow, Riewend, Bollmannsruh, Päwesin. Keine Station zur Heide. Der Pfad bleibt der grüne Schrägstrich.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 16
+   "barrierefrei": false
   },
   {
    "osmId": 10934121343,
    "lat": 52.5172477,
    "lon": 12.6972631,
    "km": 4.9,
+   "reihenfolge": 17,
    "titel": "Steppenpflanzen",
    "thema": "Naturdenkmal seit 1991",
    "kurztext": "Die Kuppe ist seit 1991 Naturdenkmal. Der Flyer nennt Karthäuser-Nelke, Graslilie und Stacheldolde, dazu Moose und Flechten. Die Tafel heißt Steppenpflanzen im Beetzseeraum. Nichts pflücken.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 17
+   "barrierefrei": false
   },
   {
    "osmId": 10934121315,
    "lat": 52.5151638,
    "lon": 12.6986966,
    "km": 5.14,
+   "reihenfolge": 18,
    "titel": "Historisches vom Mühlenberg",
    "thema": "Stauchmoräne",
    "kurztext": "Die Tafel steht am Mühlenberg. Der Berg ist eine Stauchmoräne aus der letzten Eiszeit. Die Pflanzen auf der Kuppe sind die andere Tafel.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 18
+   "barrierefrei": false
   },
   {
    "osmId": 10934121316,
    "lat": 52.514054,
    "lon": 12.700274,
    "km": 5.29,
+   "reihenfolge": 19,
    "titel": "Jugendstilkirche Bagow",
    "thema": "Kirche von 1907",
    "kurztext": "Die Kirche am westlichen Ortseingang, gebaut 1907. Die Tafel steht daran. Von hier geht der Weg in den Wald.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 19
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -740,37 +719,31 @@
    "osmId": 10934121330,
    "lat": 52.5215418,
    "lon": 12.6759728,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10934121332,
    "lat": 52.5222428,
    "lon": 12.6781147,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10934121335,
    "lat": 52.5276863,
    "lon": 12.6842237,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10934121342,
    "lat": 52.5187073,
    "lon": 12.6958733,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung.",
  "besuchshinweise": "Naturschutzgebiet, auf den Wegen bleiben. Hunde anleinen, nichts pflücken. Der grüne Schrägstrich ist die Runde. KiEZ Bollmannsruh und Backwahn sind nicht der Pfad.",
  "hoertext": "An der Übersichtstafel zwischen Bagow und dem Bruchsee fängt der grüne Schrägstrich an. Rund sechs Kilometer, frei, einmal rum. Der See ist eine Tongrube, 1970 vollgelaufen. Oben auf dem Mühlenberg ist die Kuppe seit 1991 Naturdenkmal, da wachsen die Steppenpflanzen. Im Schutzgebiet auf dem Weg bleiben und den Hund anleinen.",
- "bilderAsset": "assets/images/trails/bagower-bruch/credits.json",
  "lebensraeume": [
   "auwald",
   "teich-tuempel"
@@ -791,5 +764,18 @@
   "Eisvogel": "typisch",
   "Amsel": "typisch",
   "Blässhuhn": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "b8926283-92e8-5cdd-9a4f-5ec7caea1bdf",
+   "id": "b8926283-92e8-5cdd-9a4f-5ec7caea1bdf",
+   "caption": "Höckerschwan im NSG Bagower Bruch.",
+   "credit": "Gb10777",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwan_in_Bagow.JPG",
+   "kind": "ort"
+  }
+ ]
 }

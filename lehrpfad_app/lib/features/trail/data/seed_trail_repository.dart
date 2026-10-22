@@ -1,158 +1,34 @@
-import 'dart:convert';
-
 import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:latlong2/latlong.dart';
 
+import '../../offline/catalog/seed_loader.dart';
 import '../domain/trail.dart';
-import 'trail_hero_assets.dart';
 import 'trail_repository.dart';
 
-/// Lädt die lokalen Seed-Datensätze aus den App-Assets.
+/// Lädt den gebündelten Katalog (`assets/seed/index.json`). Die Liste der
+/// Trails steht im Index, den `tools/export_catalog.py` erzeugt.
 class SeedTrailRepository implements TrailRepository {
-  /// Explizite Liste statt Verzeichnis-Scan: In assets/seed/ liegen auch
-  /// OSM-Rohdaten und Flyer, die keine Trails sind.
-  static const _seedPaths = [
-    'assets/seed/trail.json',
-    'assets/seed/raddusch.json',
-    'assets/seed/rauener-berge.json',
-    'assets/seed/lehde.json',
-    'assets/seed/ravensberge.json',
-    'assets/seed/heide-erlebnisweg.json',
-    'assets/seed/wupatz.json',
-    'assets/seed/stendenitz.json',
-    'assets/seed/wahrberge.json',
-    'assets/seed/libellen-wasserspielplatz-wittstock.json',
-    'assets/seed/wolfspfad-zwenzow.json',
-    'assets/seed/spurenweg-kratzeburg.json',
-    'assets/seed/wald-erlebnispfad-serrahn.json',
-    'assets/seed/hullerbusch.json',
-    'assets/seed/heilige-hallen.json',
-    'assets/seed/fledermauspfad-bossow.json',
-    'assets/seed/lehrpfad-sandhof.json',
-    'assets/seed/wasserspielplatz-roebel.json',
-    'assets/seed/harzungspfad.json',
-    'assets/seed/kinderwald-maerkisch-buchholz.json',
-    'assets/seed/kinderbauernhof-pinke-panke.json',
-    'assets/seed/arboretum-dreetz.json',
-    'assets/seed/natter-pfad-goyatz.json',
-    'assets/seed/erlebe-bruder-wald.json',
-    'assets/seed/fossilruten-moens-klint.json',
-    'assets/seed/stubbenkammer-koenigsstuhl.json',
-    'assets/seed/naturerlebnisraum-spo.json',
-    'assets/seed/erlebnisrundweg-friedrichskoog.json',
-    'assets/seed/kaeflingsberg-speck.json',
-    'assets/seed/braumannswiesen.json',
-    'assets/seed/entdeckerpfad-biologische-vielfalt.json',
-    'assets/seed/baumkronenpfad-hainich.json',
-    'assets/seed/archaeologischer-wanderpfad-fischbek.json',
-    'assets/seed/rittbrookpfad.json',
-    'assets/seed/naturwaldpfad.json',
-    'assets/seed/waldhusen.json',
-    'assets/seed/schwartautal.json',
-    'assets/seed/oher-graeberfeld.json',
-    'assets/seed/naturerlebnis-grabau.json',
-    'assets/seed/naturerlebnispfad-eutin.json',
-    'assets/seed/kollhorst.json',
-    'assets/seed/untereider.json',
-    'assets/seed/baumwipfelpfad-saarschleife.json',
-    'assets/seed/baumwipfelpfad-schwarzwald.json',
-    'assets/seed/everstorfer-forst.json',
-    'assets/seed/moislinger-aue.json',
-    'assets/seed/lehrpfad-pflanzenschutz-schwentinental.json',
-    'assets/seed/naturerlebnispfad-ellerbek.json',
-    'assets/seed/naturerlebnisweg-ploener-seeufer.json',
-    'assets/seed/waldlehrpfad-silberbergen.json',
-    'assets/seed/zweiseitenweg-rambow.json',
-    'assets/seed/baumwipfelpfad-bayerischer-wald.json',
-    'assets/seed/sl-c-73-alzines-can-portell.json',
-    'assets/seed/parc-forestal-mataro.json',
-    'assets/seed/can-jalpi-arenys.json',
-    'assets/seed/fonts-vallvidrera.json',
-    'assets/seed/baumwipfelpfad-ruegen.json',
-    'assets/seed/baumwipfelpfad-usedom.json',
-    'assets/seed/baumkronenpfad-ivenack.json',
-    'assets/seed/baumwipfelpfad-steigerwald.json',
-    'assets/seed/baumkronenweg-ziegelwies.json',
-    'assets/seed/skywalk-allgaeu.json',
-    'assets/seed/baumwipfelpfad-panarbora.json',
-    'assets/seed/baumkronenweg-waldkirch.json',
-    'assets/seed/baumkronenpfad-hoherodskopf.json',
-    'assets/seed/waldwipfelweg-sankt-englmar.json',
-    'assets/seed/treetopwalk-edersee.json',
-    'assets/seed/baumwipfelweg-bad-camberg.json',
-    'assets/seed/baumwipfelpfad-harz.json',
-    'assets/seed/baumwipfelpfad-bad-iburg.json',
-    'assets/seed/wasserspielplatz-lene-voigt.json',
-    'assets/seed/wasserspielplatz-giesserbruecke.json',
-    'assets/seed/naturlehrpfad-plaussiger-waeldchen.json',
-    'assets/seed/steinerlebnisplatz-markkleeberg.json',
-    'assets/seed/naturlehrpfad-staditzwald.json',
-    'assets/seed/wasserspielplatz-oberholz.json',
-    'assets/seed/wasserspielplatz-heide-sued.json',
-    'assets/seed/naturlehrpfad-doelau-ii.json',
-    'assets/seed/naturlehrpfad-doelau-i.json',
-    'assets/seed/naturlehrpfad-angersdorfer-teiche.json',
-    'assets/seed/wasserspielplatz-peissnitzhaus.json',
-    'assets/seed/auwald-erlebnispfad.json',
-    'assets/seed/naturlehrpfad-dahlenberg.json',
-    'assets/seed/naturlehrpfad-grabschuetzer-see.json',
-    'assets/seed/geopfad-markkleeberg.json',
-    'assets/seed/naturlehrpfad-pressel.json',
-    'assets/seed/jamnoer-urwald.json',
-    'assets/seed/bagower-bruch.json',
-    'assets/seed/moorlehrpfad-burgermoos.json',
-    'assets/seed/rimstinger-steinlehrpfad.json',
-    'assets/seed/weltpfad-nicklheim.json',
-    'assets/seed/ostsee-lehrpfad-graal-mueritz.json',
-    'assets/seed/grossartige-kuestenflora-graal-mueritz.json',
-    'assets/seed/kurwald-graal-mueritz.json',
-    'assets/seed/naturlehrpfad-huetter-klosterteiche.json',
-    'assets/seed/lehrpfad-laehnwitz.json',
-    'assets/seed/heilwald-bad-doberan.json',
-    'assets/seed/pilzlehrpfad-vierburg.json',
-    'assets/seed/waldlehrpfad-hermsdorf.json',
-    'assets/seed/erlebnisweg-mueggelberge-teufelssee.json',
-    'assets/seed/waldspielplatz-jaegerhaus.json',
-    'assets/seed/wald-berlin-klima.json',
-    'assets/seed/kinderbauernhof-mauerplatz.json',
-    'assets/seed/plansche-plaenterwald.json',
-    'assets/seed/wasser-erlebnispfad-sprotte.json',
-    // Nach Feldcapture: build_seed.py tools/trails/alt-daber.json
-    // 'assets/seed/alt-daber.json',
-  ];
+  SeedTrailRepository({SeedLoader? loader}) : _loader = loader ?? SeedLoader();
 
-  /// Ohne Hero-Credits. Für die erste Nähe-Liste, bevor Supabase da ist.
-  Future<List<Trail>> loadBodies() => _loadAll(heroes: false);
+  final SeedLoader _loader;
+
+  /// Für die erste Nähe-Liste, bevor Supabase da ist.
+  Future<List<Trail>> loadBodies() => getTrails();
 
   @override
-  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) =>
-      _loadAll(heroes: true);
-
-  Future<List<Trail>> _loadAll({required bool heroes}) async {
+  Future<List<Trail>> getTrails({LatLng? near, double? radiusKm}) async {
     final sw = Stopwatch()..start();
-    final loaded = await Future.wait([
-      for (final path in _seedPaths) _loadSeed(path, heroes: heroes),
-    ]);
-    final trails = [for (final trail in loaded) ?trail];
-    debugPrint(
-      heroes
-          ? 'attachHeroBilder ${trails.length} Seeds ${sw.elapsedMilliseconds} ms'
-          : 'trails seed ${trails.length} ${sw.elapsedMilliseconds} ms',
-    );
-    return trails;
-  }
-
-  Future<Trail?> _loadSeed(String path, {required bool heroes}) async {
-    try {
-      final raw = await rootBundle.loadString(path);
-      final json = jsonDecode(raw) as Map<String, dynamic>;
-      if (heroes) await attachHeroBilder(json);
-      return Trail.fromJson(json);
-    } catch (e) {
-      // Ein fehlender/fehlerhafter Seed darf die übrigen Trails nicht blockieren.
-      debugPrint('SeedTrailRepository: "$path" übersprungen ($e)');
-      return null;
+    final entries = await _loader.loadTrails();
+    final trails = <Trail>[];
+    for (final e in entries) {
+      try {
+        trails.add(Trail.fromJson(e.json));
+      } catch (err) {
+        // Ein fehlerhafter Seed darf die übrigen Trails nicht blockieren.
+        debugPrint('SeedTrailRepository: "${e.id}" übersprungen ($err)');
+      }
     }
+    debugPrint('trails seed ${trails.length} ${sw.elapsedMilliseconds} ms');
+    return trails;
   }
 }

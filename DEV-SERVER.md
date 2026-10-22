@@ -67,6 +67,29 @@ flutter run -d chrome -t lib/admin/admin_main.dart --web-port=8081 \
 - Schreibt in die **Live-DB**. Migrationen `0028`–`0030` müssen eingespielt sein, sonst scheitern Speichern, Pool und Upload.
 - Build/Deploy: `bash lehrpfad_app/vercel-build-admin.sh`, Vercel-Projekt mit Root Directory `lehrpfad_app/admin_deploy` ([`lehrpfad_app/docs/golive/vercel.md`](lehrpfad_app/docs/golive/vercel.md)).
 
+## Android-Testgerät (USB)
+
+Einmalig (Mac): `openjdk@17` + `android-commandlinetools` via Homebrew, SDK in `/opt/homebrew/share/android-commandlinetools`, `flutter doctor` muss Android grün zeigen. Das Skript setzt `JAVA_HOME`/`ANDROID_HOME` selbst.
+
+Einmalig (Handy): Einstellungen → Über das Telefon → 7x auf Build-Nummer tippen → Entwickleroptionen → USB-Debugging an → Kabel, Dialog „Diesem Computer vertrauen“ bestätigen. Prüfen: `adb devices` zeigt `device`.
+
+Supabase-Werte: `lehrpfad_app/.env.android` (gitignored, Vorlage `.env.example`).
+
+```bash
+cd lehrpfad_app
+tool/android_test.sh          # Release-APK bauen + per adb installieren
+tool/android_test.sh build    # nur bauen
+tool/android_test.sh run      # flutter run --release mit Live-Logs
+adb logcat -s flutter         # Logs der installierten App
+```
+
+- APK: `lehrpfad_app/build/app/outputs/flutter-apk/app-release.apk`, auch per AirDrop/Drive aufs Handy ziehbar (Installation aus unbekannter Quelle erlauben).
+- `android/build.gradle.kts` patcht `flutter_avif_android` (doppelte Plugin-Klasse, compileSdk 31). Beim Plugin-Update prüfen, ob der Patch noch nötig ist.
+- Build braucht mehrere GB freien Platz (`lehrpfad_app/build` liegt in Dropbox, ruhig mit `flutter clean` aufräumen). Bei „Cannot lock execution history“: `cd android && ./gradlew --stop`.
+- Signiert mit Debug-Key, **nicht** für den Play Store.
+- Die Trail-Bilder (~211 MB) sind gebündelt, der APK ist entsprechend groß, erster Build dauert.
+- Launcher-Icon ist ein Platzhalter (`tool/make_placeholder_icon.py`). Echtes Logo: `assets/icons/app/icon_placeholder.png` und `icon_placeholder_fg.png` ersetzen, dann `dart run flutter_launcher_icons`.
+
 ## Änderungen sichtbar machen
 
 Im **selben Terminal**, in dem `flutter run` läuft:

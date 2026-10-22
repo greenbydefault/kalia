@@ -5,7 +5,7 @@
  "gebiet": "wasser",
  "kurzbeschreibung": "Fünf Kilometer Strandweg, Schlosswald, Prinzeninsel. Einunddreißig Tafeln, NABU und Naturpark. Frei. Start Fegetasche oder Spitzenort.",
  "beschreibung": "Vom Strand an der Fegetasche führt der Weg am Großen Plöner See entlang, durch den Schlosswald und über die Prinzeninsel zum Parkplatz Spitzenort. Rund fünf Kilometer, 2025 fertig. Einunddreißig Tafeln von NABU Plön, Stadt Plön und Naturpark Holsteinische Schweiz: Vögel am Ufer, Erlenbruch, Aronstab, Geschichte der Insel. Frei, ohne Anmeldung. Mitmachaktionen an den Tafeln. Nass auf Holzstegen, kein Winterdienst. Hunde anleinen. Der PlanetenPfad mit den Sonnenmodellen ist der andere Weg, Rel 1172519, nicht dieser. Evolutionpfad-Boards daneben ebenso. Start Fegetasche oder Parkplatz Prinzeninsel.",
- "laengeKm": 5.0,
+ "laengeKm": 5,
  "dauerMin": 90,
  "rundkurs": false,
  "markierung": "Nummerierte Schautafeln / Strandweg",
@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    54.153124,
@@ -742,58 +741,55 @@
    10.401632
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -1572635069,
    "lat": 54.153124,
    "lon": 10.448056,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Fegetasche",
    "thema": "Anfang am Strandweg, von Gletschern geformt",
    "kurztext": "Hier fängt der Strandweg an. Tafel eins: der See ist ein Loch aus der Eiszeit. Frei, ohne Anmeldung. Auto am Parkplatz Fegetasche, B 76. Der PlanetenPfad liegt am Schloss, das ist der andere Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": -3826846833,
    "lat": 54.1597427,
    "lon": 10.4238172,
    "km": 2.27,
+   "reihenfolge": 2,
    "titel": "Die Adler sind zurück",
    "thema": "Strandweg Höhe Bahnhof",
    "kurztext": "Tafel drei, Höhe Bahnhof. Seeadler über dem Großen Plöner See, nach Jahrzehnten wieder. Unten am Wasser sitzen die Stockenten. Zugvögel nutzen den See als Knoten.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": -1685483081,
    "lat": 54.1567002,
    "lon": 10.4171184,
    "km": 2.83,
+   "reihenfolge": 3,
    "titel": "Knotenpunkt des Vogelzugs",
    "thema": "Schlosspark, Aussicht auf den See",
    "kurztext": "Tafel acht, Schlosspark. Von hier siehst du den See als Straße für Vögel. Kormoran, Ente, im Winter die Tauchenten. Die Unterführung zum Schlossgebiet liegt daneben, der PlanetenPfad nicht dieser Weg.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -1721269457,
    "lat": 54.1502993,
    "lon": 10.4073453,
    "km": 3.83,
+   "reihenfolge": 4,
    "titel": "Alte Buchen",
    "thema": "Schlosswald Höhe Siebenstern",
    "kurztext": "Tafel zehn im Schlosswald. Alte Buchen, glatte Rinde, wenig Unterwuchs. Daneben Erle am nassen Rand und Tafeln zu Fledermäusen und Baumhöhlen. Siebenstern ist der Wegname, nicht eine Stationstafel.",
@@ -801,69 +797,63 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 11111216331,
    "lat": 54.1470961,
    "lon": 10.4084713,
    "km": 4.23,
+   "reihenfolge": 5,
    "titel": "Pflanzengemeinschaften des Seeufers",
    "thema": "Anfang Prinzeninsel, Tafel 14",
    "kurztext": "Hier beginnt die Insel. Schilf, Weide, was nasse Füße aushält. Die Tafel sortiert die Uferzonen, nicht den Schlossgarten. Brücke und Geschichte liegen ein Stück weiter.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 11111216339,
    "lat": 54.1469766,
    "lon": 10.4080737,
    "km": 4.25,
+   "reihenfolge": 6,
    "titel": "Geschichte der Prinzeninsel",
    "thema": "Brücke Prinzeninsel, Tafel 15",
    "kurztext": "Tafel an der Brücke. Prinzeninsel, Name aus dem 19. Jahrhundert, vorher eine Halbinsel mit Arbeit und Holz. Heute Weg und Tafeln, kein Schlosspark. Die Kesselfalle des Aronstabs steht im Wald dahinter.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 11111216336,
    "lat": 54.144599,
    "lon": 10.4057793,
    "km": 4.25,
+   "reihenfolge": 7,
    "titel": "Die Kesselfalle des Aronstabs",
    "thema": "Prinzeninsel Wald, Tafel 17",
    "kurztext": "Im Wald der Insel. Aronstab lockt Fliegen in die Kessel, lässt sie erst raus wenn der Pollen sitzt. Riecht nach Aas, sieht nach Blatt. Nicht anfassen, der Saft reizt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": -4283513137,
    "lat": 54.1495655,
    "lon": 10.4016316,
    "km": 5.01,
+   "reihenfolge": 8,
    "titel": "Der Erlenbruch",
    "thema": "Parkplatz Prinzeninsel, Tafel 28",
    "kurztext": "Ende am Parkplatz Spitzenort. Erlen mit Stelzenwurzeln, nass. Hier steht das Auto, wenn du von Westen kommst. Camping daneben extra. Zurück denselben Weg oder den Strandweg Richtung Fegetasche.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -878,22 +868,19 @@
    "osmId": 1477346269,
    "lat": 54.1534114,
    "lon": 10.4482486,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1477346273,
    "lat": 54.1534457,
    "lon": 10.4482108,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2179679247,
    "lat": 54.1549564,
    "lon": 10.4446772,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4463742122,
@@ -906,78 +893,67 @@
    "osmId": 4463742129,
    "lat": 54.152937,
    "lon": 10.4481107,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4463742130,
    "lat": 54.153003,
    "lon": 10.4480973,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4463765775,
    "lat": 54.1531984,
    "lon": 10.4479538,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4463765776,
    "lat": 54.1535467,
    "lon": 10.4476977,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4463765779,
    "lat": 54.15395,
    "lon": 10.4475797,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4463765784,
    "lat": 54.1543089,
    "lon": 10.4469549,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4463766993,
    "lat": 54.1544684,
    "lon": 10.4467135,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 10761674525,
    "lat": 54.1551964,
    "lon": 10.4455721,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10761674526,
    "lat": 54.1551716,
    "lon": 10.4455451,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12861900747,
    "lat": 54.1531618,
    "lon": 10.4479743,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 119437203,
    "lat": 54.1530592,
    "lon": 10.4502493,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 121228173,
@@ -990,8 +966,7 @@
    "osmId": 401983758,
    "lat": 54.152632,
    "lon": 10.4499778,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 449421000,
@@ -1004,8 +979,7 @@
    "osmId": 357338903,
    "lat": 54.1589775,
    "lon": 10.4199215,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 361420547,
@@ -1053,8 +1027,7 @@
    "osmId": 506956159,
    "lat": 54.1593425,
    "lon": 10.424919,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 774951215,
@@ -1067,253 +1040,217 @@
    "osmId": 774951227,
    "lat": 54.159672,
    "lon": 10.4227446,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 778524395,
    "lat": 54.1595832,
    "lon": 10.4213195,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 906832927,
    "lat": 54.1540417,
    "lon": 10.4110141,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 1642632909,
    "lat": 54.1590794,
    "lon": 10.4217219,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1642632919,
    "lat": 54.1594734,
    "lon": 10.4228235,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1642632920,
    "lat": 54.1595628,
    "lon": 10.4230837,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1642632921,
    "lat": 54.1596262,
    "lon": 10.4232909,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1642632928,
    "lat": 54.1597064,
    "lon": 10.423565,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161246,
    "lat": 54.1558436,
    "lon": 10.4145454,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161249,
    "lat": 54.1559515,
    "lon": 10.414907,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161252,
    "lat": 54.1563977,
    "lon": 10.4162701,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161254,
    "lat": 54.1568402,
    "lon": 10.4172964,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161255,
    "lat": 54.1569065,
    "lon": 10.417434,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161256,
    "lat": 54.1570656,
    "lon": 10.41775,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161258,
    "lat": 54.1572035,
    "lon": 10.4179798,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161260,
    "lat": 54.1574422,
    "lon": 10.4183945,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161262,
    "lat": 54.157658,
    "lon": 10.4187352,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161264,
    "lat": 54.1578208,
    "lon": 10.4189925,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161267,
    "lat": 54.1579279,
    "lon": 10.4191904,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1928161269,
    "lat": 54.158067,
    "lon": 10.4194312,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1963499742,
    "lat": 54.1534752,
    "lon": 10.4101831,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1963499745,
    "lat": 54.1541302,
    "lon": 10.4109338,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1963499747,
    "lat": 54.1542741,
    "lon": 10.4112142,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1963499750,
    "lat": 54.1556898,
    "lon": 10.4140535,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2625649230,
    "lat": 54.1594953,
    "lon": 10.4224149,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2625649231,
    "lat": 54.1594796,
    "lon": 10.4223685,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2625653656,
    "lat": 54.1594355,
    "lon": 10.4224767,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947182,
    "lat": 54.1561997,
    "lon": 10.4136739,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947184,
    "lat": 54.1563502,
    "lon": 10.4142803,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947186,
    "lat": 54.1563112,
    "lon": 10.4141341,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947187,
    "lat": 54.1564973,
    "lon": 10.4147132,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947188,
    "lat": 54.1562576,
    "lon": 10.4138668,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2884947189,
    "lat": 54.1564427,
    "lon": 10.4145122,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4265534238,
    "lat": 54.1566108,
    "lon": 10.4146524,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 5109456426,
    "lat": 54.1558398,
    "lon": 10.4147495,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 5109473121,
    "lat": 54.1575463,
    "lon": 10.4186849,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 6485816691,
@@ -1326,50 +1263,43 @@
    "osmId": 6593540323,
    "lat": 54.1586123,
    "lon": 10.4197291,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7657311763,
    "lat": 54.1597262,
    "lon": 10.4242798,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 9194995164,
    "lat": 54.1566132,
    "lon": 10.4168732,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9194995165,
    "lat": 54.1565711,
    "lon": 10.4167479,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9195110247,
    "lat": 54.1566515,
    "lon": 10.4169555,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9951197421,
    "lat": 54.1597293,
    "lon": 10.4247465,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10919944136,
    "lat": 54.1593629,
    "lon": 10.4249257,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11970683216,
@@ -1382,29 +1312,25 @@
    "osmId": 12468798892,
    "lat": 54.1550467,
    "lon": 10.4102516,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12468798894,
    "lat": 54.154996,
    "lon": 10.4102947,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12468798896,
    "lat": 54.1549421,
    "lon": 10.4103001,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12468798897,
    "lat": 54.1550881,
    "lon": 10.4100889,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13023002375,
@@ -1417,22 +1343,19 @@
    "osmId": 13230143080,
    "lat": 54.1597288,
    "lon": 10.4242032,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 40843875,
    "lat": 54.1592399,
    "lon": 10.4215121,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 41421254,
    "lat": 54.1589602,
    "lon": 10.4206444,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 62367948,
@@ -1445,106 +1368,91 @@
    "osmId": 112987688,
    "lat": 54.1564959,
    "lon": 10.4122254,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 117912076,
    "lat": 54.160169,
    "lon": 10.4237376,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 118695656,
    "lat": 54.1577099,
    "lon": 10.4170039,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 314414567,
    "lat": 54.1581465,
    "lon": 10.4192298,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1028964085,
    "lat": 54.1593822,
    "lon": 10.4218886,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1315041993,
    "lat": 54.1583386,
    "lon": 10.4191108,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1429439880,
    "lat": 54.1499944,
    "lon": 10.4052791,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5918109143,
    "lat": 54.1513709,
    "lon": 10.4068424,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8775438781,
    "lat": 54.1503791,
    "lon": 10.4092809,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 8775711900,
    "lat": 54.1491139,
    "lon": 10.4084713,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9975264499,
    "lat": 54.1514517,
    "lon": 10.4072752,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9975278839,
    "lat": 54.1470897,
    "lon": 10.4102236,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9975278840,
    "lat": 54.1470907,
    "lon": 10.4102028,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9975278841,
    "lat": 54.147095,
    "lon": 10.4102432,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9975402633,
    "lat": 54.1506471,
    "lon": 10.4083916,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 119602356,
@@ -1557,16 +1465,13 @@
    "osmId": 980846000,
    "lat": 54.150891,
    "lon": 10.4087872,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   }
  ],
- "eintritt": false,
  "eintrittPreise": "Eintritt frei",
  "oeffnungszeiten": "Gelände jederzeit frei, ohne Anmeldung. Bei Tageslicht.",
  "besuchshinweise": "Nass auf Holzstegen, kein Winterdienst. Hunde anleinen. PlanetenPfad und Evolutionpfad sind andere Wege. Camping Spitzenort extra.",
  "hoertext": "An der Fegetasche liegt der Strand, frei, ohne Anmeldung. Einunddreißig Tafeln bis zur Prinzeninsel, Ufer und Schlosswald. Auto am Strandparkplatz oder am Spitzenort. Der PlanetenPfad mit den Kugeln ist der andere Weg. Nass wird das Holz am Steg, Hunde an die Leine.",
- "bilderAsset": "assets/images/trails/naturerlebnisweg-ploener-seeufer/credits.json",
  "lebensraeume": [
   "see-ufer",
   "auwald"
@@ -1587,5 +1492,18 @@
   "Blaumeise": "typisch",
   "Buchfink": "typisch",
   "Grasfrosch": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "081f5faf-2303-509b-a31a-f55f1e6848a1",
+   "id": "081f5faf-2303-509b-a31a-f55f1e6848a1",
+   "caption": "Schloss Plön, Blick von der Prinzeninsel. Der Lehrpfad läuft über die Insel und den Strandweg.",
+   "credit": "AnitaBeimert",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchloss_Pl%C3%B6n%2C_Blick_von_der_Prinzeninsel%2C_08-2011.JPG",
+   "kind": "ort"
+  }
+ ]
 }

@@ -10,7 +10,6 @@ import '../../../core/cache/catalog_cache_platform.dart';
 import '../../../core/cache/catalog_fetch.dart';
 import '../domain/trail.dart';
 import 'seed_trail_repository.dart';
-import 'trail_hero_assets.dart';
 import 'trail_repository.dart';
 
 /// Decorator um ein Remote-Repository: unfiltered Catalog → Cache,
@@ -38,21 +37,12 @@ class CachedTrailRepository implements TrailRepository {
       skipWrite: filtered,
       remote: () => _remote.getTrails(near: near, radiusKm: radiusKm),
       encode: (trails) => jsonEncode(trails.map((t) => t.toJson()).toList()),
-      decode: (raw) async {
-        final json = jsonDecode(raw) as List;
-        final trails = <Trail>[];
-        for (final t in json) {
-          final map = t as Map<String, dynamic>;
-          await attachHeroBilder(map);
-          trails.add(Trail.fromJson(map));
-        }
-        return trails;
-      },
+      decode: (raw) async => _decode(raw),
       seed: () => _fallback.getTrails(),
     );
   }
 
-  /// Cache, sonst Seed ohne Hero-Credits. Blockiert nicht aufs Netz.
+  /// Cache, sonst Seed. Blockiert nicht aufs Netz.
   Future<List<Trail>> loadFast() async {
     final sw = Stopwatch()..start();
     try {
@@ -73,7 +63,7 @@ class CachedTrailRepository implements TrailRepository {
     return _fallback.getTrails();
   }
 
-  /// Supabase inkl. Credits. Schreibt den Cache, wenn die UI Luft hat.
+  /// Supabase. Schreibt den Cache, wenn die UI Luft hat.
   Future<List<Trail>> loadRemote() async {
     final trails = await _remote.getTrails();
     unawaited(

@@ -36,7 +36,6 @@
   "rollstuhltauglich",
   "hunde-erlaubt"
  ],
- "form": "linie",
  "route": [
   [
    53.877504,
@@ -439,13 +438,13 @@
    10.729169
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 10990010925,
    "lat": 53.8775666,
    "lon": 10.7292528,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Hotspot? Echt cool!",
    "thema": "Artenreichtum im Lübecker Modell",
    "kurztext": "Hier beginnt die Runde. Totholz bleibt liegen, Buchen und Eichen stehen gemischt. Die Tafel erklärt, warum dieser Stadtwald mehr Arten trägt als ein aufgeräumter Forst.",
@@ -453,15 +452,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 10990010924,
    "lat": 53.8792889,
    "lon": 10.7246049,
    "km": 0.39,
+   "reihenfolge": 2,
    "titel": "Kunst oder künstlich?",
    "thema": "Wald als Bild und als Betrieb",
    "kurztext": "Ein Bestand, der wie gemalt aussieht, und trotzdem genutzt wird. Die Tafel trennt, was der Wald von allein macht, und wo der Stadtwald eingreift.",
@@ -469,15 +467,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 10990017414,
    "lat": 53.8791936,
    "lon": 10.7188023,
    "km": 0.91,
+   "reihenfolge": 3,
    "titel": "Zeiten ändern sich",
    "thema": "Waldentwicklung und Referenzflächen",
    "kurztext": "Vor dreißig Jahren hat Lübeck aufgehört, den Wald umzubauen. Referenzflächen ohne Holzeinschlag stehen daneben. Die Tafel zeigt, was in einer Baumgeneration passiert.",
@@ -485,15 +482,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 10990017413,
    "lat": 53.8852912,
    "lon": 10.7207252,
    "km": 1.79,
+   "reihenfolge": 4,
    "titel": "Stell die Lauscher!",
    "thema": "Waldgeräusche",
    "kurztext": "Augen zu. Specht, Eichhörnchen, Wind in den Buchen. Die Tafel schickt dich aufs Hören, nicht aufs Abhaken.",
@@ -501,15 +497,14 @@
     "tafel",
     "audio"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": 10990017415,
    "lat": 53.886503,
    "lon": 10.7245441,
    "km": 2.28,
+   "reihenfolge": 5,
    "titel": "Licht-Bild-Vortrag",
    "thema": "Licht und Schatten im Bestand",
    "kurztext": "Lücken im Kronendach, plötzlich Boden. Jungwuchs braucht genau das. Die Tafel macht aus einem Lichtfleck den Vortrag.",
@@ -517,15 +512,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": 10990010927,
    "lat": 53.8829498,
    "lon": 10.7257015,
    "km": 2.67,
+   "reihenfolge": 6,
    "titel": "Den Richtigen finden",
    "thema": "Bäume im Lauerholz bestimmen",
    "kurztext": "Buche oder Eiche, Blatt oder Rinde. Die Tafel ist ein Suchauftrag, kein Bestimmungsbuch. Wer den Baum findet, hat die Station.",
@@ -533,15 +527,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": 10990010926,
    "lat": 53.878189,
    "lon": 10.7307309,
    "km": 3.28,
+   "reihenfolge": 7,
    "titel": "Eins ergibt das Andere",
    "thema": "Nahrungsnetz und Totholz",
    "kurztext": "Was der Wald mit Domino zu tun hat: ein Baum fällt, Käfer, Pilz, Specht. Die Tafel schließt die Runde, ein paar hundert Meter vom Start.",
@@ -549,9 +542,7 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -559,15 +550,13 @@
    "osmId": 5613883899,
    "lat": 53.8798485,
    "lon": 10.7220134,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 5613883900,
    "lat": 53.8798223,
    "lon": 10.7219351,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6376100183,
@@ -580,29 +569,25 @@
    "osmId": 7798287276,
    "lat": 53.8779112,
    "lon": 10.7209618,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7882690107,
    "lat": 53.8781266,
    "lon": 10.7231268,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10991270684,
    "lat": 53.8771082,
    "lon": 10.7305431,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 10991270685,
    "lat": 53.8804827,
    "lon": 10.7278384,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 166769935,
@@ -613,7 +598,6 @@
   }
  ],
  "hoertext": "Hinter der Reitschule Am Rittbrook öffnet sich das Lauerholz, Buchen und Eichen bunt gemischt. Ein Fuchs und ein Dackel laufen auf den Tafeln voraus. Wo eine Krone fehlt, fällt Licht bis auf den Boden, und genau dort drängt der Jungwuchs nach oben. An einer Station schließen sich die Augen. Wer still wird, hört einen Specht, ein Eichhörnchen und den Wind in den Buchen. Kurz vor dem Ziel wartet ein gefallener Stamm, und an ihm reiht sich das Leben wie beim Domino, erst der Käfer, dann der Pilz, zuletzt der Specht. Lange Hosen lohnen sich, denn am Wegrand greifen Brombeeren nach den Beinen.",
- "bilderAsset": "assets/images/trails/rittbrookpfad/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -633,5 +617,18 @@
   "Eichelhäher": "typisch",
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "e3b6af6c-92db-5cbc-a94f-0435fd30230e",
+   "id": "e3b6af6c-92db-5cbc-a94f-0435fd30230e",
+   "caption": "Waldweg im Lauerholz.",
+   "credit": "Ckhl",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-05-09_01_LSA_Lauerholz_01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "250 Meter Steg, 30 Meter hoch überm Edersee – plus 750 Meter Eichhörnchenpfad. Barrierefrei. Eintritt, Hunde an der Leine.",
  "beschreibung": "Am Eschelberg, Südufer des Edersees bei Edertal-Hemfurth, führt der TreeTopWalk vom Kassenhaus durch den Buchenwald auf den Steg. 750 Meter Eichhörnchenpfad, Tafeln und Aktivstationen, dann 250 Meter Holz, bis 30 Meter, ohne Stufen, höchstens sieben Prozent. Eröffnet 30. Juli 2010. Betreiber Baumkronenweg Edersee UG & Co. KG (Heinz/Dolzer). Oben Blick auf den See und Schloss Waldeck. Hunde an der Leine. Kletterwald, Wildpark und NationalparkZentrum sind extra, oft im Kombiticket. Eine bis eineinhalb Stunden.",
- "laengeKm": 1.0,
+ "laengeKm": 1,
  "dauerMin": 75,
  "rundkurs": false,
  "markierung": "TreeTopWalk / Baumkronenweg Edersee",
@@ -38,7 +38,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    51.187723,
@@ -241,13 +240,13 @@
    9.01963
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 11055278159,
    "lat": 51.1877232,
    "lon": 9.0300712,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Eingang",
    "thema": "Ticket, dann in den Wald",
    "kurztext": "Kasse an Brühlfeld 3, nur der Ticket-Shop. Dann westlich auf den Eichhörnchenpfad, ohne Stufe. Hunde anleinen. Kiosk und WC sitzen hier. Der Kletterwald „aufwärts“ liegt nördlich, anderer Block.",
@@ -255,15 +254,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 9026288442,
    "lat": 51.18888,
    "lon": 9.025293,
    "km": 0.4,
+   "reihenfolge": 2,
    "titel": "Eichhörnchenpfad",
    "thema": "Vom Boden in die Krone, Tafel Rotbuche",
    "kurztext": "Mitte des Pfads. Tafel Rotbuche, daneben Blätterwald und Netzwerke zum Mitmachen. Der Weg bleibt breit und rollstuhlgerecht. Der Steg kommt erst später, hier ist noch Waldboden.",
@@ -271,15 +269,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 9026284587,
    "lat": 51.189388,
    "lon": 9.020748,
    "km": 0.78,
+   "reihenfolge": 3,
    "titel": "TreeTopWalk",
    "thema": "Holzsteg, dreißig Meter, Stahlfachwerk",
    "kurztext": "Drehkreuz, dann aufs Holz. Zweihundertfünfzig Meter, bis dreißig hoch, Geländer und Drahtgeflecht. Tafel zum Bauwerk. Unten Buche, auf dem Steg Hainbuche, Lärche, Kiefer, Spechthöhle.",
@@ -287,15 +284,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 856417789,
    "lat": 51.18993,
    "lon": 9.0196298,
-   "km": 1.0,
+   "km": 1,
+   "reihenfolge": 4,
    "titel": "Aussicht Edersee",
    "thema": "See, Schloss Waldeck, versunkenes Dorf",
    "kurztext": "Ende des Stegs. Tafeln Der Edersee, Schloss Waldeck, Edersee Atlantis. Bei Klarheit die Staumauer und Waldeck. Zurück dieselbe Strecke zur Kasse.",
@@ -303,9 +299,7 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -313,209 +307,183 @@
    "osmId": 856417600,
    "lat": 51.1894201,
    "lon": 9.0209365,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 856417789,
    "lat": 51.18993,
    "lon": 9.0196298,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 1834231733,
    "lat": 51.1876092,
    "lon": 9.0299608,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1834231739,
    "lat": 51.1876365,
    "lon": 9.030102,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 1834231746,
    "lat": 51.1886257,
    "lon": 9.0261651,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1834231750,
    "lat": 51.189426,
    "lon": 9.0208352,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1834231751,
    "lat": 51.1894567,
    "lon": 9.0208765,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1834231762,
    "lat": 51.1896167,
    "lon": 9.019498,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   },
   {
    "osmId": 4420835195,
    "lat": 51.1893919,
    "lon": 9.0209083,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 4485478478,
    "lat": 51.1887331,
    "lon": 9.0310845,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 4485478479,
    "lat": 51.1887297,
    "lon": 9.0312079,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6727673858,
    "lat": 51.1878865,
    "lon": 9.0297386,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6727673859,
    "lat": 51.1880726,
    "lon": 9.0283231,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 6727673860,
    "lat": 51.1888688,
    "lon": 9.024198,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6727673861,
    "lat": 51.1887889,
    "lon": 9.0242047,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 9026288439,
    "lat": 51.1878013,
    "lon": 9.0297319,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 11055278152,
    "lat": 51.1889868,
    "lon": 9.024703,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11055278153,
    "lat": 51.1886609,
    "lon": 9.0259966,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12884314197,
    "lat": 51.1876662,
    "lon": 9.0299034,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12884354930,
    "lat": 51.1878822,
    "lon": 9.0296533,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12884354931,
    "lat": 51.1879373,
    "lon": 9.0297244,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 12884354932,
    "lat": 51.1889915,
    "lon": 9.0243046,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12884354933,
    "lat": 51.189428,
    "lon": 9.0204637,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13723165945,
    "lat": 51.1874983,
    "lon": 9.0292681,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13723173557,
    "lat": 51.1875048,
    "lon": 9.029223,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 14105484869,
    "lat": 51.1876588,
    "lon": 9.0241773,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   },
   {
    "osmId": 172527518,
-   "lat": 51.18740767777777,
-   "lon": 9.030030144444446,
+   "lat": 51.1874077,
+   "lon": 9.0300301,
    "kategorie": "parking",
    "name": "Parkplatz Baumkronenweg"
   },
   {
    "osmId": 172527521,
-   "lat": 51.18754906666667,
-   "lon": 9.029875144444445,
+   "lat": 51.1875491,
+   "lon": 9.0298751,
    "kategorie": "parking",
    "name": "Busparkplatz Baumkronenweg"
   },
   {
    "osmId": 172527515,
-   "lat": 51.18730083333333,
-   "lon": 9.030890733333335,
+   "lat": 51.1873008,
+   "lon": 9.0308907,
    "kategorie": "parking",
    "name": "Parkplatz Ost"
   },
   {
    "osmId": 1391896688,
-   "lat": 51.187542500000006,
-   "lon": 9.030378774999999,
+   "lat": 51.1875425,
+   "lon": 9.0303788,
    "kategorie": "wc",
    "name": "Toiletten Kasse"
   }
@@ -525,7 +493,6 @@
  "oeffnungszeiten": "Täglich 10–18 Uhr, letzter Einlass 17 Uhr (baumkronenweg.de). Februar Sa+So 10–16. Saison Outdooractive 1.3.–31.10.2026. Bei Extremwetter zu, Tel. 05623 9737977.",
  "besuchshinweise": "Steg und Eichhörnchenpfad ohne Stufen, Rollstuhl und Kinderwagen. Hunde an der Leine. WC im Kassenhaus, laut FAQ behindertengerecht. Kiosk an der Kasse. Kletterwald, Wildpark und NationalparkZentrum extra. Letzter Einlass 17 Uhr.",
  "hoertext": "Am Eschelberg überm Edersee. Ticket an der Kasse, dann der Eichhörnchenpfad zum Steg – siebenhundertfünfzig Meter, ohne Stufen. Oben zweihundertfünfzig Meter Holz, dreißig hoch. Kinderwagen und Rollstuhl mit, Hund an der Leine. Der See und Schloss Waldeck liegen vor dir. Wildpark extra. Letzter Einlass siebzehn Uhr.",
- "bilderAsset": "assets/images/trails/treetopwalk-edersee/credits.json",
  "lebensraeume": [
   "buchenwald",
   "see-ufer"
@@ -546,5 +513,18 @@
   "Eichelhäher": "typisch",
   "Kleiber": "typisch",
   "Mäusebussard": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "adbfc2ab-ef16-56c9-87af-6beda6f887be",
+   "id": "adbfc2ab-ef16-56c9-87af-6beda6f887be",
+   "caption": "Baumkronenweg Edersee, Steg durch die Kronen.",
+   "credit": "Ot",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumkronenpfad-Edersee.jpg",
+   "kind": "ort"
+  }
+ ]
 }

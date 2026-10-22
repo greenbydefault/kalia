@@ -5,7 +5,7 @@
  "gebiet": "wald",
  "kurzbeschreibung": "Rundweg durch den Küstenwald Rostocker Heide am Forst- und Köhlerhof Wiethagen – zehn Mitmach-Stationen, barrierearm, ohne Anmeldung.",
  "beschreibung": "Der Entdeckerpfad startet wenige Meter neben dem Forst- und Köhlerhof in Wiethagen, im größten zusammenhängenden Küstenwald Deutschlands. Zehn Stationen mischen Tafel und Mitmachen: Kletternetz, Fledermaus-Kurbelkasten, Grashalm-Labyrinth, Teich, Wassermusik, Eichenstamm. Die Runde bleibt auf den Schneisen um den Hof, offiziell 2,8 Kilometer, in etwa einer Stunde plus Spielpausen. Outdoor frei, ohne Anmeldung. Der Köhlerhof mit Teerofen und Märchenwald ist extra – eigene Öffnungszeiten, nicht Teil der Runde. Acht Kilometer Radweg mit Stationen 11 bis 15 führen weiter an die Ostsee nach Markgrafenheide; das ist nicht diese Schleife. Wege halten, Hunde anleinen. Von Station 8 bis 10 wird der Weg grasiger.",
- "laengeKm": 3.0,
+ "laengeKm": 3,
  "dauerMin": 75,
  "rundkurs": true,
  "markierung": "Stationen / Schneisen um den Forst- und Köhlerhof",
@@ -36,7 +36,6 @@
   "kinderwagentauglich",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    54.185492,
@@ -375,13 +374,13 @@
    12.247809
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -110190420,
    "lat": 54.18549,
    "lon": 12.24767,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Mitten im Netz",
    "thema": "Was ist Vielfalt?",
    "kurztext": "Lageplan zum Ertasten, Suchspiel, Kletternetz. Die Runde beginnt hier, nicht im Museum. Schau, welche Stationen du nacheinander nimmst – der Hof mit Teerofen bleibt extra.",
@@ -389,15 +388,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -4036853441,
    "lat": 54.18795,
    "lon": 12.24661,
    "km": 0.36,
+   "reihenfolge": 2,
    "titel": "Riesenwiese",
    "thema": "Wer in der Wiese wohnt",
    "kurztext": "Grashalm-Labyrinth: du bist der Käfer. Die Tafel nennt essbare Pflanzen und Wiesenbewohner. Nicht pflücken für den Korb – erst lesen, dann weiter.",
@@ -405,30 +403,28 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -1967438656,
    "lat": 54.18865,
    "lon": 12.24621,
    "km": 0.46,
+   "reihenfolge": 3,
    "titel": "Waffen der Natur",
    "thema": "Was nach dem Truppenplatz wächst",
    "kurztext": "Hier lag ein NVA-Übungsplatz. Die Tafel zeigt Fotos und Gucklöcher: Renaturierung statt Panzer. Setz dich auf den Stamm und vergleich, was der Wald zurückholt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": -2590788535,
    "lat": 54.19058,
    "lon": 12.24713,
    "km": 0.89,
+   "reihenfolge": 4,
    "titel": "Fledermaushaus",
    "thema": "Nachtschwärmer am Tag",
    "kurztext": "Kurbelkasten und Tunnelrutsche. Die Tiere selbst schlafen – du lernst den Hangplatz, ohne eine Fledermaus zu wecken. Spielplatz daneben, dann weiter auf der Schneise.",
@@ -436,15 +432,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -2628300633,
    "lat": 54.19218,
    "lon": 12.24879,
    "km": 1.09,
+   "reihenfolge": 5,
    "titel": "Schiefe Pfütze",
    "thema": "Frösche und Kammmolch",
    "kurztext": "Teich mit Pegel. Bleib am Rand, Frösche nicht fangen. Die Tafel erklärt Laich und Molch – beobachten reicht.",
@@ -452,15 +447,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -2877270008,
    "lat": 54.1925,
    "lon": 12.2489,
    "km": 1.09,
+   "reihenfolge": 6,
    "titel": "Rostocker Nachtleben",
    "thema": "Wer den Tag verschläft",
    "kurztext": "Kurbelkästen zu Dachs, Siebenschläfer, Fledermaus. Tagsüber siehst du sie nicht – die Station zeigt den Rhythmus, ohne Taschenlampe im Dickicht.",
@@ -468,15 +462,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": -3055694349,
    "lat": 54.19318,
    "lon": 12.24898,
    "km": 1.14,
+   "reihenfolge": 7,
    "titel": "Wasserstand",
    "thema": "Wasser schöpfen, Wasser hören",
    "kurztext": "Rinnen, Klangschalen, schöpfen. Nasse Hände, feste Schuhe. Nach dem Spiel weiter auf der Schneise, nichts mitnehmen außer dem Geräusch.",
@@ -484,15 +477,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": -2380579919,
    "lat": 54.19056,
    "lon": 12.25141,
    "km": 1.64,
+   "reihenfolge": 8,
    "titel": "Apotheke Wald",
    "thema": "Waldmedizin für Tier und Mensch",
    "kurztext": "Kräuter- und Beeren-Fibel an der Tafel. Nichts in den Mund, auch wenn es heil klingt. Letzte Station der Runde – zurück auf der Schneise zum Hof.",
@@ -500,15 +492,14 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": -728409647,
    "lat": 54.1888,
    "lon": 12.2502,
    "km": 1.77,
+   "reihenfolge": 9,
    "titel": "Borke, Blatt & Co",
    "thema": "Welche Bäume die Heide trägt",
    "kurztext": "Memory zur Baumkunde, dann die Standorte neben der Station suchen. Kiefer, Buche, Eiche: Rinde und Blatt, nicht der Name zuerst.",
@@ -516,24 +507,21 @@
     "tafel",
     "memory"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": -3529535270,
    "lat": 54.18728,
    "lon": 12.24812,
    "km": 2.17,
+   "reihenfolge": 10,
    "titel": "Pension Eiche",
    "thema": "Tausend Gäste in einem Baum",
    "kurztext": "Brücke, Balancierstamm, Tafel zur Eichel. Eine Stieleiche beherbergt Hunderte Insektenarten. Ab hier wird der Weg grasiger – kein Rollstuhl-Anspruch mehr.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -548,88 +536,75 @@
    "osmId": 370134804,
    "lat": 54.18864,
    "lon": 12.24618,
-   "kategorie": "shelter",
-   "name": null
+   "kategorie": "shelter"
   },
   {
    "osmId": 1258415361,
    "lat": 54.18597,
    "lon": 12.24671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1258415394,
    "lat": 54.18599,
    "lon": 12.24671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1258415427,
    "lat": 54.18591,
    "lon": 12.24671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1258415489,
    "lat": 54.18594,
    "lon": 12.24671,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6164559139,
    "lat": 54.18419,
    "lon": 12.24474,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6164559140,
    "lat": 54.19137,
    "lon": 12.24597,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 9844612292,
    "lat": 54.19106,
    "lon": 12.24855,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 1258415381,
    "lat": 54.18549,
    "lon": 12.24767,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 1258415434,
    "lat": 54.18571,
    "lon": 12.24617,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 802178370,
    "lat": 54.18853,
    "lon": 12.24591,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 802178371,
    "lat": 54.19067,
    "lon": 12.24725,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   }
  ],
- "bilderAsset": "assets/images/trails/entdeckerpfad-biologische-vielfalt/credits.json",
  "lebensraeume": [
   "kuestenwald-kiefer",
   "teich-tuempel",
@@ -651,5 +626,18 @@
   "Schilf": "typisch",
   "Adlerfarn": "typisch",
   "Eberesche": "typisch"
- }
+ },
+ "dataVersion": 1,
+ "bilder": [
+  {
+   "file": "54515ce9-86ab-5071-867d-a382fa523c66",
+   "id": "54515ce9-86ab-5071-867d-a382fa523c66",
+   "caption": "Parkplatz und Eingang am Forst- und Köhlerhof Wiethagen – hier startet die Runde.",
+   "credit": "Assenmacher",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forst-_und_K%C3%B6hlerhof_Wiethagen_Parkplatz.JPG",
+   "kind": "ort"
+  }
+ ]
 }

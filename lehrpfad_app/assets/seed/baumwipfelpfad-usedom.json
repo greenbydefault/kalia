@@ -3,8 +3,8 @@
  "name": "Baumwipfelpfad Usedom",
  "typ": "erlebniswald",
  "gebiet": "wald",
- "kurzbeschreibung": "Ein Holzsteg steigt 1350 Meter durch Buchen und Kiefern auf den Präsidentenberg in Heringsdorf. Der 33 Meter hohe Turm trägt oben ein Netz.",
- "beschreibung": "Der Präsidentenberg ist der höchste Punkt der Insel. Auf ihm steht der Turm, dort, wo früher die Bismarckwarte stand. Von oben reicht der Blick über die Kaiserbäder und die Ostsee, bei klarer Sicht bis Swinemünde. Die Rampe kommt ohne Stufe aus und steigt höchstens sechs Prozent. Bis zu 23 Meter über dem Boden führt der Steg durch den Mischwald. Das Totholz bleibt, denn Specht und Seeadler brauchen die Löcher. Tafeln am Geländer erzählen von den Tieren und Pflanzen der Insel, die Comic-Rallye mit dem Seeadler gibt es an der Kasse.",
+ "kurzbeschreibung": "1350 Meter Steg durch Buchen und Kiefern in Heringsdorf – Turm 33 Meter auf dem Präsidentenberg, Netz oben, Balancier extra. Kinderwagen und Rollstuhl. Eintritt.",
+ "beschreibung": "Neben dem Bahnhof Heringsdorf führt der Baumwipfelpfad vom Einstiegsturm durch Mischwald auf den Präsidentenberg. 1350 Meter inkl. Rampe, der Steg bis 23 Meter, der Turm 33 Meter – oben ein Netz von 50 Quadratmetern, alles ohne Stufen, höchstens sechs Prozent, Einstieg mit Aufzug. Dazwischen Balancier und Tafeln zur Insel, Buchen und Kiefern. Die Comic-Rallye mit dem Seeadler holst du an der Kasse. Betreiberin ist die Erlebnis Akademie AG. Hunde bleiben in Boxen, Assistenzhunde ausgenommen. Kinder unter 14 nur mit Erwachsenem. Futterkrippe und Spielplatz sind unten, nicht der Steg. Eine bis zwei Stunden.",
  "laengeKm": 1.35,
  "dauerMin": 90,
  "rundkurs": false,
@@ -37,7 +37,6 @@
   "einkehr",
   "spielplatz"
  ],
- "form": "linie",
  "route": [
   [
    53.949002,
@@ -148,13 +147,13 @@
    14.16967
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": -2822783460,
    "lat": 53.9490019,
    "lon": 14.168293,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Kasse / Einstiegsturm",
    "thema": "Lift, dann ohne Stufe",
    "kurztext": "Hier beginnt der Steg. Ticket an der Kasse oder online, dann rauf mit dem Aufzug – keine Treppe, sechs Prozent reichen. Letzter Einlass eine Stunde vor Schluss. Comic-Heft für die Rallye liegt an der Kasse.",
@@ -162,15 +161,14 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": -3211937027,
    "lat": 53.9480727,
    "lon": 14.1697257,
    "km": 0.22,
+   "reihenfolge": 2,
    "titel": "Lernstation Insel",
    "thema": "Was auf Usedom wächst",
    "kurztext": "Tafeln am Geländer zur Tier- und Pflanzenwelt der Insel. Die Comic-Rallye mit dem Seeadler sucht hier die Antworten. Schau in die Krone, nicht nur zum Turm.",
@@ -178,15 +176,14 @@
     "tafel",
     "quiz"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": -1096437279,
    "lat": 53.9477376,
    "lon": 14.1707134,
    "km": 0.4,
+   "reihenfolge": 3,
    "titel": "Balancier",
    "thema": "Der Steg gibt nach",
    "kurztext": "Wackelsteg neben der Hauptlinie. Die Bretter federen, der Rest bleibt starr. Kein Muss – Kinderwagen und Rollstuhl bleiben auf dem geraden Steg.",
@@ -194,30 +191,28 @@
     "mitmach-modell",
     "steg"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": -3054683600,
    "lat": 53.9470599,
    "lon": 14.1708209,
    "km": 0.58,
+   "reihenfolge": 4,
    "titel": "Buchen und Kiefern",
    "thema": "Zwei Kronen, ein Steg",
    "kurztext": "Mischwald: Buche unten dicht, Kiefer lichter. Der Steg liegt dazwischen, bis 23 Meter über dem Boden. Totholz bleibt, Specht und Seeadler brauchen die Löcher.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": -458346498,
    "lat": 53.94657422,
    "lon": 14.1696698,
    "km": 0.85,
+   "reihenfolge": 5,
    "titel": "Aussichtsturm",
    "thema": "33 Meter auf dem Präsidentenberg",
    "kurztext": "Rampe ohne Stufe, 565 Meter Spirale. Oben 75 Meter über NN, höchster Punkt der Insel: Kaiserbäder, Ostsee, bei klarem Blick Swinemünde. Der Turm steht, wo die Bismarckwarte stand.",
@@ -225,24 +220,21 @@
     "tafel",
     "steg"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": -1846601511,
    "lat": 53.94657422,
    "lon": 14.1696698,
    "km": 1.35,
+   "reihenfolge": 6,
    "titel": "Netz",
    "thema": "Fünfzig Quadratmeter über dem Holz",
    "kurztext": "Oben auf der Plattform liegt ein Netz. Hinlegen, durchgucken, Wald von unten. Kinderwagen bleibt am Rand. Runter denselben Weg, der Einstiegsturm hat den Aufzug.",
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -257,65 +249,56 @@
    "osmId": 8956914474,
    "lat": 53.9491917,
    "lon": 14.1681408,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9548160803,
    "lat": 53.9491301,
    "lon": 14.1681327,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 9548160804,
    "lat": 53.9491695,
    "lon": 14.1681384,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 11470093806,
    "lat": 53.9490311,
    "lon": 14.169201,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 179414668,
-   "lat": 53.94921664000001,
+   "lat": 53.94921664,
    "lon": 14.16850248,
-   "kategorie": "playground",
-   "name": null
+   "kategorie": "playground"
   },
   {
    "osmId": 179414789,
    "lat": 53.9488596,
-   "lon": 14.169724385714288,
-   "kategorie": "parking",
-   "name": null
+   "lon": 14.1697243857143,
+   "kategorie": "parking"
   },
   {
    "osmId": 1036373676,
    "lat": 53.94930712,
    "lon": 14.16838916,
-   "kategorie": "parking",
-   "name": null
+   "kategorie": "parking"
   },
   {
    "osmId": 1249838655,
    "lat": 53.94657422,
    "lon": 14.1696698,
-   "kategorie": "viewpoint",
-   "name": null
+   "kategorie": "viewpoint"
   }
  ],
  "eintritt": true,
  "eintrittPreise": "Erwachsene 14 €, ermäßigt 13 € (Ausweis: Behinderung, Schüler ab 15, Studierende, Rentner, 65+), Kinder 6–14 Jahre 12 €, unter 6 frei, Familie (2 Erwachsene + eigene Kinder 6–14) 33 €. Stand 2026, treetop-walks.com/usedom/baumwipfelpfad/preise.",
  "oeffnungszeiten": "Januar–März und November–Dezember täglich 9:30–16 Uhr. April und Oktober 9:30–18. Mai–September 9:30–19. Letzter Einlass 1 Stunde vorher. 24.12. zu. Bei Gewitter, Hagel, Sturm oder Eis zu. Regen und Schnee: offen.",
- "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Steg, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Rollstuhl und Rollator nach Anmeldung, Einstieg mit Aufzug. Letzter Einlass eine Stunde vor Schluss. Bei Gewitter, Hagel, Sturm und Eis geschlossen.",
+ "besuchshinweise": "Kinder unter 14 nur mit Erwachsenem. Hunde nicht auf den Pfad, Assistenzhunde ausgenommen; Hundeboxen an der Kasse. Pfad und Turm ohne Stufen, max. 6 %, Kinderwagen und Rollstuhl. Einstiegsturm mit Aufzug, oben bis zur Plattform. Rollstuhl oder Rollator nach Anmeldung. Comic-Rallye an der Kasse. Letzter Einlass 1 Stunde vor Schluss.",
  "hoertext": "Gleich neben dem Bahnhof von Heringsdorf beginnt ein Holzsteg, und er hat es nicht eilig. Ganz allmählich steigt er durch Buchen und Kiefern, bis die Kronen auf Augenhöhe rauschen. An einer Stelle federn die Bretter. Auf dem Präsidentenberg wartet der Turm, und um ihn windet sich der Weg, Runde um Runde und ohne eine einzige Stufe, bis er hoch oben in ein Netz mündet. Wer sich hineinlegt, sieht durch die Maschen hinunter in den Wald. Und wer den Kopf hebt, hat die Ostsee vor sich. Spät sollte man allerdings nicht kommen, denn eine Stunde vor Schluss schließt unten die Kasse.",
- "bilderAsset": "assets/images/trails/baumwipfelpfad-usedom/credits.json",
  "lebensraeume": [
   "kuestenwald-kiefer",
   "buchenwald"
@@ -336,5 +319,18 @@
   "Amsel": "typisch",
   "Bergahorn": "typisch",
   "Blaumeise": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "d5305daf-780b-5929-8240-7d4d4252e4e2",
+   "id": "d5305daf-780b-5929-8240-7d4d4252e4e2",
+   "caption": "Steg durch den Mischwald in Heringsdorf.",
+   "credit": "Maddl79",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaumwipfelpfad_Usedom_2023_01.jpg",
+   "kind": "ort"
+  }
+ ]
 }

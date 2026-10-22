@@ -57,7 +57,6 @@
   "rollstuhltauglich",
   "einkehr"
  ],
- "form": "linie",
  "route": [
   [
    54.258755,
@@ -168,13 +167,13 @@
    12.264519
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 6448605990,
    "lat": 54.2596726,
    "lon": 12.2442738,
    "km": 0.24,
+   "reihenfolge": 1,
    "titel": "Blasentang",
    "thema": "Merkmale, Vorkommen, Vermehrung, Verwendung",
    "kurztext": "Steckbrief zu Merkmalen, Vorkommen, Vermehrung und Verwendung. Die Skulptur ist aus Kunststoff und steht am Strandzugang 20.",
@@ -182,15 +181,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": true
   },
   {
    "osmId": 6448606001,
    "lat": 54.2605114,
    "lon": 12.247139,
    "km": 0.46,
+   "reihenfolge": 2,
    "titel": "Miesmuschel",
    "thema": "Merkmale, Funktionsweise, Lebensraum",
    "kurztext": "Steckbrief zu Merkmalen, Funktionsweise und Lebensraum. Die Skulptur steht an den Strandzugängen 16 und 17.",
@@ -198,15 +196,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": true
   },
   {
    "osmId": 6448606015,
    "lat": 54.2613421,
    "lon": 12.2493904,
    "km": 0.62,
+   "reihenfolge": 3,
    "titel": "Kupferbrauner Sandlaufkäfer",
    "thema": "Lebensweise und Vorkommen",
    "kurztext": "Steckbrief zu Lebensweise und Vorkommen des Sandlaufkäfers. Die Skulptur steht am Strandzugang 14.",
@@ -214,15 +211,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": true
   },
   {
    "osmId": 11048540354,
    "lat": 54.2627913,
    "lon": 12.2533083,
    "km": 0.91,
+   "reihenfolge": 4,
    "titel": "Strandhafer",
    "thema": "Besonderheiten des Strandhafers",
    "kurztext": "Steckbrief zu den Besonderheiten des Strandhafers. Die Skulptur steht am Strandzugang 12.",
@@ -230,15 +226,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": true
   },
   {
    "osmId": 11048540356,
    "lat": 54.2635008,
    "lon": 12.2552512,
    "km": 1.02,
+   "reihenfolge": 5,
    "titel": "Seepocke",
    "thema": "Lebensweise und Vorkommen",
    "kurztext": "Steckbrief zu Lebensweise und Vorkommen. Die Skulptur steht am Strandzugang 11.",
@@ -246,15 +241,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": true
   },
   {
    "osmId": 11048540364,
    "lat": 54.2653707,
    "lon": 12.2603746,
    "km": 1.48,
+   "reihenfolge": 6,
    "titel": "Flunder",
    "thema": "Merkmale, Besonderheit, Vorkommen",
    "kurztext": "Steckbrief zu Merkmalen, Besonderheit und Vorkommen. Die Skulptur steht am Strandzugang 9.",
@@ -262,15 +256,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": true
   },
   {
    "osmId": 11048540357,
    "lat": 54.266086,
    "lon": 12.2621363,
    "km": 1.56,
+   "reihenfolge": 7,
    "titel": "Silbermöwe",
    "thema": "Merkmale, Vorkommen, Jungtiere, Ernährung",
    "kurztext": "Steckbrief zu Merkmalen, Vorkommen, Jungtieren und Ernährung. Die Skulptur steht am Strandzugang 8.",
@@ -278,15 +271,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": true
   },
   {
    "osmId": 11048540350,
    "lat": 54.2663728,
    "lon": 12.2628606,
    "km": 1.65,
+   "reihenfolge": 8,
    "titel": "Seeringelwurm",
    "thema": "Lebensweise",
    "kurztext": "Steckbrief zur Lebensweise des Seeringelwurms. Die Skulptur steht am Strandzugang 7.",
@@ -294,15 +286,14 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": true
   },
   {
    "osmId": 11048540349,
    "lat": 54.2669734,
    "lon": 12.2644143,
    "km": 1.77,
+   "reihenfolge": 9,
    "titel": "Ohrenqualle",
    "thema": "Bau und Vorkommen",
    "kurztext": "Steckbrief zu Bau und Vorkommen. Die Skulptur steht am Strandzugang 6.",
@@ -310,9 +301,7 @@
     "tafel",
     "mitmach-modell"
    ],
-   "barrierefrei": true,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": true
   }
  ],
  "amenities": [
@@ -341,8 +330,7 @@
    "osmId": 4897133964,
    "lat": 54.2584272,
    "lon": 12.2428508,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 4897834947,
@@ -362,50 +350,43 @@
    "osmId": 6448605988,
    "lat": 54.2596491,
    "lon": 12.2442171,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6448606003,
    "lat": 54.26052,
    "lon": 12.2472071,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6448606017,
    "lat": 54.2613278,
    "lon": 12.2493542,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 6797088586,
    "lat": 54.2586316,
    "lon": 12.2410678,
-   "kategorie": "wc",
-   "name": null
+   "kategorie": "wc"
   },
   {
    "osmId": 7923927789,
    "lat": 54.2594846,
    "lon": 12.2415983,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7923927790,
    "lat": 54.2594772,
    "lon": 12.2415504,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7923927791,
    "lat": 54.2599724,
    "lon": 12.2412058,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 7923946011,
@@ -418,75 +399,76 @@
    "osmId": 11048540353,
    "lat": 54.2660631,
    "lon": 12.2621024,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11048540355,
    "lat": 54.2627736,
    "lon": 12.2532576,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11048540358,
    "lat": 54.2653458,
    "lon": 12.2603204,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11048540359,
    "lat": 54.2669922,
    "lon": 12.2644688,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11048540362,
    "lat": 54.2663543,
    "lon": 12.2628269,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11071232635,
    "lat": 54.2634848,
    "lon": 12.2552061,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 11071232636,
    "lat": 54.2669847,
    "lon": 12.26445,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12287890689,
    "lat": 54.262069,
    "lon": 12.2512713,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12892638725,
    "lat": 54.2618105,
    "lon": 12.2517506,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 13246009510,
    "lat": 54.2599625,
    "lon": 12.2411551,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   }
  ],
- "eintritt": false,
  "besuchshinweise": "Von der Seebrücke nach rechts bis Müritz-Ost. Fahrräder sind auf diesem Promenadenstück zugelassen.",
  "hoertext": "Rechts von der Seebrücke schwenkt das Pflaster nach Osten, und die Ostsee bleibt links. Übergroße Skulpturen ragen aus der Reihe, vorn der Tang. Zwischen den Skulpturen hält das Meer Schritt, die ganze Promenade lang, bis zum letzten Zugang. Silke Schilling formte sie in Lieblingshof. Neben jeder Skulptur erklärt eine knappe Tafel das Leben an der Küste. Die Reihe zieht sich vom Blasentang bis zur Ohrenqualle, Zugang um Zugang, und wer eine Skulptur anfasst, darf sie bespielen. Räder dürfen auf diesem Stück mitrollen.",
- "bilderAsset": "assets/images/trails/grossartige-kuestenflora-graal-mueritz/credits.json"
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "922f0f67-0dbb-5642-b2e4-991bb5b2d7ca",
+   "id": "922f0f67-0dbb-5642-b2e4-991bb5b2d7ca",
+   "caption": "Miesmuschel-Skulptur an der Strandpromenade.",
+   "credit": "Assenmacher",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graal-M%C3%BCritz_Strandpromenade_Miesmuschel-Modell.JPG",
+   "kind": "ort"
+  }
+ ]
 }

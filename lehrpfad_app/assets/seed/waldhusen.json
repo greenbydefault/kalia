@@ -35,7 +35,6 @@
   "hunde-erlaubt",
   "picknick"
  ],
- "form": "linie",
  "route": [
   [
    53.922537,
@@ -750,73 +749,69 @@
    10.793199
   ]
  ],
- "area": [],
  "stationen": [
   {
    "osmId": 3399641147,
    "lat": 53.9225397,
    "lon": 10.7930888,
-   "km": 0.0,
+   "km": 0,
+   "reihenfolge": 1,
    "titel": "Übersichtskarte",
    "thema": "21 Stationen im Waldhusener Forst",
    "kurztext": "Hier hängt die Karte. 21 Nummern, von der Forstgeschichte bis zum Lager. Nicht jede Tafel steht noch. Die Hügel, der Wall und das Steingrab bleiben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 1
+   "barrierefrei": false
   },
   {
    "osmId": 412699729,
    "lat": 53.9243114,
    "lon": 10.7911094,
    "km": 0.27,
+   "reihenfolge": 2,
    "titel": "Waldhusener Forstgeschichte",
    "thema": "Waldschutz im 18. Jahrhundert",
    "kurztext": "Holz wurde knapp, der Rat hat den Forst unter Schutz gestellt. Die Tafel erzählt, was passiert, wenn eine Stadt ihren Wald leer räumt und dann umkehrt.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 2
+   "barrierefrei": false
   },
   {
    "osmId": 412699730,
    "lat": 53.9284637,
    "lon": 10.7895768,
    "km": 0.74,
+   "reihenfolge": 3,
    "titel": "Altes Wegesystem",
    "thema": "Hohlweg und Flurwechsel im 19. Jahrhundert",
    "kurztext": "Der Weg liegt tiefer als der Wald daneben. Fuhrwerke, Jahrhunderte. Im 19. Jahrhundert haben sie das Wegenetz umgelegt. Die Tafel zeigt alt und neu übereinander.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 3
+   "barrierefrei": false
   },
   {
    "osmId": 1630099819,
    "lat": 53.9293592,
    "lon": 10.7905832,
    "km": 0.86,
+   "reihenfolge": 4,
    "titel": "Grenzstein Nr. 29",
    "thema": "Grenze Lübeck–Oldenburg, 1804",
    "kurztext": "Ein Stein, zwei Wappen. 1804, Vertrag mit Oldenburg. Von siebzig Steinen stehen noch neun, drei davon am alten Platz. Dieser ist einer.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 4
+   "barrierefrei": false
   },
   {
    "osmId": 3399642496,
    "lat": 53.9278567,
    "lon": 10.7924525,
    "km": 0.94,
+   "reihenfolge": 5,
    "titel": "Waldwirtschaft",
    "thema": "Buchenwald, der nicht aufgeräumt wird",
    "kurztext": "Rotbuchen, Totholz, wenig Unterwuchs. Die Tafel trennt, was der Forst macht und was der Bestand allein macht. Blatt oval, Rand glatt, Rinde grau.",
@@ -824,204 +819,189 @@
     "tafel",
     "bestimmung"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 5
+   "barrierefrei": false
   },
   {
    "osmId": 3450110151,
    "lat": 53.9267328,
    "lon": 10.7965565,
    "km": 1.49,
+   "reihenfolge": 6,
    "titel": "Hügelgräber Herrenberg",
    "thema": "Neun Hügel der jüngeren Bronzezeit",
    "kurztext": "Neun Buckel im Wald, der Weg heißt hier Reich der Toten. Jüngere Bronzezeit. Drunter Bestattungen, oben Laub. Nicht raufklettern, der Hügel ist der Fund.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 6
+   "barrierefrei": false
   },
   {
    "osmId": 3450110116,
    "lat": 53.9280026,
    "lon": 10.8050323,
    "km": 2.17,
+   "reihenfolge": 7,
    "titel": "Das Pöppendorfer Herrenmoor",
    "thema": "Eiszeitsenke, Torf bis 1925",
    "kurztext": "Eine Senke aus der Eiszeit, nass, Torf bis 1925. Was du siehst, ist kein Urwald-Moor. Es ist ein Loch, aus dem Leute Brennstoff geholt haben.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 7
+   "barrierefrei": false
   },
   {
    "osmId": 3436551014,
    "lat": 53.9272787,
    "lon": 10.8062294,
    "km": 2.28,
+   "reihenfolge": 8,
    "titel": "Großsteingrab Steinhusen",
    "thema": "Megalithgrab, rund 5500 Jahre",
    "kurztext": "Kammer aus Findlingen, der Erdhügel ist seit 1843 weg. Erste Grabung hat die Decke abgetragen, damit man reinkommt. Die Steine sind der Rest.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 8
+   "barrierefrei": false
   },
   {
    "osmId": 3450110117,
    "lat": 53.9274645,
    "lon": 10.8081027,
    "km": 2.38,
+   "reihenfolge": 9,
    "titel": "Der Os",
    "thema": "Wall aus der Eiszeit",
    "kurztext": "Kein Grab, kein Wall von Menschen. Ein Os: Schmelzwasser hat Kies in einem Tunnel unter dem Eis abgelegt. Als das Eis weg war, blieb der Rücken.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 9
+   "barrierefrei": false
   },
   {
    "osmId": 3450110119,
    "lat": 53.928111,
    "lon": 10.810844,
    "km": 2.62,
+   "reihenfolge": 10,
    "titel": "Die Siedlung vor dem Ringwall",
    "thema": "Vorburg und Alltag unter dem Wall",
    "kurztext": "Nicht jeder hat auf dem Wall gewohnt. Davor lag die Siedlung. Die Tafel holt die Leute vom Burgblick runter in den Alltag: Häuser, Wege, Felder.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 10
+   "barrierefrei": false
   },
   {
    "osmId": 2014748260,
    "lat": 53.931087,
    "lon": 10.8124201,
    "km": 2.92,
+   "reihenfolge": 11,
    "titel": "Pöppendorfer Ringwall",
    "thema": "Slawische Burg",
    "kurztext": "Ein Ring aus Erde, Treppe auf die Krone. Slawen, vor den Deutschen. Von oben siehst du, warum man hier gebaut hat: Überblick, nasse Senken drumherum.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 11
+   "barrierefrei": false
   },
   {
    "osmId": 3450110115,
    "lat": 53.9254441,
    "lon": 10.8104396,
    "km": 3.58,
+   "reihenfolge": 12,
    "titel": "Das Pöppendorfer Bauernmoor",
    "thema": "Abgetorft bis zum Wasserloch",
    "kurztext": "Hier haben sie so tief gestochen, dass Wasser blieb. Kein See von der Eiszeit, ein Arbeitsunfall der Torfwirtschaft. Enten sitzen trotzdem.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 12
+   "barrierefrei": false
   },
   {
    "osmId": 3450110118,
    "lat": 53.9247112,
    "lon": 10.8106327,
    "km": 3.68,
+   "reihenfolge": 13,
    "titel": "Slawische Hügelgräber Pöppendorfer Hals",
    "thema": "Gräber des 8. bis 10. Jahrhunderts",
    "kurztext": "Hügel auf dem schmalen Rücken zwischen den Mooren. 8. bis 10. Jahrhundert, slawisch, jünger als die Bronzezeit-Hügel am Herrenberg. Dieselbe Form, andere Leute.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 13
+   "barrierefrei": false
   },
   {
    "osmId": 3450110192,
    "lat": 53.9222252,
    "lon": 10.8046085,
    "km": 4.13,
+   "reihenfolge": 14,
    "titel": "Drei Hügelgräber aus der Bronzezeit",
    "thema": "Waffen, Werkzeug, Schmuck",
    "kurztext": "Drei Hügel, Bronzezeit. Die Tafel zeigt, was mit in die Erde ging: Klinge, Nadel, Ton. Die Körper sind weg, die Beigaben erzählen den Stand.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 14
+   "barrierefrei": false
   },
   {
    "osmId": 3450110191,
    "lat": 53.9221209,
    "lon": 10.8000112,
    "km": 4.53,
+   "reihenfolge": 15,
    "titel": "Zwei Hügelgräber aus der Bronzezeit",
    "thema": "Siedlung, Acker, Handel",
    "kurztext": "Noch zwei Hügel, dasselbe Jahrtausend. Diesmal nicht die Gräber selbst, sondern wer hier gelebt hat: Hof, Feld, Tausch. Die Toten liegen im Wald der Lebenden.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 15
+   "barrierefrei": false
   },
   {
    "osmId": 7838732580,
    "lat": 53.92117,
    "lon": 10.7977366,
    "km": 4.92,
+   "reihenfolge": 16,
    "titel": "Grenzverlauf Kücknitz und Pöppendorf",
    "thema": "Kleine Wälle und ein Tordurchlass",
    "kurztext": "Nicht die Staatsgrenze von Stein 29. Hier teilen sich zwei Dörfer den Wald. Kleine Wälle, ein Durchlass. Die Gemarkung ist älter als die Tafeln.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 16
+   "barrierefrei": false
   },
   {
    "osmId": 7838732581,
    "lat": 53.9217641,
    "lon": 10.7965517,
    "km": 5.03,
+   "reihenfolge": 17,
    "titel": "Philosophenweg und Philosophengrund",
    "thema": "Emanuel Geibel im Waldhusener Forst",
    "kurztext": "Emanuel Geibel ist hier gelaufen, zwei Gedichte sollen von diesem Weg stammen. Der Name blieb. Der Wald war schon vorher da.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 17
+   "barrierefrei": false
   },
   {
    "osmId": 3700757318,
    "lat": 53.9225148,
    "lon": 10.7934551,
    "km": 5.31,
+   "reihenfolge": 18,
    "titel": "Lager Pöppendorf",
    "thema": "Flüchtlingslager 1945–1951",
    "kurztext": "150 Baracken, bis zu 5000 Menschen gleichzeitig, 1945 bis 1951. Heute Parkplatz und Tafel. Fundamentreste, wenn du weißt, wo du hinsehen sollst.",
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": false,
-   "steckbrief": null,
-   "reihenfolge": 18
+   "barrierefrei": false
   }
  ],
  "amenities": [
@@ -1036,47 +1016,40 @@
    "osmId": 343152721,
    "lat": 53.9244192,
    "lon": 10.8109929,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 2014748194,
    "lat": 53.931058,
    "lon": 10.8124651,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3450110126,
    "lat": 53.922426,
    "lon": 10.8050026,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12605426884,
    "lat": 53.9270327,
    "lon": 10.8057021,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 12861988048,
    "lat": 53.9204717,
    "lon": 10.7986976,
-   "kategorie": "bench",
-   "name": null
+   "kategorie": "bench"
   },
   {
    "osmId": 3399641171,
    "lat": 53.9227006,
    "lon": 10.7934421,
-   "kategorie": "picnic",
-   "name": null
+   "kategorie": "picnic"
   }
  ],
  "hoertext": "Gleich hinter Pöppendorf gräbt sich ein alter Fahrweg in den Forst, so tief haben ihn Fuhrwerke über Jahrhunderte ausgefahren. Ein Grenzstein trägt zwei Wappen, gesetzt achtzehnhundertvier. Am Herrenberg wölben sich neun Hügel aus dem Laub, Gräber aus der Bronzezeit, und der Weg heißt hier Reich der Toten. Die Findlinge des Steingrabs zählen gut fünftausend Jahre. Eine Treppe führt auf den slawischen Ringwall, und von seiner Krone aus fällt der Blick über die nassen Senken ringsum, die einst die Burg schützten. Manche Tafel fehlt inzwischen. Hinaufklettern sollte trotzdem niemand, denn bei den Hügeln steckt der Fund in der Erde selbst.",
- "bilderAsset": "assets/images/trails/waldhusen/credits.json",
  "lebensraeume": [
   "buchenwald"
  ],
@@ -1096,5 +1069,18 @@
   "Eichhörnchen": "typisch",
   "Gemeine Esche": "typisch",
   "Kleiber": "typisch"
- }
+ },
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "68ab6cc7-b935-5741-81a6-cfa505f5cacd",
+   "id": "68ab6cc7-b935-5741-81a6-cfa505f5cacd",
+   "caption": "Waldhusener Forst bei Lübeck.",
+   "credit": "Anjalorenz",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaldhusener_Forst.jpg",
+   "kind": "ort"
+  }
+ ]
 }

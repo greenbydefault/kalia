@@ -26,9 +26,10 @@
  ],
  "tags": [
   "kinderfreundlich",
-  "spielplatz"
+  "spielplatz",
+  "kinderwagentauglich",
+  "picknick"
  ],
- "route": [],
  "area": [
   [
    53.1605477,
@@ -92,8 +93,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 910002,
@@ -107,8 +107,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 910003,
@@ -122,8 +121,7 @@
    "erlebnisse": [
     "mitmach-modell"
    ],
-   "barrierefrei": false,
-   "steckbrief": null
+   "barrierefrei": false
   },
   {
    "osmId": 910004,
@@ -137,17 +135,24 @@
    "erlebnisse": [
     "tafel"
    ],
-   "barrierefrei": true,
-   "steckbrief": null
+   "barrierefrei": true
   }
  ],
  "amenities": [],
  "hoertext": "Vor der alten Stadtmauer von Wittstock, im Friedrich-Ebert-Park an der Glinze, spritzt Wasser aus Steinen. Es sammelt sich in einer gepflasterten Rinne und läuft davon, bis kleine Hände es an einem Wehr aufhalten, zu einem Teich anstauen und mit einem Ruck wieder loslassen. Am Matschtisch hilft eine Pumpe nach, und aus Sand werden Kanäle und Dämme. Über allem wachen drei riesige Libellen aus Stahl und Glas, die nachts zu leuchten beginnen. Manchmal zieht eine echte vorbei, winzig dagegen. Trocken geht hier kaum jemand nach Hause, Wechselsachen gehören also ins Gepäck.",
- "bilderAsset": "assets/images/trails/libellen-wasserspielplatz-wittstock/credits.json",
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "artenNachweis": {
-  "Libelle": "belegt",
-  "Biber": "belegt"
- }
+ "dataVersion": 2,
+ "bilder": [
+  {
+   "file": "7997986a-80d9-5d5a-bfcf-8bc6ac054971",
+   "id": "7997986a-80d9-5d5a-bfcf-8bc6ac054971",
+   "caption": "Friedrich-Ebert-Park in Wittstock – hier liegt der Wasserspielplatz.",
+   "credit": "Fridolin freudenfett",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWittstock_%28Dosse%29_Friedrich-Ebert-Park.jpg",
+   "kind": "ort"
+  }
+ ]
 }

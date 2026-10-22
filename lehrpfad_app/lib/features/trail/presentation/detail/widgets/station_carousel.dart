@@ -21,10 +21,8 @@ class StationCarousel extends StatelessWidget {
     return ContentCarousel<Station>(
       items: stations,
       layout: ContentCarouselLayout.peek,
-      itemBuilder: (station) => StationTile(
-        station: station,
-        onTap: () => onTap(station),
-      ),
+      itemBuilder: (station) =>
+          StationTile(station: station, onTap: () => onTap(station)),
     );
   }
 }
