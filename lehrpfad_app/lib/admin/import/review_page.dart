@@ -13,6 +13,7 @@ import '../core/admin_repository.dart';
 import '../core/collection_spec.dart';
 import '../core/field_spec.dart';
 import '../shell/record_editor.dart';
+import 'docx_zip.dart';
 import 'import_dialogs.dart';
 import 'import_frames.dart';
 import 'import_models.dart';
@@ -628,13 +629,13 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
   Future<void> _replaceFile(ImportJob job) async {
     final f = await openFile(
       acceptedTypeGroups: const [
-        XTypeGroup(label: 'Dossier (ZIP)', extensions: ['zip']),
+        XTypeGroup(label: 'Dossier (.docx oder .zip)', extensions: ['docx', 'zip']),
       ],
     );
     if (f == null) return;
-    final bytes = await f.readAsBytes();
+    final raw = await f.readAsBytes();
     await _guard(
-      () => _repo.replaceUpload(job.id, name: f.name, bytes: bytes),
+      () => _repo.replaceUpload(job.id, name: f.name, bytes: dossierBytes(f.name, raw)),
     );
     _refresh();
   }

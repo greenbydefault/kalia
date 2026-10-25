@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme/app_colors.dart';
+import 'docx_zip.dart';
 import 'import_models.dart';
 import 'import_repository.dart';
 
@@ -105,7 +106,7 @@ class _ImportPageState extends ConsumerState<ImportPage> {
         ),
         const SizedBox(height: 4),
         Text(
-          'Dossier-ZIPs hochladen. Der Worker prüft sie, danach landen sie hier zur Durchsicht. '
+          'Dossier als .docx oder .zip hochladen. Der Worker prüft sie, danach landen sie hier zur Durchsicht. '
           'Angelegt wird erst nach deinem Klick.',
           style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.inkMuted),
         ),
@@ -338,16 +339,20 @@ class _DropzoneState extends State<_Dropzone> {
   List<_Picked> _files = const [];
 
   Future<void> _add(List<({String name, Future<Uint8List> Function() read})> raw) async {
-    final zips = raw.where((f) => f.name.toLowerCase().endsWith('.zip')).toList();
-    if (zips.isEmpty) {
-      _toast('Nur ZIP-Dateien.');
+    final dossier = raw.where((f) {
+      final n = f.name.toLowerCase();
+      return n.endsWith('.zip') || n.endsWith('.docx');
+    }).toList();
+    if (dossier.isEmpty) {
+      _toast('Nur .docx oder .zip.');
       return;
     }
     setState(() => _busy = true);
     try {
       final picked = <_Picked>[];
-      for (final f in zips) {
-        final bytes = await f.read();
+      for (final f in dossier) {
+        final rawBytes = await f.read();
+        final bytes = dossierBytes(f.name, rawBytes);
         picked.add(_Picked(f.name, bytes, sha256Hex(bytes)));
       }
       final res = await widget.repo.precheck([
@@ -376,7 +381,7 @@ class _DropzoneState extends State<_Dropzone> {
   Future<void> _pick() async {
     final files = await openFiles(
       acceptedTypeGroups: const [
-        XTypeGroup(label: 'Dossiers (ZIP)', extensions: ['zip']),
+        XTypeGroup(label: 'Dossier (.docx oder .zip)', extensions: ['docx', 'zip']),
       ],
     );
     if (files.isEmpty) return;
@@ -467,7 +472,7 @@ class _DropzoneState extends State<_Dropzone> {
                   child: Text(
                     _hover
                         ? 'Loslassen zum Hinzufügen'
-                        : 'Dossier-ZIPs hierher ziehen (mehrere möglich)',
+                        : 'Dossier (.docx oder .zip) hierher ziehen (mehrere möglich)',
                     style: theme.textTheme.titleSmall,
                   ),
                 ),
