@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_avif/flutter_avif.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/theme/app_colors.dart';
@@ -7,6 +6,7 @@ import '../../features/community/data/community_providers.dart';
 import '../../features/community/domain/photo_geo_check.dart';
 import '../../features/community/domain/trail_image.dart';
 import '../../features/community/presentation/fullscreen_image_viewer.dart';
+import '../../shared/widgets/kalia_image.dart';
 import '../collections/trails_collection.dart';
 import '../core/admin_repository.dart';
 import '../core/field_spec.dart';
@@ -176,17 +176,15 @@ class _PendingRow extends StatelessWidget {
               onTap: onOpen,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(6),
-                child: CachedNetworkAvifImage(
-                  image.thumbUrl,
+                child: KaliaImage(
+                  trailId: image.trailId,
+                  imageId: image.id,
+                  slot: TrailImageVariant.thumb,
+                  thumbhash: image.thumbhash,
+                  dominantColor: image.dominantColor,
                   width: 96,
                   height: 72,
                   fit: BoxFit.cover,
-                  errorBuilder: (context, error, stack) => Container(
-                    width: 96,
-                    height: 72,
-                    color: AppColors.n100,
-                    child: const Icon(Icons.broken_image_outlined, size: 20),
-                  ),
                 ),
               ),
             ),

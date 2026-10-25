@@ -6,6 +6,8 @@ import '../app/theme/app_theme.dart';
 import 'auth/admin_session.dart';
 import 'auth/auth_pages.dart';
 import 'collections/registry.dart';
+import 'import/import_page.dart';
+import 'import/review_page.dart';
 import 'moderation/moderation_page.dart';
 import 'moderation/reports_page.dart';
 import 'shell/admin_shell.dart';
@@ -122,6 +124,20 @@ GoRouter buildAdminRouter(AdminSession session) {
               ),
             ),
           ],
+          GoRoute(
+            path: '/import',
+            pageBuilder: (_, _) => const NoTransitionPage(
+              key: ValueKey('page-import'),
+              child: ImportPage(),
+            ),
+          ),
+          GoRoute(
+            path: '/import/:id',
+            pageBuilder: (_, state) => NoTransitionPage(
+              key: ValueKey('page-import-${state.pathParameters['id']}'),
+              child: ReviewPage(jobId: state.pathParameters['id']!),
+            ),
+          ),
           GoRoute(
             path: '/${reportsSection.id}',
             pageBuilder: (_, _) => const NoTransitionPage(

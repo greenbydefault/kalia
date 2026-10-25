@@ -23,8 +23,9 @@ enum TrailImageStatus {
   };
 }
 
-/// Welche AVIF-Variante aus dem Storage geladen wird.
-/// Dateikonvention: {trailId}/{imageId}/{variant}.avif
+/// Welche Variante aus dem Storage geladen wird.
+/// Dateikonvention: {trailId}/{imageId}/{variant}.webp
+/// (AVIF liegt parallel, nur als Fallback für alte App-Stände.)
 enum TrailImageVariant {
   thumb('thumb'),
   small('small'),
@@ -64,6 +65,10 @@ class TrailImage {
   /// Reihenfolge der offiziellen Hero-Bilder.
   final int sort;
 
+  /// Platzhalter, kommt mit der Zeile mit. Leer bei Altdaten.
+  final String thumbhash;
+  final String dominantColor;
+
   /// Vorpruefung aus dem Foto-Ort (nur Hinweis). `null` = Altbestand.
   final PhotoGeoCheck? geoCheck;
 
@@ -98,6 +103,8 @@ class TrailImage {
     this.sourceUrl = '',
     this.kind,
     this.sort = 0,
+    this.thumbhash = '',
+    this.dominantColor = '',
   });
 
   bool get isApproved => status == TrailImageStatus.approved;
@@ -110,6 +117,7 @@ class TrailImage {
     final mime = mimeType;
     if (mime == null || mime.isEmpty) return '—';
     if (mime == 'image/avif') return 'AVIF';
+    if (mime == 'image/webp') return 'WebP';
     if (mime == 'image/jpeg') return 'JPEG';
     if (mime.startsWith('image/')) return mime.substring(6).toUpperCase();
     return mime;

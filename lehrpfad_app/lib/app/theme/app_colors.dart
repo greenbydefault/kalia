@@ -39,6 +39,13 @@ abstract final class AppColors {
   static const eignung4 = Color(0xFF7CB342);
   static const eignung5 = Color(0xFF2E7D32);
 
+  // ── Import-Review (Feldstatus im Admin) ───────────────────────────
+  static const statusOk = eignung5;
+  static const statusWarn = eignung3;
+  static const statusError = eignung1;
+  static const statusInfo = Color(0xFF1E5AA8);
+  static const statusLocked = n500;
+
   static const eignungSpectrum = <Color>[
     eignung1,
     eignung2,

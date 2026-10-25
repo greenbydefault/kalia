@@ -184,6 +184,12 @@ class _ListPaneState extends ConsumerState<_ListPane> {
               Expanded(
                 child: Text(spec.label, style: theme.textTheme.titleLarge),
               ),
+              if (spec.importPath != null)
+                IconButton.filledTonal(
+                  tooltip: 'Dossiers importieren',
+                  icon: const Icon(Icons.upload_file_outlined),
+                  onPressed: () => context.go(spec.importPath!),
+                ),
               if (spec.canCreate)
                 IconButton.filledTonal(
                   tooltip: '${spec.singular} anlegen',

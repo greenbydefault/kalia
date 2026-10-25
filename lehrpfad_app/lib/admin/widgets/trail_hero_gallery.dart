@@ -1,9 +1,9 @@
 import 'package:file_selector/file_selector.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_avif/flutter_avif.dart';
 
 import '../../app/theme/app_colors.dart';
 import '../../features/community/domain/trail_image.dart';
+import '../../shared/widgets/kalia_image.dart';
 import '../collections/admin_catalogs.dart';
 import '../core/admin_media_service.dart';
 import '../core/collection_spec.dart';
@@ -213,11 +213,8 @@ class _TrailHeroGalleryState extends State<TrailHeroGallery> {
             children: [
               for (var i = 0; i < images.length; i++)
                 _HeroTile(
-                  url: _media.heroUrl(
-                    widget.ctx.id,
-                    images[i]['id'] as String,
-                    TrailImageVariant.small,
-                  ),
+                  trailId: widget.ctx.id,
+                  imageId: images[i]['id'] as String,
                   row: images[i],
                   first: i == 0,
                   last: i == images.length - 1,
@@ -247,7 +244,8 @@ class _TrailHeroGalleryState extends State<TrailHeroGallery> {
 
 class _HeroTile extends StatelessWidget {
   const _HeroTile({
-    required this.url,
+    required this.trailId,
+    required this.imageId,
     required this.row,
     required this.first,
     required this.last,
@@ -257,7 +255,8 @@ class _HeroTile extends StatelessWidget {
     required this.onRight,
   });
 
-  final String url;
+  final String trailId;
+  final String imageId;
   final DbRow row;
   final bool first;
   final bool last;
@@ -285,13 +284,13 @@ class _HeroTile extends StatelessWidget {
           SizedBox(
             height: 140,
             width: double.infinity,
-            child: CachedNetworkAvifImage(
-              url,
+            child: KaliaImage(
+              trailId: trailId,
+              imageId: imageId,
+              slot: TrailImageVariant.small,
+              thumbhash: row['thumbhash'] as String? ?? '',
+              dominantColor: row['dominant_color'] as String? ?? '',
               fit: BoxFit.cover,
-              errorBuilder: (_, _, _) => const ColoredBox(
-                color: AppColors.n100,
-                child: Icon(Icons.broken_image_outlined),
-              ),
             ),
           ),
           Padding(

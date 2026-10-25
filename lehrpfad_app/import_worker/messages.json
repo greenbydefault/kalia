@@ -1,0 +1,255 @@
+{
+  "_hinweis": "Gemeinsame Quelle fuer Worker und Admin-CMS (Asset in pubspec.yaml). Jede Meldung hat drei Teile: was ist los, warum zaehlt das, so behebst du es. Platzhalter {name} kommen aus params der Meldung. Codes werden in import_worker/rules.py erzeugt, test_messages.py prueft die Abdeckung.",
+  "codes": {
+    "SCHEMA": {
+      "titel": "Wert hat das falsche Format",
+      "was": "{was} ist nicht lesbar: \"{wert}\".",
+      "warum": "Die Datenbank erwartet hier eine Zahl, ja/nein oder einen Wert aus der Liste. Mit diesem Wert lässt sich das Feld nicht speichern.",
+      "wie": "Im Feld einen gültigen Wert eintragen. Erlaubt: {erlaubt}."
+    },
+    "PFLICHT": {
+      "titel": "Pflichtfeld ist leer",
+      "was": "Das Feld {feld} ist leer.",
+      "warum": "Ohne diesen Wert zeigt die App den Pfad unvollständig oder falsch an.",
+      "wie": "Das Feld ausfüllen. Fehlt die Information im Dossier, über „Klären“ nachfragen."
+    },
+    "SLUG": {
+      "titel": "Kennung (Slug) passt nicht",
+      "was": "Die ID \"{wert}\" kann nicht verwendet werden ({grund}).",
+      "warum": "Die ID ist die Adresse des Pfads in der App und in der Datenbank. Sie muss eindeutig sein und darf nur a-z, 0-9 und Bindestriche enthalten.",
+      "wie": "Im Dossier Abschnitt 1 eine eindeutige ID eintragen, zum Beispiel naturlehrpfad-pressel, und die Datei neu hochladen. Bei „kollision“ gibt es schon einen anderen Pfad mit dieser ID."
+    },
+    "KOORD_AUSSERHALB": {
+      "titel": "Koordinaten liegen im falschen Land",
+      "was": "Der Startpunkt liegt nicht in {land}.",
+      "warum": "Breiten- und Längengrad sind vermutlich vertauscht oder falsch kopiert. Die Karte würde den Pfad am falschen Ort zeigen.",
+      "wie": "Den Pin auf der Karte verschieben oder die Koordinaten im Format 53.5512, 13.2471 prüfen (erst Breite, dann Länge)."
+    },
+    "TEMPLATE_VERSION": {
+      "titel": "Dossier-Vorlage nicht unterstützt",
+      "was": "Das Dossier hat template_version {gefunden}. Unterstützt sind {erlaubt}.",
+      "warum": "Andere Vorlagen haben andere Felder, der Import würde Werte falsch zuordnen.",
+      "wie": "Das Dossier in der aktuellen Vorlage neu ausfüllen und über „Datei ersetzen“ hochladen."
+    },
+    "GEOMETRIE_FEHLT": {
+      "titel": "Keine Route oder Fläche",
+      "was": "Es gibt keine gültige Geometrie für diesen Pfad (Form: {form}).",
+      "warum": "Eine Linie ohne Route oder eine Fläche ohne Umriss lässt sich nicht auf der Karte zeigen.",
+      "wie": "route.gpx (Linie) oder flaeche.geojson (Fläche) mit Quelle und Lizenz ins ZIP legen, über „Datei ersetzen“ hochladen. Alternative: die OSM-Pipeline laufen lassen."
+    },
+    "GEOMETRIE_LIZENZ": {
+      "titel": "Route ohne gültige Lizenz",
+      "was": "Die Datei {wert} hat keine gültige Quelle oder Lizenz und wurde nicht übernommen.",
+      "warum": "GPX-Spuren aus Portalen sind meist nicht frei nutzbar. Ohne Lizenz-Key aus Anhang A8 verwenden wir sie nicht.",
+      "wie": "Im Dossier Abschnitt 3 Geometrie-Quelle und -Lizenz eintragen, oder bei der OSM-Route bleiben."
+    },
+    "GEOMETRIE_DATEI": {
+      "titel": "Geometrie-Datei nicht verwendbar",
+      "was": "Die Datei konnte nicht gelesen werden: {wert}.",
+      "warum": "Der Import braucht eine gültige GPX- oder GeoJSON-Datei, um Route oder Fläche zu setzen.",
+      "wie": "Datei im GPX- bzw. GeoJSON-Format neu exportieren und über „Datei ersetzen“ hochladen."
+    },
+    "START_ABWEICHUNG": {
+      "titel": "Start weicht von der Route ab",
+      "was": "Der Startpunkt liegt {meter} m von Route oder Fläche entfernt (erlaubt: {max} m).",
+      "warum": "Die App führt zum Startpunkt. Ein falscher Start schickt Besucher an den falschen Ort.",
+      "wie": "Den Pin auf den Anfang der Route setzen oder die Koordinaten korrigieren."
+    },
+    "LAENGE_ABWEICHUNG": {
+      "titel": "Länge passt nicht zur Route",
+      "was": "Im Dossier stehen {dossier} km, die Route ist {route} km lang (mehr als {prozent} % Unterschied).",
+      "warum": "Länge und Dauer stehen groß im Kopf des Pfads. Abweichende Werte wirken unglaubwürdig.",
+      "wie": "Den Vorschlag übernehmen oder prüfen, welche Angabe stimmt."
+    },
+    "STATION_ABSEITS": {
+      "titel": "Station liegt abseits des Pfads",
+      "was": "Station {nummer} liegt {meter} m vom Pfad entfernt (erlaubt: {max} m).",
+      "warum": "Die Stationen sollen am Weg liegen, sonst findet man sie nicht.",
+      "wie": "Koordinaten der Station prüfen oder korrigieren."
+    },
+    "STATIONEN_MIN": {
+      "titel": "Zu wenige Stationen",
+      "was": "Der Pfad hat {anzahl} Stationen ({grund}). Gebraucht werden mindestens {min}, lückenlos ab 1 nummeriert.",
+      "warum": "Die Stationen sind das Herzstück des Pfads. Mit weniger wirkt er leer.",
+      "wie": "Stationen ergänzen oder die Nummerierung korrigieren. Bei Flächen oder besonderen Orten mit 1-2 Stationen: bewusst übersteuern und den Grund eintragen."
+    },
+    "WERT_UNPLAUSIBEL": {
+      "titel": "Wert wirkt unplausibel",
+      "was": "{was} sieht nicht richtig aus (Wert: \"{wert}\").",
+      "warum": "Längen, Dauer und Tempo müssen zusammenpassen, sonst vertraut niemand den Angaben.",
+      "wie": "Wert prüfen und korrigieren. Stimmt er trotzdem, übersteuern und den Grund eintragen."
+    },
+    "DOSSIER_UNVOLLSTAENDIG": {
+      "titel": "Abschnitt nicht fertig",
+      "was": "Abschnitt {nummer} hat den Status „{status}“.",
+      "warum": "Pflichtabschnitte sollen „fertig“ oder „geprüft“ sein, bevor ein Pfad in die App geht.",
+      "wie": "Den Abschnitt im Dossier abschließen oder bewusst übersteuern und den Grund eintragen."
+    },
+    "DATEI_FEHLT": {
+      "titel": "Datei fehlt im ZIP",
+      "was": "Im ZIP fehlt die Datei \"{wert}\".",
+      "warum": "Das Dossier verweist darauf, der Import findet sie aber nicht.",
+      "wie": "Die Datei in den passenden Ordner legen und über „Datei ersetzen“ neu hochladen, oder per Drag-and-drop ins Feld ziehen."
+    },
+    "FORM": {
+      "titel": "Schreibweise korrigiert",
+      "was": "\"{wert}\" wurde als \"{vorschlag}\" übernommen.",
+      "warum": "Der Import normalisiert Schreibweisen, damit die Datenbank saubere Werte hat.",
+      "wie": "Nichts nötig. Wenn die Korrektur falsch ist, den Wert im Feld ändern."
+    },
+    "TYP": {
+      "titel": "Typ nicht in der Liste",
+      "was": "Der Typ \"{wert}\" ist kein gültiger Wert.",
+      "warum": "Der Typ steuert Icon, Filter und Gebiet in der App.",
+      "wie": "Aus der Liste wählen: {erlaubt}."
+    },
+    "NATURRAUM": {
+      "titel": "Naturraum nicht in der Liste",
+      "was": "Der Naturraum \"{wert}\" ist kein gültiger Wert.",
+      "warum": "Der Naturraum bestimmt, welche Arten zum Pfad passen.",
+      "wie": "Aus der Liste wählen: {erlaubt}."
+    },
+    "LEBENSRAUM": {
+      "titel": "Lebensraum nicht in der Liste",
+      "was": "Der Lebensraum \"{wert}\" ist kein gültiger Wert.",
+      "warum": "Lebensraum und Naturraum bestimmen den Arten-Pool.",
+      "wie": "Aus der Liste wählen: {erlaubt}."
+    },
+    "TAG": {
+      "titel": "Tag nicht in der Liste",
+      "was": "Der Tag \"{wert}\" ist kein gültiger Wert.",
+      "warum": "Nur bekannte Tags erzeugen Filter und Symbole in der App.",
+      "wie": "Aus der Liste wählen: {erlaubt}."
+    },
+    "ERLEBNIS": {
+      "titel": "Erlebnis nicht in der Liste",
+      "was": "Das Erlebnis \"{wert}\" ist kein gültiger Wert.",
+      "warum": "Nur bekannte Erlebnisse haben ein Symbol an der Station.",
+      "wie": "Aus der Liste wählen: {erlaubt}."
+    },
+    "TEXT_LAENGE": {
+      "titel": "Text hat die falsche Länge",
+      "was": "{feld} hat {laenge} {einheit} (erlaubt: {bereich}).",
+      "warum": "Die Limits kommen aus TRAIL_SCAN.md. Zu lange Texte werden in der App abgeschnitten, zu kurze tragen nicht.",
+      "wie": "Den Kürzungsvorschlag übernehmen oder den Text selbst anpassen. Bei Hörtext: Wörter zählen, nicht Zeichen."
+    },
+    "HOERTEXT_FEHLT": {
+      "titel": "Hörtext fehlt",
+      "was": "Es gibt keinen Hörtext für diesen Pfad.",
+      "warum": "Der Play-Button in der App braucht ein Einsprech-Skript.",
+      "wie": "Hörtext nachliefern (Regeln in TRAIL_HOERTEXT.md). Der Pfad kann trotzdem angelegt werden."
+    },
+    "LEBENSRAUM_LEER": {
+      "titel": "Kein Lebensraum gesetzt",
+      "was": "Der Pfad hat keinen Lebensraum.",
+      "warum": "Der Lebensraum bestimmt den Arten-Pool für „typische“ Arten. Ohne ihn gibt es keine Vorschläge.",
+      "wie": "Bei Spielplatz oder Geopfad passt das so („Erledigt“). Sonst bis zu drei Lebensräume im Editor wählen."
+    },
+    "QUELLE_FEHLT": {
+      "titel": "Quelle fehlt",
+      "was": "In Abschnitt {nummer} steht keine Quelle.",
+      "warum": "Jede Angabe braucht eine Quelle mit URL und Abrufdatum, damit wir sie später belegen können.",
+      "wie": "Die Quelle im Dossier nachtragen oder über „Klären“ nachfragen."
+    },
+    "ART_UNBEKANNT": {
+      "titel": "Art ist noch nicht angelegt",
+      "was": "\"{name}\" ({lat}) steht nicht im Katalog.",
+      "warum": "Arten kommen nur über den Katalog an einen Pfad, damit Namen, Bilder und Audio einheitlich bleiben.",
+      "wie": "Art suchen und zuordnen, als neue Art anlegen oder weglassen."
+    },
+    "ART_UNSICHER": {
+      "titel": "Art-Zuordnung unsicher",
+      "was": "\"{name}\" passt zu mehreren Arten oder zum falschen wissenschaftlichen Namen ({lat}).",
+      "warum": "Eine falsche Art am Pfad ist ein inhaltlicher Fehler, den Besucher merken.",
+      "wie": "Die richtige Art im Katalog wählen."
+    },
+    "BILD_LIZENZ": {
+      "titel": "Bild ohne gültige Lizenz",
+      "was": "Bild {datei} hat keine gültige Lizenz (\"{wert}\").",
+      "warum": "Ohne Lizenz-Key aus Anhang A6 bleibt das Bild unsichtbar. Mindestens ein Bild mit Lizenz gehört zu jedem Pfad.",
+      "wie": "Lizenz im Feld wählen, das Bild entfernen oder die Freigabe nachreichen."
+    },
+    "BILD_DATEI": {
+      "titel": "Bild nicht verwendbar",
+      "was": "{wert}",
+      "warum": "Das Bild konnte nicht gelesen oder umgewandelt werden.",
+      "wie": "Bild als JPG oder PNG neu exportieren und per Drag-and-drop ins Feld ziehen."
+    },
+    "DUPLIKAT_NAH": {
+      "titel": "Es gibt schon einen Pfad ganz in der Nähe",
+      "was": "\"{name}\" ({id}) startet nur {meter} m entfernt.",
+      "warum": "Vermutlich ist das derselbe Ort. Doppelte Pfade verwirren Besucher.",
+      "wie": "Im Vergleich „Ist neu“, „Zusammenführen“ oder „Verwerfen“ wählen."
+    },
+    "DUPLIKAT_MOEGLICH": {
+      "titel": "Ähnlicher Pfad in der Nähe",
+      "was": "\"{name}\" ({id}) hat einen ähnlichen Namen (Ähnlichkeit {aehnlichkeit}) und liegt {meter} m entfernt.",
+      "warum": "Möglicherweise derselbe Pfad unter anderem Namen.",
+      "wie": "Im Vergleich „Ist neu“, „Zusammenführen“ oder „Verwerfen“ wählen."
+    },
+    "KANDIDAT_FEHLT": {
+      "titel": "Pfad steht nicht in der Master-Liste",
+      "was": "Die ID \"{wert}\" gehört zu keinem Kandidaten.",
+      "warum": "Wir verfolgen den Fortschritt über die Kandidatenliste. Ohne Eintrag fehlt der Pfad in der Auswertung.",
+      "wie": "Kandidat anlegen oder die ID im Dossier an die Master-Liste anpassen."
+    },
+    "BILD_FEHLT": {
+      "titel": "Kein Bild mit Lizenz",
+      "was": "Der Pfad hat kein Bild mit freigegebener Lizenz.",
+      "warum": "Ohne freigegebenes Bild bleibt die Karte in der App leer. Mindestens ein Bild gehört zu jedem Pfad.",
+      "wie": "Ein Bild mit Lizenz hinzufügen (Abschnitt 7) oder die Freigabe des Betreibers bestätigen."
+    }
+  },
+  "felder": {
+    "id": "ID",
+    "name": "Name",
+    "typ": "Typ",
+    "form": "Form",
+    "land": "Land",
+    "bundesland": "Bundesland",
+    "kreis": "Kreis",
+    "ort": "Ort",
+    "schutzgebiet": "Schutzgebiet",
+    "region": "Region",
+    "betreiber": "Betreiber",
+    "website": "Website",
+    "kurzbeschreibung": "Kurzbeschreibung",
+    "beschreibung": "Beschreibung",
+    "anreise": "Anreise",
+    "besuchshinweise": "Besuchshinweise",
+    "markierung": "Markierung",
+    "start_name": "Startpunkt-Name",
+    "hoertext": "Hörtext",
+    "start_lat": "Start",
+    "start_lon": "Start",
+    "laenge_km": "Länge",
+    "dauer_min": "Dauer",
+    "rundkurs": "Rundkurs",
+    "eintritt": "Eintritt",
+    "eintritt_preise": "Eintrittspreise",
+    "oeffnungszeiten": "Öffnungszeiten",
+    "tags": "Tags",
+    "naturraum": "Naturraum",
+    "lebensraeume": "Lebensräume",
+    "arten": "Arten",
+    "stationen": "Stationen",
+    "bilder": "Bilder",
+    "route": "Route",
+    "area": "Fläche",
+    "tempo": "Das Tempo (Länge geteilt durch Dauer)",
+    "sprung": "Die Route"
+  },
+  "hilfe": {
+    "kurzbeschreibung": "Höchstens 180 Zeichen, keine direkte Anrede. Beispiel: „Fünfeinhalb Kilometer am Mühlbach durchs Presseler Moor, Tafeln von Kranich bis Torfmoos. Frei.“",
+    "beschreibung": "400 bis 650 Zeichen, was kein Chip sagt, keine direkte Anrede (TRAIL_SCAN.md).",
+    "besuchshinweise": "Höchstens 280 Zeichen: was den Besuch ändert und nicht schon als Tag da ist.",
+    "hoertext": "70 bis 110 Wörter, Einsprech-Skript für Play (TRAIL_HOERTEXT.md).",
+    "typ": "Erlaubt: wald, moor, aue, walderlebnispfad, erlebniswald, naturerlebnis, naturerlebnisraum, waldspielplatz, wasserspielplatz, waldspazierplatz, sinnespfad, barfusspfad, kueste, kinderbauernhof.",
+    "naturraum": "Erlaubt: nordsee, ostsee, norddt-tiefland, mittelgebirge, alpenvorland, katalonien, daenemark.",
+    "lebensraeume": "Bis zu drei Keys aus Anhang A3, der wichtigste zuerst.",
+    "tags": "Nur Keys aus Anhang A4: kinderfreundlich, kinderwagentauglich, rollstuhltauglich, hunde-erlaubt, einkehr, spielplatz, picknick, barfusspfad.",
+    "start_lat": "Dezimalgrad (WGS84), erst Breite, dann Länge: 53.5512, 13.2471.",
+    "laenge_km": "Kilometer mit Punkt. Bei Flächen 0.",
+    "dauer_min": "Ganze Minuten."
+  }
+}

@@ -86,4 +86,6 @@ const lizenzOptions = {
   'cc-by-2.0': 'CC BY 2.0',
   'cc0': 'CC0',
   'pd': 'Public Domain',
+  'eigen': 'Eigenes Foto',
+  'freigabe': 'Freigabe liegt vor (noch nicht bestätigt)',
 };

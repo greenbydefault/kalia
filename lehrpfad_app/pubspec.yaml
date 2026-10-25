@@ -39,6 +39,9 @@ dependencies:
   phosphoricons_flutter: ^1.0.0
   image_picker: ^1.2.3
   flutter_avif: ^3.1.0
+  cached_network_image: ^3.4.1
+  flutter_image_compress: ^2.4.0
+  thumbhash: ^0.1.0+1
   image: ^4.9.1
   uuid: ^4.6.0
   shared_preferences: ^2.5.5
@@ -54,6 +57,8 @@ dependencies:
   drift: ^2.35.2
   drift_flutter: ^0.3.1
   http: ^1.6.0
+  desktop_drop: ^0.8.4
+  crypto: ^3.0.7
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -88,6 +93,11 @@ flutter:
     - assets/images/trails/_placeholder.thumb.avif
     - assets/images/trails/_placeholder.small.avif
     - assets/images/trails/_placeholder.medium.avif
+    - assets/images/trails/_placeholder.thumb.webp
+    - assets/images/trails/_placeholder.small.webp
+    - assets/images/trails/_placeholder.medium.webp
+    # Meldungstexte des Import-Reviews, gleiche Datei wie im Worker (import_worker/messages.py)
+    - import_worker/messages.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

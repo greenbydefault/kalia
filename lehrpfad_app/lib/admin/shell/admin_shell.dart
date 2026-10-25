@@ -7,6 +7,7 @@ import '../../features/community/data/community_providers.dart';
 import '../auth/admin_session.dart';
 import '../collections/registry.dart';
 import '../core/admin_repository.dart';
+import '../import/import_repository.dart';
 import '../moderation/reports_page.dart';
 
 /// Rahmen: links der Katalog (Ordner mit Anzahl), rechts der Inhalt.
@@ -63,6 +64,8 @@ class _Sidebar extends ConsumerWidget {
     final theme = Theme.of(context);
     final pending = ref.watch(pendingImagesProvider).value?.length ?? 0;
     final openReports = ref.watch(openSubmissionCountProvider).value ?? 0;
+    ref.watch(importRealtimeProvider);
+    final openImports = ref.watch(importOpenCountProvider);
     return ColoredBox(
       color: AppColors.n100,
       child: SafeArea(
@@ -90,6 +93,14 @@ class _Sidebar extends ConsumerWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 8, horizontal: 8),
                     child: Divider(height: 1, color: AppColors.n300),
+                  ),
+                  _NavItem(
+                    icon: Icons.inventory_2_outlined,
+                    label: 'Import',
+                    selected: location.startsWith('/import'),
+                    count: openImports > 0 ? openImports : null,
+                    highlight: openImports > 0,
+                    onTap: () => _go(context, '/import'),
                   ),
                   _NavItem(
                     icon: reportsSection.icon,

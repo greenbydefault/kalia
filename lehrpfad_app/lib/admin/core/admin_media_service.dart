@@ -4,6 +4,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../core/media/media_url.dart';
+import '../../features/community/data/supabase_images_repository.dart';
 import '../../features/community/domain/trail_image.dart';
 import '../../shared/images/image_encoder.dart';
 
@@ -46,7 +47,7 @@ class AdminMediaService {
   String heroUrl(String trailId, String imageId, TrailImageVariant v) => _client
       .storage
       .from(heroBucket)
-      .getPublicUrl('$trailId/$imageId/${v.fileName}.avif');
+      .getPublicUrl('$trailId/$imageId/${v.fileName}.webp');
 
   /// Encodiert drei AVIF-Varianten, lädt sie hoch und legt die Zeile an.
   Future<void> uploadTrailHero(
@@ -63,21 +64,34 @@ class AdminMediaService {
     final uploaded = <String>[];
     try {
       var done = 0;
-      for (final e in encoded.bytes.entries) {
-        final path = '$trailId/$id/${e.key.fileName}.avif';
+      final files = [
+        for (final e in encoded.bytes.entries)
+          (
+            path: '$trailId/$id/${e.key.fileName}.avif',
+            bytes: e.value,
+            type: 'image/avif',
+          ),
+        for (final e in encoded.webp.entries)
+          (
+            path: '$trailId/$id/${e.key.fileName}.webp',
+            bytes: e.value,
+            type: 'image/webp',
+          ),
+      ];
+      for (final file in files) {
         await _client.storage
             .from(heroBucket)
             .uploadBinary(
-              path,
-              e.value,
-              fileOptions: const FileOptions(
-                contentType: 'image/avif',
+              file.path,
+              file.bytes,
+              fileOptions: FileOptions(
+                contentType: file.type,
                 cacheControl: '31536000',
               ),
             );
-        uploaded.add(path);
+        uploaded.add(file.path);
         done++;
-        onProgress?.call(0.6 + 0.35 * done / encoded.bytes.length);
+        onProgress?.call(0.6 + 0.35 * done / files.length);
       }
       final last = await _client
           .from('images')
@@ -89,7 +103,7 @@ class AdminMediaService {
       final next = last.isEmpty
           ? 1
           : ((last.first['sort'] as num?) ?? 0).toInt() + 1;
-      await _client.from('images').insert({
+      await _insertHero({
         'id': id,
         'trail_id': trailId,
         'source': 'official',
@@ -98,10 +112,12 @@ class AdminMediaService {
         'sort': next,
         'width': encoded.width,
         'height': encoded.height,
-        'mime_type': 'image/avif',
-        'thumb_bytes': encoded.bytes[TrailImageVariant.thumb]!.length,
-        'small_bytes': encoded.bytes[TrailImageVariant.small]!.length,
-        'medium_bytes': encoded.bytes[TrailImageVariant.medium]!.length,
+        'mime_type': 'image/webp',
+        'thumb_bytes': encoded.webp[TrailImageVariant.thumb]!.length,
+        'small_bytes': encoded.webp[TrailImageVariant.small]!.length,
+        'medium_bytes': encoded.webp[TrailImageVariant.medium]!.length,
+        'thumbhash': encoded.thumbhash,
+        'dominant_color': encoded.dominantColor,
       });
       onProgress?.call(1);
     } catch (_) {
@@ -115,8 +131,27 @@ class AdminMediaService {
     }
   }
 
+  Future<void> _insertHero(Map<String, dynamic> row) async {
+    try {
+      await _client.from('images').insert(row);
+    } on PostgrestException catch (e) {
+      if (e.code != '42703') rethrow;
+      row.remove('thumbhash');
+      row.remove('dominant_color');
+      await _client.from('images').insert(row);
+    }
+  }
+
   Future<void> updateHero(String imageId, HeroMeta meta) async {
-    await _client.from('images').update(meta.toColumns()).eq('id', imageId);
+    await _client
+        .from('images')
+        .update({
+          ...meta.toColumns(),
+          // Import: "freigabe" wartet auf Bestätigung, jede echte Lizenz gibt das Bild frei.
+          if (meta.license.isNotEmpty)
+            'status': meta.license == 'freigabe' ? 'pending' : 'approved',
+        })
+        .eq('id', imageId);
   }
 
   /// Tauscht die Reihenfolge zweier Bilder.
@@ -129,17 +164,16 @@ class AdminMediaService {
   }
 
   Future<void> deleteHero(String trailId, String imageId) async {
-    await _client.storage.from(heroBucket).remove([
-      for (final v in TrailImageVariant.values)
-        '$trailId/$imageId/${v.fileName}.avif',
-    ]);
+    await _client.storage.from(heroBucket).remove(
+      SupabaseImagesRepository.pathsFor(trailId, imageId),
+    );
     await _client.from('images').delete().eq('id', imageId);
   }
 
   /// Art-Bild: eine AVIF-Variante (small, 900 px). Gibt den
   /// `storage:`-Pfad für `species.image_path` zurück.
   Future<String> uploadSpeciesImage(String speciesId, Uint8List bytes) async {
-    final encoded = await ImageVariants.encode(bytes);
+    final encoded = await ImageVariants.encode(bytes, webp: false);
     final data = encoded.bytes[TrailImageVariant.small]!;
     final object =
         'species/$speciesId/image-${DateTime.now().millisecondsSinceEpoch}.avif';

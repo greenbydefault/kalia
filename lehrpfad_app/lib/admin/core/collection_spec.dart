@@ -118,6 +118,7 @@ class CollectionSpec {
     this.canDelete = true,
     this.manualCascade = const [],
     this.confirmDeleteByTyping = false,
+    this.importPath,
   });
 
   /// Route-Segment und Provider-Key (`trails`, `flora`).
@@ -154,6 +155,9 @@ class CollectionSpec {
 
   /// Löschen erst nach Eintippen der ID (Trails).
   final bool confirmDeleteByTyping;
+
+  /// Route zum Import-Bereich (Button in der Liste), nur Trails.
+  final String? importPath;
 
   String get path => '/$id';
   String itemPath(String itemId) => '/$id/${Uri.encodeComponent(itemId)}';

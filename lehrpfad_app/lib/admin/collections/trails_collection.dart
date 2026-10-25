@@ -57,7 +57,8 @@ final trailsCollection = CollectionSpec(
   table: 'trails',
   icon: Icons.route_outlined,
   titleColumn: 'name',
-  listColumns: 'id,name,typ,region,kurzbeschreibung,beschreibung',
+  listColumns: 'id,name,typ,region,kurzbeschreibung,beschreibung,sichtbar',
+  importPath: '/import',
   subtitle: (r) {
     final typ = typOptions[r['typ']] ?? r['typ'];
     final region = (r['region'] as String?) ?? '';
@@ -65,6 +66,7 @@ final trailsCollection = CollectionSpec(
   },
   listFilters: [ListFilterSpec('typ', 'Typ', typOptions)],
   gaps: (r) => [
+    if (r['sichtbar'] == false) 'Unsichtbar (Entwurf)',
     if (((r['kurzbeschreibung'] as String?) ?? '').trim().isEmpty)
       'Kurzbeschreibung fehlt',
     if (((r['beschreibung'] as String?) ?? '').trim().isEmpty)
@@ -103,10 +105,23 @@ final trailsCollection = CollectionSpec(
         options: formOptions,
         required: true,
       ),
+      const FieldSpec(
+        'land',
+        'Land',
+        FieldKind.select,
+        options: {'DE': 'Deutschland', 'DK': 'Dänemark', 'ES': 'Spanien'},
+        nullable: true,
+      ),
+      const FieldSpec('bundesland', 'Bundesland / Region', FieldKind.text, nullable: true),
+      const FieldSpec('kreis', 'Kreis', FieldKind.text, nullable: true),
+      const FieldSpec('ort', 'Ort', FieldKind.text, nullable: true),
+      const FieldSpec('schutzgebiet', 'Schutzgebiet', FieldKind.text, nullable: true),
       const FieldSpec('region', 'Region', FieldKind.text),
       const FieldSpec('betreiber', 'Betreiber', FieldKind.text),
       const FieldSpec('markierung', 'Markierung', FieldKind.text),
       const FieldSpec('start_name', 'Startpunkt', FieldKind.text),
+      const FieldSpec('start_lat', 'Start Breite', FieldKind.number, nullable: true),
+      const FieldSpec('start_lon', 'Start Länge', FieldKind.number, nullable: true),
       const FieldSpec('anreise', 'Anreise', FieldKind.longText),
     ]),
     FieldsBlock('Texte', [
@@ -124,6 +139,15 @@ final trailsCollection = CollectionSpec(
         limit: FieldLimit(min: 400, max: 650),
         minLines: 7,
         hint: 'Satz 1 trägt allein',
+      ),
+      const FieldSpec(
+        'hoertext',
+        'Hörtext',
+        FieldKind.longText,
+        limit: FieldLimit(min: 70, max: 110, unit: LimitUnit.words),
+        nullable: true,
+        minLines: 5,
+        hint: 'Einsprech-Skript, keine Anrede',
       ),
     ], description: 'Vorgaben aus tools/TRAIL_SCAN.md, nur als Warnung.'),
     const FieldsBlock('Kennzahlen', [

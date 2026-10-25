@@ -10,6 +10,8 @@ import '../core/field_spec.dart';
 import '../widgets/editor_chrome.dart';
 import '../widgets/field_editor.dart';
 import '../widgets/relation_field.dart';
+import '../import/import_frames.dart';
+import '../import/import_scope.dart';
 
 /// Editor eines Datensatzes: Kopf (Titel, Autosave, Löschen) und die
 /// Blöcke der [CollectionSpec] untereinander.
@@ -57,13 +59,51 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
   late final ProviderContainer _container;
   var _containerReady = false;
 
+  // Import-Review: Feld-Revisionen, damit ein übernommener Vorschlag im Feld erscheint.
+  final _fieldRev = <String, int>{};
+  ImportEditorController? _importCtl;
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     // Inherited-Lookup ist in initState verboten (roter Screen beim Öffnen).
+    final ctl = ImportScope.maybeOf(context)?.controller;
+    if (!identical(ctl, _importCtl)) {
+      _importCtl?.removeListener(_onImportCtl);
+      _importCtl?.applyValue = null;
+      _importCtl?.currentRow = null;
+      _importCtl?.flush = null;
+      _importCtl = ctl;
+      ctl?.addListener(_onImportCtl);
+      ctl?.applyValue = _applyImportValue;
+      ctl?.currentRow = () => widget.row;
+      ctl?.flush = _autosave.flush;
+    }
     if (_containerReady) return;
     _container = ProviderScope.containerOf(context);
     _containerReady = true;
+  }
+
+  void _onImportCtl() {
+    if (mounted) setState(() {});
+  }
+
+  FieldSpec? _fieldByKey(String key) {
+    for (final b in widget.spec.blocks) {
+      if (b is FieldsBlock) {
+        for (final f in b.fields) {
+          if (f.key == key) return f;
+        }
+      }
+    }
+    return null;
+  }
+
+  void _applyImportValue(String key, dynamic value) {
+    final f = _fieldByKey(key);
+    if (f == null) return;
+    _autosave.set(f, value);
+    setState(() => _fieldRev[key] = (_fieldRev[key] ?? 0) + 1);
   }
 
   @override
@@ -77,6 +117,7 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
       hub: _hub,
       save: (patch) async {
         await _repo.update(spec, id, patch);
+        _importCtl?.onSaved?.call();
         // Titel/Lücken in der Liste nachziehen, ohne den Editor neu zu laden.
         if (patch.keys.any(
           (k) =>
@@ -99,6 +140,10 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
 
   @override
   void dispose() {
+    _importCtl?.removeListener(_onImportCtl);
+    _importCtl?.applyValue = null;
+    _importCtl?.currentRow = null;
+    _importCtl?.flush = null;
     _autosave.dispose();
     _hub.dispose();
     super.dispose();
@@ -132,10 +177,22 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final spec = widget.spec;
+    final importing = _importCtl != null;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Padding(
+        if (importing)
+          Padding(
+            padding: const EdgeInsets.fromLTRB(24, 8, 16, 8),
+            child: Row(
+              children: [
+                const Spacer(),
+                AutosaveIndicator(hub: _hub),
+              ],
+            ),
+          )
+        else
+          Padding(
           padding: const EdgeInsets.fromLTRB(32, 20, 24, 12),
           child: Row(
             children: [
@@ -174,7 +231,9 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
         const Divider(height: 1, color: AppColors.n200),
         Expanded(
           child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(32, 24, 32, 64),
+            padding: importing
+                ? const EdgeInsets.fromLTRB(20, 16, 20, 64)
+                : const EdgeInsets.fromLTRB(32, 24, 32, 64),
             child: Align(
               alignment: Alignment.topLeft,
               child: ConstrainedBox(
@@ -186,7 +245,7 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
                       EditorSection(
                         title: block.title,
                         description: block.description,
-                        child: _buildBlock(context, block),
+                        child: _wrapBlock(context, block),
                       ),
                   ],
                 ),
@@ -195,6 +254,19 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
           ),
         ),
       ],
+    );
+  }
+
+  Widget _wrapBlock(BuildContext context, EditorBlock block) {
+    final built = _buildBlock(context, block);
+    final key = importBlockKey(block.title);
+    if (_importCtl == null || key == null) return built;
+    return ImportBlockFrame(
+      blockKey: key,
+      child: KeyedSubtree(
+        key: ValueKey('$key#${_importCtl!.blockRev}'),
+        child: built,
+      ),
     );
   }
 
@@ -207,10 +279,14 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
             for (final f in block.fields)
               Padding(
                 padding: const EdgeInsets.only(bottom: 14),
-                child: FieldEditor(
+                child: ImportFieldFrame(
                   spec: f,
-                  row: widget.row,
-                  onChanged: _autosave.set,
+                  child: FieldEditor(
+                    key: ValueKey('${f.key}#${_fieldRev[f.key] ?? 0}'),
+                    spec: f,
+                    row: widget.row,
+                    onChanged: _autosave.set,
+                  ),
                 ),
               ),
           ],

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_avif/flutter_avif.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_typography.dart';
+import '../../../shared/widgets/kalia_image.dart';
 import '../domain/trail_image.dart';
 
 /// Vollbild-Ansicht fuer Bilder: Wischen zwischen Bildern, Zoomen per
@@ -112,20 +112,13 @@ class _FullscreenImageViewerState extends State<FullscreenImageViewer> {
             itemBuilder: (context, i) => InteractiveViewer(
               maxScale: 5,
               child: Center(
-                child: CachedNetworkAvifImage(
-                  widget.images[i].mediumUrl,
+                child: KaliaImage(
+                  trailId: widget.images[i].trailId,
+                  imageId: widget.images[i].id,
+                  slot: TrailImageVariant.medium,
+                  thumbhash: widget.images[i].thumbhash,
+                  dominantColor: widget.images[i].dominantColor,
                   fit: BoxFit.contain,
-                  loadingBuilder: (context, child, progress) {
-                    if (progress == null) return child;
-                    return const Center(
-                      child: CircularProgressIndicator(color: AppColors.n50),
-                    );
-                  },
-                  errorBuilder: (context, error, stack) => const Icon(
-                    Icons.broken_image_outlined,
-                    color: AppColors.onImage54,
-                    size: 48,
-                  ),
                 ),
               ),
             ),

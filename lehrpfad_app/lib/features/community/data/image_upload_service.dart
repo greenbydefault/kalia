@@ -40,8 +40,8 @@ abstract class ImageUploader {
 const kProgressProcessed = 0.4;
 const kProgressUploaded = 0.9;
 
-/// Erzeugt drei AVIF-Varianten und laedt sie in den Bucket `trail-images`;
-/// der Eintrag in `images` startet mit Status pending (Moderation).
+/// Erzeugt drei AVIF- und drei WebP-Varianten und laedt sie in den Bucket
+/// `trail-images`; der Eintrag in `images` startet mit Status pending.
 /// Das Aufnehmen/Waehlen des Fotos liegt beim Aufrufer. Der EXIF-Ort wird
 /// vorher lokal zu [PhotoGeoCheck] verdichtet; die Varianten tragen kein EXIF.
 class ImageUploadService implements ImageUploader {
@@ -76,28 +76,42 @@ class ImageUploadService implements ImageUploader {
       throw ImageUploadException(e.message);
     }
     final variants = resized.bytes;
+    final webp = resized.webp;
 
     onProgress?.call(UploadPhase.hochladen, kProgressProcessed);
     final imageId = _uuid.v4();
     final paths = SupabaseImagesRepository.pathsFor(trailId, imageId);
-    // Fortschritt nach Dateigroesse: die grosse Variante zaehlt mehr.
-    final totalBytes = variants.values.fold<int>(0, (a, b) => a + b.length);
+    final files = [
+      for (final entry in variants.entries)
+        (
+          path: '$trailId/$imageId/${entry.key.fileName}.avif',
+          bytes: entry.value,
+          type: 'image/avif',
+        ),
+      for (final entry in webp.entries)
+        (
+          path: '$trailId/$imageId/${entry.key.fileName}.webp',
+          bytes: entry.value,
+          type: 'image/webp',
+        ),
+    ];
+    final totalBytes = files.fold<int>(0, (a, b) => a + b.bytes.length);
     var uploadedBytes = 0;
     try {
       await Future.wait([
-        for (final entry in variants.entries)
+        for (final file in files)
           _client.storage
               .from(SupabaseImagesRepository.bucket)
               .uploadBinary(
-                '$trailId/$imageId/${entry.key.fileName}.avif',
-                entry.value,
+                file.path,
+                file.bytes,
                 fileOptions: FileOptions(
-                  contentType: 'image/avif',
+                  contentType: file.type,
                   cacheControl: '31536000',
                 ),
               )
               .then((_) {
-                uploadedBytes += entry.value.length;
+                uploadedBytes += file.bytes.length;
                 onProgress?.call(
                   UploadPhase.hochladen,
                   kProgressProcessed +
@@ -111,7 +125,7 @@ class ImageUploadService implements ImageUploader {
     }
 
     try {
-      await _client.from('images').insert({
+      await _insertImage({
         'id': imageId,
         'trail_id': trailId,
         'station_id': stationId,
@@ -119,17 +133,17 @@ class ImageUploadService implements ImageUploader {
         'source': 'user',
         'status': 'pending',
         'credit': credit,
-        // Nur die Ampel, nie Koordinaten (siehe PhotoGeoCheck).
         'geo_check': geoCheck.dbValue,
         'width': resized.width,
         'height': resized.height,
-        'mime_type': 'image/avif',
-        'thumb_bytes': variants[TrailImageVariant.thumb]!.length,
-        'small_bytes': variants[TrailImageVariant.small]!.length,
-        'medium_bytes': variants[TrailImageVariant.medium]!.length,
+        'mime_type': 'image/webp',
+        'thumb_bytes': webp[TrailImageVariant.thumb]!.length,
+        'small_bytes': webp[TrailImageVariant.small]!.length,
+        'medium_bytes': webp[TrailImageVariant.medium]!.length,
+        'thumbhash': resized.thumbhash,
+        'dominant_color': resized.dominantColor,
       });
     } catch (e) {
-      // Dateien wieder aufraeumen, damit keine Waisen im Storage liegen
       await _client.storage
           .from(SupabaseImagesRepository.bucket)
           .remove(paths)
@@ -137,5 +151,18 @@ class ImageUploadService implements ImageUploader {
       throw ImageUploadException('Speichern fehlgeschlagen: $e');
     }
     onProgress?.call(UploadPhase.hochladen, 1);
+  }
+
+  /// Migration 0037 kann auf dem Server noch fehlen: dann ohne die neuen
+  /// Spalten erneut schreiben, der Upload selbst bleibt gültig.
+  Future<void> _insertImage(Map<String, dynamic> row) async {
+    try {
+      await _client.from('images').insert(row);
+    } on PostgrestException catch (e) {
+      if (e.code != '42703') rethrow;
+      row.remove('thumbhash');
+      row.remove('dominant_color');
+      await _client.from('images').insert(row);
+    }
   }
 }
