@@ -89,7 +89,16 @@ input {
 }
 
 .section {
-  padding-block: var(--space-10);
+  padding-block: var(--section-pad);
+}
+
+/* Außenkanten: voller Abstand zu Hero und Footer */
+.hero + .section {
+  padding-top: var(--section-gap);
+}
+
+.section:last-child {
+  padding-bottom: var(--section-gap);
 }
 
 .section__head {
