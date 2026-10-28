@@ -12,6 +12,7 @@ import '../../../nearby_trails/domain/karte_logik.dart';
 import '../../../nearby_trails/presentation/eintrag_karte.dart';
 import '../../../trail_progress/presentation/trail_sheet_peek_actions.dart';
 import '../../domain/trail.dart';
+import '../detail/navigation_sheet.dart';
 import 'trail_hero.dart';
 
 /// Quick-Facts-Karte am unteren Rand der Karte (Zwischenschritt nach
@@ -37,7 +38,8 @@ class TrailPeekCard extends StatelessWidget {
   final GestureDragEndCallback? onVerticalDragEnd;
 
   /// Feste Höhe, damit der LocateFab-Offset deterministisch ist.
-  static const double height = 188;
+  /// Zwei Aktionszeilen (Navigation + Merken/Tour), sonst clippt die Karte.
+  static const double height = 240;
 
   @override
   Widget build(BuildContext context) {
@@ -122,6 +124,9 @@ class TrailPeekCard extends StatelessWidget {
                         TrailSheetPeekActions(
                           trail: trail,
                           onTourStarted: onTourStarted,
+                          leading: [
+                            NavigationStartButton(trail: trail, compact: true),
+                          ],
                         ),
                       ],
                     ),

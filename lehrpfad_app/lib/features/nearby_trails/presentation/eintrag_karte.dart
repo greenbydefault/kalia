@@ -7,6 +7,7 @@ import '../../../app/theme/app_spacing.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
 import '../../community/domain/trail_image.dart';
 import '../../trail/domain/trail.dart';
+import '../../trail/presentation/detail/navigation_sheet.dart';
 import '../../trail/presentation/map/trail_hero.dart';
 import '../../trail_progress/data/trail_progress_providers.dart';
 import '../../trail_progress/presentation/open_trail_on_map.dart';
@@ -90,6 +91,13 @@ class EintragKarte extends ConsumerWidget {
                 _Kopf(eintrag: e, trail: trail, gemerkt: gemerkt),
                 const SizedBox(height: AppSpacing.x3),
                 FaktenRaster(treffer: treffer),
+                if (trail.startOrNull != null) ...[
+                  const SizedBox(height: AppSpacing.x3),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: NavigationStartButton(trail: trail),
+                  ),
+                ],
                 if (audio != null || merkmale.isNotEmpty) ...[
                   const SizedBox(height: AppSpacing.x3),
                   Row(
@@ -300,7 +308,7 @@ class _FaktSpalte extends StatelessWidget {
         ),
         const SizedBox(height: 2),
         DefaultTextStyle.merge(
-          style: theme.textTheme.titleSmall,
+          style: theme.textTheme.bodySmall,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           child: fakt.wert,
@@ -330,7 +338,7 @@ class KinderBalken extends StatelessWidget {
             if (i > 0) const SizedBox(width: 3),
             Container(
               width: 6,
-              height: 16,
+              height: 14,
               decoration: BoxDecoration(
                 color: balken[i] ? AppColors.ink : AppColors.n200,
                 borderRadius: BorderRadius.circular(2),

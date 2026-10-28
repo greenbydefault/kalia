@@ -7,6 +7,7 @@ import '../../../../shared/widgets/overlay_badge.dart';
 import '../../../../shared/widgets/page_dots.dart';
 import '../../../../shared/widgets/snapping_page_behavior.dart';
 import '../../../community/data/community_providers.dart';
+import '../../../community/domain/trail_image.dart';
 import '../../domain/trail.dart';
 import 'trail_hero.dart';
 import 'trail_hero_fullscreen.dart';
@@ -66,6 +67,7 @@ class _TrailHeroPagerState extends ConsumerState<TrailHeroPager> {
                   trailId: widget.trail.id,
                   slide: slide,
                   fit: BoxFit.cover,
+                  variant: TrailImageVariant.small,
                   width: double.infinity,
                   height: double.infinity,
                 ),

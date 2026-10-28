@@ -49,6 +49,7 @@ abstract final class AppTheme {
         s.contains(WidgetState.selected) ? AppColors.ink : AppColors.n400;
 
     return NavigationBarThemeData(
+      height: 69,
       backgroundColor: AppColors.paper,
       surfaceTintColor: Colors.transparent,
       elevation: 0,

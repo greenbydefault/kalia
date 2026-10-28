@@ -30,7 +30,7 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
 
   /// Ort-Screen direkt (Berechtigung früher dauerhaft abgelehnt).
   var _skippedLocation = false;
-  var _showSettingsHint = false;
+  var _hint = PlaceHint.none;
 
   @override
   void initState() {
@@ -76,18 +76,19 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
     if (!mounted) return;
     if (status == OsLocationStatus.deniedForever) {
       _skippedLocation = true;
-      _showSettingsHint = true;
+      _hint = PlaceHint.appSettings;
       _go(OnboardingStep.place, forward: true);
       return;
     }
     _skippedLocation = false;
-    _showSettingsHint = false;
+    _hint = PlaceHint.none;
     _go(OnboardingStep.location, forward: true);
   }
 
-  void _toPlace() {
+  /// [hint] nur, wenn „Standort freigeben“ nicht geklappt hat.
+  void _toPlace([PlaceHint hint = PlaceHint.none]) {
     _skippedLocation = false;
-    _showSettingsHint = false;
+    _hint = hint;
     _go(OnboardingStep.place, forward: true);
   }
 
@@ -105,11 +106,12 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
         onBack: _back,
         onGranted: _finish,
         onNeedPlace: _toPlace,
+        onBlocked: _toPlace,
       ),
       OnboardingStep.place => PlaceScreen(
         onBack: _back,
         onDone: _finish,
-        showSettingsHint: _showSettingsHint,
+        hint: _hint,
       ),
     };
   }

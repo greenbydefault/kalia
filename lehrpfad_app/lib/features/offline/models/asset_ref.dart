@@ -18,7 +18,7 @@ class ImageRef extends AssetRef {
 
   @override
   String fileKey([TrailImageVariant? variant]) =>
-      'images/$trailId/$imageId/${(variant ?? TrailImageVariant.small).fileName}.avif';
+      'images/$trailId/$imageId/${(variant ?? TrailImageVariant.small).fileName}.webp';
 
   @override
   bool operator ==(Object other) =>

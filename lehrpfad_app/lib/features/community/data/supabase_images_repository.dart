@@ -6,7 +6,7 @@ import 'images_repository.dart';
 
 /// Bilder aus Supabase: Metadaten aus der Tabelle `images`, Dateien aus
 /// dem oeffentlichen Bucket `trail-images`
-/// (Pfad: {trailId}/{imageId}/{variant}.avif).
+/// (Pfad: {trailId}/{imageId}/{variant}.webp, AVIF daneben).
 class SupabaseImagesRepository implements ImagesRepository {
   SupabaseImagesRepository(this._client);
 
@@ -24,6 +24,10 @@ class SupabaseImagesRepository implements ImagesRepository {
   static const _cmsColumns =
       'caption, license, license_url, source_url, kind, sort';
 
+  /// Platzhalter (Migration 0037). Fehlt die Spalte, bleibt die Abfrage
+  /// bei den CMS-Spalten.
+  static const _placeholderColumns = 'thumbhash, dominant_color';
+
   /// Die Geo-Ampel ist ein Moderations-Hinweis und wird nur fuer die
   /// pending-Queue geladen, nicht fuer die oeffentliche Anzeige.
   static const _pendingColumns = '$_columns, geo_check';
@@ -31,29 +35,42 @@ class SupabaseImagesRepository implements ImagesRepository {
   @override
   Future<List<TrailImage>> getImages(String trailId) async {
     try {
-      final rows = await _client
-          .from('images')
-          .select('$_columns, $_cmsColumns')
-          .eq('trail_id', trailId)
-          .order('created_at');
-      return rows.map(_rowToImage).toList();
+      return await _select('$_columns, $_cmsColumns, $_placeholderColumns',
+          trailId: trailId);
     } on PostgrestException catch (e) {
-      // 42703 = undefined_column: Migration 0030 noch nicht eingespielt.
       if (e.code != '42703') rethrow;
-      final rows = await _client
-          .from('images')
-          .select(_columns)
-          .eq('trail_id', trailId)
-          .order('created_at');
-      return rows.map(_rowToImage).toList();
+      try {
+        return await _select('$_columns, $_cmsColumns', trailId: trailId);
+      } on PostgrestException catch (e2) {
+        if (e2.code != '42703') rethrow;
+        return _select(_columns, trailId: trailId);
+      }
     }
+  }
+
+  Future<List<TrailImage>> _select(String columns, {required String trailId}) async {
+    final rows = await _client
+        .from('images')
+        .select(columns)
+        .eq('trail_id', trailId)
+        .order('created_at');
+    return rows.map(_rowToImage).toList();
   }
 
   @override
   Future<List<TrailImage>> getPendingImages() async {
+    try {
+      return await _pending('$_pendingColumns, $_placeholderColumns');
+    } on PostgrestException catch (e) {
+      if (e.code != '42703') rethrow;
+      return _pending(_pendingColumns);
+    }
+  }
+
+  Future<List<TrailImage>> _pending(String columns) async {
     final rows = await _client
         .from('images')
-        .select(_pendingColumns)
+        .select(columns)
         .eq('status', 'pending')
         .order('created_at');
     return rows.map(_rowToImage).toList();
@@ -74,8 +91,10 @@ class SupabaseImagesRepository implements ImagesRepository {
   }
 
   static List<String> pathsFor(String trailId, String imageId) => [
-    for (final v in TrailImageVariant.values)
+    for (final v in TrailImageVariant.values) ...[
+      '$trailId/$imageId/${v.fileName}.webp',
       '$trailId/$imageId/${v.fileName}.avif',
+    ],
   ];
 
   List<String> _paths(TrailImage image) => pathsFor(image.trailId, image.id);
@@ -85,7 +104,7 @@ class SupabaseImagesRepository implements ImagesRepository {
     final trailId = row['trail_id'] as String;
     String url(TrailImageVariant v) => _client.storage
         .from(bucket)
-        .getPublicUrl('$trailId/$id/${v.fileName}.avif');
+        .getPublicUrl('$trailId/$id/${v.fileName}.webp');
     return TrailImage(
       id: id,
       trailId: trailId,
@@ -114,6 +133,8 @@ class SupabaseImagesRepository implements ImagesRepository {
       sourceUrl: row['source_url'] as String? ?? '',
       kind: row['kind'] as String?,
       sort: (row['sort'] as num?)?.toInt() ?? 0,
+      thumbhash: row['thumbhash'] as String? ?? '',
+      dominantColor: row['dominant_color'] as String? ?? '',
     );
   }
 }

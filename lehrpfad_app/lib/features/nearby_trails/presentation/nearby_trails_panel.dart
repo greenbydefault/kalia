@@ -8,6 +8,7 @@ import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_spacing.dart';
 import '../../../core/connectivity/offline_provider.dart';
 import '../../../shared/catalogs/icon_catalog.dart';
+import '../../../shared/widgets/app_button.dart';
 import '../../../shared/widgets/bottom_content_card.dart';
 import '../../../shared/widgets/placeholder_block.dart';
 import '../../location/user_position_provider.dart';
@@ -44,8 +45,8 @@ class NearbyTrailsPanel extends ConsumerStatefulWidget {
   static const halbSize = 0.55;
   static const ganzSize = 0.92;
 
-  /// Fester Kopf: Griff, Titel, Bezugszeile, Chips.
-  static const kopfHoehe = 160.0;
+  /// Fester Kopf: Griff, Titel, Bezugszeile, Chips in [KarteChipGroesse.mittel].
+  static const kopfHoehe = 156.0;
 
   /// Karten pro Seite beim Nachladen.
   static const seite = 20;
@@ -274,30 +275,12 @@ class _NearbyTrailsPanelState extends ConsumerState<NearbyTrailsPanel> {
                 right: 0,
                 bottom: AppSpacing.x4 + widget.bottomInset,
                 child: Center(
-                  child: Theme(
-                    data: theme.copyWith(
-                      floatingActionButtonTheme: theme.floatingActionButtonTheme
-                          .copyWith(
-                            extendedSizeConstraints:
-                                const BoxConstraints.tightFor(height: 44),
-                            extendedPadding: const EdgeInsetsDirectional.only(
-                              start: 14,
-                              end: 16,
-                            ),
-                            extendedIconLabelSpacing: 6,
-                          ),
-                    ),
-                    child: FloatingActionButton.extended(
-                      heroTag: null,
-                      onPressed: () => ref
-                          .read(sheetHoeheProvider.notifier)
-                          .set(SheetHoehe.halb),
-                      icon: const PhosphorIcon(
-                        PhosphorIcons.mapTrifold,
-                        size: 18,
-                      ),
-                      label: Text(kt('karte.kartenButton')),
-                    ),
+                  child: AppButton(
+                    onPressed: () => ref
+                        .read(sheetHoeheProvider.notifier)
+                        .set(SheetHoehe.halb),
+                    icon: PhosphorIcons.mapTrifold,
+                    label: kt('karte.kartenButton'),
                   ),
                 ),
               ),
@@ -654,7 +637,7 @@ class _ChipReiheState extends ConsumerState<_ChipReihe> {
     ref.listen(gebietProvider, (_, next) => _insBild(next));
 
     return SizedBox(
-      height: 44,
+      height: KarteChipGroesse.mittel.hoehe,
       child: ListView(
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: AppSpacing.x5),
@@ -696,7 +679,20 @@ class _ChipReiheState extends ConsumerState<_ChipReihe> {
   }
 }
 
-/// Chip mit 44 pt Touch-Ziel.
+/// Höhe und seitliches Padding. Mittel ist der Default auf der Karte:
+/// die alte Pille (44 / 16) minus 4 Höhe und minus 2 links und rechts.
+enum KarteChipGroesse {
+  klein(hoehe: 36, horizontal: 12),
+  mittel(hoehe: 40, horizontal: 14),
+  gross(hoehe: 44, horizontal: 16);
+
+  const KarteChipGroesse({required this.hoehe, required this.horizontal});
+
+  final double hoehe;
+  final double horizontal;
+}
+
+/// Chip. Icon 16, Abstand zum Label 8. Die Stufe setzt Höhe und Padding.
 class KarteChip extends StatelessWidget {
   const KarteChip({
     super.key,
@@ -704,12 +700,14 @@ class KarteChip extends StatelessWidget {
     required this.selected,
     required this.onTap,
     this.icon,
+    this.groesse = KarteChipGroesse.mittel,
   });
 
   final String label;
   final bool selected;
   final VoidCallback onTap;
   final IconData? icon;
+  final KarteChipGroesse groesse;
 
   @override
   Widget build(BuildContext context) {
@@ -731,9 +729,9 @@ class KarteChip extends StatelessWidget {
           customBorder: const StadiumBorder(),
           onTap: onTap,
           child: ConstrainedBox(
-            constraints: const BoxConstraints(minHeight: 44),
+            constraints: BoxConstraints(minHeight: groesse.hoehe),
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.x4),
+              padding: EdgeInsets.symmetric(horizontal: groesse.horizontal),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [

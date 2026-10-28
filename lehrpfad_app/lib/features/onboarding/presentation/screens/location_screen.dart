@@ -16,6 +16,7 @@ import '../../../location/user_position_provider.dart';
 import '../../../trail_progress/tracking/location_service.dart';
 import '../../data/onboarding_prefs_provider.dart';
 import '../widgets/step_header.dart';
+import 'place_screen.dart' show PlaceHint;
 
 /// Screen 3: Standort. Echter System-Dialog („Beim Verwenden der App“).
 class LocationScreen extends ConsumerStatefulWidget {
@@ -24,11 +25,17 @@ class LocationScreen extends ConsumerStatefulWidget {
     required this.onBack,
     required this.onGranted,
     required this.onNeedPlace,
+    required this.onBlocked,
   });
 
   final VoidCallback onBack;
   final VoidCallback onGranted;
+
+  /// „Ort selbst eingeben“: niemand hat die Freigabe versucht.
   final VoidCallback onNeedPlace;
+
+  /// „Standort freigeben“ ohne Erfolg, mit Hinweis für den Ort-Screen.
+  final ValueChanged<PlaceHint> onBlocked;
 
   static const deniedToast = 'Kein Problem, gebt euren Ort einfach ein';
 
@@ -51,13 +58,20 @@ class _LocationScreenState extends ConsumerState<LocationScreen> {
     if (_busy) return;
     setState(() => _busy = true);
     var granted = false;
+    var asked = false;
+    // Nach dem Dialog ohne Freigabe fehlt sie in den Einstellungen.
+    var hint = kIsWeb ? PlaceHint.none : PlaceHint.appSettings;
     try {
       final ctrl = ref.read(locationPermissionProvider.notifier);
       // Web: Prompt direkt im Tap auslösen, ohne vorherige Status-Abfrage.
       var status = kIsWeb ? OsLocationStatus.unknown : await _status(ctrl);
-      if (!status.isGranted &&
-          status != OsLocationStatus.deniedForever &&
-          status != OsLocationStatus.servicesDisabled) {
+      // Ohne Dialog gescheitert (Dienst aus, dauerhaft gesperrt): der Hinweis
+      // auf die Einstellungen genügt, ein „abgelehnt“-Toast wäre falsch.
+      asked =
+          status.isGranted ||
+          (status != OsLocationStatus.deniedForever &&
+              status != OsLocationStatus.servicesDisabled);
+      if (!status.isGranted && asked) {
         try {
           status = await ctrl.requestWhenInUse();
         } catch (_) {
@@ -67,6 +81,7 @@ class _LocationScreenState extends ConsumerState<LocationScreen> {
         }
       }
       granted = status.isGranted;
+      hint = kIsWeb ? PlaceHint.none : PlaceHint.forStatus(status);
     } catch (_) {
       granted = false;
     }
@@ -86,13 +101,15 @@ class _LocationScreenState extends ConsumerState<LocationScreen> {
       if (mounted) widget.onGranted();
       return;
     }
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        behavior: SnackBarBehavior.floating,
-        content: Text(LocationScreen.deniedToast),
-      ),
-    );
-    widget.onNeedPlace();
+    if (asked) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          behavior: SnackBarBehavior.floating,
+          content: Text(LocationScreen.deniedToast),
+        ),
+      );
+    }
+    widget.onBlocked(hint);
   }
 
   @override

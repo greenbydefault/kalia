@@ -66,11 +66,7 @@ class AnreiseSection extends StatelessWidget {
         if (trail.startOrNull != null) ...[
           Align(
             alignment: Alignment.centerLeft,
-            child: FilledButton.tonalIcon(
-              onPressed: () => NavigationSheet.show(context, trail),
-              icon: const PhosphorIcon(PhosphorIcons.navigationArrow, size: 18),
-              label: const Text('Navigation starten'),
-            ),
+            child: NavigationStartButton(trail: trail),
           ),
           const SizedBox(height: AppSpacing.stack),
         ],

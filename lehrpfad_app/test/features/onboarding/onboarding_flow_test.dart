@@ -45,6 +45,23 @@ class _GrantedButFailingLocation extends FakeLocationService {
   }
 }
 
+/// Status wechselt erst nach der Gruppen-Seite auf „dauerhaft verweigert“
+/// (Nutzer hat in der Zwischenzeit in den Einstellungen gesperrt): der erste
+/// `status()`-Aufruf (Flow) meldet denied, der zweite (Button) deniedForever.
+class _DeniedForeverAfterGroup extends FakeLocationService {
+  var _calls = 0;
+
+  @override
+  Future<OsLocationStatus> status() async {
+    _calls++;
+    // Provider-Build und `_toLocation` lesen zuerst, erst der Button sieht
+    // die Sperre.
+    return _calls <= 2
+        ? OsLocationStatus.denied
+        : OsLocationStatus.deniedForever;
+  }
+}
+
 /// Wie AppShell: Flow solange `onboardingDone` fehlt, sonst „Home“.
 class _Gate extends ConsumerWidget {
   const _Gate();
@@ -208,6 +225,73 @@ void main() {
       find.text('Kein Problem, gebt euren Ort einfach ein'),
       findsOneWidget,
     );
+    expect(fake.requests, 1);
+    expect(find.textContaining('für Kalia gesperrt'), findsOneWidget);
+    expect(find.text('Einstellungen öffnen'), findsOneWidget);
+  });
+
+  testWidgets('Dienst aus → Hinweis auf Standortschalter, kein Dialog', (
+    tester,
+  ) async {
+    await bigScreen(tester);
+    final fake = FakeLocationService(
+      status0: OsLocationStatus.servicesDisabled,
+    );
+    await tester.pumpWidget(_flowApp(fake));
+    await settle(tester);
+
+    await tester.tap(find.text('Los geht’s'));
+    await settle(tester);
+    await tester.tap(find.text('Überspringen'));
+    await settle(tester);
+    await tester.tap(find.text('Standort freigeben'));
+    await settle(tester);
+
+    expect(find.text('Von wo startet ihr meistens?'), findsOneWidget);
+    expect(fake.requests, 0);
+    expect(find.textContaining('ausgeschaltet'), findsOneWidget);
+    expect(find.text('Standort-Einstellungen öffnen'), findsOneWidget);
+    expect(find.text('Kein Problem, gebt euren Ort einfach ein'), findsNothing);
+  });
+
+  testWidgets('Dauerhaft gesperrt beim Button → Hinweis, kein Toast', (
+    tester,
+  ) async {
+    await bigScreen(tester);
+    final fake = _DeniedForeverAfterGroup();
+    await tester.pumpWidget(_flowApp(fake));
+    await settle(tester);
+
+    await tester.tap(find.text('Los geht’s'));
+    await settle(tester);
+    await tester.tap(find.text('Überspringen'));
+    await settle(tester);
+    await tester.tap(find.text('Standort freigeben'));
+    await settle(tester);
+
+    expect(find.text('Von wo startet ihr meistens?'), findsOneWidget);
+    expect(fake.requests, 0);
+    expect(find.text('Einstellungen öffnen'), findsOneWidget);
+    expect(find.text('Kein Problem, gebt euren Ort einfach ein'), findsNothing);
+  });
+
+  testWidgets('Ort selbst eingeben → kein Einstellungs-Hinweis', (
+    tester,
+  ) async {
+    await bigScreen(tester);
+    await tester.pumpWidget(_flowApp(FakeLocationService()));
+    await settle(tester);
+
+    await tester.tap(find.text('Los geht’s'));
+    await settle(tester);
+    await tester.tap(find.text('Überspringen'));
+    await settle(tester);
+    await tester.tap(find.text('Ort selbst eingeben'));
+    await settle(tester);
+
+    expect(find.text('Von wo startet ihr meistens?'), findsOneWidget);
+    expect(find.text('Einstellungen öffnen'), findsNothing);
+    expect(find.textContaining('ausgeschaltet'), findsNothing);
   });
 
   testWidgets('Dauerhaft abgelehnt → direkt Ort-Screen, Zurück zur Gruppe', (

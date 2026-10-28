@@ -24,8 +24,9 @@ const _avifQuality = {
 ///   dart run tool/ingest_images.dart --all
 ///
 /// Liest credits.json, encodiert jede genannte Quelldatei nach
-/// `{slug}.thumb.avif` / `.small.avif` / `.medium.avif` und löscht das
-/// Original. credits.json bleibt unverändert (`file` = Slug).
+/// `{slug}.thumb.avif` / `.small.avif` / `.medium.avif` und lässt die
+/// Quelle liegen. Ohne Original lässt sich später kein WebP neu rechnen.
+/// credits.json bleibt unverändert (`file` = Slug).
 Future<void> main(List<String> args) async {
   final trailsDir = Directory('assets/images/trails');
   if (!trailsDir.existsSync()) {
@@ -91,8 +92,8 @@ Future<void> main(List<String> args) async {
   stdout.writeln('fertig: $encoded Bilder encodiert');
 }
 
-/// Resized [src] in drei AVIFs unter [outDir]/[slug].{variant}.avif und
-/// löscht die Quelle. false bei Decode- oder sips-Fehler.
+/// Resized [src] in drei AVIFs unter [outDir]/[slug].{variant}.avif.
+/// Die Quelle bleibt. false bei Decode- oder sips-Fehler.
 Future<bool> _ingestFile(File src, Directory outDir, String slug) async {
   final ResizedVariants resized;
   try {
@@ -126,7 +127,6 @@ Future<bool> _ingestFile(File src, Directory outDir, String slug) async {
     }
   }
 
-  await src.delete();
   stdout.writeln(
     'OK  ${outDir.path.split(Platform.pathSeparator).last}/$slug '
     '(${resized.width}x${resized.height})',

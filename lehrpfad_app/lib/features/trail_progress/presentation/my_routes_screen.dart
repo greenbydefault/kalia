@@ -4,6 +4,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/shell_tab_provider.dart';
 import '../../../app/theme/app_spacing.dart';
+import '../../../shared/widgets/app_button.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/trail.dart';
 import '../data/trail_list_providers.dart';
@@ -28,10 +29,10 @@ class MyRoutesScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text('Meine Listen')),
-      floatingActionButton: FloatingActionButton.extended(
+      floatingActionButton: AppButton(
         onPressed: () => _createList(context, ref),
-        icon: const Icon(Icons.add),
-        label: const Text('Neue Liste'),
+        icon: Icons.add,
+        label: 'Neue Liste',
       ),
       body: trailsAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),

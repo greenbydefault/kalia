@@ -3,19 +3,26 @@ import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
 import 'package:lehrpfad_app/features/community/domain/trail_image.dart';
+import 'package:lehrpfad_app/shared/images/image_encoder.dart';
 import 'package:lehrpfad_app/shared/images/image_variants.dart';
 
 import 'support/jpeg_fixtures.dart';
 
 Uint8List _png({required int width, required int height}) {
+  return Uint8List.fromList(
+    img.encodePng(_solid(width, height, 120, 160, 200)),
+  );
+}
+
+img.Image _solid(int width, int height, int r, int g, int b) {
   final im = img.Image(width: width, height: height);
   for (final px in im) {
     px
-      ..r = 120
-      ..g = 160
-      ..b = 200;
+      ..r = r
+      ..g = g
+      ..b = b;
   }
-  return Uint8List.fromList(img.encodePng(im));
+  return im;
 }
 
 void main() {
@@ -25,6 +32,12 @@ void main() {
     expect(kVariantMaxEdge[TrailImageVariant.medium], 2000);
   });
 
+  test('placeholderFromThumbJpeg setzt ThumbHash und Farbe', () {
+    final jpeg = Uint8List.fromList(img.encodeJpg(_solid(8, 4, 10, 40, 80)));
+    final out = placeholderFromThumbJpeg(jpeg);
+    expect(out.thumbhash, isNotEmpty);
+    expect(out.dominantColor, matches(RegExp(r'^#[0-9A-F]{6}$')));
+  });
   test('resizeVariants skaliert langes Querformat auf die drei Kanten', () {
     final out = resizeVariants(_png(width: 4000, height: 2000));
 

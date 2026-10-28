@@ -17,6 +17,7 @@ import '../../../species/presentation/arten_section.dart';
 import '../../../trail_progress/presentation/gelaufen_action.dart';
 import '../../domain/trail.dart';
 import '../../track_engine/trail_track_view.dart';
+import 'navigation_sheet.dart';
 import 'widgets/anreise_section.dart';
 import 'widgets/eignung_section.dart';
 import 'widgets/fact_chip.dart';
@@ -40,22 +41,28 @@ class TrailSheetBody extends ConsumerWidget {
     final nearby = ref.watch(nearbyPlacesProvider(trail.id)).asData?.value;
     final hasNearby = nearby != null && nearby.isNotEmpty;
 
+    final showNav = trail.startOrNull != null;
+    final showCommunity = SupabaseConfig.isConfigured;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (SupabaseConfig.isConfigured) ...[
+        if (showNav || showCommunity) ...[
           Wrap(
             spacing: AppSpacing.chip,
             runSpacing: AppSpacing.chip,
             crossAxisAlignment: WrapCrossAlignment.center,
             children: [
-              AddPhotoButton(trail: trail),
-              if (!kIsWeb)
-                TextButton.icon(
-                  onPressed: () => startFixFlow(context, trail: trail),
-                  icon: const Icon(Icons.flag_outlined),
-                  label: Text(kt('karte.melden')),
-                ),
+              if (showNav) NavigationStartButton(trail: trail),
+              if (showCommunity) ...[
+                AddPhotoButton(trail: trail),
+                if (!kIsWeb)
+                  TextButton.icon(
+                    onPressed: () => startFixFlow(context, trail: trail),
+                    icon: const Icon(Icons.flag_outlined),
+                    label: Text(kt('karte.melden')),
+                  ),
+              ],
             ],
           ),
           const SizedBox(height: AppSpacing.stack),

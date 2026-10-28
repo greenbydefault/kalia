@@ -124,8 +124,12 @@ const karteTexte = <String, String>{
   'standort.dialog.text':
       'Euer Standort ist in den Einstellungen gesperrt. Gebt ihn dort frei, um zu sehen, was in eurer Nähe liegt.',
   'standort.dialog.button': 'Einstellungen öffnen',
+  'aktion.navigation': 'Navigation starten',
   'nav.karte': 'Karte',
   'nav.erkunden': 'Erkunden',
+  'erkunden.titel': 'Erkunden',
+  'erkunden.text':
+      'Hier kommen Highlights aus eurer Region: Wege, Cafés und anderes, das mit Kindern passt. Bis dahin findet ihr Wege und Orte auf der Karte.',
   'nav.listen': 'Meine Listen',
   'nav.sammlung': 'Sammlung',
   'nav.konto': 'Konto',

@@ -5,8 +5,45 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../app/theme/app_spacing.dart';
 import '../../../../shared/widgets/show_app_modal_sheet.dart';
+import '../../../nearby_trails/domain/karte_copy.dart';
 import '../../domain/external_navigation.dart';
 import '../../domain/trail.dart';
+
+/// Öffnet [NavigationSheet]. Verschwindet ohne Startkoordinate.
+class NavigationStartButton extends StatelessWidget {
+  const NavigationStartButton({
+    super.key,
+    required this.trail,
+    this.compact = false,
+  });
+
+  final Trail trail;
+  final bool compact;
+
+  static final ButtonStyle _compactStyle = FilledButton.styleFrom(
+    visualDensity: VisualDensity.compact,
+    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    padding: const EdgeInsets.symmetric(
+      horizontal: AppSpacing.x3,
+      vertical: AppSpacing.x2,
+    ),
+    minimumSize: const Size(0, 36),
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.all(Radius.circular(12)),
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    if (trail.startOrNull == null) return const SizedBox.shrink();
+    return FilledButton.tonalIcon(
+      style: compact ? _compactStyle : null,
+      onPressed: () => NavigationSheet.show(context, trail),
+      icon: const PhosphorIcon(PhosphorIcons.navigationArrow, size: 18),
+      label: Text(kt('aktion.navigation')),
+    );
+  }
+}
 
 /// Auswahl einer externen Karten-App für die Anreise.
 class NavigationSheet extends StatelessWidget {

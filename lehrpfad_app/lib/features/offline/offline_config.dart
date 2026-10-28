@@ -13,7 +13,8 @@ abstract final class OfflineConfig {
   static const seedSpeciesAsset = 'assets/seed/species.json';
   static const seedDir = 'assets/seed';
 
-  /// Öffentlicher Bucket der Hero-Fotos: `{trailId}/{imageId}/{variant}.avif`.
+  /// Öffentlicher Bucket der Hero-Fotos: `{trailId}/{imageId}/{variant}.webp`.
+  /// AVIF liegt unter demselben Pfad mit `.avif` und bleibt der Fallback.
   static const imageBucket = 'trail-images';
 
   /// Ordner der Dateien (Fotos, später Audio/Tiles) unter Application Support.

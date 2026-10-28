@@ -12,19 +12,36 @@ import '../../data/place_search.dart';
 import '../../domain/user_place.dart';
 import '../widgets/step_header.dart';
 
+/// Hinweis auf dem Ort-Screen, wenn die Standortfreigabe fehlt.
+enum PlaceHint {
+  none,
+
+  /// Berechtigung fehlt, Freigabe in den App-Einstellungen.
+  appSettings,
+
+  /// Standortschalter des Geräts ist aus.
+  locationSwitch;
+
+  static PlaceHint forStatus(OsLocationStatus status) => switch (status) {
+    OsLocationStatus.servicesDisabled => PlaceHint.locationSwitch,
+    OsLocationStatus.whileInUse || OsLocationStatus.always => PlaceHint.none,
+    _ => PlaceHint.appSettings,
+  };
+}
+
 /// Screen 3b: Ort eingeben. Auch standalone („Ort ändern“) nutzbar.
 class PlaceScreen extends ConsumerStatefulWidget {
   const PlaceScreen({
     super.key,
     required this.onBack,
     required this.onDone,
-    this.showSettingsHint = false,
+    this.hint = PlaceHint.none,
     this.standalone = false,
   });
 
   final VoidCallback onBack;
   final VoidCallback onDone;
-  final bool showSettingsHint;
+  final PlaceHint hint;
 
   /// Ohne Fortschrittsanzeige (z. B. aus dem Karten-Panel geöffnet).
   final bool standalone;
@@ -146,26 +163,38 @@ class _PlaceScreenState extends ConsumerState<PlaceScreen> {
                       color: AppColors.inkMuted,
                     ),
                   ),
-                  if (widget.showSettingsHint) ...[
+                  if (widget.hint != PlaceHint.none) ...[
                     const SizedBox(height: AppSpacing.x3),
                     Text(
-                      'Der Standort ist für Kalia gesperrt. In den '
-                      'Einstellungen lässt er sich wieder erlauben.',
+                      widget.hint == PlaceHint.locationSwitch
+                          ? 'Der Standort ist auf diesem Gerät ausgeschaltet. '
+                                'Schaltet ihn in den Einstellungen ein.'
+                          : 'Der Standort ist für Kalia gesperrt. In den '
+                                'Einstellungen lässt er sich wieder erlauben.',
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: AppColors.inkMuted,
                       ),
                     ),
                     TextButton(
-                      onPressed: () => ref
-                          .read(locationServiceProvider)
-                          .openSystemSettings(),
-                      child: const Text('Einstellungen öffnen'),
+                      onPressed: () {
+                        final location = ref.read(locationServiceProvider);
+                        if (widget.hint == PlaceHint.locationSwitch) {
+                          location.openLocationSettings();
+                        } else {
+                          location.openSystemSettings();
+                        }
+                      },
+                      child: Text(
+                        widget.hint == PlaceHint.locationSwitch
+                            ? 'Standort-Einstellungen öffnen'
+                            : 'Einstellungen öffnen',
+                      ),
                     ),
                   ],
                   const SizedBox(height: AppSpacing.x5),
                   TextField(
                     controller: _controller,
-                    autofocus: !widget.showSettingsHint,
+                    autofocus: widget.hint == PlaceHint.none,
                     textInputAction: TextInputAction.search,
                     autocorrect: false,
                     onSubmitted: (_) {

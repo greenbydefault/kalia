@@ -46,11 +46,11 @@ class AudioAssetSource extends ResolvedAudio {
 /// Einziger Ort, der entscheidet, woher ein Medium kommt. Die UI fragt nach
 /// einem [AssetRef], nie nach Pfaden oder Buckets.
 ///
-/// Bilder, in dieser Reihenfolge:
+/// Bilder, in dieser Reihenfolge, pro Slot:
 /// 1. lokale Datei im [FileStore]
-/// 2. Storage-URL (nur online)
-/// 3. gebündelter Seed-Thumb des Orts (nur wenn es genau dieses Bild ist)
-/// 4. Platzhalter
+/// 2. WebP, dann AVIF (nur online)
+/// 3. gebündelter Seed-Thumb, nur für den Slot thumb
+/// Den nächstkleineren Slot und den Farbplatzhalter hängt das Widget an.
 class AssetResolver {
   AssetResolver({
     required this._files,
@@ -63,33 +63,40 @@ class AssetResolver {
   final Map<String, String> _seedThumbImages;
 
   static String placeholderAsset(TrailImageVariant v) =>
-      'assets/images/trails/_placeholder.${v.fileName}.avif';
+      'assets/images/trails/_placeholder.${v.fileName}.webp';
 
   static String seedThumbAsset(String trailId) =>
-      '${OfflineConfig.seedDir}/thumbs/$trailId.avif';
+      '${OfflineConfig.seedDir}/thumbs/$trailId.webp';
 
-  String storageUrl(ImageRef ref, TrailImageVariant v) =>
+  String storageUrl(ImageRef ref, TrailImageVariant v, {String ext = 'webp'}) =>
       '$_base/storage/v1/object/public/${OfflineConfig.imageBucket}/'
-      '${ref.trailId}/${ref.imageId}/${v.fileName}.avif';
+      '${ref.trailId}/${ref.imageId}/${v.fileName}.$ext';
 
-  /// Quellen in Prioritätsreihenfolge; die letzte ist immer ein Asset.
+  /// Quellen für genau diesen Slot, ohne den nächstkleineren.
+  ///
+  /// Online: lokale Datei, dann WebP, dann AVIF. Der Seed-Thumb kommt nur
+  /// beim Slot thumb und erst nach dem Netz, damit small online nie darauf
+  /// stehen bleibt. Offline entfällt das Netz; der Seed-Thumb ist dann der
+  /// einzige Bildpfad ohne Verbindung.
   List<ImageSource> image(
     ImageRef ref,
     TrailImageVariant variant, {
     required bool online,
   }) {
     final local = _files.pathIfExists(ref.fileKey(variant));
+    final seedThumb =
+        variant == TrailImageVariant.thumb &&
+        _seedThumbImages[ref.trailId] == ref.imageId;
+    final network = online && _base.isNotEmpty;
     return [
       if (local != null) ImageSourceFile(local),
-      if (online && _base.isNotEmpty)
-        ImageSourceNetwork(storageUrl(ref, variant)),
-      if (_seedThumbImages[ref.trailId] == ref.imageId)
-        ImageSourceAsset(seedThumbAsset(ref.trailId)),
-      ImageSourceAsset(placeholderAsset(variant)),
+      if (network) ImageSourceNetwork(storageUrl(ref, variant)),
+      if (network) ImageSourceNetwork(storageUrl(ref, variant, ext: 'avif')),
+      if (seedThumb) ImageSourceAsset(seedThumbAsset(ref.trailId)),
     ];
   }
 
-  /// Nur Platzhalter (Trail ohne Foto).
+  /// Nur der grafische Platzhalter (Trail ohne Foto).
   List<ImageSource> placeholder(TrailImageVariant variant) => [
     ImageSourceAsset(placeholderAsset(variant)),
   ];

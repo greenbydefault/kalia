@@ -1,14 +1,9 @@
-import 'dart:io' show File;
-
 import 'package:flutter/material.dart';
-import 'package:flutter_avif/flutter_avif.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../app/theme/app_colors.dart';
 import '../../../community/domain/trail_image.dart';
-import '../../../offline/offline.dart';
-import '../../domain/trail.dart';
-import '../../domain/trail_bild.dart';
+import '../../../trail/domain/trail.dart';
+import '../../../trail/domain/trail_bild.dart';
+import '../../../../shared/widgets/kalia_image.dart';
 
 /// Eine Hero-Seite: redaktionelles Foto (Trail-Daten) oder Community-Foto.
 class HeroSlide {
@@ -73,9 +68,10 @@ class HeroSlide {
 class TrailHero {
   static const placeholderAsset = 'assets/images/trails/_placeholder.jpg';
 
-  /// AVIF-Variante des Platzhalters (`_placeholder.{variant}.avif`).
+  /// AVIF bleibt für alte Stände. Die App zeigt die WebP-Variante
+  /// (`_placeholder.{variant}.webp`).
   static String placeholderVariant(TrailImageVariant variant) =>
-      'assets/images/trails/_placeholder.${variant.fileName}.avif';
+      'assets/images/trails/_placeholder.${variant.fileName}.webp';
 
   static const placeholderBild = TrailBild(
     file: placeholderAsset,
@@ -117,10 +113,9 @@ class TrailHero {
   }
 }
 
-/// Hero-Foto. Quelle und Reihenfolge entscheidet der [AssetResolver]
-/// (lokal → Storage → Seed-Thumb → Platzhalter); bei Ladefehler wird die
-/// nächste Quelle versucht.
-class TrailHeroImage extends ConsumerWidget {
+/// Hero-Foto. Slot kommt vom Aufrufer. Community- und Seed-Bilder laufen
+/// beide über [KaliaImage].
+class TrailHeroImage extends StatelessWidget {
   const TrailHeroImage({
     super.key,
     required this.trailId,
@@ -136,89 +131,34 @@ class TrailHeroImage extends ConsumerWidget {
   final HeroSlide slide;
   final BoxFit fit;
 
-  /// Welche AVIF-Größe geladen wird: thumb (Karten-Peek/Strip),
-  /// small (Header-Slider), medium (Fullscreen). Seed wie Community.
+  /// thumb in Listen, small im Hero, medium nur im Zoom.
   final TrailImageVariant variant;
   final double? width;
   final double? height;
   final Alignment alignment;
 
-  static const _broken = ColoredBox(
-    color: AppColors.n900,
-    child: Icon(
-      Icons.broken_image_outlined,
-      color: AppColors.onImage54,
-      size: 48,
-    ),
-  );
-
-  /// Test-Hook: Der native AVIF-Decoder steht in Widget-Tests nicht zur
-  /// Verfügung. Tests setzen das auf ein einfaches Platzhalter-Widget.
+  /// Test-Hook: Widget-Tests haben keinen Bild-Decoder fürs Netz.
   @visibleForTesting
   static Widget Function(BoxFit fit)? debugSeedImageBuilder;
 
-  String _communityUrl(TrailImage img) => switch (variant) {
-    TrailImageVariant.thumb => img.thumbUrl,
-    TrailImageVariant.small => img.smallUrl,
-    TrailImageVariant.medium => img.mediumUrl,
-  };
-
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final community = slide.community;
-    if (community != null) {
-      return CachedNetworkAvifImage(
-        _communityUrl(community),
-        fit: fit,
-        width: width,
-        height: height,
-        alignment: alignment,
-        errorBuilder: (context, error, stack) => _broken,
-      );
-    }
-    final seed = slide.seed!;
+  Widget build(BuildContext context) {
     final debugBuilder = debugSeedImageBuilder;
     if (debugBuilder != null) return debugBuilder(fit);
-    final resolver = ref.watch(assetResolverProvider);
-    final id = seed.id;
-    final sources = (seed.isPlaceholder || id == null)
-        ? resolver.placeholder(variant)
-        : resolver.image(
-            ImageRef(trailId: trailId, imageId: id),
-            variant,
-            online: ref.watch(isOnlineProvider),
-          );
-    return _chain(sources, 0);
-  }
-
-  Widget _chain(List<ImageSource> sources, int i) {
-    Widget next(BuildContext context, Object error, StackTrace? stack) =>
-        i + 1 < sources.length ? _chain(sources, i + 1) : _broken;
-    return switch (sources[i]) {
-      ImageSourceFile(:final path) => AvifImage.file(
-        File(path),
-        fit: fit,
-        width: width,
-        height: height,
-        alignment: alignment,
-        errorBuilder: next,
-      ),
-      ImageSourceNetwork(:final url) => CachedNetworkAvifImage(
-        url,
-        fit: fit,
-        width: width,
-        height: height,
-        alignment: alignment,
-        errorBuilder: next,
-      ),
-      ImageSourceAsset(:final path) => AvifImage.asset(
-        path,
-        fit: fit,
-        width: width,
-        height: height,
-        alignment: alignment,
-        errorBuilder: next,
-      ),
-    };
+    final community = slide.community;
+    final seed = slide.seed;
+    final id = community?.id ?? seed?.id;
+    final empty = seed?.isPlaceholder == true || id == null;
+    return KaliaImage(
+      trailId: empty ? null : trailId,
+      imageId: empty ? null : id,
+      slot: variant,
+      thumbhash: community?.thumbhash ?? seed?.thumbhash ?? '',
+      dominantColor: community?.dominantColor ?? seed?.dominantColor ?? '',
+      fit: fit,
+      width: width,
+      height: height,
+      alignment: alignment,
+    );
   }
 }

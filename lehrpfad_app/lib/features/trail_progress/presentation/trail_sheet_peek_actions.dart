@@ -21,10 +21,14 @@ class TrailSheetPeekActions extends ConsumerWidget {
     super.key,
     required this.trail,
     this.onTourStarted,
+    this.leading = const [],
   });
 
   final Trail trail;
   final VoidCallback? onTourStarted;
+
+  /// Sitzt in derselben Zeile wie Merken und Tour, bricht mit um.
+  final List<Widget> leading;
 
   static final ButtonStyle _compactStyle = FilledButton.styleFrom(
     visualDensity: VisualDensity.compact,
@@ -81,6 +85,7 @@ class TrailSheetPeekActions extends ConsumerWidget {
       crossAxisAlignment: WrapCrossAlignment.center,
       alignment: WrapAlignment.end,
       children: [
+        ...leading,
         MerkenToggle(
           bookmarked: saved,
           iconOnly: true,

@@ -1,6 +1,6 @@
 /// Dateiablage für Offline-Medien (Fotos, später Audio/Tiles).
 ///
-/// Schlüssel sind relative Pfade (`images/<trail>/<id>/small.avif`).
+/// Schlüssel sind relative Pfade (`images/<trail>/<id>/small.webp`).
 /// Die UI liest nur über den Resolver, nie direkt aus dem Store.
 abstract interface class FileStore {
   /// Absoluter Pfad, wenn die Datei existiert, sonst `null`. Synchron, damit

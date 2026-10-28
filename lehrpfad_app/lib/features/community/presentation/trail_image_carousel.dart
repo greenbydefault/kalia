@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_avif/flutter_avif.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../shared/widgets/kalia_image.dart';
 import '../../../shared/widgets/overlay_badge.dart';
 import '../../../shared/widgets/page_dots.dart';
 import '../data/community_providers.dart';
@@ -39,7 +39,6 @@ class _TrailImageCarouselState extends ConsumerState<TrailImageCarousel> {
   Widget build(BuildContext context) {
     final imagesAsync = ref.watch(trailImagesProvider(widget.trailId));
     final isAdmin = ref.watch(isAdminProvider);
-    final theme = Theme.of(context);
 
     final images =
         imagesAsync.value
@@ -71,13 +70,13 @@ class _TrailImageCarouselState extends ConsumerState<TrailImageCarousel> {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      CachedNetworkAvifImage(
-                        image.smallUrl,
+                      KaliaImage(
+                        trailId: image.trailId,
+                        imageId: image.id,
+                        slot: TrailImageVariant.small,
+                        thumbhash: image.thumbhash,
+                        dominantColor: image.dominantColor,
                         fit: BoxFit.cover,
-                        errorBuilder: (context, error, stack) => Container(
-                          color: theme.colorScheme.surfaceContainerHighest,
-                          child: const Icon(Icons.broken_image_outlined),
-                        ),
                       ),
                       if (image.credit.isNotEmpty)
                         Positioned(

@@ -415,6 +415,8 @@ void main() {
     final dirs = [
       Directory('lib/features/nearby_trails'),
       Directory('lib/features/trail/presentation/map'),
+      Directory('lib/features/trail/presentation/detail'),
+      Directory('lib/features/erkunden'),
     ];
     for (final dir in dirs) {
       if (!dir.existsSync()) continue;

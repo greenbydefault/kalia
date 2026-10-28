@@ -14,6 +14,10 @@ class TrailBild {
   final String sourceUrl;
   final String? kind;
 
+  /// Kommt mit den Pfad-Daten mit. Leer, solange der Encode noch nicht lief.
+  final String thumbhash;
+  final String dominantColor;
+
   const TrailBild({
     this.id,
     required this.file,
@@ -23,6 +27,8 @@ class TrailBild {
     required this.licenseUrl,
     required this.sourceUrl,
     this.kind,
+    this.thumbhash = '',
+    this.dominantColor = '',
   });
 
   bool get isPlaceholder => kind == 'placeholder';
@@ -56,6 +62,8 @@ class TrailBild {
     licenseUrl: json['licenseUrl'] as String? ?? '',
     sourceUrl: json['sourceUrl'] as String? ?? '',
     kind: json['kind'] as String?,
+    thumbhash: json['thumbhash'] as String? ?? '',
+    dominantColor: json['dominantColor'] as String? ?? '',
   );
 
   Map<String, dynamic> toJson() => {
@@ -67,5 +75,7 @@ class TrailBild {
     'licenseUrl': licenseUrl,
     'sourceUrl': sourceUrl,
     if (kind != null) 'kind': kind,
+    if (thumbhash.isNotEmpty) 'thumbhash': thumbhash,
+    if (dominantColor.isNotEmpty) 'dominantColor': dominantColor,
   };
 }

@@ -23,7 +23,7 @@ class SeedTrailRef {
   /// Dateiname unter `assets/seed/`.
   final String file;
 
-  /// Asset-Pfad relativ zu `assets/seed/` (`thumbs/<id>.avif`), falls vorhanden.
+  /// Asset-Pfad relativ zu `assets/seed/` (`thumbs/<id>.webp` oder `.avif`).
   final String? thumb;
 
   /// `images.id` des gebündelten Thumbs.
