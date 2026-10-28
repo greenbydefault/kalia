@@ -1,0 +1,92 @@
+/* Design-Tokens. Alles Visuelle hängt an diesen Variablen. */
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/hanken-grotesk-latin-ext-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+    U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+    U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/hanken-grotesk-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* Farben */
+  --color-paper: #FCFCF9;
+  --color-surface: #f5f4ee;
+  --color-ink: #1b2622;
+  --color-ink-muted: #5d6762;
+  --color-hairline: #e3e1d8;
+  --color-highlight: var(--color-ink);
+  --color-on-highlight: #ffffff;
+  --color-error: #b3261e;
+  --color-scrim: rgb(12 20 17 / 0.64);
+
+  /* Arten-Karte und Player */
+  --color-card-sand: #f3f3ec;
+  --color-chip-blue: #bfddf0;
+  --color-chip-plain: #f1f3ee;
+  --color-player: #313930;
+  --color-on-player: #fdfff2;
+  --color-wave: #455343;
+
+  /* Typografie */
+  --font-sans: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
+  --text-h3: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+  --text-h2: clamp(2rem, 1.3rem + 3vw, 3.5rem);
+  --text-h1: clamp(2.5rem, 1.4rem + 4.8vw, 4.5rem);
+  --leading-tight: 1.05;
+  --leading-snug: 1.25;
+  --leading-body: 1.55;
+  --tracking-display: -0.03em;
+
+  /* Abstände */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --container-max: 88rem;
+  --container-narrow: 46rem;
+  --grid-gap: var(--space-4); /* Spaltenabstand im 4er-Raster (Areas, FAQ) */
+
+  /* Form */
+  --radius-card: 1.25rem;
+  --radius-input: 0.75rem;
+  --radius-pill: 999px;
+  --shadow-chip: 0 0.25rem 1rem rgb(27 38 34 / 0.18), 0 0.0625rem 0.25rem rgb(27 38 34 / 0.12);
+  --focus-ring: 0 0 0 0.1875rem var(--color-paper), 0 0 0 0.3125rem var(--color-ink);
+
+  /* Bewegung */
+  --duration-fast: 0.18s;
+  --duration-base: 0.3s;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Ebenen */
+  --layer-map: 1;
+  --layer-scrim: 6;
+  --layer-point: 4;
+  --layer-point-active: 8;
+  --layer-pop: 10;
+  --layer-header: 20;
+}

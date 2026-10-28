@@ -1,0 +1,75 @@
+.hero {
+  position: relative;
+  padding-top: var(--space-7);
+}
+
+.hero__inner {
+  position: relative;
+  z-index: calc(var(--layer-point) + 1);
+  display: grid;
+  justify-items: center;
+  gap: var(--space-5);
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--text-h1);
+}
+
+.hero__line {
+  display: block;
+}
+
+.hero__lead {
+  max-width: 36rem;
+  font-size: var(--text-lg);
+  color: var(--color-ink-muted);
+}
+
+/* Warteliste */
+
+.waitlist {
+  display: grid;
+  gap: var(--space-3);
+  justify-items: center;
+  width: min(100%, 34rem);
+  scroll-margin-top: var(--space-8);
+}
+
+.waitlist__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.waitlist__input {
+  flex: 1 1 14rem;
+  min-height: 3rem;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-pill);
+  background: var(--color-paper);
+}
+
+.waitlist__input::placeholder {
+  color: var(--color-ink-muted);
+}
+
+.waitlist__input:focus-visible {
+  border-radius: var(--radius-pill);
+}
+
+.waitlist__input[aria-invalid='true'] {
+  border-color: var(--color-error);
+}
+
+.waitlist__status {
+  min-height: 1.5em;
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.waitlist__status[data-state='error'] {
+  color: var(--color-error);
+}

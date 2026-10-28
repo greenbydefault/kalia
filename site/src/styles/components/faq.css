@@ -1,0 +1,77 @@
+.faq {
+  border-top: 1px solid var(--color-hairline);
+}
+
+.faq__item {
+  border-bottom: 1px solid var(--color-hairline);
+}
+
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-block: var(--space-5);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq__question::after {
+  content: '';
+  flex: none;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.faq__item[open]:not(.is-closing) .faq__question::after {
+  transform: rotate(-135deg);
+}
+
+.faq__panel {
+  overflow: hidden;
+}
+
+.faq__answer {
+  padding-bottom: var(--space-5);
+  max-width: 40rem;
+  color: var(--color-ink-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq__question::after {
+    transition: none;
+  }
+}
+
+.faq-layout {
+  display: grid;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+/* Gleiches 4-Spalten-Raster wie .areas: Kopf Spalte 1–2, Akkordeon Spalte 3–4 */
+@media (min-width: 70rem) {
+  .faq-layout {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+
+  .faq-layout .section__head {
+    grid-column: 1 / 3;
+    margin-bottom: 0;
+  }
+
+  .faq-layout .faq {
+    grid-column: 3 / 5;
+  }
+}

@@ -1,0 +1,131 @@
+---
+import { areas, artenPool, faktenSlots } from '../data/areas';
+
+const plus = 'M11.9922 4V12M11.9922 12V20M11.9922 12H19.9922M11.9922 12H3.99219';
+const chevronLeft = 'M14.5 6L8.5 12L14.5 18';
+const chevronRight = 'M9.5 6L15.5 12L9.5 18';
+---
+
+<section class="section" id="gebiete" aria-labelledby="areas-title">
+  <div class="container">
+    <header class="section__head section__head--center">
+      <h2 class="section__title" id="areas-title">Welche Natur wollt ihr heute entdecken?</h2>
+      <p class="section__lead">
+        Von der Küste bis zum Moor: Kalia sammelt Wege, die sich mit Kindern lohnen.
+      </p>
+    </header>
+    <div class="areas-slider" data-areas-slider>
+    <div
+      class="areas-slider__viewport"
+      data-slider-viewport
+      role="group"
+      aria-roledescription="Karussell"
+      aria-label="Gebiete"
+    >
+    <ul class="areas" role="list">
+      {
+        areas.map((a) =>
+          a.back && a.layers ? (
+            <li>
+              <div class="area-flip" data-area-flip>
+                <div class="area-flip__shadow" data-shadow aria-hidden="true" />
+                <div class="area-flip__inner" data-inner>
+                  <article
+                    class="area-card area-flip__face area-flip__front"
+                    data-front
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-label={`${a.title}: Details öffnen`}
+                  >
+                    <div class="area-card__body">
+                      <h3 class="area-card__title">{a.title}</h3>
+                      <p class="area-card__text">{a.text}</p>
+                    </div>
+                    <div class="area-card__media area-card__media--layers" data-minis>
+                      <img class="area-mini area-mini--grey" data-mini="grey" src={a.layers.grey} alt="" width="315" height="237" loading="lazy" />
+                      <img class="area-mini area-mini--blue" data-mini="blue" src={a.layers.blue} alt="" width="315" height="237" loading="lazy" />
+                      <img class="area-mini area-mini--mid" data-mini="mid" src={a.layers.mid} alt="" width="315" height="237" loading="lazy" />
+                    </div>
+                    <span class="area-flip__plus" data-plus aria-hidden="true">
+                      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round">
+                        <path d={plus} />
+                      </svg>
+                    </span>
+                  </article>
+
+                  <div class="area-flip__face area-back" data-back aria-hidden="true" inert>
+                    <div class="area-back__scene">
+                      <img class="area-back__art" data-scene-art src={`/img/cards/${a.id}/szene.svg`} alt="" height="190" loading="lazy" />
+                    </div>
+                    <button class="area-back__close" type="button" data-close aria-label={`${a.title} schließen`}>
+                      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <g transform="matrix(-1 0 0 1 24 0)">
+                          <path d="M20.4879 15C19.2524 18.4956 15.9187 21 12 21C7.02943 21 3 16.9706 3 12C3 7.02943 7.02943 3 12 3C15.7292 3 18.9286 5.26806 20.2941 8.5" />
+                          <path d="M15 9H18C19.4142 9 20.1213 9 20.5607 8.56066C21 8.12132 21 7.41421 21 6V3" />
+                        </g>
+                      </svg>
+                    </button>
+                    <div class="area-back__body">
+                      <h3 class="area-back__title" data-b-title>{a.title}</h3>
+                      <p class="area-back__text" data-b-text>{a.back.text}</p>
+                    </div>
+                    <dl class="area-back__facts">
+                      {faktenSlots.map((f) => (
+                        <div class="area-back__fact" data-fact>
+                          <dt class="area-back__fact-label">{f.label}</dt>
+                          <dd class="area-back__fact-value">{a.back.fakten[f.key]}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                    <div class="area-back__species">
+                      <p class="area-back__label" data-b-label>Das lebt hier</p>
+                      <ul class="area-back__tiles" role="list">
+                        {a.back.arten.map((id) => (
+                          <li class="area-back__tile" data-tile>
+                            <span class="area-back__tile-art"><img src={`/img/arten/${id}.svg`} alt="" loading="lazy" /></span>
+                            <span class="area-back__tile-name">{artenPool[id]}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          ) : (
+            <li>
+              <article class="area-card">
+                <div class="area-card__body">
+                  <h3 class="area-card__title">{a.title}</h3>
+                  <p class="area-card__text">{a.text}</p>
+                </div>
+                {a.layers ? (
+                  <div class="area-card__media area-card__media--layers">
+                    <img class="area-mini area-mini--grey" src={a.layers.grey} alt="" width="315" height="237" loading="lazy" />
+                    <img class="area-mini area-mini--blue" src={a.layers.blue} alt="" width="315" height="237" loading="lazy" />
+                    <img class="area-mini area-mini--mid" src={a.layers.mid} alt="" width="315" height="237" loading="lazy" />
+                  </div>
+                ) : (
+                  <div class="area-card__media">
+                    <img src={a.image} alt="" width="315" height="237" loading="lazy" />
+                  </div>
+                )}
+              </article>
+            </li>
+          ),
+        )
+      }
+    </ul>
+    </div>
+    <div class="areas-slider__nav" data-slider-nav hidden>
+      <button class="slider-button" type="button" data-slider-prev aria-label="Vorherige Gebiete">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={chevronLeft} /></svg>
+      </button>
+      <button class="slider-button" type="button" data-slider-next aria-label="Nächste Gebiete">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={chevronRight} /></svg>
+      </button>
+    </div>
+    </div>
+  </div>
+</section>

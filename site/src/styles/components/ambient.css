@@ -1,0 +1,122 @@
+/* Atmosphäre auf der Karte: Wolken, Schatten, Kraniche, Möwen. Reines CSS.
+   Lage, Dauer und Startpunkt je Element stehen in /positions.css (generiert aus data/ambient.ts). */
+
+.air {
+  position: absolute;
+  inset: 0;
+  /* über Karte und Mühle (3, steht davor im DOM), unter den Pins (4) */
+  z-index: calc(var(--layer-map) + 2);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Jedes Element startet links oben in der Welt und fährt per translate (in % der eigenen Breite)
+   quer über die Karte. --from/--to kommen aus positions.css. Die Startposition ergibt sich aus
+   einer negativen animation-delay. */
+.air__item {
+  position: absolute;
+  left: 0;
+  top: calc(var(--y) * 1%);
+  width: calc(var(--w) * 1%);
+  height: auto;
+  will-change: translate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.cloud {
+  animation-name: travel;
+}
+
+/* Wolke + Schatten fahren als Gruppe, bleiben also immer deckungsgleich */
+.cloud__body {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cloud__shadow {
+  position: absolute;
+  height: auto;
+  filter: blur(10px);
+  opacity: 0.16;
+}
+
+/* Möwen: Bahn + leichtes Schaukeln im Gleitflug (zwei Animationen, Werte je Möwe in positions.css) */
+.gull {
+  animation-name: travel, wobble;
+  animation-timing-function: linear, ease-in-out;
+  animation-direction: normal, alternate;
+}
+
+/* Kranichschwarm: Vögel liegen in %, jeder hat zwei Posen, die sich im Takt abwechseln.
+   Die Bahn des Schwarms (.flock) steht komplett in positions.css, weil sie eine Pause hat. */
+.bird {
+  position: absolute;
+}
+
+.bird img {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bird__a {
+  animation-name: flap-a;
+}
+
+.bird__b {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  animation-name: flap-b;
+}
+
+@keyframes travel {
+  from {
+    translate: calc(var(--from) * 1%) 0;
+  }
+  to {
+    translate: calc(var(--to) * 1%) 0;
+  }
+}
+
+@keyframes wobble {
+  to {
+    transform: translateY(calc(var(--wy) * 1px)) rotate(calc(var(--wr) * 1deg));
+  }
+}
+
+@keyframes flap-a {
+  0%,
+  49.99% {
+    visibility: visible;
+  }
+  50%,
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes flap-b {
+  0%,
+  49.99% {
+    visibility: hidden;
+  }
+  50%,
+  100% {
+    visibility: visible;
+  }
+}
+
+/* "Bewegung reduzieren": pausiert, Elemente stehen an ihrer Startposition.
+   ?motion=1 (main.ts setzt data-motion am html) hebt das zum Testen auf. */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='1']) .air *,
+  :root:not([data-motion='1']) .air *::before {
+    animation-play-state: paused;
+  }
+}

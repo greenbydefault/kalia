@@ -1,0 +1,33 @@
+.site-header {
+  position: relative;
+  z-index: var(--layer-header);
+  padding-block: var(--space-4);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.site-header__brand {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: var(--tracking-display);
+  text-decoration: none;
+}
+
+.site-header__cta {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-paper);
+}
+
+.site-header__cta:hover {
+  border-color: var(--color-ink);
+}

@@ -3,7 +3,7 @@
 Digitale Begleit-App für Naturlehrpfade: Karte, Arten, Tour-Status und Community.
 
 Go-Live-Backlog: `docs/golive/GRUND.md`.
-Web-Preview (GitHub → Vercel Hobby): `docs/golive/vercel.md`.
+Vercel (Landing + Admin-CMS, keine App-Web-Preview mehr): `docs/golive/vercel.md`.
 Öffentlich / Stimme / Kanäle: `docs/oeffentlich/GRUND.md`.
 Hörtexte: Einsprech-Skript, Play. Stimme `docs/stimme.md`, Ohr-Form `docs/audio/GRUND.md`. Trail-Lesetext am Sheet: `tools/TRAIL_SCAN.md`.
 Videos an Produkt koppeln: `docs/marketing/GRUND.md` (Board [Kalia · Marketing](https://trello.com/b/uCs6tzIa/kalia-marketing)).

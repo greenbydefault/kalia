@@ -1,0 +1,34 @@
+---
+import MapStage from './MapStage.astro';
+---
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__inner">
+    <h1 class="hero__title" id="hero-title">
+      <span class="hero__line">Kleine Wege.</span>
+      <span class="hero__line">Große Entdeckungen.</span>
+    </h1>
+    <p class="hero__lead">
+      Kalia zeigt euch Lehrpfade, Waldspielplätze und kurze Runden in der Nähe. Mit Karte,
+      Stationen und Arten zum Anfassen.
+    </p>
+    <form class="waitlist" id="liste" data-waitlist novalidate>
+      <div class="waitlist__row">
+        <label class="visually-hidden" for="waitlist-email">E-Mail-Adresse</label>
+        <input
+          class="waitlist__input"
+          id="waitlist-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          inputmode="email"
+          placeholder="Deine E-Mail-Adresse"
+          required
+        />
+        <button class="button" type="submit">Auf die Warteliste</button>
+      </div>
+      <p class="waitlist__status" role="status" data-waitlist-status></p>
+    </form>
+  </div>
+  <MapStage />
+</section>

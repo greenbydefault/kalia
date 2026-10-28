@@ -1,0 +1,248 @@
+/* Karte: Bild + echte Buttons darüber. Positionen kommen als --x/--y (in %) per Klasse aus /positions.css (generiert aus data/map-points.ts). */
+
+.map {
+  position: relative;
+  margin-top: calc(-1 * var(--space-6));
+}
+
+/* Mobil: Karte bleibt groß und scrollt waagerecht */
+.map__viewport {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.map__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/* Während das Spotlight offen ist, übernimmt die Kamera: kein Scrollen, Welt wird nur per transform bewegt */
+.map__viewport.is-focused {
+  overflow: hidden;
+}
+
+/* Die Welt. spotlight.ts schreibt transform und --inv (1 / Zoom) */
+.map__stage {
+  position: relative;
+  width: max(100%, 60rem);
+  aspect-ratio: 3840 / 2508;
+  isolation: isolate;
+  transform-origin: 0 0;
+  --inv: 1;
+}
+
+@media (min-width: 60rem) {
+  .map__stage {
+    width: 100%;
+  }
+}
+
+.map__image {
+  position: absolute;
+  inset: 0;
+  z-index: var(--layer-map);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Weicher Übergang von der Seite in die Karte. Liegt auf .map statt in der Welt,
+   damit der Verlauf beim Kamera-Zoom oben stehen bleibt. */
+.map::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 1;
+  height: 25%;
+  background: linear-gradient(var(--color-paper), transparent);
+  pointer-events: none;
+}
+
+/* Punkte */
+
+.map__point {
+  position: absolute;
+  left: calc(var(--x) * 1%);
+  top: calc(var(--y) * 1%);
+  z-index: var(--layer-point);
+  transform: translate(-50%, -50%);
+}
+
+.map__point.is-spotlit {
+  z-index: var(--layer-point-active);
+}
+
+/* Pins bleiben beim Kamera-Zoom gleich groß (Gegenskalierung). */
+.map__point > button {
+  transform: scale(var(--inv));
+}
+
+.map-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-4) var(--space-1) var(--space-1);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-chip);
+  font-size: var(--text-sm);
+  line-height: 1.2;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.map-chip:focus-visible {
+  border-radius: var(--radius-pill);
+}
+
+.map-chip__icon {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--color-surface);
+}
+
+.map-chip__icon img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.map-chip__text {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.map-chip__label {
+  font-weight: 700;
+}
+
+.map-chip__meta {
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+/* Reiner Punkt ohne Text */
+.map-dot {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0.25rem solid var(--color-paper);
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-chip);
+  cursor: pointer;
+}
+
+/* Pulse: weißer Ring wächst aus dem Punkt und verblasst. Bewegung nur ohne "Bewegung reduzieren"
+   (oder mit ?motion=1, dann setzt main.ts data-motion am html). Sonst bleibt ein ruhiger statischer Ring. */
+.map-dot {
+  position: relative;
+}
+
+.map-dot::before {
+  content: '';
+  position: absolute;
+  inset: -0.25rem;
+  border: 0.125rem solid var(--color-paper);
+  border-radius: 50%;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+@keyframes map-dot-pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.85;
+  }
+  70%,
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .map-dot::before {
+    animation: map-dot-pulse 2.4s var(--ease-out) infinite;
+  }
+}
+
+:root[data-motion='1'] .map-dot::before {
+  animation: map-dot-pulse 2.4s var(--ease-out) infinite;
+}
+
+/* zweiter Punkt versetzt, damit nicht alles im Takt blinkt */
+.map__point:nth-of-type(even) .map-dot::before {
+  animation-delay: 1.2s;
+}
+
+.map-dot:hover::before,
+.map-dot:focus-visible::before {
+  animation-play-state: paused;
+}
+
+.map-dot:focus-visible {
+  border-radius: 50%;
+}
+
+.map-dot img {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* Windmühle (nur wenn die getrennten SVGs vorliegen) */
+
+.mill {
+  /* --x/--y = Fußpunkt des Turms (% der Karte), --w = Turmbreite (% der Karte),
+     --hub-x/--hub-y = Nabe im Turm (%), --wheel-w = Radbreite (% des Turms) */
+  --x: 77.3;
+  --y: 62.2;
+  --w: 8.5;
+  --hub-x: 49.9;
+  --hub-y: 38.3;
+  --wheel-w: 83;
+  position: absolute;
+  left: calc(var(--x) * 1%);
+  top: calc(var(--y) * 1%);
+  width: calc(var(--w) * 1%);
+  z-index: calc(var(--layer-map) + 2);
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+}
+
+.mill__tower,
+.mill__wheel {
+  width: 100%;
+  height: auto;
+}
+
+.mill__wheel {
+  position: absolute;
+  left: calc(var(--hub-x) * 1%);
+  top: calc(var(--hub-y) * 1%);
+  width: calc(var(--wheel-w) * 1%);
+  /* Einzelne Properties statt transform: translate zentriert auf der Nabe, rotate dreht um die Mitte */
+  translate: -50% -50%;
+  animation: mill-spin 24s linear infinite;
+}
+
+@keyframes mill-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='1']) .mill__wheel {
+    animation: none;
+  }
+}

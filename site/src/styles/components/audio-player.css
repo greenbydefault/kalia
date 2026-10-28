@@ -1,0 +1,97 @@
+/* Hörprobe. Balken, Zeit und Zustand setzt scripts/audio-player.ts.
+   Modi: .audio--sand | .audio--paper (Fläche), .audio--md | .audio--sm (Größe). */
+
+.audio {
+  --audio-bg: var(--color-card-sand);
+  --audio-btn: 2.125rem;
+  --audio-pad: var(--space-3);
+  --audio-wave-h: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--audio-pad);
+  border-radius: var(--radius-pill);
+  background: var(--audio-bg);
+}
+
+.audio--paper {
+  --audio-bg: var(--color-paper);
+}
+
+.audio--sm {
+  --audio-btn: 1.75rem;
+  --audio-pad: var(--space-2);
+  --audio-wave-h: 1rem;
+}
+
+.audio__toggle {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: var(--audio-btn);
+  height: var(--audio-btn);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-player);
+  color: var(--color-on-player);
+  cursor: pointer;
+}
+
+.audio__toggle:focus-visible {
+  border-radius: 50%;
+}
+
+/* Unsichtbar größere Trefferfläche (44 px) */
+.audio__toggle::after {
+  content: '';
+  position: absolute;
+  inset: -0.25rem;
+}
+
+.audio__icon {
+  grid-area: 1 / 1;
+  pointer-events: none;
+}
+
+/* Pause startet unsichtbar. Den Wechsel animiert GSAP. */
+.audio__icon--pause {
+  opacity: 0;
+}
+
+.audio__wave {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  min-width: 0;
+  height: var(--audio-wave-h);
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+.audio__wave:focus-visible {
+  border-radius: var(--radius-input);
+}
+
+.audio__bar {
+  flex: 1 1 0;
+  min-width: 1px;
+  max-width: 3px;
+  border-radius: 1px;
+  background: var(--color-wave);
+  opacity: 0.35;
+  transform-origin: 50% 50%;
+}
+
+.audio__time {
+  flex: none;
+  min-width: 2.25rem;
+  font-size: var(--text-xs);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-wave);
+  text-align: right;
+  font-weight: 600;
+}

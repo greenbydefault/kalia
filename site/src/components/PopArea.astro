@@ -1,0 +1,64 @@
+---
+import type { AreaPopover } from '../data/map-points';
+
+/** Gebiets-/Trail-Popover mit Kennzahlen (Spotlight). Daten: data/map-points.ts. */
+interface Props {
+  id: string;
+  label: string;
+  icon: string;
+  pop: AreaPopover;
+}
+
+const { id, label, icon, pop } = Astro.props;
+---
+
+<aside
+  class="pop"
+  id={`pop-${id}`}
+  data-pop={id}
+  role="dialog"
+  aria-labelledby={`pop-${id}-title`}
+  tabindex="-1"
+  hidden
+>
+  <button class="pop__close" type="button" aria-label="Schließen" data-pop-close>
+    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+      <path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+    </svg>
+  </button>
+
+  <header class="pop__head" data-s>
+    <span class="pop__icon" aria-hidden="true">
+      <img src={icon} alt="" width="20" height="20" />
+    </span>
+    <div>
+      <p class="pop__kicker">{pop.kicker}</p>
+      <h3 class="pop__title" id={`pop-${id}-title`}>{label}</h3>
+    </div>
+  </header>
+
+  <dl class="pop__stats">
+    {pop.stats.map((s) => (
+      <div class="pop__stat" data-s>
+        <dt class="pop__label">{s.label}</dt>
+        <dd class="pop__num" data-count={s.value} data-dec={s.dec ?? 0}>
+          {s.value.toLocaleString('de-DE', { minimumFractionDigits: s.dec ?? 0, maximumFractionDigits: s.dec ?? 0 })}
+        </dd>
+      </div>
+    ))}
+  </dl>
+
+  <ul class="pop__tags" role="list" data-s>
+    {pop.tags.map((t) => <li class="pop__tag">{t}</li>)}
+  </ul>
+
+  <p class="pop__trail" data-s>
+    <span class="pop__kicker">{pop.trail.kicker}</span>
+    <strong>{pop.trail.name}</strong>
+    <span class="pop__trail-meta">{pop.trail.meta}</span>
+  </p>
+
+  <a class="button pop__cta" href={pop.cta.href} data-s data-pop-close>
+    {pop.cta.label}
+  </a>
+</aside>

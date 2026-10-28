@@ -1,0 +1,26 @@
+.legal {
+  padding-block: var(--space-7) var(--space-9);
+}
+
+.legal__title {
+  font-size: var(--text-h2);
+  margin-bottom: var(--space-6);
+}
+
+.legal h2 {
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+  font-size: var(--text-h3);
+}
+
+.legal p + p {
+  margin-top: var(--space-3);
+}
+
+/* Markierte Lücke: muss vor dem Livegang ersetzt werden */
+.legal__gap {
+  padding: 0.1em 0.4em;
+  border-radius: 0.25rem;
+  background: #fff1c2;
+  font-weight: 600;
+}

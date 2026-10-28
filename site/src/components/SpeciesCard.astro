@@ -1,0 +1,56 @@
+---
+import { speciesCards } from '../data/species-cards';
+import AudioPlayer from './AudioPlayer.astro';
+
+/**
+ * Arten-Karte (Fauna/Flora): Kicker, Name, Illustration, Chips, Text, Hörprobe.
+ * Inhalt zentral in data/species-cards.ts. Ein Markup, zwei Modi:
+ *  - variant 'pop': Popover für das Spotlight (spotlight.ts), braucht `popId`, startet `hidden`, mit Pfeil und Schließen.
+ *  - variant 'inline': freistehend in jedem Abschnitt, gleiche Optik, ohne Popover-Verhalten.
+ * `data-s` markiert die Teile, die das Spotlight gestaffelt einblendet. Außerhalb des Popovers ohne Wirkung.
+ */
+interface Props {
+  ref: string;
+  variant?: 'pop' | 'inline';
+  /** nur pop: Element-ID, auf die der Punkt per aria-controls zeigt */
+  popId?: string;
+}
+
+const { ref, variant = 'inline', popId } = Astro.props;
+const card = speciesCards[ref];
+if (!card) throw new Error(`SpeciesCard: unbekannte Art "${ref}" (data/species-cards.ts)`);
+const isPop = variant === 'pop';
+if (isPop && !popId) throw new Error('SpeciesCard: variant "pop" braucht popId');
+const titleId = `${popId ?? `species-${card.id}`}-title`;
+
+const Root = isPop ? 'aside' : 'article';
+const rootProps = isPop
+  ? { class: 'pop species-card', id: popId, 'data-pop': card.id, role: 'dialog', tabindex: -1, hidden: true }
+  : { class: 'species-card species-card--inline' };
+---
+
+<Root {...rootProps} aria-labelledby={titleId}>
+  {
+    isPop && (
+      <button class="pop__close" type="button" aria-label="Schließen" data-pop-close>
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+          <path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+        </svg>
+      </button>
+    )
+  }
+  <header class="species-card__head" data-s>
+    <p class="species-card__kicker">{card.kicker}</p>
+    <h3 class="species-card__title" id={titleId}>{card.name}</h3>
+  </header>
+  <div class="species-card__art" data-s>
+    <img src={card.illustration} alt={card.illustrationAlt} width="298" height="152" loading="lazy" decoding="async" />
+  </div>
+  <ul class="species-card__chips" role="list" data-s>
+    {card.chips.map((c) => <li class:list={['chip', c.accent && 'chip--accent']}>{c.label}</li>)}
+  </ul>
+  <p class="species-card__text" data-s>{card.text}</p>
+  <div data-s>
+    <AudioPlayer id={card.audio} label={card.name} />
+  </div>
+</Root>

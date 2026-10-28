@@ -1,0 +1,19 @@
+import { initMapViewport } from './map-viewport';
+import { initSpotlight } from './spotlight';
+import { initWaitlist } from './waitlist';
+import { initAreaFlip } from './area-flip';
+import { initAreasSlider } from './areas-slider';
+import { initAudioPlayers } from './audio-player';
+import { initFaq } from './faq';
+import { initSmoothScroll } from './smooth-scroll';
+import { applyMotionOverride } from './motion';
+
+applyMotionOverride();
+initMapViewport();
+initAudioPlayers();
+initSpotlight();
+initWaitlist();
+initAreaFlip();
+initAreasSlider();
+initFaq();
+initSmoothScroll();

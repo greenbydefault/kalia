@@ -1,0 +1,87 @@
+---
+import { mapPoints } from '../data/map-points';
+import { millSplit, MAP_WITHOUT_MILL } from '../data/assets';
+import Windmill from './Windmill.astro';
+import Atmosphere from './Atmosphere.astro';
+import PopArea from './PopArea.astro';
+import SpeciesCard from './SpeciesCard.astro';
+
+const src3840 = millSplit ? MAP_WITHOUT_MILL : '/img/kalia-map-3840.webp';
+const src1920 = src3840.replace('3840', '1920');
+const popPoints = mapPoints.filter((p) => p.pop);
+---
+
+<div class="map" data-map>
+  <div class="map__viewport" data-map-viewport>
+    <div class="map__stage" data-map-stage>
+      <img
+        class="map__image"
+        src={src1920}
+        srcset={`${src1920} 1920w, ${src3840} 3840w`}
+        sizes="(min-width: 60rem) 150vw, 90rem"
+        width="3840"
+        height="2508"
+        alt="Illustrierte Karte mit Wäldern, Wiesen, Seen, Küste und einer Windmühle"
+        fetchpriority="high"
+        decoding="async"
+      />
+
+      {millSplit && <Windmill />}
+
+      <Atmosphere />
+
+      {
+        mapPoints.map((p) => (
+          <div class={`map__point map__point--${p.id}`} data-point>
+            {p.kind === 'chip' ? (
+              <button
+                class="map-chip"
+                type="button"
+                aria-expanded="false"
+                aria-controls={p.pop ? `pop-${p.id}` : undefined}
+                data-point-button
+                data-spotlight={p.pop ? p.id : undefined}
+              >
+                <span class="map-chip__icon" aria-hidden="true">
+                  <img src={p.icon} alt="" width="20" height="20" />
+                </span>
+                <span class="map-chip__text">
+                  <span class="map-chip__label">{p.label}</span>
+                  {p.meta && <span class="map-chip__meta">{p.meta}</span>}
+                </span>
+              </button>
+            ) : (
+              <button
+                class="map-dot"
+                type="button"
+                aria-label={p.label}
+                aria-expanded="false"
+                aria-controls={p.pop ? `pop-${p.id}` : undefined}
+                data-point-button
+                data-spotlight={p.pop ? p.id : undefined}
+              >
+                <img src={p.icon} alt="" width="18" height="18" />
+              </button>
+            )}
+          </div>
+        ))
+      }
+
+      <!-- Scrim liegt in der Welt, zwischen Karte und Pins. GSAP tweent --spot-r. -->
+      <div class="spot" data-spot hidden>
+        <div class="spot__scrim" data-spot-scrim></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popover liegt außerhalb der Welt und bewegt sich nicht mit der Kamera. -->
+  {
+    popPoints.map((p) =>
+      p.pop!.kind === 'species' ? (
+        <SpeciesCard ref={p.pop!.ref} variant="pop" popId={`pop-${p.id}`} />
+      ) : (
+        <PopArea id={p.id} label={p.label} icon={p.icon} pop={p.pop!} />
+      ),
+    )
+  }
+</div>

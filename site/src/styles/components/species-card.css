@@ -1,0 +1,91 @@
+/* Arten-Karte. Variante `pop` erbt von .pop (spotlight.css), `inline` steht frei im Abschnitt. */
+
+.species-card {
+  --pop-w: 20.625rem;
+  --card-pad: var(--space-4); /* gleicher Rand rundum, Schließen-Button und Inhalt fluchten daran */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr); /* Inhalt darf nie breiter als die Karte werden */
+  gap: var(--space-3);
+  padding: var(--card-pad);
+  border-radius: var(--radius-card);
+  background: var(--color-paper);
+}
+
+.species-card--inline {
+  width: min(100%, var(--pop-w));
+  box-shadow: var(--shadow-chip);
+}
+
+.species-card__head {
+  display: grid;
+  gap: 0;
+  padding-right: calc(2rem + var(--space-2)); /* Platz für den Schließen-Button */
+}
+
+/* Schließen-Button auf der Linie des Inhalts statt eingerückt */
+.species-card .pop__close {
+  top: var(--card-pad);
+  right: var(--card-pad);
+}
+
+.species-card__kicker {
+  margin: 0;
+  font-size: var(--text-xs);
+  line-height: 1.2;
+  color: var(--color-ink-muted);
+}
+
+.species-card__title {
+  margin: 0;
+  font-size: var(--text-h3);
+  line-height: 1.15;
+}
+
+.species-card__art {
+  display: grid;
+  border-radius: var(--radius-input);
+  background: var(--color-card-sand);
+  overflow: hidden;
+}
+
+.species-card__art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.species-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.species-card__text {
+  margin: 0;
+  font-size: var(--text-xs);
+  line-height: 1.3;
+  text-wrap: pretty;
+}
+
+/* Chip, überall wiederverwendbar */
+.chip {
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--color-chip-plain);
+  font-size: var(--text-xs);
+  line-height: 1.2;
+}
+
+.chip--accent {
+  background: var(--color-chip-blue);
+}
+
+/* Mobil als Bottom-Sheet (Verhalten in spotlight.css), Safe-Area unten behalten */
+@media (max-width: 44.99rem) {
+  .species-card.pop {
+    padding-bottom: calc(var(--card-pad) + env(safe-area-inset-bottom));
+  }
+}

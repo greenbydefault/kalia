@@ -1,0 +1,24 @@
+---
+import { faq } from '../data/faq';
+---
+
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="container faq-layout">
+    <header class="section__head">
+      <h2 class="section__title" id="faq-title">Gut zu wissen</h2>
+      <p class="section__lead">Kurze Antworten auf das, was Familien vor dem Ausflug fragen.</p>
+    </header>
+    <div class="faq" data-faq>
+      {
+        faq.map((item) => (
+          <details class="faq__item">
+            <summary class="faq__question">{item.question}</summary>
+            <div class="faq__panel">
+              <p class="faq__answer">{item.answer}</p>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>

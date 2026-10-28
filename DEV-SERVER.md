@@ -110,10 +110,10 @@ Im **selben Terminal**, in dem `flutter run` läuft:
 4. Standard: `flutter run -d web-server --web-port=8080` (mit Supabase-Defines, wenn Live-Daten gebraucht werden).
 5. URL nennen (`http://localhost:8080` bzw. gewählter Port).
 
-## Handy / öffentlich (GitHub → Vercel Hobby)
+## Vercel (Landing + Admin)
 
-Gratis-Weg: GitHub (persönlicher Account) → Vercel Hobby. Origin bleibt nur Backup.
+GitHub (persönlicher Account) → Vercel Hobby. Origin bleibt nur Backup. Die Flutter-App selbst läuft nicht mehr auf Vercel (nur Stores), Vercel hostet die Landing (`site/`) und das Admin-CMS.
 
 Klick-für-Klick: [`lehrpfad_app/docs/golive/vercel.md`](lehrpfad_app/docs/golive/vercel.md)
 
-Kurz: Repo auf GitHub pushen → [vercel.com/new](https://vercel.com/new) **Continue with GitHub** → Env aus `.env.vercel` → Deploy.
+Kurz: `git push github main` → Vercel baut die Landing. Env aus `.env.vercel` braucht nur noch das Admin-Projekt.

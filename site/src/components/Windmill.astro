@@ -1,0 +1,13 @@
+---
+import { MILL_TOWER, MILL_WHEEL } from '../data/assets';
+/**
+ * Wird nur gerendert, wenn millSplit true ist (siehe data/assets.ts).
+ * Position und Nabe sind Startwerte für die gelieferten SVGs, nachjustieren in
+ * styles/components/map.css (.mill). Das Rad dreht per CSS-Animation.
+ */
+---
+
+<div class="mill" aria-hidden="true">
+  <img class="mill__tower" src={MILL_TOWER} alt="" />
+  <img class="mill__wheel" src={MILL_WHEEL} alt="" />
+</div>

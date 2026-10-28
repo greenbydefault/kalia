@@ -1,0 +1,436 @@
+/* ── Slider ─────────────────────────────────────────────────────
+   Natives Scrollen mit Snap (Touch, Trackpad, Tastatur), die Buttons fahren per GSAP (scripts/areas-slider.ts).
+   Kartenbreite = Spalte des alten Rasters. Der Viewport ragt links und rechts um --bleed über den Container,
+   dort lugt die Nachbarkarte hervor und läuft in die Seite aus. */
+#gebiete {
+  overflow-x: clip;
+}
+
+.areas-slider {
+  /* Container für cqw: die Kartenbreite hängt an der Breite des Inhaltsbereichs */
+  container-type: inline-size;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.areas-slider__viewport {
+  --bleed: var(--gutter);
+  --slide-w: calc(100cqw * 0.84);
+  margin-inline: calc(-1 * var(--bleed));
+  /* Luft oben und unten für Anheben und Schatten der Flip-Karten (overflow-x macht overflow-y zu auto) */
+  margin-block: calc(-1 * var(--space-4));
+  padding: var(--space-4) var(--bleed);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--bleed);
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--bleed), #000 calc(100% - var(--bleed)), transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 var(--bleed), #000 calc(100% - var(--bleed)), transparent);
+}
+
+.areas-slider__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/* Während die Buttons scrollen, hält Snap sonst jeden Zwischenschritt fest */
+.areas-slider__viewport.is-animating {
+  scroll-snap-type: none;
+}
+
+.areas-slider__viewport:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@media (min-width: 40rem) {
+  .areas-slider__viewport {
+    --slide-w: calc((100cqw - 2 * var(--grid-gap)) / 2.25);
+  }
+}
+
+/* Gleiche Kartenbreite wie das frühere 4-Spalten-Raster (.faq-layout) */
+@media (min-width: 70rem) {
+  .areas-slider__viewport {
+    --slide-w: calc((100cqw - 3 * var(--grid-gap)) / 4);
+    /* Rand neben dem Container, aber höchstens 6 rem. 1 rem Sicherheit für die Scrollbar in 100vw. */
+    --bleed: min(6rem, max(var(--gutter), (100vw - var(--container-max)) / 2 - 1rem));
+  }
+}
+
+.areas {
+  display: flex;
+  /* Eigene Boxbreite, damit das rechte Padding des Viewports hinter der letzten Karte mitscrollt:
+     die letzte Karte endet dann am Containerrand, nicht erst am Rand des Viewports. */
+  width: max-content;
+  gap: var(--grid-gap);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.areas > li {
+  flex: 0 0 var(--slide-w);
+  width: var(--slide-w);
+  scroll-snap-align: start;
+}
+
+.areas-slider__nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+.slider-button {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  /* Skalierung kommt von GSAP (pressFeedback), Farbe und Deckkraft vom Stylesheet */
+  transition: opacity var(--duration-base) var(--ease-out), background-color var(--duration-fast) var(--ease-out);
+}
+
+.slider-button:hover {
+  background: var(--color-hairline);
+}
+
+.slider-button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.slider-button[aria-disabled='true'] {
+  opacity: 0.35;
+  cursor: default;
+  pointer-events: none;
+}
+
+.area-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.area-card__body {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.area-card__title {
+  font-size: var(--text-h3);
+}
+
+.area-card__text {
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.area-card__media {
+  align-self: end;
+  margin-inline: calc(-1 * var(--space-3));
+  margin-bottom: calc(-1 * var(--space-5));
+}
+
+.area-card__media img {
+  width: 100%;
+  height: auto;
+}
+
+.areas > li {
+  display: grid;
+  /* Kartenbreite als Container: die Rückseite reserviert Zeilen danach (siehe .area-back unten). */
+  container-type: inline-size;
+}
+
+/* ── Flip-Card (Variante A, Fächer) ─────────────────────────────
+   .area-flip = perspective, .area-flip__inner = preserve-3d, darin Vorder- und Rückseite.
+   Beide Seiten liegen im selben Grid-Feld, die höhere bestimmt die Kartenhöhe. */
+.area-flip {
+  position: relative;
+  display: grid;
+  perspective: 1400px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.area-flip__shadow {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+  pointer-events: none;
+}
+
+.area-flip__inner {
+  position: relative;
+  display: grid;
+  transform-style: preserve-3d;
+}
+
+.area-flip__face {
+  grid-area: 1 / 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.area-flip__front:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* Die Rückseite ist per CSS vorgedreht. Maße nach Figma (Karte 270 x 424): Padding 16, Szene 152 hoch. */
+.area-back {
+  --back-tile: #FCFCF9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-4);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  overflow: hidden;
+  transform: rotateY(180deg);
+  cursor: default;
+}
+
+.area-flip__plus {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  pointer-events: none;
+}
+
+.area-flip__front .area-card__title {
+  padding-right: 2.75rem;
+}
+
+/* Mini-Karten: drei Ebenen im Raster der Frames (315 x 237), Drehpunkt = Kartenmitte. */
+.area-card__media--layers {
+  position: relative;
+  /* 90 % der bisherigen Breite (Inhalt + 2 x space-3 Überstand), mittig statt linksbündig */
+  width: calc((100% + 2 * var(--space-3)) * 0.9);
+  margin-inline: auto;
+  /* Fächer-Karten ragen space-2 in das Card-Padding: Abstand unten = space-5 minus space-2 = space-4 */
+  margin-bottom: calc(-1 * var(--space-2));
+  aspect-ratio: 315 / 237;
+}
+
+.area-mini {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+.area-mini--grey {
+  transform-origin: 27.8% 48.8%;
+}
+
+.area-mini--blue {
+  transform-origin: 66.2% 48.3%;
+}
+
+.area-mini--mid {
+  transform-origin: 46.5% 44.1%;
+}
+
+.area-back__scene {
+  position: relative;
+  display: flex;
+  flex: 1 0 11.875rem;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: var(--color-paper);
+  overflow: hidden;
+}
+
+/* Die Szene sitzt unten, ist die Karte höher als im Entwurf, wächst nur der Himmel. */
+.area-back__art {
+  display: block;
+  height: 11.875rem;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  transform-origin: 50% 100%;
+}
+
+.area-back__body {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.area-back__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Höchstens drei Zeilen, Länge wird in data/areas.ts geprüft (BACK_TEXT_MAX). */
+.area-back__text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  font-size: var(--text-sm);
+  line-height: 1.3333;
+  /* Immer drei Zeilen Platz, auch bei kurzem Text: Titel, Fakten und Arten sitzen auf jeder Karte gleich. */
+  min-height: 4em;
+  color: rgb(30 42 38 / 0.7);
+}
+
+/* Drei feste Fakten-Kacheln (Beste Zeit, Mitbringen, Highlight), gleiche Kachelfarbe wie die Arten. */
+.area-back__facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.area-back__fact {
+  display: grid;
+  align-content: start;
+  gap: 0.125rem;
+  padding: var(--space-2) var(--space-3);
+  border-radius: 0.5rem;
+  background: var(--back-tile);
+}
+
+.area-back__fact-label {
+  font-size: 0.6875rem;
+  line-height: 1.2;
+  min-height: 1.2em;
+  color: rgb(30 42 38 / 0.7);
+}
+
+.area-back__fact-value {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  min-height: 3.75em;
+  min-width: 0;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.area-back__species {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.area-back__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3333;
+}
+
+/* Vier gleiche Spalten. Drei Arten belegen drei davon, vier füllen die Breite. */
+.area-back .area-back__tiles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2);
+  margin-inline: calc(-1 * var(--space-4));
+  padding-inline: var(--space-4);
+}
+
+.area-back__tile {
+  display: grid;
+  grid-template-rows: 3.5rem auto;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.area-back__tile-art {
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  background: var(--back-tile);
+}
+
+.area-back__tile-art img {
+  display: block;
+  max-width: 2.75rem;
+  max-height: 2.5rem;
+  width: auto;
+  height: auto;
+}
+
+.area-back__tile-name {
+  min-height: 2.5em;
+  /* gleiche Größe wie .area-back__label ("Das lebt hier") */
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.3333;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.area-back__close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.area-back__close:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* Reduzierte Bewegung: kein Flip, die Rückseite liegt ungedreht darüber und blendet über. */
+.area-flip.is-reduced .area-back {
+  transform: none;
+}
+
+/* Gleiche Zeilen auf jeder Karte, auch wenn der Inhalt unterschiedlich lang ist.
+   Schmale Karten (Vier-Spalten-Raster um 70rem) brechen Labels, Werte und Artnamen häufiger um,
+   dort wird mehr reserviert. Werte gemessen bei 246 px Kartenbreite. */
+@container (max-width: 300px) {
+  .area-back__fact-label {
+    min-height: 2.4em;
+  }
+
+  .area-back__fact {
+    padding-inline: var(--space-2);
+  }
+
+  .area-back__fact-value {
+    font-size: 0.6875rem;
+    min-height: 5em;
+  }
+
+  .area-back__tile-name {
+    min-height: 3.75em;
+  }
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Flutter-Web-Build des Admin-CMS (zweites Vercel-Projekt).
-# Entrypoint: lib/admin/admin_main.dart. Gleiche Env-Vars wie vercel-build.sh:
+# Entrypoint: lib/admin/admin_main.dart. Env-Vars (Vercel Project Settings, alle Environments):
 #   SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY
 # Optional: FLUTTER_VERSION (Default: 3.44.9)
 #

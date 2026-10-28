@@ -1,81 +1,30 @@
 # GitHub → Vercel (Hobby)
 
-Gratis-Weg: Code auf **GitHub** (persönlicher Account), Vercel **Hobby** andocken. Origin (`likebase/ako`) bleibt Backup — Remote `origin` nicht anfassen.
+Zwei Vercel-Projekte, ein Repo (`greenbydefault/kalia`, persönlicher Account, Hobby):
 
-Env-Werte: Repo-Root [`.env.vercel`](../../../.env.vercel) (gitignored).
+| Projekt | Inhalt | Root Directory | Konfig |
+|---|---|---|---|
+| `kalia-six` | Landingpage ([`site/`](../../../site), Astro, statisch) | leer (Repo-Root) | Root-[`vercel.json`](../../../vercel.json) |
+| Admin-CMS | Flutter-Web, nur Admin | `lehrpfad_app/admin_deploy` | [`admin_deploy/vercel.json`](../../admin_deploy/vercel.json) |
 
-**Hobby-Regeln (sonst blockt Vercel wie bei Origin):**
+Die Flutter-App läuft **nicht** mehr auf Vercel, nur noch als App (Stores). `site/public/flutter_service_worker.js` räumt alte Flutter-Caches bei Besuchern auf (kann nach einigen Monaten weg).
 
-- Repo unter deinem **persönlichen** GitHub-Account, nicht unter einer Organisation.
-- Privat geht. Öffentlich geht auch.
-- Derselbe GitHub-Account, den Vercel Hobby verbunden hat.
-- Commit-Author muss der Hobby-Owner sein (aktuell lokal: `Greenbydefault <software@greenbydefault.de>`).
+Origin (`likebase/ako`) bleibt Backup, Remote `origin` nicht anfassen.
 
----
+**Hobby-Regeln (sonst blockt Vercel):**
 
-## 0. Repo anlegen + pushen (Agent, sobald Login da ist)
-
-Nicht ersetzen, zweites Remote:
-
-Repo: https://github.com/greenbydefault/kalia (öffentlich, persönlicher Account — Hobby ok).
-
-```bash
-git remote add github https://github.com/greenbydefault/kalia.git
-git push -u github main
-```
-
-`origin` bleibt `https://origin.cursor.com/likebase/ako.git`.
-
-## 1. Vercel-Projekt
-
-1. https://vercel.com/new → **Continue with GitHub** (nicht Origin)
-2. Repo `kalia` importieren (`greenbydefault/kalia`, nicht Origin `likebase/ako`)
-3. Settings:
-   - **Framework Preset:** Other
-   - **Root Directory:** leer (nicht `lehrpfad_app`)
-   - Build/Output aus [`vercel.json`](../../../vercel.json) — nicht überschreiben
-4. Noch nicht Deploy — erst Env.
-
-## 2. Env-Vars
-
-Settings → Environment Variables, beide, **Production + Preview + Development**:
-
-| Name | Wert |
-|---|---|
-| `SUPABASE_URL` | aus `.env.vercel` |
-| `SUPABASE_PUBLISHABLE_KEY` | aus `.env.vercel` (`sb_publishable_…`, nicht JWT-anon) |
-
-Dann **Deploy**. Erster Build klont Flutter (~5–10 Min).
-
-## 3. Nach dem ersten Deploy
-
-URL: `https://<projekt>.vercel.app`
-
-Supabase → **Authentication → URL Configuration**:
-
-- **Site URL:** Production-URL
-- **Redirect URLs:**
-  - `https://<projekt>.vercel.app/**`
-  - Custom Domain später analog `https://deine.domain/**`
-
-## 4. Eigene Domain
-
-Vercel → Project → **Domains**.
-
-- Subdomain: CNAME → `cname.vercel-dns.com`
-- Apex: A → was Vercel anzeigt (oft `10.0.1.2`)
-
-Redirect in Supabase nachziehen.
-
-## 5. Live-Stand
-
-Vercel baut, was auf GitHub `main` liegt (`git push github main`). Laptop-Änderungen ohne Push sind nicht live. Preview = andere Branches / PRs.
+- Repo unter dem **persönlichen** GitHub-Account, nicht unter einer Organisation.
+- Commit-Author muss der Hobby-Owner sein (lokal: `Greenbydefault <software@greenbydefault.de>`).
 
 ---
 
-Build fehlende Env-Vars: Schritt 2, Redeploy.  
-Flutter-Clone-Fail: `FLUTTER_VERSION` in `lehrpfad_app/vercel-build.sh` (Default `3.44.9`).
+## Landing (`kalia-six`)
 
+1. Settings: **Framework Preset:** Other, **Root Directory:** leer, Build/Output aus der `vercel.json` (nicht überschreiben).
+2. Keine Env-Vars nötig. Alte `SUPABASE_URL` / `SUPABASE_PUBLISHABLE_KEY` im Projekt können gelöscht werden.
+3. Live = was auf GitHub `main` liegt: `git push github main`. Laptop-Änderungen ohne Push sind nicht live. Preview = andere Branches / PRs.
+4. Lokal: `cd site && npm ci && npm run dev` (Build: `npm run build`, Output `site/dist`).
+5. Eigene Domain: Vercel → Project → **Domains**. Subdomain: CNAME → `cname.vercel-dns.com`. Apex: A → was Vercel anzeigt.
 
 ---
 

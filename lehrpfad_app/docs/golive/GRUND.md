@@ -2,7 +2,7 @@
 
 Living-Backlog für App Store + Play Store. Abhaken hier. Neue Go-Live-Items als Checkbox **hier** anhängen — keine Parallel-Listen. Spec/Notizen nach `aufgaben/<id>.md` erst wenn das Item startet.
 
-Web-Preview (kein Store, GitHub → Vercel Hobby): [`vercel.md`](vercel.md).
+Vercel (Landing + Admin-CMS, keine App-Web-Preview mehr): [`vercel.md`](vercel.md).
 
 Erledigt = `[x]`, Zeile bleibt (Historie). Nicht löschen.
 

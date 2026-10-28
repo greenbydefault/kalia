@@ -1,0 +1,52 @@
+---
+import { audioClips } from '../data/audio';
+
+/**
+ * Hörprobe: Play-Pille mit Wellenform und Restzeit. Alles Weitere (Balken, Zeit, Abspielen) macht
+ * scripts/audio-player.ts. Dateien und Peaks stehen zentral in data/audio.ts.
+ *
+ * Modi:
+ *  - tone: 'sand' (Standard, auf Weiß) | 'paper' (auf getönter Fläche)
+ *  - size: 'md' (Standard) | 'sm'
+ */
+interface Props {
+  id: string;
+  label: string;
+  tone?: 'sand' | 'paper';
+  size?: 'md' | 'sm';
+}
+
+const { id, label, tone = 'sand', size = 'md' } = Astro.props;
+const clip = audioClips[id];
+if (!clip) throw new Error(`AudioPlayer: unbekannte Audio-ID "${id}" (data/audio.ts)`);
+---
+
+<div class={`audio audio--${tone} audio--${size}`} data-audio={id} data-duration={clip.duration} data-peaks={clip.peaks.join(',')}>
+  <audio preload="none">
+    {clip.sources.map((s) => <source src={s.src} type={s.type} />)}
+  </audio>
+
+  <button class="audio__toggle" type="button" aria-label={`${label} anhören`} data-audio-toggle>
+    <svg class="audio__icon audio__icon--play" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" data-audio-icon-play>
+      <path d="M16.6 12.6c-.27 1.01-1.52 1.72-4.03 3.15-2.42 1.38-3.63 2.06-4.61 1.79a2.5 2.5 0 0 1-1.07-.63C6.2 16.17 6.2 14.77 6.2 11.96s0-4.21.72-4.94a2.5 2.5 0 0 1 1.07-.63c.98-.28 2.19.41 4.61 1.79 2.51 1.42 3.76 2.14 4.03 3.15.11.41.11.85 0 1.26Z" fill="currentColor" stroke="currentColor" stroke-linejoin="round" />
+    </svg>
+    <svg class="audio__icon audio__icon--pause" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" data-audio-icon-pause>
+      <rect x="7" y="6" width="3.5" height="12" rx="1.5" fill="currentColor" />
+      <rect x="13.5" y="6" width="3.5" height="12" rx="1.5" fill="currentColor" />
+    </svg>
+  </button>
+
+  <div
+    class="audio__wave"
+    role="slider"
+    tabindex="0"
+    aria-label={`Position, ${label}`}
+    aria-valuemin="0"
+    aria-valuemax="100"
+    aria-valuenow="0"
+    data-audio-wave
+  >
+  </div>
+
+  <span class="audio__time" data-audio-time>00:00</span>
+</div>

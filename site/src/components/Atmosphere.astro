@@ -1,0 +1,32 @@
+---
+import { clouds, cranes, gulls } from '../data/ambient';
+/**
+ * Wolken mit Schatten, Kranichschwarm, Möwen. Liegt in der Welt (zoomt mit der Karte),
+ * über der Mühle, unter den Pins. Reines CSS: Lage und Bahnen kommen als Klassen aus
+ * /positions.css (generiert aus data/ambient.ts), die Keyframes stehen in styles/components/ambient.css.
+ */
+---
+
+<div class="air" aria-hidden="true">
+  {
+    clouds.map((c, i) => (
+      <div class={`air__item cloud cloud--${i}`}>
+        <img class="cloud__shadow" src={c.shadow} alt="" width={c.sw} height={c.sh} />
+        <img class="cloud__body" src={c.body} alt="" width={c.cw} height={c.ch} />
+      </div>
+    ))
+  }
+
+  <div class="air__item flock">
+    {
+      cranes.map((b, i) => (
+        <span class={`bird bird--${i}`}>
+          <img class="bird__a" src={b.poses[0]} alt="" width="27" height="13" />
+          <img class="bird__b" src={b.poses[1]} alt="" width="27" height="13" />
+        </span>
+      ))
+    }
+  </div>
+
+  {gulls.map((g, i) => <img class={`air__item gull gull--${i}`} src={g.src} alt="" width={g.w} />)}
+</div>
