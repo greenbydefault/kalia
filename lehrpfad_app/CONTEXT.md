@@ -110,6 +110,10 @@ _Avoid_: Startpunkt + Südoffset (statt Padding beim Fit); Cluster-Centroid ohne
 Sammelmarker naher Trail-Startpunkte auf der Übersichtskarte. Zoom merged/splittet; Tap expandiert die Kinder.
 _Avoid_: Pin-Gruppe, Heatmap, Supercluster (Implementation), Cluster-Zoom im Karten-Widget / hinter dem Gesture-Gate
 
+**Live-Karte**:
+Karte auf der Landing (`site/`). Jeder sichtbare Trail ist ein Pin am Startpunkt, direkt aus dem Katalog; neue Trails erscheinen ohne Deploy. Die Suche trifft Ort, PLZ, Region/Ort eines Trails oder einen Trail. Gibt es im Umkreis keinen Trail, zeigt sie „noch nicht bei euch“ und den Weg zur Warteliste.
+_Avoid_: Orte in der Nähe als Pins; „Gebiet“ für Regionsnamen in der Suche (Gebiet = wald, heide, moor …); Spiegelkarte (Hero-Illustration mit festen Chips, kein Katalog)
+
 **Vor Ort**:
 Hartes Gate für Tour-Start und Resume. Linie ≤ 250 m zur Polyline, Fläche im Polygon oder ≤ 150 m zur Kante.
 _Avoid_: Geofence (in der UI)

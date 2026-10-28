@@ -21,7 +21,7 @@ Origin (`likebase/ako`) bleibt Backup, Remote `origin` nicht anfassen.
 ## Landing (`kalia-six`)
 
 1. Settings: **Framework Preset:** Other, **Root Directory:** leer, Build/Output aus der `vercel.json` (nicht überschreiben).
-2. Keine Env-Vars nötig. Alte `SUPABASE_URL` / `SUPABASE_PUBLISHABLE_KEY` im Projekt können gelöscht werden.
+2. Env-Vars für die Live-Karte (alle Environments): `PUBLIC_SUPABASE_URL` und `PUBLIC_SUPABASE_PUBLISHABLE_KEY` (gleiche Werte wie beim Admin, Publishable Key ist öffentlich). Ohne sie baut die Seite, die Karte zeigt aber keine Pins. Astro liest die Werte beim Build. Neue Trails brauchen trotzdem keinen Rebuild, die Pins kommen zur Laufzeit aus Supabase. Lokal: `site/.env` (gitignored). Alte `SUPABASE_URL` / `SUPABASE_PUBLISHABLE_KEY` im Projekt können gelöscht werden.
 3. Live = was auf GitHub `main` liegt: `git push github main`. Laptop-Änderungen ohne Push sind nicht live. Preview = andere Branches / PRs.
 4. Lokal: `cd site && npm ci && npm run dev` (Build: `npm run build`, Output `site/dist`).
 5. Eigene Domain: Vercel → Project → **Domains**. Subdomain: CNAME → `cname.vercel-dns.com`. Apex: A → was Vercel anzeigt.

@@ -89,7 +89,7 @@ input {
 }
 
 .section {
-  padding-block: var(--space-8);
+  padding-block: var(--space-10);
 }
 
 .section__head {

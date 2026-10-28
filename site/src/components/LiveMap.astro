@@ -1,0 +1,98 @@
+---
+/**
+ * Live-Karte: echte OSM-Karte mit den Trails aus Supabase. Aufbau und Verhalten: scripts/live-map/.
+ * Das Markup hier ist nur die Hülle (Kopf, Kartenfenster, Popover-Gerüst, Suche). Pins und Popover-Inhalt baut das Skript.
+ * Eigene Hooks (data-live-map, data-lm-*), damit nichts mit der Hero-Karte (data-map) kollidiert.
+ */
+const pinBody =
+  'M12 0C18.6274 0 24 5.37258 24 12C24 17.8059 19.8768 22.6488 14.3989 23.7602L12.3728 26.6614C12.3308 26.7219 12.2749 26.7712 12.2101 26.8053C12.1452 26.8394 12.0731 26.8571 12 26.8571C11.9269 26.8571 11.8548 26.8394 11.7899 26.8053C11.7251 26.7712 11.6692 26.7219 11.6272 26.6614L9.60112 23.7602C4.12318 22.6488 0 17.8059 0 12C0 5.37258 5.37258 0 12 0Z';
+const treeStem = 'M12 17.9285V10.3452';
+const treeCrown =
+  'M10.251 15.5963C9.28448 15.5963 8.50098 14.7921 8.50098 13.8256C7.51156 13.6841 6.75098 12.8332 6.75098 11.8046C6.75098 10.9315 7.29903 10.1864 8.06988 9.89456C7.97205 9.67628 7.91764 9.4343 7.91764 9.17961C7.91764 8.21311 8.70115 7.42961 9.66764 7.42961C9.89529 7.42961 10.1128 7.47308 10.3123 7.55216C10.5145 6.80921 11.194 6.26294 12.001 6.26294C12.808 6.26294 13.4875 6.80921 13.6897 7.55216C13.8892 7.47308 14.1067 7.42961 14.3343 7.42961C15.3008 7.42961 16.0843 8.21311 16.0843 9.17961C16.0843 9.4343 16.0299 9.67628 15.9321 9.89456C16.7029 10.1864 17.251 10.9315 17.251 11.8046C17.251 12.8332 16.4903 13.6841 15.5008 13.8256C15.5008 14.7921 14.7175 15.5963 13.751 15.5963';
+const treeBranch = 'M12 13.8453L13.4583 12.387';
+---
+
+<section class="section live-map-section" id="karte" aria-labelledby="live-map-title" data-live-map>
+  <!-- Pin einmal definieren, jeder Marker referenziert ihn per <use>. Icons je Ortstyp: weitere <symbol id="pin-icon-…"> (data/live-map.ts) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <clipPath id="pin-clip"><path d={pinBody}></path></clipPath>
+    </defs>
+    <symbol id="pin-body" viewBox="0 0 24 27">
+      <path d={pinBody} fill="#313930"></path>
+      <path d={pinBody} fill="none" stroke="#7F8561" stroke-width="4" clip-path="url(#pin-clip)"></path>
+    </symbol>
+    <symbol id="pin-icon-baum" viewBox="0 0 24 27">
+      <g fill="none" stroke="#FBFFFB" stroke-linecap="round" stroke-linejoin="round">
+        <path d={treeStem}></path>
+        <path d={treeCrown}></path>
+        <path d={treeBranch}></path>
+      </g>
+    </symbol>
+  </svg>
+
+  <div class="container">
+    <header class="section__head section__head--center">
+      <h2 class="section__title" id="live-map-title">Kalia ist schon in eurer Nähe</h2>
+      <p class="section__lead">
+        Vom Bohlenweg im Moor bis zum Leuchtturm am Meer. Wählt ein Gebiet und seht, was euch unterwegs begegnet.
+      </p>
+    </header>
+
+    <div class="live-map">
+      <div class="live-map__frame" data-lm-frame>
+        <div class="live-map__canvas" data-lm-canvas></div>
+
+        <p class="live-map__note" role="status" data-lm-note hidden></p>
+
+        <aside class="pop live-pop" data-lm-pop role="dialog" aria-labelledby="lm-pop-title" tabindex="-1" hidden>
+          <button class="pop__close" type="button" aria-label="Schließen" data-lm-close>
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"></path>
+            </svg>
+          </button>
+          <header class="pop__head" data-s>
+            <span class="pop__icon" aria-hidden="true">
+              <img src="/img/icons/tree.svg" alt="" width="20" height="20" />
+            </span>
+            <div>
+              <p class="pop__kicker" data-lm-kicker></p>
+              <h3 class="pop__title" id="lm-pop-title" data-lm-title></h3>
+              <p class="pop__kicker" data-lm-region></p>
+            </div>
+          </header>
+          <dl class="pop__stats live-pop__stats" data-lm-stats></dl>
+          <ul class="pop__tags" role="list" data-lm-tags data-s></ul>
+          <a class="button pop__cta" href="#liste" data-lm-cta data-s>Auf die Warteliste</a>
+        </aside>
+
+        <form class="live-search" data-lm-search role="search" novalidate>
+          <ul class="live-search__list" id="lm-suggest" role="listbox" aria-label="Vorschläge" data-lm-suggest hidden></ul>
+          <label class="visually-hidden" for="lm-input">Stadt, Gebiet oder Postleitzahl</label>
+          <input
+            class="live-search__input"
+            id="lm-input"
+            data-lm-input
+            type="search"
+            name="q"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="lm-suggest"
+            aria-autocomplete="list"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+            enterkeyhint="search"
+            placeholder="Stadt, Gebiet oder Postleitzahl suchen"
+          />
+          <button class="button live-search__button" type="submit" data-lm-submit>Suchen</button>
+          <a class="button live-search__button" href="#liste" data-lm-waitlist hidden>Auf die Warteliste</a>
+        </form>
+
+        <noscript>
+          <p class="live-map__nojs">Die Karte braucht JavaScript. Die Pfade zeigt die App.</p>
+        </noscript>
+      </div>
+    </div>
+  </div>
+</section>

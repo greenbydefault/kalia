@@ -6,6 +6,7 @@ import { initAreasSlider } from './areas-slider';
 import { initAudioPlayers } from './audio-player';
 import { initFaq } from './faq';
 import { initSmoothScroll } from './smooth-scroll';
+import { initLiveMap } from './live-map';
 import { applyMotionOverride } from './motion';
 
 applyMotionOverride();
@@ -16,4 +17,5 @@ initWaitlist();
 initAreaFlip();
 initAreasSlider();
 initFaq();
+initLiveMap();
 initSmoothScroll();
