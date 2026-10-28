@@ -17,6 +17,13 @@ lehrpfad_app/tools/*
 !lehrpfad_app/tools/seed_pools.py
 !lehrpfad_app/tools/export_catalog.py
 !lehrpfad_app/tools/upload_catalog_media.py
+# Helfer, die import_worker/ importiert (siehe import_worker/README.md)
+!lehrpfad_app/tools/gebiet.py
+!lehrpfad_app/tools/naturraum.py
+!lehrpfad_app/tools/resolve_arten.py
+!lehrpfad_app/tools/validate_seeds.py
+!lehrpfad_app/tools/backfill_hoertext.py
+!lehrpfad_app/tools/fetch_osm.sh
 !lehrpfad_app/tools/*.md
 
 # Interne Vorbereitung (Landing-Brief, IA, Copy). Nicht Teil der App

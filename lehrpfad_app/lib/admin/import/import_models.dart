@@ -302,7 +302,9 @@ class FieldStates {
   ];
 
   static bool _filled(dynamic v) =>
-      v != null && !(v is String && v.trim().isEmpty) && !(v is List && v.isEmpty);
+      v != null &&
+      !(v is String && v.trim().isEmpty) &&
+      !(v is List && v.isEmpty);
 
   FieldState of(String key) {
     final entries = entriesFor(key);
@@ -374,9 +376,7 @@ class ImportMessages {
   }
 
   /// `{titel, was, warum, wie}` mit eingesetzten Parametern (wie `messages.render` im Worker).
-  ({String titel, String was, String warum, String wie}) render(
-    ReportEntry e,
-  ) {
+  ({String titel, String was, String warum, String wie}) render(ReportEntry e) {
     final m = _codes[e.code] as Map?;
     if (m == null) {
       return (titel: e.code, was: e.code, warum: '', wie: '');
@@ -399,4 +399,71 @@ class ImportMessages {
       wie: fill(m['wie'] as String),
     );
   }
+}
+
+String _severityExport(Severity s) => switch (s) {
+  Severity.hart => 'hart',
+  Severity.uebersteuerbar => 'zu klären',
+  Severity.warnung => 'warnung',
+};
+
+String? _exportScalar(dynamic v) {
+  if (v == null) return null;
+  if (v is String) return v;
+  if (v is num || v is bool) return '$v';
+  try {
+    return jsonEncode(v);
+  } catch (_) {
+    return '$v';
+  }
+}
+
+/// Klartext aller Prüfmeldungen, zum Einfügen an einen Bot.
+String formatReportExport(ImportJob job, ImportMessages messages) {
+  final lines = <String>[
+    'Pfad: ${job.title}',
+    'Datei: ${job.fileName}',
+    'Status: ${job.status.label}',
+  ];
+  final entries = job.report.indexed.toList()
+    ..sort((a, b) {
+      final bySev = a.$2.severity.index.compareTo(b.$2.severity.index);
+      return bySev != 0 ? bySev : a.$1.compareTo(b.$1);
+    });
+  for (var i = 0; i < entries.length; i++) {
+    final e = entries[i].$2;
+    final m = messages.render(e);
+    lines.add('');
+    lines.add(
+      '${i + 1}. ${_severityExport(e.severity)} · ${e.status} · ${e.code} · ${messages.feldLabel(e.feld)}',
+    );
+    void row(String label, String? value) {
+      final t = value?.trim();
+      if (t == null || t.isEmpty) return;
+      lines.add('$label: $t');
+    }
+
+    row('Titel', m.titel);
+    row('Was', m.was);
+    row('Warum', m.warum);
+    row('Wie', m.wie);
+    row('Wert', _exportScalar(e.wert));
+    row('Vorschlag', _exportScalar(e.vorschlag));
+    row('Übersteuert', e.overrideReason);
+  }
+  final err = (job.error ?? '').trim();
+  final detail = (job.errorDetail ?? '').trim();
+  if (job.status == ImportStatus.fehlgeschlagen ||
+      err.isNotEmpty ||
+      detail.isNotEmpty) {
+    lines.add('');
+    lines.add(
+      'Fehler: ${err.isEmpty ? 'Der Import ist fehlgeschlagen.' : err}',
+    );
+    if (detail.isNotEmpty) {
+      lines.add('Details:');
+      lines.add(detail);
+    }
+  }
+  return lines.join('\n');
 }

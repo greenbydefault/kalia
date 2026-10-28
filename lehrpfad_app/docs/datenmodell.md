@@ -38,6 +38,11 @@ Ist-Schema aus Domain (`lib/features/trail/domain/`, `lib/features/species/domai
 | `stationen` | Station[] | ja | ≥3 |
 | `amenities` | Amenity[] | ja | kann leer sein, Soll: gefüllt |
 | `bilder` | TrailBild[] | nein | Seed-Hero. Leer → zentraler Pager-Platzhalter (`assets/images/trails/_placeholder.{variant}.avif`), nicht Karte. Manifest: `assets/images/trails/{id}/credits.json` |
+| `land` | `DE` \| `DK` \| `ES` | nein | Import. Check-Constraint in der DB |
+| `bundesland`, `kreis`, `ort`, `schutzgebiet` | string? | nein | Import (Dossier Abschnitt 1) |
+| `source_job_id`, `source_file_hash` | uuid? / string? | nein | Herkunft: letzter Import-Job und SHA-256 der ZIP. Nur DB |
+| `locked_fields` | string[] | nein | Felder, die das CMS von Hand geaendert hat. Re-Import ueberschreibt sie nicht, sondern legt einen Vorschlag an. Nur DB |
+| `field_meta` | object | nein | je Feld `quelle`, `lizenz`, `status`, `geaendert_von`. Auch Herkunft von `route`/`area` ([ADR 0003](adr/0003-geometrie-optional-aus-gpx.md)). Nur DB |
 | `bilderAsset` | string | nein | Pfad zum Manifest. In der Trail-Config setzen; `build_seed.py` schreibt ihn in den Seed. Runtime lädt das Array nach `bilder` |
 
 ### TrailBild (Seed-Hero)
@@ -247,6 +252,22 @@ Stabile Keys (snake_case). Source of Truth: `icon_catalog.dart` → Validator `T
 ### Geräte-Icons (`geraeteKatalog`)
 
 Keys (z. B. `geraet`) → Icon + Label. Species-Feld `iconKey` verweist darauf; unbekannter/leerer Key → Fallback `geraet`.
+
+## Import (Supabase, Migration `0035_import.sql`, `0036_import_ack.sql`)
+
+Entwurf = `trails.sichtbar = false`. Details und Entscheidungen: [ADR 0004](adr/0004-import-pipeline.md), Betrieb: [`import_worker/README.md`](../import_worker/README.md).
+
+| Tabelle | Zweck |
+|---|---|
+| `trail_candidates` | Kandidatenliste (Slug, Land/Bundesland/Kreis/Ort, Status `offen`/`dossier`/`entwurf`/`freigegeben`/`verworfen`) |
+| `import_batches` | Sammel-Upload, Pause/Fortsetzen |
+| `import_jobs` | 1 Job je ZIP: `status`, `modus` (`import`/`validate`/`apply`), `parsed`, `report`, `proposal`, Priorität, Retries |
+| `trail_sources` | Quellen je Abschnitt (`import`, Geometrie, Bilder) |
+| `species_suggestions` | Arten ohne Treffer im Katalog: zuordnen, neu anlegen oder weglassen |
+| `import_questions` | Rückfragen an die Redaktion (Marc) |
+| `import_events` | Verlauf je Job |
+
+Alle Tabellen: RLS, nur `is_admin()`. Der Worker schreibt mit `service_role`. Aktionen laufen über RPCs (`import_publish`, `import_override`, `import_revalidate`, `import_apply_proposal`, …).
 
 ## Validierung
 

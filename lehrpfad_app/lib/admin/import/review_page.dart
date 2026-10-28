@@ -231,7 +231,8 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final grund = await askText(
       context,
       title: 'Pfad verwerfen?',
-      message: 'Der Entwurf bleibt unsichtbar, die Kandidatenliste vermerkt den Grund.',
+      message:
+          'Der Entwurf bleibt unsichtbar, die Kandidatenliste vermerkt den Grund.',
       hint: 'Grund (Pflicht)',
       confirm: 'Verwerfen',
     );
@@ -285,7 +286,8 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final grund = await askText(
       context,
       title: 'Bewusst durchlassen?',
-      message: 'Die Meldung zählt dann nicht mehr als Blocker. Der Grund wird protokolliert.',
+      message:
+          'Die Meldung zählt dann nicht mehr als Blocker. Der Grund wird protokolliert.',
       hint: 'Begründung (Pflicht)',
       confirm: 'Übersteuern',
       minLines: 2,
@@ -313,7 +315,12 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
       feldLabel: messages?.feldLabel(e.feld) ?? e.feld,
     );
     if (q == null) return;
-    await _repo.ask(job.id, field: e.feld, frage: q.frage, adressat: q.adressat);
+    await _repo.ask(
+      job.id,
+      field: e.feld,
+      frage: q.frage,
+      adressat: q.adressat,
+    );
     _refresh(trail: false);
     if (job.trailId != null) {
       ref.invalidate(importQuestionsProvider(job.trailId!));
@@ -350,7 +357,12 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final neu = await _repo.trailRow(job!.trailId!);
     final alt = altId.isEmpty ? null : await _repo.trailRow(altId);
     if (!mounted || neu == null) return;
-    final res = await duplicateDialog(context, neu: neu, alt: alt, altId: altId);
+    final res = await duplicateDialog(
+      context,
+      neu: neu,
+      alt: alt,
+      altId: altId,
+    );
     if (res == null) return;
     switch (res) {
       case DuplicateAction.istNeu:
@@ -427,7 +439,9 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final mod =
         HardwareKeyboard.instance.isMetaPressed ||
         HardwareKeyboard.instance.isControlPressed;
-    if (mod && (k == LogicalKeyboardKey.enter || k == LogicalKeyboardKey.numpadEnter)) {
+    if (mod &&
+        (k == LogicalKeyboardKey.enter ||
+            k == LogicalKeyboardKey.numpadEnter)) {
       if (job.canPublish && !_busy) unawaited(_publish(job));
       return KeyEventResult.handled;
     }
@@ -464,7 +478,9 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final messages = messagesAsync.hasValue ? messagesAsync.requireValue : null;
     if (job == null || messages == null) {
       if (async.hasError || messagesAsync.hasError) {
-        return Center(child: Text('Fehler: ${async.error ?? messagesAsync.error}'));
+        return Center(
+          child: Text('Fehler: ${async.error ?? messagesAsync.error}'),
+        );
       }
       return const Center(child: CircularProgressIndicator());
     }
@@ -475,7 +491,14 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
     final questions = trailId == null
         ? const <DbRow>[]
         : (ref.watch(importQuestionsProvider(trailId)).value ?? const []);
-    final openQuestions = questions.where((q) => q['status'] == 'offen').toList();
+    final openQuestions = questions
+        .where((q) => q['status'] == 'offen')
+        .toList();
+    final exportable =
+        job.report.isNotEmpty ||
+        job.status == ImportStatus.fehlgeschlagen ||
+        (job.error ?? '').trim().isNotEmpty ||
+        (job.errorDetail ?? '').trim().isNotEmpty;
 
     return Focus(
       focusNode: _focus,
@@ -501,6 +524,14 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
               onDiscard: () => _discard(job),
               onRevalidate: () => _revalidate(toast: true),
               onHistory: () => _scaffold.currentState?.openEndDrawer(),
+              onCopy: exportable
+                  ? () {
+                      Clipboard.setData(
+                        ClipboardData(text: formatReportExport(job, messages)),
+                      );
+                      _toast('Kopiert');
+                    }
+                  : null,
               onPublish: () => _publish(job),
               onUnpublish: () => _unpublish(job),
             ),
@@ -629,13 +660,20 @@ class _ReviewPageState extends ConsumerState<ReviewPage>
   Future<void> _replaceFile(ImportJob job) async {
     final f = await openFile(
       acceptedTypeGroups: const [
-        XTypeGroup(label: 'Dossier (.docx oder .zip)', extensions: ['docx', 'zip']),
+        XTypeGroup(
+          label: 'Dossier (.docx oder .zip)',
+          extensions: ['docx', 'zip'],
+        ),
       ],
     );
     if (f == null) return;
     final raw = await f.readAsBytes();
     await _guard(
-      () => _repo.replaceUpload(job.id, name: f.name, bytes: dossierBytes(f.name, raw)),
+      () => _repo.replaceUpload(
+        job.id,
+        name: f.name,
+        bytes: dossierBytes(f.name, raw),
+      ),
     );
     _refresh();
   }
@@ -657,6 +695,7 @@ class _Header extends StatelessWidget {
     required this.onDiscard,
     required this.onRevalidate,
     required this.onHistory,
+    required this.onCopy,
     required this.onPublish,
     required this.onUnpublish,
   });
@@ -671,6 +710,7 @@ class _Header extends StatelessWidget {
   final VoidCallback onDiscard;
   final VoidCallback onRevalidate;
   final VoidCallback onHistory;
+  final VoidCallback? onCopy;
   final VoidCallback onPublish;
   final VoidCallback onUnpublish;
 
@@ -764,6 +804,12 @@ class _Header extends StatelessWidget {
                 icon: const Icon(Icons.refresh),
               ),
             ],
+            if (onCopy != null)
+              IconButton(
+                tooltip: 'Fehler und Meldungen kopieren',
+                onPressed: onCopy,
+                icon: const Icon(Icons.copy_all_outlined),
+              ),
             IconButton(
               tooltip: 'Verlauf und Fragen',
               onPressed: onHistory,
@@ -855,10 +901,13 @@ class _SplitReview extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final trailId = job.trailId!;
     final images = ref.watch(importImagesProvider(trailId)).value ?? const [];
-    final stations = ref.watch(importStationsProvider(trailId)).value ?? const [];
+    final stations =
+        ref.watch(importStationsProvider(trailId)).value ?? const [];
     final states = FieldStates(
       report: job.report,
-      locked: {for (final k in (trail['locked_fields'] as List? ?? const [])) '$k'},
+      locked: {
+        for (final k in (trail['locked_fields'] as List? ?? const [])) '$k',
+      },
       fieldMeta: Map<String, dynamic>.from((trail['field_meta'] as Map?) ?? {}),
       row: trail,
     );
@@ -880,12 +929,10 @@ class _SplitReview extends ConsumerWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          if (job.pruefend)
-            const LinearProgressIndicator(minHeight: 2),
+          if (job.pruefend) const LinearProgressIndicator(minHeight: 2),
           for (final q in openQuestions)
             _QuestionBanner(q: q, onQuestion: onQuestion),
-          if (orphans.isNotEmpty)
-            _OrphanPanel(entries: orphans, data: data),
+          if (orphans.isNotEmpty) _OrphanPanel(entries: orphans, data: data),
           Expanded(
             child: RecordEditor(spec: trailsCollection, id: trailId),
           ),
@@ -917,7 +964,10 @@ class _SplitReview extends ConsumerWidget {
           child: Column(
             children: [
               const TabBar(
-                tabs: [Tab(text: 'Editor'), Tab(text: 'Quelle')],
+                tabs: [
+                  Tab(text: 'Editor'),
+                  Tab(text: 'Quelle'),
+                ],
               ),
               Expanded(
                 child: TabBarView(
@@ -1033,7 +1083,10 @@ class _ErrorView extends StatelessWidget {
               children: [
                 const Icon(Icons.error_outline, color: AppColors.statusError),
                 const SizedBox(width: 8),
-                Text('Import fehlgeschlagen', style: theme.textTheme.titleLarge),
+                Text(
+                  'Import fehlgeschlagen',
+                  style: theme.textTheme.titleLarge,
+                ),
               ],
             ),
             const SizedBox(height: 12),

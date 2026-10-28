@@ -121,6 +121,8 @@ def bild_json(row):
         "licenseUrl": row.get("license_url") or "",
         "sourceUrl": row.get("source_url") or "",
         "kind": row.get("kind") or "ort",
+        "thumbhash": row.get("thumbhash") or None,
+        "dominantColor": row.get("dominant_color") or None,
     })
 
 
@@ -149,32 +151,37 @@ def local_hero(tid):
 
 
 def fetch_thumb(tid, iid):
-    url = "%s/storage/v1/object/public/%s/%s/%s/thumb.avif" % (
+    """WebP zuerst, AVIF wenn die Variante noch nicht erzeugt ist."""
+    base = "%s/storage/v1/object/public/%s/%s/%s/thumb" % (
         os.environ["SUPABASE_URL"].rstrip("/"), BUCKET, tid, iid)
-    try:
-        with urllib.request.urlopen(url) as resp:
-            return resp.read()
-    except urllib.error.HTTPError as e:
-        if e.code in (400, 404):
-            return None
-        raise
+    for ext in ("webp", "avif"):
+        try:
+            with urllib.request.urlopen(base + "." + ext) as resp:
+                return resp.read(), ext
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404):
+                continue
+            raise
+    return None, None
 
 
 def write_thumb(tid, iid, local_thumb, old_thumb_ids, dry):
-    """Thumb nach assets/seed/thumbs/<tid>.avif. Gibt True zurueck, wenn vorhanden."""
-    dest = os.path.join(THUMB_DIR, tid + ".avif")
-    if os.path.isfile(dest) and old_thumb_ids.get(tid) == iid:
+    """Thumb nach assets/seed/thumbs/<tid>.webp, sonst .avif."""
+    dest_webp = os.path.join(THUMB_DIR, tid + ".webp")
+    dest_avif = os.path.join(THUMB_DIR, tid + ".avif")
+    if (os.path.isfile(dest_webp) or os.path.isfile(dest_avif)) and old_thumb_ids.get(tid) == iid:
         return True
     if dry:
         return True
-    data = fetch_thumb(tid, iid)
+    data, ext = fetch_thumb(tid, iid)
     os.makedirs(THUMB_DIR, exist_ok=True)
     if data is not None:
+        dest = dest_webp if ext == "webp" else dest_avif
         with open(dest, "wb") as f:
             f.write(data)
         return True
     if local_thumb:
-        shutil.copyfile(local_thumb, dest)
+        shutil.copyfile(local_thumb, dest_avif)
         return True
     print("  WARNUNG %s: kein Thumb (Storage und Bundle leer)" % tid)
     return False
@@ -197,9 +204,21 @@ def export_trails(dry):
     )
     trails = get("trails?select=%s&sichtbar=eq.true&order=id" % cols)
     visible = {t["id"] for t in trails}
-    heroes = get("images?select=id,trail_id,sort,credit,caption,license,license_url,"
-                 "source_url,kind&source=eq.official&status=eq.approved&station_id=is.null"
-                 "&order=trail_id,sort")
+    hero_query = (
+        "images?select=id,trail_id,sort,credit,caption,license,license_url,"
+        "source_url,kind,thumbhash,dominant_color&source=eq.official&status=eq.approved"
+        "&station_id=is.null&order=trail_id,sort"
+    )
+    try:
+        heroes = get(hero_query)
+    except urllib.error.HTTPError as e:
+        if e.code != 400:
+            raise
+        heroes = get(
+            "images?select=id,trail_id,sort,credit,caption,license,license_url,"
+            "source_url,kind&source=eq.official&status=eq.approved&station_id=is.null"
+            "&order=trail_id,sort"
+        )
     hero_by = {}
     for h in heroes:
         hero_by.setdefault(h["trail_id"], []).append(h)
@@ -312,7 +331,11 @@ def export_trails(dry):
             "id": tid,
             "dataVersion": data["dataVersion"],
             "file": os.path.basename(path),
-            "thumb": ("thumbs/%s.avif" % tid) if has_thumb else None,
+            "thumb": (
+                ("thumbs/%s.webp" % tid)
+                if os.path.isfile(os.path.join(THUMB_DIR, tid + ".webp"))
+                else ("thumbs/%s.avif" % tid)
+            ) if has_thumb else None,
             "thumbImage": row["id"] if has_thumb else None,
         })
     if new_files:

@@ -25,20 +25,33 @@ ReportEntry _e(
 
 void main() {
   group('Report', () {
-    test('Blocker zählen nur offene harte und nicht übersteuerte Meldungen', () {
-      final r = [
-        _e('PFLICHT', Severity.hart, 'name'),
-        _e('STATIONEN_MIN', Severity.uebersteuerbar, 'stationen'),
-        _e('STATIONEN_MIN', Severity.uebersteuerbar, 'stationen', reason: 'Fläche'),
-        _e('TEXT_LAENGE', Severity.warnung, 'beschreibung'),
-        _e('QUELLE_FEHLT', Severity.warnung, 'abschnitt6', status: 'erledigt'),
-        _e('PFLICHT', Severity.hart, 'typ', status: 'erledigt'),
-      ];
-      final b = blockersOf(r);
-      expect(b.hart, 1);
-      expect(b.uebersteuerbar, 1);
-      expect(warningCount(r), 1);
-    });
+    test(
+      'Blocker zählen nur offene harte und nicht übersteuerte Meldungen',
+      () {
+        final r = [
+          _e('PFLICHT', Severity.hart, 'name'),
+          _e('STATIONEN_MIN', Severity.uebersteuerbar, 'stationen'),
+          _e(
+            'STATIONEN_MIN',
+            Severity.uebersteuerbar,
+            'stationen',
+            reason: 'Fläche',
+          ),
+          _e('TEXT_LAENGE', Severity.warnung, 'beschreibung'),
+          _e(
+            'QUELLE_FEHLT',
+            Severity.warnung,
+            'abschnitt6',
+            status: 'erledigt',
+          ),
+          _e('PFLICHT', Severity.hart, 'typ', status: 'erledigt'),
+        ];
+        final b = blockersOf(r);
+        expect(b.hart, 1);
+        expect(b.uebersteuerbar, 1);
+        expect(warningCount(r), 1);
+      },
+    );
 
     test('Feldschlüssel: Station, Abschnitt, Start, Fläche', () {
       expect(_e('X', Severity.warnung, 'stationen[3]').anzeigeKey, 'stationen');
@@ -66,7 +79,12 @@ void main() {
       expect(job('wartet', const []).pruefend, isTrue);
       expect(
         job('bereit', [
-          {'code': 'PFLICHT', 'severity': 'hart', 'feld': 'name', 'status': 'offen'},
+          {
+            'code': 'PFLICHT',
+            'severity': 'hart',
+            'feld': 'name',
+            'status': 'offen',
+          },
         ]).canPublish,
         isFalse,
       );
@@ -75,7 +93,10 @@ void main() {
 
     test('Tabs sortieren Status', () {
       expect(ImportTab.imImport.accepts(ImportStatus.vorschlag), isTrue);
-      expect(ImportTab.klaerung.accepts(ImportStatus.wartetAufKlaerung), isTrue);
+      expect(
+        ImportTab.klaerung.accepts(ImportStatus.wartetAufKlaerung),
+        isTrue,
+      );
       expect(ImportTab.archiv.accepts(ImportStatus.angelegt), isTrue);
       expect(ImportTab.fehlgeschlagen.accepts(ImportStatus.bereit), isFalse);
     });
@@ -89,7 +110,12 @@ void main() {
           fieldMeta: const {
             'hoertext': {'quelle': 'ki'},
           },
-          row: const {'name': 'Pfad', 'kreis': '', 'typ': 'wald', 'hoertext': 'x'},
+          row: const {
+            'name': 'Pfad',
+            'kreis': '',
+            'typ': 'wald',
+            'hoertext': 'x',
+          },
         );
 
     test('rot vor gelb, gefüllt = grün, gesperrt = grau', () {
@@ -121,7 +147,12 @@ void main() {
     test('Formkorrektur ist blau, übersteuerte Meldung ebenfalls', () {
       final s = states([
         _e('FORM', Severity.warnung, 'name', vorschlag: 'Pfad'),
-        _e('STATIONEN_MIN', Severity.uebersteuerbar, 'stationen', reason: 'Fläche'),
+        _e(
+          'STATIONEN_MIN',
+          Severity.uebersteuerbar,
+          'stationen',
+          reason: 'Fläche',
+        ),
       ]);
       expect(s.of('name').tone, FieldTone.info);
       expect(s.of('stationen').tone, FieldTone.info);
@@ -131,7 +162,9 @@ void main() {
   group('ImportMessages (Parität mit import_worker/messages.py)', () {
     late ImportMessages m;
     setUpAll(() {
-      m = ImportMessages.parse(File('import_worker/messages.json').readAsStringSync());
+      m = ImportMessages.parse(
+        File('import_worker/messages.json').readAsStringSync(),
+      );
     });
 
     test('Text zu lang', () {
@@ -192,6 +225,51 @@ void main() {
       expect(m.feldLabel('abschnitt2'), 'Abschnitt 2');
       expect(m.feldLabel('id'), 'ID');
       expect(m.feldLabel('unbekannt'), 'unbekannt');
+    });
+
+    test('Export: hart vor zu klären vor Warnung, leere Felder fehlen', () {
+      final job = ImportJob(
+        id: 'j1',
+        fileName: 'dossier.docx',
+        trailId: 'wildnispfad-xy',
+        status: ImportStatus.fehlgeschlagen,
+        modus: 'import',
+        error: 'Worker abgestürzt',
+        errorDetail: 'Traceback: boom',
+        report: [
+          _e('NOPE', Severity.warnung, 'id', status: 'erledigt'),
+          _e('PFLICHT', Severity.hart, 'beschreibung', vorschlag: 'Kurztext'),
+          _e(
+            'STATIONEN_MIN',
+            Severity.uebersteuerbar,
+            'stationen',
+            reason: 'Fläche',
+            params: {'anzahl': 1, 'min': 3, 'grund': 'luecke'},
+          ),
+        ],
+      );
+      final blocks = formatReportExport(job, m).split('\n\n');
+      expect(blocks.first, '''
+Pfad: wildnispfad-xy
+Datei: dossier.docx
+Status: Fehlgeschlagen''');
+      expect(blocks[1], startsWith('1. hart · offen · PFLICHT · Beschreibung'));
+      expect(blocks[1], contains('Titel: Pflichtfeld ist leer'));
+      expect(blocks[1], contains('Vorschlag: Kurztext'));
+      expect(blocks[1], isNot(contains('Wert:')));
+      expect(
+        blocks[2],
+        startsWith('2. zu klären · offen · STATIONEN_MIN · Stationen'),
+      );
+      expect(blocks[2], contains('Titel: Zu wenige Stationen'));
+      expect(blocks[2], contains('Übersteuert: Fläche'));
+      expect(blocks[2], isNot(contains('Wert:')));
+      expect(blocks[2], isNot(contains('Vorschlag:')));
+      expect(
+        blocks[3],
+        '3. warnung · erledigt · NOPE · ID\nTitel: NOPE\nWas: NOPE',
+      );
+      expect(blocks[4], 'Fehler: Worker abgestürzt\nDetails:\nTraceback: boom');
     });
 
     test('jeder Code hat Titel, Was, Warum, Wie', () {
