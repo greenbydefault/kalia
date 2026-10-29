@@ -51,15 +51,15 @@ const treeBranch = 'M12 13.8453L13.4583 12.387';
               <path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"></path>
             </svg>
           </button>
-          <header class="pop__head" data-s>
-            <span class="pop__icon" aria-hidden="true">
-              <img src="/img/icons/tree.svg" alt="" width="20" height="20" />
-            </span>
-            <div>
-              <p class="pop__kicker" data-lm-kicker></p>
-              <h3 class="pop__title" id="lm-pop-title" data-lm-title></h3>
-              <p class="pop__kicker" data-lm-region></p>
-            </div>
+          <div class="live-pop__media" data-s>
+            <img class="live-pop__fallback" src="/img/icons/tree.svg" alt="" width="32" height="32" />
+            <img class="live-pop__photo" data-lm-photo alt="" decoding="async" hidden />
+            <a class="live-pop__credit" data-lm-credit target="_blank" rel="noopener noreferrer" hidden></a>
+          </div>
+          <header class="pop__head live-pop__head" data-s>
+            <p class="pop__kicker" data-lm-kicker></p>
+            <h3 class="pop__title" id="lm-pop-title" data-lm-title></h3>
+            <p class="pop__kicker" data-lm-region></p>
           </header>
           <dl class="pop__stats live-pop__stats" data-lm-stats></dl>
           <ul class="pop__tags" role="list" data-lm-tags data-s></ul>

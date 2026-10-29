@@ -14,6 +14,8 @@ export function initSmoothScroll() {
     duration: 1.1,
     easing: (t) => 1 - Math.pow(1 - t, 4), // easeOutQuart
     anchors: { offset: -64 },
+    // Lenis ignoriert nur Strg+Wheel, nicht Cmd. Cmd+Wheel ist der Karten-Zoom (MapLibre cooperativeGestures).
+    virtualScroll: ({ event }) => !(event as WheelEvent).metaKey,
   });
 
   gsap.ticker.add((time) => lenis.raf(time * 1000));

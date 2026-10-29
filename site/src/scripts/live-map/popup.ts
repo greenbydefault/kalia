@@ -22,6 +22,14 @@ const fmt = (v: number, dec: number) =>
   v.toLocaleString('de-DE', { minimumFractionDigits: dec, maximumFractionDigits: dec });
 const clamp = (v: number, min: number, max: number) => Math.min(max, Math.max(min, v));
 
+/** `cc-by-sa-4.0` → `CC BY-SA 4.0` */
+function licenseLabel(l: string): string {
+  if (l === 'pd') return 'Gemeinfrei';
+  const m = /^cc-(by(?:-sa)?)-(\d\.\d)$/.exec(l);
+  if (m) return `CC ${m[1].toUpperCase()} ${m[2]}`;
+  return l === 'cc0' ? 'CC0' : l.toUpperCase();
+}
+
 type Stat = { label: string; value: number; dec: number };
 
 function statsOf(t: TrailPin): Stat[] {
@@ -40,6 +48,8 @@ export function createPopup(frame: HTMLElement, map: MapLibreMap, camera: Camera
   const region = pop.querySelector<HTMLElement>('[data-lm-region]')!;
   const statsEl = pop.querySelector<HTMLElement>('[data-lm-stats]')!;
   const tagsEl = pop.querySelector<HTMLElement>('[data-lm-tags]')!;
+  const photo = pop.querySelector<HTMLImageElement>('[data-lm-photo]')!;
+  const credit = pop.querySelector<HTMLAnchorElement>('[data-lm-credit]')!;
   const closeBtn = pop.querySelector<HTMLButtonElement>('[data-lm-close]')!;
   const cta = pop.querySelector<HTMLElement>('[data-lm-cta]')!;
 
@@ -53,6 +63,27 @@ export function createPopup(frame: HTMLElement, map: MapLibreMap, camera: Camera
     title.textContent = t.name;
     region.textContent = t.region || t.ort;
     region.hidden = !region.textContent;
+
+    // Hero-Foto (Wikimedia Commons u. a.) mit Namensnennung, sonst bleibt der Platzhalter sichtbar
+    const ph = t.photo;
+    photo.hidden = true;
+    credit.hidden = true;
+    photo.onload = () => {
+      photo.hidden = false;
+      credit.hidden = !ph;
+    };
+    photo.onerror = () => {
+      photo.hidden = true;
+      credit.hidden = true;
+    };
+    photo.alt = ph ? `Foto: ${t.name}` : '';
+    if (ph) {
+      photo.src = ph.url;
+      credit.textContent = `${ph.credit ? `Foto: ${ph.credit} · ` : ''}${licenseLabel(ph.license)}`;
+      credit.href = ph.sourceUrl || ph.licenseUrl || '#';
+    } else {
+      photo.removeAttribute('src');
+    }
 
     const stats = statsOf(t);
     statsEl.replaceChildren(
@@ -79,7 +110,7 @@ export function createPopup(frame: HTMLElement, map: MapLibreMap, camera: Camera
     }));
 
     tagsEl.replaceChildren(
-      ...t.tags.slice(0, 4).map((tag) => {
+      ...t.tags.slice(0, 3).map((tag) => {
         const li = document.createElement('li');
         li.className = 'pop__tag';
         li.textContent = tagLabels[tag];

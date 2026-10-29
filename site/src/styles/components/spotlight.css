@@ -163,7 +163,8 @@
 
 .pop__num {
   margin: 0;
-  font-size: var(--text-h3);
+  /* h3 minus 0.625rem, nie kleiner als 1rem (Label darunter hat 0.8125rem) */
+  font-size: max(1rem, calc(var(--text-h3) - 0.625rem));
   font-weight: 700;
   letter-spacing: var(--tracking-display);
   line-height: 1.1;

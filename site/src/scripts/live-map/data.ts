@@ -1,4 +1,13 @@
 import { tagLabels, typLabels } from '../../data/live-map';
+import photos from '../../data/trail-photos.json';
+
+export type TrailPhoto = {
+  url: string;
+  credit: string;
+  license: string;
+  licenseUrl: string;
+  sourceUrl: string;
+};
 
 export type TrailPin = {
   id: string;
@@ -13,6 +22,8 @@ export type TrailPin = {
   tags: string[];
   lat: number;
   lon: number;
+  /** Hero-Foto mit Namensnennung (tools/sync-trail-photos.py) oder null. */
+  photo: TrailPhoto | null;
 };
 
 type Row = {
@@ -58,6 +69,7 @@ export async function fetchTrails(signal?: AbortSignal): Promise<TrailPin[]> {
 }
 
 function toPin(r: Row): TrailPin {
+  const p = (photos as Record<string, Omit<TrailPhoto, 'url'>>)[r.id];
   return {
     id: r.id,
     name: r.name,
@@ -71,5 +83,6 @@ function toPin(r: Row): TrailPin {
     tags: (r.tags ?? []).filter((t) => t in tagLabels),
     lat: r.start_lat as number,
     lon: r.start_lon as number,
+    photo: p ? { url: `/img/trails/${r.id}.avif`, ...p } : null,
   };
 }
