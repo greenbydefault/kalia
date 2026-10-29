@@ -149,6 +149,38 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
     super.dispose();
   }
 
+  Future<void> _setLive(bool live) async {
+    final spec = widget.spec;
+    final col = spec.liveColumn!;
+    if (live) {
+      final gaps = spec.gaps?.call(widget.row).where((g) => !g.startsWith('Unsichtbar')).toList() ?? [];
+      if (gaps.isNotEmpty) {
+        final ok = await showDialog<bool>(
+          context: context,
+          builder: (_) => AlertDialog(
+            title: Text('${spec.singular} trotzdem live schalten?'),
+            content: Text('Noch offen:\n${gaps.map((g) => '• $g').join('\n')}'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: const Text('Abbrechen'),
+              ),
+              FilledButton(
+                onPressed: () => Navigator.pop(context, true),
+                child: const Text('Live schalten'),
+              ),
+            ],
+          ),
+        );
+        if (ok != true) return;
+      }
+    }
+    _autosave.set(FieldSpec(col, 'Live', FieldKind.boolean), live);
+    setState(() {});
+    await _autosave.flush();
+    _container.invalidate(collectionRowsProvider(spec));
+  }
+
   Future<void> _delete() async {
     final spec = widget.spec;
     final id = _ctx.id;
@@ -219,6 +251,13 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
                 ),
               ),
               AutosaveIndicator(hub: _hub),
+              if (spec.liveColumn != null) ...[
+                const SizedBox(width: 12),
+                _LiveSwitch(
+                  live: widget.row[spec.liveColumn] == true,
+                  onChanged: _setLive,
+                ),
+              ],
               if (spec.canDelete)
                 IconButton(
                   tooltip: '${spec.singular} löschen',
@@ -296,6 +335,32 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
       case CustomBlock():
         return block.builder(context, _ctx);
     }
+  }
+}
+
+class _LiveSwitch extends StatelessWidget {
+  const _LiveSwitch({required this.live, required this.onChanged});
+
+  final bool live;
+  final ValueChanged<bool> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    return Tooltip(
+      message: live ? 'Live – zurück auf Entwurf stellen' : 'Entwurf – live schalten',
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            live ? 'Live' : 'Entwurf',
+            style: Theme.of(context).textTheme.labelLarge?.copyWith(
+              color: live ? AppColors.statusOk : AppColors.inkMuted,
+            ),
+          ),
+          Switch(value: live, onChanged: onChanged),
+        ],
+      ),
+    );
   }
 }
 

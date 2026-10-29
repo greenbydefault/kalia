@@ -59,6 +59,7 @@ final trailsCollection = CollectionSpec(
   titleColumn: 'name',
   listColumns: 'id,name,typ,region,kurzbeschreibung,beschreibung,sichtbar',
   importPath: '/import',
+  liveColumn: 'sichtbar',
   subtitle: (r) {
     final typ = typOptions[r['typ']] ?? r['typ'];
     final region = (r['region'] as String?) ?? '';

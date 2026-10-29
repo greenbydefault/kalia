@@ -119,7 +119,11 @@ class CollectionSpec {
     this.manualCascade = const [],
     this.confirmDeleteByTyping = false,
     this.importPath,
+    this.liveColumn,
   });
+
+  /// Boolesche Spalte „Live/Entwurf“ (Trails: `sichtbar`). Schalter im Kopf.
+  final String? liveColumn;
 
   /// Route-Segment und Provider-Key (`trails`, `flora`).
   final String id;
