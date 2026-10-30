@@ -117,6 +117,12 @@ class _ListPaneState extends ConsumerState<_ListPane> {
   String _query = '';
   final _filters = <String, String>{};
   bool _onlyGaps = false;
+  String? _status; // 'live' | 'draft'
+
+  static const _statusFilter = ListFilterSpec('status', 'Status', {
+    'live': 'Live',
+    'draft': 'Entwurf',
+  });
 
   bool _matches(DbRow r) {
     final spec = widget.spec;
@@ -132,6 +138,11 @@ class _ListPaneState extends ConsumerState<_ListPane> {
     for (final e in _filters.entries) {
       final v = r[e.key];
       if (v is List ? !v.contains(e.value) : v != e.value) return false;
+    }
+    final liveCol = spec.liveColumn;
+    if (_status != null && liveCol != null) {
+      final live = r[liveCol] == true;
+      if (live != (_status == 'live')) return false;
     }
     if (_onlyGaps && (spec.gaps?.call(r).isEmpty ?? true)) return false;
     return true;
@@ -210,13 +221,22 @@ class _ListPaneState extends ConsumerState<_ListPane> {
             onChanged: (v) => setState(() => _query = v),
           ),
         ),
-        if (spec.listFilters.isNotEmpty || hasGaps)
+        if (spec.listFilters.isNotEmpty || hasGaps || spec.liveColumn != null)
           SizedBox(
             height: 44,
             child: ListView(
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               children: [
+                if (spec.liveColumn != null)
+                  Padding(
+                    padding: const EdgeInsets.only(right: 6),
+                    child: _FilterChip(
+                      filter: _statusFilter,
+                      value: _status,
+                      onChanged: (v) => setState(() => _status = v),
+                    ),
+                  ),
                 for (final f in spec.listFilters)
                   Padding(
                     padding: const EdgeInsets.only(right: 6),
