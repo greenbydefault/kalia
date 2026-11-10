@@ -204,7 +204,7 @@ export const areas: Area[] = [
 
 /**
  * Arten-Gruppen (Tab "Arten"), Kategorien aus species.json (`gruppe`), abwechselnd Tier und Pflanze.
- * Titel, Arten und Fakten stehen, Texte folgen. `TODO_TEXT` ist der Platzhalter, der Build listet offene Stellen.
+ * Titel, Arten, Fakten und Texte stehen (Texte aus species.json: `hook`, `funFacts`). `TODO_TEXT` ist der Platzhalter, der Build listet offene Stellen.
  * Bilder per Konvention unter /img/cards/{id}/{grau,blau,mitte,szene}.svg, fehlen sie, greift der Platzhalter.
  * Fakten sind Platzhalter wie bei den Gebieten, vor Livegang gegen den Katalog prüfen.
  */
@@ -216,31 +216,57 @@ export const artenLead = 'Vom Kranich bis zum Fliegenpilz: Auf jedem Pfad gibt e
 function artGroup(
   id: string,
   title: string,
+  text: string,
+  backText: string,
   fakten: [zeit: string, mitbringen: string, besonderes: string],
   arten: ArtId[],
 ): Area {
   return {
     id,
     title,
-    text: TODO_TEXT,
+    text,
     layers: {
       grey: `/img/cards/${id}/grau.svg`,
       blue: `/img/cards/${id}/blau.svg`,
       mid: `/img/cards/${id}/mitte.svg`,
     },
-    back: { text: TODO_TEXT, fakten: { zeit: fakten[0], mitbringen: fakten[1], besonderes: fakten[2] }, arten },
+    back: { text: backText, fakten: { zeit: fakten[0], mitbringen: fakten[1], besonderes: fakten[2] }, arten },
   };
 }
 
 export const artGroups: Area[] = [
-  artGroup('voegel', 'Vögel', ['Apr – Juni', 'Fernglas', 'Kranichruf: kilometerweit'], ['rotkehlchen', 'kohlmeise', 'buntspecht', 'kranich']),
-  artGroup('baeume', 'Bäume', ['Ganzjährig', 'Lupe', 'Ein Vogel pflanzt Eichen'], ['stieleiche', 'rotbuche', 'haengebirke', 'kiefer']),
-  artGroup('saeugetiere', 'Säugetiere', ['Dämmerung', 'Leise Sohlen', 'Kitze riechen fast nicht'], ['reh', 'eichhoernchen', 'feldhase', 'igel']),
-  artGroup('kraeuter', 'Kräuter', ['Apr – Aug', 'Nichts pflücken', 'Sonnentau fängt Mücken'], ['loewenzahn', 'margerite', 'wollgras', 'sonnentau']),
-  artGroup('insekten', 'Insekten', ['Mär – Aug', 'Lupe', 'Hunderte Läuse, eine Larve'], ['tagpfauenauge', 'hummel', 'marienkaefer', 'libelle']),
-  artGroup('straeucher', 'Sträucher', ['Mär – Mai', 'Lange Hose', 'Süß erst nach dem Frost'], ['schlehe', 'haselnuss', 'holunder', 'heckenrose']),
-  artGroup('amphibien', 'Amphibien', ['Apr – Mai', 'Gummistiefel', 'Bunter Bauch als Warnung'], ['moorfrosch', 'kammmolch', 'rotbauchunke', 'erdkroete']),
-  artGroup('reptilien', 'Reptilien', ['Apr – Sep', 'Steine liegen lassen', 'Schwanz wächst nach'], ['zauneidechse', 'waldeidechse', 'blindschleiche', 'ringelnatter']),
+  artGroup('voegel', 'Vögel',
+    'Vom Rotkehlchen im Gebüsch bis zum Kranich am Himmel. Meist hört man sie, bevor man sie sieht.',
+    'Der Specht zimmert Wohnungen für den halben Wald, der Kranich ruft kilometerweit.',
+    ['Apr – Juni', 'Fernglas', 'Kranichruf: kilometerweit'], ['rotkehlchen', 'kohlmeise', 'buntspecht', 'kranich']),
+  artGroup('baeume', 'Bäume',
+    'Eiche, Buche, Birke, Kiefer. Wer auf Rinde, Blätter und Früchte schaut, erkennt sie bald am Wegrand.',
+    'Eine alte Eiche ist eine Wohnanlage für Hunderte Arten, die Birke trägt weiße Rinde.',
+    ['Ganzjährig', 'Lupe', 'Ein Vogel pflanzt Eichen'], ['stieleiche', 'rotbuche', 'haengebirke', 'kiefer']),
+  artGroup('saeugetiere', 'Säugetiere',
+    'Scheu und meist schneller weg als gesehen. Oft verrät nur ein Schwanz oder ein Versteck, dass sie da waren.',
+    'Das Reh bellt wie ein Hund, und der Igel zieht in den Reisighaufen.',
+    ['Dämmerung', 'Leise Sohlen', 'Kitze riechen fast nicht'], ['reh', 'eichhoernchen', 'feldhase', 'igel']),
+  artGroup('kraeuter', 'Kräuter',
+    'Gelbe Scheiben, weiße Blüten, Wattebäusche im Moor. Und eine kleine Pflanze, die Insekten fängt.',
+    'Der Sonnentau klebt Insekten fest, das Wollgras wächst nur auf nassem Boden.',
+    ['Apr – Aug', 'Nichts pflücken', 'Sonnentau fängt Mücken'], ['loewenzahn', 'margerite', 'wollgras', 'sonnentau']),
+  artGroup('insekten', 'Insekten',
+    'Klein, aber voller Tricks. Falter mit Augen auf den Flügeln, Hummeln im Frühjahr, Libellen überm Wasser.',
+    'Die Hummel fliegt schon bei Kälte, die Marienkäferlarve frisst hunderte Läuse.',
+    ['Mär – Aug', 'Lupe', 'Hunderte Läuse, eine Larve'], ['tagpfauenauge', 'hummel', 'marienkaefer', 'libelle']),
+  artGroup('straeucher', 'Sträucher',
+    'Schlehe, Hasel, Holunder, Heckenrose. Erst blühen sie, später hängen Nüsse, Beeren und Hagebutten dran.',
+    'Die Schlehe schmeckt erst nach dem Frost, im Dornbusch brüten Neuntöter.',
+    ['Mär – Mai', 'Lange Hose', 'Süß erst nach dem Frost'], ['schlehe', 'haselnuss', 'holunder', 'heckenrose']),
+  artGroup('amphibien', 'Amphibien',
+    'Am Teich wird es im Frühjahr bunt. Blaue Frösche, Molche mit Kamm und Unken mit gefärbtem Bauch.',
+    'Der Moorfrosch wird zur Laichzeit blau, der Kammmolch trägt einen Kamm.',
+    ['Apr – Mai', 'Gummistiefel', 'Bunter Bauch als Warnung'], ['moorfrosch', 'kammmolch', 'rotbauchunke', 'erdkroete']),
+  artGroup('reptilien', 'Reptilien',
+    'Sie sonnen sich auf Steinen und Brettern und sind weg, bevor man genau hinschaut.',
+    'Die Blindschleiche ist eine Eidechse ohne Beine, die Ringelnatter ist ungiftig.',
+    ['Apr – Sep', 'Steine liegen lassen', 'Schwanz wächst nach'], ['zauneidechse', 'waldeidechse', 'blindschleiche', 'ringelnatter']),
 ];
 
 const todos: string[] = [];
