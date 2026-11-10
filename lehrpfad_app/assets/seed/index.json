@@ -652,6 +652,13 @@
    "thumbImage": "eaaf92d2-7136-51f8-9c6a-96e73183b8fc"
   },
   {
+   "id": "waldlehrpfad-taubensuhl-landau",
+   "dataVersion": 1,
+   "file": "waldlehrpfad-taubensuhl-landau.json",
+   "thumb": "thumbs/waldlehrpfad-taubensuhl-landau.avif",
+   "thumbImage": "bd9f7d0d-8ae6-5d56-acd6-3c0ba3877566"
+  },
+  {
    "id": "waldspielplatz-jaegerhaus",
    "dataVersion": 2,
    "file": "waldspielplatz-jaegerhaus.json",

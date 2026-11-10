@@ -263,6 +263,18 @@
   "oeffnungszeiten": "Sommer, frei zugänglich"
  },
  {
+  "id": "birkenthaler-hof-eusserthal",
+  "name": "Birkenthaler Hof",
+  "kategorie": "restaurant",
+  "kurztext": "Gasthaus am Waldrand von Eußerthal mit Garten, Forellen aus dem Ort und selbstgebackenem Kuchen am Nachmittag.",
+  "lat": 49.2492,
+  "lon": 7.9617,
+  "website": "https://www.birkenthalerhof.de/",
+  "oeffnungszeiten": "Fr–So 11–20 Uhr",
+  "opening_hours": "Fr-Su 11:00-20:00",
+  "telefon": "+49 6345 1441"
+ },
+ {
   "id": "bistro-koenigsstuhl",
   "name": "Bistro Nationalpark-Zentrum Königsstuhl",
   "kategorie": "cafe",
@@ -1128,6 +1140,27 @@
   "opening_hours": "Apr-Oct: 12:00-21:00"
  },
  {
+  "id": "klosterkirche-eusserthal",
+  "name": "Klosterkirche und Themenweg Eußerthal",
+  "kategorie": "aktivitaet",
+  "kurztext": "Zisterzienserkirche von 1262 mit ebenem Rundweg zur Klostergeschichte, 1,3 Kilometer, auch mit Kinderwagen.",
+  "lat": 49.24174,
+  "lon": 7.970388,
+  "oeffnungszeiten": "Kirche meist tagsüber geöffnet, Themenweg jederzeit",
+  "telefon": "+49 6346 98956680"
+ },
+ {
+  "id": "klosterstuebl-eusserthal",
+  "name": "Klosterstüb'l",
+  "kategorie": "restaurant",
+  "kurztext": "Bürgerliche Küche in Eußerthal mit 50 Plätzen draußen, sonntags schon ab Mittag geöffnet.",
+  "lat": 49.242966,
+  "lon": 7.97127,
+  "website": "https://www.klosterstuebl76857.de/",
+  "oeffnungszeiten": "Fr–Sa ab 18 Uhr, So 12–15 Uhr; Sept./Okt. nur das 1. und 2. Wochenende, Nov. zu",
+  "telefon": "+49 6345 93072"
+ },
+ {
   "id": "knopfmuseum-schmoelln",
   "name": "Knopf- und Regionalmuseum Schmölln",
   "kategorie": "museum",
@@ -1430,6 +1463,17 @@
   "website": "https://www.koenigsstuhl.com",
   "oeffnungszeiten": "Saison, Fahrplan am Parkplatz",
   "opening_hours": "Apr-Oct: 09:00-18:00"
+ },
+ {
+  "id": "pfaelzer-wald-forellen-eusserthal",
+  "name": "Pfälzer Wald Forellen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit frischen und geräucherten Fischen auf dem Petrihof in Eußerthal.",
+  "lat": 49.2501705,
+  "lon": 7.9535021,
+  "website": "https://www.pfaelzerwaldforellen.de/",
+  "oeffnungszeiten": "Fr–So 10–16 Uhr, Jan./Feb. geschlossen",
+  "telefon": "+49 6345 9496750"
  },
  {
   "id": "pizzeria-rosso-pomodoro-dornholzhausen",

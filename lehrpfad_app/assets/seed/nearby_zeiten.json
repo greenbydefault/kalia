@@ -379,12 +379,28 @@
       "sek": 448
     },
     {
+      "poi": "klosterstuebl-eusserthal",
+      "sek": 648
+    },
+    {
       "poi": "museum-reichsburg-trifels",
       "sek": 652
     },
     {
+      "poi": "klosterkirche-eusserthal",
+      "sek": 677
+    },
+    {
+      "poi": "birkenthaler-hof-eusserthal",
+      "sek": 751
+    },
+    {
       "poi": "aktivitaet-wildpark-silz",
       "sek": 792
+    },
+    {
+      "poi": "pfaelzer-wald-forellen-eusserthal",
+      "sek": 880
     }
   ],
   "untereider": [],
@@ -421,6 +437,24 @@
     }
   ],
   "waldlehrpfad-silberbergen": [],
+  "waldlehrpfad-taubensuhl-landau": [
+    {
+      "poi": "birkenthaler-hof-eusserthal",
+      "sek": 740
+    },
+    {
+      "poi": "klosterstuebl-eusserthal",
+      "sek": 795
+    },
+    {
+      "poi": "pfaelzer-wald-forellen-eusserthal",
+      "sek": 825
+    },
+    {
+      "poi": "klosterkirche-eusserthal",
+      "sek": 846
+    }
+  ],
   "waldspielplatz-jaegerhaus": [
     {
       "poi": "la-famiglia-esslingen",

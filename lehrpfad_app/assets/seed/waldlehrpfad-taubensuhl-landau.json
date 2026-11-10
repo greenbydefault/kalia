@@ -1,0 +1,609 @@
+{
+ "id": "waldlehrpfad-taubensuhl-landau",
+ "name": "Waldlehrpfad auf dem Taubensuhl",
+ "typ": "walderlebnispfad",
+ "gebiet": "wald",
+ "kurzbeschreibung": "Der Landauer Stadtwald hat hinter Eußerthal eine Exklave im Pfälzerwald, rund 30 Autominuten von der Stadt entfernt. Dort stehen 13 Stationen am ebenen Weg.",
+ "beschreibung": "Der Taubensuhl gehört zum Landauer Stadtwald, liegt aber weit außerhalb der Stadt, als Exklave mitten im Pfälzerwald. Die Stadt nennt den Pfad ihren höchstgelegenen Spielplatz. Die Zuwachsburg rechnet vor, wie viel Holz im Stadtwald jede Stunde nachwächst. Das Baumtelefon aus Holz misst zwölf Meter. Vom Hochsitz an der Weitsicht lässt sich der Wald überblicken. In der Sprunggrube tritt die eigene Sprungkraft gegen Maus, Hase und Reh an. Zuletzt hat die Stadt den Pfad saniert und größere Spielgeräte aufgestellt.",
+ "laengeKm": 3.3,
+ "dauerMin": 60,
+ "rundkurs": true,
+ "markierung": "Wegweiser, Hase als Wegzeichen",
+ "betreiber": "Stadt Landau in der Pfalz, Forstamt Haardt",
+ "region": "Taubensuhl bei Eußerthal, Stadt Landau in der Pfalz, Pfälzerwald, Rheinland-Pfalz",
+ "website": "https://www.suedlicheweinstrasse.de/touren/tour/waldlehrpfad-auf-dem-taubensuhl/tour.html",
+ "anreise": "Parkplatz Taubensuhl an der L 505 bei Eußerthal (Forsthaus Taubensuhl, 76857 Eußerthal), rund 30 Autominuten von Landau. Von dort fünf Gehminuten zur Tafel am Lehrpfad. Der Rufbus 5930 fährt ab Annweiler Bahnhof zur Haltestelle Forsth. Taubensuhl.",
+ "startName": "Tafel am Waldlehrpfad, Forsthaus Taubensuhl",
+ "arten": [
+  "Buchfink",
+  "Hängebirke",
+  "Heidelbeere",
+  "Kiefer",
+  "Kohlmeise",
+  "Rotbuche",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Adlerfarn",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eberesche",
+  "Eichelhäher"
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Kiefer": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotbuche": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Adlerfarn": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eberesche": "typisch",
+  "Eichelhäher": "typisch"
+ },
+ "lebensraeume": [
+  "buchenwald",
+  "kiefernforst"
+ ],
+ "naturraum": "mittelgebirge",
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "rollstuhltauglich",
+  "spielplatz",
+  "picknick",
+  "barfusspfad"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   49.28708,
+   7.911189
+  ],
+  [
+   49.287139,
+   7.911299
+  ],
+  [
+   49.287514,
+   7.912348
+  ],
+  [
+   49.287794,
+   7.913006
+  ],
+  [
+   49.287202,
+   7.912689
+  ],
+  [
+   49.287794,
+   7.913006
+  ],
+  [
+   49.288157,
+   7.913189
+  ],
+  [
+   49.288857,
+   7.913876
+  ],
+  [
+   49.289769,
+   7.914477
+  ],
+  [
+   49.290536,
+   7.915095
+  ],
+  [
+   49.291328,
+   7.916169
+  ],
+  [
+   49.291603,
+   7.91643
+  ],
+  [
+   49.291996,
+   7.916852
+  ],
+  [
+   49.292144,
+   7.91708
+  ],
+  [
+   49.292293,
+   7.917421
+  ],
+  [
+   49.292338,
+   7.917565
+  ],
+  [
+   49.292972,
+   7.918103
+  ],
+  [
+   49.293445,
+   7.918331
+  ],
+  [
+   49.29389,
+   7.918414
+  ],
+  [
+   49.2942,
+   7.918248
+  ],
+  [
+   49.294463,
+   7.917993
+  ],
+  [
+   49.29503,
+   7.918245
+  ],
+  [
+   49.29548,
+   7.918471
+  ],
+  [
+   49.296345,
+   7.918857
+  ],
+  [
+   49.296443,
+   7.918816
+  ],
+  [
+   49.296507,
+   7.91872
+  ],
+  [
+   49.296576,
+   7.918621
+  ],
+  [
+   49.296605,
+   7.918521
+  ],
+  [
+   49.296618,
+   7.918415
+  ],
+  [
+   49.296309,
+   7.917246
+  ],
+  [
+   49.295238,
+   7.913275
+  ],
+  [
+   49.295053,
+   7.912581
+  ],
+  [
+   49.294969,
+   7.912199
+  ],
+  [
+   49.294938,
+   7.911521
+  ],
+  [
+   49.294974,
+   7.911041
+  ],
+  [
+   49.295225,
+   7.909892
+  ],
+  [
+   49.295251,
+   7.90981
+  ],
+  [
+   49.295301,
+   7.909744
+  ],
+  [
+   49.295323,
+   7.909677
+  ],
+  [
+   49.295323,
+   7.909574
+  ],
+  [
+   49.295254,
+   7.909278
+  ],
+  [
+   49.294863,
+   7.909413
+  ],
+  [
+   49.294638,
+   7.909498
+  ],
+  [
+   49.294417,
+   7.909478
+  ],
+  [
+   49.294287,
+   7.909413
+  ],
+  [
+   49.293508,
+   7.909116
+  ],
+  [
+   49.293043,
+   7.909128
+  ],
+  [
+   49.292645,
+   7.909294
+  ],
+  [
+   49.292333,
+   7.909435
+  ],
+  [
+   49.292324,
+   7.909433
+  ],
+  [
+   49.292291,
+   7.909428
+  ],
+  [
+   49.291885,
+   7.909361
+  ],
+  [
+   49.291375,
+   7.909084
+  ],
+  [
+   49.291214,
+   7.909028
+  ],
+  [
+   49.290691,
+   7.909073
+  ],
+  [
+   49.290123,
+   7.908843
+  ],
+  [
+   49.290082,
+   7.908831
+  ],
+  [
+   49.28978,
+   7.908731
+  ],
+  [
+   49.289361,
+   7.908377
+  ],
+  [
+   49.289052,
+   7.908288
+  ],
+  [
+   49.288774,
+   7.908283
+  ],
+  [
+   49.288465,
+   7.908386
+  ],
+  [
+   49.28819,
+   7.908535
+  ],
+  [
+   49.288,
+   7.908761
+  ],
+  [
+   49.287774,
+   7.909208
+  ],
+  [
+   49.287664,
+   7.909533
+  ],
+  [
+   49.287418,
+   7.910529
+  ],
+  [
+   49.287261,
+   7.910903
+  ],
+  [
+   49.28708,
+   7.911189
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": 8208812506,
+   "lat": 49.2886836,
+   "lon": 7.9134929,
+   "km": 0.43,
+   "titel": "Zuwachsburg",
+   "thema": "Holzzuwachs im Stadtwald",
+   "kurztext": "Die Station rechnet vor, wie viel Holz im Landauer Stadtwald jede Stunde nachwächst. Auf die Zuwachsburg lässt sich klettern, daneben steht eine Bank.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": 8208812507,
+   "lat": 49.2903736,
+   "lon": 7.9148018,
+   "km": 0.64,
+   "titel": "Baumtelefon",
+   "thema": "Wie ein Telefon aus Holz funktioniert",
+   "kurztext": "Das Telefon aus Holz ist zwölf Meter lang und läuft am Wegrand entlang.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": 8208812508,
+   "lat": 49.2923818,
+   "lon": 7.9173285,
+   "km": 0.9,
+   "titel": "Jahresringe",
+   "thema": "Das Alter eines Baumes",
+   "kurztext": "An den Jahresringen lässt sich das Alter eines Baumes bestimmen. Die Station nimmt Baldur, den Baum, als Beispiel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": 8208812473,
+   "lat": 49.2945991,
+   "lon": 7.9179776,
+   "km": 1.16,
+   "titel": "Weitsicht",
+   "thema": "Der Wald von oben",
+   "kurztext": "Ein kleiner Hochsitz steht am Weg und darf bestiegen werden. Von oben lässt sich der Wald überblicken.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": 1871787998,
+   "lat": 49.2965161,
+   "lon": 7.9188187,
+   "km": 1.4,
+   "titel": "Wald-Schwung",
+   "thema": "Schwingen und Balancieren",
+   "kurztext": "Die Spielgeräte der Station sind aus Edelkastanie gebaut. Ein kleiner Unterstand steht daneben.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -3099506805,
+   "lat": 49.29636,
+   "lon": 7.917634,
+   "km": 1.52,
+   "titel": "Hör mal hin",
+   "thema": "Geräusche des Waldes",
+   "kurztext": "An der siebten Station geht es um die Geräusche des Waldes.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -4255740864,
+   "lat": 49.29515,
+   "lon": 7.91215,
+   "km": 1.92,
+   "titel": "Netz-Werk",
+   "thema": "Vernetzung im Wald",
+   "kurztext": "Die Station macht auf die Vernetzungen im Wald aufmerksam. Zum Klettern gibt es einen kleinen Waldspielplatz.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -4020283082,
+   "lat": 49.29258,
+   "lon": 7.90945,
+   "km": 2.43,
+   "titel": "Insektenheim",
+   "thema": "Wohnraum für Insekten",
+   "kurztext": "Neben einer Holzhütte auf einer Lichtung steht das Insektenheim. Bienen und Wespen wohnen dort nebeneinander.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": 10591334575,
+   "lat": 49.2922716,
+   "lon": 7.9094823,
+   "km": 2.48,
+   "titel": "Sinnenpfad",
+   "thema": "Barfuß über Waldboden",
+   "kurztext": "Der Sinnenpfad liegt am Schotterweg, der zur Sprunggrube führt. Er wird barfuß begangen.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -800711792,
+   "lat": 49.28978,
+   "lon": 7.90873,
+   "km": 2.76,
+   "titel": "Sprunggrube",
+   "thema": "Sprungkraft messen",
+   "kurztext": "In der Sprunggrube lässt sich die eigene Sprungweite mit der von Floh, Maus, Hase und Reh vergleichen.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -1541979872,
+   "lat": 49.28877,
+   "lon": 7.90828,
+   "km": 2.88,
+   "titel": "Ein- und Ausblicke",
+   "thema": "Blick in den Wald",
+   "kurztext": "Die Station gehört zum letzten Streckenabschnitt, vor Waldklassenzimmer und Waldxylophon.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": 1136134857,
+   "lat": 49.28764,
+   "lon": 7.90992,
+   "km": 3.04,
+   "titel": "Waldklassenzimmer",
+   "thema": "Unterricht im Wald",
+   "kurztext": "Das Forstamt Haardt hat das Waldklassenzimmer in den Pfad gebaut, nahe der Waldwerkstatt Taubensuhl.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": -2237465645,
+   "lat": 49.28742,
+   "lon": 7.91053,
+   "km": 3.12,
+   "titel": "Waldxylophon",
+   "thema": "Der Wald als Instrument",
+   "kurztext": "Am Waldxylophon wird der Wald zum Klingen gebracht. Dahinter schließt der Rundweg an die Lichtung am Start.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1871787568,
+   "lat": 49.2964393,
+   "lon": 7.9187347,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 10591334589,
+   "lat": 49.2923403,
+   "lon": 7.9093717,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 10591339334,
+   "lat": 49.2868097,
+   "lon": 7.9123355,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 10591339335,
+   "lat": 49.2876628,
+   "lon": 7.9099216,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8208812474,
+   "lat": 49.2946174,
+   "lon": 7.9179642,
+   "kategorie": "viewpoint",
+   "name": "Weitsicht"
+  },
+  {
+   "osmId": 1136134856,
+   "lat": 49.28683,
+   "lon": 7.9123,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 170496111,
+   "lat": 49.2847136,
+   "lon": 7.9140789,
+   "kategorie": "parking",
+   "name": "Parkplatz Taubensuhl"
+  }
+ ],
+ "eintritt": false,
+ "oeffnungszeiten": "Ganzjährig begehbar.",
+ "besuchshinweise": "Die Waldgaststätte am Forsthaus ist seit Jahren geschlossen, Verpflegung mitbringen. Parkplatz und Tafel am Lehrpfad liegen fünf Gehminuten auseinander. Der Sinnenpfad wird barfuß begangen. Zum Start fährt ein Rufbus ab Annweiler Bahnhof.",
+ "hoertext": "Hinter Eußerthal windet sich die Straße steil bergauf, bis eine Lichtung den Weg freigibt. Er verläuft breit und eben durch den Wald, und schon bald wartet die Zuwachsburg, die vorrechnet, wie viel Holz der Stadtwald in einer Stunde zulegt. Ein zwölf Meter langes Telefon aus Holz zieht sich am Wegrand entlang. Auf den Hochsitz steigt, wer sich traut, und von dort weitet sich der Blick. Der Sinnenpfad wartet auf nackte Füße. In der Sprunggrube misst sich jeder mit dem Reh. Am Xylophon beginnt der Wald zu klingen, bis der Rundweg wieder an der Lichtung endet. Verpflegung gehört in den Rucksack, denn die Gaststätte am Forsthaus bleibt geschlossen.",
+ "bilder": [
+  {
+   "file": "bd9f7d0d-8ae6-5d56-acd6-3c0ba3877566",
+   "id": "bd9f7d0d-8ae6-5d56-acd6-3c0ba3877566",
+   "caption": "Forsthaus Taubensuhl, Ausgangspunkt des Waldlehrpfads im Pfälzerwald.",
+   "credit": "Steffen 962",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2014_Pf%C3%A4lzerwald_086_Forsthaus_Taubensuhl.JPG",
+   "kind": "ort"
+  }
+ ],
+ "dataVersion": 1
+}
