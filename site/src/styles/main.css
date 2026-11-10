@@ -8,6 +8,9 @@
 @import './components/species-card.css';
 @import './components/audio-player.css';
 @import './components/areas.css';
+@import './components/umschalter.css';
+@import './components/entdecken.css';
+@import './components/ausflug.css';
 @import './components/live-map.css';
 @import './components/faq.css';
 @import './components/site-footer.css';

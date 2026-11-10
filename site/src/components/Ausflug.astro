@@ -1,0 +1,97 @@
+---
+import { icons } from '../icons';
+import { ATTRIBUTION } from '../data/live-map';
+import { ausflugTabs, aktionen, kopf } from '../data/ausflug';
+import Umschalter from './Umschalter.astro';
+
+/**
+ * Sektion "So einfach wird euer nächster Ausflug": Umschalter (Finden, Hinkommen, Zuhören, Sammeln) und je Tab
+ * eine Medienfläche (Karte, Handy) neben dem Text. Inhalte: data/ausflug.ts. Verhalten: scripts/tabs.ts.
+ * Die Karte hinter dem Handy ist ein statisches Bild (dekorativ), kein Live-Fenster.
+ * Handy-Rahmen und Abrundungen sind CSS, das Bild im Handy ist die App-Ansicht.
+ */
+const chevronLeft = 'M14.5 6L8.5 12L14.5 18';
+const chevronRight = 'M9.5 6L15.5 12L9.5 18';
+const panelIds = ausflugTabs.map((t) => `panel-${t.id}`).join(' ');
+---
+
+<section class="section ausflug" id="ausflug" aria-labelledby="ausflug-title" data-ausflug>
+  <div class="container">
+    <header class="section__head section__head--center ausflug__head">
+      <p class="eyebrow">{kopf.badge}</p>
+      <h2 class="section__title" id="ausflug-title">{kopf.title}</h2>
+      <p class="section__lead">{kopf.lead}</p>
+      <Umschalter
+        tabs={ausflugTabs.map(({ id, label, icon }) => ({ id, label, icon }))}
+        label="Schritte des Ausflugs"
+        variant="bar"
+      />
+    </header>
+
+    {
+      ausflugTabs.map((t, i) => (
+        <div class="ausflug__panel" role="tabpanel" id={`panel-${t.id}`} aria-labelledby={`tab-${t.id}`} hidden={i !== 0}>
+          <figure class="ausflug__media" data-reveal>
+            <img class="ausflug__map" src={t.bg} alt="" width="1200" height="1090" loading="lazy" decoding="async" />
+            <div class="phone">
+              <img class="phone__screen" src={t.screen.src} alt={t.screen.alt} width="390" height="844" loading="lazy" decoding="async" />
+            </div>
+            <figcaption class="ausflug__credit">
+              <small set:html={ATTRIBUTION} />
+            </figcaption>
+          </figure>
+
+          <div class="ausflug__body" data-reveal>
+            <div class="ausflug__content">
+              <h3 class="ausflug__title">
+                {t.title.map((line, n) => (
+                  <Fragment>
+                    {n > 0 && <br />}
+                    {line}
+                  </Fragment>
+                ))}
+              </h3>
+              <p class="ausflug__text">{t.text}</p>
+
+              <dl class="ausflug__facts">
+                {t.facts.map((f) => (
+                  <div class="ausflug__fact">
+                    <dt class="ausflug__fact-label">{f.label}</dt>
+                    <dd class="ausflug__fact-value">{f.value}</dd>
+                  </div>
+                ))}
+              </dl>
+
+              <div class="ausflug__filter">
+                <p class="ausflug__filter-label" id={`${t.id}-chips`}>{t.chipsLabel}</p>
+                <ul class="ausflug__chips" role="list" aria-labelledby={`${t.id}-chips`}>
+                  {t.chips.map((c) => (
+                    <li class="chip chip--paper chip--icon">
+                      {c.icon && <span class="chip__icon" aria-hidden="true" set:html={icons[c.icon]} />}
+                      {c.label}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div class="ausflug__actions">
+              <a class="button" href={aktionen.cta.href}>{aktionen.cta.label}</a>
+              <p class="ausflug__alt">
+                Oder <a href={t.link.href}>{t.link.label}</a>
+              </p>
+              <div class="ausflug__steps" role="group" aria-label="Zwischen den Schritten wechseln">
+                <button class="slider-button" type="button" data-tab-step="-1" aria-label="Vorheriger Schritt" aria-controls={panelIds}>
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={chevronLeft} /></svg>
+                </button>
+                <button class="slider-button" type="button" data-tab-step="1" aria-label="Nächster Schritt" aria-controls={panelIds}>
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={chevronRight} /></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

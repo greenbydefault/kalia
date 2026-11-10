@@ -29,6 +29,32 @@ export const artenPool = {
   reh: 'Reh',
   rotkehlchen: 'Rotkehlchen',
   moorfrosch: 'Moorfrosch',
+  // Arten-Gruppen (Tab "Arten"). Illustration folgt, bis dahin zeigt die Kachel nur den Namen.
+  kohlmeise: 'Kohlmeise',
+  kranich: 'Kranich',
+  stieleiche: 'Stieleiche',
+  rotbuche: 'Rotbuche',
+  haengebirke: 'Hängebirke',
+  kiefer: 'Kiefer',
+  feldhase: 'Feldhase',
+  igel: 'Igel',
+  loewenzahn: 'Löwenzahn',
+  margerite: 'Margerite',
+  sonnentau: 'Sonnentau',
+  tagpfauenauge: 'Tagpfauenauge',
+  hummel: 'Hummel',
+  marienkaefer: 'Marienkäfer',
+  schlehe: 'Schlehe',
+  haselnuss: 'Haselnuss',
+  holunder: 'Holunder',
+  heckenrose: 'Heckenrose',
+  kammmolch: 'Kammmolch',
+  rotbauchunke: 'Rotbauchunke',
+  erdkroete: 'Erdkröte',
+  zauneidechse: 'Zauneidechse',
+  waldeidechse: 'Waldeidechse',
+  blindschleiche: 'Blindschleiche',
+  ringelnatter: 'Ringelnatter',
 } as const;
 export type ArtId = keyof typeof artenPool;
 
@@ -59,7 +85,8 @@ export type Area = {
   id: string;
   title: string;
   text: string;
-  image: string;
+  /** Einzelbild für Karten ohne Ebenen. Fehlt es, greift der Platzhalter. */
+  image?: string;
   layers?: AreaLayers;
   back?: AreaBack;
 };
@@ -79,7 +106,7 @@ export const areas: Area[] = [
     back: {
       text: 'Holzstege über nassem Grund. Der Biber baut nachts, der Schwan gleitet vorbei.',
       // Platzhalter, vor Livegang gegen Katalog prüfen
-      fakten: { zeit: 'Mai – Juni', mitbringen: 'Festes Schuhwerk', besonderes: 'Moor wächst 1 mm/Jahr' },
+      fakten: { zeit: 'Mai – Juni', mitbringen: 'Festes Schuhwerk', besonderes: 'Pflanzen fressen Tiere' },
       arten: ['stockente', 'schwan', 'biber', 'moorfrosch'],
     },
   },
@@ -175,8 +202,54 @@ export const areas: Area[] = [
   },
 ];
 
-for (const a of areas) {
-  if (a.back && a.back.text.length > BACK_TEXT_MAX) {
+/**
+ * Arten-Gruppen (Tab "Arten"), Kategorien aus species.json (`gruppe`), abwechselnd Tier und Pflanze.
+ * Titel, Arten und Fakten stehen, Texte folgen. `TODO_TEXT` ist der Platzhalter, der Build listet offene Stellen.
+ * Bilder per Konvention unter /img/cards/{id}/{grau,blau,mitte,szene}.svg, fehlen sie, greift der Platzhalter.
+ * Fakten sind Platzhalter wie bei den Gebieten, vor Livegang gegen den Katalog prüfen.
+ */
+export const TODO_TEXT = 'TODO(text)';
+
+/** TODO(text): Entwurf aus der Spec, noch nicht abgestimmt. */
+export const artenLead = 'Vom Kranich bis zum Fliegenpilz: Auf jedem Pfad gibt es Arten zum Anhören und Sammeln.';
+
+function artGroup(
+  id: string,
+  title: string,
+  fakten: [zeit: string, mitbringen: string, besonderes: string],
+  arten: ArtId[],
+): Area {
+  return {
+    id,
+    title,
+    text: TODO_TEXT,
+    layers: {
+      grey: `/img/cards/${id}/grau.svg`,
+      blue: `/img/cards/${id}/blau.svg`,
+      mid: `/img/cards/${id}/mitte.svg`,
+    },
+    back: { text: TODO_TEXT, fakten: { zeit: fakten[0], mitbringen: fakten[1], besonderes: fakten[2] }, arten },
+  };
+}
+
+export const artGroups: Area[] = [
+  artGroup('voegel', 'Vögel', ['Apr – Juni', 'Fernglas', 'Kranichruf: kilometerweit'], ['rotkehlchen', 'kohlmeise', 'buntspecht', 'kranich']),
+  artGroup('baeume', 'Bäume', ['Ganzjährig', 'Lupe', 'Ein Vogel pflanzt Eichen'], ['stieleiche', 'rotbuche', 'haengebirke', 'kiefer']),
+  artGroup('saeugetiere', 'Säugetiere', ['Dämmerung', 'Leise Sohlen', 'Kitze riechen fast nicht'], ['reh', 'eichhoernchen', 'feldhase', 'igel']),
+  artGroup('kraeuter', 'Kräuter', ['Apr – Aug', 'Nichts pflücken', 'Sonnentau fängt Mücken'], ['loewenzahn', 'margerite', 'wollgras', 'sonnentau']),
+  artGroup('insekten', 'Insekten', ['Mär – Aug', 'Lupe', 'Hunderte Läuse, eine Larve'], ['tagpfauenauge', 'hummel', 'marienkaefer', 'libelle']),
+  artGroup('straeucher', 'Sträucher', ['Mär – Mai', 'Lange Hose', 'Süß erst nach dem Frost'], ['schlehe', 'haselnuss', 'holunder', 'heckenrose']),
+  artGroup('amphibien', 'Amphibien', ['Apr – Mai', 'Gummistiefel', 'Bunter Bauch als Warnung'], ['moorfrosch', 'kammmolch', 'rotbauchunke', 'erdkroete']),
+  artGroup('reptilien', 'Reptilien', ['Apr – Sep', 'Steine liegen lassen', 'Schwanz wächst nach'], ['zauneidechse', 'waldeidechse', 'blindschleiche', 'ringelnatter']),
+];
+
+const todos: string[] = [];
+for (const a of [...areas, ...artGroups]) {
+  if (!a.back) continue;
+  if (a.back.text === TODO_TEXT) todos.push(`${a.id}: Rückseite`);
+  else if (a.back.text.length > BACK_TEXT_MAX) {
     throw new Error(`areas.ts: Rückseitentext "${a.id}" hat ${a.back.text.length} Zeichen, erlaubt sind ${BACK_TEXT_MAX}`);
   }
+  if (a.text === TODO_TEXT) todos.push(`${a.id}: Vorderseite`);
 }
+if (todos.length) console.warn(`[areas] ${todos.length} offene ${TODO_TEXT}: ${todos.join(', ')}`);

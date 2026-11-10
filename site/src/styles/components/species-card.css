@@ -43,6 +43,8 @@
 
 .species-card__art {
   display: grid;
+  place-items: center;
+  aspect-ratio: 298 / 152;
   border-radius: var(--radius-input);
   background: var(--color-card-sand);
   overflow: hidden;
@@ -50,7 +52,8 @@
 
 .species-card__art img {
   display: block;
-  width: 100%;
+  width: var(--art-w, 100%);
+  max-width: 100%;
   height: auto;
 }
 
@@ -81,6 +84,29 @@
 
 .chip--accent {
   background: var(--color-chip-blue);
+}
+
+/* Auf Flächen in --color-surface */
+.chip--paper {
+  background: var(--color-paper);
+}
+
+/* Mit Icon links vom Label */
+.chip--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding-inline-start: var(--space-2);
+}
+
+.chip__icon {
+  display: grid;
+  flex: none;
+}
+
+.chip__icon svg {
+  width: 1rem;
+  height: 1rem;
 }
 
 /* Mobil als Bottom-Sheet (Verhalten in spotlight.css), Safe-Area unten behalten */

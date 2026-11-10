@@ -11,6 +11,9 @@ export type SpeciesCardData = {
   kicker: string;
   illustration: string;
   illustrationAlt: string;
+  /** Breite der Illustration in px (Höhe folgt dem SVG), zentriert auf Sand. */
+  illustrationWidth: number;
+  illustrationHeight: number;
   chips: { label: string; accent?: boolean }[];
   text: string;
   audio: string;
@@ -23,6 +26,8 @@ export const speciesCards: Record<string, SpeciesCardData> = {
     kicker: 'Fauna',
     illustration: '/img/cards/igel.svg',
     illustrationAlt: 'Illustration eines Igels',
+    illustrationWidth: 150,
+    illustrationHeight: 107,
     // Gruppe · Merkmal · Seltenheit (species.json: gruppe, merkmal, seltenheit; Labels aus seltenheitKatalog)
     chips: [{ label: 'Säugetier', accent: true }, { label: 'Nachtaktiv' }, { label: 'Mittel' }],
     text: 'Nachts knistert das Laub – tagsüber verrät oft nur das Versteck, dass er da war. Er rollt sich zur Kugel, wenn Gefahr droht. Nachtjäger: Käfer, Regenwürmer und Schnecken stehen auf dem Speiseplan.',

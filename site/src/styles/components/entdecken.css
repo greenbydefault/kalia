@@ -1,0 +1,71 @@
+/* ── Entdecken: Headline mit Umschalter Gebiete | Arten ──────────
+   Der Umschalter selbst: umschalter.css (Variante headline), Logik in scripts/tabs.ts und scripts/entdecken.ts.
+   Die Tabs erben die Headline-Typo und wirken wie ein Wort im Satz. */
+
+.entdecken__head {
+  /* TODO(token): Kopfbreite für zentrierten Headline-Text, bisher nur --container-narrow (46rem) */
+  max-width: 54rem;
+  margin-bottom: var(--space-3);
+}
+
+.entdecken__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.3em;
+}
+
+/* Zeile 2 erzwingen: "wollt ihr heute entdecken?" */
+.entdecken__rest {
+  flex-basis: 100%;
+}
+
+.entdecken__lead {
+  max-width: 40rem;
+  margin: 0 auto var(--space-7);
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* Platzhalter für fehlende Illustrationen (siehe AreaCard.astro). Gleiche Ebenen und Drehpunkte wie die SVGs. */
+.area-mini--empty::after {
+  content: '';
+  position: absolute;
+  width: 28%;
+  height: 74%;
+  left: calc(var(--cx) - 14%);
+  top: calc(var(--cy) - 37%);
+  border-radius: 0.75rem;
+  background: var(--mini-bg);
+}
+
+.area-mini--empty.area-mini--grey {
+  --cx: 27.8%;
+  --cy: 48.8%;
+  --mini-bg: var(--color-hairline);
+}
+
+.area-mini--empty.area-mini--blue {
+  --cx: 66.2%;
+  --cy: 48.3%;
+  --mini-bg: var(--color-chip-blue);
+}
+
+.area-mini--empty.area-mini--mid {
+  --cx: 46.5%;
+  --cy: 44.1%;
+  --mini-bg: var(--color-paper);
+}
+
+.area-mini--empty.area-mini--mid::after {
+  width: 32%;
+  height: 84%;
+  left: calc(var(--cx) - 16%);
+  top: calc(var(--cy) - 42%);
+  box-shadow: 0 0 0 1px var(--color-hairline);
+}
+
+.area-back__art--empty {
+  width: 100%;
+}

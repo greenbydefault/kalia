@@ -44,7 +44,7 @@ const rootProps = isPop
     <h3 class="species-card__title" id={titleId}>{card.name}</h3>
   </header>
   <div class="species-card__art" data-s>
-    <img src={card.illustration} alt={card.illustrationAlt} width="298" height="152" loading="lazy" decoding="async" />
+    <img src={card.illustration} alt={card.illustrationAlt} width={card.illustrationWidth} height={card.illustrationHeight} style={`--art-w:${card.illustrationWidth}px`} loading="lazy" decoding="async" />
   </div>
   <ul class="species-card__chips" role="list" data-s>
     {card.chips.map((c) => <li class:list={['chip', c.accent && 'chip--accent']}>{c.label}</li>)}
