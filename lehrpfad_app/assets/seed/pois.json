@@ -68,6 +68,17 @@
   "telefon": "+49 38203 407401"
  },
  {
+  "id": "aktivitaet-wildpark-silz",
+  "name": "Wild- und Wanderpark Silz",
+  "kategorie": "aktivitaet",
+  "kurztext": "Wölfe, Wisente und Streichelgehege auf 100 Hektar, dazu Abenteuerspielplatz mit Riesenrutsche — Eintritt, nur Barzahlung.",
+  "lat": 49.1386,
+  "lon": 7.9311,
+  "website": "https://wildpark-silz.de/",
+  "oeffnungszeiten": "1. März–1. Nov täglich ab 9 Uhr, sonst Mi–So ab 10 Uhr; Erwachsene 9,50 €, Kinder ab 5 €",
+  "telefon": "+49 6346 5588"
+ },
+ {
   "id": "alte-bischofsburg-wittstock",
   "name": "Alte Bischofsburg Wittstock",
   "kategorie": "museum",
@@ -224,6 +235,17 @@
   "oeffnungszeiten": "Strand frei"
  },
  {
+  "id": "baden-trifelsbad-annweiler",
+  "name": "Trifelsbad Annweiler",
+  "kategorie": "baden",
+  "kurztext": "Freibad mit Erlebnisbecken und Wellenbreitrutsche, Wasserspielplatz für die Kleinen — Abkühlung nach dem Aufstieg.",
+  "lat": 49.2031,
+  "lon": 7.9521,
+  "website": "https://www.vg-annweiler.de/buergerservice/einrichtungen/trifelsbad-annweiler/",
+  "oeffnungszeiten": "Sommer Di–So 8–19 Uhr, Mo 10:30–19 Uhr, Kinder bis 6 frei",
+  "opening_hours": "May-Sep: Mo 10:30-19:00; May-Sep: Tu-Su 08:00-19:00"
+ },
+ {
   "id": "badestelle-garder-see",
   "name": "Badestelle Garder See",
   "kategorie": "baden",
@@ -270,6 +292,17 @@
   "lon": 11.1830336
  },
  {
+  "id": "cafe-chelini-annweiler",
+  "name": "Café Chelini",
+  "kategorie": "cafe",
+  "kurztext": "Eis und Kuchen mitten in der Altstadt, nur ein paar Schritte vom Weg.",
+  "lat": 49.2032,
+  "lon": 7.9621,
+  "website": "http://www.cafe-chelini.de/",
+  "oeffnungszeiten": "15. Feb–30. Nov täglich 10–23 Uhr",
+  "opening_hours": "Feb-Nov: Mo-Su 10:00-23:00"
+ },
+ {
   "id": "cafe-dascafe-oldesloe",
   "name": "dasCafé Bad Oldesloe",
   "kategorie": "cafe",
@@ -310,6 +343,18 @@
   "website": "https://cafe-am-engelbecken.de/",
   "oeffnungszeiten": "Täglich 10–24 Uhr",
   "telefon": "+49 30 69596793"
+ },
+ {
+  "id": "cafe-escher-annweiler",
+  "name": "Café Escher und Eiswerk",
+  "kategorie": "cafe",
+  "kurztext": "Kuchen, Torten und Eis an der Altstadt — gleich nach dem Abstieg, Eiswerk bei schönem Wetter.",
+  "lat": 49.2028,
+  "lon": 7.9653,
+  "website": "http://www.cafe-escher.de/",
+  "oeffnungszeiten": "Mi–So 8:30–18 Uhr",
+  "opening_hours": "We-Su 08:30-18:00",
+  "telefon": "+49 6346 8343"
  },
  {
   "id": "cafe-fegetasche-ploen",
@@ -566,6 +611,16 @@
   "website": "https://www.campingmoensklint.dk",
   "oeffnungszeiten": "April–Oktober",
   "opening_hours": "Apr-Oct: 00:00-24:00"
+ },
+ {
+  "id": "camping-naturfreunde-annweiler",
+  "name": "Campingplatz Naturfreunde Annweiler",
+  "kategorie": "camping",
+  "kurztext": "Camping am Fuß des Sonnenbergs, zu Fuß in die Altstadt — 1. April bis 31. Oktober, Buchung nur online.",
+  "lat": 49.2013,
+  "lon": 7.9725,
+  "website": "http://www.naturfreunde-annweiler.de/",
+  "oeffnungszeiten": "1. April–31. Oktober, Rezeption 19–20 Uhr"
  },
  {
   "id": "camping-olhoern-spo",
@@ -903,6 +958,18 @@
   "telefon": "+49 4509 1054"
  },
  {
+  "id": "hofladen-gut-hohenberg-annweiler",
+  "name": "Hofladen Gut Hohenberg",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Schulbauernhofs in der Altstadt, mit Honig vom Gut — nur Mi und Fr.",
+  "lat": 49.202452,
+  "lon": 7.963095,
+  "website": "https://gut-hohenberg.de/hofladen/",
+  "oeffnungszeiten": "Mi und Fr 9–17 Uhr",
+  "opening_hours": "We,Fr 09:00-17:00",
+  "telefon": "+49 6346 928555"
+ },
+ {
   "id": "hofladen-herzsprung",
   "name": "Hofladen Luisenhof Katerbow",
   "kategorie": "hofladen",
@@ -1218,6 +1285,17 @@
   "telefon": "+49 451 1224122"
  },
  {
+  "id": "museum-reichsburg-trifels",
+  "name": "Reichsburg Trifels",
+  "kategorie": "museum",
+  "kurztext": "Hier lagen die Reichskleinodien, und Richard Löwenherz saß gefangen — Hunde nur im Außenbereich, nicht barrierefrei.",
+  "lat": 49.1963,
+  "lon": 7.9784,
+  "website": "https://www.burgenlandschaft-pfalz.de/de/reichsburg-trifels",
+  "oeffnungszeiten": "Eintritt, Zeiten siehe Website",
+  "telefon": "+49 261 66754830"
+ },
+ {
   "id": "museum-saalburg",
   "name": "Römerkastell Saalburg",
   "kategorie": "museum",
@@ -1274,6 +1352,18 @@
   "website": "https://www.schutzstation-wattenmeer.de/unsere-stationen/friedrichskoog",
   "oeffnungszeiten": "Saison, oft Wochenende, Aushang",
   "telefon": "+49 4854 9298"
+ },
+ {
+  "id": "museum-unterm-trifels-annweiler",
+  "name": "Museum unterm Trifels",
+  "kategorie": "museum",
+  "kurztext": "Burg, Staufer und Stadtgeschichte in drei Fachwerkhäusern, mit Bauhütte — Regenprogramm zu den Stationen.",
+  "lat": 49.2036,
+  "lon": 7.9637,
+  "website": "https://www.annweiler.de/de/tourismus-freizeit/museum-unterm-trifels/",
+  "oeffnungszeiten": "Di–Fr 13–17 Uhr, Sa/So/Feiertag 10–17 Uhr, Winterpause ab 2. Nov bis Mitte März",
+  "opening_hours": "Mar-Oct: Tu-Fr 13:00-17:00; Mar-Oct: Sa-Su 10:00-17:00",
+  "telefon": "+49 6346 9659760"
  },
  {
   "id": "museumsfabrik-pritzwalk",
@@ -1403,6 +1493,17 @@
   "oeffnungszeiten": "Mi–Sa 17–21:30 Uhr, So 12–21:30 Uhr, Di Ruhetag, Mo siehe Aushang",
   "opening_hours": "Tu off; We-Sa 17:00-21:30; Su 12:00-21:30",
   "telefon": "+49 4307 8229481"
+ },
+ {
+  "id": "restaurant-barbarossa-trifels",
+  "name": "Barbarossa – Das Lokal am Trifels",
+  "kategorie": "restaurant",
+  "kurztext": "Pfälzische Küche am Parkplatz Schlossäcker, direkt unter der Burg — Platz für große Gruppen, Biergarten.",
+  "lat": 49.194465,
+  "lon": 7.980452,
+  "website": "https://barbarossa-trifels.de/",
+  "oeffnungszeiten": "Mi–So ab 11 Uhr, Winter bis Mitte März nur Sa/So",
+  "telefon": "+49 6346 8479"
  },
  {
   "id": "restaurant-baumgarten-bistensee",

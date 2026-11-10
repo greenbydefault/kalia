@@ -589,6 +589,13 @@
    "thumbImage": "adbfc2ab-ef16-56c9-87af-6beda6f887be"
   },
   {
+   "id": "trifelserlebnisweg-annweiler",
+   "dataVersion": 1,
+   "file": "trifelserlebnisweg-annweiler.json",
+   "thumb": null,
+   "thumbImage": null
+  },
+  {
    "id": "untereider",
    "dataVersion": 2,
    "file": "untereider.json",

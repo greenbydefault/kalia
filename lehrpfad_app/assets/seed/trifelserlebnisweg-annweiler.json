@@ -1,0 +1,1312 @@
+{
+ "id": "trifelserlebnisweg-annweiler",
+ "name": "TrifelsErlebnisWeg Annweiler",
+ "typ": "walderlebnispfad",
+ "gebiet": "wald",
+ "kurzbeschreibung": "Vom Meßplatz in Annweiler steigt der Weg 3,6 Kilometer bis zur Reichsburg Trifels. Tafeln, ein Steinmetzkran und ein Quiz in der SÜW-App begleiten den Aufstieg.",
+ "beschreibung": "Auf dem Trifels lagen einst die Reichskleinodien, und der Weg hinauf handelt von der Stauferzeit. Er folgt zuerst dem Bachlauf durch die Fachwerkgassen und steigt dann durch den Pfälzerwald. Die Stationen erzählen von Zünften und Mühle, von Konstanze von Hauteville, von Rittern, Mönchen und Kreuzzügen. Kurz vor der Burg folgt Richard Löwenherz, der 1193 auf dem Trifels gefangen saß. Die Themen sind für jüngere und ältere Kinder getrennt aufbereitet.",
+ "laengeKm": 3.6,
+ "dauerMin": 90,
+ "rundkurs": false,
+ "markierung": "Mönchssymbol (Mönchsweg)",
+ "betreiber": "Verein Südliche Weinstraße Annweiler am Trifels e.V.",
+ "region": "Annweiler am Trifels, Landkreis Südliche Weinstraße, Pfälzerwald, Rheinland-Pfalz",
+ "website": "https://www.suedlicheweinstrasse.de/suew-erlebnis-app/trifelserlebnisweg",
+ "anreise": "Start am Meßplatz bei der Tourist-Information, Am Meßplatz 1, 76855 Annweiler am Trifels, 300 m vom Bahnhof. Der 3,6 km lange Weg steigt 272 Höhenmeter zur Burg. Von der Burg fährt Bus 527 ab Parkplatz Schlossäcker (gebührenpflichtig) zum Bahnhof Annweiler.",
+ "startName": "Meßplatz / Tourist-Information Annweiler",
+ "arten": [
+  "Buchfink",
+  "Eichelhäher",
+  "Hainbuche",
+  "Kohlmeise",
+  "Rotbuche",
+  "Stieleiche",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Amsel",
+  "Bergahorn",
+  "Blaumeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Gemeine Esche"
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Hainbuche": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotbuche": "typisch",
+  "Stieleiche": "typisch",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Amsel": "typisch",
+  "Bergahorn": "typisch",
+  "Blaumeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Gemeine Esche": "typisch"
+ },
+ "lebensraeume": [
+  "buchenwald",
+  "eichen-mischwald"
+ ],
+ "naturraum": "mittelgebirge",
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "einkehr",
+  "hunde-erlaubt"
+ ],
+ "form": "linie",
+ "route": [
+  [
+   49.20401,
+   7.9646
+  ],
+  [
+   49.203776,
+   7.964098
+  ],
+  [
+   49.203688,
+   7.963739
+  ],
+  [
+   49.203691,
+   7.96331
+  ],
+  [
+   49.203786,
+   7.962821
+  ],
+  [
+   49.20386,
+   7.962462
+  ],
+  [
+   49.203832,
+   7.96221
+  ],
+  [
+   49.203912,
+   7.962162
+  ],
+  [
+   49.203919,
+   7.961791
+  ],
+  [
+   49.203856,
+   7.961716
+  ],
+  [
+   49.203797,
+   7.961743
+  ],
+  [
+   49.203765,
+   7.961909
+  ],
+  [
+   49.20359,
+   7.961974
+  ],
+  [
+   49.203285,
+   7.962065
+  ],
+  [
+   49.203302,
+   7.962382
+  ],
+  [
+   49.20318,
+   7.962462
+  ],
+  [
+   49.203159,
+   7.962258
+  ],
+  [
+   49.202913,
+   7.962296
+  ],
+  [
+   49.202927,
+   7.962601
+  ],
+  [
+   49.202472,
+   7.963036
+  ],
+  [
+   49.202573,
+   7.963589
+  ],
+  [
+   49.202671,
+   7.964517
+  ],
+  [
+   49.202808,
+   7.96545
+  ],
+  [
+   49.202254,
+   7.965809
+  ],
+  [
+   49.201651,
+   7.966316
+  ],
+  [
+   49.201241,
+   7.966737
+  ],
+  [
+   49.201035,
+   7.966882
+  ],
+  [
+   49.200947,
+   7.966925
+  ],
+  [
+   49.200856,
+   7.967183
+  ],
+  [
+   49.200782,
+   7.96751
+  ],
+  [
+   49.200638,
+   7.967682
+  ],
+  [
+   49.200397,
+   7.967966
+  ],
+  [
+   49.200211,
+   7.96802
+  ],
+  [
+   49.200298,
+   7.968341
+  ],
+  [
+   49.200249,
+   7.968481
+  ],
+  [
+   49.200011,
+   7.968561
+  ],
+  [
+   49.19972,
+   7.968535
+  ],
+  [
+   49.199443,
+   7.968535
+  ],
+  [
+   49.199299,
+   7.968588
+  ],
+  [
+   49.199405,
+   7.968803
+  ],
+  [
+   49.19959,
+   7.96898
+  ],
+  [
+   49.199832,
+   7.969473
+  ],
+  [
+   49.199955,
+   7.969801
+  ],
+  [
+   49.200074,
+   7.970294
+  ],
+  [
+   49.200246,
+   7.97163
+  ],
+  [
+   49.200327,
+   7.972156
+  ],
+  [
+   49.200337,
+   7.972719
+  ],
+  [
+   49.200337,
+   7.973523
+  ],
+  [
+   49.200295,
+   7.973942
+  ],
+  [
+   49.200323,
+   7.974156
+  ],
+  [
+   49.200267,
+   7.974376
+  ],
+  [
+   49.199951,
+   7.974966
+  ],
+  [
+   49.19971,
+   7.975498
+  ],
+  [
+   49.199618,
+   7.975675
+  ],
+  [
+   49.199506,
+   7.976216
+  ],
+  [
+   49.19958,
+   7.97657
+  ],
+  [
+   49.199699,
+   7.977134
+  ],
+  [
+   49.199731,
+   7.977802
+  ],
+  [
+   49.199587,
+   7.978507
+  ],
+  [
+   49.199482,
+   7.97929
+  ],
+  [
+   49.199447,
+   7.979709
+  ],
+  [
+   49.199506,
+   7.980106
+  ],
+  [
+   49.199822,
+   7.98113
+  ],
+  [
+   49.199773,
+   7.98139
+  ],
+  [
+   49.199611,
+   7.981704
+  ],
+  [
+   49.199278,
+   7.98187
+  ],
+  [
+   49.198952,
+   7.98201
+  ],
+  [
+   49.198532,
+   7.982187
+  ],
+  [
+   49.198195,
+   7.982359
+  ],
+  [
+   49.197873,
+   7.9822
+  ],
+  [
+   49.197645,
+   7.982037
+  ],
+  [
+   49.197263,
+   7.981752
+  ],
+  [
+   49.196972,
+   7.981538
+  ],
+  [
+   49.196786,
+   7.981388
+  ],
+  [
+   49.196471,
+   7.981237
+  ],
+  [
+   49.196187,
+   7.981018
+  ],
+  [
+   49.195763,
+   7.980862
+  ],
+  [
+   49.195419,
+   7.980808
+  ],
+  [
+   49.195139,
+   7.980776
+  ],
+  [
+   49.194746,
+   7.980427
+  ],
+  [
+   49.194525,
+   7.980519
+  ],
+  [
+   49.194465,
+   7.980014
+  ],
+  [
+   49.194623,
+   7.979682
+  ],
+  [
+   49.194732,
+   7.979537
+  ],
+  [
+   49.195279,
+   7.979912
+  ],
+  [
+   49.195545,
+   7.98002
+  ],
+  [
+   49.195787,
+   7.979934
+  ],
+  [
+   49.196257,
+   7.979993
+  ],
+  [
+   49.195983,
+   7.979805
+  ],
+  [
+   49.195784,
+   7.979676
+  ],
+  [
+   49.19571,
+   7.979515
+  ],
+  [
+   49.195524,
+   7.979355
+  ],
+  [
+   49.195345,
+   7.979102
+  ],
+  [
+   49.195296,
+   7.978834
+  ],
+  [
+   49.195366,
+   7.978507
+  ],
+  [
+   49.195549,
+   7.978083
+  ],
+  [
+   49.195731,
+   7.978072
+  ],
+  [
+   49.195959,
+   7.977954
+  ],
+  [
+   49.196204,
+   7.977842
+  ],
+  [
+   49.19646,
+   7.977643
+  ],
+  [
+   49.196653,
+   7.97759
+  ],
+  [
+   49.196846,
+   7.977735
+  ],
+  [
+   49.196958,
+   7.977971
+  ],
+  [
+   49.196968,
+   7.978373
+  ],
+  [
+   49.196916,
+   7.97862
+  ],
+  [
+   49.196863,
+   7.97877
+  ],
+  [
+   49.196727,
+   7.978764
+  ],
+  [
+   49.196499,
+   7.978673
+  ],
+  [
+   49.196734,
+   7.978617
+  ]
+ ],
+ "area": [],
+ "stationen": [
+  {
+   "osmId": -2445056615,
+   "lat": 49.203976,
+   "lon": 7.964668,
+   "km": 0.0,
+   "titel": "Meßplatz",
+   "thema": "Start in der Stadt",
+   "kurztext": "Hier stehen die Tourist-Information, der Hotspot zum Laden der SÜW-App und die Übersichtstafel. Die Markierung Mönchsweg zeigt die Richtung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 1
+  },
+  {
+   "osmId": -744063187,
+   "lat": 49.203667,
+   "lon": 7.963686,
+   "km": 0.07,
+   "titel": "Essen und Trinken im Mittelalter",
+   "thema": "Vorrat und Speisen auf der Burg",
+   "kurztext": "Die Station handelt von Essgewohnheiten und davon, wie auf der Burg Vorrat gehalten wurde. Nebenan zeigt das Museum unterm Trifels in drei Fachwerkhäusern die Geschichte der Stadt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 2
+  },
+  {
+   "osmId": -1859709842,
+   "lat": 49.203762,
+   "lon": 7.961838,
+   "km": 0.25,
+   "titel": "Handwerk und Zünfte",
+   "thema": "Stadtmühle, Zünfte, Stadtrechte",
+   "kurztext": "Das Wasserrad der Stadtmühle trieb früher eine Getreidemühle an. Die Tafel erzählt von Handwerk, Zünften und Stadtrechten im mittelalterlichen Annweiler.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 3
+  },
+  {
+   "osmId": -856895963,
+   "lat": 49.203049,
+   "lon": 7.96239,
+   "km": 0.34,
+   "titel": "Die Stadt im Mittelalter",
+   "thema": "Annweiler unter der Burg",
+   "kurztext": "In der Altstadt tragen die Gassen noch Fachwerk. Die Tafel stellt die Stadt so vor, wie sie im Mittelalter unterhalb der Reichsburg lag.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 4
+  },
+  {
+   "osmId": -1983101317,
+   "lat": 49.201105,
+   "lon": 7.966886,
+   "km": 0.87,
+   "titel": "Markward von Annweiler",
+   "thema": "Aufsteiger der Stauferzeit",
+   "kurztext": "Markward (1140 bis 1202) stammte aus Annweiler, wurde unter Heinrich VI. Reichstruchsess und später Herzog von Ravenna. Gleich daneben liegt die Markwardanlage mit Weiher, Spielplatz und Wassertretbecken.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 5
+  },
+  {
+   "osmId": -2695716463,
+   "lat": 49.200152,
+   "lon": 7.968549,
+   "km": 1.04,
+   "titel": "Konstanze von Hauteville",
+   "thema": "Normannin, Mutter Friedrichs II.",
+   "kurztext": "Die Normannin erbte das Königreich Sizilien, heiratete Heinrich VI. und wurde die Mutter von Friedrich II.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 6
+  },
+  {
+   "osmId": -2928973719,
+   "lat": 49.199408,
+   "lon": 7.968527,
+   "km": 1.13,
+   "titel": "Bauen im Mittelalter",
+   "thema": "Steinmetzkran",
+   "kurztext": "Eine Erlebnis-Station mit Steinmetzkran zeigt, wie auf mittelalterlichen Baustellen schwere Steine bewegt wurden.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 7
+  },
+  {
+   "osmId": -1017098742,
+   "lat": 49.20025,
+   "lon": 7.973398,
+   "km": 1.54,
+   "titel": "Heilkunde im Mittelalter",
+   "thema": "Heilerin und Kräuter",
+   "kurztext": "Die Station handelt von Heilkunde im Mittelalter. In der SÜW-App erzählt eine Audio-Info von einer Heilerin.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 8
+  },
+  {
+   "osmId": -3190565267,
+   "lat": 49.199801,
+   "lon": 7.981509,
+   "km": 2.16,
+   "titel": "Rittertum und höfische Kultur",
+   "thema": "Picknickplatz am Weg",
+   "kurztext": "Ein Picknickplatz lädt zur Pause ein. Die Tafel handelt von Rittertum und höfischer Kultur im Mittelalter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 9
+  },
+  {
+   "osmId": -1588617137,
+   "lat": 49.197782,
+   "lon": 7.982067,
+   "km": 2.39,
+   "titel": "Klosterleben im Mittelalter",
+   "thema": "Mönchsweg",
+   "kurztext": "Der Weg trägt das Mönchssymbol: Der Mönchsweg verbindet die Burg Trifels mit Eußerthal. Die Tafel handelt vom Leben im Kloster.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 10
+  },
+  {
+   "osmId": -3236479109,
+   "lat": 49.194669,
+   "lon": 7.980501,
+   "km": 2.76,
+   "titel": "Zugbrücke",
+   "thema": "Zugang zur Burg",
+   "kurztext": "Die Tafel handelt von der Zugbrücke, dem beweglichen Zugang einer Burg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 11
+  },
+  {
+   "osmId": -2168112832,
+   "lat": 49.194417,
+   "lon": 7.980115,
+   "km": 2.82,
+   "titel": "Die Kreuzzüge",
+   "thema": "Barbarossa und Richard Löwenherz",
+   "kurztext": "Kaiser Friedrich Barbarossa starb 1190 auf dem Dritten Kreuzzug. Richard Löwenherz kehrte von ihm zurück, nur wenige Jahre vor seiner Gefangenschaft auf dem Trifels.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 12
+  },
+  {
+   "osmId": -481364537,
+   "lat": 49.194753,
+   "lon": 7.979535,
+   "km": 2.87,
+   "titel": "Friedrich II.",
+   "thema": "Sohn von Heinrich VI. und Konstanze",
+   "kurztext": "Friedrich II. kam 1194 zur Welt und wurde später Kaiser. Seine Eltern waren Heinrich VI. und Konstanze von Hauteville.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 13
+  },
+  {
+   "osmId": -3315382487,
+   "lat": 49.196254,
+   "lon": 7.980007,
+   "km": 3.05,
+   "titel": "Richard Löwenherz",
+   "thema": "Gefangener auf dem Trifels",
+   "kurztext": "1193 hielt Heinrich VI. den englischen König auf der Burg Trifels gefangen. Wer im Quiz mindestens sieben von zehn Fragen richtig beantwortet, kann ihn in der SÜW-App als Figur neben sich stellen.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 14
+  },
+  {
+   "osmId": -3642587717,
+   "lat": 49.196758,
+   "lon": 7.977631,
+   "km": 3.38,
+   "titel": "Stadtansichten",
+   "thema": "Blick auf Annweiler",
+   "kurztext": "Der Aussichtspunkt öffnet den Blick über die Stadt. In der SÜW-App legt ein Marker das 3D-Modell des mittelalterlichen Annweiler über die heutige Stadt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 15
+  },
+  {
+   "osmId": -705394639,
+   "lat": 49.196914,
+   "lon": 7.978575,
+   "km": 3.47,
+   "titel": "Burgenblick",
+   "thema": "Blick auf die Reichsburg",
+   "kurztext": "Von hier liegt die Reichsburg Trifels direkt vor dem Weg. Der Eintritt in die Burg ist nicht Teil des Weges.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false,
+   "steckbrief": null,
+   "reihenfolge": 16
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 290548905,
+   "lat": 49.1961887,
+   "lon": 7.9799311,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 290548906,
+   "lat": 49.1947349,
+   "lon": 7.9797529,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 290553283,
+   "lat": 49.1941165,
+   "lon": 7.9804548,
+   "kategorie": "gastro",
+   "name": "Barbarossa"
+  },
+  {
+   "osmId": 307922406,
+   "lat": 49.2036536,
+   "lon": 7.9602751,
+   "kategorie": "gastro",
+   "name": "L'Antica Ruota"
+  },
+  {
+   "osmId": 567999280,
+   "lat": 49.2048819,
+   "lon": 7.9644389,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 727330592,
+   "lat": 49.2036097,
+   "lon": 7.9612468,
+   "kategorie": "gastro",
+   "name": "Zur Alten Gerberei"
+  },
+  {
+   "osmId": 727369457,
+   "lat": 49.2018306,
+   "lon": 7.9621086,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 729635361,
+   "lat": 49.2026391,
+   "lon": 7.9649906,
+   "kategorie": "gastro",
+   "name": "Da Angelo"
+  },
+  {
+   "osmId": 729637050,
+   "lat": 49.203225,
+   "lon": 7.9621488,
+   "kategorie": "gastro",
+   "name": "Café Chelini"
+  },
+  {
+   "osmId": 985060420,
+   "lat": 49.2000379,
+   "lon": 7.9678148,
+   "kategorie": "gastro",
+   "name": "Umoya Restaurant"
+  },
+  {
+   "osmId": 985478309,
+   "lat": 49.2028337,
+   "lon": 7.9652925,
+   "kategorie": "gastro",
+   "name": "Café und Konditorei Escher"
+  },
+  {
+   "osmId": 1064220121,
+   "lat": 49.2040355,
+   "lon": 7.9619788,
+   "kategorie": "gastro",
+   "name": "China-Thai-Imbiss-Wok"
+  },
+  {
+   "osmId": 1064241608,
+   "lat": 49.2029544,
+   "lon": 7.9655369,
+   "kategorie": "gastro",
+   "name": "Eiscafé Chelini"
+  },
+  {
+   "osmId": 1842489058,
+   "lat": 49.2033174,
+   "lon": 7.9613814,
+   "kategorie": "gastro",
+   "name": "Zum goldenen Löwen"
+  },
+  {
+   "osmId": 2210130800,
+   "lat": 49.2046201,
+   "lon": 7.9645914,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 2210130802,
+   "lat": 49.2046684,
+   "lon": 7.9645821,
+   "kategorie": "shelter",
+   "name": null
+  },
+  {
+   "osmId": 3201180652,
+   "lat": 49.1966191,
+   "lon": 7.9780974,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 4013163756,
+   "lat": 49.1984158,
+   "lon": 7.9821037,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 4013167791,
+   "lat": 49.2009755,
+   "lon": 7.9735346,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4013167793,
+   "lat": 49.2012547,
+   "lon": 7.9734298,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 4013167796,
+   "lat": 49.2014457,
+   "lon": 7.97309,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 4783113671,
+   "lat": 49.2005985,
+   "lon": 7.9676335,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286046,
+   "lat": 49.2040208,
+   "lon": 7.9643543,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286047,
+   "lat": 49.2039989,
+   "lon": 7.9643194,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286072,
+   "lat": 49.2031674,
+   "lon": 7.9662895,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286073,
+   "lat": 49.2031569,
+   "lon": 7.9662386,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286074,
+   "lat": 49.2031472,
+   "lon": 7.9661876,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5088286075,
+   "lat": 49.203135,
+   "lon": 7.966134,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5091421109,
+   "lat": 49.2026532,
+   "lon": 7.9626276,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 5091421112,
+   "lat": 49.2026723,
+   "lon": 7.9626471,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5091421114,
+   "lat": 49.2026653,
+   "lon": 7.9626887,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5091421117,
+   "lat": 49.2028134,
+   "lon": 7.9614374,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5091421118,
+   "lat": 49.2028274,
+   "lon": 7.9613757,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262958,
+   "lat": 49.2038425,
+   "lon": 7.9645273,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262959,
+   "lat": 49.2038566,
+   "lon": 7.9645447,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262960,
+   "lat": 49.203889,
+   "lon": 7.964532,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262963,
+   "lat": 49.2037571,
+   "lon": 7.9642624,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262964,
+   "lat": 49.2037685,
+   "lon": 7.9643268,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5099262976,
+   "lat": 49.2039231,
+   "lon": 7.9603062,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 5317274799,
+   "lat": 49.202037,
+   "lon": 7.9658724,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 5876829792,
+   "lat": 49.2045793,
+   "lon": 7.9645484,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 6570909677,
+   "lat": 49.2038854,
+   "lon": 7.9646832,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 7578836243,
+   "lat": 49.2010917,
+   "lon": 7.9668673,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 7578836244,
+   "lat": 49.2011159,
+   "lon": 7.966926,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8188563669,
+   "lat": 49.2046526,
+   "lon": 7.960445,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 8838205656,
+   "lat": 49.1996555,
+   "lon": 7.9812036,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 10671922154,
+   "lat": 49.195705,
+   "lon": 7.9784431,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10734820115,
+   "lat": 49.1964077,
+   "lon": 7.9782931,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10734820134,
+   "lat": 49.1969414,
+   "lon": 7.9786506,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10736184861,
+   "lat": 49.1946299,
+   "lon": 7.9797276,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 10795324736,
+   "lat": 49.1968845,
+   "lon": 7.9787688,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10795391834,
+   "lat": 49.1968281,
+   "lon": 7.977493,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10814250464,
+   "lat": 49.1967224,
+   "lon": 7.9788076,
+   "kategorie": "viewpoint",
+   "name": null
+  },
+  {
+   "osmId": 10814940484,
+   "lat": 49.1992908,
+   "lon": 7.9686079,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 10944354375,
+   "lat": 49.1947477,
+   "lon": 7.9799172,
+   "kategorie": "picnic",
+   "name": null
+  },
+  {
+   "osmId": 11001429712,
+   "lat": 49.2039117,
+   "lon": 7.9641712,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11018481045,
+   "lat": 49.2033564,
+   "lon": 7.9617903,
+   "kategorie": "gastro",
+   "name": "Gäßbock"
+  },
+  {
+   "osmId": 11035490543,
+   "lat": 49.1953179,
+   "lon": 7.9786039,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 11035534845,
+   "lat": 49.1966388,
+   "lon": 7.978091,
+   "kategorie": "wc",
+   "name": null
+  },
+  {
+   "osmId": 13882630950,
+   "lat": 49.2029886,
+   "lon": 7.9622287,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13882630951,
+   "lat": 49.2030263,
+   "lon": 7.962224,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 13882630952,
+   "lat": 49.2030517,
+   "lon": 7.9622246,
+   "kategorie": "bench",
+   "name": null
+  },
+  {
+   "osmId": 14078784814,
+   "lat": 49.2031481,
+   "lon": 7.96045,
+   "kategorie": "gastro",
+   "name": "Storchentor"
+  },
+  {
+   "osmId": 25974186,
+   "lat": 49.1944497,
+   "lon": 7.9801097,
+   "kategorie": "parking",
+   "name": "Schlossäcker"
+  },
+  {
+   "osmId": 28042168,
+   "lat": 49.204384,
+   "lon": 7.96014,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 91598555,
+   "lat": 49.2040422,
+   "lon": 7.9633697,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 91598564,
+   "lat": 49.2032682,
+   "lon": 7.9639684,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 91598565,
+   "lat": 49.2031755,
+   "lon": 7.9647368,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 98053981,
+   "lat": 49.2026377,
+   "lon": 7.9610841,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 98053982,
+   "lat": 49.2027622,
+   "lon": 7.9619025,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 98053985,
+   "lat": 49.2026619,
+   "lon": 7.9612539,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 103596719,
+   "lat": 49.2016142,
+   "lon": 7.9720432,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 173518499,
+   "lat": 49.2041167,
+   "lon": 7.9642992,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 766186509,
+   "lat": 49.2033091,
+   "lon": 7.9646351,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1066494390,
+   "lat": 49.2028734,
+   "lon": 7.9635641,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1066495330,
+   "lat": 49.2033571,
+   "lon": 7.9634112,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1160692243,
+   "lat": 49.1949033,
+   "lon": 7.9797304,
+   "kategorie": "playground",
+   "name": null
+  },
+  {
+   "osmId": 1162854883,
+   "lat": 49.1998571,
+   "lon": 7.9683411,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1163386293,
+   "lat": 49.2013229,
+   "lon": 7.9662025,
+   "kategorie": "parking",
+   "name": null
+  },
+  {
+   "osmId": 1305613820,
+   "lat": 49.203376,
+   "lon": 7.9615804,
+   "kategorie": "parking",
+   "name": "Prangertshof"
+  }
+ ],
+ "eintritt": false,
+ "oeffnungszeiten": "Weg jederzeit begehbar. Burg Trifels nach eigenen Öffnungszeiten.",
+ "besuchshinweise": "Der Weg hat einen hohen Pfadanteil und ist für Kinderwagen ungeeignet. Burg Trifels kostet Eintritt, Hunde dürfen nicht hinein. Die SÜW-App vorab laden, sie läuft im Wald offline. Rückweg mit Bus 527 ab Schlossäcker zum Bahnhof.",
+ "hoertext": "Am Meßplatz in Annweiler beginnt der Weg im Plätschern eines Bachlaufs, und zuerst gehört ihm die Stadt: Fachwerk, ein Mühlrad, schmale Gassen. Bald bleiben die Häuser zurück. Der Wald nimmt den Weg auf und hebt ihn Schritt um Schritt höher, vorbei an Tafeln über Handwerker, Ritter und Mönche, bis nach gut drei Kilometern die Burg über den Bäumen auftaucht. Dort lagen einst die Reichskleinodien, und ein englischer König saß gefangen. Wer unterwegs genug Quizfragen richtig beantwortet, bekommt kurz vor der Burg Richard Löwenherz als Foto. Besser, die SÜW-App schon in der Stadt zu laden, denn im Wald läuft sie offline.",
+ "bilderAsset": "assets/images/trails/trifelserlebnisweg-annweiler/credits.json"
+}

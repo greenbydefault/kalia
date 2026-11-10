@@ -349,6 +349,44 @@
   "stendenitz": [],
   "stubbenkammer-koenigsstuhl": [],
   "treetopwalk-edersee": [],
+  "trifelserlebnisweg-annweiler": [
+    {
+      "poi": "cafe-escher-annweiler",
+      "sek": 52
+    },
+    {
+      "poi": "museum-unterm-trifels-annweiler",
+      "sek": 58
+    },
+    {
+      "poi": "cafe-chelini-annweiler",
+      "sek": 59
+    },
+    {
+      "poi": "baden-trifelsbad-annweiler",
+      "sek": 147
+    },
+    {
+      "poi": "hofladen-gut-hohenberg-annweiler",
+      "sek": 151
+    },
+    {
+      "poi": "camping-naturfreunde-annweiler",
+      "sek": 201
+    },
+    {
+      "poi": "restaurant-barbarossa-trifels",
+      "sek": 448
+    },
+    {
+      "poi": "museum-reichsburg-trifels",
+      "sek": 652
+    },
+    {
+      "poi": "aktivitaet-wildpark-silz",
+      "sek": 792
+    }
+  ],
   "untereider": [],
   "von-moor-zu-moor": [],
   "wahrberge": [],

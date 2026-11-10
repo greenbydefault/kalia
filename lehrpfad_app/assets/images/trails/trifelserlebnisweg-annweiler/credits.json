@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-burg-ueber-wald.jpg",
+    "caption": "Reichsburg Trifels über dem Wald oberhalb von Annweiler.",
+    "credit": "Klappstulle1884",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABurg_Trifels_von_unten.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-burg-aufstieg.jpg",
+    "caption": "Reichsburg Trifels auf ihrem Felssporn, gesehen beim Aufstieg.",
+    "credit": "Fooltime 69",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReichsburg_Trifels_Blick_beim_Aufstieg.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-eingangstreppe.jpg",
+    "caption": "Eingangstreppe der Reichsburg Trifels, in den Sandsteinfels gehauen.",
+    "credit": "Derzno",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015_Burg_Trifels_03.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "04-storchentor.jpg",
+    "caption": "Storchentor in der Altstadt von Annweiler am Trifels.",
+    "credit": "Gerd Eichmann",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnweiler-118-Storchentor-2019-gje.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "05-ausblick-pfaelzerwald.jpg",
+    "caption": "Blick von der Reichsburg Trifels über den Pfälzerwald, links die Burg Anebos.",
+    "credit": "Fooltime 69",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReichsburg_Trifels_Ausblick.jpg",
+    "kind": "ort"
+  }
+]
