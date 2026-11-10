@@ -1308,5 +1308,17 @@
  "oeffnungszeiten": "Weg jederzeit begehbar. Burg Trifels nach eigenen Öffnungszeiten.",
  "besuchshinweise": "Der Weg hat einen hohen Pfadanteil und ist für Kinderwagen ungeeignet. Burg Trifels kostet Eintritt, Hunde dürfen nicht hinein. Die SÜW-App vorab laden, sie läuft im Wald offline. Rückweg mit Bus 527 ab Schlossäcker zum Bahnhof.",
  "hoertext": "Am Meßplatz in Annweiler beginnt der Weg im Plätschern eines Bachlaufs, und zuerst gehört ihm die Stadt: Fachwerk, ein Mühlrad, schmale Gassen. Bald bleiben die Häuser zurück. Der Wald nimmt den Weg auf und hebt ihn Schritt um Schritt höher, vorbei an Tafeln über Handwerker, Ritter und Mönche, bis nach gut drei Kilometern die Burg über den Bäumen auftaucht. Dort lagen einst die Reichskleinodien, und ein englischer König saß gefangen. Wer unterwegs genug Quizfragen richtig beantwortet, bekommt kurz vor der Burg Richard Löwenherz als Foto. Besser, die SÜW-App schon in der Stadt zu laden, denn im Wald läuft sie offline.",
- "bilderAsset": "assets/images/trails/trifelserlebnisweg-annweiler/credits.json"
+ "bilder": [
+  {
+   "file": "654fcdf8-9425-5e00-8b72-aa7a2c40b3df",
+   "id": "654fcdf8-9425-5e00-8b72-aa7a2c40b3df",
+   "caption": "Reichsburg Trifels über dem Wald oberhalb von Annweiler.",
+   "credit": "Klappstulle1884",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABurg_Trifels_von_unten.jpg",
+   "kind": "ort"
+  }
+ ],
+ "dataVersion": 1
 }
