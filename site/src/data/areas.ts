@@ -29,7 +29,7 @@ export const artenPool = {
   reh: 'Reh',
   rotkehlchen: 'Rotkehlchen',
   moorfrosch: 'Moorfrosch',
-  // Arten-Gruppen (Tab "Arten"). Illustration folgt, bis dahin zeigt die Kachel nur den Namen.
+  // Arten-Gruppen (Tab "Arten"). Nur Kranich hat noch keine Illustration, die Kachel zeigt dann nur den Namen.
   kohlmeise: 'Kohlmeise',
   kranich: 'Kranich',
   stieleiche: 'Stieleiche',
