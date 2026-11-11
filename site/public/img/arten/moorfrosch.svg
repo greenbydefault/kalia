@@ -1,8 +1,5 @@
-<svg width="65" height="50" viewBox="0 0 65 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="42" height="34" viewBox="6.939 5.769 41.547 33.534" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_463_13307)">
-<g opacity="0.2" filter="url(#filter0_f_463_13307)">
-<path d="M32.5001 39.9039C44.692 39.9039 54.5754 35.3299 54.5754 29.6875C54.5754 24.0452 44.692 19.4712 32.5001 19.4712C20.3083 19.4712 10.4248 24.0452 10.4248 29.6875C10.4248 35.3299 20.3083 39.9039 32.5001 39.9039Z" fill="#1E2A26"/>
-</g>
 <path d="M15.9136 18.2691L28.8943 18.83L16.3142 17.4678L15.9136 18.2691Z" fill="#6D8EAE" stroke-width="0.480769" stroke-linejoin="round" stroke="#6D8EAE"/>
 <path d="M15.9136 18.269L28.3735 19.9117L28.8943 18.8299L15.9136 18.269Z" fill="#6D8EAE" stroke-width="0.480769" stroke-linejoin="round" stroke="#6D8EAE"/>
 <path d="M27.9727 19.7115L35.4646 18.79L28.3332 18.8702L27.9727 19.7115Z" fill="#6D8EAE" stroke-width="0.480769" stroke-linejoin="round" stroke="#6D8EAE"/>
@@ -292,11 +289,6 @@
 <path opacity="0.85" d="M36.9471 15.8653C37.2126 15.8653 37.4278 15.6501 37.4278 15.3846C37.4278 15.1191 37.2126 14.9038 36.9471 14.9038C36.6816 14.9038 36.4663 15.1191 36.4663 15.3846C36.4663 15.6501 36.6816 15.8653 36.9471 15.8653Z" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_f_463_13307" x="-2.39571" y="6.65068" width="69.7919" height="46.0736" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="6.41026" result="effect1_foregroundBlur_463_13307"/>
-</filter>
 <clipPath id="clip0_463_13307">
 <rect width="65" height="50" fill="white"/>
 </clipPath>

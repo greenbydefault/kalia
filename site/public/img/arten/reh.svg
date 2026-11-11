@@ -1,7 +1,4 @@
-<svg width="190" height="207" viewBox="0 0 190 207" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.2" filter="url(#filter0_f_463_12750)">
-<path d="M94.9999 187.328C135.875 187.328 169.011 172.022 169.011 153.141C169.011 134.26 135.875 118.954 94.9999 118.954C54.1246 118.954 20.9885 134.26 20.9885 153.141C20.9885 172.022 54.1246 187.328 94.9999 187.328Z" fill="#1E2A26"/>
-</g>
+<svg width="140" height="158" viewBox="9.633 5.758 139.866 157.539" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M28.3057 129.91L32.3041 134.788L30.2649 134.388L28.3057 129.91Z" fill="#392D26" stroke-width="0.479815" stroke-linejoin="round" stroke="#392D26"/>
 <path d="M30.8247 130.39L34.5033 133.588L32.3041 134.788L30.8247 130.39Z" fill="#332821" stroke-width="0.479815" stroke-linejoin="round" stroke="#332821"/>
 <path d="M28.3057 129.91L30.8247 130.389L32.3041 134.788L28.3057 129.91Z" fill="#392D25" stroke-width="0.479815" stroke-linejoin="round" stroke="#392D25"/>
@@ -424,11 +421,4 @@
 <path d="M121.27 12.1152L122.03 12.2352L121.23 12.635L121.27 12.1152Z" fill="#887255" stroke-width="0.479815" stroke-linejoin="round" stroke="#887255"/>
 <path d="M130.786 44.0631C131.846 44.0631 132.705 43.2038 132.705 42.1439C132.705 41.0839 131.846 40.2246 130.786 40.2246C129.726 40.2246 128.867 41.0839 128.867 42.1439C128.867 43.2038 129.726 44.0631 130.786 44.0631Z" fill="#1F2224"/>
 <path opacity="0.85" d="M130.107 42.0638C130.438 42.0638 130.706 41.7953 130.706 41.464C130.706 41.1328 130.438 40.8643 130.107 40.8643C129.775 40.8643 129.507 41.1328 129.507 41.464C129.507 41.7953 129.775 42.0638 130.107 42.0638Z" fill="white"/>
-<defs>
-<filter id="filter0_f_463_12750" x="8.19347" y="106.159" width="173.613" height="93.9636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="6.39753" result="effect1_foregroundBlur_463_12750"/>
-</filter>
-</defs>
 </svg>
