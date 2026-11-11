@@ -1,0 +1,51 @@
+/* ── Wer dahintersteckt ──────────────────────────────────────────
+   Markup: components/Ueber.astro. Karte wie .ausflug__panel: Text links, Illustration rechts. */
+
+.ueber {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  padding: var(--space-3);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+}
+
+@media (min-width: 45rem) {
+  .ueber {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-7);
+    padding: var(--space-6);
+  }
+}
+
+.ueber__body {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.ueber__title {
+  /* TODO(token): lange Aussage in halber Spalte, eine Stufe unter --text-h2 */
+  font-size: clamp(1.625rem, 1.2rem + 1.4vw, 2.375rem);
+}
+
+.ueber__text {
+  max-width: 32rem;
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.ueber__sign {
+  margin-top: var(--space-3);
+}
+
+.ueber__sign img {
+  width: 7.875rem; /* 126 px, natürliche Größe */
+  height: auto;
+}
+
+.ueber__media img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  margin-inline: auto;
+}
