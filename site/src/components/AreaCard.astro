@@ -17,6 +17,8 @@ const { area: a } = Astro.props;
 const plus = 'M11.9922 4V12M11.9922 12V20M11.9922 12H19.9922M11.9922 12H3.99219';
 const has = (path?: string) => !!path && existsSync(join(process.cwd(), 'public', path));
 const sceneSrc = `/img/cards/${a.id}/szene.svg`;
+// /img/ wird 24 h gecacht, Version hochzählen, wenn eine Szene getauscht wird
+const SCENE_V = '2';
 const miniKeys = [
   { key: 'grey', mod: 'grey' },
   { key: 'blue', mod: 'blue' },
@@ -61,7 +63,7 @@ const miniKeys = [
           <div class="area-flip__face area-back" data-back aria-hidden="true" inert>
             <div class="area-back__scene">
               {has(sceneSrc) ? (
-                <img class="area-back__art" data-scene-art src={sceneSrc} alt="" height="190" loading="lazy" />
+                <img class="area-back__art" data-scene-art src={`${sceneSrc}?v=${SCENE_V}`} alt="" height="190" loading="lazy" />
               ) : (
                 <div class="area-back__art area-back__art--empty" data-scene-art aria-hidden="true" />
               )}
