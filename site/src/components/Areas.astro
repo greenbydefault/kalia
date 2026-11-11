@@ -35,7 +35,7 @@ const panels = [
     {
       panels.map((p, i) => (
         <div role="tabpanel" id={`panel-${p.id}`} aria-labelledby={`tab-${p.id}`} data-panel hidden={i !== 0}>
-          <p class="section__lead entdecken__lead" data-lead>{p.lead}</p>
+          <p class="section__lead text-lead entdecken__lead" data-lead>{p.lead}</p>
           <div class="areas-slider" data-areas-slider>
             <div
               class="areas-slider__viewport"

@@ -111,7 +111,7 @@
   background: #313930;
   color: #fbfffb;
   font-size: var(--text-sm);
-  font-weight: 700;
+  font-weight: var(--weight-bold);
   font-variant-numeric: tabular-nums;
   box-shadow: var(--shadow-chip);
 }
@@ -159,16 +159,13 @@
 
 /* ── Popover ─────────────────────────────────────────────── */
 
+/* Kopf: Foto oben im Ausschnitt (Rand = Karten-Innenabstand), darunter Typ, Titel, Ort.
+   Gleicher Rand und Abstand wie Arten-/Gebiets-Karten (species-card.css). */
 .live-pop {
   --pop-w: 18.5rem;
+  --card-pad: var(--space-4);
   /* Feste Spalte: ein langes Wort im Titel darf die Karte nicht über den Innenabstand hinaus aufweiten */
   grid-template-columns: minmax(0, 1fr);
-}
-
-/* Kopf: Foto oben im Ausschnitt (Rand = Karten-Innenabstand), darunter Typ, Titel, Ort. */
-/* Gleicher Rand und Abstand wie Arten-/Gebiets-Karten (species-card.css) */
-.live-pop {
-  --card-pad: var(--space-4);
   gap: var(--space-3);
   padding: var(--card-pad);
 }
@@ -242,9 +239,6 @@
 
 .live-pop .pop__title {
   margin: 0.125rem 0;
-}
-
-.live-pop .pop__title {
   font-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
   line-height: 1.2;
   overflow-wrap: anywhere;
@@ -379,7 +373,7 @@
 
 .live-search__label {
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
 }
 
 .live-search__sub {

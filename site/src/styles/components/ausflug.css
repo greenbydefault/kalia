@@ -118,14 +118,8 @@
   margin-block: auto;
 }
 
-.ausflug__title {
-  /* TODO(token): Panel-Titel, zwischen --text-h3 (max. 28 px) und --text-h2 (max. 56 px) */
-  font-size: clamp(1.625rem, 1.2rem + 1.4vw, 2.375rem);
-}
-
 .ausflug__text {
-  max-width: 32rem;
-  font-size: var(--text-sm);
+  max-width: 26em;
   color: var(--color-ink-muted);
 }
 
@@ -153,9 +147,8 @@
 }
 
 .ausflug__fact-value {
-  margin: 0;
   font-size: var(--text-xs);
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
   line-height: 1.25;
   hyphens: auto;
   overflow-wrap: break-word;
@@ -169,7 +162,7 @@
 
 .ausflug__filter-label {
   font-size: var(--text-xs);
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
   line-height: 1.3;
 }
 
@@ -177,9 +170,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 /* ── Aktionszeile ─────────────────────────────────────────────── */

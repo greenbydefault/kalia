@@ -72,7 +72,7 @@ export type Fakten = Record<(typeof faktenSlots)[number]['key'], string>;
 /**
  * Rückseite einer Gebiets-Card. Nur Karten mit `back` flippen.
  * Szene liegt per Konvention unter /img/cards/{id}/szene.svg, Titel = Kartentitel, Label ist fest.
- * `text`: höchstens drei Zeilen in der schmalsten Karte (Vier-Spalten-Raster ab 70rem, 214 px Text),
+ * `text`: höchstens drei Zeilen in der schmalsten Karte (Vier-Spalten-Raster ab 75rem, 214 px Text),
  * gemessen rund 85 Zeichen. Längere Texte brechen den Build ab.
  */
 export const BACK_TEXT_MAX = 85;

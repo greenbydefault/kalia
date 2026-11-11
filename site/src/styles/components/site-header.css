@@ -12,15 +12,15 @@
 }
 
 .site-header__brand {
-  font-size: var(--text-lg);
-  font-weight: 700;
+  font-size: var(--text-lead);
+  font-weight: var(--weight-bold);
   letter-spacing: var(--tracking-display);
   text-decoration: none;
 }
 
 .site-header__cta {
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
   text-decoration: none;
   padding: var(--space-2) var(--space-4);
   border-radius: var(--radius-pill);

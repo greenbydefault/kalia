@@ -3,8 +3,6 @@
    Die Tabs erben die Headline-Typo und wirken wie ein Wort im Satz. */
 
 .entdecken__head {
-  /* TODO(token): Kopfbreite für zentrierten Headline-Text, bisher nur --container-narrow (46rem) */
-  max-width: 54rem;
   margin-bottom: var(--space-3);
 }
 
@@ -22,7 +20,6 @@
 }
 
 .entdecken__lead {
-  max-width: 40rem;
   margin: 0 auto var(--space-7);
   text-align: center;
   text-wrap: balance;

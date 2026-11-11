@@ -41,40 +41,58 @@
   --color-on-player: #fdfff2;
   --color-wave: #455343;
 
-  /* Typografie */
+  /* Fluides System
+     Der Entwurf ist 1920 px breit. --dpx ist ein Entwurfs-Pixel: bei 1920 px Viewport 1 px, bei 1440 px 0.75 px.
+     Fluide Tokens: clamp(Untergrenze, calc(Entwurfswert * var(--dpx)), Entwurfswert in rem).
+     Über 1920 px bleibt alles beim Entwurf, darunter skaliert es proportional bis zur Untergrenze. */
+  --dpx: calc(100vw / 1920);
+
+  /* Typografie. −5,5 % Laufweite = −0.055em. H1–H3: Zeilenhöhe 100 %. */
   --font-sans: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
   --text-xs: 0.8125rem;
   --text-sm: 0.9375rem;
   --text-base: 1.0625rem;
-  --text-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.375rem);
-  --text-h3: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
-  --text-h2: clamp(2rem, 1.3rem + 3vw, 3.5rem);
-  --text-h1: clamp(2.5rem, 1.4rem + 4.8vw, 4.5rem);
+  --text-copy: 1rem; /* 16 px, Fließtext in den Karten, nicht weiter runter */
+  --text-lead: clamp(1.125rem, calc(22 * var(--dpx)), 1.375rem); /* 22 px */
+  --text-h4: clamp(1.25rem, calc(28 * var(--dpx)), 1.75rem); /* 28 px, Medium */
+  --text-h3: clamp(1.75rem, calc(68 * var(--dpx)), 4.25rem); /* 68 px */
+  --text-display: clamp(2.25rem, calc(92 * var(--dpx)), 5.75rem); /* 92 px */
+  --text-h2: var(--text-display);
+  --text-h1: var(--text-display);
+  --leading-display: 1;
   --leading-tight: 1.05;
   --leading-snug: 1.25;
   --leading-body: 1.55;
-  --tracking-display: -0.03em;
+  --tracking-display: -0.055em;
 
-  /* Abstände */
+  /* Abstände. 1–5 sind UI-Maße (Chips, Buttons, Kartenränder) und bleiben fest, 6–9 wachsen mit. */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
   --space-4: 1rem;
   --space-5: 1.5rem;
-  --space-6: 2rem;
-  --space-7: 3rem;
-  --space-8: 4.5rem;
-  --space-9: 7rem;
+  --space-6: clamp(1.5rem, calc(32 * var(--dpx)), 2rem); /* 32 px */
+  --space-7: clamp(2rem, calc(48 * var(--dpx)), 3rem); /* 48 px */
+  --space-8: clamp(3rem, calc(72 * var(--dpx)), 4.5rem); /* 72 px */
+  --space-9: clamp(4rem, calc(112 * var(--dpx)), 7rem); /* 112 px */
   /* Rhythmus der Sektionen: 160 px zwischen Hero, Sektionen und Footer. Zwischen zwei Sektionen je die Hälfte. */
-  --section-gap: 10rem;
+  --section-gap: clamp(5rem, calc(160 * var(--dpx)), 10rem);
   --section-pad: calc(var(--section-gap) / 2);
-  --gutter: clamp(1.25rem, 4vw, 3rem);
+
+  /* Raster. Inhalt bei 1920 px: 1408 px, Rand also 256 px.
+     Bis 1024 px fester kleiner Rand (max. 48 px), darüber wächst er linear auf 256 px bei 1920 px.
+     Rein proportional wäre der Rand auf dem Tablet zu breit. */
   --container-max: 88rem;
   --container-narrow: 46rem;
+  --gutter: max(clamp(1.25rem, 4vw, 3rem), min(calc((120rem - var(--container-max)) / 2), 23.2143vw - 11.8571rem));
   --grid-gap: var(--space-4); /* Spaltenabstand im 4er-Raster (Areas, FAQ) */
 
   /* Form */
-  --radius-card: 1.25rem;
+  --radius-card: clamp(1rem, calc(20 * var(--dpx)), 1.25rem); /* 20 px */
   --radius-input: 0.75rem;
   --radius-pill: 999px;
   --shadow-chip: 0 0.25rem 1rem rgb(27 38 34 / 0.18), 0 0.0625rem 0.25rem rgb(27 38 34 / 0.12);

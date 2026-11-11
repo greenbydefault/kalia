@@ -20,7 +20,7 @@ const panelIds = ausflugTabs.map((t) => `panel-${t.id}`).join(' ');
     <header class="section__head section__head--center ausflug__head">
       <p class="eyebrow">{kopf.badge}</p>
       <h2 class="section__title" id="ausflug-title">{kopf.title}</h2>
-      <p class="section__lead">{kopf.lead}</p>
+      <p class="section__lead text-lead">{kopf.lead}</p>
       <Umschalter
         tabs={ausflugTabs.map(({ id, label, icon }) => ({ id, label, icon }))}
         label="Schritte des Ausflugs"
@@ -51,7 +51,7 @@ const panelIds = ausflugTabs.map((t) => `panel-${t.id}`).join(' ');
                   </Fragment>
                 ))}
               </h3>
-              <p class="ausflug__text">{t.text}</p>
+              <p class="ausflug__text text-lead">{t.text}</p>
 
               <dl class="ausflug__facts">
                 {t.facts.map((f) => (

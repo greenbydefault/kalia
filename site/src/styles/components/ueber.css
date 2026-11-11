@@ -23,14 +23,8 @@
   gap: var(--space-3);
 }
 
-.ueber__title {
-  /* TODO(token): lange Aussage in halber Spalte, eine Stufe unter --text-h2 */
-  font-size: clamp(1.625rem, 1.2rem + 1.4vw, 2.375rem);
-}
-
 .ueber__text {
-  max-width: 32rem;
-  font-size: var(--text-sm);
+  max-width: 26em;
   color: var(--color-ink-muted);
 }
 

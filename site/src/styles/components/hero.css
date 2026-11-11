@@ -12,17 +12,12 @@
   text-align: center;
 }
 
-.hero__title {
-  font-size: var(--text-h1);
-}
-
 .hero__line {
   display: block;
 }
 
 .hero__lead {
-  max-width: 36rem;
-  font-size: var(--text-lg);
+  max-width: 26em; /* 576 px bei 22 px */
   color: var(--color-ink-muted);
 }
 

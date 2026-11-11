@@ -41,8 +41,8 @@ const miniKeys = [
             aria-label={`${a.title}: Details öffnen`}
           >
             <div class="area-card__body">
-              <h3 class="area-card__title">{a.title}</h3>
-              <p class="area-card__text">{a.text}</p>
+              <h3 class="area-card__title text-h4">{a.title}</h3>
+              <p class="area-card__text text-copy">{a.text}</p>
             </div>
             <div class="area-card__media area-card__media--layers" data-minis>
               {miniKeys.map(({ key, mod }) =>
@@ -109,8 +109,8 @@ const miniKeys = [
     <li data-reveal>
       <article class="area-card">
         <div class="area-card__body">
-          <h3 class="area-card__title">{a.title}</h3>
-          <p class="area-card__text">{a.text}</p>
+          <h3 class="area-card__title text-h4">{a.title}</h3>
+          <p class="area-card__text text-copy">{a.text}</p>
         </div>
         {a.layers ? (
           <div class="area-card__media area-card__media--layers">

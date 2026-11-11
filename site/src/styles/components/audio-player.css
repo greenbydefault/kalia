@@ -93,5 +93,5 @@
   font-variant-numeric: tabular-nums;
   color: var(--color-wave);
   text-align: right;
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
 }

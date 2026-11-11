@@ -41,7 +41,7 @@ const rootProps = isPop
   }
   <header class="species-card__head" data-s>
     <p class="species-card__kicker">{card.kicker}</p>
-    <h3 class="species-card__title" id={titleId}>{card.name}</h3>
+    <h3 class="species-card__title text-h4" id={titleId}>{card.name}</h3>
   </header>
   <div class="species-card__art" data-s>
     <img src={card.illustration} alt={card.illustrationAlt} width={card.illustrationWidth} height={card.illustrationHeight} style={`--art-w:${card.illustrationWidth}px`} loading="lazy" decoding="async" />
@@ -49,7 +49,7 @@ const rootProps = isPop
   <ul class="species-card__chips" role="list" data-s>
     {card.chips.map((c) => <li class:list={['chip', c.accent && 'chip--accent']}>{c.label}</li>)}
   </ul>
-  <p class="species-card__text" data-s>{card.text}</p>
+  <p class="species-card__text text-copy" data-s>{card.text}</p>
   <div data-s>
     <AudioPlayer id={card.audio} label={card.name} />
   </div>
