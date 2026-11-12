@@ -41,11 +41,9 @@
   --color-on-player: #fdfff2;
   --color-wave: #455343;
 
-  /* Fluides System
-     Der Entwurf ist 1920 px breit. --dpx ist ein Entwurfs-Pixel: bei 1920 px Viewport 1 px, bei 1440 px 0.75 px.
-     Fluide Tokens: clamp(Untergrenze, calc(Entwurfswert * var(--dpx)), Entwurfswert in rem).
-     Über 1920 px bleibt alles beim Entwurf, darunter skaliert es proportional bis zur Untergrenze. */
-  --dpx: calc(100vw / 1920);
+  /* Alle Maße in rem = Entwurfs-Pixel / 16 (24 px → 1.5rem). Fluide wird es über die Root-Schriftgröße
+     in base.css: Das ganze Layout zoomt wie ein Artboard, die Proportionen bleiben exakt.
+     Desktop-Werte = Entwurf 1920. Tablet und Mobile überschreiben unten nur Headlines und große Abstände. */
 
   /* Typografie. −5,5 % Laufweite = −0.055em. H1–H3: Zeilenhöhe 100 %. */
   --font-sans: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -56,11 +54,11 @@
   --text-xs: 0.8125rem;
   --text-sm: 0.9375rem;
   --text-base: 1.0625rem;
-  --text-copy: 1rem; /* 16 px, Fließtext in den Karten, nicht weiter runter */
-  --text-lead: clamp(1.125rem, calc(22 * var(--dpx)), 1.375rem); /* 22 px */
-  --text-h4: clamp(1.25rem, calc(28 * var(--dpx)), 1.75rem); /* 28 px, Medium */
-  --text-h3: clamp(1.75rem, calc(68 * var(--dpx)), 4.25rem); /* 68 px */
-  --text-display: clamp(2.25rem, calc(92 * var(--dpx)), 5.75rem); /* 92 px */
+  --text-copy: 1rem; /* 16 */
+  --text-lead: 1.375rem; /* 22 */
+  --text-h4: 1.75rem; /* 28, Medium */
+  --text-h3: 3.75rem; /* 60 */
+  --text-display: 4.875rem; /* 78 */
   --text-h2: var(--text-display);
   --text-h1: var(--text-display);
   --leading-display: 1;
@@ -69,30 +67,28 @@
   --leading-body: 1.55;
   --tracking-display: -0.055em;
 
-  /* Abstände. 1–5 sind UI-Maße (Chips, Buttons, Kartenränder) und bleiben fest, 6–9 wachsen mit. */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-5: 1.5rem;
-  --space-6: clamp(1.5rem, calc(32 * var(--dpx)), 2rem); /* 32 px */
-  --space-7: clamp(2rem, calc(48 * var(--dpx)), 3rem); /* 48 px */
-  --space-8: clamp(3rem, calc(72 * var(--dpx)), 4.5rem); /* 72 px */
-  --space-9: clamp(4rem, calc(112 * var(--dpx)), 7rem); /* 112 px */
-  /* Rhythmus der Sektionen: 160 px zwischen Hero, Sektionen und Footer. Zwischen zwei Sektionen je die Hälfte. */
-  --section-gap: clamp(5rem, calc(160 * var(--dpx)), 10rem);
+  /* Abstände */
+  --space-1: 0.25rem; /* 4 */
+  --space-2: 0.5rem; /* 8 */
+  --space-3: 0.75rem; /* 12 */
+  --space-4: 1rem; /* 16 */
+  --space-5: 1.5rem; /* 24 */
+  --space-6: 2rem; /* 32 */
+  --space-7: 3rem; /* 48 */
+  --space-8: 4.5rem; /* 72 */
+  --space-9: 7rem; /* 112 */
+  /* Rhythmus der Sektionen: 160 zwischen Hero, Sektionen und Footer. Zwischen zwei Sektionen je die Hälfte. */
+  --section-gap: 10rem;
   --section-pad: calc(var(--section-gap) / 2);
 
-  /* Raster. Inhalt bei 1920 px: 1408 px, Rand also 256 px.
-     Bis 1024 px fester kleiner Rand (max. 48 px), darüber wächst er linear auf 256 px bei 1920 px.
-     Rein proportional wäre der Rand auf dem Tablet zu breit. */
+  /* Raster. Inhalt 1408 bei 1920, der Rand ergibt sich daraus und zoomt mit. */
   --container-max: 88rem;
   --container-narrow: 46rem;
-  --gutter: max(clamp(1.25rem, 4vw, 3rem), min(calc((120rem - var(--container-max)) / 2), 23.2143vw - 11.8571rem));
+  --gutter: clamp(1.25rem, 4vw, 3rem); /* Mindestrand, wenn der Container nicht schon schmaler ist */
   --grid-gap: var(--space-4); /* Spaltenabstand im 4er-Raster (Areas, FAQ) */
 
   /* Form */
-  --radius-card: clamp(1rem, calc(20 * var(--dpx)), 1.25rem); /* 20 px */
+  --radius-card: 1.25rem; /* 20 */
   --radius-input: 0.75rem;
   --radius-pill: 999px;
   --shadow-chip: 0 0.25rem 1rem rgb(27 38 34 / 0.18), 0 0.0625rem 0.25rem rgb(27 38 34 / 0.12);
@@ -110,4 +106,51 @@
   --layer-point-active: 8;
   --layer-pop: 10;
   --layer-header: 20;
+}
+
+/* ── Fluide Root ──────────────────────────────────────────────────
+   1rem wächst linear mit der Breite, jede Stufe zoomt ihr Artboard. Gerechnet bei 16 px Browser-Standard,
+   die rem in den Formeln folgen einer geänderten Browser-Schriftgröße. Media Queries in rem rechnen
+   immer mit dem Browser-Standard, nicht mit dieser Root.
+   Desktop (ab 1200): 13 px bei 1200, 14 bei 1440, 16 bei 1920 (Entwurf), darüber fest.
+   Tablet und Mobile (bis 1199): 16 px bei 390, 17 bei 1199. */
+:root {
+  font-size: calc(0.9699rem + 0.1236vw);
+}
+
+@media (min-width: 75rem) {
+  :root {
+    font-size: min(1rem, calc(0.5rem + 0.41667vw));
+  }
+}
+
+/* Tablet (768–1199): Headlines und große Abstände eine Stufe kleiner */
+@media (max-width: 74.99rem) {
+  :root {
+    --text-lead: 1.25rem; /* 20 */
+    --text-h4: 1.5rem; /* 24 */
+    --text-h3: 3rem; /* 48 */
+    --text-display: 4rem; /* 64 */
+    --space-6: 1.75rem; /* 28 */
+    --space-7: 2.5rem; /* 40 */
+    --space-8: 3.5rem; /* 56 */
+    --space-9: 5rem; /* 80 */
+    --section-gap: 7.5rem; /* 120 */
+  }
+}
+
+/* Mobile (bis 767): Artboard 390 */
+@media (max-width: 47.99rem) {
+  :root {
+    --text-lead: 1.125rem; /* 18 */
+    --text-h4: 1.375rem; /* 22 */
+    --text-h3: 2rem; /* 32 */
+    --text-display: 2.5rem; /* 40 */
+    --space-6: 1.5rem; /* 24 */
+    --space-7: 2rem; /* 32 */
+    --space-8: 3rem; /* 48 */
+    --space-9: 4rem; /* 64 */
+    --section-gap: 5rem; /* 80 */
+    --radius-card: 1rem; /* 16 */
+  }
 }

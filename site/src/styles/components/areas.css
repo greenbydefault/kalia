@@ -49,7 +49,7 @@
   }
 }
 
-/* Gleiche Kartenbreite wie das 4-Spalten-Raster (.faq-layout). Ab 75rem sind die Karten mindestens ~245 px breit. */
+/* Gleiche Kartenbreite wie das 4-Spalten-Raster (.faq-layout). Gleiche Schwelle wie die Desktop-Root (tokens.css). */
 @media (min-width: 75rem) {
   .areas-slider__viewport {
     --slide-w: calc((100cqw - 3 * var(--grid-gap)) / 4);
@@ -404,8 +404,9 @@
 
 /* Gleiche Zeilen auf jeder Karte, auch wenn der Inhalt unterschiedlich lang ist.
    Schmale Karten (Vier-Spalten-Raster um 75rem) brechen Labels, Werte und Artnamen häufiger um,
-   dort wird mehr reserviert. Werte gemessen bei 246 px Kartenbreite. */
-@container (max-width: 300px) {
+   dort wird mehr reserviert. Werte gemessen bei 246 px Kartenbreite (16 px Root).
+   In rem, damit die Schwelle mit der fluiden Root zoomt wie der Karteninhalt. */
+@container (max-width: 18.75rem) {
   .area-back__fact-label {
     min-height: 2.4em;
   }
