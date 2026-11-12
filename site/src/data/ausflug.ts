@@ -39,7 +39,8 @@ export interface AusflugTab {
 export const kopf = {
   /** TODO(text): Badge aus dem Entwurf, Wortlaut offen. */
   badge: 'Gebiete',
-  title: 'So einfach wird euer nächster Ausflug',
+  /** Zeilen der Sektionsüberschrift, Umbruch wie im Entwurf. */
+  title: ['So einfach', 'wird euer nächster Ausflug'],
   lead: 'Kalia hilft euch, den passenden Pfad zu finden, entspannt hinzukommen und unterwegs mehr zu entdecken. Gemacht für Familien mit Kindern.',
 };
 

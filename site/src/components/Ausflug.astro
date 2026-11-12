@@ -19,7 +19,14 @@ const panelIds = ausflugTabs.map((t) => `panel-${t.id}`).join(' ');
   <div class="container">
     <header class="section__head section__head--center ausflug__head">
       <p class="eyebrow">{kopf.badge}</p>
-      <h2 class="section__title" id="ausflug-title">{kopf.title}</h2>
+      <h2 class="section__title" id="ausflug-title">
+        {kopf.title.map((line, n) => (
+          <Fragment>
+            {n > 0 && <br />}
+            {line}
+          </Fragment>
+        ))}
+      </h2>
       <p class="section__lead text-lead">{kopf.lead}</p>
       <Umschalter
         tabs={ausflugTabs.map(({ id, label, icon }) => ({ id, label, icon }))}
