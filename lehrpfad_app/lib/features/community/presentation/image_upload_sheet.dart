@@ -7,7 +7,9 @@ import 'package:image_picker/image_picker.dart';
 
 import '../../../app/theme/app_typography.dart';
 import '../../../shared/images/exif_gps.dart';
+import '../../auth/data/auth_providers.dart';
 import '../../auth/presentation/account_prompt_sheet.dart';
+import '../../auth/presentation/display_name_sheet.dart';
 import '../../../shared/widgets/show_app_modal_sheet.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/station.dart';
@@ -73,8 +75,8 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     super.initState();
     _trail = widget.trail;
     _station = widget.initialStation;
-    final profile = ref.read(currentProfileProvider).value;
-    _creditController = TextEditingController(text: profile?.displayName ?? '');
+    _creditController = TextEditingController();
+    _prefillCredit();
     // Das Sheet deckt die Shell-Snackbar ab; das Ergebnis erscheint
     // deshalb zusaetzlich inline, solange das Sheet offen ist.
     _resultSub = ref
@@ -90,6 +92,15 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     super.dispose();
   }
 
+  /// Direkt nach der Anmeldung ist das Profil oft noch nicht geladen.
+  Future<void> _prefillCredit() async {
+    final profile = await ref.read(currentProfileProvider.future);
+    final email = ref.read(authStateProvider).value?.email;
+    final name = profile?.displayName ?? '';
+    if (!mounted || isDisplayNameUnset(name, email)) return;
+    if (_creditController.text.isEmpty) _creditController.text = name;
+  }
+
   bool get _canPick => _rightsConfirmed && _trail != null && !_picking;
 
   /// Erst Picker, dann Job. Abbruch im Picker laesst das Sheet stehen.
@@ -100,6 +111,7 @@ class _ImageUploadSheetState extends ConsumerState<ImageUploadSheet> {
     final jobs = ref.read(uploadJobsProvider.notifier);
     final stationId = _station?.id;
     final credit = _creditController.text.trim();
+    unawaited(adoptDisplayNameIfUnset(ref, credit).catchError((_) {}));
     setState(() {
       _picking = true;
       _error = null;

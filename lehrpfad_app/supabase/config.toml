@@ -1,0 +1,30 @@
+# Nur Auth-Mails und Code-Login. `supabase config push` schreibt nur, was hier
+# steht; kein `supabase init`, dessen Defaults würden Remote-Werte überschreiben.
+# Push: supabase config diff/push --remote=icdghtzgevgclsgxzwhj (aus lehrpfad_app/)
+project_id = "kalia"
+
+[auth]
+site_url = "https://kalia-six.vercel.app"
+
+[auth.email]
+otp_length = 6
+otp_expiry = 3600
+
+# Resend. Templates gehen im Free-Tier nur mit eigenem SMTP durch.
+# Vor dem Push: export SMTP_PASS=<Resend-API-Key> SMTP_ADMIN_EMAIL=<noreply@verifizierte-domain>
+[auth.email.smtp]
+enabled = true
+host = "smtp.resend.com"
+port = 465
+user = "resend"
+pass = "env(SMTP_PASS)"
+admin_email = "env(SMTP_ADMIN_EMAIL)"
+sender_name = "Kalia"
+
+[auth.email.template.confirmation]
+subject = "{{ .Token }} ist euer Kalia-Code"
+content_path = "./supabase/email/code.html"
+
+[auth.email.template.magic_link]
+subject = "{{ .Token }} ist euer Kalia-Code"
+content_path = "./supabase/email/code.html"

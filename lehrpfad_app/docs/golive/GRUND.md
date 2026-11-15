@@ -12,9 +12,9 @@ Quelle der ersten 14: Familien-Feature-Liste + Code-Stand Aug 2026.
 
 - [ ] `legal` — Impressum, Datenschutz und Kontakt in der App, Privacy-URL fürs Store-Listing. Done wenn: alle drei Texte vom Konto-Tab erreichbar sind und die Listing-URL dieselbe Datenschutzerklärung öffnet.
 - [ ] `konto-loeschen` — Account in der App löschen (Auth + Profil + Uploads). Done wenn: eingeloggter Nutzer sich selbst löschen kann und danach Login + Community-Daten weg sind.
-- [ ] `passwort-reset` — Reset-Link im Login. Done wenn: „Passwort vergessen“ eine Reset-Mail über Supabase Auth auslöst und der neue Login funktioniert.
-- [ ] `auth-mails` — Supabase-Auth-Templates deutsch, Absender Kalia, kein „Supabase“ im Body. Done wenn: Signup-Confirm (Link oder Code), Reset-Mail und E-Mail-Änderung getestet rausgehen; ungenutzte Templates (Magic Link, Invite) aus oder deaktiviert.
-- [x] `sso-stubs` — Google/Apple-Buttons entfernen, nicht implementieren. Done wenn: die Buttons weg sind und E-Mail/Passwort der einzige Login-Weg ist. (Onboarding-Umbau: Konto ist nur noch just-in-time im Kontext.)
+- [x] `passwort-reset` — entfällt: Login ist passwortlos (E-Mail + 6-stelliger Code), es gibt kein Passwort zum Zurücksetzen.
+- [ ] `auth-mails` — Code-Mail deutsch, Absender Kalia, kein „Supabase“ im Body. Vorlage [`supabase/email/code.html`](../../supabase/email/code.html), Push über [`supabase/config.toml`](../../supabase/config.toml) (`supabase config push --remote=icdghtzgevgclsgxzwhj`). Braucht eigenes SMTP, Free-Tier lehnt Templates mit Default-Provider ab. Done wenn: SMTP steht, Confirm signup (neue Konten) und Magic Link (bestehende) zeigen den Code und kommen getestet an; Invite und E-Mail-Änderung aus oder deutsch.
+- [x] `sso-stubs` — Google/Apple-Buttons entfernen, nicht implementieren. Done wenn: die Buttons weg sind und E-Mail der einzige Login-Weg ist. (Onboarding-Umbau: Konto ist nur noch just-in-time im Kontext.)
 - [ ] `store-identitaet` — Display-Name, Icons, Screenshots, Age Rating. Done wenn: Store-Listing und Homescreen denselben finalen Namen/Icon zeigen, Screenshots und Age Rating stehen.
 - [ ] `launch-region` — Katalog auf die Launch-Region schneiden oder Leerzustand ehrlich machen. Done wenn: außerhalb der Region kein leerer Pin-Friedhof entsteht und der Text die tatsächliche Abdeckung sagt.
 - [ ] `admin-account` — Test-Admin weg, Staff manuell + MFA. Done wenn: kein Mail-Trigger mehr auf Admin; Testdaten raus aus Git; ein Staff-User mit MFA; `admin@lehrpfad.app` gelöscht; RLS unverändert hart.

@@ -23,4 +23,12 @@ class SupabaseProfilesRepository implements ProfilesRepository {
       role: row['role'] as String? ?? 'user',
     );
   }
+
+  @override
+  Future<void> updateDisplayName(String userId, String displayName) async {
+    await _client
+        .from('profiles')
+        .update({'display_name': displayName})
+        .eq('id', userId);
+  }
 }

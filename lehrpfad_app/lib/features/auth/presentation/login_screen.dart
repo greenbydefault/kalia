@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../app/theme/app_spacing.dart';
 import 'auth_form.dart';
 
-/// Vollbild-Login (bestehender [AuthForm]) für „Ich habe schon ein Konto“.
+/// Vollbild-Login mit [AuthForm] (E-Mail, dann Code).
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 

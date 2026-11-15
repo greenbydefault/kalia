@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Euer Kalia-Code</title>
+</head>
+<body style="margin:0;padding:0;background:#f5f4ee;">
+  <div style="display:none;max-height:0;overflow:hidden;">{{ .Token }} in der App eingeben. Gilt 60 Minuten.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f5f4ee;">
+    <tr>
+      <td align="center" style="padding:40px 16px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:420px;background:#fcfcf9;border:1px solid #e3e1d8;border-radius:16px;">
+          <tr>
+            <td style="padding:32px 28px 8px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1b2622;">
+              <div style="font-size:20px;font-weight:700;letter-spacing:-0.5px;">Kalia</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 28px 0;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1b2622;font-size:16px;line-height:1.5;">
+              Euer Code für die Anmeldung:
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:20px 28px;">
+              <div style="display:inline-block;padding:16px 24px;background:#f5f4ee;border-radius:12px;font-family:'SF Mono',Menlo,Consolas,'Courier New',monospace;font-size:36px;font-weight:700;letter-spacing:10px;color:#1b2622;">{{ .Token }}</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 28px 28px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#5d6762;font-size:15px;line-height:1.5;">
+              In der App eingeben, dann seid ihr angemeldet. Der Code gilt 60&nbsp;Minuten.
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 28px 28px;border-top:1px solid #e3e1d8;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#5d6762;font-size:13px;line-height:1.5;">
+              Nicht angefordert? Dann diese Mail einfach ignorieren, es passiert nichts.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

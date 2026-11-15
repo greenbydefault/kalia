@@ -64,13 +64,12 @@ class AccountPromptSheet extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text('Konto erstellen', style: theme.textTheme.headlineSmall),
+        Text('Anmelden', style: theme.textTheme.headlineSmall),
         const SizedBox(height: AppSpacing.x2),
         Text(reason, style: theme.textTheme.bodyMedium),
         const SizedBox(height: AppSpacing.x4),
         AuthForm(
           showHeadline: false,
-          startInRegisterMode: true,
           onSuccess: () => Navigator.of(context).pop(true),
           belowActions: TextButton(
             onPressed: () => Navigator.of(context).pop(false),

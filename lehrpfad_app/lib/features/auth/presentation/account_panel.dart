@@ -10,7 +10,7 @@ import '../../report/presentation/report_account_tiles.dart';
 import 'account_prefs_sections.dart';
 import 'auth_form.dart';
 
-/// Testversion: Anmelden/Registrieren im Konto-Tab nicht zeigen.
+/// Testversion: Anmelden im Konto-Tab nicht zeigen.
 /// Auf `true` stellen, wenn das Formular wieder sichtbar sein soll.
 bool get _accountSignInVisible => false;
 

@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/config/supabase_config.dart';
 import '../../auth/data/auth_providers.dart';
 import '../../auth/presentation/account_prompt_sheet.dart';
+import '../../auth/presentation/display_name_sheet.dart';
 import '../data/community_providers.dart';
 import '../domain/trail_comment.dart';
 
@@ -37,6 +38,7 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
     final repo = ref.read(commentsRepositoryProvider);
     final text = _controller.text.trim();
     if (repo == null || text.isEmpty) return;
+    if (!await ensureDisplayName(context) || !mounted) return;
     setState(() => _sending = true);
     try {
       await repo.addComment(widget.trailId, text);

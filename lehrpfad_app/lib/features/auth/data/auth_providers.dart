@@ -14,8 +14,9 @@ final authStateProvider = StreamProvider<User?>((ref) {
   return client.auth.onAuthStateChange.map((event) => event.session?.user);
 });
 
-/// Aktionen rund ums Konto. Werfen bei Fehlern eine `AuthException`,
-/// die die UI in deutsche Meldungen übersetzt.
+/// Aktionen rund ums Konto. Passwortlos: E-Mail bekommt einen Code,
+/// gleich für neue und bestehende Konten. Werfen bei Fehlern eine
+/// `AuthException`, die die UI in deutsche Meldungen übersetzt.
 final authControllerProvider = NotifierProvider<AuthController, void>(
   AuthController.new,
 );
@@ -32,25 +33,25 @@ class AuthController extends Notifier<void> {
     return client.auth;
   }
 
-  Future<void> signIn({required String email, required String password}) {
-    return _auth.signInWithPassword(email: email, password: password);
+  /// Schickt den Code. Legt das Konto an, falls es noch keins gibt.
+  Future<void> sendCode(String email) {
+    return _auth.signInWithOtp(email: email, shouldCreateUser: true);
   }
 
-  Future<void> signUp({
-    required String email,
-    required String password,
-    String? displayName,
-  }) {
-    return _auth.signUp(
-      email: email,
-      password: password,
-      data: displayName == null || displayName.isEmpty
-          ? null
-          : {'display_name': displayName},
-    );
+  Future<void> verifyCode({required String email, required String code}) {
+    return _auth.verifyOTP(type: OtpType.email, email: email, token: code);
   }
 
   Future<void> signOut() {
     return _auth.signOut();
   }
+}
+
+/// Name gilt als nicht gesetzt, solange er leer ist oder dem
+/// E-Mail-Präfix entspricht (Default aus `handle_new_user`).
+bool isDisplayNameUnset(String displayName, String? email) {
+  final name = displayName.trim();
+  if (name.isEmpty) return true;
+  if (email == null) return false;
+  return name == email.split('@').first;
 }
