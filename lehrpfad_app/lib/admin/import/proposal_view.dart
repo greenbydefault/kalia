@@ -75,7 +75,9 @@ class _ProposalViewState extends State<ProposalView> {
         const SizedBox(height: 4),
         Text(
           'Der Pfad ist sichtbar und bleibt unverändert, bis du Änderungen annimmst.',
-          style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.inkMuted),
+          style: theme.textTheme.bodyMedium?.copyWith(
+            color: AppColors.inkMuted,
+          ),
         ),
         const SizedBox(height: 16),
         if (all.isEmpty) const Text('Keine Unterschiede.'),
@@ -215,7 +217,11 @@ class _DiffTile extends StatelessWidget {
 }
 
 class _Side extends StatelessWidget {
-  const _Side({required this.label, required this.text, this.highlight = false});
+  const _Side({
+    required this.label,
+    required this.text,
+    this.highlight = false,
+  });
 
   final String label;
   final String text;

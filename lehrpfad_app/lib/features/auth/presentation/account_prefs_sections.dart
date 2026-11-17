@@ -57,8 +57,39 @@ class GroupPrefsSection extends ConsumerWidget {
           value: prefs.stroller,
           onChanged: (v) => notifier.setGroups(prefs.ageGroups, stroller: v),
         ),
-        const SizedBox(height: AppSpacing.x2),
-        GroupHintBox(groups: prefs.ageGroups, stroller: prefs.stroller),
+        _CollapsedHint(groups: prefs.ageGroups, stroller: prefs.stroller),
+      ],
+    );
+  }
+}
+
+/// Die Hinweisbox zur Gruppe ist im Konto eingeklappt: ein Text-Link, die
+/// Box erst auf Tipp.
+class _CollapsedHint extends StatefulWidget {
+  const _CollapsedHint({required this.groups, required this.stroller});
+
+  final Set<AgeGroup> groups;
+  final bool stroller;
+
+  @override
+  State<_CollapsedHint> createState() => _CollapsedHintState();
+}
+
+class _CollapsedHintState extends State<_CollapsedHint> {
+  bool _open = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        TextButton.icon(
+          onPressed: () => setState(() => _open = !_open),
+          icon: Icon(_open ? Icons.expand_less : Icons.expand_more, size: 18),
+          label: const Text('Was ändert das?'),
+        ),
+        if (_open)
+          GroupHintBox(groups: widget.groups, stroller: widget.stroller),
       ],
     );
   }

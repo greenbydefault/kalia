@@ -37,7 +37,7 @@ final syncLifecycleProvider = Provider<void>((ref) {
     ref.invalidate(trailCompletionsProvider);
     ref.invalidate(activeWalkProvider);
     ref.invalidate(trailListsProvider);
-    ref.invalidate(sightingsProvider);
+    ref.invalidate(fundeProvider);
   });
 });
 

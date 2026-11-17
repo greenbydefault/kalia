@@ -10,8 +10,19 @@ abstract interface class ImagesRepository {
   /// Alle Bilder mit Status pending (nur Admins, sonst leer durch RLS).
   Future<List<TrailImage>> getPendingImages();
 
-  /// Moderation: Status setzen (nur Admins).
+  /// Alle eigenen Uploads (jeder Status), neueste zuerst. Ausgeloggt leer.
+  Future<List<TrailImage>> getMyImages();
+
+  /// Moderation: Status setzen (nur Admins). Setzt `decided_at`.
   Future<void> setImageStatus(String imageId, TrailImageStatus status);
+
+  /// Moderation: Bild ablehnen (nur Admins). Die Zeile bleibt mit Grund
+  /// erhalten, `small`/`medium` werden aus dem Storage entfernt, das
+  /// Thumb bleibt bis [deleteImage].
+  Future<void> rejectImage(TrailImage image, RejectReason reason);
+
+  /// Abgelehnte Bilder, deren Entscheidung vor [before] liegt (nur Admins).
+  Future<List<TrailImage>> getRejectedBefore(DateTime before);
 
   /// Loescht DB-Eintrag und die drei Storage-Varianten
   /// (eigene Bilder oder Admin).

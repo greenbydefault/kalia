@@ -74,6 +74,58 @@ final trailImagesProvider = FutureProvider.family<List<TrailImage>, String>((
   return repo.getImages(trailId);
 });
 
+/// Eigene Uploads in jedem Status, neueste zuerst. Leer ausgeloggt.
+final myImagesProvider = FutureProvider<List<TrailImage>>((ref) {
+  final user = ref.watch(authStateProvider).value;
+  final repo = ref.watch(imagesRepositoryProvider);
+  if (repo == null || user == null) return Future.value(const <TrailImage>[]);
+  return repo.getMyImages();
+});
+
+/// Eigene Kommentare ueber alle Trails, neueste zuerst. Leer ausgeloggt.
+final myCommentsProvider = FutureProvider<List<TrailComment>>((ref) {
+  final user = ref.watch(authStateProvider).value;
+  final repo = ref.watch(commentsRepositoryProvider);
+  if (repo == null || user == null) {
+    return Future.value(const <TrailComment>[]);
+  }
+  return repo.getMyComments();
+});
+
+/// Zaehler fuer den Konto-Kopf.
+class ContributionStats {
+  final int photos;
+  final int pending;
+  final int approved;
+  final int rejected;
+  final int comments;
+
+  const ContributionStats({
+    this.photos = 0,
+    this.pending = 0,
+    this.approved = 0,
+    this.rejected = 0,
+    this.comments = 0,
+  });
+
+  static const empty = ContributionStats();
+
+  bool get isEmpty => photos == 0 && comments == 0;
+}
+
+final myContributionStatsProvider = Provider<ContributionStats>((ref) {
+  final images = ref.watch(myImagesProvider).value ?? const <TrailImage>[];
+  final comments = ref.watch(myCommentsProvider).value ?? const [];
+  int count(TrailImageStatus s) => images.where((i) => i.status == s).length;
+  return ContributionStats(
+    photos: images.length,
+    pending: count(TrailImageStatus.pending),
+    approved: count(TrailImageStatus.approved),
+    rejected: count(TrailImageStatus.rejected),
+    comments: comments.length,
+  );
+});
+
 /// Offene Moderationsqueue (nur Admins). Wartet aufs Profil, damit nach
 /// Admin-Login nicht kurz eine leere Liste kommt.
 final pendingImagesProvider = FutureProvider<List<TrailImage>>((ref) async {

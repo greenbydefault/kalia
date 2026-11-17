@@ -73,7 +73,8 @@
     "kurztext": "Brütet im Gras am Vorland."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/austernfischer/illu-d5915ddb0b.svg"
  },
  {
   "id": "baumstaemme-kletter-balance",
@@ -481,7 +482,8 @@
     "kurztext": "Baut Dämme aus Weidenästen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/biber/illu-c710b9130f.svg"
  },
  {
   "id": "bienen-schaukasten",
@@ -665,7 +667,8 @@
     "kurztext": "Zimmert Höhlen in Buchen und Totholz."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/buntspecht/illu-860c12b831.svg"
  },
  {
   "id": "distelfalter",
@@ -964,7 +967,8 @@
     "kurztext": "Vergräbt Eicheln der Steineiche."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/eichhoernchen/illu-21817ff22c.svg"
  },
  {
   "id": "eisvogel",
@@ -1038,7 +1042,8 @@
     "kurztext": "Brütet in Uferhöhlen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/eisvogel/illu-eba48e8baf.svg"
  },
  {
   "id": "europaeische-laerche",
@@ -1833,7 +1838,8 @@
     "kurztext": "Klettert für die Ernte."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/haselnuss/illu-3cc061c3e5.svg"
  },
  {
   "id": "haushuhn",
@@ -2063,7 +2069,8 @@
     "kurztext": "Fressen Hagebutten im Winter."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/heckenrose/illu-502dc968dc.svg"
  },
  {
   "id": "heidekraut-seidenbiene",
@@ -2350,7 +2357,8 @@
     "kurztext": "Wird von Vögeln gefressen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/hummel/illu-0d70cf2c55.svg"
  },
  {
   "id": "igel",
@@ -2424,7 +2432,8 @@
     "kurztext": "Überwintert im Laub."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/igel/illu-42d7d3526e.svg"
  },
  {
   "id": "kammmolch",
@@ -2499,7 +2508,8 @@
     "kurztext": "Laicht in Kleingewässern."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/kammmolch/illu-cddd0c2407.svg"
  },
  {
   "id": "kiefer",
@@ -2573,7 +2583,8 @@
     "kurztext": "Frisst die Samen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/kiefer/illu-d3e7031ccc.svg"
  },
  {
   "id": "kinderhochstand",
@@ -3117,7 +3128,8 @@
     "kurztext": "Larven im Wasser."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/libelle/illu-75c9c619eb.svg"
  },
  {
   "id": "libellen-installation",
@@ -3221,7 +3233,8 @@
     "kurztext": "Versteckt sich im Moos."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/moorfrosch/illu-67a9f71f36.svg"
  },
  {
   "id": "neuntoeter",
@@ -3579,7 +3592,8 @@
     "kurztext": "Lebt am Wasser."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/ringelnatter/illu-b831b3d321.svg"
  },
  {
   "id": "robinie",
@@ -3722,7 +3736,8 @@
     "kurztext": "Laicht in Pfützen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/rotbauchunke/illu-1a53f07248.svg"
  },
  {
   "id": "rotbuche",
@@ -3798,7 +3813,8 @@
     "kurztext": "Höhlen in alten Buchen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/rotbuche/illu-67c82be9b9.svg"
  },
  {
   "id": "rote-roehrenspinne",
@@ -4233,7 +4249,8 @@
     "kurztext": "Horst in den Kronen um Prora."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/seeadler/illu-e86f4ccb66.svg"
  },
  {
   "id": "stauehre-wehr",
@@ -4494,7 +4511,8 @@
     "kurztext": "Schlafen in Baumhöhlen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/stieleiche/illu-a7496772bf.svg"
  },
  {
   "id": "stockente",
@@ -4571,7 +4589,8 @@
     "kurztext": "Brütet am Schilf und in Baumhöhlen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/stockente/illu-e95fa4fe08.svg"
  },
  {
   "id": "strandflieder",
@@ -5549,7 +5568,8 @@
     "kurztext": "Fressen die Samen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/wollgras/illu-05905159b3.svg"
  },
  {
   "id": "zauneidechse",
@@ -5625,7 +5645,8 @@
     "kurztext": "Sonn sich auf Steinen."
    }
   ],
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/zauneidechse/illu-83c7f799c2.svg"
  },
  {
   "id": "ziege",
@@ -5990,7 +6011,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Amplexus_Bufo_bufo_2010-03-29.jpg/960px-Amplexus_Bufo_bufo_2010-03-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Bernie, CC0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/erdkroete/illu-a33528a26d.svg"
  },
  {
   "id": "teichfrosch",
@@ -6202,7 +6224,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Common_lizard_%28Zootoca_vivipara%29.jpg/960px-Common_lizard_%28Zootoca_vivipara%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Charles J. Sharp, CC BY-SA 4.0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/waldeidechse/illu-8434604b7f.svg"
  },
  {
   "id": "blindschleiche",
@@ -6272,7 +6295,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Anguis_fragilis_%281%29.jpg/960px-Anguis_fragilis_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Trachemys, CC BY-SA 3.0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/blindschleiche/illu-dc52007470.svg"
  },
  {
   "id": "mauereidechse",
@@ -6417,7 +6441,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/029_Great_tit_standing_on_flowering_Wisteria_in_Gl%C3%A2ne_District_Photo_by_Giles_Laurent.jpg/960px-029_Great_tit_standing_on_flowering_Wisteria_in_Gl%C3%A2ne_District_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Giles Laurent, CC BY-SA 4.0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/kohlmeise/illu-e66ddd1b1e.svg"
  },
  {
   "id": "blaumeise",
@@ -6642,7 +6667,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/buchfink/illu-b75a232e59.svg"
  },
  {
   "id": "rotkehlchen",
@@ -6718,7 +6744,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/rotkehlchen/illu-b4b8c1cafa.svg"
  },
  {
   "id": "zaunkoenig",
@@ -6943,7 +6970,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/eichelhaeher/illu-c25f092386.svg"
  },
  {
   "id": "kleiber",
@@ -7017,7 +7045,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/kleiber/illu-f4c039c8e5.svg"
  },
  {
   "id": "mausebussard",
@@ -7461,7 +7490,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/silbermoewe/illu-33546249d7.svg"
  },
  {
   "id": "mittelmeermoewe",
@@ -7686,7 +7716,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/graureiher/illu-332493dddb.svg"
  },
  {
   "id": "weissstorch",
@@ -7835,7 +7866,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/haubentaucher/illu-a7f98929df.svg"
  },
  {
   "id": "blaesshuhn",
@@ -7909,7 +7941,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/blaesshuhn/illu-d377833160.svg"
  },
  {
   "id": "pirol",
@@ -8208,7 +8241,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/graugans/illu-af3784239a.svg"
  },
  {
   "id": "hoeckerschwan",
@@ -8355,7 +8389,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/kormoran/illu-acd3fedc2e.svg"
  },
  {
   "id": "reh",
@@ -8426,7 +8461,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/reh/illu-a74c74dc6d.svg"
  },
  {
   "id": "rotfuchs",
@@ -8925,7 +8961,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/feldhase/illu-e3538f6e84.svg"
  },
  {
   "id": "zitronefalter",
@@ -9055,7 +9092,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/tagpfauenauge/illu-41a1e2d089.svg"
  },
  {
   "id": "admiral",
@@ -9386,7 +9424,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/%28MHNT%29_Coccinella_septempunctata_%28pupa%29_on_Xanthium_orientale.jpg/960px-%28MHNT%29_Coccinella_septempunctata_%28pupa%29_on_Xanthium_orientale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Didier Descouens, CC BY-SA 4.0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/marienkaefer/illu-ce9d11c853.svg"
  },
  {
   "id": "feuerwanze",
@@ -9524,7 +9563,8 @@
   },
   "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Betula_pendula_in_Sedovo_1.jpg/960px-Betula_pendula_in_Sedovo_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "imageCredit": "Andrey Butko, CC BY-SA 3.0",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/haengebirke/illu-4eda25f0e4.svg"
  },
  {
   "id": "moorbirke",
@@ -10855,7 +10895,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/schlehe/illu-674a16837f.svg"
  },
  {
   "id": "holunder",
@@ -10928,7 +10969,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/holunder/illu-dedc88b612.svg"
  },
  {
   "id": "brombeere",
@@ -12049,7 +12091,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/loewenzahn/illu-896989fb76.svg"
  },
  {
   "id": "margerite",
@@ -12118,7 +12161,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/margerite/illu-a351351440.svg"
  },
  {
   "id": "rotklee",
@@ -12396,7 +12440,8 @@
   },
   "imagePath": null,
   "imageCredit": "",
-  "version": 1
+  "version": 1,
+  "illustrationPath": "storage:catalog-media/species/sonnentau/illu-15520cdfe9.svg"
  },
  {
   "id": "sandlaufkaefer",

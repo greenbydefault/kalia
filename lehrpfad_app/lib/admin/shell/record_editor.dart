@@ -153,7 +153,12 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
     final spec = widget.spec;
     final col = spec.liveColumn!;
     if (live) {
-      final gaps = spec.gaps?.call(widget.row).where((g) => !g.startsWith('Unsichtbar')).toList() ?? [];
+      final gaps =
+          spec.gaps
+              ?.call(widget.row)
+              .where((g) => !g.startsWith('Unsichtbar'))
+              .toList() ??
+          [];
       if (gaps.isNotEmpty) {
         final ok = await showDialog<bool>(
           context: context,
@@ -225,48 +230,48 @@ class _EditorBodyState extends ConsumerState<_EditorBody> {
           )
         else
           Padding(
-          padding: const EdgeInsets.fromLTRB(32, 20, 24, 12),
-          child: Row(
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    ListenableBuilder(
-                      listenable: _hub,
-                      builder: (context, _) => Text(
-                        (widget.row[spec.titleColumn] as String?) ?? _ctx.id,
-                        style: theme.textTheme.headlineSmall,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
+            padding: const EdgeInsets.fromLTRB(32, 20, 24, 12),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ListenableBuilder(
+                        listenable: _hub,
+                        builder: (context, _) => Text(
+                          (widget.row[spec.titleColumn] as String?) ?? _ctx.id,
+                          style: theme.textTheme.headlineSmall,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
                       ),
-                    ),
-                    Text(
-                      _ctx.id,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: AppColors.inkMuted,
+                      Text(
+                        _ctx.id,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: AppColors.inkMuted,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-              AutosaveIndicator(hub: _hub),
-              if (spec.liveColumn != null) ...[
-                const SizedBox(width: 12),
-                _LiveSwitch(
-                  live: widget.row[spec.liveColumn] == true,
-                  onChanged: _setLive,
-                ),
+                AutosaveIndicator(hub: _hub),
+                if (spec.liveColumn != null) ...[
+                  const SizedBox(width: 12),
+                  _LiveSwitch(
+                    live: widget.row[spec.liveColumn] == true,
+                    onChanged: _setLive,
+                  ),
+                ],
+                if (spec.canDelete)
+                  IconButton(
+                    tooltip: '${spec.singular} löschen',
+                    icon: const Icon(Icons.delete_outline),
+                    onPressed: _delete,
+                  ),
               ],
-              if (spec.canDelete)
-                IconButton(
-                  tooltip: '${spec.singular} löschen',
-                  icon: const Icon(Icons.delete_outline),
-                  onPressed: _delete,
-                ),
-            ],
+            ),
           ),
-        ),
         const Divider(height: 1, color: AppColors.n200),
         Expanded(
           child: SingleChildScrollView(
@@ -347,7 +352,9 @@ class _LiveSwitch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Tooltip(
-      message: live ? 'Live – zurück auf Entwurf stellen' : 'Entwurf – live schalten',
+      message: live
+          ? 'Live – zurück auf Entwurf stellen'
+          : 'Entwurf – live schalten',
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [

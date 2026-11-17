@@ -43,6 +43,7 @@ DUPLIKAT_MOEGLICH_M = 500
 DUPLIKAT_TRIGRAM = 0.6
 START_ABWEICHUNG_M = 250                 # Start vs. erster Routenpunkt
 LAENGE_ABWEICHUNG_PROZENT = 20
+LAENGE_ABWEICHUNG_EXAKT_PROZENT = 10  # gegen exakte Betreiberangabe (meta.laenge_exakt)
 STATION_ABSEITS_M = 300                  # Station weiter als das von der Route
 DAUER_KMH_MIN, DAUER_KMH_MAX = 0.2, 8.0   # Tempo aus Laenge/Dauer inkl. Stationenhalte; echte Lehrpfade liegen bei 0,3 bis 4,7 km/h (Pilot, 85 Seeds)
 MAX_LAENGE_KM = 80

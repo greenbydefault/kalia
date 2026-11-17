@@ -83,7 +83,29 @@ abstract final class LocationGate {
     await ref.read(locationPermissionProvider.notifier).requestWhenInUse();
   }
 
-  static TourEligibility tourEligibility(Trail trail, LocationFix? fix) {
+  static TourEligibility tourEligibility(
+    Trail trail,
+    LocationFix? fix, {
+    OsLocationStatus? status,
+  }) {
+    // Ohne Fix und mit abgeschaltetem Standort kann der Button nie klappen.
+    if (fix == null &&
+        (status == OsLocationStatus.servicesDisabled ||
+            status == OsLocationStatus.deniedForever)) {
+      return const TourEligibility(
+        blocked: true,
+        label: 'Kein Standort',
+        tooltip: 'Standort aktivieren, um die Tour zu starten',
+      );
+    }
+    // Linie ohne Route ("Verlauf nicht kartiert"): kein Tour-Modus, keine Geraden raten.
+    if (trail.isLinie && trail.route.length < 2) {
+      return const TourEligibility(
+        blocked: true,
+        label: 'Ohne Route',
+        tooltip: 'Verlauf nicht kartiert: Tour-Modus nicht verfügbar',
+      );
+    }
     final site = onSiteResult(trail, fix);
     final distanceM = fix == null
         ? null

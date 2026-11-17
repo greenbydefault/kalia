@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/config/supabase_client_provider.dart';
-import '../../../core/sync/optimistic_id_set_notifier.dart';
 import '../../../core/sync/sync_providers.dart';
 import '../../offline/providers/catalog_providers.dart';
 import '../../trail/data/providers.dart';
+import '../domain/fund.dart';
 import '../domain/merkmal.dart';
 import '../domain/species.dart';
 import 'cached_species_repository.dart';
@@ -81,29 +81,82 @@ final sightingsRepositoryProvider = Provider<SightingsRepository>((ref) {
   return repo;
 });
 
-/// Gesehene Species-IDs; synced bei Login (via Sync-Lifecycle).
-final sightingsProvider =
-    NotifierProvider<SightingsNotifier, AsyncValue<Set<String>>>(
-      SightingsNotifier.new,
+/// Funde (Species-ID → Fund); synced bei Login (via Sync-Lifecycle).
+final fundeProvider =
+    NotifierProvider<FundeNotifier, AsyncValue<Map<String, Fund>>>(
+      FundeNotifier.new,
     );
 
-class SightingsNotifier extends OptimisticIdSetNotifier {
+/// Gesehene Species-IDs, abgeleitet aus [fundeProvider].
+final sightingsProvider = Provider<AsyncValue<Set<String>>>((ref) {
+  return ref.watch(fundeProvider).whenData((m) => m.keys.toSet());
+});
+
+class FundeNotifier extends Notifier<AsyncValue<Map<String, Fund>>> {
   SightingsRepository get _repo => ref.read(sightingsRepositoryProvider);
 
   @override
-  Future<Set<String>> loadIds() => _repo.getSeenIds();
-
-  @override
-  Future<void> persistChange({
-    required String id,
-    required bool included,
-    required Set<String> next,
-  }) {
-    return _repo.applySeenChange(ids: next, speciesId: id, seen: included);
+  AsyncValue<Map<String, Fund>> build() {
+    _load();
+    return const AsyncLoading();
   }
 
-  Future<void> setSeen(String speciesId, bool seen) =>
-      setIncluded(speciesId, seen);
+  Future<void> _load() async {
+    try {
+      state = AsyncData(await _repo.getFunde());
+    } catch (e, st) {
+      state = AsyncError(e, st);
+    }
+  }
 
-  bool isSeen(String speciesId) => containsId(speciesId);
+  Map<String, Fund> get _aktuell => state.asData?.value ?? const {};
+
+  bool istGefunden(String speciesId) => _aktuell.containsKey(speciesId);
+
+  /// Legt den Fund an (Datum = jetzt). Existiert er schon, bleibt er.
+  Future<Fund> entdecke(String speciesId, {String? trailId}) async {
+    final vorhanden = _aktuell[speciesId];
+    if (vorhanden != null) return vorhanden;
+    final fund = Fund(
+      speciesId: speciesId,
+      entdecktAm: DateTime.now().toUtc(),
+      trailId: trailId,
+    );
+    await _schreibe(speciesId, fund);
+    return fund;
+  }
+
+  /// Entfernt den Fund und liefert ihn für „Rückgängig“ zurück.
+  Future<Fund?> entferne(String speciesId) async {
+    final vorhanden = _aktuell[speciesId];
+    if (vorhanden == null) return null;
+    await _schreibe(speciesId, null);
+    return vorhanden;
+  }
+
+  /// Stellt einen entfernten Fund samt Datum, Pfad und Wer wieder her.
+  Future<void> wiederherstellen(Fund fund) => _schreibe(fund.speciesId, fund);
+
+  /// Setzt „Wer hat’s entdeckt?“, `null` hebt die Auswahl auf.
+  Future<void> setzeVon(String speciesId, EntdecktVon? von) async {
+    final vorhanden = _aktuell[speciesId];
+    if (vorhanden == null) return;
+    await _schreibe(speciesId, vorhanden.withVon(von));
+  }
+
+  Future<void> _schreibe(String speciesId, Fund? fund) async {
+    final previous = _aktuell;
+    final next = {...previous};
+    if (fund == null) {
+      next.remove(speciesId);
+    } else {
+      next[speciesId] = fund;
+    }
+    state = AsyncData(next);
+    try {
+      await _repo.applyChange(funde: next, speciesId: speciesId);
+    } catch (_) {
+      state = AsyncData(previous);
+    }
+  }
 }

@@ -68,7 +68,7 @@
 .umschalter--bar .umschalter__tab {
   min-height: 2.5rem;
   padding-inline: var(--space-3);
-  font-size: var(--text-xs);
+  font-size: 1rem; /* 16 */
   font-weight: var(--weight-medium);
   line-height: 1;
 }

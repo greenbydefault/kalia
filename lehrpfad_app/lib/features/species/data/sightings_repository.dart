@@ -1,17 +1,14 @@
-/// Persistierte „gesehen“-Markierungen (Species-IDs).
+import '../domain/fund.dart';
+
+/// Persistierte Funde (gesehene Arten/Geräte).
 abstract class SightingsRepository {
-  Future<Set<String>> getSeenIds();
+  Future<Map<String, Fund>> getFunde();
 
-  /// Schreibt das komplette Seen-Set (last-wins, kein Local-Re-Read).
-  Future<void> persistSeenIds(Set<String> ids);
-
-  /// Persistiert [ids] und synced die geaenderte [speciesId] remote (soft-fail).
-  Future<void> applySeenChange({
-    required Set<String> ids,
+  /// Persistiert [funde] (kompletter Stand, last-wins) und synced die
+  /// geänderte [speciesId] remote (soft-fail). Fehlt die ID in [funde],
+  /// geht ein Delete raus, sonst ein Upsert.
+  Future<void> applyChange({
+    required Map<String, Fund> funde,
     required String speciesId,
-    required bool seen,
   });
-
-  /// Toggle einer ID via Local-Read (Tests / Legacy); Prefer [applySeenChange].
-  Future<void> setSeen(String speciesId, bool seen);
 }

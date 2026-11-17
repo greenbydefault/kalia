@@ -97,7 +97,9 @@ class ArtenSection extends ConsumerWidget {
                   layout: items.first.isGeraet
                       ? ContentCarouselLayout.compact3
                       : ContentCarouselLayout.peek,
-                  onTap: (s) => SpeciesDetailSheet.show(context, s),
+                  trailId: trailId,
+                  onTap: (s) =>
+                      SpeciesDetailSheet.show(context, s, trailId: trailId),
                 ),
               );
             }

@@ -45,3 +45,22 @@ class AudioRef extends AssetRef {
   @override
   int get hashCode => path.hashCode;
 }
+
+/// Art-Illustration (SVG): `assets/…`, `http(s)://…` oder
+/// `storage:<bucket>/<objekt>` (Format von `MediaUrl`).
+class IllustrationRef extends AssetRef {
+  const IllustrationRef(this.path);
+
+  final String path;
+
+  @override
+  String fileKey([TrailImageVariant? variant]) =>
+      'illustrations/${path.replaceAll(RegExp(r'[^A-Za-z0-9._-]+'), '_')}';
+
+  @override
+  bool operator ==(Object other) =>
+      other is IllustrationRef && other.path == path;
+
+  @override
+  int get hashCode => path.hashCode;
+}

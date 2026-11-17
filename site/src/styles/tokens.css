@@ -51,10 +51,10 @@
   --weight-medium: 500;
   --weight-semibold: 600;
   --weight-bold: 700;
-  --text-xs: 0.8125rem;
-  --text-sm: 0.9375rem;
-  --text-base: 1.0625rem;
-  --text-copy: 1rem; /* 16 */
+  --text-xs: 0.75rem; /* 12 */
+  --text-sm: 0.875rem; /* 14 */
+  --text-base: 1rem; /* 16 */
+  --text-copy: 1.5rem/* 16 */
   --text-lead: 1.375rem; /* 22 */
   --text-h4: 1.75rem; /* 28, Medium */
   --text-h3: 3.75rem; /* 60 */
@@ -91,8 +91,8 @@
   --radius-card: 1.25rem; /* 20 */
   --radius-input: 0.75rem;
   --radius-pill: 999px;
-  --shadow-chip: 0 0.25rem 1rem rgb(27 38 34 / 0.18), 0 0.0625rem 0.25rem rgb(27 38 34 / 0.12);
-  --focus-ring: 0 0 0 0.1875rem var(--color-paper), 0 0 0 0.3125rem var(--color-ink);
+  --shadow-chip: 0 0.25rem 1rem rgb(27 38 34 / 0.18), 0 0.125rem 0.25rem rgb(27 38 34 / 0.12);
+  --focus-ring: 0 0 0 0.125rem var(--color-paper), 0 0 0 0.25rem var(--color-ink);
 
   /* Bewegung */
   --duration-fast: 0.18s;

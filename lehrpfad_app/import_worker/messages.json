@@ -37,6 +37,24 @@
       "warum": "Eine Linie ohne Route oder eine Fläche ohne Umriss lässt sich nicht auf der Karte zeigen.",
       "wie": "route.gpx (Linie) oder flaeche.geojson (Fläche) mit Quelle und Lizenz ins ZIP legen, über „Datei ersetzen“ hochladen. Alternative: die OSM-Pipeline laufen lassen."
     },
+    "ROUTE_NICHT_KARTIERT": {
+      "titel": "Verlauf nicht kartiert",
+      "was": "Für diesen Pfad gibt es keine belegte Route. Er geht ohne Linie live.",
+      "warum": "Die App zeigt Stationen, Länge und Dauer und weist den Verlauf als nicht kartiert aus. Eine geschätzte Gerade zwischen Stationen gäbe falsche Wege vor.",
+      "wie": "Nichts nötig. Sobald eine Betreiber-GPX oder eine OSM-Relation vorliegt, die Route nachtragen."
+    },
+    "AMENITY_KATEGORIE": {
+      "titel": "Ausstattung mit unbekannter Kategorie",
+      "was": "Zeile {nummer} in Abschnitt 5 hat die Kategorie „{kategorie}“.",
+      "warum": "Die Datenbank kennt nur feste Kategorien. Andere Werte werden beim Speichern abgelehnt.",
+      "wie": "Eine Kategorie aus der Liste wählen: {erlaubt}."
+    },
+    "POI_KATEGORIE": {
+      "titel": "Einkehr/Ausflugsziel mit unbekannter Kategorie",
+      "was": "POI-Zeile {nummer} hat die Kategorie „{kategorie}“.",
+      "warum": "Die Datenbank kennt nur feste Kategorien. Andere Werte werden beim Speichern abgelehnt.",
+      "wie": "Eine Kategorie aus der Liste wählen: {erlaubt}."
+    },
     "GEOMETRIE_LIZENZ": {
       "titel": "Route ohne gültige Lizenz",
       "was": "Die Datei {wert} hat keine gültige Quelle oder Lizenz und wurde nicht übernommen.",

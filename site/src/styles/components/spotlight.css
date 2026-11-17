@@ -65,15 +65,15 @@
   height: 0.875rem;
   background: var(--color-paper);
   transform: translateY(-50%) rotate(45deg);
-  border-radius: 0.15rem;
+  border-radius: 0.125rem;
 }
 
 .pop[data-side='right']::before {
-  left: -0.4375rem;
+  left: calc(-0.875rem / 2); /* halbe Kantenlänge, sitzt mittig auf der Kante */
 }
 
 .pop[data-side='left']::before {
-  right: -0.4375rem;
+  right: calc(-0.875rem / 2);
 }
 
 .pop__close {

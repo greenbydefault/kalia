@@ -4,6 +4,9 @@ import '../domain/trail_comment.dart';
 abstract interface class CommentsRepository {
   Future<List<TrailComment>> getComments(String trailId);
 
+  /// Alle eigenen Kommentare ueber alle Trails, neueste zuerst.
+  Future<List<TrailComment>> getMyComments();
+
   Future<void> addComment(String trailId, String text);
 
   /// Eigene Kommentare bzw. als Admin.

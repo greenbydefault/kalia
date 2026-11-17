@@ -135,7 +135,7 @@ class AdminMediaService {
     try {
       await _client.from('images').insert(row);
     } on PostgrestException catch (e) {
-      if (e.code != '42703') rethrow;
+      if (e.code != '42703' && e.code != 'PGRST204') rethrow;
       row.remove('thumbhash');
       row.remove('dominant_color');
       await _client.from('images').insert(row);
@@ -164,9 +164,9 @@ class AdminMediaService {
   }
 
   Future<void> deleteHero(String trailId, String imageId) async {
-    await _client.storage.from(heroBucket).remove(
-      SupabaseImagesRepository.pathsFor(trailId, imageId),
-    );
+    await _client.storage
+        .from(heroBucket)
+        .remove(SupabaseImagesRepository.pathsFor(trailId, imageId));
     await _client.from('images').delete().eq('id', imageId);
   }
 
@@ -184,6 +184,28 @@ class AdminMediaService {
           data,
           fileOptions: const FileOptions(
             contentType: 'image/avif',
+            cacheControl: '31536000',
+          ),
+        );
+    return MediaUrl.storagePath(mediaBucket, object);
+  }
+
+  /// Art-Illustration (SVG, unverändert). Der Dateiname trägt einen Zeitstempel,
+  /// ein Ersatz ist damit eine neue URL und der lange Cache bleibt korrekt.
+  /// Gibt den `storage:`-Pfad für `species.illustration_path` zurück.
+  Future<String> uploadSpeciesIllustration(
+    String speciesId,
+    Uint8List bytes,
+  ) async {
+    final object =
+        'species/$speciesId/illu-${DateTime.now().millisecondsSinceEpoch}.svg';
+    await _client.storage
+        .from(mediaBucket)
+        .uploadBinary(
+          object,
+          bytes,
+          fileOptions: const FileOptions(
+            contentType: 'image/svg+xml',
             cacheControl: '31536000',
           ),
         );

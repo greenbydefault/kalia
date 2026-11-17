@@ -49,31 +49,67 @@ class ModerationPage extends ConsumerWidget {
     BuildContext context,
     TrailImage image,
   ) async {
-    final confirmed = await showDialog<bool>(
+    final reason = await showDialog<RejectReason>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Bild ablehnen?'),
-        content: const Text(
-          'Das Bild und alle Dateien werden dauerhaft gelöscht.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('Abbrechen'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('Ablehnen'),
-          ),
-        ],
-      ),
+      builder: (_) => const _RejectDialog(),
     );
-    if (confirmed != true) return;
+    if (reason == null) return;
     final repo = ref.read(imagesRepositoryProvider);
     if (repo == null) return;
-    await repo.deleteImage(image);
+    await repo.rejectImage(image, reason);
     ref.invalidate(pendingImagesProvider);
     ref.invalidate(trailImagesProvider(image.trailId));
+  }
+
+  /// Abgelehnte Bilder, deren Entscheidung > 30 Tage zurückliegt, samt
+  /// Thumb und Zeile löschen.
+  Future<void> _cleanup(WidgetRef ref, BuildContext context) async {
+    final repo = ref.read(imagesRepositoryProvider);
+    if (repo == null) return;
+    final messenger = ScaffoldMessenger.of(context);
+    try {
+      final old = await repo.getRejectedBefore(
+        DateTime.now().subtract(const Duration(days: 30)),
+      );
+      if (old.isEmpty) {
+        messenger.showSnackBar(
+          const SnackBar(content: Text('Nichts aufzuräumen.')),
+        );
+        return;
+      }
+      if (!context.mounted) return;
+      final ok = await showDialog<bool>(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: Text('${old.length} abgelehnte Bilder löschen?'),
+          content: const Text(
+            'Entscheidung älter als 30 Tage. Zeile und Dateien werden '
+            'dauerhaft gelöscht.',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(ctx, false),
+              child: const Text('Abbrechen'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(ctx, true),
+              child: const Text('Löschen'),
+            ),
+          ],
+        ),
+      );
+      if (ok != true) return;
+      for (final image in old) {
+        await repo.deleteImage(image);
+      }
+      messenger.showSnackBar(
+        SnackBar(content: Text('${old.length} Bilder gelöscht.')),
+      );
+    } catch (e) {
+      messenger.showSnackBar(
+        SnackBar(content: Text('Aufräumen fehlgeschlagen: $e')),
+      );
+    }
   }
 
   @override
@@ -90,7 +126,18 @@ class ModerationPage extends ConsumerWidget {
       children: [
         Padding(
           padding: const EdgeInsets.fromLTRB(32, 20, 24, 12),
-          child: Text('Moderation', style: theme.textTheme.headlineSmall),
+          child: Row(
+            children: [
+              Expanded(
+                child: Text('Moderation', style: theme.textTheme.headlineSmall),
+              ),
+              TextButton.icon(
+                onPressed: () => _cleanup(ref, context),
+                icon: const Icon(Icons.cleaning_services_outlined, size: 18),
+                label: const Text('Abgelehnte > 30 Tage löschen'),
+              ),
+            ],
+          ),
         ),
         const Divider(height: 1, color: AppColors.n200),
         Expanded(
@@ -136,6 +183,63 @@ class ModerationPage extends ConsumerWidget {
               );
             },
           ),
+        ),
+      ],
+    );
+  }
+}
+
+/// Grund-Auswahl beim Ablehnen. Der Nutzer sieht den Grund im Konto.
+class _RejectDialog extends StatefulWidget {
+  const _RejectDialog();
+
+  @override
+  State<_RejectDialog> createState() => _RejectDialogState();
+}
+
+class _RejectDialogState extends State<_RejectDialog> {
+  RejectReason? _reason;
+
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: const Text('Bild ablehnen?'),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'Der Nutzer sieht den Grund im Konto. Die großen Dateien werden '
+            'gelöscht, das Thumb bleibt 30 Tage.',
+          ),
+          const SizedBox(height: 8),
+          RadioGroup<RejectReason>(
+            groupValue: _reason,
+            onChanged: (v) => setState(() => _reason = v),
+            child: Column(
+              children: [
+                for (final r in RejectReason.values)
+                  RadioListTile<RejectReason>(
+                    value: r,
+                    title: Text(r.label),
+                    dense: true,
+                    contentPadding: EdgeInsets.zero,
+                  ),
+              ],
+            ),
+          ),
+        ],
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.pop(context),
+          child: const Text('Abbrechen'),
+        ),
+        FilledButton(
+          onPressed: _reason == null
+              ? null
+              : () => Navigator.pop(context, _reason),
+          child: const Text('Ablehnen'),
         ),
       ],
     );

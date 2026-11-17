@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../../../core/audio/audio_player_control.dart';
@@ -10,6 +9,7 @@ import '../data/species_providers.dart';
 import '../domain/species.dart';
 import 'gesehen_toggle.dart';
 import 'species_glyph.dart';
+import 'species_illustration.dart';
 
 enum SpeciesTileLayout { peek, compact }
 
@@ -21,12 +21,16 @@ class SpeciesTile extends ConsumerWidget {
     required this.seen,
     required this.onTap,
     this.layout = SpeciesTileLayout.peek,
+    this.trailId,
   });
 
   final Species species;
   final bool seen;
   final VoidCallback onTap;
   final SpeciesTileLayout layout;
+
+  /// Trail-Kontext fürs Entdecken (Pfad des Funds).
+  final String? trailId;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -35,8 +39,14 @@ class SpeciesTile extends ConsumerWidget {
         species: species,
         seen: seen,
         onTap: onTap,
-        onToggleSeen: () =>
-            ref.read(sightingsProvider.notifier).setSeen(species.id, !seen),
+        onToggleSeen: () {
+          final funde = ref.read(fundeProvider.notifier);
+          if (seen) {
+            funde.entferne(species.id);
+          } else {
+            funde.entdecke(species.id, trailId: trailId);
+          }
+        },
       ),
       SpeciesTileLayout.compact => _CompactTile(
         species: species,
@@ -64,7 +74,6 @@ class _PeekTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final icon = species.displayIconEintrag.icon;
     final audioPath = species.audioPath;
     final hasAudio = species.hasPlayableAudio;
     final hook = species.displayHook;
@@ -79,10 +88,10 @@ class _PeekTile extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                PhosphorIcon(
-                  icon,
-                  size: ContentCarouselStyle.iconSize,
-                  color: AppColors.ink,
+                SpeciesIllustration(
+                  species: species,
+                  size: 44,
+                  iconSize: ContentCarouselStyle.iconSize,
                 ),
                 const SizedBox(height: 8),
                 Text(

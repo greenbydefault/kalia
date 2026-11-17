@@ -154,7 +154,7 @@ def process_bilder(root: str, slug: str, rows: List[Dict[str, Any]], route, area
         kind = r.get("kind") or "hero"
         station_nr = r.get("station_reihenfolge")
         records.append({
-            "id": iid, "datei": datei, "kind": "station" if kind == "station" else "ort",
+            "id": iid, "datei": datei, "kind": "station" if kind == "station" else "hero",
             "station_reihenfolge": station_nr if kind == "station" else None,
             "caption": r.get("caption") or "", "credit": r.get("credit") or "",
             "license": lizenz or "", "license_url": r.get("license_url") or "",

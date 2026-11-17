@@ -3,8 +3,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_spacing.dart';
+import '../../../core/config/app_features.dart';
 import '../../location/location_consent_sheet.dart';
 import '../../location/location_gate.dart';
+import '../../location/location_permission_controller.dart';
 import '../../location/user_position_provider.dart';
 import '../../trail/domain/trail.dart';
 import '../data/trail_list_providers.dart';
@@ -56,6 +58,24 @@ class TrailSheetPeekActions extends ConsumerWidget {
             .any((list) => list.containsTrail(trail.id)) ??
         false;
     final saved = bookmarked || inList;
+
+    if (!AppFeatures.tour) {
+      return Wrap(
+        spacing: AppSpacing.x2,
+        runSpacing: AppSpacing.x2,
+        crossAxisAlignment: WrapCrossAlignment.center,
+        alignment: WrapAlignment.end,
+        children: [
+          ...leading,
+          MerkenToggle(
+            bookmarked: saved,
+            iconOnly: true,
+            onChanged: (_) => SaveToListSheet.show(context, trail),
+          ),
+        ],
+      );
+    }
+
     final activeWalk = ref.watch(activeWalkProvider).asData?.value;
     final isThisWalk = activeWalk?.trailId == trail.id;
     final tracking = ref.watch(
@@ -63,7 +83,11 @@ class TrailSheetPeekActions extends ConsumerWidget {
     );
 
     final fix = ref.watch(userPositionProvider).fix;
-    final site = LocationGate.tourEligibility(trail, fix);
+    final site = LocationGate.tourEligibility(
+      trail,
+      fix,
+      status: ref.watch(locationPermissionProvider),
+    );
     final blocked = !tracking && site.blocked;
     final tourLabel = blocked && site.label != null
         ? site.label!

@@ -66,11 +66,25 @@ class _TrailTrackViewState extends State<TrailTrackView> {
           height: TrackStyle.height,
           color: TrackStyle.background,
           alignment: Alignment.center,
-          child: Text(
-            'Keine Routendaten',
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurfaceVariant,
-            ),
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Verlauf nicht kartiert',
+                style: theme.textTheme.titleSmall?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                'Die Stationen stehen unten, der genaue Weg liegt uns noch nicht vor.',
+                textAlign: TextAlign.center,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                ),
+              ),
+            ],
           ),
         ),
       );

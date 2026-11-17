@@ -125,6 +125,10 @@ def main():
         "start_lon": start_lon,
     }
     trail_is_new = not req("GET", "trails?id=eq.%s&select=id" % trail_id, key)
+    if trail_is_new:
+        # Spalten-Default ist seit 0038 false. Seed-Trails gehen live;
+        # bestehende Trails behalten ihren Wert (merge-duplicates).
+        trail_row["sichtbar"] = True
     write_trail = force or trail_is_new
     if not write_trail:
         print("Trail '%s' existiert (DB ist Master) - Trail, Stationen, Amenities "

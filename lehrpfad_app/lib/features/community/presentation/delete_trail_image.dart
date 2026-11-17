@@ -14,6 +14,7 @@ Future<bool> deleteTrailImage(
   try {
     await repo.deleteImage(image);
     ref.invalidate(trailImagesProvider(trailId));
+    ref.invalidate(myImagesProvider);
     return true;
   } catch (_) {
     return false;

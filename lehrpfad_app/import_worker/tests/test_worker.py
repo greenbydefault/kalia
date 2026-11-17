@@ -278,7 +278,7 @@ def test_bilder_werden_hochgeladen_und_ersetzt(db, tmp):
     assert len(imgs) == 2
     hero = [i for i in imgs if i["caption"] == "Teich"][0]
     tafel = [i for i in imgs if i["caption"] == "Tafel"][0]
-    assert hero["status"] == "approved" and hero["kind"] == "ort" and hero["station_id"] is None
+    assert hero["status"] == "approved" and hero["kind"] == "hero" and hero["station_id"] is None
     assert tafel["status"] == "pending" and tafel["station_id"] is not None   # freigabe wartet auf CMS
     for v in ("thumb", "small", "medium"):
         assert ("trail-images", "%s/%s/%s.avif" % (s["id"], hero["id"], v)) in db.storage

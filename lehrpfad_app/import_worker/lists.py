@@ -47,6 +47,8 @@ NACHWEIS = ("belegt", "typisch")
 FORMEN = ("linie", "flaeche")
 LAENDER = ("DE", "DK", "ES")
 BILD_KINDS = ("hero", "station")
+AMENITY_KATEGORIEN = ("wc", "parking", "bench", "picnic", "shelter", "playground", "viewpoint", "gastro")
+POI_KATEGORIEN = ("cafe", "restaurant", "hofladen", "baden", "museum", "aktivitaet", "camping")
 
 # Pflichtabschnitte (Nr. aus der Vorlage)
 PFLICHT_ABSCHNITTE = (1, 2, 3, 4, 6, 7)

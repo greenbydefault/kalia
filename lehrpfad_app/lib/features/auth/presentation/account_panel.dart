@@ -6,16 +6,15 @@ import '../../../app/theme/app_spacing.dart';
 import '../../../core/config/supabase_config.dart';
 import '../../community/data/community_providers.dart';
 import '../data/auth_providers.dart';
-import '../../report/presentation/report_account_tiles.dart';
-import 'account_prefs_sections.dart';
 import 'auth_form.dart';
 
 /// Testversion: Anmelden im Konto-Tab nicht zeigen.
 /// Auf `true` stellen, wenn das Formular wieder sichtbar sein soll.
 bool get _accountSignInVisible => false;
 
-/// Konto-Tab: Login/Register oder Profil, darunter die lokalen Angaben aus
-/// dem Onboarding (Gruppe, Startpunkt), die ohne Konto gelten.
+/// Kopf des Konto-Tabs: Profil mit Zählern oder Login-Formular. Die
+/// Inhalte stehen darunter in den Tabs „Meine Beiträge“ und
+/// „Einstellungen“.
 class AccountPanel extends ConsumerWidget {
   const AccountPanel({super.key});
 
@@ -25,38 +24,15 @@ class AccountPanel extends ConsumerWidget {
         ? ref.watch(authStateProvider).value
         : null;
     final showSignIn = _accountSignInVisible;
-    final showAuthHeader = user != null || showSignIn;
+    if (user == null && !showSignIn) return const SizedBox.shrink();
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          if (showAuthHeader) ...[
-            if (!SupabaseConfig.isConfigured)
-              const _OfflineHint()
-            else if (user != null)
-              _ProfileHeader(user: user)
-            else
-              const AuthForm(),
-            const SizedBox(height: AppSpacing.x8),
-          ],
-          const ReportAccountTiles(),
-          const SizedBox(height: AppSpacing.x6),
-          const GroupPrefsSection(),
-          const SizedBox(height: AppSpacing.x6),
-          const StartpointCard(),
-          if (user != null) ...[
-            const SizedBox(height: AppSpacing.x6),
-            OutlinedButton.icon(
-              onPressed: () =>
-                  ref.read(authControllerProvider.notifier).signOut(),
-              icon: const Icon(Icons.logout),
-              label: const Text('Abmelden'),
-            ),
-          ],
-        ],
-      ),
+      padding: const EdgeInsets.fromLTRB(20, 4, 20, AppSpacing.x4),
+      child: !SupabaseConfig.isConfigured
+          ? const _OfflineHint()
+          : user != null
+          ? _ProfileHeader(user: user)
+          : const AuthForm(),
     );
   }
 }
@@ -91,6 +67,7 @@ class _ProfileHeader extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final name = ref.watch(currentProfileProvider).value?.displayName ?? '';
+    final stats = ref.watch(myContributionStatsProvider);
 
     return Row(
       children: [
@@ -106,10 +83,17 @@ class _ProfileHeader extends ConsumerWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Angemeldet als', style: theme.textTheme.bodySmall),
               Text(
                 name.isNotEmpty ? name : user.email ?? '',
                 style: theme.textTheme.titleMedium,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+              Text(
+                statsLine(stats),
+                style: theme.textTheme.bodySmall,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ],
           ),
@@ -117,4 +101,17 @@ class _ProfileHeader extends ConsumerWidget {
       ],
     );
   }
+}
+
+/// „12 Fotos · 3 in Prüfung · 5 Kommentare“; Nullen entfallen.
+String statsLine(ContributionStats s) {
+  if (s.isEmpty) return 'Noch keine Beiträge';
+  final parts = <String>[
+    if (s.photos > 0) '${s.photos} ${s.photos == 1 ? 'Foto' : 'Fotos'}',
+    if (s.pending > 0) '${s.pending} in Prüfung',
+    if (s.rejected > 0) '${s.rejected} abgelehnt',
+    if (s.comments > 0)
+      '${s.comments} ${s.comments == 1 ? 'Kommentar' : 'Kommentare'}',
+  ];
+  return parts.join(' · ');
 }

@@ -15,12 +15,26 @@ class Steckbrief {
   });
 
   factory Steckbrief.fromJson(Map<String, dynamic> json) => Steckbrief(
-    groesseHa: (json['groesseHa'] as num?)?.toDouble(),
-    alterJahre: json['alterJahre'] as int?,
-    tiefeM: (json['tiefeM'] as num?)?.toDouble(),
+    groesseHa: _double(json['groesseHa']),
+    alterJahre: _int(json['alterJahre']),
+    tiefeM: _double(json['tiefeM']),
     lebenselixier: json['lebenselixier'] as String?,
     werdegang: json['werdegang'] as String?,
   );
+
+  // Importe liefern Zahlen teils als String ("12,5"); beides wird gelesen.
+  static double? _double(Object? v) => v is num
+      ? v.toDouble()
+      : v is String
+      ? double.tryParse(v.replaceAll(',', '.').trim())
+      : null;
+
+  static int? _int(Object? v) => v is num
+      ? v.toInt()
+      : v is String
+      ? int.tryParse(v.trim()) ??
+            double.tryParse(v.replaceAll(',', '.').trim())?.toInt()
+      : null;
 
   Map<String, dynamic> toJson() => {
     'groesseHa': groesseHa,

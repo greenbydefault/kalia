@@ -23,6 +23,27 @@ enum TrailImageStatus {
   };
 }
 
+/// Grund, warum ein Nutzerfoto abgelehnt wurde. [dbValue] steht in
+/// `images.reject_reason`.
+enum RejectReason {
+  blurry('blurry', 'Unscharf'),
+  offTopic('off_topic', 'Kein Bezug zum Pfad'),
+  people('people', 'Personen erkennbar'),
+  rights('rights', 'Rechte unklar'),
+  other('other', 'Sonstiges');
+
+  const RejectReason(this.dbValue, this.label);
+  final String dbValue;
+  final String label;
+
+  static RejectReason? parse(String? value) {
+    for (final r in values) {
+      if (r.dbValue == value) return r;
+    }
+    return null;
+  }
+}
+
 /// Welche Variante aus dem Storage geladen wird.
 /// Dateikonvention: {trailId}/{imageId}/{variant}.webp
 /// (AVIF liegt parallel, nur als Fallback für alte App-Stände.)
@@ -69,6 +90,10 @@ class TrailImage {
   final String thumbhash;
   final String dominantColor;
 
+  /// Grund und Zeitpunkt der Moderationsentscheidung (Migration 0039).
+  final RejectReason? rejectReason;
+  final DateTime? decidedAt;
+
   /// Vorpruefung aus dem Foto-Ort (nur Hinweis). `null` = Altbestand.
   final PhotoGeoCheck? geoCheck;
 
@@ -105,9 +130,12 @@ class TrailImage {
     this.sort = 0,
     this.thumbhash = '',
     this.dominantColor = '',
+    this.rejectReason,
+    this.decidedAt,
   });
 
   bool get isApproved => status == TrailImageStatus.approved;
+  bool get isRejected => status == TrailImageStatus.rejected;
 
   /// Redaktionelles Bild (aus dem Admin-CMS), kein Nutzerfoto.
   bool get isOfficial => source == TrailImageSource.official;

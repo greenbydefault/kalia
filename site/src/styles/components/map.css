@@ -208,6 +208,25 @@
   height: 1.125rem;
 }
 
+/* Handy: Chips schmaler, damit zwei nebeneinander in den ersten Screen passen. Punkt mindestens 44 px. */
+@media (max-width: 59.99rem) {
+  .map-chip {
+    gap: var(--space-1);
+    padding: 0.125rem var(--space-3) 0.125rem 0.125rem;
+    font-size: 0.8125rem;
+  }
+
+  .map-chip__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .map-dot {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
 /* Windmühle (nur wenn die getrennten SVGs vorliegen) */
 
 .mill {

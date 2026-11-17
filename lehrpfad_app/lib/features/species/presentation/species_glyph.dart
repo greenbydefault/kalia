@@ -1,23 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/theme/app_colors.dart';
 import '../domain/species.dart';
+import 'species_illustration.dart';
 
-/// Zentriertes Icon + Name, optional Gesehen-Check und Schloss.
+/// Zentrierte Illustration (sonst Icon) + Name, optional Gesehen-Check.
+///
+/// [silhouette]: noch nicht entdeckt. Dasselbe Icon, nur abgetönt, kein
+/// Schloss und kein Check.
 class SpeciesGlyph extends StatelessWidget {
   const SpeciesGlyph({
     super.key,
     required this.species,
     required this.seen,
     this.iconSize = 28,
-    this.showLock = false,
+    this.illustrationSize,
+    this.silhouette = false,
+    this.showCheck = true,
   });
 
   final Species species;
   final bool seen;
   final double iconSize;
-  final bool showLock;
+
+  /// Kantenlänge der Illustration, Standard 1,5 x [iconSize].
+  final double? illustrationSize;
+  final bool silhouette;
+  final bool showCheck;
 
   @override
   Widget build(BuildContext context) {
@@ -29,18 +38,14 @@ class SpeciesGlyph extends StatelessWidget {
           alignment: Alignment.center,
           clipBehavior: Clip.none,
           children: [
-            PhosphorIcon(
-              species.displayIconEintrag.icon,
-              size: iconSize,
-              color: AppColors.ink,
+            SpeciesIllustration(
+              species: species,
+              size: illustrationSize ?? iconSize * 1.5,
+              iconSize: iconSize,
+              silhouette: silhouette,
+              iconColor: silhouette ? AppColors.n400 : AppColors.ink,
             ),
-            if (showLock && !seen)
-              const Positioned(
-                right: -4,
-                bottom: -4,
-                child: Icon(Icons.lock, size: 16, color: AppColors.ink),
-              ),
-            if (seen)
+            if (seen && showCheck && !silhouette)
               const Positioned(
                 right: -6,
                 top: -6,
@@ -55,7 +60,7 @@ class SpeciesGlyph extends StatelessWidget {
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
           style: theme.textTheme.labelMedium?.copyWith(
-            color: AppColors.ink,
+            color: silhouette ? AppColors.inkMuted : AppColors.ink,
             height: 1.2,
           ),
         ),

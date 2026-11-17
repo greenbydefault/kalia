@@ -4,6 +4,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 import '../../../app/shell_tab_provider.dart';
 import '../../../app/theme/app_spacing.dart';
+import '../../../core/config/app_features.dart';
 import '../../../shared/widgets/app_button.dart';
 import '../../trail/data/providers.dart';
 import '../../trail/domain/trail.dart';
@@ -40,7 +41,9 @@ class MyRoutesScreen extends ConsumerWidget {
         data: (trails) {
           final byId = {for (final t in trails) t.id: t};
           final unterwegs = <Trail>[
-            if (activeWalk != null && byId.containsKey(activeWalk.trailId))
+            if (AppFeatures.tour &&
+                activeWalk != null &&
+                byId.containsKey(activeWalk.trailId))
               byId[activeWalk.trailId]!,
           ];
           final gelaufen = [

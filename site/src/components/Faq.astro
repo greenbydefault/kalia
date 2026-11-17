@@ -1,20 +1,32 @@
 ---
 import { faq } from '../data/faq';
+
+const faqJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+}).replace(/</g, '\\u003c');
 ---
+
+<script type="application/ld+json" is:inline set:html={faqJsonLd} />
 
 <section class="section" id="faq" aria-labelledby="faq-title">
   <div class="container faq-layout">
     <header class="section__head">
       <h2 class="section__title" id="faq-title">Gut zu wissen</h2>
-      <p class="section__lead text-lead">Kurze Antworten auf das, was Familien vor dem Ausflug fragen.</p>
+      <p class="section__lead text-copy">Kurze Antworten auf das, was Familien vor dem Ausflug fragen.</p>
     </header>
     <div class="faq" data-faq>
       {
         faq.map((item) => (
           <details class="faq__item">
-            <summary class="faq__question text-h4">{item.question}</summary>
+            <summary class="faq__question text-h4 text-h4--faq">{item.question}</summary>
             <div class="faq__panel">
-              <p class="faq__answer text-lead">{item.answer}</p>
+              <p class="faq__answer text-copy">{item.answer}</p>
             </div>
           </details>
         ))

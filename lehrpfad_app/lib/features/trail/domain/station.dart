@@ -34,7 +34,10 @@ class Station {
 
   factory Station.fromJson(Map<String, dynamic> json) => Station(
     id: json['id'] as int?,
-    osmId: json['osmId'] as int,
+    // Fehlende osmId (Importpfade): negative Ersatz-ID aus der Reihenfolge, stabil je Trail.
+    osmId:
+        (json['osmId'] as num?)?.toInt() ??
+        -(json['reihenfolge'] as num).toInt(),
     position: LatLng(
       (json['lat'] as num).toDouble(),
       (json['lon'] as num).toDouble(),

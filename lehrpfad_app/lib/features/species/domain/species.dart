@@ -16,6 +16,9 @@ class Species {
   final String imageCredit;
   final String? audioPath;
 
+  /// Illustration (SVG) aus dem CMS; Form wie [imagePath], siehe `MediaUrl`.
+  final String? illustrationPath;
+
   /// Key in [geraeteKatalog]; nur relevant bei [isGeraet].
   final String? iconKey;
 
@@ -40,6 +43,7 @@ class Species {
     this.imagePath,
     this.imageCredit = '',
     this.audioPath,
+    this.illustrationPath,
     this.iconKey,
     this.gruppe = '',
     this.seltenheit = '',
@@ -66,6 +70,8 @@ class Species {
     if (isGeraet) return geraeteEintrag(iconKey);
     return speciesKategorieEintrag(kategorie);
   }
+
+  bool get hasIllustration => (illustrationPath ?? '').isNotEmpty;
 
   /// Play nur mit Audiodatei und eingesprochenem Text. Kurzprofile haben beides nicht.
   bool get hasPlayableAudio {
@@ -111,6 +117,7 @@ class Species {
       imagePath: json['imagePath'] as String?,
       imageCredit: json['imageCredit'] as String? ?? '',
       audioPath: json['audioPath'] as String?,
+      illustrationPath: _nonEmpty(json['illustrationPath'] as String?),
       iconKey: (rawIcon == null || rawIcon.isEmpty) ? null : rawIcon,
       gruppe: json['gruppe'] as String? ?? '',
       seltenheit: json['seltenheit'] as String? ?? '',
@@ -140,6 +147,7 @@ class Species {
     'imagePath': imagePath,
     'imageCredit': imageCredit,
     'audioPath': audioPath,
+    if (illustrationPath != null) 'illustrationPath': illustrationPath,
     if (iconKey != null) 'iconKey': iconKey,
     'gruppe': gruppe,
     'seltenheit': seltenheit,
@@ -151,3 +159,5 @@ class Species {
     'beziehungen': beziehungen.map((b) => b.toJson()).toList(),
   };
 }
+
+String? _nonEmpty(String? v) => (v == null || v.isEmpty) ? null : v;

@@ -68,3 +68,38 @@
 .waitlist__status[data-state='error'] {
   color: var(--color-error);
 }
+
+/* Handy: Headline und Form eine Stufe kleiner, Button unter dem Feld mittig */
+@media (max-width: 47.99rem) {
+  .hero {
+    padding-top: var(--space-5);
+  }
+
+  .hero__inner {
+    gap: var(--space-4);
+  }
+
+  .hero__title {
+    font-size: 2rem; /* 32, unter der Display-Stufe */
+  }
+
+  .hero__lead {
+    font-size: 1rem;
+  }
+
+  .waitlist {
+    width: min(100%, 20rem);
+  }
+
+  .waitlist__row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .waitlist__input {
+    width: 100%;
+    flex: none;
+    min-height: 2.75rem;
+    font-size: 1rem; /* 16, sonst zoomt iOS beim Fokussieren */
+  }
+}

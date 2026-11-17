@@ -27,9 +27,17 @@ function lane(w: number, dir: 1 | -1) {
 export function buildPositionsCss(): string {
   const out: string[] = ['/* GENERIERT aus data/map-points.ts und data/ambient.ts. Nicht von Hand ändern. */'];
 
-  // Pins
+  // Pins. mobile überschreibt unter 60rem (dort ist die Karte beschnitten und breiter als der Screen).
   for (const p of mapPoints) {
     out.push(`.map__point--${p.id} { --x: ${p.x}; --y: ${p.y}; }`);
+  }
+  const mobilePins = mapPoints.filter((p) => p.mobile);
+  if (mobilePins.length) {
+    out.push('@media (max-width: 59.99rem) {');
+    for (const p of mobilePins) {
+      out.push(`  .map__point--${p.id} { --x: ${p.mobile!.x}; --y: ${p.mobile!.y}; }`);
+    }
+    out.push('}');
   }
 
   // Wolken (samt Schatten)

@@ -208,7 +208,7 @@ h4,
 }
 
 .button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-0.125rem);
 }
 
 .button:active {

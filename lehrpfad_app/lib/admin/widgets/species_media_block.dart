@@ -1,6 +1,7 @@
 import 'package:file_selector/file_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_avif/flutter_avif.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:just_audio/just_audio.dart';
 
 import '../../app/theme/app_colors.dart';
@@ -22,6 +23,13 @@ const _creditSpec = FieldSpec(
   'Bildquelle / Lizenz',
   FieldKind.text,
 );
+const _illustrationPathSpec = FieldSpec(
+  'illustration_path',
+  'Illustration',
+  FieldKind.text,
+  nullable: true,
+);
+const _svgTypes = XTypeGroup(label: 'SVG', extensions: ['svg']);
 const _audioPathSpec = FieldSpec(
   'audio_path',
   'Audio',
@@ -30,7 +38,7 @@ const _audioPathSpec = FieldSpec(
 );
 const _audioTypes = XTypeGroup(label: 'Audio', extensions: ['mp3', 'm4a']);
 
-/// Bild und Audio einer Art. Uploads landen im Bucket `catalog-media`,
+/// Foto, Illustration und Audio einer Art. Uploads landen im Bucket `catalog-media`,
 /// die Spalten halten `storage:`-Pfade (siehe [MediaUrl]).
 class SpeciesMediaBlock extends StatefulWidget {
   const SpeciesMediaBlock({super.key, required this.ctx});
@@ -45,10 +53,12 @@ class _SpeciesMediaBlockState extends State<SpeciesMediaBlock> {
   late final AdminMediaService _media = AdminMediaService(widget.ctx.client);
   final _player = AudioPlayer();
   bool _busyImage = false;
+  bool _busyIllu = false;
   bool _busyAudio = false;
   bool _playing = false;
 
   String get _image => widget.ctx.row['image_path'] as String? ?? '';
+  String get _illu => widget.ctx.row['illustration_path'] as String? ?? '';
   String get _audio => widget.ctx.row['audio_path'] as String? ?? '';
 
   @override
@@ -103,6 +113,54 @@ class _SpeciesMediaBlockState extends State<SpeciesMediaBlock> {
     } finally {
       if (mounted) setState(() => _busyImage = false);
     }
+  }
+
+  Future<void> _uploadIllustration() async {
+    final file = await openFile(acceptedTypeGroups: const [_svgTypes]);
+    if (file == null) return;
+    setState(() => _busyIllu = true);
+    try {
+      final bytes = await file.readAsBytes();
+      final head = String.fromCharCodes(
+        bytes.length > 4096 ? bytes.sublist(0, 4096) : bytes,
+      );
+      if (!head.contains('<svg')) throw 'Keine gültige SVG-Datei.';
+      if (String.fromCharCodes(bytes).contains('<script')) {
+        throw 'SVG enthält ein Script und wird nicht hochgeladen.';
+      }
+      final path = await _media.uploadSpeciesIllustration(widget.ctx.id, bytes);
+      await _replace(_illustrationPathSpec, _illu, path);
+    } catch (e) {
+      _toast(e);
+    } finally {
+      if (mounted) setState(() => _busyIllu = false);
+    }
+  }
+
+  Widget _illuPreview() {
+    const size = 160.0;
+    final url = _illu.isEmpty ? null : MediaUrl.resolve(_illu);
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: SizedBox(
+        width: size,
+        height: size,
+        child: ColoredBox(
+          color: AppColors.n100,
+          child: url == null
+              ? const Icon(Icons.draw_outlined, color: AppColors.n400)
+              : Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: SvgPicture.network(
+                    url,
+                    fit: BoxFit.contain,
+                    placeholderBuilder: (_) =>
+                        const Center(child: CircularProgressIndicator()),
+                  ),
+                ),
+        ),
+      ),
+    );
   }
 
   Future<void> _uploadAudio() async {
@@ -247,6 +305,60 @@ class _SpeciesMediaBlockState extends State<SpeciesMediaBlock> {
                   if (_image.isNotEmpty) ...[
                     const SizedBox(height: 6),
                     Text(_image, style: muted, overflow: TextOverflow.ellipsis),
+                  ],
+                ],
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 20),
+        Text('Illustration (SVG)', style: theme.textTheme.labelMedium),
+        const SizedBox(height: 6),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _illuPreview(),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Wrap(
+                    spacing: 8,
+                    children: [
+                      OutlinedButton.icon(
+                        onPressed: _busyIllu ? null : _uploadIllustration,
+                        icon: _busyIllu
+                            ? const SizedBox(
+                                width: 14,
+                                height: 14,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                ),
+                              )
+                            : const Icon(Icons.upload_outlined, size: 18),
+                        label: Text(
+                          _illu.isEmpty
+                              ? 'Illustration hochladen'
+                              : 'Illustration ersetzen',
+                        ),
+                      ),
+                      if (_illu.isNotEmpty)
+                        TextButton(
+                          onPressed: _busyIllu
+                              ? null
+                              : () => _replace(
+                                  _illustrationPathSpec,
+                                  _illu,
+                                  null,
+                                ),
+                          child: const Text('Entfernen'),
+                        ),
+                    ],
+                  ),
+                  if (_illu.isNotEmpty) ...[
+                    const SizedBox(height: 6),
+                    Text(_illu, style: muted, overflow: TextOverflow.ellipsis),
                   ],
                 ],
               ),

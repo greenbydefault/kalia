@@ -43,6 +43,26 @@ class AudioAssetSource extends ResolvedAudio {
   final String path;
 }
 
+/// Quelle einer Illustration (SVG), vom Resolver vorgeschlagen.
+sealed class ResolvedIllustration {
+  const ResolvedIllustration();
+}
+
+class IllustrationFile extends ResolvedIllustration {
+  const IllustrationFile(this.path);
+  final String path;
+}
+
+class IllustrationUrl extends ResolvedIllustration {
+  const IllustrationUrl(this.url);
+  final String url;
+}
+
+class IllustrationAsset extends ResolvedIllustration {
+  const IllustrationAsset(this.path);
+  final String path;
+}
+
 /// Einziger Ort, der entscheidet, woher ein Medium kommt. Die UI fragt nach
 /// einem [AssetRef], nie nach Pfaden oder Buckets.
 ///
@@ -109,5 +129,17 @@ class AssetResolver {
     final url = MediaUrl.resolve(ref.path, supabaseUrl: _base);
     if (url != null) return online ? AudioUrlSource(url) : null;
     return AudioAssetSource(ref.path);
+  }
+
+  /// Illustration: lokale Datei im [FileStore] → URL (Disk-Cache und
+  /// Offline-Fall regelt der Aufrufer) → gebündeltes Asset. `null` ohne Pfad.
+  ResolvedIllustration? illustration(IllustrationRef ref) {
+    if (ref.path.isEmpty) return null;
+    final local = _files.pathIfExists(ref.fileKey());
+    if (local != null) return IllustrationFile(local);
+    final url = MediaUrl.resolve(ref.path, supabaseUrl: _base);
+    if (url != null) return IllustrationUrl(url);
+    if (MediaUrl.isNetwork(ref.path)) return null; // storage: ohne Basis-URL
+    return IllustrationAsset(ref.path);
   }
 }

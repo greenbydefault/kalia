@@ -159,7 +159,7 @@ class ImageUploadService implements ImageUploader {
     try {
       await _client.from('images').insert(row);
     } on PostgrestException catch (e) {
-      if (e.code != '42703') rethrow;
+      if (e.code != '42703' && e.code != 'PGRST204') rethrow;
       row.remove('thumbhash');
       row.remove('dominant_color');
       await _client.from('images').insert(row);

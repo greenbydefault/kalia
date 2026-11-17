@@ -5,6 +5,7 @@ import '../../../core/config/supabase_client_provider.dart';
 import '../../trail/data/providers.dart';
 import '../domain/report_enums.dart';
 import '../domain/report_models.dart';
+import '../logic/geo.dart';
 import 'report_providers.dart';
 
 SubmissionStatus? submissionStatusFromWire(String? w) => switch (w) {
@@ -57,6 +58,70 @@ class ReportEvent {
   final String event;
   final DateTime at;
   final Map<String, dynamic> payload;
+}
+
+/// Track und Marker einer eingereichten Meldung (Antwort von
+/// `my_submission_geo`).
+class SubmissionGeo {
+  const SubmissionGeo({this.segments = const [], this.points = const []});
+
+  final TrackSegments segments;
+  final List<DraftPoint> points;
+}
+
+/// `track` ist GeoJSON-MultiLineString (`[[[lng, lat], ...], ...]`).
+SubmissionGeo parseSubmissionGeo(Object? json, String draftId) {
+  if (json is! Map) return const SubmissionGeo();
+  final segments = <List<TrackPoint>>[];
+  final track = json['track'];
+  if (track is List) {
+    for (final seg in track) {
+      if (seg is! List) continue;
+      final line = <TrackPoint>[];
+      for (final c in seg) {
+        if (c is List && c.length >= 2) {
+          line.add(
+            TrackPoint((c[1] as num).toDouble(), (c[0] as num).toDouble()),
+          );
+        }
+      }
+      if (line.length >= 2) segments.add(line);
+    }
+  }
+  final points = <DraftPoint>[];
+  final raw = json['points'];
+  if (raw is List) {
+    for (final p in raw) {
+      if (p is! Map) continue;
+      final lat = p['lat'];
+      final lng = p['lng'];
+      if (lat is! num || lng is! num) continue;
+      final type = PointType.values
+          .where((t) => t.name == p['type'])
+          .firstOrNull;
+      if (type == null) continue;
+      points.add(
+        DraftPoint(
+          id: '${p['id']}',
+          draftId: draftId,
+          type: type,
+          seq: (p['seq'] as num?)?.toInt() ?? points.length,
+          number: (p['number'] as num?)?.toInt(),
+          title: p['title'] as String?,
+          hintKind: HintKind.values
+              .where((h) => h.name == p['hint_kind'])
+              .firstOrNull,
+          lat: lat.toDouble(),
+          lng: lng.toDouble(),
+          accuracyM: (p['accuracy_m'] as num?)?.toDouble() ?? 0,
+          fixCount: (p['fix_count'] as num?)?.toInt() ?? 1,
+          lowAccuracy: (p['low_accuracy'] as bool?) ?? false,
+          recordedOn: DateTime.now(),
+        ),
+      );
+    }
+  }
+  return SubmissionGeo(segments: segments, points: points);
 }
 
 final reportServerProvider = Provider<ReportServer>((ref) => ReportServer(ref));
@@ -197,6 +262,17 @@ class ReportServer {
           payload: (r['payload'] as Map?)?.cast<String, dynamic>() ?? const {},
         ),
     ];
+  }
+
+  /// Track und Marker der eigenen Meldung (für die Detailkarte).
+  Future<SubmissionGeo> geo(String serverId, String draftId) async {
+    final client = _client;
+    if (client == null) return const SubmissionGeo();
+    final res = await client.rpc<dynamic>(
+      'my_submission_geo',
+      params: {'p_submission_id': serverId},
+    );
+    return parseSubmissionGeo(res, draftId);
   }
 
   Future<void> reply(String serverId, String text) async {

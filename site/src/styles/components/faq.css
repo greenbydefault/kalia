@@ -16,6 +16,12 @@
   cursor: pointer;
 }
 
+/* Kombo auf .text-h4: nur die FAQ-Frage, −5 Entwurfspixel, nie unter dem Lead daneben.
+   Desktop 28 → 23. Tablet und Mobile deckelt der Lead (24 → 20, 22 → 18). */
+.text-h4.text-h4--faq {
+  font-size: max(var(--text-lead), calc(var(--text-h4) - 0.3125rem));
+}
+
 .faq__question::-webkit-details-marker {
   display: none;
 }
@@ -25,8 +31,8 @@
   flex: none;
   width: 0.625rem;
   height: 0.625rem;
-  border-right: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
+  border-right: 0.125rem solid currentColor;
+  border-bottom: 0.125rem solid currentColor;
   transform: rotate(45deg);
   transition: transform var(--duration-base) var(--ease-out);
 }

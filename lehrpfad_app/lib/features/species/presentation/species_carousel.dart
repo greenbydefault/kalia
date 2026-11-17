@@ -13,12 +13,16 @@ class SpeciesCarousel extends StatelessWidget {
     required this.seenIds,
     required this.onTap,
     this.layout = ContentCarouselLayout.peek,
+    this.trailId,
   });
 
   final List<Species> species;
   final Set<String> seenIds;
   final ValueChanged<Species> onTap;
   final ContentCarouselLayout layout;
+
+  /// Trail-Kontext fürs Entdecken (Pfad des Funds).
+  final String? trailId;
 
   SpeciesTileLayout get _tileLayout => switch (layout) {
     ContentCarouselLayout.peek => SpeciesTileLayout.peek,
@@ -35,6 +39,7 @@ class SpeciesCarousel extends StatelessWidget {
         seen: seenIds.contains(s.id),
         onTap: () => onTap(s),
         layout: _tileLayout,
+        trailId: trailId,
       ),
     );
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/shell_tab_provider.dart';
+import '../../../core/config/app_features.dart';
 import '../../location/location_consent_sheet.dart';
 import '../../location/location_gate.dart';
 import '../../nearby_trails/data/karte_state.dart';
@@ -25,7 +26,7 @@ Future<void> openTrailOnMap(
   ref.read(selectedTrailProvider.notifier).select(trail);
   ref.read(shellTabIndexProvider.notifier).goToMap();
   if (detail) ref.read(detailAnfrageProvider.notifier).trigger();
-  if (!resume) return;
+  if (!resume || !AppFeatures.tour) return;
   final walk = ref.read(activeWalkProvider).asData?.value;
   if (walk == null || walk.trailId != trail.id) return;
   try {

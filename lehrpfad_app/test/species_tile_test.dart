@@ -2,24 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/features/species/data/hybrid_sightings_repository.dart';
-import 'package:lehrpfad_app/features/species/data/local_sightings_store.dart';
 import 'package:lehrpfad_app/features/species/data/species_providers.dart';
 import 'package:lehrpfad_app/features/species/domain/species.dart';
 import 'package:lehrpfad_app/features/species/domain/species_content.dart';
 import 'package:lehrpfad_app/features/species/presentation/species_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class _MemoryStore implements SightingsStore {
-  Set<String> ids = {};
-
-  @override
-  Future<Set<String>> read() async => {...ids};
-
-  @override
-  Future<void> write(Set<String> next) async {
-    ids = {...next};
-  }
-}
+import 'support/memory_funde_store.dart';
 
 const _biber = Species(
   id: 'biber',
@@ -102,7 +91,7 @@ void main() {
   }
 
   testWidgets('Peek-Karte zeigt Name und Hook', (tester) async {
-    final repo = HybridSightingsRepository(local: _MemoryStore());
+    final repo = HybridSightingsRepository(local: MemoryFundeStore());
     await pumpTile(tester, species: _biber, repo: repo);
     await tester.pumpAndSettle();
 
@@ -111,7 +100,7 @@ void main() {
   });
 
   testWidgets('Auge toggelt Seen ohne Karten-Tap', (tester) async {
-    final store = _MemoryStore();
+    final store = MemoryFundeStore();
     final repo = HybridSightingsRepository(local: store);
     var cardTaps = 0;
 
@@ -123,17 +112,17 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    expect(find.byTooltip('Als gesehen markieren'), findsOneWidget);
-    await tester.tap(find.byTooltip('Als gesehen markieren'));
+    expect(find.byTooltip('Hab gesehen'), findsOneWidget);
+    await tester.tap(find.byTooltip('Hab gesehen'));
     await tester.pumpAndSettle();
 
     expect(cardTaps, 0);
-    expect(await store.read(), {'biber'});
-    expect(find.byTooltip('Gesehen, Markierung aufheben'), findsOneWidget);
+    expect(store.ids, {'biber'});
+    expect(find.byTooltip('Gesehen'), findsOneWidget);
   });
 
   testWidgets('Play fehlt ohne audioPath, ist da mit audioPath', (tester) async {
-    final repo = HybridSightingsRepository(local: _MemoryStore());
+    final repo = HybridSightingsRepository(local: MemoryFundeStore());
 
     await pumpTile(tester, species: _biber, repo: repo);
     await tester.pumpAndSettle();
@@ -149,7 +138,7 @@ void main() {
   });
 
   testWidgets('Play-Tap öffnet die Karte nicht', (tester) async {
-    final repo = HybridSightingsRepository(local: _MemoryStore());
+    final repo = HybridSightingsRepository(local: MemoryFundeStore());
     var cardTaps = 0;
 
     await pumpTile(
@@ -167,7 +156,7 @@ void main() {
   });
 
   testWidgets('Karten-Tap feuert onTap', (tester) async {
-    final repo = HybridSightingsRepository(local: _MemoryStore());
+    final repo = HybridSightingsRepository(local: MemoryFundeStore());
     var cardTaps = 0;
 
     await pumpTile(

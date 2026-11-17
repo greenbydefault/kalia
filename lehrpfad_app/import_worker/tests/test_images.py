@@ -95,7 +95,7 @@ def test_process_bilder(tmp_path):
     ]
     r = images.process_bilder(str(root), "pfad", rows, [], [], False, find_file)
     assert [x["status"] for x in r["bilder"]] == ["approved", "pending"]
-    assert r["bilder"][0]["kind"] == "ort" and r["bilder"][1]["kind"] == "station"
+    assert r["bilder"][0]["kind"] == "hero" and r["bilder"][1]["kind"] == "station"
     assert r["bilder"][1]["station_reihenfolge"] == 3
     codes = sorted(i["code"] for i in r["issues"])
     assert codes == ["BILD_LIZENZ", "DATEI_FEHLT", "DATEI_FEHLT"]

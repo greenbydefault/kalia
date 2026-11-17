@@ -65,7 +65,7 @@
   flex: 1;
   align-items: center;
   justify-content: space-between;
-  gap: 2px;
+  gap: 0.125rem;
   min-width: 0;
   height: var(--audio-wave-h);
   cursor: pointer;
@@ -78,9 +78,9 @@
 
 .audio__bar {
   flex: 1 1 0;
-  min-width: 1px;
-  max-width: 3px;
-  border-radius: 1px;
+  min-width: 0.125rem;
+  max-width: 0.25rem;
+  border-radius: 0.125rem;
   background: var(--color-wave);
   opacity: 0.35;
   transform-origin: 50% 50%;

@@ -16,6 +16,7 @@ import '../data/report_uploader.dart';
 import '../domain/report_enums.dart';
 import '../domain/report_models.dart';
 import '../logic/draft_transitions.dart';
+import '../logic/geo.dart';
 import '../report_copy.dart';
 import 'report_hub.dart';
 import 'report_labels.dart';
@@ -37,6 +38,7 @@ class _ReportDetailScreenState extends ConsumerState<ReportDetailScreen> {
   final _reply = TextEditingController();
   List<ReportEvent> _events = const [];
   List<DraftPoint> _points = const [];
+  TrackSegments _segments = const [];
   bool _busy = false;
 
   @override
@@ -64,12 +66,19 @@ class _ReportDetailScreenState extends ConsumerState<ReportDetailScreen> {
     final d = _draft;
     if (d == null) return;
     final store = ref.read(reportDraftStoreProvider);
-    final points = await store.points(d.id);
+    var points = await store.points(d.id);
     List<ReportEvent> events = const [];
+    TrackSegments segments = const [];
     if (d.serverId != null) {
       unawaited(ref.read(reportServerProvider).refresh());
       try {
         events = await ref.read(reportServerProvider).events(d.serverId!);
+      } catch (_) {}
+      // Der lokale Track ist nach dem Upload gelöscht: vom Server holen.
+      try {
+        final geo = await ref.read(reportServerProvider).geo(d.serverId!, d.id);
+        segments = geo.segments;
+        if (points.isEmpty) points = geo.points;
       } catch (_) {}
     }
     // Gesehen: Punkt in R7 verschwindet.
@@ -84,6 +93,7 @@ class _ReportDetailScreenState extends ConsumerState<ReportDetailScreen> {
     if (!mounted) return;
     setState(() {
       _points = points;
+      _segments = segments;
       _events = events;
     });
   }
@@ -214,13 +224,16 @@ class _ReportDetailScreenState extends ConsumerState<ReportDetailScreen> {
       body: ListView(
         padding: const EdgeInsets.all(AppSpacing.page),
         children: [
-          if (_points.isNotEmpty)
+          if (_points.isNotEmpty || _segments.isNotEmpty)
             SizedBox(
               height: 200,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(AppSpacing.x3),
                 child: ReportMap(
+                  // Neu bauen, sobald der Track geladen ist (Kamera-Fit).
+                  key: ValueKey('${_segments.length}-${_points.length}'),
                   controller: _map,
+                  segments: _segments,
                   points: _points,
                   interactive: false,
                 ),

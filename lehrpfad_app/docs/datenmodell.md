@@ -150,6 +150,7 @@ Katalog in `assets/seed/species.json` / Tabelle `species`.
 | `iconKey` | string? | nein | nur `geraete`; Key aus `geraeteKatalog` (IconData nie im JSON) |
 | `aliases` | string[] | nein |
 | `imagePath` / `imageCredit` / `audioPath` | | nein | Drei Formen: `assets/…` (gebündelt), `https://…`, `storage:catalog-media/<pfad>` (Upload aus dem Admin-CMS, Bucket `catalog-media`). Auflösung: `MediaUrl.resolve` |
+| `illustrationPath` | string? | nein | Illustration (SVG), nicht das Foto. `storage:catalog-media/species/<id>/illu-<ts>.svg` (Admin-CMS), Spalte `illustration_path`. Eine Quelle für App und Landingpage (`site/src/data/illustrations.json`). Fehlt sie, zeigt die App das Kategorie-Icon |
 | `gruppe` | string | flora/fauna | Key aus `speciesGruppeKatalog` |
 | `seltenheit` | string | flora/fauna | Key aus `seltenheitKatalog` |
 | `gefahr` | int 1–5 | flora/fauna | |

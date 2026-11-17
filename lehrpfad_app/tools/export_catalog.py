@@ -409,6 +409,11 @@ def export_species(dry):
             s["audioPath"] = r["audio_path"]
         else:
             s.pop("audioPath", None)
+        # Illustration (CMS-Master, nur DB -> Seed, nie zurueck: seed_sql/resolve_arten fassen die Spalte nicht an)
+        if r.get("illustration_path"):
+            s["illustrationPath"] = r["illustration_path"]
+        else:
+            s.pop("illustrationPath", None)
         if r.get("icon_key"):
             s["iconKey"] = r["icon_key"]
         else:

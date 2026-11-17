@@ -32,7 +32,10 @@ Future<String?> askText(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              if (message != null) ...[Text(message), const SizedBox(height: 12)],
+              if (message != null) ...[
+                Text(message),
+                const SizedBox(height: 12),
+              ],
               TextField(
                 controller: c,
                 autofocus: true,
@@ -84,9 +87,7 @@ Future<({String frage, String adressat})?> askQuestion(
                 autofocus: true,
                 minLines: 3,
                 maxLines: 6,
-                decoration: const InputDecoration(
-                  hintText: 'Was ist unklar?',
-                ),
+                decoration: const InputDecoration(hintText: 'Was ist unklar?'),
                 onChanged: (_) => set(() {}),
               ),
               const SizedBox(height: 12),
@@ -465,11 +466,8 @@ Future<DbRow?> stationDialog(
 }) {
   return showDialog<DbRow>(
     context: context,
-    builder: (_) => _StationDialog(
-      route: route,
-      center: center,
-      reihenfolge: reihenfolge,
-    ),
+    builder: (_) =>
+        _StationDialog(route: route, center: center, reihenfolge: reihenfolge),
   );
 }
 

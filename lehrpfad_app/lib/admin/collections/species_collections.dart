@@ -141,6 +141,7 @@ CollectionSpec _speciesCollection({
     filterValue: id,
     listColumns:
         'id,name_de,name_lat,kategorie,gruppe,kurztext,image_path,audio_path,'
+        'illustration_path,'
         'hoertext:content->>hoertext,tiefe:content->>tiefe',
     subtitle: (r) {
       final lat = (r['name_lat'] as String?) ?? '';
@@ -152,6 +153,8 @@ CollectionSpec _speciesCollection({
         : [],
     gaps: (r) => [
       if (((r['kurztext'] as String?) ?? '').trim().isEmpty) 'Kurztext fehlt',
+      if (profile && ((r['illustration_path'] as String?) ?? '').isEmpty)
+        'Illustration fehlt',
       if (r['tiefe'] != 'kurz' &&
           ((r['hoertext'] as String?) ?? '').trim().isEmpty)
         'Hörtext fehlt',

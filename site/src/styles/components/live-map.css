@@ -89,7 +89,7 @@
   width: 2rem;
   height: 2.25rem;
   transform-origin: 50% 100%;
-  filter: drop-shadow(0 0.15rem 0.2rem rgb(27 38 34 / 0.35));
+  filter: drop-shadow(0 0.125rem 0.25rem rgb(27 38 34 / 0.35));
 }
 
 .live-pin svg {
@@ -106,7 +106,7 @@
   place-items: center;
   width: 2.5rem;
   height: 2.5rem;
-  border: 2px solid #7f8561;
+  border: 0.125rem solid #7f8561;
   border-radius: 50%;
   background: #313930;
   color: #fbfffb;
@@ -130,8 +130,8 @@
 .live-pin:focus-visible,
 .live-cluster:focus-visible {
   box-shadow: none;
-  outline: 2px solid var(--color-ink);
-  outline-offset: 3px;
+  outline: 0.125rem solid var(--color-ink);
+  outline-offset: 0.125rem;
   border-radius: 0.5rem;
 }
 
@@ -239,7 +239,7 @@
 
 .live-pop .pop__title {
   margin: 0.125rem 0;
-  font-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+  font-size: clamp(1.125rem, 1rem + 0.3vw, 1.25rem);
   line-height: 1.2;
   overflow-wrap: anywhere;
   hyphens: auto;

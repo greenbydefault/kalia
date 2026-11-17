@@ -108,7 +108,9 @@ class _ImportPageState extends ConsumerState<ImportPage> {
         Text(
           'Dossier als .docx oder .zip hochladen. Der Worker prüft sie, danach landen sie hier zur Durchsicht. '
           'Angelegt wird erst nach deinem Klick.',
-          style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.inkMuted),
+          style: theme.textTheme.bodyMedium?.copyWith(
+            color: AppColors.inkMuted,
+          ),
         ),
         const SizedBox(height: 20),
         _Dropzone(
@@ -216,8 +218,8 @@ class _JobRow extends StatelessWidget {
     final color = switch (job.status) {
       ImportStatus.fehlgeschlagen => AppColors.statusError,
       ImportStatus.bereit => AppColors.statusOk,
-      ImportStatus.wartetAufKlaerung || ImportStatus.vorschlag =>
-        AppColors.statusInfo,
+      ImportStatus.wartetAufKlaerung ||
+      ImportStatus.vorschlag => AppColors.statusInfo,
       ImportStatus.laeuft || ImportStatus.wartet => AppColors.statusWarn,
       _ => AppColors.n500,
     };
@@ -295,7 +297,10 @@ class _JobRow extends StatelessWidget {
                   ),
               ],
               if (onRetry != null)
-                TextButton(onPressed: onRetry, child: const Text('Neu starten')),
+                TextButton(
+                  onPressed: onRetry,
+                  child: const Text('Neu starten'),
+                ),
               const Icon(Icons.chevron_right, color: AppColors.n400),
             ],
           ),
@@ -338,7 +343,9 @@ class _DropzoneState extends State<_Dropzone> {
   var _priority = false;
   List<_Picked> _files = const [];
 
-  Future<void> _add(List<({String name, Future<Uint8List> Function() read})> raw) async {
+  Future<void> _add(
+    List<({String name, Future<Uint8List> Function() read})> raw,
+  ) async {
     final dossier = raw.where((f) {
       final n = f.name.toLowerCase();
       return n.endsWith('.zip') || n.endsWith('.docx');
@@ -381,7 +388,10 @@ class _DropzoneState extends State<_Dropzone> {
   Future<void> _pick() async {
     final files = await openFiles(
       acceptedTypeGroups: const [
-        XTypeGroup(label: 'Dossier (.docx oder .zip)', extensions: ['docx', 'zip']),
+        XTypeGroup(
+          label: 'Dossier (.docx oder .zip)',
+          extensions: ['docx', 'zip'],
+        ),
       ],
     );
     if (files.isEmpty) return;
@@ -389,7 +399,9 @@ class _DropzoneState extends State<_Dropzone> {
   }
 
   Future<void> _upload() async {
-    final todo = _files.where((f) => f.status != 'bereits_importiert' && !f.done).toList();
+    final todo = _files
+        .where((f) => f.status != 'bereits_importiert' && !f.done)
+        .toList();
     if (todo.isEmpty) return;
     setState(() => _uploading = true);
     try {
@@ -454,7 +466,9 @@ class _DropzoneState extends State<_Dropzone> {
         duration: const Duration(milliseconds: 120),
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: _hover ? AppColors.statusInfo.withValues(alpha: 0.08) : AppColors.n50,
+          color: _hover
+              ? AppColors.statusInfo.withValues(alpha: 0.08)
+              : AppColors.n50,
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
             color: _hover ? AppColors.statusInfo : AppColors.n300,
@@ -524,7 +538,9 @@ class _DropzoneState extends State<_Dropzone> {
                         onPressed: _uploading
                             ? null
                             : () => setState(
-                                () => _files = _files.where((x) => x != f).toList(),
+                                () => _files = _files
+                                    .where((x) => x != f)
+                                    .toList(),
                               ),
                       ),
                     ],
@@ -581,12 +597,16 @@ class _BatchDialog extends StatefulWidget {
 }
 
 class _BatchDialogState extends State<_BatchDialog> {
-  late final Future<Map<String, dynamic>> _f = widget.repo.batchStats(widget.batchId);
+  late final Future<Map<String, dynamic>> _f = widget.repo.batchStats(
+    widget.batchId,
+  );
 
   String _title(String code) {
     final m = widget.messages;
     if (m == null || !m.has(code)) return code;
-    return m.render(ReportEntry(code: code, severity: Severity.warnung, feld: '')).titel;
+    return m
+        .render(ReportEntry(code: code, severity: Severity.warnung, feld: ''))
+        .titel;
   }
 
   @override
@@ -627,7 +647,9 @@ class _BatchDialogState extends State<_BatchDialog> {
                       padding: const EdgeInsets.symmetric(vertical: 2),
                       child: Row(
                         children: [
-                          Expanded(child: Text(_title('${(c as Map)['code']}'))),
+                          Expanded(
+                            child: Text(_title('${(c as Map)['code']}')),
+                          ),
                           Text('${c['pfade']} Pfade · ${c['prozent']} %'),
                         ],
                       ),

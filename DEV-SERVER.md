@@ -51,6 +51,16 @@ flutter run -d web-server --web-port=8080 \
 - Agent holt sie bei Bedarf über Supabase MCP **`user-supabase-ako`** (`get_project_url`, `get_publishable_keys`).
 - **Ohne** Defines: App läuft gegen lokalen Seed (Offline-Entwicklung).
 
+## Feature-Switches
+
+Zentral in `lib/core/config/app_features.dart`. Tour-Modus (Button „Starten“, Pausen-Leiste, „Unterwegs“) ist in v1 aus. Lokal einschalten:
+
+```bash
+flutter run -d web-server --web-port=8080 --dart-define=FEATURE_TOUR=true
+```
+
+Dauerhaft an: `defaultValue: true` in `AppFeatures.tour`.
+
 ## Admin-CMS
 
 Eigener Einstieg `lib/admin/admin_main.dart`, **immer mit Supabase-Defines** (ohne sie zeigt die Seite nur einen Hinweis):

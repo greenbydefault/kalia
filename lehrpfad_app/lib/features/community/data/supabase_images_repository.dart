@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../domain/photo_geo_check.dart';
@@ -35,25 +36,72 @@ class SupabaseImagesRepository implements ImagesRepository {
   @override
   Future<List<TrailImage>> getImages(String trailId) async {
     try {
-      return await _select('$_columns, $_cmsColumns, $_placeholderColumns',
-          trailId: trailId);
+      return await _select(
+        '$_columns, $_cmsColumns, $_placeholderColumns',
+        trailId: trailId,
+      );
     } on PostgrestException catch (e) {
-      if (e.code != '42703') rethrow;
+      if (e.code != '42703' && e.code != 'PGRST204') rethrow;
       try {
         return await _select('$_columns, $_cmsColumns', trailId: trailId);
       } on PostgrestException catch (e2) {
-        if (e2.code != '42703') rethrow;
+        if (e2.code != '42703' && e2.code != 'PGRST204') rethrow;
         return _select(_columns, trailId: trailId);
       }
     }
   }
 
-  Future<List<TrailImage>> _select(String columns, {required String trailId}) async {
+  Future<List<TrailImage>> _select(
+    String columns, {
+    required String trailId,
+  }) async {
     final rows = await _client
         .from('images')
         .select(columns)
         .eq('trail_id', trailId)
+        // Abgelehnte bleiben in der DB (Konto zeigt Grund), gehoeren aber
+        // nie in die Trail-Galerie, auch nicht fuer den Uploader.
+        .neq('status', 'rejected')
         .order('created_at');
+    return rows.map(_rowToImage).toList();
+  }
+
+  /// Entscheidungsspalten (Migration 0039).
+  static const _decisionColumns = 'reject_reason, decided_at';
+
+  @override
+  Future<List<TrailImage>> getMyImages() async {
+    final uid = _client.auth.currentUser?.id;
+    if (uid == null) return const <TrailImage>[];
+    try {
+      return await _mine(
+        '$_columns, $_decisionColumns, $_placeholderColumns',
+        uid,
+      );
+    } on PostgrestException catch (e) {
+      if (e.code != '42703' && e.code != 'PGRST204') rethrow;
+      return _mine(_columns, uid);
+    }
+  }
+
+  Future<List<TrailImage>> _mine(String columns, String uid) async {
+    final rows = await _client
+        .from('images')
+        .select(columns)
+        .eq('uploader_id', uid)
+        .eq('source', 'user')
+        .order('created_at', ascending: false);
+    return rows.map(_rowToImage).toList();
+  }
+
+  @override
+  Future<List<TrailImage>> getRejectedBefore(DateTime before) async {
+    final rows = await _client
+        .from('images')
+        .select('$_columns, $_decisionColumns')
+        .eq('status', 'rejected')
+        .lt('decided_at', before.toUtc().toIso8601String())
+        .order('decided_at');
     return rows.map(_rowToImage).toList();
   }
 
@@ -62,7 +110,7 @@ class SupabaseImagesRepository implements ImagesRepository {
     try {
       return await _pending('$_pendingColumns, $_placeholderColumns');
     } on PostgrestException catch (e) {
-      if (e.code != '42703') rethrow;
+      if (e.code != '42703' && e.code != 'PGRST204') rethrow;
       return _pending(_pendingColumns);
     }
   }
@@ -80,8 +128,33 @@ class SupabaseImagesRepository implements ImagesRepository {
   Future<void> setImageStatus(String imageId, TrailImageStatus status) {
     return _client
         .from('images')
-        .update({'status': status.name})
+        .update({
+          'status': status.name,
+          'decided_at': DateTime.now().toUtc().toIso8601String(),
+          'reject_reason': null,
+        })
         .eq('id', imageId);
+  }
+
+  @override
+  Future<void> rejectImage(TrailImage image, RejectReason reason) async {
+    await _client
+        .from('images')
+        .update({
+          'status': TrailImageStatus.rejected.name,
+          'reject_reason': reason.dbValue,
+          'decided_at': DateTime.now().toUtc().toIso8601String(),
+        })
+        .eq('id', image.id);
+    // Grosse Varianten sofort weg; schlaegt das fehl, bleibt der Status
+    // trotzdem gesetzt und die Aufraeum-Aktion loescht spaeter alles.
+    try {
+      await _client.storage.from(bucket).remove([
+        for (final v in [TrailImageVariant.small, TrailImageVariant.medium])
+          for (final ext in ['webp', 'avif'])
+            '${image.trailId}/${image.id}/${v.fileName}.$ext',
+      ]);
+    } catch (_) {}
   }
 
   @override
@@ -98,6 +171,9 @@ class SupabaseImagesRepository implements ImagesRepository {
   ];
 
   List<String> _paths(TrailImage image) => pathsFor(image.trailId, image.id);
+
+  @visibleForTesting
+  TrailImage rowToImage(Map<String, dynamic> row) => _rowToImage(row);
 
   TrailImage _rowToImage(Map<String, dynamic> row) {
     final id = row['id'] as String;
@@ -135,6 +211,10 @@ class SupabaseImagesRepository implements ImagesRepository {
       sort: (row['sort'] as num?)?.toInt() ?? 0,
       thumbhash: row['thumbhash'] as String? ?? '',
       dominantColor: row['dominant_color'] as String? ?? '',
+      rejectReason: RejectReason.parse(row['reject_reason'] as String?),
+      decidedAt: row['decided_at'] == null
+          ? null
+          : DateTime.parse(row['decided_at'] as String),
     );
   }
 }

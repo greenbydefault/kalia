@@ -111,6 +111,41 @@ def test_geometrie_fehlt_und_abweichungen():
     assert [e["feld"] for e in r if e["code"] == "STATION_ABSEITS"] == ["stationen[1]"]
 
 
+def test_verlauf_nicht_kartiert_unter_bedingungen():
+    ctx = gut()
+    ctx["trail"]["route"] = []
+    ctx["trail"]["start_lat"], ctx["trail"]["start_lon"] = ctx["stationen"][0]["lat"], ctx["stationen"][0]["lon"]
+    ctx["meta"]["route_versuche"] = "Betreiber-GPX: keine; OSM-Relation: keine; OSM-Ways: keine"
+    r, c = codes(ctx)
+    assert "ROUTE_NICHT_KARTIERT" in c and "GEOMETRIE_FEHLT" not in c
+    assert [e["severity"] for e in r if e["code"] == "ROUTE_NICHT_KARTIERT"] == ["warnung"]
+
+    ohne_versuche = copy.deepcopy(ctx)
+    ohne_versuche["meta"].pop("route_versuche")
+    assert "GEOMETRIE_FEHLT" in codes(ohne_versuche)[1]
+
+    gestapelt = copy.deepcopy(ctx)
+    for s in gestapelt["stationen"]:
+        s["lat"], s["lon"] = 51.5, 12.8
+    assert "GEOMETRIE_FEHLT" in codes(gestapelt)[1]
+
+
+def test_laenge_exakt_strenger():
+    ctx = gut()
+    ctx["trail"]["laenge_km"] = 1.3  # 17 % ueber der Route
+    assert "LAENGE_ABWEICHUNG" not in codes(ctx)[1]
+    ctx["meta"]["laenge_exakt"] = True
+    assert "LAENGE_ABWEICHUNG" in codes(ctx)[1]
+
+
+def test_kategorien_roh():
+    ctx = gut()
+    ctx["meta"]["ausstattung_roh"] = [{"kategorie": "wc"}, {"kategorie": "toilette"}]
+    ctx["meta"]["pois_roh"] = [{"kategorie": "cafe"}, {"kategorie": "kneipe"}]
+    r, c = codes(ctx)
+    assert c.count("AMENITY_KATEGORIE") == 1 and c.count("POI_KATEGORIE") == 1
+
+
 def test_geo_issues_werden_durchgereicht():
     ctx = gut()
     ctx["geo_issues"] = [{"code": "GEOMETRIE_LIZENZ", "wert": "route.gpx"}]

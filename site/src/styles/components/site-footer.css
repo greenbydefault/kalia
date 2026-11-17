@@ -10,7 +10,20 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-4);
+  gap: var(--space-4) var(--space-6);
+}
+
+.site-footer__brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-5);
+}
+
+/* Light-Badge (ohne .wcb-d). Eigene Schrift, damit die Footer-Größe nicht reinzieht. */
+.site-footer .carbonbadge {
+  font-size: 15px;
+  line-height: 1.15;
 }
 
 .site-footer__nav {

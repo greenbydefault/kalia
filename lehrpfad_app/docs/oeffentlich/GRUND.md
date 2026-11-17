@@ -39,9 +39,11 @@ Die Landing verkauft keinen Download. Tür = Warteliste. Brief lokal: `docs/inte
 
 ## Was wir sind / nicht sind
 
-**Sind:** Karte + kuratierte Trails/Plätze für Familien. Umkreis. Kinderwagen/Dauer/WC später als Filter. Arten zum Anfassen vor Ort. Offline, ohne Konto nutzbar.
+**Sind:** Karte + kuratierte Trails/Plätze für Familien, kurze Runden und längere Touren gemischt. Umkreis. Orte drumherum (Café, Hofladen, Badestelle, Museum). Arten vor Ort als Steckbrief, als gesehen markieren, Sammlung. Ohne Konto nutzbar; Konto nur für Fotos, Bewertungen, Pfad melden. Kinderwagen/Dauer/WC später als Filter. Events in der Nähe geplant.
 
-**Nicht:** AllTrails/Komoot („beste Tour, 18 km“). Outdooractive-PDF-Friedhof. iNaturalist. Kita-Ausflugstool für Träger. Deutschland-weite Abdeckung (haben wir nicht).
+**Nicht:** AllTrails/Komoot („beste Tour, 18 km“). Outdooractive-PDF-Friedhof. iNaturalist. Kita-Ausflugstool für Träger. Offline-Karte (Karte braucht Internet).
+
+**Abdeckung:** ganz Deutschland, regelmäßig neue Orte, in manchen Gegenden noch dünn. Danach Europa. „Ganz Deutschland“ nur mit dem Dünn-Hinweis oder dem Verweis auf die Karte.
 
 **Der eigentliche Engpass ist der Katalog**, nicht die Karte. Lehrpfade existieren analog (Tafeln, Flyer, OSM-Rest), aber niemand hat sie so gepflegt, dass eine App am Sonntagmorgen damit arbeiten kann. Das darf in Posts vorkommen — es ist das ehrlichste „warum das schwer ist“.
 
@@ -57,7 +59,7 @@ Stand 2026-08-28.
 - [ ] **Post 1** raus ([`linkedin.md`](linkedin.md))
 - [ ] Tür hinter dem Post: DM reicht für Post 1; danach Demo oder Warteliste
 - [ ] Entscheiden: Kind im Bild ja/nein (Gesicht)
-- [ ] Entscheiden: Launch-Region in einem Satz
+- [x] Entscheiden: Launch-Region in einem Satz (2026-11-17: ganz Deutschland, dann Europa)
 - [x] Produktname: Kalia – Lehrpfade mit Kindern
 
 ---
@@ -65,7 +67,7 @@ Stand 2026-08-28.
 ## Offen (entscheiden, dann ins Log)
 
 1. **Kind im Bild.** Geschichte immer. Gesicht: ja / nein / erst später.
-2. **Launch-Region, ein Satz.** Vorschlag: „Brandenburg und Müritz zuerst, Rest kommt wenn der Datensatz sitzt.“ Ausreißer (SPO, Bamberg, Møn) in Posts nicht als Abdeckung verkaufen.
+2. **Launch-Region, ein Satz.** Entschieden 2026-11-17: „In ganz Deutschland, regelmäßig mehr, in manchen Gegenden noch dünn. Danach Europa.“ Siehe Log.
 3. **Produktname.** Entschieden: Kalia – Lehrpfade mit Kindern. Homescreen/Store-Name Kalia, Untertitel die Rolle.
 4. **Green by Default / Ako** im Post? Nur wenn ihr die Firma mitverkaufen wollt. Origin-Story trägt allein.
 5. **Cadence.** Vorschlag: Post 1, dann nur noch wenn Stoff da ist (neuer Trail, erster Tester, ehrlicher Fail). Kein Content-Kalender.
@@ -86,3 +88,5 @@ Stand 2026-08-28.
 | 2026-09-06 | Landing-Prep nach `docs/intern/` (gitignore). GRUND/LinkedIn bleiben im Repo. |
 | 2026-09-06 | Landing-Look: Papier #FFF, B/W plus Highlight-Token (= Tinte bis CI-Hex). Headlines Instrument Serif, Body IBM Plex Sans, Ecken 2px, OSM in Farbe, Hero Desktop Typ \| Karte. Datei lokal `docs/intern/landing/look.md`. |
 | 2026-09-07 | Video-Produktion eigenes Board + Ordner `docs/marketing/`. Gekoppelt an Arbeit-Karten. Stimme bleibt hier. |
+| 2026-11-17 | Abdeckung: „ganz Deutschland“ als Zustand erlaubt, immer mit „in manchen Gegenden noch dünn“ oder Verweis auf die Karte. Danach Europa. Ersetzt „Nordost zuerst, nie deutschlandweit“ vom 2026-09-06. |
+| 2026-11-17 | Landing-Stimme = ich (Oliver, unabhängiges Projekt), nicht wir. Familie „ihr“, Warteliste „du“. FAQ auf der Landing ist gewollt (ersetzt „kein FAQ“ aus `struktur.md`). Ungebaute Features (Events) nur im Futur. |

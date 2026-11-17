@@ -37,8 +37,7 @@ export interface AusflugTab {
 }
 
 export const kopf = {
-  /** TODO(text): Badge aus dem Entwurf, Wortlaut offen. */
-  badge: 'Gebiete',
+  badge: 'In vier Schritten',
   /** Zeilen der Sektionsüberschrift, Umbruch wie im Entwurf. */
   title: ['So einfach', 'wird euer nächster Ausflug'],
   lead: 'Kalia hilft euch, den passenden Pfad zu finden, entspannt hinzukommen und unterwegs mehr zu entdecken. Gemacht für Familien mit Kindern.',
@@ -52,16 +51,6 @@ const BG = '/img/ausflug/karte-platzhalter.avif';
 const SCREEN = '/img/ausflug/screen-platzhalter.avif';
 const CHIP_ICON: IconName = 'hinkommen';
 const chips = (...labels: string[]): AusflugChip[] => labels.map((label) => ({ label, icon: CHIP_ICON }));
-
-/** Platzhalter in Länge und Form der fertigen Texte, damit das Layout stimmt. */
-const todoFacts = [
-  { label: 'Kachel eins', value: 'Wert folgt später' },
-  { label: 'Kachel zwei', value: 'Wert folgt später' },
-  { label: 'Kachel drei', value: 'Wert folgt später' },
-];
-const todoLink = { label: 'Platzhalter für den Textlink.', href: '#karte' };
-const todoScreenAlt = 'Platzhalter: Ansicht der Kalia-App, folgt.';
-
 export const ausflugTabs: AusflugTab[] = [
   {
     id: 'ausflug-finden',
@@ -76,8 +65,7 @@ export const ausflugTabs: AusflugTab[] = [
     ],
     chipsLabel: 'Filtert nach',
     chips: chips('Kinderwagen', 'Spielplatz', 'Einkehr', 'Rundweg', 'Rollstuhltauglich'),
-    // TODO(text): Wortlaut aus dem Entwurf übernommen, offensichtlich Platzhalter.
-    link: { label: 'Pfad in euer näher neuer Ansicht.', href: '#karte' },
+    link: { label: 'schaut auf der Karte, was in eurer Nähe liegt.', href: '#karte' },
     bg: BG,
     screen: { src: SCREEN, alt: 'Kalia-App: Karte mit dem Waldlehrpark Warberge und seinen Eckdaten.' },
   },
@@ -85,43 +73,52 @@ export const ausflugTabs: AusflugTab[] = [
     id: 'ausflug-hinkommen',
     label: 'Hinkommen',
     icon: 'hinkommen',
-    title: ['Titel für', 'Hinkommen'],
-    text: 'Platzhalter: Hier steht später, wie Kalia euch zum Pfad bringt. Zwei, drei Sätze zur Anreise, zur Wegbeschreibung und zu dem, was euch am Start erwartet, damit der Ausflug schon vor dem Losfahren sicher steht und niemand suchen muss.',
-    facts: todoFacts,
-    chipsLabel: 'Beschriftung folgt',
-    chips: chips('Stichwort eins', 'Stichwort zwei', 'Stichwort drei', 'Stichwort vier', 'Stichwort fünf'),
-    link: todoLink,
+    title: ['Fahrt direkt', 'zum Startpunkt'],
+    text: 'Bei jedem Pfad steht, wie lange ihr ab eurem Startpunkt mit dem Auto braucht. Ein Tipp öffnet die Navigation in Google Maps, Apple Karten oder OpenStreetMap, direkt zum Parkplatz, wenn es einen gibt. Café, Badestelle oder Hofladen bis 20 Minuten vom Pfad stehen gleich dabei.',
+    facts: [
+      { label: 'Anfahrt', value: 'In Minuten ab eurem Startpunkt' },
+      { label: 'Navigation', value: 'Google, Apple oder OSM' },
+      { label: 'Rund um den Pfad', value: 'Orte bis 20 Min entfernt' },
+    ],
+    chipsLabel: 'In der Nähe',
+    chips: chips('Café', 'Restaurant', 'Badestelle', 'Hofladen', 'Museum'),
+    link: { label: 'sucht euren Ort auf der Karte.', href: '#karte' },
     bg: BG,
-    screen: { src: SCREEN, alt: todoScreenAlt },
-    placeholder: true,
+    screen: { src: SCREEN, alt: 'Kalia-App: Navigation zum Startpunkt eines Pfades mit Auswahl der Karten-App.' },
   },
   {
     id: 'ausflug-zuhoeren',
     label: 'Zuhören',
     icon: 'zuhoeren',
-    title: ['Titel für', 'Zuhören'],
-    text: 'Platzhalter: Hier steht später, wie Kalia den Weg zum Hören macht. Zwei, drei Sätze zu den kurzen Audiotexten, zu Arten am Wegesrand und dazu, dass Kinder zuhören können, ohne dass jemand vorlesen muss oder das Handy in der Hand bleibt.',
-    facts: todoFacts,
-    chipsLabel: 'Beschriftung folgt',
-    chips: chips('Stichwort eins', 'Stichwort zwei', 'Stichwort drei', 'Stichwort vier', 'Stichwort fünf'),
-    link: todoLink,
+    title: ['Hört zu,', 'was am Weg passiert'],
+    text: 'Zu jedem Pfad und zu vielen Arten am Weg gibt es ein kurzes Hörstück, eingesprochen und keine Minute lang. Ihr tippt auf Hören, steckt das Handy weg und lauft weiter. Niemand muss eine Tafel vorlesen, die Augen bleiben beim Weg.',
+    facts: [
+      { label: 'Länge', value: 'Unter einer Minute' },
+      { label: 'Pfade', value: 'Ein Hörstück pro Pfad' },
+      { label: 'Arten', value: 'Tiere, Pflanzen, Spielgeräte' },
+    ],
+    chipsLabel: 'Zu hören',
+    chips: chips('Pfade', 'Vögel', 'Bäume', 'Amphibien', 'Spielgeräte'),
+    link: { label: 'findet einen Pfad in eurer Nähe.', href: '#karte' },
     bg: BG,
-    screen: { src: SCREEN, alt: todoScreenAlt },
-    placeholder: true,
+    screen: { src: SCREEN, alt: 'Kalia-App: Hörstück zu einem Pfad im Player.' },
   },
   {
     id: 'ausflug-sammeln',
     label: 'Sammeln',
     icon: 'sammeln',
-    title: ['Titel für', 'Sammeln'],
-    text: 'Platzhalter: Hier steht später, was es zu sammeln gibt. Zwei, drei Sätze zu Arten, Karten und Entdeckungen, die Kinder unterwegs freischalten, und dazu, wie aus einem einzelnen Ausflug nach und nach eine kleine eigene Sammlung wird.',
-    facts: todoFacts,
-    chipsLabel: 'Beschriftung folgt',
-    chips: chips('Stichwort eins', 'Stichwort zwei', 'Stichwort drei', 'Stichwort vier', 'Stichwort fünf'),
-    link: todoLink,
+    title: ['Sammelt,', 'was ihr unterwegs seht'],
+    text: 'Am Steg sitzt ein Eisvogel? Antippen, "Hab gesehen" wählen, schon liegt er in eurer Sammlung. Tiere, Pflanzen und Spielgeräte, nach Gruppen sortiert. Was noch fehlt, zeigt Kalia mit dem Pfad in eurer Nähe, auf dem die Chancen gut stehen. Alles bleibt auf dem Handy, ohne Konto.',
+    facts: [
+      { label: 'Freischalten', value: 'Vor Ort mit Hab gesehen' },
+      { label: 'Noch offen', value: 'Mit Pfad in eurer Nähe' },
+      { label: 'Konto', value: 'Nicht nötig' },
+    ],
+    chipsLabel: 'Sammelt',
+    chips: chips('Vögel', 'Bäume', 'Säugetiere', 'Insekten', 'Spielgeräte'),
+    link: { label: 'schaut, welche Arten es zu sammeln gibt.', href: '#gebiete' },
     bg: BG,
-    screen: { src: SCREEN, alt: todoScreenAlt },
-    placeholder: true,
+    screen: { src: SCREEN, alt: 'Kalia-App: Sammlung mit gefundenen und offenen Arten.' },
   },
 ];
 

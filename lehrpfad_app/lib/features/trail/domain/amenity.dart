@@ -15,7 +15,10 @@ class Amenity {
   });
 
   factory Amenity.fromJson(Map<String, dynamic> json) => Amenity(
-    osmId: json['osmId'] as int,
+    osmId:
+        (json['osmId'] as num?)?.toInt() ??
+        -(((json['lat'] as num).toDouble() * 1e5).round() * 1000003 +
+            ((json['lon'] as num).toDouble() * 1e5).round()),
     position: LatLng(
       (json['lat'] as num).toDouble(),
       (json['lon'] as num).toDouble(),

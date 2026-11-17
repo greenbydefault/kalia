@@ -14,10 +14,31 @@ class SupabaseCommentsRepository implements CommentsRepository {
   Future<List<TrailComment>> getComments(String trailId) async {
     final rows = await _client
         .from('comments')
-        .select('id, trail_id, user_id, text, created_at, '
-            'profiles(display_name)')
+        .select(
+          'id, trail_id, user_id, text, created_at, '
+          'profiles(display_name)',
+        )
         .eq('trail_id', trailId)
         .order('created_at', ascending: false);
+    return _map(rows);
+  }
+
+  @override
+  Future<List<TrailComment>> getMyComments() async {
+    final uid = _client.auth.currentUser?.id;
+    if (uid == null) return const <TrailComment>[];
+    final rows = await _client
+        .from('comments')
+        .select(
+          'id, trail_id, user_id, text, created_at, '
+          'profiles(display_name)',
+        )
+        .eq('user_id', uid)
+        .order('created_at', ascending: false);
+    return _map(rows);
+  }
+
+  List<TrailComment> _map(List<Map<String, dynamic>> rows) {
     final uid = _client.auth.currentUser?.id;
     return rows.map((row) {
       final profile = row['profiles'] as Map<String, dynamic>?;

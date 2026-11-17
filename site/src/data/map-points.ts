@@ -31,6 +31,12 @@ export type MapPoint = {
   meta?: string;
   x: number;
   y: number;
+  /**
+   * Lage auf schmalen Screens (unter 60rem). Die Karte ist dort breiter als der Screen und startet
+   * zentriert: die spannenden Punkte (Hörprobe, Gebiets-Chips) sitzen in diesem Ausschnitt, voll anklickbar.
+   * Fehlt der Wert, gilt x/y.
+   */
+  mobile?: { x: number; y: number };
   icon: string;
   pop?: MapPopover;
 };
@@ -45,6 +51,7 @@ export const mapPoints: MapPoint[] = [
     meta: '2 Trails',
     x: 11,
     y: 36.5,
+    mobile: { x: 40, y: 50 },
     icon: TREE,
     pop: {
       kind: 'area',
@@ -66,6 +73,7 @@ export const mapPoints: MapPoint[] = [
     meta: '11,4 km',
     x: 29.5,
     y: 68.5,
+    mobile: { x: 16, y: 48 },
     icon: TREE,
     pop: {
       kind: 'area',
@@ -87,6 +95,7 @@ export const mapPoints: MapPoint[] = [
     meta: '75 Trails',
     x: 66.3,
     y: 39,
+    mobile: { x: 60, y: 50 },
     icon: TREE,
     pop: {
       kind: 'area',
@@ -108,6 +117,7 @@ export const mapPoints: MapPoint[] = [
     meta: '6 Trails',
     x: 86.6,
     y: 24,
+    mobile: { x: 82, y: 36 },
     icon: TREE,
     pop: {
       kind: 'area',
@@ -129,6 +139,7 @@ export const mapPoints: MapPoint[] = [
     meta: '2 Trails',
     x: 88.6,
     y: 63.3,
+    mobile: { x: 90, y: 46 },
     icon: TREE,
     pop: {
       kind: 'area',
@@ -149,8 +160,9 @@ export const mapPoints: MapPoint[] = [
     label: 'Schutzhütte',
     x: 38.9,
     y: 28.5,
+    mobile: { x: 50, y: 32 },
     icon: TREE,
     pop: { kind: 'species', ref: 'igel' },
   },
-  { id: 'windmuehle', kind: 'dot', label: 'Windmühle', x: 72.5, y: 57.1, icon: TREE },
+  { id: 'windmuehle', kind: 'dot', label: 'Windmühle', x: 72.5, y: 57.1, mobile: { x: 76, y: 58 }, icon: TREE },
 ];

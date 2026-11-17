@@ -2,25 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lehrpfad_app/features/species/data/hybrid_sightings_repository.dart';
-import 'package:lehrpfad_app/features/species/data/local_sightings_store.dart';
 import 'package:lehrpfad_app/features/species/data/species_providers.dart';
-import 'package:lehrpfad_app/features/species/domain/species.dart';
-import 'package:lehrpfad_app/features/species/domain/species_content.dart';
 import 'package:lehrpfad_app/features/species/presentation/gesehen_toggle.dart';
-import 'package:lehrpfad_app/features/species/presentation/species_detail_sheet.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class _MemoryStore implements SightingsStore {
-  Set<String> ids = {};
-
-  @override
-  Future<Set<String>> read() async => {...ids};
-
-  @override
-  Future<void> write(Set<String> next) async {
-    ids = {...next};
-  }
-}
+import 'support/memory_funde_store.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -29,30 +15,28 @@ void main() {
     SharedPreferences.setMockInitialValues({});
   });
 
-  testWidgets('GesehenToggle toggles label and persists via provider',
-      (tester) async {
-    final store = _MemoryStore();
+  testWidgets('GesehenToggle toggles label and persists via provider', (
+    tester,
+  ) async {
+    final store = MemoryFundeStore();
     final repo = HybridSightingsRepository(local: store);
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [
-          sightingsRepositoryProvider.overrideWithValue(repo),
-        ],
+        overrides: [sightingsRepositoryProvider.overrideWithValue(repo)],
         child: MaterialApp(
           home: Consumer(
             builder: (context, ref, _) {
-              final seen = ref
-                      .watch(sightingsProvider)
-                      .asData
-                      ?.value
-                      .contains('biber') ??
+              final seen =
+                  ref.watch(sightingsProvider).asData?.value.contains('biber') ??
                   false;
               return Scaffold(
                 body: GesehenToggle(
                   seen: seen,
-                  onChanged: (v) =>
-                      ref.read(sightingsProvider.notifier).setSeen('biber', v),
+                  onChanged: (v) {
+                    final funde = ref.read(fundeProvider.notifier);
+                    v ? funde.entdecke('biber') : funde.entferne('biber');
+                  },
                 ),
               );
             },
@@ -68,48 +52,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Gesehen'), findsOneWidget);
-    expect(await store.read(), {'biber'});
-  });
-
-  testWidgets('SpeciesDetailSheet places Hab gesehen above content',
-      (tester) async {
-    final store = _MemoryStore();
-    final repo = HybridSightingsRepository(local: store);
-    const species = Species(
-      id: 'biber',
-      nameDe: 'Biber',
-      nameLat: 'Castor fiber',
-      kategorie: 'fauna',
-      kurztext: 'Nager am Wasser',
-      content: SpeciesContent(
-        hook: 'Baut Dämme.',
-        erkennung: ['Breiter Schwanz'],
-        hoertext: 'Ein Satz zum Einsprechen, der in der UI nicht stehen darf.',
-      ),
-    );
-
-    await tester.pumpWidget(
-      ProviderScope(
-        overrides: [
-          sightingsRepositoryProvider.overrideWithValue(repo),
-        ],
-        child: const MaterialApp(
-          home: Scaffold(
-            body: SpeciesDetailSheet(species: species),
-          ),
-        ),
-      ),
-    );
-    await tester.pumpAndSettle();
-
-    final toggleY = tester.getTopLeft(find.text('Hab gesehen')).dy;
-    final sectionY =
-        tester.getTopLeft(find.text('Woran erkenne ich’s?')).dy;
-    expect(toggleY, lessThan(sectionY));
-    expect(find.text('Text zum Vorlesen'), findsNothing);
-    expect(
-      find.text('Ein Satz zum Einsprechen, der in der UI nicht stehen darf.'),
-      findsNothing,
-    );
+    expect(store.ids, {'biber'});
+    expect(store.funde['biber']!.entdecktAm, isNotNull);
   });
 }

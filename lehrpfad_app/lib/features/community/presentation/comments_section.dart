@@ -44,6 +44,7 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
       await repo.addComment(widget.trailId, text);
       _controller.clear();
       ref.invalidate(trailCommentsProvider(widget.trailId));
+      ref.invalidate(myCommentsProvider);
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(
@@ -61,6 +62,7 @@ class _CommentsSectionState extends ConsumerState<CommentsSection> {
     try {
       await repo.deleteComment(comment.id);
       ref.invalidate(trailCommentsProvider(widget.trailId));
+      ref.invalidate(myCommentsProvider);
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(

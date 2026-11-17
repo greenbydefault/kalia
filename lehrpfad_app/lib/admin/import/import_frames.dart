@@ -66,7 +66,11 @@ class StatusLabel extends StatelessWidget {
         ),
         if (state.locked && state.tone != FieldTone.locked) ...[
           const SizedBox(width: 8),
-          const Icon(Icons.lock_outline, size: 13, color: AppColors.statusLocked),
+          const Icon(
+            Icons.lock_outline,
+            size: 13,
+            color: AppColors.statusLocked,
+          ),
         ],
       ],
     );

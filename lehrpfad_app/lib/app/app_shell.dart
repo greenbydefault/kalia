@@ -7,6 +7,7 @@ import 'sync_lifecycle.dart';
 import '../features/auth/data/auth_providers.dart';
 import '../features/auth/presentation/account_tab.dart';
 import '../features/auth/presentation/saved_list_prompt_host.dart';
+import '../features/community/data/photos_seen.dart';
 import '../features/community/presentation/upload_snackbar_listener.dart';
 import '../features/erkunden/erkunden_screen.dart';
 import '../features/nearby_trails/data/karte_state.dart';
@@ -15,7 +16,7 @@ import '../features/nearby_trails/presentation/coach_mark_overlay.dart';
 import '../features/player/presentation/mini_player.dart';
 import '../features/onboarding/presentation/onboarding_flow.dart';
 import '../features/onboarding/data/onboarding_prefs_provider.dart';
-import '../features/species/presentation/species_collection_screen.dart';
+import '../features/species/presentation/sammlung/sammlung_screen.dart';
 import '../features/trail/presentation/map/map_screen.dart';
 import '../features/trail_progress/presentation/my_routes_screen.dart';
 import '../features/report/data/report_uploader.dart';
@@ -44,6 +45,8 @@ class AppShell extends ConsumerWidget {
         SupabaseConfig.isConfigured &&
         ref.watch(authStateProvider).value != null;
 
+    final hasUnseenDecision = loggedIn && ref.watch(hasUnseenDecisionProvider);
+
     return Stack(
       children: [
         Scaffold(
@@ -55,7 +58,7 @@ class AppShell extends ConsumerWidget {
                   MapScreen(),
                   ErkundenScreen(),
                   MyRoutesScreen(),
-                  SpeciesCollectionScreen(),
+                  SammlungScreen(),
                   AccountTab(),
                 ],
               ),
@@ -92,10 +95,15 @@ class AppShell extends ConsumerWidget {
                 label: kt('nav.sammlung'),
               ),
               NavigationDestination(
-                icon: Icon(
-                  loggedIn
-                      ? Icons.account_circle_outlined
-                      : Icons.person_outline,
+                icon: Badge(
+                  // Neue Freigabe/Ablehnung eines eigenen Fotos.
+                  isLabelVisible: hasUnseenDecision,
+                  smallSize: 8,
+                  child: Icon(
+                    loggedIn
+                        ? Icons.account_circle_outlined
+                        : Icons.person_outline,
+                  ),
                 ),
                 label: kt('nav.konto'),
               ),

@@ -47,7 +47,8 @@ SEVERITY: Dict[str, str] = {
     "BILD_LIZENZ": WARNUNG, "BILD_FEHLT": WARNUNG, "BILD_DATEI": WARNUNG, "DUPLIKAT_NAH": WARNUNG,
     "DUPLIKAT_MOEGLICH": WARNUNG, "KANDIDAT_FEHLT": WARNUNG, "GEOMETRIE_LIZENZ": WARNUNG,
     "GEOMETRIE_DATEI": WARNUNG, "START_ABWEICHUNG": WARNUNG, "LAENGE_ABWEICHUNG": WARNUNG,
-    "STATION_ABSEITS": WARNUNG,
+    "STATION_ABSEITS": WARNUNG, "ROUTE_NICHT_KARTIERT": WARNUNG,
+    "AMENITY_KATEGORIE": WARNUNG, "POI_KATEGORIE": WARNUNG,
     # Listenwerte: hart, wenn nicht zuordenbar; warnung, wenn zugeordnet (Severity je Eintrag)
     "TYP": HART, "NATURRAUM": HART, "LEBENSRAUM": HART, "TAG": HART, "ERLEBNIS": HART,
 }
@@ -215,6 +216,25 @@ def rule_koordinaten(ctx) -> List[Dict[str, Any]]:
     return out
 
 
+def _verlauf_nicht_kartiert(ctx) -> bool:
+    """'Verlauf nicht kartiert' (route=[]) ist erlaubt, wenn der Pfad ohne Linie trotzdem tragfaehig ist:
+    Linie mit Laenge, mindestens 3 Stationen mit eigenen Koordinaten, Station 1 am Start und
+    dokumentierte Geometrie-Versuche (meta.route_versuche). Keine Gerade zwischen Stationen."""
+    t = ctx["trail"]
+    if (t.get("form") or "linie") != "linie" or not (t.get("laenge_km") or 0) > 0:
+        return False
+    if not (ctx.get("meta") or {}).get("route_versuche"):
+        return False
+    st = [s for s in (ctx.get("stationen") or []) if s.get("lat") is not None and s.get("lon") is not None]
+    if len({(round(s["lat"], 6), round(s["lon"], 6)) for s in st}) < 3:
+        return False
+    lat, lon = t.get("start_lat"), t.get("start_lon")
+    if lat is None or lon is None:
+        return False
+    erste = min(st, key=lambda s: s.get("reihenfolge") or 0)
+    return haversine_m([lat, lon], [erste["lat"], erste["lon"]]) <= config.START_ABWEICHUNG_M
+
+
 def rule_geometrie(ctx) -> List[Dict[str, Any]]:
     t = ctx["trail"]
     form = t.get("form") or "linie"
@@ -225,7 +245,10 @@ def rule_geometrie(ctx) -> List[Dict[str, Any]]:
             out.append(E(gi["code"], gi.get("feld") or ("area" if form == "flaeche" else "route"),
                          wert=gi.get("wert")))
     if form == "linie" and len(route) < 2:
-        out.append(E("GEOMETRIE_FEHLT", "route", form=form))
+        if _verlauf_nicht_kartiert(ctx):
+            out.append(E("ROUTE_NICHT_KARTIERT", "route"))
+        else:
+            out.append(E("GEOMETRIE_FEHLT", "route", form=form))
         return out
     if form == "flaeche" and len(area) < 3:
         out.append(E("GEOMETRIE_FEHLT", "area", form=form))
@@ -240,9 +263,12 @@ def rule_geometrie(ctx) -> List[Dict[str, Any]]:
     if form == "linie":
         laenge = t.get("laenge_km")
         gps = length_km(route)
-        if laenge and gps > 0 and abs(laenge - gps) / gps * 100 > config.LAENGE_ABWEICHUNG_PROZENT:
+        # Vertrag W-Laenge: gegen eine exakte Betreiberangabe gilt 10 %, sonst gewinnt die Route (20 % Warnung).
+        prozent = (config.LAENGE_ABWEICHUNG_EXAKT_PROZENT if (ctx.get("meta") or {}).get("laenge_exakt")
+                   else config.LAENGE_ABWEICHUNG_PROZENT)
+        if laenge and gps > 0 and abs(laenge - gps) / gps * 100 > prozent:
             out.append(E("LAENGE_ABWEICHUNG", "laenge_km", wert=laenge, vorschlag=round(gps, 2),
-                         dossier=laenge, route=round(gps, 2), prozent=config.LAENGE_ABWEICHUNG_PROZENT))
+                         dossier=laenge, route=round(gps, 2), prozent=prozent))
         sprung = max_jump_m(route)
         if sprung > config.MAX_SPRUNG_M:
             out.append(E("WERT_UNPLAUSIBEL", "route", wert=round(sprung), was="route", sprung=round(sprung),
@@ -371,6 +397,19 @@ def rule_bilder(ctx) -> List[Dict[str, Any]]:
     return out
 
 
+def rule_kategorien(ctx) -> List[Dict[str, Any]]:
+    """Rohzeilen aus Abschnitt 5: Kategorie muss im Katalog stehen (DB-CHECK 0038)."""
+    meta = ctx.get("meta") or {}
+    out = []
+    for key, code, erlaubt in (("ausstattung_roh", "AMENITY_KATEGORIE", lists.AMENITY_KATEGORIEN),
+                               ("pois_roh", "POI_KATEGORIE", lists.POI_KATEGORIEN)):
+        for i, row in enumerate(meta.get(key) or [], 1):
+            kat = (row.get("kategorie") or "").strip().lower() if isinstance(row, dict) else ""
+            if kat and kat not in erlaubt:
+                out.append(E(code, "abschnitt5", wert=kat, kategorie=kat, nummer=i, erlaubt=", ".join(erlaubt)))
+    return out
+
+
 def rule_abgleich(ctx) -> List[Dict[str, Any]]:
     out = []
     for d in ctx.get("duplicates") or []:
@@ -384,7 +423,7 @@ def rule_abgleich(ctx) -> List[Dict[str, Any]]:
 
 RULES = (rule_dossier, rule_hinweise, rule_slug, rule_pflicht, rule_listen, rule_koordinaten,
          rule_geometrie, rule_werte, rule_texte, rule_stationen, rule_quellen, rule_arten,
-         rule_bilder, rule_abgleich)
+         rule_bilder, rule_kategorien, rule_abgleich)
 
 
 def run_rules(ctx: Dict[str, Any]) -> List[Dict[str, Any]]:

@@ -96,7 +96,7 @@
   border-radius: var(--radius-pill);
   background: color-mix(in srgb, var(--color-paper) 85%, transparent);
   color: var(--color-ink-muted);
-  font-size: 0.6875rem;
+  font-size: 0.625rem; /* 10 */
   line-height: 1.6;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .ausflug__fact-label {
-  font-size: 0.6875rem;
+  font-size: 0.625rem; /* 10 */
   line-height: 1.2;
   color: var(--color-ink-muted);
 }

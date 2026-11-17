@@ -19,6 +19,9 @@ abstract final class AccountReason {
   static const comment =
       'Zum Kommentieren braucht ihr ein Konto, damit andere wissen, '
       'von wem der Tipp kommt.';
+  static const contributions =
+      'Mit einem Konto seht ihr hier eure Fotos samt Status und eure '
+      'Kommentare.';
   static const savedList =
       'Mit einem Konto bleibt eure Merkliste auch beim Handywechsel erhalten.';
 }

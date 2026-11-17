@@ -7,6 +7,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 import '../../../../app/theme/app_spacing.dart';
 
 import '../../../../app/shell_tab_provider.dart';
+import '../../../../core/config/app_features.dart';
 import '../../../../core/config/supabase_config.dart';
 import '../../../../shared/widgets/sheet_motion.dart';
 import '../../../community/presentation/upload_fab.dart';
@@ -216,8 +217,8 @@ class _MapScreenState extends ConsumerState<MapScreen>
     final walkTrailId = onMapTab
         ? ref.watch(walkSnapshotProvider.select((s) => s?.trailId))
         : ref.read(walkSnapshotProvider)?.trailId;
-    final tourTracking = walkTrailId != null;
-    final tourActive = activeWalk != null;
+    final tourTracking = AppFeatures.tour && walkTrailId != null;
+    final tourActive = AppFeatures.tour && activeWalk != null;
     final panelVisible =
         !tourTracking && !tourActive && selectedVisible == null;
     final screenH = MediaQuery.sizeOf(context).height;

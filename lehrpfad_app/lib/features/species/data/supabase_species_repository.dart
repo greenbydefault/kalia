@@ -12,11 +12,13 @@ class SupabaseSpeciesRepository implements SpeciesRepository {
 
   static const columns =
       'id, name_de, name_lat, kategorie, kurztext, content, aliases, version, '
-      'image_path, image_credit, audio_path, icon_key, '
+      'image_path, image_credit, audio_path, illustration_path, icon_key, '
       'gruppe, seltenheit, gefahr, nahrung, '
       'tax_reich, tax_stamm, tax_klasse, tax_ordnung, tax_familie, masse, '
       'species_merkmale(merkmal_id), '
-      'species_beziehungen(typ, to_species_id, name_de, name_lat, kurztext)';
+      // Zwei FKs auf species (from_id, to_species_id): ohne Hint mehrdeutig.
+      'species_beziehungen!species_beziehungen_from_id_fkey'
+      '(typ, to_species_id, name_de, name_lat, kurztext)';
 
   @override
   Future<List<Species>> getCatalog() async {
@@ -49,6 +51,7 @@ class SupabaseSpeciesRepository implements SpeciesRepository {
     'imagePath': row['image_path'],
     'imageCredit': row['image_credit'] ?? '',
     'audioPath': row['audio_path'],
+    'illustrationPath': row['illustration_path'],
     'iconKey': row['icon_key'] ?? '',
     'gruppe': row['gruppe'] ?? '',
     'seltenheit': row['seltenheit'] ?? '',

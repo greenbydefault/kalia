@@ -135,6 +135,9 @@ class SeedLoader {
     ]);
 
     await db.setMeta(OfflineDatabase.metaSeedSignature, signature);
+    // Neue App-Version: nächster Katalogabgleich sofort, nicht erst nach der
+    // Drosselung (sonst fehlen Neuerungen aus dem CMS bis zu 15 min).
+    await db.setMeta(OfflineDatabase.metaLastSyncAt, '');
     return true;
   }
 

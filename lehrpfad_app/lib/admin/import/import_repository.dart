@@ -156,12 +156,15 @@ class ImportRepository {
     return patch;
   }
 
-  Future<void> updateStationText(String trailId, int reihenfolge, String text) =>
-      _c
-          .from('stations')
-          .update({'kurztext': text})
-          .eq('trail_id', trailId)
-          .eq('reihenfolge', reihenfolge);
+  Future<void> updateStationText(
+    String trailId,
+    int reihenfolge,
+    String text,
+  ) => _c
+      .from('stations')
+      .update({'kurztext': text})
+      .eq('trail_id', trailId)
+      .eq('reihenfolge', reihenfolge);
 
   Future<void> addStation(String trailId, DbRow row) =>
       _c.from('stations').insert({...row, 'trail_id': trailId});
@@ -218,18 +221,16 @@ class ImportRepository {
   Future<Map<String, dynamic>> publish(String job) async =>
       Map<String, dynamic>.from(await _rpc('import_publish', {'p_job': job}));
 
-  Future<void> unpublish(String job) => _rpc('import_unpublish', {'p_job': job});
+  Future<void> unpublish(String job) =>
+      _rpc('import_unpublish', {'p_job': job});
 
   Future<void> discard(String job, String grund) =>
       _rpc('import_discard', {'p_job': job, 'p_grund': grund});
 
-  Future<void> override(String job, ReportEntry e, String grund) =>
-      _rpc('import_override', {
-        'p_job': job,
-        'p_code': e.code,
-        'p_feld': e.feld,
-        'p_grund': grund,
-      });
+  Future<void> override(String job, ReportEntry e, String grund) => _rpc(
+    'import_override',
+    {'p_job': job, 'p_code': e.code, 'p_feld': e.feld, 'p_grund': grund},
+  );
 
   Future<void> ack(String job, ReportEntry e, {String status = 'erledigt'}) =>
       _rpc('import_ack', {
@@ -245,17 +246,13 @@ class ImportRepository {
   Future<void> revalidate(String job) =>
       _rpc('import_revalidate', {'p_job': job});
 
-  Future<void> replaceFile(
-    String job,
-    String name,
-    String hash,
-    String path,
-  ) => _rpc('import_replace_file', {
-    'p_job': job,
-    'p_file_name': name,
-    'p_file_hash': hash,
-    'p_storage_path': path,
-  });
+  Future<void> replaceFile(String job, String name, String hash, String path) =>
+      _rpc('import_replace_file', {
+        'p_job': job,
+        'p_file_name': name,
+        'p_file_hash': hash,
+        'p_storage_path': path,
+      });
 
   Future<void> applyProposal(String job, List<String>? teile) =>
       _rpc('import_apply_proposal', {'p_job': job, 'p_teile': teile});
@@ -287,7 +284,9 @@ class ImportRepository {
       _rpc('import_pause_batch', {'p_batch': id, 'p_pause': pause});
 
   Future<Map<String, dynamic>> batchStats(String id) async =>
-      Map<String, dynamic>.from(await _rpc('import_batch_stats', {'p_batch': id}));
+      Map<String, dynamic>.from(
+        await _rpc('import_batch_stats', {'p_batch': id}),
+      );
 
   Future<List<PrecheckResult>> precheck(
     List<({String name, String hash})> files,
@@ -355,7 +354,9 @@ class ImportRepository {
   // -- Realtime ---------------------------------------------------------------------
   /// Meldet jede Änderung an `import_jobs` (Insert/Update). Aufrufer räumt mit `unsubscribe` auf.
   RealtimeChannel subscribe(void Function() onChange) {
-    final ch = _c.channel('import-jobs-${DateTime.now().microsecondsSinceEpoch}');
+    final ch = _c.channel(
+      'import-jobs-${DateTime.now().microsecondsSinceEpoch}',
+    );
     ch
         .onPostgresChanges(
           event: PostgresChangeEvent.all,

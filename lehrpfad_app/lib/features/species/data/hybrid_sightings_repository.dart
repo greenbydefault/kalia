@@ -1,31 +1,25 @@
 import '../../../core/sync/sync_engine.dart';
 import '../../../core/sync/sync_mutation.dart';
-import '../../../core/sync/synced_id_set.dart';
-import 'local_sightings_store.dart';
+import '../domain/fund.dart';
+import 'local_funde_store.dart';
 import 'sightings_repository.dart';
 import 'supabase_sightings_repository.dart';
 
-/// Sync-Queue-Entity für Gesehen-Markierungen.
+/// Sync-Queue-Entity für Funde.
 const sightingSyncEntity = 'sighting';
 
 /// Lokal immer; Remote optional (wenn [remote] gesetzt und User eingeloggt).
 /// Remote-Ausführung und Login-Merge laufen über die [SyncEngine].
 class HybridSightingsRepository implements SightingsRepository {
   HybridSightingsRepository({
-    SightingsStore? local,
+    FundeStore? local,
     SupabaseSightingsRepository? remote,
-  }) : _local = local ?? LocalSightingsStore(),
+  }) : _local = local ?? LocalFundeStore(),
        _remote = remote;
 
-  final SightingsStore _local;
+  final FundeStore _local;
   final SupabaseSightingsRepository? _remote;
   SyncEngine? _engine;
-  late final SyncedIdSet _ids = SyncedIdSet(
-    entity: sightingSyncEntity,
-    read: _local.read,
-    write: _local.write,
-    engine: () => _engine,
-  );
 
   /// Registriert Executor/Merge an der Engine. Aufruf im Provider, vor flush.
   void attach(SyncEngine engine) {
@@ -35,42 +29,59 @@ class HybridSightingsRepository implements SightingsRepository {
     engine.registerExecutor(sightingSyncEntity, (m) async {
       if (m.op == SyncOp.delete.name) {
         await r.markUnseen(m.key);
-      } else {
-        await r.markSeen(m.key);
+        return;
       }
+      // Aktuellen Stand senden, nicht den zur Queue-Zeit: Folge-Mutationen
+      // (Wer, Undo) überholen sich sonst gegenseitig.
+      final fund = (await _local.read())[m.key];
+      if (fund != null) await r.upsertFund(fund);
     });
     engine.registerMergeHandler(sightingSyncEntity, () async {
-      await mergeWithRemote(await r.fetchSeenIds());
+      await mergeWithRemote(await r.fetchFunde());
     });
   }
 
   @override
-  Future<Set<String>> getSeenIds() => _local.read();
+  Future<Map<String, Fund>> getFunde() => _local.read();
 
   @override
-  Future<void> persistSeenIds(Set<String> ids) => _local.write(ids);
-
-  @override
-  Future<void> applySeenChange({
-    required Set<String> ids,
+  Future<void> applyChange({
+    required Map<String, Fund> funde,
     required String speciesId,
-    required bool seen,
-  }) {
-    return _ids.writeAndEnqueue(next: ids, key: speciesId, present: seen);
+  }) async {
+    await _local.write(funde);
+    await _engine?.enqueue(
+      SyncMutation.create(
+        entity: sightingSyncEntity,
+        key: speciesId,
+        op: funde.containsKey(speciesId) ? SyncOp.upsert : SyncOp.delete,
+      ),
+    );
   }
 
-  @override
-  Future<void> setSeen(String speciesId, bool seen) async {
-    final previous = await _local.read();
-    final next = {...previous};
-    if (seen) {
-      next.add(speciesId);
-    } else {
-      next.remove(speciesId);
+  /// Union lokal + remote; pro Art frühestes Datum, lokale Angaben vor
+  /// Remote. Was remote fehlt oder dort weniger weiß, wird hochgeladen.
+  Future<Map<String, Fund>> mergeWithRemote(Map<String, Fund> remote) async {
+    final local = await _local.read();
+    final merged = <String, Fund>{...remote};
+    for (final e in local.entries) {
+      final r = remote[e.key];
+      merged[e.key] = r == null ? e.value : Fund.merge(e.value, r);
     }
-    await applySeenChange(ids: next, speciesId: speciesId, seen: seen);
+    await _local.write(merged);
+    final sync = _engine;
+    if (sync != null) {
+      for (final e in merged.entries) {
+        if (remote[e.key] == e.value) continue;
+        await sync.enqueue(
+          SyncMutation.create(
+            entity: sightingSyncEntity,
+            key: e.key,
+            op: SyncOp.upsert,
+          ),
+        );
+      }
+    }
+    return merged;
   }
-
-  Future<Set<String>> mergeWithRemote(Set<String> remoteIds) =>
-      _ids.mergeUnion(remoteIds);
 }

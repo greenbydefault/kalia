@@ -109,7 +109,10 @@ class UploadJobs extends Notifier<List<UploadJob>> {
       for (final job in state)
         if (job.id != id) job,
     ];
-    if (result.success) ref.invalidate(trailImagesProvider(trailId));
+    if (result.success) {
+      ref.invalidate(trailImagesProvider(trailId));
+      ref.invalidate(myImagesProvider);
+    }
     _results.add(result);
   }
 

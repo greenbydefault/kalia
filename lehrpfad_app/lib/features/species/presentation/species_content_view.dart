@@ -7,9 +7,20 @@ import 'species_section_title.dart';
 
 /// Abschnitte des Outdoor-Steckbriefs (Hook, Erkennung, …).
 class SpeciesContentView extends StatelessWidget {
-  const SpeciesContentView({super.key, required this.species});
+  const SpeciesContentView({
+    super.key,
+    required this.species,
+    this.showAudio = true,
+    this.skipFirstFunFact = false,
+  });
 
   final Species species;
+
+  /// Play-Control im Block zeigen. Das Sheet hat ihn bei den Aktionen.
+  final bool showAudio;
+
+  /// Erster Fun Fact steht schon als „Wusstest du?“ im Sheet.
+  final bool skipFirstFunFact;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +28,10 @@ class SpeciesContentView extends StatelessWidget {
     final c = species.content;
     final hook = species.displayHook;
     final audioPath = species.audioPath;
-    final hasAudio = species.hasPlayableAudio;
+    final hasAudio = showAudio && species.hasPlayableAudio;
+    final funFacts = skipFirstFunFact
+        ? c.funFacts.skip(1).toList()
+        : c.funFacts;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,10 +58,10 @@ class SpeciesContentView extends StatelessWidget {
           Text(c.lebensraum, style: theme.textTheme.bodyMedium),
           const SizedBox(height: 16),
         ],
-        if (c.funFacts.isNotEmpty) ...[
+        if (funFacts.isNotEmpty) ...[
           const SpeciesSectionTitle(title: 'Fun Facts'),
           const SizedBox(height: 8),
-          ...c.funFacts.map((b) => _Bullet(theme: theme, text: b)),
+          ...funFacts.map((b) => _Bullet(theme: theme, text: b)),
           const SizedBox(height: 16),
         ],
         if (c.hinweis.trim().isNotEmpty) ...[

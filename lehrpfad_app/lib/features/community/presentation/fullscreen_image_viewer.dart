@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../app/theme/app_colors.dart';
 import '../../../app/theme/app_typography.dart';
 import '../../../shared/widgets/kalia_image.dart';
+import '../../trail/domain/trail_bild.dart';
 import '../domain/trail_image.dart';
 
 /// Vollbild-Ansicht fuer Bilder: Wischen zwischen Bildern, Zoomen per
@@ -123,13 +124,13 @@ class _FullscreenImageViewerState extends State<FullscreenImageViewer> {
               ),
             ),
           ),
-          if (image.credit.isNotEmpty)
+          if (image.credit.isNotEmpty || image.isOfficial)
             Positioned(
               left: 16,
               right: 16,
               bottom: 16,
               child: Text(
-                '© ${image.credit}',
+                _creditLine(image),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: AppColors.onImage70,
@@ -140,5 +141,14 @@ class _FullscreenImageViewerState extends State<FullscreenImageViewer> {
         ],
       ),
     );
+  }
+
+  /// Offizielle Bilder tragen Urheber und Lizenz, Nutzerfotos nur den Urheber.
+  static String _creditLine(TrailImage image) {
+    if (!image.isOfficial) return '© ${image.credit}';
+    final label = TrailBild.licenseLabelOf(image.license);
+    final author = image.credit.trim();
+    if (author.isEmpty) return label;
+    return label.isEmpty ? '© $author' : '© $author · $label';
   }
 }
