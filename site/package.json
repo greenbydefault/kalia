@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "prebuild": "node tools/sync-illustrations.mjs",
     "sync:illustrations": "node tools/sync-illustrations.mjs",
+    "images": "node tools/build-images.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },

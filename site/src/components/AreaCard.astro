@@ -18,7 +18,7 @@ const { area: a } = Astro.props;
 const plus = 'M11.9922 4V12M11.9922 12V20M11.9922 12H19.9922M11.9922 12H3.99219';
 const has = (path?: string) => !!path && existsSync(join(process.cwd(), 'public', path));
 const sceneSrc = `/img/cards/${a.id}/szene.svg`;
-// /img/ wird 24 h gecacht, Version hochzählen, wenn eine Szene getauscht wird
+// /img/ wird 30 Tage gecacht (vercel.json), Version hochzählen, wenn eine Szene getauscht wird
 const SCENE_V = '2';
 const miniKeys = [
   { key: 'grey', mod: 'grey' },
@@ -33,7 +33,7 @@ const miniKeys = [
       <div class="area-flip" data-area-flip>
         <div class="area-flip__shadow" data-shadow aria-hidden="true" />
         <div class="area-flip__inner" data-inner>
-          <article
+          <div
             class="area-card area-flip__face area-flip__front"
             data-front
             role="button"
@@ -59,12 +59,12 @@ const miniKeys = [
                 <path d={plus} />
               </svg>
             </span>
-          </article>
+          </div>
 
           <div class="area-flip__face area-back" data-back aria-hidden="true" inert>
             <div class="area-back__scene">
               {has(sceneSrc) ? (
-                <img class="area-back__art" data-scene-art src={`${sceneSrc}?v=${SCENE_V}`} alt="" height="190" loading="lazy" />
+                <img class="area-back__art" data-scene-art src={`${sceneSrc}?v=${SCENE_V}`} alt="" width="304" height="190" loading="lazy" />
               ) : (
                 <div class="area-back__art area-back__art--empty" data-scene-art aria-hidden="true" />
               )}
@@ -97,7 +97,7 @@ const miniKeys = [
                   return (
                     <li class="area-back__tile" data-tile>
                       <span class="area-back__tile-art">
-                        {art && <img src={art.src} alt="" loading="lazy" decoding="async" />}
+                        {art && <img src={art.src} alt="" width="44" height="40" loading="lazy" decoding="async" />}
                       </span>
                       <span class="area-back__tile-name">{art?.name ?? artenPool[id]}</span>
                     </li>

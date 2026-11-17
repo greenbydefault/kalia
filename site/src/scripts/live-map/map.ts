@@ -1,7 +1,9 @@
 import { Map as MapLibreMap, NavigationControl, setWorkerUrl } from 'maplibre-gl';
 // Worker als eigenes Asset: Vites Dep-Optimierung findet die Worker-Datei sonst nicht ("Worker failed to load")
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import 'maplibre-gl/dist/maplibre-gl.css';
+// Als String statt Import: Astro würde das CSS sonst als blockierendes <link> in den Head jeder Seite legen,
+// obwohl der Chunk erst beim Scrollen lädt.
+import maplibreCss from 'maplibre-gl/dist/maplibre-gl.css?inline';
 import { gsap } from 'gsap';
 import {
   ATTRIBUTION,
@@ -44,7 +46,16 @@ export function centerForPointAt(point: LngLat, zoom: number, sx: number, sy: nu
   return fromWorld({ x: p.x + (w / 2 - sx), y: p.y + (h / 2 - sy) }, zoom);
 }
 
+function injectCss() {
+  if (document.getElementById('maplibre-css')) return;
+  const style = document.createElement('style');
+  style.id = 'maplibre-css';
+  style.textContent = maplibreCss;
+  document.head.append(style);
+}
+
 export function createMap(container: HTMLElement) {
+  injectCss();
   setWorkerUrl(workerUrl);
   const map = new MapLibreMap({
     container,

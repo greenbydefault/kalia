@@ -48,8 +48,8 @@ export const aktionen = {
   cta: { label: 'Auf die Warteliste', href: '#liste' },
 };
 
-const BG = '/img/ausflug/karte-platzhalter.webp';
-const SCREEN = '/img/ausflug/screen-platzhalter.webp';
+const BG = '/img/ausflug/karte-platzhalter.avif';
+const SCREEN = '/img/ausflug/screen-platzhalter.avif';
 const CHIP_ICON: IconName = 'hinkommen';
 const chips = (...labels: string[]): AusflugChip[] => labels.map((label) => ({ label, icon: CHIP_ICON }));
 

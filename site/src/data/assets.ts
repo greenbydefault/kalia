@@ -1,7 +1,8 @@
 import { existsSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
 
-const pub = (p: string) => existsSync(fileURLToPath(new URL(`../../public${p}`, import.meta.url)));
+// process.cwd() statt import.meta.url: im Build liegt dieses Modul in einem Chunk, der relative Pfad zu public/ stimmt dort nicht
+const pub = (p: string) => existsSync(join(process.cwd(), 'public', p));
 
 export const MILL_TOWER = '/img/mill/mill-tower.svg';
 export const MILL_WHEEL = '/img/mill/mill-wheel.svg';

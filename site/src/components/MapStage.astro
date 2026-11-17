@@ -8,23 +8,48 @@ import SpeciesCard from './SpeciesCard.astro';
 
 const src3840 = millSplit ? MAP_WITHOUT_MILL : '/img/kalia-map-3840.webp';
 const src1920 = src3840.replace('3840', '1920');
+const AVIF_BASE = MAP_WITHOUT_MILL.replace('-3840.webp', '');
 const popPoints = mapPoints.filter((p) => p.pop);
 ---
 
 <div class="map" data-map>
   <div class="map__viewport" data-map-viewport>
     <div class="map__stage" data-map-stage>
-      <img
-        class="map__image"
-        src={src1920}
-        srcset={`${src1920} 1920w, ${src3840} 3840w`}
-        sizes="(min-width: 60rem) 150vw, 90rem"
-        width="3840"
-        height="2508"
-        alt="Illustrierte Karte mit Wäldern, Wiesen, Seen, Küste und einer Windmühle"
-        fetchpriority="high"
-        decoding="async"
-      />
+      <picture>
+        {
+          millSplit && (
+            <>
+              {/* Mobil: oben/unten beschnittener Ausschnitt (tools/build-images.mjs, Maße in map.css) */}
+              <source
+                type="image/avif"
+                media="(max-width: 59.99rem)"
+                srcset={`${AVIF_BASE}-m-1280.avif 1280w, ${AVIF_BASE}-m-1920.avif 1920w`}
+                sizes="60rem"
+                width="3840"
+                height="2006"
+              />
+              <source
+                type="image/avif"
+                srcset={`${AVIF_BASE}-1920.avif 1920w, ${AVIF_BASE}-3840.avif 3840w`}
+                sizes="150vw"
+                width="3840"
+                height="2508"
+              />
+            </>
+          )
+        }
+        <img
+          class="map__image"
+          src={src1920}
+          srcset={`${src1920} 1920w, ${src3840} 3840w`}
+          sizes="(min-width: 60rem) 150vw, 60rem"
+          width="3840"
+          height="2508"
+          alt="Illustrierte Karte mit Wäldern, Wiesen, Seen, Küste und einer Windmühle"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
 
       {millSplit && <Windmill />}
 
