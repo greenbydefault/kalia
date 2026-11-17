@@ -47,7 +47,6 @@
 
 .faq__answer {
   padding-bottom: var(--space-5);
-  max-width: 29em;
   color: var(--color-ink-muted);
 }
 
