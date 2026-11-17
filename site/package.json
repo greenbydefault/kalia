@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node tools/sync-illustrations.mjs",
+    "sync:illustrations": "node tools/sync-illustrations.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },

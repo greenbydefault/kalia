@@ -1,0 +1,182 @@
+{
+  "austernfischer": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/austernfischer/illu-d5915ddb0b.svg",
+    "name": "Austernfischer"
+  },
+  "biber": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/biber/illu-c710b9130f.svg",
+    "name": "Biber"
+  },
+  "blaesshuhn": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/blaesshuhn/illu-d377833160.svg",
+    "name": "Blässhuhn"
+  },
+  "blindschleiche": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/blindschleiche/illu-dc52007470.svg",
+    "name": "Blindschleiche"
+  },
+  "buchfink": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/buchfink/illu-b75a232e59.svg",
+    "name": "Buchfink"
+  },
+  "buntspecht": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/buntspecht/illu-860c12b831.svg",
+    "name": "Buntspecht"
+  },
+  "eichelhaeher": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/eichelhaeher/illu-c25f092386.svg",
+    "name": "Eichelhäher"
+  },
+  "eichhoernchen": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/eichhoernchen/illu-21817ff22c.svg",
+    "name": "Eichhörnchen"
+  },
+  "eisvogel": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/eisvogel/illu-eba48e8baf.svg",
+    "name": "Eisvogel"
+  },
+  "erdkroete": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/erdkroete/illu-a33528a26d.svg",
+    "name": "Erdkröte"
+  },
+  "feldhase": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/feldhase/illu-e3538f6e84.svg",
+    "name": "Feldhase"
+  },
+  "graugans": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/graugans/illu-af3784239a.svg",
+    "name": "Graugans"
+  },
+  "graureiher": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/graureiher/illu-332493dddb.svg",
+    "name": "Graureiher"
+  },
+  "haengebirke": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/haengebirke/illu-4eda25f0e4.svg",
+    "name": "Hängebirke"
+  },
+  "haselnuss": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/haselnuss/illu-3cc061c3e5.svg",
+    "name": "Haselnuss"
+  },
+  "haubentaucher": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/haubentaucher/illu-a7f98929df.svg",
+    "name": "Haubentaucher"
+  },
+  "heckenrose": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/heckenrose/illu-502dc968dc.svg",
+    "name": "Heckenrose"
+  },
+  "holunder": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/holunder/illu-dedc88b612.svg",
+    "name": "Schwarzer Holunder"
+  },
+  "hummel": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/hummel/illu-0d70cf2c55.svg",
+    "name": "Hummel"
+  },
+  "igel": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/igel/illu-42d7d3526e.svg",
+    "name": "Igel"
+  },
+  "kammmolch": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/kammmolch/illu-cddd0c2407.svg",
+    "name": "Kammmolch"
+  },
+  "kiefer": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/kiefer/illu-d3e7031ccc.svg",
+    "name": "Kiefer"
+  },
+  "kleiber": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/kleiber/illu-f4c039c8e5.svg",
+    "name": "Kleiber"
+  },
+  "kohlmeise": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/kohlmeise/illu-e66ddd1b1e.svg",
+    "name": "Kohlmeise"
+  },
+  "kormoran": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/kormoran/illu-acd3fedc2e.svg",
+    "name": "Kormoran"
+  },
+  "libelle": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/libelle/illu-75c9c619eb.svg",
+    "name": "Libelle"
+  },
+  "loewenzahn": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/loewenzahn/illu-896989fb76.svg",
+    "name": "Löwenzahn"
+  },
+  "margerite": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/margerite/illu-a351351440.svg",
+    "name": "Margerite"
+  },
+  "marienkaefer": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/marienkaefer/illu-ce9d11c853.svg",
+    "name": "Siebenpunkt-Marienkäfer"
+  },
+  "moorfrosch": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/moorfrosch/illu-67a9f71f36.svg",
+    "name": "Moorfrosch"
+  },
+  "reh": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/reh/illu-a74c74dc6d.svg",
+    "name": "Reh"
+  },
+  "ringelnatter": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/ringelnatter/illu-b831b3d321.svg",
+    "name": "Ringelnatter"
+  },
+  "rotbauchunke": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/rotbauchunke/illu-1a53f07248.svg",
+    "name": "Rotbauchunke"
+  },
+  "rotbuche": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/rotbuche/illu-67c82be9b9.svg",
+    "name": "Rotbuche"
+  },
+  "rotkehlchen": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/rotkehlchen/illu-b4b8c1cafa.svg",
+    "name": "Rotkehlchen"
+  },
+  "schlehe": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/schlehe/illu-674a16837f.svg",
+    "name": "Schlehe"
+  },
+  "seeadler": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/seeadler/illu-e86f4ccb66.svg",
+    "name": "Seeadler"
+  },
+  "silbermoewe": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/silbermoewe/illu-33546249d7.svg",
+    "name": "Silbermöwe"
+  },
+  "sonnentau": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/sonnentau/illu-15520cdfe9.svg",
+    "name": "Rundblättriger Sonnentau"
+  },
+  "stieleiche": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/stieleiche/illu-a7496772bf.svg",
+    "name": "Stieleiche"
+  },
+  "stockente": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/stockente/illu-e95fa4fe08.svg",
+    "name": "Stockente"
+  },
+  "tagpfauenauge": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/tagpfauenauge/illu-41a1e2d089.svg",
+    "name": "Tagpfauenauge"
+  },
+  "waldeidechse": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/waldeidechse/illu-8434604b7f.svg",
+    "name": "Waldeidechse"
+  },
+  "wollgras": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/wollgras/illu-05905159b3.svg",
+    "name": "Wollgras"
+  },
+  "zauneidechse": {
+    "url": "https://icdghtzgevgclsgxzwhj.supabase.co/storage/v1/object/public/catalog-media/species/zauneidechse/illu-83c7f799c2.svg",
+    "name": "Zauneidechse"
+  }
+}

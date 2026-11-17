@@ -4,14 +4,25 @@ Baut die drei Mini-Card-Ebenen (grau, blau, mitte) der Arten-Gruppen aus public/
 
 Rahmen, Winkel und Farben wie im Moor-Entwurf (public/img/cards/moor/*.svg), 315 x 237.
 Die Art steht aufrecht (nicht mitgekippt) im sichtbaren Streifen der Karte, grau links, blau rechts,
-mitte vorn. Aufruf aus site/:  python3 tools/gen_card_fronts.py
+mitte vorn. Aufruf aus site/:  python3 tools/gen_card_fronts.py [--local]
+
+Die Arten kommen aus dem CMS: URLs aus src/data/illustrations.json (vorher `npm run sync:illustrations`),
+Download in .cache/arten/ (gitignoriert, der Dateiname trägt den Hash der URL). Arten ohne CMS-Eintrag
+kommen aus public/img/arten/. --local erzwingt nur die lokalen Dateien.
 """
+import json
 import re
+import sys
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent / "public" / "img"
 ARTEN = ROOT / "arten"
 CARDS = ROOT / "cards"
+SITE = ROOT.parent.parent
+CMS_JSON = SITE / "src" / "data" / "illustrations.json"
+CACHE = SITE / ".cache" / "arten"
+FROM_CMS = "--local" not in sys.argv
 
 # Gruppe -> (grau, mitte, blau). Schmale/hohe Arten außen, die auffälligste in die Mitte.
 GRUPPEN = {
@@ -44,9 +55,24 @@ SHADOW = """<filter id="shadow" x="40" y="-2" width="260" height="240" filterUni
 </filter>"""
 
 
+def source(art_id: str) -> str:
+    """SVG-Text einer Art: CMS (mit --from-cms, gecacht) oder public/img/arten/."""
+    if FROM_CMS and CMS_JSON.exists():
+        entry = json.loads(CMS_JSON.read_text(encoding="utf-8")).get(art_id)
+        if entry:
+            CACHE.mkdir(parents=True, exist_ok=True)
+            # Dateiname der URL (illu-<hash>.svg) ist der Cache-Schluessel
+            cached = CACHE / f"{art_id}-{entry['url'].rsplit('/', 1)[-1]}"
+            if not cached.exists():
+                with urllib.request.urlopen(entry["url"]) as resp:
+                    cached.write_bytes(resp.read())
+            return cached.read_text(encoding="utf-8")
+    return (ARTEN / f"{art_id}.svg").read_text(encoding="utf-8")
+
+
 def art(art_id: str, box: tuple[int, int, int, int]) -> str:
     """Art-SVG als verschachteltes <svg> in `box`, unten mittig verankert."""
-    src = (ARTEN / f"{art_id}.svg").read_text(encoding="utf-8")
+    src = source(art_id)
     src = re.sub(r"^\s*<\?xml[^>]*>\s*", "", src)
     root = re.search(r"<svg\b[^>]*>", src)
     if not root:

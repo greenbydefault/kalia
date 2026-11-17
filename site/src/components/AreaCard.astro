@@ -2,6 +2,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { artenPool, faktenSlots, type Area } from '../data/areas';
+import { illustration } from '../data/illustrations';
 
 /**
  * Eine Karte der Sektion "Entdecken", für Gebiete und Arten-Gruppen.
@@ -91,14 +92,17 @@ const miniKeys = [
             <div class="area-back__species">
               <p class="area-back__label" data-b-label>Das lebt hier</p>
               <ul class="area-back__tiles" role="list">
-                {a.back.arten.map((id) => (
-                  <li class="area-back__tile" data-tile>
-                    <span class="area-back__tile-art">
-                      {has(`/img/arten/${id}.svg`) && <img src={`/img/arten/${id}.svg`} alt="" loading="lazy" />}
-                    </span>
-                    <span class="area-back__tile-name">{artenPool[id]}</span>
-                  </li>
-                ))}
+                {a.back.arten.map((id) => {
+                  const art = illustration(id);
+                  return (
+                    <li class="area-back__tile" data-tile>
+                      <span class="area-back__tile-art">
+                        {art && <img src={art.src} alt="" loading="lazy" decoding="async" />}
+                      </span>
+                      <span class="area-back__tile-name">{art?.name ?? artenPool[id]}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>

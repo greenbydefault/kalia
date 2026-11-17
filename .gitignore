@@ -17,6 +17,7 @@ lehrpfad_app/tools/*
 !lehrpfad_app/tools/seed_pools.py
 !lehrpfad_app/tools/export_catalog.py
 !lehrpfad_app/tools/upload_catalog_media.py
+!lehrpfad_app/tools/upload_illustrations.py
 # Helfer, die import_worker/ importiert (siehe import_worker/README.md)
 !lehrpfad_app/tools/gebiet.py
 !lehrpfad_app/tools/naturraum.py

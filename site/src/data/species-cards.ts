@@ -5,6 +5,8 @@
  * Vor Livegang gegen den Katalog prüfen. Ton: `audio` verweist auf data/audio.ts.
  */
 
+import { illustration } from './illustrations';
+
 export type SpeciesCardData = {
   id: string;
   name: string;
@@ -24,7 +26,8 @@ export const speciesCards: Record<string, SpeciesCardData> = {
     id: 'igel',
     name: 'Igel',
     kicker: 'Fauna',
-    illustration: '/img/cards/igel.svg',
+    // CMS (species.illustration_path), bis zum Import die alte Datei
+    illustration: illustration('igel')?.src ?? '/img/cards/igel.svg',
     illustrationAlt: 'Illustration eines Igels',
     // ViewBox ohne Schatten zugeschnitten (78 x 48), Igel bleibt so groß wie zuvor (1,43 px je Einheit)
     illustrationWidth: 112,
