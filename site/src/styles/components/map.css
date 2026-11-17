@@ -20,8 +20,7 @@
 .map__viewport.is-focused {
   overflow: hidden;
 }
-
-/* Die Welt. spotlight.ts schreibt transform und --inv (1 / Zoom) */
+/* Die Welt. spotlight.ts schreibt transform, den Gegenzoom (1 / Zoom) direkt auf die Pin-Buttons */
 .map__stage {
   position: relative;
   width: max(100%, 60rem);

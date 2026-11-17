@@ -50,9 +50,13 @@ export function initSpotlight() {
   let ctx: Ctx | null = null;
   let pending: HTMLButtonElement | null = null;
 
+  // Gegenzoom direkt auf die Pins: --inv an der Stage würde pro Frame den Style der ganzen Welt neu berechnen
+  const pins = Array.from(stage.querySelectorAll<HTMLElement>('.map__point > button'));
+
   function applyCamera() {
     stage!.style.transform = `translate3d(${cam.x}px, ${cam.y}px, 0) scale(${cam.s})`;
-    stage!.style.setProperty('--inv', String(1 / cam.s));
+    const inv = `scale(${String(1 / cam.s)})`;
+    for (const pin of pins) pin.style.transform = inv;
   }
 
   /** Kamera-Ziel und Popover-Platz. Alles in Koordinaten der .map (= Viewport, nicht Welt). */
@@ -256,8 +260,8 @@ export function initSpotlight() {
     cam.y = 0;
     cam.s = 1;
     stage!.style.removeProperty('transform');
-    stage!.style.removeProperty('--inv');
-    stripEmptyStyle(stage, spot, pop, icon, others, items);
+    for (const pin of pins) pin.style.removeProperty('transform');
+    stripEmptyStyle(stage, spot, pop, icon, others, items, pins);
 
     ctx = null;
     state = 'idle';

@@ -3,7 +3,8 @@ import { mapPoints } from './map-points';
 
 /**
  * Baut aus den Daten (map-points.ts, ambient.ts) das CSS für Positionen und Bahnen.
- * Wird als /positions.css ausgeliefert (pages/positions.css.ts). Kein style="" im Markup,
+ * Steht inline im Head (layouts/Base.astro), spart einen render-blockierenden Request. /positions.css
+ * (pages/positions.css.ts) bleibt für noch gecachte HTML-Seiten, die die Datei verlinken. Kein style="" im Markup,
  * die Komponenten tragen nur Klassen (.map__point--{id}, .cloud--{i}, .bird--{i}, .gull--{i}).
  * Nachjustieren in den Datendateien, nicht hier.
  *

@@ -173,6 +173,11 @@ function rest(c: Ctx) {
   });
 }
 
+/** Eigene Ebene für die Szene, solange die Timeline läuft. */
+function layers(c: Ctx, on: boolean) {
+  c.root.classList.toggle('is-flipping', on);
+}
+
 function setAria(c: Ctx, open: boolean) {
   c.front.setAttribute('aria-hidden', String(open));
   c.front.setAttribute('aria-expanded', String(open));
@@ -185,9 +190,11 @@ function toggle(c: Ctx) {
   const hadFocus = c.root.contains(document.activeElement);
   if (c.state === 'idle') {
     gsap.killTweensOf(c.minis);
+    layers(c, true);
     c.tl = prefersReducedMotion() ? buildReduced(c) : VARIANTS[variant].build(c);
     c.tl.eventCallback('onComplete', () => {
       c.state = 'open';
+      layers(c, false);
     });
     c.tl.eventCallback('onReverseComplete', () => settle(c));
     c.state = 'opening';
@@ -195,6 +202,7 @@ function toggle(c: Ctx) {
     if (hadFocus) c.close.focus({ preventScroll: true });
   } else if (c.state === 'opening' || c.state === 'open') {
     c.state = 'closing';
+    layers(c, true);
     c.tl?.timeScale(BACK_SPEED).reverse();
     setAria(c, false);
     // Klick vor dem ersten Tick: Timeline steht schon auf 0, onReverseComplete würde nie feuern
@@ -213,7 +221,7 @@ function toggle(c: Ctx) {
 function settle(c: Ctx) {
   c.tl?.kill();
   c.tl = null;
-  c.root.classList.remove('is-reduced');
+  c.root.classList.remove('is-reduced', 'is-flipping');
   const els = [
     c.inner,
     c.shadow,

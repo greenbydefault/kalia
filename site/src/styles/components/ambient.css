@@ -112,6 +112,13 @@
   }
 }
 
+/* Karte komplett aus dem Bild (scripts/ambient.ts): pausieren, damit nichts unsichtbar weitertickt */
+.map.is-offscreen .air *,
+.map.is-offscreen .mill__wheel,
+.map.is-offscreen .map-dot::before {
+  animation-play-state: paused;
+}
+
 /* "Bewegung reduzieren": pausiert, Elemente stehen an ihrer Startposition.
    ?motion=1 (main.ts setzt data-motion am html) hebt das zum Testen auf. */
 @media (prefers-reduced-motion: reduce) {

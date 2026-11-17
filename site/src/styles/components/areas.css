@@ -7,6 +7,7 @@
 }
 
 .areas-slider {
+  --bleed: var(--gutter);
   /* Container für cqw: die Kartenbreite hängt an der Breite des Inhaltsbereichs */
   container-type: inline-size;
   display: grid;
@@ -14,8 +15,8 @@
 }
 
 .areas-slider__viewport {
-  --bleed: var(--gutter);
   --slide-w: calc(100cqw * 0.84);
+  grid-area: 1 / 1;
   margin-inline: calc(-1 * var(--bleed));
   /* Luft oben und unten für Anheben und Schatten der Flip-Karten (overflow-x macht overflow-y zu auto) */
   margin-block: calc(-1 * var(--space-4));
@@ -25,8 +26,31 @@
   scroll-snap-type: x mandatory;
   scroll-padding-inline: var(--bleed);
   scrollbar-width: none;
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--bleed), #000 calc(100% - var(--bleed)), transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 var(--bleed), #000 calc(100% - var(--bleed)), transparent);
+}
+
+/* Auslauf an den Rändern: zwei feste Verläufe in Paper über dem Viewport statt mask-image auf dem Scroller.
+   Auf dem Paper-Hintergrund rechnerisch dasselbe Bild, aber der Scroller muss nicht bei jedem Scroll-Frame
+   mit Maske zusammengesetzt werden. Setzt voraus, dass hinter dem Slider Paper liegt. */
+.areas-slider::before,
+.areas-slider::after {
+  content: '';
+  grid-area: 1 / 1;
+  z-index: 1;
+  width: var(--bleed);
+  margin-block: calc(-1 * var(--space-4));
+  pointer-events: none;
+}
+
+.areas-slider::before {
+  justify-self: start;
+  margin-left: calc(-1 * var(--bleed));
+  background: linear-gradient(90deg, var(--color-paper), rgb(252 252 249 / 0));
+}
+
+.areas-slider::after {
+  justify-self: end;
+  margin-right: calc(-1 * var(--bleed));
+  background: linear-gradient(270deg, var(--color-paper), rgb(252 252 249 / 0));
 }
 
 .areas-slider__viewport::-webkit-scrollbar {
@@ -51,10 +75,13 @@
 
 /* Gleiche Kartenbreite wie das 4-Spalten-Raster (.faq-layout). Gleiche Schwelle wie die Desktop-Root (tokens.css). */
 @media (min-width: 75rem) {
-  .areas-slider__viewport {
-    --slide-w: calc((100cqw - 3 * var(--grid-gap)) / 4);
+  .areas-slider {
     /* Rand neben dem Container, aber höchstens 6 rem */
     --bleed: min(6rem, var(--gutter));
+  }
+
+  .areas-slider__viewport {
+    --slide-w: calc((100cqw - 3 * var(--grid-gap)) / 4);
   }
 }
 
@@ -76,6 +103,7 @@
 }
 
 .areas-slider__nav {
+  grid-row: 2;
   display: flex;
   justify-content: flex-end;
   gap: var(--space-2);
@@ -226,6 +254,13 @@
   inset: 0;
   width: 100%;
   height: 100%;
+  will-change: transform;
+}
+
+/* Eigene Ebene für die Szene, solange die Karte dreht (Klasse setzt area-flip.ts). Ohne sie rastert der Browser
+   die Szene samt SVG-Filtern bei jedem Skalierungsschritt neu. Danach weg, damit wieder scharf gerastert wird.
+   Nicht auf .area-flip__inner: dort verschluckt Chrome mit backface-visibility beim Zurückdrehen die Vorderseite. */
+.area-flip.is-flipping .area-back__art {
   will-change: transform;
 }
 

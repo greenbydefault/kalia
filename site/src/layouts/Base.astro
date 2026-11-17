@@ -2,6 +2,7 @@
 import '../styles/main.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { buildPositionsCss } from '../data/positions-css';
 
 interface Props {
   title?: string;
@@ -29,7 +30,7 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="de_DE" />
-    <link rel="stylesheet" href="/positions.css" />
+    <style is:inline set:html={buildPositionsCss()} />
     <link
       rel="preload"
       href="/fonts/hanken-grotesk-latin-wght-normal.woff2"

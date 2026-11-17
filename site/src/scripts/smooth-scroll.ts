@@ -4,7 +4,7 @@ import { prefersReducedMotion } from './motion';
 
 /**
  * Smooth Scroll für die Seite (Lenis), getaktet über den GSAP-Ticker.
- * Touch bleibt nativ (Lenis glättet nur Wheel/Trackpad-Maus). Anker-Links scrollt Lenis selbst.
+ * Touch bleibt nativ (Lenis glättet nur Wheel/Trackpad-Maus). Anker-Links scrollt Lenis selbst, auch auf Touch.
  * Bei "Bewegung reduzieren" läuft nichts.
  */
 export function initSmoothScroll() {

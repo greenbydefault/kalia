@@ -9,10 +9,12 @@ import { initAudioPlayers } from './audio-player';
 import { initFaq } from './faq';
 import { initSmoothScroll } from './smooth-scroll';
 import { initLiveMap } from './live-map';
+import { initAmbient } from './ambient';
 import { applyMotionOverride } from './motion';
 
 applyMotionOverride();
 initMapViewport();
+initAmbient();
 initAudioPlayers();
 initSpotlight();
 initWaitlist();
