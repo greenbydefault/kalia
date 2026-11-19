@@ -1,5 +1,25 @@
 [
  {
+  "id": "abenteuer-peenetal",
+  "name": "Abenteuer Peenetal",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kanustation und Naturparkinfo mit Kanu-, Kajak- und Fahrradverleih am Eingang zum Peenetal.",
+  "lat": 53.849553,
+  "lon": 12.900631,
+  "website": "https://abenteuer-peenetal.com/",
+  "telefon": "039994 749937"
+ },
+ {
+  "id": "aktivitaet-bitterfelder-bogen",
+  "name": "Bitterfelder Bogen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Stahlrampe hinauf auf 28 Meter, auch mit dem Rad, mit Blick über die Goitzsche.",
+  "lat": 51.6152576,
+  "lon": 12.3263443,
+  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
+  "oeffnungszeiten": "jederzeit frei zugänglich"
+ },
+ {
   "id": "aktivitaet-kanuhafen-luebeck",
   "name": "Kanuhafen Lübeck",
   "kategorie": "aktivitaet",
@@ -10,6 +30,16 @@
   "oeffnungszeiten": "ab Mai Mo–Fr 14–18 Uhr, Sa/So 10–18 Uhr, Buchung",
   "opening_hours": "May-Oct: Mo-Fr 14:00-18:00; May-Oct: Sa-Su 10:00-18:00",
   "telefon": "+49 4501 412"
+ },
+ {
+  "id": "aktivitaet-kanupark-markkleeberg",
+  "name": "Kanupark Markkleeberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Wildwasserkanal am Markkleeberger See — extra, Eintritt.",
+  "lat": 51.25771,
+  "lon": 12.42687,
+  "website": "https://kanupark-markkleeberg.com",
+  "oeffnungszeiten": "siehe Betreiber, Eintritt"
  },
  {
   "id": "aktivitaet-karls-roevershagen",
@@ -31,6 +61,26 @@
   "website": "https://www.molli-bahn.de/",
   "oeffnungszeiten": "täglich, Fahrplan je nach Saison",
   "telefon": "+49 38293 431331"
+ },
+ {
+  "id": "aktivitaet-palmenhaus-bad-duerrenberg",
+  "name": "Palmenhaus Bad Dürrenberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Palmen und Vögel im Kurpark, Eintritt frei, eine Alternative bei Regen.",
+  "lat": 51.29625,
+  "lon": 12.06205,
+  "oeffnungszeiten": "täglich 10–16 Uhr",
+  "opening_hours": "Mo-Su 10:00-16:00"
+ },
+ {
+  "id": "aktivitaet-pegelturm-goitzsche",
+  "name": "Pegelturm Goitzschesee",
+  "kategorie": "aktivitaet",
+  "kurztext": "Der Turm schwimmt im Goitzschesee, eine Pontonbrücke führt hin, an der Promenade liegen Strand und Spielplatz.",
+  "lat": 51.6367848,
+  "lon": 12.3602502,
+  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
+  "oeffnungszeiten": "Turm tagsüber, wetterabhängig"
  },
  {
   "id": "aktivitaet-schwebefaehre-rendsburg",
@@ -91,6 +141,54 @@
   "telefon": "+49 3394 433725"
  },
  {
+  "id": "alter-hof-am-elbdeich",
+  "name": "Alter Hof am Elbdeich",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit regionaler Küche in einem Haus von 1827 am Elbdeich in Unbesandten.",
+  "lat": 53.09015,
+  "lon": 11.2927,
+  "website": "https://www.alter-hof-am-elbdeich.de/",
+  "telefon": "+49 38758 35780"
+ },
+ {
+  "id": "am-suederholz",
+  "name": "Am Süderholz",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage in Leck für eine Runde nach dem Waldspaziergang.",
+  "lat": 54.76844,
+  "lon": 8.977667
+ },
+ {
+  "id": "amsinck-haus-reussenkoege",
+  "name": "Amsinck-Haus",
+  "kategorie": "museum",
+  "kurztext": "Haus am Deich vor der Hamburger Hallig mit Ausstellung für Jung und Alt und Fahrradverleih.",
+  "lat": 54.615556,
+  "lon": 8.870692,
+  "website": "https://www.amsinck-haus.de/",
+  "oeffnungszeiten": "1. April–31. Oktober 10–18 Uhr",
+  "telefon": "04671 927154"
+ },
+ {
+  "id": "antikhof-cafe-refugium",
+  "name": "Antikhof & Café Refugium",
+  "kategorie": "cafe",
+  "kurztext": "Antikhof mit Café und Ladengeschäft in Glöwen; saisonal geöffnet, mit Adventsausstellung.",
+  "lat": 52.918502,
+  "lon": 12.087165,
+  "website": "https://antikhof-refugium.de",
+  "telefon": "+49 38787 50660"
+ },
+ {
+  "id": "ausflugsrestaurant-aalbude",
+  "name": "Ausflugsrestaurant Aalbude",
+  "kategorie": "restaurant",
+  "kurztext": "Ausflugsrestaurant mit Bootsanleger am Kummerower See.",
+  "lat": 53.848515,
+  "lon": 12.887271,
+  "website": "https://www.ausflugsrestaurant-aalbude.de"
+ },
+ {
   "id": "baden-aquacity-rendsburg",
   "name": "Aquacity Rendsburg",
   "kategorie": "baden",
@@ -112,6 +210,15 @@
   "oeffnungszeiten": "ganzjährig frei, Saisonbetrieb"
  },
  {
+  "id": "baden-cospudener-see-leipzig",
+  "name": "Cospudener See, Nordstrand",
+  "kategorie": "baden",
+  "kurztext": "Badesee südlich von Leipzig — nach dem Park ins Wasser, Saison.",
+  "lat": 51.28596,
+  "lon": 12.3461,
+  "oeffnungszeiten": "Saison, Strandbetrieb siehe Stadt"
+ },
+ {
   "id": "baden-fegetasche-ploen",
   "name": "Badestelle Fegetasche",
   "kategorie": "baden",
@@ -120,6 +227,15 @@
   "lon": 10.44806,
   "website": "https://www.holsteinischeschweiz.de/poi/badestelle-fegetasche-ploen",
   "oeffnungszeiten": "ganzjährig frei, Saisonbetrieb am Strand"
+ },
+ {
+  "id": "baden-freibad-dreibruecken-wurzen",
+  "name": "Freibad Dreibrücken Wurzen",
+  "kategorie": "baden",
+  "kurztext": "Freibad an der Leipziger Straße — Abkühlung nach dem Tiergehege, Saison.",
+  "lat": 51.36258,
+  "lon": 12.72525,
+  "oeffnungszeiten": "Saison, Eintritt"
  },
  {
   "id": "baden-freibad-eutin",
@@ -155,6 +271,17 @@
   "oeffnungszeiten": "Saison Anfang Mai bis Anfang September, Eintritt",
   "opening_hours": "May-Sep: 11:00-19:00",
   "telefon": "+49 4307 6776"
+ },
+ {
+  "id": "baden-freibad-weissenfels",
+  "name": "Freibad Weißenfels",
+  "kategorie": "baden",
+  "kurztext": "Schwimmbecken mit Rutschen, Wasserspielplatz und Spielplatz am Rand eines Landschaftsschutzgebiets, nur im Sommer.",
+  "lat": 51.18527,
+  "lon": 11.96826,
+  "website": "https://baeder-weissenfels.de/freibad",
+  "oeffnungszeiten": "Saison Mitte Mai bis Mitte September, täglich ab 10 Uhr, Eintritt",
+  "telefon": "+49 173 6773541"
  },
  {
   "id": "baden-freizeitbad-reinbek",
@@ -246,12 +373,45 @@
   "opening_hours": "May-Sep: Mo 10:30-19:00; May-Sep: Tu-Su 08:00-19:00"
  },
  {
+  "id": "badestelle-bad-stuer",
+  "name": "Badestelle Bad Stuer",
+  "kategorie": "baden",
+  "kurztext": "Naturbadestelle am Plauer See bei Bad Stuer.",
+  "lat": 53.391334,
+  "lon": 12.314233
+ },
+ {
+  "id": "badestelle-baggerkuhle-doemitz",
+  "name": "Badestelle Baggerkuhle",
+  "kategorie": "baden",
+  "kurztext": "Badestelle an der Baggerkuhle nahe Klein Schmölen.",
+  "lat": 53.12355,
+  "lon": 11.28361
+ },
+ {
+  "id": "badestelle-barth-bodden",
+  "name": "Badestelle Barth (Bodden)",
+  "kategorie": "baden",
+  "kurztext": "Kostenlose Badestelle mit Sandstrand am Barther Bodden.",
+  "lat": 54.371133,
+  "lon": 12.764217
+ },
+ {
   "id": "badestelle-garder-see",
   "name": "Badestelle Garder See",
   "kategorie": "baden",
   "kurztext": "Baden im Garder See, wenige Minuten vom Parkplatz am Campingplatz.",
   "lat": 53.6902484,
   "lon": 12.0569165
+ },
+ {
+  "id": "badestelle-verchen",
+  "name": "Badestelle Verchen",
+  "kategorie": "baden",
+  "kurztext": "Amtliche Badestelle am Kummerower See mit Sandstrand und Flachwasserzone.",
+  "lat": 53.849261,
+  "lon": 12.900773,
+  "website": "https://www.verchen.de/seite/636758/strand.html"
  },
  {
   "id": "badestelle-zermuetzel",
@@ -261,6 +421,109 @@
   "lat": 53.006941,
   "lon": 12.828013,
   "oeffnungszeiten": "Sommer, frei zugänglich"
+ },
+ {
+  "id": "badestrand-dagebuell",
+  "name": "Badestrand Dagebüll",
+  "kategorie": "baden",
+  "kurztext": "Badestrand am Dagebüller Deich mit Blick aufs Wattenmeer.",
+  "lat": 54.72708,
+  "lon": 8.692591
+ },
+ {
+  "id": "baeckerei-hatscher-teterow",
+  "name": "Bäckerei Hatscher Teterow",
+  "kategorie": "cafe",
+  "kurztext": "Bäckerei-Café in Teterow für Kuchen und eine Pause.",
+  "lat": 53.787343,
+  "lon": 12.570794,
+  "website": "https://www.baeckerei-hatscher.de/"
+ },
+ {
+  "id": "baerenwald-mueritz",
+  "name": "BÄRENWALD Müritz",
+  "kategorie": "aktivitaet",
+  "kurztext": "Bärenschutzzentrum von VIER PFOTEN mit Wegen durch die Gehege und Führungen.",
+  "lat": 53.385851,
+  "lon": 12.325599,
+  "website": "https://www.baerenwald-mueritz.de/",
+  "oeffnungszeiten": "November 2026 täglich 10–16 Uhr (letzter Einlass 15 Uhr); 1. Dezember 2026–28. Februar 2027 geschlossen"
+ },
+ {
+  "id": "bahnhof-dargun",
+  "name": "Bahnhof Dargun",
+  "kategorie": "cafe",
+  "kurztext": "Café im Bahnhof Dargun.",
+  "lat": 53.896508,
+  "lon": 12.859986,
+  "website": "https://www.bahnhofdargun.de/"
+ },
+ {
+  "id": "baumwipfelpfad-usedom",
+  "name": "Baumwipfelpfad Usedom",
+  "kategorie": "aktivitaet",
+  "kurztext": "Baumwipfelpfad mit Aussichtsturm und Holzspielplatz am Eingang.",
+  "lat": 53.949,
+  "lon": 14.16829,
+  "website": "https://treetop-walks.com/usedom/",
+  "telefon": "+49 38378 48 82 0"
+ },
+ {
+  "id": "bergringmuseum",
+  "name": "Bergringmuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum in Teterow zur Geschichte des Bergrings.",
+  "lat": 53.774833,
+  "lon": 12.571528
+ },
+ {
+  "id": "bernsteinreiter-barth",
+  "name": "Bernsteinreiter Barth",
+  "kategorie": "aktivitaet",
+  "kurztext": "Reiterhof bei Barth mit Reitangeboten und Hofcafé.",
+  "lat": 54.370193,
+  "lon": 12.762899,
+  "website": "https://www.bernsteinreiter-barth.de/"
+ },
+ {
+  "id": "bernsteinreiter-hirschburg",
+  "name": "Bernsteinreiter Hirschburg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Reiterhof in Hirschburg mit Pferden und Streichelzoo.",
+  "lat": 54.239806,
+  "lon": 12.336857,
+  "website": "https://www.bernsteinreiter.de/"
+ },
+ {
+  "id": "berolino-spielewelt",
+  "name": "BEROLINO Spielewelt",
+  "kategorie": "aktivitaet",
+  "kurztext": "Indoorspielplatz mit Rutschen, Trampolinen und Kartbahn (laut Betreiber).",
+  "lat": 48.29214,
+  "lon": 8.84877,
+  "website": "https://berolino-spielewelt.de/",
+  "oeffnungszeiten": "verbindliche Zeiten nur im Online-Ticketshop laut Betreiber; Preise nicht belegt (Stand 2026)",
+  "telefon": "07433 9072160"
+ },
+ {
+  "id": "besucherzentrum-burg-lenzen",
+  "name": "Besucherzentrum Burg Lenzen",
+  "kategorie": "museum",
+  "kurztext": "BUND-Besucherzentrum in der Burg Lenzen mit Ausstellungen zur Elbtalaue und Auenrenaturierung.",
+  "lat": 53.090223,
+  "lon": 11.477204,
+  "website": "https://www.burg-lenzen.de/burg_lenzen/ausstellungen/",
+  "oeffnungszeiten": "April–Oktober Di–So 11–17 Uhr; November–März Do–So 11–16 Uhr; Januar geschlossen",
+  "telefon": "+49 38792 1221"
+ },
+ {
+  "id": "bibelzentrum-barth",
+  "name": "Bibelzentrum Barth",
+  "kategorie": "museum",
+  "kurztext": "Bibelzentrum in Barth mit Ausstellung rund um die Bibel und ihre Geschichte.",
+  "lat": 54.3621137,
+  "lon": 12.7304447,
+  "website": "https://www.bibelzentrum-barth.de/"
  },
  {
   "id": "birkenthaler-hof-eusserthal",
@@ -286,6 +549,62 @@
   "opening_hours": "Apr-Oct: 10:00-18:00"
  },
  {
+  "id": "bodden-therme-ribnitz-damgarten",
+  "name": "Bodden Therme Ribnitz-Damgarten",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad und Therme in Ribnitz-Damgarten zum Schwimmen bei jedem Wetter.",
+  "lat": 54.24556,
+  "lon": 12.418146,
+  "website": "https://www.bodden-therme.de/"
+ },
+ {
+  "id": "bootsverleih-gartower-see",
+  "name": "Bootsverleih Gartower See",
+  "kategorie": "aktivitaet",
+  "kurztext": "Verleih von Tret- und Elektrobooten am Gartower See.",
+  "lat": 53.027876,
+  "lon": 11.465519,
+  "website": "https://gartow-erleben.de/aktiv/wassersport-segeln-bootfahren/",
+  "oeffnungszeiten": "Ab Mai täglich ab 10 Uhr"
+ },
+ {
+  "id": "bootsverleih-zum-hafen-pruchten",
+  "name": "Bootsverleih Zum Hafen Pruchten",
+  "kategorie": "aktivitaet",
+  "kurztext": "Bootsverleih am Hafen Pruchten für eine Ausfahrt auf dem Bodden.",
+  "lat": 54.381246,
+  "lon": 12.682456,
+  "website": "https://www.instagram.com/bootsverleih_pruchten"
+ },
+ {
+  "id": "britzer-garten",
+  "name": "Britzer Garten",
+  "kategorie": "aktivitaet",
+  "kurztext": "Gartenanlage mit dem Freilandlabor Britz, das Naturprogramme für Kinder anbietet.",
+  "lat": 52.4338073,
+  "lon": 13.4206166,
+  "website": "https://www.britzergarten.de"
+ },
+ {
+  "id": "burg-hohenzollern",
+  "name": "Burg Hohenzollern",
+  "kategorie": "aktivitaet",
+  "kurztext": "Burg Hohenzollern als Ausflugsziel mit Burgbesichtigung.",
+  "lat": 48.32356,
+  "lon": 8.96749,
+  "website": "https://www.burg-hohenzollern.com/"
+ },
+ {
+  "id": "cafe-am-markt",
+  "name": "Cafe Am Markt",
+  "kategorie": "cafe",
+  "kurztext": "Café und Restaurant am Markt in Lenzen mit Kuchen und regionaler Küche.",
+  "lat": 53.091006,
+  "lon": 11.474459,
+  "website": "http://www.cafeammarkt-lenzen.de",
+  "telefon": "+49 38792 7378"
+ },
+ {
   "id": "cafe-am-markt-buetzow",
   "name": "Cafe am Markt",
   "kategorie": "cafe",
@@ -294,6 +613,24 @@
   "lon": 11.983055,
   "oeffnungszeiten": "Mo–Do 11–17 Uhr, Fr 9–17 Uhr, Sa und So 14–17 Uhr",
   "opening_hours": "Mo-Th 11:00-17:00; Fr 09:00-17:00; Sa-Su 14:00-17:00"
+ },
+ {
+  "id": "cafe-am-markt-stadtbaeckerei-kuehl",
+  "name": "Café am Markt (Stadtbäckerei Kühl)",
+  "kategorie": "cafe",
+  "kurztext": "Bäckerei-Café am Bergener Markt für Kuchen und eine Pause.",
+  "lat": 54.418047,
+  "lon": 13.434138,
+  "website": "https://www.stadtbaeckerei-kuehl.de"
+ },
+ {
+  "id": "cafe-bar-wolli",
+  "name": "Café & Bar Wolli",
+  "kategorie": "cafe",
+  "kurztext": "Café in Fuhlendorf für Kuchen und Getränke.",
+  "lat": 54.373828,
+  "lon": 12.642815,
+  "website": "https://cafe-bar-wolli.de/"
  },
  {
   "id": "cafe-benn-grevesmuehlen",
@@ -325,6 +662,27 @@
   "opening_hours": "Mo-Su 09:00-21:00"
  },
  {
+  "id": "cafe-domcafe-wurzen",
+  "name": "Domcafé Wurzen",
+  "kategorie": "cafe",
+  "kurztext": "Café neben dem Dom in Wurzen, mit Terrasse.",
+  "lat": 51.36952,
+  "lon": 12.7349,
+  "website": "https://www.domcafe-wurzen.de",
+  "oeffnungszeiten": "Mär–Dez Mo–Fr ab 10 Uhr, Sa/So ab 13 Uhr, bis ca. 18 Uhr; Jan/Feb eingeschränkt",
+  "opening_hours": "Mar-Dec: Mo-Fr 10:00-18:00; Mar-Dec: Sa-Su 13:00-18:00",
+  "telefon": "+49 3425 8397271"
+ },
+ {
+  "id": "cafe-drei-schwaene-weissenfels",
+  "name": "Eiscafé Drei Schwäne",
+  "kategorie": "cafe",
+  "kurztext": "Eis und Kaffee in der Weißenfelser Altstadt.",
+  "lat": 51.20125,
+  "lon": 11.96985,
+  "telefon": "+49 3443 303047"
+ },
+ {
   "id": "cafe-eisbutze",
   "name": "Eiscafé Eisbutze",
   "kategorie": "cafe",
@@ -333,6 +691,18 @@
   "lon": 8.8402681,
   "oeffnungszeiten": "täglich 13–18 Uhr, Saison",
   "opening_hours": "Mo-Su 13:00-18:00"
+ },
+ {
+  "id": "cafe-eiscafe-am-pegelturm",
+  "name": "Eiscafé am Pegelturm",
+  "kategorie": "cafe",
+  "kurztext": "Eis, Kaffee und hausgebackener Kuchen an der Pegelturm-Promenade.",
+  "lat": 51.6374582,
+  "lon": 12.3567853,
+  "website": "https://www.eiscafe-am-pegelturm.de/",
+  "oeffnungszeiten": "Di–Do 13–18 Uhr, Sa und So 11:30–18 Uhr, im Sommer flexibel",
+  "opening_hours": "Tu-Th 13:00-18:00; Sa-Su 11:30-18:00",
+  "telefon": "+49 3493 515858"
  },
  {
   "id": "cafe-eiserne-bank",
@@ -344,6 +714,28 @@
   "website": "https://posterstein.de/gastro/cafe-zur-eisernen-bank/",
   "oeffnungszeiten": "Mi/Do 12–17, Fr/Sa 12–21, So 12–17:30, Mo/Di Ruhetag",
   "telefon": "+49 34496 163911"
+ },
+ {
+  "id": "cafe-eiskfee-bad-duerrenberg",
+  "name": "EisKfee",
+  "kategorie": "cafe",
+  "kurztext": "Eis und Kaffee in Bad Dürrenberg, nach dem Spielplatz im Kurpark.",
+  "lat": 51.30123,
+  "lon": 12.06987,
+  "website": "http://www.eiskfee.de/",
+  "oeffnungszeiten": "Di–So 13–18 Uhr",
+  "opening_hours": "Tu-Su 13:00-18:00",
+  "telefon": "+49 3462 5439231"
+ },
+ {
+  "id": "cafe-emi-leipzig",
+  "name": "Café Emi",
+  "kategorie": "cafe",
+  "kurztext": "Café in Connewitz, nach dem Wildpark auf einen Kaffee.",
+  "lat": 51.30753,
+  "lon": 12.37879,
+  "oeffnungszeiten": "Mo, Do–Sa 12–18 Uhr, So 11–18 Uhr",
+  "opening_hours": "Mo,Th-Sa 12:00-18:00; Su 11:00-18:00"
  },
  {
   "id": "cafe-engelbecken",
@@ -402,6 +794,16 @@
   "telefon": "+49 30 76006626"
  },
  {
+  "id": "cafe-im-brauhaus",
+  "name": "Café im Brauhaus",
+  "kategorie": "cafe",
+  "kurztext": "Café im Kinder- und Jugendhotel in der Kirchstraße in Verchen.",
+  "lat": 53.852051,
+  "lon": 12.904173,
+  "website": "https://www.freizeitspass-verchen.de/hotel/cafe-im-brauhaus/",
+  "telefon": "0151 41622214"
+ },
+ {
   "id": "cafe-intakt-sachsenwaldau",
   "name": "Café InTakt",
   "kategorie": "cafe",
@@ -436,6 +838,14 @@
   "oeffnungszeiten": "Mi–Sa 13–17 Uhr",
   "opening_hours": "We-Sa 13:00-17:00",
   "telefon": "+49 38203 852899"
+ },
+ {
+  "id": "cafe-kraenzchen-roesterei",
+  "name": "Café Kränzchen - Rösterei",
+  "kategorie": "cafe",
+  "kurztext": "Café mit Rösterei in Leck für eine Pause mit Kindern.",
+  "lat": 54.729825,
+  "lon": 9.017429
  },
  {
   "id": "cafe-kurhaus-bad-homburg",
@@ -491,6 +901,15 @@
   "oeffnungszeiten": "Fr 14–20 Uhr, Sa 11–18 Uhr",
   "opening_hours": "Fr 14:00-20:00; Sa 11:00-18:00",
   "telefon": "+49 151 56032972"
+ },
+ {
+  "id": "cafe-olsen",
+  "name": "Café Olsen",
+  "kategorie": "cafe",
+  "kurztext": "Café in Groß Kordshagen für Kuchen und eine Pause.",
+  "lat": 54.333291,
+  "lon": 12.843054,
+  "website": "https://www.cafe-olsen.de/"
  },
  {
   "id": "cafe-panke",
@@ -549,6 +968,15 @@
   "oeffnungszeiten": "Di–Sa 12–17 Uhr, Mo und So zu",
   "opening_hours": "Tu-Sa 12:00-17:00",
   "telefon": "+49 38206 744530"
+ },
+ {
+  "id": "cafe-zauberbuche",
+  "name": "Café Zauberbuche",
+  "kategorie": "cafe",
+  "kurztext": "Café in der Nähe von Leck für Kuchen nach dem Pfad.",
+  "lat": 54.739198,
+  "lon": 8.922474,
+  "website": "http://www.cafe-zauberbuche.de"
  },
  {
   "id": "cafe-zwei-kraniche",
@@ -732,6 +1160,15 @@
   "oeffnungszeiten": "Saison"
  },
  {
+  "id": "camping-tante-henni",
+  "name": "Tante Henni",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz mit Stellplätzen für Familien südöstlich von Quickborn.",
+  "lat": 53.69121,
+  "lon": 9.92713,
+  "website": "https://www.tante-henni.de/"
+ },
+ {
   "id": "camping-vetschau",
   "name": "Stellplatz Slawenburg Raddusch",
   "kategorie": "camping",
@@ -740,6 +1177,15 @@
   "lon": 14.032534,
   "oeffnungszeiten": "April–Oktober",
   "opening_hours": "Apr-Oct: 00:00-24:00"
+ },
+ {
+  "id": "camping-vossbarch",
+  "name": "Voßbarch",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Waldrand bei Norderstedt mit Platz für Zelte und Wohnwagen.",
+  "lat": 53.71055,
+  "lon": 9.95667,
+  "website": "https://www.vossbarch.de/"
  },
  {
   "id": "camping-waren-mueritz",
@@ -764,6 +1210,51 @@
   "telefon": "+49 9553 9890579"
  },
  {
+  "id": "campingplatz-am-mahlower-see",
+  "name": "Campingplatz am Mahlower See",
+  "kategorie": "camping",
+  "kurztext": "Kleiner Campingplatz mit unter 100 Plätzen und Zeltwiese am südlichen Stadtrand von Berlin.",
+  "lat": 52.3641861,
+  "lon": 13.3747392,
+  "website": "https://www.camping-bei-berlin.de/"
+ },
+ {
+  "id": "campingplatz-bodstedt",
+  "name": "Campingplatz Bodstedt",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz in Bodstedt mit Plätzen für Zelte, Wohnwagen und Wohnmobile sowie Mietunterkünften.",
+  "lat": 54.3692642,
+  "lon": 12.618213,
+  "website": "https://camping-bodstedt.de/"
+ },
+ {
+  "id": "campingplatz-karlsmark",
+  "name": "Campingplatz Karlsmark",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Rand von Leck, wenige Autominuten vom Pfad entfernt.",
+  "lat": 54.758439,
+  "lon": 8.994193,
+  "website": "https://camping-leck.de/"
+ },
+ {
+  "id": "campingplatz-klein-westerland",
+  "name": "Campingplatz Klein-Westerland",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Badesee, rund 10 Minuten vom Waldmuseum.",
+  "lat": 54.0299567,
+  "lon": 9.2970073,
+  "website": "https://campingplatz-klein-westerland.de/"
+ },
+ {
+  "id": "campingplatz-neuwarft",
+  "name": "Campingplatz Neuwarft",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz in Dagebüll, wenige Autominuten von Fahretoft.",
+  "lat": 54.728658,
+  "lon": 8.699618,
+  "website": "https://hotel-neuwarft.de/campingplatz/"
+ },
+ {
   "id": "campingplatz-rehbach",
   "name": "Campingplatz Rehbach",
   "kategorie": "camping",
@@ -781,6 +1272,88 @@
   "lon": 2.1336,
   "website": "https://cosmocaixa.org",
   "oeffnungszeiten": "siehe Museum, Eintritt"
+ },
+ {
+  "id": "dampflok-br-50-3521-7",
+  "name": "Dampflok BR 50 3521-7",
+  "kategorie": "aktivitaet",
+  "kurztext": "Ausgestellte Dampflokomotive der Baureihe 50 am Bahnhof Meyenburg.",
+  "lat": 53.313317,
+  "lon": 12.24894,
+  "website": "http://www.reichsbahndampflok.de/blaetter_50_35/50_3521.html"
+ },
+ {
+  "id": "dat-luette-cafe",
+  "name": "Dat lütte Cafe",
+  "kategorie": "cafe",
+  "kurztext": "Café im Ortskern, sonntags 14–18 Uhr geöffnet.",
+  "lat": 53.9971337,
+  "lon": 9.2637392,
+  "website": "http://www.dat-luette-cafe.de"
+ },
+ {
+  "id": "demminer-eisenbahnmuseum",
+  "name": "Demminer Eisenbahnmuseum",
+  "kategorie": "museum",
+  "kurztext": "Freiluft-Eisenbahnmuseum mit Schrankenposten 120 des Demminer Heimatvereins.",
+  "lat": 53.903789,
+  "lon": 13.048781,
+  "website": "https://demminer-heimatverein.de/projekte/posten-120/",
+  "telefon": "03998 2279748"
+ },
+ {
+  "id": "der-marienhof",
+  "name": "Der Marienhof",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit Eiern, Kartoffeln, Gemüse, Obst, Käse und Honig direkt vom Erzeuger.",
+  "lat": 54.6326311,
+  "lon": 8.9357354,
+  "website": "https://dermarienhof.de/unser-hofladen/"
+ },
+ {
+  "id": "deutsches-bernsteinmuseum",
+  "name": "Deutsches Bernsteinmuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum in Ribnitz rund um Bernstein und seine Einschlüsse.",
+  "lat": 54.241308,
+  "lon": 12.432052,
+  "website": "https://www.deutsches-bernsteinmuseum.de/"
+ },
+ {
+  "id": "ditmarsium",
+  "name": "DITMARSIUM",
+  "kategorie": "museum",
+  "kurztext": "Apotheken-, Gewerbe- und Schifffahrtsmuseum im Ortskern mit Tablet-Führung, auch für Schulklassen.",
+  "lat": 53.995773,
+  "lon": 9.2616195,
+  "website": "http://www.ditmarsium.de/"
+ },
+ {
+  "id": "dom-st-marien-zu-havelberg",
+  "name": "Dom St. Marien zu Havelberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Romanisch-gotischer Dom auf dem Havelberger Domberg mit Blick über die Havel.",
+  "lat": 52.826826,
+  "lon": 12.078795,
+  "website": "https://havelberg-dom.de/"
+ },
+ {
+  "id": "domaene-golfpark-hechingen",
+  "name": "Domäne Golfpark",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolf als kurze Runde nach dem Pfad.",
+  "lat": 48.33777,
+  "lon": 8.95149,
+  "telefon": "+49 7471 960192-10"
+ },
+ {
+  "id": "drhses-hus",
+  "name": "Drøhses hus",
+  "kategorie": "museum",
+  "kurztext": "Museum in Tønder zur Stadtgeschichte, kurze Fahrt über die Grenze.",
+  "lat": 54.935436,
+  "lon": 8.870037,
+  "website": "https://msj.dk/droehses-hus/"
  },
  {
   "id": "duenentherme-spo",
@@ -805,6 +1378,22 @@
   "telefon": "+49 33923 71410"
  },
  {
+  "id": "eiscafe-venezia",
+  "name": "Eiscafe Venezia",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Tönning für eine Pause mit Kindern.",
+  "lat": 54.316687,
+  "lon": 8.940977
+ },
+ {
+  "id": "eisdiele-pruchten",
+  "name": "Eisdiele Pruchten",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele im Boddendorf Pruchten.",
+  "lat": 54.3788904,
+  "lon": 12.6749228
+ },
+ {
   "id": "elztalmuseum-waldkirch",
   "name": "Elztalmuseum Waldkirch",
   "kategorie": "museum",
@@ -815,6 +1404,54 @@
   "oeffnungszeiten": "siehe Museum"
  },
  {
+  "id": "erdbeerhof-kaack-quickborn",
+  "name": "Erdbeerhof Kaack",
+  "kategorie": "hofladen",
+  "kurztext": "Erdbeerstand mit Selbstpflückfeld, auf dem Kinder in der Saison selbst ernten können.",
+  "lat": 53.717,
+  "lon": 9.84775,
+  "oeffnungszeiten": "Mo–So 9–18 Uhr (Saison)",
+  "opening_hours": "Mo-Su 09:00-18:00"
+ },
+ {
+  "id": "erlebnisbad-am-eichenwald",
+  "name": "Erlebnisbad am Eichenwald",
+  "kategorie": "baden",
+  "kurztext": "Freibad der Stadtwerke Havelberg mit Sommersaison.",
+  "lat": 52.828694,
+  "lon": 12.089618,
+  "website": "https://www.stadtwerke-havelberg.de/freibad/oeffnungszeiten.html"
+ },
+ {
+  "id": "erlebniszentrum-naturgewalten-sylt",
+  "name": "Erlebniszentrum Naturgewalten Sylt",
+  "kategorie": "museum",
+  "kurztext": "Ausstellung zum Wattenmeer mit virtuellem Ballonflug über Sylt und einem 360-Grad-Kino.",
+  "lat": 55.0194162,
+  "lon": 8.4385025,
+  "website": "https://www.naturgewalten-sylt.de/"
+ },
+ {
+  "id": "familientherme-gartow",
+  "name": "Familientherme Gartow",
+  "kategorie": "baden",
+  "kurztext": "Ganzjährig geöffnetes Hallenbad mit Solebecken, Kleinkinderbereich und Sauna.",
+  "lat": 53.026068,
+  "lon": 11.444843,
+  "website": "https://www.familientherme-gartow.de/",
+  "oeffnungszeiten": "Mo 12–19 Uhr, Di–Fr 9–21 Uhr, Sa–So 9–19 Uhr",
+  "telefon": "+49 5846 444"
+ },
+ {
+  "id": "festung-doemitz",
+  "name": "Festung Dömitz",
+  "kategorie": "museum",
+  "kurztext": "Renaissance-Festung an der Elbe mit Führungen und Museum.",
+  "lat": 53.1423,
+  "lon": 11.24548,
+  "website": "https://doemitz.de/sehenswuerdigkeiten/festung-doemitz/"
+ },
+ {
   "id": "fischerhuette-rehbach",
   "name": "Restaurant Fischerhütte",
   "kategorie": "restaurant",
@@ -822,6 +1459,70 @@
   "lat": 51.1821685,
   "lon": 9.0219816,
   "oeffnungszeiten": "siehe Restaurant"
+ },
+ {
+  "id": "forsthaus-langenberg",
+  "name": "Forsthaus Langenberg",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant im Forsthaus Langenberg an der Strandpromenade in Bansin.",
+  "lat": 53.98281,
+  "lon": 14.12839,
+  "website": "https://www.forsthauslangenberg.de/",
+  "telefon": "+49 38378 49890"
+ },
+ {
+  "id": "forsthof-kaliss-mit-forst-und-holzmuseum",
+  "name": "Forsthof Kaliß mit Forst- und Holzmuseum",
+  "kategorie": "museum",
+  "kurztext": "Forst- und Holzmuseum mit Wildschweingehege, Streuobstwiese und Findlingsgarten in Kaliß.",
+  "lat": 53.15638,
+  "lon": 11.32497,
+  "website": "https://doemitz.de/sehenswuerdigkeiten/forsthof-kaliss-mit-forst-und-holzmuseum/",
+  "oeffnungszeiten": "Mo–Do 8–16 Uhr, zusätzlich auf Anfrage",
+  "telefon": "038758 3680"
+ },
+ {
+  "id": "freibad-bordelum",
+  "name": "Freibad Bordelum",
+  "kategorie": "baden",
+  "kurztext": "Freibad in Bordelum-Uphusum mit eigenem Kinderbecken.",
+  "lat": 54.638847,
+  "lon": 8.925358
+ },
+ {
+  "id": "freibad-ellerau",
+  "name": "Freibad Ellerau",
+  "kategorie": "baden",
+  "kurztext": "Freibad in Ellerau mit Becken für Familien im Sommer.",
+  "lat": 53.75312,
+  "lon": 9.91968
+ },
+ {
+  "id": "freibad-franzburg",
+  "name": "Freibad Franzburg",
+  "kategorie": "baden",
+  "kurztext": "Freibad in Franzburg zum Abkühlen im Sommer.",
+  "lat": 54.189722,
+  "lon": 12.881341
+ },
+ {
+  "id": "freibad-quickborn",
+  "name": "Freibad Quickborn",
+  "kategorie": "baden",
+  "kurztext": "Städtisches Freibad für einen Sprung ins Wasser an warmen Tagen.",
+  "lat": 53.73269,
+  "lon": 9.90154,
+  "website": "https://www.quickborn.de/Leben+in+Quickborn/Freibad.html",
+  "oeffnungszeiten": "Saison: Mo 7–10, Di–Do 7–11 und 14–18, Fr 7–10 und 14–18, Sa–So 8:30–12:30 und 14–18 Uhr"
+ },
+ {
+  "id": "freibad-toenning",
+  "name": "Freibad Tönning",
+  "kategorie": "baden",
+  "kurztext": "Freibad in Tönning für heiße Tage.",
+  "lat": 54.30866,
+  "lon": 8.935143,
+  "website": "https://foerderverein-freibad-toenning.de/"
  },
  {
   "id": "freibad-wittstock",
@@ -835,6 +1536,33 @@
   "telefon": "+49 3394 433240"
  },
  {
+  "id": "freilichtmuseum-klockenhagen",
+  "name": "Freilichtmuseum Klockenhagen",
+  "kategorie": "museum",
+  "kurztext": "Freilichtmuseum mit alten Bauernhäusern und Hoftieren aus Mecklenburg-Vorpommern.",
+  "lat": 54.239994,
+  "lon": 12.355387,
+  "website": "https://freilichtmuseum-klockenhagen.de/"
+ },
+ {
+  "id": "friedrichstaedter-grachtenfahrt",
+  "name": "Friedrichstädter Grachtenfahrt",
+  "kategorie": "aktivitaet",
+  "kurztext": "Einstündige Rundfahrt auf den Grachten, durch beide Häfen und ein Stück die Treene entlang.",
+  "lat": 54.3742912,
+  "lon": 9.0852709,
+  "website": "https://www.grachtenfahrt.de/"
+ },
+ {
+  "id": "friesenmuseum-niebuell",
+  "name": "Friesenmuseum Niebüll",
+  "kategorie": "museum",
+  "kurztext": "Friesenmuseum in Niebüll zur Geschichte der Friesen, passend zum Dorfweg in Fahretoft.",
+  "lat": 54.779958,
+  "lon": 8.822287,
+  "website": "https://friesisches-museum.de/"
+ },
+ {
   "id": "galeriecafe-alter-konsum",
   "name": "Galeriecafé Alter Konsum",
   "kategorie": "cafe",
@@ -845,6 +1573,15 @@
   "oeffnungszeiten": "Fr 18–21 Uhr, So 14–17 Uhr",
   "opening_hours": "Fr 18:00-21:00; Su 14:00-17:00",
   "telefon": "+49 33978 70859"
+ },
+ {
+  "id": "gasthaus-am-hafen-neukalen",
+  "name": "Gasthaus Am Hafen Neukalen",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant am Hafen von Neukalen direkt an der Peene.",
+  "lat": 53.824849,
+  "lon": 12.793608,
+  "website": "https://www.amhafen-neukalen.de/"
  },
  {
   "id": "gasthaus-herzsprung",
@@ -878,6 +1615,34 @@
   "opening_hours": "Apr-Oct: 11:00-18:00"
  },
  {
+  "id": "gasthof-zur-erbmuehle",
+  "name": "Gasthof zur Erbmühle",
+  "kategorie": "restaurant",
+  "kurztext": "Gasthof in der Erbmühle nördlich von Teterow.",
+  "lat": 53.828603,
+  "lon": 12.566685,
+  "website": "https://www.erbmuehle.de/"
+ },
+ {
+  "id": "gaststaette-zur-quelle",
+  "name": "Gaststätte Zur Quelle",
+  "kategorie": "restaurant",
+  "kurztext": "Gasthaus mit Restaurant an der Bahnhofstraße in Glöwen.",
+  "lat": 52.917552,
+  "lon": 12.085337,
+  "website": "https://www.plattenburg.de/verzeichnis/visitenkarte/18794/gaststaette-zur-quelle",
+  "telefon": "+49 38787 81494"
+ },
+ {
+  "id": "gastwirtschaft-am-markt-bibo-ergo-sum",
+  "name": "Gastwirtschaft am Markt (Bibo ergo sum)",
+  "kategorie": "restaurant",
+  "kurztext": "Gastwirtschaft am Markt von Bergen für ein Essen nach dem Ausflug.",
+  "lat": 54.417916,
+  "lon": 13.434076,
+  "website": "https://www.biboergosum.de"
+ },
+ {
   "id": "geocenter-cafe-moen",
   "name": "Café GeoCenter Møns Klint",
   "kategorie": "cafe",
@@ -899,6 +1664,15 @@
   "oeffnungszeiten": "Mo–Fr 9–16 Uhr",
   "opening_hours": "Mo-Fr 09:00-16:00",
   "telefon": "+49 33970 50290"
+ },
+ {
+  "id": "grenzkrog-aventoft",
+  "name": "Grenzkrog Aventoft",
+  "kategorie": "restaurant",
+  "kurztext": "Gasthaus in Aventoft an der Grenze für eine Einkehr mit Kindern.",
+  "lat": 54.904137,
+  "lon": 8.828585,
+  "website": "https://www.grenzkrog-aventoft.de"
  },
  {
   "id": "gurkenkahn-raddusch",
@@ -923,6 +1697,28 @@
   "opening_hours": "Apr-Oct: 10:00-18:00"
  },
  {
+  "id": "hallen-freibad-hechingen",
+  "name": "Hallen-Freibad Hechingen",
+  "kategorie": "baden",
+  "kurztext": "Hallen- und Freibad mit Kinderbecken und Rutschen (laut Betreiber).",
+  "lat": 48.36165,
+  "lon": 8.95488,
+  "website": "https://www.hechingen.de/hallen-freibad",
+  "oeffnungszeiten": "Hallenbad-Saison ab 28.9.2026: Mo geschlossen, Di–Fr 7–20 Uhr, Sa/So/Feiertag 9–20 Uhr; Eintritt Erwachsene 4,50 €, ermäßigt (4–15 J. u. a.) 2,50 €, unter 4 J. frei (Stand 2026, Betreiber Stadt Hechingen)",
+  "telefon": "07471 7397739"
+ },
+ {
+  "id": "hans-werner-richter-haus",
+  "name": "Hans Werner Richter-Haus",
+  "kategorie": "museum",
+  "kurztext": "Museum zum Schriftsteller Hans Werner Richter in Bansin.",
+  "lat": 53.97139,
+  "lon": 14.14475,
+  "website": "https://www.kaiserbaeder-auf-usedom.de/bansin/hans-werner-richter-haus/",
+  "oeffnungszeiten": "Di–Fr 13–16 Uhr (Juli–September bis 17 Uhr), Sa–Mo geschlossen",
+  "telefon": "+49 38378 47801"
+ },
+ {
   "id": "harz-camp-goettingerode",
   "name": "Harz-Camp Göttingerode",
   "kategorie": "camping",
@@ -932,6 +1728,26 @@
   "website": "https://www.harz-camp.de/",
   "oeffnungszeiten": "ganzjährig",
   "telefon": "+49 5322 81215"
+ },
+ {
+  "id": "haus-der-fluesse",
+  "name": "Haus der Flüsse",
+  "kategorie": "museum",
+  "kurztext": "Infozentrum des Biosphärenreservats Mittelelbe mit Ausstellung zu Elbe und Havel, Eintritt frei.",
+  "lat": 52.822611,
+  "lon": 12.069747,
+  "website": "https://www.haus-der-fluesse.de/",
+  "oeffnungszeiten": "März–Oktober täglich 9–17 Uhr; November–Februar Mo–Fr 10–16 Uhr",
+  "telefon": "+49 39387 609976"
+ },
+ {
+  "id": "heimatmuseum-ellerau",
+  "name": "Heimatmuseum Ellerau",
+  "kategorie": "museum",
+  "kurztext": "Heimatmuseum mit Alltagsgegenständen aus früheren Zeiten.",
+  "lat": 53.75256,
+  "lon": 9.92096,
+  "website": "https://www.museum-ellerau.de/"
  },
  {
   "id": "heimatmuseum-graal-mueritz",
@@ -958,6 +1774,43 @@
   "telefon": "+49 33967 60307"
  },
  {
+  "id": "historisches-packhaus-museum",
+  "name": "Historisches Packhaus & Museum",
+  "kategorie": "museum",
+  "kurztext": "Historisches Packhaus am Tönninger Hafen mit Museum.",
+  "lat": 54.315157,
+  "lon": 8.946617,
+  "website": "https://www.toenning.de/toenning-erleben/historisches-packhaus-museum"
+ },
+ {
+  "id": "hochseilwald-doemitz",
+  "name": "Hochseilwald",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kletterangebot im Wald bei Dömitz.",
+  "lat": 53.14915,
+  "lon": 11.23746,
+  "website": "http://www.hochseilwald.de/"
+ },
+ {
+  "id": "hof-laden-zandershagen",
+  "name": "Hof-Laden Zandershagen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Zandershagen mit Produkten vom Hof.",
+  "lat": 54.19713,
+  "lon": 12.91987,
+  "website": "https://www.hofzandershagen.de"
+ },
+ {
+  "id": "hofkonditorei-roecker-hechingen",
+  "name": "Hofkonditorei Röcker",
+  "kategorie": "cafe",
+  "kurztext": "Für Kuchen oder Kaffee in der Hechinger Innenstadt nach dem Pfad.",
+  "lat": 48.35197,
+  "lon": 8.96365,
+  "website": "https://www.hofkonditorei-roecker.de/content/117/85/kontakt-und-standorte/standort-hechingen",
+  "telefon": "+49 7471 2611"
+ },
+ {
   "id": "hofladen-falkenhusen",
   "name": "Hof Falkenhusen",
   "kategorie": "hofladen",
@@ -968,6 +1821,14 @@
   "oeffnungszeiten": "Di–Fr 10–18 Uhr, Sa 9–17 Uhr, So 12–17 Uhr",
   "opening_hours": "Mo off; Tu-Fr 10:00-18:00; Sa 09:00-17:00; Su 12:00-17:00",
   "telefon": "+49 4509 1054"
+ },
+ {
+  "id": "hofladen-gottschalk",
+  "name": "Hofladen Gottschalk",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit regionalen Erzeugnissen, donnerstags 9–18 Uhr geöffnet.",
+  "lat": 53.9915526,
+  "lon": 9.2605005
  },
  {
   "id": "hofladen-gut-hohenberg-annweiler",
@@ -982,6 +1843,14 @@
   "telefon": "+49 6346 928555"
  },
  {
+  "id": "hofladen-hemdingen",
+  "name": "Hofladen Hemdingen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit regionalen Lebensmitteln in Hemdingen.",
+  "lat": 53.7638,
+  "lon": 9.83926
+ },
+ {
   "id": "hofladen-herzsprung",
   "name": "Hofladen Luisenhof Katerbow",
   "kategorie": "hofladen",
@@ -994,6 +1863,16 @@
   "telefon": "+49 151 56032972"
  },
  {
+  "id": "hofladen-hof-meyn-quickborn",
+  "name": "Hofladen Hof Meyn",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit Produkten vom eigenen Hof.",
+  "lat": 53.71866,
+  "lon": 9.89494,
+  "website": "https://hof-meyn.de/",
+  "oeffnungszeiten": "Di–Sa 8–12 Uhr, Mo–Fr 14–18 Uhr"
+ },
+ {
   "id": "hofladen-oher",
   "name": "Oher Hofladen",
   "kategorie": "hofladen",
@@ -1003,6 +1882,15 @@
   "oeffnungszeiten": "Mo–Fr 9–18 Uhr, Sa 9–14 Uhr",
   "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
   "telefon": "+49 4104 3317"
+ },
+ {
+  "id": "hofladen-schloss-gartow",
+  "name": "Hofladen Schloss Gartow",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Guts Gartow am Schloss mit regionalen Produkten.",
+  "lat": 53.024784,
+  "lon": 11.465698,
+  "website": "https://bernstorff.de/tourismus-freizeit/hofladen/hofladen"
  },
  {
   "id": "hofladen-thorn-ivendorf",
@@ -1041,6 +1929,27 @@
   "telefon": "+49 33928 71133"
  },
  {
+  "id": "hohenzollerisches-landesmuseum-hechingen",
+  "name": "Hohenzollerisches Landesmuseum",
+  "kategorie": "museum",
+  "kurztext": "Landesmuseum im Hechinger Schloss mit Familienführungen wie „Nachts im Museum“ (laut Betreiber).",
+  "lat": 48.35337,
+  "lon": 8.96399,
+  "website": "https://www.hzl-museum.de",
+  "oeffnungszeiten": "Do 14–18, Fr 14–17, Sa/So/Feiertag 13–17 Uhr; Eintritt nicht belegt (Stand 2026, Betreiber)",
+  "telefon": "07471 940188"
+ },
+ {
+  "id": "hotel-gravelotte",
+  "name": "Hotel Gravelotte",
+  "kategorie": "restaurant",
+  "kurztext": "Hotelrestaurant mit deutscher Küche am Ostufer des Kummerower Sees.",
+  "lat": 53.825943,
+  "lon": 12.912982,
+  "website": "https://www.hotel-gravelotte.de/",
+  "telefon": "039994 7210"
+ },
+ {
   "id": "hotel-waldschloss-bad-camberg",
   "name": "Hotel Waldschloss",
   "kategorie": "restaurant",
@@ -1049,6 +1958,15 @@
   "lon": 8.2967278,
   "website": "https://hotel-waldschloss.de/",
   "oeffnungszeiten": "siehe Hotel"
+ },
+ {
+  "id": "huesis-up-n-doerp",
+  "name": "Hüsis up'n Dörp",
+  "kategorie": "aktivitaet",
+  "kurztext": "Ponyhof in Viesecke mit Reitunterricht und Schnupperstunden für Kinder.",
+  "lat": 53.034862,
+  "lon": 12.016002,
+  "website": "https://upndoerp.de/huesis/"
  },
  {
   "id": "imbiss-fuchsbau-speck",
@@ -1081,6 +1999,15 @@
   "oeffnungszeiten": "Mo–Fr ab 15, Sa/So/Feiertag ab 11, Dez–März Mo/Di geschlossen"
  },
  {
+  "id": "inselrodelbahn-bergen",
+  "name": "Inselrodelbahn Bergen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Ganzjahres-Rodelbahn am Rugard, auf der Kinder mit Begleitung ins Tal sausen.",
+  "lat": 54.422587,
+  "lon": 13.442667,
+  "website": "https://inselrodelbahn-bergen.de"
+ },
+ {
   "id": "ivenacker-see",
   "name": "Ivenacker See",
   "kategorie": "aktivitaet",
@@ -1101,6 +2028,16 @@
   "telefon": "+49 711 370330"
  },
  {
+  "id": "jagdhaus-waldfrieden-quickborn",
+  "name": "Jagdhaus Waldfrieden",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant im Landhaus am Waldrand.",
+  "lat": 53.75481,
+  "lon": 9.88152,
+  "website": "https://www.waldfrieden.com/restaurant/",
+  "oeffnungszeiten": "Mi–So 12:30–14 und 17:30–21 Uhr"
+ },
+ {
   "id": "jagdschloss-speck-cafe",
   "name": "Café Jagdschloss Speck",
   "kategorie": "cafe",
@@ -1108,6 +2045,23 @@
   "lat": 53.43664,
   "lon": 12.838762,
   "oeffnungszeiten": "unregelmäßig / Veranstaltungen"
+ },
+ {
+  "id": "johannsens-hofladen",
+  "name": "Johannsens Hofladen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen bei Leck mit Produkten aus der Region.",
+  "lat": 54.775496,
+  "lon": 9.077348
+ },
+ {
+  "id": "joho-park-am-bernsteinsee",
+  "name": "JOHO Park am Bernsteinsee",
+  "kategorie": "aktivitaet",
+  "kurztext": "Freizeitgelände am Bernsteinsee mit Wasserangeboten für einen Familientag.",
+  "lat": 54.252659,
+  "lon": 12.367546,
+  "website": "https://www.joho-park.de/joho-park-am-bernsteinsee/"
  },
  {
   "id": "kahncafé-luebbenau",
@@ -1128,6 +2082,90 @@
   "lon": 14.042427,
   "oeffnungszeiten": "Saison 10–18 Uhr",
   "opening_hours": "Apr-Oct: 10:00-18:00"
+ },
+ {
+  "id": "kamele-im-wendland-doemitz",
+  "name": "Kamele im Wendland",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kamele zum Anschauen im Wendland.",
+  "lat": 53.12242,
+  "lon": 11.24622,
+  "website": "https://www.kamele-im-wendland.com/"
+ },
+ {
+  "id": "kanuhaus-demmin",
+  "name": "Kanuhaus Demmin",
+  "kategorie": "aktivitaet",
+  "kurztext": "Verleih für Kanus, Kajaks und Fahrräder für Touren auf Peene, Trebel und Tollense.",
+  "lat": 53.917089,
+  "lon": 13.028147,
+  "website": "https://www.kanuhaus.de/"
+ },
+ {
+  "id": "karls-erlebnis-dorf-zirkow",
+  "name": "Karls Erlebnis-Dorf Zirkow",
+  "kategorie": "aktivitaet",
+  "kurztext": "Freizeitpark mit Spielangeboten und Hofladen-Markt für einen Familientag.",
+  "lat": 54.387809,
+  "lon": 13.55028,
+  "website": "https://karls.de/zirkow/"
+ },
+ {
+  "id": "kathfelder-muehle",
+  "name": "Kathfelder Mühle",
+  "kategorie": "museum",
+  "kurztext": "Restaurierte Getreidemühle an der Dömnitz als technisches Denkmal der Museumsfabrik.",
+  "lat": 53.157848,
+  "lon": 12.158917,
+  "website": "https://www.museum-pritzwalk.de/seite/349407/kathfelder-m%C3%BChle.html"
+ },
+ {
+  "id": "kindermuseum-unterm-dach",
+  "name": "Kindermuseum unterm Dach",
+  "kategorie": "museum",
+  "kurztext": "Kindermuseum mit Dauerausstellung zu Essen und Trinken, mit Gewächshaus, Fabrik und Labor zum Erkunden.",
+  "lat": 52.3878178,
+  "lon": 13.3970516,
+  "website": "https://www.kindermuseum-unterm-dach.berlin/"
+ },
+ {
+  "id": "kirchspielkrug-ladelund",
+  "name": "Kirchspielkrug Ladelund",
+  "kategorie": "restaurant",
+  "kurztext": "Gasthaus in Ladelund für eine Einkehr nach dem Spaziergang.",
+  "lat": 54.840516,
+  "lon": 9.024956,
+  "website": "https://www.kirchspielkrug-ladelund.de/"
+ },
+ {
+  "id": "klein-westerland",
+  "name": "Klein Westerland",
+  "kategorie": "baden",
+  "kurztext": "Badestelle am See mit Strand, etwa 10 Minuten Fahrt vom Waldmuseum.",
+  "lat": 54.0311906,
+  "lon": 9.2992139,
+  "website": "https://campingplatz-klein-westerland.de/"
+ },
+ {
+  "id": "kletterpark-plau",
+  "name": "Kletterpark Plau",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kletterpark im Wald bei Plau am See, daneben ein Barfuß-Pfad.",
+  "lat": 53.450557,
+  "lon": 12.264907,
+  "website": "https://kletterpark-plau.de/",
+  "oeffnungszeiten": "April, September, Oktober Di, Mi, Do, Sa, So 11–16 Uhr; Mai–August Di–Do, Sa, So 10–18 Uhr; nur bei geeignetem Wetter",
+  "telefon": "0171 9977497"
+ },
+ {
+  "id": "kletterwald-usedom",
+  "name": "Kletterwald Usedom",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kletterwald mit Parcours und Seilrutschen auf Usedom.",
+  "lat": 54.00171,
+  "lon": 14.05791,
+  "website": "https://www.kletterwald-usedom.de/",
+  "telefon": "+49 38375 22677"
  },
  {
   "id": "klintholm-havn-fisk",
@@ -1169,6 +2207,15 @@
   "lon": 12.34404
  },
  {
+  "id": "koenigspesel",
+  "name": "Königspesel",
+  "kategorie": "museum",
+  "kurztext": "Museum im Traufenhaus von 1776 mit holländischen Fliesen und Deckenmalerei; hier übernachtete König Friedrich VI. nach einer Sturmflut 1825.",
+  "lat": 54.5657804,
+  "lon": 8.5503976,
+  "website": "https://www.museen-sh.de/Museum/DE-MUS-152918"
+ },
+ {
   "id": "kutschfahrten-gestuet-neustadt",
   "name": "Kutschfahrten Neustädter Gestüte",
   "kategorie": "aktivitaet",
@@ -1189,6 +2236,33 @@
   "oeffnungszeiten": "Di-Fr 11:30-22:00, Sa 11:00-21:00, keine Küche 14:00-17:00"
  },
  {
+  "id": "landkueche-meyenburg",
+  "name": "Landküche Meyenburg",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte mit Hausmannskost in Meyenburg.",
+  "lat": 53.310382,
+  "lon": 12.244781,
+  "telefon": "+49 33968 80667"
+ },
+ {
+  "id": "landladen-kuehl",
+  "name": "Landladen Kühl",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen mit regionalen Produkten auf Eiderstedt.",
+  "lat": 54.317283,
+  "lon": 8.782322,
+  "website": "https://www.landladen-kuehl.de/"
+ },
+ {
+  "id": "lavinis-eiscafe-quickborn",
+  "name": "Lavinis Eiscafé Bistro",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in der Quickborner Innenstadt.",
+  "lat": 53.73081,
+  "lon": 9.90381,
+  "oeffnungszeiten": "Mo–So 10–18 Uhr"
+ },
+ {
   "id": "lechfall-fuessen",
   "name": "Lechfall",
   "kategorie": "aktivitaet",
@@ -1197,6 +2271,86 @@
   "lon": 10.69485,
   "website": "https://www.fuessen.de/",
   "oeffnungszeiten": "Ufer frei"
+ },
+ {
+  "id": "lehmanns-bauernmarkt",
+  "name": "Lehmanns Bauernmarkt",
+  "kategorie": "hofladen",
+  "kurztext": "Bauernhof an der Marienfelder Dorfaue mit Eierautomaten, die im Sommer von 9 bis 20 Uhr und im Winter von 9 bis 18 Uhr zugänglich sind.",
+  "lat": 52.4120378,
+  "lon": 13.3669015,
+  "website": "http://www.lehmanns-bauernmarkt.de/"
+ },
+ {
+  "id": "lehmmuseum-gnevsdorf",
+  "name": "Lehmmuseum Gnevsdorf",
+  "kategorie": "museum",
+  "kurztext": "Museum zum Lehmbau in einem historischen Lehmgebäude in Gnevsdorf.",
+  "lat": 53.402792,
+  "lon": 12.221959,
+  "website": "https://www.lehmmuseum.de/",
+  "oeffnungszeiten": "Saison 1. Mai–3. Oktober Do–So 13–17 Uhr; sonst auf Anfrage"
+ },
+ {
+  "id": "lilienhof",
+  "name": "Lilienhof",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz auf Eiderstedt, wenige Autominuten vom Erfahrungsfeld.",
+  "lat": 54.31193,
+  "lon": 8.903815,
+  "website": "https://www.camping-lilienhof.de/"
+ },
+ {
+  "id": "mecklenburger-wagyu-hofladen",
+  "name": "Mecklenburger Wagyu Hofladen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen eines Wagyu-Zuchtbetriebs mit Fleisch und regionalen Produkten.",
+  "lat": 53.75607,
+  "lon": 12.474538,
+  "website": "https://mecklenburger-wagyu.de/unser-hof/"
+ },
+ {
+  "id": "meierei-huette",
+  "name": "Meierei Hütte",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen bei Süderlügum mit Produkten aus der Region.",
+  "lat": 54.881961,
+  "lon": 8.912667
+ },
+ {
+  "id": "mien-cafe-an-de-kuest",
+  "name": "Mien Café an de Küst",
+  "kategorie": "cafe",
+  "kurztext": "Café in Dagebüll am Deich für eine Pause nach dem Dorfspaziergang.",
+  "lat": 54.729651,
+  "lon": 8.697406,
+  "website": "http://miencafeandekuest.de/"
+ },
+ {
+  "id": "minigolf-am-rugard",
+  "name": "Minigolf Am Rugard",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage am Rugard für eine Runde nach dem Waldspaziergang.",
+  "lat": 54.421789,
+  "lon": 13.442573
+ },
+ {
+  "id": "minigolfanlage-verchen",
+  "name": "Minigolfanlage Verchen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kleine Minigolfanlage mit vier Bahnen in Verchen.",
+  "lat": 53.851202,
+  "lon": 12.903131
+ },
+ {
+  "id": "modemuseum-schloss-meyenburg",
+  "name": "Modemuseum Schloss Meyenburg",
+  "kategorie": "museum",
+  "kurztext": "Modemuseum im Schloss Meyenburg mit Kleidung und Accessoires aus über 100 Jahren.",
+  "lat": 53.316304,
+  "lon": 12.24299,
+  "website": "http://www.modemuseum-schloss-meyenburg.de",
+  "oeffnungszeiten": "April–Oktober Di–So und Feiertage 11–17 Uhr; November–März Mi–So und Feiertage 11–17 Uhr"
  },
  {
   "id": "mueritz-therme-roebel",
@@ -1217,6 +2371,15 @@
   "website": "https://www.mueritzeum.de",
   "oeffnungszeiten": "täglich ab 10 Uhr",
   "opening_hours": "Mo-Su 10:00-18:00"
+ },
+ {
+  "id": "multimar-wattforum",
+  "name": "Multimar Wattforum",
+  "kategorie": "museum",
+  "kurztext": "Nationalpark-Zentrum mit Aquarien zu Wattenmeer und Nordsee, bei Regen eine Ergänzung zum Erfahrungsfeld.",
+  "lat": 54.316893,
+  "lon": 8.951912,
+  "website": "https://multimar-wattforum.de/"
  },
  {
   "id": "museum-burg-lenzen",
@@ -1294,6 +2457,28 @@
   "telefon": "+49 38202 2035"
  },
  {
+  "id": "museum-kreismuseum-bitterfeld",
+  "name": "Kreismuseum Bitterfeld",
+  "kategorie": "museum",
+  "kurztext": "Bernsteinausstellung zur Goitzsche-Lagerstätte, Regenprogramm, Kinder bis sechs Jahre frei.",
+  "lat": 51.624046,
+  "lon": 12.3291334,
+  "website": "https://www.kreismuseum-bitterfeld.de/",
+  "oeffnungszeiten": "Di–Fr und So 10–16 Uhr, Mo und Sa geschlossen",
+  "opening_hours": "Tu-Fr 10:00-16:00; Su 10:00-16:00",
+  "telefon": "+49 3493 401113"
+ },
+ {
+  "id": "museum-kulturhistorisches-wurzen",
+  "name": "Kulturhistorisches Museum Wurzen",
+  "kategorie": "museum",
+  "kurztext": "Barockes Haus an der Domgasse — Regenprogramm in der Altstadt.",
+  "lat": 51.36936,
+  "lon": 12.73418,
+  "website": "https://www.kultur-wurzen.de/museum-wurzen",
+  "oeffnungszeiten": "siehe Museum"
+ },
+ {
   "id": "museum-moeckelhaus-doberan",
   "name": "Stadt- und Bädermuseum im Möckelhaus",
   "kategorie": "museum",
@@ -1316,6 +2501,27 @@
   "oeffnungszeiten": "Di–Fr 9–17 Uhr, Sa/So 10–17 Uhr, Mo zu, Eintritt",
   "opening_hours": "Mo off; Tu-Fr 09:00-17:00; Sa-Su 10:00-17:00",
   "telefon": "+49 451 1224122"
+ },
+ {
+  "id": "museum-naturkundemuseum-leipzig",
+  "name": "Naturkundemuseum Leipzig",
+  "kategorie": "museum",
+  "kurztext": "Naturkunde in der Lortzingstraße — Regenprogramm für Tierfans, Eintritt.",
+  "lat": 51.34498,
+  "lon": 12.37085,
+  "website": "https://naturkundemuseum.leipzig.de",
+  "oeffnungszeiten": "siehe Museum, Eintritt"
+ },
+ {
+  "id": "museum-panometer-leipzig",
+  "name": "Panometer Leipzig",
+  "kategorie": "museum",
+  "kurztext": "Panorama-Ausstellung in Connewitz — Regenprogramm nach dem Park, Eintritt.",
+  "lat": 51.31417,
+  "lon": 12.38702,
+  "website": "https://www.panometer.de/",
+  "oeffnungszeiten": "täglich 10–17 Uhr, Eintritt",
+  "opening_hours": "Mo-Su 10:00-17:00"
  },
  {
   "id": "museum-reichsburg-trifels",
@@ -1399,6 +2605,28 @@
   "telefon": "+49 6346 9659760"
  },
  {
+  "id": "museum-villa-irmgard",
+  "name": "Museum Villa Irmgard",
+  "kategorie": "museum",
+  "kurztext": "Museum in der Villa Irmgard in der Maxim-Gorki-Straße in Heringsdorf.",
+  "lat": 53.96323,
+  "lon": 14.1562,
+  "website": "https://www.kaiserbaeder-auf-usedom.de/heringsdorf/villa-irmgard/",
+  "oeffnungszeiten": "Nov–Apr Di, Do, Fr, Sa 12–16 Uhr; Mai–Okt Di, Do, Fr, Sa 12–18 Uhr; Mo und Mi geschlossen",
+  "telefon": "+49 38378 22361"
+ },
+ {
+  "id": "museum-weissenfels-schloss-neu-augustusburg",
+  "name": "Museum Weißenfels im Schloss Neu-Augustusburg",
+  "kategorie": "museum",
+  "kurztext": "Schuhsammlung und Schlosskirche mit Orgel, Eintritt für Kinder und Jugendliche bis 18 Jahre frei.",
+  "lat": 51.20011,
+  "lon": 11.97461,
+  "website": "https://www.weissenfels-erlebnis.de/Entdecken-/Museum-Wei%C3%9Fenfels-im-Schloss-Neu-Augustusburg/",
+  "oeffnungszeiten": "Fr–So und feiertags 10–17 Uhr",
+  "telefon": "+49 3443 370400"
+ },
+ {
   "id": "museumsfabrik-pritzwalk",
   "name": "Museumsfabrik Pritzwalk",
   "kategorie": "museum",
@@ -1422,6 +2650,15 @@
   "telefon": "+49 34491 81461"
  },
  {
+  "id": "natur-schatzkammer-neuheide",
+  "name": "Natur-Schatzkammer Neuheide",
+  "kategorie": "museum",
+  "kurztext": "Edelstein- und Bernsteinzentrum in Neuheide mit Ausstellung zu Steinen und Bernstein.",
+  "lat": 54.252645,
+  "lon": 12.326615,
+  "website": "https://www.naturschatzkammer.de/"
+ },
+ {
   "id": "naturbad-neustadt-dosse",
   "name": "Naturbad Neustadt (Dosse)",
   "kategorie": "baden",
@@ -1434,6 +2671,43 @@
   "telefon": "+49 33970 86760"
  },
  {
+  "id": "naturerbe-zentrum-ruegen-baumwipfelpfad",
+  "name": "Naturerbe Zentrum Rügen (Baumwipfelpfad)",
+  "kategorie": "aktivitaet",
+  "kurztext": "Baumwipfelpfad bei Prora mit Ausstellung zum Wald und Blick über die Insel.",
+  "lat": 54.434443,
+  "lon": 13.557952,
+  "website": "https://treetop-walks.com/ruegen/"
+ },
+ {
+  "id": "naturerlebnisbad-biberburg",
+  "name": "Naturerlebnisbad Biberburg",
+  "kategorie": "baden",
+  "kurztext": "Naturbad der Hansestadt Demmin.",
+  "lat": 53.912337,
+  "lon": 13.036276
+ },
+ {
+  "id": "naturkundemuseum-niebuell",
+  "name": "Naturkundemuseum Niebüll",
+  "kategorie": "museum",
+  "kurztext": "Naturkundemuseum in Niebüll mit Ausstellungen zur Natur der Region.",
+  "lat": 54.781781,
+  "lon": 8.821753,
+  "website": "https://www.nkm-niebuell.de/"
+ },
+ {
+  "id": "naturzentrum-mittleres-nordfriesland",
+  "name": "Naturzentrum Mittleres Nordfriesland",
+  "kategorie": "museum",
+  "kurztext": "Naturerlebnishaus mit einer Ausstellung zum Anfassen und Mitmachen über die Naturlandschaften Nordfrieslands.",
+  "lat": 54.621062,
+  "lon": 8.968997,
+  "website": "https://www.naturzentrum-nf.de/",
+  "oeffnungszeiten": "Nov–Apr Di und Mi 13–17 Uhr, Mai–Okt Di–Fr 13–17 Uhr",
+  "telefon": "04671 4555"
+ },
+ {
   "id": "niddastausee-schotten",
   "name": "Niddastausee",
   "kategorie": "baden",
@@ -1444,6 +2718,24 @@
   "oeffnungszeiten": "Ufer frei"
  },
  {
+  "id": "nordlicht-harmonie-restaurant",
+  "name": "Nordlicht Harmonie (Restaurant)",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant in Fuhlendorf für ein Essen nach dem Waldweg.",
+  "lat": 54.362821,
+  "lon": 12.604673,
+  "website": "https://www.nordlichtharmonie.de/restaurant"
+ },
+ {
+  "id": "oldtimer-museum-ruegen",
+  "name": "Oldtimer Museum Rügen",
+  "kategorie": "museum",
+  "kurztext": "Museum in Prora mit über 80 Autos aus der Automobilgeschichte von 1949 bis 1989, ganzjährig geöffnet.",
+  "lat": 54.4437997,
+  "lon": 13.567786,
+  "website": "https://oldtimer-museum-ruegen.de/"
+ },
+ {
   "id": "ostseetherme-ahlbeck",
   "name": "OstseeTherme Usedom",
   "kategorie": "aktivitaet",
@@ -1452,6 +2744,55 @@
   "lon": 14.1893,
   "website": "https://www.ostseetherme-usedom.de/",
   "oeffnungszeiten": "siehe Haus, Eintritt"
+ },
+ {
+  "id": "ostseetherme-usedom",
+  "name": "OstseeTherme Usedom",
+  "kategorie": "baden",
+  "kurztext": "Ganzjährig geöffnetes Bad mit Bade- und Saunawelt in Heringsdorf.",
+  "lat": 53.94556,
+  "lon": 14.17843,
+  "website": "https://www.ostseetherme-usedom.de/",
+  "oeffnungszeiten": "Bade- & Saunawelt Mo–Sa 10–21 Uhr, So 10–20 Uhr",
+  "telefon": "+49 38378 2730"
+ },
+ {
+  "id": "paganini-cafeteria-ristorante",
+  "name": "PAGANINI Cafeteria & Ristorante",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit Café und Eis in Ribnitz für eine Pause nach dem Ausflug.",
+  "lat": 54.24329,
+  "lon": 12.431394,
+  "website": "https://paganini-ribnitz.de/"
+ },
+ {
+  "id": "panorama-cafe-doemitz",
+  "name": "Panorama Café",
+  "kategorie": "cafe",
+  "kurztext": "Café für eine Einkehr nach dem Dünenpfad.",
+  "lat": 53.13757,
+  "lon": 11.25853,
+  "telefon": "+49 38758 3642940"
+ },
+ {
+  "id": "papageienhaus-gullivers-welt",
+  "name": "Papageienhaus Gullivers Welt",
+  "kategorie": "aktivitaet",
+  "kurztext": "Papageienhaus in Pudagla mit zahmen Papageien zum Beobachten und Füttern.",
+  "lat": 53.95497,
+  "lon": 14.04767,
+  "website": "https://papageienhaus-gulliverswelt.de/",
+  "oeffnungszeiten": "10–18 Uhr, letzter Einlass 17 Uhr"
+ },
+ {
+  "id": "peenetal-safari",
+  "name": "Peenetal Safari",
+  "kategorie": "aktivitaet",
+  "kurztext": "Geführte Solarboot-Tour durchs Peenetal mit Chancen auf Biber, Eisvogel und Seeadler.",
+  "lat": 53.848547,
+  "lon": 12.888176,
+  "website": "https://peenetal-safari.de/",
+  "telefon": "0155 63435237"
  },
  {
   "id": "pendelbus-hagen",
@@ -1474,6 +2815,23 @@
   "website": "https://www.pfaelzerwaldforellen.de/",
   "oeffnungszeiten": "Fr–So 10–16 Uhr, Jan./Feb. geschlossen",
   "telefon": "+49 6345 9496750"
+ },
+ {
+  "id": "pferdehof-kranichweide",
+  "name": "Pferdehof Kranichweide",
+  "kategorie": "aktivitaet",
+  "kurztext": "Pferdehof bei Fuhlendorf mit Reitbetrieb.",
+  "lat": 54.320772,
+  "lon": 12.551831
+ },
+ {
+  "id": "pirateninsel-ruegen",
+  "name": "Pirateninsel Rügen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Indoor-Spielplatz bei Putbus zum Toben bei jedem Wetter.",
+  "lat": 54.348854,
+  "lon": 13.48991,
+  "website": "https://www.pirateninsel-ruegen.de/"
  },
  {
   "id": "pizzeria-rosso-pomodoro-dornholzhausen",
@@ -1515,6 +2873,39 @@
   "oeffnungszeiten": "Strand frei"
  },
  {
+  "id": "plattenburg",
+  "name": "Plattenburg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Mittelalterliche Wasserburg mit Burgcafé und Burgbesichtigung.",
+  "lat": 52.9582744,
+  "lon": 12.0306466,
+  "website": "https://www.burg-plattenburg.de/",
+  "oeffnungszeiten": "Do–So 11–17 Uhr, sonst nach Absprache",
+  "telefon": "038791 829719"
+ },
+ {
+  "id": "prignitzer-kleinbahnmuseum-lindenberg",
+  "name": "Prignitzer Kleinbahnmuseum Lindenberg",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Prignitzer Kleinbahn mit Fahrbetrieb an ausgewählten Wochenenden.",
+  "lat": 53.033412,
+  "lon": 12.127899,
+  "website": "https://pollo.de/museum",
+  "oeffnungszeiten": "An Fahrtagen Sa 10–17 Uhr, So 10–14.30 Uhr; sonst nach Absprache",
+  "telefon": "+49 33982 60128"
+ },
+ {
+  "id": "pritzwalker-heidelbeerplantage",
+  "name": "Pritzwalker Heidelbeerplantage",
+  "kategorie": "hofladen",
+  "kurztext": "Beeren- und Obsthof mit Heidelbeeren zum Selbstpflücken und Hofladen.",
+  "lat": 53.177361,
+  "lon": 12.191434,
+  "website": "http://www.heidelbeer-plantage.de/",
+  "oeffnungszeiten": "In der Saison Di–So 9–17 Uhr, Mo Ruhetag (Saison 2026 beendet)",
+  "telefon": "0171 9342124"
+ },
+ {
   "id": "pritzwalker-obsthof",
   "name": "Pritzwalker Obsthof",
   "kategorie": "hofladen",
@@ -1525,6 +2916,17 @@
   "oeffnungszeiten": "Di–So 9–17 Uhr, Mo Ruhetag",
   "opening_hours": "Mo off; Tu-Su 09:00-17:00",
   "telefon": "+49 171 9342124"
+ },
+ {
+  "id": "restaurant-alte-apotheke-bad-duerrenberg",
+  "name": "Hotel Alte Apotheke",
+  "kategorie": "restaurant",
+  "kurztext": "Deutsche Küche in Bad Dürrenberg, täglich ab 11:30 Uhr.",
+  "lat": 51.29744,
+  "lon": 12.06128,
+  "website": "https://www.hotel-alte-apotheke.de",
+  "oeffnungszeiten": "täglich ab 11:30 Uhr",
+  "telefon": "+49 3462 542280"
  },
  {
   "id": "restaurant-athena-schwentinental",
@@ -1571,6 +2973,17 @@
   "telefon": "+49 381 77891501"
  },
  {
+  "id": "restaurant-br-50-speisewagen",
+  "name": "Restaurant BR 50 (Speisewagen)",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant im Eisenbahnromantikhotel am Bahnhof Meyenburg mit regionaler Prignitzer Küche.",
+  "lat": 53.313557,
+  "lon": 12.249083,
+  "website": "https://eisenbahnromantik-hotels.de/speisewagen.html",
+  "oeffnungszeiten": "Mo–Sa 17–20 Uhr, So geschlossen",
+  "telefon": "+49 33968 501490"
+ },
+ {
   "id": "restaurant-brueckenterrassen-rendsburg",
   "name": "Brückenterrassen",
   "kategorie": "restaurant",
@@ -1581,6 +2994,15 @@
   "oeffnungszeiten": "Mo–So 9–20 Uhr Küche, Winter siehe Aushang",
   "opening_hours": "Mo-Su 09:00-20:00",
   "telefon": "+49 4331 22002"
+ },
+ {
+  "id": "restaurant-cafe-wunder-bar",
+  "name": "Restaurant & Café Wunder Bar",
+  "kategorie": "cafe",
+  "kurztext": "Restaurant und Café in Bad Sülze für eine Einkehr mit Kuchen.",
+  "lat": 54.109881,
+  "lon": 12.660438,
+  "website": "https://cafe-wunder-bar.de/"
  },
  {
   "id": "restaurant-da-michelino",
@@ -1639,6 +3061,16 @@
   "telefon": "+49 4531 86238"
  },
  {
+  "id": "restaurant-haus-am-see",
+  "name": "Restaurant Haus am See",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant und Café am Rudower See bei Lenzen.",
+  "lat": 53.09776,
+  "lon": 11.492787,
+  "website": "https://www.haus-am-see-lenzen.de/",
+  "telefon": "+49 38792 50960"
+ },
+ {
   "id": "restaurant-il-posto-reinbek",
   "name": "Il Posto Reinbek",
   "kategorie": "restaurant",
@@ -1651,6 +3083,16 @@
   "telefon": "+49 40 46654698"
  },
  {
+  "id": "restaurant-ingelotte",
+  "name": "Restaurant Ingelotte",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit frischer Küche in der Seestraße in Bansin.",
+  "lat": 53.97004,
+  "lon": 14.14071,
+  "website": "https://www.ingelotte-bansin.de/",
+  "telefon": "038378 31762"
+ },
+ {
   "id": "restaurant-kaisergarten-grunewaldturm",
   "name": "Kaisergarten am Grunewaldturm",
   "kategorie": "restaurant",
@@ -1661,6 +3103,17 @@
   "oeffnungszeiten": "Okt–Mär Mo–Fr 11–18, Sa–So 11–19 Uhr. Sommerzeiten beim Betreiber."
  },
  {
+  "id": "restaurant-la-grotta-wurzen",
+  "name": "La Grotta",
+  "kategorie": "restaurant",
+  "kurztext": "Italienisch am Markt in Wurzen, Mo Ruhetag.",
+  "lat": 51.36866,
+  "lon": 12.7355,
+  "website": "https://www.grotta.de/",
+  "oeffnungszeiten": "Di–So 11:30–14 und 17:30–22 Uhr, Mo zu",
+  "opening_hours": "Mo off; Tu-Su 11:30-14:00,17:30-22:00"
+ },
+ {
   "id": "restaurant-lindenallee-dornholzhausen",
   "name": "Restaurant Lindenallee",
   "kategorie": "restaurant",
@@ -1668,6 +3121,15 @@
   "lat": 50.240485,
   "lon": 8.585558,
   "oeffnungszeiten": "siehe Betreiber"
+ },
+ {
+  "id": "restaurant-moshack",
+  "name": "Restaurant Moshack",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant im Bahnhof Teterow mit regionaler und saisonaler Küche.",
+  "lat": 53.768641,
+  "lon": 12.578325,
+  "website": "https://www.restaurant-moshack-teterow.de/"
  },
  {
   "id": "restaurant-mueggelsee-terrassen-ruebezahl",
@@ -1690,6 +3152,15 @@
   "website": "https://www.müggelturm.berlin/",
   "oeffnungszeiten": "Sa–So 10:00–18:00",
   "opening_hours": "Sa-Su 10:00-18:00"
+ },
+ {
+  "id": "restaurant-redensee",
+  "name": "Restaurant Redensee",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant und Café direkt am Bodden in Fuhlendorf.",
+  "lat": 54.370413,
+  "lon": 12.613927,
+  "website": "https://www.restaurant-redensee.de/"
  },
  {
   "id": "restaurant-riesebusch",
@@ -1728,6 +3199,16 @@
   "telefon": "+49 38392 51330"
  },
  {
+  "id": "restaurant-schlossberg-hechingen",
+  "name": "Restaurant Schloßberg",
+  "kategorie": "restaurant",
+  "kurztext": "Zum Essen nach dem Pfad (regionale Küche laut OSM).",
+  "lat": 48.34828,
+  "lon": 8.9497,
+  "website": "https://www.restaurant-schlossberg-hechingen.de/",
+  "telefon": "+49 7471 9840680"
+ },
+ {
   "id": "restaurant-seeschloesschen-grevesmuehlen",
   "name": "Restaurant & Café Seeschlösschen",
   "kategorie": "restaurant",
@@ -1749,6 +3230,17 @@
   "oeffnungszeiten": "Saison, oft 10–21 Uhr"
  },
  {
+  "id": "restaurant-waldfrieden-leipzig",
+  "name": "Gaststätte Waldfrieden",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte in Connewitz, wenige Minuten vom Wildpark — täglich geöffnet.",
+  "lat": 51.30677,
+  "lon": 12.38021,
+  "website": "https://www.gaststaettewaldfrieden.de",
+  "oeffnungszeiten": "täglich 12–22 Uhr",
+  "opening_hours": "Mo-Su 12:00-22:00"
+ },
+ {
   "id": "restaurant-waldhaus-havelchaussee",
   "name": "Waldhaus an der Havelchaussee",
   "kategorie": "restaurant",
@@ -1758,6 +3250,24 @@
   "website": "https://www.waldhaus-zehlendorf.de",
   "oeffnungszeiten": "Montag Ruhetag, sonst laut Betreiber",
   "telefon": "+49 30 3040595"
+ },
+ {
+  "id": "restaurant-waldhaus-suedpark-merseburg",
+  "name": "Waldhaus im Südpark",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte mit großer Terrasse mitten im Südpark, direkt am Heimattierpark.",
+  "lat": 51.34418,
+  "lon": 11.98579,
+  "telefon": "+49 3461 821444"
+ },
+ {
+  "id": "restaurant-waldner-graal-mueritz",
+  "name": "Restaurant Waldner",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant der Pension Waldner in Graal-Müritz.",
+  "lat": 54.2560958,
+  "lon": 12.2546603,
+  "website": "https://www.pension-waldner.de/restaurant-graal-mueritz.php"
  },
  {
   "id": "restaurant-windfluechter",
@@ -1794,6 +3304,24 @@
   "telefon": "+49 4854 1262"
  },
  {
+  "id": "ristorante-pizzeria-zollerstuben-hechingen",
+  "name": "Ristorante Pizzeria Zollerstuben",
+  "kategorie": "restaurant",
+  "kurztext": "Für Pizza oder Pasta nach dem Pfad (italienische Küche laut OSM).",
+  "lat": 48.35185,
+  "lon": 8.96464,
+  "website": "https://www.pizzeria-ristorante-hechingen.de/",
+  "telefon": "+49 7471 7482844"
+ },
+ {
+  "id": "rittergut-eldenburg-mit-quitzowturm",
+  "name": "Rittergut Eldenburg mit Quitzowturm",
+  "kategorie": "museum",
+  "kurztext": "Rittergut mit mittelalterlichem Quitzowturm und Bauernmuseum; Außengelände frei zugänglich.",
+  "lat": 53.111871,
+  "lon": 11.438156
+ },
+ {
   "id": "rodelbahn-sankt-englmar",
   "name": "Rodelbahn Sankt Englmar",
   "kategorie": "aktivitaet",
@@ -1804,6 +3332,16 @@
   "oeffnungszeiten": "siehe Betreiber, Saison"
  },
  {
+  "id": "roemisches-freilichtmuseum",
+  "name": "Römisches Freilichtmuseum",
+  "kategorie": "museum",
+  "kurztext": "Freilichtmuseum mit rekonstruierter römischer Villa und Mitmach-Veranstaltungen (laut Betreiber).",
+  "lat": 48.37613,
+  "lon": 8.93447,
+  "website": "http://www.villa-rustica.de/",
+  "oeffnungszeiten": "Saison laut Betreiberseite 29. März bis 1. Nov. 2026; Uhrzeiten und Preise nicht belegt (Stand 2026)"
+ },
+ {
   "id": "sagenhaft-bad-harzburg",
   "name": "Sagenhaft",
   "kategorie": "restaurant",
@@ -1811,6 +3349,15 @@
   "lat": 51.870953,
   "lon": 10.5606661,
   "oeffnungszeiten": "siehe Restaurant"
+ },
+ {
+  "id": "salzmuseum-mecklenburg",
+  "name": "Salzmuseum Mecklenburg",
+  "kategorie": "museum",
+  "kurztext": "Museum in Bad Sülze zur Geschichte des Salzes in der Region.",
+  "lat": 54.112595,
+  "lon": 12.661849,
+  "website": "https://www.salzmuseum-badsuelze.de/"
  },
  {
   "id": "scheidegger-wasserfaelle",
@@ -1853,6 +3400,14 @@
   "oeffnungszeiten": "Park frei, Haus privat"
  },
  {
+  "id": "schwalbenhaus-franzburg",
+  "name": "Schwalbenhaus Franzburg",
+  "kategorie": "museum",
+  "kurztext": "Kleines Privatmuseum in Franzburg.",
+  "lat": 54.187529,
+  "lon": 12.876271
+ },
+ {
   "id": "seebruecke-heringsdorf",
   "name": "Seebrücke Heringsdorf",
   "kategorie": "aktivitaet",
@@ -1871,6 +3426,15 @@
   "lon": 8.6258,
   "website": "https://www.stadtwerke-bad-homburg.de/de/privatkunden/baeder/seedammbad/",
   "oeffnungszeiten": "siehe Stadtwerke, Eintritt"
+ },
+ {
+  "id": "solawi-hofladen-mitmachbauernhof",
+  "name": "SoLaWi-Hofladen (Mitmachbauernhof)",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Mitmachbauernhofs mit Gemüse aus solidarischer Landwirtschaft.",
+  "lat": 54.332234,
+  "lon": 12.932979,
+  "website": "https://mitmachbauernhof.de/hofladen-2"
  },
  {
   "id": "sommerbad-kreuzberg",
@@ -1914,6 +3478,43 @@
   "opening_hours": "Apr-Oct: 11:00-20:00"
  },
  {
+  "id": "sprung-raum-berlin",
+  "name": "Sprung.Raum Berlin",
+  "kategorie": "aktivitaet",
+  "kurztext": "Trampolinpark mit Sprungzeiten für Kinder und Erwachsene sowie Partyraum für Kindergeburtstage.",
+  "lat": 52.4188392,
+  "lon": 13.3590907,
+  "website": "https://www.sprungraum.de/"
+ },
+ {
+  "id": "stadtmuseum-bergen-auf-ruegen",
+  "name": "Stadtmuseum Bergen auf Rügen",
+  "kategorie": "museum",
+  "kurztext": "Stadtmuseum im Klosterhof mit Geschichte von Bergen und Rügen.",
+  "lat": 54.4166,
+  "lon": 13.432794,
+  "website": "https://www.stadtmuseum-bergen-auf-ruegen.de"
+ },
+ {
+  "id": "stadtmuseum-norderstedt",
+  "name": "Stadtmuseum Norderstedt",
+  "kategorie": "museum",
+  "kurztext": "Stadtmuseum mit Ausstellungen zur Ortsgeschichte, oft mit Angeboten für Kinder.",
+  "lat": 53.70215,
+  "lon": 9.98018,
+  "oeffnungszeiten": "Mi–Sa 15–18 Uhr, So 11–18 Uhr",
+  "opening_hours": "We-Sa 15:00-18:00, Su 11:00-18:00"
+ },
+ {
+  "id": "stadtmuseum-teterow",
+  "name": "Stadtmuseum Teterow",
+  "kategorie": "museum",
+  "kurztext": "Museum der Stadt Teterow mit Ausstellungen.",
+  "lat": 53.771968,
+  "lon": 12.577347,
+  "website": "https://www.teterow.de/kultur/museen/stadtmuseum"
+ },
+ {
   "id": "steigerwald-zentrum-handthal",
   "name": "Steigerwald-Zentrum Handthal",
   "kategorie": "museum",
@@ -1922,6 +3523,24 @@
   "lon": 10.442801,
   "website": "https://www.steigerwald-zentrum.de/",
   "oeffnungszeiten": "siehe Betreiber"
+ },
+ {
+  "id": "steinzeitgrab-denghoog",
+  "name": "Steinzeitgrab Denghoog",
+  "kategorie": "aktivitaet",
+  "kurztext": "Begehbares Hünengrab mit Steinkammer; der Gang ist sechs Meter lang, ein Einblick geht auch durch die Öffnung im Dach.",
+  "lat": 54.9404424,
+  "lon": 8.329115,
+  "website": "https://soelring-museen.de/syltmuseen/steinzeitgrab-denghoog/"
+ },
+ {
+  "id": "strand-graal-mueritz",
+  "name": "Strand Graal-Müritz",
+  "kategorie": "baden",
+  "kurztext": "Rund fünf Kilometer Ostseestrand mit Seebrücke im Ostseeheilbad Graal-Müritz.",
+  "lat": 54.2605815,
+  "lon": 12.2406965,
+  "website": "https://www.graal-mueritz.de/strandinfo/"
  },
  {
   "id": "strandbad-mueggelsee",
@@ -1964,6 +3583,33 @@
   "opening_hours": "Mo off; Tu-Th 11:30-20:30; Fr-Su 11:30-21:00"
  },
  {
+  "id": "streicheltierhof-hainholz",
+  "name": "Streicheltierhof Hainholz",
+  "kategorie": "aktivitaet",
+  "kurztext": "Streicheltierhof im Hainholz mit Ziegen, Schafen und anderen Hoftieren, Eintritt frei.",
+  "lat": 53.164321,
+  "lon": 12.195584,
+  "website": "https://www.pritzwalk.de/seite/454720/hainholz-leben-im-wald.html",
+  "oeffnungszeiten": "Winterbetrieb täglich 10–14.30 Uhr (Sommer bis 17 Uhr)"
+ },
+ {
+  "id": "streichelzoo-kastanienhof",
+  "name": "Streichelzoo Kastanienhof",
+  "kategorie": "aktivitaet",
+  "kurztext": "Streichelzoo, um Tiere aus der Nähe zu erleben.",
+  "lat": 48.40077,
+  "lon": 8.98211
+ },
+ {
+  "id": "sylt-museum-keitum",
+  "name": "Sylt Museum Keitum",
+  "kategorie": "museum",
+  "kurztext": "Museum zu Volkskunde, Seefahrt, Sprache und Kunst der Insel in Keitum.",
+  "lat": 54.8948162,
+  "lon": 8.3734766,
+  "website": "https://soelring-museen.de/syltmuseum/"
+ },
+ {
   "id": "tatami-schmoelln",
   "name": "Freizeitbad Tatami",
   "kategorie": "baden",
@@ -1972,6 +3618,24 @@
   "lon": 12.33681,
   "website": "https://www.freizeitbad-tatami.de/",
   "oeffnungszeiten": "Hallenbad Mo/Fr 13–21, Di–Do und Sa/So 11–21"
+ },
+ {
+  "id": "tee-burg-cafe",
+  "name": "Tee-Burg Cafe",
+  "kategorie": "cafe",
+  "kurztext": "Teeladen mit Café im Ortskern für eine Pause nach dem Waldbesuch.",
+  "lat": 53.9979488,
+  "lon": 9.2624349,
+  "website": "https://teeburg.de/"
+ },
+ {
+  "id": "tiergarten-teltow",
+  "name": "Tiergarten Teltow",
+  "kategorie": "aktivitaet",
+  "kurztext": "Tiergarten mit Tieren zum Füttern und Beobachten, Hunde sind an der Leine erlaubt.",
+  "lat": 52.3978189,
+  "lon": 13.2870058,
+  "website": "https://tiergarten-teltow.de/"
  },
  {
   "id": "tierpark-kunsterspring",
@@ -1986,6 +3650,101 @@
   "telefon": "+49 33929 70271"
  },
  {
+  "id": "torfbahn-himmelmoor",
+  "name": "Torfbahn Himmelmoor",
+  "kategorie": "aktivitaet",
+  "kurztext": "Historische Feldbahn ab dem Torfwerk, die bei öffentlichen Fahrten Familien durchs Moor fährt.",
+  "lat": 53.7413968,
+  "lon": 9.8701935,
+  "website": "https://www.torfbahn-himmelmoor.de/"
+ },
+ {
+  "id": "traumstrand-dargun",
+  "name": "Traumstrand Dargun",
+  "kategorie": "baden",
+  "kurztext": "Badestrand in Dargun für eine Abkühlung im Sommer.",
+  "lat": 53.895478,
+  "lon": 12.849029
+ },
+ {
+  "id": "trebel-cafe-tribsees",
+  "name": "Trebel Café Tribsees",
+  "kategorie": "cafe",
+  "kurztext": "Familiäres Café in Tribsees mit selbstgebackenem Kuchen, Torten und Eis.",
+  "lat": 54.094842,
+  "lon": 12.757576,
+  "website": "https://www.dastrebelcafetribsees.de/"
+ },
+ {
+  "id": "treenebad-friedrichstadt",
+  "name": "Treenebad Friedrichstadt",
+  "kategorie": "baden",
+  "kurztext": "Naturbadestelle an der Treene mit Flachwasserzone, Sandfläche, Spielbereichen und Kiosk.",
+  "lat": 54.3795322,
+  "lon": 9.0927637,
+  "website": "https://rathaus-friedrichstadt.de/einrichtungen/treenebad/"
+ },
+ {
+  "id": "treffpunkt-saatel",
+  "name": "Treffpunkt Saatel",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte mit regionaler Küche in Saatel für ein Essen nach dem Ausflug.",
+  "lat": 54.299315,
+  "lon": 12.767405
+ },
+ {
+  "id": "trekkingplatz-leck",
+  "name": "Trekkingplatz Leck",
+  "kategorie": "camping",
+  "kurztext": "Naturschutz-Trekkingplatz bei Leck für eine Übernachtung im Zelt.",
+  "lat": 54.800884,
+  "lon": 8.976658,
+  "website": "https://www.naturschutz-sh.de/wildes-sh/trekkingplatz-leck"
+ },
+ {
+  "id": "uhrenmuseum-putbus",
+  "name": "Uhrenmuseum Putbus",
+  "kategorie": "museum",
+  "kurztext": "Museum in Putbus mit einer Sammlung historischer Uhren.",
+  "lat": 54.352187,
+  "lon": 13.467003,
+  "website": "https://uhrenmuseum-putbus.de/"
+ },
+ {
+  "id": "uns-luett-museum",
+  "name": "uns lütt museum",
+  "kategorie": "museum",
+  "kurztext": "Kleines Museum in Dargun mit Ausstellungen.",
+  "lat": 53.891183,
+  "lon": 12.858269,
+  "website": "https://www.museum-dargun.de/"
+ },
+ {
+  "id": "uwe-duene-kampen",
+  "name": "Uwe-Düne Kampen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Holztreppe mit 109 Stufen zur Aussichtsplattform auf der höchsten Erhebung Sylts.",
+  "lat": 54.9542235,
+  "lon": 8.3305402
+ },
+ {
+  "id": "verchener-piratenkanone",
+  "name": "Verchener Piratenkanone",
+  "kategorie": "aktivitaet",
+  "kurztext": "Spielplatz mit großem Piratenschiff am Badestrand von Verchen.",
+  "lat": 53.849025,
+  "lon": 12.902223
+ },
+ {
+  "id": "vineta-museum-barth",
+  "name": "Vineta-Museum Barth",
+  "kategorie": "museum",
+  "kurztext": "Stadtmuseum in Barth rund um die Vineta-Sage.",
+  "lat": 54.368189,
+  "lon": 12.72515,
+  "website": "https://www.vineta-museum.de/"
+ },
+ {
   "id": "vulkaneum-schotten",
   "name": "Vulkaneum Schotten",
   "kategorie": "museum",
@@ -1994,6 +3753,33 @@
   "lon": 9.1258847,
   "website": "https://www.vulkaneum.com/",
   "oeffnungszeiten": "siehe Museum"
+ },
+ {
+  "id": "waldcafe-meyers-hausstelle",
+  "name": "Waldcafé Meyers Hausstelle",
+  "kategorie": "cafe",
+  "kurztext": "Waldcafé mit Biergarten in der Rostocker Heide.",
+  "lat": 54.204072,
+  "lon": 12.285218,
+  "website": "https://www.meyers-hausstelle.de/"
+ },
+ {
+  "id": "waldgaststaette-uns-huesung",
+  "name": "Waldgaststätte Uns Hüsung",
+  "kategorie": "restaurant",
+  "kurztext": "Waldgaststätte mit Biergarten am Rand der Teterower Heidberge.",
+  "lat": 53.781166,
+  "lon": 12.555531,
+  "website": "https://www.pension-in-teterow.de/"
+ },
+ {
+  "id": "waldlehrpark-gross-woltersdorf",
+  "name": "Waldlehrpark Groß Woltersdorf",
+  "kategorie": "aktivitaet",
+  "kurztext": "Frei zugänglicher Waldlehrpark des Wahrberge-Vereins mit Lehrpfad durch den Wald.",
+  "lat": 53.085853,
+  "lon": 12.161665,
+  "website": "https://www.wahrberge.de/waldlehrpark.html"
  },
  {
   "id": "waldschenke-stendenitz",
@@ -2008,6 +3794,14 @@
   "telefon": "+49 3391 775119"
  },
  {
+  "id": "waldschwimmbad-burg",
+  "name": "Waldschwimmbad Burg",
+  "kategorie": "baden",
+  "kurztext": "Freibad am Naturerlebnisraum, zu Fuß vom Waldmuseum erreichbar.",
+  "lat": 54.0015348,
+  "lon": 9.253676
+ },
+ {
   "id": "waldschwimmbad-hainholz",
   "name": "Waldschwimmbad Hainholz",
   "kategorie": "baden",
@@ -2017,6 +3811,36 @@
   "oeffnungszeiten": "Mai–Mitte September, Mo ab 12 Uhr",
   "opening_hours": "May-Sep: Mo 12:00-20:00; May-Sep: Tu-Su 09:00-20:00",
   "telefon": "+49 3395 302695"
+ },
+ {
+  "id": "wangeliner-garten",
+  "name": "Wangeliner Garten",
+  "kategorie": "aktivitaet",
+  "kurztext": "Lehr- und Schaugarten mit Kräutern, Lehmbauten und Gartencafé.",
+  "lat": 53.394951,
+  "lon": 12.182313,
+  "website": "https://wangeliner-garten.de/",
+  "oeffnungszeiten": "1. Mai–30. September täglich 10–18 Uhr; 1. Oktober–30. April täglich 10–16 Uhr",
+  "telefon": "+49 38737 499878"
+ },
+ {
+  "id": "warndienstmuseum-quickborn",
+  "name": "Warndienstmuseum Quickborn",
+  "kategorie": "museum",
+  "kurztext": "Museum über Sirenen und den früheren Luftschutz-Warndienst, Besuch nach Vereinbarung.",
+  "lat": 53.73759,
+  "lon": 9.88867,
+  "website": "http://www.warndienstmuseum.de/",
+  "oeffnungszeiten": "nach Vereinbarung"
+ },
+ {
+  "id": "windjammer-museum-barth",
+  "name": "Windjammer-Museum Barth",
+  "kategorie": "museum",
+  "kurztext": "Museum in Barth über Segelschiffe und Seefahrt.",
+  "lat": 54.370468,
+  "lon": 12.724055,
+  "website": "https://www.windjammer-museum.de/"
  },
  {
   "id": "wohnmobilstellplatz-hammerweiher-scheidegg",
@@ -2040,6 +3864,15 @@
   "telefon": "+49 7681 19433"
  },
  {
+  "id": "woodhenge-am-hasenberg",
+  "name": "Woodhenge am Hasenberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Nachbau eines bronzezeitlichen Pfostenkreises aus 56 Holzpfosten am Höhbeck.",
+  "lat": 53.037805,
+  "lon": 11.449969,
+  "website": "http://www.elbe-urlaub-hoehbeck.de/entdecken/restorf/woodhenge.html"
+ },
+ {
   "id": "zenner-biergarten",
   "name": "Zenner Biergarten",
   "kategorie": "restaurant",
@@ -2050,223 +3883,31 @@
   "oeffnungszeiten": "Mo–Mi 12–21, Do–Fr 12–22, Sa–So 11–22 Uhr, bei gutem Wetter. Wickeltisch."
  },
  {
-  "id": "aktivitaet-bitterfelder-bogen",
-  "name": "Bitterfelder Bogen",
-  "kategorie": "aktivitaet",
-  "kurztext": "Stahlrampe hinauf auf 28 Meter, auch mit dem Rad, mit Blick über die Goitzsche.",
-  "lat": 51.6152576,
-  "lon": 12.3263443,
-  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
-  "oeffnungszeiten": "jederzeit frei zugänglich"
- },
- {
-  "id": "museum-kreismuseum-bitterfeld",
-  "name": "Kreismuseum Bitterfeld",
+  "id": "zeppelin-garnisonsmuseum-tnder",
+  "name": "Zeppelin- & Garnisonsmuseum Tønder",
   "kategorie": "museum",
-  "kurztext": "Bernsteinausstellung zur Goitzsche-Lagerstätte, Regenprogramm, Kinder bis sechs Jahre frei.",
-  "lat": 51.624046,
-  "lon": 12.3291334,
-  "website": "https://www.kreismuseum-bitterfeld.de/",
-  "oeffnungszeiten": "Di–Fr und So 10–16 Uhr, Mo und Sa geschlossen",
-  "opening_hours": "Tu-Fr 10:00-16:00; Su 10:00-16:00",
-  "telefon": "+49 3493 401113"
+  "kurztext": "Museum zu Zeppelin- und Garnisonsgeschichte in Tønder, für Kinder mit Technikinteresse.",
+  "lat": 54.960956,
+  "lon": 8.867393,
+  "website": "http://www.zeppelin-museum.dk"
  },
  {
-  "id": "aktivitaet-pegelturm-goitzsche",
-  "name": "Pegelturm Goitzschesee",
-  "kategorie": "aktivitaet",
-  "kurztext": "Der Turm schwimmt im Goitzschesee, eine Pontonbrücke führt hin, an der Promenade liegen Strand und Spielplatz.",
-  "lat": 51.6367848,
-  "lon": 12.3602502,
-  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
-  "oeffnungszeiten": "Turm tagsüber, wetterabhängig"
- },
- {
-  "id": "cafe-eiscafe-am-pegelturm",
-  "name": "Eiscafé am Pegelturm",
-  "kategorie": "cafe",
-  "kurztext": "Eis, Kaffee und hausgebackener Kuchen an der Pegelturm-Promenade.",
-  "lat": 51.6374582,
-  "lon": 12.3567853,
-  "website": "https://www.eiscafe-am-pegelturm.de/",
-  "oeffnungszeiten": "Di–Do 13–18 Uhr, Sa und So 11:30–18 Uhr, im Sommer flexibel",
-  "opening_hours": "Tu-Th 13:00-18:00; Sa-Su 11:30-18:00",
-  "telefon": "+49 3493 515858"
- },
- {
-  "id": "cafe-eiskfee-bad-duerrenberg",
-  "name": "EisKfee",
-  "kategorie": "cafe",
-  "kurztext": "Eis und Kaffee in Bad Dürrenberg, nach dem Spielplatz im Kurpark.",
-  "lat": 51.30123,
-  "lon": 12.06987,
-  "website": "http://www.eiskfee.de/",
-  "oeffnungszeiten": "Di–So 13–18 Uhr",
-  "opening_hours": "Tu-Su 13:00-18:00",
-  "telefon": "+49 3462 5439231"
- },
- {
-  "id": "aktivitaet-palmenhaus-bad-duerrenberg",
-  "name": "Palmenhaus Bad Dürrenberg",
-  "kategorie": "aktivitaet",
-  "kurztext": "Palmen und Vögel im Kurpark, Eintritt frei, eine Alternative bei Regen.",
-  "lat": 51.29625,
-  "lon": 12.06205,
-  "oeffnungszeiten": "täglich 10–16 Uhr",
-  "opening_hours": "Mo-Su 10:00-16:00"
- },
- {
-  "id": "restaurant-alte-apotheke-bad-duerrenberg",
-  "name": "Hotel Alte Apotheke",
+  "id": "zur-alten-maelzerei",
+  "name": "Zur alten Mälzerei",
   "kategorie": "restaurant",
-  "kurztext": "Deutsche Küche in Bad Dürrenberg, täglich ab 11:30 Uhr.",
-  "lat": 51.29744,
-  "lon": 12.06128,
-  "website": "https://www.hotel-alte-apotheke.de",
-  "oeffnungszeiten": "täglich ab 11:30 Uhr",
-  "telefon": "+49 3462 542280"
+  "kurztext": "Restaurant in der alten Mälzerei in Pritzwalk.",
+  "lat": 53.15232,
+  "lon": 12.179327,
+  "website": "https://www.maelze.com/",
+  "telefon": "+49 3395 310284"
  },
  {
-  "id": "restaurant-waldhaus-suedpark-merseburg",
-  "name": "Waldhaus im Südpark",
+  "id": "zur-bilsener-muehle",
+  "name": "Zur Bilsener Mühle",
   "kategorie": "restaurant",
-  "kurztext": "Gaststätte mit großer Terrasse mitten im Südpark, direkt am Heimattierpark.",
-  "lat": 51.34418,
-  "lon": 11.98579,
-  "telefon": "+49 3461 821444"
- },
- {
-  "id": "baden-freibad-weissenfels",
-  "name": "Freibad Weißenfels",
-  "kategorie": "baden",
-  "kurztext": "Schwimmbecken mit Rutschen, Wasserspielplatz und Spielplatz am Rand eines Landschaftsschutzgebiets, nur im Sommer.",
-  "lat": 51.18527,
-  "lon": 11.96826,
-  "website": "https://baeder-weissenfels.de/freibad",
-  "oeffnungszeiten": "Saison Mitte Mai bis Mitte September, täglich ab 10 Uhr, Eintritt",
-  "telefon": "+49 173 6773541"
- },
- {
-  "id": "museum-weissenfels-schloss-neu-augustusburg",
-  "name": "Museum Weißenfels im Schloss Neu-Augustusburg",
-  "kategorie": "museum",
-  "kurztext": "Schuhsammlung und Schlosskirche mit Orgel, Eintritt für Kinder und Jugendliche bis 18 Jahre frei.",
-  "lat": 51.20011,
-  "lon": 11.97461,
-  "website": "https://www.weissenfels-erlebnis.de/Entdecken-/Museum-Wei%C3%9Fenfels-im-Schloss-Neu-Augustusburg/",
-  "oeffnungszeiten": "Fr–So und feiertags 10–17 Uhr",
-  "telefon": "+49 3443 370400"
- },
- {
-  "id": "cafe-drei-schwaene-weissenfels",
-  "name": "Eiscafé Drei Schwäne",
-  "kategorie": "cafe",
-  "kurztext": "Eis und Kaffee in der Weißenfelser Altstadt.",
-  "lat": 51.20125,
-  "lon": 11.96985,
-  "telefon": "+49 3443 303047"
- },
- {
-  "id": "restaurant-waldfrieden-leipzig",
-  "name": "Gaststätte Waldfrieden",
-  "kategorie": "restaurant",
-  "kurztext": "Gaststätte in Connewitz, wenige Minuten vom Wildpark — täglich geöffnet.",
-  "lat": 51.30677,
-  "lon": 12.38021,
-  "website": "https://www.gaststaettewaldfrieden.de",
-  "oeffnungszeiten": "täglich 12–22 Uhr",
-  "opening_hours": "Mo-Su 12:00-22:00"
- },
- {
-  "id": "cafe-emi-leipzig",
-  "name": "Café Emi",
-  "kategorie": "cafe",
-  "kurztext": "Café in Connewitz, nach dem Wildpark auf einen Kaffee.",
-  "lat": 51.30753,
-  "lon": 12.37879,
-  "oeffnungszeiten": "Mo, Do–Sa 12–18 Uhr, So 11–18 Uhr",
-  "opening_hours": "Mo,Th-Sa 12:00-18:00; Su 11:00-18:00"
- },
- {
-  "id": "museum-panometer-leipzig",
-  "name": "Panometer Leipzig",
-  "kategorie": "museum",
-  "kurztext": "Panorama-Ausstellung in Connewitz — Regenprogramm nach dem Park, Eintritt.",
-  "lat": 51.31417,
-  "lon": 12.38702,
-  "website": "https://www.panometer.de/",
-  "oeffnungszeiten": "täglich 10–17 Uhr, Eintritt",
-  "opening_hours": "Mo-Su 10:00-17:00"
- },
- {
-  "id": "museum-naturkundemuseum-leipzig",
-  "name": "Naturkundemuseum Leipzig",
-  "kategorie": "museum",
-  "kurztext": "Naturkunde in der Lortzingstraße — Regenprogramm für Tierfans, Eintritt.",
-  "lat": 51.34498,
-  "lon": 12.37085,
-  "website": "https://naturkundemuseum.leipzig.de",
-  "oeffnungszeiten": "siehe Museum, Eintritt"
- },
- {
-  "id": "baden-cospudener-see-leipzig",
-  "name": "Cospudener See, Nordstrand",
-  "kategorie": "baden",
-  "kurztext": "Badesee südlich von Leipzig — nach dem Park ins Wasser, Saison.",
-  "lat": 51.28596,
-  "lon": 12.3461,
-  "oeffnungszeiten": "Saison, Strandbetrieb siehe Stadt"
- },
- {
-  "id": "aktivitaet-kanupark-markkleeberg",
-  "name": "Kanupark Markkleeberg",
-  "kategorie": "aktivitaet",
-  "kurztext": "Wildwasserkanal am Markkleeberger See — extra, Eintritt.",
-  "lat": 51.25771,
-  "lon": 12.42687,
-  "website": "https://kanupark-markkleeberg.com",
-  "oeffnungszeiten": "siehe Betreiber, Eintritt"
- },
- {
-  "id": "cafe-domcafe-wurzen",
-  "name": "Domcafé Wurzen",
-  "kategorie": "cafe",
-  "kurztext": "Café neben dem Dom in Wurzen, mit Terrasse.",
-  "lat": 51.36952,
-  "lon": 12.7349,
-  "website": "https://www.domcafe-wurzen.de",
-  "oeffnungszeiten": "Mär–Dez Mo–Fr ab 10 Uhr, Sa/So ab 13 Uhr, bis ca. 18 Uhr; Jan/Feb eingeschränkt",
-  "opening_hours": "Mar-Dec: Mo-Fr 10:00-18:00; Mar-Dec: Sa-Su 13:00-18:00",
-  "telefon": "+49 3425 8397271"
- },
- {
-  "id": "restaurant-la-grotta-wurzen",
-  "name": "La Grotta",
-  "kategorie": "restaurant",
-  "kurztext": "Italienisch am Markt in Wurzen, Mo Ruhetag.",
-  "lat": 51.36866,
-  "lon": 12.7355,
-  "website": "https://www.grotta.de/",
-  "oeffnungszeiten": "Di–So 11:30–14 und 17:30–22 Uhr, Mo zu",
-  "opening_hours": "Mo off; Tu-Su 11:30-14:00,17:30-22:00"
- },
- {
-  "id": "museum-kulturhistorisches-wurzen",
-  "name": "Kulturhistorisches Museum Wurzen",
-  "kategorie": "museum",
-  "kurztext": "Barockes Haus an der Domgasse — Regenprogramm in der Altstadt.",
-  "lat": 51.36936,
-  "lon": 12.73418,
-  "website": "https://www.kultur-wurzen.de/museum-wurzen",
-  "oeffnungszeiten": "siehe Museum"
- },
- {
-  "id": "baden-freibad-dreibruecken-wurzen",
-  "name": "Freibad Dreibrücken Wurzen",
-  "kategorie": "baden",
-  "kurztext": "Freibad an der Leipziger Straße — Abkühlung nach dem Tiergehege, Saison.",
-  "lat": 51.36258,
-  "lon": 12.72525,
-  "oeffnungszeiten": "Saison, Eintritt"
+  "kurztext": "Gasthaus an der alten Mühle in Bilsen.",
+  "lat": 53.773,
+  "lon": 9.87573,
+  "website": "https://bilsener-muehle.de.tl/"
  }
 ]

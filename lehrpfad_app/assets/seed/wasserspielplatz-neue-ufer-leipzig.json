@@ -15,9 +15,8 @@
   "anreise": "Adresse: Wundtstraße Ecke Dufourstraße, 04107 Leipzig. Straßenbahn 10 und 11, Haltestelle Hohe Straße. Öffentliche Parkplätze sind vorhanden.",
   "startName": "Spielplatz Neue Ufer",
   "arten": [
-    "Wasserpumpe"
+    "Wasser- und Matschtisch mit Pumpe"
   ],
-  "artenNachweis": {},
   "lebensraeume": [],
   "naturraum": "norddt-tiefland",
   "tags": [
@@ -160,22 +159,19 @@
       "osmId": 10289756281,
       "lat": 51.32805,
       "lon": 12.369659,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 10956775301,
       "lat": 51.328423,
       "lon": 12.369862,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 11953643975,
       "lat": 51.328654,
       "lon": 12.369551,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 108230937,
@@ -185,11 +181,22 @@
       "name": "Neue Ufer"
     }
   ],
-  "eintritt": false,
   "eintrittPreise": "Eintritt frei",
   "oeffnungszeiten": "Ganzjährig frei zugänglich.",
   "besuchshinweise": "Wechselkleidung mitnehmen, wenn die Kanäle laufen.",
   "hoertext": "Neben dem Plattenbau an der Wundtstraße schickt eine Pumpe Wasser in die Kanäle. Es rinnt durch die Rinnen, wird aufgestaut, wenn Kinder Dämme bauen, und fließt zuletzt in den Pleißemühlgraben, an dessen Ufer der Spielplatz liegt. Gleich daneben steht das Schiff mit Rutsche und Kletternetz, das 2020 gründlich hergerichtet wurde. Über das Netz geht es hinauf, über die Rutsche wieder hinunter. Findlinge und eine Sandfläche gehören zum Platz. Graffiti ziehen sich über die Wände ringsum.",
-  "bilderAsset": "assets/images/trails/wasserspielplatz-neue-ufer-leipzig/credits.json",
-  "dataVersion": 18
+  "dataVersion": 19,
+  "bilder": [
+    {
+      "file": "d12f0842-ffa2-59bd-ba8a-c78b1885a5c0",
+      "id": "d12f0842-ffa2-59bd-ba8a-c78b1885a5c0",
+      "caption": "Spielplatz Neue Ufer mit Schiff und Rutsche am Pleißemühlgraben, Juli 2017.",
+      "credit": "Falk2",
+      "license": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:J29_871_%C2%BBNeue_Ufer%C2%AB.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {}
 }

@@ -15,41 +15,23 @@
   "anreise": "Adresse: Philipp-Müller-Platz 3a, 04808 Lossatal (Ortsteil Dornreichenbach). Der Parkplatz am Philipp-Müller-Platz ist kostenlos. Der Ort liegt am Rand der Dahlener Heide.",
   "startName": "Parkplatz Philipp-Müller-Platz",
   "arten": [
-    "Ziege",
+    "Blässhuhn",
     "Erdkröte",
+    "Gänseblümchen",
     "Grasfrosch",
     "Haushuhn",
-    "Schaf",
-    "Schilf",
-    "Stockente",
-    "Teichfrosch",
-    "Blässhuhn",
-    "Gänseblümchen",
     "Hauskaninchen",
     "Höckerschwan",
     "Honigbiene",
     "Kammmolch",
     "Libelle",
-    "Löwenzahn"
+    "Löwenzahn",
+    "Schaf",
+    "Schilf",
+    "Stockente",
+    "Teichfrosch",
+    "Ziege"
   ],
-  "artenNachweis": {
-    "Ziege": "belegt",
-    "Erdkröte": "typisch",
-    "Grasfrosch": "typisch",
-    "Haushuhn": "typisch",
-    "Schaf": "typisch",
-    "Schilf": "typisch",
-    "Stockente": "typisch",
-    "Teichfrosch": "typisch",
-    "Blässhuhn": "typisch",
-    "Gänseblümchen": "typisch",
-    "Hauskaninchen": "typisch",
-    "Höckerschwan": "typisch",
-    "Honigbiene": "typisch",
-    "Kammmolch": "typisch",
-    "Libelle": "typisch",
-    "Löwenzahn": "typisch"
-  },
   "lebensraeume": [
     "hof-nutztier",
     "teich-tuempel"
@@ -221,64 +203,55 @@
       "osmId": 13066527626,
       "lat": 51.369629,
       "lon": 12.867349,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 13066527627,
       "lat": 51.369643,
       "lon": 12.867366,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 13066527628,
       "lat": 51.369601,
       "lon": 12.867431,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 13066767995,
       "lat": 51.36976,
       "lon": 12.867348,
-      "kategorie": "gastro",
-      "name": null
+      "kategorie": "gastro"
     },
     {
       "osmId": 13988042397,
       "lat": 51.369167,
       "lon": 12.868447,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 13988042457,
       "lat": 51.366907,
       "lon": 12.870232,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 222952997,
       "lat": 51.369989,
       "lon": 12.867231,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     },
     {
       "osmId": 862546870,
       "lat": 51.370085,
       "lon": 12.86771,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     },
     {
       "osmId": 862546884,
       "lat": 51.370743,
       "lon": 12.86929,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
   "eintritt": true,
@@ -286,6 +259,35 @@
   "oeffnungszeiten": "April bis Oktober täglich 8 bis 18 Uhr, November bis März täglich 8 bis 17 Uhr.",
   "besuchshinweise": "Hunde dürfen mitgebracht werden. Toiletten liegen auf dem Weg vom Parkplatz zum Tiergehege, in der Pilgerrast.",
   "hoertext": "Hinter dem Schloss beginnt der Park, und mit ihm das Gehege. Im Streichelzoo drängen sich die Ziegen am Zaun. Die Erdmännchen stehen aufrecht in ihrer Anlage, die seit 2009 besteht und nach Auskunft des Vereins die größte in Sachsen ist. Shetlandponys werden von Kindern und Jugendlichen mitgepflegt. Der Weg läuft einmal um den Schwanenteich. Durch den Ort führen der Lutherweg und der Jakobsweg, und am Rand liegt die Dahlener Heide.",
-  "bilderAsset": "assets/images/trails/tiergehege-dornreichenbach/credits.json",
-  "dataVersion": 36
+  "dataVersion": 40,
+  "bilder": [
+    {
+      "file": "aac7b1e4-92e2-5a22-8115-c3a9b364618c",
+      "id": "aac7b1e4-92e2-5a22-8115-c3a9b364618c",
+      "caption": "Erdmännchen im Tiergehege Dornreichenbach.",
+      "credit": "Alex All",
+      "license": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiergehege_-_panoramio.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Ziege": "belegt",
+    "Erdkröte": "typisch",
+    "Grasfrosch": "typisch",
+    "Haushuhn": "typisch",
+    "Schaf": "typisch",
+    "Schilf": "typisch",
+    "Stockente": "typisch",
+    "Teichfrosch": "typisch",
+    "Blässhuhn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Hauskaninchen": "typisch",
+    "Höckerschwan": "typisch",
+    "Honigbiene": "typisch",
+    "Kammmolch": "typisch",
+    "Libelle": "typisch",
+    "Löwenzahn": "typisch"
+  }
 }

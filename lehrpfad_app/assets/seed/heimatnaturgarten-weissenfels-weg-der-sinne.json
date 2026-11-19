@@ -5,7 +5,7 @@
   "gebiet": "wald",
   "kurzbeschreibung": "Rund 200 Tiere leben in Gehegen zwischen Bäumen, vom Waschbär bis zum Uhu. Vor jedem der 72 Bäume erklärt ein Schild die Art.",
   "beschreibung": "Im Heimatnaturgarten wachsen Steinkäuze für den Harz auf. 2000 gelang die erste Aufzucht, seit 2001 beteiligt sich der Garten am Wiederansiedlungsprojekt. Beim Europäischen Nerz ist er Teil des europäischen Erhaltungszuchtprogramms. Auf 12.600 Quadratmetern teilen sich rund 200 Tiere die Gehege, dazwischen stehen 72 Bäume mit Schildern zu Art und Familie. Ein Steingarten, ein mooriges Beet und Rabatten gehören dazu. Der Naturlehrpfad Weg der Sinne führt an Lernspielen vorbei, dazu kommen ein Barfußpfad und der Spielplatz Räuberdorf.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "Gehegeplan mit 31 Nummern",
@@ -27,23 +27,9 @@
     "Stockente",
     "Hauskaninchen",
     "Ziege",
-    "Haushuhn"
+    "Haushuhn",
+    "Waschbär"
   ],
-  "artenNachweis": {
-    "Gemeine Esche": "belegt",
-    "Rotbuche": "belegt",
-    "Haselnuss": "belegt",
-    "Kultur-Apfel": "belegt",
-    "Wildkatze": "belegt",
-    "Waldkauz": "belegt",
-    "Mäusebussard": "belegt",
-    "Rotfuchs": "belegt",
-    "Eichhörnchen": "belegt",
-    "Stockente": "belegt",
-    "Hauskaninchen": "belegt",
-    "Ziege": "belegt",
-    "Haushuhn": "belegt"
-  },
   "lebensraeume": [
     "eichen-mischwald",
     "hof-nutztier"
@@ -158,121 +144,121 @@
       "osmId": 54443457,
       "lat": 51.194014,
       "lon": 11.965707,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Esel",
       "thema": "Ohren zeigen die Laune",
       "kurztext": "Aufgestellte Ohren zeigen beim Esel Neugier, angelegte Unruhe oder Angst.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 54443442,
       "lat": 51.193885,
       "lon": 11.96545,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 2,
       "titel": "Mäusebussard",
       "thema": "Suchflug über der Wiese",
       "kurztext": "Der Mäusebussard jagt im Suchsegelflug oder von einem Ansitz aus und stürzt auf erspähte Beute.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 54443406,
       "lat": 51.193569,
       "lon": 11.965327,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 3,
       "titel": "Waschbär",
       "thema": "Tasten im Wasser",
       "kurztext": "Der Waschbär tastet mit den Vorderpfoten nach Beute im Wasser, weil sein Sehsinn schwach ist.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 54443413,
       "lat": 51.193374,
       "lon": 11.96552,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 4,
       "titel": "Waldkauz",
       "thema": "Jagd bei Dämmerung",
       "kurztext": "Der Waldkauz jagt in der Dämmerung und nachts, vom Ansitz aus oder im Pirschflug.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 54443440,
       "lat": 51.193427,
       "lon": 11.965648,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 5,
       "titel": "Steinkauz",
       "thema": "Aufzucht für den Harz",
       "kurztext": "Im Jahr 2000 gelang hier die erste Aufzucht eines Steinkauzes, der ins Auswilderungsprogramm im Harz ging.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 54443434,
       "lat": 51.193315,
       "lon": 11.965181,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 6,
       "titel": "Europäischer Nerz",
       "thema": "Erhaltungszucht",
       "kurztext": "Der Europäische Nerz ist fast ausgerottet, der Garten züchtet ihn im europäischen Erhaltungszuchtprogramm.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 6
+      "barrierefrei": false
     },
     {
       "osmId": 54443425,
       "lat": 51.193125,
       "lon": 11.965088,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 7,
       "titel": "Wildkatze",
       "thema": "Dichter Wald, gestreifter Rücken",
       "kurztext": "Die Wildkatze bevorzugt dichten Wald und trägt ein dichteres Fell als die Hauskatze.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 7
+      "barrierefrei": false
     },
     {
       "osmId": 54443421,
       "lat": 51.19299,
       "lon": 11.964701,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 8,
       "titel": "Schneeeule",
       "thema": "Tagaktive Eule",
       "kurztext": "Die Schneeeule jagt am Tag, das Männchen ist fast völlig weiß, das Weibchen stärker gesprenkelt.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 8
+      "barrierefrei": false
     },
     {
       "osmId": 54443423,
       "lat": 51.192938,
       "lon": 11.964685,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 9,
       "titel": "Uhu",
       "thema": "Flügelspannweite bis 1,70 Meter",
       "kurztext": "Der Uhu erreicht eine Flügelspannweite bis 170 Zentimeter und jagt überwiegend in der Dämmerung und nachts.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 9
+      "barrierefrei": false
     },
     {
       "osmId": 54443415,
       "lat": 51.192809,
       "lon": 11.96458,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 10,
       "titel": "Rotfuchs",
       "thema": "Vorrat im Boden",
       "kurztext": "Der Rotfuchs vergräbt Nahrung, die er im Augenblick nicht braucht.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 10
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -280,14 +266,28 @@
       "osmId": 54443448,
       "lat": 51.194238,
       "lon": 11.965477,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     }
   ],
   "eintritt": true,
   "eintrittPreise": "Tageskarte Erwachsene 5 €, ermäßigt 3 €, Familienkarte 14 €. Kinder bis einschließlich 3 Jahre frei.",
   "oeffnungszeiten": "Dienstag bis Sonntag 9–17 Uhr, November bis Januar 9–16 Uhr. Montag geschlossen. Letzter Einlass 30 Minuten vor Schließung.",
   "besuchshinweise": "Hunde nur an der kurzen Leine. Letzter Einlass 30 Minuten vor Schließung.",
+  "dataVersion": 31,
   "hoertext": "Hinter dem Eingangsportal stehen Gehege zwischen Bäumen, und vor jedem Baum erklärt ein Schild die Art. Der Waschbär tastet mit den Vorderpfoten im Wasser nach Beute, denn sehen kann er dabei schlecht. Ein Steinkauz wuchs hier auf. Später kam er im Harz in die Freiheit. Mit den Flügeln spannt der Uhu bis zu einem Meter siebzig, und bei den Eseln verraten die Ohren die Laune: Aufgestellt heißt neugierig, angelegt heißt Unruhe oder Angst. Esche, Buche und Ahorn spenden Schatten. Eine halbe Stunde vor Schluss endet der Einlass.",
-  "dataVersion": 31
+  "artenNachweis": {
+    "Gemeine Esche": "belegt",
+    "Rotbuche": "belegt",
+    "Haselnuss": "belegt",
+    "Kultur-Apfel": "belegt",
+    "Wildkatze": "belegt",
+    "Waldkauz": "belegt",
+    "Mäusebussard": "belegt",
+    "Rotfuchs": "belegt",
+    "Eichhörnchen": "belegt",
+    "Stockente": "belegt",
+    "Hauskaninchen": "belegt",
+    "Ziege": "belegt",
+    "Haushuhn": "belegt"
+  }
 }

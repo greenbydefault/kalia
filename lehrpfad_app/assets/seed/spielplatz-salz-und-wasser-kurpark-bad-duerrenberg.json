@@ -5,7 +5,7 @@
   "gebiet": "wasser",
   "kurzbeschreibung": "Spielelandschaft im Kurpark mit Salzhügeln zum Klettern, Drehscheibe, Trampolin, Schaukeln und Wasserspielen. Der Park ist frei zugänglich.",
   "beschreibung": "Im Kurpark von Bad Dürrenberg, zwischen Gradierwerk und Saale, entstand zur Landesgartenschau 2024 eine Spielelandschaft zum Thema Salz und Wasser. Weiße Flächen mit spitzen Hügeln erinnern an Salzberge, an Seilen lassen sich die Hügel erklimmen. Dazu kommen eine Drehscheibe, ein Trampolin und Schaukeln. An heißen Tagen sprühen Düsen, Fontänen und Wasserpilze. An derselben Stelle gab es schon früher einen Spielplatz, weil die Luft hier als besonders wohltuend galt.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "Spielelandschaft Salz und Wasser",
@@ -17,7 +17,6 @@
   "arten": [
     "Sprühdüsen"
   ],
-  "artenNachweis": {},
   "lebensraeume": [],
   "naturraum": "norddt-tiefland",
   "tags": [
@@ -87,53 +86,53 @@
       "osmId": -1519454402,
       "lat": 51.295109,
       "lon": 12.062339,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Salzhügel",
       "thema": "Salzpyramiden",
       "kurztext": "Weiße Flächen mit spitzen Hügeln in Form von Salzpyramiden, an Seilen klettern Kinder hinauf.",
       "erlebnisse": [
         "mitmach-modell"
       ],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": -740633289,
       "lat": 51.29485,
       "lon": 12.062477,
       "km": 0.03,
+      "reihenfolge": 2,
       "titel": "Drehscheibe",
       "thema": "Drehen",
       "kurztext": "Drehscheibe auf der Spielelandschaft.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": -3339524785,
       "lat": 51.295018,
       "lon": 12.062894,
       "km": 0.06,
+      "reihenfolge": 3,
       "titel": "Trampolin und Schaukeln",
       "thema": "Springen und Schwingen",
       "kurztext": "Trampolin und Schaukeln gehören zur Spielelandschaft.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": -2242233723,
       "lat": 51.295109,
       "lon": 12.063263,
       "km": 0.09,
+      "reihenfolge": 4,
       "titel": "Wasserspiele",
       "thema": "Sprühwasser",
       "kurztext": "Wasserspendersäulen, Spritzdüsen, Fontänen und Wasserpilze sprühen an heißen Tagen.",
       "erlebnisse": [
         "mitmach-modell"
       ],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -141,29 +140,25 @@
       "osmId": 6418263104,
       "lat": 51.2948,
       "lon": 12.063077,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12729618226,
       "lat": 51.294909,
       "lon": 12.062115,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11898022555,
       "lat": 51.295083,
       "lon": 12.06367,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11898006933,
       "lat": 51.295315,
       "lon": 12.063581,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 500883166,
@@ -183,36 +178,31 @@
       "osmId": 137600298,
       "lat": 51.295039,
       "lon": 12.062807,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 1374829163,
       "lat": 51.295393,
       "lon": 12.060702,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 12729618261,
       "lat": 51.294381,
       "lon": 12.061534,
-      "kategorie": "viewpoint",
-      "name": null
+      "kategorie": "viewpoint"
     },
     {
       "osmId": 12729618260,
       "lat": 51.294133,
       "lon": 12.0616,
-      "kategorie": "viewpoint",
-      "name": null
+      "kategorie": "viewpoint"
     },
     {
       "osmId": 5739990570,
       "lat": 51.295908,
       "lon": 12.062287,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 442618213,
@@ -225,22 +215,31 @@
       "osmId": 1374829173,
       "lat": 51.293868,
       "lon": 12.064426,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     },
     {
       "osmId": 13094510301,
       "lat": 51.293753,
       "lon": 12.062113,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     }
   ],
-  "eintritt": false,
   "eintrittPreise": "Eintritt frei",
   "oeffnungszeiten": "Kurpark April bis Oktober 8–21 Uhr, November bis März 8–19 Uhr.",
   "besuchshinweise": "Handtuch und Wechselkleidung mitnehmen, falls die Wasserspiele laufen.",
   "hoertext": "Salz und Wasser heißt die Spielelandschaft im Kurpark von Bad Dürrenberg. Hier rahmen das längste Gradierwerk Deutschlands mit 636 Metern und die Saale den Park ein, und mitten darin ragen weiße Hügel wie Salzberge auf, spitz, mit Seilen zum Hochziehen. Dazu eine Drehscheibe, ein Trampolin, Schaukeln. Bei Hitze sprühen Düsen, Fontänen und Wasserpilze. Gespielt wurde an diesem Ort schon früher, denn die Luft galt hier als besonders wohltuend und heilend. Zur Landesgartenschau 2024 wurde die Anlage neu gestaltet.",
-  "bilderAsset": "assets/images/trails/spielplatz-salz-und-wasser-kurpark-bad-duerrenberg/credits.json",
-  "dataVersion": 25
+  "dataVersion": 29,
+  "bilder": [
+    {
+      "file": "d91eefb0-2ae1-54b0-8ef8-0c210256a64d",
+      "id": "d91eefb0-2ae1-54b0-8ef8-0c210256a64d",
+      "caption": "Blick zum Gradierwerk im Kurpark Bad Dürrenberg. Die Spielelandschaft liegt im selben Park.",
+      "credit": "Dguendel",
+      "license": "cc-by-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bad_D%C3%BCrrenberg,_LAGA_2024,_Blick_zum_Gradierwerk.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {}
 }

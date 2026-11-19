@@ -81,6 +81,23 @@ final assetResolverProvider = Provider<AssetResolver>((ref) {
   );
 });
 
+typedef CatalogSyncStatus = ({int trails, String? lastSyncAt, String? error});
+
+/// Stand des lokalen Katalogs für die Debug-Anzeige.
+final catalogSyncStatusProvider = FutureProvider.autoDispose<CatalogSyncStatus?>(
+  (ref) async {
+    final db = ref.watch(offlineDatabaseProvider);
+    if (db == null) return null;
+    final error = await db.meta(OfflineDatabase.metaLastSyncError);
+    final last = await db.meta(OfflineDatabase.metaLastSyncAt);
+    return (
+      trails: (await db.trailVersions()).length,
+      lastSyncAt: last == null || last.isEmpty ? null : last,
+      error: error == null || error.isEmpty ? null : error,
+    );
+  },
+);
+
 /// Löst den Katalogabgleich aus, höchstens alle [OfflineConfig.syncMinInterval].
 final catalogSyncControllerProvider = Provider<CatalogSyncController?>((ref) {
   final db = ref.watch(offlineDatabaseProvider);
@@ -112,6 +129,9 @@ class CatalogSyncController {
       return await _sync.run();
     } catch (e) {
       debugPrint('CatalogSync fehlgeschlagen ($e)');
+      try {
+        await _db.setMeta(OfflineDatabase.metaLastSyncError, '$e');
+      } catch (_) {}
       return null;
     } finally {
       _running = false;

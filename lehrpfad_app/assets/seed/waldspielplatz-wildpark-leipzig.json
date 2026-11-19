@@ -15,37 +15,21 @@
   "anreise": "Adresse: Koburger Straße, im Wildpark, 04277 Leipzig. Bus 70 und 107, Haltestelle Wildpark. Öffentliche Parkplätze sind vorhanden.",
   "startName": "Waldspielplatz im Wildpark",
   "arten": [
-    "Gemeine Esche",
-    "Schwarzerle",
-    "Stieleiche",
-    "Eisvogel",
     "Amsel",
     "Blaumeise",
     "Buchfink",
+    "Eisvogel",
+    "Gemeine Esche",
     "Grasfrosch",
-    "Schwarzer Holunder",
+    "Kuckuck",
     "Rotkehlchen",
     "Salweide",
     "Schlehe",
-    "Stockente",
-    "Kuckuck"
+    "Schwarzer Holunder",
+    "Schwarzerle",
+    "Stieleiche",
+    "Stockente"
   ],
-  "artenNachweis": {
-    "Gemeine Esche": "typisch",
-    "Schwarzerle": "typisch",
-    "Stieleiche": "typisch",
-    "Eisvogel": "typisch",
-    "Amsel": "typisch",
-    "Blaumeise": "typisch",
-    "Buchfink": "typisch",
-    "Grasfrosch": "typisch",
-    "Schwarzer Holunder": "typisch",
-    "Rotkehlchen": "typisch",
-    "Salweide": "typisch",
-    "Schlehe": "typisch",
-    "Stockente": "typisch",
-    "Kuckuck": "typisch"
-  },
   "lebensraeume": [
     "auwald"
   ],
@@ -171,120 +155,103 @@
       "osmId": 4058540249,
       "lat": 51.299731,
       "lon": 12.36903,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908427,
       "lat": 51.299794,
       "lon": 12.367976,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908433,
       "lat": 51.29955,
       "lon": 12.368276,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908442,
       "lat": 51.299465,
       "lon": 12.368226,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908448,
       "lat": 51.299585,
       "lon": 12.368316,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908456,
       "lat": 51.299774,
       "lon": 12.368279,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908463,
       "lat": 51.299724,
       "lon": 12.368154,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 12107908468,
       "lat": 51.299667,
       "lon": 12.367452,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908473,
       "lat": 51.299819,
       "lon": 12.367534,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908478,
       "lat": 51.299781,
       "lon": 12.368147,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908483,
       "lat": 51.299805,
       "lon": 12.367746,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908496,
       "lat": 51.299609,
       "lon": 12.368406,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107908498,
       "lat": 51.299786,
       "lon": 12.367594,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 12107908500,
       "lat": 51.299739,
       "lon": 12.368241,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 12107964316,
       "lat": 51.299371,
       "lon": 12.368087,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107964322,
       "lat": 51.299638,
       "lon": 12.368438,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12107964327,
       "lat": 51.299676,
       "lon": 12.367437,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 362464488,
@@ -294,11 +261,37 @@
       "name": "Hinter den sieben Bergen"
     }
   ],
-  "eintritt": false,
   "eintrittPreise": "Eintritt frei",
   "oeffnungszeiten": "Wie der Wildpark: täglich, 16. März bis 31. Oktober 9 bis 19 Uhr, 1. November bis 15. März 9 bis 17 Uhr.",
   "besuchshinweise": "Der Spielplatz liegt im Wildpark; Hunde dort nur angeleint. Nach Ende der Öffnungszeit alle über das Drehtor am Haupteingang hinaus.",
   "hoertext": "Zwischen dem Weg Die Linie und dem Hochflutbett der Pleiße hebt und senkt sich der Boden. Auf den Hügeln warten drei Rutschen, eine wellig, eine kurvig, eine breit. Eine Seilbahn zieht quer über den Platz. Wer klettern will, nimmt die Felsen oder das Netz mit Quirl und Reck, und wer lieber sitzt, hockt sich in den Sand, wo ein Tisch steht, unter den ein Rollstuhl passt. Am Rand gibt es ein Basketballfeld und eine Spielwiese. Der Wildpark mit seinen Tieren liegt gleich daneben.",
-  "bilderAsset": "assets/images/trails/waldspielplatz-wildpark-leipzig/credits.json",
-  "dataVersion": 47
+  "dataVersion": 48,
+  "bilder": [
+    {
+      "file": "dd0f77c7-fdb7-5930-bb90-7dea019a817d",
+      "id": "dd0f77c7-fdb7-5930-bb90-7dea019a817d",
+      "caption": "Russisches Teehaus im Wildpark Leipzig. Das Foto zeigt nicht den Spielplatz.",
+      "credit": "Cmuelle8",
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Leipzig_-_Russisches_Teehaus.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Gemeine Esche": "typisch",
+    "Schwarzerle": "typisch",
+    "Stieleiche": "typisch",
+    "Eisvogel": "typisch",
+    "Amsel": "typisch",
+    "Blaumeise": "typisch",
+    "Buchfink": "typisch",
+    "Grasfrosch": "typisch",
+    "Schwarzer Holunder": "typisch",
+    "Rotkehlchen": "typisch",
+    "Salweide": "typisch",
+    "Schlehe": "typisch",
+    "Stockente": "typisch",
+    "Kuckuck": "typisch"
+  }
 }

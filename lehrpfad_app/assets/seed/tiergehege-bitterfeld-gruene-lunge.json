@@ -5,7 +5,7 @@
   "gebiet": "hof",
   "kurzbeschreibung": "Am Ende der Grünen Lunge in Bitterfeld leben Ponys, Esel, Zwergziegen und Damwild. Gestreichelt werden dürfen einige davon.",
   "beschreibung": "Die Grüne Lunge in Bitterfeld geht auf eine Schenkung zurück. Vor hundert Jahren schenkte der Kommerzienrat August Piltz der Stadt einige seiner Wiesen, darum heißt der Park auch Piltzteichanlage. An ihrem Ende liegt das Tiergehege. Rund siebzig Tiere leben dort, darunter Ponys, Esel, Zwergziegen, Kamerunschafe, Hühner und ein Rudel Damwild. Einige dürfen Besucher streicheln. Am großen Fischteich stehen Bänke, und neben dem Gehege liegt eine Minigolfanlage mit 18 Bahnen.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "keine Markierung",
@@ -165,49 +165,49 @@
       "osmId": 1323476440,
       "lat": 51.6183252,
       "lon": 12.3329556,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Ziegen",
       "thema": "Haustier",
       "kurztext": "Zwergziegen zählen zu den Haustieren im Tiergehege, die Besucher streicheln dürfen.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 1323475262,
       "lat": 51.6186033,
       "lon": 12.3328247,
       "km": 0.03,
+      "reihenfolge": 2,
       "titel": "Esel",
       "thema": "Haustier",
       "kurztext": "Esel gehören zu den Haustieren im Tiergehege, die Besucher streicheln dürfen.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 1323475261,
       "lat": 51.6188163,
       "lon": 12.3329728,
       "km": 0.06,
+      "reihenfolge": 3,
       "titel": "Geflügel",
       "thema": "Haustier",
       "kurztext": "Hühner leben im Tiergehege. Mitgebrachtes Futter ist für alle Tiere verboten.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 1323476441,
       "lat": 51.6190697,
       "lon": 12.3329421,
       "km": 0.09,
+      "reihenfolge": 4,
       "titel": "Spielplatz",
       "thema": "Spiel",
       "kurztext": "Für die Kleinsten ist ein kleiner Spielplatz eingerichtet, Kinderfahrzeuge stehen bereit.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -215,56 +215,59 @@
       "osmId": 12246919054,
       "lat": 51.6189618,
       "lon": 12.3327081,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12246919055,
       "lat": 51.6190672,
       "lon": 12.332694,
-      "kategorie": "shelter",
-      "name": null
+      "kategorie": "shelter"
     },
     {
       "osmId": 12247036250,
       "lat": 51.6191379,
       "lon": 12.3322953,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 13056096240,
       "lat": 51.6180416,
       "lon": 12.3326096,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 13056086685,
       "lat": 51.6196722,
       "lon": 12.3318786,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 1323476441,
       "lat": 51.6190697,
       "lon": 12.3329421,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 1392055183,
       "lat": 51.6187062,
       "lon": 12.3307658,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
-  "eintritt": false,
   "oeffnungszeiten": "Montag bis Freitag 8 bis 18 Uhr. Samstag, Sonntag und Feiertage 9 bis 18 Uhr.",
   "besuchshinweise": "Mitgebrachtes Futter ist verboten. Futtermöhren gibt es in kleinen Beuteln gegen eine geringe Futterspende, täglich frisch geschält. Kinderfahrzeuge stehen am Spielplatz bereit.",
   "hoertext": "Wo der Bitterfelder Park ausläuft, am Ende der Grünen Lunge, beginnt das Tiergehege, in dem Esel, Ziegen, Hühner und Ponys leben, dazu Kamerunschafe und ein Rudel Damwild. Einige Tiere dürfen gestreichelt werden. Täglich frisch geschälte Möhren wechseln gegen eine geringe Spende den Besitzer, mitgebrachtes Futter bleibt verboten. Für die Kleinsten wartet ein Spielplatz, samt Kinderfahrzeugen. Bänke am großen Fischteich laden zum Verweilen ein. Hundert Jahre alt ist der Park, den ein Kommerzienrat der Stadt einst schenkte.",
-  "bilderAsset": "assets/images/trails/tiergehege-bitterfeld-gruene-lunge/credits.json",
-  "dataVersion": 33
+  "dataVersion": 35,
+  "bilder": [
+    {
+      "file": "bcc399c0-7e46-5b90-8c76-8242343c998a",
+      "id": "bcc399c0-7e46-5b90-8c76-8242343c998a",
+      "caption": "Insektenhotel im Tiergehege Bitterfeld.",
+      "credit": "Catatine",
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABitterfeld%2C_Insektenhotel_im_Tiergehege.jpg",
+      "kind": "ort"
+    }
+  ]
 }

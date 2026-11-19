@@ -5,7 +5,7 @@
   "gebiet": "wald",
   "kurzbeschreibung": "Heimattierpark mit Damwild, Wildkatzen, Waschbären, Uhus und Bauernhoftieren im Südpark. Ganzjährig frei zugänglich.",
   "beschreibung": "Im Südpark am Rand von Merseburg liegt ein Heimattierpark mit rund 300 Tieren in 59 Arten. Schwerpunkt sind Haustiere und heimische Wildtiere. Dam-, Rot- und Schwarzwild leben in weiten Gehegen, Wildkatze, Waschbär und Uhu haben eigene Anlagen, dazu kommen Heidschnucken, Merinoschafe und Waliser Ziegen. Zwischen den Gehegen liegen Wiesen, Themengärten und ein Kinderspielplatz. Der Park besteht seit 1978.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "Südpark Merseburg",
@@ -16,28 +16,16 @@
   "startName": "Südpark Eingang",
   "arten": [
     "Damhirsch",
-    "Rothirsch",
-    "Wildschwein",
-    "Wildkatze",
-    "Waldkauz",
     "Eichhörnchen",
-    "Schaf",
-    "Ziege",
+    "Haushuhn",
     "Hauskaninchen",
-    "Haushuhn"
+    "Rothirsch",
+    "Schaf",
+    "Waldkauz",
+    "Wildkatze",
+    "Wildschwein",
+    "Ziege"
   ],
-  "artenNachweis": {
-    "Damhirsch": "belegt",
-    "Rothirsch": "belegt",
-    "Wildschwein": "belegt",
-    "Wildkatze": "belegt",
-    "Waldkauz": "belegt",
-    "Eichhörnchen": "belegt",
-    "Schaf": "belegt",
-    "Ziege": "belegt",
-    "Hauskaninchen": "belegt",
-    "Haushuhn": "belegt"
-  },
   "lebensraeume": [],
   "naturraum": "norddt-tiefland",
   "tags": [
@@ -121,72 +109,72 @@
       "lat": 51.345027,
       "lon": 11.985499,
       "km": 0.12,
+      "reihenfolge": 1,
       "titel": "Wildkatze",
       "thema": "Wildkatzengehege",
       "kurztext": "Gehege der Wildkatze, einer heimischen Art.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 1363722955,
       "lat": 51.345003,
       "lon": 11.985573,
       "km": 0.13,
+      "reihenfolge": 2,
       "titel": "Waschbär",
       "thema": "Waschbärgehege",
       "kurztext": "Gehege der Waschbären, neben den Raubtieren des Tierparks.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 214797441,
       "lat": 51.345052,
       "lon": 11.985885,
       "km": 0.15,
+      "reihenfolge": 3,
       "titel": "Uhu",
       "thema": "Voliere",
       "kurztext": "Voliere des Uhus, einer heimischen Eule.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 1363775841,
       "lat": 51.344797,
       "lon": 11.985293,
       "km": 0.2,
+      "reihenfolge": 4,
       "titel": "Heidschnucke",
       "thema": "Bauernhoftiere",
       "kurztext": "Gehege der Heidschnucken, nahe bei Merinoschafen und Waliser Ziegen.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 1363775836,
       "lat": 51.344666,
       "lon": 11.985522,
       "km": 0.22,
+      "reihenfolge": 5,
       "titel": "Waliser Ziege",
       "thema": "Bauernhoftiere",
       "kurztext": "Gehege der Waliser Ziegen im Bereich der Bauernhoftiere.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 358044532,
       "lat": 51.341579,
       "lon": 11.984749,
       "km": 0.57,
+      "reihenfolge": 6,
       "titel": "Damwild",
       "thema": "Heimisches Wild",
       "kurztext": "Weites Gehege des Damwilds, das mit Rot- und Schwarzwild zum heimischen Wild des Tierparks gehört.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 6
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -194,29 +182,25 @@
       "osmId": 3878865851,
       "lat": 51.341712,
       "lon": 11.98537,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 3878865984,
       "lat": 51.345444,
       "lon": 11.985591,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 3878865986,
       "lat": 51.345642,
       "lon": 11.985667,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12533915217,
       "lat": 51.345179,
       "lon": 11.985238,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 214797444,
@@ -236,22 +220,19 @@
       "osmId": 12627041812,
       "lat": 51.344675,
       "lon": 11.985958,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 12627041811,
       "lat": 51.344576,
       "lon": 11.985964,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 156297582,
       "lat": 51.341111,
       "lon": 11.985967,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 2085757937,
@@ -275,11 +256,33 @@
       "name": "Südpark-Tierpark"
     }
   ],
-  "eintritt": false,
   "eintrittPreise": "Eintritt frei",
   "oeffnungszeiten": "Ganzjährig zugänglich.",
   "besuchshinweise": "Füttern ist verboten, mitgebrachtes Futter wird in Tonnen gesammelt. Hunde nur an der kurzen Leine.",
   "hoertext": "Dreihundert Tiere in neunundfünfzig Arten leben im Südpark von Merseburg, und der Besuch kostet nichts. Heimisches Wild wie Damwild, Rotwild und Schwarzwild lebt in weiten Gehegen, und wer genau hinschaut, entdeckt dazwischen auch frei lebende Vögel wie Rohrweihe, Rotmilan und Pirol. Wildkatze, Waschbär, Uhu und Frettchen wohnen in kleineren Anlagen im Norden des Parks. Auf dem Bauernhof leben Heidschnucken, Merinoschafe und Waliser Ziegen. Dazu Wiesen, ein Fährtengarten und ein Kinderspielplatz. Eröffnet wurde der Park 1978.",
-  "bilderAsset": "assets/images/trails/heimattierpark-suedpark-merseburg/credits.json",
-  "dataVersion": 35
+  "dataVersion": 41,
+  "bilder": [
+    {
+      "file": "229a9520-0bf5-5c6e-ada1-1df2493e8fc3",
+      "id": "229a9520-0bf5-5c6e-ada1-1df2493e8fc3",
+      "caption": "Vogelvoliere im Tiergarten des Südparks Merseburg.",
+      "credit": "Catatine",
+      "license": "cc0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCdpark_Merseburg,_Tiergarten_01.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Damhirsch": "belegt",
+    "Rothirsch": "belegt",
+    "Wildschwein": "belegt",
+    "Wildkatze": "belegt",
+    "Waldkauz": "belegt",
+    "Eichhörnchen": "belegt",
+    "Schaf": "belegt",
+    "Ziege": "belegt",
+    "Hauskaninchen": "belegt",
+    "Haushuhn": "belegt"
+  }
 }

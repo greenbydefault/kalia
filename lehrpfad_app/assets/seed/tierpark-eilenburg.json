@@ -5,7 +5,7 @@
   "gebiet": "hof",
   "kurzbeschreibung": "Vier Hektar im Eilenburger Stadtpark. Hutaffen im Freigehege, Luchse und ein Naturerlebnispfad durch Feucht- und Waldgebiet.",
   "beschreibung": "Im Eilenburger Stadtpark leben Tiere aus mehreren Welten dicht beieinander. Gleich hinter dem Haupthaus teilen sich Aras und Goldfasane eine Voliere, daneben klettern Hutaffen im Freigehege. In der Mitte liegt der Bereich für Haus- und Heimtiere, wo Ziegen zum Streicheln einladen und eine Rutsche den Weg zu ihnen abkürzt. Im hinteren Teil führt ein schmaler Naturerlebnispfad durch Feucht- und Waldgebiet. Sprunganlage zum Vergleichen, Fühlkästen, Balancierstämme und eine Hängebrücke laden zum Ausprobieren ein. Die Luchse zählen zu den Wappentieren des Parks.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "keine Markierung",
@@ -224,92 +224,85 @@
       "osmId": 4933247890,
       "lat": 51.453582,
       "lon": 12.632115,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Empfangszimmer",
       "thema": "Freifläche vor der Gaststätte",
       "kurztext": "Sitzinseln, Spielpunkte und ein überdachter Festpavillon liegen vor der Gaststätte in Holzblockbauweise.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 619498487,
       "lat": 51.453426,
       "lon": 12.631718,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 2,
       "titel": "Aras",
       "thema": "Voliere mit Goldfasanen",
       "kurztext": "Grünflügelaras und Goldfasane teilen sich gleich hinter dem Haupthaus eine Voliere.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 619498488,
       "lat": 51.453371,
       "lon": 12.63154,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 3,
       "titel": "Hutaffen",
       "thema": "Indischer Trockenwald",
       "kurztext": "Indische Hutaffen klettern im großzügigen Freigehege, dazu laufen Pfauen sowie Wasser- und Ufervögel frei.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 619498479,
       "lat": 51.452906,
       "lon": 12.631418,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 4,
       "titel": "Ziegen",
       "thema": "Mensch-Tier-Kontaktbereich",
       "kurztext": "Zahme Ziegen stehen oft zum Streicheln bereit, und jüngere Kinder erreichen das Gehege über eine Rutsche.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 850082064,
       "lat": 51.452933,
       "lon": 12.630703,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 5,
       "titel": "Haustierpavillon",
       "thema": "Schwein und Pferd",
       "kurztext": "Schwein und Pferd leben in der Haustieranlage, deren Pavillon bei schlechtem Wetter als geschützter Sammelpunkt dient.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 619498486,
       "lat": 51.45294,
       "lon": 12.631761,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 6,
       "titel": "Alpakas und Esel",
       "thema": "Freigehege mit Auslauffläche",
       "kurztext": "Alpakas und Esel teilen ein Freigehege, die Auslauffläche für Ponys und Esel entstand 2005.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 6
+      "barrierefrei": false
     },
     {
       "osmId": 619719003,
       "lat": 51.452626,
       "lon": 12.632117,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 7,
       "titel": "Luchse",
       "thema": "Feucht- und Waldgebiet",
       "kurztext": "Ilvy und Malou, die beiden Luchsdamen, sind die Wappentiere des Parks, ihr Gehege wurde im Juni 2003 eröffnet.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 7
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -324,8 +317,7 @@
       "osmId": 850082065,
       "lat": 51.453603,
       "lon": 12.632006,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 4933247914,
@@ -338,22 +330,19 @@
       "osmId": 14357379715,
       "lat": 51.452773,
       "lon": 12.630528,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 619498522,
       "lat": 51.454337,
       "lon": 12.631381,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     },
     {
       "osmId": 1307252058,
       "lat": 51.453919,
       "lon": 12.631174,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
   "eintritt": true,
@@ -361,6 +350,17 @@
   "oeffnungszeiten": "Sommerzeit (ab letztem Sonntag im März) 9 bis 18:30 Uhr, Winterzeit (ab letztem Sonntag im Oktober) 9 Uhr bis Einbruch der Dunkelheit, spätestens 17 Uhr. Das Tropicana schließt eine Stunde vorher, Einlassschluss ist eine halbe Stunde vor Schließung.",
   "besuchshinweise": "Hunde dürfen nur angeleint in den Eingangsbereich bei der Gaststätte. Der Naturerlebnispfad im hinteren Teil ist schmal.",
   "hoertext": "Mitten im Stadtpark leben auf vier Hektar rund fünfzig Tierarten. Aras und Goldfasane wohnen hinter dem Haupthaus gemeinsam in einer Voliere, nebenan klettern Hutaffen im Freigehege, während Pfauen sowie Wasser- und Ufervögel frei über das Gelände laufen. Zahme Ziegen stehen am Zaun. Jüngere Kinder rutschen zu ihnen hinunter. Im hinteren Teil gehört das Feucht- und Waldgebiet den Luchsen, das Gehege besteht seit Juni 2003. Ein schmaler Pfad führt dort an Fühlkästen, Balancierstämmen und einer Hängebrücke vorbei.",
-  "bilderAsset": "assets/images/trails/tierpark-eilenburg/credits.json",
-  "dataVersion": 27
+  "dataVersion": 31,
+  "bilder": [
+    {
+      "file": "5b6ad441-4dba-591a-aebb-b75e2f923a8e",
+      "id": "5b6ad441-4dba-591a-aebb-b75e2f923a8e",
+      "caption": "Eingangsbereich des Tierparks im Eilenburger Stadtpark.",
+      "credit": "Joachim Köhler",
+      "license": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEilenburg-Tierpark-Eingang-I0934-pCOSt-11-07-2020.jpg",
+      "kind": "ort"
+    }
+  ]
 }

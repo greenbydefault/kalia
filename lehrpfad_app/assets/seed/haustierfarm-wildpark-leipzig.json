@@ -15,29 +15,17 @@
   "anreise": "Adresse: Koburger Straße 12, 04277 Leipzig. Bus 70 und 107 halten am Wildpark, die Farm nennt 300 Meter bis zur Haltestelle. Parken am Wildpark.",
   "startName": "Kasse der Haustierfarm",
   "arten": [
+    "Amsel",
+    "Gänseblümchen",
     "Haushuhn",
     "Hauskaninchen",
-    "Schaf",
-    "Ziege",
-    "Gänseblümchen",
     "Honigbiene",
     "Löwenzahn",
+    "Rotkehlchen",
     "Rotklee",
-    "Amsel",
-    "Rotkehlchen"
+    "Schaf",
+    "Ziege"
   ],
-  "artenNachweis": {
-    "Haushuhn": "belegt",
-    "Hauskaninchen": "belegt",
-    "Schaf": "typisch",
-    "Ziege": "typisch",
-    "Gänseblümchen": "typisch",
-    "Honigbiene": "typisch",
-    "Löwenzahn": "typisch",
-    "Rotklee": "typisch",
-    "Amsel": "typisch",
-    "Rotkehlchen": "typisch"
-  },
   "lebensraeume": [
     "hof-nutztier"
   ],
@@ -180,36 +168,31 @@
       "osmId": 5860595807,
       "lat": 51.300718,
       "lon": 12.367084,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 5860595824,
       "lat": 51.301008,
       "lon": 12.367121,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 5860596127,
       "lat": 51.300552,
       "lon": 12.367771,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 6527920298,
       "lat": 51.300767,
       "lon": 12.367092,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 6527920299,
       "lat": 51.300786,
       "lon": 12.367084,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     }
   ],
   "eintritt": true,
@@ -217,6 +200,29 @@
   "oeffnungszeiten": "Täglich ab 10 Uhr, saison- und witterungsabhängig. Kamel- und Ponyreiten ab 11 Uhr.",
   "besuchshinweise": "Hunde und andere Tiere dürfen nicht mit hinein. Kinder unter 12 Jahren nur mit Erwachsenen. Ponyreiten gibt es nur für kleine Kinder.",
   "hoertext": "Hinter der Kasse am Rand des Wildparks ändert sich der Takt. Hühner scharren, Meerschweine und Kaninchen warten auf Hände, und Esel haben viel Platz. Am Kamelpfad stehen die Kamele, und weil sie Reiter tragen, gilt eine Gewichtsgrenze, die der Betrieb zum Wohl der Tiere festgelegt hat. Reiten gibt es erst ab elf Uhr, dann sitzen die ganz Kleinen auf dem Pony. Ausgebildete Tierpfleger kümmern sich um alle Tiere. Und wer Kamelwolle mitnehmen will, bekommt sie, solange der Vorrat reicht.",
-  "bilderAsset": "assets/images/trails/haustierfarm-wildpark-leipzig/credits.json",
-  "dataVersion": 28
+  "dataVersion": 30,
+  "bilder": [
+    {
+      "file": "0c293d23-7f49-5bba-8312-3ac6ffa15007",
+      "id": "0c293d23-7f49-5bba-8312-3ac6ffa15007",
+      "caption": "Großgehege im Wildpark Leipzig. Die Haustierfarm liegt neben dem Wildpark, das Foto zeigt nicht die Farm.",
+      "credit": "Geisler Martin",
+      "license": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Lzg._Gro%C3%9Fgehege.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Haushuhn": "belegt",
+    "Hauskaninchen": "belegt",
+    "Schaf": "typisch",
+    "Ziege": "typisch",
+    "Gänseblümchen": "typisch",
+    "Honigbiene": "typisch",
+    "Löwenzahn": "typisch",
+    "Rotklee": "typisch",
+    "Amsel": "typisch",
+    "Rotkehlchen": "typisch"
+  }
 }

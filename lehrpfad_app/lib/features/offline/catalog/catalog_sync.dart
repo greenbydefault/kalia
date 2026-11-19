@@ -107,6 +107,7 @@ class SyncReport {
     this.speciesFetched = 0,
     this.trailsRemoved = 0,
     this.speciesRemoved = 0,
+    this.speciesError,
   });
 
   final int trailsFetched;
@@ -114,13 +115,17 @@ class SyncReport {
   final int trailsRemoved;
   final int speciesRemoved;
 
+  /// Arten-Phase gescheitert, Trails sind trotzdem gespeichert.
+  final String? speciesError;
+
   bool get changed =>
       trailsFetched + speciesFetched + trailsRemoved + speciesRemoved > 0;
 
   @override
   String toString() =>
       'SyncReport(trails +$trailsFetched -$trailsRemoved, '
-      'arten +$speciesFetched -$speciesRemoved)';
+      'arten +$speciesFetched -$speciesRemoved'
+      '${speciesError == null ? '' : ', arten-fehler: $speciesError'})';
 }
 
 /// Version-basierter Katalogabgleich: ein RPC liefert alle Versionen, nur
@@ -169,40 +174,64 @@ class CatalogSync {
       }
     }
 
-    final species = <SpeciesIndexEntry>[];
-    for (final chunk in _chunks(
-      speciesDiff.fetch,
-      OfflineConfig.speciesFetchChunk,
-    )) {
-      for (final row in await _remote.speciesRows(chunk)) {
-        final id = row['id'] as String;
-        species.add(
-          SpeciesIndexEntry(
-            id: id,
-            version: (row['version'] as num?)?.toInt() ?? remote.species[id]!,
-            json: SupabaseSpeciesRepository.rowToJson(row),
-          ),
-        );
-      }
-    }
-
+    // Trails zuerst und für sich committen: ein kaputter Arten-Request darf
+    // neue Pfade nicht zurückhalten. Fehlende Arten überspringt der
+    // SpeciesResolver, bis sie nachkommen.
     await _db.transaction(() async {
       await _db.upsertTrails(trails);
-      await _db.upsertSpecies(species);
       await _db.deleteTrails(trailTombstones);
-      await _db.deleteSpecies(speciesTombstones);
       await _db.setClosedFlags(remote.closed);
-      await _db.setMeta(
-        OfflineDatabase.metaLastSyncAt,
-        _now().toUtc().toIso8601String(),
-      );
+    });
+
+    final species = <SpeciesIndexEntry>[];
+    String? speciesError;
+    try {
+      for (final chunk in _chunks(
+        speciesDiff.fetch,
+        OfflineConfig.speciesFetchChunk,
+      )) {
+        for (final row in await _remote.speciesRows(chunk)) {
+          final id = row['id'] as String;
+          species.add(
+            SpeciesIndexEntry(
+              id: id,
+              version:
+                  (row['version'] as num?)?.toInt() ?? remote.species[id]!,
+              json: SupabaseSpeciesRepository.rowToJson(row),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      speciesError = '$e';
+      species.clear();
+    }
+
+    // Ohne last_sync_at wiederholt der nächste Auslöser die Arten; die
+    // Trails sind dann schon aktuell und werden nicht erneut geladen.
+    await _db.transaction(() async {
+      if (speciesError == null) {
+        await _db.upsertSpecies(species);
+        await _db.deleteSpecies(speciesTombstones);
+        await _db.setMeta(
+          OfflineDatabase.metaLastSyncAt,
+          _now().toUtc().toIso8601String(),
+        );
+        await _db.setMeta(OfflineDatabase.metaLastSyncError, '');
+      } else {
+        await _db.setMeta(
+          OfflineDatabase.metaLastSyncError,
+          'Arten: $speciesError',
+        );
+      }
     });
 
     final report = SyncReport(
       trailsFetched: trails.length,
       speciesFetched: species.length,
       trailsRemoved: trailTombstones.length,
-      speciesRemoved: speciesTombstones.length,
+      speciesRemoved: speciesError == null ? speciesTombstones.length : 0,
+      speciesError: speciesError,
     );
     debugPrint('CatalogSync $report');
     return report;

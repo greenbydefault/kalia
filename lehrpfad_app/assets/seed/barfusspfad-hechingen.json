@@ -1,0 +1,215 @@
+{
+ "id": "barfusspfad-hechingen",
+ "name": "erleb-dich-pfad Hechingen (Barfußpfad im Feilbachtal)",
+ "typ": "barfusspfad",
+ "kurzbeschreibung": "Der erleb-dich-pfad im Hechinger Feilbachtal ist ein 895 m langer Barfuß- und Sinnespfad mit Zonen aus Matsch, Sand und Stein, Naturboden und Duftkräutern.",
+ "beschreibung": "Der erleb-dich-pfad liegt im Feilbachtal unterhalb des Hechinger Kreiskrankenhauses. Auf 895 m geht es barfuß über wechselnden Untergrund. Die Zonen heißen Matsch, Schmetterlingsflieder, Sand und Stein, Naturboden und Duftkräuter. Im Matsch wird es unter den Füßen weich und nass, auf Sand und Stein fühlt sich jeder Schritt anders an, und bei den Duftkräutern ist die Nase gefragt. Am Ende des Pfads steht eine Fußwaschanlage. In der Umgebung des Pfads wurden unter anderem Grünspecht, Mittelspecht und Bergmolch beobachtet.",
+ "laengeKm": 0.895,
+ "dauerMin": 55,
+ "rundkurs": false,
+ "markierung": "keine Markierung in den Quellen",
+ "betreiber": "Stadt Hechingen, Tourismus + Kultur (Auskunft: Bürger- und Tourismusbüro)",
+ "region": "Feilbachtal unterhalb des Kreiskrankenhauses, Hechingen; Parken Ecke Weilheimer Straße/Schillerstraße",
+ "anreise": "Navi: 72379 Hechingen, Weilheimer Straße. Parken Ecke Weilheimer Straße/Schillerstraße. ÖPNV nicht belegt.",
+ "startName": "Ausgangspunkt erleb-dich-pfad, Feilbachtal Hechingen",
+ "arten": [
+  "Amsel",
+  "Kleiber",
+  "Buchfink",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Rotmilan",
+  "Grünspecht",
+  "Buntspecht",
+  "Mittelspecht",
+  "Mäusebussard",
+  "Eichelhäher",
+  "Graureiher",
+  "Stockente",
+  "Bachstelze",
+  "Bergmolch",
+  "Igel",
+  "Feuerwanze",
+  "Zitronenfalter",
+  "Aurorafalter",
+  "Bärlauch",
+  "Bach-Nelkenwurz",
+  "Waldmeister",
+  "Grauerle"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "lebensraeume": [
+  "fliessgewaesser"
+ ],
+ "naturraum": "mittelgebirge",
+ "dataVersion": 121,
+ "website": "https://www.hechingen.de/de/Stadtleben/Freizeit-und-Sport/Freizeit-und-Sport?id=53&view=publish",
+ "eintrittPreise": "kostenlos (Stand 2026)",
+ "oeffnungszeiten": "täglich 8:00–21:30 Uhr (Angabe für die Sommerferien 2026); übrige Zeit nicht belegt",
+ "besuchshinweise": "Handtuch mitbringen: Fußwaschanlage am Ende des Pfads. Ob Strecke oder Rundweg, ist nicht belegt. Kinderwagen und Rollstuhl: Eignung nicht belegt. WC, Trinkwasser und Einkehr am Pfad nicht belegt. Nutzung kostenlos.",
+ "hoertext": "Unterhalb des Hechinger Kreiskrankenhauses zieht sich durch das Feilbachtal ein Weg von knapp neunhundert Metern, der unter bloßen Füßen ständig seinen Boden wechselt. Im Matsch sinken die Sohlen weich und nass ein. Sand und Stein drücken härter. Auf dem Naturboden trennt kein Belag die Haut von der Erde, und bei den Duftkräutern übernimmt die Nase die Arbeit der Fußsohlen. Eine Zone trägt den Namen des Schmetterlingsflieders, eines Blütenstrauchs. Rund um den Weg wurden Grünspecht, Mittelspecht und Bergmolch beobachtet. Ein Handtuch gehört ins Gepäck, denn am Ende spült eine Fußwaschanlage den Matsch von den Füßen.",
+ "stationen": [
+  {
+   "osmId": -1284911819,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Matsch",
+   "thema": "Barfußgehen im Matsch",
+   "kurztext": "Zone mit weichem, nassem Matschboden, durch die man barfuß geht und dabei die Nässe unter den Fußsohlen spürt.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "Ferienprogramm 2026 Stadt Hechingen, S. 3",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -442579504,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Schmetterlingsflieder",
+   "thema": "Blühpflanzen am Pfad",
+   "kurztext": "Zone des Barfußpfads, die nach dem Schmetterlingsflieder benannt ist, einem Blütenstrauch.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "Ferienprogramm 2026 Stadt Hechingen, S. 3",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -1721040806,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Sand und Stein",
+   "thema": "Untergrund Sand und Stein",
+   "kurztext": "Abschnitt mit Sand und Steinen als Untergrund, auf dem die Füße unterschiedliche Härte und Körnung des Bodens ertasten.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "Ferienprogramm 2026 Stadt Hechingen, S. 3",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -622436397,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Naturboden",
+   "thema": "Untergrund Naturboden",
+   "kurztext": "Abschnitt über unbefestigten Naturboden, auf dem der Untergrund ohne künstlichen Belag barfuß erlebt wird.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "Ferienprogramm 2026 Stadt Hechingen, S. 3",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -1514579002,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Duftkräuter",
+   "thema": "Riechen",
+   "kurztext": "Zone mit duftenden Kräutern am Barfußpfad, an der vor allem der Geruchssinn angesprochen wird.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "Ferienprogramm 2026 Stadt Hechingen, S. 3",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -1224353581,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Bachlauf",
+   "thema": "Wasser",
+   "kurztext": "Teil des Barfußwegs mit einem Bachlauf, an dem die Füße mit fließendem Wasser in Berührung kommen.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "regio-zollernalb.com, ältere Quelle",
+    "status": "unsicher, nur 2014 belegt",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -452686917,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Balancierbalken",
+   "thema": "Gleichgewicht",
+   "kurztext": "Ergänzendes Angebot am Pfad: Balancierbalken, auf denen das Gleichgewicht geübt werden kann.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "regio-zollernalb.com, ältere Quelle",
+    "status": "unsicher, nur 2014 belegt",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  },
+  {
+   "osmId": -1601266711,
+   "lat": 48.3450639,
+   "lon": 8.9572894,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Vitalzirkel",
+   "thema": "Bewegung",
+   "kurztext": "Der Vitalzirkel ist ein ergänzendes Angebot neben dem Barfußweg im Feilbachtal.",
+   "erlebnisse": [],
+   "barrierefrei": false,
+   "steckbrief": {
+    "quelle": "regio-zollernalb.com, ältere Quelle",
+    "status": "unsicher, nur 2014 belegt",
+    "barrierefrei": "kein Beleg",
+    "import_hinweis": "reihenfolge = Dossier-Nummer (Abfolge am Weg nicht belegt); lat/lon = Platzhalter Lagepunkt (DB NOT NULL), km 0, osm_id leer"
+   }
+  }
+ ],
+ "amenities": [],
+ "bilder": [
+  {
+   "file": "34a8a510-76ae-4add-b517-ccaf4bb7489d",
+   "id": "34a8a510-76ae-4add-b517-ccaf4bb7489d",
+   "caption": "Barfuß über Holzpfosten im Kiesbett am erleb-dich-pfad Hechingen",
+   "credit": "Lorenz Kerscher / Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hechingen_BarefootPark_kerscher02.jpg",
+   "kind": "hero"
+  }
+ ]
+}

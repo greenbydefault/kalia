@@ -5,7 +5,7 @@
   "gebiet": "wald",
   "kurzbeschreibung": "Kleiner Tierpark am Petersberg mit Polarwölfen, Luchsen, Damwild und Stachelschweinen auf 1,5 Hektar. Täglich geöffnet.",
   "beschreibung": "Der Tierpark besteht seit 1965 auf einem 1,5 Hektar großen, naturbelassenen Gelände am Petersberg. Zu den Tieren zählen Polarwölfe, Luchse, Damwild und Stachelschweine, dazu Lamas, Esel, Weißstörche, Höckerschwäne und Kleintiere aus aller Welt. Eine begehbare Sittichvoliere und die enge Begegnung mit den Stachelschweinen gehören zu den Höhepunkten. Im Gelände steht ein Spielplatz für die jüngeren Gäste.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "Tierpark Petersberg",
@@ -16,22 +16,13 @@
   "startName": "Eingang Tierpark Petersberg",
   "arten": [
     "Damhirsch",
-    "Weißstorch",
+    "Haushuhn",
+    "Hauskaninchen",
     "Höckerschwan",
     "Mäusebussard",
-    "Hauskaninchen",
-    "Haushuhn",
-    "Schaf"
+    "Schaf",
+    "Weißstorch"
   ],
-  "artenNachweis": {
-    "Damhirsch": "belegt",
-    "Weißstorch": "belegt",
-    "Höckerschwan": "belegt",
-    "Mäusebussard": "belegt",
-    "Hauskaninchen": "belegt",
-    "Haushuhn": "belegt",
-    "Schaf": "belegt"
-  },
   "lebensraeume": [],
   "naturraum": "norddt-tiefland",
   "tags": [
@@ -169,73 +160,73 @@
       "osmId": 4132031551,
       "lat": 51.593475,
       "lon": 11.958595,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Lamas",
       "thema": "Lamagehege",
       "kurztext": "Gehege der Lamas am westlichen Rand des Tierparks.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 4132031554,
       "lat": 51.593932,
       "lon": 11.959405,
       "km": 0.08,
+      "reihenfolge": 2,
       "titel": "Polarwölfe",
       "thema": "Polarwolfanlage",
       "kurztext": "Anlage der Polarwölfe, die Dienstag, Mittwoch, Freitag, Samstag und Sonntag um 15 Uhr gefüttert werden.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 9508985805,
       "lat": 51.593808,
       "lon": 11.96028,
       "km": 0.14,
+      "reihenfolge": 3,
       "titel": "Esel",
       "thema": "Eselgehege",
       "kurztext": "Eselgehege nahe dem Luchsgehege.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 4132031552,
       "lat": 51.594054,
       "lon": 11.960237,
       "km": 0.17,
+      "reihenfolge": 4,
       "titel": "Luchs",
       "thema": "Luchsgehege",
       "kurztext": "Gehege des Europäischen Luchses.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 4132031549,
       "lat": 51.594114,
       "lon": 11.960785,
       "km": 0.2,
+      "reihenfolge": 5,
       "titel": "Damwild",
       "thema": "Damwildgehege",
       "kurztext": "Gehege des Damwilds am östlichen Rand des Tierparks.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 4132032422,
       "lat": 51.593506,
       "lon": 11.960144,
       "km": 0.28,
+      "reihenfolge": 6,
       "titel": "Stachelschweine",
       "thema": "Stachelschweine",
       "kurztext": "Hier ist die hautnahe Begegnung mit den Stachelschweinen möglich.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 6
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -243,43 +234,37 @@
       "osmId": 4132031560,
       "lat": 51.59305,
       "lon": 11.958292,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 1460393034,
       "lat": 51.593047,
       "lon": 11.957573,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 9951551967,
       "lat": 51.592878,
       "lon": 11.958719,
-      "kategorie": "gastro",
-      "name": null
+      "kategorie": "gastro"
     },
     {
       "osmId": 1031821149,
       "lat": 51.59334,
       "lon": 11.959978,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 3556541093,
       "lat": 51.593218,
       "lon": 11.95972,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 32987383,
       "lat": 51.591992,
       "lon": 11.957978,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
   "eintritt": true,
@@ -287,6 +272,26 @@
   "oeffnungszeiten": "Täglich. 1. März bis 31. Oktober 10–17 Uhr, 1. November bis 28. Februar 10–16 Uhr. Letzter Einlass 15:30 Uhr. 24. und 31. Dezember geschlossen.",
   "besuchshinweise": "Letzter Einlass 15:30 Uhr. Heiligabend und Silvester bleibt der Tierpark geschlossen. Hunde sind willkommen.",
   "hoertext": "Seit 1965 besteht am Petersberg ein kleiner Tierpark auf eineinhalb Hektar. Zu den Höhepunkten zählen die seltenen Polarwölfe, eine begehbare Sittichvoliere und die hautnahe Begegnung mit den Stachelschweinen. Luchse, Damwild, Lamas und Esel haben eigene Gehege. Gefüttert werden die Polarwölfe dienstags, mittwochs und freitags bis sonntags um fünfzehn Uhr. Hunde willkommen. Geöffnet ist das ganze Jahr, im Sommer von zehn bis siebzehn Uhr, im Winter von zehn bis sechzehn Uhr, nur am Heiligabend und an Silvester bleibt der Tierpark zu.",
-  "bilderAsset": "assets/images/trails/tierpark-petersberg/credits.json",
-  "dataVersion": 22
+  "dataVersion": 25,
+  "bilder": [
+    {
+      "file": "9dce651b-dcbc-5f2d-abb1-6f012271048d",
+      "id": "9dce651b-dcbc-5f2d-abb1-6f012271048d",
+      "caption": "Hirsche im Tierpark Petersberg.",
+      "credit": "Dguendel",
+      "license": "cc-by-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petersberg_(bei_Halle),_Tierpark,_Hirsche.jpg",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Damhirsch": "belegt",
+    "Weißstorch": "belegt",
+    "Höckerschwan": "belegt",
+    "Mäusebussard": "belegt",
+    "Hauskaninchen": "belegt",
+    "Haushuhn": "belegt",
+    "Schaf": "belegt"
+  }
 }

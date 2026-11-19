@@ -5,7 +5,7 @@
   "gebiet": "hof",
   "kurzbeschreibung": "Rotwild, Damwild und Mufflons leben in Gehegen im Martzschpark, direkt neben dem Gustav-Adolf-Denkmal. Esel und Shetlandponys stehen näher am Eingang.",
   "beschreibung": "Mitten im Martzschpark hält ein Verein mit Spenden einen Tierpark am Leben. Rotwild, Damwild, Reh und Mufflon leben in Gehegen, Esel, Shetlandponys und Merinoschafe näher am Eingang. Der Hausesel stammt vom nordafrikanischen Wildesel ab, und der ist heute fast ausgerottet. Das Mufflon gilt als wilder Vorfahr der Hausschafe. Futterspenden nimmt das Futterhäuschen am Eingang an. Wer Tiere füttern will, kauft Grünfutterpellets in der Tüte. Daneben liegen der Kletterwald und das Denkmal für Gustav Adolf.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "Tiergehege im Martzschpark",
@@ -178,97 +178,97 @@
       "osmId": 1160742962,
       "lat": 51.267296,
       "lon": 12.157321,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Shetlandpony",
       "thema": "Von den Shetlandinseln",
       "kurztext": "Das Shetlandpony kommt von den Shetlandinseln und gilt als genügsam, robust und langlebig.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 1160698030,
       "lat": 51.266913,
       "lon": 12.157276,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 2,
       "titel": "Hausesel",
       "thema": "Vom Wildesel abstammend",
       "kurztext": "Der Hausesel stammt vom nordafrikanischen Wildesel ab, der heute fast ausgerottet ist.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 1160698029,
       "lat": 51.266918,
       "lon": 12.157443,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 3,
       "titel": "Merinoschaf",
       "thema": "Feinwollrasse",
       "kurztext": "Das Merinoschaf ist eine mittelgroße Feinwoll-Schafrasse mit reinweißer Wolle.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 1160746663,
       "lat": 51.266178,
       "lon": 12.157046,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 4,
       "titel": "Rotwild",
       "thema": "König der Wälder",
       "kurztext": "Der Rothirsch ist der zweitgrößte heimische Hirsch und lebt in Wäldern.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 1160746662,
       "lat": 51.265663,
       "lon": 12.157208,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 5,
       "titel": "Reh",
       "thema": "Kleinste Hirschart",
       "kurztext": "Das Europäische Reh ist die kleinste und zugleich häufigste Hirschart Europas.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 1160746661,
       "lat": 51.265369,
       "lon": 12.157227,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 6,
       "titel": "Mufflon",
       "thema": "Wilder Vorfahr der Hausschafe",
       "kurztext": "Mufflons sind die wilden Vorfahren der Hausschafe.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 6
+      "barrierefrei": false
     },
     {
       "osmId": 1160745916,
       "lat": 51.264617,
       "lon": 12.157122,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 7,
       "titel": "Damwild",
       "thema": "Älter als die Eiszeit",
       "kurztext": "Das Damwild kam vor der letzten Eiszeit in ganz Europa vor.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 7
+      "barrierefrei": false
     },
     {
       "osmId": 1160745811,
       "lat": 51.263926,
       "lon": 12.157176,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 8,
       "titel": "Auerochse",
       "thema": "Wildform der Hausrinder",
       "kurztext": "Der Auerochse gilt als Wildform aller heutigen Hausrinder und ist seit etwa 500 Jahren ausgestorben.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "reihenfolge": 8
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -276,15 +276,13 @@
       "osmId": 13056720301,
       "lat": 51.2666,
       "lon": 12.15743,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 433303161,
       "lat": 51.26794,
       "lon": 12.1553,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     },
     {
       "osmId": 11131787793,
@@ -297,15 +295,25 @@
       "osmId": 5842431573,
       "lat": 51.26743,
       "lon": 12.15782,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     }
   ],
   "eintritt": true,
   "eintrittPreise": "Kinder bis 14 Jahre frei, Jugendliche von 14 bis 18 Jahren 2 €, Erwachsene 4 €. Grünfutterpellets 0,50 € je Tüte.",
   "oeffnungszeiten": "Täglich 9–18 Uhr. Das Holle-Haus mit Backstübchen hat eigene Zeiten.",
   "besuchshinweise": "Hunde anleinen. Tiere nicht mit eigenem Futter füttern. Führungen bis zehn Personen nur mit Reservierung.",
-  "hoertext": "Neben dem Gustav-Adolf-Denkmal öffnet sich der Martzschpark, und zwischen den Bäumen verlaufen die Gehege. Shetlandponys und Esel stehen nahe am Eingang, die Merinoschafe gleich daneben. Weiter südlich leben das Rotwild, ein Hirsch, den man König der Wälder nennt, und das Mufflon, wilder Vorfahr aller Hausschafe. Ganz hinten wartet der Auerochse. Auf dem neuen Bauernhof sind neugierige Fellnasen zu Hause. Futterpellets verkauft der Park tütenweise, eigenes Futter bleibt in der Tasche.",
-  "bilderAsset": "assets/images/trails/tier-und-erlebnispark-luetzen/credits.json",
-  "dataVersion": 29
+  "dataVersion": 35,
+  "bilder": [
+    {
+      "file": "91582196-5fa9-5932-b6cb-8e206581304e",
+      "id": "91582196-5fa9-5932-b6cb-8e206581304e",
+      "caption": "Esel im Tierpark Lützen.",
+      "credit": "Dguendel",
+      "license": "cc-by-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCtzen,_Tierpark,_Esel.jpg",
+      "kind": "ort"
+    }
+  ],
+  "hoertext": "Neben dem Gustav-Adolf-Denkmal öffnet sich der Martzschpark, und zwischen den Bäumen verlaufen die Gehege. Shetlandponys und Esel stehen nahe am Eingang, die Merinoschafe gleich daneben. Weiter südlich leben das Rotwild, ein Hirsch, den man König der Wälder nennt, und das Mufflon, wilder Vorfahr aller Hausschafe. Ganz hinten wartet der Auerochse. Auf dem neuen Bauernhof sind neugierige Fellnasen zu Hause. Futterpellets verkauft der Park tütenweise, eigenes Futter bleibt in der Tasche."
 }

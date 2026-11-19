@@ -16,36 +16,20 @@
   "startName": "Haupteingang Koburger Straße",
   "arten": [
     "Damhirsch",
-    "Rothirsch",
-    "Reh",
-    "Wildschwein",
-    "Wildkatze",
     "Fischotter",
-    "Waldkauz",
-    "Grasfrosch",
     "Gemeine Esche",
+    "Grasfrosch",
+    "Reh",
+    "Rothirsch",
+    "Salweide",
+    "Schlehe",
+    "Schwarzer Holunder",
     "Schwarzerle",
     "Stieleiche",
-    "Schwarzer Holunder",
-    "Salweide",
-    "Schlehe"
+    "Waldkauz",
+    "Wildkatze",
+    "Wildschwein"
   ],
-  "artenNachweis": {
-    "Damhirsch": "belegt",
-    "Rothirsch": "belegt",
-    "Reh": "belegt",
-    "Wildschwein": "belegt",
-    "Wildkatze": "belegt",
-    "Fischotter": "belegt",
-    "Waldkauz": "belegt",
-    "Grasfrosch": "typisch",
-    "Gemeine Esche": "typisch",
-    "Schwarzerle": "typisch",
-    "Stieleiche": "typisch",
-    "Schwarzer Holunder": "typisch",
-    "Salweide": "typisch",
-    "Schlehe": "typisch"
-  },
   "lebensraeume": [
     "auwald"
   ],
@@ -422,127 +406,109 @@
       "osmId": 2392136381,
       "lat": 51.297294,
       "lon": 12.365881,
-      "kategorie": "viewpoint",
-      "name": null
+      "kategorie": "viewpoint"
     },
     {
       "osmId": 3667256969,
       "lat": 51.298164,
       "lon": 12.363559,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 3667615865,
       "lat": 51.296593,
       "lon": 12.364939,
-      "kategorie": "wc",
-      "name": null
+      "kategorie": "wc"
     },
     {
       "osmId": 4058540236,
       "lat": 51.300379,
       "lon": 12.365693,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058540240,
       "lat": 51.300482,
       "lon": 12.36561,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058540244,
       "lat": 51.300373,
       "lon": 12.365701,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058540246,
       "lat": 51.300487,
       "lon": 12.365603,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058540251,
       "lat": 51.300219,
       "lon": 12.365827,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058559946,
       "lat": 51.300592,
       "lon": 12.363811,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058559951,
       "lat": 51.300802,
       "lon": 12.365275,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058559956,
       "lat": 51.300939,
       "lon": 12.365011,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058559962,
       "lat": 51.300857,
       "lon": 12.363626,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4058559963,
       "lat": 51.3004,
       "lon": 12.363983,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 4407490390,
       "lat": 51.301082,
       "lon": 12.363613,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 5860596143,
       "lat": 51.296171,
       "lon": 12.364461,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 5860596144,
       "lat": 51.296185,
       "lon": 12.364507,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 5860596145,
       "lat": 51.296798,
       "lon": 12.363399,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 5860596146,
       "lat": 51.301063,
       "lon": 12.363144,
-      "kategorie": "picnic",
-      "name": null
+      "kategorie": "picnic"
     },
     {
       "osmId": 7761423421,
@@ -555,225 +521,193 @@
       "osmId": 9458232397,
       "lat": 51.29612,
       "lon": 12.364278,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 9458232398,
       "lat": 51.296132,
       "lon": 12.36433,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111673505,
       "lat": 51.296704,
       "lon": 12.362913,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111674305,
       "lat": 51.297371,
       "lon": 12.36316,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111674306,
       "lat": 51.297418,
       "lon": 12.363236,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111674405,
       "lat": 51.297357,
       "lon": 12.363223,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111674406,
       "lat": 51.297425,
       "lon": 12.363175,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111674506,
       "lat": 51.296586,
       "lon": 12.363195,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111676107,
       "lat": 51.296772,
       "lon": 12.364878,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111676108,
       "lat": 51.297024,
       "lon": 12.364509,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111684607,
       "lat": 51.297175,
       "lon": 12.364283,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111684608,
       "lat": 51.297142,
       "lon": 12.364339,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111684905,
       "lat": 51.296581,
       "lon": 12.363264,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705105,
       "lat": 51.297,
       "lon": 12.364546,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705106,
       "lat": 51.297066,
       "lon": 12.364447,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705109,
       "lat": 51.299557,
       "lon": 12.362677,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705205,
       "lat": 51.297115,
       "lon": 12.364375,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705206,
       "lat": 51.297609,
       "lon": 12.364037,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705207,
       "lat": 51.29765,
       "lon": 12.364037,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705208,
       "lat": 51.29769,
       "lon": 12.364037,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111705209,
       "lat": 51.299452,
       "lon": 12.362729,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111715506,
       "lat": 51.298105,
       "lon": 12.364225,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111715507,
       "lat": 51.298147,
       "lon": 12.364251,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111726705,
       "lat": 51.298846,
       "lon": 12.363523,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111726706,
       "lat": 51.298901,
       "lon": 12.363407,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111726707,
       "lat": 51.298997,
       "lon": 12.363212,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111726708,
       "lat": 51.299033,
       "lon": 12.363146,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111728405,
       "lat": 51.29949,
       "lon": 12.36272,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111734913,
       "lat": 51.301015,
       "lon": 12.36454,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 11111784805,
       "lat": 51.301041,
       "lon": 12.364464,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 12310294016,
       "lat": 51.301139,
       "lon": 12.363101,
-      "kategorie": "playground",
-      "name": null
+      "kategorie": "playground"
     },
     {
       "osmId": 12651845830,
       "lat": 51.298122,
       "lon": 12.36364,
-      "kategorie": "bench",
-      "name": null
+      "kategorie": "bench"
     },
     {
       "osmId": 230762078,
@@ -783,11 +717,37 @@
       "name": "Russisches Blockhaus"
     }
   ],
-  "eintritt": false,
   "eintrittPreise": "Eintritt frei. Der Erlebnispfad am Drehtor kostet 2 Euro pro Person.",
   "oeffnungszeiten": "Täglich. 16. März bis 31. Oktober 9 bis 19 Uhr, 1. November bis 15. März 9 bis 17 Uhr. Letzter Einlass eine Stunde vor Schluss.",
   "besuchshinweise": "Im Erlebnispfad gilt ein strenges Fütterungsverbot; während der Rotwildbrunft bleibt er geschlossen. Nach Ende der Öffnungszeit den Park über das Drehtor am Haupteingang verlassen. Hunde angeleint.",
   "hoertext": "Gleich hinter dem Drehtor steht der Wisent im Gehege, ein Tier, das hier früher zu Hause war und das der Wildpark in einem Zuchtprogramm mitführt. Weiter nördlich sitzen Uhu, Schleiereule und Schnee-Eule in ihren Volieren, jede mit eigener Tafel. Am Froschteich liegt die Terrasse einer Gaststätte von 1922. Mehr blieb nach dem Krieg nicht übrig. Hinter den Schildkröten wartet der Ausstellungsraum mit wechselnden Themen aus der Natur, und noch weiter im Norden weiden die Elche in einem weitläufigen Gehege, so wie sie früher hier einmal lebten.",
-  "bilderAsset": "assets/images/trails/wildpark-leipzig/credits.json",
-  "dataVersion": 82
+  "dataVersion": 85,
+  "bilder": [
+    {
+      "file": "8278fa56-aca8-585f-b4b2-1d441c487160",
+      "id": "8278fa56-aca8-585f-b4b2-1d441c487160",
+      "caption": "Wisent im Wildpark Leipzig.",
+      "credit": "Ad Meskens",
+      "license": "cc-by-sa-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_Wildpark_Wisent.JPG",
+      "kind": "ort"
+    }
+  ],
+  "artenNachweis": {
+    "Damhirsch": "belegt",
+    "Rothirsch": "belegt",
+    "Reh": "belegt",
+    "Wildschwein": "belegt",
+    "Wildkatze": "belegt",
+    "Fischotter": "belegt",
+    "Waldkauz": "belegt",
+    "Grasfrosch": "typisch",
+    "Gemeine Esche": "typisch",
+    "Schwarzerle": "typisch",
+    "Stieleiche": "typisch",
+    "Schwarzer Holunder": "typisch",
+    "Salweide": "typisch",
+    "Schlehe": "typisch"
+  }
 }

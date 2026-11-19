@@ -29,7 +29,7 @@ class SpeciesIndex extends Table {
   Set<Column> get primaryKey => {id};
 }
 
-/// Schlüssel/Wert: `seed_signature`, `last_sync_at`.
+/// Schlüssel/Wert: `seed_signature`, `last_sync_at`, `last_sync_error`.
 @DataClassName('MetaRow')
 class SyncMeta extends Table {
   TextColumn get key => text()();
@@ -45,6 +45,9 @@ class OfflineDatabase extends _$OfflineDatabase {
 
   static const metaSeedSignature = 'seed_signature';
   static const metaLastSyncAt = 'last_sync_at';
+
+  /// Leer, wenn der letzte Sync vollständig durchlief.
+  static const metaLastSyncError = 'last_sync_error';
 
   @override
   int get schemaVersion => 1;

@@ -54,7 +54,6 @@
     "kinderfreundlich",
     "einkehr"
   ],
-  "form": "linie",
   "route": [
     [
       51.591628,
@@ -1385,10 +1384,6 @@
       12.598916
     ],
     [
-      51.659385,
-      12.599074
-    ],
-    [
       51.659452,
       12.599106
     ],
@@ -1673,111 +1668,102 @@
       12.60341
     ]
   ],
-  "area": [],
   "stationen": [
     {
       "osmId": 5339885672,
       "lat": 51.59168,
       "lon": 12.58174,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "NaturparkHaus",
       "thema": "Start der Tour",
       "kurztext": "Das NaturparkHaus Dübener Heide ist Startpunkt der Tour und zeigt eine interaktive Ausstellung.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 64174326,
       "lat": 51.59965,
       "lon": 12.58127,
       "km": 1.76,
+      "reihenfolge": 2,
       "titel": "Kurpark",
       "thema": "Parkstraße bis Jacobsweg",
       "kurztext": "Über die Parkstraße erreicht die Tour den Kurpark von Bad Düben.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 1267698167,
       "lat": 51.60233,
       "lon": 12.58181,
       "km": 2.14,
+      "reihenfolge": 3,
       "titel": "Museumsdorf",
       "thema": "Obermühle",
       "kurztext": "Beim Museumsdorf Dübener Heide liegt die Haltestelle Obermühle, an der der Jacobsweg vorbeiführt.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 3
+      "barrierefrei": false
     },
     {
       "osmId": 105904563,
       "lat": 51.61841,
       "lon": 12.58214,
       "km": 4.23,
+      "reihenfolge": 4,
       "titel": "NaturSportBad",
       "thema": "Hammermühle",
       "kurztext": "Am NaturSportBad Hammermühle biegt die Tour rechts ab und quert die Wittenberger Straße.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 4
+      "barrierefrei": false
     },
     {
       "osmId": 3670950205,
       "lat": 51.63062,
       "lon": 12.59457,
       "km": 7.31,
+      "reihenfolge": 5,
       "titel": "Zur Biberbeobachtung",
       "thema": "Hinweisschild",
       "kurztext": "Ein Hinweis weist hier zur Biberbeobachtung am Hammerbach.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 5
+      "barrierefrei": false
     },
     {
       "osmId": 1976211332,
       "lat": 51.64447,
       "lon": 12.59657,
       "km": 9.04,
+      "reihenfolge": 6,
       "titel": "Döbelts Mühle",
       "thema": "Wassermühle am Hammerbach",
       "kurztext": "Döbelts Mühle ist eine Wassermühle, an der der Jacobsweg vorbeiführt.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 6
+      "barrierefrei": false
     },
     {
       "osmId": 348535938,
       "lat": 51.66767,
       "lon": 12.60148,
       "km": 12.58,
+      "reihenfolge": 7,
       "titel": "Köhlerei Eisenhammer",
       "thema": "Historischer Ort",
       "kurztext": "Die Köhlerei Eisenhammer liegt im Hammerbachtal kurz vor dem Ziel der Tour.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 7
+      "barrierefrei": false
     },
     {
       "osmId": 1123434512,
       "lat": 51.66832,
       "lon": 12.60341,
       "km": 12.9,
+      "reihenfolge": 8,
       "titel": "Hammerbachhütte",
       "thema": "Ziel der Tour",
       "kurztext": "Die Hammerbachhütte lädt am Ziel zur Rast ein.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 8
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -1799,12 +1785,22 @@
       "osmId": 2422728385,
       "lat": 51.66699,
       "lon": 12.60123,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
   "besuchshinweise": "Zwischen Eisenhammer und Köhlerei ist auf aktive Biber zu achten. Gutes Schuhwerk, wetterfeste Kleidung und Proviant gehören dazu. Die Wanderkarte gibt es in der Touristinformation Bad Düben.",
   "hoertext": "Der Weg beginnt am Naturparkhaus in Bad Düben und folgt der Heide-Biber-Tour ins Hammerbachtal. Zuerst führt er durch den Kurpark, vorbei am Museumsdorf und am NaturSportBad, danach in Wälder und über Wiesen, wo auf den Tafeln Billi Bockert, der Biber und das Maskottchen des Naturparks, die Besucher begleitet. Döbelts Mühle steht am Bach. Weiter nördlich liegt die Köhlerei Eisenhammer, zwischen Eisenhammer und Köhlerei sind aktive Biber unterwegs. Ziel ist die Hammerbachhütte. Dort ist Platz zum Rasten.",
-  "bilderAsset": "assets/images/trails/billi-bockert-erlebnistour-bad-dueben/credits.json",
-  "dataVersion": 25
+  "dataVersion": 31,
+  "bilder": [
+    {
+      "file": "a09f0296-e0a9-5ee7-adc9-af9377274533",
+      "id": "a09f0296-e0a9-5ee7-adc9-af9377274533",
+      "caption": "NaturparkHaus Dübener Heide an der Neuhofstraße in Bad Düben, Startpunkt der Tour.",
+      "credit": "Frank Vincentz",
+      "license": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20D%C3%BCben%20-%20Neuhofstra%C3%9Fe%20%2B%20Naturparkhaus%2001%20ies.jpg",
+      "kind": "ort"
+    }
+  ]
 }

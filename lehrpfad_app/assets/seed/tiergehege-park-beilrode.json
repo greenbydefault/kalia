@@ -5,7 +5,7 @@
   "gebiet": "hof",
   "kurzbeschreibung": "Ein kleines Tiergehege mit Damwild und Ziegen im Park von Beilrode. Dazu Blühwiese, Gutshaus und Panzerdenkmal.",
   "beschreibung": "Im Ortszentrum von Beilrode liegt ein Park von etwa drei Hektar. Ein altes Gutshaus steht in seiner Mitte, heute sitzt darin die Gemeindeverwaltung. Das kleine Tiergehege mit Damwild und Ziegen am westlichen Rand ist der Anziehungspunkt für große und kleine Besucher. Das Panzerdenkmal liegt im nördlichen Teil. Seit 2019 wächst im Park außerdem eine Blühwiese, die die Gemeinde angelegt hat. Der Rundgang ist kurz: Gutshaus, Gehege und Denkmal liegen nur wenige Gehminuten auseinander.",
-  "laengeKm": 0.0,
+  "laengeKm": 0,
   "dauerMin": 45,
   "rundkurs": false,
   "markierung": "keine Markierung",
@@ -197,40 +197,37 @@
       "osmId": 7803249479,
       "lat": 51.573728,
       "lon": 13.064498,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 1,
       "titel": "Gutshaus",
       "thema": "Gemeindeverwaltung im Parkzentrum",
       "kurztext": "Das alte Gutshaus steht im Zentrum des Parks und beherbergt heute die Gemeindeverwaltung.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 1
+      "barrierefrei": false
     },
     {
       "osmId": 2848463472,
       "lat": 51.572739,
       "lon": 13.063798,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 2,
       "titel": "Tiergehege",
       "thema": "Damwild und Ziegen",
       "kurztext": "Damwild und Ziegen leben im kleinen Tiergehege am westlichen Rand des Parks.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 2
+      "barrierefrei": false
     },
     {
       "osmId": 1118380619,
       "lat": 51.574273,
       "lon": 13.06465,
-      "km": 0.0,
+      "km": 0,
+      "reihenfolge": 3,
       "titel": "Panzerdenkmal",
       "thema": "Denkmal der Befreiung",
       "kurztext": "Das Panzerdenkmal steht im nördlichen Teil des Parks.",
       "erlebnisse": [],
-      "barrierefrei": false,
-      "steckbrief": null,
-      "reihenfolge": 3
+      "barrierefrei": false
     }
   ],
   "amenities": [
@@ -238,11 +235,21 @@
       "osmId": 674945850,
       "lat": 51.571354,
       "lon": 13.064789,
-      "kategorie": "parking",
-      "name": null
+      "kategorie": "parking"
     }
   ],
   "hoertext": "Mitten in Beilrode steht ein altes Gutshaus, in dem heute die Gemeindeverwaltung sitzt. Rund um das Haus erstreckt sich der Park, er misst etwa drei Hektar. Am westlichen Rand liegt ein kleines Gehege, in dem Damwild und Ziegen leben und in dem kleine wie große Besucher am Zaun stehen bleiben. Im nördlichen Teil steht ein Panzerdenkmal. Seit 2019 gehört außerdem eine Blühwiese dazu, die die Gemeinde angelegt hat. Von einem Ende zum anderen sind es nur wenige Schritte.",
-  "bilderAsset": "assets/images/trails/tiergehege-park-beilrode/credits.json",
-  "dataVersion": 13
+  "dataVersion": 15,
+  "bilder": [
+    {
+      "file": "5fd1dbc3-7758-5e70-a27b-20a0208418d9",
+      "id": "5fd1dbc3-7758-5e70-a27b-20a0208418d9",
+      "caption": "Panzerdenkmal im Park Beilrode.",
+      "credit": "lutzto",
+      "license": "cc-by-sa-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanzer-Beilrode.JPG",
+      "kind": "ort"
+    }
+  ]
 }
