@@ -1,0 +1,208 @@
+{
+  "id": "streichelzoo-torgauer-arche",
+  "name": "Streichelzoo „Torgauer Arche“",
+  "typ": "kinderbauernhof",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Ein Streichelzoo im Stadtpark von Torgau. Alpakas, Schafe, Ziegen und Esel lassen sich streicheln und füttern.",
+  "beschreibung": "Im Torgauer Stadtpark, auf dem Gelände der Landesgartenschau 2022, liegt der Streichelzoo Torgauer Arche. Alpakas, Schafe, Ziegen, Esel, Meerschweinchen, Kaninchen und Wachteln leben hier und lassen sich aus nächster Nähe erleben. Ein Futterautomat gibt Futter für die Tiere. Die Elbaue-Werkstätten pflegen die Tiere und das Gelände. Nebenan liegt das Café Arche. Das frühere Gartenschaugelände bietet außerdem Spiel- und Kletterpark, Outdoorfitness und Tischtennis. Richtung Elbe folgen der Eichenspielplatz und der Aussichtsturm Deichgucker.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "keine Markierung",
+  "betreiber": "Elbaue-Werkstätten gGmbH",
+  "region": "Torgau, Landkreis Nordsachsen, Sachsen",
+  "website": "https://www.torgau-tourismus.de/torgau-erleben/aktiv/arche",
+  "anreise": "Adresse: Am Stadtpark 6, 04860 Torgau. Der Streichelzoo liegt im Stadtpark auf dem früheren Landesgartenschau-Gelände an der Elbe.",
+  "startName": "Eingang Streichelzoo, Am Stadtpark 6",
+  "arten": [
+    "Schaf",
+    "Ziege",
+    "Hauskaninchen",
+    "Haushuhn",
+    "Löwenzahn",
+    "Gänseblümchen",
+    "Rotklee",
+    "Honigbiene",
+    "Amsel",
+    "Rotkehlchen"
+  ],
+  "artenNachweis": {
+    "Schaf": "belegt",
+    "Ziege": "belegt",
+    "Hauskaninchen": "belegt",
+    "Haushuhn": "typisch",
+    "Löwenzahn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Rotklee": "typisch",
+    "Honigbiene": "typisch",
+    "Amsel": "typisch",
+    "Rotkehlchen": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "einkehr"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.565564,
+      13.006412
+    ],
+    [
+      51.565558,
+      13.006278
+    ],
+    [
+      51.565745,
+      13.00623
+    ],
+    [
+      51.565742,
+      13.006102
+    ],
+    [
+      51.565743,
+      13.006047
+    ],
+    [
+      51.56575,
+      13.005555
+    ],
+    [
+      51.565816,
+      13.00555
+    ],
+    [
+      51.565839,
+      13.005678
+    ],
+    [
+      51.56586,
+      13.005666
+    ],
+    [
+      51.56588,
+      13.005657
+    ],
+    [
+      51.565859,
+      13.005547
+    ],
+    [
+      51.565895,
+      13.005537
+    ],
+    [
+      51.566006,
+      13.005511
+    ],
+    [
+      51.566016,
+      13.005508
+    ],
+    [
+      51.566026,
+      13.005505
+    ],
+    [
+      51.566084,
+      13.005484
+    ],
+    [
+      51.56625,
+      13.00608
+    ],
+    [
+      51.566271,
+      13.006205
+    ],
+    [
+      51.566009,
+      13.006273
+    ],
+    [
+      51.566011,
+      13.006313
+    ],
+    [
+      51.565932,
+      13.006333
+    ],
+    [
+      51.565928,
+      13.006302
+    ],
+    [
+      51.565564,
+      13.006412
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 10175476852,
+      "lat": 51.5658602,
+      "lon": 13.0056661,
+      "km": 0.0,
+      "titel": "Eingang",
+      "thema": "Streichelzoo am Stadtpark",
+      "kurztext": "Der Besuch der Torgauer Arche ist kostenlos.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 1054260161,
+      "lat": 51.565947,
+      "lon": 13.005965,
+      "km": 0.0,
+      "titel": "Streichelzoo",
+      "thema": "Alpakas, Schafe, Ziegen, Esel",
+      "kurztext": "Alpakas, Schafe, Ziegen und Esel leben hier, dazu Meerschweinchen, Kaninchen und Wachteln.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 14023956801,
+      "lat": 51.5659004,
+      "lon": 13.0057759,
+      "km": 0.0,
+      "titel": "Café Arche",
+      "thema": "Direkt neben dem Streichelzoo",
+      "kurztext": "Das Café Arche liegt am Stadtpark 6 direkt neben dem Streichelzoo.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 3
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 14023956801,
+      "lat": 51.5659004,
+      "lon": 13.0057759,
+      "kategorie": "gastro",
+      "name": "Café Arche"
+    },
+    {
+      "osmId": 9909302726,
+      "lat": 51.5659447,
+      "lon": 13.0055078,
+      "kategorie": "bench",
+      "name": null
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Sommerzeit 9 bis 17 Uhr, Winterzeit 9 bis 16 Uhr.",
+  "besuchshinweise": "Ein Futterautomat gibt Futter für die Tiere. Wer eine Patenschaft übernehmen möchte, spricht die Pfleger vor Ort an.",
+  "hoertext": "Auf dem Gelände der Landesgartenschau von 2022 liegt, mitten in der Stadt, ein kleiner Streichelzoo. Alpakas, Schafe, Ziegen und Esel leben hier, dazu Meerschweinchen, Kaninchen und Wachteln, und mit allen darf man auf Tuchfühlung gehen. Das Futter kommt aus einem Automaten. Um Tiere und Gelände kümmern sich die Elbaue-Werkstätten, der Eintritt kostet nichts. Nebenan liegt ein Café. Richtung Elbe folgen ein Spielplatz unter Eichen, ein Beachvolleyballfeld und der Aussichtsturm Deichgucker.",
+  "bilderAsset": "assets/images/trails/streichelzoo-torgauer-arche/credits.json",
+  "dataVersion": 16
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-nutztiergarten.jpg",
+    "caption": "Nutztiergarten am Goldberg in Halle (Saale).",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nutztiergarten_Goldberg,_Halle_(Saale)_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-gehege.jpg",
+    "caption": "Gehege im Nutztiergarten am Goldberg.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nutztiergarten_Goldberg,_Halle_(Saale)_05.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-rundgang.jpg",
+    "caption": "Wege im Nutztiergarten Goldberg 20.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nutztiergarten_Goldberg,_Halle_(Saale)_12.jpg",
+    "kind": "ort"
+  }
+]

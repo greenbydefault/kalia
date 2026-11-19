@@ -1,0 +1,793 @@
+{
+  "id": "wildpark-leipzig",
+  "name": "Wildpark Leipzig",
+  "typ": "wald",
+  "gebiet": "wald",
+  "kurzbeschreibung": "Wisent, Luchs und Elch kamen hier früher vor. Heute leben sie im Wildpark im südlichen Auenwald, auf rund 46 Hektar.",
+  "beschreibung": "Der Wildpark zeigt Tiere aus drei Gruppen. Manche leben in Mitteleuropa frei, manche kamen früher hier vor, andere wurden erst vor Kurzem heimisch. Rund 25 Arten mit etwa 250 Tieren leben auf dem Gelände. Es wuchs aus einem Damwildgehege, das ein Mühlenbesitzer 1904 der Stadt schenkte. Rot-, Dam- und Muffelwild teilen sich ein Großgehege. Die Sitzterrasse am Froschteich und der Rübenbunker stammen von 1922. Wisent und Europäischer Nerz gehören zu Erhaltungszuchtprogrammen.",
+  "laengeKm": 0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Wildpark Leipzig",
+  "betreiber": "Stadt Leipzig, Amt für Stadtgrün und Gewässer",
+  "region": "Connewitz, Leipzig, Sachsen",
+  "website": "https://www.leipzig.de/leben-in-leipzig/natur-und-umwelt/parks-waelder-und-friedhoefe/wildpark",
+  "anreise": "Adresse: Koburger Straße 12, 04277 Leipzig. Bus 70 und 107, Haltestelle Wildpark. Öffentliche Parkplätze sind vorhanden.",
+  "startName": "Haupteingang Koburger Straße",
+  "arten": [
+    "Damhirsch",
+    "Rothirsch",
+    "Reh",
+    "Wildschwein",
+    "Wildkatze",
+    "Fischotter",
+    "Waldkauz",
+    "Grasfrosch",
+    "Gemeine Esche",
+    "Schwarzerle",
+    "Stieleiche",
+    "Schwarzer Holunder",
+    "Salweide",
+    "Schlehe"
+  ],
+  "artenNachweis": {
+    "Damhirsch": "belegt",
+    "Rothirsch": "belegt",
+    "Reh": "belegt",
+    "Wildschwein": "belegt",
+    "Wildkatze": "belegt",
+    "Fischotter": "belegt",
+    "Waldkauz": "belegt",
+    "Grasfrosch": "typisch",
+    "Gemeine Esche": "typisch",
+    "Schwarzerle": "typisch",
+    "Stieleiche": "typisch",
+    "Schwarzer Holunder": "typisch",
+    "Salweide": "typisch",
+    "Schlehe": "typisch"
+  },
+  "lebensraeume": [
+    "auwald"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "spielplatz",
+    "einkehr",
+    "picknick"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.296061,
+      12.368296
+    ],
+    [
+      51.296052,
+      12.368134
+    ],
+    [
+      51.296023,
+      12.367604
+    ],
+    [
+      51.295978,
+      12.366807
+    ],
+    [
+      51.295938,
+      12.36607
+    ],
+    [
+      51.295876,
+      12.365242
+    ],
+    [
+      51.295824,
+      12.36458
+    ],
+    [
+      51.295771,
+      12.364382
+    ],
+    [
+      51.295739,
+      12.364163
+    ],
+    [
+      51.295726,
+      12.364075
+    ],
+    [
+      51.295585,
+      12.361714
+    ],
+    [
+      51.295618,
+      12.361662
+    ],
+    [
+      51.295592,
+      12.361429
+    ],
+    [
+      51.295533,
+      12.360435
+    ],
+    [
+      51.295523,
+      12.360067
+    ],
+    [
+      51.295564,
+      12.359923
+    ],
+    [
+      51.29582,
+      12.359441
+    ],
+    [
+      51.29701,
+      12.359369
+    ],
+    [
+      51.298246,
+      12.359316
+    ],
+    [
+      51.298746,
+      12.359314
+    ],
+    [
+      51.299667,
+      12.359273
+    ],
+    [
+      51.299822,
+      12.359265
+    ],
+    [
+      51.300341,
+      12.3593
+    ],
+    [
+      51.3006,
+      12.3594
+    ],
+    [
+      51.300982,
+      12.360034
+    ],
+    [
+      51.301066,
+      12.360233
+    ],
+    [
+      51.301617,
+      12.360824
+    ],
+    [
+      51.302007,
+      12.361149
+    ],
+    [
+      51.302168,
+      12.361307
+    ],
+    [
+      51.302227,
+      12.361371
+    ],
+    [
+      51.302275,
+      12.361422
+    ],
+    [
+      51.30277,
+      12.361954
+    ],
+    [
+      51.302947,
+      12.362085
+    ],
+    [
+      51.302897,
+      12.362654
+    ],
+    [
+      51.302574,
+      12.362568
+    ],
+    [
+      51.302068,
+      12.362369
+    ],
+    [
+      51.301974,
+      12.362346
+    ],
+    [
+      51.301823,
+      12.362327
+    ],
+    [
+      51.301851,
+      12.36266
+    ],
+    [
+      51.30189,
+      12.362945
+    ],
+    [
+      51.301989,
+      12.363278
+    ],
+    [
+      51.30227,
+      12.363674
+    ],
+    [
+      51.302449,
+      12.363848
+    ],
+    [
+      51.302415,
+      12.363974
+    ],
+    [
+      51.302328,
+      12.364157
+    ],
+    [
+      51.302125,
+      12.364418
+    ],
+    [
+      51.301931,
+      12.364604
+    ],
+    [
+      51.301165,
+      12.365193
+    ],
+    [
+      51.300681,
+      12.365566
+    ],
+    [
+      51.300059,
+      12.365982
+    ],
+    [
+      51.299653,
+      12.366457
+    ],
+    [
+      51.299089,
+      12.367169
+    ],
+    [
+      51.298927,
+      12.367525
+    ],
+    [
+      51.298765,
+      12.367938
+    ],
+    [
+      51.298559,
+      12.368603
+    ],
+    [
+      51.298399,
+      12.369288
+    ],
+    [
+      51.298297,
+      12.369698
+    ],
+    [
+      51.298105,
+      12.370443
+    ],
+    [
+      51.298001,
+      12.370356
+    ],
+    [
+      51.297884,
+      12.370287
+    ],
+    [
+      51.297615,
+      12.370259
+    ],
+    [
+      51.29753,
+      12.370227
+    ],
+    [
+      51.297112,
+      12.370204
+    ],
+    [
+      51.296903,
+      12.370097
+    ],
+    [
+      51.296736,
+      12.369982
+    ],
+    [
+      51.296397,
+      12.369842
+    ],
+    [
+      51.296144,
+      12.369779
+    ],
+    [
+      51.296061,
+      12.368296
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 11608083059,
+      "lat": 51.296185,
+      "lon": 12.363662,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Wisente",
+      "thema": "Zuchtprogramm",
+      "kurztext": "Wisente gehören zu den Arten, die früher hier vorkamen, und der Wildpark beteiligt sich am Zuchtprogramm für sie.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 53125851,
+      "lat": 51.296805,
+      "lon": 12.363929,
+      "km": 0,
+      "reihenfolge": 2,
+      "titel": "Froschteich",
+      "thema": "Gaststätte von 1922",
+      "kurztext": "Die Sitzterrasse am Froschteich ist ein Rest der Wildparkgaststätte, die 1922 gebaut wurde.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 1240124183,
+      "lat": 51.297504,
+      "lon": 12.363248,
+      "km": 0,
+      "reihenfolge": 3,
+      "titel": "Eulen",
+      "thema": "Uhu, Schleiereule, Schnee-Eule",
+      "kurztext": "Uhu, Schleiereule und Schnee-Eule sitzen in benachbarten Volieren, jede mit eigener Tafel.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 362407472,
+      "lat": 51.298083,
+      "lon": 12.363837,
+      "km": 0,
+      "reihenfolge": 4,
+      "titel": "Sumpfschildkröten",
+      "thema": "Europäische Sumpfschildkröte",
+      "kurztext": "Die Europäische Sumpfschildkröte hat eine eigene Anlage.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 3667256964,
+      "lat": 51.298017,
+      "lon": 12.363469,
+      "km": 0,
+      "reihenfolge": 5,
+      "titel": "Ausstellungsraum",
+      "thema": "Wanderausstellungen",
+      "kurztext": "Der Ausstellungsraum zeigt wechselnde Naturausstellungen, legt kostenloses Informationsmaterial aus und bietet gelegentlich Vorträge.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 11608095801,
+      "lat": 51.299673,
+      "lon": 12.362468,
+      "km": 0,
+      "reihenfolge": 6,
+      "titel": "Elche",
+      "thema": "Früher heimisch",
+      "kurztext": "Elche zählen zu den Arten, die früher hier vorkamen, und leben in einem weitläufigen Gehege.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 262489468,
+      "lat": 51.301347,
+      "lon": 12.363336,
+      "kategorie": "gastro",
+      "name": "Wildparkgastätte-Imbiss"
+    },
+    {
+      "osmId": 2392136381,
+      "lat": 51.297294,
+      "lon": 12.365881,
+      "kategorie": "viewpoint",
+      "name": null
+    },
+    {
+      "osmId": 3667256969,
+      "lat": 51.298164,
+      "lon": 12.363559,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 3667615865,
+      "lat": 51.296593,
+      "lon": 12.364939,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 4058540236,
+      "lat": 51.300379,
+      "lon": 12.365693,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058540240,
+      "lat": 51.300482,
+      "lon": 12.36561,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058540244,
+      "lat": 51.300373,
+      "lon": 12.365701,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058540246,
+      "lat": 51.300487,
+      "lon": 12.365603,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058540251,
+      "lat": 51.300219,
+      "lon": 12.365827,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058559946,
+      "lat": 51.300592,
+      "lon": 12.363811,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058559951,
+      "lat": 51.300802,
+      "lon": 12.365275,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058559956,
+      "lat": 51.300939,
+      "lon": 12.365011,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058559962,
+      "lat": 51.300857,
+      "lon": 12.363626,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4058559963,
+      "lat": 51.3004,
+      "lon": 12.363983,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 4407490390,
+      "lat": 51.301082,
+      "lon": 12.363613,
+      "kategorie": "playground",
+      "name": null
+    },
+    {
+      "osmId": 5860596143,
+      "lat": 51.296171,
+      "lon": 12.364461,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 5860596144,
+      "lat": 51.296185,
+      "lon": 12.364507,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 5860596145,
+      "lat": 51.296798,
+      "lon": 12.363399,
+      "kategorie": "picnic",
+      "name": null
+    },
+    {
+      "osmId": 5860596146,
+      "lat": 51.301063,
+      "lon": 12.363144,
+      "kategorie": "picnic",
+      "name": null
+    },
+    {
+      "osmId": 7761423421,
+      "lat": 51.30128,
+      "lon": 12.363157,
+      "kategorie": "gastro",
+      "name": "Wildpark Gaststätte"
+    },
+    {
+      "osmId": 9458232397,
+      "lat": 51.29612,
+      "lon": 12.364278,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 9458232398,
+      "lat": 51.296132,
+      "lon": 12.36433,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111673505,
+      "lat": 51.296704,
+      "lon": 12.362913,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111674305,
+      "lat": 51.297371,
+      "lon": 12.36316,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111674306,
+      "lat": 51.297418,
+      "lon": 12.363236,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111674405,
+      "lat": 51.297357,
+      "lon": 12.363223,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111674406,
+      "lat": 51.297425,
+      "lon": 12.363175,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111674506,
+      "lat": 51.296586,
+      "lon": 12.363195,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111676107,
+      "lat": 51.296772,
+      "lon": 12.364878,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111676108,
+      "lat": 51.297024,
+      "lon": 12.364509,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111684607,
+      "lat": 51.297175,
+      "lon": 12.364283,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111684608,
+      "lat": 51.297142,
+      "lon": 12.364339,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111684905,
+      "lat": 51.296581,
+      "lon": 12.363264,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705105,
+      "lat": 51.297,
+      "lon": 12.364546,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705106,
+      "lat": 51.297066,
+      "lon": 12.364447,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705109,
+      "lat": 51.299557,
+      "lon": 12.362677,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705205,
+      "lat": 51.297115,
+      "lon": 12.364375,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705206,
+      "lat": 51.297609,
+      "lon": 12.364037,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705207,
+      "lat": 51.29765,
+      "lon": 12.364037,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705208,
+      "lat": 51.29769,
+      "lon": 12.364037,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111705209,
+      "lat": 51.299452,
+      "lon": 12.362729,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111715506,
+      "lat": 51.298105,
+      "lon": 12.364225,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111715507,
+      "lat": 51.298147,
+      "lon": 12.364251,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111726705,
+      "lat": 51.298846,
+      "lon": 12.363523,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111726706,
+      "lat": 51.298901,
+      "lon": 12.363407,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111726707,
+      "lat": 51.298997,
+      "lon": 12.363212,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111726708,
+      "lat": 51.299033,
+      "lon": 12.363146,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111728405,
+      "lat": 51.29949,
+      "lon": 12.36272,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111734913,
+      "lat": 51.301015,
+      "lon": 12.36454,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 11111784805,
+      "lat": 51.301041,
+      "lon": 12.364464,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 12310294016,
+      "lat": 51.301139,
+      "lon": 12.363101,
+      "kategorie": "playground",
+      "name": null
+    },
+    {
+      "osmId": 12651845830,
+      "lat": 51.298122,
+      "lon": 12.36364,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 230762078,
+      "lat": 51.296707,
+      "lon": 12.36491,
+      "kategorie": "gastro",
+      "name": "Russisches Blockhaus"
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei. Der Erlebnispfad am Drehtor kostet 2 Euro pro Person.",
+  "oeffnungszeiten": "Täglich. 16. März bis 31. Oktober 9 bis 19 Uhr, 1. November bis 15. März 9 bis 17 Uhr. Letzter Einlass eine Stunde vor Schluss.",
+  "besuchshinweise": "Im Erlebnispfad gilt ein strenges Fütterungsverbot; während der Rotwildbrunft bleibt er geschlossen. Nach Ende der Öffnungszeit den Park über das Drehtor am Haupteingang verlassen. Hunde angeleint.",
+  "hoertext": "Gleich hinter dem Drehtor steht der Wisent im Gehege, ein Tier, das hier früher zu Hause war und das der Wildpark in einem Zuchtprogramm mitführt. Weiter nördlich sitzen Uhu, Schleiereule und Schnee-Eule in ihren Volieren, jede mit eigener Tafel. Am Froschteich liegt die Terrasse einer Gaststätte von 1922. Mehr blieb nach dem Krieg nicht übrig. Hinter den Schildkröten wartet der Ausstellungsraum mit wechselnden Themen aus der Natur, und noch weiter im Norden weiden die Elche in einem weitläufigen Gehege, so wie sie früher hier einmal lebten.",
+  "bilderAsset": "assets/images/trails/wildpark-leipzig/credits.json",
+  "dataVersion": 82
+}

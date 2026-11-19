@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-tiergehege.jpg",
+  "caption": "Erdmännchen im Tiergehege Dornreichenbach.",
+  "credit": "Alex All",
+  "license": "cc-by-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiergehege_-_panoramio.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "02-trauerschwan.jpg",
+  "caption": "Trauerschwan im Tiergehege Dornreichenbach.",
+  "credit": "Alex All",
+  "license": "cc-by-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trauerschwan_-_panoramio.jpg",
+  "kind": "ort"
+ }
+]

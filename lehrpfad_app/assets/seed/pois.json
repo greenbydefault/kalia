@@ -2048,5 +2048,225 @@
   "lon": 13.4777625,
   "website": "https://zenner.berlin/",
   "oeffnungszeiten": "Mo–Mi 12–21, Do–Fr 12–22, Sa–So 11–22 Uhr, bei gutem Wetter. Wickeltisch."
+ },
+ {
+  "id": "aktivitaet-bitterfelder-bogen",
+  "name": "Bitterfelder Bogen",
+  "kategorie": "aktivitaet",
+  "kurztext": "Stahlrampe hinauf auf 28 Meter, auch mit dem Rad, mit Blick über die Goitzsche.",
+  "lat": 51.6152576,
+  "lon": 12.3263443,
+  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
+  "oeffnungszeiten": "jederzeit frei zugänglich"
+ },
+ {
+  "id": "museum-kreismuseum-bitterfeld",
+  "name": "Kreismuseum Bitterfeld",
+  "kategorie": "museum",
+  "kurztext": "Bernsteinausstellung zur Goitzsche-Lagerstätte, Regenprogramm, Kinder bis sechs Jahre frei.",
+  "lat": 51.624046,
+  "lon": 12.3291334,
+  "website": "https://www.kreismuseum-bitterfeld.de/",
+  "oeffnungszeiten": "Di–Fr und So 10–16 Uhr, Mo und Sa geschlossen",
+  "opening_hours": "Tu-Fr 10:00-16:00; Su 10:00-16:00",
+  "telefon": "+49 3493 401113"
+ },
+ {
+  "id": "aktivitaet-pegelturm-goitzsche",
+  "name": "Pegelturm Goitzschesee",
+  "kategorie": "aktivitaet",
+  "kurztext": "Der Turm schwimmt im Goitzschesee, eine Pontonbrücke führt hin, an der Promenade liegen Strand und Spielplatz.",
+  "lat": 51.6367848,
+  "lon": 12.3602502,
+  "website": "https://goitzsche-tourismus.de/sehenswertes-an-der-goitzsche/",
+  "oeffnungszeiten": "Turm tagsüber, wetterabhängig"
+ },
+ {
+  "id": "cafe-eiscafe-am-pegelturm",
+  "name": "Eiscafé am Pegelturm",
+  "kategorie": "cafe",
+  "kurztext": "Eis, Kaffee und hausgebackener Kuchen an der Pegelturm-Promenade.",
+  "lat": 51.6374582,
+  "lon": 12.3567853,
+  "website": "https://www.eiscafe-am-pegelturm.de/",
+  "oeffnungszeiten": "Di–Do 13–18 Uhr, Sa und So 11:30–18 Uhr, im Sommer flexibel",
+  "opening_hours": "Tu-Th 13:00-18:00; Sa-Su 11:30-18:00",
+  "telefon": "+49 3493 515858"
+ },
+ {
+  "id": "cafe-eiskfee-bad-duerrenberg",
+  "name": "EisKfee",
+  "kategorie": "cafe",
+  "kurztext": "Eis und Kaffee in Bad Dürrenberg, nach dem Spielplatz im Kurpark.",
+  "lat": 51.30123,
+  "lon": 12.06987,
+  "website": "http://www.eiskfee.de/",
+  "oeffnungszeiten": "Di–So 13–18 Uhr",
+  "opening_hours": "Tu-Su 13:00-18:00",
+  "telefon": "+49 3462 5439231"
+ },
+ {
+  "id": "aktivitaet-palmenhaus-bad-duerrenberg",
+  "name": "Palmenhaus Bad Dürrenberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Palmen und Vögel im Kurpark, Eintritt frei, eine Alternative bei Regen.",
+  "lat": 51.29625,
+  "lon": 12.06205,
+  "oeffnungszeiten": "täglich 10–16 Uhr",
+  "opening_hours": "Mo-Su 10:00-16:00"
+ },
+ {
+  "id": "restaurant-alte-apotheke-bad-duerrenberg",
+  "name": "Hotel Alte Apotheke",
+  "kategorie": "restaurant",
+  "kurztext": "Deutsche Küche in Bad Dürrenberg, täglich ab 11:30 Uhr.",
+  "lat": 51.29744,
+  "lon": 12.06128,
+  "website": "https://www.hotel-alte-apotheke.de",
+  "oeffnungszeiten": "täglich ab 11:30 Uhr",
+  "telefon": "+49 3462 542280"
+ },
+ {
+  "id": "restaurant-waldhaus-suedpark-merseburg",
+  "name": "Waldhaus im Südpark",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte mit großer Terrasse mitten im Südpark, direkt am Heimattierpark.",
+  "lat": 51.34418,
+  "lon": 11.98579,
+  "telefon": "+49 3461 821444"
+ },
+ {
+  "id": "baden-freibad-weissenfels",
+  "name": "Freibad Weißenfels",
+  "kategorie": "baden",
+  "kurztext": "Schwimmbecken mit Rutschen, Wasserspielplatz und Spielplatz am Rand eines Landschaftsschutzgebiets, nur im Sommer.",
+  "lat": 51.18527,
+  "lon": 11.96826,
+  "website": "https://baeder-weissenfels.de/freibad",
+  "oeffnungszeiten": "Saison Mitte Mai bis Mitte September, täglich ab 10 Uhr, Eintritt",
+  "telefon": "+49 173 6773541"
+ },
+ {
+  "id": "museum-weissenfels-schloss-neu-augustusburg",
+  "name": "Museum Weißenfels im Schloss Neu-Augustusburg",
+  "kategorie": "museum",
+  "kurztext": "Schuhsammlung und Schlosskirche mit Orgel, Eintritt für Kinder und Jugendliche bis 18 Jahre frei.",
+  "lat": 51.20011,
+  "lon": 11.97461,
+  "website": "https://www.weissenfels-erlebnis.de/Entdecken-/Museum-Wei%C3%9Fenfels-im-Schloss-Neu-Augustusburg/",
+  "oeffnungszeiten": "Fr–So und feiertags 10–17 Uhr",
+  "telefon": "+49 3443 370400"
+ },
+ {
+  "id": "cafe-drei-schwaene-weissenfels",
+  "name": "Eiscafé Drei Schwäne",
+  "kategorie": "cafe",
+  "kurztext": "Eis und Kaffee in der Weißenfelser Altstadt.",
+  "lat": 51.20125,
+  "lon": 11.96985,
+  "telefon": "+49 3443 303047"
+ },
+ {
+  "id": "restaurant-waldfrieden-leipzig",
+  "name": "Gaststätte Waldfrieden",
+  "kategorie": "restaurant",
+  "kurztext": "Gaststätte in Connewitz, wenige Minuten vom Wildpark — täglich geöffnet.",
+  "lat": 51.30677,
+  "lon": 12.38021,
+  "website": "https://www.gaststaettewaldfrieden.de",
+  "oeffnungszeiten": "täglich 12–22 Uhr",
+  "opening_hours": "Mo-Su 12:00-22:00"
+ },
+ {
+  "id": "cafe-emi-leipzig",
+  "name": "Café Emi",
+  "kategorie": "cafe",
+  "kurztext": "Café in Connewitz, nach dem Wildpark auf einen Kaffee.",
+  "lat": 51.30753,
+  "lon": 12.37879,
+  "oeffnungszeiten": "Mo, Do–Sa 12–18 Uhr, So 11–18 Uhr",
+  "opening_hours": "Mo,Th-Sa 12:00-18:00; Su 11:00-18:00"
+ },
+ {
+  "id": "museum-panometer-leipzig",
+  "name": "Panometer Leipzig",
+  "kategorie": "museum",
+  "kurztext": "Panorama-Ausstellung in Connewitz — Regenprogramm nach dem Park, Eintritt.",
+  "lat": 51.31417,
+  "lon": 12.38702,
+  "website": "https://www.panometer.de/",
+  "oeffnungszeiten": "täglich 10–17 Uhr, Eintritt",
+  "opening_hours": "Mo-Su 10:00-17:00"
+ },
+ {
+  "id": "museum-naturkundemuseum-leipzig",
+  "name": "Naturkundemuseum Leipzig",
+  "kategorie": "museum",
+  "kurztext": "Naturkunde in der Lortzingstraße — Regenprogramm für Tierfans, Eintritt.",
+  "lat": 51.34498,
+  "lon": 12.37085,
+  "website": "https://naturkundemuseum.leipzig.de",
+  "oeffnungszeiten": "siehe Museum, Eintritt"
+ },
+ {
+  "id": "baden-cospudener-see-leipzig",
+  "name": "Cospudener See, Nordstrand",
+  "kategorie": "baden",
+  "kurztext": "Badesee südlich von Leipzig — nach dem Park ins Wasser, Saison.",
+  "lat": 51.28596,
+  "lon": 12.3461,
+  "oeffnungszeiten": "Saison, Strandbetrieb siehe Stadt"
+ },
+ {
+  "id": "aktivitaet-kanupark-markkleeberg",
+  "name": "Kanupark Markkleeberg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Wildwasserkanal am Markkleeberger See — extra, Eintritt.",
+  "lat": 51.25771,
+  "lon": 12.42687,
+  "website": "https://kanupark-markkleeberg.com",
+  "oeffnungszeiten": "siehe Betreiber, Eintritt"
+ },
+ {
+  "id": "cafe-domcafe-wurzen",
+  "name": "Domcafé Wurzen",
+  "kategorie": "cafe",
+  "kurztext": "Café neben dem Dom in Wurzen, mit Terrasse.",
+  "lat": 51.36952,
+  "lon": 12.7349,
+  "website": "https://www.domcafe-wurzen.de",
+  "oeffnungszeiten": "Mär–Dez Mo–Fr ab 10 Uhr, Sa/So ab 13 Uhr, bis ca. 18 Uhr; Jan/Feb eingeschränkt",
+  "opening_hours": "Mar-Dec: Mo-Fr 10:00-18:00; Mar-Dec: Sa-Su 13:00-18:00",
+  "telefon": "+49 3425 8397271"
+ },
+ {
+  "id": "restaurant-la-grotta-wurzen",
+  "name": "La Grotta",
+  "kategorie": "restaurant",
+  "kurztext": "Italienisch am Markt in Wurzen, Mo Ruhetag.",
+  "lat": 51.36866,
+  "lon": 12.7355,
+  "website": "https://www.grotta.de/",
+  "oeffnungszeiten": "Di–So 11:30–14 und 17:30–22 Uhr, Mo zu",
+  "opening_hours": "Mo off; Tu-Su 11:30-14:00,17:30-22:00"
+ },
+ {
+  "id": "museum-kulturhistorisches-wurzen",
+  "name": "Kulturhistorisches Museum Wurzen",
+  "kategorie": "museum",
+  "kurztext": "Barockes Haus an der Domgasse — Regenprogramm in der Altstadt.",
+  "lat": 51.36936,
+  "lon": 12.73418,
+  "website": "https://www.kultur-wurzen.de/museum-wurzen",
+  "oeffnungszeiten": "siehe Museum"
+ },
+ {
+  "id": "baden-freibad-dreibruecken-wurzen",
+  "name": "Freibad Dreibrücken Wurzen",
+  "kategorie": "baden",
+  "kurztext": "Freibad an der Leipziger Straße — Abkühlung nach dem Tiergehege, Saison.",
+  "lat": 51.36258,
+  "lon": 12.72525,
+  "oeffnungszeiten": "Saison, Eintritt"
  }
 ]

@@ -1,0 +1,311 @@
+{
+  "id": "tier-und-erlebnispark-luetzen",
+  "name": "Tier- und Erlebnispark Lützen",
+  "typ": "naturerlebnis",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Rotwild, Damwild und Mufflons leben in Gehegen im Martzschpark, direkt neben dem Gustav-Adolf-Denkmal. Esel und Shetlandponys stehen näher am Eingang.",
+  "beschreibung": "Mitten im Martzschpark hält ein Verein mit Spenden einen Tierpark am Leben. Rotwild, Damwild, Reh und Mufflon leben in Gehegen, Esel, Shetlandponys und Merinoschafe näher am Eingang. Der Hausesel stammt vom nordafrikanischen Wildesel ab, und der ist heute fast ausgerottet. Das Mufflon gilt als wilder Vorfahr der Hausschafe. Futterspenden nimmt das Futterhäuschen am Eingang an. Wer Tiere füttern will, kauft Grünfutterpellets in der Tüte. Daneben liegen der Kletterwald und das Denkmal für Gustav Adolf.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Tiergehege im Martzschpark",
+  "betreiber": "Erlebnispark Karl-Louis Martzsch e. V.",
+  "region": "Lützen, Burgenlandkreis, Sachsen-Anhalt",
+  "website": "https://xn--tierpark-ltzen-psb.de/",
+  "anreise": "Adresse: Gustav-Adolf-Straße, 06686 Lützen. Der Park liegt direkt neben dem Gustav-Adolf-Denkmal und dem Kletterwald. Telefon 0172 3410774.",
+  "startName": "Eingang am Gustav-Adolf-Denkmal",
+  "arten": [
+    "Rothirsch",
+    "Damhirsch",
+    "Reh",
+    "Wildschwein",
+    "Schaf",
+    "Ziege",
+    "Hauskaninchen",
+    "Stieleiche",
+    "Hainbuche",
+    "Löwenzahn",
+    "Gänseblümchen"
+  ],
+  "artenNachweis": {
+    "Rothirsch": "belegt",
+    "Damhirsch": "belegt",
+    "Reh": "belegt",
+    "Wildschwein": "belegt",
+    "Schaf": "belegt",
+    "Ziege": "belegt",
+    "Hauskaninchen": "belegt",
+    "Stieleiche": "typisch",
+    "Hainbuche": "typisch",
+    "Löwenzahn": "typisch",
+    "Gänseblümchen": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier",
+    "eichen-mischwald"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "hunde-erlaubt",
+    "einkehr"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.2677055,
+      12.157727
+    ],
+    [
+      51.2666665,
+      12.1577309
+    ],
+    [
+      51.2641472,
+      12.1577269
+    ],
+    [
+      51.2641572,
+      12.1579982
+    ],
+    [
+      51.2636042,
+      12.1579702
+    ],
+    [
+      51.2636556,
+      12.1569304
+    ],
+    [
+      51.2637088,
+      12.1569334
+    ],
+    [
+      51.2637689,
+      12.1555867
+    ],
+    [
+      51.2640129,
+      12.1557361
+    ],
+    [
+      51.2640059,
+      12.1564703
+    ],
+    [
+      51.2641259,
+      12.1566891
+    ],
+    [
+      51.2641215,
+      12.1568989
+    ],
+    [
+      51.2643842,
+      12.1569214
+    ],
+    [
+      51.2646511,
+      12.1569358
+    ],
+    [
+      51.2649878,
+      12.1567377
+    ],
+    [
+      51.2655729,
+      12.1569421
+    ],
+    [
+      51.2658805,
+      12.1566989
+    ],
+    [
+      51.2662617,
+      12.1565653
+    ],
+    [
+      51.266491,
+      12.1566788
+    ],
+    [
+      51.2666843,
+      12.156948
+    ],
+    [
+      51.2668654,
+      12.1570888
+    ],
+    [
+      51.2670532,
+      12.1571461
+    ],
+    [
+      51.2671312,
+      12.1571253
+    ],
+    [
+      51.2673024,
+      12.1570795
+    ],
+    [
+      51.2673942,
+      12.1570114
+    ],
+    [
+      51.2675047,
+      12.1571695
+    ],
+    [
+      51.2675038,
+      12.1575613
+    ],
+    [
+      51.2676216,
+      12.1575646
+    ],
+    [
+      51.2677044,
+      12.1575636
+    ],
+    [
+      51.2677055,
+      12.157727
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 1160742962,
+      "lat": 51.267296,
+      "lon": 12.157321,
+      "km": 0.0,
+      "titel": "Shetlandpony",
+      "thema": "Von den Shetlandinseln",
+      "kurztext": "Das Shetlandpony kommt von den Shetlandinseln und gilt als genügsam, robust und langlebig.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 1160698030,
+      "lat": 51.266913,
+      "lon": 12.157276,
+      "km": 0.0,
+      "titel": "Hausesel",
+      "thema": "Vom Wildesel abstammend",
+      "kurztext": "Der Hausesel stammt vom nordafrikanischen Wildesel ab, der heute fast ausgerottet ist.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 1160698029,
+      "lat": 51.266918,
+      "lon": 12.157443,
+      "km": 0.0,
+      "titel": "Merinoschaf",
+      "thema": "Feinwollrasse",
+      "kurztext": "Das Merinoschaf ist eine mittelgroße Feinwoll-Schafrasse mit reinweißer Wolle.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 1160746663,
+      "lat": 51.266178,
+      "lon": 12.157046,
+      "km": 0.0,
+      "titel": "Rotwild",
+      "thema": "König der Wälder",
+      "kurztext": "Der Rothirsch ist der zweitgrößte heimische Hirsch und lebt in Wäldern.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    },
+    {
+      "osmId": 1160746662,
+      "lat": 51.265663,
+      "lon": 12.157208,
+      "km": 0.0,
+      "titel": "Reh",
+      "thema": "Kleinste Hirschart",
+      "kurztext": "Das Europäische Reh ist die kleinste und zugleich häufigste Hirschart Europas.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 5
+    },
+    {
+      "osmId": 1160746661,
+      "lat": 51.265369,
+      "lon": 12.157227,
+      "km": 0.0,
+      "titel": "Mufflon",
+      "thema": "Wilder Vorfahr der Hausschafe",
+      "kurztext": "Mufflons sind die wilden Vorfahren der Hausschafe.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 6
+    },
+    {
+      "osmId": 1160745916,
+      "lat": 51.264617,
+      "lon": 12.157122,
+      "km": 0.0,
+      "titel": "Damwild",
+      "thema": "Älter als die Eiszeit",
+      "kurztext": "Das Damwild kam vor der letzten Eiszeit in ganz Europa vor.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 7
+    },
+    {
+      "osmId": 1160745811,
+      "lat": 51.263926,
+      "lon": 12.157176,
+      "km": 0.0,
+      "titel": "Auerochse",
+      "thema": "Wildform der Hausrinder",
+      "kurztext": "Der Auerochse gilt als Wildform aller heutigen Hausrinder und ist seit etwa 500 Jahren ausgestorben.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 8
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 13056720301,
+      "lat": 51.2666,
+      "lon": 12.15743,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 433303161,
+      "lat": 51.26794,
+      "lon": 12.1553,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 11131787793,
+      "lat": 51.26722,
+      "lon": 12.15692,
+      "kategorie": "gastro",
+      "name": "Im Hollehaus"
+    },
+    {
+      "osmId": 5842431573,
+      "lat": 51.26743,
+      "lon": 12.15782,
+      "kategorie": "bench",
+      "name": null
+    }
+  ],
+  "eintritt": true,
+  "eintrittPreise": "Kinder bis 14 Jahre frei, Jugendliche von 14 bis 18 Jahren 2 €, Erwachsene 4 €. Grünfutterpellets 0,50 € je Tüte.",
+  "oeffnungszeiten": "Täglich 9–18 Uhr. Das Holle-Haus mit Backstübchen hat eigene Zeiten.",
+  "besuchshinweise": "Hunde anleinen. Tiere nicht mit eigenem Futter füttern. Führungen bis zehn Personen nur mit Reservierung.",
+  "hoertext": "Neben dem Gustav-Adolf-Denkmal öffnet sich der Martzschpark, und zwischen den Bäumen verlaufen die Gehege. Shetlandponys und Esel stehen nahe am Eingang, die Merinoschafe gleich daneben. Weiter südlich leben das Rotwild, ein Hirsch, den man König der Wälder nennt, und das Mufflon, wilder Vorfahr aller Hausschafe. Ganz hinten wartet der Auerochse. Auf dem neuen Bauernhof sind neugierige Fellnasen zu Hause. Futterpellets verkauft der Park tütenweise, eigenes Futter bleibt in der Tasche.",
+  "bilderAsset": "assets/images/trails/tier-und-erlebnispark-luetzen/credits.json",
+  "dataVersion": 29
+}

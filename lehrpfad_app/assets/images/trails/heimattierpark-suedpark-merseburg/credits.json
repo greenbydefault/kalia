@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-voliere.jpg",
+    "caption": "Vogelvoliere im Tiergarten des Südparks Merseburg.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCdpark_Merseburg,_Tiergarten_01.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-bauernhof.jpg",
+    "caption": "Bauernhof im Tiergarten des Südparks Merseburg.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCdpark_Merseburg,_Tiergarten_05.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-pferdehof.jpg",
+    "caption": "Pferdehof im Tiergarten des Südparks Merseburg.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCdpark_Merseburg,_Tiergarten_04.jpg",
+    "kind": "ort"
+  }
+]

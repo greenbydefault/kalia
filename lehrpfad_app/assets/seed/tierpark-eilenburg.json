@@ -1,0 +1,366 @@
+{
+  "id": "tierpark-eilenburg",
+  "name": "Tierpark Eilenburg",
+  "typ": "naturerlebnis",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Vier Hektar im Eilenburger Stadtpark. Hutaffen im Freigehege, Luchse und ein Naturerlebnispfad durch Feucht- und Waldgebiet.",
+  "beschreibung": "Im Eilenburger Stadtpark leben Tiere aus mehreren Welten dicht beieinander. Gleich hinter dem Haupthaus teilen sich Aras und Goldfasane eine Voliere, daneben klettern Hutaffen im Freigehege. In der Mitte liegt der Bereich für Haus- und Heimtiere, wo Ziegen zum Streicheln einladen und eine Rutsche den Weg zu ihnen abkürzt. Im hinteren Teil führt ein schmaler Naturerlebnispfad durch Feucht- und Waldgebiet. Sprunganlage zum Vergleichen, Fühlkästen, Balancierstämme und eine Hängebrücke laden zum Ausprobieren ein. Die Luchse zählen zu den Wappentieren des Parks.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "keine Markierung",
+  "betreiber": "Tierparkverein Eilenburg e. V.",
+  "region": "Eilenburg, Landkreis Nordsachsen, Sachsen",
+  "website": "https://www.tierpark-eilenburg.de/",
+  "anreise": "Adresse: Stadtpark 3, 04838 Eilenburg. Der Tierpark liegt 300 Meter vom S-Bahnhof Eilenburg entfernt. Parkplätze gibt es direkt am Tierpark, kostenfrei parken lässt sich am S-Bahnhof. Vom Marktplatz führt ein Weg durch den Stadtpark.",
+  "startName": "Empfangszimmer vor der Gaststätte Parkhaus",
+  "arten": [
+    "Ziege",
+    "Damhirsch",
+    "Kranich",
+    "Weißstorch",
+    "Honigbiene",
+    "Löwenzahn",
+    "Gänseblümchen",
+    "Rotklee",
+    "Schilf",
+    "Amsel",
+    "Stockente",
+    "Haushuhn"
+  ],
+  "artenNachweis": {
+    "Ziege": "belegt",
+    "Damhirsch": "belegt",
+    "Kranich": "belegt",
+    "Weißstorch": "belegt",
+    "Honigbiene": "belegt",
+    "Löwenzahn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Rotklee": "typisch",
+    "Schilf": "typisch",
+    "Amsel": "typisch",
+    "Stockente": "typisch",
+    "Haushuhn": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier",
+    "teich-tuempel"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "einkehr",
+    "spielplatz"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.453993,
+      12.632235
+    ],
+    [
+      51.453827,
+      12.63277
+    ],
+    [
+      51.453716,
+      12.63275
+    ],
+    [
+      51.45368,
+      12.632635
+    ],
+    [
+      51.45367,
+      12.632584
+    ],
+    [
+      51.453651,
+      12.632543
+    ],
+    [
+      51.453628,
+      12.632514
+    ],
+    [
+      51.453576,
+      12.632449
+    ],
+    [
+      51.453524,
+      12.632404
+    ],
+    [
+      51.453377,
+      12.632379
+    ],
+    [
+      51.453028,
+      12.632463
+    ],
+    [
+      51.452747,
+      12.632312
+    ],
+    [
+      51.452716,
+      12.632316
+    ],
+    [
+      51.45267,
+      12.632333
+    ],
+    [
+      51.452534,
+      12.632487
+    ],
+    [
+      51.452487,
+      12.632659
+    ],
+    [
+      51.452362,
+      12.63284
+    ],
+    [
+      51.452332,
+      12.632979
+    ],
+    [
+      51.45229,
+      12.633167
+    ],
+    [
+      51.452258,
+      12.633408
+    ],
+    [
+      51.452042,
+      12.633414
+    ],
+    [
+      51.451941,
+      12.633291
+    ],
+    [
+      51.45178,
+      12.631579
+    ],
+    [
+      51.451838,
+      12.631331
+    ],
+    [
+      51.451929,
+      12.631069
+    ],
+    [
+      51.452017,
+      12.630828
+    ],
+    [
+      51.452125,
+      12.630732
+    ],
+    [
+      51.452313,
+      12.630605
+    ],
+    [
+      51.452576,
+      12.63044
+    ],
+    [
+      51.452682,
+      12.63041
+    ],
+    [
+      51.452796,
+      12.630418
+    ],
+    [
+      51.452918,
+      12.630455
+    ],
+    [
+      51.453066,
+      12.630532
+    ],
+    [
+      51.453259,
+      12.630627
+    ],
+    [
+      51.453383,
+      12.630766
+    ],
+    [
+      51.453523,
+      12.63091
+    ],
+    [
+      51.453837,
+      12.63123
+    ],
+    [
+      51.454093,
+      12.631477
+    ],
+    [
+      51.454122,
+      12.631564
+    ],
+    [
+      51.454076,
+      12.631844
+    ],
+    [
+      51.453993,
+      12.632235
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 4933247890,
+      "lat": 51.453582,
+      "lon": 12.632115,
+      "km": 0.0,
+      "titel": "Empfangszimmer",
+      "thema": "Freifläche vor der Gaststätte",
+      "kurztext": "Sitzinseln, Spielpunkte und ein überdachter Festpavillon liegen vor der Gaststätte in Holzblockbauweise.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 619498487,
+      "lat": 51.453426,
+      "lon": 12.631718,
+      "km": 0.0,
+      "titel": "Aras",
+      "thema": "Voliere mit Goldfasanen",
+      "kurztext": "Grünflügelaras und Goldfasane teilen sich gleich hinter dem Haupthaus eine Voliere.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 619498488,
+      "lat": 51.453371,
+      "lon": 12.63154,
+      "km": 0.0,
+      "titel": "Hutaffen",
+      "thema": "Indischer Trockenwald",
+      "kurztext": "Indische Hutaffen klettern im großzügigen Freigehege, dazu laufen Pfauen sowie Wasser- und Ufervögel frei.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 619498479,
+      "lat": 51.452906,
+      "lon": 12.631418,
+      "km": 0.0,
+      "titel": "Ziegen",
+      "thema": "Mensch-Tier-Kontaktbereich",
+      "kurztext": "Zahme Ziegen stehen oft zum Streicheln bereit, und jüngere Kinder erreichen das Gehege über eine Rutsche.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 4
+    },
+    {
+      "osmId": 850082064,
+      "lat": 51.452933,
+      "lon": 12.630703,
+      "km": 0.0,
+      "titel": "Haustierpavillon",
+      "thema": "Schwein und Pferd",
+      "kurztext": "Schwein und Pferd leben in der Haustieranlage, deren Pavillon bei schlechtem Wetter als geschützter Sammelpunkt dient.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 5
+    },
+    {
+      "osmId": 619498486,
+      "lat": 51.45294,
+      "lon": 12.631761,
+      "km": 0.0,
+      "titel": "Alpakas und Esel",
+      "thema": "Freigehege mit Auslauffläche",
+      "kurztext": "Alpakas und Esel teilen ein Freigehege, die Auslauffläche für Ponys und Esel entstand 2005.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 6
+    },
+    {
+      "osmId": 619719003,
+      "lat": 51.452626,
+      "lon": 12.632117,
+      "km": 0.0,
+      "titel": "Luchse",
+      "thema": "Feucht- und Waldgebiet",
+      "kurztext": "Ilvy und Malou, die beiden Luchsdamen, sind die Wappentiere des Parks, ihr Gehege wurde im Juni 2003 eröffnet.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 7
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 4933247890,
+      "lat": 51.453582,
+      "lon": 12.632115,
+      "kategorie": "gastro",
+      "name": "Gaststätte Parkhaus"
+    },
+    {
+      "osmId": 850082065,
+      "lat": 51.453603,
+      "lon": 12.632006,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 4933247914,
+      "lat": 51.453773,
+      "lon": 12.632261,
+      "kategorie": "playground",
+      "name": "Kinderspielplatz"
+    },
+    {
+      "osmId": 14357379715,
+      "lat": 51.452773,
+      "lon": 12.630528,
+      "kategorie": "playground",
+      "name": null
+    },
+    {
+      "osmId": 619498522,
+      "lat": 51.454337,
+      "lon": 12.631381,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 1307252058,
+      "lat": 51.453919,
+      "lon": 12.631174,
+      "kategorie": "parking",
+      "name": null
+    }
+  ],
+  "eintritt": true,
+  "eintrittPreise": "Erwachsene 5 €, Ermäßigte 3 €",
+  "oeffnungszeiten": "Sommerzeit (ab letztem Sonntag im März) 9 bis 18:30 Uhr, Winterzeit (ab letztem Sonntag im Oktober) 9 Uhr bis Einbruch der Dunkelheit, spätestens 17 Uhr. Das Tropicana schließt eine Stunde vorher, Einlassschluss ist eine halbe Stunde vor Schließung.",
+  "besuchshinweise": "Hunde dürfen nur angeleint in den Eingangsbereich bei der Gaststätte. Der Naturerlebnispfad im hinteren Teil ist schmal.",
+  "hoertext": "Mitten im Stadtpark leben auf vier Hektar rund fünfzig Tierarten. Aras und Goldfasane wohnen hinter dem Haupthaus gemeinsam in einer Voliere, nebenan klettern Hutaffen im Freigehege, während Pfauen sowie Wasser- und Ufervögel frei über das Gelände laufen. Zahme Ziegen stehen am Zaun. Jüngere Kinder rutschen zu ihnen hinunter. Im hinteren Teil gehört das Feucht- und Waldgebiet den Luchsen, das Gehege besteht seit Juni 2003. Ein schmaler Pfad führt dort an Fühlkästen, Balancierstämmen und einer Hängebrücke vorbei.",
+  "bilderAsset": "assets/images/trails/tierpark-eilenburg/credits.json",
+  "dataVersion": 27
+}

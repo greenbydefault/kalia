@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-spielplatz.jpg",
+    "caption": "Spielplatz Ameisenhausen am Rand der Dölauer Heide, eingeweiht im Juni 2021.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nietleben_D%C3%B6lauerHeide_Spielplatz.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-spielplatz.jpg",
+    "caption": "Spielplatz Ameisenhausen in Halle-Nietleben.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nietleben_D%C3%B6lauerHeide_Spielplatz_2.jpg",
+    "kind": "ort"
+  }
+]

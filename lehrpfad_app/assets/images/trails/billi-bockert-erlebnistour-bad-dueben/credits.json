@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-naturparkhaus.jpg",
+  "caption": "NaturparkHaus Dübener Heide an der Neuhofstraße in Bad Düben, Startpunkt der Tour.",
+  "credit": "Frank Vincentz",
+  "license": "cc-by-sa-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABad%20D%C3%BCben%20-%20Neuhofstra%C3%9Fe%20%2B%20Naturparkhaus%2001%20ies.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "02-doebelts-muehle.jpg",
+  "caption": "Döbelts Mühle am Hammerbach.",
+  "credit": "Jwaller",
+  "license": "cc-by-sa-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%B6beltsm%C3%BChle.JPG",
+  "kind": "ort"
+ },
+ {
+  "file": "03-koehlerei-eisenhammer.jpg",
+  "caption": "Köhlerei Eisenhammer im Hammerbachtal.",
+  "credit": "Marit Schaller",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AK%C3%B6hlerei%20Eisenhammer%20Schaller%20%281%29.JPG",
+  "kind": "ort"
+ }
+]

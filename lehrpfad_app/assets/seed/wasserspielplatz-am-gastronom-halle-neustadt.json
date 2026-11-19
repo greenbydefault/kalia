@@ -1,0 +1,164 @@
+{
+  "id": "wasserspielplatz-am-gastronom-halle-neustadt",
+  "name": "Wasserspielplatz Am Gastronom",
+  "typ": "wasserspielplatz",
+  "gebiet": "wasser",
+  "kurzbeschreibung": "Wasserlauf von 52 Metern mit Schöpfrädern, Wasserspirale und Mühlrad in Halle-Neustadt. Frei zugänglich, Saison von Mitte Mai bis September.",
+  "beschreibung": "In Halle-Neustadt, an der Straße Am Gastronom, zieht sich ein 52 Meter langer Wasserlauf durch die Grünanlage. Drei Schöpfräder, eine Wasserspirale und ein Mühlrad bewegen das Wasser, dazu kommen zwei Stauklappen. Am Platz steht außerdem der Brunnen mit der Bronzefigur Junges Paar von 1967. Der Platz ist als Wasserachse angelegt, nicht als Matschplatz. Er öffnet wie die Freibäder in der warmen Jahreszeit.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Wasserachse Am Gastronom",
+  "betreiber": "Stadt Halle (Saale)",
+  "region": "Neustadt, Halle (Saale), Sachsen-Anhalt",
+  "website": "https://halle.de/leben-in-halle/stadtentwicklung/spielplaetze",
+  "anreise": "Adresse: Am Gastronom, 06124 Halle (Saale), Halle-Neustadt. Der Wasserspielplatz liegt in der Grünanlage an der Straße Am Gastronom.",
+  "startName": "Wasserspielplatz Am Gastronom",
+  "arten": [
+    "Wehre"
+  ],
+  "artenNachweis": {},
+  "lebensraeume": [],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz"
+  ],
+  "form": "flaeche",
+  "route": [
+    [
+      51.47458,
+      11.915122
+    ],
+    [
+      51.4747,
+      11.915122
+    ],
+    [
+      51.47481,
+      11.915122
+    ],
+    [
+      51.474968,
+      11.915143
+    ]
+  ],
+  "area": [
+    [
+      51.47443,
+      11.91495
+    ],
+    [
+      51.47443,
+      11.9153
+    ],
+    [
+      51.47503,
+      11.9153
+    ],
+    [
+      51.47503,
+      11.91495
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": -2198279020,
+      "lat": 51.47458,
+      "lon": 11.915122,
+      "km": 0.0,
+      "titel": "Schöpfräder",
+      "thema": "Wasser fördern",
+      "kurztext": "Drei Schöpfräder heben das Wasser aus dem Bach.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": -1208429583,
+      "lat": 51.4747,
+      "lon": 11.915122,
+      "km": 0.01,
+      "titel": "Wasserspirale",
+      "thema": "Wasser leiten",
+      "kurztext": "Eine Wasserspirale fördert das Wasser nach oben.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": -2523835569,
+      "lat": 51.47481,
+      "lon": 11.915122,
+      "km": 0.03,
+      "titel": "Mühlrad",
+      "thema": "Wasser antreibt",
+      "kurztext": "Ein Mühlrad dreht sich im Wasserlauf.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 11885072064,
+      "lat": 51.474968,
+      "lon": 11.915143,
+      "km": 0.04,
+      "titel": "Brunnen Junges Paar",
+      "thema": "Brunnen",
+      "kurztext": "Brunnen mit der Bronzefigur Junges Paar von 1967.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 1646145758,
+      "lat": 51.47546,
+      "lon": 11.915634,
+      "kategorie": "gastro",
+      "name": null
+    },
+    {
+      "osmId": 1565511226,
+      "lat": 51.475534,
+      "lon": 11.914885,
+      "kategorie": "gastro",
+      "name": "Kaukasischer Schaschlik"
+    },
+    {
+      "osmId": 203934035,
+      "lat": 51.475788,
+      "lon": 11.914504,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 203934036,
+      "lat": 51.475623,
+      "lon": 11.913704,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 941315719,
+      "lat": 51.47466,
+      "lon": 11.915117,
+      "kategorie": "playground",
+      "name": "Wasserspielplatz"
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Mitte Mai bis September.",
+  "besuchshinweise": "Wasser nur in der Saison. Wechselkleidung mitnehmen.",
+  "hoertext": "Zweiundfünfzig Meter Wasser mitten in Halle-Neustadt. Am Wasserlauf drehen und schöpfen drei Schöpfräder, dazu eine Wasserspirale und ein Mühlrad, und zwei Stauklappen regeln den Lauf des Wassers von einem Ende zum anderen. Daneben erhebt sich der Brunnen mit einem Bronzepaar von 1967, Junges Paar genannt. Der Platz läuft nur in der warmen Jahreszeit. Wie bei den Freibädern der Stadt beginnt die Saison Mitte Mai und endet im September. Eintritt zahlt hier niemand.",
+  "bilderAsset": "assets/images/trails/wasserspielplatz-am-gastronom-halle-neustadt/credits.json",
+  "dataVersion": 13
+}

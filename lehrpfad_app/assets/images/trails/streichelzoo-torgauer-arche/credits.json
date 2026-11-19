@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-alpakas.jpg",
+  "caption": "Alpakas im Streichelzoo Torgauer Arche.",
+  "credit": "Aagnverglaser",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpakas%20im%20Streichelzoo%20Torgauer%20Arche%20%281%29.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "02-schafe.jpg",
+  "caption": "Schafe im Streichelzoo Torgauer Arche.",
+  "credit": "Dguendel",
+  "license": "cc-by-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorgau%2C%20Streichelzoo%20%22Torgauer%20Arche%22%2C%20Schafe.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "03-alpaka.jpg",
+  "caption": "Alpaka im Streichelzoo Torgauer Arche.",
+  "credit": "Dguendel",
+  "license": "cc-by-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorgau%2C%20Streichelzoo%20%22Torgauer%20Arche%22%2C%20Alpaka.jpg",
+  "kind": "ort"
+ }
+]

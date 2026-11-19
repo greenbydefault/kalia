@@ -1,0 +1,291 @@
+{
+  "id": "tiergehege-dornreichenbach",
+  "name": "Tiergehege Dornreichenbach",
+  "typ": "naturerlebnis",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Im Schlosspark von Dornreichenbach leben Erdmännchen, Ziegen und Shetlandponys. Die Gehege liegen rund um den Schwanenteich.",
+  "beschreibung": "Der Verein nennt seine Erdmännchenanlage die größte in Sachsen, sie besteht seit 2009. Das Tiergehege liegt im Schlosspark von Dornreichenbach, einem Kulturdenkmal, auf etwa 5,5 Hektar. Angefangen hat es 1972 mit Damwild, Kaninchen, Meerschweinchen und Ziegen. Heute zieht sich der Rundgang um den Schwanenteich. Die Haltung setzt auf heimische und teils gefährdete Arten, etwa das Bunte Bentheimer Schwein. Für die Kleinen gibt es einen Streichelzoo und einen Bagger.",
+  "laengeKm": 0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Tiergehege Dornreichenbach",
+  "betreiber": "Tiergehege Dornreichenbach e. V.",
+  "region": "Dornreichenbach, Landkreis Leipzig, Sachsen",
+  "website": "http://www.tiergehege-dornreichenbach.de/",
+  "anreise": "Adresse: Philipp-Müller-Platz 3a, 04808 Lossatal (Ortsteil Dornreichenbach). Der Parkplatz am Philipp-Müller-Platz ist kostenlos. Der Ort liegt am Rand der Dahlener Heide.",
+  "startName": "Parkplatz Philipp-Müller-Platz",
+  "arten": [
+    "Ziege",
+    "Erdkröte",
+    "Grasfrosch",
+    "Haushuhn",
+    "Schaf",
+    "Schilf",
+    "Stockente",
+    "Teichfrosch",
+    "Blässhuhn",
+    "Gänseblümchen",
+    "Hauskaninchen",
+    "Höckerschwan",
+    "Honigbiene",
+    "Kammmolch",
+    "Libelle",
+    "Löwenzahn"
+  ],
+  "artenNachweis": {
+    "Ziege": "belegt",
+    "Erdkröte": "typisch",
+    "Grasfrosch": "typisch",
+    "Haushuhn": "typisch",
+    "Schaf": "typisch",
+    "Schilf": "typisch",
+    "Stockente": "typisch",
+    "Teichfrosch": "typisch",
+    "Blässhuhn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Hauskaninchen": "typisch",
+    "Höckerschwan": "typisch",
+    "Honigbiene": "typisch",
+    "Kammmolch": "typisch",
+    "Libelle": "typisch",
+    "Löwenzahn": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier",
+    "teich-tuempel"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "hunde-erlaubt"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.369422,
+      12.867391
+    ],
+    [
+      51.369496,
+      12.86736
+    ],
+    [
+      51.369515,
+      12.867403
+    ],
+    [
+      51.36957,
+      12.867532
+    ],
+    [
+      51.369556,
+      12.867727
+    ],
+    [
+      51.369612,
+      12.867903
+    ],
+    [
+      51.369599,
+      12.867934
+    ],
+    [
+      51.369642,
+      12.868042
+    ],
+    [
+      51.369687,
+      12.868106
+    ],
+    [
+      51.369867,
+      12.868984
+    ],
+    [
+      51.369992,
+      12.869472
+    ],
+    [
+      51.370288,
+      12.870155
+    ],
+    [
+      51.370069,
+      12.870323
+    ],
+    [
+      51.369746,
+      12.870645
+    ],
+    [
+      51.369421,
+      12.871094
+    ],
+    [
+      51.368609,
+      12.87184
+    ],
+    [
+      51.36855,
+      12.87111
+    ],
+    [
+      51.368191,
+      12.870404
+    ],
+    [
+      51.367315,
+      12.869951
+    ],
+    [
+      51.367545,
+      12.86952
+    ],
+    [
+      51.367928,
+      12.867878
+    ],
+    [
+      51.36839,
+      12.867831
+    ],
+    [
+      51.368797,
+      12.867512
+    ],
+    [
+      51.368919,
+      12.867464
+    ],
+    [
+      51.369197,
+      12.867256
+    ],
+    [
+      51.369422,
+      12.867391
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 1421852336,
+      "lat": 51.369487,
+      "lon": 12.86757,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Streichelzoo",
+      "thema": "Ziegen",
+      "kurztext": "Im Streichelzoo leben Ziegen, die Kinder berühren dürfen.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 1421852337,
+      "lat": 51.36943,
+      "lon": 12.867657,
+      "km": 0,
+      "reihenfolge": 2,
+      "titel": "Erdmännchen",
+      "thema": "Erdmännchenanlage",
+      "kurztext": "Die Erdmännchenanlage besteht seit 2009, im März 2026 zogen neue Tiere ein.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 1421852343,
+      "lat": 51.369359,
+      "lon": 12.868445,
+      "km": 0,
+      "reihenfolge": 3,
+      "titel": "Shetlandponys",
+      "thema": "Ponypflege",
+      "kurztext": "Kinder und Jugendliche pflegen die Shetlandponys mit.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 222952994,
+      "lat": 51.368801,
+      "lon": 12.869026,
+      "km": 0,
+      "reihenfolge": 4,
+      "titel": "Schwanenteich",
+      "thema": "Rundgang",
+      "kurztext": "Rund um den Schwanenteich wurde das Gehege erweitert, der Weg führt einmal herum.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 13066527626,
+      "lat": 51.369629,
+      "lon": 12.867349,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 13066527627,
+      "lat": 51.369643,
+      "lon": 12.867366,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 13066527628,
+      "lat": 51.369601,
+      "lon": 12.867431,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 13066767995,
+      "lat": 51.36976,
+      "lon": 12.867348,
+      "kategorie": "gastro",
+      "name": null
+    },
+    {
+      "osmId": 13988042397,
+      "lat": 51.369167,
+      "lon": 12.868447,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 13988042457,
+      "lat": 51.366907,
+      "lon": 12.870232,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 222952997,
+      "lat": 51.369989,
+      "lon": 12.867231,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 862546870,
+      "lat": 51.370085,
+      "lon": 12.86771,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 862546884,
+      "lat": 51.370743,
+      "lon": 12.86929,
+      "kategorie": "parking",
+      "name": null
+    }
+  ],
+  "eintritt": true,
+  "eintrittPreise": "2 Euro pro Person",
+  "oeffnungszeiten": "April bis Oktober täglich 8 bis 18 Uhr, November bis März täglich 8 bis 17 Uhr.",
+  "besuchshinweise": "Hunde dürfen mitgebracht werden. Toiletten liegen auf dem Weg vom Parkplatz zum Tiergehege, in der Pilgerrast.",
+  "hoertext": "Hinter dem Schloss beginnt der Park, und mit ihm das Gehege. Im Streichelzoo drängen sich die Ziegen am Zaun. Die Erdmännchen stehen aufrecht in ihrer Anlage, die seit 2009 besteht und nach Auskunft des Vereins die größte in Sachsen ist. Shetlandponys werden von Kindern und Jugendlichen mitgepflegt. Der Weg läuft einmal um den Schwanenteich. Durch den Ort führen der Lutherweg und der Jakobsweg, und am Rand liegt die Dahlener Heide.",
+  "bilderAsset": "assets/images/trails/tiergehege-dornreichenbach/credits.json",
+  "dataVersion": 36
+}

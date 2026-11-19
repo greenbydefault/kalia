@@ -1,0 +1,177 @@
+{
+  "id": "waldspielplatz-ameisenhausen-heidesee-halle",
+  "name": "Waldspielplatz Ameisenhausen",
+  "typ": "waldspielplatz",
+  "gebiet": "wald",
+  "kurzbeschreibung": "Waldspielplatz am Heidesee mit Ameisenhügel zum Klettern, Balancierstrecken und Holzgeräten. Frei zugänglich am Rand der Dölauer Heide.",
+  "beschreibung": "Am Heidesee, am Rand der Dölauer Heide, liegt ein Waldspielplatz mit Ameisen als Thema. Der Kletterhügel ist einem Ameisenhügel nachempfunden und hat Tunnel und Rutsche. Mehrere Balancierstrecken, die Ameisenstraßen, führen zum Hügel. Dazu kommen eine Doppelschaukel, ein Karussell und ein Wipptier, liebevoll aus Holz geschnitzt, außerdem Findlinge. Zwei Bänke mit Picknicktisch laden zur Pause ein. Der Platz wurde zwischen 2017 und 2021 erneuert und liegt mitten im Wald.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Waldspielplatz am Heidesee",
+  "betreiber": "Stadt Halle (Saale)",
+  "region": "Heidesee, Halle (Saale), Sachsen-Anhalt",
+  "website": "https://halle365.de/veranstaltungsort/spielplatz-ameisenhausen-am-heidesee",
+  "anreise": "Adresse: Am Heidesee 4, 06126 Halle (Saale). Haltestelle Am Heidesee. Fahrradbügel am Eingang.",
+  "startName": "Eingang Am Heidesee",
+  "arten": [
+    "Stieleiche",
+    "Hainbuche",
+    "Hängebirke",
+    "Gemeine Esche",
+    "Eichelhäher",
+    "Buchfink",
+    "Kohlmeise",
+    "Rotkehlchen",
+    "Buntspecht",
+    "Eichhörnchen",
+    "Rote Waldameise"
+  ],
+  "artenNachweis": {
+    "Stieleiche": "typisch",
+    "Hainbuche": "typisch",
+    "Hängebirke": "typisch",
+    "Gemeine Esche": "typisch",
+    "Eichelhäher": "typisch",
+    "Buchfink": "typisch",
+    "Kohlmeise": "typisch",
+    "Rotkehlchen": "typisch",
+    "Buntspecht": "typisch",
+    "Eichhörnchen": "typisch",
+    "Rote Waldameise": "typisch"
+  },
+  "lebensraeume": [
+    "eichen-mischwald"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz",
+    "picknick"
+  ],
+  "form": "flaeche",
+  "route": [
+    [
+      51.489001,
+      11.899505
+    ],
+    [
+      51.488881,
+      11.899771
+    ],
+    [
+      51.489014,
+      11.899924
+    ],
+    [
+      51.488895,
+      11.900076
+    ]
+  ],
+  "area": [
+    [
+      51.488735,
+      11.900023
+    ],
+    [
+      51.488813,
+      11.900246
+    ],
+    [
+      51.488857,
+      11.900267
+    ],
+    [
+      51.488901,
+      11.900264
+    ],
+    [
+      51.489054,
+      11.900216
+    ],
+    [
+      51.489023,
+      11.899352
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": -2654168147,
+      "lat": 51.489001,
+      "lon": 11.899505,
+      "km": 0.0,
+      "titel": "Ameisenhügel",
+      "thema": "Klettergerüst",
+      "kurztext": "Kletterhügel in Form eines Ameisenhügels, mit Tunnelsystem und Rutsche.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": -1463742611,
+      "lat": 51.488881,
+      "lon": 11.899771,
+      "km": 0.02,
+      "titel": "Ameisenstraßen",
+      "thema": "Balancierstrecken",
+      "kurztext": "Drei Balancierstrecken führen zum Ameisenhügel hinauf.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": -4098492092,
+      "lat": 51.489014,
+      "lon": 11.899924,
+      "km": 0.04,
+      "titel": "Schaukeln und Karussell",
+      "thema": "Holzgeräte",
+      "kurztext": "Doppelschaukel, Karussell und Wipptier aus geschnitztem Holz.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": -283813357,
+      "lat": 51.488895,
+      "lon": 11.900076,
+      "km": 0.06,
+      "titel": "Findlinge",
+      "thema": "Steine",
+      "kurztext": "Findlinge liegen als Sitz- und Kletterelemente auf der Spielfläche.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 4459351393,
+      "lat": 51.488967,
+      "lon": 11.899911,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 9741015717,
+      "lat": 51.488897,
+      "lon": 11.899714,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 667674760,
+      "lat": 51.488874,
+      "lon": 11.900056,
+      "kategorie": "playground",
+      "name": "\"Tiere des Waldes\" Am Heidesee"
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Frei zugänglich.",
+  "besuchshinweise": "Für Kinder von 0 bis 12 Jahren ausgelegt. Fahrradbügel und Müllbehälter stehen am Platz.",
+  "hoertext": "Ameisenhausen heißt der Waldspielplatz am Heidesee, und der Name verrät das Thema. Auf der Spielfläche steht ein Klettergerüst in Form eines Ameisenhügels, mit einem Tunnelsystem im Inneren und einer Rutsche nach unten, und mehrere Balancierstrecken, die Ameisenstraßen, führen auf den Hügel zu. Daneben schwingt eine Doppelschaukel. Ein Karussell dreht sich, Wipptier und Wippelemente sind liebevoll aus Holz geschnitzt. Findlinge gehören zur Ausstattung, ebenso zwei Bänke mit Picknicktisch. Zwischen 2017 und 2021 wurde der Platz erneuert, mitten im Wald am Rand der Dölauer Heide.",
+  "bilderAsset": "assets/images/trails/waldspielplatz-ameisenhausen-heidesee-halle/credits.json",
+  "dataVersion": 21
+}

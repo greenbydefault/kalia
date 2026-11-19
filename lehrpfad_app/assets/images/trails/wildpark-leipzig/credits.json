@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-wisent.jpg",
+  "caption": "Wisent im Wildpark Leipzig.",
+  "credit": "Ad Meskens",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_Wildpark_Wisent.JPG",
+  "kind": "ort"
+ },
+ {
+  "file": "02-teehaus.jpg",
+  "caption": "Russisches Teehaus im Wildpark Leipzig.",
+  "credit": "Cmuelle8",
+  "license": "cc0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Leipzig_-_Russisches_Teehaus.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "03-grossgehege.jpg",
+  "caption": "Großgehege für Rot-, Dam- und Muffelwild im Wildpark Leipzig.",
+  "credit": "Geisler Martin",
+  "license": "cc-by-sa-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Lzg._Gro%C3%9Fgehege.jpg",
+  "kind": "ort"
+ }
+]

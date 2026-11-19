@@ -22,6 +22,13 @@
    "thumbImage": "5125f3d1-6740-55a8-ad6b-5705cfbf67a8"
   },
   {
+   "id": "baeuerlicher-erlebnispfad-goldberg-20-halle",
+   "dataVersion": 31,
+   "file": "baeuerlicher-erlebnispfad-goldberg-20-halle.json",
+   "thumb": "thumbs/baeuerlicher-erlebnispfad-goldberg-20-halle.avif",
+   "thumbImage": "0ecb0d61-6dbc-5840-960f-fa699e0046cb"
+  },
+  {
    "id": "bagower-bruch",
    "dataVersion": 2,
    "file": "bagower-bruch.json",
@@ -134,6 +141,13 @@
    "thumbImage": "5b12ebd3-909b-5514-b31e-bf1e06736e74"
   },
   {
+   "id": "billi-bockert-erlebnistour-bad-dueben",
+   "dataVersion": 25,
+   "file": "billi-bockert-erlebnistour-bad-dueben.json",
+   "thumb": "thumbs/billi-bockert-erlebnistour-bad-dueben.avif",
+   "thumbImage": "a09f0296-e0a9-5ee7-adc9-af9377274533"
+  },
+  {
    "id": "braumannswiesen",
    "dataVersion": 1,
    "file": "braumannswiesen.json",
@@ -225,6 +239,13 @@
    "thumbImage": "49b9622a-6293-5964-97f7-040388c600fe"
   },
   {
+   "id": "haustierfarm-wildpark-leipzig",
+   "dataVersion": 28,
+   "file": "haustierfarm-wildpark-leipzig.json",
+   "thumb": "thumbs/haustierfarm-wildpark-leipzig.avif",
+   "thumbImage": "0c293d23-7f49-5bba-8312-3ac6ffa15007"
+  },
+  {
    "id": "heide-erlebnisweg",
    "dataVersion": 1,
    "file": "heide-erlebnisweg.json",
@@ -244,6 +265,18 @@
    "file": "heilwald-bad-doberan.json",
    "thumb": "thumbs/heilwald-bad-doberan.avif",
    "thumbImage": "c668044f-39a0-5a26-826e-c36b9d6aaa8f"
+  },
+  {
+   "id": "heimatnaturgarten-weissenfels-weg-der-sinne",
+   "dataVersion": 31,
+   "file": "heimatnaturgarten-weissenfels-weg-der-sinne.json"
+  },
+  {
+   "id": "heimattierpark-suedpark-merseburg",
+   "dataVersion": 35,
+   "file": "heimattierpark-suedpark-merseburg.json",
+   "thumb": "thumbs/heimattierpark-suedpark-merseburg.avif",
+   "thumbImage": "229a9520-0bf5-5c6e-ada1-1df2493e8fc3"
   },
   {
    "id": "hullerbusch",
@@ -554,6 +587,13 @@
    "thumbImage": "ba4de494-0c61-59e0-abc9-07004faec00f"
   },
   {
+   "id": "spielplatz-salz-und-wasser-kurpark-bad-duerrenberg",
+   "dataVersion": 25,
+   "file": "spielplatz-salz-und-wasser-kurpark-bad-duerrenberg.json",
+   "thumb": "thumbs/spielplatz-salz-und-wasser-kurpark-bad-duerrenberg.avif",
+   "thumbImage": "d91eefb0-2ae1-54b0-8ef8-0c210256a64d"
+  },
+  {
    "id": "spurenweg-kratzeburg",
    "dataVersion": 1,
    "file": "spurenweg-kratzeburg.json",
@@ -575,11 +615,60 @@
    "thumbImage": "8a3d5984-aeae-5398-8c39-c64eadeea4ab"
   },
   {
+   "id": "streichelzoo-torgauer-arche",
+   "dataVersion": 16,
+   "file": "streichelzoo-torgauer-arche.json",
+   "thumb": "thumbs/streichelzoo-torgauer-arche.avif",
+   "thumbImage": "c31c9a81-f46f-5535-b712-8f9c71e66c9a"
+  },
+  {
    "id": "stubbenkammer-koenigsstuhl",
    "dataVersion": 1,
    "file": "stubbenkammer-koenigsstuhl.json",
    "thumb": "thumbs/stubbenkammer-koenigsstuhl.avif",
    "thumbImage": "7c81d02c-b806-5693-9550-412911bfb7ae"
+  },
+  {
+   "id": "tier-und-erlebnispark-luetzen",
+   "dataVersion": 29,
+   "file": "tier-und-erlebnispark-luetzen.json",
+   "thumb": "thumbs/tier-und-erlebnispark-luetzen.avif",
+   "thumbImage": "91582196-5fa9-5932-b6cb-8e206581304e"
+  },
+  {
+   "id": "tiergehege-bitterfeld-gruene-lunge",
+   "dataVersion": 33,
+   "file": "tiergehege-bitterfeld-gruene-lunge.json",
+   "thumb": "thumbs/tiergehege-bitterfeld-gruene-lunge.avif",
+   "thumbImage": "bcc399c0-7e46-5b90-8c76-8242343c998a"
+  },
+  {
+   "id": "tiergehege-dornreichenbach",
+   "dataVersion": 36,
+   "file": "tiergehege-dornreichenbach.json",
+   "thumb": "thumbs/tiergehege-dornreichenbach.avif",
+   "thumbImage": "aac7b1e4-92e2-5a22-8115-c3a9b364618c"
+  },
+  {
+   "id": "tiergehege-park-beilrode",
+   "dataVersion": 13,
+   "file": "tiergehege-park-beilrode.json",
+   "thumb": "thumbs/tiergehege-park-beilrode.avif",
+   "thumbImage": "5fd1dbc3-7758-5e70-a27b-20a0208418d9"
+  },
+  {
+   "id": "tierpark-eilenburg",
+   "dataVersion": 27,
+   "file": "tierpark-eilenburg.json",
+   "thumb": "thumbs/tierpark-eilenburg.avif",
+   "thumbImage": "5b6ad441-4dba-591a-aebb-b75e2f923a8e"
+  },
+  {
+   "id": "tierpark-petersberg",
+   "dataVersion": 22,
+   "file": "tierpark-petersberg.json",
+   "thumb": "thumbs/tierpark-petersberg.avif",
+   "thumbImage": "9dce651b-dcbc-5f2d-abb1-6f012271048d"
   },
   {
    "id": "treetopwalk-edersee",
@@ -659,11 +748,25 @@
    "thumbImage": "bd9f7d0d-8ae6-5d56-acd6-3c0ba3877566"
   },
   {
+   "id": "waldspielplatz-ameisenhausen-heidesee-halle",
+   "dataVersion": 21,
+   "file": "waldspielplatz-ameisenhausen-heidesee-halle.json",
+   "thumb": "thumbs/waldspielplatz-ameisenhausen-heidesee-halle.avif",
+   "thumbImage": "290e40a2-fbd7-57e8-89c4-d5de09c658ac"
+  },
+  {
    "id": "waldspielplatz-jaegerhaus",
    "dataVersion": 2,
    "file": "waldspielplatz-jaegerhaus.json",
    "thumb": "thumbs/waldspielplatz-jaegerhaus.avif",
    "thumbImage": "9b79931f-371a-59c8-9f62-84b48bfad402"
+  },
+  {
+   "id": "waldspielplatz-wildpark-leipzig",
+   "dataVersion": 47,
+   "file": "waldspielplatz-wildpark-leipzig.json",
+   "thumb": "thumbs/waldspielplatz-wildpark-leipzig.avif",
+   "thumbImage": "dd0f77c7-fdb7-5930-bb90-7dea019a817d"
   },
   {
    "id": "waldwipfelweg-sankt-englmar",
@@ -678,6 +781,13 @@
    "file": "wasser-erlebnispfad-sprotte.json",
    "thumb": "thumbs/wasser-erlebnispfad-sprotte.avif",
    "thumbImage": "76bc07a5-b33a-58af-88b0-18df66022269"
+  },
+  {
+   "id": "wasserspielplatz-am-gastronom-halle-neustadt",
+   "dataVersion": 13,
+   "file": "wasserspielplatz-am-gastronom-halle-neustadt.json",
+   "thumb": "thumbs/wasserspielplatz-am-gastronom-halle-neustadt.avif",
+   "thumbImage": "3051ca99-750b-5403-9cc0-481f0dc744f3"
   },
   {
    "id": "wasserspielplatz-giesserbruecke",
@@ -699,6 +809,13 @@
    "file": "wasserspielplatz-lene-voigt.json",
    "thumb": "thumbs/wasserspielplatz-lene-voigt.avif",
    "thumbImage": "2e94758b-94a6-5101-a1d3-40867794d670"
+  },
+  {
+   "id": "wasserspielplatz-neue-ufer-leipzig",
+   "dataVersion": 18,
+   "file": "wasserspielplatz-neue-ufer-leipzig.json",
+   "thumb": "thumbs/wasserspielplatz-neue-ufer-leipzig.avif",
+   "thumbImage": "d12f0842-ffa2-59bd-ba8a-c78b1885a5c0"
   },
   {
    "id": "wasserspielplatz-oberholz",
@@ -727,6 +844,13 @@
    "file": "weltpfad-nicklheim.json",
    "thumb": "thumbs/weltpfad-nicklheim.avif",
    "thumbImage": "c7ae1037-4c56-51ba-ae46-09510c0411cd"
+  },
+  {
+   "id": "wildpark-leipzig",
+   "dataVersion": 82,
+   "file": "wildpark-leipzig.json",
+   "thumb": "thumbs/wildpark-leipzig.avif",
+   "thumbImage": "8278fa56-aca8-585f-b4b2-1d441c487160"
   },
   {
    "id": "wolfspfad-zwenzow",

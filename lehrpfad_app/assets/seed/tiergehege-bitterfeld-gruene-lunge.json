@@ -1,0 +1,270 @@
+{
+  "id": "tiergehege-bitterfeld-gruene-lunge",
+  "name": "Tiergehege Bitterfeld (Grüne Lunge)",
+  "typ": "naturerlebnis",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Am Ende der Grünen Lunge in Bitterfeld leben Ponys, Esel, Zwergziegen und Damwild. Gestreichelt werden dürfen einige davon.",
+  "beschreibung": "Die Grüne Lunge in Bitterfeld geht auf eine Schenkung zurück. Vor hundert Jahren schenkte der Kommerzienrat August Piltz der Stadt einige seiner Wiesen, darum heißt der Park auch Piltzteichanlage. An ihrem Ende liegt das Tiergehege. Rund siebzig Tiere leben dort, darunter Ponys, Esel, Zwergziegen, Kamerunschafe, Hühner und ein Rudel Damwild. Einige dürfen Besucher streicheln. Am großen Fischteich stehen Bänke, und neben dem Gehege liegt eine Minigolfanlage mit 18 Bahnen.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "keine Markierung",
+  "betreiber": "PePe - activ e.V.",
+  "region": "Bitterfeld, Anhalt-Bitterfeld",
+  "website": "http://pepe-activ.de/tiergehege/",
+  "anreise": "Adresse: Parkstraße 1, 06749 Bitterfeld-Wolfen. Vom Bahnhof Bitterfeld etwa 15 Minuten zu Fuß. Das Tiergehege liegt am Ende der Grünen Lunge, der Parkanlage im Zentrum von Bitterfeld.",
+  "startName": "Tiergehege Bitterfeld",
+  "arten": [
+    "Ziege",
+    "Schaf",
+    "Haushuhn",
+    "Damhirsch",
+    "Erdkröte",
+    "Grasfrosch",
+    "Stockente",
+    "Teichfrosch",
+    "Blässhuhn",
+    "Höckerschwan",
+    "Honigbiene",
+    "Libelle",
+    "Schilf",
+    "Gänseblümchen",
+    "Löwenzahn",
+    "Rotklee"
+  ],
+  "artenNachweis": {
+    "Ziege": "belegt",
+    "Schaf": "belegt",
+    "Haushuhn": "belegt",
+    "Damhirsch": "belegt",
+    "Erdkröte": "typisch",
+    "Grasfrosch": "typisch",
+    "Stockente": "typisch",
+    "Teichfrosch": "typisch",
+    "Blässhuhn": "typisch",
+    "Höckerschwan": "typisch",
+    "Honigbiene": "typisch",
+    "Libelle": "typisch",
+    "Schilf": "typisch",
+    "Gänseblümchen": "typisch",
+    "Löwenzahn": "typisch",
+    "Rotklee": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier",
+    "teich-tuempel"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz"
+  ],
+  "form": "flaeche",
+  "route": [
+    [
+      51.618325,
+      12.332956
+    ],
+    [
+      51.618603,
+      12.332825
+    ],
+    [
+      51.618816,
+      12.332973
+    ],
+    [
+      51.61907,
+      12.332942
+    ]
+  ],
+  "area": [
+    [
+      51.6194074,
+      12.3327675
+    ],
+    [
+      51.6192546,
+      12.3322773
+    ],
+    [
+      51.6189591,
+      12.332587
+    ],
+    [
+      51.6188921,
+      12.332341
+    ],
+    [
+      51.6187789,
+      12.3324206
+    ],
+    [
+      51.6186646,
+      12.3324666
+    ],
+    [
+      51.6185701,
+      12.3324631
+    ],
+    [
+      51.6184669,
+      12.3324259
+    ],
+    [
+      51.6183658,
+      12.3324065
+    ],
+    [
+      51.6182076,
+      12.3324153
+    ],
+    [
+      51.6181142,
+      12.3324861
+    ],
+    [
+      51.6179482,
+      12.332909
+    ],
+    [
+      51.6180219,
+      12.3332293
+    ],
+    [
+      51.6181707,
+      12.3335003
+    ],
+    [
+      51.61822,
+      12.3335206
+    ],
+    [
+      51.6182225,
+      12.3336172
+    ],
+    [
+      51.6183607,
+      12.3339628
+    ],
+    [
+      51.6188474,
+      12.3334249
+    ],
+    [
+      51.6192361,
+      12.3329736
+    ],
+    [
+      51.6194074,
+      12.3327675
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 1323476440,
+      "lat": 51.6183252,
+      "lon": 12.3329556,
+      "km": 0.0,
+      "titel": "Ziegen",
+      "thema": "Haustier",
+      "kurztext": "Zwergziegen zählen zu den Haustieren im Tiergehege, die Besucher streicheln dürfen.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 1323475262,
+      "lat": 51.6186033,
+      "lon": 12.3328247,
+      "km": 0.03,
+      "titel": "Esel",
+      "thema": "Haustier",
+      "kurztext": "Esel gehören zu den Haustieren im Tiergehege, die Besucher streicheln dürfen.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 1323475261,
+      "lat": 51.6188163,
+      "lon": 12.3329728,
+      "km": 0.06,
+      "titel": "Geflügel",
+      "thema": "Haustier",
+      "kurztext": "Hühner leben im Tiergehege. Mitgebrachtes Futter ist für alle Tiere verboten.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 1323476441,
+      "lat": 51.6190697,
+      "lon": 12.3329421,
+      "km": 0.09,
+      "titel": "Spielplatz",
+      "thema": "Spiel",
+      "kurztext": "Für die Kleinsten ist ein kleiner Spielplatz eingerichtet, Kinderfahrzeuge stehen bereit.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 12246919054,
+      "lat": 51.6189618,
+      "lon": 12.3327081,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 12246919055,
+      "lat": 51.6190672,
+      "lon": 12.332694,
+      "kategorie": "shelter",
+      "name": null
+    },
+    {
+      "osmId": 12247036250,
+      "lat": 51.6191379,
+      "lon": 12.3322953,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 13056096240,
+      "lat": 51.6180416,
+      "lon": 12.3326096,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 13056086685,
+      "lat": 51.6196722,
+      "lon": 12.3318786,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 1323476441,
+      "lat": 51.6190697,
+      "lon": 12.3329421,
+      "kategorie": "playground",
+      "name": null
+    },
+    {
+      "osmId": 1392055183,
+      "lat": 51.6187062,
+      "lon": 12.3307658,
+      "kategorie": "parking",
+      "name": null
+    }
+  ],
+  "eintritt": false,
+  "oeffnungszeiten": "Montag bis Freitag 8 bis 18 Uhr. Samstag, Sonntag und Feiertage 9 bis 18 Uhr.",
+  "besuchshinweise": "Mitgebrachtes Futter ist verboten. Futtermöhren gibt es in kleinen Beuteln gegen eine geringe Futterspende, täglich frisch geschält. Kinderfahrzeuge stehen am Spielplatz bereit.",
+  "hoertext": "Wo der Bitterfelder Park ausläuft, am Ende der Grünen Lunge, beginnt das Tiergehege, in dem Esel, Ziegen, Hühner und Ponys leben, dazu Kamerunschafe und ein Rudel Damwild. Einige Tiere dürfen gestreichelt werden. Täglich frisch geschälte Möhren wechseln gegen eine geringe Spende den Besitzer, mitgebrachtes Futter bleibt verboten. Für die Kleinsten wartet ein Spielplatz, samt Kinderfahrzeugen. Bänke am großen Fischteich laden zum Verweilen ein. Hundert Jahre alt ist der Park, den ein Kommerzienrat der Stadt einst schenkte.",
+  "bilderAsset": "assets/images/trails/tiergehege-bitterfeld-gruene-lunge/credits.json",
+  "dataVersion": 33
+}

@@ -1,0 +1,248 @@
+{
+  "id": "tiergehege-park-beilrode",
+  "name": "Tiergehege im Park Beilrode",
+  "typ": "naturerlebnis",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Ein kleines Tiergehege mit Damwild und Ziegen im Park von Beilrode. Dazu Blühwiese, Gutshaus und Panzerdenkmal.",
+  "beschreibung": "Im Ortszentrum von Beilrode liegt ein Park von etwa drei Hektar. Ein altes Gutshaus steht in seiner Mitte, heute sitzt darin die Gemeindeverwaltung. Das kleine Tiergehege mit Damwild und Ziegen am westlichen Rand ist der Anziehungspunkt für große und kleine Besucher. Das Panzerdenkmal liegt im nördlichen Teil. Seit 2019 wächst im Park außerdem eine Blühwiese, die die Gemeinde angelegt hat. Der Rundgang ist kurz: Gutshaus, Gehege und Denkmal liegen nur wenige Gehminuten auseinander.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "keine Markierung",
+  "betreiber": "Gemeinde Beilrode",
+  "region": "Beilrode, Landkreis Nordsachsen, Sachsen",
+  "website": "https://www.beilrode.de/seite/457526/park-beilrode-mit-tiergehege.html",
+  "anreise": "Adresse: Bahnhofstraße 21, 04886 Beilrode. Der Park liegt im Ortszentrum, der Bahnhof Beilrode an der S-Bahn-Linie S4 ist wenige Minuten entfernt. Parkplätze gibt es am Bahnhof.",
+  "startName": "Gutshaus mit Gemeindeverwaltung, Bahnhofstraße 21",
+  "arten": [
+    "Ziege",
+    "Damhirsch",
+    "Löwenzahn",
+    "Gänseblümchen",
+    "Rotklee",
+    "Honigbiene",
+    "Amsel",
+    "Rotkehlchen"
+  ],
+  "artenNachweis": {
+    "Ziege": "belegt",
+    "Damhirsch": "belegt",
+    "Löwenzahn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Rotklee": "typisch",
+    "Honigbiene": "typisch",
+    "Amsel": "typisch",
+    "Rotkehlchen": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.573338,
+      13.063419
+    ],
+    [
+      51.574179,
+      13.064463
+    ],
+    [
+      51.574286,
+      13.06444
+    ],
+    [
+      51.574331,
+      13.064413
+    ],
+    [
+      51.574688,
+      13.06483
+    ],
+    [
+      51.574567,
+      13.065118
+    ],
+    [
+      51.574493,
+      13.06506
+    ],
+    [
+      51.574329,
+      13.065364
+    ],
+    [
+      51.574291,
+      13.065315
+    ],
+    [
+      51.574084,
+      13.065719
+    ],
+    [
+      51.574198,
+      13.065836
+    ],
+    [
+      51.574035,
+      13.066146
+    ],
+    [
+      51.573805,
+      13.065843
+    ],
+    [
+      51.573665,
+      13.065699
+    ],
+    [
+      51.573538,
+      13.065838
+    ],
+    [
+      51.573387,
+      13.066122
+    ],
+    [
+      51.573412,
+      13.066173
+    ],
+    [
+      51.573329,
+      13.066316
+    ],
+    [
+      51.573409,
+      13.066469
+    ],
+    [
+      51.573112,
+      13.066896
+    ],
+    [
+      51.572944,
+      13.066585
+    ],
+    [
+      51.573043,
+      13.06645
+    ],
+    [
+      51.573142,
+      13.066159
+    ],
+    [
+      51.573027,
+      13.065676
+    ],
+    [
+      51.572861,
+      13.065442
+    ],
+    [
+      51.572601,
+      13.064897
+    ],
+    [
+      51.572885,
+      13.064466
+    ],
+    [
+      51.572537,
+      13.063833
+    ],
+    [
+      51.572397,
+      13.063662
+    ],
+    [
+      51.572598,
+      13.063554
+    ],
+    [
+      51.57266,
+      13.06371
+    ],
+    [
+      51.57271,
+      13.063755
+    ],
+    [
+      51.572862,
+      13.063816
+    ],
+    [
+      51.572948,
+      13.063834
+    ],
+    [
+      51.573056,
+      13.063878
+    ],
+    [
+      51.573379,
+      13.063716
+    ],
+    [
+      51.573338,
+      13.063419
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 7803249479,
+      "lat": 51.573728,
+      "lon": 13.064498,
+      "km": 0.0,
+      "titel": "Gutshaus",
+      "thema": "Gemeindeverwaltung im Parkzentrum",
+      "kurztext": "Das alte Gutshaus steht im Zentrum des Parks und beherbergt heute die Gemeindeverwaltung.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 2848463472,
+      "lat": 51.572739,
+      "lon": 13.063798,
+      "km": 0.0,
+      "titel": "Tiergehege",
+      "thema": "Damwild und Ziegen",
+      "kurztext": "Damwild und Ziegen leben im kleinen Tiergehege am westlichen Rand des Parks.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 1118380619,
+      "lat": 51.574273,
+      "lon": 13.06465,
+      "km": 0.0,
+      "titel": "Panzerdenkmal",
+      "thema": "Denkmal der Befreiung",
+      "kurztext": "Das Panzerdenkmal steht im nördlichen Teil des Parks.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "steckbrief": null,
+      "reihenfolge": 3
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 674945850,
+      "lat": 51.571354,
+      "lon": 13.064789,
+      "kategorie": "parking",
+      "name": null
+    }
+  ],
+  "hoertext": "Mitten in Beilrode steht ein altes Gutshaus, in dem heute die Gemeindeverwaltung sitzt. Rund um das Haus erstreckt sich der Park, er misst etwa drei Hektar. Am westlichen Rand liegt ein kleines Gehege, in dem Damwild und Ziegen leben und in dem kleine wie große Besucher am Zaun stehen bleiben. Im nördlichen Teil steht ein Panzerdenkmal. Seit 2019 gehört außerdem eine Blühwiese dazu, die die Gemeinde angelegt hat. Von einem Ende zum anderen sind es nur wenige Schritte.",
+  "bilderAsset": "assets/images/trails/tiergehege-park-beilrode/credits.json",
+  "dataVersion": 13
+}

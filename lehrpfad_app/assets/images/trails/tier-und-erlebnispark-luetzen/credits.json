@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-esel.jpg",
+    "caption": "Esel im Tierpark Lützen.",
+    "credit": "Dguendel",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCtzen,_Tierpark,_Esel.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-martzschpark.jpg",
+    "caption": "Weg im Martzschpark Lützen, in dem der Tierpark liegt.",
+    "credit": "Catatine",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCtzen,_Martzschpark_02.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-haengebauchschwein.jpg",
+    "caption": "Hängebauchschwein im Tierpark Lützen.",
+    "credit": "Dguendel",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCtzen,_Tierpark,_H%C3%A4ngebauchschwein.jpg",
+    "kind": "ort"
+  }
+]

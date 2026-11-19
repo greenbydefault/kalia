@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-hirsche.jpg",
+    "caption": "Hirsche im Tierpark Petersberg.",
+    "credit": "Dguendel",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petersberg_(bei_Halle),_Tierpark,_Hirsche.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "02-lamas.jpg",
+    "caption": "Lamas im Tierpark Petersberg.",
+    "credit": "Dguendel",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petersberg_(bei_Halle),_Tierpark,_Lamas.jpg",
+    "kind": "ort"
+  },
+  {
+    "file": "03-storch.jpg",
+    "caption": "Storch im Tierpark Petersberg.",
+    "credit": "Dguendel",
+    "license": "cc-by-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petersberg_(bei_Halle),_Tierpark,_Storch.jpg",
+    "kind": "ort"
+  }
+]

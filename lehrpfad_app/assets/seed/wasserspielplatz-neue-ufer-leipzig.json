@@ -1,0 +1,195 @@
+{
+  "id": "wasserspielplatz-neue-ufer-leipzig",
+  "name": "Wasserspielplatz Neue Ufer",
+  "typ": "wasserspielplatz",
+  "gebiet": "wasser",
+  "kurzbeschreibung": "Eine Pumpe speist Wasserkanäle, die in den Pleißemühlgraben münden. Daneben steht ein Schiff mit Rutsche und Kletternetz.",
+  "beschreibung": "Neben einem Plattenbau im Zentrum-Süd, an der Kreuzung Wundtstraße und Dufourstraße, liegt ein Spielplatz am Wasser. Die Wasserpumpe speist mehrere Kanäle, die in den Pleißemühlgraben münden. Kinder können darin planschen und Staudämme bauen. Ein Schiff mit Rutsch- und Kletterturm und einem Kletternetz steht daneben, 2020 wurde es saniert. Findlinge und eine Sandspielfläche gehören dazu. Die Wände ringsum tragen Graffiti.",
+  "laengeKm": 0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Spielplatz Neue Ufer",
+  "betreiber": "Stadt Leipzig, Amt für Stadtgrün und Gewässer",
+  "region": "Zentrum-Süd, Leipzig, Sachsen",
+  "website": "https://www.leipzig.de/kultur-und-freizeit/spielplaetze/detail/projekt/spielplatz-neue-ufer",
+  "anreise": "Adresse: Wundtstraße Ecke Dufourstraße, 04107 Leipzig. Straßenbahn 10 und 11, Haltestelle Hohe Straße. Öffentliche Parkplätze sind vorhanden.",
+  "startName": "Spielplatz Neue Ufer",
+  "arten": [
+    "Wasserpumpe"
+  ],
+  "artenNachweis": {},
+  "lebensraeume": [],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.328313,
+      12.369759
+    ],
+    [
+      51.328293,
+      12.369706
+    ],
+    [
+      51.32827,
+      12.36973
+    ],
+    [
+      51.328238,
+      12.369781
+    ],
+    [
+      51.328214,
+      12.369839
+    ],
+    [
+      51.328202,
+      12.36984
+    ],
+    [
+      51.328184,
+      12.369883
+    ],
+    [
+      51.328158,
+      12.369918
+    ],
+    [
+      51.328101,
+      12.369965
+    ],
+    [
+      51.328046,
+      12.369967
+    ],
+    [
+      51.327992,
+      12.36998
+    ],
+    [
+      51.327958,
+      12.370007
+    ],
+    [
+      51.32799,
+      12.370052
+    ],
+    [
+      51.327987,
+      12.370154
+    ],
+    [
+      51.328037,
+      12.37027
+    ],
+    [
+      51.328183,
+      12.370341
+    ],
+    [
+      51.328297,
+      12.37005
+    ],
+    [
+      51.328336,
+      12.369808
+    ],
+    [
+      51.328313,
+      12.369759
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 10956852806,
+      "lat": 51.328145,
+      "lon": 12.37009,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Wasserpumpe",
+      "thema": "Pumpe",
+      "kurztext": "Die Wasserpumpe speist die Kanäle, die in den Pleißemühlgraben münden.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 1418725159,
+      "lat": 51.32824,
+      "lon": 12.370007,
+      "km": 0,
+      "reihenfolge": 2,
+      "titel": "Schiff",
+      "thema": "Kletterturm",
+      "kurztext": "Das Schiff trägt einen Rutsch- und Kletterturm und ein Kletternetz.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 1418725160,
+      "lat": 51.328219,
+      "lon": 12.370019,
+      "km": 0,
+      "reihenfolge": 3,
+      "titel": "Rutsche",
+      "thema": "Rutschbahn",
+      "kurztext": "Die Rutsche führt vom Schiff hinunter.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 13037809587,
+      "lat": 51.328226,
+      "lon": 12.36997,
+      "km": 0,
+      "reihenfolge": 4,
+      "titel": "Sprechrohr",
+      "thema": "Rohr",
+      "kurztext": "Am Schiff ist ein Sprechrohr verbaut.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 10289756281,
+      "lat": 51.32805,
+      "lon": 12.369659,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 10956775301,
+      "lat": 51.328423,
+      "lon": 12.369862,
+      "kategorie": "picnic",
+      "name": null
+    },
+    {
+      "osmId": 11953643975,
+      "lat": 51.328654,
+      "lon": 12.369551,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 108230937,
+      "lat": 51.328164,
+      "lon": 12.369937,
+      "kategorie": "playground",
+      "name": "Neue Ufer"
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei",
+  "oeffnungszeiten": "Ganzjährig frei zugänglich.",
+  "besuchshinweise": "Wechselkleidung mitnehmen, wenn die Kanäle laufen.",
+  "hoertext": "Neben dem Plattenbau an der Wundtstraße schickt eine Pumpe Wasser in die Kanäle. Es rinnt durch die Rinnen, wird aufgestaut, wenn Kinder Dämme bauen, und fließt zuletzt in den Pleißemühlgraben, an dessen Ufer der Spielplatz liegt. Gleich daneben steht das Schiff mit Rutsche und Kletternetz, das 2020 gründlich hergerichtet wurde. Über das Netz geht es hinauf, über die Rutsche wieder hinunter. Findlinge und eine Sandfläche gehören zum Platz. Graffiti ziehen sich über die Wände ringsum.",
+  "bilderAsset": "assets/images/trails/wasserspielplatz-neue-ufer-leipzig/credits.json",
+  "dataVersion": 18
+}

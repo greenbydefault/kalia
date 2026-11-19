@@ -1,0 +1,292 @@
+{
+  "id": "tierpark-petersberg",
+  "name": "Tierpark Petersberg",
+  "typ": "naturerlebnis",
+  "gebiet": "wald",
+  "kurzbeschreibung": "Kleiner Tierpark am Petersberg mit Polarwölfen, Luchsen, Damwild und Stachelschweinen auf 1,5 Hektar. Täglich geöffnet.",
+  "beschreibung": "Der Tierpark besteht seit 1965 auf einem 1,5 Hektar großen, naturbelassenen Gelände am Petersberg. Zu den Tieren zählen Polarwölfe, Luchse, Damwild und Stachelschweine, dazu Lamas, Esel, Weißstörche, Höckerschwäne und Kleintiere aus aller Welt. Eine begehbare Sittichvoliere und die enge Begegnung mit den Stachelschweinen gehören zu den Höhepunkten. Im Gelände steht ein Spielplatz für die jüngeren Gäste.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Tierpark Petersberg",
+  "betreiber": "Förderverein Erholungsgebiet Petersberg e. V.",
+  "region": "Petersberg, Saalekreis, Sachsen-Anhalt",
+  "website": "https://www.tierpark-petersberg.de/",
+  "anreise": "Adresse: Alte Hallesche Straße 28, 06193 Petersberg. Der Tierpark liegt etwa 50 Meter vom Museum Petersberg entfernt, an der Straße gibt es Parkplätze.",
+  "startName": "Eingang Tierpark Petersberg",
+  "arten": [
+    "Damhirsch",
+    "Weißstorch",
+    "Höckerschwan",
+    "Mäusebussard",
+    "Hauskaninchen",
+    "Haushuhn",
+    "Schaf"
+  ],
+  "artenNachweis": {
+    "Damhirsch": "belegt",
+    "Weißstorch": "belegt",
+    "Höckerschwan": "belegt",
+    "Mäusebussard": "belegt",
+    "Hauskaninchen": "belegt",
+    "Haushuhn": "belegt",
+    "Schaf": "belegt"
+  },
+  "lebensraeume": [],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "hunde-erlaubt",
+    "spielplatz"
+  ],
+  "form": "flaeche",
+  "route": [
+    [
+      51.593475,
+      11.958595
+    ],
+    [
+      51.593932,
+      11.959405
+    ],
+    [
+      51.593808,
+      11.96028
+    ],
+    [
+      51.594054,
+      11.960237
+    ],
+    [
+      51.594114,
+      11.960785
+    ],
+    [
+      51.593506,
+      11.960144
+    ]
+  ],
+  "area": [
+    [
+      51.59408,
+      11.958187
+    ],
+    [
+      51.593799,
+      11.958152
+    ],
+    [
+      51.593527,
+      11.958224
+    ],
+    [
+      51.593306,
+      11.958314
+    ],
+    [
+      51.593309,
+      11.958339
+    ],
+    [
+      51.593369,
+      11.958763
+    ],
+    [
+      51.593379,
+      11.958833
+    ],
+    [
+      51.593444,
+      11.959636
+    ],
+    [
+      51.59341,
+      11.959876
+    ],
+    [
+      51.593215,
+      11.959938
+    ],
+    [
+      51.593251,
+      11.960358
+    ],
+    [
+      51.593229,
+      11.960382
+    ],
+    [
+      51.593263,
+      11.960688
+    ],
+    [
+      51.593308,
+      11.961008
+    ],
+    [
+      51.59336,
+      11.961134
+    ],
+    [
+      51.593493,
+      11.961276
+    ],
+    [
+      51.593657,
+      11.961388
+    ],
+    [
+      51.593782,
+      11.961388
+    ],
+    [
+      51.594078,
+      11.961387
+    ],
+    [
+      51.594101,
+      11.961372
+    ],
+    [
+      51.594124,
+      11.961356
+    ],
+    [
+      51.594346,
+      11.961196
+    ],
+    [
+      51.594393,
+      11.961165
+    ],
+    [
+      51.594284,
+      11.960795
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 4132031551,
+      "lat": 51.593475,
+      "lon": 11.958595,
+      "km": 0.0,
+      "titel": "Lamas",
+      "thema": "Lamagehege",
+      "kurztext": "Gehege der Lamas am westlichen Rand des Tierparks.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 4132031554,
+      "lat": 51.593932,
+      "lon": 11.959405,
+      "km": 0.08,
+      "titel": "Polarwölfe",
+      "thema": "Polarwolfanlage",
+      "kurztext": "Anlage der Polarwölfe, die Dienstag, Mittwoch, Freitag, Samstag und Sonntag um 15 Uhr gefüttert werden.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 9508985805,
+      "lat": 51.593808,
+      "lon": 11.96028,
+      "km": 0.14,
+      "titel": "Esel",
+      "thema": "Eselgehege",
+      "kurztext": "Eselgehege nahe dem Luchsgehege.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 4132031552,
+      "lat": 51.594054,
+      "lon": 11.960237,
+      "km": 0.17,
+      "titel": "Luchs",
+      "thema": "Luchsgehege",
+      "kurztext": "Gehege des Europäischen Luchses.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    },
+    {
+      "osmId": 4132031549,
+      "lat": 51.594114,
+      "lon": 11.960785,
+      "km": 0.2,
+      "titel": "Damwild",
+      "thema": "Damwildgehege",
+      "kurztext": "Gehege des Damwilds am östlichen Rand des Tierparks.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 5
+    },
+    {
+      "osmId": 4132032422,
+      "lat": 51.593506,
+      "lon": 11.960144,
+      "km": 0.28,
+      "titel": "Stachelschweine",
+      "thema": "Stachelschweine",
+      "kurztext": "Hier ist die hautnahe Begegnung mit den Stachelschweinen möglich.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 6
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 4132031560,
+      "lat": 51.59305,
+      "lon": 11.958292,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 1460393034,
+      "lat": 51.593047,
+      "lon": 11.957573,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 9951551967,
+      "lat": 51.592878,
+      "lon": 11.958719,
+      "kategorie": "gastro",
+      "name": null
+    },
+    {
+      "osmId": 1031821149,
+      "lat": 51.59334,
+      "lon": 11.959978,
+      "kategorie": "playground",
+      "name": null
+    },
+    {
+      "osmId": 3556541093,
+      "lat": 51.593218,
+      "lon": 11.95972,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 32987383,
+      "lat": 51.591992,
+      "lon": 11.957978,
+      "kategorie": "parking",
+      "name": null
+    }
+  ],
+  "eintritt": true,
+  "eintrittPreise": "Erwachsene 6 €, Rentner 5 €, Kinder ab 3 Jahren 3 €, Hund 0,50 €",
+  "oeffnungszeiten": "Täglich. 1. März bis 31. Oktober 10–17 Uhr, 1. November bis 28. Februar 10–16 Uhr. Letzter Einlass 15:30 Uhr. 24. und 31. Dezember geschlossen.",
+  "besuchshinweise": "Letzter Einlass 15:30 Uhr. Heiligabend und Silvester bleibt der Tierpark geschlossen. Hunde sind willkommen.",
+  "hoertext": "Seit 1965 besteht am Petersberg ein kleiner Tierpark auf eineinhalb Hektar. Zu den Höhepunkten zählen die seltenen Polarwölfe, eine begehbare Sittichvoliere und die hautnahe Begegnung mit den Stachelschweinen. Luchse, Damwild, Lamas und Esel haben eigene Gehege. Gefüttert werden die Polarwölfe dienstags, mittwochs und freitags bis sonntags um fünfzehn Uhr. Hunde willkommen. Geöffnet ist das ganze Jahr, im Sommer von zehn bis siebzehn Uhr, im Winter von zehn bis sechzehn Uhr, nur am Heiligabend und an Silvester bleibt der Tierpark zu.",
+  "bilderAsset": "assets/images/trails/tierpark-petersberg/credits.json",
+  "dataVersion": 22
+}

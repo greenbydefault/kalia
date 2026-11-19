@@ -1,0 +1,303 @@
+{
+  "id": "baeuerlicher-erlebnispfad-goldberg-20-halle",
+  "name": "Goldberg 20 – Bäuerlicher Erlebnispfad",
+  "typ": "kinderbauernhof",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Nutztiergarten mit Hühnern, Hasen, Meerschweinchen und Eseln, dazu Bauerngarten und Barfußpfad. Der Goldberg in Halle ist ganzjährig frei zugänglich.",
+  "beschreibung": "Am Goldberg in Halle liegt ein Nutztiergarten mit über 30 Tierarten und rund 250 Tieren. Alle Gehege tragen Infotafeln. Zwischen den Gehegen führen Wege durch einen Bauerngarten, über einen Barfußpfad und in ein Labyrinth. Ziehbrunnen, Backofen und Fühlkästen laden zum Anfassen ein. Der Goldberg stand schon um 1750 unter diesem Namen auf Karten. Beim Abräumen der Erde fanden sich hier vorgeschichtliche Steinkistengräber.",
+  "laengeKm": 0.0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Goldberg 20, Zum Goldberg",
+  "betreiber": "Paritätisches Sozialwerk Behindertenhilfe",
+  "region": "Goldberg, Halle (Saale), Sachsen-Anhalt",
+  "website": "https://www.goldberg20.de/index.php?article_id=13",
+  "anreise": "Adresse: Zum Goldberg 20, 06118 Halle (Saale). Straßenbahn Linie 1 Richtung Frohe Zukunft, dann zu Fuß die Gleimstraße entlang bis zum Ende der Siedlung und durch den Park zur hinteren Toreinfahrt.",
+  "startName": "Übersichtskarte Tiergarten am Goldberg",
+  "arten": [
+    "Haushuhn",
+    "Ziege",
+    "Schaf",
+    "Damhirsch",
+    "Hauskaninchen",
+    "Honigbiene",
+    "Löwenzahn",
+    "Gänseblümchen",
+    "Rotklee",
+    "Amsel",
+    "Rotkehlchen"
+  ],
+  "artenNachweis": {
+    "Haushuhn": "belegt",
+    "Ziege": "belegt",
+    "Schaf": "belegt",
+    "Damhirsch": "belegt",
+    "Hauskaninchen": "typisch",
+    "Honigbiene": "typisch",
+    "Löwenzahn": "typisch",
+    "Gänseblümchen": "typisch",
+    "Rotklee": "typisch",
+    "Amsel": "typisch",
+    "Rotkehlchen": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich",
+    "spielplatz",
+    "barfusspfad"
+  ],
+  "form": "flaeche",
+  "route": [
+    [
+      51.503582,
+      12.008705
+    ],
+    [
+      51.503351,
+      12.009798
+    ],
+    [
+      51.50339,
+      12.010165
+    ],
+    [
+      51.503421,
+      12.01139
+    ],
+    [
+      51.502626,
+      12.011168
+    ],
+    [
+      51.502762,
+      12.010525
+    ],
+    [
+      51.502418,
+      12.010176
+    ],
+    [
+      51.502237,
+      12.010569
+    ],
+    [
+      51.502046,
+      12.011431
+    ]
+  ],
+  "area": [
+    [
+      51.503652,
+      12.008573
+    ],
+    [
+      51.502398,
+      12.010006
+    ],
+    [
+      51.502135,
+      12.01037
+    ],
+    [
+      51.50172,
+      12.011403
+    ],
+    [
+      51.501697,
+      12.011741
+    ],
+    [
+      51.502136,
+      12.011924
+    ],
+    [
+      51.503521,
+      12.011455
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 1362676654,
+      "lat": 51.503351,
+      "lon": 12.009798,
+      "km": 0.08,
+      "titel": "Hühner",
+      "thema": "Hühnergehege",
+      "kurztext": "Hühnergehege am Beginn des Rundgangs, mit Infotafel.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 1
+    },
+    {
+      "osmId": 3153742605,
+      "lat": 51.50339,
+      "lon": 12.010165,
+      "km": 0.11,
+      "titel": "Labyrinth",
+      "thema": "Spielfläche",
+      "kurztext": "Labyrinth als Spielfläche zwischen den Gehegen.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 2
+    },
+    {
+      "osmId": 868528386,
+      "lat": 51.503421,
+      "lon": 12.01139,
+      "km": 0.19,
+      "titel": "Weg der Sinne",
+      "thema": "Barfußpfad",
+      "kurztext": "Barfußpfad mit Pflastersteinen unter den Füßen.",
+      "erlebnisse": [
+        "barfusspfad"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 3
+    },
+    {
+      "osmId": 1362673289,
+      "lat": 51.502626,
+      "lon": 12.011168,
+      "km": 0.28,
+      "titel": "Rentiere",
+      "thema": "Rentiergehege",
+      "kurztext": "Gehege mit den Rentieren der Stadt Halle.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 4
+    },
+    {
+      "osmId": 1362672048,
+      "lat": 51.502762,
+      "lon": 12.010525,
+      "km": 0.33,
+      "titel": "Esel und Pferde",
+      "thema": "Hausesel und Pferde",
+      "kurztext": "Hausesel und Pferde teilen sich ein Gehege.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 5
+    },
+    {
+      "osmId": 12616520371,
+      "lat": 51.502418,
+      "lon": 12.010176,
+      "km": 0.37,
+      "titel": "Meerschweinchen",
+      "thema": "Meerschweinchengehege",
+      "kurztext": "Meerschweinchengehege, daneben leben Seidenhühner.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 6
+    },
+    {
+      "osmId": 1362674398,
+      "lat": 51.502237,
+      "lon": 12.010569,
+      "km": 0.41,
+      "titel": "Hasen",
+      "thema": "Hasengehege",
+      "kurztext": "Gehege mit Hasen und Infotafel.",
+      "erlebnisse": [
+        "tafel"
+      ],
+      "barrierefrei": false,
+      "reihenfolge": 7
+    },
+    {
+      "osmId": 1362677678,
+      "lat": 51.502046,
+      "lon": 12.011431,
+      "km": 0.47,
+      "titel": "Bauerngarten",
+      "thema": "Garten",
+      "kurztext": "Bauerngarten am Ende des Rundgangs, daneben das Naschparadies.",
+      "erlebnisse": [],
+      "barrierefrei": false,
+      "reihenfolge": 8
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 9530619217,
+      "lat": 51.502568,
+      "lon": 12.011452,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 12616550644,
+      "lat": 51.503179,
+      "lon": 12.010101,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 12616569901,
+      "lat": 51.503514,
+      "lon": 12.00932,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 12027968489,
+      "lat": 51.502577,
+      "lon": 12.009041,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 968085486,
+      "lat": 51.503777,
+      "lon": 12.008378,
+      "kategorie": "parking",
+      "name": null
+    },
+    {
+      "osmId": 3153742605,
+      "lat": 51.50339,
+      "lon": 12.010165,
+      "kategorie": "playground",
+      "name": "Labyrinth"
+    },
+    {
+      "osmId": 1362676648,
+      "lat": 51.503493,
+      "lon": 12.0105,
+      "kategorie": "shelter",
+      "name": "Großer Ausguck \"Hundertwasser\""
+    },
+    {
+      "osmId": 1362676649,
+      "lat": 51.503501,
+      "lon": 12.009416,
+      "kategorie": "shelter",
+      "name": "kleiner Ausguck \"Am Weinberg\""
+    },
+    {
+      "osmId": 8095655758,
+      "lat": 51.502141,
+      "lon": 12.010505,
+      "kategorie": "wc",
+      "name": null
+    }
+  ],
+  "eintritt": false,
+  "eintrittPreise": "Eintritt frei, Spende willkommen",
+  "oeffnungszeiten": "Täglich 8–18 Uhr.",
+  "besuchshinweise": "Grillen und Feiern sind ohne schriftliche Genehmigung der Einrichtungsleitung verboten. Tierführungen für Gruppen nach Absprache, 9 bis 12:30 Uhr.",
+  "hoertext": "Seit mindestens 1750 trägt dieser Hügel am Stadtrand von Halle seinen Namen. Gräber aus der Vorzeit sollen ihn geprägt haben: Steinkisten mit Urnen und durchlochten Steinhämmern kamen beim Abräumen der Erde zum Vorschein. Heute leben hier Rentiere, Esel und Pferde, in kleineren Gehegen Hühner, Hasen und Meerschweinchen, und an jedem Gehege hängt eine Infotafel. Barfuß geht es auf dem Weg der Sinne über Pflastersteine. Ein Labyrinth dient als Spielfläche. Am Ende des Rundgangs wartet der Bauerngarten mit dem angrenzenden Naschparadies. Frei zugänglich, geöffnet täglich von acht bis achtzehn Uhr.",
+  "bilderAsset": "assets/images/trails/baeuerlicher-erlebnispfad-goldberg-20-halle/credits.json",
+  "dataVersion": 31
+}

@@ -1,0 +1,222 @@
+{
+  "id": "haustierfarm-wildpark-leipzig",
+  "name": "Haustierfarm im Wildpark Leipzig",
+  "typ": "kinderbauernhof",
+  "gebiet": "hof",
+  "kurzbeschreibung": "Hühner, Meerschweine, Kaninchen, Esel und Kamele leben auf der Haustierfarm im Leipziger Süden. Kamele tragen Reiter.",
+  "beschreibung": "Kamele im Leipziger Süden: Die Haustierfarm neben dem Wildpark hält neben Hühnern, Meerschweinen, Kaninchen und Eseln auch Kamele. Die Tiere dürfen gestreichelt werden, ausgebildete Tierpfleger kümmern sich um sie. Auf dem Kamel reiten Erwachsene und Kinder, wegen der Tiere gilt eine Gewichtsbegrenzung. Das Ponyreiten ist für kleine Kinder. Für Schulklassen gibt es Sachunterricht über Haus- und Nutztiere.",
+  "laengeKm": 0,
+  "dauerMin": 45,
+  "rundkurs": false,
+  "markierung": "Haustierfarm im Wildpark Leipzig",
+  "betreiber": "Reit- und Kutschbetrieb Bauersfeld",
+  "region": "Connewitz, Leipzig, Sachsen",
+  "website": "https://haustierfarm-leipzig.com/",
+  "anreise": "Adresse: Koburger Straße 12, 04277 Leipzig. Bus 70 und 107 halten am Wildpark, die Farm nennt 300 Meter bis zur Haltestelle. Parken am Wildpark.",
+  "startName": "Kasse der Haustierfarm",
+  "arten": [
+    "Haushuhn",
+    "Hauskaninchen",
+    "Schaf",
+    "Ziege",
+    "Gänseblümchen",
+    "Honigbiene",
+    "Löwenzahn",
+    "Rotklee",
+    "Amsel",
+    "Rotkehlchen"
+  ],
+  "artenNachweis": {
+    "Haushuhn": "belegt",
+    "Hauskaninchen": "belegt",
+    "Schaf": "typisch",
+    "Ziege": "typisch",
+    "Gänseblümchen": "typisch",
+    "Honigbiene": "typisch",
+    "Löwenzahn": "typisch",
+    "Rotklee": "typisch",
+    "Amsel": "typisch",
+    "Rotkehlchen": "typisch"
+  },
+  "lebensraeume": [
+    "hof-nutztier"
+  ],
+  "naturraum": "norddt-tiefland",
+  "tags": [
+    "kinderfreundlich"
+  ],
+  "form": "flaeche",
+  "area": [
+    [
+      51.300593,
+      12.36824
+    ],
+    [
+      51.300436,
+      12.368262
+    ],
+    [
+      51.300222,
+      12.367431
+    ],
+    [
+      51.300052,
+      12.367229
+    ],
+    [
+      51.299968,
+      12.367162
+    ],
+    [
+      51.299963,
+      12.367104
+    ],
+    [
+      51.300039,
+      12.367074
+    ],
+    [
+      51.300595,
+      12.366646
+    ],
+    [
+      51.301172,
+      12.366203
+    ],
+    [
+      51.301505,
+      12.365947
+    ],
+    [
+      51.301536,
+      12.367247
+    ],
+    [
+      51.301525,
+      12.367866
+    ],
+    [
+      51.301513,
+      12.36812
+    ],
+    [
+      51.301482,
+      12.368543
+    ],
+    [
+      51.301373,
+      12.368898
+    ],
+    [
+      51.301344,
+      12.369153
+    ],
+    [
+      51.301178,
+      12.369121
+    ],
+    [
+      51.300953,
+      12.369078
+    ],
+    [
+      51.300902,
+      12.368871
+    ],
+    [
+      51.300593,
+      12.36824
+    ]
+  ],
+  "stationen": [
+    {
+      "osmId": 5860596130,
+      "lat": 51.300464,
+      "lon": 12.367576,
+      "km": 0,
+      "reihenfolge": 1,
+      "titel": "Kasse",
+      "thema": "Eintritt",
+      "kurztext": "Am Eingang liegt die Kasse; die Farm nennt Preise für Einzelne und für Familien.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 620284713,
+      "lat": 51.301155,
+      "lon": 12.36708,
+      "km": 0,
+      "reihenfolge": 2,
+      "titel": "Kleintiere",
+      "thema": "Streicheln",
+      "kurztext": "Hühner, Meerschweine und Kaninchen gehören zu den Tieren, die auf der Farm gestreichelt werden dürfen.",
+      "erlebnisse": [
+        "mitmach-modell"
+      ],
+      "barrierefrei": false
+    },
+    {
+      "osmId": 620284702,
+      "lat": 51.301439,
+      "lon": 12.367054,
+      "km": 0,
+      "reihenfolge": 3,
+      "titel": "Kamele",
+      "thema": "Kamelreiten",
+      "kurztext": "Kamele tragen Reiter, für Kinder und Erwachsene, mit einer Gewichtsgrenze zum Wohl der Tiere.",
+      "erlebnisse": [],
+      "barrierefrei": false
+    }
+  ],
+  "amenities": [
+    {
+      "osmId": 262489517,
+      "lat": 51.300219,
+      "lon": 12.367515,
+      "kategorie": "gastro",
+      "name": "Imbissgastronomie im Wildpark"
+    },
+    {
+      "osmId": 5860595807,
+      "lat": 51.300718,
+      "lon": 12.367084,
+      "kategorie": "wc",
+      "name": null
+    },
+    {
+      "osmId": 5860595824,
+      "lat": 51.301008,
+      "lon": 12.367121,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 5860596127,
+      "lat": 51.300552,
+      "lon": 12.367771,
+      "kategorie": "picnic",
+      "name": null
+    },
+    {
+      "osmId": 6527920298,
+      "lat": 51.300767,
+      "lon": 12.367092,
+      "kategorie": "bench",
+      "name": null
+    },
+    {
+      "osmId": 6527920299,
+      "lat": 51.300786,
+      "lon": 12.367084,
+      "kategorie": "bench",
+      "name": null
+    }
+  ],
+  "eintritt": true,
+  "eintrittPreise": "Erwachsene 12 Euro, Kinder von 1 bis 14 Jahren 5 Euro, Familie mit 2 Erwachsenen und bis zu 2 Kindern 30 Euro. Kamelreiten 10 Euro für Kinder, 15 Euro für Erwachsene, Ponyreiten 5 Euro.",
+  "oeffnungszeiten": "Täglich ab 10 Uhr, saison- und witterungsabhängig. Kamel- und Ponyreiten ab 11 Uhr.",
+  "besuchshinweise": "Hunde und andere Tiere dürfen nicht mit hinein. Kinder unter 12 Jahren nur mit Erwachsenen. Ponyreiten gibt es nur für kleine Kinder.",
+  "hoertext": "Hinter der Kasse am Rand des Wildparks ändert sich der Takt. Hühner scharren, Meerschweine und Kaninchen warten auf Hände, und Esel haben viel Platz. Am Kamelpfad stehen die Kamele, und weil sie Reiter tragen, gilt eine Gewichtsgrenze, die der Betrieb zum Wohl der Tiere festgelegt hat. Reiten gibt es erst ab elf Uhr, dann sitzen die ganz Kleinen auf dem Pony. Ausgebildete Tierpfleger kümmern sich um alle Tiere. Und wer Kamelwolle mitnehmen will, bekommt sie, solange der Vorrat reicht.",
+  "bilderAsset": "assets/images/trails/haustierfarm-wildpark-leipzig/credits.json",
+  "dataVersion": 28
+}

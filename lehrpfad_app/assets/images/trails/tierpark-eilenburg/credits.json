@@ -1,0 +1,38 @@
+[
+ {
+  "file": "01-eingang.jpg",
+  "caption": "Eingangsbereich des Tierparks im Eilenburger Stadtpark.",
+  "credit": "Joachim Köhler",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEilenburg-Tierpark-Eingang-I0934-pCOSt-11-07-2020.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "02-hutaffen.jpg",
+  "caption": "Hutaffen im Freigehege.",
+  "credit": "Joachim Köhler",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEilenburg-Tierpark-Hutaffen-I0783-11-07-2020.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "03-alpakas.jpg",
+  "caption": "Alpakas im Freigehege.",
+  "credit": "Joachim Köhler",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEilenburg-Tierpark-Alpakas-I0912-11-07-2020.jpg",
+  "kind": "ort"
+ },
+ {
+  "file": "04-freigehege.jpg",
+  "caption": "Freigehege im Tierpark.",
+  "credit": "Joachim Köhler",
+  "license": "cc-by-sa-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEilenburg-Tierpark-Freigehege-I0905-pCOAn-11-07-2020.jpg",
+  "kind": "ort"
+ }
+]

@@ -2,6 +2,7 @@
   "arboretum-dreetz": [],
   "archaeologischer-wanderpfad-fischbek": [],
   "auwald-erlebnispfad": [],
+  "baeuerlicher-erlebnispfad-goldberg-20-halle": [],
   "bagower-bruch": [],
   "baumkronenpfad-hainich": [],
   "baumkronenpfad-hoherodskopf": [],
@@ -21,58 +22,22 @@
   "braumannswiesen": [],
   "can-jalpi-arenys": [],
   "entdeckerpfad-biologische-vielfalt": [
-    {
-      "poi": "museum-koehlerhof-wiethagen",
-      "sek": 96
-    },
-    {
-      "poi": "aktivitaet-karls-roevershagen",
-      "sek": 216
-    },
-    {
-      "poi": "restaurant-blaue-boje-markgrafenheide",
-      "sek": 925
-    },
-    {
-      "poi": "heimatmuseum-graal-mueritz",
-      "sek": 946
-    },
-    {
-      "poi": "baden-markgrafenheide",
-      "sek": 1023
-    },
-    {
-      "poi": "camping-ostseecamp-graal-mueritz",
-      "sek": 1035
-    },
-    {
-      "poi": "restaurant-windfluechter",
-      "sek": 1089
-    },
-    {
-      "poi": "cafe-witt-graal-mueritz",
-      "sek": 1133
-    }
+    {"poi": "museum-koehlerhof-wiethagen", "sek": 96},
+    {"poi": "aktivitaet-karls-roevershagen", "sek": 216},
+    {"poi": "restaurant-blaue-boje-markgrafenheide", "sek": 925},
+    {"poi": "heimatmuseum-graal-mueritz", "sek": 946},
+    {"poi": "baden-markgrafenheide", "sek": 1023},
+    {"poi": "camping-ostseecamp-graal-mueritz", "sek": 1035},
+    {"poi": "restaurant-windfluechter", "sek": 1089},
+    {"poi": "cafe-witt-graal-mueritz", "sek": 1133}
   ],
   "erlebe-bruder-wald": [],
   "erlebnisrundweg-friedrichskoog": [],
   "erlebnisweg-mueggelberge-teufelssee": [
-    {
-      "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
-      "sek": 68
-    },
-    {
-      "poi": "restaurant-mueggelturm-baude",
-      "sek": 475
-    },
-    {
-      "poi": "cafe-hoernchen",
-      "sek": 672
-    },
-    {
-      "poi": "strandbad-mueggelsee",
-      "sek": 936
-    }
+    {"poi": "restaurant-mueggelsee-terrassen-ruebezahl", "sek": 68},
+    {"poi": "restaurant-mueggelturm-baude", "sek": 475},
+    {"poi": "cafe-hoernchen", "sek": 672},
+    {"poi": "strandbad-mueggelsee", "sek": 936}
   ],
   "everstorfer-forst": [],
   "fledermauspfad-bossow": [],
@@ -80,158 +45,78 @@
   "fossilruten-moens-klint": [],
   "geopfad-markkleeberg": [],
   "grossartige-kuestenflora-graal-mueritz": [
-    {
-      "poi": "restaurant-windfluechter",
-      "sek": 46
-    },
-    {
-      "poi": "cafe-witt-graal-mueritz",
-      "sek": 277
-    },
-    {
-      "poi": "heimatmuseum-graal-mueritz",
-      "sek": 323
-    },
-    {
-      "poi": "camping-ostseecamp-graal-mueritz",
-      "sek": 670
-    },
-    {
-      "poi": "aktivitaet-karls-roevershagen",
-      "sek": 993
-    },
-    {
-      "poi": "museum-koehlerhof-wiethagen",
-      "sek": 1061
-    }
+    {"poi": "restaurant-windfluechter", "sek": 46},
+    {"poi": "cafe-witt-graal-mueritz", "sek": 277},
+    {"poi": "heimatmuseum-graal-mueritz", "sek": 323},
+    {"poi": "camping-ostseecamp-graal-mueritz", "sek": 670},
+    {"poi": "aktivitaet-karls-roevershagen", "sek": 993},
+    {"poi": "museum-koehlerhof-wiethagen", "sek": 1061}
   ],
   "harzungspfad": [
-    {
-      "poi": "restaurant-da-michelino",
-      "sek": 1116
-    },
-    {
-      "poi": "cafe-zwei-kraniche",
-      "sek": 1130
-    }
+    {"poi": "restaurant-da-michelino", "sek": 1116},
+    {"poi": "cafe-zwei-kraniche", "sek": 1130}
+  ],
+  "haustierfarm-wildpark-leipzig": [
+    {"poi": "restaurant-waldfrieden-leipzig", "sek": 145},
+    {"poi": "cafe-emi-leipzig", "sek": 157},
+    {"poi": "museum-panometer-leipzig", "sek": 343},
+    {"poi": "baden-cospudener-see-leipzig", "sek": 403},
+    {"poi": "museum-naturkundemuseum-leipzig", "sek": 584},
+    {"poi": "aktivitaet-kanupark-markkleeberg", "sek": 901}
   ],
   "heide-erlebnisweg": [],
   "heilige-hallen": [],
   "heilwald-bad-doberan": [
-    {
-      "poi": "aktivitaet-molli-doberan",
-      "sek": 129
-    },
-    {
-      "poi": "museum-moeckelhaus-doberan",
-      "sek": 229
-    },
-    {
-      "poi": "cafe-kornhaus-doberan",
-      "sek": 285
-    },
-    {
-      "poi": "aktivitaet-sommerrodelbahn-doberan",
-      "sek": 288
-    },
-    {
-      "poi": "baden-strand-heiligendamm",
-      "sek": 665
-    },
-    {
-      "poi": "restaurant-fischereihof-detlefsen",
-      "sek": 1016
-    }
+    {"poi": "aktivitaet-molli-doberan", "sek": 129},
+    {"poi": "museum-moeckelhaus-doberan", "sek": 229},
+    {"poi": "cafe-kornhaus-doberan", "sek": 285},
+    {"poi": "aktivitaet-sommerrodelbahn-doberan", "sek": 288},
+    {"poi": "baden-strand-heiligendamm", "sek": 665},
+    {"poi": "restaurant-fischereihof-detlefsen", "sek": 1016}
+  ],
+  "heimatnaturgarten-weissenfels-weg-der-sinne": [
+    {"poi": "baden-freibad-weissenfels", "sek": 229},
+    {"poi": "cafe-drei-schwaene-weissenfels", "sek": 332},
+    {"poi": "museum-weissenfels-schloss-neu-augustusburg", "sek": 386}
+  ],
+  "heimattierpark-suedpark-merseburg": [
+    {"poi": "restaurant-waldhaus-suedpark-merseburg", "sek": 21},
+    {"poi": "restaurant-alte-apotheke-bad-duerrenberg", "sek": 758},
+    {"poi": "aktivitaet-palmenhaus-bad-duerrenberg", "sek": 799},
+    {"poi": "cafe-eiskfee-bad-duerrenberg", "sek": 833}
   ],
   "hullerbusch": [],
   "jamnoer-urwald": [],
   "kaeflingsberg-speck": [],
   "kinderbauernhof-mauerplatz": [
-    {
-      "poi": "cafe-engelbecken",
-      "sek": 69
-    },
-    {
-      "poi": "sommerbad-kreuzberg",
-      "sek": 297
-    },
-    {
-      "poi": "zenner-biergarten",
-      "sek": 646
-    },
-    {
-      "poi": "cafe-panke",
-      "sek": 984
-    }
+    {"poi": "cafe-engelbecken", "sek": 69},
+    {"poi": "sommerbad-kreuzberg", "sek": 297},
+    {"poi": "zenner-biergarten", "sek": 646},
+    {"poi": "cafe-panke", "sek": 984}
   ],
   "kinderbauernhof-pinke-panke": [
-    {
-      "poi": "cafe-panke",
-      "sek": 253
-    },
-    {
-      "poi": "cafe-zwei-kraniche",
-      "sek": 1032
-    },
-    {
-      "poi": "cafe-engelbecken",
-      "sek": 1046
-    },
-    {
-      "poi": "sommerbad-kreuzberg",
-      "sek": 1163
-    },
-    {
-      "poi": "restaurant-da-michelino",
-      "sek": 1170
-    }
+    {"poi": "cafe-panke", "sek": 253},
+    {"poi": "cafe-zwei-kraniche", "sek": 1032},
+    {"poi": "cafe-engelbecken", "sek": 1046},
+    {"poi": "sommerbad-kreuzberg", "sek": 1163},
+    {"poi": "restaurant-da-michelino", "sek": 1170}
   ],
   "kinderwald-maerkisch-buchholz": [],
   "kollhorst": [],
   "kurwald-graal-mueritz": [
-    {
-      "poi": "camping-ostseecamp-graal-mueritz",
-      "sek": 217
-    },
-    {
-      "poi": "heimatmuseum-graal-mueritz",
-      "sek": 280
-    },
-    {
-      "poi": "restaurant-windfluechter",
-      "sek": 435
-    },
-    {
-      "poi": "cafe-witt-graal-mueritz",
-      "sek": 479
-    },
-    {
-      "poi": "aktivitaet-karls-roevershagen",
-      "sek": 894
-    },
-    {
-      "poi": "museum-koehlerhof-wiethagen",
-      "sek": 962
-    },
-    {
-      "poi": "restaurant-blaue-boje-markgrafenheide",
-      "sek": 1156
-    }
+    {"poi": "camping-ostseecamp-graal-mueritz", "sek": 217},
+    {"poi": "heimatmuseum-graal-mueritz", "sek": 280},
+    {"poi": "restaurant-windfluechter", "sek": 435},
+    {"poi": "cafe-witt-graal-mueritz", "sek": 479},
+    {"poi": "aktivitaet-karls-roevershagen", "sek": 894},
+    {"poi": "museum-koehlerhof-wiethagen", "sek": 962},
+    {"poi": "restaurant-blaue-boje-markgrafenheide", "sek": 1156}
   ],
   "lehde": [],
   "lehrpfad-laehnwitz": [
-    {
-      "poi": "gasthaus-seeblick-garden",
-      "sek": 106
-    },
-    {
-      "poi": "badestelle-garder-see",
-      "sek": 129
-    },
-    {
-      "poi": "camping-garder-see",
-      "sek": 138
-    }
+    {"poi": "gasthaus-seeblick-garden", "sek": 106},
+    {"poi": "badestelle-garder-see", "sek": 129},
+    {"poi": "camping-garder-see", "sek": 138}
   ],
   "lehrpfad-pflanzenschutz-schwentinental": [],
   "lehrpfad-sandhof": [],
@@ -250,30 +135,12 @@
   "naturlehrpfad-doelau-ii": [],
   "naturlehrpfad-grabschuetzer-see": [],
   "naturlehrpfad-huetter-klosterteiche": [
-    {
-      "poi": "restaurant-fischereihof-detlefsen",
-      "sek": 90
-    },
-    {
-      "poi": "aktivitaet-molli-doberan",
-      "sek": 850
-    },
-    {
-      "poi": "museum-moeckelhaus-doberan",
-      "sek": 876
-    },
-    {
-      "poi": "cafe-kornhaus-doberan",
-      "sek": 921
-    },
-    {
-      "poi": "aktivitaet-sommerrodelbahn-doberan",
-      "sek": 926
-    },
-    {
-      "poi": "baden-strand-heiligendamm",
-      "sek": 1124
-    }
+    {"poi": "restaurant-fischereihof-detlefsen", "sek": 90},
+    {"poi": "aktivitaet-molli-doberan", "sek": 850},
+    {"poi": "museum-moeckelhaus-doberan", "sek": 876},
+    {"poi": "cafe-kornhaus-doberan", "sek": 921},
+    {"poi": "aktivitaet-sommerrodelbahn-doberan", "sek": 926},
+    {"poi": "baden-strand-heiligendamm", "sek": 1124}
   ],
   "naturlehrpfad-plaussiger-waeldchen": [],
   "naturlehrpfad-pressel": [],
@@ -281,230 +148,149 @@
   "naturwaldpfad": [],
   "oher-graeberfeld": [],
   "ostsee-lehrpfad-graal-mueritz": [
-    {
-      "poi": "restaurant-windfluechter",
-      "sek": 46
-    },
-    {
-      "poi": "cafe-witt-graal-mueritz",
-      "sek": 277
-    },
-    {
-      "poi": "heimatmuseum-graal-mueritz",
-      "sek": 323
-    },
-    {
-      "poi": "camping-ostseecamp-graal-mueritz",
-      "sek": 670
-    },
-    {
-      "poi": "aktivitaet-karls-roevershagen",
-      "sek": 993
-    },
-    {
-      "poi": "museum-koehlerhof-wiethagen",
-      "sek": 1061
-    }
+    {"poi": "restaurant-windfluechter", "sek": 46},
+    {"poi": "cafe-witt-graal-mueritz", "sek": 277},
+    {"poi": "heimatmuseum-graal-mueritz", "sek": 323},
+    {"poi": "camping-ostseecamp-graal-mueritz", "sek": 670},
+    {"poi": "aktivitaet-karls-roevershagen", "sek": 993},
+    {"poi": "museum-koehlerhof-wiethagen", "sek": 1061}
   ],
   "parc-forestal-mataro": [],
   "pilzlehrpfad-vierburg": [
-    {
-      "poi": "restaurant-zur-boerse-buetzow",
-      "sek": 463
-    },
-    {
-      "poi": "cafe-am-markt-buetzow",
-      "sek": 529
-    }
+    {"poi": "restaurant-zur-boerse-buetzow", "sek": 463},
+    {"poi": "cafe-am-markt-buetzow", "sek": 529}
   ],
   "plansche-plaenterwald": [
-    {
-      "poi": "zenner-biergarten",
-      "sek": 184
-    },
-    {
-      "poi": "cafe-engelbecken",
-      "sek": 664
-    },
-    {
-      "poi": "sommerbad-kreuzberg",
-      "sek": 859
-    }
+    {"poi": "zenner-biergarten", "sek": 184},
+    {"poi": "cafe-engelbecken", "sek": 664},
+    {"poi": "sommerbad-kreuzberg", "sek": 859}
   ],
   "raddusch": [],
   "rauener-berge": [],
   "ravensberge": [
-    {
-      "poi": "strandbad-wannsee",
-      "sek": 964
-    }
+    {"poi": "strandbad-wannsee", "sek": 964}
   ],
   "rimstinger-steinlehrpfad": [],
   "rittbrookpfad": [],
   "schwartautal": [],
   "skywalk-allgaeu": [],
   "sl-c-73-alzines-can-portell": [],
+  "spielplatz-salz-und-wasser-kurpark-bad-duerrenberg": [
+    {"poi": "aktivitaet-palmenhaus-bad-duerrenberg", "sek": 29},
+    {"poi": "restaurant-alte-apotheke-bad-duerrenberg", "sek": 73},
+    {"poi": "cafe-eiskfee-bad-duerrenberg", "sek": 204},
+    {"poi": "restaurant-waldhaus-suedpark-merseburg", "sek": 868}
+  ],
   "spurenweg-kratzeburg": [],
   "steinerlebnisplatz-markkleeberg": [],
   "stendenitz": [],
   "stubbenkammer-koenigsstuhl": [],
+  "tier-und-erlebnispark-luetzen": [
+    {"poi": "cafe-eiskfee-bad-duerrenberg", "sek": 899},
+    {"poi": "restaurant-alte-apotheke-bad-duerrenberg", "sek": 964},
+    {"poi": "aktivitaet-palmenhaus-bad-duerrenberg", "sek": 1005}
+  ],
+  "tiergehege-bitterfeld-gruene-lunge": [
+    {"poi": "aktivitaet-bitterfelder-bogen", "sek": 111},
+    {"poi": "museum-kreismuseum-bitterfeld", "sek": 172},
+    {"poi": "cafe-eiscafe-am-pegelturm", "sek": 353},
+    {"poi": "aktivitaet-pegelturm-goitzsche", "sek": 375}
+  ],
+  "tiergehege-dornreichenbach": [
+    {"poi": "restaurant-la-grotta-wurzen", "sek": 818},
+    {"poi": "cafe-domcafe-wurzen", "sek": 821},
+    {"poi": "museum-kulturhistorisches-wurzen", "sek": 839},
+    {"poi": "baden-freibad-dreibruecken-wurzen", "sek": 913}
+  ],
+  "tierpark-eilenburg": [],
+  "tierpark-petersberg": [],
   "treetopwalk-edersee": [],
   "trifelserlebnisweg-annweiler": [
-    {
-      "poi": "cafe-escher-annweiler",
-      "sek": 52
-    },
-    {
-      "poi": "museum-unterm-trifels-annweiler",
-      "sek": 58
-    },
-    {
-      "poi": "cafe-chelini-annweiler",
-      "sek": 59
-    },
-    {
-      "poi": "baden-trifelsbad-annweiler",
-      "sek": 147
-    },
-    {
-      "poi": "hofladen-gut-hohenberg-annweiler",
-      "sek": 151
-    },
-    {
-      "poi": "camping-naturfreunde-annweiler",
-      "sek": 201
-    },
-    {
-      "poi": "restaurant-barbarossa-trifels",
-      "sek": 448
-    },
-    {
-      "poi": "klosterstuebl-eusserthal",
-      "sek": 648
-    },
-    {
-      "poi": "museum-reichsburg-trifels",
-      "sek": 652
-    },
-    {
-      "poi": "klosterkirche-eusserthal",
-      "sek": 677
-    },
-    {
-      "poi": "birkenthaler-hof-eusserthal",
-      "sek": 751
-    },
-    {
-      "poi": "aktivitaet-wildpark-silz",
-      "sek": 792
-    },
-    {
-      "poi": "pfaelzer-wald-forellen-eusserthal",
-      "sek": 880
-    }
+    {"poi": "cafe-escher-annweiler", "sek": 52},
+    {"poi": "museum-unterm-trifels-annweiler", "sek": 58},
+    {"poi": "cafe-chelini-annweiler", "sek": 59},
+    {"poi": "baden-trifelsbad-annweiler", "sek": 147},
+    {"poi": "hofladen-gut-hohenberg-annweiler", "sek": 151},
+    {"poi": "camping-naturfreunde-annweiler", "sek": 201},
+    {"poi": "restaurant-barbarossa-trifels", "sek": 448},
+    {"poi": "klosterstuebl-eusserthal", "sek": 648},
+    {"poi": "museum-reichsburg-trifels", "sek": 652},
+    {"poi": "klosterkirche-eusserthal", "sek": 677},
+    {"poi": "birkenthaler-hof-eusserthal", "sek": 751},
+    {"poi": "aktivitaet-wildpark-silz", "sek": 792},
+    {"poi": "pfaelzer-wald-forellen-eusserthal", "sek": 880}
   ],
   "untereider": [],
   "von-moor-zu-moor": [],
   "wahrberge": [],
   "wald-berlin-klima": [
-    {
-      "poi": "restaurant-waldhaus-havelchaussee",
-      "sek": 62
-    },
-    {
-      "poi": "restaurant-kaisergarten-grunewaldturm",
-      "sek": 78
-    },
-    {
-      "poi": "strandbad-wannsee",
-      "sek": 933
-    }
+    {"poi": "restaurant-waldhaus-havelchaussee", "sek": 62},
+    {"poi": "restaurant-kaisergarten-grunewaldturm", "sek": 78},
+    {"poi": "strandbad-wannsee", "sek": 933}
   ],
   "wald-erlebnispfad-serrahn": [],
   "waldhusen": [],
   "waldlehrpfad-hermsdorf": [
-    {
-      "poi": "cafe-zwei-kraniche",
-      "sek": 392
-    },
-    {
-      "poi": "restaurant-da-michelino",
-      "sek": 435
-    },
-    {
-      "poi": "strandbad-tegeler-see",
-      "sek": 1048
-    }
+    {"poi": "cafe-zwei-kraniche", "sek": 392},
+    {"poi": "restaurant-da-michelino", "sek": 435},
+    {"poi": "strandbad-tegeler-see", "sek": 1048}
   ],
   "waldlehrpfad-silberbergen": [],
   "waldlehrpfad-taubensuhl-landau": [
-    {
-      "poi": "birkenthaler-hof-eusserthal",
-      "sek": 740
-    },
-    {
-      "poi": "klosterstuebl-eusserthal",
-      "sek": 795
-    },
-    {
-      "poi": "pfaelzer-wald-forellen-eusserthal",
-      "sek": 825
-    },
-    {
-      "poi": "klosterkirche-eusserthal",
-      "sek": 846
-    }
+    {"poi": "birkenthaler-hof-eusserthal", "sek": 740},
+    {"poi": "klosterstuebl-eusserthal", "sek": 795},
+    {"poi": "pfaelzer-wald-forellen-eusserthal", "sek": 825},
+    {"poi": "klosterkirche-eusserthal", "sek": 846}
   ],
+  "waldspielplatz-ameisenhausen-heidesee-halle": [],
   "waldspielplatz-jaegerhaus": [
-    {
-      "poi": "la-famiglia-esslingen",
-      "sek": 131
-    },
-    {
-      "poi": "jaegerhaus-esslingen",
-      "sek": 192
-    }
+    {"poi": "la-famiglia-esslingen", "sek": 131},
+    {"poi": "jaegerhaus-esslingen", "sek": 192}
+  ],
+  "waldspielplatz-wildpark-leipzig": [
+    {"poi": "restaurant-waldfrieden-leipzig", "sek": 143},
+    {"poi": "cafe-emi-leipzig", "sek": 155},
+    {"poi": "museum-panometer-leipzig", "sek": 341},
+    {"poi": "baden-cospudener-see-leipzig", "sek": 367},
+    {"poi": "museum-naturkundemuseum-leipzig", "sek": 582},
+    {"poi": "aktivitaet-kanupark-markkleeberg", "sek": 899}
   ],
   "waldwipfelweg-sankt-englmar": [],
   "wasser-erlebnispfad-sprotte": [
-    {
-      "poi": "cafe-eiserne-bank",
-      "sek": 156
-    },
-    {
-      "poi": "museum-burg-posterstein",
-      "sek": 165
-    },
-    {
-      "poi": "imbiss-rothenmuehle",
-      "sek": 173
-    },
-    {
-      "poi": "tatami-schmoelln",
-      "sek": 711
-    },
-    {
-      "poi": "knopfmuseum-schmoelln",
-      "sek": 786
-    },
-    {
-      "poi": "museumsschaenke-schmoelln",
-      "sek": 790
-    }
+    {"poi": "cafe-eiserne-bank", "sek": 156},
+    {"poi": "museum-burg-posterstein", "sek": 165},
+    {"poi": "imbiss-rothenmuehle", "sek": 173},
+    {"poi": "tatami-schmoelln", "sek": 711},
+    {"poi": "knopfmuseum-schmoelln", "sek": 786},
+    {"poi": "museumsschaenke-schmoelln", "sek": 790}
   ],
+  "wasserspielplatz-am-gastronom-halle-neustadt": [],
   "wasserspielplatz-giesserbruecke": [],
   "wasserspielplatz-heide-sued": [],
   "wasserspielplatz-lene-voigt": [],
+  "wasserspielplatz-neue-ufer-leipzig": [
+    {"poi": "museum-naturkundemuseum-leipzig", "sek": 238},
+    {"poi": "cafe-emi-leipzig", "sek": 327},
+    {"poi": "restaurant-waldfrieden-leipzig", "sek": 339},
+    {"poi": "museum-panometer-leipzig", "sek": 367},
+    {"poi": "baden-cospudener-see-leipzig", "sek": 647},
+    {"poi": "aktivitaet-kanupark-markkleeberg", "sek": 1110}
+  ],
   "wasserspielplatz-oberholz": [],
   "wasserspielplatz-peissnitzhaus": [],
   "wasserspielplatz-roebel": [],
   "weltpfad-nicklheim": [],
+  "wildpark-leipzig": [
+    {"poi": "restaurant-waldfrieden-leipzig", "sek": 146},
+    {"poi": "cafe-emi-leipzig", "sek": 159},
+    {"poi": "museum-panometer-leipzig", "sek": 344},
+    {"poi": "baden-cospudener-see-leipzig", "sek": 364},
+    {"poi": "museum-naturkundemuseum-leipzig", "sek": 586},
+    {"poi": "aktivitaet-kanupark-markkleeberg", "sek": 902}
+  ],
   "wolfspfad-zwenzow": [],
   "wupatz": [
-    {
-      "poi": "strandbad-mueggelsee",
-      "sek": 815
-    }
+    {"poi": "strandbad-mueggelsee", "sek": 815}
   ],
   "zweiseitenweg-rambow": []
 }
