@@ -1,0 +1,155 @@
+{
+ "id": "kinderbunter-bauernhof-wedding",
+ "name": "Kinderbunter Bauernhof Wedding",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Mitten im Wedding versorgen Kinder Ziegen, Ponys und Federvieh. Auf dem Ententeich schwimmen die Enten und Gänse des Hofes.",
+ "beschreibung": "Auf dem Kinderbunten Bauernhof lernen Stadtkinder, wie man mit Tieren umgeht, und nebenbei ein einfühlsames Miteinander. Füttern und Pflegen übernehmen die Kinder selbst. Enten und Gänse haben einen eigenen Teich, Hühner scharren über den Hof, Ziegen und Schafe teilen sich einen Stall, die Ponys haben einen Pferdestall. Den Hof an der Luxemburger Straße gibt es schon sehr lange. Als der frühere Verein aufhörte, fanden sich Menschen, die ihn unter neuem Namen weiterführen, damit das Angebot im Kiez bleibt. Gedacht ist er vor allem für Kinder von 6 bis 14 Jahren.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kinderbunter Bauernhof Wedding e. V.",
+ "region": "Wedding, Bezirk Mitte, Berlin",
+ "anreise": "Luxemburger Straße 25, 13353 Berlin; U6/U9 Leopoldplatz, etwa 300 m, Bus 142 und 221 bis Luxemburger Straße.",
+ "startName": "Kinderbunter Bauernhof, Luxemburger Straße 25",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Haushuhn",
+  "Amsel",
+  "Rotkehlchen",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Honigbiene"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 79,
+ "form": "flaeche",
+ "website": "https://www.kinderbunter-bauernhof.de/",
+ "oeffnungszeiten": "Kinder 6–14 Jahre: Di–Fr 13–18 Uhr, Sa/So 10–18 Uhr, in den Ferien auch wochentags ab 10 Uhr; Eltern mit Kindern unter 6 Jahren Di–Do 13–17 Uhr; Mo Ruhetag. Während der Bauarbeiten bei Ausflügen an Wochenenden und in den Ferien geschlossen.",
+ "besuchshinweise": "Eltern mit Kindern unter sechs Jahren sind dienstags bis donnerstags von 13 bis 17 Uhr willkommen. Bei kurzfristigen Änderungen gilt der Aushang am Tor. Kinderwagen in der Einfahrt abstellen.",
+ "area": [
+  [
+   52.544347,
+   13.356003
+  ],
+  [
+   52.544419,
+   13.356143
+  ],
+  [
+   52.544411,
+   13.356289
+  ],
+  [
+   52.544479,
+   13.356447
+  ],
+  [
+   52.544347,
+   13.356593
+  ],
+  [
+   52.544073,
+   13.356896
+  ],
+  [
+   52.544,
+   13.35672
+  ],
+  [
+   52.543945,
+   13.356591
+  ],
+  [
+   52.544223,
+   13.356185
+  ],
+  [
+   52.544347,
+   13.356003
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 560341834,
+   "lat": 52.544419,
+   "lon": 13.356143,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Einfahrt",
+   "thema": "Eingang",
+   "kurztext": "An der Einfahrt hängt der Aushang mit kurzfristigen Änderungen, Kinderwagen bleiben hier stehen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 712277366,
+   "lat": 52.544322,
+   "lon": 13.356118,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Ententeich",
+   "thema": "Wasser",
+   "kurztext": "Auf dem Ententeich schwimmen die Enten und Gänse des Hofes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 290573756,
+   "lat": 52.544075,
+   "lon": 13.356819,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Schaf- und Ziegenstall",
+   "thema": "Hoftiere",
+   "kurztext": "Ziegen und Schafe teilen sich diesen Stall, Kinder füttern und pflegen sie selbst.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 96192212,
+   "lat": 52.544282,
+   "lon": 13.356263,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Pferdestall",
+   "thema": "Hoftiere",
+   "kurztext": "Im Pferdestall stehen die Ponys des Hofes, während der Bauarbeiten sind sie zeitweise anderswo untergebracht.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4486898725,
+   "lat": 52.54398,
+   "lon": 13.355723,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1476490839,
+   "lat": 52.544866,
+   "lon": 13.357705,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Haushuhn": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Honigbiene": "typisch"
+ }
+}

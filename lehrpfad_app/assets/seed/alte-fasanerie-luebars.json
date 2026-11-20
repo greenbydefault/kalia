@@ -1,0 +1,178 @@
+{
+ "id": "alte-fasanerie-luebars",
+ "name": "Alte Fasanerie Lübars",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Auf dem Hof am Rand von Lübars leben Ziegen, Alpakas, Hühner, Fasane und Pferde. Lange hieß er Jugend- und Familienfarm.",
+ "beschreibung": "Friedrich der Große ließ auf der Lübarser Feldmark eine Fasanerie für sein Rosenthaler Gut anlegen. Daher kommt der Name. Heute leben wieder Fasane auf dem Hof, dazu Ziegen, Alpakas, Hühner und Pferde. Die Tiere hält der Hof zusammen mit der Nachbarschaft. Die Gebäude bilden ein Geviert nach dem Vorbild märkischer Bauernhöfe. Gebaut wurde es auf dem Gelände zweier früherer Schweinemästereien. Rund um den Teich wachsen Stauden und Gartenblumen, ein Schaugarten zeigt Kräuter. Auf den Beeten steht Gemüse. Kinder machen in Kursen und im Ferienprogramm mit, dazu kommen Hoffeste und Flohmärkte.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Elisabethstift (Kinder- und Jugendhilfeeinrichtung)",
+ "region": "Lübars, Bezirk Reinickendorf, Berlin",
+ "anreise": "Fasanerie 10, 13469 Berlin; Bus 222 oder X21 bis Quickborner Straße, von dort ca. 300 m zu Fuß. Kleiner Parkplatz direkt am Hof.",
+ "startName": "Alte Fasanerie, Fasanerie 10",
+ "arten": [
+  "Ziege",
+  "Haushuhn",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Schilf",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen",
+  "Stockente",
+  "Teichfrosch",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 88,
+ "form": "flaeche",
+ "website": "https://www.alte-fasanerie-luebars.de/",
+ "oeffnungszeiten": "Hof Mo–Fr 10–17 Uhr, Sa/So 12–17 Uhr, im Winter (14.11.–18.02.) freitags geschlossen. Café schöngrün Fr–So 12–17 Uhr.",
+ "besuchshinweise": "Kurse, Ferienprogramme, Hoffeste und Flohmärkte stehen mit Terminen auf der Website. Der Spielplatz des Freizeitparks Lübars grenzt direkt an den Hof.",
+ "area": [
+  [
+   52.608264,
+   13.368838
+  ],
+  [
+   52.608499,
+   13.368545
+  ],
+  [
+   52.608433,
+   13.368319
+  ],
+  [
+   52.608374,
+   13.368116
+  ],
+  [
+   52.608334,
+   13.36798
+  ],
+  [
+   52.60831,
+   13.3679
+  ],
+  [
+   52.608059,
+   13.367043
+  ],
+  [
+   52.607931,
+   13.366583
+  ],
+  [
+   52.60702,
+   13.366869
+  ],
+  [
+   52.607025,
+   13.367903
+  ],
+  [
+   52.607606,
+   13.368087
+  ],
+  [
+   52.607924,
+   13.369261
+  ],
+  [
+   52.608264,
+   13.368838
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13915072504,
+   "lat": 52.608176,
+   "lon": 13.367459,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Hoftor",
+   "thema": "Eingang",
+   "kurztext": "Durch das Tor am überdachten Durchgang führt der Weg auf den Hof der Alten Fasanerie.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13290604265,
+   "lat": 52.608022,
+   "lon": 13.367927,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Glockenturm",
+   "thema": "Hof",
+   "kurztext": "Zwischen den Hofgebäuden steht ein kleiner Glockenturm, der Hof feiert hier auch Gottesdienste.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2836084293,
+   "lat": 52.608053,
+   "lon": 13.3685,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Café schöngrün",
+   "thema": "Einkehr",
+   "kurztext": "Kaffeespezialitäten und selbstgemachte Torten gibt es im Café schöngrün mitten auf dem Hof.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 13290419957,
+   "lat": 52.608289,
+   "lon": 13.367892,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 2836084293,
+   "lat": 52.608053,
+   "lon": 13.3685,
+   "kategorie": "gastro",
+   "name": "Café schöngrün"
+  },
+  {
+   "osmId": 1448599876,
+   "lat": 52.608419,
+   "lon": 13.36791,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 116039912,
+   "lat": 52.607537,
+   "lon": 13.365973,
+   "kategorie": "playground",
+   "name": "Spielplatz Freizeitpark Lübars"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Schilf": "typisch",
+  "Honigbiene": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Stockente": "typisch",
+  "Teichfrosch": "typisch",
+  "Libelle": "typisch"
+ }
+}

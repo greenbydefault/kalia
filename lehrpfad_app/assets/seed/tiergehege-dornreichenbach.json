@@ -271,23 +271,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiergehege_-_panoramio.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Ziege": "belegt",
-    "Erdkröte": "typisch",
-    "Grasfrosch": "typisch",
-    "Haushuhn": "typisch",
-    "Schaf": "typisch",
-    "Schilf": "typisch",
-    "Stockente": "typisch",
-    "Teichfrosch": "typisch",
-    "Blässhuhn": "typisch",
-    "Gänseblümchen": "typisch",
-    "Hauskaninchen": "typisch",
-    "Höckerschwan": "typisch",
-    "Honigbiene": "typisch",
-    "Kammmolch": "typisch",
-    "Libelle": "typisch",
-    "Löwenzahn": "typisch"
-  }
+  ]
 }

@@ -1,0 +1,182 @@
+{
+ "id": "bauspielplatz-tweeltenmoor",
+ "name": "Bauspielplatz Tweeltenmoor",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Kinder sägen hier Hütten zusammen und versorgen Ponys und Esel. Der Bauspielplatz in Langenhorn gehört zu den größten in Hamburg.",
+ "beschreibung": "Neben dem Bauspielplatz weiden drei Ponys und vier Esel auf rund 4,5 Hektar. Kinder ab acht Jahren kümmern sich als Weidekinder in einer festen Gruppe um die Tiere, sie füttern, misten aus und reiten. Einmal in der Woche führen sie Ponys und Esel für Kinder aus der Nachbarschaft. Auf dem übrigen Gelände leben Ziegen, Kaninchen, Meerschweinchen und Hühner in Ställen mit Freilaufgehege. Auf dem Platz stehen Hütten, die Kinder selbst gesägt und genagelt haben. Das feste Holzhaus hat eine Werkstatt und einen Toberaum, draußen brennt an der Feuerstelle das Lagerfeuer.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Initiative Spielplätze und Freizeit Langenhorn e. V. (ISUF)",
+ "region": "Langenhorn, Bezirk Hamburg-Nord, Hamburg",
+ "anreise": "Tweeltenmoor 11, 22417 Hamburg-Langenhorn. Öffentliche Parkplätze am Tweeltenmoor rund 130 m südöstlich.",
+ "startName": "Holzhaus Bauspielplatz Tweeltenmoor",
+ "arten": [
+  "Ziege",
+  "Hauskaninchen",
+  "Haushuhn",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 64,
+ "form": "flaeche",
+ "website": "https://www.isuf.org/",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Mai bis September Mo–Do 14–19 Uhr, Fr 14–18 Uhr; Oktober bis April Mo–Fr 14–18 Uhr; in den Ferien erweiterte Zeiten. Wochenende geschlossen.",
+ "besuchshinweise": "Der Platz ist für Kinder von 6 bis 14 Jahren da, Eltern bleiben draußen. Kleintiere und Ziegen sind öffentlich zugänglich. Pony- und Eselreiten für Kinder aus der Nachbarschaft einmal pro Woche, Termin vorher erfragen.",
+ "area": [
+  [
+   53.676797,
+   10.022616
+  ],
+  [
+   53.676576,
+   10.023575
+  ],
+  [
+   53.676393,
+   10.023673
+  ],
+  [
+   53.676349,
+   10.023801
+  ],
+  [
+   53.676164,
+   10.023642
+  ],
+  [
+   53.676099,
+   10.023587
+  ],
+  [
+   53.676033,
+   10.023533
+  ],
+  [
+   53.676069,
+   10.02332
+  ],
+  [
+   53.676379,
+   10.022225
+  ],
+  [
+   53.676797,
+   10.022616
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 32808030,
+   "lat": 53.676321,
+   "lon": 10.023463,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Holzhaus",
+   "thema": "Werkstatt und Toberaum",
+   "kurztext": "Im festen Holzhaus stehen Tischtennisplatte und Kicker, dazu gehören eine Werkstatt und ein Toberaum für Regentage.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 821115544,
+   "lat": 53.676377,
+   "lon": 10.022764,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Hüttendorf",
+   "thema": "Hüttenbau",
+   "kurztext": "Kinder bauen ihre Hütten selbst aus Holz, sägen, hämmern und gestalten sie weiter.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1099850456,
+   "lat": 53.676477,
+   "lon": 10.022819,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Feuerstelle",
+   "thema": "Lagerfeuer",
+   "kurztext": "An der Feuerstelle machen die Kinder Feuer und sitzen am Lagerfeuer zusammen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1099850454,
+   "lat": 53.676611,
+   "lon": 10.022902,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Seilbahn",
+   "thema": "Spielgerät",
+   "kurztext": "Eine Seilbahn gehört zu den Spielgeräten auf dem Gelände des Bauspielplatzes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 660309194,
+   "lat": 53.676248,
+   "lon": 10.023969,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Tiergehege",
+   "thema": "Ponys und Esel",
+   "kurztext": "Im eingezäunten Gehege und auf der angrenzenden Weide leben drei Ponys und vier Esel mit eigenen Unterkünften.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 32808005,
+   "lat": 53.676415,
+   "lon": 10.023013,
+   "kategorie": "playground",
+   "name": "Bauspielplatz Tweeltenmoor"
+  },
+  {
+   "osmId": 4172675079,
+   "lat": 53.676184,
+   "lon": 10.022293,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 167378315,
+   "lat": 53.675948,
+   "lon": 10.025656,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 451639151,
+   "lat": 53.674586,
+   "lon": 10.025059,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Hauskaninchen": "belegt",
+  "Haushuhn": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Honigbiene": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ }
+}

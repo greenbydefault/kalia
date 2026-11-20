@@ -1,0 +1,185 @@
+{
+ "id": "charlottenburger-ziegenhof",
+ "name": "Charlottenburger Ziegenhof",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Im Innenhof von Block 128 am Klausenerplatz leben drei Ziegen in einem Fachwerkstall. Anwohner pflegen Hof, Tiere und Beete ehrenamtlich.",
+ "beschreibung": "Auf einer Abrissfläche im Innenhof von Block 128 sollten einmal Neubauten entstehen, heute leben dort Ziegen. Anwohner setzten sich gegen die Bebauung durch und machten daraus einen Hof für die Nachbarschaft. Den Fachwerkstall für die Ziegen bauten sie 2010 in Nachbarschaftshilfe neu. Seit Herbst 2011 wachsen im Hochbeet Tomaten, Kürbisse, Möhren und Kräuter, daneben stehen Bienenstöcke. Eine Gruppe von Anwohnern versorgt Tiere und Pflanzen jeden Tag, ohne Bezahlung. An Aktionstagen sieben Nachbarn Kompost, rechen Laub und reparieren Zäune, danach essen alle gemeinsam auf dem Hof.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Blockinitiative 128 e. V. (ehrenamtlich)",
+ "region": "Charlottenburg, Bezirk Charlottenburg-Wilmersdorf, Berlin",
+ "anreise": "Danckelmannstraße 16, 14059 Berlin (Klausenerplatz-Kiez).",
+ "startName": "Charlottenburger Ziegenhof, Ziegenstall an der Danckelmannstraße 16",
+ "arten": [
+  "Ziege",
+  "Honigbiene",
+  "Haushuhn",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 28,
+ "form": "flaeche",
+ "website": "https://www.ziegenhof-berlin.de/",
+ "eintrittPreise": "kostenlos",
+ "besuchshinweise": "Die Ziegen füttert nur der Verein, Besucher füttern nicht mit. Hunde dürfen nicht auf den Hof, er ist als Kinderspielplatz ausgewiesen. Das Hochbeet nicht betreten.",
+ "area": [
+  [
+   52.514595,
+   13.290298
+  ],
+  [
+   52.514171,
+   13.290386
+  ],
+  [
+   52.514135,
+   13.28975
+  ],
+  [
+   52.514128,
+   13.28962
+  ],
+  [
+   52.514183,
+   13.289612
+  ],
+  [
+   52.514177,
+   13.289512
+  ],
+  [
+   52.514364,
+   13.289485
+  ],
+  [
+   52.514352,
+   13.28928
+  ],
+  [
+   52.514343,
+   13.289096
+  ],
+  [
+   52.514338,
+   13.289024
+  ],
+  [
+   52.514331,
+   13.288918
+  ],
+  [
+   52.514326,
+   13.288833
+  ],
+  [
+   52.514767,
+   13.288771
+  ],
+  [
+   52.514794,
+   13.289267
+  ],
+  [
+   52.514822,
+   13.289263
+  ],
+  [
+   52.51483,
+   13.289496
+  ],
+  [
+   52.514834,
+   13.289576
+  ],
+  [
+   52.51465,
+   13.289605
+  ],
+  [
+   52.514558,
+   13.289618
+  ],
+  [
+   52.514595,
+   13.290298
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 87979954,
+   "lat": 52.514221,
+   "lon": 13.289798,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ziegenstall",
+   "thema": "Hoftiere",
+   "kurztext": "Im Fachwerkstall von 2010 und im Gehege davor leben die drei Ziegen des Hofes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 324970242,
+   "lat": 52.514458,
+   "lon": 13.289443,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spielplatz",
+   "thema": "Spielen",
+   "kurztext": "Der Innenhof ist als Kinderspielplatz ausgewiesen und schließt an das Ziegengehege an.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2822872792,
+   "lat": 52.514525,
+   "lon": 13.289064,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Tischtennisplatte",
+   "thema": "Spielen",
+   "kurztext": "An der Tischtennisplatte im Westteil des Hofes spielen Kinder und Nachbarn.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 324970242,
+   "lat": 52.514458,
+   "lon": 13.289443,
+   "kategorie": "playground",
+   "name": "Spielplatz am Ziegenhof"
+  },
+  {
+   "osmId": 12656788301,
+   "lat": 52.514579,
+   "lon": 13.290743,
+   "kategorie": "gastro",
+   "name": "Café & Eis Manufaktur"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Honigbiene": "belegt",
+  "Haushuhn": "typisch",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ }
+}

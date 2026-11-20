@@ -733,21 +733,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_Wildpark_Wisent.JPG",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Damhirsch": "belegt",
-    "Rothirsch": "belegt",
-    "Reh": "belegt",
-    "Wildschwein": "belegt",
-    "Wildkatze": "belegt",
-    "Fischotter": "belegt",
-    "Waldkauz": "belegt",
-    "Grasfrosch": "typisch",
-    "Gemeine Esche": "typisch",
-    "Schwarzerle": "typisch",
-    "Stieleiche": "typisch",
-    "Schwarzer Holunder": "typisch",
-    "Salweide": "typisch",
-    "Schlehe": "typisch"
-  }
+  ]
 }

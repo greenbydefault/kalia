@@ -1,0 +1,232 @@
+{
+ "id": "naturlehrpfad-kolonie-freiheit",
+ "name": "Naturlehrpfad Kolonie Freiheit",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "In der Kolonie Freiheit am Dammweg wachsen Beeren zum Naschen. Auf einem Xylophon aus Holz lässt sich „Alle meine Entchen“ spielen.",
+ "beschreibung": "Seit 2010 führt der Naturlehrpfad durch die Kleingärten der Kolonie Freiheit. Er setzt aufs Fühlen, Riechen, Schmecken und Hören. An der Naschstraße darf von reifen Johannisbeeren, Stachelbeeren und Brombeeren gekostet werden. Im Kräutergarten lässt sich Thymian riechen, am Schaubienenkasten die Bienenkönigin suchen. Auf dem Barfußpfad spüren nackte Füße Sand, Kies, Lavasteine und Tannenzapfen. In der Trockenmauer hat der Igel eine Höhle. Gleich hinter dem Eingang steht ein großes Insektenhotel, und im Holzbackofen werden an Backtagen Brot und Kuchen gebacken.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Wegweiser des Naturlehrpfads",
+ "betreiber": "Schnippel-Girls (ehrenamtliche Gruppe der Kleingartenanlage Kolonie Freiheit)",
+ "region": "Neukölln, Bezirk Neukölln, Berlin",
+ "anreise": "Eingang der Kolonie Freiheit am Dammweg 208, 12057 Berlin. Bus 377 bis Steinbockstraße, dann etwa 3 Minuten zu Fuß. Ab S Köllnische Heide (S45, S46, S47) etwa 10 Minuten zu Fuß. Parkplätze am Dammweg.",
+ "startName": "Eingang Kolonie Freiheit, Dammweg 208",
+ "arten": [
+  "Honigbiene",
+  "Wildbiene",
+  "Igel",
+  "Brombeere",
+  "Heckenrose",
+  "Sanddorn",
+  "Gewöhnlicher Schneeball",
+  "Schwarzer Holunder",
+  "Hummel",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Siebenpunkt-Marienkäfer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "barfusspfad",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 64,
+ "form": "flaeche",
+ "website": "https://www.jubelt.de/schnippelgirls/naturlehrpfad.html",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Ganzjährig zugänglich, von Mai bis Oktober von Sonnenaufgang bis Sonnenuntergang",
+ "besuchshinweise": "Gruppen melden kostenlose Führungen von Mai bis Oktober mindestens eine Woche vorher an. Schauimkern gibt es nur nach Absprache.",
+ "area": [
+  [
+   52.475746,
+   13.470372
+  ],
+  [
+   52.473718,
+   13.469597
+  ],
+  [
+   52.473143,
+   13.469944
+  ],
+  [
+   52.472969,
+   13.469604
+  ],
+  [
+   52.473158,
+   13.469368
+  ],
+  [
+   52.473055,
+   13.469159
+  ],
+  [
+   52.472785,
+   13.468776
+  ],
+  [
+   52.473059,
+   13.468393
+  ],
+  [
+   52.473115,
+   13.468498
+  ],
+  [
+   52.473691,
+   13.467636
+  ],
+  [
+   52.473626,
+   13.46752
+  ],
+  [
+   52.474834,
+   13.467597
+  ],
+  [
+   52.47525,
+   13.467619
+  ],
+  [
+   52.475653,
+   13.468156
+  ],
+  [
+   52.475594,
+   13.468269
+  ],
+  [
+   52.475767,
+   13.468524
+  ],
+  [
+   52.475401,
+   13.468957
+  ],
+  [
+   52.475746,
+   13.470372
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 9480590150,
+   "lat": 52.473159,
+   "lon": 13.469127,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Lebensraum Holzstapel",
+   "thema": "Lebensraum Garten",
+   "kurztext": "Zwischen den Scheiten eines Holzstapels finden Insekten und andere kleine Tiere Schutz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9480590149,
+   "lat": 52.473183,
+   "lon": 13.469095,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Zimmer frei!",
+   "thema": "Nisthilfen",
+   "kurztext": "Ins große Insektenhotel mit acht Wohnungen ziehen einzeln lebende Insekten wie Wildbienen und Grabwespen ein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9480590148,
+   "lat": 52.47353,
+   "lon": 13.469397,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Getreide – Nahrung für alle",
+   "thema": "Getreidelehrgarten",
+   "kurztext": "Auf eigenen Beeten wachsen verschiedene Getreidearten, deren Aussehen, Herkunft und Nutzen die Tafeln erklären.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9480590147,
+   "lat": 52.474297,
+   "lon": 13.469405,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Von der Ähre bis zum Brot",
+   "thema": "Holzbackofen",
+   "kurztext": "Wie aus einer Getreideähre ein Brot wird, zeigt der direkt mit Holz befeuerte Backofen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 9480590144,
+   "lat": 52.474415,
+   "lon": 13.469218,
+   "kategorie": "gastro",
+   "name": "Vereinsheim der KGA Freiheit"
+  },
+  {
+   "osmId": 9480590145,
+   "lat": 52.474477,
+   "lon": 13.469473,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 607908003,
+   "lat": 52.473794,
+   "lon": 13.466927,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 837368619,
+   "lat": 52.473374,
+   "lon": 13.47056,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Honigbiene": "belegt",
+  "Wildbiene": "belegt",
+  "Igel": "belegt",
+  "Brombeere": "belegt",
+  "Heckenrose": "belegt",
+  "Sanddorn": "belegt",
+  "Gewöhnlicher Schneeball": "belegt",
+  "Schwarzer Holunder": "typisch",
+  "Hummel": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "27d0489d-7e08-41a1-8794-283c51d415af",
+   "id": "27d0489d-7e08-41a1-8794-283c51d415af",
+   "caption": "Eingang der Dauerkleingartenanlage Freiheit am Dammweg (Aufnahme 2011)",
+   "credit": "Gunnar Klack, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-09-17-Dammwegsiedlung-Kleingarten-Kolonie-Freiheit.jpg",
+   "kind": "ort"
+  }
+ ]
+}

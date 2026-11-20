@@ -1,0 +1,364 @@
+{
+ "id": "domaene-dahlem",
+ "name": "Domäne Dahlem",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Auf dem Bio-Landgut in Dahlem ziehen Rinder noch Ackergerät und Wagen. Sattelschweine, Pommersche Landschafe und Pommernenten zählen zu den bedrohten Rassen des Hofes.",
+ "beschreibung": "Auf der Domäne Dahlem arbeiten Rinder noch als Zugtiere, wie früher auf vielen Bauernhöfen. Das ehemalige Rittergut hat über 800 Jahre Geschichte. Heute ist es Bioland-Hof und Freilichtmuseum zugleich. Als Arche-Hof hält es neun vom Aussterben bedrohte Haustierrassen, darunter Rotes Höhenvieh und Deutsche Sattelschweine. Die Bulgarischen Langhaarziegen tragen schraubenförmige Hörner. Im Geflügelauslauf scharren Deutsche Sperber und Minorkas, dazu kommen Konik- und Exmoor-Ponys. Das Culinarium im alten Pferdestall erzählt die Geschichte der Ernährung, unterm Dach hat die KinderDomäne eigene Mitmachangebote.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Stiftung Domäne Dahlem – Landgut und Museum",
+ "region": "Dahlem, Bezirk Steglitz-Zehlendorf, Berlin",
+ "anreise": "Königin-Luise-Straße 49, 14195 Berlin. U3 bis Dahlem-Dorf, Bus 110 bis Domäne Dahlem, Bus M11 und X83 bis U Dahlem-Dorf. Kostenloser Besucherparkplatz an der Königin-Luise-Straße, Parkverbot Fr ab 20 Uhr bis Sa 14 Uhr wegen des Ökomarkts.",
+ "startName": "Domäne Dahlem, Herrenhaus an der Königin-Luise-Straße 49",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Haushuhn",
+  "Honigbiene",
+  "Kultur-Apfel",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Schwarzer Holunder",
+  "Eingriffeliger Weißdorn",
+  "Amsel",
+  "Rotkehlchen",
+  "Kohlmeise",
+  "Grünspecht"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "rollstuhltauglich",
+  "hunde-erlaubt",
+  "einkehr",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 60,
+ "form": "flaeche",
+ "website": "https://www.domaene-dahlem.de/",
+ "eintrittPreise": "Gelände frei (Spende erbeten); Museen: 5 €, ermäßigt 3 €, Schüler, Studierende und Auszubildende frei; Veranstaltungen 4,50 €, ermäßigt 2 €, Kinder unter 12 frei.",
+ "oeffnungszeiten": "Landgut täglich 7–22 Uhr (Tor Franz-Grothe-Weg 7–18 Uhr); Museum Culinarium Mi–So 10–17 Uhr, Museum im Herrenhaus zurzeit geschlossen; Hofladen Mo–Fr 10–18, Sa 8–14 Uhr; Ökomarkt Sa 8–13 Uhr; Landgasthaus Mi–Fr 11–19, Sa/So 9–19 Uhr.",
+ "besuchshinweise": "Hunde an der Leine, nicht in die Museen. Picknick nur an den Sitzgruppen, Grillen und Feuer verboten. Der Gutshof ist teils historisch gepflastert. Bei Marktfesten gelten andere Öffnungszeiten.",
+ "area": [
+  [
+   52.458392,
+   13.287724
+  ],
+  [
+   52.458495,
+   13.287751
+  ],
+  [
+   52.458495,
+   13.28789
+  ],
+  [
+   52.458569,
+   13.287783
+  ],
+  [
+   52.458596,
+   13.288143
+  ],
+  [
+   52.458585,
+   13.288614
+  ],
+  [
+   52.458849,
+   13.288673
+  ],
+  [
+   52.459114,
+   13.288733
+  ],
+  [
+   52.459217,
+   13.288589
+  ],
+  [
+   52.459347,
+   13.288411
+  ],
+  [
+   52.459519,
+   13.288319
+  ],
+  [
+   52.459623,
+   13.288287
+  ],
+  [
+   52.459826,
+   13.288313
+  ],
+  [
+   52.459946,
+   13.288334
+  ],
+  [
+   52.460103,
+   13.288353
+  ],
+  [
+   52.460092,
+   13.28889
+  ],
+  [
+   52.460101,
+   13.289307
+  ],
+  [
+   52.460185,
+   13.289318
+  ],
+  [
+   52.460177,
+   13.289579
+  ],
+  [
+   52.460096,
+   13.289573
+  ],
+  [
+   52.460088,
+   13.289779
+  ],
+  [
+   52.459762,
+   13.289772
+  ],
+  [
+   52.459376,
+   13.289843
+  ],
+  [
+   52.459297,
+   13.289774
+  ],
+  [
+   52.458735,
+   13.28971
+  ],
+  [
+   52.458396,
+   13.289696
+  ],
+  [
+   52.458173,
+   13.289686
+  ],
+  [
+   52.458179,
+   13.289444
+  ],
+  [
+   52.458193,
+   13.288724
+  ],
+  [
+   52.45828,
+   13.288602
+  ],
+  [
+   52.458331,
+   13.288491
+  ],
+  [
+   52.458353,
+   13.288223
+  ],
+  [
+   52.458392,
+   13.287724
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 30432417,
+   "lat": 52.458365,
+   "lon": 13.288835,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Herrenhaus",
+   "thema": "Gutshof",
+   "kurztext": "Das Herrenhaus erinnert an das Rittergut mit über 800 Jahren Geschichte, sein Museum ist zurzeit geschlossen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 545555934,
+   "lat": 52.458612,
+   "lon": 13.28966,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Hausschweine",
+   "thema": "Hoftiere",
+   "kurztext": "Deutsche Sattelschweine, eine vom Aussterben bedrohte Rasse, wühlen im Auslauf am Schweinestall.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 30432418,
+   "lat": 52.458739,
+   "lon": 13.289479,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Pferdestall und Hofschmiede",
+   "thema": "Gutshof",
+   "kurztext": "Pferdestall und Hofschmiede gehören zu den historischen Wirtschaftsgebäuden rund um den Gutshof.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6119371020,
+   "lat": 52.458846,
+   "lon": 13.289469,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Culinarium",
+   "thema": "Museum",
+   "kurztext": "Vom Acker bis zum Teller heißt die Ausstellung im sanierten Pferdestall, unterm Dach liegt die KinderDomäne mit Mitmachangeboten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 30432426,
+   "lat": 52.459082,
+   "lon": 13.2895,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Töpferei, Webstube, Blaudruck",
+   "thema": "Handwerk",
+   "kurztext": "In Töpferei, Webstube und Blaudruckwerkstatt zeigt die Domäne alte Handwerkstechniken.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1548324031,
+   "lat": 52.459185,
+   "lon": 13.288758,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Wasserspielplatz",
+   "thema": "Spielen",
+   "kurztext": "Neben dem Biergarten liegt ein Wasserspielplatz für Kinder.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 545598887,
+   "lat": 52.459277,
+   "lon": 13.289607,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Geflügel",
+   "thema": "Hoftiere",
+   "kurztext": "Im Geflügelauslauf scharren Deutsche Sperber und Minorkas, zwei bedrohte Hühnerrassen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 108631421,
+   "lat": 52.458477,
+   "lon": 13.287862,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Imkerei",
+   "thema": "Bienen",
+   "kurztext": "Am Westrand des Hofes steht das Gebäude der Imkerei.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 545833481,
+   "lat": 52.460284,
+   "lon": 13.2904,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Streuobstwiese",
+   "thema": "Obstwiese",
+   "kurztext": "Apfelbäume wachsen auf der Streuobstwiese nördlich des Gutshofs.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 5272502230,
+   "lat": 52.459265,
+   "lon": 13.289324,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 545541225,
+   "lat": 52.458884,
+   "lon": 13.288777,
+   "kategorie": "gastro",
+   "name": "Landgasthaus und Biergarten"
+  },
+  {
+   "osmId": 1548324031,
+   "lat": 52.459185,
+   "lon": 13.288758,
+   "kategorie": "playground",
+   "name": "Wasserspielplatz"
+  },
+  {
+   "osmId": 13649985104,
+   "lat": 52.459126,
+   "lon": 13.288811,
+   "kategorie": "playground",
+   "name": "Spielplatz"
+  },
+  {
+   "osmId": 545599505,
+   "lat": 52.458475,
+   "lon": 13.288224,
+   "kategorie": "parking",
+   "name": "Besucherparkplatz"
+  },
+  {
+   "osmId": 6314984141,
+   "lat": 52.458149,
+   "lon": 13.288174,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Haushuhn": "belegt",
+  "Honigbiene": "belegt",
+  "Kultur-Apfel": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Grünspecht": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "26c336cc-d06c-4774-ac2c-8dd5154fb28f",
+   "id": "26c336cc-d06c-4774-ac2c-8dd5154fb28f",
+   "caption": "Herrenhaus der Domäne Dahlem (Aufnahme 2012)",
+   "credit": "Sebastian Wallroth, CC BY 3.0, via Wikimedia Commons",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domaene_Dahlem_00865.JPG",
+   "kind": "ort"
+  }
+ ]
+}

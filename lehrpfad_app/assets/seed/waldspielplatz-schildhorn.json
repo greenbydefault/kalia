@@ -1,0 +1,204 @@
+{
+ "id": "waldspielplatz-schildhorn",
+ "name": "Waldspielplatz Schildhorn",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Direkt am Havelufer vor der Halbinsel Schildhorn stehen die Spielgeräte in 400 Tonnen feinem Sand. Kiefern und Eichen rahmen das Gelände.",
+ "beschreibung": "In die Holztische des Waldspielplatzes Schildhorn sind Spielbretter für Schach, Mühle und Dame gefräst. Als Spielsteine dienen Steinchen, Kiefernzapfen und Eicheln, die ringsum am Boden liegen. Feiner Sand bedeckt die ganze Spielfläche. Eine Kletterburg mit Rutsche und eine Wackelbrücke gehören dazu, außerdem eine Wippe und geschnitzte Holzpferde. Wer sich in die Nestschaukel legt, kann vorbeifliegende Vögel beobachten. Für Pausen gibt es Sitzplätze mit und ohne Dach.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Grunewald, Bezirk Charlottenburg-Wilmersdorf, Berlin",
+ "anreise": "Bus 218 bis Schildhorn, dann der Straße Am Schildhorn an zwei Restaurants vorbei bis zur Havel folgen.",
+ "startName": "Waldspielplatz Schildhorn",
+ "arten": [
+  "Kiefer",
+  "Hängebirke",
+  "Eberesche",
+  "Stieleiche",
+  "Weiße Seerose",
+  "Stockente",
+  "Blässhuhn",
+  "Höckerschwan",
+  "Haubentaucher",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 48,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/schildhorn/",
+ "besuchshinweise": "Schaufel und Eimer mitbringen.",
+ "area": [
+  [
+   52.493093,
+   13.195442
+  ],
+  [
+   52.493096,
+   13.195092
+  ],
+  [
+   52.49309,
+   13.194842
+  ],
+  [
+   52.493304,
+   13.194717
+  ],
+  [
+   52.493582,
+   13.19456
+  ],
+  [
+   52.493626,
+   13.194775
+  ],
+  [
+   52.493638,
+   13.195422
+  ],
+  [
+   52.493358,
+   13.195434
+  ],
+  [
+   52.493093,
+   13.195442
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 14096541503,
+   "lat": 52.4934,
+   "lon": 13.19513,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Kletterburg",
+   "thema": "Klettern",
+   "kurztext": "Kletterburg mit Holzturm, Rutsche und Wackelbrücke.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14096485394,
+   "lat": 52.493224,
+   "lon": 13.195106,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Wippe",
+   "thema": "Wippen",
+   "kurztext": "Wippe aus einem Baumstamm, ein alter Reifen federt den Aufprall ab.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14096529540,
+   "lat": 52.49354,
+   "lon": 13.195223,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Nestschaukel",
+   "thema": "Schaukeln",
+   "kurztext": "In der Nestschaukel liegend lassen sich vorbeifliegende Vögel beobachten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14096542804,
+   "lat": 52.493564,
+   "lon": 13.195075,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Balancierbalken",
+   "thema": "Balancieren",
+   "kurztext": "Balancierbalken im feinen Sand der Spielfläche.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14096529541,
+   "lat": 52.493378,
+   "lon": 13.195352,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Spielhaus",
+   "thema": "Rollenspiel",
+   "kurztext": "Kleines Spielhaus aus Holz mit Satteldach.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14096522412,
+   "lat": 52.493473,
+   "lon": 13.194871,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Schaukel",
+   "thema": "Schaukeln",
+   "kurztext": "Schaukelgerüst aus Rundhölzern mit einem Sitz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 205726271,
+   "lat": 52.493319,
+   "lon": 13.195004,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Schildhorn"
+  },
+  {
+   "osmId": 14096532112,
+   "lat": 52.493316,
+   "lon": 13.195196,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 6174623928,
+   "lat": 52.49303,
+   "lon": 13.194446,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Kiefer": "belegt",
+  "Hängebirke": "typisch",
+  "Eberesche": "typisch",
+  "Stieleiche": "typisch",
+  "Weiße Seerose": "typisch",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Höckerschwan": "typisch",
+  "Haubentaucher": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "cbb02bd7-16de-41be-8b05-34862550ca1d",
+   "id": "cbb02bd7-16de-41be-8b05-34862550ca1d",
+   "caption": "Sandfläche mit Wippe auf dem Waldspielplatz Schildhorn (Aufnahme 2021)",
+   "credit": "Leonhard Lenz, CC0, via Wikimedia Commons",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playground_Schildhorn_2021-11-10_03.jpg",
+   "kind": "ort"
+  }
+ ]
+}

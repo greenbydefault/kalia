@@ -1,0 +1,163 @@
+{
+ "id": "naturspielplatz-wildgehege-kloevensteen",
+ "name": "Natur-Spielplatz im Wildgehege Klövensteen",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Kinder klettern auf einen drei Meter hohen Eichhörnchenkobel aus Robinienholz. Der Platz liegt hinter dem Irmgard-Greve-Haus im Wildgehege Klövensteen.",
+ "beschreibung": "Der Natur-Spielplatz im Wildgehege Klövensteen ist ein bewegtes Gelände aus Hügeln, Sträuchern und Robinienholz. Die Hügel sind mit Hainbuchen, Feldahorn und Weiden bepflanzt. Zwischen den Sträuchern führen schmale Wege zu Verstecken, die Kinder mit der Zeit selbst weiterformen sollen. Die Geräte stehen hintereinander, sodass ein Rundlauf zum Klettern und Balancieren entsteht. Die Kleinsten buddeln im Sand und an Wurzeltellern mit alten Baumstümpfen. Hinter dem Zaun liegt in Sichtweite eine Futterplattform, an der sich Eichhörnchen beobachten lassen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Bezirksamt Altona, Revierförsterei Klövensteen",
+ "region": "Rissen, Bezirk Altona, Hamburg",
+ "anreise": "Sandmoorweg 150, 22559 Hamburg. Kostenloser Parkplatz am Wildgehege, von dort etwa 150 m über den Weg vom Sandmoorweg bis zum Spielplatz. Ab S-Bahn Rissen (S1) etwa 2 km zu Fuß oder mit dem Rad über den Sandmoorweg.",
+ "startName": "Eingang Natur-Spielplatz",
+ "arten": [
+  "Hainbuche",
+  "Feldahorn",
+  "Eichhörnchen",
+  "Kiefer",
+  "Stieleiche",
+  "Hängebirke",
+  "Buchfink",
+  "Kohlmeise",
+  "Blaumeise",
+  "Rotkehlchen",
+  "Kleiber"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 79,
+ "form": "flaeche",
+ "website": "https://www.hamburg.de/politik-und-verwaltung/bezirke/altona/aktuelles/pressemitteilungen/eroeffnung-spielplatz-wildgehege-kloevensteen-980842",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Rund um die Uhr zugänglich, unabhängig von den Öffnungszeiten des Wildgeheges.",
+ "besuchshinweise": "Der alte Spielplatz direkt vor dem Wildgehege ist abgebaut. Der Natur-Spielplatz liegt hinter dem Irmgard-Greve-Haus.",
+ "area": [
+  [
+   53.595638,
+   9.74789
+  ],
+  [
+   53.595714,
+   9.74801
+  ],
+  [
+   53.595821,
+   9.747983
+  ],
+  [
+   53.595893,
+   9.747669
+  ],
+  [
+   53.595961,
+   9.747198
+  ],
+  [
+   53.595719,
+   9.747236
+  ],
+  [
+   53.595465,
+   9.747262
+  ],
+  [
+   53.595454,
+   9.747581
+  ],
+  [
+   53.595638,
+   9.74789
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13357871549,
+   "lat": 53.5957188,
+   "lon": 9.7472356,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Eingang",
+   "thema": "Zaun und Zugang",
+   "kurztext": "Ein Zaun fasst den Platz ein, damit er rund um die Uhr offen bleibt und kein Kind in das Moor-Biotop dahinter läuft.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1411362443,
+   "lat": 53.595795,
+   "lon": 9.747448,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Eichhörnchenkobel",
+   "thema": "Klettern und Balancieren",
+   "kurztext": "Drei Meter hoch ist der Kobel aus Robinienholz, er gehört zu einem Rundlauf aus Kletter- und Balanciergeräten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -588815901,
+   "lat": 53.595834,
+   "lon": 9.747687,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Sandspielbereich",
+   "thema": "Buddeln und Schaukeln",
+   "kurztext": "Im Sand und an Wurzeltellern mit Baumstümpfen wühlen kleine Kinder in Erde und Waldboden.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1456514757,
+   "lat": 53.595761,
+   "lon": 9.747541,
+   "kategorie": "playground",
+   "name": "Natur-Spielplatz"
+  },
+  {
+   "osmId": 7394956785,
+   "lat": 53.596423,
+   "lon": 9.746496,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 20447648,
+   "lat": 53.596823,
+   "lon": 9.745897,
+   "kategorie": "parking",
+   "name": "Parkplatz Wildgehege"
+  },
+  {
+   "osmId": 303734750,
+   "lat": 53.596238,
+   "lon": 9.746108,
+   "kategorie": "gastro",
+   "name": "Kleine Waldschänke"
+  }
+ ],
+ "artenNachweis": {
+  "Hainbuche": "belegt",
+  "Feldahorn": "belegt",
+  "Eichhörnchen": "belegt",
+  "Kiefer": "typisch",
+  "Stieleiche": "typisch",
+  "Hängebirke": "typisch",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kleiber": "typisch"
+ }
+}

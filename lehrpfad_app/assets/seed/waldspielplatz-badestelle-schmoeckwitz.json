@@ -1,0 +1,227 @@
+{
+ "id": "waldspielplatz-badestelle-schmoeckwitz",
+ "name": "Waldspielplatz Badestelle Schmöckwitz",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Ein großes Holzschiff steht auf einer sonnigen Freifläche in Schmöckwitz. Gleich nebenan liegt die Badewiese an der Dahme.",
+ "beschreibung": "Ein großes Holzschiff ist auf dem Platz in Schmöckwitz die Bühne für Piratenspiele. Die Freifläche liegt in der Sonne, Kiefern säumen ihren Rand, und auch große Gruppen finden hier Raum. Am Kletterturm wartet eine große Rutsche. An Netz und Stangen aus Holz üben Kinder Gleichgewicht und Kraft. Insektenwippen und mehrere Schaukeln kommen dazu, für Pausen steht ein überdachter Pavillon bereit. Nur wenige Schritte entfernt beginnt die Badewiese an der Dahme, eine EU-Badestelle mit großem Sandstrand zwischen Seddinsee und Zeuthener See. Auch eine Imbissbude liegt in der Nähe.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Schmöckwitz, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Tram 68 oder Bus 733 bzw. 168 bis Alt-Schmöckwitz, der Straße Alt-Schmöckwitz bis zur Wernsdorfer Straße folgen. Hinter der Brücke rechts führt der Schwarze Weg etwa 50 m zum Spielplatz.",
+ "startName": "Waldspielplatz Badestelle Schmöckwitz",
+ "arten": [
+  "Kiefer",
+  "Hängebirke",
+  "Eberesche",
+  "Stieleiche",
+  "Schilf",
+  "Buchfink",
+  "Kohlmeise",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Rotkehlchen",
+  "Waldeidechse",
+  "Stockente",
+  "Haubentaucher",
+  "Höckerschwan"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "kiefernforst",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 100,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/badestelle-schmoeckwitz/",
+ "besuchshinweise": "Badesachen mitnehmen, die Badewiese an der Dahme liegt gleich nebenan. Von Mai bis September ist sie an Wochenenden und Feiertagen von der Wasserrettung besetzt.",
+ "area": [
+  [
+   52.373071,
+   13.654507
+  ],
+  [
+   52.373331,
+   13.65496
+  ],
+  [
+   52.373589,
+   13.655254
+  ],
+  [
+   52.373724,
+   13.654879
+  ],
+  [
+   52.373978,
+   13.654915
+  ],
+  [
+   52.374036,
+   13.65501
+  ],
+  [
+   52.37397,
+   13.654861
+  ],
+  [
+   52.373826,
+   13.654684
+  ],
+  [
+   52.37389,
+   13.65445
+  ],
+  [
+   52.373776,
+   13.654621
+  ],
+  [
+   52.373508,
+   13.654459
+  ],
+  [
+   52.373569,
+   13.654261
+  ],
+  [
+   52.373348,
+   13.654198
+  ],
+  [
+   52.373071,
+   13.654507
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 5003834069,
+   "lat": 52.373366,
+   "lon": 13.654497,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Große Rutsche",
+   "thema": "Rutschen",
+   "kurztext": "Eine große Rutsche führt vom Kletterturm hinunter auf die sonnige Freifläche.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5003834073,
+   "lat": 52.373499,
+   "lon": 13.655031,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Klettergerüst",
+   "thema": "Klettern",
+   "kurztext": "An Kletternetz und Stangen aus Holz üben Kinder Gleichgewicht und Kraft.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5003834070,
+   "lat": 52.373419,
+   "lon": 13.654714,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Nestschaukel",
+   "thema": "Schaukeln",
+   "kurztext": "In der runden Nestschaukel finden mehrere Kinder zugleich Platz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5007994861,
+   "lat": 52.373535,
+   "lon": 13.654933,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Schaukel",
+   "thema": "Schaukeln",
+   "kurztext": "Weitere Schaukeln hängen an einem Holzgestell nahe der Nestschaukel.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5003834071,
+   "lat": 52.373272,
+   "lon": 13.654659,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Wippe",
+   "thema": "Wippen",
+   "kurztext": "Auf der Wippe geht es zu zweit auf und ab, für die Kleinen gibt es Wippen in Insektenform.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 511568615,
+   "lat": 52.373671,
+   "lon": 13.654675,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Badestelle Schmöckwitz"
+  },
+  {
+   "osmId": 5003834072,
+   "lat": 52.373309,
+   "lon": 13.654799,
+   "kategorie": "picnic",
+   "name": "Pavillon"
+  },
+  {
+   "osmId": 5003834068,
+   "lat": 52.373246,
+   "lon": 13.655072,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 5003834067,
+   "lat": 52.373023,
+   "lon": 13.654836,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 14292790801,
+   "lat": 52.37325,
+   "lon": 13.653044,
+   "kategorie": "viewpoint"
+  }
+ ],
+ "artenNachweis": {
+  "Kiefer": "typisch",
+  "Hängebirke": "typisch",
+  "Eberesche": "typisch",
+  "Stieleiche": "typisch",
+  "Schilf": "typisch",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Rotkehlchen": "typisch",
+  "Waldeidechse": "typisch",
+  "Stockente": "typisch",
+  "Haubentaucher": "typisch",
+  "Höckerschwan": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "a06992bc-bd1f-45b9-863c-23dbf2613fa8",
+   "id": "a06992bc-bd1f-45b9-863c-23dbf2613fa8",
+   "caption": "Holzpferd mit Wagen und Pavillon auf dem Spielplatz in Schmöckwitz (ältere Aufnahme)",
+   "credit": "Colin Smith on geo.hlipp.de, CC BY-SA 2.0, via Wikimedia Commons",
+   "license": "cc-by-sa-2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schmoeckwitz_-_Spielplatz_(Playground)_-_geo.hlipp.de_-_42485.jpg",
+   "kind": "ort"
+  }
+ ]
+}

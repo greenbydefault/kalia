@@ -1,0 +1,165 @@
+{
+ "id": "kinder-jugendfarm-habenhausen",
+ "name": "Kinder- und Jugendfarm Habenhausen",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Ponys, Pferde und zwei Esel teilen sich in Habenhausen einen Offenstall mit Bewegungshalle. Dazu kommen Schafe, Ziegen, Schweine, Kaninchen und Bienen.",
+ "beschreibung": "Seit 1984 lernen Stadtkinder auf der Kinder- und Jugendfarm in Habenhausen, wie ein Hof funktioniert. Schweine ziehen frei über das Gelände, Kaninchen, Meerschweinchen, Ziegen und Schafe leben in Gehegen und Freiläufen. Die Ponys und Pferde haben täglich Weidegang und dürfen auf der Farm in Würde alt werden. In Bienenkästen summen die Völker einer Imkerin. Je nach Jahreszeit wird Apfelsaft gepresst, im Steinbackofen gebacken oder nach Bodentieren gesucht. Bei der Tierfütterung am Nachmittag dürfen auch jüngere Kinder mithelfen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kinder- und Jugendfarm Bremen e. V.",
+ "region": "Habenhausen, Obervieland, Bremen",
+ "anreise": "Navi: Ohserstraße 40a, 28279 Bremen. Zu Fuß oder mit dem Rad von der Haltestelle Borgwardstraße über den Fuß- und Radweg Richtung Autobahnzubringer, nach 200 m links über eine kleine Brücke. Keine eigenen Parkplätze, wenige Stellplätze an der Straße rund 150 m nordöstlich.",
+ "startName": "Kinder- und Jugendfarm Habenhausen, Ohserstraße 40a",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Haushuhn",
+  "Hauskaninchen",
+  "Honigbiene",
+  "Kultur-Apfel",
+  "Amsel",
+  "Rotkehlchen",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 31,
+ "form": "flaeche",
+ "website": "https://jugendfarm-bremen.de/",
+ "eintrittPreise": "Besuch kostenlos; Gruppenbesuche und Feiern kostenpflichtig nach Anmeldung",
+ "oeffnungszeiten": "Di–Fr 10–18 Uhr; Mo 10–18 Uhr nur für Schulkinder und Jugendliche, in den Ferien für alle; Wochenende und Feiertage geschlossen. Tierfütterung täglich um 16 Uhr",
+ "besuchshinweise": "Hunde an der Leine. Besuchertoilette im Alten Haus über den Hintereingang. Mit großen Gruppen vorher anmelden. Keine eigenen Parkplätze, Anreise am besten mit Rad, Bus oder Bahn.",
+ "area": [
+  [
+   53.043324,
+   8.843895
+  ],
+  [
+   53.043278,
+   8.844296
+  ],
+  [
+   53.043233,
+   8.844697
+  ],
+  [
+   53.04159,
+   8.844671
+  ],
+  [
+   53.041468,
+   8.844498
+  ],
+  [
+   53.041205,
+   8.843514
+  ],
+  [
+   53.041024,
+   8.842654
+  ],
+  [
+   53.041774,
+   8.842924
+  ],
+  [
+   53.043324,
+   8.843895
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 2829752377,
+   "lat": 53.041557,
+   "lon": 8.844214,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Spielplatz",
+   "thema": "Klettergerüst, Spielhaus und Sandkasten",
+   "kurztext": "Klettergerüst, Spielhaus und Sandkasten stehen auf dem Spielplatz der Farm, dazu kommen Schaukeln und eine Wippe.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5612583323,
+   "lat": 53.042167,
+   "lon": 8.844329,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Apfelbaum",
+   "thema": "Vom Apfel zum Saft",
+   "kurztext": "Im Herbst pressen Schulklassen auf der Farm Äpfel zu Saft.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 278481843,
+   "lat": 53.042262,
+   "lon": 8.844548,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Reitplatz",
+   "thema": "Ponys, Pferde und Esel",
+   "kurztext": "Ponys und Pferde leben mit zwei Eseln in einem Offenstall mit Paddock und Bewegungshalle, geritten wird auf dem Sandplatz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 4202059210,
+   "lat": 53.043143,
+   "lon": 8.84416,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Bienenstand",
+   "thema": "Bienen",
+   "kurztext": "Bienenvölker einer Imkerin summen hier in ihren Kästen, Schulklassen besuchen sie im Umweltprojekt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 2829752377,
+   "lat": 53.041557,
+   "lon": 8.844214,
+   "kategorie": "playground",
+   "name": "Spielplatz Jugendfarm"
+  },
+  {
+   "osmId": 4359968413,
+   "lat": 53.041714,
+   "lon": 8.844044,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 239815518,
+   "lat": 53.043188,
+   "lon": 8.845836,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Honigbiene": "belegt",
+  "Kultur-Apfel": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch"
+ }
+}

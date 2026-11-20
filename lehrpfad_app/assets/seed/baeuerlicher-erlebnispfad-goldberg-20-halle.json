@@ -290,18 +290,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nutztiergarten_Goldberg,_Halle_(Saale)_01.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Haushuhn": "belegt",
-    "Ziege": "belegt",
-    "Schaf": "belegt",
-    "Damhirsch": "belegt",
-    "Hauskaninchen": "typisch",
-    "Honigbiene": "typisch",
-    "Löwenzahn": "typisch",
-    "Gänseblümchen": "typisch",
-    "Rotklee": "typisch",
-    "Amsel": "typisch",
-    "Rotkehlchen": "typisch"
-  }
+  ]
 }

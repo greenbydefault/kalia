@@ -1,0 +1,518 @@
+{
+ "id": "wildgehege-kloevensteen",
+ "name": "Wildgehege Klövensteen",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Rothirsche, Wildschweine und Mufflons leben im Forst Klövensteen am Rand von Rissen. Die neue Uhu-Voliere betreten Besucher durch eine Schleuse.",
+ "beschreibung": "Im Wildgehege Klövensteen liegen die Gehege mitten im Wald, zwischen Kiefern, Birken und Eichen. Rot-, Dam- und Sikahirsche ziehen über große Weiden, nebenan wühlen Wildschweine, und die Mufflons bleiben in ihrer Herde. Nahe dem Eingang leben Frettchen und Nerze, weiter hinten Waschbären und Rehe. In die neue Uhu-Voliere führt eine Schleuse, Rückzugsräume lassen den Eulen ihre Ruhe. Diese Uhus sollen die letzten ihrer Art im Wildgehege sein. Im Herbst stehen am Eingang Behälter für gesammelte Eicheln und Kastanien. Getrocknet gehen sie im Winter als Zusatzfutter an die Tiere.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Bezirksamt Altona, Revierförsterei Klövensteen",
+ "region": "Rissen, Bezirk Altona, Hamburg",
+ "anreise": "Sandmoorweg 150, 22559 Hamburg. Mit dem Auto über die B 431 Richtung Wedel, ab Ortsausgang Rissen über den Schulauer Moorweg ausgeschildert. Kostenloser Parkplatz direkt vor dem Eingang. Ab S-Bahn Rissen (S1) etwa 2 km zu Fuß oder mit dem Rad über den Sandmoorweg.",
+ "startName": "Eingangstor Wildgehege Klövensteen",
+ "arten": [
+  "Rothirsch",
+  "Damhirsch",
+  "Wildschwein",
+  "Waschbär",
+  "Reh",
+  "Haushuhn",
+  "Honigbiene",
+  "Stieleiche",
+  "Kiefer",
+  "Hängebirke",
+  "Heidelbeere",
+  "Eichhörnchen",
+  "Buntspecht",
+  "Eichelhäher"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "hunde-erlaubt",
+  "picknick",
+  "einkehr",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald",
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 121,
+ "form": "flaeche",
+ "website": "https://www.hamburg.de/politik-und-verwaltung/bezirke/altona/themen/umwelt-natur-klimaschutz/kloevensteen/wildgehege",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Mi–So 10–16 Uhr, letzter Einlass 15:30 Uhr; Mo und Di geschlossen. Auch an Feiertagen geöffnet, Heiligabend und Silvester geschlossen.",
+ "besuchshinweise": "Füttern ist verboten, auch mit mitgebrachtem Obst, Brot oder Nudeln. Hunde an der Leine führen.",
+ "area": [
+  [
+   53.601083,
+   9.748825
+  ],
+  [
+   53.600954,
+   9.748682
+  ],
+  [
+   53.600913,
+   9.748484
+  ],
+  [
+   53.600771,
+   9.748556
+  ],
+  [
+   53.600663,
+   9.74857
+  ],
+  [
+   53.600524,
+   9.748516
+  ],
+  [
+   53.600375,
+   9.748449
+  ],
+  [
+   53.600042,
+   9.748304
+  ],
+  [
+   53.599829,
+   9.748202
+  ],
+  [
+   53.599698,
+   9.748057
+  ],
+  [
+   53.599613,
+   9.747952
+  ],
+  [
+   53.599511,
+   9.747916
+  ],
+  [
+   53.599351,
+   9.74792
+  ],
+  [
+   53.599106,
+   9.747967
+  ],
+  [
+   53.599044,
+   9.748174
+  ],
+  [
+   53.598833,
+   9.748381
+  ],
+  [
+   53.598666,
+   9.748322
+  ],
+  [
+   53.59865,
+   9.748065
+  ],
+  [
+   53.598566,
+   9.747905
+  ],
+  [
+   53.598133,
+   9.747664
+  ],
+  [
+   53.597865,
+   9.747501
+  ],
+  [
+   53.597667,
+   9.747384
+  ],
+  [
+   53.59742,
+   9.747327
+  ],
+  [
+   53.597196,
+   9.747296
+  ],
+  [
+   53.597028,
+   9.747266
+  ],
+  [
+   53.596876,
+   9.746909
+  ],
+  [
+   53.596796,
+   9.746761
+  ],
+  [
+   53.596696,
+   9.746801
+  ],
+  [
+   53.5965,
+   9.746714
+  ],
+  [
+   53.596415,
+   9.746958
+  ],
+  [
+   53.596345,
+   9.746905
+  ],
+  [
+   53.596268,
+   9.7469
+  ],
+  [
+   53.596173,
+   9.74701
+  ],
+  [
+   53.596088,
+   9.747037
+  ],
+  [
+   53.595999,
+   9.747164
+  ],
+  [
+   53.59594,
+   9.747589
+  ],
+  [
+   53.595821,
+   9.747983
+  ],
+  [
+   53.595714,
+   9.74801
+  ],
+  [
+   53.595638,
+   9.74789
+  ],
+  [
+   53.595415,
+   9.748417
+  ],
+  [
+   53.595351,
+   9.748569
+  ],
+  [
+   53.595148,
+   9.749013
+  ],
+  [
+   53.595378,
+   9.749454
+  ],
+  [
+   53.595472,
+   9.749892
+  ],
+  [
+   53.595388,
+   9.750321
+  ],
+  [
+   53.595487,
+   9.750758
+  ],
+  [
+   53.59614,
+   9.752541
+  ],
+  [
+   53.596286,
+   9.752978
+  ],
+  [
+   53.596409,
+   9.753153
+  ],
+  [
+   53.596643,
+   9.753464
+  ],
+  [
+   53.597729,
+   9.753823
+  ],
+  [
+   53.597819,
+   9.753709
+  ],
+  [
+   53.597821,
+   9.753519
+  ],
+  [
+   53.597904,
+   9.753518
+  ],
+  [
+   53.6005,
+   9.753601
+  ],
+  [
+   53.600697,
+   9.753028
+  ],
+  [
+   53.600857,
+   9.752319
+  ],
+  [
+   53.600921,
+   9.751437
+  ],
+  [
+   53.60098,
+   9.750412
+  ],
+  [
+   53.60101,
+   9.749993
+  ],
+  [
+   53.601051,
+   9.749336
+  ],
+  [
+   53.601083,
+   9.748825
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 11188272545,
+   "lat": 53.596353,
+   "lon": 9.747247,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Frettchen",
+   "thema": "Gehege am Eingang",
+   "kurztext": "Frettchen sind die gezähmte Form des Iltisses und wohnen gleich hinter dem Eingang.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11188272546,
+   "lat": 53.59608,
+   "lon": 9.747913,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Nerz",
+   "thema": "Tier am Wasser",
+   "kurztext": "Der Europäische Nerz ist eng ans Wasser gebunden und lebt in dichtem Ufergebüsch an Flüssen, Bächen und Seen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11188272547,
+   "lat": 53.595982,
+   "lon": 9.748228,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Uhu",
+   "thema": "Begehbare Voliere",
+   "kurztext": "Rund 600 Quadratmeter misst die Voliere, in der drei Uhus unterschiedlichen Alters leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1571123530,
+   "lat": 53.597731,
+   "lon": 9.750273,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Wildschweine",
+   "thema": "Gehege",
+   "kurztext": "Wildschweine kommen in Mitteleuropa vor allem in Laub- und Mischwäldern vor, ihre Art reicht bis nach Japan.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 12003251959,
+   "lat": 53.59748,
+   "lon": 9.751941,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Waschbären",
+   "thema": "Gehege",
+   "kurztext": "Ursprünglich stammt der Waschbär aus Amerika und ist mit den Bären nur entfernt verwandt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1571152971,
+   "lat": 53.598371,
+   "lon": 9.752442,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Damwild",
+   "thema": "Gehege",
+   "kurztext": "Damhirsche sind tagaktiv und mögen offenes Land, in dem sich kleine Wäldchen und Felder abwechseln.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11188589060,
+   "lat": 53.598881,
+   "lon": 9.751557,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Rehe",
+   "thema": "Gehege",
+   "kurztext": "Rehe sind die kleinste heimische Hirschart und haben hier ein eigenes Gehege.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1571152999,
+   "lat": 53.599781,
+   "lon": 9.750745,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Mufflons",
+   "thema": "Gemeinschaftsgehege",
+   "kurztext": "Mufflons stammen aus gebirgigem Gelände, ihre Weibchen bilden mit den Lämmern Herden.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3413290583,
+   "lat": 53.598934,
+   "lon": 9.7494,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Sikawild",
+   "thema": "Aussichtsstelle",
+   "kurztext": "Sikahirsche passen sich leicht an und mögen Wald mit dichtem Unterwuchs, kommen aber auch in Feuchtgebieten zurecht.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11188272544,
+   "lat": 53.599232,
+   "lon": 9.747147,
+   "km": 0,
+   "reihenfolge": 10,
+   "titel": "Rotwild",
+   "thema": "Aussichtsstelle",
+   "kurztext": "Von der Aussichtsstelle reicht der Blick auf die Rothirsche, deren Art von Europa über Asien bis Nordafrika verbreitet ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 20447648,
+   "lat": 53.596823,
+   "lon": 9.745897,
+   "kategorie": "parking",
+   "name": "Parkplatz Wildgehege"
+  },
+  {
+   "osmId": 303734750,
+   "lat": 53.596238,
+   "lon": 9.746108,
+   "kategorie": "gastro",
+   "name": "Kleine Waldschänke"
+  },
+  {
+   "osmId": 1456514757,
+   "lat": 53.595761,
+   "lon": 9.747541,
+   "kategorie": "playground",
+   "name": "Natur-Spielplatz"
+  },
+  {
+   "osmId": 1571123626,
+   "lat": 53.596046,
+   "lon": 9.748902,
+   "kategorie": "shelter",
+   "name": "Wetterpilz"
+  },
+  {
+   "osmId": 1571169717,
+   "lat": 53.598714,
+   "lon": 9.747946,
+   "kategorie": "shelter",
+   "name": "Wetterpilz"
+  },
+  {
+   "osmId": 6447204485,
+   "lat": 53.596495,
+   "lon": 9.750084,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 1571123690,
+   "lat": 53.597133,
+   "lon": 9.750289,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 1571181038,
+   "lat": 53.601002,
+   "lon": 9.748629,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 4378781334,
+   "lat": 53.598653,
+   "lon": 9.750527,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Rothirsch": "belegt",
+  "Damhirsch": "belegt",
+  "Wildschwein": "belegt",
+  "Waschbär": "belegt",
+  "Reh": "belegt",
+  "Haushuhn": "belegt",
+  "Honigbiene": "belegt",
+  "Stieleiche": "typisch",
+  "Kiefer": "typisch",
+  "Hängebirke": "typisch",
+  "Heidelbeere": "typisch",
+  "Eichhörnchen": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "80abd0e9-8cca-478c-ade5-4dac4d40fa8a",
+   "id": "80abd0e9-8cca-478c-ade5-4dac4d40fa8a",
+   "caption": "Eingangsstein des Wildgeheges Klövensteen (Dezember 2014)",
+   "credit": "Marseille77, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kl%C3%B6vensteen_naturstein_Eingang_2014.jpg",
+   "kind": "ort"
+  }
+ ]
+}

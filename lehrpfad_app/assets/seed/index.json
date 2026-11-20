@@ -1,6 +1,16 @@
 {
  "trails": [
   {
+   "id": "abenteuerspielplatz-kinderbauernhof-koepenick",
+   "dataVersion": 32,
+   "file": "abenteuerspielplatz-kinderbauernhof-koepenick.json"
+  },
+  {
+   "id": "alte-fasanerie-luebars",
+   "dataVersion": 88,
+   "file": "alte-fasanerie-luebars.json"
+  },
+  {
    "id": "arboretum-dreetz",
    "dataVersion": 1,
    "file": "arboretum-dreetz.json",
@@ -43,6 +53,13 @@
    "thumbImage": "34a8a510-76ae-4add-b517-ccaf4bb7489d"
   },
   {
+   "id": "baumartenlehrpfad-spandauer-forst",
+   "dataVersion": 113,
+   "file": "baumartenlehrpfad-spandauer-forst.json",
+   "thumb": "thumbs/baumartenlehrpfad-spandauer-forst.avif",
+   "thumbImage": "7fa2091c-7ed4-4f74-86bd-6eca9fb92893"
+  },
+  {
    "id": "baumkronenpfad-hainich",
    "dataVersion": 2,
    "file": "baumkronenpfad-hainich.json",
@@ -76,6 +93,20 @@
    "file": "baumkronenweg-ziegelwies.json",
    "thumb": "thumbs/baumkronenweg-ziegelwies.webp",
    "thumbImage": "a2812f31-be26-5c09-974b-8a9851cc0f88"
+  },
+  {
+   "id": "baumlehrpfad-boecklerpark",
+   "dataVersion": 200,
+   "file": "baumlehrpfad-boecklerpark.json",
+   "thumb": "thumbs/baumlehrpfad-boecklerpark.avif",
+   "thumbImage": "38b681a1-f1d6-4c46-8621-abad98077f1a"
+  },
+  {
+   "id": "baumlehrpfad-hasenheide",
+   "dataVersion": 242,
+   "file": "baumlehrpfad-hasenheide.json",
+   "thumb": "thumbs/baumlehrpfad-hasenheide.avif",
+   "thumbImage": "5fabf662-d06d-41ca-b617-d87d64228499"
   },
   {
    "id": "baumwipfelpfad-bad-iburg",
@@ -148,11 +179,23 @@
    "thumbImage": "5b12ebd3-909b-5514-b31e-bf1e06736e74"
   },
   {
+   "id": "bauspielplatz-tweeltenmoor",
+   "dataVersion": 64,
+   "file": "bauspielplatz-tweeltenmoor.json"
+  },
+  {
    "id": "billi-bockert-erlebnistour-bad-dueben",
    "dataVersion": 31,
    "file": "billi-bockert-erlebnistour-bad-dueben.json",
    "thumb": "thumbs/billi-bockert-erlebnistour-bad-dueben.webp",
    "thumbImage": "a09f0296-e0a9-5ee7-adc9-af9377274533"
+  },
+  {
+   "id": "boberger-niederung-duenenhaus",
+   "dataVersion": 104,
+   "file": "boberger-niederung-duenenhaus.json",
+   "thumb": "thumbs/boberger-niederung-duenenhaus.avif",
+   "thumbImage": "3cb2aa48-e5d2-424b-b50e-188905dc519b"
   },
   {
    "id": "braumannswiesen",
@@ -162,11 +205,52 @@
    "thumbImage": "d3b95531-09d2-5fab-bb67-8838b033eed6"
   },
   {
+   "id": "britzer-garten",
+   "dataVersion": 189,
+   "file": "britzer-garten.json",
+   "thumb": "thumbs/britzer-garten.avif",
+   "thumbImage": "e55d6dbd-083e-4666-8b1f-e772773609b0"
+  },
+  {
+   "id": "bund-kinderwildnis",
+   "dataVersion": 51,
+   "file": "bund-kinderwildnis.json"
+  },
+  {
    "id": "can-jalpi-arenys",
    "dataVersion": 2,
    "file": "can-jalpi-arenys.json",
    "thumb": "thumbs/can-jalpi-arenys.webp",
    "thumbImage": "389f560b-e5fc-5605-865f-1905f6a4a439"
+  },
+  {
+   "id": "charlottenburger-ziegenhof",
+   "dataVersion": 28,
+   "file": "charlottenburger-ziegenhof.json"
+  },
+  {
+   "id": "domaene-dahlem",
+   "dataVersion": 60,
+   "file": "domaene-dahlem.json",
+   "thumb": "thumbs/domaene-dahlem.avif",
+   "thumbImage": "26c336cc-d06c-4774-ac2c-8dd5154fb28f"
+  },
+  {
+   "id": "duvenstedter-brook-raetselroute",
+   "dataVersion": 92,
+   "file": "duvenstedter-brook-raetselroute.json",
+   "thumb": "thumbs/duvenstedter-brook-raetselroute.avif",
+   "thumbImage": "8f66ef6d-db93-49f0-ab19-01bbb0ee725c"
+  },
+  {
+   "id": "eiszeit-naturspielplatz-plaetternweg",
+   "dataVersion": 54,
+   "file": "eiszeit-naturspielplatz-plaetternweg.json"
+  },
+  {
+   "id": "elbe-tideauenzentrum-heuckenlock",
+   "dataVersion": 89,
+   "file": "elbe-tideauenzentrum-heuckenlock.json"
   },
   {
    "id": "entdeckerpfad-biologische-vielfalt",
@@ -181,6 +265,39 @@
    "file": "erlebe-bruder-wald.json",
    "thumb": "thumbs/erlebe-bruder-wald.webp",
    "thumbImage": "d701e935-f865-5566-9529-69f4c3623f3b"
+  },
+  {
+   "id": "erlebnisfarm-ohlenhof",
+   "dataVersion": 32,
+   "file": "erlebnisfarm-ohlenhof.json"
+  },
+  {
+   "id": "erlebnispfad-stadtnatur-goerlitzer-park",
+   "dataVersion": 142,
+   "file": "erlebnispfad-stadtnatur-goerlitzer-park.json",
+   "thumb": "thumbs/erlebnispfad-stadtnatur-goerlitzer-park.avif",
+   "thumbImage": "0d69020f-d20d-48a7-97ce-77977a916489"
+  },
+  {
+   "id": "erlebnispfad-stadtnatur-volkspark-friedrichshain",
+   "dataVersion": 221,
+   "file": "erlebnispfad-stadtnatur-volkspark-friedrichshain.json",
+   "thumb": "thumbs/erlebnispfad-stadtnatur-volkspark-friedrichshain.avif",
+   "thumbImage": "52fcc868-a9f6-4c89-9848-5a9904183cec"
+  },
+  {
+   "id": "erlebnispfad-stadtnatur-volkspark-jungfernheide",
+   "dataVersion": 162,
+   "file": "erlebnispfad-stadtnatur-volkspark-jungfernheide.json",
+   "thumb": "thumbs/erlebnispfad-stadtnatur-volkspark-jungfernheide.avif",
+   "thumbImage": "600d2db7-0c03-4501-b1cc-16ac2c923ee4"
+  },
+  {
+   "id": "erlebnispfad-wohldorfer-wald",
+   "dataVersion": 114,
+   "file": "erlebnispfad-wohldorfer-wald.json",
+   "thumb": "thumbs/erlebnispfad-wohldorfer-wald.avif",
+   "thumbImage": "09aae166-c2e2-4ff0-a511-0ff549404e0c"
   },
   {
    "id": "erlebnisrundweg-friedrichskoog",
@@ -300,11 +417,45 @@
    "thumbImage": "55580eaa-367a-508d-a9a8-2846ee8e5f7e"
   },
   {
+   "id": "jugendfarm-moritzhof",
+   "dataVersion": 35,
+   "file": "jugendfarm-moritzhof.json",
+   "thumb": "thumbs/jugendfarm-moritzhof.avif",
+   "thumbImage": "3ed10e19-ca83-4a1c-a825-3b8797570254"
+  },
+  {
    "id": "kaeflingsberg-speck",
    "dataVersion": 1,
    "file": "kaeflingsberg-speck.json",
    "thumb": "thumbs/kaeflingsberg-speck.webp",
    "thumbImage": "5637b957-563e-567e-aa48-92ad1547d9ad"
+  },
+  {
+   "id": "kinder-jugendfarm-borgfeld",
+   "dataVersion": 74,
+   "file": "kinder-jugendfarm-borgfeld.json"
+  },
+  {
+   "id": "kinder-jugendfarm-habenhausen",
+   "dataVersion": 31,
+   "file": "kinder-jugendfarm-habenhausen.json"
+  },
+  {
+   "id": "kinderbauernhof-fort-robinson",
+   "dataVersion": 40,
+   "file": "kinderbauernhof-fort-robinson.json"
+  },
+  {
+   "id": "kinderbauernhof-goerlitzer-park",
+   "dataVersion": 178,
+   "file": "kinderbauernhof-goerlitzer-park.json",
+   "thumb": "thumbs/kinderbauernhof-goerlitzer-park.avif",
+   "thumbImage": "4c31770e-728d-4f87-abbb-e34ce3a1181f"
+  },
+  {
+   "id": "kinderbauernhof-kirchdorf",
+   "dataVersion": 72,
+   "file": "kinderbauernhof-kirchdorf.json"
   },
   {
    "id": "kinderbauernhof-mauerplatz",
@@ -319,6 +470,16 @@
    "file": "kinderbauernhof-pinke-panke.json",
    "thumb": "thumbs/kinderbauernhof-pinke-panke.webp",
    "thumbImage": "40f4a88f-bc33-5967-9553-6f038100bf9f"
+  },
+  {
+   "id": "kinderbauernhof-waslala",
+   "dataVersion": 30,
+   "file": "kinderbauernhof-waslala.json"
+  },
+  {
+   "id": "kinderbunter-bauernhof-wedding",
+   "dataVersion": 79,
+   "file": "kinderbunter-bauernhof-wedding.json"
   },
   {
    "id": "kinderwald-maerkisch-buchholz",
@@ -384,6 +545,11 @@
    "thumbImage": "e562305d-796c-54ea-a1d4-ac341f190a4a"
   },
   {
+   "id": "moorerlebnispfad-erikasee",
+   "dataVersion": 75,
+   "file": "moorerlebnispfad-erikasee.json"
+  },
+  {
    "id": "moorlehrpfad-burgermoos",
    "dataVersion": 2,
    "file": "moorlehrpfad-burgermoos.json",
@@ -391,11 +557,32 @@
    "thumbImage": "6fc0947a-e318-5d5a-834d-3f460d6b8b64"
   },
   {
+   "id": "museumsdorf-volksdorf",
+   "dataVersion": 94,
+   "file": "museumsdorf-volksdorf.json",
+   "thumb": "thumbs/museumsdorf-volksdorf.avif",
+   "thumbImage": "ad90ff44-4134-4788-a159-b60cadd5ae81"
+  },
+  {
    "id": "natter-pfad-goyatz",
    "dataVersion": 1,
    "file": "natter-pfad-goyatz.json",
    "thumb": "thumbs/natter-pfad-goyatz.webp",
    "thumbImage": "75bbcb1d-b6a7-56e3-b665-16cd55301d29"
+  },
+  {
+   "id": "natur-park-suedgelaende",
+   "dataVersion": 78,
+   "file": "natur-park-suedgelaende.json",
+   "thumb": "thumbs/natur-park-suedgelaende.avif",
+   "thumbImage": "0b22d44e-5d72-414d-b7dc-922c93c25a11"
+  },
+  {
+   "id": "naturentdeckungspfad-heidekampgraben",
+   "dataVersion": 82,
+   "file": "naturentdeckungspfad-heidekampgraben.json",
+   "thumb": "thumbs/naturentdeckungspfad-heidekampgraben.avif",
+   "thumbImage": "c4772831-22ed-4623-8875-d140807ad21b"
   },
   {
    "id": "naturerlebnis-grabau",
@@ -419,6 +606,32 @@
    "thumbImage": "c6288000-19e8-51cf-b098-6e756310da82"
   },
   {
+   "id": "naturerlebnispfad-freizeitpark-marienfelde",
+   "dataVersion": 131,
+   "file": "naturerlebnispfad-freizeitpark-marienfelde.json"
+  },
+  {
+   "id": "naturerlebnispfad-hoeltigbaum",
+   "dataVersion": 103,
+   "file": "naturerlebnispfad-hoeltigbaum.json",
+   "thumb": "thumbs/naturerlebnispfad-hoeltigbaum.avif",
+   "thumbImage": "e9b3908f-ee9d-47f3-ad13-a27420f8160e"
+  },
+  {
+   "id": "naturerlebnispfad-kaltehofe",
+   "dataVersion": 153,
+   "file": "naturerlebnispfad-kaltehofe.json",
+   "thumb": "thumbs/naturerlebnispfad-kaltehofe.avif",
+   "thumbImage": "c221aabf-a63c-4c45-84af-e4d8fcefea63"
+  },
+  {
+   "id": "naturerlebnispfad-oekologiestation",
+   "dataVersion": 132,
+   "file": "naturerlebnispfad-oekologiestation.json",
+   "thumb": "thumbs/naturerlebnispfad-oekologiestation.avif",
+   "thumbImage": "a17ae7e6-3676-401d-8b4a-0a66cb0ccc09"
+  },
+  {
    "id": "naturerlebnisraum-spo",
    "dataVersion": 1,
    "file": "naturerlebnisraum-spo.json",
@@ -431,6 +644,18 @@
    "file": "naturerlebnisweg-ploener-seeufer.json",
    "thumb": "thumbs/naturerlebnisweg-ploener-seeufer.webp",
    "thumbImage": "081f5faf-2303-509b-a31a-f55f1e6848a1"
+  },
+  {
+   "id": "naturhof-malchow",
+   "dataVersion": 56,
+   "file": "naturhof-malchow.json"
+  },
+  {
+   "id": "naturlehr-erlebnispfad-stadtwald-buergerpark",
+   "dataVersion": 154,
+   "file": "naturlehr-erlebnispfad-stadtwald-buergerpark.json",
+   "thumb": "thumbs/naturlehr-erlebnispfad-stadtwald-buergerpark.avif",
+   "thumbImage": "dc83faad-f5f8-4351-a408-9c7aefd57724"
   },
   {
    "id": "naturlehrpfad-angersdorfer-teiche",
@@ -475,6 +700,18 @@
    "thumbImage": "1c7df3d0-a602-5573-a29f-59539e9dd14f"
   },
   {
+   "id": "naturlehrpfad-kolonie-freiheit",
+   "dataVersion": 64,
+   "file": "naturlehrpfad-kolonie-freiheit.json",
+   "thumb": "thumbs/naturlehrpfad-kolonie-freiheit.avif",
+   "thumbImage": "27d0489d-7e08-41a1-8794-283c51d415af"
+  },
+  {
+   "id": "naturlehrpfad-moorguertel-vogelkamp",
+   "dataVersion": 84,
+   "file": "naturlehrpfad-moorguertel-vogelkamp.json"
+  },
+  {
    "id": "naturlehrpfad-plaussiger-waeldchen",
    "dataVersion": 2,
    "file": "naturlehrpfad-plaussiger-waeldchen.json",
@@ -496,11 +733,42 @@
    "thumbImage": "e66d544d-72b3-5048-8e95-31909e29d387"
   },
   {
+   "id": "naturlernpfad-hoenower-weiherkette",
+   "dataVersion": 44,
+   "file": "naturlernpfad-hoenower-weiherkette.json",
+   "thumb": "thumbs/naturlernpfad-hoenower-weiherkette.avif",
+   "thumbImage": "da7ec034-fd84-4a9e-bc93-5aaf7cb1e57e"
+  },
+  {
+   "id": "naturschutzstation-hahneberg",
+   "dataVersion": 41,
+   "file": "naturschutzstation-hahneberg.json"
+  },
+  {
+   "id": "naturschutzzentrum-oekowerk-teufelssee",
+   "dataVersion": 72,
+   "file": "naturschutzzentrum-oekowerk-teufelssee.json",
+   "thumb": "thumbs/naturschutzzentrum-oekowerk-teufelssee.avif",
+   "thumbImage": "99af0f1b-0afb-4855-b57d-c80d9f4e589c"
+  },
+  {
+   "id": "naturspielplatz-wildgehege-kloevensteen",
+   "dataVersion": 79,
+   "file": "naturspielplatz-wildgehege-kloevensteen.json"
+  },
+  {
    "id": "naturwaldpfad",
    "dataVersion": 2,
    "file": "naturwaldpfad.json",
    "thumb": "thumbs/naturwaldpfad.webp",
    "thumbImage": "e814fbc1-97a9-5cf2-beb3-da94ac383138"
+  },
+  {
+   "id": "nsg-luneplate",
+   "dataVersion": 98,
+   "file": "nsg-luneplate.json",
+   "thumb": "thumbs/nsg-luneplate.avif",
+   "thumbImage": "2b896628-6601-489e-87ad-06ffe05d4d2a"
   },
   {
    "id": "oher-graeberfeld",
@@ -573,6 +841,18 @@
    "thumbImage": "e3b6af6c-92db-5cbc-a94f-0435fd30230e"
   },
   {
+   "id": "sauerstoffpfad-gruenhoefe",
+   "dataVersion": 71,
+   "file": "sauerstoffpfad-gruenhoefe.json"
+  },
+  {
+   "id": "schnaakenmoor-schnitzeljagd",
+   "dataVersion": 126,
+   "file": "schnaakenmoor-schnitzeljagd.json",
+   "thumb": "thumbs/schnaakenmoor-schnitzeljagd.avif",
+   "thumbImage": "49803eb8-4a4c-4262-9d89-c6146c1d4fae"
+  },
+  {
    "id": "schwartautal",
    "dataVersion": 2,
    "file": "schwartautal.json",
@@ -606,6 +886,23 @@
    "file": "spurenweg-kratzeburg.json",
    "thumb": "thumbs/spurenweg-kratzeburg.webp",
    "thumbImage": "928d1302-9d96-5405-a398-33b52fef71b0"
+  },
+  {
+   "id": "stadtnatur-rallyes-volkspark-rehberge",
+   "dataVersion": 143,
+   "file": "stadtnatur-rallyes-volkspark-rehberge.json",
+   "thumb": "thumbs/stadtnatur-rallyes-volkspark-rehberge.avif",
+   "thumbImage": "0f9e19b5-51af-4e8a-b260-c718754b3e60"
+  },
+  {
+   "id": "stadtteilfarm-huchting",
+   "dataVersion": 80,
+   "file": "stadtteilfarm-huchting.json"
+  },
+  {
+   "id": "stadtteilfarm-tenever",
+   "dataVersion": 60,
+   "file": "stadtteilfarm-tenever.json"
   },
   {
    "id": "steinerlebnisplatz-markkleeberg",
@@ -648,6 +945,18 @@
    "file": "tiergehege-bitterfeld-gruene-lunge.json",
    "thumb": "thumbs/tiergehege-bitterfeld-gruene-lunge.webp",
    "thumbImage": "bcc399c0-7e46-5b90-8c76-8242343c998a"
+  },
+  {
+   "id": "tiergehege-buergerpark-bremen",
+   "dataVersion": 49,
+   "file": "tiergehege-buergerpark-bremen.json",
+   "thumb": "thumbs/tiergehege-buergerpark-bremen.avif",
+   "thumbImage": "63027f31-6004-4727-a5f8-55c493fc4365"
+  },
+  {
+   "id": "tiergehege-buergerpark-bremerhaven",
+   "dataVersion": 72,
+   "file": "tiergehege-buergerpark-bremerhaven.json"
   },
   {
    "id": "tiergehege-dornreichenbach",
@@ -748,6 +1057,13 @@
    "thumbImage": "eaaf92d2-7136-51f8-9c6a-96e73183b8fc"
   },
   {
+   "id": "waldlehrpfad-speckenbuettel",
+   "dataVersion": 89,
+   "file": "waldlehrpfad-speckenbuettel.json",
+   "thumb": "thumbs/waldlehrpfad-speckenbuettel.avif",
+   "thumbImage": "e36aa699-2e19-4f28-b046-94845ba77bae"
+  },
+  {
    "id": "waldlehrpfad-taubensuhl-landau",
    "dataVersion": 42,
    "file": "waldlehrpfad-taubensuhl-landau.json",
@@ -762,11 +1078,64 @@
    "thumbImage": "290e40a2-fbd7-57e8-89c4-d5de09c658ac"
   },
   {
+   "id": "waldspielplatz-badestelle-schmoeckwitz",
+   "dataVersion": 100,
+   "file": "waldspielplatz-badestelle-schmoeckwitz.json",
+   "thumb": "thumbs/waldspielplatz-badestelle-schmoeckwitz.avif",
+   "thumbImage": "a06992bc-bd1f-45b9-863c-23dbf2613fa8"
+  },
+  {
+   "id": "waldspielplatz-fischerhuettenweg",
+   "dataVersion": 109,
+   "file": "waldspielplatz-fischerhuettenweg.json"
+  },
+  {
+   "id": "waldspielplatz-goldfischteich",
+   "dataVersion": 42,
+   "file": "waldspielplatz-goldfischteich.json"
+  },
+  {
+   "id": "waldspielplatz-hirschgartendreieck",
+   "dataVersion": 85,
+   "file": "waldspielplatz-hirschgartendreieck.json"
+  },
+  {
    "id": "waldspielplatz-jaegerhaus",
    "dataVersion": 2,
    "file": "waldspielplatz-jaegerhaus.json",
    "thumb": "thumbs/waldspielplatz-jaegerhaus.webp",
    "thumbImage": "9b79931f-371a-59c8-9f62-84b48bfad402"
+  },
+  {
+   "id": "waldspielplatz-niendorfer-gehege",
+   "dataVersion": 99,
+   "file": "waldspielplatz-niendorfer-gehege.json",
+   "thumb": "thumbs/waldspielplatz-niendorfer-gehege.avif",
+   "thumbImage": "340673ca-07b6-489b-9193-51d375f797e8"
+  },
+  {
+   "id": "waldspielplatz-plaenterwald",
+   "dataVersion": 117,
+   "file": "waldspielplatz-plaenterwald.json",
+   "thumb": "thumbs/waldspielplatz-plaenterwald.avif",
+   "thumbImage": "3ca4b472-a9d2-425d-ab0e-7d06910a75cc"
+  },
+  {
+   "id": "waldspielplatz-rauchfangswerder",
+   "dataVersion": 78,
+   "file": "waldspielplatz-rauchfangswerder.json"
+  },
+  {
+   "id": "waldspielplatz-schildhorn",
+   "dataVersion": 48,
+   "file": "waldspielplatz-schildhorn.json",
+   "thumb": "thumbs/waldspielplatz-schildhorn.avif",
+   "thumbImage": "cbb02bd7-16de-41be-8b05-34862550ca1d"
+  },
+  {
+   "id": "waldspielplatz-volksdorfer-wald",
+   "dataVersion": 85,
+   "file": "waldspielplatz-volksdorfer-wald.json"
   },
   {
    "id": "waldspielplatz-wildpark-leipzig",
@@ -853,6 +1222,13 @@
    "thumbImage": "c7ae1037-4c56-51ba-ae46-09510c0411cd"
   },
   {
+   "id": "wildgehege-kloevensteen",
+   "dataVersion": 121,
+   "file": "wildgehege-kloevensteen.json",
+   "thumb": "thumbs/wildgehege-kloevensteen.avif",
+   "thumbImage": "80abd0e9-8cca-478c-ade5-4dac4d40fa8a"
+  },
+  {
    "id": "wildpark-leipzig",
    "dataVersion": 85,
    "file": "wildpark-leipzig.json",
@@ -872,6 +1248,13 @@
    "file": "wupatz.json",
    "thumb": "thumbs/wupatz.webp",
    "thumbImage": "a4830200-ba03-5d79-8413-4d89fd720531"
+  },
+  {
+   "id": "wupp-naturerlebnisgelaende-walle",
+   "dataVersion": 45,
+   "file": "wupp-naturerlebnisgelaende-walle.json",
+   "thumb": "thumbs/wupp-naturerlebnisgelaende-walle.avif",
+   "thumbImage": "46c4f442-a45e-4364-a5b6-3cdf77dc0d58"
   },
   {
    "id": "zweiseitenweg-rambow",

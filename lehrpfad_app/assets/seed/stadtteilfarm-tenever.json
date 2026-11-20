@@ -1,0 +1,147 @@
+{
+ "id": "stadtteilfarm-tenever",
+ "name": "Stadtteilfarm Osterholz-Tenever (ehem. Kinderbauernhof Tenever)",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Am Osterholzer Deich in Tenever leben Schafe, Ziegen, Kaninchen, Hühner, Gänse und ein Kater. Zur Fütterung dürfen Besuchende das Farm-Team begleiten.",
+ "beschreibung": "Die Stadtteilfarm Osterholz-Tenever, früher Kinderbauernhof Tenever, ist ein offener Ort für Kinder, Familien und Nachbarn aus dem Stadtteil. Schafe, Ziegen, Kaninchen, Hühner und Gänse teilen sich den Hof mit einem Kater. Gefüttert wird nur zu festen Terminen, dann begleiten Besuchende die Mitarbeitenden und versorgen unter Aufsicht einzelne Tiere. Vormittags gehört die Farm den Schulen, nachmittags allen. In den Ferien gibt es kleine Programme wie Bogenschießen, Lagerfeuer mit Stockbrot oder Kürbisschnitzen. Am Rand des Geländes fließt das Bultenfleet.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Fokus Familien- und Sozialdienstleistung gGmbH",
+ "region": "Tenever, Osterholz, Bremen",
+ "anreise": "Navi: Am Osterholzer Deich 14, 28325 Bremen.",
+ "startName": "Stadtteilfarm Osterholz-Tenever, Hofgebäude Am Osterholzer Deich 14",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Hauskaninchen",
+  "Haushuhn",
+  "Amsel",
+  "Rotkehlchen",
+  "Honigbiene",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Schwarzerle",
+  "Stockente"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 60,
+ "form": "flaeche",
+ "website": "https://stadtteilfarm.fokus-bremen.de/",
+ "oeffnungszeiten": "Mo, Di, Mi und Fr 13–17 Uhr, Do geschlossen; vormittags schulbezogene Nutzung; in den Ferien abweichende Zeiten (Website „Aktuelles“)",
+ "besuchshinweise": "Kinder unter 12 Jahren nur mit volljähriger Begleitung. Tiere nicht selbst füttern, die Fütterungstermine stehen im Wochenplan auf der Website und im Schaukasten vor Ort.",
+ "area": [
+  [
+   53.074294,
+   8.957627
+  ],
+  [
+   53.074437,
+   8.957443
+  ],
+  [
+   53.074395,
+   8.957233
+  ],
+  [
+   53.074288,
+   8.957016
+  ],
+  [
+   53.0733,
+   8.957467
+  ],
+  [
+   53.073576,
+   8.958495
+  ],
+  [
+   53.073996,
+   8.958129
+  ],
+  [
+   53.07424,
+   8.957757
+  ],
+  [
+   53.074294,
+   8.957627
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 34118238,
+   "lat": 53.07382,
+   "lon": 8.957825,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Hofgebäude",
+   "thema": "Treffpunkt und Schaukasten",
+   "kurztext": "Am Hofgebäude Am Osterholzer Deich 14 hängt der Wochenplan mit den Fütterungsterminen im Schaukasten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3191015078,
+   "lat": 53.073577,
+   "lon": 8.957574,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spielplatz",
+   "thema": "Spielen auf der Farm",
+   "kurztext": "Ein Spielplatz liegt auf dem Farmgelände, zwischen Hofgebäude und Bultenfleet.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 34118219,
+   "lat": 53.074108,
+   "lon": 8.957617,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Farmgelände",
+   "thema": "Schafe, Ziegen und Geflügel",
+   "kurztext": "Schafe, Ziegen, Kaninchen, Hühner und Gänse leben auf dem Gelände, das früher Kinderbauernhof Tenever hieß.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 3191015078,
+   "lat": 53.073577,
+   "lon": 8.957574,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 2897655568,
+   "lat": 53.072761,
+   "lon": 8.958352,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Hauskaninchen": "belegt",
+  "Haushuhn": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Honigbiene": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Schwarzerle": "typisch",
+  "Stockente": "typisch"
+ }
+}

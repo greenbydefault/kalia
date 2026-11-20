@@ -1,0 +1,319 @@
+{
+ "id": "baumartenlehrpfad-spandauer-forst",
+ "name": "Baumartenlehrpfad Spandauer Forst",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Am Wildgehege im Spandauer Forst stehen die Baumschilder direkt am Stamm. Nebenan grasen Damwild und Rotwild, Wildschweine wühlen im Boden.",
+ "beschreibung": "Kurz vor dem Wildgehege im Spandauer Forst beginnen die Baumschilder des Lehrpfads. Jedes Schild steht direkt am passenden Baum, so lassen sich Rinde, Blätter und Früchte gleich vergleichen. Ein Rotfuchs stellt dazu Wissensfragen und kleine Aufgaben. Zu den Bäumen gehört die Eberesche mit ihren roten Beeren. Der Rundweg führt an den Gehegen entlang, in denen Rotwild, Damwild, Wildschweine und Mufflons leben. Baumstämme am Zaun helfen kleinen Kindern beim Schauen, eine Aussichtsplattform blickt über die Gehege. An der Kuhlake entlang geht es zurück zur Schönwalder Allee.",
+ "laengeKm": 1.1,
+ "dauerMin": 45,
+ "rundkurs": true,
+ "markierung": "Baumschilder an den Bäumen",
+ "betreiber": "Berliner Forsten",
+ "region": "Hakenfelde, Bezirk Spandau, Berlin",
+ "anreise": "Spandauer Forst an der Schönwalder Allee (Wildgehege), Berlin-Spandau. Bus bis Cautiusstraße und durch den Wald oder direkt zu den Parkplätzen an der Schönwalder Allee.",
+ "startName": "Zugang zum Wildgehege an der Schönwalder Allee",
+ "arten": [
+  "Eberesche",
+  "Wildschwein",
+  "Damhirsch",
+  "Rothirsch",
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Schwarzerle",
+  "Buchfink",
+  "Buntspecht",
+  "Eichelhäher",
+  "Kleiber",
+  "Eichhörnchen",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 113,
+ "besuchshinweise": "Die Wildgehege sind frei zugänglich. Baumstämme am Zaun helfen kleinen Kindern beim Blick in die Gehege. Die Tiere nicht füttern, wenn es nicht ausdrücklich erlaubt ist.",
+ "route": [
+  [
+   52.568755,
+   13.19068
+  ],
+  [
+   52.568872,
+   13.19059
+  ],
+  [
+   52.568955,
+   13.190366
+  ],
+  [
+   52.569023,
+   13.18979
+  ],
+  [
+   52.569612,
+   13.189335
+  ],
+  [
+   52.570068,
+   13.188954
+  ],
+  [
+   52.570364,
+   13.188662
+  ],
+  [
+   52.570716,
+   13.188324
+  ],
+  [
+   52.570262,
+   13.186822
+  ],
+  [
+   52.57047,
+   13.186736
+  ],
+  [
+   52.57054,
+   13.186764
+  ],
+  [
+   52.570691,
+   13.18669
+  ],
+  [
+   52.570732,
+   13.186545
+  ],
+  [
+   52.570744,
+   13.186169
+  ],
+  [
+   52.57078,
+   13.185883
+  ],
+  [
+   52.570807,
+   13.18566
+  ],
+  [
+   52.570895,
+   13.185349
+  ],
+  [
+   52.570861,
+   13.185291
+  ],
+  [
+   52.570812,
+   13.185211
+  ],
+  [
+   52.570655,
+   13.184962
+  ],
+  [
+   52.569918,
+   13.186312
+  ],
+  [
+   52.569825,
+   13.186619
+  ],
+  [
+   52.569807,
+   13.186787
+  ],
+  [
+   52.569525,
+   13.186995
+  ],
+  [
+   52.569087,
+   13.18744
+  ],
+  [
+   52.569105,
+   13.187495
+  ],
+  [
+   52.569159,
+   13.187645
+  ],
+  [
+   52.569147,
+   13.187826
+  ],
+  [
+   52.569112,
+   13.188959
+  ],
+  [
+   52.569023,
+   13.189422
+  ],
+  [
+   52.569023,
+   13.18979
+  ],
+  [
+   52.568955,
+   13.190366
+  ],
+  [
+   52.568872,
+   13.19059
+  ],
+  [
+   52.568755,
+   13.19068
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 8809653998,
+   "lat": 52.570074,
+   "lon": 13.188862,
+   "km": 0.205,
+   "reihenfolge": 1,
+   "titel": "Baumschilder mit dem Rotfuchs",
+   "thema": "Bäume bestimmen",
+   "kurztext": "Kurz vor dem Wildgehege beginnen die Baumschilder, an denen ein Rotfuchs Fragen zu Rinde, Blättern und Früchten stellt.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5236281309,
+   "lat": 52.570321,
+   "lon": 13.186857,
+   "km": 0.404,
+   "reihenfolge": 2,
+   "titel": "Vogelkunde",
+   "thema": "Vögel im Wald",
+   "kurztext": "Am Weg entlang der Gehege geht es um die Vögel des Spandauer Forsts, der als Vogelschutzgebiet geschützt ist.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1262109180,
+   "lat": 52.569641,
+   "lon": 13.18655,
+   "km": 0.725,
+   "reihenfolge": 3,
+   "titel": "Wildgehege",
+   "thema": "Wildtiere",
+   "kurztext": "Rotwild, Damwild, Wildschweine und Mufflons leben in den frei zugänglichen Gehegen der Revierförsterei Spandau.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 388329566,
+   "lat": 52.569032,
+   "lon": 13.187493,
+   "km": 0.829,
+   "reihenfolge": 4,
+   "titel": "Aussichtsplattform",
+   "thema": "Blick über die Gehege",
+   "kurztext": "Von der Aussichtsplattform reicht der Blick nach Westen über die Gehege.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 587721727,
+   "lat": 52.569264,
+   "lon": 13.187794,
+   "km": 0.853,
+   "reihenfolge": 5,
+   "titel": "Kuhlake",
+   "thema": "Wasser im Wald",
+   "kurztext": "Entlang der Wildgehege fließt die Kuhlake, ein schmaler Wasserlauf durch den Spandauer Forst.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 388329566,
+   "lat": 52.569032,
+   "lon": 13.187493,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 944650559,
+   "lat": 52.56909,
+   "lon": 13.189596,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 3263291669,
+   "lat": 52.570639,
+   "lon": 13.185063,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 7687496579,
+   "lat": 52.569843,
+   "lon": 13.18663,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12816809761,
+   "lat": 52.570656,
+   "lon": 13.185197,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14028319501,
+   "lat": 52.569046,
+   "lon": 13.187466,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 81041469,
+   "lat": 52.569641,
+   "lon": 13.189961,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Eberesche": "belegt",
+  "Wildschwein": "belegt",
+  "Damhirsch": "belegt",
+  "Rothirsch": "belegt",
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Schwarzerle": "typisch",
+  "Buchfink": "typisch",
+  "Buntspecht": "typisch",
+  "Eichelhäher": "typisch",
+  "Kleiber": "typisch",
+  "Eichhörnchen": "typisch",
+  "Libelle": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "7fa2091c-7ed4-4f74-86bd-6eca9fb92893",
+   "id": "7fa2091c-7ed4-4f74-86bd-6eca9fb92893",
+   "caption": "Die Kuhlake an den Wildgehegen im Spandauer Forst im Sommer (Aufnahme 2017)",
+   "credit": "Leonhard Lenz, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuhlake_canal_at_the_game_reserves_in_summer_1.jpg",
+   "kind": "ort"
+  }
+ ]
+}

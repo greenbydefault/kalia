@@ -1,0 +1,405 @@
+{
+ "id": "natur-park-suedgelaende",
+ "name": "Natur-Park Schöneberger Südgelände",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Auf dem früheren Rangierbahnhof Tempelhof wächst seit Jahrzehnten Wald zwischen den Gleisen. Ein etwa 50 Meter hoher Wasserturm überragt Dampflok und Drehscheibe.",
+ "beschreibung": "Seit in den 1950er-Jahren keine Züge mehr rangierten, hat sich der alte Bahnhof selbst begrünt. Heute bedeckt Wald mehr als zwei Drittel der Fläche, dazwischen rosten Gleise, Wasserkräne und eine Dampflok von 1940. Die Drehscheibe gehört zu den ältesten Deutschlands. Ein leicht erhöhter Stahlgittersteg führt durch das Naturschutzgebiet über die Trockenrasen, auf denen im Juli Sand-Strohblumen blühen. Dort leben Heidegrashüpfer und Blauflügelige Ödlandschrecke, zwei stark gefährdete Heuschrecken. Ende Mai blühen neun Wildrosenarten. Tafeln und Tastreliefs der Ausstellung „Bahnbrechende Natur“ erklären Tiere und Pflanzen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Grün Berlin GmbH",
+ "region": "Schöneberg, Bezirk Tempelhof-Schöneberg, Berlin",
+ "anreise": "Hauptzugang direkt am S-Bahnhof Priesterweg (südlicher Ausgang), S2, S25, S26 und Bus 170, X76, M76, 246. Weitere Eingänge: Fußgängerbrücke vom Hans-Baluschek-Park und am Prellerweg. Wenige Parkplätze am P+R Priesterweg.",
+ "startName": "Haupteingang am S-Bahnhof Priesterweg",
+ "arten": [
+  "Blauflügelige Ödlandschrecke",
+  "Wildbiene",
+  "Rotkehlchen",
+  "Zaunkönig",
+  "Eichhörnchen",
+  "Robinie",
+  "Heckenrose",
+  "Margerite",
+  "Rotklee",
+  "Scharfer Hahnenfuß",
+  "Zauneidechse",
+  "Hummel",
+  "Tagpfauenauge",
+  "Zitronenfalter"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "rollstuhltauglich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "trockenrasen"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 78,
+ "form": "flaeche",
+ "website": "https://www.natur-park-suedgelaende.de/",
+ "eintritt": true,
+ "eintrittPreise": "Erwachsene und Jugendliche ab 14 Jahren 1 €, Kinder unter 14 frei; Kassenautomaten an den Eingängen, nur Barzahlung",
+ "oeffnungszeiten": "Täglich ab 9 Uhr: November bis Februar bis 16 Uhr, März und Oktober bis 18 Uhr, April und September bis 20 Uhr, Mai bis August bis 21 Uhr",
+ "besuchshinweise": "Auf den Wegen bleiben, große Teile sind Naturschutzgebiet. Hunde und Fahrräder dürfen nicht hinein. Das Café Paresüd in der Brückenmeisterei öffnet von April bis Oktober am Wochenende. Für Kinder ab 9 Jahren gibt es ein Rallye-Heft.",
+ "area": [
+  [
+   52.45735,
+   13.356507
+  ],
+  [
+   52.457948,
+   13.35642
+  ],
+  [
+   52.458199,
+   13.356399
+  ],
+  [
+   52.458571,
+   13.35639
+  ],
+  [
+   52.458965,
+   13.356419
+  ],
+  [
+   52.459181,
+   13.356518
+  ],
+  [
+   52.459945,
+   13.356598
+  ],
+  [
+   52.460557,
+   13.356799
+  ],
+  [
+   52.46116,
+   13.357061
+  ],
+  [
+   52.46323,
+   13.358109
+  ],
+  [
+   52.464732,
+   13.358976
+  ],
+  [
+   52.466222,
+   13.35984
+  ],
+  [
+   52.46737,
+   13.360507
+  ],
+  [
+   52.468672,
+   13.361252
+  ],
+  [
+   52.469941,
+   13.362046
+  ],
+  [
+   52.469889,
+   13.362295
+  ],
+  [
+   52.46999,
+   13.362396
+  ],
+  [
+   52.470059,
+   13.362108
+  ],
+  [
+   52.471922,
+   13.363231
+  ],
+  [
+   52.472085,
+   13.363418
+  ],
+  [
+   52.470147,
+   13.36275
+  ],
+  [
+   52.466198,
+   13.361358
+  ],
+  [
+   52.465412,
+   13.361089
+  ],
+  [
+   52.463188,
+   13.360284
+  ],
+  [
+   52.462874,
+   13.360171
+  ],
+  [
+   52.462773,
+   13.360144
+  ],
+  [
+   52.462343,
+   13.359979
+  ],
+  [
+   52.462145,
+   13.359919
+  ],
+  [
+   52.461988,
+   13.359855
+  ],
+  [
+   52.461875,
+   13.359822
+  ],
+  [
+   52.461211,
+   13.359581
+  ],
+  [
+   52.4611,
+   13.359536
+  ],
+  [
+   52.460852,
+   13.359467
+  ],
+  [
+   52.460746,
+   13.359409
+  ],
+  [
+   52.460315,
+   13.359261
+  ],
+  [
+   52.46022,
+   13.359238
+  ],
+  [
+   52.459842,
+   13.35909
+  ],
+  [
+   52.45951,
+   13.358992
+  ],
+  [
+   52.459538,
+   13.358783
+  ],
+  [
+   52.459437,
+   13.358677
+  ],
+  [
+   52.459304,
+   13.358705
+  ],
+  [
+   52.458877,
+   13.358553
+  ],
+  [
+   52.458595,
+   13.358548
+  ],
+  [
+   52.457313,
+   13.358024
+  ],
+  [
+   52.457339,
+   13.357817
+  ],
+  [
+   52.457378,
+   13.357534
+  ],
+  [
+   52.457204,
+   13.35747
+  ],
+  [
+   52.45735,
+   13.356507
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 3091484105,
+   "lat": 52.459052,
+   "lon": 13.356464,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Parkeingang am S-Bahnhof Priesterweg",
+   "thema": "Natur und Geschichte",
+   "kurztext": "Wie aus dem alten Rangierbahnhof ein Natur-Park wurde, zeigt die Infotafel am Haupteingang.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14072368395,
+   "lat": 52.459633,
+   "lon": 13.35805,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Wasserturm",
+   "thema": "Bahnrelikte",
+   "kurztext": "Der etwa 50 Meter hohe Wasserturm ist das Wahrzeichen des Parks, am Platz davor beginnt die Ausstellung „Bahnbrechende Natur“.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14072390318,
+   "lat": 52.459504,
+   "lon": 13.35837,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Il Giardino Segreto",
+   "thema": "Kunst im Park",
+   "kurztext": "Im künstlichen Garten neben der Brückenmeisterei stehen Stahlwürfel, eines von mehreren Kunstwerken aus Stahl im Park.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14072391632,
+   "lat": 52.460348,
+   "lon": 13.358432,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Dampflok 50 3707",
+   "thema": "Bahnrelikte",
+   "kurztext": "Zwischen den Bäumen steht eine Dampflok der Baureihe 50 aus dem Jahr 1940, gebaut für schwere Güterzüge.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14072352562,
+   "lat": 52.460981,
+   "lon": 13.359288,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Drehscheibe",
+   "thema": "Bahnrelikte",
+   "kurztext": "Auf der Drehscheibe, einer der ältesten Deutschlands, wurden Lokomotiven in die richtige Richtung gedreht.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 2367435171,
+   "lat": 52.459915,
+   "lon": 13.358204,
+   "kategorie": "gastro",
+   "name": "Café Paresüd"
+  },
+  {
+   "osmId": 3089542094,
+   "lat": 52.466814,
+   "lon": 13.360938,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 3092872155,
+   "lat": 52.459181,
+   "lon": 13.357213,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 3092872162,
+   "lat": 52.461237,
+   "lon": 13.357668,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 7642840218,
+   "lat": 52.461641,
+   "lon": 13.357705,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 7642840226,
+   "lat": 52.459851,
+   "lon": 13.358893,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 10694738510,
+   "lat": 52.466625,
+   "lon": 13.360597,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 14072391633,
+   "lat": 52.462347,
+   "lon": 13.358885,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 14072400600,
+   "lat": 52.460213,
+   "lon": 13.358748,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 69724975,
+   "lat": 52.459751,
+   "lon": 13.357937,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 721927882,
+   "lat": 52.459781,
+   "lon": 13.358789,
+   "kategorie": "shelter"
+  }
+ ],
+ "artenNachweis": {
+  "Blauflügelige Ödlandschrecke": "belegt",
+  "Wildbiene": "belegt",
+  "Rotkehlchen": "belegt",
+  "Zaunkönig": "belegt",
+  "Eichhörnchen": "belegt",
+  "Robinie": "belegt",
+  "Heckenrose": "belegt",
+  "Margerite": "typisch",
+  "Rotklee": "typisch",
+  "Scharfer Hahnenfuß": "typisch",
+  "Zauneidechse": "typisch",
+  "Hummel": "typisch",
+  "Tagpfauenauge": "typisch",
+  "Zitronenfalter": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "0b22d44e-5d72-414d-b7dc-922c93c25a11",
+   "id": "0b22d44e-5d72-414d-b7dc-922c93c25a11",
+   "caption": "Dampflok 50 3707 zwischen den Bäumen im Natur-Park Südgelände (Aufnahme 2024)",
+   "credit": "Flocci Nivis, CC BY 4.0, via Wikimedia Commons",
+   "license": "cc-by-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240816_Natur-Park_Sch%C3%B6neberger_S%C3%BCdgel%C3%A4nde_03.jpg",
+   "kind": "ort"
+  }
+ ]
+}

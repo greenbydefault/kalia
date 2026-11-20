@@ -1,9 +1,120 @@
 {
+  "abenteuerspielplatz-kinderbauernhof-koepenick": [
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 279
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 528
+    },
+    {
+      "poi": "cafe-hoernchen",
+      "sek": 575
+    },
+    {
+      "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
+      "sek": 733
+    },
+    {
+      "poi": "sommerbad-wuhlheide",
+      "sek": 755
+    },
+    {
+      "poi": "strandbad-mueggelsee",
+      "sek": 839
+    },
+    {
+      "poi": "haus-natur-und-umwelt",
+      "sek": 920
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 986
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 1132
+    }
+  ],
+  "abenteuerwald-saarschleife-orscholz": [],
+  "alte-fasanerie-luebars": [
+    {
+      "poi": "eisdiele-angelina",
+      "sek": 295
+    },
+    {
+      "poi": "museum-reinickendorf",
+      "sek": 658
+    },
+    {
+      "poi": "blankenfelder-hofladen",
+      "sek": 669
+    },
+    {
+      "poi": "cafe-traktorista",
+      "sek": 681
+    },
+    {
+      "poi": "restaurant-da-michelino",
+      "sek": 899
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 1002
+    },
+    {
+      "poi": "sommerbad-pankow",
+      "sek": 1072
+    }
+  ],
   "arboretum-dreetz": [],
   "archaeologischer-wanderpfad-fischbek": [],
+  "ardeas-seenwelt-kinzigstausee": [],
+  "astro-erlebnisweg-bostalsee": [],
+  "auen-erlebnispfad-draussen-im-fluss-kuehkopf": [],
+  "auenreich-burg-lenzen": [
+    {
+      "poi": "besucherzentrum-burg-lenzen",
+      "sek": 0
+    },
+    {
+      "poi": "cafe-am-markt",
+      "sek": 33
+    },
+    {
+      "poi": "restaurant-haus-am-see",
+      "sek": 225
+    },
+    {
+      "poi": "rittergut-eldenburg-mit-quitzowturm",
+      "sek": 326
+    },
+    {
+      "poi": "woodhenge-am-hasenberg",
+      "sek": 859
+    },
+    {
+      "poi": "bootsverleih-gartower-see",
+      "sek": 945
+    },
+    {
+      "poi": "hofladen-schloss-gartow",
+      "sek": 998
+    },
+    {
+      "poi": "familientherme-gartow",
+      "sek": 1177
+    }
+  ],
   "auwald-erlebnispfad": [],
   "baeuerlicher-erlebnispfad-goldberg-20-halle": [],
   "bagower-bruch": [],
+  "barfuss-erlebnispfad-hofbieber": [],
+  "barfusspark-eltersberg-buseck": [],
+  "barfusspark-fehmarn": [],
+  "barfusspfad-am-fahrenbach-rosbach": [],
+  "barfusspfad-bad-orb": [],
   "barfusspfad-hechingen": [
     {
       "poi": "restaurant-schlossberg-hechingen",
@@ -14,15 +125,15 @@
       "sek": 180
     },
     {
-      "poi": "ristorante-pizzeria-zollerstuben-hechingen",
-      "sek": 240
-    },
-    {
       "poi": "domaene-golfpark-hechingen",
       "sek": 240
     },
     {
       "poi": "hohenzollerisches-landesmuseum-hechingen",
+      "sek": 240
+    },
+    {
+      "poi": "ristorante-pizzeria-zollerstuben-hechingen",
       "sek": 240
     },
     {
@@ -38,12 +149,52 @@
       "sek": 660
     },
     {
-      "poi": "streichelzoo-kastanienhof",
+      "poi": "berolino-spielewelt",
       "sek": 780
     },
     {
-      "poi": "berolino-spielewelt",
+      "poi": "streichelzoo-kastanienhof",
       "sek": 780
+    }
+  ],
+  "barfusspfad-hoher-meissner": [],
+  "barfusspfad-mannsfahrt-aue-breuberg": [],
+  "barfusspfad-mernes": [],
+  "barfusspfad-piesbach-nalbach": [],
+  "barfusspfad-sinneserlebnispfad-kurpark-bad-camberg": [],
+  "barfusspfad-waldhoelzbach-losheim": [],
+  "baumartenlehrpfad-spandauer-forst": [
+    {
+      "poi": "mr-ice-cream",
+      "sek": 203
+    },
+    {
+      "poi": "florida-eiscafe",
+      "sek": 443
+    },
+    {
+      "poi": "gotisches-haus",
+      "sek": 445
+    },
+    {
+      "poi": "stadtgeschichtliches-museum-spandau",
+      "sek": 448
+    },
+    {
+      "poi": "camping-buergerablage",
+      "sek": 486
+    },
+    {
+      "poi": "strandbad-tegeler-see",
+      "sek": 842
+    },
+    {
+      "poi": "erlebniswelt-tier-und-natur",
+      "sek": 927
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 941
     }
   ],
   "baumkronenpfad-hainich": [],
@@ -51,6 +202,113 @@
   "baumkronenpfad-ivenack": [],
   "baumkronenweg-waldkirch": [],
   "baumkronenweg-ziegelwies": [],
+  "baumlehrpfad-boecklerpark": [
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 92
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 171
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 281
+    },
+    {
+      "poi": "fraeulein-frost",
+      "sek": 289
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 386
+    },
+    {
+      "poi": "zoo-berlin",
+      "sek": 557
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 638
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 759
+    }
+  ],
+  "baumlehrpfad-hasenheide": [
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 319
+    },
+    {
+      "poi": "fraeulein-frost",
+      "sek": 409
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 584
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 589
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 741
+    },
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 875
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 926
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 1059
+    }
+  ],
+  "baumlehrpfad-kaesbachwiese-hochheim": [],
+  "baumschatz-schuenhagen": [
+    {
+      "poi": "treffpunkt-saatel",
+      "sek": 565
+    },
+    {
+      "poi": "schwalbenhaus-franzburg",
+      "sek": 739
+    },
+    {
+      "poi": "freibad-franzburg",
+      "sek": 760
+    },
+    {
+      "poi": "cafe-olsen",
+      "sek": 904
+    },
+    {
+      "poi": "hof-laden-zandershagen",
+      "sek": 919
+    },
+    {
+      "poi": "bibelzentrum-barth",
+      "sek": 1035
+    },
+    {
+      "poi": "bernsteinreiter-barth",
+      "sek": 1097
+    },
+    {
+      "poi": "windjammer-museum-barth",
+      "sek": 1190
+    },
+    {
+      "poi": "solawi-hofladen-mitmachbauernhof",
+      "sek": 1194
+    }
+  ],
   "baumwipfelpfad-bad-iburg": [],
   "baumwipfelpfad-bayerischer-wald": [],
   "baumwipfelpfad-harz": [],
@@ -61,9 +319,382 @@
   "baumwipfelpfad-steigerwald": [],
   "baumwipfelpfad-usedom": [],
   "baumwipfelweg-bad-camberg": [],
+  "bauspielplatz-tweeltenmoor": [
+    {
+      "poi": "jannys-eis-norderstedt",
+      "sek": 269
+    },
+    {
+      "poi": "eiscafe-jacobs",
+      "sek": 281
+    },
+    {
+      "poi": "strandbad-norderstedt",
+      "sek": 493
+    },
+    {
+      "poi": "arriba-erlebnisbad",
+      "sek": 529
+    },
+    {
+      "poi": "adventure-golf-norderstedt",
+      "sek": 676
+    },
+    {
+      "poi": "gut-wulksfelde",
+      "sek": 762
+    },
+    {
+      "poi": "stadtmuseum-norderstedt",
+      "sek": 879
+    },
+    {
+      "poi": "camping-vossbarch",
+      "sek": 921
+    }
+  ],
+  "bergwildpark-meissner": [],
+  "bibos-forscherpfad-diemelsee": [],
+  "bienen-erlebnispfad-michelstadt": [],
+  "bienenlehrpfad-geislautern-voelklingen": [],
   "billi-bockert-erlebnistour-bad-dueben": [],
+  "boberger-niederung-duenenhaus": [
+    {
+      "poi": "dorfkrug-boberg",
+      "sek": 219
+    },
+    {
+      "poi": "lovely-vintage-cafe-boberg",
+      "sek": 273
+    },
+    {
+      "poi": "boberger-see",
+      "sek": 544
+    },
+    {
+      "poi": "jannys-eis-bergedorf",
+      "sek": 565
+    },
+    {
+      "poi": "museum-bergedorf-vierlande",
+      "sek": 717
+    },
+    {
+      "poi": "museum-schloss-reinbek",
+      "sek": 803
+    },
+    {
+      "poi": "minigolf-schillerufer-bergedorf",
+      "sek": 818
+    },
+    {
+      "poi": "badestelle-see-hinterm-horn",
+      "sek": 888
+    }
+  ],
+  "bodenerlebnispfad-langenberger-forst": [
+    {
+      "poi": "campingplatz-karlsmark",
+      "sek": 140
+    },
+    {
+      "poi": "am-suederholz",
+      "sek": 177
+    },
+    {
+      "poi": "cafe-kraenzchen-roesterei",
+      "sek": 432
+    },
+    {
+      "poi": "trekkingplatz-leck",
+      "sek": 510
+    },
+    {
+      "poi": "cafe-zauberbuche",
+      "sek": 568
+    },
+    {
+      "poi": "johannsens-hofladen",
+      "sek": 612
+    }
+  ],
+  "bodenerlebnispfad-tatort-boden-wetzlar": [],
   "braumannswiesen": [],
+  "breuberger-baumreich-achtsamkeitspfad": [],
+  "britzer-garten": [
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 757
+    },
+    {
+      "poi": "eiscafe-moinmoin",
+      "sek": 883
+    },
+    {
+      "poi": "lehmanns-bauernmarkt",
+      "sek": 948
+    },
+    {
+      "poi": "sprung-raum-berlin",
+      "sek": 969
+    },
+    {
+      "poi": "kindermuseum-unterm-dach",
+      "sek": 1018
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 1035
+    },
+    {
+      "poi": "planetarium-am-insulaner",
+      "sek": 1076
+    },
+    {
+      "poi": "sommerbad-am-insulaner",
+      "sek": 1111
+    }
+  ],
+  "bund-kinderwildnis": [
+    {
+      "poi": "suedbad",
+      "sek": 401
+    },
+    {
+      "poi": "panciera",
+      "sek": 431
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 514
+    },
+    {
+      "poi": "hof-wichmann",
+      "sek": 547
+    },
+    {
+      "poi": "stadionbad",
+      "sek": 577
+    },
+    {
+      "poi": "minigolf-buergerpark",
+      "sek": 717
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 731
+    },
+    {
+      "poi": "universum",
+      "sek": 878
+    }
+  ],
   "can-jalpi-arenys": [],
+  "charlottenburger-ziegenhof": [
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 276
+    },
+    {
+      "poi": "minigolf-volkspark-wilmersdorf",
+      "sek": 493
+    },
+    {
+      "poi": "strandbad-ploetzensee",
+      "sek": 569
+    },
+    {
+      "poi": "zoo-berlin",
+      "sek": 631
+    },
+    {
+      "poi": "strandbad-wannsee",
+      "sek": 767
+    },
+    {
+      "poi": "planetarium-am-insulaner",
+      "sek": 773
+    },
+    {
+      "poi": "futurium",
+      "sek": 824
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 898
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 1050
+    }
+  ],
+  "co2-waldlehrpfad-geisenheim": [],
+  "d7-zwerge-dautphetal": [],
+  "domaene-dahlem": [
+    {
+      "poi": "museum-europaeischer-kulturen",
+      "sek": 137
+    },
+    {
+      "poi": "alliiertenmuseum",
+      "sek": 255
+    },
+    {
+      "poi": "tricolore-eiscafe",
+      "sek": 373
+    },
+    {
+      "poi": "henrys-eis",
+      "sek": 463
+    },
+    {
+      "poi": "minigolf-volkspark-wilmersdorf",
+      "sek": 511
+    },
+    {
+      "poi": "planetarium-am-insulaner",
+      "sek": 641
+    },
+    {
+      "poi": "museumsdorf-dueppel",
+      "sek": 665
+    },
+    {
+      "poi": "sommerbad-am-insulaner",
+      "sek": 724
+    },
+    {
+      "poi": "zoo-berlin",
+      "sek": 885
+    },
+    {
+      "poi": "strandbad-wannsee",
+      "sek": 902
+    }
+  ],
+  "duenen-lehrpfad-klein-schmoelen": [
+    {
+      "poi": "badestelle-baggerkuhle-doemitz",
+      "sek": 128
+    },
+    {
+      "poi": "panorama-cafe-doemitz",
+      "sek": 520
+    },
+    {
+      "poi": "alter-hof-am-elbdeich",
+      "sek": 589
+    },
+    {
+      "poi": "hochseilwald-doemitz",
+      "sek": 652
+    },
+    {
+      "poi": "forsthof-kaliss-mit-forst-und-holzmuseum",
+      "sek": 660
+    },
+    {
+      "poi": "festung-doemitz",
+      "sek": 694
+    },
+    {
+      "poi": "kamele-im-wendland-doemitz",
+      "sek": 1047
+    }
+  ],
+  "duvenstedter-brook-raetselroute": [
+    {
+      "poi": "nahverkehrsmuseum-kleinbahnhof-wohldorf",
+      "sek": 249
+    },
+    {
+      "poi": "duvenstedter-eiscafe",
+      "sek": 275
+    },
+    {
+      "poi": "gut-wulksfelde",
+      "sek": 378
+    },
+    {
+      "poi": "eisbaer-ohlstedt",
+      "sek": 389
+    },
+    {
+      "poi": "landhaus-ohlstedt",
+      "sek": 398
+    },
+    {
+      "poi": "hof-lemsahl",
+      "sek": 593
+    },
+    {
+      "poi": "strandbad-norderstedt",
+      "sek": 1053
+    },
+    {
+      "poi": "arriba-erlebnisbad",
+      "sek": 1154
+    }
+  ],
+  "eddis-edersee-erlebnistour": [],
+  "eiszeit-naturspielplatz-plaetternweg": [
+    {
+      "poi": "campingplatz-spadener-see",
+      "sek": 756
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 841
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 890
+    },
+    {
+      "poi": "havencamp",
+      "sek": 904
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 969
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 1021
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 1054
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 1191
+    }
+  ],
+  "elbe-tideauenzentrum-heuckenlock": [
+    {
+      "poi": "calabrese-eiscafe",
+      "sek": 756
+    },
+    {
+      "poi": "electrum",
+      "sek": 802
+    },
+    {
+      "poi": "archaeologisches-museum-hamburg",
+      "sek": 909
+    },
+    {
+      "poi": "wilhelmsburger-eisdealer",
+      "sek": 925
+    },
+    {
+      "poi": "deutsches-hafenmuseum",
+      "sek": 1054
+    }
+  ],
+  "englischer-garten-eulbach": [],
+  "entdeckergarten-umwelthaus-pinneberg": [],
   "entdeckerpfad-biologische-vielfalt": [
     {
       "poi": "museum-koehlerhof-wiethagen",
@@ -98,8 +729,249 @@
       "sek": 1133
     }
   ],
+  "erfahrungsfeld-garten-der-sinne-kotzenbuell": [
+    {
+      "poi": "eiscafe-venezia",
+      "sek": 291
+    },
+    {
+      "poi": "freibad-toenning",
+      "sek": 364
+    },
+    {
+      "poi": "historisches-packhaus-museum",
+      "sek": 371
+    },
+    {
+      "poi": "multimar-wattforum",
+      "sek": 397
+    },
+    {
+      "poi": "lilienhof",
+      "sek": 473
+    },
+    {
+      "poi": "landladen-kuehl",
+      "sek": 836
+    }
+  ],
+  "erfahrungsfeld-schloss-freudenberg": [],
   "erlebe-bruder-wald": [],
+  "erlebnis-obstwiese-kronberg": [],
+  "erlebnisfarm-ohlenhof": [
+    {
+      "poi": "eis-molin-groepelingen",
+      "sek": 475
+    },
+    {
+      "poi": "westbad",
+      "sek": 567
+    },
+    {
+      "poi": "schwarzlichthof",
+      "sek": 633
+    },
+    {
+      "poi": "hafenmuseum-speicher-xi",
+      "sek": 701
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 861
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 957
+    },
+    {
+      "poi": "vollers-hof",
+      "sek": 973
+    },
+    {
+      "poi": "hofcafe-bavendamm",
+      "sek": 1057
+    }
+  ],
+  "erlebnispfad-fahretoft": [
+    {
+      "poi": "mien-cafe-an-de-kuest",
+      "sek": 695
+    },
+    {
+      "poi": "campingplatz-neuwarft",
+      "sek": 709
+    },
+    {
+      "poi": "badestrand-dagebuell",
+      "sek": 740
+    },
+    {
+      "poi": "naturkundemuseum-niebuell",
+      "sek": 984
+    },
+    {
+      "poi": "friesenmuseum-niebuell",
+      "sek": 1002
+    }
+  ],
+  "erlebnispfad-natur-begreifen-eschbach-usingen": [],
+  "erlebnispfad-rentmauer-rod-an-der-weil": [],
+  "erlebnispfad-singberg-woelfersheim": [],
+  "erlebnispfad-stadtnatur-goerlitzer-park": [
+    {
+      "poi": "fraeulein-frost",
+      "sek": 296
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 341
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 373
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 468
+    },
+    {
+      "poi": "computerspielemuseum",
+      "sek": 498
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 588
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 592
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 667
+    }
+  ],
+  "erlebnispfad-stadtnatur-volkspark-friedrichshain": [
+    {
+      "poi": "computerspielemuseum",
+      "sek": 250
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 405
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 565
+    },
+    {
+      "poi": "fraeulein-frost",
+      "sek": 657
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 673
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 772
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 874
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 912
+    }
+  ],
+  "erlebnispfad-stadtnatur-volkspark-jungfernheide": [
+    {
+      "poi": "erlebniswelt-tier-und-natur",
+      "sek": 210
+    },
+    {
+      "poi": "strandbad-jungfernheide",
+      "sek": 308
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 465
+    },
+    {
+      "poi": "strandbad-ploetzensee",
+      "sek": 524
+    },
+    {
+      "poi": "kinderbunter-bauernhof",
+      "sek": 599
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 853
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 880
+    },
+    {
+      "poi": "cafe-zwei-kraniche",
+      "sek": 935
+    }
+  ],
+  "erlebnispfad-stoerkathener-heide": [],
+  "erlebnispfad-trebeltal": [
+    {
+      "poi": "trebel-cafe-tribsees",
+      "sek": 676
+    },
+    {
+      "poi": "salzmuseum-mecklenburg",
+      "sek": 1072
+    },
+    {
+      "poi": "restaurant-cafe-wunder-bar",
+      "sek": 1074
+    }
+  ],
+  "erlebnispfad-wohldorfer-wald": [
+    {
+      "poi": "nahverkehrsmuseum-kleinbahnhof-wohldorf",
+      "sek": 248
+    },
+    {
+      "poi": "duvenstedter-eiscafe",
+      "sek": 273
+    },
+    {
+      "poi": "gut-wulksfelde",
+      "sek": 377
+    },
+    {
+      "poi": "eisbaer-ohlstedt",
+      "sek": 388
+    },
+    {
+      "poi": "landhaus-ohlstedt",
+      "sek": 397
+    },
+    {
+      "poi": "hof-lemsahl",
+      "sek": 591
+    },
+    {
+      "poi": "strandbad-norderstedt",
+      "sek": 1052
+    },
+    {
+      "poi": "arriba-erlebnisbad",
+      "sek": 1153
+    }
+  ],
   "erlebnisrundweg-friedrichskoog": [],
+  "erlebniswald-acisbrunnen-schluechtern": [],
+  "erlebniswald-schellental-blieskastel": [],
+  "erlebniswald-trappenkamp": [],
   "erlebnisweg-mueggelberge-teufelssee": [
     {
       "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
@@ -118,11 +990,35 @@
       "sek": 936
     }
   ],
+  "erlebnisweg-oekologischer-rucksack-blieskastel": [],
+  "eulenpfad-bremthal-eppstein": [],
   "everstorfer-forst": [],
+  "evolutionspfad-ploen": [],
+  "falkenhof-grosser-feldberg": [],
+  "familien-erlebnispfad-lengefeld": [],
+  "familienerlebnisweg-bienenreise-finkenrech": [],
+  "familienpfad-bergmaehwiesen-herchenhain": [],
+  "familienwanderweg-alma-ameise-niedenstein": [],
+  "fasanerie-wiesbaden": [],
+  "felsenmeer-lautertal": [],
+  "feuchtgebiet-eschenkar-moorpfad-bad-orb": [],
+  "fledermauslehrpfad-seligenstadt": [],
   "fledermauspfad-bossow": [],
+  "fledermauspfad-steinbach": [],
+  "fledermausrouten-bad-segeberg": [],
   "fonts-vallvidrera": [],
   "fossilruten-moens-klint": [],
+  "freilandlabor-bioversum-kranichstein": [],
+  "galileo-erlebniswald-hoherodskopf": [],
+  "garten-der-schmetterlinge-aumuehle": [],
+  "garten-der-sinne-merzig": [],
+  "geo-erlebnispfad-oberjosbach-niedernhausen": [],
+  "geopark-pfad-klimawandel-pfungstadt": [],
+  "geopfad-hoherodskopf": [],
   "geopfad-markkleeberg": [],
+  "gesundheitsgarten-bad-nauheim": [],
+  "greifensteiner-kinderpfad": [],
+  "greifvogelwarte-feldatal": [],
   "grossartige-kuestenflora-graal-mueritz": [
     {
       "poi": "restaurant-windfluechter",
@@ -149,6 +1045,42 @@
       "sek": 1061
     }
   ],
+  "grube-messel-aussengelaende": [],
+  "gut-schaeferhof-appen": [],
+  "hainholz-pritzwalk": [
+    {
+      "poi": "waldschwimmbad-hainholz",
+      "sek": 228
+    },
+    {
+      "poi": "restaurant-forsthaus-hainholz",
+      "sek": 309
+    },
+    {
+      "poi": "pritzwalker-heidelbeerplantage",
+      "sek": 400
+    },
+    {
+      "poi": "streicheltierhof-hainholz",
+      "sek": 426
+    },
+    {
+      "poi": "zur-alten-maelzerei",
+      "sek": 528
+    },
+    {
+      "poi": "museumsfabrik-pritzwalk",
+      "sek": 580
+    },
+    {
+      "poi": "kathfelder-muehle",
+      "sek": 811
+    },
+    {
+      "poi": "waldlehrpark-gross-woltersdorf",
+      "sek": 1128
+    }
+  ],
   "harzungspfad": [
     {
       "poi": "restaurant-da-michelino",
@@ -159,6 +1091,8 @@
       "sek": 1130
     }
   ],
+  "haseldorfer-marsch-elbmarschenhaus": [],
+  "haus-der-natur-ahrensburg": [],
   "haustierfarm-wildpark-leipzig": [
     {
       "poi": "restaurant-waldfrieden-leipzig",
@@ -246,8 +1180,304 @@
     }
   ],
   "hullerbusch": [],
+  "jagdhistorische-pirsch-kranichstein": [],
   "jamnoer-urwald": [],
+  "jugend-kinderfarm-bremerhaven": [],
+  "jugendfarm-moritzhof": [
+    {
+      "poi": "machmit-museum-fuer-kinder",
+      "sek": 357
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 360
+    },
+    {
+      "poi": "zeiss-grossplanetarium",
+      "sek": 378
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 416
+    },
+    {
+      "poi": "cafe-panke",
+      "sek": 491
+    },
+    {
+      "poi": "kinderbunter-bauernhof",
+      "sek": 507
+    },
+    {
+      "poi": "eiscafe-surprise",
+      "sek": 525
+    },
+    {
+      "poi": "sommerbad-pankow",
+      "sek": 600
+    },
+    {
+      "poi": "futurium",
+      "sek": 607
+    },
+    {
+      "poi": "strandbad-weissensee",
+      "sek": 712
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 751
+    },
+    {
+      "poi": "zoo-berlin",
+      "sek": 905
+    }
+  ],
+  "juki-farm-langen": [],
   "kaeflingsberg-speck": [],
+  "kiks-up-waldspielplatz-goldsteinpark-bad-nauheim": [],
+  "kinder-jugendbauernhof-kassel": [],
+  "kinder-jugendfarm-borgfeld": [
+    {
+      "poi": "cafe-e-gelato-borgfeld",
+      "sek": 324
+    },
+    {
+      "poi": "eis-molin-osterholz",
+      "sek": 426
+    },
+    {
+      "poi": "bio-hofmolkerei-dehlwes",
+      "sek": 552
+    },
+    {
+      "poi": "horner-bad",
+      "sek": 561
+    },
+    {
+      "poi": "focke-museum",
+      "sek": 599
+    },
+    {
+      "poi": "universum",
+      "sek": 650
+    },
+    {
+      "poi": "rhododendronpark",
+      "sek": 655
+    },
+    {
+      "poi": "haus-am-walde",
+      "sek": 703
+    }
+  ],
+  "kinder-jugendfarm-darmstadt": [],
+  "kinder-jugendfarm-habenhausen": [
+    {
+      "poi": "eis-cafe-italia-habenhausen",
+      "sek": 76
+    },
+    {
+      "poi": "hofladen-ecke",
+      "sek": 201
+    },
+    {
+      "poi": "stadionbad",
+      "sek": 444
+    },
+    {
+      "poi": "hof-wichmann",
+      "sek": 462
+    },
+    {
+      "poi": "panciera",
+      "sek": 551
+    },
+    {
+      "poi": "suedbad",
+      "sek": 555
+    },
+    {
+      "poi": "focke-museum",
+      "sek": 722
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 732
+    }
+  ],
+  "kinder-jugendfarm-offenbach": [],
+  "kinder-jugendfarm-rodgau": [],
+  "kinder-jugendfarm-saarlouis": [],
+  "kinderabenteuerland-wendtorf": [],
+  "kinderbauernhof-fort-robinson": [
+    {
+      "poi": "berlin-ei",
+      "sek": 346
+    },
+    {
+      "poi": "konditorei-engel",
+      "sek": 516
+    },
+    {
+      "poi": "strandbad-weissensee",
+      "sek": 522
+    },
+    {
+      "poi": "mies-van-der-rohe-haus",
+      "sek": 545
+    },
+    {
+      "poi": "strandbad-orankesee",
+      "sek": 549
+    },
+    {
+      "poi": "citygolf-berlin",
+      "sek": 574
+    },
+    {
+      "poi": "jannys-eis-marzahn",
+      "sek": 661
+    },
+    {
+      "poi": "bezirksmuseum-marzahn-hellersdorf",
+      "sek": 692
+    },
+    {
+      "poi": "landhof-rahlf",
+      "sek": 737
+    },
+    {
+      "poi": "eiscafe-surprise",
+      "sek": 750
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 906
+    },
+    {
+      "poi": "museumswohnung-wbs70",
+      "sek": 941
+    },
+    {
+      "poi": "machmit-museum-fuer-kinder",
+      "sek": 974
+    }
+  ],
+  "kinderbauernhof-goerlitzer-park": [
+    {
+      "poi": "fraeulein-frost",
+      "sek": 177
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 317
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 350
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 369
+    },
+    {
+      "poi": "computerspielemuseum",
+      "sek": 484
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 654
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 657
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 1156
+    },
+    {
+      "poi": "cafe-panke",
+      "sek": 1176
+    }
+  ],
+  "kinderbauernhof-kirchdorf": [
+    {
+      "poi": "calabrese-eiscafe",
+      "sek": 289
+    },
+    {
+      "poi": "electrum",
+      "sek": 428
+    },
+    {
+      "poi": "wilhelmsburger-eisdealer",
+      "sek": 473
+    },
+    {
+      "poi": "archaeologisches-museum-hamburg",
+      "sek": 534
+    },
+    {
+      "poi": "crazy-minigolf-hammer-park",
+      "sek": 1051
+    },
+    {
+      "poi": "badestelle-see-hinterm-horn",
+      "sek": 1085
+    },
+    {
+      "poi": "boberger-see",
+      "sek": 1100
+    },
+    {
+      "poi": "dorfkrug-boberg",
+      "sek": 1149
+    }
+  ],
+  "kinderbauernhof-knirpsenfarm": [
+    {
+      "poi": "strandbad-weissensee",
+      "sek": 271
+    },
+    {
+      "poi": "strandbad-orankesee",
+      "sek": 444
+    },
+    {
+      "poi": "eiscafe-surprise",
+      "sek": 459
+    },
+    {
+      "poi": "berlin-ei",
+      "sek": 473
+    },
+    {
+      "poi": "zeiss-grossplanetarium",
+      "sek": 676
+    },
+    {
+      "poi": "machmit-museum-fuer-kinder",
+      "sek": 699
+    },
+    {
+      "poi": "cafe-panke",
+      "sek": 824
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 846
+    },
+    {
+      "poi": "sommerbad-pankow",
+      "sek": 858
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 1026
+    }
+  ],
   "kinderbauernhof-mauerplatz": [
     {
       "poi": "cafe-engelbecken",
@@ -288,8 +1518,150 @@
       "sek": 1170
     }
   ],
+  "kinderbauernhof-ufafabrik": [
+    {
+      "poi": "minigolf-am-insulaner",
+      "sek": 359
+    },
+    {
+      "poi": "planetarium-am-insulaner",
+      "sek": 427
+    },
+    {
+      "poi": "sommerbad-am-insulaner",
+      "sek": 462
+    },
+    {
+      "poi": "sprung-raum-berlin",
+      "sek": 639
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 676
+    },
+    {
+      "poi": "minigolf-volkspark-wilmersdorf",
+      "sek": 689
+    },
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 716
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 736
+    },
+    {
+      "poi": "lehmanns-bauernmarkt",
+      "sek": 743
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 786
+    }
+  ],
+  "kinderbauernhof-waslala": [
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 816
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 891
+    },
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 917
+    },
+    {
+      "poi": "eiscafe-moinmoin",
+      "sek": 942
+    },
+    {
+      "poi": "kindermuseum-unterm-dach",
+      "sek": 1072
+    },
+    {
+      "poi": "campingplatz-am-mahlower-see",
+      "sek": 1080
+    },
+    {
+      "poi": "sommerbad-wuhlheide",
+      "sek": 1118
+    },
+    {
+      "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
+      "sek": 1128
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 1142
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 1145
+    }
+  ],
+  "kinderbauernhof-wiesbaden": [],
+  "kinderbunter-bauernhof-wedding": [
+    {
+      "poi": "strandbad-ploetzensee",
+      "sek": 361
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 362
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 392
+    },
+    {
+      "poi": "futurium",
+      "sek": 536
+    },
+    {
+      "poi": "erlebniswelt-tier-und-natur",
+      "sek": 579
+    },
+    {
+      "poi": "cafe-panke",
+      "sek": 581
+    },
+    {
+      "poi": "zoo-berlin",
+      "sek": 644
+    },
+    {
+      "poi": "strandbad-jungfernheide",
+      "sek": 678
+    },
+    {
+      "poi": "machmit-museum-fuer-kinder",
+      "sek": 679
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 723
+    }
+  ],
+  "kinderfarm-dreieichhoernchen-dreieich": [],
+  "kinderfarm-rennbahnpark-frankfurt": [],
+  "kinderparadies-hohenloher-hof-michelstadt": [],
   "kinderwald-maerkisch-buchholz": [],
+  "kinderweg-solztal": [],
+  "kinderziegenhof-kleine-zwerge-gross-bieberau": [],
+  "kirschenerlebnispfad-witzenhausen": [],
+  "klangerlebnispfad-bad-zwesten": [],
+  "klangweg-nauheim": [],
+  "kleintierpark-fernwald": [],
+  "klima-kuestenerlebnispfad-laboe": [],
+  "kneipp-barfusspfad-bad-endbach": [],
+  "kneipp-barfusspfad-bad-schwalbach": [],
+  "kneipp-barfusspfad-kuhparkweg-weiten-gesaess": [],
+  "kneippanlage-barfussweg-stausee-losheim": [],
   "kollhorst": [],
+  "kurpark-bad-koenig-wasserspielplatz": [],
   "kurwald-graal-mueritz": [
     {
       "poi": "camping-ostseecamp-graal-mueritz",
@@ -337,19 +1709,666 @@
   ],
   "lehrpfad-pflanzenschutz-schwentinental": [],
   "lehrpfad-sandhof": [],
+  "lehrpfad-schwingbachtal": [],
+  "lernbauernhof-rhein-main-ober-eschbach": [],
+  "lernhof-harleshausen": [],
   "libellen-wasserspielplatz-wittstock": [],
+  "maus-naturerlebnispfad-bad-homburg": [],
+  "meisenroute-friedrichsdorf": [],
   "moislinger-aue": [],
+  "moorerlebnispfad-erikasee": [
+    {
+      "poi": "campingplatz-spadener-see",
+      "sek": 610
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 695
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 745
+    },
+    {
+      "poi": "havencamp",
+      "sek": 759
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 823
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 875
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 908
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 1045
+    }
+  ],
   "moorlehrpfad-burgermoos": [],
+  "moorlehrpfad-himmelmoor": [
+    {
+      "poi": "torfbahn-himmelmoor",
+      "sek": 76
+    },
+    {
+      "poi": "warndienstmuseum-quickborn",
+      "sek": 224
+    },
+    {
+      "poi": "freibad-quickborn",
+      "sek": 388
+    },
+    {
+      "poi": "lavinis-eiscafe-quickborn",
+      "sek": 398
+    },
+    {
+      "poi": "jagdhaus-waldfrieden-quickborn",
+      "sek": 438
+    },
+    {
+      "poi": "zur-bilsener-muehle",
+      "sek": 512
+    },
+    {
+      "poi": "hofladen-hof-meyn-quickborn",
+      "sek": 516
+    },
+    {
+      "poi": "freibad-ellerau",
+      "sek": 552
+    },
+    {
+      "poi": "heimatmuseum-ellerau",
+      "sek": 571
+    },
+    {
+      "poi": "erdbeerhof-kaack-quickborn",
+      "sek": 604
+    },
+    {
+      "poi": "hofladen-hemdingen",
+      "sek": 648
+    },
+    {
+      "poi": "camping-tante-henni",
+      "sek": 799
+    },
+    {
+      "poi": "camping-vossbarch",
+      "sek": 950
+    },
+    {
+      "poi": "stadtmuseum-norderstedt",
+      "sek": 1138
+    }
+  ],
+  "moorlehrpfad-rotes-moor": [],
+  "museumsdorf-volksdorf": [
+    {
+      "poi": "noris-bar",
+      "sek": 72
+    },
+    {
+      "poi": "parkbad-volksdorf",
+      "sek": 110
+    },
+    {
+      "poi": "kletterwald-hamburg",
+      "sek": 238
+    },
+    {
+      "poi": "hofladen-gut-wulfsdorf",
+      "sek": 389
+    },
+    {
+      "poi": "haus-der-natur-wulfsdorf",
+      "sek": 670
+    },
+    {
+      "poi": "landhaus-ohlstedt",
+      "sek": 785
+    },
+    {
+      "poi": "nahverkehrsmuseum-kleinbahnhof-wohldorf",
+      "sek": 860
+    },
+    {
+      "poi": "campingplatz-bredenbeker-teich",
+      "sek": 988
+    }
+  ],
+  "nabu-naturlehrpfad-dieburg": [],
+  "nahequelle-pfad-selbach": [],
   "natter-pfad-goyatz": [],
+  "natur-erlebnis-garten-karben": [],
+  "natur-kulturlehrpfad-martinsbachtal-biedenkopf": [],
+  "natur-parcours-steinau-fischbachtal": [],
+  "natur-park-suedgelaende": [
+    {
+      "poi": "minigolf-am-insulaner",
+      "sek": 440
+    },
+    {
+      "poi": "planetarium-am-insulaner",
+      "sek": 521
+    },
+    {
+      "poi": "sommerbad-am-insulaner",
+      "sek": 620
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 770
+    },
+    {
+      "poi": "deutsches-technikmuseum",
+      "sek": 771
+    },
+    {
+      "poi": "fraeulein-frost",
+      "sek": 923
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 975
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 996
+    }
+  ],
+  "naturentdeckungspfad-heidekampgraben": [
+    {
+      "poi": "eiscafe-moinmoin",
+      "sek": 126
+    },
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 191
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 417
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 421
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 622
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 762
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 857
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 864
+    }
+  ],
+  "naturerlebnis-bamster-wald-uchtelfangen": [],
   "naturerlebnis-grabau": [],
+  "naturerlebnishof-helle": [],
+  "naturerlebnispfad-braunshardter-taennchen-weiterstadt": [],
+  "naturerlebnispfad-eibelshausen": [],
   "naturerlebnispfad-ellerbek": [],
+  "naturerlebnispfad-eulenmuehle-differten": [],
   "naturerlebnispfad-eutin": [],
+  "naturerlebnispfad-freizeitpark-marienfelde": [
+    {
+      "poi": "sprung-raum-berlin",
+      "sek": 198
+    },
+    {
+      "poi": "lehmanns-bauernmarkt",
+      "sek": 227
+    },
+    {
+      "poi": "kindermuseum-unterm-dach",
+      "sek": 542
+    },
+    {
+      "poi": "campingplatz-am-mahlower-see",
+      "sek": 686
+    },
+    {
+      "poi": "tiergarten-teltow",
+      "sek": 711
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 1005
+    }
+  ],
+  "naturerlebnispfad-fuhlendorf": [
+    {
+      "poi": "nordlicht-harmonie-restaurant",
+      "sek": 70
+    },
+    {
+      "poi": "restaurant-redensee",
+      "sek": 177
+    },
+    {
+      "poi": "campingplatz-bodstedt",
+      "sek": 235
+    },
+    {
+      "poi": "cafe-bar-wolli",
+      "sek": 455
+    },
+    {
+      "poi": "eisdiele-pruchten",
+      "sek": 506
+    },
+    {
+      "poi": "bootsverleih-zum-hafen-pruchten",
+      "sek": 583
+    },
+    {
+      "poi": "pferdehof-kranichweide",
+      "sek": 622
+    },
+    {
+      "poi": "windjammer-museum-barth",
+      "sek": 709
+    },
+    {
+      "poi": "vineta-museum-barth",
+      "sek": 779
+    },
+    {
+      "poi": "badestelle-barth-bodden",
+      "sek": 956
+    }
+  ],
+  "naturerlebnispfad-goller-neckarbett-riedstadt": [],
+  "naturerlebnispfad-grossenbrode": [],
+  "naturerlebnispfad-hainrich-gross-umstadt": [],
+  "naturerlebnispfad-herrenteich-reinfeld": [],
+  "naturerlebnispfad-hoeltigbaum": [
+    {
+      "poi": "eis-cafe-da-gianni",
+      "sek": 338
+    },
+    {
+      "poi": "millenium-eiscafe",
+      "sek": 428
+    },
+    {
+      "poi": "hallenbad-rahlstedt",
+      "sek": 487
+    },
+    {
+      "poi": "kletterwald-hamburg",
+      "sek": 524
+    },
+    {
+      "poi": "kuerbisparadies-hof-adolf",
+      "sek": 649
+    },
+    {
+      "poi": "parkbad-volksdorf",
+      "sek": 738
+    },
+    {
+      "poi": "noris-bar",
+      "sek": 758
+    },
+    {
+      "poi": "hofladen-menzel",
+      "sek": 937
+    }
+  ],
+  "naturerlebnispfad-kaltehofe": [
+    {
+      "poi": "ninos-eiscafe",
+      "sek": 210
+    },
+    {
+      "poi": "internationales-maritimes-museum",
+      "sek": 615
+    },
+    {
+      "poi": "crazy-minigolf-hammer-park",
+      "sek": 682
+    },
+    {
+      "poi": "deutsches-hafenmuseum",
+      "sek": 773
+    },
+    {
+      "poi": "boberger-see",
+      "sek": 897
+    },
+    {
+      "poi": "wilhelmsburger-eisdealer",
+      "sek": 971
+    },
+    {
+      "poi": "dorfkrug-boberg",
+      "sek": 1197
+    }
+  ],
+  "naturerlebnispfad-nidderau-windecken": [],
+  "naturerlebnispfad-niederwalgern": [],
+  "naturerlebnispfad-oekologiestation": [
+    {
+      "poi": "museum-schloss-schoenebeck",
+      "sek": 204
+    },
+    {
+      "poi": "eiscafe-nero",
+      "sek": 360
+    },
+    {
+      "poi": "vollers-hof",
+      "sek": 426
+    },
+    {
+      "poi": "vegesacker-geschichtenhaus",
+      "sek": 540
+    }
+  ],
+  "naturerlebnispfad-schmolder-tannen": [
+    {
+      "poi": "restaurant-br-50-speisewagen",
+      "sek": 45
+    },
+    {
+      "poi": "dampflok-br-50-3521-7",
+      "sek": 49
+    },
+    {
+      "poi": "landkueche-meyenburg",
+      "sek": 105
+    },
+    {
+      "poi": "modemuseum-schloss-meyenburg",
+      "sek": 153
+    },
+    {
+      "poi": "lehmmuseum-gnevsdorf",
+      "sek": 669
+    },
+    {
+      "poi": "badestelle-bad-stuer",
+      "sek": 845
+    },
+    {
+      "poi": "baerenwald-mueritz",
+      "sek": 856
+    },
+    {
+      "poi": "wangeliner-garten",
+      "sek": 1000
+    },
+    {
+      "poi": "kletterpark-plau",
+      "sek": 1089
+    }
+  ],
+  "naturerlebnispfad-verchener-seeberge": [
+    {
+      "poi": "cafe-im-brauhaus",
+      "sek": 200
+    },
+    {
+      "poi": "verchener-piratenkanone",
+      "sek": 234
+    },
+    {
+      "poi": "badestelle-verchen",
+      "sek": 248
+    },
+    {
+      "poi": "abenteuer-peenetal",
+      "sek": 252
+    },
+    {
+      "poi": "minigolfanlage-verchen",
+      "sek": 296
+    },
+    {
+      "poi": "peenetal-safari",
+      "sek": 541
+    },
+    {
+      "poi": "hotel-gravelotte",
+      "sek": 734
+    },
+    {
+      "poi": "demminer-eisenbahnmuseum",
+      "sek": 1173
+    }
+  ],
+  "naturerlebnispfad-wallnau": [],
+  "naturerlebnispfad-wilder-gruener-westen": [],
+  "naturerlebnispfad-wisentwald-muenster": [],
+  "naturerlebnisraum-burg-waldmuseum": [
+    {
+      "poi": "dat-luette-cafe",
+      "sek": 145
+    },
+    {
+      "poi": "ditmarsium",
+      "sek": 172
+    },
+    {
+      "poi": "tee-burg-cafe",
+      "sek": 173
+    },
+    {
+      "poi": "hofladen-gottschalk",
+      "sek": 227
+    },
+    {
+      "poi": "waldschwimmbad-burg",
+      "sek": 227
+    },
+    {
+      "poi": "campingplatz-klein-westerland",
+      "sek": 560
+    },
+    {
+      "poi": "klein-westerland",
+      "sek": 573
+    }
+  ],
+  "naturerlebnisraum-duenen-laboe": [],
+  "naturerlebnisraum-fackenburger-landgraben": [],
+  "naturerlebnisraum-friedrichshain-westerland": [
+    {
+      "poi": "steinzeitgrab-denghoog",
+      "sek": 276
+    },
+    {
+      "poi": "uwe-duene-kampen",
+      "sek": 513
+    },
+    {
+      "poi": "sylt-museum-keitum",
+      "sek": 639
+    },
+    {
+      "poi": "erlebniszentrum-naturgewalten-sylt",
+      "sek": 1066
+    }
+  ],
+  "naturerlebnisraum-galloway-schleswig": [],
+  "naturerlebnisraum-hallig-hooge": [
+    {
+      "poi": "koenigspesel",
+      "sek": 212
+    }
+  ],
+  "naturerlebnisraum-koldenbuettel": [
+    {
+      "poi": "friedrichstaedter-grachtenfahrt",
+      "sek": 291
+    },
+    {
+      "poi": "treenebad-friedrichstadt",
+      "sek": 480
+    }
+  ],
+  "naturerlebnisraum-kolonistenhof": [],
+  "naturerlebnisraum-koppelsberg": [],
+  "naturerlebnisraum-lundener-moor": [],
+  "naturerlebnisraum-moostoft-ekenis": [],
+  "naturerlebnisraum-pfarrhof-schoenwalde": [],
+  "naturerlebnisraum-plankenwiese": [],
+  "naturerlebnisraum-rensinger-see": [],
+  "naturerlebnisraum-soehlengraben": [],
   "naturerlebnisraum-spo": [],
+  "naturerlebnisraum-stadtwald-neumuenster": [],
+  "naturerlebnisraum-stecknitztal": [],
+  "naturerlebnisraum-stintgraben": [],
+  "naturerlebnisraum-stollberg": [
+    {
+      "poi": "der-marienhof",
+      "sek": 189
+    },
+    {
+      "poi": "naturzentrum-mittleres-nordfriesland",
+      "sek": 215
+    },
+    {
+      "poi": "freibad-bordelum",
+      "sek": 265
+    },
+    {
+      "poi": "amsinck-haus-reussenkoege",
+      "sek": 602
+    }
+  ],
+  "naturerlebnisraum-strukbach": [],
+  "naturerlebnisraum-uhlenkolk-moelln": [],
+  "naturerlebnisraum-wulfsdorfer-weg": [],
+  "naturerlebnisraum-ziegelei-borgwedel": [],
+  "naturerlebnisweg-eselspfad-huettenberg": [],
   "naturerlebnisweg-ploener-seeufer": [],
+  "naturerlebnisweg-strietberg-schiffweiler": [],
+  "naturetales-langenhorner-heide": [],
+  "naturetales-suederluegumer-binnenduenen": [
+    {
+      "poi": "meierei-huette",
+      "sek": 277
+    },
+    {
+      "poi": "kirchspielkrug-ladelund",
+      "sek": 585
+    },
+    {
+      "poi": "grenzkrog-aventoft",
+      "sek": 674
+    },
+    {
+      "poi": "drhses-hus",
+      "sek": 684
+    },
+    {
+      "poi": "zeppelin-garnisonsmuseum-tnder",
+      "sek": 870
+    }
+  ],
+  "naturhof-malchow": [
+    {
+      "poi": "strandbad-weissensee",
+      "sek": 326
+    },
+    {
+      "poi": "berlin-ei",
+      "sek": 431
+    },
+    {
+      "poi": "strandbad-orankesee",
+      "sek": 499
+    },
+    {
+      "poi": "eiscafe-surprise",
+      "sek": 514
+    },
+    {
+      "poi": "zeiss-grossplanetarium",
+      "sek": 731
+    },
+    {
+      "poi": "machmit-museum-fuer-kinder",
+      "sek": 754
+    },
+    {
+      "poi": "cafe-panke",
+      "sek": 878
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 901
+    },
+    {
+      "poi": "blankenfelder-hofladen",
+      "sek": 942
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 1080
+    }
+  ],
+  "naturlehr-erlebnispfad-stadtwald-buergerpark": [
+    {
+      "poi": "universum",
+      "sek": 155
+    },
+    {
+      "poi": "haus-am-walde",
+      "sek": 162
+    },
+    {
+      "poi": "eis-molin-schwachhausen",
+      "sek": 285
+    },
+    {
+      "poi": "focke-museum",
+      "sek": 427
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 442
+    },
+    {
+      "poi": "emmas-eiscafe",
+      "sek": 444
+    },
+    {
+      "poi": "horner-bad",
+      "sek": 473
+    },
+    {
+      "poi": "rhododendronpark",
+      "sek": 542
+    }
+  ],
+  "naturlehrgarten-fohlenweide": [],
+  "naturlehrgebiet-treysa": [],
   "naturlehrpfad-angersdorfer-teiche": [],
+  "naturlehrpfad-baierhansenwiesen-dreieich": [],
+  "naturlehrpfad-bremerhagen": [],
   "naturlehrpfad-dahlenberg": [],
   "naturlehrpfad-doelau-i": [],
   "naturlehrpfad-doelau-ii": [],
+  "naturlehrpfad-fahrdorf": [],
   "naturlehrpfad-grabschuetzer-see": [],
   "naturlehrpfad-huetter-klosterteiche": [
     {
@@ -377,11 +2396,357 @@
       "sek": 1124
     }
   ],
+  "naturlehrpfad-kirchsteig-meldorf": [],
+  "naturlehrpfad-klein-leppin": [
+    {
+      "poi": "gaststaette-zur-quelle",
+      "sek": 233
+    },
+    {
+      "poi": "antikhof-cafe-refugium",
+      "sek": 246
+    },
+    {
+      "poi": "plattenburg",
+      "sek": 824
+    },
+    {
+      "poi": "huesis-up-n-doerp",
+      "sek": 828
+    },
+    {
+      "poi": "prignitzer-kleinbahnmuseum-lindenberg",
+      "sek": 872
+    },
+    {
+      "poi": "dom-st-marien-zu-havelberg",
+      "sek": 925
+    },
+    {
+      "poi": "erlebnisbad-am-eichenwald",
+      "sek": 996
+    },
+    {
+      "poi": "haus-der-fluesse",
+      "sek": 1011
+    }
+  ],
+  "naturlehrpfad-kolonie-freiheit": [
+    {
+      "poi": "eiscafe-moinmoin",
+      "sek": 260
+    },
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 284
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 288
+    },
+    {
+      "poi": "spaethscher-hofladen",
+      "sek": 395
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 604
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 838
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 907
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 909
+    }
+  ],
+  "naturlehrpfad-moorguertel-vogelkamp": [
+    {
+      "poi": "arktis-eiscafe",
+      "sek": 354
+    },
+    {
+      "poi": "obsthof-brackenburg",
+      "sek": 493
+    },
+    {
+      "poi": "obsthof-quast",
+      "sek": 613
+    },
+    {
+      "poi": "freilichtmuseum-am-kiekeberg",
+      "sek": 861
+    },
+    {
+      "poi": "wildpark-restaurant",
+      "sek": 987
+    },
+    {
+      "poi": "wildpark-schwarze-berge",
+      "sek": 1043
+    },
+    {
+      "poi": "archaeologisches-museum-hamburg",
+      "sek": 1053
+    }
+  ],
+  "naturlehrpfad-muemmelkensee": [
+    {
+      "poi": "forsthaus-langenberg",
+      "sek": 114
+    },
+    {
+      "poi": "hans-werner-richter-haus",
+      "sek": 283
+    },
+    {
+      "poi": "restaurant-ingelotte",
+      "sek": 338
+    },
+    {
+      "poi": "museum-villa-irmgard",
+      "sek": 447
+    },
+    {
+      "poi": "baumwipfelpfad-usedom",
+      "sek": 681
+    },
+    {
+      "poi": "ostseetherme-usedom",
+      "sek": 737
+    },
+    {
+      "poi": "kletterwald-usedom",
+      "sek": 795
+    },
+    {
+      "poi": "papageienhaus-gullivers-welt",
+      "sek": 888
+    }
+  ],
   "naturlehrpfad-plaussiger-waeldchen": [],
   "naturlehrpfad-pressel": [],
+  "naturlehrpfad-seitzenhahn-taunusstein": [],
   "naturlehrpfad-staditzwald": [],
+  "naturlernpfad-eichwerder-steg": [],
+  "naturlernpfad-hoenower-weiherkette": [
+    {
+      "poi": "emba-emilia",
+      "sek": 161
+    },
+    {
+      "poi": "ados-eiscafe-restaurant",
+      "sek": 163
+    },
+    {
+      "poi": "tierhof-mensch-natur",
+      "sek": 164
+    },
+    {
+      "poi": "museumswohnung-wbs70",
+      "sek": 363
+    },
+    {
+      "poi": "landhof-rahlf",
+      "sek": 455
+    },
+    {
+      "poi": "gruenderzeitmuseum-mahlsdorf",
+      "sek": 545
+    },
+    {
+      "poi": "freibad-neuenhagen",
+      "sek": 665
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 1168
+    }
+  ],
+  "naturlernpfad-scheftheimer-wiesen": [],
+  "naturpfad-ribnitzer-grosses-moor": [
+    {
+      "poi": "natur-schatzkammer-neuheide",
+      "sek": 62
+    },
+    {
+      "poi": "joho-park-am-bernsteinsee",
+      "sek": 373
+    },
+    {
+      "poi": "freilichtmuseum-klockenhagen",
+      "sek": 431
+    },
+    {
+      "poi": "bernsteinreiter-hirschburg",
+      "sek": 576
+    },
+    {
+      "poi": "bodden-therme-ribnitz-damgarten",
+      "sek": 645
+    },
+    {
+      "poi": "paganini-cafeteria-ristorante",
+      "sek": 784
+    },
+    {
+      "poi": "deutsches-bernsteinmuseum",
+      "sek": 833
+    },
+    {
+      "poi": "waldcafe-meyers-hausstelle",
+      "sek": 867
+    },
+    {
+      "poi": "restaurant-waldner-graal-mueritz",
+      "sek": 943
+    },
+    {
+      "poi": "strand-graal-mueritz",
+      "sek": 1084
+    }
+  ],
+  "naturpfad-vogelkoje-kampen": [
+    {
+      "poi": "uwe-duene-kampen",
+      "sek": 361
+    },
+    {
+      "poi": "erlebniszentrum-naturgewalten-sylt",
+      "sek": 485
+    },
+    {
+      "poi": "steinzeitgrab-denghoog",
+      "sek": 515
+    },
+    {
+      "poi": "sylt-museum-keitum",
+      "sek": 1000
+    }
+  ],
+  "naturschutzscheune-reinheimer-teich": [],
+  "naturschutzstation-hahneberg": [
+    {
+      "poi": "hofladen-gabriele-schalk",
+      "sek": 251
+    },
+    {
+      "poi": "hofladen-huschke",
+      "sek": 410
+    },
+    {
+      "poi": "hallenbad-falkensee",
+      "sek": 439
+    },
+    {
+      "poi": "florida-eiscafe",
+      "sek": 493
+    },
+    {
+      "poi": "gutshof-gatow",
+      "sek": 645
+    },
+    {
+      "poi": "gotisches-haus",
+      "sek": 660
+    },
+    {
+      "poi": "eiscafe-millefiori-spandau",
+      "sek": 665
+    },
+    {
+      "poi": "strandbad-jungfernheide",
+      "sek": 1182
+    }
+  ],
+  "naturschutzzentrum-bergstrasse": [],
+  "naturschutzzentrum-oekowerk-teufelssee": [
+    {
+      "poi": "badestelle-teufelssee",
+      "sek": 241
+    },
+    {
+      "poi": "georg-kolbe-museum",
+      "sek": 426
+    },
+    {
+      "poi": "ziegenhof-berlin",
+      "sek": 785
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 803
+    },
+    {
+      "poi": "jagdschloss-grunewald",
+      "sek": 975
+    },
+    {
+      "poi": "bruecke-museum",
+      "sek": 1021
+    },
+    {
+      "poi": "henrys-eis",
+      "sek": 1057
+    },
+    {
+      "poi": "alliiertenmuseum",
+      "sek": 1161
+    }
+  ],
+  "naturspielort-tromm": [],
+  "naturspielplatz-hessenschanze": [],
+  "naturspielplatz-kaethe-kollwitz-strasse": [],
+  "naturspielplatz-reinkenheider-forst": [],
+  "naturspielplatz-wildgehege-kloevensteen": [
+    {
+      "poi": "haidehof",
+      "sek": 277
+    },
+    {
+      "poi": "eis-kalte-schnauze",
+      "sek": 330
+    },
+    {
+      "poi": "minigolf-wedel",
+      "sek": 554
+    },
+    {
+      "poi": "puppenmuseum-falkenstein",
+      "sek": 580
+    },
+    {
+      "poi": "elbecamp",
+      "sek": 633
+    },
+    {
+      "poi": "schwimmbad-blankenese",
+      "sek": 817
+    },
+    {
+      "poi": "hofladen-ladiges",
+      "sek": 824
+    },
+    {
+      "poi": "klick-kindermuseum",
+      "sek": 981
+    }
+  ],
+  "naturspur-hoherodskopf": [],
   "naturwaldpfad": [],
+  "naturwildpark-freisen": [],
+  "nez-maasholm": [],
+  "nistkasten-waldvogel-lehrpfad-immenhausen": [],
+  "nsg-luneplate": [],
+  "obrunnschlucht-maerchenpfad-hoechst": [],
   "oher-graeberfeld": [],
+  "orchideenpfad-gersheim": [],
+  "ostpark-ruesselsheim-waldspielplatz-wildgehege": [],
   "ostsee-lehrpfad-graal-mueritz": [
     {
       "poi": "restaurant-windfluechter",
@@ -434,6 +2799,7 @@
     }
   ],
   "raddusch": [],
+  "raeuberweg-kirkel": [],
   "rauener-berge": [],
   "ravensberge": [
     {
@@ -443,9 +2809,117 @@
   ],
   "rimstinger-steinlehrpfad": [],
   "rittbrookpfad": [],
+  "sauerstoffpfad-gruenhoefe": [
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 222
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 283
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 416
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 466
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 501
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 857
+    },
+    {
+      "poi": "klimahaus-bremerhaven",
+      "sek": 983
+    },
+    {
+      "poi": "zoo-am-meer",
+      "sek": 1056
+    }
+  ],
+  "schachtelhalm-infopfad-kuechensee": [],
+  "schafberg-dummersdorf": [],
+  "schnaakenmoor-schnitzeljagd": [
+    {
+      "poi": "haidehof",
+      "sek": 267
+    },
+    {
+      "poi": "eis-kalte-schnauze",
+      "sek": 319
+    },
+    {
+      "poi": "minigolf-wedel",
+      "sek": 543
+    },
+    {
+      "poi": "puppenmuseum-falkenstein",
+      "sek": 569
+    },
+    {
+      "poi": "elbecamp",
+      "sek": 622
+    },
+    {
+      "poi": "schwimmbad-blankenese",
+      "sek": 806
+    },
+    {
+      "poi": "hofladen-ladiges",
+      "sek": 813
+    },
+    {
+      "poi": "klick-kindermuseum",
+      "sek": 971
+    }
+  ],
   "schwartautal": [],
+  "scrofipfad-dargun": [
+    {
+      "poi": "traumstrand-dargun",
+      "sek": 0
+    },
+    {
+      "poi": "uns-luett-museum",
+      "sek": 189
+    },
+    {
+      "poi": "bahnhof-dargun",
+      "sek": 199
+    },
+    {
+      "poi": "gasthaus-am-hafen-neukalen",
+      "sek": 788
+    },
+    {
+      "poi": "demminer-eisenbahnmuseum",
+      "sek": 1009
+    },
+    {
+      "poi": "kanuhaus-demmin",
+      "sek": 1017
+    },
+    {
+      "poi": "ausflugsrestaurant-aalbude",
+      "sek": 1028
+    },
+    {
+      "poi": "naturerlebnisbad-biberburg",
+      "sek": 1092
+    }
+  ],
+  "sinnespfad-benkelberg-sitzerath": [],
+  "sinnespfad-hoherodskopf": [],
+  "sinnespfad-naturfreundehaus-ruesselsheim": [],
   "skywalk-allgaeu": [],
   "sl-c-73-alzines-can-portell": [],
+  "spiel-und-fitnessroute-kelsterbach": [],
   "spielplatz-salz-und-wasser-kurpark-bad-duerrenberg": [
     {
       "poi": "aktivitaet-palmenhaus-bad-duerrenberg",
@@ -465,10 +2939,115 @@
     }
   ],
   "spurenweg-kratzeburg": [],
+  "stadtbauernhof-saarbruecken-almet": [],
+  "stadtnatur-rallyes-volkspark-rehberge": [
+    {
+      "poi": "strandbad-jungfernheide",
+      "sek": 584
+    },
+    {
+      "poi": "kinderbunter-bauernhof",
+      "sek": 606
+    },
+    {
+      "poi": "strandbad-ploetzensee",
+      "sek": 647
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 741
+    },
+    {
+      "poi": "labyrinth-kindermuseum",
+      "sek": 766
+    },
+    {
+      "poi": "museum-fuer-naturkunde",
+      "sek": 865
+    },
+    {
+      "poi": "eisdiele-angelina",
+      "sek": 951
+    },
+    {
+      "poi": "cafe-zwei-kraniche",
+      "sek": 974
+    }
+  ],
+  "stadtpark-norderstedt": [],
+  "stadtteilfarm-huchting": [
+    {
+      "poi": "hallenbad-huchting",
+      "sek": 265
+    },
+    {
+      "poi": "gemuesedeern",
+      "sek": 469
+    },
+    {
+      "poi": "suedbad",
+      "sek": 747
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 797
+    },
+    {
+      "poi": "panciera",
+      "sek": 873
+    },
+    {
+      "poi": "schwarzlichthof",
+      "sek": 902
+    },
+    {
+      "poi": "hafenmuseum-speicher-xi",
+      "sek": 913
+    }
+  ],
+  "stadtteilfarm-tenever": [
+    {
+      "poi": "eiscafe-ronardi",
+      "sek": 214
+    },
+    {
+      "poi": "eis-molin-osterholz",
+      "sek": 387
+    },
+    {
+      "poi": "schlossparkbad",
+      "sek": 677
+    },
+    {
+      "poi": "rhododendronpark",
+      "sek": 844
+    },
+    {
+      "poi": "badestelle-oyter-see",
+      "sek": 855
+    },
+    {
+      "poi": "focke-museum",
+      "sek": 895
+    },
+    {
+      "poi": "universum",
+      "sek": 923
+    },
+    {
+      "poi": "hof-stackkamp",
+      "sek": 957
+    }
+  ],
+  "stadtwaldhaus-fasanerie-frankfurt": [],
+  "stauchmoraenen-hessenstein": [],
   "steinerlebnisplatz-markkleeberg": [],
+  "steinzeitpark-dithmarschen": [],
   "stendenitz": [],
+  "stiftungsland-schaeferhaus": [],
   "streichelzoo-torgauer-arche": [],
   "stubbenkammer-koenigsstuhl": [],
+  "tier-erlebnispfad-wendelinuspark-st-wendel": [],
   "tier-und-erlebnispark-luetzen": [
     {
       "poi": "cafe-eiskfee-bad-duerrenberg",
@@ -483,6 +3062,8 @@
       "sek": 1005
     }
   ],
+  "tiererlebnispfad-volkspark-flensburg": [],
+  "tiergarten-weilburg": [],
   "tiergehege-bitterfeld-gruene-lunge": [
     {
       "poi": "aktivitaet-bitterfelder-bogen",
@@ -499,6 +3080,74 @@
     {
       "poi": "aktivitaet-pegelturm-goitzsche",
       "sek": 375
+    }
+  ],
+  "tiergehege-buergerpark-bremen": [
+    {
+      "poi": "minigolf-buergerpark",
+      "sek": 269
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 283
+    },
+    {
+      "poi": "emmas-eiscafe",
+      "sek": 285
+    },
+    {
+      "poi": "eis-molin-schwachhausen",
+      "sek": 335
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 371
+    },
+    {
+      "poi": "schwarzlichthof",
+      "sek": 450
+    },
+    {
+      "poi": "westbad",
+      "sek": 479
+    },
+    {
+      "poi": "universum",
+      "sek": 556
+    }
+  ],
+  "tiergehege-buergerpark-bremerhaven": [
+    {
+      "poi": "weser-strandbad",
+      "sek": 372
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 421
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 425
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 457
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 579
+    },
+    {
+      "poi": "klimahaus-bremerhaven",
+      "sek": 939
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 957
+    },
+    {
+      "poi": "zoo-am-meer",
+      "sek": 1012
     }
   ],
   "tiergehege-dornreichenbach": [
@@ -519,8 +3168,11 @@
       "sek": 913
     }
   ],
+  "tiergehege-hattersheim": [],
   "tiergehege-park-beilrode": [],
+  "tierpark-eidengesaess-linsengericht": [],
   "tierpark-eilenburg": [],
+  "tierpark-klosterwald": [],
   "tierpark-petersberg": [],
   "treetopwalk-edersee": [],
   "trifelserlebnisweg-annweiler": [
@@ -578,6 +3230,39 @@
     }
   ],
   "untereider": [],
+  "urwald-sababurg": [],
+  "vierfelderhof-gatow": [
+    {
+      "poi": "gutshof-gatow",
+      "sek": 156
+    },
+    {
+      "poi": "hofladen-gabriele-schalk",
+      "sek": 721
+    },
+    {
+      "poi": "florida-eiscafe",
+      "sek": 757
+    },
+    {
+      "poi": "hofladen-huschke",
+      "sek": 893
+    },
+    {
+      "poi": "gotisches-haus",
+      "sek": 923
+    },
+    {
+      "poi": "eiscafe-millefiori-spandau",
+      "sek": 928
+    },
+    {
+      "poi": "militaerhistorisches-museum-gatow",
+      "sek": 959
+    }
+  ],
+  "vogellehrpfad-hilders": [],
+  "vogelpark-lorsch": [],
   "von-moor-zu-moor": [],
   "wahrberge": [],
   "wald-berlin-klima": [
@@ -594,8 +3279,107 @@
       "sek": 933
     }
   ],
+  "wald-erlebnispfad-marienhoelzung": [],
+  "wald-erlebnispfad-oberjosbach-niedernhausen": [],
   "wald-erlebnispfad-serrahn": [],
+  "wald-klima-tour-kirtorf": [],
+  "wald-vogellehrpfad-frankenau": [],
+  "walderlebnispfad-arboretum-main-taunus": [],
+  "walderlebnispfad-auskopf-habichtswald": [],
+  "walderlebnispfad-bonsweiher": [],
+  "walderlebnispfad-burg-frankenstein-muehltal": [],
+  "walderlebnispfad-glinde": [],
+  "walderlebnispfad-hessenschanze": [],
+  "walderlebnispfad-hopfenkrug-emkendorf": [],
+  "walderlebnispfad-illgrund-merchweiler": [],
+  "walderlebnispfad-lampertheim-heidetraenke": [],
+  "walderlebnispfad-nalbach-litermont": [],
+  "walderlebnispfad-neroberg": [],
+  "walderlebnispfad-palmbachtal-aarbergen": [],
+  "walderlebnispfad-rugard": [
+    {
+      "poi": "minigolf-am-rugard",
+      "sek": 26
+    },
+    {
+      "poi": "inselrodelbahn-bergen",
+      "sek": 44
+    },
+    {
+      "poi": "cafe-am-markt-stadtbaeckerei-kuehl",
+      "sek": 135
+    },
+    {
+      "poi": "gastwirtschaft-am-markt-bibo-ergo-sum",
+      "sek": 139
+    },
+    {
+      "poi": "stadtmuseum-bergen-auf-ruegen",
+      "sek": 198
+    },
+    {
+      "poi": "uhrenmuseum-putbus",
+      "sek": 811
+    },
+    {
+      "poi": "karls-erlebnis-dorf-zirkow",
+      "sek": 841
+    },
+    {
+      "poi": "pirateninsel-ruegen",
+      "sek": 901
+    },
+    {
+      "poi": "naturerbe-zentrum-ruegen-baumwipfelpfad",
+      "sek": 925
+    },
+    {
+      "poi": "oldtimer-museum-ruegen",
+      "sek": 1127
+    }
+  ],
+  "walderlebnispfad-teterow": [
+    {
+      "poi": "waldgaststaette-uns-huesung",
+      "sek": 56
+    },
+    {
+      "poi": "bergringmuseum",
+      "sek": 263
+    },
+    {
+      "poi": "baeckerei-hatscher-teterow",
+      "sek": 323
+    },
+    {
+      "poi": "restaurant-moshack",
+      "sek": 326
+    },
+    {
+      "poi": "stadtmuseum-teterow",
+      "sek": 337
+    },
+    {
+      "poi": "gasthof-zur-erbmuehle",
+      "sek": 564
+    },
+    {
+      "poi": "mecklenburger-wagyu-hofladen",
+      "sek": 605
+    }
+  ],
+  "walderlebnispfad-traumwald-wildpark-buedingen": [],
+  "walderlebnispfad-uhupfad-braunfels": [],
+  "walderlebnispfad-viernheim": [],
+  "walderlebnispfad-villmar-struth": [],
+  "walderlebnispfad-wildpark-bad-soden-salmuenster": [],
+  "walderlebniswelt-bad-orb": [],
+  "waldfuesslerpfad-schaafheim": [],
   "waldhusen": [],
+  "waldkugelbahn-waldlehrpfad-heienbach": [],
+  "waldlehrpfad-bruchsee-heppenheim": [],
+  "waldlehrpfad-gruenberg": [],
+  "waldlehrpfad-hasselbusch": [],
   "waldlehrpfad-hermsdorf": [
     {
       "poi": "cafe-zwei-kraniche",
@@ -610,7 +3394,43 @@
       "sek": 1048
     }
   ],
+  "waldlehrpfad-niederscheld": [],
+  "waldlehrpfad-ober-schoenmattenwag": [],
   "waldlehrpfad-silberbergen": [],
+  "waldlehrpfad-speckenbuettel": [
+    {
+      "poi": "havencamp",
+      "sek": 658
+    },
+    {
+      "poi": "campingplatz-spadener-see",
+      "sek": 739
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 751
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 824
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 832
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 905
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 917
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 1174
+    }
+  ],
   "waldlehrpfad-taubensuhl-landau": [
     {
       "poi": "birkenthaler-hof-eusserthal",
@@ -629,7 +3449,244 @@
       "sek": 846
     }
   ],
+  "waldschule-grunewald-waldmuseum": [],
+  "waldspielpark-carl-von-weinberg": [],
+  "waldspielpark-goetheturm": [],
+  "waldspielpark-louisa": [],
+  "waldspielpark-scheerwald": [],
+  "waldspielpark-schwanheim": [],
+  "waldspielpark-tannenwald": [],
   "waldspielplatz-ameisenhausen-heidesee-halle": [],
+  "waldspielplatz-badestelle-schmoeckwitz": [
+    {
+      "poi": "badewiese-schmoeckwitz",
+      "sek": 0
+    },
+    {
+      "poi": "campingplatz-berlin",
+      "sek": 246
+    },
+    {
+      "poi": "marios-eiscafe",
+      "sek": 483
+    },
+    {
+      "poi": "strandbad-gruenau",
+      "sek": 673
+    },
+    {
+      "poi": "jannys-eis-zeuthen",
+      "sek": 801
+    },
+    {
+      "poi": "schloss-koenigs-wusterhausen",
+      "sek": 1184
+    }
+  ],
+  "waldspielplatz-blankenfelde": [
+    {
+      "poi": "blankenfelder-hofladen",
+      "sek": 1025
+    },
+    {
+      "poi": "cafe-traktorista",
+      "sek": 1052
+    }
+  ],
+  "waldspielplatz-boxheimer-feldschlag-buerstadt": [],
+  "waldspielplatz-daeumlingsweg": [
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 435
+    },
+    {
+      "poi": "gruenderzeitmuseum-mahlsdorf",
+      "sek": 548
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 684
+    },
+    {
+      "poi": "cafe-hoernchen",
+      "sek": 731
+    },
+    {
+      "poi": "sommerbad-wuhlheide",
+      "sek": 911
+    },
+    {
+      "poi": "strandbad-mueggelsee",
+      "sek": 995
+    },
+    {
+      "poi": "haus-natur-und-umwelt",
+      "sek": 1076
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 1159
+    }
+  ],
+  "waldspielplatz-fischerhuettenweg": [
+    {
+      "poi": "fischerhuette-am-schlachtensee",
+      "sek": 200
+    },
+    {
+      "poi": "eis-faldon-zehlendorf",
+      "sek": 282
+    },
+    {
+      "poi": "museumsdorf-dueppel",
+      "sek": 480
+    },
+    {
+      "poi": "alliiertenmuseum",
+      "sek": 606
+    },
+    {
+      "poi": "hofladen-domaene-dahlem",
+      "sek": 726
+    },
+    {
+      "poi": "strandbad-wannsee",
+      "sek": 774
+    },
+    {
+      "poi": "tiergarten-teltow",
+      "sek": 1098
+    },
+    {
+      "poi": "minigolf-am-insulaner",
+      "sek": 1114
+    }
+  ],
+  "waldspielplatz-gatow": [
+    {
+      "poi": "gutshof-gatow",
+      "sek": 177
+    },
+    {
+      "poi": "campingplatz-gatow",
+      "sek": 183
+    },
+    {
+      "poi": "hofladen-vierfelderhof",
+      "sek": 238
+    },
+    {
+      "poi": "hofladen-gabriele-schalk",
+      "sek": 711
+    },
+    {
+      "poi": "militaerhistorisches-museum-gatow",
+      "sek": 761
+    },
+    {
+      "poi": "eiscafe-millefiori-spandau",
+      "sek": 918
+    },
+    {
+      "poi": "mr-ice-cream",
+      "sek": 1123
+    },
+    {
+      "poi": "wildgehege-spandauer-forst",
+      "sek": 1168
+    }
+  ],
+  "waldspielplatz-goldfischteich": [
+    {
+      "poi": "wildgehege-spandauer-forst",
+      "sek": 68
+    },
+    {
+      "poi": "mr-ice-cream",
+      "sek": 158
+    },
+    {
+      "poi": "stadtgeschichtliches-museum-spandau",
+      "sek": 403
+    },
+    {
+      "poi": "camping-buergerablage",
+      "sek": 441
+    },
+    {
+      "poi": "hofladen-gabriele-schalk",
+      "sek": 604
+    },
+    {
+      "poi": "strandbad-tegeler-see",
+      "sek": 797
+    },
+    {
+      "poi": "erlebniswelt-tier-und-natur",
+      "sek": 882
+    }
+  ],
+  "waldspielplatz-gruenau": [
+    {
+      "poi": "strandbad-gruenau",
+      "sek": 291
+    },
+    {
+      "poi": "badewiese-schmoeckwitz",
+      "sek": 683
+    },
+    {
+      "poi": "campingplatz-berlin",
+      "sek": 896
+    },
+    {
+      "poi": "marios-eiscafe",
+      "sek": 940
+    },
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 972
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 1090
+    }
+  ],
+  "waldspielplatz-gutspark-furpach": [],
+  "waldspielplatz-hirschgartendreieck": [
+    {
+      "poi": "cafe-hoernchen",
+      "sek": 268
+    },
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 394
+    },
+    {
+      "poi": "strandbad-mueggelsee",
+      "sek": 503
+    },
+    {
+      "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
+      "sek": 579
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 642
+    },
+    {
+      "poi": "schmetterlingshorst",
+      "sek": 848
+    },
+    {
+      "poi": "haus-natur-und-umwelt",
+      "sek": 1035
+    },
+    {
+      "poi": "tierpark-berlin",
+      "sek": 1138
+    }
+  ],
   "waldspielplatz-jaegerhaus": [
     {
       "poi": "la-famiglia-esslingen",
@@ -638,6 +3695,258 @@
     {
       "poi": "jaegerhaus-esslingen",
       "sek": 192
+    }
+  ],
+  "waldspielplatz-leichtweisshoehle": [],
+  "waldspielplatz-leonhard-eissnert-park": [],
+  "waldspielplatz-niendorfer-gehege": [
+    {
+      "poi": "waldcafe-corell",
+      "sek": 183
+    },
+    {
+      "poi": "eiscafe-veneto-niendorf",
+      "sek": 258
+    },
+    {
+      "poi": "tierpark-hagenbeck",
+      "sek": 517
+    },
+    {
+      "poi": "camping-buchholz-hamburg",
+      "sek": 662
+    },
+    {
+      "poi": "hsv-museum",
+      "sek": 839
+    },
+    {
+      "poi": "campingplatz-schnelsen-nord",
+      "sek": 901
+    },
+    {
+      "poi": "klick-kindermuseum",
+      "sek": 977
+    },
+    {
+      "poi": "arriba-erlebnisbad",
+      "sek": 1104
+    }
+  ],
+  "waldspielplatz-plaenterwald": [
+    {
+      "poi": "archenhold-sternwarte",
+      "sek": 155
+    },
+    {
+      "poi": "zenner-biergarten",
+      "sek": 159
+    },
+    {
+      "poi": "cafe-engelbecken",
+      "sek": 638
+    },
+    {
+      "poi": "fraeulein-frost",
+      "sek": 693
+    },
+    {
+      "poi": "computerspielemuseum",
+      "sek": 704
+    },
+    {
+      "poi": "tierpark-neukoelln",
+      "sek": 747
+    },
+    {
+      "poi": "sommerbad-kreuzberg",
+      "sek": 834
+    },
+    {
+      "poi": "britzer-garten",
+      "sek": 1051
+    }
+  ],
+  "waldspielplatz-promenade-teufelssee": [
+    {
+      "poi": "restaurant-mueggelsee-terrassen-ruebezahl",
+      "sek": 73
+    },
+    {
+      "poi": "altstadtcafe-coepenick",
+      "sek": 428
+    },
+    {
+      "poi": "restaurant-mueggelturm-baude",
+      "sek": 479
+    },
+    {
+      "poi": "schmetterlingshorst",
+      "sek": 514
+    },
+    {
+      "poi": "cafe-hoernchen",
+      "sek": 676
+    },
+    {
+      "poi": "alice-museum-fuer-kinder",
+      "sek": 751
+    },
+    {
+      "poi": "strandbad-mueggelsee",
+      "sek": 940
+    },
+    {
+      "poi": "sommerbad-wuhlheide",
+      "sek": 978
+    }
+  ],
+  "waldspielplatz-rallenweg": [
+    {
+      "poi": "badestelle-sandhauser-strasse",
+      "sek": 162
+    },
+    {
+      "poi": "strandbad-tegeler-see",
+      "sek": 566
+    },
+    {
+      "poi": "mr-ice-cream",
+      "sek": 837
+    },
+    {
+      "poi": "camping-buergerablage",
+      "sek": 850
+    },
+    {
+      "poi": "wildgehege-spandauer-forst",
+      "sek": 1030
+    }
+  ],
+  "waldspielplatz-rauchfangswerder": [
+    {
+      "poi": "badewiese-schmoeckwitz",
+      "sek": 408
+    },
+    {
+      "poi": "campingplatz-berlin",
+      "sek": 556
+    },
+    {
+      "poi": "marios-eiscafe",
+      "sek": 852
+    },
+    {
+      "poi": "strandbad-gruenau",
+      "sek": 1042
+    },
+    {
+      "poi": "jannys-eis-zeuthen",
+      "sek": 1170
+    }
+  ],
+  "waldspielplatz-schildhorn": [
+    {
+      "poi": "restaurant-waldhaus-havelchaussee",
+      "sek": 418
+    },
+    {
+      "poi": "restaurant-kaisergarten-grunewaldturm",
+      "sek": 483
+    },
+    {
+      "poi": "grunewaldturm",
+      "sek": 487
+    },
+    {
+      "poi": "badestelle-grosse-steinlanke",
+      "sek": 852
+    },
+    {
+      "poi": "eiscafe-millefiori-spandau",
+      "sek": 885
+    },
+    {
+      "poi": "stadtgeschichtliches-museum-spandau",
+      "sek": 985
+    },
+    {
+      "poi": "mosaik-hofladen",
+      "sek": 1086
+    },
+    {
+      "poi": "gutshof-gatow",
+      "sek": 1170
+    }
+  ],
+  "waldspielplatz-schulzendorfer-strasse": [
+    {
+      "poi": "wildgehege-ehrenpfortensteig",
+      "sek": 210
+    },
+    {
+      "poi": "cafe-zwei-kraniche",
+      "sek": 340
+    },
+    {
+      "poi": "restaurant-da-michelino",
+      "sek": 382
+    },
+    {
+      "poi": "museum-reinickendorf",
+      "sek": 423
+    },
+    {
+      "poi": "eisdiele-angelina",
+      "sek": 662
+    },
+    {
+      "poi": "erlebniswelt-tier-und-natur",
+      "sek": 881
+    },
+    {
+      "poi": "strandbad-tegeler-see",
+      "sek": 996
+    },
+    {
+      "poi": "blankenfelder-hofladen",
+      "sek": 1134
+    }
+  ],
+  "waldspielplatz-stadtwald-saarlouis": [],
+  "waldspielplatz-starkenburg-heppenheim": [],
+  "waldspielplatz-volksdorfer-wald": [
+    {
+      "poi": "kletterwald-hamburg",
+      "sek": 4
+    },
+    {
+      "poi": "parkbad-volksdorf",
+      "sek": 210
+    },
+    {
+      "poi": "noris-bar",
+      "sek": 231
+    },
+    {
+      "poi": "hofladen-gut-wulfsdorf",
+      "sek": 558
+    },
+    {
+      "poi": "haus-der-natur-wulfsdorf",
+      "sek": 822
+    },
+    {
+      "poi": "landhaus-ohlstedt",
+      "sek": 887
+    },
+    {
+      "poi": "nahverkehrsmuseum-kleinbahnhof-wohldorf",
+      "sek": 962
+    },
+    {
+      "poi": "campingplatz-bredenbeker-teich",
+      "sek": 1090
     }
   ],
   "waldspielplatz-wildpark-leipzig": [
@@ -666,7 +3975,11 @@
       "sek": 899
     }
   ],
+  "waldthemenpfad-breitenstein-ober-ramstadt": [],
+  "waldvogelpfad-hofheim": [],
   "waldwipfelweg-sankt-englmar": [],
+  "waldzoo-offenbach": [],
+  "wasser-erlebnispfad-offermann-weiher-geisenheim": [],
   "wasser-erlebnispfad-sprotte": [
     {
       "poi": "cafe-eiserne-bank",
@@ -693,8 +4006,13 @@
       "sek": 790
     }
   ],
+  "wassererlebnishaus-fuldatal": [],
   "wasserspielplatz-am-gastronom-halle-neustadt": [],
+  "wasserspielplatz-bostalsee": [],
+  "wasserspielplatz-dfg-pulverbach-saarbruecken": [],
+  "wasserspielplatz-erlebnispark-schaumberg-tholey": [],
   "wasserspielplatz-giesserbruecke": [],
+  "wasserspielplatz-gustav-clauss-anlage-st-ingbert": [],
   "wasserspielplatz-heide-sued": [],
   "wasserspielplatz-lene-voigt": [],
   "wasserspielplatz-neue-ufer-leipzig": [
@@ -726,7 +4044,60 @@
   "wasserspielplatz-oberholz": [],
   "wasserspielplatz-peissnitzhaus": [],
   "wasserspielplatz-roebel": [],
+  "wasserspielplatz-stadtpark-homburg": [],
+  "weg-des-wassers-birstein-fischborn": [],
+  "weilbacher-kiesgruben-floersheim": [],
   "weltpfad-nicklheim": [],
+  "wetterpark-offenbach": [],
+  "wichtelpfad-melsungen": [],
+  "wildfreigehege-kallenborn-heusweiler": [],
+  "wildfreigehege-wolfsrath-saarwellingen": [],
+  "wildgehege-herborn": [],
+  "wildgehege-kapellenberg-hofheim": [],
+  "wildgehege-kloevensteen": [
+    {
+      "poi": "haidehof",
+      "sek": 296
+    },
+    {
+      "poi": "eis-kalte-schnauze",
+      "sek": 349
+    },
+    {
+      "poi": "minigolf-wedel",
+      "sek": 573
+    },
+    {
+      "poi": "puppenmuseum-falkenstein",
+      "sek": 599
+    },
+    {
+      "poi": "elbecamp",
+      "sek": 651
+    },
+    {
+      "poi": "schwimmbad-blankenese",
+      "sek": 836
+    },
+    {
+      "poi": "hofladen-ladiges",
+      "sek": 843
+    },
+    {
+      "poi": "klick-kindermuseum",
+      "sek": 1000
+    }
+  ],
+  "wildgehege-niederwald-ruedesheim": [],
+  "wildgehege-rotenburg": [],
+  "wildkatzen-erlebnispfad-weiskirchen": [],
+  "wildkatzen-walderlebnis-winterstein": [],
+  "wildpark-alte-fasanerie-hanau": [],
+  "wildpark-brudergrund-erbach": [],
+  "wildpark-donsbach": [],
+  "wildpark-gersfeld": [],
+  "wildpark-jaegersburg-einhausen": [],
+  "wildpark-knuell": [],
   "wildpark-leipzig": [
     {
       "poi": "restaurant-waldfrieden-leipzig",
@@ -753,12 +4124,55 @@
       "sek": 902
     }
   ],
+  "wildpark-ludweiler-voelklingen": [],
+  "wildpark-saarbruecken": [],
+  "wildpark-voelklingen": [],
+  "wildpark-weiskirchen-rappweiler": [],
+  "wildschweinroute-hausen-arnsbach": [],
+  "wildtierpark-edersee": [],
+  "wolfspark-werner-freund-merzig": [],
   "wolfspfad-zwenzow": [],
+  "wunderweltwasser-malente": [],
   "wupatz": [
     {
       "poi": "strandbad-mueggelsee",
       "sek": 815
     }
   ],
+  "wupp-naturerlebnisgelaende-walle": [
+    {
+      "poi": "schwarzlichthof",
+      "sek": 249
+    },
+    {
+      "poi": "westbad",
+      "sek": 278
+    },
+    {
+      "poi": "hafenmuseum-speicher-xi",
+      "sek": 295
+    },
+    {
+      "poi": "eis-molin-groepelingen",
+      "sek": 317
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 382
+    },
+    {
+      "poi": "minigolf-buergerpark",
+      "sek": 400
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 413
+    },
+    {
+      "poi": "suedbad",
+      "sek": 580
+    }
+  ],
+  "zoo-am-rammelsberg": [],
   "zweiseitenweg-rambow": []
 }

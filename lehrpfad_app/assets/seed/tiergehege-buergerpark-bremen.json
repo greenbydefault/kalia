@@ -1,0 +1,389 @@
+{
+ "id": "tiergehege-buergerpark-bremen",
+ "name": "Tiergehege im Bürgerpark Bremen",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Damwild, Bergziegen, Skudden und Bunte Bentheimer Schweine leben im Tiergehege des Bürgerparks. Am Gehege steht ein reetgedecktes Wildhaus.",
+ "beschreibung": "Schon drei Jahre nach der Gründung des Bürgerparks entstand hier ein Bassin für Fischotter. Weil die scheuen Tiere nur nachts aktiv waren, setzte der Park bald auf heimische, tagesaktive Arten, die das Bremer Wetter vertragen. Ausflüge ins Exotische gab es trotzdem. Kängurus bekamen lange Zeit Nachwuchs, nach dem Krieg wurde das Dromedar Bobby zum Publikumsliebling. Heute leben im Tiergehege Damwild, Bergziegen, Schafe, Enten und Bunte Bentheimer Schweine. Die Meerschweinchen haben ein neues Gehege, mittendrin liegt ein kleiner Spielplatz.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Bürgerparkverein Bremen",
+ "region": "Bürgerpark, Bremen",
+ "anreise": "Navi: Bürgerpark Bremen, Tiergehege. Das Tiergehege liegt rund 250 m nordöstlich des Restaurants Emma am See.",
+ "startName": "Tiergehege im Bürgerpark, Tiertafel am Westrand",
+ "arten": [
+  "Damhirsch",
+  "Ziege",
+  "Schaf",
+  "Haushuhn",
+  "Stockente",
+  "Blässhuhn",
+  "Graureiher",
+  "Höckerschwan",
+  "Amsel",
+  "Rotkehlchen",
+  "Schilf",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 49,
+ "form": "flaeche",
+ "website": "https://www.buergerpark-bremen.de/erleben/Tiergehege.php",
+ "eintrittPreise": "kostenlos; Futter- und Dauerspenden erbeten",
+ "oeffnungszeiten": "frei zugänglich",
+ "besuchshinweise": "Tiere nicht füttern. Wer helfen möchte, kann beim Bürgerparkverein eine Futterspende einrichten.",
+ "area": [
+  [
+   53.095466,
+   8.827098
+  ],
+  [
+   53.095643,
+   8.827302
+  ],
+  [
+   53.095737,
+   8.827369
+  ],
+  [
+   53.095821,
+   8.827398
+  ],
+  [
+   53.095921,
+   8.827391
+  ],
+  [
+   53.096009,
+   8.827367
+  ],
+  [
+   53.096147,
+   8.827303
+  ],
+  [
+   53.096271,
+   8.827514
+  ],
+  [
+   53.096398,
+   8.827572
+  ],
+  [
+   53.096447,
+   8.827454
+  ],
+  [
+   53.09651,
+   8.827601
+  ],
+  [
+   53.09659,
+   8.827834
+  ],
+  [
+   53.096676,
+   8.827917
+  ],
+  [
+   53.09677,
+   8.827996
+  ],
+  [
+   53.096897,
+   8.828011
+  ],
+  [
+   53.096966,
+   8.82795
+  ],
+  [
+   53.097046,
+   8.827895
+  ],
+  [
+   53.097138,
+   8.827922
+  ],
+  [
+   53.09721,
+   8.827791
+  ],
+  [
+   53.097324,
+   8.827576
+  ],
+  [
+   53.097386,
+   8.82744
+  ],
+  [
+   53.097294,
+   8.827272
+  ],
+  [
+   53.097223,
+   8.827189
+  ],
+  [
+   53.097147,
+   8.82721
+  ],
+  [
+   53.097025,
+   8.827108
+  ],
+  [
+   53.096767,
+   8.8269
+  ],
+  [
+   53.096693,
+   8.826754
+  ],
+  [
+   53.096663,
+   8.82654
+  ],
+  [
+   53.096592,
+   8.826474
+  ],
+  [
+   53.096389,
+   8.826356
+  ],
+  [
+   53.096339,
+   8.826223
+  ],
+  [
+   53.096319,
+   8.826039
+  ],
+  [
+   53.096273,
+   8.825852
+  ],
+  [
+   53.096189,
+   8.825745
+  ],
+  [
+   53.096106,
+   8.825676
+  ],
+  [
+   53.096027,
+   8.825659
+  ],
+  [
+   53.095951,
+   8.825675
+  ],
+  [
+   53.095792,
+   8.825802
+  ],
+  [
+   53.095744,
+   8.825905
+  ],
+  [
+   53.095643,
+   8.826116
+  ],
+  [
+   53.095644,
+   8.826346
+  ],
+  [
+   53.09561,
+   8.826586
+  ],
+  [
+   53.095589,
+   8.826723
+  ],
+  [
+   53.095542,
+   8.826911
+  ],
+  [
+   53.095466,
+   8.827098
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1376549622,
+   "lat": 53.096093,
+   "lon": 8.826168,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Tiertafel am Westrand",
+   "thema": "Überblick",
+   "kurztext": "Am Westrand des Tiergeheges zeigt eine Tafel die Tiere und ihre Gehege.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685440768,
+   "lat": 53.096003,
+   "lon": 8.825941,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Bunte Bentheimer Schweine",
+   "thema": "Alte Haustierrasse",
+   "kurztext": "Schwarze Flecken auf hellem Grund kennzeichnen das Bunte Bentheimer Schwein, eine alte Landschweinrasse.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685440780,
+   "lat": 53.095701,
+   "lon": 8.826656,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Enten",
+   "thema": "Ziergeflügel am Wasser",
+   "kurztext": "Mandarinenten, Brautenten und Bahamaenten teilen sich die Entenanlage.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685440795,
+   "lat": 53.095617,
+   "lon": 8.826949,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Meerschweinchen",
+   "thema": "Neues Gehege",
+   "kurztext": "In ihrem neuen Gehege sind die Meerschweinchen für Kinder die große Attraktion.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685440828,
+   "lat": 53.095909,
+   "lon": 8.827128,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Ziegen",
+   "thema": "Bergziegen und Zwergziegen",
+   "kurztext": "Bergziegen und Zwergziegen klettern im Ziegengehege über Stämme und Steine.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 54400521,
+   "lat": 53.096373,
+   "lon": 8.826608,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Spielplatz",
+   "thema": "Sand, Rutsche und Wippen",
+   "kurztext": "Sandkasten, Rutsche und Federwippen stehen auf dem kleinen Spielplatz mitten im Tiergehege.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685462825,
+   "lat": 53.096422,
+   "lon": 8.827141,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Skudden",
+   "thema": "Kleine Schafrasse",
+   "kurztext": "Skudden zählen zu den kleinsten Hausschafrassen und stammen aus dem Baltikum und Ostpreußen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 685462856,
+   "lat": 53.096665,
+   "lon": 8.827267,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Damwild",
+   "thema": "Hirsche im Park",
+   "kurztext": "Damhirsche tragen im Sommer ein geflecktes Fell, die männlichen Tiere ein schaufelförmiges Geweih.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 54400521,
+   "lat": 53.096373,
+   "lon": 8.826608,
+   "kategorie": "playground",
+   "name": "Spielplatz Tiergehege"
+  },
+  {
+   "osmId": 286598265,
+   "lat": 53.096058,
+   "lon": 8.826228,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 286668278,
+   "lat": 53.096389,
+   "lon": 8.826457,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 2443548493,
+   "lat": 53.096282,
+   "lon": 8.826627,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 2443548481,
+   "lat": 53.096092,
+   "lon": 8.827244,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Damhirsch": "belegt",
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Haushuhn": "belegt",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Graureiher": "typisch",
+  "Höckerschwan": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Schilf": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "63027f31-6004-4727-a5f8-55c493fc4365",
+   "id": "63027f31-6004-4727-a5f8-55c493fc4365",
+   "caption": "Umgebung, nicht Pfad: das reetgedeckte Wildhaus am Tiergehege im Bürgerpark (November 2012)",
+   "credit": "Dguendel, CC BY 4.0, via Wikimedia Commons",
+   "license": "cc-by-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bremen,_B%C3%BCrgerpark,_das_Wildhaus.JPG",
+   "kind": "ort"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "id": "erlebnisfarm-ohlenhof",
+ "name": "Erlebnisfarm Ohlenhof",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Hühner und Laufenten laufen frei über die Farm in Oslebshausen, auf der Weide grasen Schafe. Pferde, Ponys und Esel teilen sich einen Offenstall.",
+ "beschreibung": "Mitten im Bremer Westen leben auf der Erlebnisfarm Ohlenhof Schafe, Miniziegen, Schweine, Kaninchen, Pferde, Ponys und Esel. Hühner und Laufenten ziehen tagsüber frei über das Gelände. Die drei Schweine kamen aus einer Nothilfe, zwei Schafe gehören zur seltenen Rasse der Rauwolligen Pommerschen Landschafe. Die Miniziegen klettern auf einem eigenen Ziegenspielplatz. Ein Sinnesgarten mit Barfußpfad wächst Monat für Monat weiter, daneben stehen Hochbeete, Kräutergärten und ein Gewächshaus. Weidentipis, Insektenhotels, Blühwiesen und eine Streuobstwiese bieten Verstecke für Kinder und Wildtiere.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "AfJ Jugendhilfe",
+ "region": "Oslebshausen, Gröpelingen, Bremen",
+ "anreise": "Navi: Maria-Krüger-Straße 90, 28239 Bremen. Parkplatz rund 200 m nördlich der Farm.",
+ "startName": "Erlebnisfarm Ohlenhof, Hofgelände",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Haushuhn",
+  "Hauskaninchen",
+  "Graureiher",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen",
+  "Kohlmeise",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Kultur-Apfel",
+  "Schwarzer Holunder"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "barfusspfad"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 32,
+ "form": "flaeche",
+ "website": "https://afj-jugendhilfe.de/erlebnisfarm-ohlenhof",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Mo–Fr 9–19 Uhr, am letzten Samstag im Monat 12–16 Uhr. Offenes Spiel täglich 15–18 Uhr, gemeinsame Fütterungsrunde täglich 17–17:45 Uhr (ab 6 Jahren)",
+ "besuchshinweise": "Tiere nicht füttern und nicht hochheben, Gehege nur mit dem Farm-Team betreten. Gehegetiere nur streicheln, wenn sie von selbst an den Zaun kommen. Backhaus und Multifunktionsraum lassen sich für Gruppen kostenlos buchen. Das Gelände wird videoüberwacht.",
+ "area": [
+  [
+   53.13133,
+   8.752127
+  ],
+  [
+   53.131161,
+   8.7519
+  ],
+  [
+   53.131053,
+   8.751914
+  ],
+  [
+   53.130994,
+   8.7518
+  ],
+  [
+   53.130874,
+   8.751682
+  ],
+  [
+   53.130787,
+   8.751828
+  ],
+  [
+   53.130758,
+   8.752026
+  ],
+  [
+   53.130587,
+   8.75184
+  ],
+  [
+   53.130503,
+   8.751374
+  ],
+  [
+   53.130609,
+   8.751496
+  ],
+  [
+   53.13077,
+   8.751429
+  ],
+  [
+   53.131036,
+   8.751359
+  ],
+  [
+   53.131152,
+   8.750943
+  ],
+  [
+   53.131068,
+   8.750865
+  ],
+  [
+   53.131045,
+   8.750649
+  ],
+  [
+   53.131186,
+   8.750244
+  ],
+  [
+   53.131452,
+   8.750494
+  ],
+  [
+   53.131304,
+   8.750919
+  ],
+  [
+   53.131517,
+   8.751117
+  ],
+  [
+   53.131643,
+   8.751235
+  ],
+  [
+   53.131774,
+   8.751267
+  ],
+  [
+   53.1316,
+   8.751603
+  ],
+  [
+   53.13133,
+   8.752127
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 54396842,
+   "lat": 53.131267,
+   "lon": 8.750673,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Reitplatz und Offenstall",
+   "thema": "Pferde, Ponys und Esel",
+   "kurztext": "Vier Pferde und Ponys teilen sich mit den Eseln Emil und Remus einen Offenstall mit Zugang zu Reitplatz und Weide.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 291476356,
+   "lat": 53.130953,
+   "lon": 8.750636,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Garten am Hof",
+   "thema": "Kräuter, Gemüse und Blumen",
+   "kurztext": "Blumen und Kräuter wachsen in Beeten, Gemüse in Hochbeeten, Setzlinge ziehen im Gewächshaus und im Anzuchthaus heran.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 200510182,
+   "lat": 53.131004,
+   "lon": 8.751936,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Spielplatz",
+   "thema": "Spielen zwischen den Gehegen",
+   "kurztext": "Wochentags von 9 bis 19 Uhr steht der Spielplatz der Farm allen Besuchenden offen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 200510182,
+   "lat": 53.131004,
+   "lon": 8.751936,
+   "kategorie": "playground",
+   "name": "Spielplatz Erlebnisfarm"
+  },
+  {
+   "osmId": 1332455824,
+   "lat": 53.132952,
+   "lon": 8.751805,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Graureiher": "belegt",
+  "Honigbiene": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Schwarzer Holunder": "typisch"
+ }
+}

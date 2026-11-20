@@ -1,0 +1,193 @@
+{
+ "id": "kinderbauernhof-fort-robinson",
+ "name": "Abenteuerspielplatz Fort Robinson",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Betreuter Abenteuerspielplatz am Rand der Falkenberger Krugwiesen. Kinder von 6 bis 14 klettern, bauen und kümmern sich um zwei Fjordpferde.",
+ "beschreibung": "Fort Robinson liegt in Neu-Hohenschönhausen am Rand des Landschaftsschutzgebiets Falkenberger Krugwiesen. Auf dem betreuten Abenteuerspielplatz stehen Kletter- und Spielgeräte aus Holz. Im Mittelpunkt stehen zwei Fjordpferde. Kinder lernen hier, ein Pferd zu striegeln, zu füttern und respektvoll mit ihm umzugehen. Zum Programm gehören auch Reiten und Stockbrot am Lagerfeuer. Gleich nebenan informiert das Umweltbüro Lichtenberg über Natur- und Klimaschutz. Hinter dem Platz beginnen die Krugwiesen mit Wiesen, Sträuchern und dem Hohenschönhauser See.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kietz für Kids Kinderbetreuung gGmbH",
+ "region": "Neu-Hohenschönhausen, Bezirk Lichtenberg, Berlin",
+ "anreise": "Wartiner Straße 79, 13057 Berlin; Bus 154, 294, X54 bis Vincent-van-Gogh-Str. (ca. 400 m, laut berlin.de).",
+ "startName": "Fort Robinson, Wartiner Straße 79",
+ "arten": [
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Schwarzer Holunder",
+  "Eingriffeliger Weißdorn",
+  "Amsel",
+  "Rotkehlchen",
+  "Kohlmeise",
+  "Blaumeise",
+  "Honigbiene",
+  "Hummel",
+  "Igel",
+  "Tagpfauenauge"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 40,
+ "form": "flaeche",
+ "website": "https://www.kietzfuerkids.de/fort-robinson",
+ "eintrittPreise": "kostenlos; Gruppenangebote 1–4 € pro Kind",
+ "oeffnungszeiten": "Di–Fr 13–19 Uhr, Sa 10–17 Uhr; in den Ferien Di–Fr 10–19 Uhr; So und Mo geschlossen. Gruppen nach Anmeldung Mo–Fr 10–13 Uhr.",
+ "besuchshinweise": "Betreuter Platz für Kinder von 6 bis 14 Jahren, das offene Angebot ist kostenlos. Die Pferde-AG läuft als feste Gruppe mit Anmeldung. Gruppen und Kindergeburtstage nur nach Absprache und gegen Gebühr.",
+ "area": [
+  [
+   52.564512,
+   13.52994
+  ],
+  [
+   52.564179,
+   13.530368
+  ],
+  [
+   52.564359,
+   13.530768
+  ],
+  [
+   52.564167,
+   13.531018
+  ],
+  [
+   52.563977,
+   13.530627
+  ],
+  [
+   52.563741,
+   13.530919
+  ],
+  [
+   52.563499,
+   13.530354
+  ],
+  [
+   52.56343,
+   13.530103
+  ],
+  [
+   52.563616,
+   13.529713
+  ],
+  [
+   52.563908,
+   13.529757
+  ],
+  [
+   52.564204,
+   13.529819
+  ],
+  [
+   52.564362,
+   13.529931
+  ],
+  [
+   52.564302,
+   13.530007
+  ],
+  [
+   52.564427,
+   13.529895
+  ],
+  [
+   52.564512,
+   13.52994
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 489326120,
+   "lat": 52.564114,
+   "lon": 13.53017,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Abenteuerspielplatz",
+   "thema": "Spielen und Pferde",
+   "kurztext": "Auf dem betreuten Platz stehen Kletter- und Spielgeräte aus Holz, dazu kommen zwei Fjordpferde, um die sich die Kinder gemeinsam kümmern.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1095834971,
+   "lat": 52.564026,
+   "lon": 13.531047,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spielplatz am Krugwiesensteig",
+   "thema": "Spielen",
+   "kurztext": "Östlich grenzt ein öffentlicher Spielplatz in einer geschützten Grünanlage an.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 176050298,
+   "lat": 52.563946,
+   "lon": 13.531353,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Krugwiesensteig",
+   "thema": "Krugwiesen",
+   "kurztext": "Der Krugwiesensteig gehört zum Grünen Hauptweg Lindenberger Korridor und führt in das Landschaftsschutzgebiet Falkenberger Krugwiesen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 278905040,
+   "lat": 52.564268,
+   "lon": 13.531486,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Umweltbüro Lichtenberg",
+   "thema": "Umwelt",
+   "kurztext": "Im Haus des Umweltbüros informiert der Bezirk über Umwelt-, Natur- und Klimaschutz und über Artenvielfalt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1095834971,
+   "lat": 52.564026,
+   "lon": 13.531047,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 10035801519,
+   "lat": 52.563819,
+   "lon": 13.531192,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1328822873,
+   "lat": 52.564881,
+   "lon": 13.530148,
+   "kategorie": "parking",
+   "name": "Wartiner Straße"
+  }
+ ],
+ "artenNachweis": {
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Honigbiene": "typisch",
+  "Hummel": "typisch",
+  "Igel": "typisch",
+  "Tagpfauenauge": "typisch"
+ }
+}

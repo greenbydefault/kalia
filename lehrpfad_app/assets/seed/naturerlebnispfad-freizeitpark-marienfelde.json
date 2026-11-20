@@ -1,0 +1,634 @@
+{
+ "id": "naturerlebnispfad-freizeitpark-marienfelde",
+ "name": "Naturerlebnispfad Freizeitpark Marienfelde",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Vom Alpengipfel, einem Müllberg der alten Deponie, reicht der Blick über Berlin. Unten laichen Wechselkröten und Kammmolche in kleinen Teichen.",
+ "beschreibung": "Unter dem Freizeitpark Marienfelde liegen mehr als vier Millionen Kubikmeter Müll und Bauschutt, aufgeschüttet von 1950 bis 1981. Noch immer zersetzt sich der Kern, das Deponiegas wird abgesaugt und verbrannt. Darüber ist ein Lebensraum entstanden. Im Folienteich wächst der Gemeine Wasserschlauch, eine fleischfressende Pflanze, die im übrigen Berlin vom Aussterben bedroht ist. Am Wechselkrötenteich leben Kammmolch und Moorfrosch, im Schilf brüten Teichrohrsänger. Heidschnucken und Moorschnucken halten die Magerrasen offen.",
+ "laengeKm": 1.27,
+ "dauerMin": 55,
+ "rundkurs": true,
+ "markierung": "keine Markierung",
+ "betreiber": "Bezirksamt Tempelhof-Schöneberg, Umwelt- und Naturschutzamt",
+ "region": "Marienfelde, Tempelhof-Schöneberg, Berlin",
+ "anreise": "Freizeitpark Marienfelde, Diedersdorfer Weg, 12277 Berlin. Der Rundweg beginnt im Norden des Parks am Folienteich, der Parkplatz am Nordrand liegt rund 110 m entfernt.",
+ "startName": "Folienteich, Nordseite des Parks",
+ "arten": [
+  "Zauneidechse",
+  "Ringelnatter",
+  "Moorfrosch",
+  "Kammmolch",
+  "Libelle",
+  "Goldammer",
+  "Neuntöter",
+  "Pirol",
+  "Schaf",
+  "Feldhase",
+  "Zwergfledermaus",
+  "Wildschwein",
+  "Weiße Seerose",
+  "Gelbe Teichrose",
+  "Sanddorn",
+  "Schilf"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "trockenrasen"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 131,
+ "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/naturschutz/artikel.362304.php",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Der Park ist jederzeit frei zugänglich. Die Naturschutzstation am Diedersdorfer Weg ist von April bis Oktober an jedem ersten Sonntag im Monat von 12 bis 18 Uhr geöffnet.",
+ "besuchshinweise": "Der Stichweg auf den Alpengipfel ist nicht barrierefrei und wird hin und zurück gegangen. Grillen ist im Park nicht erlaubt.",
+ "route": [
+  [
+   52.4043469,
+   13.3621949
+  ],
+  [
+   52.4043104,
+   13.3621851
+  ],
+  [
+   52.4042738,
+   13.3621907
+  ],
+  [
+   52.404206,
+   13.3622561
+  ],
+  [
+   52.4041526,
+   13.3622269
+  ],
+  [
+   52.4040913,
+   13.3621989
+  ],
+  [
+   52.404024,
+   13.36217
+  ],
+  [
+   52.403919,
+   13.3621532
+  ],
+  [
+   52.403732,
+   13.3621401
+  ],
+  [
+   52.4037007,
+   13.3621275
+  ],
+  [
+   52.4036526,
+   13.3620989
+  ],
+  [
+   52.4036009,
+   13.3620742
+  ],
+  [
+   52.4035013,
+   13.3620024
+  ],
+  [
+   52.4033799,
+   13.3619532
+  ],
+  [
+   52.4031688,
+   13.3619452
+  ],
+  [
+   52.4030976,
+   13.3619654
+  ],
+  [
+   52.4030295,
+   13.3620179
+  ],
+  [
+   52.4029232,
+   13.3620922
+  ],
+  [
+   52.4027804,
+   13.3621503
+  ],
+  [
+   52.4026663,
+   13.3621739
+  ],
+  [
+   52.4025272,
+   13.3621566
+  ],
+  [
+   52.4023236,
+   13.3621065
+  ],
+  [
+   52.4022178,
+   13.3621175
+  ],
+  [
+   52.4021353,
+   13.3621204
+  ],
+  [
+   52.4020599,
+   13.3621921
+  ],
+  [
+   52.4020178,
+   13.3622796
+  ],
+  [
+   52.4019792,
+   13.3625307
+  ],
+  [
+   52.4019597,
+   13.3627277
+  ],
+  [
+   52.4019486,
+   13.3629177
+  ],
+  [
+   52.4019498,
+   13.3630885
+  ],
+  [
+   52.4019677,
+   13.3635117
+  ],
+  [
+   52.4019822,
+   13.3636986
+  ],
+  [
+   52.4019883,
+   13.3638885
+  ],
+  [
+   52.4019848,
+   13.3639979
+  ],
+  [
+   52.4019779,
+   13.3641131
+  ],
+  [
+   52.4019426,
+   13.364495
+  ],
+  [
+   52.4019136,
+   13.3648313
+  ],
+  [
+   52.4018934,
+   13.3649836
+  ],
+  [
+   52.401962,
+   13.365058
+  ],
+  [
+   52.4020115,
+   13.3651116
+  ],
+  [
+   52.4020514,
+   13.3651706
+  ],
+  [
+   52.4020623,
+   13.3652286
+  ],
+  [
+   52.4020585,
+   13.3652892
+  ],
+  [
+   52.4020435,
+   13.3653419
+  ],
+  [
+   52.4020125,
+   13.3654036
+  ],
+  [
+   52.4019657,
+   13.3654733
+  ],
+  [
+   52.4018478,
+   13.366042
+  ],
+  [
+   52.4017772,
+   13.3662951
+  ],
+  [
+   52.4017527,
+   13.366345
+  ],
+  [
+   52.4017237,
+   13.3663911
+  ],
+  [
+   52.4016901,
+   13.3664528
+  ],
+  [
+   52.4016598,
+   13.3665382
+  ],
+  [
+   52.4016546,
+   13.3666259
+  ],
+  [
+   52.4016481,
+   13.3667794
+  ],
+  [
+   52.4016602,
+   13.3668765
+  ],
+  [
+   52.4016639,
+   13.3669119
+  ],
+  [
+   52.4016866,
+   13.3669483
+  ],
+  [
+   52.4016894,
+   13.3669617
+  ],
+  [
+   52.4016989,
+   13.3669616
+  ],
+  [
+   52.401702,
+   13.3669528
+  ],
+  [
+   52.4016989,
+   13.3669616
+  ],
+  [
+   52.4016894,
+   13.3669617
+  ],
+  [
+   52.4016866,
+   13.3669483
+  ],
+  [
+   52.4016639,
+   13.3669119
+  ],
+  [
+   52.4016602,
+   13.3668765
+  ],
+  [
+   52.4016481,
+   13.3667794
+  ],
+  [
+   52.4016546,
+   13.3666259
+  ],
+  [
+   52.4016598,
+   13.3665382
+  ],
+  [
+   52.4016901,
+   13.3664528
+  ],
+  [
+   52.4017237,
+   13.3663911
+  ],
+  [
+   52.4017527,
+   13.366345
+  ],
+  [
+   52.4017772,
+   13.3662951
+  ],
+  [
+   52.4018478,
+   13.366042
+  ],
+  [
+   52.4019657,
+   13.3654733
+  ],
+  [
+   52.4020125,
+   13.3654036
+  ],
+  [
+   52.4020435,
+   13.3653419
+  ],
+  [
+   52.4020585,
+   13.3652892
+  ],
+  [
+   52.4020623,
+   13.3652286
+  ],
+  [
+   52.4020514,
+   13.3651706
+  ],
+  [
+   52.4021629,
+   13.3652952
+  ],
+  [
+   52.402248,
+   13.3653807
+  ],
+  [
+   52.4023281,
+   13.3654671
+  ],
+  [
+   52.4023984,
+   13.3655548
+  ],
+  [
+   52.4024663,
+   13.365659
+  ],
+  [
+   52.4025435,
+   13.365802
+  ],
+  [
+   52.4026149,
+   13.3659068
+  ],
+  [
+   52.4027277,
+   13.3660414
+  ],
+  [
+   52.4028245,
+   13.3661438
+  ],
+  [
+   52.4030228,
+   13.3663088
+  ],
+  [
+   52.4032274,
+   13.3664766
+  ],
+  [
+   52.4032934,
+   13.3665134
+  ],
+  [
+   52.403321,
+   13.3665175
+  ],
+  [
+   52.4033578,
+   13.366523
+  ],
+  [
+   52.4034134,
+   13.3665314
+  ],
+  [
+   52.4034968,
+   13.366544
+  ],
+  [
+   52.4035637,
+   13.3661338
+  ],
+  [
+   52.4035881,
+   13.3659768
+  ],
+  [
+   52.4036324,
+   13.3657956
+  ],
+  [
+   52.4037046,
+   13.3654064
+  ],
+  [
+   52.4037429,
+   13.3650211
+  ],
+  [
+   52.4037591,
+   13.36466
+  ],
+  [
+   52.403747,
+   13.3641594
+  ],
+  [
+   52.4037294,
+   13.3637901
+  ],
+  [
+   52.4037259,
+   13.3636235
+  ],
+  [
+   52.4037324,
+   13.3634599
+  ],
+  [
+   52.4037466,
+   13.3633554
+  ],
+  [
+   52.4037746,
+   13.363226
+  ],
+  [
+   52.4038213,
+   13.3630459
+  ],
+  [
+   52.4038625,
+   13.3629337
+  ],
+  [
+   52.4038972,
+   13.3628635
+  ],
+  [
+   52.4040297,
+   13.3625694
+  ],
+  [
+   52.4041542,
+   13.3623415
+  ],
+  [
+   52.404206,
+   13.3622561
+  ],
+  [
+   52.4042738,
+   13.3621907
+  ],
+  [
+   52.4043104,
+   13.3621851
+  ],
+  [
+   52.4043469,
+   13.3621949
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -652733492,
+   "lat": 52.40391,
+   "lon": 13.36211,
+   "km": 0.051,
+   "reihenfolge": 1,
+   "titel": "Der Folienteich",
+   "thema": "Amphibienlaichgewässer",
+   "kurztext": "Der Folienteich ist ein künstlich angelegtes Flachgewässer, an dem Kröten, Molche, Libellen und die Ringelnatter vorkommen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2003421520,
+   "lat": 52.40259,
+   "lon": 13.36192,
+   "km": 0.203,
+   "reihenfolge": 2,
+   "titel": "Licht und Schatten",
+   "thema": "Schattenteich",
+   "kurztext": "Am Schattenteich geht es um Licht und Schatten, Rohrkolben und Wasserlinsen stehen am Ufer.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -893697974,
+   "lat": 52.4017,
+   "lon": 13.36696,
+   "km": 0.614,
+   "reihenfolge": 3,
+   "titel": "Der Alpengipfel",
+   "thema": "Aussicht",
+   "kurztext": "Vom höchsten Punkt des Parks, einem Müllberg der Deponie von 1950 bis 1981, reicht der Blick über Berlin.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9026944197,
+   "lat": 52.4021373,
+   "lon": 13.3652183,
+   "km": 0.761,
+   "reihenfolge": 4,
+   "titel": "Andere Wege gehen",
+   "thema": "Wiesenweg, Naturguckerpfad, Wahrnehmungspfad",
+   "kurztext": "Wiesenweg, Naturguckerpfad und Wahrnehmungspfad gehen hier auseinander; der Wahrnehmungspfad hat Balancierpfad, Steinlandschaft und Tierweitsprung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9026959491,
+   "lat": 52.4035782,
+   "lon": 13.3658456,
+   "km": 0.989,
+   "reihenfolge": 5,
+   "titel": "Lebensräume am Stillgewässer",
+   "thema": "Uferzonen am Wechselkrötenteich",
+   "kurztext": "Das Ufer des Wechselkrötenteichs gliedert sich in Bruchwald-, Röhricht-, Schwimmblatt- und Tauchblattzone, in denen Goldammer, Teichrohrsänger und Rohrammer leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1168857863,
+   "lat": 52.40347,
+   "lon": 13.36482,
+   "km": 1.06,
+   "reihenfolge": 6,
+   "titel": "Der Wechselkrötenteich",
+   "thema": "Stillgewässer",
+   "kurztext": "Im Wechselkrötenteich leben Wechselkröte, Moorfrosch, Knoblauchkröte und Kammmolch, auch die Ringelnatter ist hier zu Hause.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 9026936271,
+   "lat": 52.4017,
+   "lon": 13.36696,
+   "kategorie": "viewpoint",
+   "name": "Alpengipfel"
+  },
+  {
+   "osmId": 27475120,
+   "lat": 52.40448,
+   "lon": 13.36366,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 946014053,
+   "lat": 52.4035076,
+   "lon": 13.3635299,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 1270299032,
+   "lat": 52.4022041,
+   "lon": 13.3637084,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 936805796,
+   "lat": 52.403863,
+   "lon": 13.3619147,
+   "kategorie": "bench",
+   "name": "Bänke am Folienteich"
+  },
+  {
+   "osmId": 1270299143,
+   "lat": 52.4017026,
+   "lon": 13.3661474,
+   "kategorie": "bench",
+   "name": "Bänke am Alpengipfel"
+  }
+ ]
+}

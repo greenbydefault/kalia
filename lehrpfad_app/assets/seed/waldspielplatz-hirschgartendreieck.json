@@ -1,0 +1,141 @@
+{
+ "id": "waldspielplatz-hirschgartendreieck",
+ "name": "Waldspielplatz Hirschgartendreieck",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Ein Düsenjet und ein Automobil aus Holz stehen auf einer Wiese mitten im Hirschgartendreieck in Friedrichshagen. Birken umrahmen den kleinen Platz.",
+ "beschreibung": "Mitten im Waldstück Hirschgartendreieck öffnet sich eine Wiese, auf der ein Düsenjet und ein Automobil aus Holz zum Klettern stehen. Birken säumen den kleinen Platz, der 2025 grundlegend saniert wurde. Die Nestschaukel trägt zum Schwingen oder Ausruhen, die Wippe braucht zwei. Ein Balancierparcours prüft das Geschick, in einen Tisch ist ein Schachbrett graviert. Die Wiese lädt zum Rennen ein und hinterlässt Grasflecken. Zu Fuß erreichbar ist die Badestelle an der Müggelspree, auch „Kameruner“ genannt.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Friedrichshagen, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Tram 61 bis Wassersportzentrum, dann etwa 100 m Richtung Bölschestraße. Von einer kleinen Lichtung im Hirschgartendreieck führt der Weg zum Spielplatz mitten im Waldstück.",
+ "startName": "Waldspielplatz Hirschgartendreieck",
+ "arten": [
+  "Hängebirke",
+  "Stieleiche",
+  "Hainbuche",
+  "Winterlinde",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Kleiber",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 85,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/hirschgartendreieck/",
+ "besuchshinweise": "Die Sitzplätze haben kein Dach, bei Regen gibt es hier keinen Schutz.",
+ "area": [
+  [
+   52.450916,
+   13.611182
+  ],
+  [
+   52.450735,
+   13.611175
+  ],
+  [
+   52.450736,
+   13.610834
+  ],
+  [
+   52.450963,
+   13.61093
+  ],
+  [
+   52.450916,
+   13.611182
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1184924765,
+   "lat": 52.4509,
+   "lon": 13.611035,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Nestschaukel",
+   "thema": "Schaukeln",
+   "kurztext": "In der runden Nestschaukel schwingen mehrere Kinder zugleich oder ruhen sich aus.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1184924764,
+   "lat": 52.450801,
+   "lon": 13.611125,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Wippe",
+   "thema": "Spielplatzklassiker",
+   "kurztext": "Auf der Holzwippe geht es zu zweit auf und ab.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7141011488,
+   "lat": 52.450678,
+   "lon": 13.611007,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Schachbrett",
+   "thema": "Spiel am Tisch",
+   "kurztext": "In die Platte des Picknicktisches ist ein Schachbrett graviert.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1184924763,
+   "lat": 52.450837,
+   "lon": 13.61103,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Hirschgartendreieck"
+  },
+  {
+   "osmId": 7141011488,
+   "lat": 52.450678,
+   "lon": 13.611007,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 7141007696,
+   "lat": 52.451259,
+   "lon": 13.609758,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 7140985623,
+   "lat": 52.451538,
+   "lon": 13.612251,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Hängebirke": "typisch",
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Winterlinde": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kleiber": "typisch",
+  "Eichhörnchen": "typisch"
+ }
+}

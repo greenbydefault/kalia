@@ -1,0 +1,188 @@
+{
+ "id": "naturhof-malchow",
+ "name": "Naturhof Malchow mit Erlebnisgarten",
+ "typ": "sinnespfad",
+ "kurzbeschreibung": "Auf dem Schornstein hinter der Remise brüten seit den 1970er-Jahren wieder Weißstörche. Eine Kamera am Nest überträgt das Brutgeschehen in den alten Stall.",
+ "beschreibung": "Seit 1971 sind auf dem Naturhof Malchow mehr als 100 junge Störche geschlüpft. Der märkische Dreiseitenhof stammt aus dem 19. Jahrhundert, Scheune, Stall und Remise zeigen wieder ihre Klinkerfassaden. In der Naturscheune hängen heimische Schmetterlinge, das Aquarium zeigt die meisten heimischen Süßwasserfische. Hinter der Scheune beginnt ein Garten mit Kräuterspirale, Insektenhotel, Schmetterlingshaus und Obstbäumen. Kräuter und essbare Blüten dürfen probiert werden, auf einem schwingenden Holzbarren wird balanciert. Ganz hinten liegt der Teich mit dem zweiten Storchennest.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Naturschutz Berlin-Malchow e. V.",
+ "region": "Malchow, Bezirk Lichtenberg, Berlin",
+ "anreise": "Dorfstraße 35, 13051 Berlin; Bus 154 und 259 bis Malchow/Dorfstraße.",
+ "startName": "Naturhof Malchow, Dorfstraße 35",
+ "arten": [
+  "Weißstorch",
+  "Teichfrosch",
+  "Hornisse",
+  "Zitronenfalter",
+  "Schwalbenschwanz",
+  "Honigbiene",
+  "Kultur-Apfel",
+  "Schwarzer Holunder",
+  "Heckenrose",
+  "Schilf",
+  "Erdkröte",
+  "Kohlmeise",
+  "Amsel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 56,
+ "form": "flaeche",
+ "website": "https://naturschutz-malchow.de/index.php/entdecken/naturhof-malchow",
+ "oeffnungszeiten": "Di–Do 10–17 Uhr, Fr/Sa 10–18 Uhr; So, Mo und an gesetzlichen Feiertagen geschlossen.",
+ "besuchshinweise": "Einzelbesucher kommen ohne Anmeldung, Gruppen melden sich telefonisch an. Die Störche kehren im Frühjahr zurück, ab Mai füttern sie ihre Jungen.",
+ "area": [
+  [
+   52.578688,
+   13.480126
+  ],
+  [
+   52.578972,
+   13.481965
+  ],
+  [
+   52.579,
+   13.482153
+  ],
+  [
+   52.579025,
+   13.482315
+  ],
+  [
+   52.579062,
+   13.482544
+  ],
+  [
+   52.579472,
+   13.482437
+  ],
+  [
+   52.579211,
+   13.480003
+  ],
+  [
+   52.578688,
+   13.480126
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 424572048,
+   "lat": 52.579119,
+   "lon": 13.481758,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Naturscheune",
+   "thema": "Ausstellung",
+   "kurztext": "In der Naturscheune hängen heimische Schmetterlinge, im Aquarium schwimmen die meisten heimischen Süßwasserfische.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 256917734,
+   "lat": 52.579319,
+   "lon": 13.48199,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Alter Stall",
+   "thema": "Storchenkamera",
+   "kurztext": "Im Kappensaal des alten Stalls läuft das Bild der Kamera am Storchennest, Brut und Fütterung sind live zu sehen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 256917738,
+   "lat": 52.579032,
+   "lon": 13.482119,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Storchennest an der Remise",
+   "thema": "Weißstorch",
+   "kurztext": "Auf dem Schornstein hinter der Remise brüten Weißstörche, seit 1971 sind hier mehr als 100 Jungstörche geschlüpft.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2917958404,
+   "lat": 52.579071,
+   "lon": 13.481219,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Sinnesgarten",
+   "thema": "Garten",
+   "kurztext": "Kräuterspirale, Insektenhotel und Schmetterlingshaus stehen im Garten, Kräuter und essbare Blüten dürfen probiert werden.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 424572044,
+   "lat": 52.579045,
+   "lon": 13.480137,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Teich",
+   "thema": "Wasser",
+   "kurztext": "Am Teich ganz hinten auf dem Gelände rufen Teichfrösche, nebenan steht das zweite Storchennest.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4239735855,
+   "lat": 52.579143,
+   "lon": 13.481705,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 4239735862,
+   "lat": 52.579245,
+   "lon": 13.481536,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 4239735865,
+   "lat": 52.579309,
+   "lon": 13.481514,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 4239735839,
+   "lat": 52.57889,
+   "lon": 13.480811,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 2917958404,
+   "lat": 52.579071,
+   "lon": 13.481219,
+   "kategorie": "playground"
+  }
+ ],
+ "artenNachweis": {
+  "Weißstorch": "belegt",
+  "Teichfrosch": "belegt",
+  "Hornisse": "belegt",
+  "Zitronenfalter": "belegt",
+  "Schwalbenschwanz": "belegt",
+  "Honigbiene": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Heckenrose": "typisch",
+  "Schilf": "typisch",
+  "Erdkröte": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch"
+ }
+}

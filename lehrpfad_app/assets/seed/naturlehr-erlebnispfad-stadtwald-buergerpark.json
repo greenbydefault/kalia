@@ -1,0 +1,904 @@
+{
+ "id": "naturlehr-erlebnispfad-stadtwald-buergerpark",
+ "name": "Naturlehr- und Erlebnispfad im Stadtwald (Bürgerpark Bremen)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Durch den Bremer Stadtwald führen 15 Tafeln und drei weitere Anlaufpunkte zu Wasser, Bäumen und Tieren. Dazu kommen Steg, Baumtelefon und Fußfühlpfad.",
+ "beschreibung": "Seit 1999 führt der Naturlehr- und Erlebnispfad durch den Bremer Stadtwald. Tafeln zu Pflanzen, Tieren und ihren Lebensräumen laden zum Ausprobieren ein. Vom Steg aus zeigt eine Lupe kleine Wasserlebewesen im Stadtwaldgraben. Eine Baumscheibe verrät Jahreszahlen, am Baumtelefon und an einem Klanginstrument aus Holz wird gelauscht. Auf dem Fußfühlpfad tasten nackte Füße den Boden ab. Rätsel zu Marderspuren im Schnee oder zu Löchern in den Bäumen lösen sich an späteren Tafeln auf.",
+ "laengeKm": 3,
+ "dauerMin": 150,
+ "rundkurs": true,
+ "markierung": "Entensymbol (Schnabel zeigt die Richtung)",
+ "betreiber": "Bürgerparkverein Bremen",
+ "region": "Stadtwald im Bürgerpark, Bremen",
+ "anreise": "Stadtwald im Bremer Bürgerpark; Übersichtstafel am Stadtwaldgraben nahe der Finnbahn. Kostenloser Parkplatz rund 50 m von der Übersichtstafel.",
+ "startName": "Naturlehrpfad, Übersichtstafel am Stadtwaldgraben",
+ "arten": [
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Schilf",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Buchfink",
+  "Eichelhäher",
+  "Stockente",
+  "Erdkröte",
+  "Teichfrosch"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "barfusspfad",
+  "picknick",
+  "spielplatz",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 154,
+ "website": "https://www.buergerpark-bremen.de/erleben/Naturlehr_Erlebnispfad.php",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "frei zugänglich",
+ "besuchshinweise": "Eine Abkürzung verkürzt den Weg auf 1,5 km. Führungen für Gruppen gibt es nach Absprache mit der Bürgerparkverwaltung, dort liegt auch eine Begleitbroschüre aus.",
+ "route": [
+  [
+   53.102694,
+   8.837771
+  ],
+  [
+   53.102671,
+   8.837434
+  ],
+  [
+   53.102669,
+   8.837247
+  ],
+  [
+   53.102729,
+   8.837265
+  ],
+  [
+   53.102669,
+   8.837247
+  ],
+  [
+   53.102693,
+   8.837102
+  ],
+  [
+   53.1027,
+   8.837058
+  ],
+  [
+   53.102726,
+   8.836742
+  ],
+  [
+   53.102802,
+   8.836413
+  ],
+  [
+   53.102934,
+   8.836047
+  ],
+  [
+   53.103028,
+   8.835877
+  ],
+  [
+   53.103161,
+   8.835726
+  ],
+  [
+   53.103486,
+   8.835449
+  ],
+  [
+   53.103696,
+   8.835279
+  ],
+  [
+   53.103912,
+   8.835056
+  ],
+  [
+   53.103999,
+   8.834937
+  ],
+  [
+   53.104516,
+   8.834237
+  ],
+  [
+   53.104868,
+   8.833793
+  ],
+  [
+   53.104975,
+   8.833675
+  ],
+  [
+   53.1051,
+   8.833591
+  ],
+  [
+   53.105068,
+   8.833545
+  ],
+  [
+   53.104911,
+   8.833315
+  ],
+  [
+   53.10472,
+   8.833069
+  ],
+  [
+   53.104537,
+   8.832793
+  ],
+  [
+   53.104266,
+   8.832414
+  ],
+  [
+   53.104077,
+   8.832151
+  ],
+  [
+   53.104086,
+   8.831568
+  ],
+  [
+   53.104113,
+   8.831537
+  ],
+  [
+   53.104185,
+   8.831371
+  ],
+  [
+   53.104543,
+   8.830299
+  ],
+  [
+   53.104908,
+   8.829209
+  ],
+  [
+   53.105099,
+   8.828687
+  ],
+  [
+   53.10526,
+   8.828422
+  ],
+  [
+   53.105402,
+   8.82827
+  ],
+  [
+   53.105271,
+   8.827946
+  ],
+  [
+   53.105402,
+   8.82827
+  ],
+  [
+   53.105547,
+   8.828147
+  ],
+  [
+   53.105704,
+   8.828033
+  ],
+  [
+   53.105846,
+   8.828147
+  ],
+  [
+   53.106142,
+   8.828345
+  ],
+  [
+   53.106359,
+   8.828442
+  ],
+  [
+   53.106531,
+   8.827698
+  ],
+  [
+   53.106645,
+   8.827096
+  ],
+  [
+   53.106654,
+   8.827053
+  ],
+  [
+   53.106739,
+   8.826561
+  ],
+  [
+   53.106747,
+   8.826518
+  ],
+  [
+   53.10682,
+   8.825876
+  ],
+  [
+   53.106862,
+   8.825167
+  ],
+  [
+   53.106886,
+   8.82431
+  ],
+  [
+   53.107399,
+   8.824671
+  ],
+  [
+   53.107647,
+   8.824845
+  ],
+  [
+   53.107778,
+   8.824987
+  ],
+  [
+   53.107927,
+   8.825203
+  ],
+  [
+   53.108056,
+   8.825522
+  ],
+  [
+   53.108141,
+   8.825863
+  ],
+  [
+   53.108172,
+   8.82658
+  ],
+  [
+   53.108192,
+   8.827606
+  ],
+  [
+   53.108199,
+   8.827902
+  ],
+  [
+   53.108233,
+   8.828763
+  ],
+  [
+   53.108312,
+   8.83086
+  ],
+  [
+   53.108309,
+   8.831011
+  ],
+  [
+   53.108302,
+   8.831173
+  ],
+  [
+   53.108251,
+   8.831425
+  ],
+  [
+   53.108171,
+   8.831831
+  ],
+  [
+   53.108148,
+   8.83196
+  ],
+  [
+   53.107982,
+   8.832598
+  ],
+  [
+   53.107641,
+   8.832522
+  ],
+  [
+   53.10741,
+   8.832484
+  ],
+  [
+   53.107301,
+   8.832466
+  ],
+  [
+   53.107083,
+   8.832468
+  ],
+  [
+   53.10687,
+   8.832495
+  ],
+  [
+   53.106556,
+   8.832572
+  ],
+  [
+   53.106563,
+   8.832801
+  ],
+  [
+   53.106545,
+   8.833358
+  ],
+  [
+   53.106507,
+   8.833592
+  ],
+  [
+   53.106352,
+   8.834197
+  ],
+  [
+   53.106263,
+   8.834516
+  ],
+  [
+   53.106159,
+   8.83484
+  ],
+  [
+   53.106005,
+   8.835133
+  ],
+  [
+   53.105837,
+   8.835345
+  ],
+  [
+   53.105662,
+   8.835714
+  ],
+  [
+   53.105624,
+   8.835922
+  ],
+  [
+   53.105613,
+   8.836064
+  ],
+  [
+   53.10562,
+   8.836182
+  ],
+  [
+   53.105638,
+   8.836287
+  ],
+  [
+   53.105653,
+   8.836332
+  ],
+  [
+   53.10569,
+   8.836443
+  ],
+  [
+   53.105734,
+   8.836514
+  ],
+  [
+   53.105792,
+   8.836563
+  ],
+  [
+   53.105848,
+   8.836582
+  ],
+  [
+   53.105917,
+   8.836564
+  ],
+  [
+   53.10598,
+   8.836499
+  ],
+  [
+   53.106046,
+   8.836368
+  ],
+  [
+   53.106189,
+   8.836273
+  ],
+  [
+   53.106253,
+   8.836297
+  ],
+  [
+   53.106313,
+   8.83636
+  ],
+  [
+   53.10636,
+   8.836484
+  ],
+  [
+   53.106384,
+   8.836612
+  ],
+  [
+   53.106387,
+   8.83681
+  ],
+  [
+   53.106381,
+   8.837003
+  ],
+  [
+   53.106283,
+   8.837338
+  ],
+  [
+   53.106161,
+   8.837605
+  ],
+  [
+   53.106069,
+   8.837865
+  ],
+  [
+   53.106073,
+   8.838351
+  ],
+  [
+   53.106052,
+   8.838693
+  ],
+  [
+   53.106018,
+   8.838916
+  ],
+  [
+   53.105937,
+   8.839239
+  ],
+  [
+   53.105651,
+   8.839542
+  ],
+  [
+   53.105522,
+   8.83961
+  ],
+  [
+   53.105431,
+   8.839644
+  ],
+  [
+   53.105297,
+   8.839678
+  ],
+  [
+   53.105135,
+   8.839659
+  ],
+  [
+   53.104858,
+   8.839499
+  ],
+  [
+   53.104049,
+   8.838945
+  ],
+  [
+   53.103892,
+   8.838822
+  ],
+  [
+   53.104049,
+   8.838945
+  ],
+  [
+   53.104082,
+   8.838968
+  ],
+  [
+   53.104049,
+   8.838945
+  ],
+  [
+   53.103667,
+   8.838647
+  ],
+  [
+   53.102886,
+   8.838076
+  ],
+  [
+   53.102706,
+   8.837948
+  ],
+  [
+   53.102694,
+   8.837771
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 2344540423,
+   "lat": 53.102722,
+   "lon": 8.837767,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Übersichtstafel",
+   "thema": "Überblick",
+   "kurztext": "Plan und Übersicht des Pfads hängen am Stadtwaldgraben, ein Entensymbol zeigt mit dem Schnabel die Laufrichtung.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14306214469,
+   "lat": 53.102728,
+   "lon": 8.837284,
+   "km": 0.04,
+   "reihenfolge": 2,
+   "titel": "Ein Wassergraben: nur ein Graben mit Wasser?",
+   "thema": "Wasser",
+   "kurztext": "Von einem Steg aus lassen sich mit einer fest angebrachten Lupe kleine Wasserlebewesen im Stadtwaldgraben anschauen.",
+   "erlebnisse": [
+    "steg",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403121,
+   "lat": 53.103985,
+   "lon": 8.834907,
+   "km": 0.28,
+   "reihenfolge": 3,
+   "titel": "Was kann ein Baumstamm alles erzählen?",
+   "thema": "Bäume",
+   "kurztext": "Eine Baumscheibe verrät, wann zum Beispiel die erste Fußballweltmeisterschaft stattfand. Gleich daneben steht das Baumtelefon.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2359373264,
+   "lat": 53.105087,
+   "lon": 8.833512,
+   "km": 0.43,
+   "reihenfolge": 4,
+   "titel": "Klingt Holz immer gleich?",
+   "thema": "Holz",
+   "kurztext": "An einem Klanginstrument aus Holz lässt sich ausprobieren, ob verschiedene Hölzer unterschiedlich klingen.",
+   "erlebnisse": [
+    "mitmach-modell",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2359373265,
+   "lat": 53.104231,
+   "lon": 8.832487,
+   "km": 0.55,
+   "reihenfolge": 5,
+   "titel": "Unordnung oder wertvoller Lebensraum?",
+   "thema": "Lebensräume",
+   "kurztext": "Liegengelassene Äste und Laub wirken unordentlich, doch scheinbare Unordnung kann im Wald ein wertvoller Lebensraum sein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2352644106,
+   "lat": 53.104579,
+   "lon": 8.830332,
+   "km": 0.72,
+   "reihenfolge": 6,
+   "titel": "Stockwerke wie in einem Haus?",
+   "thema": "Wald",
+   "kurztext": "Ob der Wald Stockwerke hat wie ein Haus, fragt die Tafel zwischen hohen Bäumen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2393981767,
+   "lat": 53.105253,
+   "lon": 8.827969,
+   "km": 0.91,
+   "reihenfolge": 7,
+   "titel": "Wie lebt es sich in einem Teich?",
+   "thema": "Teich",
+   "kurztext": "Wie Tiere und Pflanzen im und am Wasser des Stadtwalds leben, zeigt die Tafel am Teich.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403142,
+   "lat": 53.106632,
+   "lon": 8.827089,
+   "km": 1.15,
+   "reihenfolge": 8,
+   "titel": "Heute schon Tiere beobachtet?",
+   "thema": "Tiere",
+   "kurztext": "Welche Spur im Schnee vom Marder stammt, wird hier aufgelöst. Von einem kleinen Beobachtungsstand aus lassen sich Tiere beobachten.",
+   "erlebnisse": [
+    "quiz",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403147,
+   "lat": 53.106774,
+   "lon": 8.826578,
+   "km": 1.18,
+   "reihenfolge": 9,
+   "titel": "Was tun Ameisen im Wald?",
+   "thema": "Insekten",
+   "kurztext": "Welche Aufgaben Ameisen im Wald erfüllen, erklärt diese Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2359373267,
+   "lat": 53.107386,
+   "lon": 8.824727,
+   "km": 1.4,
+   "reihenfolge": 10,
+   "titel": "Totholz: totes Holz?",
+   "thema": "Totholz",
+   "kurztext": "Wer in einem toten Baumstamm lebt, beantwortet die Tafel, der Stamm daneben lädt zum Nachschauen ein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 10858851480,
+   "lat": 53.108203,
+   "lon": 8.827607,
+   "km": 1.63,
+   "reihenfolge": 11,
+   "titel": "Ein neuer Lebensraum",
+   "thema": "Lebensräume",
+   "kurztext": "Ein neuer Lebensraum im Stadtwald und seine vielfältigen Aufgaben stehen an diesem Anlaufpunkt im Mittelpunkt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2393981766,
+   "lat": 53.108214,
+   "lon": 8.831405,
+   "km": 1.89,
+   "reihenfolge": 12,
+   "titel": "Kann man mit den Füßen sehen?",
+   "thema": "Sinne",
+   "kurztext": "Auf dem Fußfühlpfad lässt sich ausprobieren, ob man mit den Füßen sehen kann.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2393981728,
+   "lat": 53.107414,
+   "lon": 8.83244,
+   "km": 2.04,
+   "reihenfolge": 13,
+   "titel": "Abendsegler und Co.",
+   "thema": "Fledermäuse",
+   "kurztext": "Abendsegler und andere Fledermäuse sind Thema dieses Anlaufpunkts.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403125,
+   "lat": 53.106581,
+   "lon": 8.832836,
+   "km": 2.15,
+   "reihenfolge": 14,
+   "titel": "Eine Wiese: nur bunte Blumen?",
+   "thema": "Wiese",
+   "kurztext": "Ob eine Wiese nur aus bunten Blumen besteht oder mehr zu bieten hat, fragt diese Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403130,
+   "lat": 53.106129,
+   "lon": 8.834853,
+   "km": 2.3,
+   "reihenfolge": 15,
+   "titel": "Wie kommen die Löcher in den Baum?",
+   "thema": "Vögel",
+   "kurztext": "Welcher Vogel so laut im Stadtwald lacht und wer Löcher in die Bäume hackt, lösen die Rätsel hier auf.",
+   "erlebnisse": [
+    "quiz",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2359373262,
+   "lat": 53.105664,
+   "lon": 8.836322,
+   "km": 2.42,
+   "reihenfolge": 16,
+   "titel": "Amerikanische Bäume im Stadtwald?",
+   "thema": "Bäume",
+   "kurztext": "Bäume aus Amerika, die im Bremer Stadtwald wachsen, sind hier das Thema.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403134,
+   "lat": 53.106229,
+   "lon": 8.837323,
+   "km": 2.58,
+   "reihenfolge": 17,
+   "titel": "Wer schwimmt denn da?",
+   "thema": "Wasser",
+   "kurztext": "Wer im Wasser des Stadtwalds schwimmt, ist die Frage an dieser Tafel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2351403138,
+   "lat": 53.103897,
+   "lon": 8.838809,
+   "km": 2.96,
+   "reihenfolge": 18,
+   "titel": "Welcher Baum ist das?",
+   "thema": "Bäume",
+   "kurztext": "Verschiedene Bäume des Stadtwalds lassen sich hier erkennen und bestimmen.",
+   "erlebnisse": [
+    "bestimmung",
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2329927045,
+   "lat": 53.104087,
+   "lon": 8.838954,
+   "km": 2.98,
+   "reihenfolge": 19,
+   "titel": "Der Roland als Beute für Bienen?",
+   "thema": "Bienen",
+   "kurztext": "Der hölzerne Bienen-Roland ist eine Holzskulptur des Bremer Rolands und Anlaufpunkt zum Thema Bienen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 207463079,
+   "lat": 53.102743,
+   "lon": 8.837034,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 226286260,
+   "lat": 53.106382,
+   "lon": 8.82854,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 8308551387,
+   "lat": 53.106822,
+   "lon": 8.826898,
+   "kategorie": "viewpoint",
+   "name": "Aussichtsplattform am Naturlehrpfad"
+  },
+  {
+   "osmId": 1239317918,
+   "lat": 53.108027,
+   "lon": 8.831868,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 123755661,
+   "lat": 53.107844,
+   "lon": 8.831286,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 2794978707,
+   "lat": 53.108691,
+   "lon": 8.832324,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 44612695,
+   "lat": 53.106671,
+   "lon": 8.84072,
+   "kategorie": "gastro",
+   "name": "Haus am Walde"
+  },
+  {
+   "osmId": 207463083,
+   "lat": 53.102604,
+   "lon": 8.838533,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 2359373165,
+   "lat": 53.104409,
+   "lon": 8.832575,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 9420335299,
+   "lat": 53.107731,
+   "lon": 8.832549,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Schilf": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Stockente": "typisch",
+  "Erdkröte": "typisch",
+  "Teichfrosch": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "dc83faad-f5f8-4351-a408-9c7aefd57724",
+   "id": "dc83faad-f5f8-4351-a408-9c7aefd57724",
+   "caption": "Der Stadtwaldgraben an Station 1 des Naturlehr- und Erlebnispfads (September 2024)",
+   "credit": "Smarties, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stadtwaldgraben_(Kleine_W%C3%BCmme).jpg",
+   "kind": "ort"
+  }
+ ]
+}

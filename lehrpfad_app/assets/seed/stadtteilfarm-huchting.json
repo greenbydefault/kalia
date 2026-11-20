@@ -1,0 +1,223 @@
+{
+ "id": "stadtteilfarm-huchting",
+ "name": "Stadtteilfarm Huchting",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Am Sodenmattsee leben Alpakas, Esel, Kleinpferde, Minischweine, Milchschafe und Ziegen. Seit 2024 steht eine Spiellandschaft zum Klettern auf dem Gelände.",
+ "beschreibung": "Direkt am Ufer des Sodenmattsees liegt die Stadtteilfarm Huchting auf rund drei Hektar Naturgelände. Die vier Alpakas sind Distanztiere und halten lieber Abstand, die Esel Hermann und Nevado lassen sich dagegen gern die langen Ohren kraulen. Thüringer Waldziegen und afrikanische Zwergziegen teilen sich ein hügeliges Gehege. Aus der Wolle von Schafen und Alpakas wird gefilzt, gesponnen und gewebt. In der Kinderwerkstatt fällt der Blick durch eine Scheibe direkt in den Schafstall. Auf der Wilden Wiese summen Insekten, das Insektenhotel nutzen Hornissen, Hummeln und Mauerbienen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Stadtteilfarm Huchting e. V.",
+ "region": "Sodenmatt, Huchting, Bremen",
+ "anreise": "Navi: Am Sodenmatt 15, 28259 Bremen. Straßenbahn 1 oder 8 bis Roland-Center, dann Bus 57 oder 58 bis „Am Sodenmatt“ und der Straße bis zum See folgen. Parkplatz am Sodenmattsee rund 180 m vom Haupthaus.",
+ "startName": "Stadtteilfarm Huchting, Haupthaus Am Sodenmatt 15",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Haushuhn",
+  "Amsel",
+  "Rotkehlchen",
+  "Hornisse",
+  "Hummel",
+  "Eichhörnchen",
+  "Stockente",
+  "Blässhuhn",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Schilf"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "kinderwagentauglich"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 80,
+ "form": "flaeche",
+ "website": "https://stadtteilfarm.de/",
+ "eintrittPreise": "kostenlos; Kaffee und Tee am Familiennachmittag gegen Spende",
+ "oeffnungszeiten": "Selbständiger Farmbesuch Mo–Fr 10–18 Uhr; Familiennachmittag Mo 14–18 Uhr; offenes Angebot ab 8 Jahren Di–Fr 15–18 Uhr und am 1. und 3. Samstag im Monat 10–16 Uhr (nicht in den Ferien)",
+ "besuchshinweise": "Jüngere Kinder kommen am besten zum Familiennachmittag am Montag, dann gibt es Tierbegegnungen im Gehege. Alpakas lassen sich ungern streicheln. Kindergartengruppen melden sich vorher an. Die Wege zu den Gehegen sind großteils mit Rollstuhl und Kinderwagen gut befahrbar.",
+ "area": [
+  [
+   53.051215,
+   8.72105
+  ],
+  [
+   53.05088,
+   8.720214
+  ],
+  [
+   53.05071,
+   8.720405
+  ],
+  [
+   53.050757,
+   8.720117
+  ],
+  [
+   53.050568,
+   8.719872
+  ],
+  [
+   53.050463,
+   8.720419
+  ],
+  [
+   53.050283,
+   8.720326
+  ],
+  [
+   53.05021,
+   8.720676
+  ],
+  [
+   53.050257,
+   8.720687
+  ],
+  [
+   53.050206,
+   8.721021
+  ],
+  [
+   53.050177,
+   8.721015
+  ],
+  [
+   53.050139,
+   8.721195
+  ],
+  [
+   53.05031,
+   8.721239
+  ],
+  [
+   53.050321,
+   8.721195
+  ],
+  [
+   53.0505,
+   8.721253
+  ],
+  [
+   53.050423,
+   8.721784
+  ],
+  [
+   53.050565,
+   8.721873
+  ],
+  [
+   53.05065,
+   8.72146
+  ],
+  [
+   53.051097,
+   8.721574
+  ],
+  [
+   53.051168,
+   8.721726
+  ],
+  [
+   53.051207,
+   8.721689
+  ],
+  [
+   53.051384,
+   8.721519
+  ],
+  [
+   53.051215,
+   8.72105
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 307739062,
+   "lat": 53.050889,
+   "lon": 8.720543,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Haupthaus mit Kindercafé",
+   "thema": "Treffpunkt der Farm",
+   "kurztext": "Kindercafé und Küche liegen im Haupthaus, hier wird gemeinsam gekocht, gebacken und gegessen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 726561292,
+   "lat": 53.050706,
+   "lon": 8.721751,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spiellandschaft",
+   "thema": "Klettern und Balancieren",
+   "kurztext": "Seit 2024 ersetzt eine Spiellandschaft zum Klettern und Balancieren das morsche Spielschiff, daneben steht eine kleine Kletterwand.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 197932033,
+   "lat": 53.050037,
+   "lon": 8.720453,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Weiden",
+   "thema": "Offenstall und Auslauf",
+   "kurztext": "Auf großen Weideflächen haben Kleinpferde, Esel, Schafe und Ziegen Auslauf und ruhige Rückzugsorte.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 726561292,
+   "lat": 53.050706,
+   "lon": 8.721751,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 204408926,
+   "lat": 53.050002,
+   "lon": 8.721878,
+   "kategorie": "wc",
+   "name": "WC Sodenmattsee"
+  },
+  {
+   "osmId": 301552636,
+   "lat": 53.051997,
+   "lon": 8.722529,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 6147554885,
+   "lat": 53.051704,
+   "lon": 8.72324,
+   "kategorie": "picnic"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Amsel": "belegt",
+  "Rotkehlchen": "belegt",
+  "Hornisse": "belegt",
+  "Hummel": "belegt",
+  "Eichhörnchen": "belegt",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Schilf": "typisch"
+ }
+}

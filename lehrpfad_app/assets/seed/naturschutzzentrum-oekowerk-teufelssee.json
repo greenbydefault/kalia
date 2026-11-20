@@ -1,0 +1,242 @@
+{
+ "id": "naturschutzzentrum-oekowerk-teufelssee",
+ "name": "Naturschutzzentrum Ökowerk am Teufelssee",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Auf dem Gelände des ältesten Berliner Wasserwerks im Grunewald liegen Teiche, eine Streuobstwiese und Gärten. Zwölf Findlinge stellen Ameisenarten vor.",
+ "beschreibung": "Mitten im Grunewald, auf einer Lichtung am Teufelssee, förderte das Wasserwerk Grunewald von 1871 bis 1968 Grundwasser. Die Backsteinanlage von 1872 ist das älteste denkmalgeschützte Wasserwerk Berlins. Auf dem Gelände sind rund 1.000 Tier- und Pflanzenarten gezählt, fast 200 davon Bienen und Wespen. In den Teichen leben Libellen, Frösche, Erdkröten und Teichmolche. Hinter der großen Wildbienenwand liegt ein Trockenrasenhang, an der Trockenmauer sonnen sich Zauneidechsen. Der Garten zeigt Heilpflanzen, Gemüse in Mischkultur und Wildstauden. Von Frühjahr bis Spätsommer stellen zwölf nummerierte Findlinge per Audio je eine Ameisenart vor.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Ameisenpfad: 12 nummerierte Findlinge; Infotafeln im Garten",
+ "betreiber": "Naturschutzzentrum Ökowerk Berlin e.V.",
+ "region": "Grunewald, Bezirk Charlottenburg-Wilmersdorf, Berlin",
+ "anreise": "Teufelsseechaussee 22, 14193 Berlin. Ab S Heerstraße etwa 30 Minuten zu Fuß über die Teufelsseechaussee bis zum Haupttor, ab S Grunewald etwa 20 Minuten durch den Wald. Die Teufelsseechaussee ist eine Fahrradstraße.",
+ "startName": "Hauptgebäude des Wasserwerks (Ausgangspunkt der Rundgänge)",
+ "arten": [
+  "Libelle",
+  "Teichfrosch",
+  "Grasfrosch",
+  "Erdkröte",
+  "Teichmolch",
+  "Ringelnatter",
+  "Zauneidechse",
+  "Wildbiene",
+  "Stieleiche",
+  "Kultur-Apfel",
+  "Heckenrose",
+  "Margerite",
+  "Schilf"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "streuobst-hecke",
+  "trockenrasen"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 72,
+ "form": "flaeche",
+ "website": "https://www.oekowerk.de/",
+ "eintrittPreise": "Gelände frei zugänglich; Set für den Ameisen-Audiopfad 2 €",
+ "oeffnungszeiten": "Gelände Mo und Di Ruhetag. Sommerhalbjahr (16.3.–15.10.): Mi–Fr 10–18 Uhr, Sa, So und feiertags 12–18 Uhr. Winterhalbjahr (16.10.–15.3.): Mi–Fr 10–16 Uhr, Sa, So und feiertags 11–16 Uhr.",
+ "besuchshinweise": "Die Obstwiese und das Moor am Teufelsfenn dürfen nicht betreten werden. Das Bistro hat freitags und am Wochenende geöffnet. Die Anleitung zum Ameisenpfad gibt es im Büro oder beim Geländeteam.",
+ "area": [
+  [
+   52.491302,
+   13.235112
+  ],
+  [
+   52.490916,
+   13.235956
+  ],
+  [
+   52.49123,
+   13.236383
+  ],
+  [
+   52.491428,
+   13.236653
+  ],
+  [
+   52.491907,
+   13.237237
+  ],
+  [
+   52.492137,
+   13.236782
+  ],
+  [
+   52.492782,
+   13.235477
+  ],
+  [
+   52.492568,
+   13.235175
+  ],
+  [
+   52.492749,
+   13.234816
+  ],
+  [
+   52.492433,
+   13.234458
+  ],
+  [
+   52.492224,
+   13.234171
+  ],
+  [
+   52.492114,
+   13.234392
+  ],
+  [
+   52.492168,
+   13.234519
+  ],
+  [
+   52.492126,
+   13.234709
+  ],
+  [
+   52.492075,
+   13.234879
+  ],
+  [
+   52.491997,
+   13.235011
+  ],
+  [
+   52.491733,
+   13.235197
+  ],
+  [
+   52.491539,
+   13.23521
+  ],
+  [
+   52.491442,
+   13.235188
+  ],
+  [
+   52.491302,
+   13.235112
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 80218359,
+   "lat": 52.491741,
+   "lon": 13.236577,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Altes Wasserwerk",
+   "thema": "Wasserwerk Grunewald",
+   "kurztext": "Von 1871 bis 1968 förderte das Wasserwerk Grunewald hier Grundwasser, die Backsteinbauten von 1872 stehen unter Denkmalschutz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 322301547,
+   "lat": 52.491994,
+   "lon": 13.236376,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Wildbienenwand",
+   "thema": "Wildbienen",
+   "kurztext": "Vor dem Trockenrasenhang steht die große Wildbienenwand, auf dem Gelände sind fast 200 Bienen- und Wespenarten gezählt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 322301521,
+   "lat": 52.49191,
+   "lon": 13.235831,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Teichlandschaft",
+   "thema": "Leben im Teich",
+   "kurztext": "In den Folienteichen leben Libellen, Teich- und Grasfrösche, Erdkröten, Teichmolche und gelegentlich eine Ringelnatter.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 322301541,
+   "lat": 52.492432,
+   "lon": 13.235183,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Streuobstwiese",
+   "thema": "Obstwiese",
+   "kurztext": "Baumkronen und blühende Krautschicht bilden auf der Streuobstwiese zwei Stockwerke, betreten wird sie nur zur Mahd im Juni und September.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 322301525,
+   "lat": 52.492535,
+   "lon": 13.234825,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Biogarten",
+   "thema": "Ökologisch gärtnern",
+   "kurztext": "Heilpflanzen, Gemüse in Mischkultur und Wildstauden wachsen im Biogarten zwischen Trockenmauern und einem Sandarium.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 322301530,
+   "lat": 52.491653,
+   "lon": 13.236369,
+   "kategorie": "gastro",
+   "name": "Bistro"
+  },
+  {
+   "osmId": 322301535,
+   "lat": 52.49149,
+   "lon": 13.235626,
+   "kategorie": "playground",
+   "name": "Kindererlebnisbereich"
+  },
+  {
+   "osmId": 322301570,
+   "lat": 52.49192,
+   "lon": 13.235393,
+   "kategorie": "wc"
+  }
+ ],
+ "artenNachweis": {
+  "Libelle": "belegt",
+  "Teichfrosch": "belegt",
+  "Grasfrosch": "belegt",
+  "Erdkröte": "belegt",
+  "Teichmolch": "belegt",
+  "Ringelnatter": "belegt",
+  "Zauneidechse": "belegt",
+  "Wildbiene": "belegt",
+  "Stieleiche": "belegt",
+  "Kultur-Apfel": "typisch",
+  "Heckenrose": "typisch",
+  "Margerite": "typisch",
+  "Schilf": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "99af0f1b-0afb-4855-b57d-c80d9f4e589c",
+   "id": "99af0f1b-0afb-4855-b57d-c80d9f4e589c",
+   "caption": "Teich vor den Backsteingebäuden des alten Wasserwerks im Ökowerk (Aufnahme 2017)",
+   "credit": "Fridolin freudenfett, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grunewald_%C3%96kowerk_Teufelssee-003.jpg",
+   "kind": "ort"
+  }
+ ]
+}

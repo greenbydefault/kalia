@@ -273,21 +273,5 @@
   "eintrittPreise": "Tageskarte Erwachsene 5 €, ermäßigt 3 €, Familienkarte 14 €. Kinder bis einschließlich 3 Jahre frei.",
   "oeffnungszeiten": "Dienstag bis Sonntag 9–17 Uhr, November bis Januar 9–16 Uhr. Montag geschlossen. Letzter Einlass 30 Minuten vor Schließung.",
   "besuchshinweise": "Hunde nur an der kurzen Leine. Letzter Einlass 30 Minuten vor Schließung.",
-  "dataVersion": 31,
-  "hoertext": "Hinter dem Eingangsportal stehen Gehege zwischen Bäumen, und vor jedem Baum erklärt ein Schild die Art. Der Waschbär tastet mit den Vorderpfoten im Wasser nach Beute, denn sehen kann er dabei schlecht. Ein Steinkauz wuchs hier auf. Später kam er im Harz in die Freiheit. Mit den Flügeln spannt der Uhu bis zu einem Meter siebzig, und bei den Eseln verraten die Ohren die Laune: Aufgestellt heißt neugierig, angelegt heißt Unruhe oder Angst. Esche, Buche und Ahorn spenden Schatten. Eine halbe Stunde vor Schluss endet der Einlass.",
-  "artenNachweis": {
-    "Gemeine Esche": "belegt",
-    "Rotbuche": "belegt",
-    "Haselnuss": "belegt",
-    "Kultur-Apfel": "belegt",
-    "Wildkatze": "belegt",
-    "Waldkauz": "belegt",
-    "Mäusebussard": "belegt",
-    "Rotfuchs": "belegt",
-    "Eichhörnchen": "belegt",
-    "Stockente": "belegt",
-    "Hauskaninchen": "belegt",
-    "Ziege": "belegt",
-    "Haushuhn": "belegt"
-  }
+  "dataVersion": 31
 }

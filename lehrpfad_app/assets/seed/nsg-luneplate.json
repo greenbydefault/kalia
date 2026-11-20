@@ -1,0 +1,827 @@
+{
+ "id": "nsg-luneplate",
+ "name": "Naturschutzgebiet Luneplate (Aussichtsturm, Beobachtungsstände)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Ehemalige Weserinsel mit Tidepolder, Marschgrünland und Watt. Im Herbst rasten hier Tausende Gänse und Watvögel, ein Holzturm überblickt den Polder.",
+ "beschreibung": "Die Luneplate war einmal eine Insel in der Weser. Heute ist sie das größte Naturschutzgebiet im Land Bremen. Im Süden liegt der Tidepolder auf 220 Hektar früherem Ackerland. Seit Herbst 2012 strömt bei jeder Tide rund eine Million Kubikmeter Weserwasser durch ein Sperrwerk im Deich hinein und wieder hinaus. So sind neue Wattflächen, Priele und Brackwasserröhricht entstanden. Von Juli bis November mausern hier bis zu 3.000 Säbelschnäbler. Im Winter grasen über 10.000 Weißwangengänse auf dem Grünland, das Wasserbüffel und Galloway-Rinder kurz halten.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "bremenports",
+ "region": "Luneplate, Fischereihafen, Bremerhaven",
+ "anreise": "Eingang Nord: A27 Abfahrt Wulsdorf, B71n, „Am Luneort“, dann „Am Seedeich“ (Deichplattform und Info-Pavillon). Aussichtsturm am Parkplatz am Seedeich.",
+ "startName": "Aussichtsturm Tidepolder",
+ "arten": [
+  "Austernfischer",
+  "Brandgans",
+  "Graugans",
+  "Graureiher",
+  "Kormoran",
+  "Seeadler",
+  "Feldhase",
+  "Rotfuchs",
+  "Reh",
+  "Erdkröte",
+  "Grasfrosch",
+  "Libelle",
+  "Schilf",
+  "Sumpf-Schwertlilie"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "hunde-erlaubt"
+ ],
+ "lebensraeume": [
+  "salzwiese-watt",
+  "teich-tuempel"
+ ],
+ "naturraum": "nordsee",
+ "dataVersion": 98,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/naturschutzgebiet-luneplate.27514.html",
+ "eintrittPreise": "kostenfrei",
+ "oeffnungszeiten": "Aussichtsturm ganzjährig frei zugänglich.",
+ "besuchshinweise": "Hunde immer an der Leine. Die Wege sind nur für Fußgänger und Räder freigegeben. Tegeler Plate und Alte Weser sind gesperrt und nur bei geführten Exkursionen zu sehen. Der Turm ist nicht barrierefrei, die übrigen Aussichtspunkte schon. Ein Fernglas hilft.",
+ "area": [
+  [
+   53.516161,
+   8.552718
+  ],
+  [
+   53.515066,
+   8.549661
+  ],
+  [
+   53.513605,
+   8.545457
+  ],
+  [
+   53.513559,
+   8.545242
+  ],
+  [
+   53.511075,
+   8.537834
+  ],
+  [
+   53.510389,
+   8.535889
+  ],
+  [
+   53.507841,
+   8.529579
+  ],
+  [
+   53.507807,
+   8.529438
+  ],
+  [
+   53.506807,
+   8.527039
+  ],
+  [
+   53.504125,
+   8.520875
+  ],
+  [
+   53.504091,
+   8.520671
+  ],
+  [
+   53.503236,
+   8.5189
+  ],
+  [
+   53.50129,
+   8.514838
+  ],
+  [
+   53.500161,
+   8.512754
+  ],
+  [
+   53.499479,
+   8.511669
+  ],
+  [
+   53.498568,
+   8.510413
+  ],
+  [
+   53.498495,
+   8.510243
+  ],
+  [
+   53.49669,
+   8.508088
+  ],
+  [
+   53.496103,
+   8.507343
+  ],
+  [
+   53.494985,
+   8.506009
+  ],
+  [
+   53.493871,
+   8.504664
+  ],
+  [
+   53.491136,
+   8.501896
+  ],
+  [
+   53.491052,
+   8.501794
+  ],
+  [
+   53.490735,
+   8.501622
+  ],
+  [
+   53.48945,
+   8.500922
+  ],
+  [
+   53.486765,
+   8.499348
+  ],
+  [
+   53.485887,
+   8.498831
+  ],
+  [
+   53.485776,
+   8.49873
+  ],
+  [
+   53.485201,
+   8.49837
+  ],
+  [
+   53.482247,
+   8.496713
+  ],
+  [
+   53.480768,
+   8.495863
+  ],
+  [
+   53.479367,
+   8.494953
+  ],
+  [
+   53.478387,
+   8.494316
+  ],
+  [
+   53.477775,
+   8.494242
+  ],
+  [
+   53.476119,
+   8.493219
+  ],
+  [
+   53.475137,
+   8.492608
+  ],
+  [
+   53.472467,
+   8.492596
+  ],
+  [
+   53.471645,
+   8.500625
+  ],
+  [
+   53.471263,
+   8.504838
+  ],
+  [
+   53.471283,
+   8.505775
+  ],
+  [
+   53.471371,
+   8.505877
+  ],
+  [
+   53.472003,
+   8.506304
+  ],
+  [
+   53.472483,
+   8.506617
+  ],
+  [
+   53.473116,
+   8.507013
+  ],
+  [
+   53.47329,
+   8.507186
+  ],
+  [
+   53.473968,
+   8.508033
+  ],
+  [
+   53.474593,
+   8.50879
+  ],
+  [
+   53.474695,
+   8.508771
+  ],
+  [
+   53.475484,
+   8.509598
+  ],
+  [
+   53.475493,
+   8.509792
+  ],
+  [
+   53.47535,
+   8.509992
+  ],
+  [
+   53.475293,
+   8.510163
+  ],
+  [
+   53.475263,
+   8.510353
+  ],
+  [
+   53.475262,
+   8.510551
+  ],
+  [
+   53.475468,
+   8.513705
+  ],
+  [
+   53.475476,
+   8.513929
+  ],
+  [
+   53.475468,
+   8.514092
+  ],
+  [
+   53.475438,
+   8.51432
+  ],
+  [
+   53.475389,
+   8.514547
+  ],
+  [
+   53.475322,
+   8.514755
+  ],
+  [
+   53.475234,
+   8.514947
+  ],
+  [
+   53.475129,
+   8.515109
+  ],
+  [
+   53.475054,
+   8.515203
+  ],
+  [
+   53.473435,
+   8.51683
+  ],
+  [
+   53.47335,
+   8.516924
+  ],
+  [
+   53.473242,
+   8.517078
+  ],
+  [
+   53.473559,
+   8.517637
+  ],
+  [
+   53.474215,
+   8.518471
+  ],
+  [
+   53.474888,
+   8.51927
+  ],
+  [
+   53.475567,
+   8.520023
+  ],
+  [
+   53.476184,
+   8.520919
+  ],
+  [
+   53.476271,
+   8.521077
+  ],
+  [
+   53.476758,
+   8.521892
+  ],
+  [
+   53.477556,
+   8.523103
+  ],
+  [
+   53.478074,
+   8.524142
+  ],
+  [
+   53.479297,
+   8.527203
+  ],
+  [
+   53.479917,
+   8.528631
+  ],
+  [
+   53.480196,
+   8.529763
+  ],
+  [
+   53.480283,
+   8.530656
+  ],
+  [
+   53.480255,
+   8.531874
+  ],
+  [
+   53.480158,
+   8.533407
+  ],
+  [
+   53.480148,
+   8.534621
+  ],
+  [
+   53.480212,
+   8.536124
+  ],
+  [
+   53.480237,
+   8.536813
+  ],
+  [
+   53.48024,
+   8.537634
+  ],
+  [
+   53.480028,
+   8.537889
+  ],
+  [
+   53.480111,
+   8.538039
+  ],
+  [
+   53.480562,
+   8.539602
+  ],
+  [
+   53.481033,
+   8.538986
+  ],
+  [
+   53.481097,
+   8.53924
+  ],
+  [
+   53.481263,
+   8.539894
+  ],
+  [
+   53.4814,
+   8.540735
+  ],
+  [
+   53.48151,
+   8.541182
+  ],
+  [
+   53.481757,
+   8.543351
+  ],
+  [
+   53.481907,
+   8.544583
+  ],
+  [
+   53.482014,
+   8.545018
+  ],
+  [
+   53.482376,
+   8.547831
+  ],
+  [
+   53.482819,
+   8.550868
+  ],
+  [
+   53.4831,
+   8.552253
+  ],
+  [
+   53.483578,
+   8.554727
+  ],
+  [
+   53.485477,
+   8.562976
+  ],
+  [
+   53.486123,
+   8.565646
+  ],
+  [
+   53.487034,
+   8.56851
+  ],
+  [
+   53.488284,
+   8.571275
+  ],
+  [
+   53.488534,
+   8.57091
+  ],
+  [
+   53.490131,
+   8.568871
+  ],
+  [
+   53.49028,
+   8.568703
+  ],
+  [
+   53.49079,
+   8.566568
+  ],
+  [
+   53.498915,
+   8.558457
+  ],
+  [
+   53.499235,
+   8.558221
+  ],
+  [
+   53.499656,
+   8.55806
+  ],
+  [
+   53.500077,
+   8.55762
+  ],
+  [
+   53.500259,
+   8.557502
+  ],
+  [
+   53.500603,
+   8.557169
+  ],
+  [
+   53.501344,
+   8.556724
+  ],
+  [
+   53.50285,
+   8.556375
+  ],
+  [
+   53.503233,
+   8.556306
+  ],
+  [
+   53.503746,
+   8.556424
+  ],
+  [
+   53.50396,
+   8.557599
+  ],
+  [
+   53.504081,
+   8.558087
+  ],
+  [
+   53.50419,
+   8.558355
+  ],
+  [
+   53.504349,
+   8.558532
+  ],
+  [
+   53.507415,
+   8.560436
+  ],
+  [
+   53.509007,
+   8.561343
+  ],
+  [
+   53.509246,
+   8.561541
+  ],
+  [
+   53.509451,
+   8.561783
+  ],
+  [
+   53.509652,
+   8.562282
+  ],
+  [
+   53.510216,
+   8.562207
+  ],
+  [
+   53.510503,
+   8.563314
+  ],
+  [
+   53.511865,
+   8.562515
+  ],
+  [
+   53.512082,
+   8.562461
+  ],
+  [
+   53.512408,
+   8.562537
+  ],
+  [
+   53.512641,
+   8.562655
+  ],
+  [
+   53.512995,
+   8.562976
+  ],
+  [
+   53.514838,
+   8.565664
+  ],
+  [
+   53.515952,
+   8.566919
+  ],
+  [
+   53.517109,
+   8.568105
+  ],
+  [
+   53.51924,
+   8.569972
+  ],
+  [
+   53.520149,
+   8.570594
+  ],
+  [
+   53.521463,
+   8.571345
+  ],
+  [
+   53.522684,
+   8.571881
+  ],
+  [
+   53.524464,
+   8.572445
+  ],
+  [
+   53.526499,
+   8.572997
+  ],
+  [
+   53.530947,
+   8.574623
+  ],
+  [
+   53.531266,
+   8.574344
+  ],
+  [
+   53.532044,
+   8.575052
+  ],
+  [
+   53.533571,
+   8.575594
+  ],
+  [
+   53.533836,
+   8.575594
+  ],
+  [
+   53.534865,
+   8.575213
+  ],
+  [
+   53.5349,
+   8.574877
+  ],
+  [
+   53.527609,
+   8.571198
+  ],
+  [
+   53.517961,
+   8.550536
+  ],
+  [
+   53.516161,
+   8.552718
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1484713521,
+   "lat": 53.481531,
+   "lon": 8.526656,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Aussichtsturm Tidepolder",
+   "thema": "Ausblick",
+   "kurztext": "Holzturm mit Panoramablick über den Tidepolder. Unten am Turm steht ein Picknickplatz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2137055208,
+   "lat": 53.48275,
+   "lon": 8.509488,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Sturmflutsperrwerk",
+   "thema": "Ebbe und Flut",
+   "kurztext": "Durch das Sperrwerk im Weserdeich fließt bei jeder Tide Wasser in den Polder und wieder hinaus. Geschlossen wird es nur bei sehr hohen Fluten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2137234837,
+   "lat": 53.475435,
+   "lon": 8.514376,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Renaturierung",
+   "thema": "Neues Watt",
+   "kurztext": "Infotafel zum Tidepolder auf früherem Ackerland. Seit 2012 sind hier Priele, Wattflächen und Brackwasserröhricht entstanden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3749447192,
+   "lat": 53.493428,
+   "lon": 8.527195,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Beobachtungsversteck Tidepolder",
+   "thema": "Vögel",
+   "kurztext": "Aus dem Versteck sind Brandgans, Säbelschnäbler, Silberreiher und Krickente aus der Nähe zu sehen, besonders im Frühjahr und Herbst.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3814476236,
+   "lat": 53.483324,
+   "lon": 8.535426,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Info-Pavillon",
+   "thema": "Überblick",
+   "kurztext": "Pavillon am Deich mit Informationen zu Tidepolder, Grünland und Vogelwelt der Luneplate.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 158762951,
+   "lat": 53.483856,
+   "lon": 8.535697,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Stall der Wasserbüffel",
+   "thema": "Weidetiere",
+   "kurztext": "Zwei kleine Herden Wasserbüffel halten das Gras kurz, damit Brut- und Rastvögel Platz finden. Auf einem Mast nebenan brüten Störche.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2137234839,
+   "lat": 53.497034,
+   "lon": 8.539331,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Grünland",
+   "thema": "Wiesenvögel",
+   "kurztext": "Gräben und Kleingewässer durchziehen das Marschgrünland. Im Frühjahr brüten hier Wiesenvögel, im Herbst rasten Tausende Gänse.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2440151294,
+   "lat": 53.512458,
+   "lon": 8.563499,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Wetterpilz am Deich",
+   "thema": "Rast",
+   "kurztext": "Wetterpilz mit Naturtafel am nördlichen Rand des Schutzgebiets, nahe dem Parkplatz am Seedeich.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1484713521,
+   "lat": 53.481531,
+   "lon": 8.526656,
+   "kategorie": "viewpoint",
+   "name": "Aussichtsturm Tidepolder"
+  },
+  {
+   "osmId": 3750985611,
+   "lat": 53.48148,
+   "lon": 8.527019,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 3750985612,
+   "lat": 53.48147,
+   "lon": 8.526803,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 2440151294,
+   "lat": 53.512458,
+   "lon": 8.563499,
+   "kategorie": "shelter",
+   "name": "Wetterpilz"
+  },
+  {
+   "osmId": 12752485285,
+   "lat": 53.510195,
+   "lon": 8.563497,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 378033083,
+   "lat": 53.483517,
+   "lon": 8.53565,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 107944687,
+   "lat": 53.512266,
+   "lon": 8.563604,
+   "kategorie": "parking"
+  }
+ ],
+ "bilder": [
+  {
+   "file": "2b896628-6601-489e-87ad-06ffe05d4d2a",
+   "id": "2b896628-6601-489e-87ad-06ffe05d4d2a",
+   "caption": "Grünland im Naturschutzgebiet Luneplate mit Blick auf den Deich (Dezember 2014)",
+   "credit": "Gabriele Manhold, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luneplate,_Naturschutzgebiet_Bremerhaven-Fischereihafen.jpg",
+   "kind": "ort"
+  }
+ ]
+}

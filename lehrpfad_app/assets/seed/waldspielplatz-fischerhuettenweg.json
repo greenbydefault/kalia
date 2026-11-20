@@ -1,0 +1,208 @@
+{
+ "id": "waldspielplatz-fischerhuettenweg",
+ "name": "Waldspielplatz Fischerhüttenweg",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Eine stattliche Eiche im Grunewald bildet die Mitte, um sie herum stehen Kletterschiff und Riesenrutsche. Ein Zaun trennt das Gelände vom Hundeauslauf.",
+ "beschreibung": "Zwischen Krummer Lanke und Schlachtensee liegt der Waldspielplatz Fischerhüttenweg, gebaut rund um eine stattliche Eiche. Im Sommer 2021 wurde er grundlegend erneuert. Zum Klettern gibt es eine große Kletterkugel und ein Kletterschiff, zum Balancieren eine extra lange Stange. Dazu kommen ein Bolzplatz mit zwei Toren und eine riesige Sandfläche. Weil ringsum Hunde frei laufen dürfen, ist das Gelände eingezäunt. Sitzpalisaden ohne Dach bieten Platz für ein Picknick. Beide Seen haben ausgewiesene Badestellen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Grunewald, Bezirk Steglitz-Zehlendorf, Berlin",
+ "anreise": "U3 oder Bus 118, 622, X11 bis Krumme Lanke; gegenüber dem U-Bahnhof etwa 900 m die Fischerhüttenstraße entlang bis zum Waldeingang, dann rechts etwa 100 m dem Waldweg folgen. Ein Parkplatz liegt am Waldeingang, rund 120 m vom Waldspielplatz.",
+ "startName": "Waldspielplatz Fischerhüttenweg",
+ "arten": [
+  "Kiefer",
+  "Stieleiche",
+  "Hängebirke",
+  "Eberesche",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Kohlmeise",
+  "Blaumeise",
+  "Rotkehlchen",
+  "Kleiber",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "kiefernforst",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 109,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/fischerhuettenweg/",
+ "besuchshinweise": "Sandspielzeug mitnehmen. Im Sommer Badesachen einpacken, Krumme Lanke und Schlachtensee haben ausgewiesene Badestellen in der Nähe.",
+ "area": [
+  [
+   52.449304,
+   13.228192
+  ],
+  [
+   52.448629,
+   13.228485
+  ],
+  [
+   52.448657,
+   13.228864
+  ],
+  [
+   52.448691,
+   13.228969
+  ],
+  [
+   52.448805,
+   13.229166
+  ],
+  [
+   52.448917,
+   13.229254
+  ],
+  [
+   52.449081,
+   13.229297
+  ],
+  [
+   52.449173,
+   13.22912
+  ],
+  [
+   52.449304,
+   13.228192
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13876883923,
+   "lat": 52.448942,
+   "lon": 13.229136,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Riesenrutsche",
+   "thema": "Rutschen",
+   "kurztext": "Riesenrutsche, eines der größten Spielgeräte auf dem Waldspielplatz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13876883927,
+   "lat": 52.449077,
+   "lon": 13.229104,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Klettergerüst",
+   "thema": "Klettern",
+   "kurztext": "Zum Klettern gibt es neben diesem Gerüst eine große Kletterkugel und ein Kletterschiff.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13876883926,
+   "lat": 52.449119,
+   "lon": 13.228931,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Balancierstange",
+   "thema": "Balancieren",
+   "kurztext": "Extra lange Balancierstange, die das Gleichgewicht auf die Probe stellt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13876883921,
+   "lat": 52.449068,
+   "lon": 13.22909,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Sandfläche",
+   "thema": "Buddeln",
+   "kurztext": "Riesige Sandfläche, auf der gebuddelt und gebaut wird.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13876883924,
+   "lat": 52.448946,
+   "lon": 13.229044,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Schaukel",
+   "thema": "Schaukeln",
+   "kurztext": "Einzelschaukel ohne Babysitz für größere Kinder.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13876883925,
+   "lat": 52.448984,
+   "lon": 13.228855,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Wipptier",
+   "thema": "Wippen",
+   "kurztext": "Federwipptier für die Kleinsten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 34940861,
+   "lat": 52.448882,
+   "lon": 13.228926,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Fischerhüttenweg"
+  },
+  {
+   "osmId": 13876929528,
+   "lat": 52.449138,
+   "lon": 13.228593,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 13876929529,
+   "lat": 52.449195,
+   "lon": 13.228353,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 88456311,
+   "lat": 52.44779,
+   "lon": 13.228816,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 12791490087,
+   "lat": 52.448614,
+   "lon": 13.229842,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 28955595,
+   "lat": 52.447525,
+   "lon": 13.228531,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Kiefer": "typisch",
+  "Stieleiche": "typisch",
+  "Hängebirke": "typisch",
+  "Eberesche": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kleiber": "typisch",
+  "Eichhörnchen": "typisch"
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "id": "tiergehege-buergerpark-bremerhaven",
+ "name": "Tiergehege im Bürgerpark Bremerhaven",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Kleines Gehege mit Ziegen und Schafen mitten im Bürgerpark Bremerhaven. Daneben liegen Insektenhotel, Bienenstöcke, Bootsteich und der Drachenberg.",
+ "beschreibung": "Der Bürgerpark in Geestemünde geht auf den Geestemünder Waldverein zurück, der ihn 1899 gründete. Ab 1906 wurde er angelegt, 1908 eröffnet. Heute umfasst er 64 Hektar Laubwald, Wiesen, Teiche und Wasserläufe. Im Gehege nordöstlich vom Bootshaus leben Ziegen und Schafe, die gestreichelt werden dürfen. Am Rand stehen ein Ziegenstall, ein Insektenhotel und Bienenstöcke. Wildbienen nisten in den Röhren des Hotels. Am Bootsteich gibt es einen Bootsverleih. Der Drachenberg ist ein kleiner Hügel mit einer Schutzhütte.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Gartenbauamt Bremerhaven",
+ "region": "Bürgerpark, Geestemünde, Bremerhaven",
+ "anreise": "Bürgerpark, Adolf-Hoff-Weg, 27574 Bremerhaven; das Gehege liegt im Park nordöstlich vom Bootshaus.",
+ "startName": "Tiergehege im Bürgerpark",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Honigbiene",
+  "Stockente",
+  "Blässhuhn",
+  "Eichhörnchen",
+  "Buchfink",
+  "Kohlmeise",
+  "Stieleiche",
+  "Hainbuche",
+  "Gänseblümchen",
+  "Löwenzahn"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "hunde-erlaubt"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "teich-tuempel",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 72,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven-erleben.de/poi/tiergehege",
+ "eintrittPreise": "kostenfrei",
+ "oeffnungszeiten": "Bürgerpark jederzeit öffentlich zugänglich.",
+ "besuchshinweise": "Das Gehege liegt nordöstlich vom Bootshaus, der Park ist jederzeit zugänglich. Im Bootshaus Bürgerpark gibt es Essen und Getränke, am Teich verleiht der Bootsverleih Boote.",
+ "area": [
+  [
+   53.541198,
+   8.60212
+  ],
+  [
+   53.541075,
+   8.601543
+  ],
+  [
+   53.541213,
+   8.601375
+  ],
+  [
+   53.541345,
+   8.601392
+  ],
+  [
+   53.541706,
+   8.601479
+  ],
+  [
+   53.541884,
+   8.601556
+  ],
+  [
+   53.542013,
+   8.60165
+  ],
+  [
+   53.542164,
+   8.601771
+  ],
+  [
+   53.542368,
+   8.601996
+  ],
+  [
+   53.542768,
+   8.602585
+  ],
+  [
+   53.54258,
+   8.60289
+  ],
+  [
+   53.542394,
+   8.603127
+  ],
+  [
+   53.54225,
+   8.602879
+  ],
+  [
+   53.541998,
+   8.60259
+  ],
+  [
+   53.541713,
+   8.602329
+  ],
+  [
+   53.541642,
+   8.602271
+  ],
+  [
+   53.541476,
+   8.602208
+  ],
+  [
+   53.541315,
+   8.60217
+  ],
+  [
+   53.541198,
+   8.60212
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1155455931,
+   "lat": 53.541839,
+   "lon": 8.602107,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Tiergehege",
+   "thema": "Streicheltiere",
+   "kurztext": "Im Gehege leben Ziegen und Schafe, die sich streicheln lassen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1494761139,
+   "lat": 53.542148,
+   "lon": 8.602553,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Ziegenstall",
+   "thema": "Stall",
+   "kurztext": "Stall der Ziegen am Rand des Geheges.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1496216774,
+   "lat": 53.541661,
+   "lon": 8.601538,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Insektenhotel und Bienenstand",
+   "thema": "Insekten",
+   "kurztext": "Neben dem Gehege stehen ein Insektenhotel und Bienenstöcke. Wildbienen nisten in den Röhren, Honigbienen fliegen von den Stöcken aus.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1885138275,
+   "lat": 53.541284,
+   "lon": 8.604816,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Drachenberg",
+   "thema": "Hügel",
+   "kurztext": "Kleiner Hügel im Park, acht Meter über dem Meer, mit einer Schutzhütte.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 257938125,
+   "lat": 53.540608,
+   "lon": 8.601486,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Bootsteich",
+   "thema": "Wasser",
+   "kurztext": "Am Bootsteich liegt der Bootsverleih, gleich daneben das Bootshaus mit Gastronomie.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1170676614,
+   "lat": 53.540516,
+   "lon": 8.600979,
+   "kategorie": "gastro",
+   "name": "Bootshaus Bürgerpark"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Honigbiene": "belegt",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Eichhörnchen": "typisch",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch"
+ }
+}

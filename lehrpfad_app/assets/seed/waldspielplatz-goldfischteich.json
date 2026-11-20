@@ -1,0 +1,189 @@
+{
+ "id": "waldspielplatz-goldfischteich",
+ "name": "Waldspielplatz Goldfischteich",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Eine Lokomotive und ein Flugzeug aus Holz stehen am Rand des Spandauer Forsts in Hakenfelde. Ein Zaun trennt das Gelände vom Hundeauslauf.",
+ "beschreibung": "Zwischen Holzautos, einem Flugzeug und einer Lokomotive steht im Spandauer Forst ein Dorf aus Holzzelten. Zum Buddeln gibt es eine große offene Sandfläche. Wippe, Schaukel und ein Rutschenturm ergänzen die Holzfiguren. An der Torwand wird gezielt, und auf der Rasenfläche reicht der Raum für ein Fußballspiel größerer Gruppen. Dazu kommt eine Tischtennisplatte. Weil der Waldspielplatz im Hundeauslaufgebiet Hakenfelde liegt, ist er eingezäunt. Für Pausen gibt es Sitzplätze mit und ohne Dach.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Forstamt Tegel)",
+ "region": "Hakenfelde, Spandauer Forst, Bezirk Spandau, Berlin",
+ "anreise": "Bus M45 bis Cautiusstraße; gegenüber der Hakenfelder Straße liegt der Waldeingang, von dort etwa 200 m geradeaus auf dem Waldweg.",
+ "startName": "Willkommenstafel am Waldspielplatz Goldfischteich",
+ "arten": [
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Gemeine Esche",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Mittelspecht",
+  "Kleiber",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 42,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/goldfischteich/",
+ "besuchshinweise": "Schippe, Eimer, Förmchen und Sieb mitbringen.",
+ "area": [
+  [
+   52.563037,
+   13.192242
+  ],
+  [
+   52.562801,
+   13.19281
+  ],
+  [
+   52.562782,
+   13.19294
+  ],
+  [
+   52.56299,
+   13.193437
+  ],
+  [
+   52.563068,
+   13.193463
+  ],
+  [
+   52.563131,
+   13.193382
+  ],
+  [
+   52.56313,
+   13.19324
+  ],
+  [
+   52.563214,
+   13.193014
+  ],
+  [
+   52.563317,
+   13.192869
+  ],
+  [
+   52.563452,
+   13.192886
+  ],
+  [
+   52.563475,
+   13.192683
+  ],
+  [
+   52.563457,
+   13.192359
+  ],
+  [
+   52.563391,
+   13.192196
+  ],
+  [
+   52.563196,
+   13.192194
+  ],
+  [
+   52.563037,
+   13.192242
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13522548102,
+   "lat": 52.563049,
+   "lon": 13.19342,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Willkommenstafel",
+   "thema": "Eingang",
+   "kurztext": "Begrüßungstafel am Eingang des eingezäunten Waldspielplatzes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8496778332,
+   "lat": 52.563362,
+   "lon": 13.192378,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Tischtennisplatte",
+   "thema": "Sport",
+   "kurztext": "Tischtennisplatte für Größere, gleich neben der Picknickhütte.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8809653992,
+   "lat": 52.563294,
+   "lon": 13.192403,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Picknickhütte",
+   "thema": "Rast",
+   "kurztext": "Überdachte Sitzgruppe für Pausen bei Regen oder praller Sonne.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 24349103,
+   "lat": 52.563171,
+   "lon": 13.192851,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Goldfischteich"
+  },
+  {
+   "osmId": 8809653990,
+   "lat": 52.563352,
+   "lon": 13.192686,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 8809653991,
+   "lat": 52.562918,
+   "lon": 13.192935,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 8809653992,
+   "lat": 52.563294,
+   "lon": 13.192403,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 12159751349,
+   "lat": 52.564068,
+   "lon": 13.193983,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Gemeine Esche": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Mittelspecht": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Eichhörnchen": "typisch"
+ }
+}

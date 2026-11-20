@@ -1,0 +1,154 @@
+{
+ "id": "waldspielplatz-volksdorfer-wald",
+ "name": "Waldspielplatz Volksdorfer Wald",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Rund 20 geschnitzte Holzwesen aus Eiche bilden im Volksdorfer Wald Sandkasten, Schaukel, Wippe und Balancierstrecken. Der Platz liegt am Kletterwald und kostet nichts.",
+ "beschreibung": "Auf einer Lichtung im Volksdorfer Wald steht ein Spielplatz aus Holzskulpturen. Die Hamburger Künstlergruppe FlorianMars schnitzte große und kleine Wesen aus Eichenholz aus der Region. Verwendet wurde nur Brennholz, kein Baum wurde dafür gefällt. Die Stämme blieben in einem Stück, ihre natürlichen Krümmungen geben jeder Figur eine eigene Form. Rund 20 Teile ergeben zusammen Sandkasten, Schaukel, Wippe und Balancierstrecken. Ein Thema gibt es nicht, die Figuren lassen Raum für eigene Spielgeschichten. Ringsum wächst ein Mischwald mit vielen Buchen, nebenan hangeln sich Gäste des Kletterwalds in bis zu zehn Metern Höhe durch die Bäume.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kletterwald Hamburg (INDOO Spielwerk Betriebs GmbH & Co. KG)",
+ "region": "Volksdorf, Bezirk Wandsbek, Hamburg",
+ "anreise": "U1 bis Meiendorfer Weg, dann rund 200 m durch den Wald zum Kletterwald Hamburg (Meiendorfer Weg 122–128, 22359 Hamburg). Buslinie 24 hält ebenfalls am Meiendorfer Weg. Kostenloser Parkplatz am Waldrand.",
+ "startName": "Waldspielplatz am Kletterwald Hamburg",
+ "arten": [
+  "Rotbuche",
+  "Reh",
+  "Buschwindröschen",
+  "Waldmeister",
+  "Bergahorn",
+  "Buchfink",
+  "Kohlmeise",
+  "Amsel",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kleiber",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 85,
+ "form": "flaeche",
+ "website": "https://spielplatznet.de/spielplatz/5505/Hamburg/Waldspielplatz%20Volksdorfer%20Wald",
+ "eintrittPreise": "kostenlos",
+ "besuchshinweise": "Der Spielplatz ist frei zugänglich, der Kletterwald nebenan kostet Eintritt und pausiert im Winter. Die Holzfiguren stammen von 2010, ihr Zustand wechselt, einzelne Teile können fehlen. WC und Bänke rund 150 m südöstlich am Parkplatz.",
+ "area": [
+  [
+   53.639271,
+   10.15944
+  ],
+  [
+   53.639302,
+   10.159564
+  ],
+  [
+   53.639257,
+   10.159783
+  ],
+  [
+   53.639134,
+   10.159852
+  ],
+  [
+   53.639018,
+   10.159717
+  ],
+  [
+   53.639029,
+   10.15945
+  ],
+  [
+   53.639154,
+   10.159343
+  ],
+  [
+   53.639271,
+   10.15944
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 43068330,
+   "lat": 53.639144,
+   "lon": 10.159597,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Skulpturen-Spielplatz",
+   "thema": "Spielen mit Holzwesen",
+   "kurztext": "Rund 20 geschnitzte Teile aus Eichenholz bilden Sandkasten, Schaukel, Wippe und Balancierstrecken.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 43068332,
+   "lat": 53.638827,
+   "lon": 10.160141,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Kletterwald Hamburg",
+   "thema": "Hochseilgarten",
+   "kurztext": "Acht Parcours führen in zwei bis zehn Metern Höhe durch die Bäume, die meisten enden mit einer Seilbahn.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7988154434,
+   "lat": 53.638759,
+   "lon": 10.161264,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Gedenkstein Kleinbahn",
+   "thema": "Ortsgeschichte",
+   "kurztext": "Der Stein erinnert an die Haltestelle „Volksdorfer Wald“ der elektrischen Kleinbahn, die von 1904 bis 1923 Rahlstedt und Volksdorf verband.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 43068330,
+   "lat": 53.639144,
+   "lon": 10.159597,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 539525163,
+   "lat": 53.638207,
+   "lon": 10.161623,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 14028564556,
+   "lat": 53.638406,
+   "lon": 10.16171,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 27634985,
+   "lat": 53.638064,
+   "lon": 10.161691,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Reh": "belegt",
+  "Buschwindröschen": "typisch",
+  "Waldmeister": "typisch",
+  "Bergahorn": "typisch",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kleiber": "typisch",
+  "Rotkehlchen": "typisch"
+ }
+}

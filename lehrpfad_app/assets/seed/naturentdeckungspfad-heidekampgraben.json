@@ -1,0 +1,389 @@
+{
+ "id": "naturentdeckungspfad-heidekampgraben",
+ "name": "Naturentdeckungspfad am Heidekampgraben",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Wo bis 1989 die Mauer Neukölln von Treptow trennte, fließt der Heidekampgraben durch einen schmalen Grünzug. Tafeln erklären Bäume, Hecke und Wasserleben.",
+ "beschreibung": "Der Heidekampgraben tritt an der Neuköllnischen Allee aus Rohren an die Oberfläche und mündet im Treptower Park in die Spree. Bis 1989 verlief an seinem Ufer die Berliner Mauer, 2001 wurde der Grünzug neu gestaltet. Am Weg wachsen Eberesche, Hainbuche und Walnuss, im Herbst tragen Holunder, Schneeball und Brombeere Früchte. Dazwischen stehen Exoten: Gleditschien mit langen Dornen am Stamm und ein Trompetenbaum mit fast 30 Zentimeter großen Blättern. Im Sommer singen Nachtigall und Mönchsgrasmücke. Im Wasser leben Libellenlarven und Wasserskorpione.",
+ "laengeKm": 0.73,
+ "dauerMin": 55,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Freilandlabor Britz e.V.",
+ "region": "Neukölln, Bezirk Neukölln, Berlin",
+ "anreise": "Grünzug am Heidekampgraben zwischen Sonnenallee und Hänselstraße, Berlin-Neukölln; Einstieg an der Sonnenallee.",
+ "startName": "Heidekampgraben an der Sonnenallee",
+ "arten": [
+  "Eberesche",
+  "Hainbuche",
+  "Schwarzer Holunder",
+  "Brombeere",
+  "Gewöhnlicher Schneeball",
+  "Haselnuss",
+  "Libelle",
+  "Igel",
+  "Erdkröte",
+  "Amsel",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Hummel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "fliessgewaesser",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 82,
+ "website": "https://umweltbildung-neukoelln.de/gruene-orte/",
+ "besuchshinweise": "Schulen erhalten beim Freilandlabor Britz auf Anfrage Material zum Heidekampgraben als Lernort.",
+ "route": [
+  [
+   52.462272,
+   13.477122
+  ],
+  [
+   52.462308,
+   13.477169
+  ],
+  [
+   52.462342,
+   13.477218
+  ],
+  [
+   52.462422,
+   13.477275
+  ],
+  [
+   52.462492,
+   13.477266
+  ],
+  [
+   52.462551,
+   13.477237
+  ],
+  [
+   52.462604,
+   13.477227
+  ],
+  [
+   52.462669,
+   13.477255
+  ],
+  [
+   52.462833,
+   13.4774
+  ],
+  [
+   52.462952,
+   13.477486
+  ],
+  [
+   52.463257,
+   13.477802
+  ],
+  [
+   52.463383,
+   13.47789
+  ],
+  [
+   52.463488,
+   13.477935
+  ],
+  [
+   52.463777,
+   13.477951
+  ],
+  [
+   52.463998,
+   13.478106
+  ],
+  [
+   52.464062,
+   13.478111
+  ],
+  [
+   52.464122,
+   13.478116
+  ],
+  [
+   52.464289,
+   13.47811
+  ],
+  [
+   52.464532,
+   13.478108
+  ],
+  [
+   52.464735,
+   13.478104
+  ],
+  [
+   52.465024,
+   13.478079
+  ],
+  [
+   52.465202,
+   13.477872
+  ],
+  [
+   52.465426,
+   13.477735
+  ],
+  [
+   52.465625,
+   13.477622
+  ],
+  [
+   52.465704,
+   13.477538
+  ],
+  [
+   52.46585,
+   13.47746
+  ],
+  [
+   52.465957,
+   13.477345
+  ],
+  [
+   52.466043,
+   13.477191
+  ],
+  [
+   52.466204,
+   13.477104
+  ],
+  [
+   52.466361,
+   13.47695
+  ],
+  [
+   52.466472,
+   13.476764
+  ],
+  [
+   52.466555,
+   13.476601
+  ],
+  [
+   52.46666,
+   13.476469
+  ],
+  [
+   52.466837,
+   13.476363
+  ],
+  [
+   52.466991,
+   13.47623
+  ],
+  [
+   52.46744,
+   13.475679
+  ],
+  [
+   52.467945,
+   13.475088
+  ],
+  [
+   52.468059,
+   13.474906
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1937595597,
+   "lat": 52.462669,
+   "lon": 13.477255,
+   "km": 0.048,
+   "reihenfolge": 1,
+   "titel": "Warum die Kätzchen den Wind lieben",
+   "thema": "Frühling",
+   "kurztext": "Unter Walnussbäumen blühen im Frühling Narzissen, daneben lassen Haselsträucher schon ab Februar ihre Blüten vom Wind bestäuben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1785990519,
+   "lat": 52.463257,
+   "lon": 13.477802,
+   "km": 0.123,
+   "reihenfolge": 2,
+   "titel": "Leben im Heidekampgraben",
+   "thema": "Wasser",
+   "kurztext": "Im Graben leben Libellenlarven und Wasserschnecken, im Sommer bedeckt Teichlinse die Wasseroberfläche.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -494091745,
+   "lat": 52.463777,
+   "lon": 13.477951,
+   "km": 0.183,
+   "reihenfolge": 3,
+   "titel": "Flugfrüchte",
+   "thema": "Bäume",
+   "kurztext": "Hainbuche, Ahorn und Linde bilden im Herbst Flugfrüchte, die wie Propeller durch die Luft wirbeln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -51882050,
+   "lat": 52.464289,
+   "lon": 13.47811,
+   "km": 0.242,
+   "reihenfolge": 4,
+   "titel": "Die Weide",
+   "thema": "Bäume",
+   "kurztext": "Weidenkätzchen sind die Blüten der Weide, und jeder Baum trägt entweder nur männliche oder nur weibliche Blüten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1947244756,
+   "lat": 52.465024,
+   "lon": 13.478079,
+   "km": 0.324,
+   "reihenfolge": 5,
+   "titel": "Lebensraum Hecke und deren Früchte",
+   "thema": "Hecke",
+   "kurztext": "Igel, Insekten, Kröten und Vögel finden in der dichten Hecke Nahrung und Unterschlupf, im Herbst leuchten ihre Früchte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1830406510,
+   "lat": 52.465202,
+   "lon": 13.477872,
+   "km": 0.348,
+   "reihenfolge": 6,
+   "titel": "Laub und Totholz",
+   "thema": "Boden",
+   "kurztext": "Regenwürmer, Asseln und Käfer machen aus Laub und totem Holz wertvolle Erde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -438237688,
+   "lat": 52.465426,
+   "lon": 13.477735,
+   "km": 0.374,
+   "reihenfolge": 7,
+   "titel": "Das Leben des Baumes",
+   "thema": "Bäume",
+   "kurztext": "Jahresringe einer Baumscheibe verraten Alter und Wachstum eines Baumes, nebenan tragen Gleditschien lange Dornen am Stamm.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -178381929,
+   "lat": 52.465625,
+   "lon": 13.477622,
+   "km": 0.398,
+   "reihenfolge": 8,
+   "titel": "Die Birke",
+   "thema": "Bäume",
+   "kurztext": "Die schwarzweiße Borke macht die Birke kenntlich, im Herbst wirbeln Millionen ihrer Früchte durch die Luft.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2108085503,
+   "lat": 52.46585,
+   "lon": 13.47746,
+   "km": 0.425,
+   "reihenfolge": 9,
+   "titel": "Solitärinsekten",
+   "thema": "Insekten",
+   "kurztext": "Auf der sonnigen Wiese steht ein Insektenhotel, in dessen Halmen, Holzlöchern und Lehm Bienen und Wespen ihre Eier ablegen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 617825979,
+   "lat": 52.463549,
+   "lon": 13.477553,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 378952998,
+   "lat": 52.46623,
+   "lon": 13.476895,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1925733571,
+   "lat": 52.462757,
+   "lon": 13.47812,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 3659637364,
+   "lat": 52.465134,
+   "lon": 13.478644,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 3659637367,
+   "lat": 52.466431,
+   "lon": 13.477433,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 838728009,
+   "lat": 52.46329,
+   "lon": 13.476782,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Eberesche": "belegt",
+  "Hainbuche": "belegt",
+  "Schwarzer Holunder": "belegt",
+  "Brombeere": "belegt",
+  "Gewöhnlicher Schneeball": "belegt",
+  "Haselnuss": "belegt",
+  "Libelle": "belegt",
+  "Igel": "belegt",
+  "Erdkröte": "typisch",
+  "Amsel": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Hummel": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "c4772831-22ed-4623-8875-d140807ad21b",
+   "id": "c4772831-22ed-4623-8875-d140807ad21b",
+   "caption": "Wiese und Weg im Grünzug am Heidekampgraben (Heidekamppark, Aufnahme 2018)",
+   "credit": "Assenmacher, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin-Neuk%C3%B6lln_Heidekamppark_(1).jpg",
+   "kind": "ort"
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "id": "naturerlebnispfad-kaltehofe",
+ "name": "Naturerlebnispfad Elbinsel Kaltehofe",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Filterbecken eines stillgelegten Wasserwerks sind auf der Elbinsel Kaltehofe zu Biotopen geworden. Tafeln, ein Barfußpfad und eine Vogelplattform liegen am Weg.",
+ "beschreibung": "Von 1893 bis 1990 filterte das Wasserwerk Kaltehofe Elbwasser für Hamburg. Danach blieb die Insel rund 20 Jahre sich selbst überlassen, und in den alten Becken wuchsen Schilf, Tausendblatt und Laichkraut. Plötzen und Rotfedern kamen als Laich an den Federn von Vögeln. Heute stellen 25 Tafeln auf dem Gelände der Wasserkunst Tiere, Pflanzen und die Technik des Werks vor. Auf den Schieberhäuschen trocknet der Kormoran seine Flügel, im Frühjahr quaken Frösche an den Ufern. Mehr als 280 Pflanzen- und 44 Vogelarten leben auf der Insel. Ein 30 Meter langer Barfußpfad führt über Kies, Sand, Holz und Gras.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Stiftung Wasserkunst Elbinsel Kaltehofe",
+ "region": "Rothenburgsort, Bezirk Hamburg-Mitte, Hamburg",
+ "anreise": "Kaltehofe-Hauptdeich 6–7, 20539 Hamburg. Bushaltestelle Wasserkunst Kaltehofe und Parkplatz am Eingang.",
+ "startName": "Wasserkunst Kaltehofe, Informationszentrum Altes Labor",
+ "arten": [
+  "Hängebirke",
+  "Stieleiche",
+  "Salweide",
+  "Schwarzer Holunder",
+  "Schilf",
+  "Kormoran",
+  "Graugans",
+  "Graureiher",
+  "Ringelnatter",
+  "Honigbiene",
+  "Wildbiene",
+  "Eichhörnchen",
+  "Feldhase",
+  "Rotfuchs",
+  "Reh",
+  "Teichfrosch"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "barfusspfad",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 153,
+ "form": "flaeche",
+ "website": "https://wasserkunst-hamburg.de/wasserkunst-kaltehofe/naturpark/",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "1. April bis 31. Oktober Di–So und an Feiertagen 10–18 Uhr, 1. November bis 31. März Mi–So 10–17 Uhr. Vom 21. Dezember 2026 bis 12. Januar 2027 geschlossen.",
+ "besuchshinweise": "Das Naturschutzgebiet auf der übrigen Insel ist nicht begehbar. Ferngläser für die Vogelplattform und ein Natur-Quiz leiht die Wasserkunst aus. Das Gelände ist nur zu den Öffnungszeiten der Wasserkunst offen.",
+ "area": [
+  [
+   53.524292,
+   10.051858
+  ],
+  [
+   53.524584,
+   10.052289
+  ],
+  [
+   53.524536,
+   10.052411
+  ],
+  [
+   53.524844,
+   10.052581
+  ],
+  [
+   53.525005,
+   10.053589
+  ],
+  [
+   53.525181,
+   10.053887
+  ],
+  [
+   53.525319,
+   10.053603
+  ],
+  [
+   53.525481,
+   10.053846
+  ],
+  [
+   53.525382,
+   10.054026
+  ],
+  [
+   53.525388,
+   10.054198
+  ],
+  [
+   53.525666,
+   10.054675
+  ],
+  [
+   53.52559,
+   10.054831
+  ],
+  [
+   53.525266,
+   10.054313
+  ],
+  [
+   53.523648,
+   10.057042
+  ],
+  [
+   53.522473,
+   10.054825
+  ],
+  [
+   53.523619,
+   10.053044
+  ],
+  [
+   53.524056,
+   10.052282
+  ],
+  [
+   53.524177,
+   10.052063
+  ],
+  [
+   53.524292,
+   10.051858
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 14335993007,
+   "lat": 53.524092,
+   "lon": 10.052725,
+   "km": 0.03,
+   "reihenfolge": 1,
+   "titel": "Kaltehofe: Ein Industriedenkmal",
+   "thema": "Geschichte",
+   "kurztext": "Ab 1893 filterte das Wasserwerk hier Elbwasser und lieferte Hamburg sauberes Trinkwasser. Es ist das älteste Filtrierwerk der Stadt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 12667639021,
+   "lat": 53.524947,
+   "lon": 10.053314,
+   "km": 0.09,
+   "reihenfolge": 2,
+   "titel": "Insektenhotel",
+   "thema": "Insekten",
+   "kurztext": "Wildbienen leben meist allein und nisten in Erdgängen, Totholz oder leeren Schneckenhäusern. Das Insektenhotel bietet ihnen, Marienkäfern und Florfliegen Unterschlupf.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336022672,
+   "lat": 53.525107,
+   "lon": 10.05378,
+   "km": 0.12,
+   "reihenfolge": 3,
+   "titel": "Ökosystem Gehölz",
+   "thema": "Lebensräume",
+   "kurztext": "Nach der Schließung 1990 trugen Wind und Vögel Samen von Birken, Erlen und Weiden auf das Gelände. Daraus wächst ein Gehölz, ein richtiger Wald ist es noch nicht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336017621,
+   "lat": 53.523292,
+   "lon": 10.053746,
+   "km": 0.14,
+   "reihenfolge": 4,
+   "titel": "Säugetiere auf Kaltehofe",
+   "thema": "Tiere",
+   "kurztext": "Feldhasen, Rehe, Rotfüchse, Eichhörnchen und Hermeline haben sich auf der Elbinsel angesiedelt, seit das Wasserwerk stillsteht.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336028284,
+   "lat": 53.523613,
+   "lon": 10.054199,
+   "km": 0.14,
+   "reihenfolge": 5,
+   "titel": "Schieberhäuschen auf Kaltehofe",
+   "thema": "Geschichte",
+   "kurztext": "An Zu- und Abfluss jedes Filterbeckens steht ein Schieberhäuschen. Wärter regelten hier mit Ventilen den Wasserstand, während das Wasser durch 1,60 Meter Sand, Kies und Steine sickerte.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14335993006,
+   "lat": 53.525167,
+   "lon": 10.054457,
+   "km": 0.16,
+   "reihenfolge": 6,
+   "titel": "Hänge-Birke",
+   "thema": "Pflanzen",
+   "kurztext": "Als Pionierbaum besiedelt die Hänge-Birke freie Flächen früh und bereitet sie für andere Arten vor. Höher als 30 Meter wird sie kaum.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336026246,
+   "lat": 53.525382,
+   "lon": 10.054128,
+   "km": 0.16,
+   "reihenfolge": 7,
+   "titel": "Unter Wasser",
+   "thema": "Lebensräume",
+   "kurztext": "Plötzen und Rotfedern in den Becken wurden nie eingesetzt. Vögel trugen klebrigen Fischlaich aus anderen Gewässern herein.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336009213,
+   "lat": 53.524421,
+   "lon": 10.055506,
+   "km": 0.2,
+   "reihenfolge": 8,
+   "titel": "Bienenstöcke",
+   "thema": "Tiere",
+   "kurztext": "Seit 2014 stehen Bienenstöcke auf Kaltehofe. Ein Hamburger Imker betreut die Völker, den Kaltehofer Honig gibt es seit 2015.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336031901,
+   "lat": 53.524595,
+   "lon": 10.055433,
+   "km": 0.2,
+   "reihenfolge": 9,
+   "titel": "Tiere in und an den Filterbecken",
+   "thema": "Tiere",
+   "kurztext": "Auf den Schieberhäuschen breitet der Kormoran oft die Flügel aus, um nach dem Tauchen das Gefieder zu trocknen. Im Frühjahr quaken an den Ufern die Frösche.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336017622,
+   "lat": 53.522592,
+   "lon": 10.054888,
+   "km": 0.25,
+   "reihenfolge": 10,
+   "titel": "Invasive Tierarten auf Kaltehofe",
+   "thema": "Tiere",
+   "kurztext": "Nutria aus Südamerika und Marderhund aus Ostasien gehören zu den eingewanderten Tierarten, die heute auf Kaltehofe leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336010261,
+   "lat": 53.522879,
+   "lon": 10.055439,
+   "km": 0.25,
+   "reihenfolge": 11,
+   "titel": "Fledermäuse auf Kaltehofe",
+   "thema": "Tiere",
+   "kurztext": "Ein Drittel der in Deutschland heimischen Fledermausarten kommt auf der Elbinsel vor. Im Sommer bietet die Wasserkunst Fledermaus-Führungen an.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336003749,
+   "lat": 53.524055,
+   "lon": 10.056224,
+   "km": 0.25,
+   "reihenfolge": 12,
+   "titel": "Sal-Weide",
+   "thema": "Pflanzen",
+   "kurztext": "Schon im März blüht die Sal-Weide und ist damit die früheste Nahrungsquelle für Bienen im Jahr.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336028803,
+   "lat": 53.522661,
+   "lon": 10.055157,
+   "km": 0.26,
+   "reihenfolge": 13,
+   "titel": "Feuchtbiotop Kaltehofe",
+   "thema": "Lebensräume",
+   "kurztext": "Röhricht an den Beckenufern schützt Fische, Frösche und nistende Vögel. Gleich nebenan liegt das Naturschutzgebiet Holzhafen, ein Süßwasserwatt mit Ebbe und Flut.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336028804,
+   "lat": 53.523228,
+   "lon": 10.05615,
+   "km": 0.27,
+   "reihenfolge": 14,
+   "titel": "Schwarzer Holunder",
+   "thema": "Pflanzen",
+   "kurztext": "In Norddeutschland heißt der Schwarze Holunder auch Schwarzer Flieder. Die Beeren enthalten den Giftstoff Sambunigrin, deshalb wird Holundersaft auf mindestens 80 Grad erhitzt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14335966700,
+   "lat": 53.523401,
+   "lon": 10.056454,
+   "km": 0.28,
+   "reihenfolge": 15,
+   "titel": "Auf den Spuren eines Rückkehrers – Der Biber in Hamburg",
+   "thema": "Tiere",
+   "kurztext": "Spuren eines Bibers fanden sich auf Kaltehofe erstmals 2017. Seit einiger Zeit ist er nicht mehr auf der Insel unterwegs.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14336028442,
+   "lat": 53.52349,
+   "lon": 10.056517,
+   "km": 0.28,
+   "reihenfolge": 16,
+   "titel": "Silber-Pappel",
+   "thema": "Pflanzen",
+   "kurztext": "Unter den Blättern ist die Silber-Pappel weiß-grau, im Wind scheint die Krone silbern zu funkeln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1149475432,
+   "lat": 53.523495,
+   "lon": 10.056629,
+   "km": 0.29,
+   "reihenfolge": 17,
+   "titel": "Vogelbeobachtungsplattform",
+   "thema": "Beobachten",
+   "kurztext": "Eine Sichtschutzwand lässt rastende Zugvögel ungestört. Ferngläser verleiht die Wasserkunst für 2 Euro.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1469287147,
+   "lat": 53.524391,
+   "lon": 10.052378,
+   "kategorie": "gastro",
+   "name": "Dante Kaltehofe"
+  },
+  {
+   "osmId": 12667715293,
+   "lat": 53.524223,
+   "lon": 10.05258,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 133496961,
+   "lat": 53.524751,
+   "lon": 10.051462,
+   "kategorie": "parking",
+   "name": "Wasserkunst Kaltehofe"
+  },
+  {
+   "osmId": 11950572780,
+   "lat": 53.524196,
+   "lon": 10.052533,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 14335966699,
+   "lat": 53.525032,
+   "lon": 10.054164,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Hängebirke": "belegt",
+  "Stieleiche": "belegt",
+  "Salweide": "belegt",
+  "Schwarzer Holunder": "belegt",
+  "Schilf": "belegt",
+  "Kormoran": "belegt",
+  "Graugans": "belegt",
+  "Graureiher": "belegt",
+  "Ringelnatter": "belegt",
+  "Honigbiene": "belegt",
+  "Wildbiene": "belegt",
+  "Eichhörnchen": "belegt",
+  "Feldhase": "belegt",
+  "Rotfuchs": "belegt",
+  "Reh": "belegt",
+  "Teichfrosch": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "c221aabf-a63c-4c45-84af-e4d8fcefea63",
+   "id": "c221aabf-a63c-4c45-84af-e4d8fcefea63",
+   "caption": "Schieberhäuschen an einem alten Filterbecken auf Kaltehofe (Oktober 2013)",
+   "credit": "An-d, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg-Rothenburgsort_Kaltehofe_Schieberh%C3%A4uschen_2.jpg",
+   "kind": "ort"
+  }
+ ]
+}

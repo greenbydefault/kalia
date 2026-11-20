@@ -1,0 +1,598 @@
+{
+ "id": "naturlernpfad-hoenower-weiherkette",
+ "name": "Naturlernpfad Hönower Weiherkette",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Zwölf eiszeitliche Weiher reihen sich am Ostrand von Hellersdorf aneinander. Ein Lernpfad mit Tafeln führt an Weiden und einem Naturspielort vorbei.",
+ "beschreibung": "Ganz im Osten von Hellersdorf, an der Grenze zu Brandenburg, haben eiszeitliche Gletscher zwölf Teiche hinterlassen: die Hönower Weiherkette. Seit Mai 2024 führt ein Naturlernpfad mit Lerntafeln und Lageplänen durch das etwa 55 Hektar große Schutzgebiet. Themen der Tafeln sind Amphibien, Eiszeit, Wald, Offenland und Beweidung. Weidetiere halten die Wiesen kurz, das schont Vögel und Insekten besser als Mähen. Breite Wege, Benjeshecken und Geländer halten die Weiher ungestört. An der Gohliser Straße stehen seit 2022 eine Schaukel und ein Balancierparcours aus Holz und Tauen.",
+ "laengeKm": 1.99,
+ "dauerMin": 65,
+ "rundkurs": false,
+ "markierung": "Wegeleitsystem und Lagepläne des Bezirks",
+ "betreiber": "Bezirksamt Marzahn-Hellersdorf",
+ "region": "Hellersdorf, Bezirk Marzahn-Hellersdorf, Berlin",
+ "anreise": "U5 Hönow (Start der Eröffnungsbegehung) oder U5 Louis-Lewin-Straße.",
+ "startName": "U-Bahnhof Hönow, Eingang",
+ "arten": [
+  "Kultur-Apfel",
+  "Schilf",
+  "Eingriffeliger Weißdorn",
+  "Heckenrose",
+  "Schlehe",
+  "Teichfrosch",
+  "Erdkröte",
+  "Grasfrosch",
+  "Stockente",
+  "Blässhuhn",
+  "Libelle",
+  "Kohlmeise",
+  "Goldammer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 44,
+ "website": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1439678.php",
+ "besuchshinweise": "Benjeshecken und Geländer begrenzen die Wege, dahinter bleiben Weiher und Wiesen ungestört.",
+ "route": [
+  [
+   52.538889,
+   13.631649
+  ],
+  [
+   52.538898,
+   13.631601
+  ],
+  [
+   52.538961,
+   13.631634
+  ],
+  [
+   52.539024,
+   13.631666
+  ],
+  [
+   52.539065,
+   13.631688
+  ],
+  [
+   52.539109,
+   13.631711
+  ],
+  [
+   52.539137,
+   13.631724
+  ],
+  [
+   52.539228,
+   13.631773
+  ],
+  [
+   52.539296,
+   13.631808
+  ],
+  [
+   52.539404,
+   13.631788
+  ],
+  [
+   52.539587,
+   13.631676
+  ],
+  [
+   52.53971,
+   13.631666
+  ],
+  [
+   52.539933,
+   13.631423
+  ],
+  [
+   52.540225,
+   13.631086
+  ],
+  [
+   52.540236,
+   13.630967
+  ],
+  [
+   52.540247,
+   13.630839
+  ],
+  [
+   52.540325,
+   13.629906
+  ],
+  [
+   52.540381,
+   13.629215
+  ],
+  [
+   52.540446,
+   13.62842
+  ],
+  [
+   52.540918,
+   13.628528
+  ],
+  [
+   52.541071,
+   13.628564
+  ],
+  [
+   52.541333,
+   13.628625
+  ],
+  [
+   52.541385,
+   13.627987
+  ],
+  [
+   52.541418,
+   13.627873
+  ],
+  [
+   52.54148,
+   13.627719
+  ],
+  [
+   52.541493,
+   13.627646
+  ],
+  [
+   52.541529,
+   13.627322
+  ],
+  [
+   52.541662,
+   13.627419
+  ],
+  [
+   52.541708,
+   13.627495
+  ],
+  [
+   52.541788,
+   13.627661
+  ],
+  [
+   52.541848,
+   13.627745
+  ],
+  [
+   52.541899,
+   13.627795
+  ],
+  [
+   52.541948,
+   13.627816
+  ],
+  [
+   52.5421,
+   13.627835
+  ],
+  [
+   52.542093,
+   13.627951
+  ],
+  [
+   52.5421,
+   13.627835
+  ],
+  [
+   52.542234,
+   13.626434
+  ],
+  [
+   52.542268,
+   13.626379
+  ],
+  [
+   52.542347,
+   13.626325
+  ],
+  [
+   52.542434,
+   13.626202
+  ],
+  [
+   52.542656,
+   13.625968
+  ],
+  [
+   52.542678,
+   13.625858
+  ],
+  [
+   52.542735,
+   13.62516
+  ],
+  [
+   52.542743,
+   13.624897
+  ],
+  [
+   52.542773,
+   13.624797
+  ],
+  [
+   52.542829,
+   13.624733
+  ],
+  [
+   52.543034,
+   13.624646
+  ],
+  [
+   52.543128,
+   13.624566
+  ],
+  [
+   52.543259,
+   13.624402
+  ],
+  [
+   52.543288,
+   13.624204
+  ],
+  [
+   52.543302,
+   13.624008
+  ],
+  [
+   52.543342,
+   13.623844
+  ],
+  [
+   52.543425,
+   13.623634
+  ],
+  [
+   52.543463,
+   13.623487
+  ],
+  [
+   52.543467,
+   13.623312
+  ],
+  [
+   52.543471,
+   13.623069
+  ],
+  [
+   52.543462,
+   13.622907
+  ],
+  [
+   52.543438,
+   13.622731
+  ],
+  [
+   52.543451,
+   13.622547
+  ],
+  [
+   52.543496,
+   13.622171
+  ],
+  [
+   52.54355,
+   13.621919
+  ],
+  [
+   52.543594,
+   13.621503
+  ],
+  [
+   52.543593,
+   13.621226
+  ],
+  [
+   52.543628,
+   13.620616
+  ],
+  [
+   52.543667,
+   13.620399
+  ],
+  [
+   52.543669,
+   13.620116
+  ],
+  [
+   52.54366,
+   13.620041
+  ],
+  [
+   52.543653,
+   13.619979
+  ],
+  [
+   52.543662,
+   13.619877
+  ],
+  [
+   52.543669,
+   13.619783
+  ],
+  [
+   52.543256,
+   13.619667
+  ],
+  [
+   52.542963,
+   13.619598
+  ],
+  [
+   52.542285,
+   13.619433
+  ],
+  [
+   52.542417,
+   13.619234
+  ],
+  [
+   52.542285,
+   13.619433
+  ],
+  [
+   52.542201,
+   13.619418
+  ],
+  [
+   52.542113,
+   13.619401
+  ],
+  [
+   52.54197,
+   13.61938
+  ],
+  [
+   52.541916,
+   13.619331
+  ],
+  [
+   52.541714,
+   13.61929
+  ],
+  [
+   52.541659,
+   13.619311
+  ],
+  [
+   52.54137,
+   13.61926
+  ],
+  [
+   52.541241,
+   13.619254
+  ],
+  [
+   52.541193,
+   13.619238
+  ],
+  [
+   52.541146,
+   13.619198
+  ],
+  [
+   52.541117,
+   13.619139
+  ],
+  [
+   52.541102,
+   13.619076
+  ],
+  [
+   52.54105,
+   13.61909
+  ],
+  [
+   52.540972,
+   13.619107
+  ],
+  [
+   52.540961,
+   13.619164
+  ],
+  [
+   52.540934,
+   13.619206
+  ],
+  [
+   52.540887,
+   13.619243
+  ],
+  [
+   52.540598,
+   13.619306
+  ],
+  [
+   52.54037,
+   13.619369
+  ],
+  [
+   52.539956,
+   13.619513
+  ],
+  [
+   52.539853,
+   13.619547
+  ],
+  [
+   52.539591,
+   13.619633
+  ],
+  [
+   52.539493,
+   13.619665
+  ],
+  [
+   52.539416,
+   13.619687
+  ],
+  [
+   52.539356,
+   13.619706
+  ],
+  [
+   52.539151,
+   13.619769
+  ],
+  [
+   52.538871,
+   13.619868
+  ],
+  [
+   52.53882,
+   13.619868
+  ],
+  [
+   52.538535,
+   13.619957
+  ],
+  [
+   52.538531,
+   13.619911
+  ],
+  [
+   52.538541,
+   13.619721
+  ],
+  [
+   52.538502,
+   13.618697
+  ],
+  [
+   52.538479,
+   13.618555
+  ],
+  [
+   52.538401,
+   13.618357
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 40160423,
+   "lat": 52.541647,
+   "lon": 13.629229,
+   "km": 0.448,
+   "reihenfolge": 1,
+   "titel": "Froschweiher",
+   "thema": "Eiszeitliche Weiher",
+   "kurztext": "Der Froschweiher, auch Froschpfuhl genannt, ist einer der zwölf eiszeitlichen Teiche der Kette.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1304239907,
+   "lat": 52.541628,
+   "lon": 13.627515,
+   "km": 0.558,
+   "reihenfolge": 2,
+   "titel": "Naturspielort Gohliser Straße",
+   "thema": "Spielen in der Natur",
+   "kurztext": "Schaukel und Balancierparcours aus Holz und Tauen bilden seit Juli 2022 den Naturspielort.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 40160200,
+   "lat": 52.541898,
+   "lon": 13.62513,
+   "km": 0.83,
+   "reihenfolge": 3,
+   "titel": "Mummel-Soll",
+   "thema": "Eiszeit",
+   "kurztext": "Sölle wie das Mummel-Soll entstanden, als nach der Eiszeit vergrabene Eisblöcke tauten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 293596634,
+   "lat": 52.543125,
+   "lon": 13.622159,
+   "km": 1.076,
+   "reihenfolge": 4,
+   "titel": "Obstwiese",
+   "thema": "Offenland",
+   "kurztext": "Auf der Obstwiese am Obersee stehen Apfelbäume.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1952343480,
+   "lat": 52.542588,
+   "lon": 13.619095,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 50501271,
+   "lat": 52.542548,
+   "lon": 13.61907,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 4754275591,
+   "lat": 52.541518,
+   "lon": 13.627334,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 4754286309,
+   "lat": 52.54349,
+   "lon": 13.623235,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1304239907,
+   "lat": 52.541628,
+   "lon": 13.627515,
+   "kategorie": "playground",
+   "name": "Naturspielort Gohliser Straße"
+  },
+  {
+   "osmId": 24656952,
+   "lat": 52.539019,
+   "lon": 13.631228,
+   "kategorie": "parking",
+   "name": "P+R U Hönow"
+  }
+ ],
+ "artenNachweis": {
+  "Kultur-Apfel": "belegt",
+  "Schilf": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Heckenrose": "typisch",
+  "Schlehe": "typisch",
+  "Teichfrosch": "typisch",
+  "Erdkröte": "typisch",
+  "Grasfrosch": "typisch",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Libelle": "typisch",
+  "Kohlmeise": "typisch",
+  "Goldammer": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "da7ec034-fd84-4a9e-bc93-5aaf7cb1e57e",
+   "id": "da7ec034-fd84-4a9e-bc93-5aaf7cb1e57e",
+   "caption": "Offene Wiese in der Hönower Weiherkette (Mai 2015)",
+   "credit": "Sebaso, CC0, via Wikimedia Commons",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20150510_H%C3%B6nower_Weiherkette_by_sebaso_IMG_4084.jpg",
+   "kind": "ort"
+  }
+ ]
+}

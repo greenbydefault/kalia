@@ -1,0 +1,260 @@
+{
+ "id": "kinderbauernhof-goerlitzer-park",
+ "name": "Kinderbauernhof im Görlitzer Park",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Am Rand des Görlitzer Parks leben Ziegen, Schafe, Esel, Ponys, Gänse und Hühner. Eltern und Pädagogen haben den Hof Anfang der 1980er-Jahre gegründet.",
+ "beschreibung": "Mitten in Kreuzberg dürfen Kinder Schweine, Esel und Ponys streicheln, füttern und beim Versorgen helfen. Den Hof haben Eltern und Pädagogen Anfang der 1980er-Jahre mit vielen Freiwilligen aufgebaut, damit Stadtkinder Tiere aus der Nähe kennenlernen. Neben Ziegen und Schafen leben hier Enten, Gänse, Kaninchen, Meerschweinchen und Hühner. Am Teich gründeln die Enten und Gänse. Zum Gelände gehören ein Garten, ein Spielplatz und eine Werkstatt für die Arbeitsgemeinschaften. Das Außengelände steht allen offen, die Räume gehören der Kinder- und Jugendarbeit.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kinderbauernhof auf dem Görlitzer e.V.",
+ "region": "Kreuzberg, Bezirk Friedrichshain-Kreuzberg, Berlin",
+ "anreise": "Wiener Straße 59b, 10999 Berlin. U1/U3 bis Görlitzer Bahnhof, dann etwa 10 Minuten zu Fuß; Bus M29 bis Spreewaldplatz.",
+ "startName": "Kinderbauernhof auf dem Görlitzer (Wiener Straße 59b)",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Hauskaninchen",
+  "Haushuhn",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 178,
+ "form": "flaeche",
+ "website": "https://www.kinderbauernhofberlin.de/",
+ "oeffnungszeiten": "Mo und Mi geschlossen. Winterhalbjahr: Di, Do, Fr 10–18 Uhr, So 11–17 Uhr. Sommer laut visitBerlin: Di, Do, Fr 10–19 Uhr, Sa und So 11–18 Uhr. Samstags nur für Kinder von 6 bis 15 Jahren.",
+ "besuchshinweise": "Samstags ist der Hof nur für Kinder von 6 bis 15 Jahren offen. Sonntags backt das Familiencafé Waffeln. In den Ferien läuft ein Ferienprogramm.",
+ "area": [
+  [
+   52.495204,
+   13.439032
+  ],
+  [
+   52.495435,
+   13.438359
+  ],
+  [
+   52.49576,
+   13.437402
+  ],
+  [
+   52.495786,
+   13.437673
+  ],
+  [
+   52.495781,
+   13.437856
+  ],
+  [
+   52.495792,
+   13.437986
+  ],
+  [
+   52.495812,
+   13.438132
+  ],
+  [
+   52.495841,
+   13.438261
+  ],
+  [
+   52.495872,
+   13.438373
+  ],
+  [
+   52.495936,
+   13.438532
+  ],
+  [
+   52.496,
+   13.438651
+  ],
+  [
+   52.4961,
+   13.438775
+  ],
+  [
+   52.496015,
+   13.439042
+  ],
+  [
+   52.495946,
+   13.439379
+  ],
+  [
+   52.495861,
+   13.439643
+  ],
+  [
+   52.495598,
+   13.439402
+  ],
+  [
+   52.49526,
+   13.439085
+  ],
+  [
+   52.495204,
+   13.439032
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 104850377,
+   "lat": 52.495854,
+   "lon": 13.439269,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ziegen",
+   "thema": "Hoftiere",
+   "kurztext": "Auf der Wiese im Ziegengehege leben die Ziegen des Hofes, Kinder helfen beim Versorgen mit.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 104852934,
+   "lat": 52.495676,
+   "lon": 13.43894,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Schafe",
+   "thema": "Hoftiere",
+   "kurztext": "Im Schafgehege fressen die Schafe des Hofes, neue Tierpflegerinnen und Tierpfleger sind hier willkommen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 104852939,
+   "lat": 52.495566,
+   "lon": 13.439121,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Esel und Ponys",
+   "thema": "Hoftiere",
+   "kurztext": "Esel und Ponys haben ein eigenes Gehege, ihre Pflege lernen Kinder in den festen Gruppen des Hofes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 104857305,
+   "lat": 52.49548,
+   "lon": 13.438607,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Gänse und Enten",
+   "thema": "Hoftiere",
+   "kurztext": "Am Teich im Gänsegehege gründeln Enten und Gänse und putzen sich das Gefieder.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1041747397,
+   "lat": 52.495749,
+   "lon": 13.438749,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Kaninchenauslauf",
+   "thema": "Hoftiere",
+   "kurztext": "Kaninchen hoppeln durch den Auslauf, außerdem leben auf dem Hof Meerschweinchen und Schweine.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 104862213,
+   "lat": 52.495763,
+   "lon": 13.438114,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Hühnerstall",
+   "thema": "Hoftiere",
+   "kurztext": "Im Hühnerstall und davor scharren und picken die Hühner des Kinderbauernhofs.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 7042598240,
+   "lat": 52.495546,
+   "lon": 13.438191,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 104850373,
+   "lat": 52.495916,
+   "lon": 13.438937,
+   "kategorie": "playground",
+   "name": "Spielplatz auf dem Kinderbauernhof"
+  },
+  {
+   "osmId": 9590446686,
+   "lat": 52.49603,
+   "lon": 13.438951,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12954392670,
+   "lat": 52.495699,
+   "lon": 13.437818,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 7042598242,
+   "lat": 52.495476,
+   "lon": 13.438392,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 554758404,
+   "lat": 52.495404,
+   "lon": 13.437921,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 13168109414,
+   "lat": 52.494653,
+   "lon": 13.438282,
+   "kategorie": "gastro",
+   "name": "Ari's"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Hauskaninchen": "belegt",
+  "Haushuhn": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Honigbiene": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "4c31770e-728d-4f87-abbb-e34ce3a1181f",
+   "id": "4c31770e-728d-4f87-abbb-e34ce3a1181f",
+   "caption": "Enten- und Gänseteich auf dem Kinderbauernhof im Görlitzer Park (Aufnahme 2011)",
+   "credit": "Listening Eye, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kinderbauernhof_goerlitzer_park_berlin.jpg",
+   "kind": "ort"
+  }
+ ]
+}

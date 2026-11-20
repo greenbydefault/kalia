@@ -1,0 +1,549 @@
+{
+ "id": "moorerlebnispfad-erikasee",
+ "name": "Moorerlebnispfad am Erikasee (Leherheide-West)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Rundweg um den Erikasee mit Tafeln zu Moor, Torfstich und Wald. Am Ufer liegen Sinnesinseln und Balancierstrecken, über dem Wasser jagen Libellen.",
+ "beschreibung": "Der Erikasee in Leherheide-West wurde in den 1970er-Jahren angelegt. Bei der Sanierung von 2012 bis 2014 entstand der Moorerlebnispfad. Tafeln am Ufer erzählen vom Moor, vom Torfstecher und vom Ende des Moores. Kleine Stichwege führen zu Sinnesinseln im Wald, an denen Hören, Fühlen und Sehen im Mittelpunkt stehen. Große Hörtrichter fangen die Geräusche des Waldes ein. Dazu kommen Balancierstrecken, XXL-Bänke, Hängematten und ein Rastplatz in Form eines Moorkahns. Über dem Wasser jagen viele Libellen, zwei große Libellenfiguren stehen auf der Insel.",
+ "laengeKm": 1.2,
+ "dauerMin": 70,
+ "rundkurs": true,
+ "markierung": "keine Markierung",
+ "betreiber": "Gartenbauamt Bremerhaven",
+ "region": "Leherheide-West, Bremerhaven",
+ "anreise": "Am südlichen Ende der Jakob-Kaiser-Straße, Zugang über den Parkplatz Jakob-Kaiser-Straße (Jakob-Kaiser-Str. 16, 27578 Bremerhaven).",
+ "startName": "Erikasee, Übersichtskarte",
+ "arten": [
+  "Libelle",
+  "Stockente",
+  "Blässhuhn",
+  "Graureiher",
+  "Teichfrosch",
+  "Erdkröte",
+  "Grasfrosch",
+  "Schilf",
+  "Moorbirke"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "lebensraeume": [
+  "moor",
+  "see-ufer"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 75,
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/der-erikasee-die-idylle-in-leherheide-west.68460.html",
+ "besuchshinweise": "Baden ist nicht erlaubt, die Enten sollen nicht gefüttert werden. Zugang über den Parkplatz an der Jakob-Kaiser-Straße.",
+ "route": [
+  [
+   53.587934,
+   8.626715
+  ],
+  [
+   53.587931,
+   8.626596
+  ],
+  [
+   53.58809,
+   8.62673
+  ],
+  [
+   53.587931,
+   8.626596
+  ],
+  [
+   53.587938,
+   8.62686
+  ],
+  [
+   53.587952,
+   8.626986
+  ],
+  [
+   53.588044,
+   8.627364
+  ],
+  [
+   53.588135,
+   8.627668
+  ],
+  [
+   53.58817,
+   8.627876
+  ],
+  [
+   53.588192,
+   8.628085
+  ],
+  [
+   53.588235,
+   8.628014
+  ],
+  [
+   53.588302,
+   8.627943
+  ],
+  [
+   53.588376,
+   8.627812
+  ],
+  [
+   53.588434,
+   8.627722
+  ],
+  [
+   53.588376,
+   8.627812
+  ],
+  [
+   53.588302,
+   8.627943
+  ],
+  [
+   53.588235,
+   8.628014
+  ],
+  [
+   53.588192,
+   8.628085
+  ],
+  [
+   53.58817,
+   8.627876
+  ],
+  [
+   53.588135,
+   8.627668
+  ],
+  [
+   53.588044,
+   8.627364
+  ],
+  [
+   53.587952,
+   8.626986
+  ],
+  [
+   53.587938,
+   8.62686
+  ],
+  [
+   53.587931,
+   8.626596
+  ],
+  [
+   53.588889,
+   8.6274
+  ],
+  [
+   53.588972,
+   8.627509
+  ],
+  [
+   53.588999,
+   8.627545
+  ],
+  [
+   53.589208,
+   8.627678
+  ],
+  [
+   53.58929,
+   8.62785
+  ],
+  [
+   53.589357,
+   8.627946
+  ],
+  [
+   53.589427,
+   8.628024
+  ],
+  [
+   53.589521,
+   8.628041
+  ],
+  [
+   53.589616,
+   8.628022
+  ],
+  [
+   53.589765,
+   8.628022
+  ],
+  [
+   53.589974,
+   8.628108
+  ],
+  [
+   53.590027,
+   8.628024
+  ],
+  [
+   53.590112,
+   8.628186
+  ],
+  [
+   53.589783,
+   8.628663
+  ],
+  [
+   53.589682,
+   8.628524
+  ],
+  [
+   53.589642,
+   8.628522
+  ],
+  [
+   53.589616,
+   8.628546
+  ],
+  [
+   53.589439,
+   8.628829
+  ],
+  [
+   53.589325,
+   8.629117
+  ],
+  [
+   53.589296,
+   8.629186
+  ],
+  [
+   53.589262,
+   8.629236
+  ],
+  [
+   53.589304,
+   8.629292
+  ],
+  [
+   53.589355,
+   8.629494
+  ],
+  [
+   53.58935,
+   8.629613
+  ],
+  [
+   53.589313,
+   8.629684
+  ],
+  [
+   53.589234,
+   8.62974
+  ],
+  [
+   53.589204,
+   8.629787
+  ],
+  [
+   53.589222,
+   8.630042
+  ],
+  [
+   53.589167,
+   8.63017
+  ],
+  [
+   53.589085,
+   8.630247
+  ],
+  [
+   53.589035,
+   8.630247
+  ],
+  [
+   53.589005,
+   8.630208
+  ],
+  [
+   53.588903,
+   8.630119
+  ],
+  [
+   53.588877,
+   8.630096
+  ],
+  [
+   53.588805,
+   8.630084
+  ],
+  [
+   53.588706,
+   8.630033
+  ],
+  [
+   53.588608,
+   8.629942
+  ],
+  [
+   53.588551,
+   8.629802
+  ],
+  [
+   53.58852,
+   8.629595
+  ],
+  [
+   53.588462,
+   8.629408
+  ],
+  [
+   53.588403,
+   8.629294
+  ],
+  [
+   53.58835,
+   8.62922
+  ],
+  [
+   53.588309,
+   8.62914
+  ],
+  [
+   53.588161,
+   8.62889
+  ],
+  [
+   53.588124,
+   8.628876
+  ],
+  [
+   53.588017,
+   8.628967
+  ],
+  [
+   53.588124,
+   8.628876
+  ],
+  [
+   53.588161,
+   8.62889
+  ],
+  [
+   53.588096,
+   8.62867
+  ],
+  [
+   53.588099,
+   8.628527
+  ],
+  [
+   53.588102,
+   8.628448
+  ],
+  [
+   53.588155,
+   8.628275
+  ],
+  [
+   53.588192,
+   8.628085
+  ],
+  [
+   53.58817,
+   8.627876
+  ],
+  [
+   53.588135,
+   8.627668
+  ],
+  [
+   53.588044,
+   8.627364
+  ],
+  [
+   53.587939,
+   8.627489
+  ],
+  [
+   53.587732,
+   8.627803
+  ],
+  [
+   53.587939,
+   8.627489
+  ],
+  [
+   53.588044,
+   8.627364
+  ],
+  [
+   53.587952,
+   8.626986
+  ],
+  [
+   53.587938,
+   8.62686
+  ],
+  [
+   53.587934,
+   8.626715
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 3006960632,
+   "lat": 53.587967,
+   "lon": 8.626714,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Übersichtskarte",
+   "thema": "Überblick",
+   "kurztext": "Karte am Zugang mit dem Rundweg und den Sinnesinseln am Erikasee.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3032168484,
+   "lat": 53.588104,
+   "lon": 8.626688,
+   "km": 0.03,
+   "reihenfolge": 2,
+   "titel": "Entdecke … dein Gleichgewicht",
+   "thema": "Bewegung",
+   "kurztext": "Balancierstrecke am Weg, auf der sich das Gleichgewicht üben lässt.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960624,
+   "lat": 53.588428,
+   "lon": 8.627711,
+   "km": 0.19,
+   "reihenfolge": 3,
+   "titel": "Entdecke … die Geräusche des Waldes",
+   "thema": "Hören",
+   "kurztext": "Sinnesinsel zum Hören: Große Hörtrichter fangen die Geräusche des Waldes ein.",
+   "erlebnisse": [
+    "tafel",
+    "mitmach-modell"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3032168485,
+   "lat": 53.589008,
+   "lon": 8.627434,
+   "km": 0.46,
+   "reihenfolge": 4,
+   "titel": "Entdecke … dein Gleichgewicht",
+   "thema": "Bewegung",
+   "kurztext": "Eine weitere Balancierstrecke am Rundweg.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960620,
+   "lat": 53.589196,
+   "lon": 8.629796,
+   "km": 0.78,
+   "reihenfolge": 5,
+   "titel": "Entdecke … das Moor",
+   "thema": "Moor",
+   "kurztext": "Moore wachsen nur etwa einen Millimeter im Jahr. Hier geht es um das Moor rund um den See.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960621,
+   "lat": 53.58915,
+   "lon": 8.630207,
+   "km": 0.81,
+   "reihenfolge": 6,
+   "titel": "Entdecke … den Torfstecher",
+   "thema": "Moor",
+   "kurztext": "Torfstecher stachen früher Torf aus dem Moor und trockneten ihn als Brennstoff.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960619,
+   "lat": 53.58891,
+   "lon": 8.630102,
+   "km": 0.84,
+   "reihenfolge": 7,
+   "titel": "Entdecke … das Ende des Moores",
+   "thema": "Moor",
+   "kurztext": "Entwässerung und Torfabbau haben die meisten Moore Norddeutschlands verschwinden lassen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960623,
+   "lat": 53.588013,
+   "lon": 8.628953,
+   "km": 0.98,
+   "reihenfolge": 8,
+   "titel": "Entdecke … die Bewohner des Bodens",
+   "thema": "Boden",
+   "kurztext": "Sinnesinsel zu den kleinen Tieren, die im Waldboden leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960622,
+   "lat": 53.588133,
+   "lon": 8.62853,
+   "km": 1.03,
+   "reihenfolge": 9,
+   "titel": "Entdecke … den Wald",
+   "thema": "Wald",
+   "kurztext": "Alter Baumbestand säumt hier den Weg zwischen See und Wald.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3006960628,
+   "lat": 53.587714,
+   "lon": 8.627785,
+   "km": 1.16,
+   "reihenfolge": 10,
+   "titel": "Entdecke … den Wind in den Bäumen",
+   "thema": "Wald",
+   "kurztext": "Wind, der durch die Baumkronen streicht, ist das Thema am Ende der Runde.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 196555981,
+   "lat": 53.590583,
+   "lon": 8.627741,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Libelle": "belegt",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Graureiher": "typisch",
+  "Teichfrosch": "typisch",
+  "Erdkröte": "typisch",
+  "Grasfrosch": "typisch",
+  "Schilf": "typisch",
+  "Moorbirke": "typisch"
+ }
+}

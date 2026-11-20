@@ -1,0 +1,780 @@
+{
+ "id": "erlebnispfad-stadtnatur-volkspark-friedrichshain",
+ "name": "Erlebnispfad Stadtnatur im Volkspark Friedrichshain",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Rund um zwei Teiche und den Großen Bunkerberg jagen Habicht, Mäusebussard und Fledermäuse. Vor dem Café Schönbrunn steht eine Stiel-Eiche als Naturdenkmal.",
+ "beschreibung": "Vier Silber-Ahorne umstehen seit über 100 Jahren den Delphinbrunnen und bilden ein Kronendach voller Baumhöhlen. Von dort führt die Faltkarte zu zwölf Orten im Park, an denen sich Stadtnatur beobachten lässt. Über den Wiesen jagen Habicht, Sperber, Mäusebussard und Turmfalke, Federreste am Boden verraten ihre Rupfplätze. In der Dämmerung kreisen Zwergfledermäuse. Am Bunkerberg darf die Wildnis wachsen, dort bauen Eichhörnchen ihre Kobel. Auf dem Kleinen Bunkerberg wurde 2021 aus einer Grillwiese eine Wildblumenwiese mit Sandflächen für Wildbienen. Am Großen Teich schwimmen Mandarinenten neben Stockenten und Teichhühnern.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Bezirksamt Friedrichshain-Kreuzberg, Umwelt- und Naturschutzamt (mit Stadtnatur-Ranger*innen und Stiftung Naturschutz Berlin)",
+ "region": "Friedrichshain, Bezirk Friedrichshain-Kreuzberg, Berlin",
+ "anreise": "Volkspark Friedrichshain, Am Friedrichshain, 10249 Berlin. Tram M4 oder Bus 142/200 bis Am Friedrichshain, Tram M5/M6/M8 bis Platz der Vereinten Nationen. Station 1 ist das Rondell um den Delphinbrunnen neben dem Märchenbrunnen.",
+ "startName": "Delphinbrunnen im Rondell mit Silber-Ahornen",
+ "arten": [
+  "Stieleiche",
+  "Efeu",
+  "Schwarzer Holunder",
+  "Schlehe",
+  "Stockente",
+  "Blässhuhn",
+  "Graureiher",
+  "Höckerschwan",
+  "Mäusebussard",
+  "Zwergfledermaus",
+  "Eichhörnchen",
+  "Wildbiene",
+  "Hummel",
+  "Amsel",
+  "Ringeltaube"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 221,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/",
+ "besuchshinweise": "Faltkarte kostenlos im Café Schönbrunn, beim Umwelt- und Naturschutzamt Friedrichshain-Kreuzberg oder als Download. Ein Fernglas hilft. Am Bunkerberg auf den Wegen bleiben, Wasservögel nicht füttern.",
+ "area": [
+  [
+   52.525261,
+   13.43677
+  ],
+  [
+   52.525327,
+   13.436829
+  ],
+  [
+   52.525467,
+   13.436815
+  ],
+  [
+   52.525538,
+   13.436777
+  ],
+  [
+   52.525605,
+   13.436675
+  ],
+  [
+   52.525691,
+   13.436638
+  ],
+  [
+   52.525892,
+   13.435797
+  ],
+  [
+   52.526021,
+   13.435493
+  ],
+  [
+   52.526112,
+   13.435394
+  ],
+  [
+   52.52616,
+   13.435573
+  ],
+  [
+   52.526285,
+   13.435489
+  ],
+  [
+   52.526421,
+   13.435815
+  ],
+  [
+   52.526495,
+   13.43589
+  ],
+  [
+   52.526978,
+   13.436983
+  ],
+  [
+   52.527115,
+   13.436996
+  ],
+  [
+   52.527415,
+   13.437781
+  ],
+  [
+   52.527381,
+   13.43871
+  ],
+  [
+   52.52735,
+   13.439426
+  ],
+  [
+   52.527344,
+   13.439571
+  ],
+  [
+   52.527002,
+   13.439953
+  ],
+  [
+   52.526875,
+   13.440094
+  ],
+  [
+   52.526184,
+   13.440857
+  ],
+  [
+   52.526364,
+   13.441325
+  ],
+  [
+   52.526561,
+   13.44112
+  ],
+  [
+   52.526623,
+   13.441053
+  ],
+  [
+   52.526701,
+   13.44125
+  ],
+  [
+   52.527007,
+   13.442016
+  ],
+  [
+   52.527028,
+   13.442246
+  ],
+  [
+   52.527067,
+   13.442483
+  ],
+  [
+   52.527113,
+   13.442619
+  ],
+  [
+   52.527167,
+   13.442747
+  ],
+  [
+   52.527222,
+   13.442872
+  ],
+  [
+   52.527293,
+   13.442965
+  ],
+  [
+   52.527358,
+   13.443042
+  ],
+  [
+   52.527479,
+   13.443144
+  ],
+  [
+   52.527966,
+   13.444343
+  ],
+  [
+   52.5283,
+   13.445165
+  ],
+  [
+   52.528544,
+   13.4449
+  ],
+  [
+   52.529073,
+   13.444324
+  ],
+  [
+   52.529341,
+   13.444032
+  ],
+  [
+   52.529377,
+   13.443903
+  ],
+  [
+   52.5296,
+   13.443744
+  ],
+  [
+   52.529744,
+   13.443593
+  ],
+  [
+   52.529856,
+   13.443476
+  ],
+  [
+   52.529958,
+   13.443369
+  ],
+  [
+   52.530027,
+   13.443297
+  ],
+  [
+   52.530102,
+   13.443217
+  ],
+  [
+   52.530303,
+   13.443002
+  ],
+  [
+   52.530832,
+   13.442436
+  ],
+  [
+   52.530926,
+   13.442331
+  ],
+  [
+   52.53023,
+   13.441139
+  ],
+  [
+   52.529744,
+   13.440375
+  ],
+  [
+   52.529007,
+   13.439214
+  ],
+  [
+   52.528624,
+   13.438611
+  ],
+  [
+   52.528642,
+   13.438467
+  ],
+  [
+   52.528794,
+   13.438292
+  ],
+  [
+   52.528934,
+   13.438138
+  ],
+  [
+   52.529005,
+   13.43806
+  ],
+  [
+   52.529082,
+   13.437975
+  ],
+  [
+   52.529415,
+   13.437608
+  ],
+  [
+   52.529491,
+   13.437524
+  ],
+  [
+   52.529421,
+   13.436504
+  ],
+  [
+   52.52935,
+   13.435868
+  ],
+  [
+   52.529296,
+   13.435426
+  ],
+  [
+   52.52928,
+   13.435301
+  ],
+  [
+   52.529159,
+   13.434243
+  ],
+  [
+   52.529105,
+   13.43377
+  ],
+  [
+   52.529077,
+   13.43353
+  ],
+  [
+   52.528928,
+   13.432239
+  ],
+  [
+   52.528856,
+   13.431611
+  ],
+  [
+   52.528809,
+   13.431205
+  ],
+  [
+   52.528739,
+   13.430592
+  ],
+  [
+   52.528722,
+   13.430448
+  ],
+  [
+   52.528635,
+   13.429694
+  ],
+  [
+   52.528542,
+   13.428888
+  ],
+  [
+   52.528506,
+   13.428626
+  ],
+  [
+   52.528469,
+   13.428309
+  ],
+  [
+   52.5284,
+   13.427706
+  ],
+  [
+   52.528353,
+   13.427309
+  ],
+  [
+   52.528312,
+   13.426965
+  ],
+  [
+   52.528274,
+   13.426626
+  ],
+  [
+   52.528219,
+   13.426294
+  ],
+  [
+   52.528171,
+   13.425748
+  ],
+  [
+   52.528127,
+   13.425328
+  ],
+  [
+   52.528081,
+   13.425214
+  ],
+  [
+   52.52796,
+   13.425267
+  ],
+  [
+   52.527815,
+   13.425601
+  ],
+  [
+   52.527172,
+   13.427151
+  ],
+  [
+   52.527083,
+   13.427365
+  ],
+  [
+   52.526704,
+   13.427976
+  ],
+  [
+   52.525501,
+   13.429873
+  ],
+  [
+   52.525469,
+   13.430016
+  ],
+  [
+   52.525408,
+   13.430206
+  ],
+  [
+   52.524955,
+   13.430926
+  ],
+  [
+   52.524513,
+   13.431618
+  ],
+  [
+   52.523437,
+   13.43363
+  ],
+  [
+   52.523399,
+   13.433829
+  ],
+  [
+   52.52341,
+   13.434412
+  ],
+  [
+   52.523415,
+   13.434694
+  ],
+  [
+   52.523431,
+   13.435258
+  ],
+  [
+   52.523873,
+   13.435559
+  ],
+  [
+   52.5237,
+   13.436149
+  ],
+  [
+   52.523517,
+   13.4362
+  ],
+  [
+   52.523533,
+   13.436405
+  ],
+  [
+   52.523565,
+   13.436513
+  ],
+  [
+   52.523678,
+   13.436499
+  ],
+  [
+   52.523832,
+   13.436438
+  ],
+  [
+   52.523953,
+   13.436376
+  ],
+  [
+   52.524051,
+   13.436315
+  ],
+  [
+   52.524186,
+   13.436228
+  ],
+  [
+   52.524279,
+   13.43617
+  ],
+  [
+   52.524381,
+   13.436128
+  ],
+  [
+   52.524512,
+   13.436081
+  ],
+  [
+   52.524603,
+   13.436076
+  ],
+  [
+   52.524714,
+   13.436084
+  ],
+  [
+   52.524786,
+   13.436116
+  ],
+  [
+   52.524856,
+   13.436173
+  ],
+  [
+   52.524963,
+   13.436294
+  ],
+  [
+   52.52508,
+   13.436448
+  ],
+  [
+   52.52515,
+   13.436529
+  ],
+  [
+   52.525242,
+   13.436742
+  ],
+  [
+   52.525261,
+   13.43677
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 735456692,
+   "lat": 52.527842,
+   "lon": 13.427689,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Rondell mit Silber-Ahornen",
+   "thema": "Alte Bäume",
+   "kurztext": "Seit über 100 Jahren bilden vier Silber-Ahorne rund um den Delphinbrunnen ein großes Kronendach mit vielen Baumhöhlen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -402498479,
+   "lat": 52.527326,
+   "lon": 13.429187,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Berliner Greifvögel",
+   "thema": "Habicht, Sperber, Bussard und Falke",
+   "kurztext": "Habicht, Sperber, Mäusebussard und Turmfalke jagen im Park, Federreste am Boden verraten ihre Rupfplätze.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1627034425,
+   "lat": 52.526668,
+   "lon": 13.429394,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Fledermausjagdgebiet",
+   "thema": "Fledermäuse",
+   "kurztext": "Zwergfledermäuse und Mückenfledermäuse jagen hier in der Dämmerung und orten Insekten mit Ultraschall.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2124285594,
+   "lat": 52.525886,
+   "lon": 13.431046,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Wildnis am Bunkerberg",
+   "thema": "Sträucher und Totholz",
+   "kurztext": "Am Bunkerberg wächst eine bis zu fünf Meter hohe Strauchschicht ungestört, totes Holz bleibt liegen und Eichhörnchen bauen ihre Kobel.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7612060,
+   "lat": 52.524941,
+   "lon": 13.434376,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Kleiner Teich",
+   "thema": "Leben am Ufer",
+   "kurztext": "Am dicht bewachsenen Ufer des Kleinen Teichs jagt häufig ein Graureiher nach Fischen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -277899190,
+   "lat": 52.525432,
+   "lon": 13.433895,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Ahornblättrige Platane",
+   "thema": "Stadtbaum",
+   "kurztext": "Über 100 Jahre alt ist diese Platane, ihre Rinde platzt in großen Stücken ab und lässt den Stamm fleckig aussehen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1737971488,
+   "lat": 52.527123,
+   "lon": 13.436284,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Efeu",
+   "thema": "Späte Blüte",
+   "kurztext": "Efeu blüht erst im September und Oktober und versorgt dann Wildbienen, Fliegen und Schmetterlinge.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1999129265,
+   "lat": 52.528198,
+   "lon": 13.437888,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Schwarzer Holunder",
+   "thema": "Futterpflanze",
+   "kurztext": "Mit duftenden Blütendolden und dunklen Beeren ernährt der Schwarze Holunder Drosseln, Stare und Grasmücken.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 261600570,
+   "lat": 52.527965,
+   "lon": 13.436376,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Wildblumenwiese",
+   "thema": "Insektenhabitat",
+   "kurztext": "Auf dem Kleinen Bunkerberg wurde 2021 aus einer Grillwiese ein Insektenhabitat mit Wildblumen, Schlehenhecken, Sandflächen und Totholz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -420007736,
+   "lat": 52.527496,
+   "lon": 13.43415,
+   "km": 0,
+   "reihenfolge": 10,
+   "titel": "Naturdenkmal Stiel-Eiche",
+   "thema": "Naturdenkmal",
+   "kurztext": "Wegen ihrer Schönheit steht die um 1835 gepflanzte Stiel-Eiche vor dem Café Schönbrunn als Naturdenkmal unter Schutz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13555288,
+   "lat": 52.527257,
+   "lon": 13.433641,
+   "km": 0,
+   "reihenfolge": 11,
+   "titel": "Großer Teich",
+   "thema": "Wasservögel",
+   "kurztext": "Stockenten, bunte Mandarinenten, Blässhühner und Teichhühner leben am Großen Teich.",
+   "erlebnisse": [
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1996926484,
+   "lat": 52.527517,
+   "lon": 13.432407,
+   "km": 0,
+   "reihenfolge": 12,
+   "titel": "Grau-Pappel mit Moos",
+   "thema": "Moose",
+   "kurztext": "Moos wächst an dieser Grau-Pappel nur auf einer Seite, die Äste in ihrer Krone sind silbrig glatt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 261606214,
+   "lat": 52.528035,
+   "lon": 13.433968,
+   "kategorie": "gastro",
+   "name": "Schoenbrunn"
+  },
+  {
+   "osmId": 3201464861,
+   "lat": 52.528176,
+   "lon": 13.43387,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 11130931005,
+   "lat": 52.528104,
+   "lon": 13.433619,
+   "kategorie": "gastro",
+   "name": "Kiosk Schoenbrunn"
+  },
+  {
+   "osmId": 29026267,
+   "lat": 52.526664,
+   "lon": 13.428573,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 29026268,
+   "lat": 52.527519,
+   "lon": 13.430767,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 52492444,
+   "lat": 52.526991,
+   "lon": 13.428355,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 52492466,
+   "lat": 52.529009,
+   "lon": 13.435171,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 269571573,
+   "lat": 52.52481,
+   "lon": 13.435742,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 310357285,
+   "lat": 52.523491,
+   "lon": 13.433297,
+   "kategorie": "gastro",
+   "name": "Thommy's Imbiss"
+  },
+  {
+   "osmId": 993052959,
+   "lat": 52.528181,
+   "lon": 13.439758,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1012593637,
+   "lat": 52.527789,
+   "lon": 13.434415,
+   "kategorie": "gastro",
+   "name": "Grillhaus"
+  },
+  {
+   "osmId": 1063025175,
+   "lat": 52.524533,
+   "lon": 13.435744,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1564788860,
+   "lat": 52.52721,
+   "lon": 13.427435,
+   "kategorie": "wc",
+   "name": "Berliner Toilette"
+  }
+ ],
+ "bilder": [
+  {
+   "file": "52fcc868-a9f6-4c89-9848-5a9904183cec",
+   "id": "52fcc868-a9f6-4c89-9848-5a9904183cec",
+   "caption": "Rinde eines Silber-Ahorns (Naturdenkmal) am Rondell um den Delphinbrunnen, Station 1 (Aufnahme 2015)",
+   "credit": "Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acer_saccharinum_(20150525-DSC05323).jpg",
+   "kind": "ort"
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "id": "wupp-naturerlebnisgelaende-walle",
+ "name": "WUPP-Naturerlebnisgelände (Waller Umweltpädagogik Projekt)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Auf einem ehemaligen Kleingartengebiet in Walle stehen Baumhaus, Schwengelpumpe und Barfußpfad zwischen Trauerweiden und Brombeerhecken.",
+ "beschreibung": "Auf einem ehemaligen Kleingartengebiet in Walle ist ein Naturgelände für Kinder und Familien entstanden. Trauerweiden laden zum Verstecken ein, Brombeerhecken umranken das Gelände. Auf einem kleinen Berg steht eine Schwengelpumpe. Wer pumpt, schickt das Wasser hinunter in zwei Gräben. Auf übereinandergelegten Baumstämmen wird geklettert und gesessen, dazu kommen Baumhaus, Barfußpfad und Schmetterlingshügel. Kinder bauen Hütten, picknicken auf dem Wildnissofa, beobachten Vögel, fangen Insekten und kriechen durch den Weidentunnel.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Waller Umweltpädagogik Projekt (WUPP)",
+ "region": "Walle, Bremen",
+ "anreise": "Hagenweg / Ecke Fleetstraße, Bremen-Walle; mit Bahn und Bus bis Haltestelle Bahnhof Walle (Linien 2, 10, 20, 26).",
+ "startName": "WUPP-Naturerlebnisgelände, Eingang Hagenweg / Fleetstraße",
+ "arten": [
+  "Brombeere",
+  "Schwarzer Holunder",
+  "Eingriffeliger Weißdorn",
+  "Heckenrose",
+  "Kultur-Apfel",
+  "Kohlmeise",
+  "Blaumeise",
+  "Amsel",
+  "Rotkehlchen",
+  "Igel",
+  "Hummel",
+  "Honigbiene",
+  "Siebenpunkt-Marienkäfer",
+  "Tagpfauenauge"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "barfusspfad",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 45,
+ "form": "flaeche",
+ "website": "https://www.wupp-bremen.de/ueber-uns-news/",
+ "eintrittPreise": "Ferien- und Gruppenangebote kostenpflichtig (z. B. Herbstferienwoche 2026: 70 €, Dreitageskurs 30 €).",
+ "besuchshinweise": "Aktionen und Ferienprogramme laufen mit Anmeldung, Schulklassen und Kitagruppen melden sich für Termine an. Viele schmale Wege, unebene Oberflächen, teils Sand.",
+ "area": [
+  [
+   53.107463,
+   8.787697
+  ],
+  [
+   53.107197,
+   8.78766
+  ],
+  [
+   53.107104,
+   8.787871
+  ],
+  [
+   53.10693,
+   8.788288
+  ],
+  [
+   53.106862,
+   8.788459
+  ],
+  [
+   53.106733,
+   8.78878
+  ],
+  [
+   53.106674,
+   8.788887
+  ],
+  [
+   53.10662,
+   8.789026
+  ],
+  [
+   53.106827,
+   8.789073
+  ],
+  [
+   53.10691,
+   8.789092
+  ],
+  [
+   53.107049,
+   8.789124
+  ],
+  [
+   53.107473,
+   8.789222
+  ],
+  [
+   53.107463,
+   8.787697
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 7635295445,
+   "lat": 53.106654,
+   "lon": 8.788935,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Willkommensschild am Hagenweg",
+   "thema": "Eingang",
+   "kurztext": "Am Hagenweg begrüßt ein Schild am Eingang zum Naturerlebnisgelände.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7420861758,
+   "lat": 53.107211,
+   "lon": 8.788943,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Schwengelpumpe",
+   "thema": "Wasser",
+   "kurztext": "Wer an der Schwengelpumpe auf dem kleinen Berg pumpt, schickt Wasser hinunter in zwei Gräben.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5148537760,
+   "lat": 53.107197,
+   "lon": 8.788687,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Baumhaus",
+   "thema": "Klettern",
+   "kurztext": "Ins Baumhaus geht es hinauf, ringsum liegen übereinandergelegte Baumstämme zum Klettern und Sitzen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 822237519,
+   "lat": 53.107243,
+   "lon": 8.788263,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Barfußpfad",
+   "thema": "Sinne",
+   "kurztext": "Unterschiedliche Untergründe lassen sich mit nackten Füßen ertasten.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9311298797,
+   "lat": 53.107057,
+   "lon": 8.788133,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Schmetterlingshügel",
+   "thema": "Insekten",
+   "kurztext": "Der kleine Hügel trägt den Namen Schmetterlingshügel, in der Nähe lassen sich Insekten und Bodentiere fangen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1097443259,
+   "lat": 53.107401,
+   "lon": 8.78867,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 530115260,
+   "lat": 53.107077,
+   "lon": 8.78871,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 956153378,
+   "lat": 53.107214,
+   "lon": 8.788082,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 10048665232,
+   "lat": 53.107413,
+   "lon": 8.788639,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 10048665233,
+   "lat": 53.107392,
+   "lon": 8.788699,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 530115259,
+   "lat": 53.105999,
+   "lon": 8.789165,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Brombeere": "belegt",
+  "Schwarzer Holunder": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Heckenrose": "typisch",
+  "Kultur-Apfel": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Igel": "typisch",
+  "Hummel": "typisch",
+  "Honigbiene": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch",
+  "Tagpfauenauge": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "46c4f442-a45e-4364-a5b6-3cdf77dc0d58",
+   "id": "46c4f442-a45e-4364-a5b6-3cdf77dc0d58",
+   "caption": "Schutzhütte aus Holz auf dem WUPP-Naturerlebnisgelände (September 2022)",
+   "credit": "LEGOFAHRRAD, CC0, via Wikimedia Commons",
+   "license": "cc0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weather_shelter.jpg",
+   "kind": "ort"
+  }
+ ]
+}

@@ -168,18 +168,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nietleben_D%C3%B6lauerHeide_Spielplatz.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Stieleiche": "typisch",
-    "Hainbuche": "typisch",
-    "Hängebirke": "typisch",
-    "Gemeine Esche": "typisch",
-    "Eichelhäher": "typisch",
-    "Buchfink": "typisch",
-    "Kohlmeise": "typisch",
-    "Rotkehlchen": "typisch",
-    "Buntspecht": "typisch",
-    "Eichhörnchen": "typisch",
-    "Rote Waldameise": "typisch"
-  }
+  ]
 }

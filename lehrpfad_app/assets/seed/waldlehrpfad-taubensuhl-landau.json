@@ -567,22 +567,5 @@
    "kind": "ort"
   }
  ],
- "dataVersion": 42,
- "artenNachweis": {
-  "Buchfink": "typisch",
-  "Hängebirke": "typisch",
-  "Heidelbeere": "typisch",
-  "Kiefer": "typisch",
-  "Kohlmeise": "typisch",
-  "Rotbuche": "typisch",
-  "Buschwindröschen": "typisch",
-  "Waldmeister": "typisch",
-  "Adlerfarn": "typisch",
-  "Amsel": "typisch",
-  "Bergahorn": "typisch",
-  "Blaumeise": "typisch",
-  "Buntspecht": "typisch",
-  "Eberesche": "typisch",
-  "Eichelhäher": "typisch"
- }
+ "dataVersion": 42
 }

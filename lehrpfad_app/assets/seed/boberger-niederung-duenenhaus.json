@@ -1,0 +1,593 @@
+{
+ "id": "boberger-niederung-duenenhaus",
+ "name": "Boberger Niederung – Rundwege am Dünenhaus",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Hamburgs letzte Wanderdünen, Moor und Wiesen. Vom Dünenhaus der Loki Schmidt Stiftung führen vier markierte Rundwege durch die Boberger Niederung.",
+ "beschreibung": "In der Boberger Niederung im Hamburger Osten liegen die letzten Wanderdünen der Stadt, ein Überbleibsel der Eiszeit. Die Dünen wandern rund zehn Zentimeter im Jahr, gepflanzter Strandhafer bremst den Sand. Geesthang, Moor, Dünen, Heide und Marsch wechseln sich auf engem Raum ab. Im Boberger Dünenhaus der Loki Schmidt Stiftung erklärt eine Ausstellung, was hier lebt. Vom Haus führen Dünenweg, Moorweg, Terrassenweg und Wiesenweg mit je drei bis fünf Kilometern durch die Landschaften. Auf den sandigen Flächen leben seltene Heuschrecken wie Warzenbeißer und Blauflügelige Ödlandschrecke, in den Feuchtgebieten der Moorfrosch.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Symbole je Rundweg (Dünen-, Moor-, Terrassen-, Wiesenweg)",
+ "betreiber": "Loki Schmidt Stiftung (Boberger Dünenhaus)",
+ "region": "Lohbrügge/Billwerder, Bezirk Bergedorf, Hamburg",
+ "anreise": "S2 bis Mittlerer Landweg, dann Bus 221 bis Boberger Furtweg und zwei Minuten zu Fuß; oder Metrobus 32 bis Schulredder und 15 Minuten zu Fuß. Boberger Furt 50, 21033 Hamburg. Kostenloser Parkplatz „Boberger Düne“ rund 200 m nördlich.",
+ "startName": "Boberger Dünenhaus",
+ "arten": [
+  "Warzenbeißer",
+  "Blauflügelige Ödlandschrecke",
+  "Moorfrosch",
+  "Grünspecht",
+  "Eisvogel",
+  "Waldkauz",
+  "Zauneidechse",
+  "Strandhafer",
+  "Knabenkraut",
+  "Hängebirke",
+  "Besenheide",
+  "Kiefer",
+  "Silbergras"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "heide",
+  "moor"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 104,
+ "form": "flaeche",
+ "website": "https://loki-schmidt-stiftung.de/boberg",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Dünenhaus: Di–Fr 9–13 Uhr, Sonn- und Feiertage 11–17 Uhr. Rundwege frei zugänglich.",
+ "besuchshinweise": "Die Rundwege sind jederzeit offen, das Dünenhaus mit WC hat feste Öffnungszeiten. Dort gibt es Faltblätter gegen Spende und Rätselmaterial für den Eulenpfad. Im Norden wird bis Ende 2027 belasteter Boden ausgetauscht, Wege dort können gesperrt sein.",
+ "area": [
+  [
+   53.51991,
+   10.13387
+  ],
+  [
+   53.523092,
+   10.128789
+  ],
+  [
+   53.523083,
+   10.12863
+  ],
+  [
+   53.521459,
+   10.125872
+  ],
+  [
+   53.519363,
+   10.122525
+  ],
+  [
+   53.51861,
+   10.123537
+  ],
+  [
+   53.518249,
+   10.123992
+  ],
+  [
+   53.517394,
+   10.125407
+  ],
+  [
+   53.517004,
+   10.126008
+  ],
+  [
+   53.516711,
+   10.126293
+  ],
+  [
+   53.51634,
+   10.126749
+  ],
+  [
+   53.515747,
+   10.127441
+  ],
+  [
+   53.515249,
+   10.128279
+  ],
+  [
+   53.514549,
+   10.129457
+  ],
+  [
+   53.514094,
+   10.129852
+  ],
+  [
+   53.512898,
+   10.130489
+  ],
+  [
+   53.512441,
+   10.130384
+  ],
+  [
+   53.51168,
+   10.130196
+  ],
+  [
+   53.511371,
+   10.130076
+  ],
+  [
+   53.510743,
+   10.130052
+  ],
+  [
+   53.510268,
+   10.130209
+  ],
+  [
+   53.509974,
+   10.130307
+  ],
+  [
+   53.50962,
+   10.130356
+  ],
+  [
+   53.509114,
+   10.130611
+  ],
+  [
+   53.508728,
+   10.131042
+  ],
+  [
+   53.508205,
+   10.131519
+  ],
+  [
+   53.507709,
+   10.131971
+  ],
+  [
+   53.506269,
+   10.133525
+  ],
+  [
+   53.504961,
+   10.135929
+  ],
+  [
+   53.505093,
+   10.136129
+  ],
+  [
+   53.508869,
+   10.141129
+  ],
+  [
+   53.509065,
+   10.140612
+  ],
+  [
+   53.509199,
+   10.140193
+  ],
+  [
+   53.509294,
+   10.139764
+  ],
+  [
+   53.509657,
+   10.138899
+  ],
+  [
+   53.509967,
+   10.139328
+  ],
+  [
+   53.509974,
+   10.140978
+  ],
+  [
+   53.509882,
+   10.141415
+  ],
+  [
+   53.509877,
+   10.141982
+  ],
+  [
+   53.510203,
+   10.142633
+  ],
+  [
+   53.510275,
+   10.142839
+  ],
+  [
+   53.510203,
+   10.143318
+  ],
+  [
+   53.509275,
+   10.144216
+  ],
+  [
+   53.508753,
+   10.145688
+  ],
+  [
+   53.509012,
+   10.146123
+  ],
+  [
+   53.509237,
+   10.146503
+  ],
+  [
+   53.509146,
+   10.146877
+  ],
+  [
+   53.508462,
+   10.14814
+  ],
+  [
+   53.507883,
+   10.14921
+  ],
+  [
+   53.507714,
+   10.149776
+  ],
+  [
+   53.507576,
+   10.150171
+  ],
+  [
+   53.507439,
+   10.150575
+  ],
+  [
+   53.507362,
+   10.150945
+  ],
+  [
+   53.50726,
+   10.151471
+  ],
+  [
+   53.507471,
+   10.152382
+  ],
+  [
+   53.507399,
+   10.153676
+  ],
+  [
+   53.508563,
+   10.155238
+  ],
+  [
+   53.50795,
+   10.157224
+  ],
+  [
+   53.508297,
+   10.157556
+  ],
+  [
+   53.508738,
+   10.157638
+  ],
+  [
+   53.508248,
+   10.160433
+  ],
+  [
+   53.508785,
+   10.160607
+  ],
+  [
+   53.508639,
+   10.161425
+  ],
+  [
+   53.509602,
+   10.161222
+  ],
+  [
+   53.509934,
+   10.160182
+  ],
+  [
+   53.509967,
+   10.160259
+  ],
+  [
+   53.510051,
+   10.160244
+  ],
+  [
+   53.510712,
+   10.160117
+  ],
+  [
+   53.511026,
+   10.160048
+  ],
+  [
+   53.511091,
+   10.16095
+  ],
+  [
+   53.511402,
+   10.160877
+  ],
+  [
+   53.511803,
+   10.160715
+  ],
+  [
+   53.512026,
+   10.159335
+  ],
+  [
+   53.512043,
+   10.159274
+  ],
+  [
+   53.512096,
+   10.158895
+  ],
+  [
+   53.512172,
+   10.158867
+  ],
+  [
+   53.512786,
+   10.158762
+  ],
+  [
+   53.513143,
+   10.15853
+  ],
+  [
+   53.513225,
+   10.158627
+  ],
+  [
+   53.514587,
+   10.154187
+  ],
+  [
+   53.514994,
+   10.152893
+  ],
+  [
+   53.515881,
+   10.153868
+  ],
+  [
+   53.516915,
+   10.152873
+  ],
+  [
+   53.517134,
+   10.153533
+  ],
+  [
+   53.517161,
+   10.153612
+  ],
+  [
+   53.516398,
+   10.15433
+  ],
+  [
+   53.516345,
+   10.154406
+  ],
+  [
+   53.516811,
+   10.155065
+  ],
+  [
+   53.517325,
+   10.155845
+  ],
+  [
+   53.518692,
+   10.154079
+  ],
+  [
+   53.518779,
+   10.15414
+  ],
+  [
+   53.519667,
+   10.152257
+  ],
+  [
+   53.52014,
+   10.151134
+  ],
+  [
+   53.520819,
+   10.1493
+  ],
+  [
+   53.520607,
+   10.14901
+  ],
+  [
+   53.521389,
+   10.147266
+  ],
+  [
+   53.521302,
+   10.147083
+  ],
+  [
+   53.521396,
+   10.146895
+  ],
+  [
+   53.52176,
+   10.146133
+  ],
+  [
+   53.522659,
+   10.143676
+  ],
+  [
+   53.52373,
+   10.140693
+  ],
+  [
+   53.523619,
+   10.140253
+  ],
+  [
+   53.523341,
+   10.139234
+  ],
+  [
+   53.523124,
+   10.138518
+  ],
+  [
+   53.51991,
+   10.13387
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 242944797,
+   "lat": 53.507703,
+   "lon": 10.161665,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Boberger Dünenhaus",
+   "thema": "Ausstellung",
+   "kurztext": "Die Ausstellung der Loki Schmidt Stiftung zeigt Entstehung und Lebensräume der Niederung, hier lässt sich sogar ein Ameisenlöwe füttern.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 67080290,
+   "lat": 53.509889,
+   "lon": 10.151691,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Boberger Düne",
+   "thema": "Wanderdüne",
+   "kurztext": "Hamburgs letzte Wanderdünen rücken rund zehn Zentimeter im Jahr vor, gepflanzter Strandhafer hält den Sand fest.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 402769903,
+   "lat": 53.508104,
+   "lon": 10.170432,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Aussichtspunkt",
+   "thema": "Ausblick",
+   "kurztext": "Von diesem Aussichtspunkt im Osten reicht der Blick über die offene Niederung.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11712031338,
+   "lat": 53.508296,
+   "lon": 10.172269,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Infotafel Naturschutzgebiet",
+   "thema": "Schutzgebiet",
+   "kurztext": "Seit 1991 steht die Boberger Niederung unter Naturschutz, 2025 wurde das Gebiet auf 464 Hektar erweitert.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 23626989,
+   "lat": 53.514975,
+   "lon": 10.144069,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Segelfluggelände Boberg",
+   "thema": "Segelflug",
+   "kurztext": "Mitten im Schutzgebiet starten neben dem Boberger See die Segelflieger von zwei Hamburger Vereinen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 11229097048,
+   "lat": 53.507926,
+   "lon": 10.161378,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": -1929477267,
+   "lat": 53.507703,
+   "lon": 10.161665,
+   "kategorie": "wc",
+   "name": "WC im Boberger Dünenhaus"
+  },
+  {
+   "osmId": 372345967,
+   "lat": 53.509408,
+   "lon": 10.161843,
+   "kategorie": "parking",
+   "name": "Boberger Düne"
+  },
+  {
+   "osmId": 1814289310,
+   "lat": 53.507388,
+   "lon": 10.158605,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 220554967,
+   "lat": 53.506865,
+   "lon": 10.161962,
+   "kategorie": "gastro",
+   "name": "Dorfkrug Boberg"
+  }
+ ],
+ "artenNachweis": {
+  "Warzenbeißer": "belegt",
+  "Blauflügelige Ödlandschrecke": "belegt",
+  "Moorfrosch": "belegt",
+  "Grünspecht": "belegt",
+  "Eisvogel": "belegt",
+  "Waldkauz": "belegt",
+  "Zauneidechse": "typisch",
+  "Strandhafer": "belegt",
+  "Knabenkraut": "belegt",
+  "Hängebirke": "typisch",
+  "Besenheide": "typisch",
+  "Kiefer": "typisch",
+  "Silbergras": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "3cb2aa48-e5d2-424b-b50e-188905dc519b",
+   "id": "3cb2aa48-e5d2-424b-b50e-188905dc519b",
+   "caption": "Umgebung, nicht Pfad: Offene Düne mit Birken in der Boberger Niederung (April 2018)",
+   "credit": "Puusterke, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:NSG_Boberger_Niederung_D%C3%BCnen1.jpg",
+   "kind": "ort"
+  }
+ ]
+}

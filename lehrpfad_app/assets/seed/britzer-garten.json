@@ -1,0 +1,1231 @@
+{
+ "id": "britzer-garten",
+ "name": "Britzer Garten",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Im Britzer Garten lenken Kinder am Wasserspielplatz das Wasser, im Lehmdorf wird mit Lehm gebaut. Auf den Weiden grasen Skudden und Thüringer Waldziegen.",
+ "beschreibung": "Für die Bundesgartenschau 1985 entstand der Britzer Garten auf früheren Äckern. Jeder Hügel und jeder See wurde eigens modelliert. Rund um den großen See liegen Wiesen, Blumenhaine und Themengärten wie der Rosengarten und der Karl-Foerster-Staudengarten. Auf dem Wasserspielplatz lenken Kinder mit Pumpen, Rinnen und Schleusen das Wasser, im Lehmdorf wird mit Lehm gebaut. Auf eingezäunten Weiden grasen Skudden-Schafe und Thüringer Waldziegen, zwei alte, gefährdete Haustierrassen. Von der Britzer Höhe reicht der Blick über den Park, und das Freilandlabor Britz bietet Kurse zur Natur.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Grün Berlin GmbH",
+ "region": "Neukölln, Berlin",
+ "anreise": "Sechs Eingänge, u. a. Buckower Damm (S/U Hermannstraße, Bus M44 bis „Britzer Garten“), Mohriner Allee (U6 Alt-Mariendorf, Bus 181 bis „Rotkopfweg“), Sangerhauser Weg/Tauernallee (U6 Alt-Mariendorf, Bus 179). Wenige Parkplätze an Mohriner Allee und Sangerhauser Weg.",
+ "startName": "Eingang Buckower Damm",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Kultur-Apfel",
+  "Stockente",
+  "Blässhuhn",
+  "Graureiher",
+  "Höckerschwan",
+  "Libelle",
+  "Schilf",
+  "Weiße Seerose",
+  "Eingriffeliger Weißdorn",
+  "Amsel",
+  "Hummel",
+  "Tagpfauenauge"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "einkehr",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "see-ufer",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 189,
+ "form": "flaeche",
+ "website": "https://www.britzergarten.de/",
+ "eintritt": true,
+ "eintrittPreise": "Herbst-/Wintersaison (1.11.–28.2.): Erwachsene 2,00 €, ermäßigt 1,00 €, Kinder bis 5 Jahre frei, Schulklassen 25,00 €; Jahreskarte ab 20 €",
+ "oeffnungszeiten": "Täglich ab 9 Uhr; Kassen Nov–Feb 9–16 Uhr, März/Okt 9–18 Uhr, Apr–Sep Mo–Fr 9–18, Sa/So 9–19 Uhr. Automatische Eingänge ab 7 Uhr (bargeldlos).",
+ "besuchshinweise": "Hunde und Fahrräder sind nicht erlaubt. Die Tiere auf den Weiden sind nicht zum Anfassen, einen Streichelzoo gibt es nicht. Rallye-Hefte kostenlos an den Kassen.",
+ "area": [
+  [
+   52.427684,
+   13.429653
+  ],
+  [
+   52.427703,
+   13.429532
+  ],
+  [
+   52.427723,
+   13.429409
+  ],
+  [
+   52.427766,
+   13.429146
+  ],
+  [
+   52.427786,
+   13.429019
+  ],
+  [
+   52.427822,
+   13.428796
+  ],
+  [
+   52.427844,
+   13.428657
+  ],
+  [
+   52.427902,
+   13.428302
+  ],
+  [
+   52.427935,
+   13.428099
+  ],
+  [
+   52.427981,
+   13.427814
+  ],
+  [
+   52.428004,
+   13.427671
+  ],
+  [
+   52.428048,
+   13.4274
+  ],
+  [
+   52.428167,
+   13.426865
+  ],
+  [
+   52.428313,
+   13.425947
+  ],
+  [
+   52.428198,
+   13.425712
+  ],
+  [
+   52.428148,
+   13.424675
+  ],
+  [
+   52.428046,
+   13.42327
+  ],
+  [
+   52.427712,
+   13.423007
+  ],
+  [
+   52.427544,
+   13.422877
+  ],
+  [
+   52.427715,
+   13.422411
+  ],
+  [
+   52.427861,
+   13.422036
+  ],
+  [
+   52.427968,
+   13.421778
+  ],
+  [
+   52.428135,
+   13.421406
+  ],
+  [
+   52.428391,
+   13.420866
+  ],
+  [
+   52.428697,
+   13.420292
+  ],
+  [
+   52.42885,
+   13.420028
+  ],
+  [
+   52.429084,
+   13.419642
+  ],
+  [
+   52.429819,
+   13.418454
+  ],
+  [
+   52.429904,
+   13.418319
+  ],
+  [
+   52.429975,
+   13.418203
+  ],
+  [
+   52.43058,
+   13.417226
+  ],
+  [
+   52.43129,
+   13.416079
+  ],
+  [
+   52.432144,
+   13.414698
+  ],
+  [
+   52.431703,
+   13.413968
+  ],
+  [
+   52.431857,
+   13.413711
+  ],
+  [
+   52.432202,
+   13.413242
+  ],
+  [
+   52.432203,
+   13.413113
+  ],
+  [
+   52.432091,
+   13.412997
+  ],
+  [
+   52.431829,
+   13.41258
+  ],
+  [
+   52.431662,
+   13.412286
+  ],
+  [
+   52.431996,
+   13.411782
+  ],
+  [
+   52.431478,
+   13.410936
+  ],
+  [
+   52.431735,
+   13.410504
+  ],
+  [
+   52.431277,
+   13.409754
+  ],
+  [
+   52.431498,
+   13.409411
+  ],
+  [
+   52.43137,
+   13.40917
+  ],
+  [
+   52.431286,
+   13.408819
+  ],
+  [
+   52.431058,
+   13.40824
+  ],
+  [
+   52.430731,
+   13.407559
+  ],
+  [
+   52.430618,
+   13.407356
+  ],
+  [
+   52.430712,
+   13.40724
+  ],
+  [
+   52.430808,
+   13.407121
+  ],
+  [
+   52.430831,
+   13.407009
+  ],
+  [
+   52.430906,
+   13.407015
+  ],
+  [
+   52.430975,
+   13.40707
+  ],
+  [
+   52.431077,
+   13.407141
+  ],
+  [
+   52.431384,
+   13.407251
+  ],
+  [
+   52.43202,
+   13.407284
+  ],
+  [
+   52.432582,
+   13.407477
+  ],
+  [
+   52.433015,
+   13.407653
+  ],
+  [
+   52.433201,
+   13.407837
+  ],
+  [
+   52.433747,
+   13.408011
+  ],
+  [
+   52.433948,
+   13.408069
+  ],
+  [
+   52.434023,
+   13.408275
+  ],
+  [
+   52.433948,
+   13.408971
+  ],
+  [
+   52.433307,
+   13.408808
+  ],
+  [
+   52.432737,
+   13.408491
+  ],
+  [
+   52.433665,
+   13.410573
+  ],
+  [
+   52.433595,
+   13.410683
+  ],
+  [
+   52.433658,
+   13.410804
+  ],
+  [
+   52.433754,
+   13.410988
+  ],
+  [
+   52.434366,
+   13.412195
+  ],
+  [
+   52.434672,
+   13.412979
+  ],
+  [
+   52.434801,
+   13.412798
+  ],
+  [
+   52.434932,
+   13.413061
+  ],
+  [
+   52.435431,
+   13.412901
+  ],
+  [
+   52.435496,
+   13.413403
+  ],
+  [
+   52.43605,
+   13.413221
+  ],
+  [
+   52.437303,
+   13.412811
+  ],
+  [
+   52.438694,
+   13.412329
+  ],
+  [
+   52.438722,
+   13.412527
+  ],
+  [
+   52.438555,
+   13.41273
+  ],
+  [
+   52.438542,
+   13.413068
+  ],
+  [
+   52.438472,
+   13.413149
+  ],
+  [
+   52.438495,
+   13.413438
+  ],
+  [
+   52.438685,
+   13.414
+  ],
+  [
+   52.438524,
+   13.414054
+  ],
+  [
+   52.437629,
+   13.41438
+  ],
+  [
+   52.437297,
+   13.414663
+  ],
+  [
+   52.43674,
+   13.414856
+  ],
+  [
+   52.436652,
+   13.414824
+  ],
+  [
+   52.43661,
+   13.414936
+  ],
+  [
+   52.436647,
+   13.415077
+  ],
+  [
+   52.436727,
+   13.415384
+  ],
+  [
+   52.436463,
+   13.415518
+  ],
+  [
+   52.436385,
+   13.415609
+  ],
+  [
+   52.436363,
+   13.415734
+  ],
+  [
+   52.436398,
+   13.415887
+  ],
+  [
+   52.436695,
+   13.416126
+  ],
+  [
+   52.436747,
+   13.416479
+  ],
+  [
+   52.437053,
+   13.417487
+  ],
+  [
+   52.43714,
+   13.417496
+  ],
+  [
+   52.437296,
+   13.417813
+  ],
+  [
+   52.437177,
+   13.417971
+  ],
+  [
+   52.4371,
+   13.417937
+  ],
+  [
+   52.437036,
+   13.417831
+  ],
+  [
+   52.436939,
+   13.417805
+  ],
+  [
+   52.436876,
+   13.417863
+  ],
+  [
+   52.436845,
+   13.418029
+  ],
+  [
+   52.436887,
+   13.418162
+  ],
+  [
+   52.436451,
+   13.418626
+  ],
+  [
+   52.436567,
+   13.418921
+  ],
+  [
+   52.436355,
+   13.419154
+  ],
+  [
+   52.436591,
+   13.419718
+  ],
+  [
+   52.436754,
+   13.419596
+  ],
+  [
+   52.436968,
+   13.419967
+  ],
+  [
+   52.437232,
+   13.420378
+  ],
+  [
+   52.437196,
+   13.420505
+  ],
+  [
+   52.437266,
+   13.420769
+  ],
+  [
+   52.437189,
+   13.420849
+  ],
+  [
+   52.437427,
+   13.42138
+  ],
+  [
+   52.437519,
+   13.421276
+  ],
+  [
+   52.43807,
+   13.422333
+  ],
+  [
+   52.438189,
+   13.422215
+  ],
+  [
+   52.438274,
+   13.422398
+  ],
+  [
+   52.438966,
+   13.421668
+  ],
+  [
+   52.439052,
+   13.42186
+  ],
+  [
+   52.43915,
+   13.421943
+  ],
+  [
+   52.439273,
+   13.421948
+  ],
+  [
+   52.43996,
+   13.421695
+  ],
+  [
+   52.440013,
+   13.422106
+  ],
+  [
+   52.44007,
+   13.422679
+  ],
+  [
+   52.439778,
+   13.423001
+  ],
+  [
+   52.439837,
+   13.423122
+  ],
+  [
+   52.43976,
+   13.423583
+  ],
+  [
+   52.439416,
+   13.423834
+  ],
+  [
+   52.439276,
+   13.423898
+  ],
+  [
+   52.439207,
+   13.42405
+  ],
+  [
+   52.438944,
+   13.424418
+  ],
+  [
+   52.438386,
+   13.42356
+  ],
+  [
+   52.438286,
+   13.423585
+  ],
+  [
+   52.437379,
+   13.422105
+  ],
+  [
+   52.437226,
+   13.422263
+  ],
+  [
+   52.437118,
+   13.421822
+  ],
+  [
+   52.4344,
+   13.423006
+  ],
+  [
+   52.434089,
+   13.423151
+  ],
+  [
+   52.434013,
+   13.423108
+  ],
+  [
+   52.433907,
+   13.423152
+  ],
+  [
+   52.433873,
+   13.423309
+  ],
+  [
+   52.433824,
+   13.423442
+  ],
+  [
+   52.433694,
+   13.423676
+  ],
+  [
+   52.433613,
+   13.423622
+  ],
+  [
+   52.433476,
+   13.423847
+  ],
+  [
+   52.43353,
+   13.423937
+  ],
+  [
+   52.433476,
+   13.424027
+  ],
+  [
+   52.433408,
+   13.423914
+  ],
+  [
+   52.432772,
+   13.422848
+  ],
+  [
+   52.432648,
+   13.422629
+  ],
+  [
+   52.432478,
+   13.422393
+  ],
+  [
+   52.432038,
+   13.422884
+  ],
+  [
+   52.431432,
+   13.422225
+  ],
+  [
+   52.430555,
+   13.423767
+  ],
+  [
+   52.430157,
+   13.423353
+  ],
+  [
+   52.429915,
+   13.423171
+  ],
+  [
+   52.429627,
+   13.422979
+  ],
+  [
+   52.42914,
+   13.422681
+  ],
+  [
+   52.429004,
+   13.423501
+  ],
+  [
+   52.42896,
+   13.424141
+  ],
+  [
+   52.429018,
+   13.424829
+  ],
+  [
+   52.429148,
+   13.425296
+  ],
+  [
+   52.429463,
+   13.42581
+  ],
+  [
+   52.429963,
+   13.426426
+  ],
+  [
+   52.430081,
+   13.426996
+  ],
+  [
+   52.429894,
+   13.427549
+  ],
+  [
+   52.429969,
+   13.42809
+  ],
+  [
+   52.429961,
+   13.428681
+  ],
+  [
+   52.42975,
+   13.42914
+  ],
+  [
+   52.429352,
+   13.430236
+  ],
+  [
+   52.429179,
+   13.431264
+  ],
+  [
+   52.429129,
+   13.431643
+  ],
+  [
+   52.428996,
+   13.432197
+  ],
+  [
+   52.428942,
+   13.43367
+  ],
+  [
+   52.428544,
+   13.433657
+  ],
+  [
+   52.428387,
+   13.433555
+  ],
+  [
+   52.428293,
+   13.433557
+  ],
+  [
+   52.428167,
+   13.43361
+  ],
+  [
+   52.428021,
+   13.433972
+  ],
+  [
+   52.427976,
+   13.434238
+  ],
+  [
+   52.427898,
+   13.433812
+  ],
+  [
+   52.427833,
+   13.433556
+  ],
+  [
+   52.428008,
+   13.433389
+  ],
+  [
+   52.42818,
+   13.433167
+  ],
+  [
+   52.428204,
+   13.431544
+  ],
+  [
+   52.428265,
+   13.430834
+  ],
+  [
+   52.428286,
+   13.43059
+  ],
+  [
+   52.428335,
+   13.430164
+  ],
+  [
+   52.428272,
+   13.429988
+  ],
+  [
+   52.427668,
+   13.429751
+  ],
+  [
+   52.427684,
+   13.429653
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 71396686,
+   "lat": 52.433571,
+   "lon": 13.422747,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Wasserspielplatz",
+   "thema": "Wasser lenken",
+   "kurztext": "Mit Pumpen, Rinnen und Schleusen lenken Kinder auf dem Wasserspielplatz das Wasser selbst.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 610846855,
+   "lat": 52.432852,
+   "lon": 13.40806,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Lehmdorf Makunaima",
+   "thema": "Bauen mit Lehm",
+   "kurztext": "Im Lehmdorf Makunaima wird mit Lehm gebaut, in der Spiellandschaft daneben steht ein 10 Meter hoher Rutschenturm.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 610109780,
+   "lat": 52.432216,
+   "lon": 13.414181,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Rosengarten",
+   "thema": "Brunnen und Rosen",
+   "kurztext": "Drei Brunnen der Bildhauerin Christa Biederbick, darunter zwei Vogelbrunnen, stehen seit 1985 zwischen den Rosenbeeten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 610118355,
+   "lat": 52.432285,
+   "lon": 13.415464,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Karl-Foerster-Staudengarten",
+   "thema": "Stauden",
+   "kurztext": "Eine Büste und die Plastik „Harfe und Pauke“ erinnern im Staudengarten an den Staudenzüchter Karl Foerster.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 107010223,
+   "lat": 52.436508,
+   "lon": 13.417584,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Heilpflanzengarten",
+   "thema": "Kräuter",
+   "kurztext": "Beete mit Heilpflanzen, Pflanzen der heiligen Hildegard und Pflanzen des Aberglaubens bilden einen kleinen Kräutergarten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 454453427,
+   "lat": 52.436598,
+   "lon": 13.420713,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Kalenderplatz",
+   "thema": "Kunst im Park",
+   "kurztext": "Die Installation „Kosmologischer Park“ von Klaus Zillich, Jürgen D. Zilling und Jasper Halfmann prägt den Kalenderplatz.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1242574916,
+   "lat": 52.432524,
+   "lon": 13.421109,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Britzer Höhe",
+   "thema": "Aussicht",
+   "kurztext": "Von der 60 Meter hohen Britzer Höhe reicht der Blick weit über die Hügel und Seen des Parks.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 26644414,
+   "lat": 52.430614,
+   "lon": 13.419535,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Kopfweidenpfuhl",
+   "thema": "Kleingewässer",
+   "kurztext": "Kopfweiden, deren Äste regelmäßig zurückgeschnitten werden, säumen den kleinen Kopfweidenpfuhl.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13789093508,
+   "lat": 52.431835,
+   "lon": 13.415921,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Freilandlabor Britz",
+   "thema": "Umweltbildung",
+   "kurztext": "Kurse und Führungen zur Natur im Park bietet das Freilandlabor Britz an.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 545857704,
+   "lat": 52.438055,
+   "lon": 13.413103,
+   "km": 0,
+   "reihenfolge": 10,
+   "titel": "Streuobstwiese",
+   "thema": "Obstbäume",
+   "kurztext": "Auf der Streuobstwiese im Norden des Parks wachsen Apfelbäume zwischen hohem Gras.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 276795907,
+   "lat": 52.432508,
+   "lon": 13.408029,
+   "kategorie": "gastro",
+   "name": "Spielelandschaft"
+  },
+  {
+   "osmId": 390427086,
+   "lat": 52.434117,
+   "lon": 13.421562,
+   "kategorie": "gastro",
+   "name": "Burger Garden"
+  },
+  {
+   "osmId": 390428248,
+   "lat": 52.4326,
+   "lon": 13.408636,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 427901484,
+   "lat": 52.432829,
+   "lon": 13.415446,
+   "kategorie": "gastro",
+   "name": "Am Modellboothafen"
+  },
+  {
+   "osmId": 449585280,
+   "lat": 52.431794,
+   "lon": 13.419129,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 469165335,
+   "lat": 52.433368,
+   "lon": 13.419177,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 469165337,
+   "lat": 52.433488,
+   "lon": 13.41934,
+   "kategorie": "gastro",
+   "name": "Britzer Höhe"
+  },
+  {
+   "osmId": 851492389,
+   "lat": 52.434422,
+   "lon": 13.414357,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 851492603,
+   "lat": 52.434992,
+   "lon": 13.416662,
+   "kategorie": "viewpoint"
+  },
+  {
+   "osmId": 851492635,
+   "lat": 52.43412,
+   "lon": 13.414581,
+   "kategorie": "gastro",
+   "name": "Imbiss"
+  },
+  {
+   "osmId": 1196611970,
+   "lat": 52.428906,
+   "lon": 13.420866,
+   "kategorie": "gastro",
+   "name": "Kiosk Heidehof"
+  },
+  {
+   "osmId": 1242574916,
+   "lat": 52.432524,
+   "lon": 13.421109,
+   "kategorie": "viewpoint",
+   "name": "Britzer Höhe"
+  },
+  {
+   "osmId": 1270213010,
+   "lat": 52.429704,
+   "lon": 13.426239,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 2262623769,
+   "lat": 52.435544,
+   "lon": 13.415646,
+   "kategorie": "gastro",
+   "name": "Seestern"
+  },
+  {
+   "osmId": 2399721168,
+   "lat": 52.427852,
+   "lon": 13.422836,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 2399731081,
+   "lat": 52.436514,
+   "lon": 13.420754,
+   "kategorie": "viewpoint",
+   "name": "Kalenderplatz"
+  },
+  {
+   "osmId": 2822452585,
+   "lat": 52.436259,
+   "lon": 13.416899,
+   "kategorie": "viewpoint",
+   "name": "Aussichtsberg"
+  },
+  {
+   "osmId": 3343053921,
+   "lat": 52.438375,
+   "lon": 13.412546,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 3832565601,
+   "lat": 52.436997,
+   "lon": 13.420739,
+   "kategorie": "gastro",
+   "name": "Bistro am Kalenderplatz"
+  },
+  {
+   "osmId": 5778481245,
+   "lat": 52.43207,
+   "lon": 13.415669,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 5785935267,
+   "lat": 52.432819,
+   "lon": 13.410135,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 5785953259,
+   "lat": 52.434442,
+   "lon": 13.412693,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 9034901047,
+   "lat": 52.434027,
+   "lon": 13.411748,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14117014009,
+   "lat": 52.433625,
+   "lon": 13.411223,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14224245234,
+   "lat": 52.432789,
+   "lon": 13.415698,
+   "kategorie": "gastro"
+  },
+  {
+   "osmId": 14224245235,
+   "lat": 52.432765,
+   "lon": 13.415444,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 231079885,
+   "lat": 52.433674,
+   "lon": 13.422556,
+   "kategorie": "gastro",
+   "name": "Milchbar"
+  },
+  {
+   "osmId": 270587233,
+   "lat": 52.427976,
+   "lon": 13.43355,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 348929821,
+   "lat": 52.43413,
+   "lon": 13.422912,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 348929822,
+   "lat": 52.437252,
+   "lon": 13.422051,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 610846874,
+   "lat": 52.432949,
+   "lon": 13.408095,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 662629215,
+   "lat": 52.429613,
+   "lon": 13.422364,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 909383050,
+   "lat": 52.438516,
+   "lon": 13.412857,
+   "kategorie": "gastro",
+   "name": "Treffpunkt Mohriner"
+  },
+  {
+   "osmId": 71396686,
+   "lat": 52.433571,
+   "lon": 13.422747,
+   "kategorie": "playground",
+   "name": "Wasserspielplatz Britzer Garten"
+  },
+  {
+   "osmId": 610846855,
+   "lat": 52.432852,
+   "lon": 13.40806,
+   "kategorie": "playground",
+   "name": "Lehmdorf Makunaima"
+  },
+  {
+   "osmId": 225913361,
+   "lat": 52.432156,
+   "lon": 13.407973,
+   "kategorie": "playground",
+   "name": "Sonne, Mond und Sterne"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Kultur-Apfel": "belegt",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Graureiher": "typisch",
+  "Höckerschwan": "typisch",
+  "Libelle": "typisch",
+  "Schilf": "typisch",
+  "Weiße Seerose": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Amsel": "typisch",
+  "Hummel": "typisch",
+  "Tagpfauenauge": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "e55d6dbd-083e-4666-8b1f-e772773609b0",
+   "id": "e55d6dbd-083e-4666-8b1f-e772773609b0",
+   "caption": "Wiese mit Sitzbänken im Britzer Garten",
+   "credit": "Oliana Fedosenko, CC BY 3.0, via Wikimedia Commons",
+   "license": "cc-by-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Britzer_Garten,_Berlin,_Germany_-_panoramio.jpg",
+   "kind": "ort"
+  }
+ ]
+}

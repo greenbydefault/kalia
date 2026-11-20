@@ -1,0 +1,159 @@
+{
+ "id": "jugendfarm-moritzhof",
+ "name": "Jugendfarm Moritzhof",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Jugendfarm am Berliner Mauerweg mit Schafen, Ziegen, Hühnern und Kaninchen. Samstags ist der Hof für alle offen, unter der Woche für Kinder von 6 bis 16.",
+ "beschreibung": "Die Jugendfarm Moritzhof liegt im Prenzlauer Berg direkt am Berliner Mauerweg. 1999 eröffnete das Spielhaus, ein Jahr später zogen Schafe, Ziegen und Hühner in den neuen Stall. Benannt ist der Hof nach Moritz, einem geretteten Ziegenbock mit nur einem Horn. Heute leben hier Rauhwollige Pommersche Landschafe, Kamerunschafe und ein Skuddenbock. Dazu kommen Ziegen, Hühner, Kaninchen und Meerschweinchen. Kinder von 6 bis 16 Jahren versorgen die Tiere und pflegen den Garten mit Kräuterspirale und Gewächshaus. In den Werkstätten wird gefilzt, getöpfert, geschmiedet und geflochten.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Netzwerk Spiel/Kultur Prenzlauer Berg e. V.",
+ "region": "Prenzlauer Berg, Bezirk Pankow, Berlin",
+ "anreise": "Schwedter Straße 90 / Ecke Kopenhagener Straße, 10437 Berlin; Bus 247 bis Gleimstr. (ca. 300 m, laut berlin.de).",
+ "startName": "Jugendfarm Moritzhof, Schwedter Straße 90",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Haushuhn",
+  "Hauskaninchen",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 35,
+ "form": "flaeche",
+ "website": "https://www.jugendfarm-moritzhof.de/",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Mo–Fr 13–18:30 Uhr für Kinder und Jugendliche von 6 bis 16 Jahren; Sa 13–18 Uhr Familiensamstag für alle; So geschlossen.",
+ "besuchshinweise": "Unter der Woche nur für Kinder und Jugendliche von 6 bis 16 Jahren, samstags beim Familiensamstag für alle offen. Alle Angebote sind kostenfrei. Gruppen kommen nach Anmeldung auch vormittags.",
+ "area": [
+  [
+   52.547539,
+   13.400366
+  ],
+  [
+   52.547567,
+   13.400718
+  ],
+  [
+   52.548065,
+   13.40051
+  ],
+  [
+   52.548328,
+   13.400401
+  ],
+  [
+   52.54829,
+   13.400161
+  ],
+  [
+   52.548113,
+   13.40017
+  ],
+  [
+   52.54789,
+   13.400255
+  ],
+  [
+   52.547539,
+   13.400366
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 2847860678,
+   "lat": 52.548113,
+   "lon": 13.40017,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Haupteingang",
+   "thema": "Eingang",
+   "kurztext": "Der Haupteingang liegt an der Westseite des Hofes, zur Grünanlage hin.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 30441283,
+   "lat": 52.548196,
+   "lon": 13.400334,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spielhaus",
+   "thema": "Hofgebäude",
+   "kurztext": "Im zweigeschossigen Holzhaus liegen Spielräume und Werkstätten. Gedämmt ist es mit reiner Schafwolle, das Dach ist begrünt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2847860673,
+   "lat": 52.54787,
+   "lon": 13.400328,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Seitentor",
+   "thema": "Hof",
+   "kurztext": "Das Seitentor zur Grünanlage ist nicht öffentlich, hinein geht es über den Haupteingang.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1944751229,
+   "lat": 52.548256,
+   "lon": 13.400897,
+   "kategorie": "gastro",
+   "name": "Frau Krüger"
+  },
+  {
+   "osmId": 3578716738,
+   "lat": 52.547514,
+   "lon": 13.400417,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1310906437,
+   "lat": 52.548345,
+   "lon": 13.399708,
+   "kategorie": "playground"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Honigbiene": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "3ed10e19-ca83-4a1c-a825-3b8797570254",
+   "id": "3ed10e19-ca83-4a1c-a825-3b8797570254",
+   "caption": "Hofgelände der Jugendfarm Moritzhof mit Ställen (Februar 2018)",
+   "credit": "Fridolin freudenfett, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prenzlauer_Berg_Schwedter_Stra%C3%9Fe_Moritzhof-002.jpg",
+   "kind": "ort"
+  }
+ ]
+}

@@ -1,0 +1,542 @@
+{
+ "id": "erlebnispfad-stadtnatur-goerlitzer-park",
+ "name": "Erlebnispfad Stadtnatur im Görlitzer Park",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Auf dem Gelände des früheren Görlitzer Bahnhofs jagen in der Kuhle Fledermäuse. Am Sonnenhügel graben Wildbienen ihre Nester in den Sand.",
+ "beschreibung": "Der einstige Schrottplatz am Görlitzer Bahnhof ist heute ein Teich, an dem Blässhuhn und Teichhuhn ihre Jungen großziehen. Der Erlebnispfad Stadtnatur stellt acht Lebensräume des Parks vor, vom alten Bahnhofsgebäude bis zum Röhricht. In den Mauerritzen nisten Haussperlinge und Mauerbienen. Die Stiel-Eiche ist älter als der Bahnhof, das Baumkataster nennt 1846 als Pflanzjahr. Wo der Fußgängertunnel lag, öffnet sich die Kuhle, über der in der Dämmerung Fledermäuse jagen. Am Sonnenhügel stand einst der Lokschuppen, heute nisten dort Wildbienen im Boden. Die Faltkarte liefert Spiele und Vogelstimmen dazu.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Schilder an acht Stationen",
+ "betreiber": "Bezirksamt Friedrichshain-Kreuzberg, Umwelt- und Naturschutzamt (mit BUND Berlin e. V. und Stiftung Naturschutz Berlin)",
+ "region": "Kreuzberg, Bezirk Friedrichshain-Kreuzberg, Berlin",
+ "anreise": "Görlitzer Park, Görlitzer Straße, 10997 Berlin. U1/U3 bis Görlitzer Bahnhof oder Schlesisches Tor. Station 1 steht am Haus 2 neben dem Bauwagen des Parkmanagements, nahe dem Spreewaldplatz.",
+ "startName": "Haus 2 neben dem Bauwagen des Parkmanagements",
+ "arten": [
+  "Stieleiche",
+  "Schlehe",
+  "Schwarzer Holunder",
+  "Brombeere",
+  "Löwenzahn",
+  "Blässhuhn",
+  "Graureiher",
+  "Amsel",
+  "Grünfink",
+  "Feldsperling",
+  "Zwergfledermaus",
+  "Wildbiene",
+  "Elster",
+  "Rotfuchs",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 142,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/erlebnispfad-stadtnatur-im-goerlitzer-park-1540645.php",
+ "besuchshinweise": "Faltkarte kostenlos am Bauwagen des Parkmanagements, im CoLab, am Kinderbauernhof oder als Download. Hunde an die Leine. Wasservögel am Teich nicht füttern und nicht über den Zaun steigen.",
+ "area": [
+  [
+   52.499168,
+   13.432068
+  ],
+  [
+   52.498607,
+   13.433793
+  ],
+  [
+   52.498406,
+   13.434413
+  ],
+  [
+   52.497915,
+   13.435909
+  ],
+  [
+   52.49718,
+   13.438175
+  ],
+  [
+   52.497133,
+   13.438318
+  ],
+  [
+   52.496638,
+   13.439842
+  ],
+  [
+   52.496538,
+   13.44015
+  ],
+  [
+   52.496481,
+   13.440323
+  ],
+  [
+   52.496427,
+   13.440492
+  ],
+  [
+   52.496244,
+   13.441056
+  ],
+  [
+   52.49597,
+   13.441895
+  ],
+  [
+   52.495866,
+   13.442214
+  ],
+  [
+   52.495202,
+   13.444253
+  ],
+  [
+   52.495128,
+   13.444481
+  ],
+  [
+   52.495091,
+   13.444593
+  ],
+  [
+   52.495005,
+   13.444616
+  ],
+  [
+   52.494485,
+   13.443934
+  ],
+  [
+   52.494411,
+   13.443838
+  ],
+  [
+   52.494358,
+   13.443619
+  ],
+  [
+   52.494264,
+   13.443476
+  ],
+  [
+   52.494186,
+   13.443388
+  ],
+  [
+   52.494122,
+   13.443278
+  ],
+  [
+   52.494064,
+   13.443104
+  ],
+  [
+   52.494039,
+   13.442953
+  ],
+  [
+   52.494035,
+   13.442763
+  ],
+  [
+   52.494052,
+   13.442638
+  ],
+  [
+   52.494086,
+   13.442506
+  ],
+  [
+   52.494125,
+   13.442401
+  ],
+  [
+   52.494101,
+   13.442276
+  ],
+  [
+   52.494366,
+   13.441489
+  ],
+  [
+   52.494569,
+   13.440889
+  ],
+  [
+   52.495159,
+   13.439161
+  ],
+  [
+   52.495204,
+   13.439032
+  ],
+  [
+   52.495435,
+   13.438359
+  ],
+  [
+   52.49576,
+   13.437402
+  ],
+  [
+   52.495849,
+   13.437151
+  ],
+  [
+   52.495933,
+   13.436896
+  ],
+  [
+   52.496415,
+   13.435503
+  ],
+  [
+   52.496533,
+   13.435325
+  ],
+  [
+   52.496608,
+   13.435102
+  ],
+  [
+   52.496644,
+   13.434996
+  ],
+  [
+   52.496779,
+   13.434594
+  ],
+  [
+   52.49687,
+   13.434334
+  ],
+  [
+   52.4972,
+   13.433363
+  ],
+  [
+   52.497505,
+   13.433328
+  ],
+  [
+   52.497768,
+   13.433129
+  ],
+  [
+   52.498186,
+   13.432721
+  ],
+  [
+   52.498366,
+   13.432617
+  ],
+  [
+   52.49846,
+   13.43247
+  ],
+  [
+   52.498503,
+   13.432324
+  ],
+  [
+   52.498561,
+   13.432172
+  ],
+  [
+   52.498608,
+   13.431998
+  ],
+  [
+   52.498636,
+   13.431838
+  ],
+  [
+   52.498636,
+   13.431703
+  ],
+  [
+   52.498748,
+   13.431698
+  ],
+  [
+   52.498824,
+   13.431668
+  ],
+  [
+   52.499095,
+   13.431549
+  ],
+  [
+   52.499128,
+   13.431787
+  ],
+  [
+   52.499148,
+   13.431926
+  ],
+  [
+   52.499168,
+   13.432068
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -455930360,
+   "lat": 52.498277,
+   "lon": 13.433718,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Lebensraum Gebäude",
+   "thema": "Gebäude",
+   "kurztext": "An den alten Stationsgebäuden des Bahnhofs brüten Spatzenkolonien in Hohlräumen, unter dem Dach haben Fledermäuse Quartiere.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -36020290,
+   "lat": 52.497555,
+   "lon": 13.433864,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Lebensraum Baum",
+   "thema": "Kanadische Pappel",
+   "kurztext": "Eine Kanadische Pappel, einer der ältesten Bäume im Park, trägt eine große Mulmhöhle, in der holzbewohnende Käfer leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1965199572,
+   "lat": 52.4962,
+   "lon": 13.436966,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Lebensraum Gehölze",
+   "thema": "Obstwiese und Wäldchen",
+   "kurztext": "Aus einer Obstwiese der 1980er-Jahre ist ein Wäldchen mit Apfel- und Birnbäumen, Linden, Pappeln und Stiel-Eichen gewachsen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1799751031,
+   "lat": 52.496694,
+   "lon": 13.438272,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Fledermäuse",
+   "thema": "Jagdgebiet in der Kuhle",
+   "kurztext": "In der Kuhle, wo früher der Görlitzer Tunnel lag, jagen in der Dämmerung Fledermäuse nach Insekten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -474035681,
+   "lat": 52.496174,
+   "lon": 13.439542,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Stiel-Eiche",
+   "thema": "Alter Baum",
+   "kurztext": "Für diese Stiel-Eiche nennt das Baumkataster das Pflanzjahr 1846, sie stand also schon vor dem Bahnhof.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -88630363,
+   "lat": 52.49443,
+   "lon": 13.442364,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Lebensraum Hecke",
+   "thema": "Hecke",
+   "kurztext": "Schlehe, Holunder, Brombeere und Wildrose bilden die Hecke, in der Nachtigall, Amsel und Grünfink brüten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1917801677,
+   "lat": 52.494559,
+   "lon": 13.443144,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Lebensraum Sandboden",
+   "thema": "Sonnenhügel",
+   "kurztext": "Am Sonnenhügel, wo einst der Lokschuppen stand, nisten Wildbienen im sandigen Hang zwischen lila blühendem Steppen-Salbei.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13397967,
+   "lat": 52.495198,
+   "lon": 13.44331,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Lebensraum Wasser",
+   "thema": "Görlitzer Parkteich",
+   "kurztext": "Wo zu Mauerzeiten ein Schrottplatz war, ziehen heute Blässhuhn und Teichhuhn im Röhricht des Teichs ihre Jungen groß.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 809726248,
+   "lat": 52.498439,
+   "lon": 13.433599,
+   "kategorie": "gastro",
+   "name": "Cafe Isa Mitz"
+  },
+  {
+   "osmId": 2053256252,
+   "lat": 52.498653,
+   "lon": 13.431611,
+   "kategorie": "gastro",
+   "name": "Wen Cheng"
+  },
+  {
+   "osmId": 4515123685,
+   "lat": 52.49919,
+   "lon": 13.432186,
+   "kategorie": "gastro",
+   "name": "Hühnerhaus 36"
+  },
+  {
+   "osmId": 7042598240,
+   "lat": 52.495546,
+   "lon": 13.438191,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 9590446686,
+   "lat": 52.49603,
+   "lon": 13.438951,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12847378826,
+   "lat": 52.495798,
+   "lon": 13.440476,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12954392670,
+   "lat": 52.495699,
+   "lon": 13.437818,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14107969370,
+   "lat": 52.495193,
+   "lon": 13.441567,
+   "kategorie": "gastro",
+   "name": "Görlinde"
+  },
+  {
+   "osmId": 55464110,
+   "lat": 52.494699,
+   "lon": 13.441615,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 69992970,
+   "lat": 52.494647,
+   "lon": 13.442286,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 104850373,
+   "lat": 52.495921,
+   "lon": 13.438923,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 179751595,
+   "lat": 52.498975,
+   "lon": 13.431449,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 589626496,
+   "lat": 52.495186,
+   "lon": 13.441473,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 589626510,
+   "lat": 52.4965,
+   "lon": 13.439021,
+   "kategorie": "picnic",
+   "name": "Streuobstwiese"
+  },
+  {
+   "osmId": 998450569,
+   "lat": 52.495596,
+   "lon": 13.441291,
+   "kategorie": "picnic",
+   "name": "Grillwiese"
+  },
+  {
+   "osmId": 1035964576,
+   "lat": 52.499083,
+   "lon": 13.432242,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 1051895133,
+   "lat": 52.496793,
+   "lon": 13.4357,
+   "kategorie": "playground",
+   "name": "Bootspielplatz"
+  },
+  {
+   "osmId": 1090609181,
+   "lat": 52.495069,
+   "lon": 13.4391,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 1202217782,
+   "lat": 52.497192,
+   "lon": 13.437725,
+   "kategorie": "wc"
+  }
+ ],
+ "bilder": [
+  {
+   "file": "0d69020f-d20d-48a7-97ce-77977a916489",
+   "id": "0d69020f-d20d-48a7-97ce-77977a916489",
+   "caption": "Der Görlitzer Parkteich mit Röhricht und Ufergehölzen, Station „Lebensraum Wasser“ (Aufnahme 2009)",
+   "credit": "Uli Herrmann, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6rlitzer_Park_-_panoramio_-_Uli_Herrmann_(2).jpg",
+   "kind": "ort"
+  }
+ ]
+}

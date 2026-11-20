@@ -272,17 +272,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCdpark_Merseburg,_Tiergarten_01.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Damhirsch": "belegt",
-    "Rothirsch": "belegt",
-    "Wildschwein": "belegt",
-    "Wildkatze": "belegt",
-    "Waldkauz": "belegt",
-    "Eichhörnchen": "belegt",
-    "Schaf": "belegt",
-    "Ziege": "belegt",
-    "Hauskaninchen": "belegt",
-    "Haushuhn": "belegt"
-  }
+  ]
 }

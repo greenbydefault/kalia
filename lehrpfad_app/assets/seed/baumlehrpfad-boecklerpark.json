@@ -1,0 +1,668 @@
+{
+ "id": "baumlehrpfad-boecklerpark",
+ "name": "Baumlehrpfad im Böcklerpark",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Im Böcklerpark in Kreuzberg tragen 20 Baumarten ein Schild mit Nummer und Pflanzjahr. Die älteste Pappel steht hier seit 1815.",
+ "beschreibung": "Im Böcklerpark am Landwehrkanal tragen 20 Baumarten ein eigenes Schild mit Nummer und Pflanzjahr. Kurze Infos erklären Blätter, Rinde, Blüten und Früchte. Neben heimischen Arten wie Stiel-Eiche, Esche, Feld- und Berg-Ahorn wachsen Gäste aus Nordamerika, etwa Rot-Eiche, Sumpf-Eiche, Robinie und Silber-Ahorn. Eine Kanadische Pappel wurde schon 1815 gepflanzt, eine Hänge-Weide 1892. Entwickelt wurden die Schilder gemeinsam mit Kindern einer Kita. Zum Pfad gehört ein Kartenspiel. Eine Baumkarte und eine Aktivitätskarte ergeben zusammen eine Aufgabe, etwa Muster in der Rinde suchen.",
+ "laengeKm": 1.2,
+ "dauerMin": 105,
+ "rundkurs": false,
+ "markierung": "nummerierte Infotafeln an 20 Bäumen",
+ "betreiber": "Bezirksamt Friedrichshain-Kreuzberg, Umwelt- und Naturschutzamt, mit Kollektiv Anemone e.V. und Statthaus Böcklerpark",
+ "region": "Kreuzberg, Bezirk Friedrichshain-Kreuzberg, Berlin",
+ "anreise": "Böcklerpark, Prinzenstraße, 10969 Berlin. U-Bahn U1/U3 bis Prinzenstraße; Tafel 1 (Platane) steht im Norden des Parks nahe der Prinzenstraße.",
+ "startName": "Ahornblättrige Platane nahe der Prinzenstraße",
+ "arten": [
+  "Stieleiche",
+  "Robinie",
+  "Feldahorn",
+  "Hängebirke",
+  "Gemeine Esche",
+  "Spitzahorn",
+  "Bergahorn",
+  "Eichhörnchen",
+  "Kohlmeise",
+  "Buntspecht",
+  "Kleiber",
+  "Rotkehlchen",
+  "Buchfink"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 200,
+ "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/",
+ "besuchshinweise": "Standortplan und Kartenspiel gibt es als PDF beim Bezirksamt Friedrichshain-Kreuzberg. Die Eibe ist giftig, Nadeln und Samen nicht in den Mund nehmen.",
+ "route": [
+  [
+   52.497701,
+   13.406996
+  ],
+  [
+   52.497508,
+   13.406932
+  ],
+  [
+   52.497387,
+   13.407037
+  ],
+  [
+   52.497207,
+   13.407196
+  ],
+  [
+   52.497212,
+   13.407874
+  ],
+  [
+   52.497209,
+   13.408263
+  ],
+  [
+   52.497209,
+   13.408463
+  ],
+  [
+   52.497208,
+   13.408583
+  ],
+  [
+   52.497223,
+   13.408721
+  ],
+  [
+   52.497187,
+   13.408964
+  ],
+  [
+   52.49702,
+   13.408943
+  ],
+  [
+   52.49676,
+   13.408912
+  ],
+  [
+   52.496707,
+   13.408922
+  ],
+  [
+   52.49659,
+   13.409006
+  ],
+  [
+   52.496513,
+   13.408657
+  ],
+  [
+   52.496543,
+   13.408654
+  ],
+  [
+   52.496827,
+   13.408725
+  ],
+  [
+   52.496543,
+   13.408654
+  ],
+  [
+   52.496513,
+   13.408657
+  ],
+  [
+   52.49659,
+   13.409006
+  ],
+  [
+   52.496707,
+   13.408922
+  ],
+  [
+   52.49676,
+   13.408912
+  ],
+  [
+   52.496707,
+   13.408922
+  ],
+  [
+   52.49659,
+   13.409006
+  ],
+  [
+   52.496513,
+   13.408657
+  ],
+  [
+   52.496489,
+   13.408683
+  ],
+  [
+   52.496329,
+   13.408741
+  ],
+  [
+   52.496264,
+   13.409124
+  ],
+  [
+   52.496231,
+   13.409328
+  ],
+  [
+   52.496207,
+   13.409476
+  ],
+  [
+   52.496167,
+   13.409719
+  ],
+  [
+   52.496225,
+   13.409366
+  ],
+  [
+   52.496093,
+   13.409569
+  ],
+  [
+   52.496001,
+   13.410129
+  ],
+  [
+   52.496093,
+   13.409569
+  ],
+  [
+   52.496131,
+   13.409336
+  ],
+  [
+   52.496302,
+   13.408331
+  ],
+  [
+   52.49635,
+   13.408056
+  ],
+  [
+   52.49644,
+   13.408079
+  ],
+  [
+   52.496494,
+   13.407739
+  ],
+  [
+   52.496583,
+   13.407074
+  ],
+  [
+   52.496597,
+   13.406961
+  ],
+  [
+   52.496602,
+   13.406866
+  ],
+  [
+   52.496675,
+   13.406091
+  ],
+  [
+   52.496682,
+   13.406009
+  ],
+  [
+   52.496602,
+   13.406866
+  ],
+  [
+   52.496597,
+   13.406961
+  ],
+  [
+   52.496753,
+   13.406865
+  ],
+  [
+   52.496779,
+   13.406902
+  ],
+  [
+   52.496813,
+   13.406904
+  ],
+  [
+   52.49684,
+   13.40687
+  ],
+  [
+   52.496846,
+   13.406802
+  ],
+  [
+   52.496885,
+   13.406779
+  ],
+  [
+   52.497016,
+   13.406752
+  ],
+  [
+   52.497078,
+   13.406913
+  ],
+  [
+   52.497193,
+   13.407205
+  ],
+  [
+   52.497508,
+   13.406932
+  ],
+  [
+   52.497623,
+   13.406834
+  ],
+  [
+   52.497895,
+   13.406603
+  ],
+  [
+   52.497898,
+   13.406553
+  ],
+  [
+   52.497933,
+   13.406462
+  ],
+  [
+   52.497638,
+   13.406206
+  ],
+  [
+   52.497706,
+   13.40626
+  ],
+  [
+   52.497826,
+   13.406353
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -150599460,
+   "lat": 52.497715,
+   "lon": 13.406898,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ahornblättrige Platane",
+   "thema": "Plattenrinde",
+   "kurztext": "Die 1909 gepflanzte Platane hat ahornähnliche Blätter und eine fleckige Rinde, die in Platten abblättert.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -300983966,
+   "lat": 52.497412,
+   "lon": 13.407113,
+   "km": 0.04,
+   "reihenfolge": 2,
+   "titel": "Amerikanische Rot-Eiche",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Aus Nordamerika stammt die 1962 gepflanzte Rot-Eiche, deren tief gelappte Blätter sich im Herbst leuchtend rot färben.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1727501832,
+   "lat": 52.49716,
+   "lon": 13.407901,
+   "km": 0.11,
+   "reihenfolge": 3,
+   "titel": "Stiel-Eiche",
+   "thema": "Heimischer Laubbaum",
+   "kurztext": "Die 1941 gepflanzte Stiel-Eiche ist ein heimischer Laubbaum mit breiter Krone und rissiger Rinde.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2022900651,
+   "lat": 52.497182,
+   "lon": 13.408264,
+   "km": 0.13,
+   "reihenfolge": 4,
+   "titel": "Robinie",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Gefiederte Blätter, duftende weiße Blüten im späten Frühling und tief gefurchte Rinde kennzeichnen die 1919 gepflanzte Robinie.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -261370685,
+   "lat": 52.497125,
+   "lon": 13.408462,
+   "km": 0.15,
+   "reihenfolge": 5,
+   "titel": "Italienische Pyramiden-Pappel",
+   "thema": "Säulenkrone",
+   "kurztext": "Mit ihrer schmalen, säulenförmigen Krone gehört die 1839 gepflanzte Pyramiden-Pappel zu den ältesten Bäumen im Park.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -379413127,
+   "lat": 52.497024,
+   "lon": 13.408884,
+   "km": 0.2,
+   "reihenfolge": 6,
+   "titel": "Feld-Ahorn",
+   "thema": "Propellerfrüchte",
+   "kurztext": "Die Doppelflügel-Früchte des 1932 gepflanzten Feld-Ahorns drehen sich beim Fallen wie kleine Propeller.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1637503505,
+   "lat": 52.496822,
+   "lon": 13.408792,
+   "km": 0.31,
+   "reihenfolge": 7,
+   "titel": "Kanadische Pappel",
+   "thema": "Kreuzung zweier Pappeln",
+   "kurztext": "Als Kreuzung aus amerikanischer und europäischer Schwarz-Pappel trägt die 1815 gepflanzte Kanadische Pappel herzförmige Blätter.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1898270592,
+   "lat": 52.496778,
+   "lon": 13.40896,
+   "km": 0.39,
+   "reihenfolge": 8,
+   "titel": "Österreichische Schwarzkiefer",
+   "thema": "Nadelbaum",
+   "kurztext": "Bei der 1968 gepflanzten Schwarzkiefer wachsen die langen, dunkelgrünen Nadeln immer zu zweit.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -102924054,
+   "lat": 52.496341,
+   "lon": 13.409159,
+   "km": 0.48,
+   "reihenfolge": 9,
+   "titel": "Sand-Birke",
+   "thema": "Pionierbaum",
+   "kurztext": "Weiße, papierdünne Rinde verrät die 1977 gepflanzte Sand-Birke, einen Pionierbaum freier Flächen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1213252103,
+   "lat": 52.496286,
+   "lon": 13.409511,
+   "km": 0.51,
+   "reihenfolge": 10,
+   "titel": "Sumpf-Eiche",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Feuchte Böden verträgt die 1966 gepflanzte Sumpf-Eiche, deren Laub sich im Herbst tiefrot färbt.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1062728337,
+   "lat": 52.496293,
+   "lon": 13.409774,
+   "km": 0.52,
+   "reihenfolge": 11,
+   "titel": "Esche",
+   "thema": "Gefiederte Blätter",
+   "kurztext": "Glatte graue Rinde, gefiederte Blätter und geflügelte Früchte kennzeichnen die 1963 gepflanzte Esche.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -643736363,
+   "lat": 52.49605,
+   "lon": 13.410151,
+   "km": 0.61,
+   "reihenfolge": 12,
+   "titel": "Rotblühende Rosskastanie",
+   "thema": "Rote Blüten",
+   "kurztext": "Im Frühsommer trägt die 1954 gepflanzte Rotblühende Rosskastanie rote Blütenstände, ihre stacheligen Früchte sind nicht essbar.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1364825021,
+   "lat": 52.496283,
+   "lon": 13.408322,
+   "km": 0.73,
+   "reihenfolge": 13,
+   "titel": "Hänge-Weide",
+   "thema": "Hängende Zweige",
+   "kurztext": "An ihren lang herabhängenden Zweigen ist die 1892 gepflanzte Hänge-Weide leicht zu erkennen.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1329399326,
+   "lat": 52.496635,
+   "lon": 13.406081,
+   "km": 0.9,
+   "reihenfolge": 14,
+   "titel": "Gemeine Rosskastanie",
+   "thema": "Kastanien",
+   "kurztext": "Große, handförmig geteilte Blätter und glänzend braune Kastanien in stacheligen Hüllen trägt die 1900 gepflanzte Rosskastanie.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -943339144,
+   "lat": 52.496787,
+   "lon": 13.406036,
+   "km": 0.91,
+   "reihenfolge": 15,
+   "titel": "Gemeine Eibe",
+   "thema": "Giftiger Nadelbaum",
+   "kurztext": "Fast alle Teile der 1968 gepflanzten Eibe mit ihren weichen, flachen Nadeln sind giftig.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -557016882,
+   "lat": 52.497105,
+   "lon": 13.406887,
+   "km": 1.04,
+   "reihenfolge": 16,
+   "titel": "Schwarz-Pappel",
+   "thema": "Heimische Pappel",
+   "kurztext": "In Europa heimisch ist die 1880 gepflanzte Schwarz-Pappel mit ihrer dunklen, stark gefurchten Rinde.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1446270884,
+   "lat": 52.497632,
+   "lon": 13.406233,
+   "km": 1.2,
+   "reihenfolge": 17,
+   "titel": "Spitz-Ahorn",
+   "thema": "Frühe Blüte",
+   "kurztext": "Noch vor dem Laubaustrieb blüht der 1956 gepflanzte Spitz-Ahorn gelbgrün.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1183533621,
+   "lat": 52.49767,
+   "lon": 13.406388,
+   "km": 1.21,
+   "reihenfolge": 18,
+   "titel": "Silber-Ahorn",
+   "thema": "Silbrige Blätter",
+   "kurztext": "Auf der Unterseite silbrig-weiß sind die Blätter des 1921 gepflanzten Silber-Ahorns aus Nordamerika.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -831290019,
+   "lat": 52.49779,
+   "lon": 13.40648,
+   "km": 1.22,
+   "reihenfolge": 19,
+   "titel": "Berg-Ahorn",
+   "thema": "Herbstlaub",
+   "kurztext": "Im Herbst färben sich die fünflappigen Blätter des 1953 gepflanzten Berg-Ahorns gelb.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 618283226,
+   "lat": 52.496799,
+   "lon": 13.406823,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 1084349573,
+   "lat": 52.498187,
+   "lon": 13.40674,
+   "kategorie": "gastro",
+   "name": "Hähnchenhaus"
+  },
+  {
+   "osmId": 1205705420,
+   "lat": 52.497756,
+   "lon": 13.405668,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 12420834153,
+   "lat": 52.498183,
+   "lon": 13.406155,
+   "kategorie": "gastro",
+   "name": "Prinzen City"
+  },
+  {
+   "osmId": 12741284704,
+   "lat": 52.496645,
+   "lon": 13.408819,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12742102380,
+   "lat": 52.497279,
+   "lon": 13.408551,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 51844133,
+   "lat": 52.496304,
+   "lon": 13.409951,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1190855956,
+   "lat": 52.496669,
+   "lon": 13.406611,
+   "kategorie": "wc",
+   "name": "City Toilette"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Robinie": "belegt",
+  "Feldahorn": "belegt",
+  "Hängebirke": "belegt",
+  "Gemeine Esche": "belegt",
+  "Spitzahorn": "belegt",
+  "Bergahorn": "belegt",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Buntspecht": "typisch",
+  "Kleiber": "typisch",
+  "Rotkehlchen": "typisch",
+  "Buchfink": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "38b681a1-f1d6-4c46-8621-abad98077f1a",
+   "id": "38b681a1-f1d6-4c46-8621-abad98077f1a",
+   "caption": "Weg mit alten Bäumen und Weide im Böcklerpark (Aufnahme 2016)",
+   "credit": "Fridolin freudenfett, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kreuzberg_B%C3%B6cklerpark-001.JPG",
+   "kind": "ort"
+  }
+ ]
+}

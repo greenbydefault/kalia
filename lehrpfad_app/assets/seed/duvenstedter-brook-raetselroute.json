@@ -1,0 +1,180 @@
+{
+ "id": "duvenstedter-brook-raetselroute",
+ "name": "Duvenstedter Brook – BrookHus",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Das BrookHus mit begrüntem Dach steht am Rand des Duvenstedter Brooks. Drinnen erklärt eine Ausstellung Moor, Wiesen und Wald, draußen liegt ein Schauteich.",
+ "beschreibung": "Der Duvenstedter Brook ist mit 780 Hektar eines der artenreichsten Naturschutzgebiete Hamburgs. Das BrookHus an seinem Rand erklärt Moore, Wiesen, Teiche und Bruchwald in einer interaktiven Ausstellung. Ein präparierter Rothirsch steht dort das ganze Jahr. Draußen liegen Blühflächen, Steinhaufen, ein Insektenhotel und ein großer Schauteich. Im Frühling tanzen auf den Wiesen die Kraniche, im Sommer färbt die Glockenheide die Moorheide zartrosa. Im September röhren die Rothirsche zur Brunft. Eine kostenlose App der Umweltbehörde führt mit Hörspielen für Kinder auf drei Routen durch den Brook.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "NABU Hamburg (BrookHus); App: BUKEA („Natürlich Hamburg!“)",
+ "region": "Wohldorf-Ohlstedt, Bezirk Wandsbek, Hamburg",
+ "anreise": "Duvenstedter Triftweg 140, 22397 Hamburg. U1 bis Ohlstedt, dann etwa 30 Minuten zu Fuß oder 15 Minuten mit dem Rad. Werktags Bus 276 bis Trilluper Weg, weiter mit Linie 478 bis Haltestelle BrookHus. Begrenzte Parkplätze gegenüber dem BrookHus.",
+ "startName": "Duvenstedter BrookHus",
+ "arten": [
+  "Kranich",
+  "Glockenheide",
+  "Rundblättriger Sonnentau",
+  "Moosbeere",
+  "Rosmarinheide",
+  "Besenheide",
+  "Waldeidechse",
+  "Blindschleiche",
+  "Bekassine",
+  "Knabenkraut",
+  "Aurorafalter",
+  "Tagpfauenauge",
+  "Kleiner Fuchs",
+  "Rothirsch",
+  "Sumpfschrecke"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "moor",
+  "heide"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 92,
+ "form": "flaeche",
+ "website": "https://hamburg.nabu.de/natur-entdecken/unsere-zentren/duvenstedter-brookhus",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "BrookHus: April bis Oktober Di–Fr 13:30–17 Uhr, Sa, So und Feiertag 11–17 Uhr; November, Februar, März Sa, So und Feiertag 11–17 Uhr; Dezember und Januar geschlossen.",
+ "besuchshinweise": "Im ganzen Naturschutzgebiet sind Hunde verboten, auch an der Leine. Auf den Wegen bleiben. App und Routen vorher im WLAN laden. Das BrookHus ist ebenerdig und hat ein rollstuhlgerechtes WC.",
+ "area": [
+  [
+   53.714095,
+   10.140519
+  ],
+  [
+   53.714022,
+   10.140541
+  ],
+  [
+   53.713889,
+   10.140588
+  ],
+  [
+   53.713842,
+   10.140372
+  ],
+  [
+   53.713596,
+   10.139383
+  ],
+  [
+   53.714052,
+   10.139136
+  ],
+  [
+   53.714273,
+   10.140037
+  ],
+  [
+   53.714363,
+   10.140404
+  ],
+  [
+   53.714095,
+   10.140519
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 54054695,
+   "lat": 53.714053,
+   "lon": 10.140281,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "BrookHus",
+   "thema": "Ausstellung",
+   "kurztext": "Eine interaktive Ausstellung zeigt die Lebensräume des Brooks mit ihren Tieren und Pflanzen, dazu kommen Vorträge und ein NABU-Shop.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1391572615,
+   "lat": 53.714105,
+   "lon": 10.140403,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Bewohner des Insektenhotels",
+   "thema": "Insekten",
+   "kurztext": "Im Insektenhotel auf dem Außengelände nisten Insekten, eine Tafel des NABU stellt seine Bewohner vor.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13629914237,
+   "lat": 53.71426,
+   "lon": 10.140791,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Tiere am und im Teich",
+   "thema": "Schauteich",
+   "kurztext": "Am großen Schauteich erklärt eine Tafel, welche Tiere am Ufer und im Wasser leben.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1391572647,
+   "lat": 53.714151,
+   "lon": 10.140309,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Naturschutzgebiet Duvenstedter Brook",
+   "thema": "Übersichtskarte",
+   "kurztext": "Eine Übersichtskarte zeigt das Naturschutzgebiet Duvenstedter Brook und seine Wege.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 12526895894,
+   "lat": 53.714294,
+   "lon": 10.140601,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 12526895893,
+   "lat": 53.714294,
+   "lon": 10.14069,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": -1854622570,
+   "lat": 53.714053,
+   "lon": 10.140281,
+   "kategorie": "wc",
+   "name": "WC im BrookHus"
+  },
+  {
+   "osmId": 33282657,
+   "lat": 53.714655,
+   "lon": 10.140114,
+   "kategorie": "parking"
+  }
+ ],
+ "bilder": [
+  {
+   "file": "8f66ef6d-db93-49f0-ab19-01bbb0ee725c",
+   "id": "8f66ef6d-db93-49f0-ab19-01bbb0ee725c",
+   "caption": "Das Duvenstedter BrookHus mit Gründach und Infotafeln (Juni 2010)",
+   "credit": "Nick Herbold, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duvenstedter_BrookHus.jpg",
+   "kind": "ort"
+  }
+ ]
+}

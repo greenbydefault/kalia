@@ -1,0 +1,147 @@
+{
+ "id": "kinderbauernhof-waslala",
+ "name": "Abenteuerspielplatz und Kinderbauernhof Waslala",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "In Altglienicke bauen Kinder Bretterbuden und machen Feuer. Nebenan versorgen sie Ponys, Schafe, eine Ziege und eine Kaninchenfamilie.",
+ "beschreibung": "Auf dem Waslala sind Kinder von 6 bis 14 Jahren unter sich, Eltern bleiben vor dem Tor. Unter pädagogischer Aufsicht machen sie offenes Feuer, klettern und bauen Bretterbuden, deren Aussehen allein ihre Sache ist. Im großen Tierbereich leben drei Islandpferde, zwei Shetlandponys, drei Schafe, eine Ziege und eine Kaninchenfamilie. Kinder füttern und pflegen die Tiere und imkern mit. In der Sonne liegen Zauneidechsen. Zum Gelände gehören ein Obst- und Gemüsegarten und ein Spielhaus. Der Name stammt aus einem Roman von Gioconda Belli, in dem Menschen im Wald einen Ort für ein neues Zusammenleben finden.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "FiPP e.V. – Fortbildungsinstitut für die pädagogische Praxis",
+ "region": "Altglienicke, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Venusstraße 88 (Ecke Birnenweg), 12524 Berlin; Bus 160, 164 und 260 bis Venusstraße, etwa 200 m.",
+ "startName": "Eingang Venusstraße 88",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Hauskaninchen",
+  "Honigbiene",
+  "Zauneidechse",
+  "Amsel",
+  "Rotkehlchen",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 30,
+ "form": "flaeche",
+ "website": "https://www.aspwaslala.de/home",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Di–Fr 13–18:30 Uhr (Ferien ab 12 Uhr), Sa 9–17 Uhr (Winter) bzw. 10–18 Uhr (Sommer); So, Mo, Feiertage und Brückentage geschlossen.",
+ "besuchshinweise": "Eltern, Großeltern und Geschwister sind samstags von 14 bis 18 Uhr zum Familiensamstag eingeladen, sonst bleiben Kinder unter sich. Kleidung anziehen, die schmutzig werden darf. Keine Kindergeburtstage.",
+ "area": [
+  [
+   52.4047,
+   13.533122
+  ],
+  [
+   52.40485,
+   13.532027
+  ],
+  [
+   52.404451,
+   13.531818
+  ],
+  [
+   52.404286,
+   13.53185
+  ],
+  [
+   52.404259,
+   13.532262
+  ],
+  [
+   52.404272,
+   13.532642
+  ],
+  [
+   52.404294,
+   13.532917
+  ],
+  [
+   52.404308,
+   13.533228
+  ],
+  [
+   52.404544,
+   13.533163
+  ],
+  [
+   52.4047,
+   13.533122
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 9622101951,
+   "lat": 52.404544,
+   "lon": 13.533163,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Eingangstor",
+   "thema": "Eingang",
+   "kurztext": "Am Tor an der Venusstraße bleiben Eltern zurück, auf das Gelände kommen Kinder von 6 bis 14 Jahren allein.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 9622101952,
+   "lat": 52.404464,
+   "lon": 13.532453,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Feuerstelle",
+   "thema": "Feuer",
+   "kurztext": "An der Feuerstelle machen Kinder unter pädagogischer Aufsicht offenes Feuer.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1046311718,
+   "lat": 52.404534,
+   "lon": 13.532269,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Ställe",
+   "thema": "Tierbereich",
+   "kurztext": "In den Ställen leben Islandpferde, Shetlandponys, Schafe, eine Ziege und eine Kaninchenfamilie, Kinder füttern und pflegen sie.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1046311713,
+   "lat": 52.404563,
+   "lon": 13.533383,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 586114365,
+   "lat": 52.404792,
+   "lon": 13.530364,
+   "kategorie": "playground"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Hauskaninchen": "belegt",
+  "Honigbiene": "belegt",
+  "Zauneidechse": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch"
+ }
+}

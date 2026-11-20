@@ -1,0 +1,218 @@
+{
+ "id": "abenteuerspielplatz-kinderbauernhof-koepenick",
+ "name": "Natur- und Abenteuerspielplatz Köpenick",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "An der Wuhle grasen drei Ponys, Schafe und Zwergziegen, Hängebauchschweine wühlen im Boden. Kinder werkeln, gärtnern und helfen bei der Tierpflege.",
+ "beschreibung": "An der Wuhle teilen sich ein Abenteuerspielplatz und ein Kinderbauernhof ein Gelände. Ponys, Schafe, Zwergziegen und Schweine haben eigene Weiden und Gehege. Zwischen den Ställen laufen Zwerghühner, dazu kommen Kaninchen, eine Hofkatze, mehrere Bienenvölker und Goldfische im Teich. Kinder versorgen die Tiere mit, werkeln, spielen frei und gärtnern im Nachbarschaftsgarten. Pädagoginnen, Ehrenamtliche und Freiwillige im ökologischen Jahr begleiten die Projekte. Ferienprogramme und Feste machen den Platz zum Treffpunkt für Familien aus der Umgebung.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "SozDia (Sozialdiakonische Arbeit Berlin gGmbH)",
+ "region": "Köpenick, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Alte Kaulsdorfer Straße 18, 12555 Berlin; ca. acht Minuten zu Fuß vom S-Bahnhof Köpenick.",
+ "startName": "Natur- und Abenteuerspielplatz Köpenick, Alte Kaulsdorfer Straße 18",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Haushuhn",
+  "Hauskaninchen",
+  "Honigbiene",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 32,
+ "form": "flaeche",
+ "website": "https://www.sozdia.de/abenteuerspielplatz",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Di–Fr 13–18 Uhr, ab 05.04.2026 auch jeden ersten Samstag im Monat 13–18 Uhr; Mo und So Ruhetag. Für Familien Mi, Fr und Sa. November bis März eingeschränktes Programm.",
+ "besuchshinweise": "Kinder ab acht Jahren dürfen ohne Erwachsene kommen. Mittwochs, freitags und samstags gibt es Kaffee, Eis und Kuchen. Von November bis März läuft nur ein eingeschränktes Programm.",
+ "area": [
+  [
+   52.46211,
+   13.574351
+  ],
+  [
+   52.462232,
+   13.574741
+  ],
+  [
+   52.462315,
+   13.57504
+  ],
+  [
+   52.462195,
+   13.575133
+  ],
+  [
+   52.462003,
+   13.575155
+  ],
+  [
+   52.461795,
+   13.57529
+  ],
+  [
+   52.461659,
+   13.575295
+  ],
+  [
+   52.46159,
+   13.575559
+  ],
+  [
+   52.461356,
+   13.575717
+  ],
+  [
+   52.461281,
+   13.575685
+  ],
+  [
+   52.461076,
+   13.575975
+  ],
+  [
+   52.460668,
+   13.576366
+  ],
+  [
+   52.460629,
+   13.575967
+  ],
+  [
+   52.46088,
+   13.575452
+  ],
+  [
+   52.461087,
+   13.575196
+  ],
+  [
+   52.461292,
+   13.574996
+  ],
+  [
+   52.461692,
+   13.574616
+  ],
+  [
+   52.461824,
+   13.574519
+  ],
+  [
+   52.461976,
+   13.574409
+  ],
+  [
+   52.46211,
+   13.574351
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 366372148,
+   "lat": 52.461977,
+   "lon": 13.574636,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ponyweide",
+   "thema": "Hoftiere",
+   "kurztext": "Auf der Ponyweide grasen drei Ponys, deren Pflege Kinder in den tiergestützten Angeboten lernen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 366372033,
+   "lat": 52.461831,
+   "lon": 13.57474,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Schweinegehege",
+   "thema": "Hoftiere",
+   "kurztext": "Hängebauchschweine durchwühlen in ihrem Gehege den Boden und fressen Gemüse und Getreide.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 366371933,
+   "lat": 52.461786,
+   "lon": 13.574943,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Bolzplatz",
+   "thema": "Spielen",
+   "kurztext": "Neben den Gehegen liegt ein Bolzplatz, auf dem Kinder Fußball spielen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 366371853,
+   "lat": 52.460817,
+   "lon": 13.575917,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Schaf- und Ziegenweide",
+   "thema": "Hoftiere",
+   "kurztext": "Zwei Schafe und vier Zwergziegen teilen sich die Weide im Süden des Geländes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 366372931,
+   "lat": 52.460995,
+   "lon": 13.575909,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Ställe",
+   "thema": "Hoftiere",
+   "kurztext": "Zwischen den Ställen flitzen Zwerghühner umher, und manchmal schleicht die Hofkatze vorbei.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 366371562,
+   "lat": 52.461531,
+   "lon": 13.575282,
+   "kategorie": "playground",
+   "name": "Natur- und Abenteuerspielplatz Köpenick"
+  },
+  {
+   "osmId": 4730508708,
+   "lat": 52.460184,
+   "lon": 13.576157,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1429807294,
+   "lat": 52.459854,
+   "lon": 13.578099,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Honigbiene": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ }
+}

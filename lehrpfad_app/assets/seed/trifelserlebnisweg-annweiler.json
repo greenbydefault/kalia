@@ -1219,21 +1219,5 @@
    "kind": "ort"
   }
  ],
- "dataVersion": 144,
- "artenNachweis": {
-  "Buchfink": "typisch",
-  "Eichelhäher": "typisch",
-  "Hainbuche": "typisch",
-  "Kohlmeise": "typisch",
-  "Rotbuche": "typisch",
-  "Stieleiche": "typisch",
-  "Buschwindröschen": "typisch",
-  "Waldmeister": "typisch",
-  "Amsel": "typisch",
-  "Bergahorn": "typisch",
-  "Blaumeise": "typisch",
-  "Buntspecht": "typisch",
-  "Eichhörnchen": "typisch",
-  "Gemeine Esche": "typisch"
- }
+ "dataVersion": 144
 }

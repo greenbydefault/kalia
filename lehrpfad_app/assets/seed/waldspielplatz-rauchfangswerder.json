@@ -1,0 +1,180 @@
+{
+ "id": "waldspielplatz-rauchfangswerder",
+ "name": "Waldspielplatz Rauchfangswerder",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Rauchfangswerder ist die südlichste Siedlung Berlins. Hier grenzt der Platz direkt an eine Badestelle am Großen Zug.",
+ "beschreibung": "Spielen und Baden liegen in Rauchfangswerder nur ein paar Schritte auseinander. Der Platz grenzt an eine Badewiese am Großen Zug, einem Teil des Crossinsees, an der Südspitze des Schmöckwitzer Werders. Eine große Rutsche lockt zum Klettern, dazu kommen Wackelsteg, Tierwippe und Schaukel. Auf dem Beachvolleyballfeld mit Netz spielen Kinder und Erwachsene gemeinsam. Unter einem Dach und auf weiteren Bänken sitzt es sich nah am Wasser. Wald und Wasser prägen die Ortslage ringsum.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Rauchfangswerder, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Bus 168 bis Zeuthener Weg, dem Zeuthener Weg bis zum Ende folgen und links in den Moßkopfring. Am Ende des Moßkopfrings führt ein Waldweg nach etwa 100 m zum Spielplatz an der Badestelle.",
+ "startName": "Waldspielplatz Rauchfangswerder",
+ "arten": [
+  "Kiefer",
+  "Hängebirke",
+  "Stieleiche",
+  "Schilf",
+  "Stockente",
+  "Haubentaucher",
+  "Blässhuhn",
+  "Höckerschwan",
+  "Graureiher",
+  "Buchfink",
+  "Kohlmeise",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "see-ufer",
+  "kiefernforst"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 78,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/rauchfangswerder/",
+ "besuchshinweise": "Badesachen und Wechselkleidung mitnehmen, die Badestelle beginnt direkt am Spielplatz.",
+ "area": [
+  [
+   52.343142,
+   13.651191
+  ],
+  [
+   52.343163,
+   13.651108
+  ],
+  [
+   52.343418,
+   13.650869
+  ],
+  [
+   52.343469,
+   13.650834
+  ],
+  [
+   52.34352,
+   13.650869
+  ],
+  [
+   52.343642,
+   13.651018
+  ],
+  [
+   52.343663,
+   13.651101
+  ],
+  [
+   52.343559,
+   13.651514
+  ],
+  [
+   52.343538,
+   13.651597
+  ],
+  [
+   52.343487,
+   13.651632
+  ],
+  [
+   52.343436,
+   13.651597
+  ],
+  [
+   52.343262,
+   13.651395
+  ],
+  [
+   52.343163,
+   13.651274
+  ],
+  [
+   52.343142,
+   13.651191
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 4361898139,
+   "lat": 52.343313,
+   "lon": 13.651312,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Rutsche und Wackelsteg",
+   "thema": "Spielgeräte",
+   "kurztext": "Eine große Rutsche, ein Wackelsteg, eine Tierwippe und eine Schaukel bilden den Spielbereich am Wasser.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 116577373,
+   "lat": 52.343484,
+   "lon": 13.651085,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Beachvolleyballfeld",
+   "thema": "Sport",
+   "kurztext": "Auf dem Sandfeld mit Netz spielen Kinder und Erwachsene Beachvolleyball.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 70532935,
+   "lat": 52.343328,
+   "lon": 13.651706,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Badewiese",
+   "thema": "Baden",
+   "kurztext": "Von der Badewiese geht es direkt ins Wasser des Großen Zugs, eines Teils des Crossinsees.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 4361898139,
+   "lat": 52.343313,
+   "lon": 13.651312,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Rauchfangswerder"
+  },
+  {
+   "osmId": 1883995765,
+   "lat": 52.343472,
+   "lon": 13.651286,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 9007766742,
+   "lat": 52.343487,
+   "lon": 13.651514,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 9007766741,
+   "lat": 52.343214,
+   "lon": 13.651191,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Kiefer": "typisch",
+  "Hängebirke": "typisch",
+  "Stieleiche": "typisch",
+  "Schilf": "typisch",
+  "Stockente": "typisch",
+  "Haubentaucher": "typisch",
+  "Blässhuhn": "typisch",
+  "Höckerschwan": "typisch",
+  "Graureiher": "typisch",
+  "Buchfink": "typisch",
+  "Kohlmeise": "typisch",
+  "Eichhörnchen": "typisch"
+ }
+}

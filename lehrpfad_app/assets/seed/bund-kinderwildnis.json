@@ -1,0 +1,241 @@
+{
+ "id": "bund-kinderwildnis",
+ "name": "BUND Kinderwildnis (Naturerlebnisraum am Café Sand)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Hinter dem Café Sand auf dem Stadtwerder liegen 1,7 Hektar Hügel, Gräben und wilde Gebüsche. An der Wasserpumpe wird mit Lehm gebaut.",
+ "beschreibung": "Auf der Weserinsel Stadtwerder wächst die Kinderwildnis als naturnahes Spielgelände. Hügel und Gräben formen den Boden, knorrige Baumstämme laden zum Klettern ein. An der Wasserpumpe entsteht die Matschbaustelle, gebaut wird mit Lehm, Stöcken und Steinen. In den artenreichen Gebüschen singen Vögel, am Boden lassen sich Käfer beobachten und Blätter sammeln. Eine Naturtafel an der Obstwiese zeigt, wann welche Früchte reif sind. Auf der Festwiese stehen ein Unterstand und Tische, in den Gebüschen hängt eine Hängematte. Einige Areale lassen sich für Kindergeburtstage reservieren.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "BUND Landesverband Bremen e.V.",
+ "region": "Stadtwerder, Neustadt, Bremen",
+ "anreise": "Navi: Strandweg, Bremen (Café Sand). Die Kinderwildnis liegt auf der Weserinsel neben dem Café Sand, erreichbar mit der Sielwallfähre oder über den Kuhhirtenweg. Parkplatz Am Kuhhirten rund 300 m vom Eingang.",
+ "startName": "Kinderwildnis, Eingangstafel am Strandweg",
+ "arten": [
+  "Kultur-Apfel",
+  "Heckenrose",
+  "Eingriffeliger Weißdorn",
+  "Schwarzer Holunder",
+  "Schlehe",
+  "Vogelkirsche",
+  "Kohlmeise",
+  "Amsel",
+  "Blaumeise",
+  "Rotkehlchen",
+  "Siebenpunkt-Marienkäfer",
+  "Hummel",
+  "Igel",
+  "Tagpfauenauge"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "hunde-erlaubt",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 51,
+ "form": "flaeche",
+ "website": "https://www.kinderwildnis-bremen.de/die-kinderwildnis/",
+ "eintrittPreise": "Freies Spiel kostenlos; Reservierung von Arealen für Kindergeburtstage und Feste 1,50 € pro Person, mindestens 25 €",
+ "oeffnungszeiten": "jederzeit frei zugänglich",
+ "besuchshinweise": "Keine Mülleimer, Abfall und Essensreste wieder mitnehmen. Keine Toiletten auf dem Gelände, während der Öffnungszeiten des Café Sand dürfen dessen Toiletten genutzt werden. Grillen nur mit eigenem Grill ohne offenes Feuer. Nicht rauchen. Hunde an der Leine.",
+ "area": [
+  [
+   53.065999,
+   8.818433
+  ],
+  [
+   53.066144,
+   8.817966
+  ],
+  [
+   53.065972,
+   8.818135
+  ],
+  [
+   53.065796,
+   8.818301
+  ],
+  [
+   53.065574,
+   8.818478
+  ],
+  [
+   53.06547,
+   8.818594
+  ],
+  [
+   53.065348,
+   8.818788
+  ],
+  [
+   53.065392,
+   8.820412
+  ],
+  [
+   53.065679,
+   8.820474
+  ],
+  [
+   53.06689,
+   8.820947
+  ],
+  [
+   53.066984,
+   8.820855
+  ],
+  [
+   53.067067,
+   8.820168
+  ],
+  [
+   53.066932,
+   8.820073
+  ],
+  [
+   53.065773,
+   8.819255
+  ],
+  [
+   53.065999,
+   8.818433
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 12818586320,
+   "lat": 53.066852,
+   "lon": 8.820803,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Eingang am Strandweg",
+   "thema": "Regeln der Kinderwildnis",
+   "kurztext": "Am Strandweg nennt eine Tafel die Regeln des Geländes, Hunde gehören an die Leine und Müll wird wieder mitgenommen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2923193677,
+   "lat": 53.066269,
+   "lon": 8.819915,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Hängematte",
+   "thema": "Ausruhen zwischen Gebüschen",
+   "kurztext": "Zwischen den Gebüschen hängt eine Hängematte, ringsum singen die Vögel der Kinderwildnis.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 2923193652,
+   "lat": 53.065927,
+   "lon": 8.819633,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Wasserpumpe und Matschbaustelle",
+   "thema": "Bauen mit Wasser und Lehm",
+   "kurztext": "Aus Pumpenwasser, Lehm, Stöcken und Steinen entstehen hier Dämme, Gräben und Burgen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 947924817,
+   "lat": 53.06584,
+   "lon": 8.819569,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Festwiese",
+   "thema": "Unterstand und Tische",
+   "kurztext": "Unterstand und Tische machen die Festwiese zum Treffpunkt für Picknick, Ferienprogramm und Kindergeburtstag.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 12818586321,
+   "lat": 53.065674,
+   "lon": 8.819937,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Obstwiese – Wann bin ich reif?",
+   "thema": "Früchte im Jahreslauf",
+   "kurztext": "Welche Früchte der Obstwiese in welchem Monat reif werden, zeigt eine Naturtafel am Wiesenrand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 32304133,
+   "lat": 53.066102,
+   "lon": 8.819525,
+   "kategorie": "playground",
+   "name": "Kinderwildnis"
+  },
+  {
+   "osmId": 947924817,
+   "lat": 53.06584,
+   "lon": 8.819569,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 2923193651,
+   "lat": 53.065855,
+   "lon": 8.819611,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 2923193636,
+   "lat": 53.067019,
+   "lon": 8.821555,
+   "kategorie": "gastro",
+   "name": "Café Sand"
+  },
+  {
+   "osmId": 1589709715,
+   "lat": 53.067345,
+   "lon": 8.81976,
+   "kategorie": "gastro",
+   "name": "Bootshaus Bremen"
+  },
+  {
+   "osmId": 2923194110,
+   "lat": 53.067056,
+   "lon": 8.821357,
+   "kategorie": "wc",
+   "name": "WC Café Sand"
+  },
+  {
+   "osmId": 287690832,
+   "lat": 53.064059,
+   "lon": 8.820344,
+   "kategorie": "parking",
+   "name": "Parkplatz Am Kuhhirten"
+  }
+ ],
+ "artenNachweis": {
+  "Kultur-Apfel": "typisch",
+  "Heckenrose": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Schlehe": "typisch",
+  "Vogelkirsche": "typisch",
+  "Kohlmeise": "typisch",
+  "Amsel": "typisch",
+  "Blaumeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch",
+  "Hummel": "typisch",
+  "Igel": "typisch",
+  "Tagpfauenauge": "typisch"
+ }
+}

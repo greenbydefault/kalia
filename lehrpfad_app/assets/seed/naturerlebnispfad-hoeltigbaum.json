@@ -1,0 +1,269 @@
+{
+ "id": "naturerlebnispfad-hoeltigbaum",
+ "name": "Naturerlebnispfad Höltigbaum",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Ein rund 500 Meter langer, barrierearmer Pfad am Haus der Wilden Weiden. Acht Mitmach-Stationen erzählen von der halboffenen Weidelandschaft im Höltigbaum.",
+ "beschreibung": "Bis 1995 übte die Bundeswehr auf dem Höltigbaum, heute weiden hier Galloway-Rinder, Bentheimer Landschafe und Ziegen das ganze Jahr. Seit Juli 2026 führt ein rund 500 Meter langer Pfad über die Freizeitfläche am Haus der Wilden Weiden. Eine Rampe macht ihn auch mit Rollstuhl oder Kinderwagen erreichbar. Acht Mitmach-Spiele wie Memory, Dreh-Würfel-Puzzle, Weitspringen und Fuchsbau laden zum Rätseln und Ausprobieren ein. Auf der Freizeitfläche dürfen Besucher die Wege verlassen, dahinter liegt ein Freizeitwald mit Weidentipis. Das Haus zeigt eine Ausstellung über Eiszeit, Beweidung, Tiere und Pflanzen.",
+ "laengeKm": 0.5,
+ "dauerMin": 30,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "BUKEA (Projekt Natürlich Hamburg) mit Stiftung Natur im Norden (Haus der Wilden Weiden)",
+ "region": "Rahlstedt, Bezirk Wandsbek, Hamburg",
+ "anreise": "Bus bis Haltestelle „Naturschutzgebiet Höltigbaum“; mit dem Auto zu den Parkplätzen vor den Zufahrtsschranken an den Straßen Eichberg oder Neuer Höltigbaum, dann ca. 5 Minuten zu Fuß zum Haus der Wilden Weiden (Eichberg 63, 22143 Hamburg).",
+ "startName": "Naturerlebnispfad am Haus der Wilden Weiden",
+ "arten": [
+  "Neuntöter",
+  "Goldammer",
+  "Schaf",
+  "Ziege",
+  "Gemeine Esche",
+  "Schlehe",
+  "Stieleiche",
+  "Eingriffeliger Weißdorn",
+  "Besenheide",
+  "Rotfuchs",
+  "Feldhase",
+  "Tagpfauenauge",
+  "Hummel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "kinderwagentauglich",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "heide",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 103,
+ "website": "https://www.hoeltigbaum.de/der-erlebnisort-hoeltigbaum/das-naturschutzgebiet/freizeitflaeche",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Freizeitfläche und Pfad jederzeit zugänglich. Haus der Wilden Weiden: April–Oktober Do, Fr 14–18 Uhr, Sa, So, Feiertag 11–18 Uhr; November–März Sa, So, Feiertag 11–16 Uhr (geschlossen 24., 25. und 31.12.).",
+ "besuchshinweise": "Pfad und Freizeitfläche sind jederzeit offen, das Haus hat feste Öffnungszeiten. Vom Parkplatz am Hundeauslauf sind es rund 300 m bis zur Rampe. Hunde sind auf der Freizeitfläche verboten, Grillen im ganzen Schutzgebiet. WC im Haus.",
+ "route": [
+  [
+   53.615988,
+   10.184834
+  ],
+  [
+   53.61607,
+   10.184936
+  ],
+  [
+   53.61629,
+   10.184945
+  ],
+  [
+   53.61636,
+   10.184968
+  ],
+  [
+   53.616658,
+   10.184652
+  ],
+  [
+   53.616753,
+   10.184598
+  ],
+  [
+   53.616836,
+   10.184586
+  ],
+  [
+   53.616953,
+   10.184585
+  ],
+  [
+   53.617023,
+   10.184585
+  ],
+  [
+   53.617088,
+   10.184601
+  ],
+  [
+   53.617138,
+   10.184625
+  ],
+  [
+   53.617185,
+   10.184712
+  ],
+  [
+   53.617246,
+   10.184896
+  ],
+  [
+   53.617288,
+   10.185058
+  ],
+  [
+   53.617352,
+   10.185213
+  ],
+  [
+   53.617355,
+   10.185324
+  ],
+  [
+   53.61737,
+   10.185432
+  ],
+  [
+   53.617437,
+   10.1856
+  ],
+  [
+   53.617568,
+   10.185824
+  ],
+  [
+   53.617587,
+   10.185938
+  ],
+  [
+   53.617596,
+   10.186133
+  ],
+  [
+   53.61756,
+   10.186243
+  ],
+  [
+   53.617514,
+   10.186287
+  ],
+  [
+   53.617324,
+   10.186353
+  ],
+  [
+   53.617323,
+   10.186351
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 43181084,
+   "lat": 53.615781,
+   "lon": 10.185082,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Haus der Wilden Weiden",
+   "thema": "Ausstellung",
+   "kurztext": "Das Umweltzentrum der Stiftung Natur im Norden zeigt Eiszeit, frühere Nutzung, Tiere und Pflanzen des Schutzgebiets, der Eintritt ist frei.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14281758121,
+   "lat": 53.616308,
+   "lon": 10.184869,
+   "km": 0.037,
+   "reihenfolge": 2,
+   "titel": "Insektenhotel",
+   "thema": "Wildbienen",
+   "kurztext": "Am Anfang des Pfads steht ein Insektenhotel mit Nistplätzen für Wildbienen und andere Insekten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14281758113,
+   "lat": 53.616509,
+   "lon": 10.185047,
+   "km": 0.055,
+   "reihenfolge": 3,
+   "titel": "Weitspringen",
+   "thema": "Mitmachen",
+   "kurztext": "Eine Mitmach-Station zum Weitspringen auf der Freizeitfläche lädt zum Ausprobieren ein.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14281758114,
+   "lat": 53.617272,
+   "lon": 10.184766,
+   "km": 0.153,
+   "reihenfolge": 4,
+   "titel": "Fuchsbau",
+   "thema": "Mitmachen",
+   "kurztext": "Der Fuchsbau gehört zu den Mitmach-Stationen am Pfad und lädt zum Ausprobieren ein.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 701310148,
+   "lat": 53.617501,
+   "lon": 10.186343,
+   "km": 0.269,
+   "reihenfolge": 5,
+   "titel": "Gletscherfahrer",
+   "thema": "Eiszeit",
+   "kurztext": "Am Nordende des Pfads steht die Tafel „Gletscherfahrer“, der Höltigbaum ist eine Grundmoränenlandschaft der letzten Eiszeit.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 14281758123,
+   "lat": 53.616196,
+   "lon": 10.185026,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 14245957015,
+   "lat": 53.615675,
+   "lon": 10.185177,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14246129730,
+   "lat": 53.615819,
+   "lon": 10.18515,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": -1841689973,
+   "lat": 53.615781,
+   "lon": 10.185082,
+   "kategorie": "wc",
+   "name": "WC im Haus der Wilden Weiden"
+  }
+ ],
+ "artenNachweis": {
+  "Neuntöter": "belegt",
+  "Goldammer": "belegt",
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Gemeine Esche": "belegt",
+  "Schlehe": "belegt",
+  "Stieleiche": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Besenheide": "typisch",
+  "Rotfuchs": "typisch",
+  "Feldhase": "typisch",
+  "Tagpfauenauge": "typisch",
+  "Hummel": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "e9b3908f-ee9d-47f3-ad13-a27420f8160e",
+   "id": "e9b3908f-ee9d-47f3-ad13-a27420f8160e",
+   "caption": "Umgebung, nicht Pfad: Wiese und Gehölze am Höltigbaum nahe dem Haus der Wilden Weiden (vor Bau des Pfades)",
+   "credit": "V-Toll, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B6ltigbaum_-_panoramio.jpg",
+   "kind": "ort"
+  }
+ ]
+}

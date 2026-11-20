@@ -1,0 +1,208 @@
+{
+ "id": "schnaakenmoor-schnitzeljagd",
+ "name": "Schnitzeljagd im Schnaakenmoor",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Flipp, das Eichhörnchen, führt Kinder per App durch das Schnaakenmoor. Die Schnitzeljagd beginnt am Wildgehege Klövensteen und endet am Waldspielplatz.",
+ "beschreibung": "Seinen Namen hat das Schnaakenmoor von den Mücken, die an warmen Nachmittagen in Schwärmen über dem Moor tanzen. Es sind nur Männchen, und die stechen nicht. Die Schnitzeljagd der Naturschutz-App der Stadt schickt Kinder auf einen geheimen Weg durch Wald und Moor. Für gelöste Rätsel gibt es Punkte und am Ende eine Medaille. Eine Zaubernuss zeigt den eigenen Standort und das nächste Ziel, kostet aber Punkte. Das Moor lag einst in einem langen Zug aus Binnendünen nördlich der Elbe. Der Wald ringsum wurde erst im neunzehnten Jahrhundert gepflanzt.",
+ "laengeKm": 2,
+ "dauerMin": 70,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft (BUKEA) Hamburg",
+ "region": "Rissen, Bezirk Altona, Hamburg",
+ "anreise": "Start vor dem Eingang zum Wildgehege Klövensteen, Sandmoorweg 150, 22559 Hamburg, Parkplatz direkt daneben. Ab S-Bahn Rissen (S1) etwa 2 km zu Fuß oder mit dem Rad über den Sandmoorweg. Ziel ist der Waldspielplatz am Klövensteenweg mit Parkplatz, von dort etwa 2 km zurück zur S-Bahn Rissen. Benötigt wird die kostenlose App „Natürlich Hamburg!“ der Umweltbehörde.",
+ "startName": "Eingang Wildgehege Klövensteen, Start der Schnitzeljagd",
+ "arten": [
+  "Moorfrosch",
+  "Glockenheide",
+  "Rundblättriger Sonnentau",
+  "Wollgras",
+  "Torfmoos",
+  "Rosmarinheide",
+  "Heidelerche",
+  "Stieleiche",
+  "Besenheide",
+  "Moorbirke",
+  "Grasfrosch",
+  "Waldeidechse",
+  "Zauneidechse",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "picknick",
+  "spielplatz",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "moor",
+  "heide"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 126,
+ "website": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/artenschutz/natuerlich-hamburg/app-naturerleben-171752",
+ "eintrittPreise": "kostenlos",
+ "besuchshinweise": "App und Route vorher im WLAN laden, im Schnaakenmoor reicht der Mobilfunk für den Download nicht. Die Schnitzeljagd endet am Waldspielplatz, Zeit und Kraft für den Rückweg einplanen. Im Naturschutzgebiet auf den Wegen bleiben.",
+ "stationen": [
+  {
+   "osmId": -1887765681,
+   "lat": 53.596367,
+   "lon": 9.746335,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Wildgehege Klövensteen",
+   "thema": "Start der Schnitzeljagd",
+   "kurztext": "Vor dem Eingang zum Wildgehege beginnt die Schnitzeljagd mit Flipp, dem Eichhörnchen.",
+   "erlebnisse": [
+    "quiz",
+    "audio"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1770804491,
+   "lat": 53.593451,
+   "lon": 9.752651,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Fischteiche Rüdigerau",
+   "thema": "Teiche am Südrand",
+   "kurztext": "Fischteiche an der Rüdigerau liegen am Südrand des Forsts, die App hält hier Steckbriefe typischer Arten bereit.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -512451997,
+   "lat": 53.598424,
+   "lon": 9.758138,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Moorschutz",
+   "thema": "Moor erhalten",
+   "kurztext": "Wie das Schnaakenmoor entstand, fast verschwand und heute erhalten wird, erzählt die App am Rand des Moores.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -15724606,
+   "lat": 53.599466,
+   "lon": 9.762999,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Moor und Düne",
+   "thema": "Landschaftsgeschichte",
+   "kurztext": "Moor und Sand gehörten einst zu einem über 100 Kilometer langen Binnendünenzug nördlich der Elbe mit eingestreuten kleinen Mooren.",
+   "erlebnisse": [
+    "audio"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11029991022,
+   "lat": 53.600246,
+   "lon": 9.766326,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Im NSG Schnaakenmoor",
+   "thema": "Naturschutzgebiet",
+   "kurztext": "Glockenheide, Wollgras und Sonnentau wachsen im Naturschutzgebiet, das auch Moorfrosch und Kreuzotter Lebensraum bietet.",
+   "erlebnisse": [
+    "tafel",
+    "audio"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 96260084,
+   "lat": 53.599583,
+   "lon": 9.767549,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Waldspielplatz Klövensteenweg",
+   "thema": "Ziel der Schnitzeljagd",
+   "kurztext": "Am Waldspielplatz endet die Schnitzeljagd, wer genug Rätsel gelöst hat, bekommt eine Medaille.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 303734750,
+   "lat": 53.596238,
+   "lon": 9.746108,
+   "kategorie": "gastro",
+   "name": "Kleine Waldschänke"
+  },
+  {
+   "osmId": 7394956785,
+   "lat": 53.596423,
+   "lon": 9.746496,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 20447648,
+   "lat": 53.596823,
+   "lon": 9.745897,
+   "kategorie": "parking",
+   "name": "Parkplatz Wildgehege"
+  },
+  {
+   "osmId": 1115803579,
+   "lat": 53.600337,
+   "lon": 9.766453,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 96260084,
+   "lat": 53.599583,
+   "lon": 9.767549,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Klövensteen"
+  },
+  {
+   "osmId": 4855552906,
+   "lat": 53.599394,
+   "lon": 9.767262,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 250535573,
+   "lat": 53.599248,
+   "lon": 9.765945,
+   "kategorie": "parking",
+   "name": "Parkplatz Klövensteenweg"
+  }
+ ],
+ "artenNachweis": {
+  "Moorfrosch": "belegt",
+  "Glockenheide": "belegt",
+  "Rundblättriger Sonnentau": "belegt",
+  "Wollgras": "belegt",
+  "Torfmoos": "belegt",
+  "Rosmarinheide": "belegt",
+  "Heidelerche": "belegt",
+  "Stieleiche": "belegt",
+  "Besenheide": "typisch",
+  "Moorbirke": "typisch",
+  "Grasfrosch": "typisch",
+  "Waldeidechse": "typisch",
+  "Zauneidechse": "typisch",
+  "Libelle": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "49803eb8-4a4c-4262-9d89-c6146c1d4fae",
+   "id": "49803eb8-4a4c-4262-9d89-c6146c1d4fae",
+   "caption": "Umgebung, nicht Pfad: Blick ins Schnaakenmoor (Oktober 2014)",
+   "credit": "Frank Schwichtenberg, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schnaakenmoor_01.jpg",
+   "kind": "ort"
+  }
+ ]
+}

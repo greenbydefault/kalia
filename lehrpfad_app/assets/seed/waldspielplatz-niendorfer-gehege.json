@@ -1,0 +1,221 @@
+{
+ "id": "waldspielplatz-niendorfer-gehege",
+ "name": "Waldspielplatz Niendorfer Gehege",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Wo früher ein Bombenkrater war, liegt heute ein Waldspielplatz mitten im Niendorfer Gehege. Dazu gehören Seilbahn, Kletterturm, große Rutsche und Spielwiese.",
+ "beschreibung": "Kinder nennen ihn auch Krokodilspielplatz: Der Bondenwaldspielplatz liegt mitten im Niendorfer Gehege an der Kreuzung Niendorfer Gehege/Bondenwald. Wo früher ein Bombenkrater war, stehen heute Schaukeln, Wippen, mehrere Rutschen, Reckstangen, ein Kletterturm, ein Kletterparcours und eine Seilbahn. Auf der großen Wiese ist Platz für Ballspiele, an Tischen lässt sich picknicken, bei Regen bietet ein Unterstand Schutz. Ringsum wächst ein Buchenmischwald mit altem, teils ausländischem Baumbestand. Das Gehege war früher Park und Sommersitz wohlhabender Hamburger.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Revierförsterei Niendorf",
+ "region": "Niendorf, Bezirk Eimsbüttel, Hamburg",
+ "anreise": "U2 bis Niendorf Markt, von dort zu Fuß ins Gehege bis zur Kreuzung Niendorfer Gehege/Bondenwald (22453 Hamburg). Kostenloser Parkplatz rund 140 m nördlich an der Straße Niendorfer Gehege.",
+ "startName": "Bondenwaldspielplatz",
+ "arten": [
+  "Rotbuche",
+  "Buschwindröschen",
+  "Maiglöckchen",
+  "Stieleiche",
+  "Reh",
+  "Rotfuchs",
+  "Buchfink",
+  "Singdrossel",
+  "Kleiber",
+  "Buntspecht",
+  "Grünspecht",
+  "Waldkauz",
+  "Erdkröte"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 99,
+ "form": "flaeche",
+ "website": "https://www.pro-niendorfer-gehege.de/gehege-a-z/spielplaetze/",
+ "eintrittPreise": "kostenlos",
+ "besuchshinweise": "Der Spielplatz ist frei zugänglich. Ein zweiter, kleinerer Spielplatz liegt an der Vogt-Kölln-Straße (Bus 181). Im Gehege gibt es außerdem ein Damwildgehege, einen Ponyhof und ein Waldcafé, Hunde haben ein eigenes Freilaufgebiet.",
+ "area": [
+  [
+   53.6165,
+   9.940446
+  ],
+  [
+   53.616568,
+   9.940576
+  ],
+  [
+   53.616634,
+   9.94122
+  ],
+  [
+   53.616517,
+   9.941483
+  ],
+  [
+   53.616163,
+   9.941589
+  ],
+  [
+   53.616167,
+   9.941399
+  ],
+  [
+   53.616064,
+   9.941298
+  ],
+  [
+   53.615988,
+   9.941014
+  ],
+  [
+   53.615998,
+   9.940793
+  ],
+  [
+   53.616224,
+   9.940626
+  ],
+  [
+   53.616442,
+   9.940347
+  ],
+  [
+   53.6165,
+   9.940446
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 657999424,
+   "lat": 53.616414,
+   "lon": 9.940631,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Seilbahn",
+   "thema": "Spielgerät",
+   "kurztext": "Eine Seilbahn spannt sich über den Platz im früheren Bombenkrater.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 657999426,
+   "lat": 53.616172,
+   "lon": 9.940823,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Kletterturm mit Rutsche",
+   "thema": "Spielgerät",
+   "kurztext": "Kletterturm und Rutsche stehen nebeneinander, insgesamt gibt es mehrere Rutschen, eine davon groß.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6162375711,
+   "lat": 53.616136,
+   "lon": 9.941283,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Kletterwäldchen",
+   "thema": "Klettern",
+   "kurztext": "Im Kletterwäldchen wartet ein Kletterparcours zwischen den Bäumen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6162375745,
+   "lat": 53.616577,
+   "lon": 9.941243,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Schaukeln",
+   "thema": "Spielgerät",
+   "kurztext": "Neben den Einzelschaukeln hängt auch eine Nestschaukel für mehrere Kinder.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 657999427,
+   "lat": 53.616276,
+   "lon": 9.941449,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Sandkasten",
+   "thema": "Spielgerät",
+   "kurztext": "Sandkasten und Spielhaus liegen gleich bei den Picknicktischen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6162375726,
+   "lat": 53.616688,
+   "lon": 9.941106,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Federwippen",
+   "thema": "Spielgerät",
+   "kurztext": "Am Nordrand des Platzes stehen zwei Federwippen für die Kleinen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 24776875,
+   "lat": 53.61626,
+   "lon": 9.941098,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 6162375715,
+   "lat": 53.616354,
+   "lon": 9.941531,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12841187685,
+   "lat": 53.616682,
+   "lon": 9.940802,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 20790931,
+   "lat": 53.617802,
+   "lon": 9.940115,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Rotbuche": "belegt",
+  "Buschwindröschen": "belegt",
+  "Maiglöckchen": "belegt",
+  "Stieleiche": "typisch",
+  "Reh": "belegt",
+  "Rotfuchs": "belegt",
+  "Buchfink": "belegt",
+  "Singdrossel": "belegt",
+  "Kleiber": "belegt",
+  "Buntspecht": "belegt",
+  "Grünspecht": "belegt",
+  "Waldkauz": "belegt",
+  "Erdkröte": "belegt"
+ },
+ "bilder": [
+  {
+   "file": "340673ca-07b6-489b-9193-51d375f797e8",
+   "id": "340673ca-07b6-489b-9193-51d375f797e8",
+   "caption": "Umgebung, nicht Pfad: Wiese im Niendorfer Gehege im Februar (2017)",
+   "credit": "TheAmerikaner, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niendorfer-Gehege-Hamburg-Februar.jpg",
+   "kind": "ort"
+  }
+ ]
+}

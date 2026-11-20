@@ -1,0 +1,173 @@
+{
+ "id": "kinderbauernhof-kirchdorf",
+ "name": "Kinderbauernhof Kirchdorf",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Ziegen, Schafe, Ponys und Schweine leben auf dem Kinderbauernhof in Kirchdorf-Süd. Eltern haben ihn 1987 auf einer brachliegenden Fläche gegründet.",
+ "beschreibung": "Eltern aus dem Stadtteil gründeten den Kinderbauernhof Kirchdorf 1987 auf einer brachliegenden Fläche in Kirchdorf-Süd. Heute leben hier Gänse, Hühner, Kaninchen, Ziegen, Schafe, Ponys, ein Esel und Schweine. Kinder und Jugendliche helfen bei Pflege und Fütterung und können Pflegschaften für einzelne Tiere übernehmen. Zum Hof gehören ein Spielplatz und ein Baumhaus, Gruppen können hier auch übernachten. An den Gehegen zeigen Schilder, welches Futter die Tiere vertragen. Kitas und Schulklassen aus ganz Hamburg buchen hier Programme zu Tieren und Natur.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kinderbauernhof Kirchdorf e. V.",
+ "region": "Wilhelmsburg, Bezirk Hamburg-Mitte, Hamburg",
+ "anreise": "Stübenhofer Weg 19, 21109 Hamburg. Die Bushaltestelle Stübenhofer Weg liegt direkt an der Hofzufahrt, Busse fahren ab S-Bahnhof Wilhelmsburg.",
+ "startName": "Hofzufahrt Kinderbauernhof Kirchdorf, Stübenhofer Weg 19",
+ "arten": [
+  "Haushuhn",
+  "Hauskaninchen",
+  "Ziege",
+  "Schaf",
+  "Winterlinde",
+  "Spitzahorn",
+  "Bergahorn",
+  "Stieleiche",
+  "Amsel",
+  "Rotkehlchen",
+  "Honigbiene",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 72,
+ "form": "flaeche",
+ "website": "https://www.kibaho.com/",
+ "eintrittPreise": "frei für Familien und Einzelbesucher, Gruppen nach Preisliste",
+ "oeffnungszeiten": "Täglich 11–18 Uhr, auch an Feiertagen.",
+ "besuchshinweise": "Ponys und Schweine nicht füttern, für die übrigen Tiere zeigen Schilder an den Gehegen das passende Futter. Gruppen buchen vorab, montags und am Wochenende gibt es keine Gruppentermine.",
+ "area": [
+  [
+   53.482422,
+   10.012858
+  ],
+  [
+   53.482682,
+   10.011819
+  ],
+  [
+   53.483326,
+   10.012266
+  ],
+  [
+   53.483245,
+   10.012587
+  ],
+  [
+   53.483561,
+   10.012796
+  ],
+  [
+   53.483614,
+   10.012925
+  ],
+  [
+   53.483551,
+   10.013001
+  ],
+  [
+   53.483492,
+   10.012857
+  ],
+  [
+   53.483467,
+   10.01286
+  ],
+  [
+   53.483411,
+   10.0129
+  ],
+  [
+   53.483249,
+   10.013077
+  ],
+  [
+   53.483079,
+   10.013292
+  ],
+  [
+   53.482422,
+   10.012858
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 50804019,
+   "lat": 53.483495,
+   "lon": 10.012828,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Hofzufahrt",
+   "thema": "Ankommen",
+   "kurztext": "Eine kleine Brücke über den Wettern führt vom Stübenhofer Weg auf den Hof.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6772498285,
+   "lat": 53.483254,
+   "lon": 10.012708,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Tiere auf dem Hof",
+   "thema": "Hoftiere",
+   "kurztext": "Gänse, Hühner, Kaninchen, Ziegen, Schafe, Ponys, ein Esel und Schweine leben in den Gehegen. Ponys und Schweine bekommen kein Futter von Besuchern.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 650007408,
+   "lat": 53.482737,
+   "lon": 10.012727,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Spielplatz",
+   "thema": "Spielen",
+   "kurztext": "Zwischen den Bäumen im Süden des Hofs liegt ein Spielplatz, zum Gelände gehört auch ein Baumhaus.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 650007408,
+   "lat": 53.482737,
+   "lon": 10.012727,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 6772498285,
+   "lat": 53.483254,
+   "lon": 10.012708,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 546759733,
+   "lat": 53.484129,
+   "lon": 10.013775,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Winterlinde": "belegt",
+  "Spitzahorn": "belegt",
+  "Bergahorn": "belegt",
+  "Stieleiche": "belegt",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Honigbiene": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch"
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "id": "elbe-tideauenzentrum-heuckenlock",
+ "name": "Elbe-Tideauenzentrum und Bunthäuser Spitze",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Vom Naturschutz-Infohaus im alten Stackmeisterhaus führt ein Fußweg zum Leuchtfeuer an der Bunthäuser Spitze. Dort teilt sich die Elbe.",
+ "beschreibung": "Das Elbe-Tideauenzentrum zeigt im alten Stackmeisterhaus selbst gebaute Exponate zur Süßwassertideaue. Draußen erklärt eine Naturerlebnisfläche Tide, Deichbau und Flussregulierung, dazu kommen ein kleiner Teich, Obstbäume und ein Insektenhotel. Ein Fußweg führt durchs Vorland zur Bunthäuser Spitze, wo sich die Elbe in Norder- und Süderelbe teilt. Dort steht Hamburgs kleinster Leuchtturm. Zweimal am Tag hebt und senkt die Tide der Nordsee hier das Süßwasser der Elbe. Gleich westlich liegt das Naturschutzgebiet Heuckenlock. Sein Tideauwald im Süßwasser wächst nur zwischen Glückstadt und Geesthacht.",
+ "laengeKm": 0.82,
+ "dauerMin": 35,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Gesellschaft für ökologische Planung e. V. (GÖP)",
+ "region": "Moorwerder, Wilhelmsburg, Bezirk Hamburg-Mitte, Hamburg",
+ "anreise": "Moorwerder Hauptdeich 33, 21109 Hamburg. Bus 351 bis Freiluftschule Moorwerder. Mit dem Auto über die A1, Ausfahrt Stillhorn, dann Stillhorner und Moorwerder Hauptdeich, Parkplatz am Haus.",
+ "startName": "Elbe-Tideauenzentrum Bunthaus",
+ "arten": [
+  "Schilf",
+  "Stieleiche",
+  "Gemeine Esche",
+  "Schwarzerle",
+  "Eisvogel",
+  "Graureiher",
+  "Kormoran",
+  "Seeadler",
+  "Salweide",
+  "Schwarzer Holunder",
+  "Stockente",
+  "Biber",
+  "Grasfrosch",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "auwald",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 89,
+ "website": "https://goep.hamburg/",
+ "oeffnungszeiten": "Fußweg frei zugänglich. Ausstellung: Sommerzeit Sa, So und feiertags 11–18 Uhr, Winterzeit So 11–17 Uhr, im Dezember geschlossen. Gruppen nach Anmeldung auch unter der Woche.",
+ "besuchshinweise": "Bei Sturm und hoch auflaufendem Hochwasser Vorland und Heuckenlock nicht betreten. Die Ausstellung öffnet nur am Wochenende, im Dezember bleibt sie zu. Gruppen melden Führungen vorher an.",
+ "route": [
+  [
+   53.4620901,
+   10.0620731
+  ],
+  [
+   53.4615438,
+   10.0613411
+  ],
+  [
+   53.461417,
+   10.0612591
+  ],
+  [
+   53.4613309,
+   10.061294
+  ],
+  [
+   53.4606966,
+   10.0625061
+  ],
+  [
+   53.4606128,
+   10.0625946
+  ],
+  [
+   53.4604436,
+   10.0627732
+  ],
+  [
+   53.4602658,
+   10.0631012
+  ],
+  [
+   53.4600975,
+   10.0634118
+  ],
+  [
+   53.4600391,
+   10.0637682
+  ],
+  [
+   53.4594822,
+   10.064864
+  ],
+  [
+   53.4593493,
+   10.0651572
+  ],
+  [
+   53.4592404,
+   10.0653201
+  ],
+  [
+   53.4588967,
+   10.0657398
+  ],
+  [
+   53.4582755,
+   10.0666007
+  ],
+  [
+   53.4579749,
+   10.0670473
+  ],
+  [
+   53.4576434,
+   10.0675777
+  ],
+  [
+   53.4573195,
+   10.0681688
+  ],
+  [
+   53.4570353,
+   10.0687085
+  ],
+  [
+   53.4568877,
+   10.0690481
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 45278109,
+   "lat": 53.461899,
+   "lon": 10.062382,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Elbe-Tideauenzentrum",
+   "thema": "Stackmeisterhaus",
+   "kurztext": "Seit 2006 zeigt das alte Stackmeisterhaus eine Ausstellung zur Süßwassertideaue. „Stack“ ist Plattdeutsch und meint das Abstecken der Ufer zur Befestigung.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 5471111209,
+   "lat": 53.459143,
+   "lon": 10.065481,
+   "km": 0.48,
+   "reihenfolge": 2,
+   "titel": "Vorland an der Norderelbe",
+   "thema": "Tideaue",
+   "kurztext": "Vor dem Deich liegen Süßwasserwatt, Röhricht und Tideauwald. Mit der Tide steigt und fällt das Wasser hier zweimal am Tag.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8349452996,
+   "lat": 53.456924,
+   "lon": 10.06902,
+   "km": 0.82,
+   "reihenfolge": 3,
+   "titel": "Naturschutzgebiet an der Spitze",
+   "thema": "Naturschutz",
+   "kurztext": "Das Vorland rund um die Spitze gehört zum Naturschutzgebiet Auenlandschaft Obere Tideelbe. Schierlings-Wasserfenchel und Wibels Schmiele wachsen weltweit nur an der Unterelbe.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 255006721,
+   "lat": 53.456869,
+   "lon": 10.069077,
+   "km": 0.82,
+   "reihenfolge": 4,
+   "titel": "Leuchtfeuer Bunthaus",
+   "thema": "Elbteilung",
+   "kurztext": "Hamburgs kleinster Leuchtturm ist außer Betrieb, darf aber bestiegen werden. An der Spitze teilt sich die Elbe in Norder- und Süderelbe.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1416493098,
+   "lat": 53.462207,
+   "lon": 10.062244,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 13396463303,
+   "lat": 53.461197,
+   "lon": 10.062652,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 5868883885,
+   "lat": 53.460524,
+   "lon": 10.063809,
+   "kategorie": "gastro",
+   "name": "Der Stackmeister"
+  },
+  {
+   "osmId": 5471111209,
+   "lat": 53.459143,
+   "lon": 10.065481,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 5471111207,
+   "lat": 53.457876,
+   "lon": 10.067125,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Schilf": "belegt",
+  "Stieleiche": "belegt",
+  "Gemeine Esche": "belegt",
+  "Schwarzerle": "belegt",
+  "Eisvogel": "belegt",
+  "Graureiher": "belegt",
+  "Kormoran": "belegt",
+  "Seeadler": "belegt",
+  "Salweide": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Stockente": "typisch",
+  "Biber": "typisch",
+  "Grasfrosch": "typisch",
+  "Libelle": "typisch"
+ }
+}

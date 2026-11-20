@@ -1,0 +1,485 @@
+{
+ "id": "waldlehrpfad-speckenbuettel",
+ "name": "Waldlehrpfad im Speckenbütteler Park (Gesundheitspark Speckenbüttel)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Landschaftspark aus dem Speckenbütteler Holz mit Waldlehrpfad, Weidenschloss, Barfußpfad und einem kleinen Freilichtmuseum mit Bockwindmühle.",
+ "beschreibung": "Ab 1890 wurde das Speckenbütteler Holz zu einem Landschaftspark umgestaltet, 1896 kam das Parktor dazu. Ein Waldlehrpfad führt durch den alten Baumbestand. Das Weidenschloss von 2003 gilt als größtes lebendes Bauwerk Norddeutschlands. Dazu kommen die Allee der heilenden Bäume, ein Barfußpfad mit Summstein und eine Kneippanlage. Am Yin-und-Yang-Platz lässt sich eine Fontäne steuern. Im Freilichtmuseum stehen ein Geesthof, ein Marschenhaus und eine Bockwindmühle. Am Drachenspielplatz liegen eine Schmetterlingswiese und ein fast barrierefreies Baumhaus.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Gartenbauamt Bremerhaven",
+ "region": "Speckenbüttel, Lehe, Bremerhaven",
+ "anreise": "Gesundheitspark Speckenbüttel, Parkstraße / Wurster Straße, 27580 Bremerhaven; Bushaltestelle „Parktor“.",
+ "startName": "Parktor, Übersichtskarte Speckenbütteler Park",
+ "arten": [
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Eichhörnchen",
+  "Kohlmeise",
+  "Stockente",
+  "Blässhuhn",
+  "Stieleiche",
+  "Hainbuche",
+  "Gemeine Esche",
+  "Hängebirke"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick",
+  "einkehr",
+  "barfusspfad"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 89,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/gesundheitspark-speckenbuettel.27423.html",
+ "oeffnungszeiten": "Jederzeit öffentlich zugänglich.",
+ "besuchshinweise": "Der Park ist jederzeit offen. Spielplätze, ein Picknickplatz und viele Bänke liegen im Gelände verteilt. Das Wirtshaus im Park bietet Essen und Getränke.",
+ "area": [
+  [
+   53.583357,
+   8.588946
+  ],
+  [
+   53.583107,
+   8.590798
+  ],
+  [
+   53.58314,
+   8.59095
+  ],
+  [
+   53.58336,
+   8.590788
+  ],
+  [
+   53.583599,
+   8.590689
+  ],
+  [
+   53.583903,
+   8.590624
+  ],
+  [
+   53.584107,
+   8.590576
+  ],
+  [
+   53.58437,
+   8.590534
+  ],
+  [
+   53.585143,
+   8.590464
+  ],
+  [
+   53.585318,
+   8.591079
+  ],
+  [
+   53.585962,
+   8.591571
+  ],
+  [
+   53.586882,
+   8.592666
+  ],
+  [
+   53.587038,
+   8.592532
+  ],
+  [
+   53.587851,
+   8.594684
+  ],
+  [
+   53.588473,
+   8.593923
+  ],
+  [
+   53.588655,
+   8.593701
+  ],
+  [
+   53.588016,
+   8.591875
+  ],
+  [
+   53.588281,
+   8.591543
+  ],
+  [
+   53.588765,
+   8.591035
+  ],
+  [
+   53.588972,
+   8.590817
+  ],
+  [
+   53.588724,
+   8.590048
+  ],
+  [
+   53.590074,
+   8.589607
+  ],
+  [
+   53.589954,
+   8.587973
+  ],
+  [
+   53.590081,
+   8.58749
+  ],
+  [
+   53.590682,
+   8.586922
+  ],
+  [
+   53.590794,
+   8.586754
+  ],
+  [
+   53.590855,
+   8.586539
+  ],
+  [
+   53.591353,
+   8.586881
+  ],
+  [
+   53.591427,
+   8.586953
+  ],
+  [
+   53.592816,
+   8.587347
+  ],
+  [
+   53.592964,
+   8.586997
+  ],
+  [
+   53.593352,
+   8.585762
+  ],
+  [
+   53.593266,
+   8.58566
+  ],
+  [
+   53.593121,
+   8.584511
+  ],
+  [
+   53.593133,
+   8.584069
+  ],
+  [
+   53.592988,
+   8.578947
+  ],
+  [
+   53.592997,
+   8.578577
+  ],
+  [
+   53.593074,
+   8.576224
+  ],
+  [
+   53.593245,
+   8.575113
+  ],
+  [
+   53.590867,
+   8.574592
+  ],
+  [
+   53.590021,
+   8.57439
+  ],
+  [
+   53.589262,
+   8.57426
+  ],
+  [
+   53.58883,
+   8.574127
+  ],
+  [
+   53.588804,
+   8.574376
+  ],
+  [
+   53.588771,
+   8.57474
+  ],
+  [
+   53.588733,
+   8.575069
+  ],
+  [
+   53.588663,
+   8.575693
+  ],
+  [
+   53.588604,
+   8.577543
+  ],
+  [
+   53.586481,
+   8.577656
+  ],
+  [
+   53.586414,
+   8.578301
+  ],
+  [
+   53.586336,
+   8.578874
+  ],
+  [
+   53.586214,
+   8.579587
+  ],
+  [
+   53.586562,
+   8.579667
+  ],
+  [
+   53.587032,
+   8.581744
+  ],
+  [
+   53.587057,
+   8.581902
+  ],
+  [
+   53.58684,
+   8.583618
+  ],
+  [
+   53.586397,
+   8.58649
+  ],
+  [
+   53.586368,
+   8.586646
+  ],
+  [
+   53.586024,
+   8.58688
+  ],
+  [
+   53.585615,
+   8.586955
+  ],
+  [
+   53.585158,
+   8.587154
+  ],
+  [
+   53.585087,
+   8.587202
+  ],
+  [
+   53.584672,
+   8.587477
+  ],
+  [
+   53.584343,
+   8.587929
+  ],
+  [
+   53.584242,
+   8.588057
+  ],
+  [
+   53.583973,
+   8.588413
+  ],
+  [
+   53.583468,
+   8.58885
+  ],
+  [
+   53.583357,
+   8.588946
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 3015418652,
+   "lat": 53.586261,
+   "lon": 8.589736,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Parktor",
+   "thema": "Eingang",
+   "kurztext": "Das Parktor von 1896 ist der Haupteingang. Daneben zeigt eine Übersichtskarte den ganzen Park.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 132662878,
+   "lat": 53.587815,
+   "lon": 8.58304,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Rosengarten",
+   "thema": "Garten",
+   "kurztext": "Rosenbeete im westlichen Teil des Parks, auf dem Weg zum Freilichtmuseum.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 171748327,
+   "lat": 53.587089,
+   "lon": 8.58025,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Bockwindmühle",
+   "thema": "Freilichtmuseum",
+   "kurztext": "Zum Freilichtmuseum gehören die Bockwindmühle, ein Geesthof und ein Marschenhaus.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 132662886,
+   "lat": 53.589119,
+   "lon": 8.580652,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Spielplatz am Museum",
+   "thema": "Spielen",
+   "kurztext": "Spielplatz nördlich des Freilichtmuseums, mit Picknicktisch in der Nähe.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 3070182776,
+   "lat": 53.590996,
+   "lon": 8.581837,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Bootsteich",
+   "thema": "Wasser",
+   "kurztext": "Am Bootsteich liegt ein Bootsverleih.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 6651545113,
+   "lat": 53.592111,
+   "lon": 8.580426,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Kneippanlage",
+   "thema": "Wasser",
+   "kurztext": "Im Becken der Kneippanlage wird durch kaltes Wasser getreten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 107059004,
+   "lat": 53.5916,
+   "lon": 8.58329,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Weidenschloss",
+   "thema": "Lebendes Bauwerk",
+   "kurztext": "Aus lebenden Weiden geflochten und 2003 gepflanzt, gilt das Weidenschloss als größtes lebendes Bauwerk Norddeutschlands.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11392210325,
+   "lat": 53.591326,
+   "lon": 8.584996,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Lebensgemeinschaft Feuchtwiese",
+   "thema": "Wiese",
+   "kurztext": "Tafel zu Pflanzen und Tieren der Feuchtwiese im Park.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 389403083,
+   "lat": 53.592586,
+   "lon": 8.586385,
+   "kategorie": "gastro",
+   "name": "Wirtshaus im Park"
+  },
+  {
+   "osmId": 1848359851,
+   "lat": 53.588452,
+   "lon": 8.58061,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 132662886,
+   "lat": 53.589119,
+   "lon": 8.580652,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1178151332,
+   "lat": 53.587423,
+   "lon": 8.590246,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 1180505242,
+   "lat": 53.588444,
+   "lon": 8.591061,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 6517695146,
+   "lat": 53.58582,
+   "lon": 8.588793,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Stockente": "typisch",
+  "Blässhuhn": "typisch",
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Gemeine Esche": "typisch",
+  "Hängebirke": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "e36aa699-2e19-4f28-b046-94845ba77bae",
+   "id": "e36aa699-2e19-4f28-b046-94845ba77bae",
+   "caption": "Umgebung, nicht Pfad: das Parktor von 1896 am Eingang des Speckenbütteler Parks (Mai 2015)",
+   "credit": "Keshav Kumar, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bremerhaven_Parktor.jpg",
+   "kind": "ort"
+  }
+ ]
+}

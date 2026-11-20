@@ -1,0 +1,128 @@
+{
+ "id": "eiszeit-naturspielplatz-plaetternweg",
+ "name": "Eiszeit-Naturspielplatz Plätternweg",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Naturspielplatz zum Thema Eiszeit in Leherheide mit Mammut-Rutsche, bemalten Findlingen, Balancierstrecke und einem kleinen Wäldchen.",
+ "beschreibung": "Am Plätternweg in Leherheide liegt ein Naturspielplatz von rund 3.400 Quadratmetern zum Thema Eiszeit. Die Spielgeräte stehen in einer hügeligen Landschaft mit Findlingen, auf die Schulkinder eiszeitliche Motive gemalt haben. Ein großes Mammut dient als Rutsche. Dazu kommen Schaukeln, Hängematten, eine Balancierstrecke mit mehreren Schwierigkeitsgraden und die Sandspielanlage „Töpferei“. Nebenan liegt ein Bolzplatz. Alter Baumbestand und ein kleines Wäldchen spenden Schatten, an rustikalen Picknicktischen ist Platz für eine Pause.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Magistrat der Stadt Bremerhaven",
+ "region": "Fehrmoor, Leherheide, Bremerhaven",
+ "anreise": "Plätternweg, Bremerhaven-Leherheide (Fehrmoor); Bushaltestelle Fehrmoorweg in der Nähe.",
+ "startName": "Mammutspielplatz am Plätternweg",
+ "arten": [
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Kohlmeise",
+  "Eichhörnchen",
+  "Rotkehlchen",
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Gemeine Esche"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 54,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/plaetternweg.152411.html",
+ "besuchshinweise": "Öffentlicher Spielplatz für Kinder bis 14 Jahre. Die Bushaltestelle Fehrmoorweg liegt in der Nähe.",
+ "area": [
+  [
+   53.602165,
+   8.633075
+  ],
+  [
+   53.601727,
+   8.632954
+  ],
+  [
+   53.601491,
+   8.632506
+  ],
+  [
+   53.601806,
+   8.63203
+  ],
+  [
+   53.602319,
+   8.632948
+  ],
+  [
+   53.602196,
+   8.633123
+  ],
+  [
+   53.602165,
+   8.633075
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1305438992,
+   "lat": 53.601951,
+   "lon": 8.632773,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Mammut-Spiellandschaft",
+   "thema": "Eiszeit",
+   "kurztext": "Hügel mit bemalten Findlingen, ein Mammut mit Rutsche, Schaukeln und Hängematten bilden den Kern des Spielplatzes.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1305438993,
+   "lat": 53.601833,
+   "lon": 8.632297,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Bolzplatz",
+   "thema": "Ballspiel",
+   "kurztext": "Rasenplatz zum Fußballspielen direkt neben der Spiellandschaft.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 107791581,
+   "lat": 53.601847,
+   "lon": 8.631595,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Wäldchen",
+   "thema": "Wald",
+   "kurztext": "Ein kleines Wäldchen mit altem Baumbestand grenzt an den Spielplatz und spendet Schatten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1305438992,
+   "lat": 53.601951,
+   "lon": 8.632773,
+   "kategorie": "playground",
+   "name": "Mammutspielplatz"
+  }
+ ],
+ "artenNachweis": {
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Kohlmeise": "typisch",
+  "Eichhörnchen": "typisch",
+  "Rotkehlchen": "typisch",
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Gemeine Esche": "typisch"
+ }
+}

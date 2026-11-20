@@ -1,0 +1,320 @@
+{
+ "id": "naturerlebnispfad-oekologiestation",
+ "name": "Naturerlebnispfad der Ökologiestation Bremen",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Im Waldgelände der Ökologiestation in Bremen-Schönebeck liegen zwölf Anlaufpunkte. Der Weg reicht vom Spechtbaum über die Ameisenstadt bis zum Barfußpfad.",
+ "beschreibung": "Am Talhang der Schönebecker Aue führt ein Naturerlebnispfad durch das Waldgelände der Ökologiestation. Rote Holzmarkierungen zeigen den Weg zu zwölf Anlaufpunkten. Am Spechtbaum verrät eine Drehscheibe, wie Spechte leben, ein großer Schalltrichter fängt Waldklänge ein. Eine Haube schützt den Hügel der Roten Waldameise. Danach folgen Tastbaum, eine umgestürzte Rotbuche, Balancierstämme, ein Barfußpfad mit Handlauf, ein Waldxylophon und eine Partnerschaukel. Der Weg führt durch einen rund 170 Jahre alten Buchenwald und am Feuchtgrünland vorbei, das wegen seltener Pflanzen nur bei Führungen betreten werden darf.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "rote Holzmarkierungen",
+ "betreiber": "Verein Ökologiestation e. V.",
+ "region": "Schönebeck, Bremen-Nord",
+ "anreise": "Ökologiestation Bremen, Am Gütpohl 11, 28757 Bremen-Schönebeck.",
+ "startName": "Ökologiestation, Übersichtskarte am Hofmeierhaus",
+ "arten": [
+  "Mittelspecht",
+  "Rote Waldameise",
+  "Rotbuche",
+  "Stieleiche",
+  "Hainbuche",
+  "Gemeine Esche",
+  "Stechpalme",
+  "Fichte",
+  "Eberesche",
+  "Brombeere",
+  "Sumpfdotterblume",
+  "Große Brennnessel",
+  "Admiral",
+  "Kleiner Fuchs",
+  "Buntspecht",
+  "Kleiber"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "barfusspfad",
+  "picknick",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "buchenwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 132,
+ "form": "flaeche",
+ "website": "https://oekologiestation-bremen.de/ueber-uns",
+ "oeffnungszeiten": "Gelände: Sommerzeit 7–20 Uhr, Winterzeit 8 Uhr bis Einbruch der Dunkelheit.",
+ "besuchshinweise": "Gruppen bitte vor dem Besuch anmelden. Das Feuchtgrünland darf nur bei Führungen betreten werden. Balancierstämme sind bei Nässe rutschig. Am Bienenhaus nicht in die Einflugschneise stellen. Die Begleitbroschüre liegt am Hofmeierhaus aus.",
+ "area": [
+  [
+   53.188006,
+   8.648421
+  ],
+  [
+   53.1881,
+   8.648118
+  ],
+  [
+   53.188516,
+   8.648816
+  ],
+  [
+   53.188568,
+   8.648899
+  ],
+  [
+   53.188741,
+   8.648933
+  ],
+  [
+   53.188734,
+   8.64921
+  ],
+  [
+   53.188693,
+   8.649597
+  ],
+  [
+   53.188691,
+   8.649697
+  ],
+  [
+   53.188526,
+   8.651657
+  ],
+  [
+   53.188435,
+   8.652278
+  ],
+  [
+   53.188129,
+   8.652974
+  ],
+  [
+   53.187969,
+   8.653217
+  ],
+  [
+   53.187577,
+   8.65428
+  ],
+  [
+   53.186825,
+   8.655172
+  ],
+  [
+   53.186304,
+   8.655165
+  ],
+  [
+   53.186277,
+   8.656055
+  ],
+  [
+   53.18635,
+   8.656742
+  ],
+  [
+   53.186155,
+   8.656802
+  ],
+  [
+   53.185966,
+   8.65603
+  ],
+  [
+   53.186105,
+   8.655265
+  ],
+  [
+   53.186059,
+   8.65488
+  ],
+  [
+   53.185534,
+   8.654316
+  ],
+  [
+   53.185078,
+   8.653571
+  ],
+  [
+   53.184505,
+   8.652463
+  ],
+  [
+   53.184361,
+   8.652252
+  ],
+  [
+   53.183255,
+   8.651883
+  ],
+  [
+   53.183356,
+   8.650747
+  ],
+  [
+   53.183797,
+   8.650869
+  ],
+  [
+   53.183898,
+   8.649717
+  ],
+  [
+   53.1846,
+   8.649912
+  ],
+  [
+   53.185179,
+   8.650073
+  ],
+  [
+   53.185251,
+   8.649408
+  ],
+  [
+   53.185336,
+   8.648584
+  ],
+  [
+   53.186348,
+   8.648679
+  ],
+  [
+   53.186455,
+   8.647668
+  ],
+  [
+   53.186825,
+   8.647675
+  ],
+  [
+   53.187198,
+   8.647813
+  ],
+  [
+   53.187563,
+   8.648071
+  ],
+  [
+   53.188006,
+   8.648421
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 475815238,
+   "lat": 53.188333,
+   "lon": 8.649443,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Übersichtskarte am Hofmeierhaus",
+   "thema": "Überblick",
+   "kurztext": "Eine Karte zeigt das Gelände der Ökologiestation und den Rundweg, rote Holzmarkierungen führen von hier zu den zwölf Anlaufpunkten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 475815234,
+   "lat": 53.188555,
+   "lon": 8.649648,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Partnerschaukel",
+   "thema": "Ökosystem",
+   "kurztext": "Bei jedem Schwung auf der Partnerschaukel ist zu spüren, wie zwei Schaukelnde über Seile verbunden sind. So hängen auch die Lebewesen eines Ökosystems zusammen.",
+   "erlebnisse": [
+    "mitmach-modell"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 475815229,
+   "lat": 53.188321,
+   "lon": 8.650181,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Barfußpfad",
+   "thema": "Sinne",
+   "kurztext": "Am Handlauf entlang ertasten nackte Füße mit geschlossenen Augen die unterschiedlichen Bodenbeläge, der Rundgang führt zurück zum Ausgangspunkt.",
+   "erlebnisse": [
+    "barfusspfad"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 475815242,
+   "lat": 53.187781,
+   "lon": 8.651212,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Bienenhaus",
+   "thema": "Honigbienen",
+   "kurztext": "Im Bienenhaus des Imkervereins fliegen Honigbienen ein und aus. Zum Zuschauen am besten seitlich der Einflugschneise stehen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 475815220,
+   "lat": 53.187571,
+   "lon": 8.65148,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 300420626,
+   "lat": 53.188791,
+   "lon": 8.651151,
+   "kategorie": "gastro",
+   "name": "Brunnenhof"
+  },
+  {
+   "osmId": 475815225,
+   "lat": 53.186095,
+   "lon": 8.651955,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 280412572,
+   "lat": 53.188223,
+   "lon": 8.648437,
+   "kategorie": "parking",
+   "name": "Ökologiestation"
+  }
+ ],
+ "artenNachweis": {
+  "Mittelspecht": "belegt",
+  "Rote Waldameise": "belegt",
+  "Rotbuche": "belegt",
+  "Stieleiche": "belegt",
+  "Hainbuche": "belegt",
+  "Gemeine Esche": "belegt",
+  "Stechpalme": "belegt",
+  "Fichte": "belegt",
+  "Eberesche": "belegt",
+  "Brombeere": "belegt",
+  "Sumpfdotterblume": "belegt",
+  "Große Brennnessel": "belegt",
+  "Admiral": "belegt",
+  "Kleiner Fuchs": "belegt",
+  "Buntspecht": "typisch",
+  "Kleiber": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "a17ae7e6-3676-401d-8b4a-0a66cb0ccc09",
+   "id": "a17ae7e6-3676-401d-8b4a-0a66cb0ccc09",
+   "caption": "Umgebung, nicht Pfad: Hofmeierhaus der Ökologiestation, an dem die Begleitbroschüre ausliegt (September 2014)",
+   "credit": "Quarz, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landhaus_Lamotte,_Hofmeierhaus(1)_FHB1654.jpg",
+   "kind": "ort"
+  }
+ ]
+}

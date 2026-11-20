@@ -1,0 +1,450 @@
+{
+ "id": "naturlehrpfad-moorguertel-vogelkamp",
+ "name": "Naturlehrpfad Moorgürtel",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Ein Rundweg mit Tafeln führt um die Ausgleichsflächen am Wohnquartier Vogelkamp Neugraben. Nördlich davon brütet im Moorgürtel der Wachtelkönig.",
+ "beschreibung": "IBA Hamburg und NABU Hamburg haben den Naturlehrpfad 2017 eröffnet. Elf Tafeln führen durch das Wohnquartier Vogelkamp Neugraben und über die Ausgleichsflächen bis an den Rand des Natur- und EU-Vogelschutzgebiets Moorgürtel. Themen sind Gräben, Hecken, Streuobstwiese und Teich, zwei Tafeln zeigen Nisthilfen am Haus und Naturgärten. Im Moorgürtel wurden 88 Brutvogelarten nachgewiesen. Von nationaler Bedeutung ist er als Brutgebiet des Wachtelkönigs, eines etwa 30 Zentimeter großen Rallenvogels. In der Europäischen Union ist der Wachtelkönig vom Aussterben bedroht.",
+ "laengeKm": 2.64,
+ "dauerMin": 85,
+ "rundkurs": true,
+ "markierung": "keine Markierung",
+ "betreiber": "IBA Hamburg GmbH und NABU Hamburg",
+ "region": "Neugraben-Fischbek, Bezirk Harburg, Hamburg",
+ "anreise": "Wohnquartier Vogelkamp Neugraben, 21147 Hamburg. Vom S-Bahnhof Neugraben knapp 1 km zu Fuß nach Norden bis zur Tafel Ausgleichsflächen.",
+ "startName": "Tafel „Ausgleichsflächen“ am Nordrand des Vogelkamps",
+ "arten": [
+  "Kultur-Apfel",
+  "Eingriffeliger Weißdorn",
+  "Heckenrose",
+  "Schlehe",
+  "Schwarzer Holunder",
+  "Schilf",
+  "Kohlmeise",
+  "Goldammer",
+  "Amsel",
+  "Grasfrosch",
+  "Teichfrosch",
+  "Stockente",
+  "Libelle",
+  "Hummel"
+ ],
+ "tags": [
+  "picknick"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke",
+  "teich-tuempel"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 84,
+ "website": "https://www.iba-hamburg.de/files/downloads/Projekte/Vogelkamp-Neugraben/Sonstiges/IBA_uebersicht_naturlehrpfad_1704d.pdf",
+ "besuchshinweise": "Am Rand des Natur- und Vogelschutzgebiets auf den Wegen bleiben. Die Tafeln stehen frei zugänglich, der Rundgang dauert gut eine Stunde.",
+ "route": [
+  [
+   53.4806051,
+   9.8529597
+  ],
+  [
+   53.480663,
+   9.8532505
+  ],
+  [
+   53.4807907,
+   9.8544817
+  ],
+  [
+   53.4808071,
+   9.8548253
+  ],
+  [
+   53.4808083,
+   9.8548515
+  ],
+  [
+   53.4808764,
+   9.8552333
+  ],
+  [
+   53.4809917,
+   9.8562668
+  ],
+  [
+   53.4810059,
+   9.8565357
+  ],
+  [
+   53.4810416,
+   9.8566534
+  ],
+  [
+   53.4810515,
+   9.8567232
+  ],
+  [
+   53.481064,
+   9.8568113
+  ],
+  [
+   53.4812995,
+   9.8566152
+  ],
+  [
+   53.4822137,
+   9.8554938
+  ],
+  [
+   53.4821943,
+   9.8551821
+  ],
+  [
+   53.4821551,
+   9.8549006
+  ],
+  [
+   53.4821341,
+   9.8547038
+  ],
+  [
+   53.4818503,
+   9.8520406
+  ],
+  [
+   53.4816837,
+   9.8506224
+  ],
+  [
+   53.4816932,
+   9.8503482
+  ],
+  [
+   53.4816355,
+   9.850132
+  ],
+  [
+   53.4815947,
+   9.8497638
+  ],
+  [
+   53.4814785,
+   9.8487378
+  ],
+  [
+   53.4813228,
+   9.8473621
+  ],
+  [
+   53.4809469,
+   9.847366
+  ],
+  [
+   53.4807443,
+   9.8454363
+  ],
+  [
+   53.4806734,
+   9.8447612
+  ],
+  [
+   53.4803585,
+   9.8417629
+  ],
+  [
+   53.4802439,
+   9.8405531
+  ],
+  [
+   53.4802294,
+   9.8404473
+  ],
+  [
+   53.4801987,
+   9.8404039
+  ],
+  [
+   53.4801358,
+   9.8403768
+  ],
+  [
+   53.4799453,
+   9.8403741
+  ],
+  [
+   53.4798775,
+   9.8404147
+  ],
+  [
+   53.4798154,
+   9.8405144
+  ],
+  [
+   53.4797388,
+   9.8403857
+  ],
+  [
+   53.478864,
+   9.8405466
+  ],
+  [
+   53.4788257,
+   9.8407076
+  ],
+  [
+   53.4788704,
+   9.8411367
+  ],
+  [
+   53.4788321,
+   9.8412869
+  ],
+  [
+   53.4786734,
+   9.8414848
+  ],
+  [
+   53.4786552,
+   9.8415489
+  ],
+  [
+   53.4786289,
+   9.8416008
+  ],
+  [
+   53.4785908,
+   9.8416291
+  ],
+  [
+   53.4784266,
+   9.8416864
+  ],
+  [
+   53.4783217,
+   9.8417176
+  ],
+  [
+   53.4782731,
+   9.841751
+  ],
+  [
+   53.4782275,
+   9.8418083
+  ],
+  [
+   53.4782054,
+   9.8418552
+  ],
+  [
+   53.4781912,
+   9.8419221
+  ],
+  [
+   53.4781934,
+   9.8420827
+  ],
+  [
+   53.4782031,
+   9.842279
+  ],
+  [
+   53.4782186,
+   9.8424002
+  ],
+  [
+   53.4782855,
+   9.8428129
+  ],
+  [
+   53.4783195,
+   9.8431253
+  ],
+  [
+   53.4785103,
+   9.8449739
+  ],
+  [
+   53.4785283,
+   9.8451432
+  ],
+  [
+   53.4786597,
+   9.8451007
+  ],
+  [
+   53.4786762,
+   9.8452426
+  ],
+  [
+   53.4788039,
+   9.8451984
+  ],
+  [
+   53.478853,
+   9.8451836
+  ],
+  [
+   53.4789568,
+   9.8452601
+  ],
+  [
+   53.4792988,
+   9.8455156
+  ],
+  [
+   53.4794451,
+   9.8454993
+  ],
+  [
+   53.4794932,
+   9.8456194
+  ],
+  [
+   53.4794939,
+   9.8456255
+  ],
+  [
+   53.4796887,
+   9.8473995
+  ],
+  [
+   53.4797614,
+   9.8480614
+  ],
+  [
+   53.4798677,
+   9.8490296
+  ],
+  [
+   53.4802299,
+   9.8523284
+  ],
+  [
+   53.480243,
+   9.852448
+  ],
+  [
+   53.4804087,
+   9.8523981
+  ],
+  [
+   53.4804639,
+   9.852391
+  ],
+  [
+   53.4805099,
+   9.8524005
+  ],
+  [
+   53.4805376,
+   9.8524565
+  ],
+  [
+   53.4805508,
+   9.8525151
+  ],
+  [
+   53.4805854,
+   9.8527985
+  ],
+  [
+   53.4806051,
+   9.8529597
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 14099268486,
+   "lat": 53.4806338,
+   "lon": 9.8529782,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ausgleichsflächen",
+   "thema": "Naturschutz",
+   "kurztext": "Als Ausgleich für die Bebauung des Vogelkamps entstanden hier Wiesen, Gräben und Hecken am Rand des Moorgürtels.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 959864229,
+   "lat": 53.48151,
+   "lon": 9.85604,
+   "km": 0.33,
+   "reihenfolge": 2,
+   "titel": "Streuobstwiese",
+   "thema": "Lebensräume",
+   "kurztext": "Am Ostrand der Ausgleichsfläche stehen die Obstbäume einer Streuobstwiese.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14099245183,
+   "lat": 53.4818069,
+   "lon": 9.8512719,
+   "km": 0.7,
+   "reihenfolge": 3,
+   "titel": "Lebensraum Hecke",
+   "thema": "Lebensräume",
+   "kurztext": "Eine lange Hecke zieht sich am Nordrand der Ausgleichsfläche entlang. Jenseits davon beginnt das Natur- und EU-Vogelschutzgebiet Moorgürtel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 166116531,
+   "lat": 53.47912,
+   "lon": 9.84126,
+   "km": 1.67,
+   "reihenfolge": 4,
+   "titel": "Lebensraum Teich",
+   "thema": "Wasser",
+   "kurztext": "Am Westende des Rundwegs liegt der Teich, dem der Lehrpfad eine eigene Tafel widmet.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 14099189207,
+   "lat": 53.4784816,
+   "lon": 9.8432199,
+   "km": 1.86,
+   "reihenfolge": 5,
+   "titel": "Geest, Marsch und Moor",
+   "thema": "Landschaft",
+   "kurztext": "Neugraben liegt dort, wo die Geest in die Elbmarsch übergeht. Dazwischen zieht sich der Moorgürtel.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 14099228933,
+   "lat": 53.4804889,
+   "lon": 9.8528121,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 14099129038,
+   "lat": 53.4797824,
+   "lon": 9.8403957,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Kultur-Apfel": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Heckenrose": "typisch",
+  "Schlehe": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Schilf": "typisch",
+  "Kohlmeise": "typisch",
+  "Goldammer": "typisch",
+  "Amsel": "typisch",
+  "Grasfrosch": "typisch",
+  "Teichfrosch": "typisch",
+  "Stockente": "typisch",
+  "Libelle": "typisch",
+  "Hummel": "typisch"
+ }
+}

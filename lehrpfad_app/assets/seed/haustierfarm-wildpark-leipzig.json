@@ -212,17 +212,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Lzg._Gro%C3%9Fgehege.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Haushuhn": "belegt",
-    "Hauskaninchen": "belegt",
-    "Schaf": "typisch",
-    "Ziege": "typisch",
-    "Gänseblümchen": "typisch",
-    "Honigbiene": "typisch",
-    "Löwenzahn": "typisch",
-    "Rotklee": "typisch",
-    "Amsel": "typisch",
-    "Rotkehlchen": "typisch"
-  }
+  ]
 }

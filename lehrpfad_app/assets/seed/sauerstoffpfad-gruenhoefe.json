@@ -1,0 +1,175 @@
+{
+ "id": "sauerstoffpfad-gruenhoefe",
+ "name": "Sauerstoffpfad Grünhöfe",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Baumlehrpfad mit 30 Schildern im Grünzug Grünhöfe. Er führt an Stieleiche, Robinie, Roteiche und Stechpalme vorbei bis zum Spielplatz Kapitänsinsel.",
+ "beschreibung": "30 Schilder im Grünzug von Grünhöfe erklären, wie viel Sauerstoff Bäume erzeugen und woher sie stammen. Den Pfad gibt es seit November 2014. Er verbindet die Höfe zwischen Daimlerstraße, Boschstraße und Braunstraße. Über 2.000 Bäume und Großsträucher wachsen auf einer Fläche von etwa 42 Fußballfeldern. Zu jedem Baum sind Herkunft, Größe und Alter verzeichnet. Die Roteiche am Pfad stammt aus Nordamerika und ist rund 80 Jahre alt, die Stechpalme erst etwa 15. Dazu kommen Staudengärten und der Abenteuerspielplatz Kapitänsinsel mit Piratenschiff.",
+ "laengeKm": 1.8,
+ "dauerMin": 85,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "GEWOBA",
+ "region": "Grünhöfe, Geestemünde, Bremerhaven",
+ "anreise": "Grünzug Grünhöfe zwischen Daimlerstraße, Boschstraße und Braunstraße, 27574 Bremerhaven; Bushaltestelle Boschstraße in der Nähe.",
+ "startName": "Spielplatz Kapitänsinsel, Boschstraße",
+ "arten": [
+  "Stieleiche",
+  "Traubeneiche",
+  "Spitzahorn",
+  "Feldahorn",
+  "Hainbuche",
+  "Gemeine Esche",
+  "Hängebirke",
+  "Salweide",
+  "Stechpalme",
+  "Robinie"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "hunde-erlaubt"
+ ],
+ "lebensraeume": [],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 71,
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/sauerstoffpfad-gruenhoefe.113431.html",
+ "eintrittPreise": "kostenfrei",
+ "besuchshinweise": "Der Pfad verläuft durch die Höfe einer Wohnsiedlung. Ausgangspunkt ist der Spielplatz Kapitänsinsel an der Boschstraße. Hunde sind erlaubt.",
+ "stationen": [
+  {
+   "osmId": 206836870,
+   "lat": 53.520102,
+   "lon": 8.607422,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Spielplatz Kapitänsinsel",
+   "thema": "Spielen",
+   "kurztext": "Abenteuerspielplatz mit Piratenschiff. Daneben wächst eine Baumhasel aus Südosteuropa, etwa 9 Meter hoch und 20 Jahre alt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2112407320,
+   "lat": 53.52179,
+   "lon": 8.6048121,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Lederhülsenbaum",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Aus Nordamerika stammt der Lederhülsenbaum im Innenhof. Er ist 15 Meter hoch und rund 40 Jahre alt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -183498638,
+   "lat": 53.520917,
+   "lon": 8.6052546,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Stieleiche",
+   "thema": "Heimischer Baum",
+   "kurztext": "Diese Stieleiche ist 21 Meter hoch und etwa 80 Jahre alt. Die Krone misst 12 Meter.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -344678957,
+   "lat": 53.5204011,
+   "lon": 8.6040182,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Sand-Birken",
+   "thema": "Heimischer Baum",
+   "kurztext": "Eine Gruppe Sand-Birken am Weg, bis 16 Meter hoch und rund 55 Jahre alt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1670140603,
+   "lat": 53.5198626,
+   "lon": 8.6031544,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Hainbuche",
+   "thema": "Heimischer Baum",
+   "kurztext": "Mit 15 Metern Höhe und etwa 70 Jahren gehört die Hainbuche zu den älteren Bäumen am Pfad.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2055537409,
+   "lat": 53.518919,
+   "lon": 8.6033094,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Esche",
+   "thema": "Heimischer Baum",
+   "kurztext": "Rund 90 Jahre alt ist die Esche, 15 Meter hoch, mit einer Krone von 13 Metern.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -226636695,
+   "lat": 53.5173271,
+   "lon": 8.6056365,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Kätzchenweide",
+   "thema": "Heimischer Baum",
+   "kurztext": "Kätzchenweide heißt die männliche Salweide, deren Blüten im Frühjahr früh Bienen versorgen. Dieses Exemplar ist 6 Meter hoch.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -490548742,
+   "lat": 53.5180998,
+   "lon": 8.6058141,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Robinien",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Fünf Robinien stehen hier als Gruppe, 18 Meter hoch und etwa 60 Jahre alt. Die Art stammt aus dem östlichen Nordamerika.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1782193808,
+   "lat": 53.5180546,
+   "lon": 8.6069016,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Roteiche",
+   "thema": "Baum aus Nordamerika",
+   "kurztext": "Roteiche aus Nordamerika, 18 Meter hoch und rund 80 Jahre alt. Im Herbst färbt sich das Laub kräftig rot.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1290271859,
+   "lat": 53.5194663,
+   "lon": 8.6068875,
+   "km": 0,
+   "reihenfolge": 10,
+   "titel": "Feldahorn",
+   "thema": "Heimischer Baum",
+   "kurztext": "Kleinster der heimischen Ahorne: Der Feldahorn am Gebäude ist 14 Meter hoch und etwa 40 Jahre alt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 206836870,
+   "lat": 53.520102,
+   "lon": 8.607422,
+   "kategorie": "playground",
+   "name": "Spielplatz Kapitänsinsel"
+  },
+  {
+   "osmId": 1121007765,
+   "lat": 53.519372,
+   "lon": 8.60626,
+   "kategorie": "parking"
+  }
+ ]
+}

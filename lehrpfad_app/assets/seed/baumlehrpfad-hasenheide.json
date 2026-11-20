@@ -1,0 +1,1091 @@
+{
+ "id": "baumlehrpfad-hasenheide",
+ "name": "Baumlehrpfad Volkspark Hasenheide (Allee der Bäume des Jahres)",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Im Volkspark Hasenheide wachsen die Bäume des Jahres seit 1989 nebeneinander. An jedem Baum erklärt eine Tafel die Art.",
+ "beschreibung": "Seit 1989 wird jedes Jahr ein Baum des Jahres gewählt, im Volkspark Hasenheide wachsen sie fast alle nebeneinander. Den Anfang machte die Stiel-Eiche, später kamen Eibe, Esche, Schwarz-Erle, Wild-Birne, Vogel-Kirsche und Trauben-Eiche dazu. An jedem Baum steht eine Tafel mit Wissenswertem, so ist ein grünes Klassenzimmer entstanden. Die Bäume stehen in zwei Gruppen, eine im Norden des Parks und eine größere weiter südlich. Seltene Arten wie Speierling und Elsbeere lassen sich dort direkt neben Hainbuche und Wald-Kiefer vergleichen. Ein Lageplan in der kostenlosen Broschüre hilft beim Finden.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "Infotafeln an den Bäumen",
+ "betreiber": "Bezirksamt Neukölln, Straßen- und Grünflächenamt",
+ "region": "Neukölln, Berlin",
+ "anreise": "Volkspark Hasenheide in Neukölln. Bus 104 bis Sommerbad Neukölln, Bus 104/166 bis Fontanestraße/Flughafenstraße oder Bus 166 bis Weisestraße. Die nördliche Baumgruppe beginnt an der Europäischen Eibe.",
+ "startName": "Europäische Eibe in der nördlichen Baumgruppe",
+ "arten": [
+  "Stieleiche",
+  "Traubeneiche",
+  "Rotbuche",
+  "Hainbuche",
+  "Hängebirke",
+  "Kiefer",
+  "Eberesche",
+  "Vogelkirsche",
+  "Europäische Lärche",
+  "Winterlinde",
+  "Eichhörnchen",
+  "Kohlmeise",
+  "Buntspecht",
+  "Kleiber",
+  "Rotkehlchen",
+  "Buchfink"
+ ],
+ "tags": [
+  "spielplatz",
+  "einkehr",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 242,
+ "form": "flaeche",
+ "website": "https://www.volkspark-hasenheide.de/baumlehrpfad/",
+ "oeffnungszeiten": "täglich rund um die Uhr zugänglich",
+ "besuchshinweise": "Begleitbroschüre mit Lageplan kostenlos online, im Tierpark Hasenheide oder in der Hasenschänke. Die Eibe ist giftig, Nadeln und Samen nicht in den Mund nehmen.",
+ "area": [
+  [
+   52.488202,
+   13.41002
+  ],
+  [
+   52.488184,
+   13.410163
+  ],
+  [
+   52.48814,
+   13.410495
+  ],
+  [
+   52.488111,
+   13.410719
+  ],
+  [
+   52.488078,
+   13.41097
+  ],
+  [
+   52.488017,
+   13.411439
+  ],
+  [
+   52.487969,
+   13.411798
+  ],
+  [
+   52.487864,
+   13.411762
+  ],
+  [
+   52.487635,
+   13.413499
+  ],
+  [
+   52.48761,
+   13.413689
+  ],
+  [
+   52.487725,
+   13.413669
+  ],
+  [
+   52.488107,
+   13.41366
+  ],
+  [
+   52.488056,
+   13.414041
+  ],
+  [
+   52.487868,
+   13.415497
+  ],
+  [
+   52.487622,
+   13.41541
+  ],
+  [
+   52.487503,
+   13.415367
+  ],
+  [
+   52.487433,
+   13.415906
+  ],
+  [
+   52.487395,
+   13.416188
+  ],
+  [
+   52.48736,
+   13.416438
+  ],
+  [
+   52.487276,
+   13.417081
+  ],
+  [
+   52.487241,
+   13.417353
+  ],
+  [
+   52.487183,
+   13.417798
+  ],
+  [
+   52.487103,
+   13.418411
+  ],
+  [
+   52.48741,
+   13.418439
+  ],
+  [
+   52.487391,
+   13.418576
+  ],
+  [
+   52.48741,
+   13.418693
+  ],
+  [
+   52.48743,
+   13.418836
+  ],
+  [
+   52.487268,
+   13.420067
+  ],
+  [
+   52.487249,
+   13.420215
+  ],
+  [
+   52.487232,
+   13.420351
+  ],
+  [
+   52.487131,
+   13.420321
+  ],
+  [
+   52.487055,
+   13.420417
+  ],
+  [
+   52.486983,
+   13.420463
+  ],
+  [
+   52.486895,
+   13.42048
+  ],
+  [
+   52.486507,
+   13.420348
+  ],
+  [
+   52.486393,
+   13.42031
+  ],
+  [
+   52.486311,
+   13.420282
+  ],
+  [
+   52.486264,
+   13.420468
+  ],
+  [
+   52.486256,
+   13.420718
+  ],
+  [
+   52.486246,
+   13.421051
+  ],
+  [
+   52.485839,
+   13.421038
+  ],
+  [
+   52.485755,
+   13.420969
+  ],
+  [
+   52.485016,
+   13.420915
+  ],
+  [
+   52.484821,
+   13.420903
+  ],
+  [
+   52.484834,
+   13.422509
+  ],
+  [
+   52.485256,
+   13.422578
+  ],
+  [
+   52.485256,
+   13.422826
+  ],
+  [
+   52.485256,
+   13.42302
+  ],
+  [
+   52.484766,
+   13.423007
+  ],
+  [
+   52.484218,
+   13.422993
+  ],
+  [
+   52.484138,
+   13.42299
+  ],
+  [
+   52.484132,
+   13.422368
+  ],
+  [
+   52.484018,
+   13.422346
+  ],
+  [
+   52.484007,
+   13.421493
+  ],
+  [
+   52.483606,
+   13.421506
+  ],
+  [
+   52.483314,
+   13.421515
+  ],
+  [
+   52.483289,
+   13.420388
+  ],
+  [
+   52.482934,
+   13.420331
+  ],
+  [
+   52.482219,
+   13.420409
+  ],
+  [
+   52.482101,
+   13.420536
+  ],
+  [
+   52.482017,
+   13.420602
+  ],
+  [
+   52.48196,
+   13.420708
+  ],
+  [
+   52.481981,
+   13.420896
+  ],
+  [
+   52.481907,
+   13.420897
+  ],
+  [
+   52.481791,
+   13.420903
+  ],
+  [
+   52.481728,
+   13.420822
+  ],
+  [
+   52.481499,
+   13.420828
+  ],
+  [
+   52.481449,
+   13.420253
+  ],
+  [
+   52.481217,
+   13.420266
+  ],
+  [
+   52.481059,
+   13.420255
+  ],
+  [
+   52.480922,
+   13.42021
+  ],
+  [
+   52.480825,
+   13.420157
+  ],
+  [
+   52.480745,
+   13.420097
+  ],
+  [
+   52.480634,
+   13.420234
+  ],
+  [
+   52.480505,
+   13.420307
+  ],
+  [
+   52.480367,
+   13.420339
+  ],
+  [
+   52.480331,
+   13.420138
+  ],
+  [
+   52.480296,
+   13.419943
+  ],
+  [
+   52.480268,
+   13.419784
+  ],
+  [
+   52.480229,
+   13.419525
+  ],
+  [
+   52.48021,
+   13.419371
+  ],
+  [
+   52.480198,
+   13.419214
+  ],
+  [
+   52.480195,
+   13.419059
+  ],
+  [
+   52.480197,
+   13.418879
+  ],
+  [
+   52.480212,
+   13.418576
+  ],
+  [
+   52.480244,
+   13.418244
+  ],
+  [
+   52.480282,
+   13.417973
+  ],
+  [
+   52.48033,
+   13.417722
+  ],
+  [
+   52.480418,
+   13.4173
+  ],
+  [
+   52.480447,
+   13.417166
+  ],
+  [
+   52.48053,
+   13.416779
+  ],
+  [
+   52.48069,
+   13.416039
+  ],
+  [
+   52.480737,
+   13.415833
+  ],
+  [
+   52.480784,
+   13.415614
+  ],
+  [
+   52.480867,
+   13.415228
+  ],
+  [
+   52.481388,
+   13.412815
+  ],
+  [
+   52.481966,
+   13.410123
+  ],
+  [
+   52.48347,
+   13.410274
+  ],
+  [
+   52.484286,
+   13.410427
+  ],
+  [
+   52.485188,
+   13.410595
+  ],
+  [
+   52.485306,
+   13.410581
+  ],
+  [
+   52.485548,
+   13.412053
+  ],
+  [
+   52.486454,
+   13.413341
+  ],
+  [
+   52.487575,
+   13.413127
+  ],
+  [
+   52.487806,
+   13.411361
+  ],
+  [
+   52.487981,
+   13.410014
+  ],
+  [
+   52.488043,
+   13.40954
+  ],
+  [
+   52.488139,
+   13.409313
+  ],
+  [
+   52.488313,
+   13.407987
+  ],
+  [
+   52.488412,
+   13.407993
+  ],
+  [
+   52.488403,
+   13.408487
+  ],
+  [
+   52.488381,
+   13.408653
+  ],
+  [
+   52.488329,
+   13.409048
+  ],
+  [
+   52.488293,
+   13.409328
+  ],
+  [
+   52.488264,
+   13.409551
+  ],
+  [
+   52.488231,
+   13.409802
+  ],
+  [
+   52.488202,
+   13.41002
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 8904716757,
+   "lat": 52.4861787,
+   "lon": 13.4155637,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Europäische Eibe",
+   "thema": "Baum des Jahres 1994",
+   "kurztext": "Die immergrüne Eibe wächst sehr langsam, kann weit über 1000 Jahre alt werden und ist in fast allen Teilen giftig.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8904716754,
+   "lat": 52.4861142,
+   "lon": 13.4158843,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Europäische Stechpalme",
+   "thema": "Baum des Jahres 2021",
+   "kurztext": "Mit stacheligen, glänzenden Blättern und roten Beeren bleibt die Stechpalme auch im Winter grün.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1422658102,
+   "lat": 52.485775,
+   "lon": 13.415114,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Hainbuche",
+   "thema": "Baum des Jahres 1996",
+   "kurztext": "Trotz ihres Namens gehört die Hainbuche, auch Weißbuche genannt, zu den Birkengewächsen und hat besonders hartes Holz.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1252564885,
+   "lat": 52.485684,
+   "lon": 13.415457,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Stiel-Eiche",
+   "thema": "Baum des Jahres 1989",
+   "kurztext": "Als erster Baum des Jahres wurde 1989 die Stiel-Eiche gewählt, deren Eicheln an langen Stielen hängen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1034923779,
+   "lat": 52.485528,
+   "lon": 13.415114,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Rotbuche",
+   "thema": "Baum des Jahres 1990",
+   "kurztext": "Den Namen hat die Rotbuche vom rötlichen Holz, die glatte graue Rinde bleibt bis ins Alter fast ohne Risse.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -614923961,
+   "lat": 52.485424,
+   "lon": 13.415457,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Hänge-Birke",
+   "thema": "Baum des Jahres 2000",
+   "kurztext": "Weiße Rinde und überhängende Zweige machen die Hänge-Birke unverwechselbar, als Pionierbaum besiedelt sie freie Flächen zuerst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1403113007,
+   "lat": 52.485216,
+   "lon": 13.415392,
+   "km": 0,
+   "reihenfolge": 7,
+   "titel": "Weiß-Tanne",
+   "thema": "Baum des Jahres 2004",
+   "kurztext": "Anders als bei Fichten stehen die Zapfen der Weiß-Tanne aufrecht und zerfallen am Baum.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1126093758,
+   "lat": 52.484955,
+   "lon": 13.415521,
+   "km": 0,
+   "reihenfolge": 8,
+   "titel": "Gemeiner Wacholder",
+   "thema": "Baum des Jahres 2002",
+   "kurztext": "Zwei bis drei Jahre brauchen die blauschwarzen Beerenzapfen des Wacholders zum Reifen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -874111784,
+   "lat": 52.484773,
+   "lon": 13.415564,
+   "km": 0,
+   "reihenfolge": 9,
+   "titel": "Wald-Kiefer",
+   "thema": "Baum des Jahres 2007",
+   "kurztext": "Mit trockenem Sandboden kommt die Wald-Kiefer gut zurecht und prägt deshalb viele Wälder rund um Berlin.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -151249968,
+   "lat": 52.483081,
+   "lon": 13.415157,
+   "km": 0,
+   "reihenfolge": 10,
+   "titel": "Spitzahorn",
+   "thema": "Baum des Jahres 1995",
+   "kurztext": "Schon vor dem Laubaustrieb blüht der Spitzahorn gelbgrün, seine Blätter enden in spitzen Zipfeln.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2114245798,
+   "lat": 52.482717,
+   "lon": 13.413467,
+   "km": 0,
+   "reihenfolge": 11,
+   "titel": "Eberesche",
+   "thema": "Baum des Jahres 1997",
+   "kurztext": "Die roten Beeren der Eberesche, auch Vogelbeere genannt, sind im Herbst Futter für viele Vogelarten.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1728939292,
+   "lat": 52.482665,
+   "lon": 13.413894,
+   "km": 0,
+   "reihenfolge": 12,
+   "titel": "Trauben-Eiche",
+   "thema": "Baum des Jahres 2014",
+   "kurztext": "Im Unterschied zur Stiel-Eiche sitzen die Eicheln der Trauben-Eiche fast ohne Stiel in Büscheln am Zweig.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -269137290,
+   "lat": 52.482795,
+   "lon": 13.413103,
+   "km": 0,
+   "reihenfolge": 13,
+   "titel": "Feld-Ahorn",
+   "thema": "Baum des Jahres 2015",
+   "kurztext": "Als kleinster heimischer Ahorn wächst der Feld-Ahorn gern in Hecken am Feldrand.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -242098217,
+   "lat": 52.482561,
+   "lon": 13.413381,
+   "km": 0,
+   "reihenfolge": 14,
+   "titel": "Speierling",
+   "thema": "Baum des Jahres 1993",
+   "kurztext": "Zu den seltensten Bäumen Deutschlands zählt der Speierling, dessen kleine Früchte Apfelwein haltbarer machen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -2036928703,
+   "lat": 52.482496,
+   "lon": 13.41383,
+   "km": 0,
+   "reihenfolge": 15,
+   "titel": "Elsbeere",
+   "thema": "Baum des Jahres 2011",
+   "kurztext": "Ahornähnlich gelappte Blätter trägt die seltene Elsbeere, deren Holz zu den wertvollsten Europas gehört.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1616920837,
+   "lat": 52.482392,
+   "lon": 13.413467,
+   "km": 0,
+   "reihenfolge": 16,
+   "titel": "Wild-Apfel",
+   "thema": "Baum des Jahres 2013",
+   "kurztext": "Mit unseren Kulturäpfeln verwandt ist der Wild-Apfel, seine kleinen Früchte schmecken sehr sauer.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -392655251,
+   "lat": 52.482405,
+   "lon": 13.413039,
+   "km": 0,
+   "reihenfolge": 17,
+   "titel": "Vogel-Kirsche",
+   "thema": "Baum des Jahres 2010",
+   "kurztext": "Im April blüht die Vogel-Kirsche weiß, sie ist die Stammform der Süßkirschen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -131623938,
+   "lat": 52.482144,
+   "lon": 13.413745,
+   "km": 0,
+   "reihenfolge": 18,
+   "titel": "Sommer-Linde",
+   "thema": "Baum des Jahres 1991",
+   "kurztext": "Größere Blätter als die Winter-Linde hat die Sommer-Linde, und sie blüht etwa zwei Wochen früher.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1893686420,
+   "lat": 52.482209,
+   "lon": 13.413274,
+   "km": 0,
+   "reihenfolge": 19,
+   "titel": "Wild-Birne",
+   "thema": "Baum des Jahres 1998",
+   "kurztext": "Dornige Zweige und kleine, harte Früchte kennzeichnen die Wild-Birne.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -573487091,
+   "lat": 52.482053,
+   "lon": 13.414087,
+   "km": 0,
+   "reihenfolge": 20,
+   "titel": "Schwarz-Pappel",
+   "thema": "Baum des Jahres 2006",
+   "kurztext": "Von Natur aus wächst die Schwarz-Pappel in Auwäldern an Flüssen und ist dort selten geworden.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1428784997,
+   "lat": 52.481871,
+   "lon": 13.414665,
+   "km": 0,
+   "reihenfolge": 21,
+   "titel": "Berg-Ulme",
+   "thema": "Baum des Jahres 1992",
+   "kurztext": "Viele Berg-Ulmen sind am Ulmensterben eingegangen, einer Pilzkrankheit, die Käfer übertragen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1277220575,
+   "lat": 52.482014,
+   "lon": 13.413445,
+   "km": 0,
+   "reihenfolge": 22,
+   "titel": "Schwarz-Erle",
+   "thema": "Baum des Jahres 2003",
+   "kurztext": "Nasse Böden verträgt die Schwarz-Erle gut, an ihren Wurzeln binden Knöllchenbakterien Stickstoff aus der Luft.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -992470601,
+   "lat": 52.481871,
+   "lon": 13.414001,
+   "km": 0,
+   "reihenfolge": 23,
+   "titel": "Silber-Weide",
+   "thema": "Baum des Jahres 1999",
+   "kurztext": "Silbrig schimmert die Unterseite der schmalen Blätter bei der Silber-Weide, die gern an Ufern wächst.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -625177578,
+   "lat": 52.481845,
+   "lon": 13.413488,
+   "km": 0,
+   "reihenfolge": 24,
+   "titel": "Esche",
+   "thema": "Baum des Jahres 2001",
+   "kurztext": "Gefiederte Blätter und schwarze Knospen kennzeichnen die Esche, aus ihrem zähen Holz entstehen Werkzeugstiele.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1380205436,
+   "lat": 52.481676,
+   "lon": 13.414237,
+   "km": 0,
+   "reihenfolge": 25,
+   "titel": "Walnuss",
+   "thema": "Baum des Jahres 2008",
+   "kurztext": "Mit den Römern kam die Walnuss nach Mitteleuropa, ihre Nüsse reifen im Herbst in grünen Schalen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1263342278,
+   "lat": 52.481715,
+   "lon": 13.413787,
+   "km": 0,
+   "reihenfolge": 26,
+   "titel": "Winter-Linde",
+   "thema": "Baum des Jahres 2016",
+   "kurztext": "Herzförmige Blätter mit braunen Haarbüscheln auf der Unterseite kennzeichnen die Winter-Linde, deren Blüten Bienen anlocken.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1011491408,
+   "lat": 52.481415,
+   "lon": 13.415521,
+   "km": 0,
+   "reihenfolge": 27,
+   "titel": "Berg-Ahorn",
+   "thema": "Baum des Jahres 2009",
+   "kurztext": "Wie kleine Hubschrauber drehen sich die Flügelfrüchte des Berg-Ahorns beim Fallen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -754270145,
+   "lat": 52.481494,
+   "lon": 13.413723,
+   "km": 0,
+   "reihenfolge": 28,
+   "titel": "Europäische Lärche",
+   "thema": "Baum des Jahres 2012",
+   "kurztext": "Als einziger heimischer Nadelbaum wirft die Lärche im Herbst ihre goldgelb gefärbten Nadeln ab.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1542590295,
+   "lat": 52.481546,
+   "lon": 13.41336,
+   "km": 0,
+   "reihenfolge": 29,
+   "titel": "Gemeine Fichte",
+   "thema": "Baum des Jahres 2017",
+   "kurztext": "Nach unten hängen die Zapfen der Fichte und fallen als Ganzes ab, ihre spitzen Nadeln stechen.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8901975585,
+   "lat": 52.4810641,
+   "lon": 13.4156744,
+   "km": 0,
+   "reihenfolge": 30,
+   "titel": "Gewöhnliche Rosskastanie",
+   "thema": "Baum des Jahres 2005",
+   "kurztext": "Für Menschen nicht essbar sind die glänzenden Samen der Rosskastanie, Wildtiere fressen sie im Winter.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 8901975586,
+   "lat": 52.4810933,
+   "lon": 13.4156255,
+   "km": 0,
+   "reihenfolge": 31,
+   "titel": "Ess-Kastanie",
+   "thema": "Baum des Jahres 2018",
+   "kurztext": "In stacheligen Hüllen reifen im Herbst die essbaren Maronen der Ess-Kastanie.",
+   "erlebnisse": [
+    "tafel"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 966899270,
+   "lat": 52.486515,
+   "lon": 13.413907,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 2425536936,
+   "lat": 52.482599,
+   "lon": 13.416029,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 8560495017,
+   "lat": 52.487243,
+   "lon": 13.415688,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 9824563612,
+   "lat": 52.482799,
+   "lon": 13.416215,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 9824563614,
+   "lat": 52.482777,
+   "lon": 13.416331,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 9824563615,
+   "lat": 52.482736,
+   "lon": 13.416257,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 11139836180,
+   "lat": 52.482538,
+   "lon": 13.416095,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 12987564795,
+   "lat": 52.482493,
+   "lon": 13.420147,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12987565416,
+   "lat": 52.482515,
+   "lon": 13.420184,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 13974103177,
+   "lat": 52.482585,
+   "lon": 13.4161,
+   "kategorie": "gastro",
+   "name": "Hasenschänke"
+  },
+  {
+   "osmId": 83157823,
+   "lat": 52.483619,
+   "lon": 13.417562,
+   "kategorie": "playground",
+   "name": "Spielplatz \"Märchen aus 1001 Nacht\""
+  },
+  {
+   "osmId": 185950724,
+   "lat": 52.484439,
+   "lon": 13.421884,
+   "kategorie": "playground"
+  },
+  {
+   "osmId": 199206848,
+   "lat": 52.486776,
+   "lon": 13.417513,
+   "kategorie": "playground",
+   "name": "Volkspark Hasenheide - Spielplatz III"
+  },
+  {
+   "osmId": 234288064,
+   "lat": 52.482647,
+   "lon": 13.416159,
+   "kategorie": "gastro",
+   "name": "Hasenschänke"
+  },
+  {
+   "osmId": 574200443,
+   "lat": 52.480821,
+   "lon": 13.41658,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 1055967974,
+   "lat": 52.484651,
+   "lon": 13.417161,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 1087168816,
+   "lat": 52.487,
+   "lon": 13.416686,
+   "kategorie": "shelter"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "belegt",
+  "Traubeneiche": "belegt",
+  "Rotbuche": "belegt",
+  "Hainbuche": "belegt",
+  "Hängebirke": "belegt",
+  "Kiefer": "belegt",
+  "Eberesche": "belegt",
+  "Vogelkirsche": "belegt",
+  "Europäische Lärche": "belegt",
+  "Winterlinde": "belegt",
+  "Eichhörnchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Buntspecht": "typisch",
+  "Kleiber": "typisch",
+  "Rotkehlchen": "typisch",
+  "Buchfink": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "5fabf662-d06d-41ca-b617-d87d64228499",
+   "id": "5fabf662-d06d-41ca-b617-d87d64228499",
+   "caption": "Umgebung, nicht Pfad: Wiese im Volkspark Hasenheide in der Morgendämmerung",
+   "credit": "Lukas Beck, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkspark_Hasenheide.jpg",
+   "kind": "ort"
+  }
+ ]
+}

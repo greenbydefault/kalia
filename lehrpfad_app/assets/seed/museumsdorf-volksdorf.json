@@ -1,0 +1,253 @@
+{
+ "id": "museumsdorf-volksdorf",
+ "name": "Museumsdorf Volksdorf",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Elf historische Häuser zeigen, wie die Walddörfer um 1900 lebten. Auf dem Harderhof stehen Kaltblutpferde, Schwarzbunte Rinder und Pommersche Landschafe.",
+ "beschreibung": "Mitten in Volksdorf steht ein Dorf aus der Zeit um 1900. Elf Gebäude wurden erhalten oder wieder aufgebaut, darunter Spiekerhus, Grützmühle und Schmiede. Der Harderhof ist ein Schaubauernhof mit Rassen, die damals in Norddeutschland typisch waren und heute großteils bedroht sind. Hier leben schwere Kaltblutpferde, Deutsche Schwarzbunte Niederungsrinder, Rauwollige Pommersche Landschafe, Thüringer Waldziegen und Vorwerk-Hühner. Dazu kommen Enten, Gänse und Puten. An den Gewerke- und Aktionstagen zeigen die Spiekerlüüd alte Handwerke, für Kinder gibt es Kurse und Workshops.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "De Spieker e. V. – Museumsdorf Volksdorf",
+ "region": "Volksdorf, Bezirk Wandsbek, Hamburg",
+ "anreise": "Im Alten Dorfe 46–48, 22359 Hamburg. U1 und Busse bis Volksdorf, von dort wenige Gehminuten auf einem Fußweg. Öffentlicher Parkplatz rund 140 m südwestlich.",
+ "startName": "Spiekerhus im Museumsdorf Volksdorf",
+ "arten": [
+  "Ziege",
+  "Schaf",
+  "Haushuhn",
+  "Stieleiche",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Rotklee",
+  "Honigbiene",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 94,
+ "form": "flaeche",
+ "website": "https://www.museumsdorf-volksdorf.de/",
+ "eintrittPreise": "kostenlos",
+ "oeffnungszeiten": "Gelände Di–So 10–17 Uhr (an Veranstaltungs- und Feiertagen abweichend). Emmis Krämerladen und Kaffeehus Sa und So 13–17 Uhr.",
+ "besuchshinweise": "Bei Veranstaltungen kostet der Eintritt. Innenräume nur mit Führung, QR-Codes an den Häusern zeigen Innenansichten. Die Tiere stehen zeitweise im Stall oder auf der Weide.",
+ "area": [
+  [
+   53.649759,
+   10.167772
+  ],
+  [
+   53.649743,
+   10.16791
+  ],
+  [
+   53.649677,
+   10.167991
+  ],
+  [
+   53.649547,
+   10.168387
+  ],
+  [
+   53.649421,
+   10.168352
+  ],
+  [
+   53.649377,
+   10.168847
+  ],
+  [
+   53.649227,
+   10.169347
+  ],
+  [
+   53.649163,
+   10.169582
+  ],
+  [
+   53.649608,
+   10.170004
+  ],
+  [
+   53.649871,
+   10.170139
+  ],
+  [
+   53.649962,
+   10.169828
+  ],
+  [
+   53.649985,
+   10.169702
+  ],
+  [
+   53.650052,
+   10.169336
+  ],
+  [
+   53.65019,
+   10.169154
+  ],
+  [
+   53.65028,
+   10.168887
+  ],
+  [
+   53.650346,
+   10.16877
+  ],
+  [
+   53.650435,
+   10.168736
+  ],
+  [
+   53.650366,
+   10.168243
+  ],
+  [
+   53.650186,
+   10.167537
+  ],
+  [
+   53.649963,
+   10.167683
+  ],
+  [
+   53.649759,
+   10.167772
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 151894165,
+   "lat": 53.649865,
+   "lon": 10.168944,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Spiekerhus",
+   "thema": "Bauernhaus",
+   "kurztext": "Das Spiekerhus aus Backstein trägt ein Reetdach und steht hinter einem Flechtzaun.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 151894167,
+   "lat": 53.649503,
+   "lon": 10.168931,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Harderhof",
+   "thema": "Schaubauernhof",
+   "kurztext": "Kaltblutpferde, Schwarzbunte Niederungsrinder, Pommersche Landschafe und Thüringer Waldziegen leben auf dem Schaubauernhof.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 151894162,
+   "lat": 53.649948,
+   "lon": 10.168282,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Schmiede",
+   "thema": "Altes Handwerk",
+   "kurztext": "Die alte Schmiede gehört zu den elf historischen Gebäuden, an Gewerketagen zeigen die Spiekerlüüd hier altes Handwerk.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 23235798,
+   "lat": 53.650112,
+   "lon": 10.168755,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Grützmühle",
+   "thema": "Mühle",
+   "kurztext": "In der Grützmühle aus Backstein wurde früher Getreide zu Grütze verarbeitet.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 327847020,
+   "lat": 53.649575,
+   "lon": 10.169656,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Backhaus",
+   "thema": "Brot",
+   "kurztext": "Neben dem Fachwerk-Backhaus steht ein holzbefeuerter Steinofen, das Brot daraus verkauft der Verein.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 11381610335,
+   "lat": 53.649321,
+   "lon": 10.169033,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Alte Stieleiche",
+   "thema": "Baum",
+   "kurztext": "Seit etwa 1870 wächst die Stieleiche am Hof, der Stamm misst heute 3,70 Meter im Umfang.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 840723845,
+   "lat": 53.649236,
+   "lon": 10.167863,
+   "kategorie": "gastro",
+   "name": "Villaggio"
+  },
+  {
+   "osmId": 3277905053,
+   "lat": 53.648465,
+   "lon": 10.168157,
+   "kategorie": "gastro",
+   "name": "Cafe Liam"
+  },
+  {
+   "osmId": 299273901,
+   "lat": 53.648325,
+   "lon": 10.167277,
+   "kategorie": "parking"
+  },
+  {
+   "osmId": 1460447490,
+   "lat": 53.650135,
+   "lon": 10.166564,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Ziege": "belegt",
+  "Schaf": "belegt",
+  "Haushuhn": "belegt",
+  "Stieleiche": "belegt",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Rotklee": "typisch",
+  "Honigbiene": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "ad90ff44-4134-4788-a159-b60cadd5ae81",
+   "id": "ad90ff44-4134-4788-a159-b60cadd5ae81",
+   "caption": "Der Harderhof, Schaubauernhof des Museumsdorfs (September 2014)",
+   "credit": "An-d, CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "cc-by-sa-3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:HH-Volksdorf_Museumsdorf_Harderhof.jpg",
+   "kind": "ort"
+  }
+ ]
+}

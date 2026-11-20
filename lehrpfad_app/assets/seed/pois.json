@@ -10,6 +10,25 @@
   "telefon": "039994 749937"
  },
  {
+  "id": "ados-eiscafe-restaurant",
+  "name": "Ados Eiscafe Restaurant",
+  "kategorie": "restaurant",
+  "kurztext": "Eiscafé und Restaurant in Hellersdorf.",
+  "lat": 52.53357,
+  "lon": 13.62235,
+  "website": "https://ados-berlin.de/",
+  "opening_hours": "Mo-Su 11:00-23:00"
+ },
+ {
+  "id": "adventure-golf-norderstedt",
+  "name": "Adventure Golf Norderstedt",
+  "kategorie": "aktivitaet",
+  "kurztext": "Abenteuer-Minigolfanlage im Stadtpark Norderstedt.",
+  "lat": 53.716468,
+  "lon": 10.014711,
+  "website": "https://spotz-norderstedt.de/adventure-golf/"
+ },
+ {
   "id": "aktivitaet-bitterfelder-bogen",
   "name": "Bitterfelder Bogen",
   "kategorie": "aktivitaet",
@@ -129,6 +148,25 @@
   "telefon": "+49 6346 5588"
  },
  {
+  "id": "alice-museum-fuer-kinder",
+  "name": "Alice – Museum für Kinder",
+  "kategorie": "museum",
+  "kurztext": "Mitmachmuseum im FEZ Wuhlheide, dessen wechselnde Ausstellungen Kinder anfassen, ausprobieren und erforschen lassen.",
+  "lat": 52.460997,
+  "lon": 13.550096,
+  "website": "https://alice-museum-fuer-kinder.fez-berlin.de"
+ },
+ {
+  "id": "alliiertenmuseum",
+  "name": "AlliiertenMuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Geschichte der West-Alliierten im Berlin des Kalten Krieges.",
+  "lat": 52.455689,
+  "lon": 13.272321,
+  "website": "http://www.alliiertenmuseum.de",
+  "opening_hours": "Tu-Su 10:00-18:00"
+ },
+ {
   "id": "alte-bischofsburg-wittstock",
   "name": "Alte Bischofsburg Wittstock",
   "kategorie": "museum",
@@ -149,6 +187,16 @@
   "lon": 11.2927,
   "website": "https://www.alter-hof-am-elbdeich.de/",
   "telefon": "+49 38758 35780"
+ },
+ {
+  "id": "altstadtcafe-coepenick",
+  "name": "Altstadtcafé Cöpenick",
+  "kategorie": "cafe",
+  "kurztext": "Café in der Köpenicker Altstadt mit Torten und Eis und einem Garten an der Uferpromenade, wo Spree und Dahme zusammenfließen.",
+  "lat": 52.446477,
+  "lon": 13.574173,
+  "website": "https://www.altstadtcafe.de/",
+  "opening_hours": "Mo-Su 10:00-18:30"
  },
  {
   "id": "am-suederholz",
@@ -178,6 +226,44 @@
   "lon": 12.087165,
   "website": "https://antikhof-refugium.de",
   "telefon": "+49 38787 50660"
+ },
+ {
+  "id": "archaeologisches-museum-hamburg",
+  "name": "Archäologisches Museum Hamburg",
+  "kategorie": "museum",
+  "kurztext": "Archäologiemuseum in Harburg mit Familienausstellung und Museumsspielplatz.",
+  "lat": 53.459162,
+  "lon": 9.97726,
+  "website": "https://amh.de/standorte/archaeologisches-museum-hamburg/",
+  "opening_hours": "Tu-Su 10:00-17:00"
+ },
+ {
+  "id": "archenhold-sternwarte",
+  "name": "Archenhold-Sternwarte",
+  "kategorie": "museum",
+  "kurztext": "Sternwarte im Treptower Park mit dem längsten Linsenfernrohr der Welt und Führungen für Familien.",
+  "lat": 52.485855,
+  "lon": 13.476329,
+  "website": "https://www.planetarium.berlin/archenhold-sternwarte"
+ },
+ {
+  "id": "arktis-eiscafe",
+  "name": "Arktis Eiscafe",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé an der Cuxhavener Straße mit Kaffee und Eis, nur Barzahlung.",
+  "lat": 53.471237,
+  "lon": 9.831667,
+  "website": "https://eiscafearktis.eatbu.com"
+ },
+ {
+  "id": "arriba-erlebnisbad",
+  "name": "ARRIBA Erlebnisbad",
+  "kategorie": "baden",
+  "kurztext": "Erlebnisbad in Norderstedt mit Rutschen und Kinderbecken, auch bei Regen ein Ziel.",
+  "lat": 53.688804,
+  "lon": 10.000899,
+  "website": "https://www.arriba-erlebnisbad.de/",
+  "opening_hours": "Mo-Th 06:30-22:00; Fr 06:30-23:00; Sa 09:00-23:00; Su 09:00-22:00"
  },
  {
   "id": "ausflugsrestaurant-aalbude",
@@ -405,6 +491,47 @@
   "lon": 12.0569165
  },
  {
+  "id": "badestelle-grosse-steinlanke",
+  "name": "Badestelle Große Steinlanke",
+  "kategorie": "baden",
+  "kurztext": "Naturbadestelle mit Sandstrand am Havelufer im Grunewald.",
+  "lat": 52.4558675,
+  "lon": 13.1886044
+ },
+ {
+  "id": "badestelle-oyter-see",
+  "name": "Badestelle Oyter See",
+  "kategorie": "baden",
+  "kurztext": "Badestelle am Oyter See direkt hinter der Bremer Stadtgrenze.",
+  "lat": 53.046404,
+  "lon": 9.001202
+ },
+ {
+  "id": "badestelle-sandhauser-strasse",
+  "name": "Badestelle Sandhauser Straße",
+  "kategorie": "baden",
+  "kurztext": "Sandstrand an der Havel in Heiligensee, im Sommer an Wochenenden von der DLRG bewacht.",
+  "lat": 52.594516,
+  "lon": 13.220854
+ },
+ {
+  "id": "badestelle-see-hinterm-horn",
+  "name": "Badestelle See hinterm Horn",
+  "kategorie": "baden",
+  "kurztext": "Badestelle am See hinterm Horn in Allermöhe.",
+  "lat": 53.474108,
+  "lon": 10.154867,
+  "website": "https://www.hamburg.de/see-hinterm-horn/"
+ },
+ {
+  "id": "badestelle-teufelssee",
+  "name": "Teufelssee",
+  "kategorie": "baden",
+  "kurztext": "Badesee im Grunewald mit FKK-Liegewiese am Ufer.",
+  "lat": 52.491007,
+  "lon": 13.233784
+ },
+ {
   "id": "badestelle-verchen",
   "name": "Badestelle Verchen",
   "kategorie": "baden",
@@ -429,6 +556,15 @@
   "kurztext": "Badestrand am Dagebüller Deich mit Blick aufs Wattenmeer.",
   "lat": 54.72708,
   "lon": 8.692591
+ },
+ {
+  "id": "badewiese-schmoeckwitz",
+  "name": "Badewiese Schmöckwitz",
+  "kategorie": "baden",
+  "kurztext": "EU-Badestelle mit großem Sandstrand an der Dahme, an Sommerwochenenden mit Wasserrettung.",
+  "lat": 52.373185,
+  "lon": 13.653545,
+  "website": "https://www.asb-berlin.de/unsere-angebote/wasserrettungsdienst/standorte/badewiese-schmoeckwitz"
  },
  {
   "id": "baeckerei-hatscher-teterow",
@@ -477,6 +613,16 @@
   "lon": 12.571528
  },
  {
+  "id": "berlin-ei",
+  "name": "Berlin-Ei",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen für Wiesen-Eier von Hühnern, die in mobilen Hühnerhütten auf der Wiese leben.",
+  "lat": 52.584366,
+  "lon": 13.520165,
+  "website": "https://berlin-ei.de/",
+  "opening_hours": "Mo-Su 08:00-13:00"
+ },
+ {
   "id": "bernsteinreiter-barth",
   "name": "Bernsteinreiter Barth",
   "kategorie": "aktivitaet",
@@ -517,6 +663,15 @@
   "telefon": "+49 38792 1221"
  },
  {
+  "id": "bezirksmuseum-marzahn-hellersdorf",
+  "name": "Museum Marzahn-Hellersdorf „Alte Schule“",
+  "kategorie": "museum",
+  "kurztext": "Bezirksmuseum in der Alten Schule in Alt-Marzahn zur Geschichte des Berliner Ostens.",
+  "lat": 52.543148,
+  "lon": 13.561018,
+  "website": "https://www.kultur-marzahn-hellersdorf.de/BEZIRKSMUSEUM-MARZAHN.11.0.html"
+ },
+ {
   "id": "bibelzentrum-barth",
   "name": "Bibelzentrum Barth",
   "kategorie": "museum",
@@ -524,6 +679,16 @@
   "lat": 54.3621137,
   "lon": 12.7304447,
   "website": "https://www.bibelzentrum-barth.de/"
+ },
+ {
+  "id": "bio-hofmolkerei-dehlwes",
+  "name": "Bio-Hofmolkerei Dehlwes",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen der Bio-Hofmolkerei mit Milchprodukten direkt vom Hof.",
+  "lat": 53.140974,
+  "lon": 8.889376,
+  "website": "https://hofmolkerei-dehlwes.de/hofladen",
+  "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-17:00"
  },
  {
   "id": "birkenthaler-hof-eusserthal",
@@ -547,6 +712,22 @@
   "website": "https://www.koenigsstuhl.com",
   "oeffnungszeiten": "wie das Zentrum, Saison",
   "opening_hours": "Apr-Oct: 10:00-18:00"
+ },
+ {
+  "id": "blankenfelder-hofladen",
+  "name": "Blankenfelder Hofladen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen im Dorf Blankenfelde mit Lebensmitteln aus der Region.",
+  "lat": 52.619319,
+  "lon": 13.392499
+ },
+ {
+  "id": "boberger-see",
+  "name": "Boberger See",
+  "kategorie": "baden",
+  "kurztext": "Baggersee in der Boberger Niederung mit Badestellen, gleich neben dem Segelfluggelände.",
+  "lat": 53.5148102,
+  "lon": 10.136523
  },
  {
   "id": "bodden-therme-ribnitz-damgarten",
@@ -584,6 +765,15 @@
   "lat": 52.4338073,
   "lon": 13.4206166,
   "website": "https://www.britzergarten.de"
+ },
+ {
+  "id": "bruecke-museum",
+  "name": "Brücke-Museum",
+  "kategorie": "museum",
+  "kurztext": "Museum für die Künstlergruppe Brücke am Bussardsteig in Dahlem.",
+  "lat": 52.466933,
+  "lon": 13.274754,
+  "website": "https://www.bruecke-museum.de/"
  },
  {
   "id": "burg-hohenzollern",
@@ -681,6 +871,15 @@
   "lat": 51.20125,
   "lon": 11.96985,
   "telefon": "+49 3443 303047"
+ },
+ {
+  "id": "cafe-e-gelato-borgfeld",
+  "name": "Café e Gelato",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Borgfeld für eine Pause nach dem Ausflug.",
+  "lat": 53.124968,
+  "lon": 8.901729,
+  "opening_hours": "Mo-Su 11:00-20:00"
  },
  {
   "id": "cafe-eisbutze",
@@ -958,6 +1157,16 @@
   "telefon": "+49 3394 4248822"
  },
  {
+  "id": "cafe-traktorista",
+  "name": "Café Traktorista",
+  "kategorie": "cafe",
+  "kurztext": "Hofcafé im Stadtgut Blankenfelde, in dem während der Öffnungszeiten auch eine Ausstellung zur Geschichte des Dorfes zu sehen ist.",
+  "lat": 52.617975,
+  "lon": 13.393038,
+  "website": "https://stadtgut-blankenfelde.de/",
+  "opening_hours": "Mo,Tu 14:00-18:00; Fr-Su 12:00-18:00"
+ },
+ {
   "id": "cafe-witt-graal-mueritz",
   "name": "Caféstübchen Witt",
   "kategorie": "cafe",
@@ -989,6 +1198,33 @@
   "oeffnungszeiten": "Mo–Fr 7–17 Uhr, Sa und So 8–17 Uhr",
   "opening_hours": "Mo-Fr 07:00-17:00; Sa,Su 08:00-17:00",
   "telefon": "+49 30 43654350"
+ },
+ {
+  "id": "calabrese-eiscafe",
+  "name": "Calabrese Eiscafé",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé am Wilhelm-Strauß-Weg in Wilhelmsburg.",
+  "lat": 53.497849,
+  "lon": 10.009,
+  "opening_hours": "Mo-Sa 11:00-18:00"
+ },
+ {
+  "id": "camping-buchholz-hamburg",
+  "name": "Camping Buchholz",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz in Hamburg-Stellingen nahe dem Tierpark Hagenbeck.",
+  "lat": 53.590056,
+  "lon": 9.932021,
+  "website": "https://camping-buchholz.de/"
+ },
+ {
+  "id": "camping-buergerablage",
+  "name": "Campingplatz Bürgerablage",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz an der Havel bei Hakenfelde für Familien mit Zelt oder Wohnwagen.",
+  "lat": 52.582561,
+  "lon": 13.212029,
+  "website": "https://www.berliner-camping-club.com/Camping-Buergerablage/"
  },
  {
   "id": "camping-garder-see",
@@ -1219,6 +1455,15 @@
   "website": "https://www.camping-bei-berlin.de/"
  },
  {
+  "id": "campingplatz-berlin",
+  "name": "Campingplatz Berlin",
+  "kategorie": "camping",
+  "kurztext": "Ganzjährig geöffneter Campingplatz am Krossinsee mit Zeltwiese am Abenteuerspielplatz und Bootsverleih.",
+  "lat": 52.369121,
+  "lon": 13.68631,
+  "website": "https://campingplatz-berlin.de/"
+ },
+ {
   "id": "campingplatz-bodstedt",
   "name": "Campingplatz Bodstedt",
   "kategorie": "camping",
@@ -1226,6 +1471,24 @@
   "lat": 54.3692642,
   "lon": 12.618213,
   "website": "https://camping-bodstedt.de/"
+ },
+ {
+  "id": "campingplatz-bredenbeker-teich",
+  "name": "Campingplatz Bredenbeker Teich",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Bredenbeker Teich in Ammersbek mit Badestelle am See.",
+  "lat": 53.681598,
+  "lon": 10.190974,
+  "website": "https://www.camping-bredenbeker-teich.de"
+ },
+ {
+  "id": "campingplatz-gatow",
+  "name": "Campingplatz Gatow",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz des Deutschen Camping-Clubs in Gatow mit Stellplätzen für Zelte und Wohnwagen.",
+  "lat": 52.465232,
+  "lon": 13.164923,
+  "website": "https://www.dccberlin.de/index.php/gatow"
  },
  {
   "id": "campingplatz-karlsmark",
@@ -1264,6 +1527,42 @@
   "oeffnungszeiten": "Saison"
  },
  {
+  "id": "campingplatz-schnelsen-nord",
+  "name": "Campingplatz Schnelsen-Nord",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz in Schnelsen am nördlichen Stadtrand von Hamburg.",
+  "lat": 53.651291,
+  "lon": 9.929306,
+  "website": "https://www.knauscamp.de/hamburg"
+ },
+ {
+  "id": "campingplatz-spadener-see",
+  "name": "Campingplatz Spadener See",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Spadener See, einem Badesee am Stadtrand.",
+  "lat": 53.57407,
+  "lon": 8.647912,
+  "website": "https://www.campingplatz-spadener-see.de/"
+ },
+ {
+  "id": "citygolf-berlin",
+  "name": "Citygolf Berlin",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage mit anspruchsvollen Bahnen ab 6 Jahren, dazu eine Indoor-Bahn.",
+  "lat": 52.562843,
+  "lon": 13.569104,
+  "website": "https://www.citygolfberlin.de/"
+ },
+ {
+  "id": "computerspielemuseum",
+  "name": "Computerspielemuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Geschichte der Videospiele, in dem viele Automaten und Konsolen selbst gespielt werden dürfen.",
+  "lat": 52.517579,
+  "lon": 13.441952,
+  "website": "https://www.computerspielemuseum.de/"
+ },
+ {
   "id": "cosmocaixa-barcelona",
   "name": "CosmoCaixa",
   "kategorie": "museum",
@@ -1272,6 +1571,16 @@
   "lon": 2.1336,
   "website": "https://cosmocaixa.org",
   "oeffnungszeiten": "siehe Museum, Eintritt"
+ },
+ {
+  "id": "crazy-minigolf-hammer-park",
+  "name": "Crazy Minigolf - Hammer Park",
+  "kategorie": "aktivitaet",
+  "kurztext": "Bunt gestalteter Outdoor-Minigolfplatz im Hammer Park.",
+  "lat": 53.559151,
+  "lon": 10.059785,
+  "website": "https://www.crazy-minigolf.de/",
+  "opening_hours": "Tu-Fr 14:00-20:00; Sa,Su 12:00-20:00"
  },
  {
   "id": "dampflok-br-50-3521-7",
@@ -1320,6 +1629,35 @@
   "website": "https://www.deutsches-bernsteinmuseum.de/"
  },
  {
+  "id": "deutsches-hafenmuseum",
+  "name": "Deutsches Hafenmuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum zum Hamburger Hafen, in der Wintersaison bis Ende März geschlossen.",
+  "lat": 53.525689,
+  "lon": 10.000284,
+  "website": "https://shmh.de/de/deutsches-hafenmuseum"
+ },
+ {
+  "id": "deutsches-schifffahrtsmuseum",
+  "name": "Deutsches Schifffahrtsmuseum",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Geschichte der Seefahrt mit historischen Schiffen im Museumshafen.",
+  "lat": 53.540244,
+  "lon": 8.57705,
+  "website": "https://www.dsm.museum",
+  "opening_hours": "Mo-Su 10:00-18:00"
+ },
+ {
+  "id": "deutsches-technikmuseum",
+  "name": "Deutsches Technikmuseum",
+  "kategorie": "museum",
+  "kurztext": "Großes Technikmuseum mit Lokschuppen voller Dampfloks, Flugzeugen und dem Science Center Spectrum zum Ausprobieren.",
+  "lat": 52.4971811,
+  "lon": 13.3759289,
+  "website": "https://technikmuseum.berlin",
+  "opening_hours": "Tu-Fr 09:00-17:30; Sa-Su 10:00-18:00"
+ },
+ {
   "id": "ditmarsium",
   "name": "DITMARSIUM",
   "kategorie": "museum",
@@ -1347,6 +1685,16 @@
   "telefon": "+49 7471 960192-10"
  },
  {
+  "id": "dorfkrug-boberg",
+  "name": "Dorfkrug Boberg",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit deutscher Küche gleich neben dem Boberger Dünenhaus.",
+  "lat": 53.506865,
+  "lon": 10.161962,
+  "website": "https://www.dorfkrug-boberg.de",
+  "opening_hours": "Tu-Sa 11:30-22:00; Su 11:30-21:00"
+ },
+ {
   "id": "drhses-hus",
   "name": "Drøhses hus",
   "kategorie": "museum",
@@ -1367,6 +1715,16 @@
   "opening_hours": "Mo-Su 09:00-21:00"
  },
  {
+  "id": "duvenstedter-eiscafe",
+  "name": "Duvenstedter Eiscafé",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé im Ortskern von Duvenstedt, täglich geöffnet.",
+  "lat": 53.708266,
+  "lon": 10.104638,
+  "website": "http://duvenstedter-eiscafe.com",
+  "opening_hours": "Mo-Su 09:00-19:00"
+ },
+ {
   "id": "einladen-zempow",
   "name": "einLADEN Zempow",
   "kategorie": "hofladen",
@@ -1378,12 +1736,170 @@
   "telefon": "+49 33923 71410"
  },
  {
+  "id": "eis-cafe-da-gianni",
+  "name": "Eis Café da Gianni",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Rahlstedt.",
+  "lat": 53.622453,
+  "lon": 10.165137
+ },
+ {
+  "id": "eis-cafe-italia-habenhausen",
+  "name": "Eis-Cafe Italia",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Habenhausen, nur wenige Minuten von der Farm.",
+  "lat": 53.045037,
+  "lon": 8.847736,
+  "opening_hours": "Mo-Su 12:00-19:00"
+ },
+ {
+  "id": "eis-faldon-zehlendorf",
+  "name": "Eis Faldon",
+  "kategorie": "cafe",
+  "kurztext": "Italienische Eisdiele in Zehlendorf, die täglich bis in den Abend geöffnet hat.",
+  "lat": 52.442521,
+  "lon": 13.241104,
+  "opening_hours": "Mo-Su 10:00-22:00"
+ },
+ {
+  "id": "eis-kalte-schnauze",
+  "name": "Eis Kalte Schnauze",
+  "kategorie": "cafe",
+  "kurztext": "Eismanufaktur in Rissen, die ihr Eis vor Ort herstellt und dazu Waffeln und Kuchen anbietet.",
+  "lat": 53.581937,
+  "lon": 9.757436,
+  "website": "https://www.eis-kalte-schnauze.de/"
+ },
+ {
+  "id": "eis-molin-groepelingen",
+  "name": "Eis Molin",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Gröpelingen für eine süße Pause.",
+  "lat": 53.11477,
+  "lon": 8.761879,
+  "website": "http://www.eis-molin.de/",
+  "opening_hours": "Mar-Oct: Mo-Su 11:00-23:00"
+ },
+ {
+  "id": "eis-molin-osterholz",
+  "name": "Eis Molin",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Osterholz für eine süße Pause.",
+  "lat": 53.09002,
+  "lon": 8.935488,
+  "website": "http://www.eis-molin.de/",
+  "opening_hours": "Mar-Oct: Mo-Su 11:00-23:00"
+ },
+ {
+  "id": "eis-molin-schwachhausen",
+  "name": "Eis Molin",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Schwachhausen für eine süße Pause.",
+  "lat": 53.085287,
+  "lon": 8.829597,
+  "website": "http://www.eis-molin.de/",
+  "opening_hours": "Mar-Oct: Mo-Su 11:00-22:30"
+ },
+ {
+  "id": "eisbaer-ohlstedt",
+  "name": "Eisbär",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele am U-Bahnhof Ohlstedt mit Eis zum Mitnehmen.",
+  "lat": 53.694951,
+  "lon": 10.137225,
+  "website": "http://www.eisbaer-ohlstedt.de/index2.htm"
+ },
+ {
+  "id": "eiscafe-cortina",
+  "name": "Eiscafé Cortina",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Bremerhaven-Mitte.",
+  "lat": 53.546035,
+  "lon": 8.576459,
+  "opening_hours": "Mo-Sa 09:00-19:00; Su 10:00-18:00"
+ },
+ {
+  "id": "eiscafe-jacobs",
+  "name": "Eiscafé Jacobs",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Langenhorn, das täglich und auch an Feiertagen Eis verkauft.",
+  "lat": 53.660995,
+  "lon": 10.021371,
+  "website": "https://www.eiscafe-jacobs.de",
+  "opening_hours": "Mo-Su 11:00-20:00"
+ },
+ {
+  "id": "eiscafe-millefiori-spandau",
+  "name": "Eiscafé Millefiori",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé mit Pizza an der Breiten Straße in Spandau.",
+  "lat": 52.538049,
+  "lon": 13.206822,
+  "opening_hours": "Mo-Su 09:00-23:00"
+ },
+ {
+  "id": "eiscafe-moinmoin",
+  "name": "Eiscafé MoinMoin",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé an der Grenze zwischen Neukölln und Treptow, das täglich ab mittags Eis verkauft.",
+  "lat": 52.463614,
+  "lon": 13.484393,
+  "opening_hours": "Mo-Su 12:00-19:00"
+ },
+ {
+  "id": "eiscafe-nero",
+  "name": "Eiscafe Nero",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Vegesack für eine Pause nach dem Ausflug.",
+  "lat": 53.18522,
+  "lon": 8.61864,
+  "website": "https://eis-cafe-nero.de/",
+  "opening_hours": "Mo-Su 10:00-20:00"
+ },
+ {
+  "id": "eiscafe-ronardi",
+  "name": "Eiscafé Ronardi",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Osterholz für eine süße Pause.",
+  "lat": 53.078031,
+  "lon": 8.942649,
+  "opening_hours": "Mo-Su 12:00-19:00"
+ },
+ {
+  "id": "eiscafe-surprise",
+  "name": "Eiscafé Surprise",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in der Langhansstraße, das seit 1979 hausgemachtes Eis und Torten anbietet.",
+  "lat": 52.549914,
+  "lon": 13.446015,
+  "website": "https://www.eiscafe-surprise.de/",
+  "opening_hours": "Mo-Fr 12:00-18:00; Sa-Su 13:00-18:00"
+ },
+ {
+  "id": "eiscafe-veneto-niendorf",
+  "name": "Eiscafé Veneto",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé im Tibarg-Center in Niendorf.",
+  "lat": 53.6224269,
+  "lon": 9.9520336,
+  "website": "http://eis-cafe-veneto.de",
+  "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00"
+ },
+ {
   "id": "eiscafe-venezia",
   "name": "Eiscafe Venezia",
   "kategorie": "cafe",
   "kurztext": "Eiscafé in Tönning für eine Pause mit Kindern.",
   "lat": 54.316687,
   "lon": 8.940977
+ },
+ {
+  "id": "eisdiele-angelina",
+  "name": "Eisdiele Angelina",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele im Dorf Alt-Lübars mit selbstgemachtem italienischem Eis, Kuchen und einer Holzterrasse hinter dem Laden.",
+  "lat": 52.61789,
+  "lon": 13.354478
  },
  {
   "id": "eisdiele-pruchten",
@@ -1394,6 +1910,26 @@
   "lon": 12.6749228
  },
  {
+  "id": "elbecamp",
+  "name": "ElbeCamp",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz am Elbstrand von Falkenstein mit Café, geöffnet von April bis Oktober.",
+  "lat": 53.564245,
+  "lon": 9.766895,
+  "website": "https://www.elbecamp.de/",
+  "opening_hours": "Apr-Oct: Mo-Su 08:00-20:00"
+ },
+ {
+  "id": "electrum",
+  "name": "electrum - Museum der Elektrizität",
+  "kategorie": "museum",
+  "kurztext": "Museum der Elektrizität in Harburg, sonntags geöffnet, Kinder haben freien Eintritt.",
+  "lat": 53.464306,
+  "lon": 9.98173,
+  "website": "https://www.electrum-hamburg.de/",
+  "opening_hours": "Su 10:00-17:00"
+ },
+ {
   "id": "elztalmuseum-waldkirch",
   "name": "Elztalmuseum Waldkirch",
   "kategorie": "museum",
@@ -1402,6 +1938,36 @@
   "lon": 7.96083,
   "website": "https://www.elztalmuseum.de/",
   "oeffnungszeiten": "siehe Museum"
+ },
+ {
+  "id": "emba-emilia",
+  "name": "Emba Emilia",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé im Fichtengrund in Hönow.",
+  "lat": 52.530794,
+  "lon": 13.630957,
+  "website": "https://www.emba-emilia.com/",
+  "opening_hours": "Mo-Su 12:00-18:00"
+ },
+ {
+  "id": "emma-am-see",
+  "name": "Emma am See",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant am Emmasee im Bürgerpark, gleich daneben gibt es Eis.",
+  "lat": 53.094283,
+  "lon": 8.823901,
+  "website": "https://www.emma-am-see.de/",
+  "opening_hours": "Tu-Sa 11:00-18:00; Su 11:00-18:00; Mo 11:00-18:00"
+ },
+ {
+  "id": "emmas-eiscafe",
+  "name": "emmas eiscafe",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé am Emmasee im Bürgerpark für eine süße Pause.",
+  "lat": 53.094184,
+  "lon": 8.824355,
+  "website": "https://www.emma-am-see.de",
+  "opening_hours": "May-Sep: Tu-Sa 11:00-19:00; May-Sep: Su,Mo 11:00-18:00; Oct-Apr: Sa,Su 11:00-18:00"
  },
  {
   "id": "erdbeerhof-kaack-quickborn",
@@ -1421,6 +1987,16 @@
   "lat": 52.828694,
   "lon": 12.089618,
   "website": "https://www.stadtwerke-havelberg.de/freibad/oeffnungszeiten.html"
+ },
+ {
+  "id": "erlebniswelt-tier-und-natur",
+  "name": "Erlebniswelt Tier und Natur",
+  "kategorie": "aktivitaet",
+  "kurztext": "Tier- und Naturgelände im Volkspark Jungfernheide, auf dem Kinder Tiere kennenlernen.",
+  "lat": 52.542828,
+  "lon": 13.282734,
+  "website": "https://ajb-berlin.de/angebote/erlebniswelt-jungfernheide/",
+  "opening_hours": "Tu-Fr 10:00-17:00"
  },
  {
   "id": "erlebniszentrum-naturgewalten-sylt",
@@ -1452,6 +2028,15 @@
   "website": "https://doemitz.de/sehenswuerdigkeiten/festung-doemitz/"
  },
  {
+  "id": "fischerhuette-am-schlachtensee",
+  "name": "Fischerhütte am Schlachtensee",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit Biergarten direkt am Ufer des Schlachtensees.",
+  "lat": 52.4451443,
+  "lon": 13.2274489,
+  "website": "https://www.fischerhuette-berlin.de/"
+ },
+ {
   "id": "fischerhuette-rehbach",
   "name": "Restaurant Fischerhütte",
   "kategorie": "restaurant",
@@ -1459,6 +2044,26 @@
   "lat": 51.1821685,
   "lon": 9.0219816,
   "oeffnungszeiten": "siehe Restaurant"
+ },
+ {
+  "id": "florida-eiscafe",
+  "name": "Florida Eiscafé",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Spandau für eine Pause mit Eis nach dem Ausflug.",
+  "lat": 52.530458,
+  "lon": 13.195938,
+  "website": "http://www.floridaeis.de",
+  "opening_hours": "12:00-23:00"
+ },
+ {
+  "id": "focke-museum",
+  "name": "Focke-Museum",
+  "kategorie": "museum",
+  "kurztext": "Landesmuseum für Bremer Geschichte mit historischen Häusern im großen Museumspark.",
+  "lat": 53.092414,
+  "lon": 8.864005,
+  "website": "https://www.focke-museum.de/",
+  "opening_hours": "Tu-Su 10:00-17:00"
  },
  {
   "id": "forsthaus-langenberg",
@@ -1480,6 +2085,15 @@
   "website": "https://doemitz.de/sehenswuerdigkeiten/forsthof-kaliss-mit-forst-und-holzmuseum/",
   "oeffnungszeiten": "Mo–Do 8–16 Uhr, zusätzlich auf Anfrage",
   "telefon": "038758 3680"
+ },
+ {
+  "id": "fraeulein-frost",
+  "name": "Fräulein Frost",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele am Landwehrkanal mit wechselnden Sorten, die auch Kinderportionen anbietet.",
+  "lat": 52.492388,
+  "lon": 13.427763,
+  "website": "https://fräulein-frost.de/"
  },
  {
   "id": "freibad-bordelum",
@@ -1504,6 +2118,22 @@
   "kurztext": "Freibad in Franzburg zum Abkühlen im Sommer.",
   "lat": 54.189722,
   "lon": 12.881341
+ },
+ {
+  "id": "freibad-gruenhoefe",
+  "name": "Freibad Grünhöfe",
+  "kategorie": "baden",
+  "kurztext": "Freibad im Bremerhavener Stadtteil Grünhöfe.",
+  "lat": 53.517694,
+  "lon": 8.615075
+ },
+ {
+  "id": "freibad-neuenhagen",
+  "name": "Freibad Neuenhagen",
+  "kategorie": "baden",
+  "kurztext": "Freibad am Liebermannweg in Neuenhagen bei Berlin.",
+  "lat": 52.518856,
+  "lon": 13.70143
  },
  {
   "id": "freibad-quickborn",
@@ -1536,6 +2166,16 @@
   "telefon": "+49 3394 433240"
  },
  {
+  "id": "freilichtmuseum-am-kiekeberg",
+  "name": "Freilichtmuseum am Kiekeberg",
+  "kategorie": "museum",
+  "kurztext": "Freilichtmuseum mit weitläufigem Gelände, Ausstellungen und Gastronomie.",
+  "lat": 53.438408,
+  "lon": 9.904087,
+  "website": "https://www.kiekeberg-museum.de/",
+  "opening_hours": "Tu-Fr 09:00-17:00; Sa-Su 10:00-18:00"
+ },
+ {
   "id": "freilichtmuseum-klockenhagen",
   "name": "Freilichtmuseum Klockenhagen",
   "kategorie": "museum",
@@ -1561,6 +2201,15 @@
   "lat": 54.779958,
   "lon": 8.822287,
   "website": "https://friesisches-museum.de/"
+ },
+ {
+  "id": "futurium",
+  "name": "Futurium",
+  "kategorie": "museum",
+  "kurztext": "Museum für Zukunftsfragen am Spreeufer mit Mitmachlabor, der Eintritt ist frei.",
+  "lat": 52.523912,
+  "lon": 13.374325,
+  "website": "https://www.futurium.de/"
  },
  {
   "id": "galeriecafe-alter-konsum",
@@ -1643,6 +2292,26 @@
   "website": "https://www.biboergosum.de"
  },
  {
+  "id": "gelateria-amalfi-geestemuende",
+  "name": "Gelateria Amalfi",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Geestemünde.",
+  "lat": 53.522047,
+  "lon": 8.586549,
+  "website": "https://www.instagram.com/gelateria_amalfi_bremerhaven/",
+  "opening_hours": "Mo-Fr 11:00-20:00; Sa,Su 10:00-20:00"
+ },
+ {
+  "id": "gemuesedeern",
+  "name": "Gemüsedeern",
+  "kategorie": "hofladen",
+  "kurztext": "Gemüsehof am Stadtrand von Huchting mit Verkauf am Samstag.",
+  "lat": 53.03807,
+  "lon": 8.710175,
+  "website": "https://www.gemuesedeern.de/",
+  "opening_hours": "Sa 10:00-14:00"
+ },
+ {
   "id": "geocenter-cafe-moen",
   "name": "Café GeoCenter Møns Klint",
   "kategorie": "cafe",
@@ -1652,6 +2321,15 @@
   "website": "https://moensklint.dk",
   "oeffnungszeiten": "wie das GeoCenter",
   "opening_hours": "Apr-Oct: 10:00-17:00"
+ },
+ {
+  "id": "georg-kolbe-museum",
+  "name": "Georg-Kolbe-Museum",
+  "kategorie": "museum",
+  "kurztext": "Museum im 1928/29 erbauten Atelierhaus des Bildhauers Georg Kolbe an der Sensburger Allee.",
+  "lat": 52.509937,
+  "lon": 13.254902,
+  "website": "http://www.georg-kolbe-museum.de"
  },
  {
   "id": "gestuetsmuseum-neustadt",
@@ -1666,6 +2344,16 @@
   "telefon": "+49 33970 50290"
  },
  {
+  "id": "gotisches-haus",
+  "name": "Das Gotische Haus",
+  "kategorie": "museum",
+  "kurztext": "Spätmittelalterliches Bürgerhaus in der Spandauer Altstadt mit Ausstellung zur Stadtgeschichte bei freiem Eintritt.",
+  "lat": 52.537686,
+  "lon": 13.206724,
+  "website": "https://www.gotischeshaus.de/",
+  "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-18:00"
+ },
+ {
   "id": "grenzkrog-aventoft",
   "name": "Grenzkrog Aventoft",
   "kategorie": "restaurant",
@@ -1673,6 +2361,24 @@
   "lat": 54.904137,
   "lon": 8.828585,
   "website": "https://www.grenzkrog-aventoft.de"
+ },
+ {
+  "id": "gruenderzeitmuseum-mahlsdorf",
+  "name": "Gründerzeitmuseum im Gutshaus Mahlsdorf",
+  "kategorie": "museum",
+  "kurztext": "Museum mit Möbeln und Hausrat der Gründerzeit im denkmalgeschützten Gutshaus Mahlsdorf.",
+  "lat": 52.502492,
+  "lon": 13.613929,
+  "website": "http://www.gruenderzeitmuseum-mahlsdorf.de/",
+  "opening_hours": "We,Su 10:00-18:00"
+ },
+ {
+  "id": "grunewaldturm",
+  "name": "Grunewaldturm",
+  "kategorie": "aktivitaet",
+  "kurztext": "Backsteinturm hoch über der Havel, von dessen Aussichtsplattform der Blick weit über das Wasser reicht.",
+  "lat": 52.4781935,
+  "lon": 13.1967309
  },
  {
   "id": "gurkenkahn-raddusch",
@@ -1697,6 +2403,45 @@
   "opening_hours": "Apr-Oct: 10:00-18:00"
  },
  {
+  "id": "gut-wulksfelde",
+  "name": "Gut Wulksfelde",
+  "kategorie": "hofladen",
+  "kurztext": "Bio-Hof mit großem Hofladen, Bäckerei-Café und kostenlosem Tiergarten mit Ziegen, Schafen und Spielgelände.",
+  "lat": 53.717805,
+  "lon": 10.111769,
+  "website": "https://www.gut-wulksfelde.de/",
+  "opening_hours": "Mo-Sa 08:00-19:00"
+ },
+ {
+  "id": "gutshof-gatow",
+  "name": "Gutshof Gatow und Garten der Religion",
+  "kategorie": "museum",
+  "kurztext": "Gutshof an der Buchwaldzeile in Gatow mit dem Garten der Religion.",
+  "lat": 52.48494,
+  "lon": 13.181724,
+  "website": "http://www.gutshof-gatow.de"
+ },
+ {
+  "id": "hafenmuseum-speicher-xi",
+  "name": "Hafenmuseum Speicher XI",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Geschichte des Bremer Hafens in einem alten Speichergebäude in der Überseestadt.",
+  "lat": 53.096655,
+  "lon": 8.771272,
+  "website": "https://www.hafenmuseum-speicherelf.de/",
+  "opening_hours": "Tu-Su 11:00-18:00; Mo off"
+ },
+ {
+  "id": "haidehof",
+  "name": "Haidehof",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen auf Gut Haidehof mit Gemüse aus dem eigenen Garten, Weidegeflügel und Rindfleisch vom Hof.",
+  "lat": 53.603555,
+  "lon": 9.735891,
+  "website": "https://www.gut-haidehof.de/hofladen",
+  "opening_hours": "Tu 14:00-19:00; Sa 09:00-16:00"
+ },
+ {
   "id": "hallen-freibad-hechingen",
   "name": "Hallen-Freibad Hechingen",
   "kategorie": "baden",
@@ -1706,6 +2451,33 @@
   "website": "https://www.hechingen.de/hallen-freibad",
   "oeffnungszeiten": "Hallenbad-Saison ab 28.9.2026: Mo geschlossen, Di–Fr 7–20 Uhr, Sa/So/Feiertag 9–20 Uhr; Eintritt Erwachsene 4,50 €, ermäßigt (4–15 J. u. a.) 2,50 €, unter 4 J. frei (Stand 2026, Betreiber Stadt Hechingen)",
   "telefon": "07471 7397739"
+ },
+ {
+  "id": "hallenbad-falkensee",
+  "name": "Hallenbad Falkensee",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad an der Seegefelder Straße in Falkensee, eröffnet 2024.",
+  "lat": 52.552596,
+  "lon": 13.120174,
+  "website": "https://www.hallenbad-falkensee.de/",
+  "opening_hours": "Mo-Fr 08:00-21:00; Tu 07:15-21:00; Sa 10:00-21:00; Su 10:15-20:00"
+ },
+ {
+  "id": "hallenbad-huchting",
+  "name": "Hallenbad Huchting",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad in Huchting für Schwimmrunden bei jedem Wetter.",
+  "lat": 53.048326,
+  "lon": 8.730056,
+  "website": "https://www.bremer-baeder.de/baeder/hallenbad-huchting"
+ },
+ {
+  "id": "hallenbad-rahlstedt",
+  "name": "Hallenbad Rahlstedt",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad in Rahlstedt mit rollstuhlgerechtem Zugang.",
+  "lat": 53.599118,
+  "lon": 10.151443
  },
  {
   "id": "hans-werner-richter-haus",
@@ -1730,6 +2502,16 @@
   "telefon": "+49 5322 81215"
  },
  {
+  "id": "haus-am-walde",
+  "name": "Haus am Walde",
+  "kategorie": "restaurant",
+  "kurztext": "Ausflugslokal mit Biergarten am Stadtwald für eine Pause nach dem Spaziergang.",
+  "lat": 53.106671,
+  "lon": 8.84072,
+  "website": "https://hausamwalde-bremen.de/",
+  "opening_hours": "Mo-Su 09:00-22:00"
+ },
+ {
   "id": "haus-der-fluesse",
   "name": "Haus der Flüsse",
   "kategorie": "museum",
@@ -1739,6 +2521,35 @@
   "website": "https://www.haus-der-fluesse.de/",
   "oeffnungszeiten": "März–Oktober täglich 9–17 Uhr; November–Februar Mo–Fr 10–16 Uhr",
   "telefon": "+49 39387 609976"
+ },
+ {
+  "id": "haus-der-natur-wulfsdorf",
+  "name": "Haus der Natur",
+  "kategorie": "museum",
+  "kurztext": "Naturschutzhaus des Vereins Jordsand mit Ausstellung zur Vogelwelt und sechs Hektar Park mit Teichen, im Sommer keschern Kinder im großen Teich.",
+  "lat": 53.658625,
+  "lon": 10.193441,
+  "website": "https://www.jordsand.de/hausdernatur/",
+  "opening_hours": "Mo-Fr 10:00-17:00"
+ },
+ {
+  "id": "haus-natur-und-umwelt",
+  "name": "Haus Natur und Umwelt",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kleiner Tierpark in der Wuhlheide mit Streichelzoo, Abenteuerspielplatz und Waldcafé.",
+  "lat": 52.463856,
+  "lon": 13.542101,
+  "website": "https://hnu-berlin.de/",
+  "opening_hours": "Apr-Sep Tu-Su 10:00-18:00; Oct-Mar Tu-Su 10:00-16:00"
+ },
+ {
+  "id": "havencamp",
+  "name": "Havencamp Bremerhaven",
+  "kategorie": "camping",
+  "kurztext": "Campingplatz mit Stellplätzen im Norden Bremerhavens.",
+  "lat": 53.559251,
+  "lon": 8.568274,
+  "website": "https://www.havencamp.de/stellplaetze/"
  },
  {
   "id": "heimatmuseum-ellerau",
@@ -1760,6 +2571,15 @@
   "oeffnungszeiten": "Mi–Fr 10–16 Uhr, Sa 10–13 Uhr, So 10–13 Uhr nur jeder 1. und 3. Sonntag",
   "opening_hours": "We-Fr 10:00-16:00; Sa 10:00-13:00",
   "telefon": "+49 38206 74556"
+ },
+ {
+  "id": "henrys-eis",
+  "name": "Henrys Eis",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Dahlem, die von März bis Dezember Eis verkauft.",
+  "lat": 52.46413,
+  "lon": 13.330941,
+  "website": "http://www.henrysberlin.com/"
  },
  {
   "id": "hirschhof-freyenstein",
@@ -1801,6 +2621,45 @@
   "website": "https://www.hofzandershagen.de"
  },
  {
+  "id": "hof-lemsahl",
+  "name": "Hof Lemsahl",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Lemsahl-Mellingstedt mit Produkten vom eigenen Hof, freitags und samstags geöffnet.",
+  "lat": 53.683691,
+  "lon": 10.102142,
+  "website": "https://www.hof-lemsahl.de/hofladen",
+  "opening_hours": "Fr 15:00-18:00; Sa 09:00-13:00"
+ },
+ {
+  "id": "hof-stackkamp",
+  "name": "Hofladen Stackkamp",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen am südöstlichen Stadtrand für regionale Produkte direkt vom Hof.",
+  "lat": 53.043968,
+  "lon": 8.905048,
+  "website": "https://www.hof-stackkamp.de/",
+  "opening_hours": "Tu-Fr 09:00-12:00,15:00-18:00; Sa 09:00-12:00; Su,Mo off"
+ },
+ {
+  "id": "hof-wichmann",
+  "name": "Hof Wichmann",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen nahe dem Werdersee für regionale Produkte direkt vom Hof.",
+  "lat": 53.071466,
+  "lon": 8.830497,
+  "opening_hours": "Mo-Fr 10:00-17:15; Sa 08:30-14:45"
+ },
+ {
+  "id": "hofcafe-bavendamm",
+  "name": "Hofcafé Bavendamm",
+  "kategorie": "cafe",
+  "kurztext": "Hofcafé auf einem Bauernhof am Rand des Blocklands.",
+  "lat": 53.150884,
+  "lon": 8.783364,
+  "website": "http://www.hof-bavendamm.de/",
+  "opening_hours": "Su-We 14:00-18:00"
+ },
+ {
   "id": "hofkonditorei-roecker-hechingen",
   "name": "Hofkonditorei Röcker",
   "kategorie": "cafe",
@@ -1809,6 +2668,35 @@
   "lon": 8.96365,
   "website": "https://www.hofkonditorei-roecker.de/content/117/85/kontakt-und-standorte/standort-hechingen",
   "telefon": "+49 7471 2611"
+ },
+ {
+  "id": "hofladen-domaene-dahlem",
+  "name": "Hofladen Domäne Dahlem",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Freilichtmuseums Domäne Dahlem mit Bio-Lebensmitteln vom eigenen Hof.",
+  "lat": 52.458286,
+  "lon": 13.289556,
+  "website": "https://www.domaene-dahlem.de/",
+  "opening_hours": "Mo-Fr 10:00-18:00; Sa 08:00-14:00"
+ },
+ {
+  "id": "hofladen-duenenfaehr",
+  "name": "Hofladen Dünenfähr",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen eines Spargelhofs mit Produkten vom eigenen Hof.",
+  "lat": 53.478572,
+  "lon": 8.673893,
+  "website": "https://www.werner-derspargelhof.de/verkaufsstellen/hofladen-d%C3%BCnenf%C3%A4hr.html",
+  "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 09:00-13:00"
+ },
+ {
+  "id": "hofladen-ecke",
+  "name": "Hofladen Ecke",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Arsten für regionale Produkte direkt vom Hof.",
+  "lat": 53.030924,
+  "lon": 8.844598,
+  "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00"
  },
  {
   "id": "hofladen-falkenhusen",
@@ -1821,6 +2709,14 @@
   "oeffnungszeiten": "Di–Fr 10–18 Uhr, Sa 9–17 Uhr, So 12–17 Uhr",
   "opening_hours": "Mo off; Tu-Fr 10:00-18:00; Sa 09:00-17:00; Su 12:00-17:00",
   "telefon": "+49 4509 1054"
+ },
+ {
+  "id": "hofladen-gabriele-schalk",
+  "name": "Hofladen Gabriele Schalk",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen an der Lutoner Straße in Spandau-Wilhelmstadt.",
+  "lat": 52.527197,
+  "lon": 13.168881
  },
  {
   "id": "hofladen-gottschalk",
@@ -1841,6 +2737,16 @@
   "oeffnungszeiten": "Mi und Fr 9–17 Uhr",
   "opening_hours": "We,Fr 09:00-17:00",
   "telefon": "+49 6346 928555"
+ },
+ {
+  "id": "hofladen-gut-wulfsdorf",
+  "name": "Hofladen Gut Wulfsdorf",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen auf dem Bio-Gut Wulfsdorf mit Produkten vom eigenen Hof.",
+  "lat": 53.659512,
+  "lon": 10.190576,
+  "website": "https://gutwulfsdorf.de/hofladen.html",
+  "opening_hours": "Mo-Fr 09:00-18:30; Sa 08:00-16:00"
  },
  {
   "id": "hofladen-hemdingen",
@@ -1871,6 +2777,34 @@
   "lon": 9.89494,
   "website": "https://hof-meyn.de/",
   "oeffnungszeiten": "Di–Sa 8–12 Uhr, Mo–Fr 14–18 Uhr"
+ },
+ {
+  "id": "hofladen-huschke",
+  "name": "Hofladen Huschke",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen an der Potsdamer Chaussee in Seeburg bei Dallgow-Döberitz.",
+  "lat": 52.507632,
+  "lon": 13.120575,
+  "opening_hours": "Tu-Fr 09:00-17:00; Sa 09:00-13:00"
+ },
+ {
+  "id": "hofladen-ladiges",
+  "name": "Hofladen Ladiges",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Holm mit Obst aus der Umgebung, darunter Äpfel vom Obsthof Deekenhörn.",
+  "lat": 53.624607,
+  "lon": 9.695314,
+  "website": "https://www.hofladen-ladiges.de/"
+ },
+ {
+  "id": "hofladen-menzel",
+  "name": "Hofladen Menzel",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Meilsdorf bei Siek, täglich von 6 bis 22 Uhr geöffnet.",
+  "lat": 53.630775,
+  "lon": 10.262413,
+  "website": "http://www.menzel-meilsdorf.de/",
+  "opening_hours": "Mo-Su 06:00-22:00"
  },
  {
   "id": "hofladen-oher",
@@ -1917,6 +2851,16 @@
   "telefon": "+49 4533 8161"
  },
  {
+  "id": "hofladen-vierfelderhof",
+  "name": "Hofladen Vierfelderhof",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Vierfelderhofs in Gatow mit Produkten vom eigenen Hof und einem Hofcafé nebenan.",
+  "lat": 52.482678,
+  "lon": 13.171966,
+  "website": "https://www.vierfelderhof.de/hofladen.html",
+  "opening_hours": "We-Su 10:00-17:00"
+ },
+ {
   "id": "hofladen-vollkern-rohrlack",
   "name": "Hofladen Bäckerei Vollkern",
   "kategorie": "hofladen",
@@ -1940,6 +2884,16 @@
   "telefon": "07471 940188"
  },
  {
+  "id": "horner-bad",
+  "name": "Horner Bad",
+  "kategorie": "baden",
+  "kurztext": "Schwimmbad in Horn-Lehe für Familienausflüge bei jedem Wetter.",
+  "lat": 53.106976,
+  "lon": 8.868752,
+  "website": "https://www.bremer-baeder.de/baeder/horner-bad",
+  "opening_hours": "Mo-Fr 06:30-21:00; Sa,Su 10:00-18:00"
+ },
+ {
   "id": "hotel-gravelotte",
   "name": "Hotel Gravelotte",
   "kategorie": "restaurant",
@@ -1958,6 +2912,16 @@
   "lon": 8.2967278,
   "website": "https://hotel-waldschloss.de/",
   "oeffnungszeiten": "siehe Hotel"
+ },
+ {
+  "id": "hsv-museum",
+  "name": "HSV-Museum",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Geschichte des Hamburger SV im Volksparkstadion.",
+  "lat": 53.587733,
+  "lon": 9.900266,
+  "website": "https://www.hsv.de/",
+  "opening_hours": "Mo-Su 10:00-18:00"
  },
  {
   "id": "huesis-up-n-doerp",
@@ -2008,6 +2972,16 @@
   "website": "https://inselrodelbahn-bergen.de"
  },
  {
+  "id": "internationales-maritimes-museum",
+  "name": "Internationales Maritimes Museum Hamburg",
+  "kategorie": "museum",
+  "kurztext": "Schifffahrtsmuseum im Kaispeicher B mit eigenen Angeboten für Kinder und Familien.",
+  "lat": 53.543353,
+  "lon": 9.999824,
+  "website": "https://www.imm-hamburg.de/",
+  "opening_hours": "Mo-Su 10:00-18:00"
+ },
+ {
   "id": "ivenacker-see",
   "name": "Ivenacker See",
   "kategorie": "aktivitaet",
@@ -2038,6 +3012,15 @@
   "oeffnungszeiten": "Mi–So 12:30–14 und 17:30–21 Uhr"
  },
  {
+  "id": "jagdschloss-grunewald",
+  "name": "Jagdschloss Grunewald",
+  "kategorie": "museum",
+  "kurztext": "Jagdschloss von 1542 am Grunewaldsee, der älteste erhaltene Schlossbau Berlins.",
+  "lat": 52.46737,
+  "lon": 13.261508,
+  "website": "https://www.spsg.de/schloesser-gaerten/objekt/jagdschloss-grunewald"
+ },
+ {
   "id": "jagdschloss-speck-cafe",
   "name": "Café Jagdschloss Speck",
   "kategorie": "cafe",
@@ -2045,6 +3028,42 @@
   "lat": 53.43664,
   "lon": 12.838762,
   "oeffnungszeiten": "unregelmäßig / Veranstaltungen"
+ },
+ {
+  "id": "jannys-eis-bergedorf",
+  "name": "Janny's Eis",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Bergedorf, montags bis samstags geöffnet.",
+  "lat": 53.48682,
+  "lon": 10.181027,
+  "opening_hours": "Mo-Sa 11:00-20:00"
+ },
+ {
+  "id": "jannys-eis-marzahn",
+  "name": "Janny's Eis",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele von Janny's Eis in Marzahn.",
+  "lat": 52.543585,
+  "lon": 13.571344,
+  "website": "https://www.jannys-eis.com/"
+ },
+ {
+  "id": "jannys-eis-norderstedt",
+  "name": "Janny's Eis",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Norderstedt mit vielen Sorten zum Mitnehmen, täglich geöffnet.",
+  "lat": 53.685258,
+  "lon": 10.023098,
+  "website": "https://www.jannys-norderstedt.de/",
+  "opening_hours": "Mo-Su 11:30-20:00"
+ },
+ {
+  "id": "jannys-eis-zeuthen",
+  "name": "Janny's Eis",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Zeuthen mit Eis zum Mitnehmen.",
+  "lat": 52.326751,
+  "lon": 13.638052
  },
  {
   "id": "johannsens-hofladen",
@@ -2120,6 +3139,16 @@
   "website": "https://www.museum-pritzwalk.de/seite/349407/kathfelder-m%C3%BChle.html"
  },
  {
+  "id": "kinderbunter-bauernhof",
+  "name": "Kinderbunter Bauernhof",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kinderbauernhof im Wedding, auf dem Kinder Hoftiere aus der Nähe erleben.",
+  "lat": 52.544148,
+  "lon": 13.356554,
+  "website": "http://www.kinderbunter-bauernhof.de/",
+  "opening_hours": "Tu-Fr 13:00-18:00; Sa 10:00-18:00"
+ },
+ {
   "id": "kindermuseum-unterm-dach",
   "name": "Kindermuseum unterm Dach",
   "kategorie": "museum",
@@ -2158,6 +3187,15 @@
   "telefon": "0171 9977497"
  },
  {
+  "id": "kletterwald-hamburg",
+  "name": "Kletterwald Hamburg",
+  "kategorie": "aktivitaet",
+  "kurztext": "Hochseilgarten im Volksdorfer Wald mit acht Parcours in zwei bis zehn Metern Höhe, Kinder klettern ab 110 cm Körpergröße.",
+  "lat": 53.638768,
+  "lon": 10.160177,
+  "website": "https://www.kletterwald-hamburg.com/"
+ },
+ {
   "id": "kletterwald-usedom",
   "name": "Kletterwald Usedom",
   "kategorie": "aktivitaet",
@@ -2166,6 +3204,26 @@
   "lon": 14.05791,
   "website": "https://www.kletterwald-usedom.de/",
   "telefon": "+49 38375 22677"
+ },
+ {
+  "id": "klick-kindermuseum",
+  "name": "KL!CK Kindermuseum",
+  "kategorie": "museum",
+  "kurztext": "Mitmach-Museum für Kinder in Osdorf.",
+  "lat": 53.582646,
+  "lon": 9.852832,
+  "website": "https://www.kindermuseum-hamburg.de/",
+  "opening_hours": "Mo-Th 10:00-16:00; Fr 10:00-18:00; Sa 12:00-18:00; Su 11:00-18:00"
+ },
+ {
+  "id": "klimahaus-bremerhaven",
+  "name": "Klimahaus Bremerhaven",
+  "kategorie": "museum",
+  "kurztext": "Ausstellung, die entlang des achten Längengrads durch die Klimazonen der Erde führt.",
+  "lat": 53.543213,
+  "lon": 8.57446,
+  "website": "https://www.klimahaus-bremerhaven.de/",
+  "opening_hours": "Apr-Aug Mo-Fr 09:00-19:00; Sa-Su 10:00-19:00; Sep-Mar Mo-Fr 10:00-18:00; Sa-Su 10:00-18:00"
  },
  {
   "id": "klintholm-havn-fisk",
@@ -2216,6 +3274,26 @@
   "website": "https://www.museen-sh.de/Museum/DE-MUS-152918"
  },
  {
+  "id": "konditorei-engel",
+  "name": "Konditorei & Eiscafé Engel",
+  "kategorie": "cafe",
+  "kurztext": "Konditorei und Eiscafé mit Kuchen und Eis.",
+  "lat": 52.54677,
+  "lon": 13.556717,
+  "website": "https://www.konditorei-engel.de/",
+  "opening_hours": "Mo-Sa 09:30-18:30; Su 11:00-17:30"
+ },
+ {
+  "id": "kuerbisparadies-hof-adolf",
+  "name": "Kürbisparadies Hof Adolf",
+  "kategorie": "hofladen",
+  "kurztext": "Zier- und Speisekürbisse direkt vom Erzeuger, Verkauf im September und Oktober.",
+  "lat": 53.607224,
+  "lon": 10.245996,
+  "website": "https://www.hof-adolf.de/",
+  "opening_hours": "Sep-Oct Mo-Su 10:00-18:00"
+ },
+ {
   "id": "kutschfahrten-gestuet-neustadt",
   "name": "Kutschfahrten Neustädter Gestüte",
   "kategorie": "aktivitaet",
@@ -2234,6 +3312,34 @@
   "lat": 48.751698,
   "lon": 9.351437,
   "oeffnungszeiten": "Di-Fr 11:30-22:00, Sa 11:00-21:00, keine Küche 14:00-17:00"
+ },
+ {
+  "id": "labyrinth-kindermuseum",
+  "name": "Labyrinth Kindermuseum",
+  "kategorie": "museum",
+  "kurztext": "Kindermuseum im Wedding mit wechselnden Mitmachausstellungen für Kinder.",
+  "lat": 52.556108,
+  "lon": 13.385992,
+  "website": "https://www.labyrinth-kindermuseum.de/"
+ },
+ {
+  "id": "landhaus-ohlstedt",
+  "name": "Landhaus Ohlstedt",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant mit Café am U-Bahnhof Ohlstedt mit deutscher Küche.",
+  "lat": 53.695624,
+  "lon": 10.138428,
+  "website": "https://www.landhaus-ohlstedt.de/Restaurant.html"
+ },
+ {
+  "id": "landhof-rahlf",
+  "name": "Landhof Rahlf",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Landhofs Rahlf in Mehrow.",
+  "lat": 52.570797,
+  "lon": 13.614494,
+  "website": "https://www.landhof-rahlf.de/",
+  "opening_hours": "Tu-Fr 10:00-17:00; Sa 09:00-13:00"
  },
  {
   "id": "landkueche-meyenburg",
@@ -2301,6 +3407,35 @@
   "website": "https://www.camping-lilienhof.de/"
  },
  {
+  "id": "lovely-vintage-cafe-boberg",
+  "name": "Lovely Vintage Café",
+  "kategorie": "cafe",
+  "kurztext": "Café in Boberg mit vegetarischen und veganen Angeboten, am Wochenende geöffnet.",
+  "lat": 53.504509,
+  "lon": 10.168837,
+  "opening_hours": "Sa-Su 13:00-18:00"
+ },
+ {
+  "id": "machmit-museum-fuer-kinder",
+  "name": "MACHmit! Museum für Kinder",
+  "kategorie": "museum",
+  "kurztext": "Museum für Kinder im Prenzlauer Berg mit Ausstellungen zum Mitmachen.",
+  "lat": 52.540529,
+  "lon": 13.422672,
+  "website": "https://www.machmitmuseum.de/",
+  "opening_hours": "Th-Fr 14:00-18:00; Sa-Su 10:00-18:00"
+ },
+ {
+  "id": "marios-eiscafe",
+  "name": "Marios Eiscafé",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Eichwalde, das von April bis Oktober täglich am Nachmittag öffnet.",
+  "lat": 52.372549,
+  "lon": 13.615483,
+  "website": "https://marios-eiscafe.jimdosite.com/",
+  "opening_hours": "Apr-Oct Mo-Su 13:00-18:00"
+ },
+ {
   "id": "mecklenburger-wagyu-hofladen",
   "name": "Mecklenburger Wagyu Hofladen",
   "kategorie": "hofladen",
@@ -2327,12 +3462,85 @@
   "website": "http://miencafeandekuest.de/"
  },
  {
+  "id": "mies-van-der-rohe-haus",
+  "name": "Mies van der Rohe Haus",
+  "kategorie": "museum",
+  "kurztext": "Landhaus Lemke von Ludwig Mies van der Rohe, heute mit wechselnden Ausstellungen.",
+  "lat": 52.549162,
+  "lon": 13.490529,
+  "website": "https://www.miesvanderrohehaus.de/"
+ },
+ {
+  "id": "militaerhistorisches-museum-gatow",
+  "name": "Militärhistorisches Museum Flugplatz Berlin-Gatow",
+  "kategorie": "museum",
+  "kurztext": "Museum auf dem früheren Flugplatz Gatow zur Geschichte des Luftkriegs, bis 2010 Luftwaffenmuseum der Bundeswehr.",
+  "lat": 52.471926,
+  "lon": 13.138677,
+  "website": "https://gatow.mhmbw.de/de/",
+  "opening_hours": "Tu-Su 10:00-18:00"
+ },
+ {
+  "id": "millenium-eiscafe",
+  "name": "Millenium Eiscafe",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé in Rahlstedt, täglich und an Feiertagen geöffnet.",
+  "lat": 53.60445,
+  "lon": 10.154869,
+  "opening_hours": "Mo-Su 10:00-20:00"
+ },
+ {
+  "id": "minigolf-am-insulaner",
+  "name": "Minigolf am Insulaner",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage am Fuß des Insulaners, die von März bis September täglich geöffnet hat.",
+  "lat": 52.458366,
+  "lon": 13.351484,
+  "website": "https://www.minigolf-insulaner.de/",
+  "opening_hours": "Mo-Fr 14:00-20:00; Sa-Su 11:00-20:00; Oct-Feb off"
+ },
+ {
   "id": "minigolf-am-rugard",
   "name": "Minigolf Am Rugard",
   "kategorie": "aktivitaet",
   "kurztext": "Minigolfanlage am Rugard für eine Runde nach dem Waldspaziergang.",
   "lat": 54.421789,
   "lon": 13.442573
+ },
+ {
+  "id": "minigolf-buergerpark",
+  "name": "Minigolf im Bürgerpark",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage im Bürgerpark für eine Runde mit der ganzen Familie.",
+  "lat": 53.093132,
+  "lon": 8.823801,
+  "website": "https://www.minigolf-buergerpark.de/"
+ },
+ {
+  "id": "minigolf-schillerufer-bergedorf",
+  "name": "Minigolf am Schillerufer",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage am Schillerufer in Bergedorf, mit Eisdiele nebenan.",
+  "lat": 53.492021,
+  "lon": 10.213976
+ },
+ {
+  "id": "minigolf-volkspark-wilmersdorf",
+  "name": "Minigolfplatz im Volkspark Wilmersdorf",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage im Volkspark Wilmersdorf für eine Runde mit der ganzen Familie.",
+  "lat": 52.483956,
+  "lon": 13.324905,
+  "website": "https://miniaturgolf-wilmersdorf.de/"
+ },
+ {
+  "id": "minigolf-wedel",
+  "name": "Minigolf Wedel",
+  "kategorie": "aktivitaet",
+  "kurztext": "Minigolfanlage in Wedel mit Gasgrill zum Mieten.",
+  "lat": 53.569813,
+  "lon": 9.70382,
+  "website": "http://www.minigolf-wedel.de/"
  },
  {
   "id": "minigolfanlage-verchen",
@@ -2351,6 +3559,25 @@
   "lon": 12.24299,
   "website": "http://www.modemuseum-schloss-meyenburg.de",
   "oeffnungszeiten": "April–Oktober Di–So und Feiertage 11–17 Uhr; November–März Mi–So und Feiertage 11–17 Uhr"
+ },
+ {
+  "id": "mosaik-hofladen",
+  "name": "Mosaik Hofladen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen des Gärtnerhofs in Charlottenburg mit Gemüse und Pflanzen aus eigenem Anbau.",
+  "lat": 52.52667,
+  "lon": 13.278868,
+  "website": "https://www.mosaik-berlin.de/de/hofladen-im-gaertnerhof",
+  "opening_hours": "Mo-Th 09:00-15:00; Fr 09:00-16:00; Sa 10:00-15:00"
+ },
+ {
+  "id": "mr-ice-cream",
+  "name": "Mr. Ice Cream",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in Hakenfelde für eine Pause nach dem Waldspaziergang.",
+  "lat": 52.56118,
+  "lon": 13.20808,
+  "opening_hours": "Mo-Sa 14:00-22:00; Su 13:00-22:00"
  },
  {
   "id": "mueritz-therme-roebel",
@@ -2382,6 +3609,16 @@
   "website": "https://multimar-wattforum.de/"
  },
  {
+  "id": "museum-bergedorf-vierlande",
+  "name": "Museum für Bergedorf und die Vierlande",
+  "kategorie": "museum",
+  "kurztext": "Museum im Bergedorfer Schloss zur Geschichte von Bergedorf und den Vierlanden.",
+  "lat": 53.48965,
+  "lon": 10.212389,
+  "website": "http://bergedorfmuseum.de/",
+  "opening_hours": "Tu-Su 11:00-17:00"
+ },
+ {
   "id": "museum-burg-lenzen",
   "name": "Besucherzentrum Burg Lenzen",
   "kategorie": "museum",
@@ -2411,6 +3648,26 @@
   "lon": 13.5756,
   "website": "https://www.prora.eu/",
   "oeffnungszeiten": "siehe Haus, Eintritt"
+ },
+ {
+  "id": "museum-europaeischer-kulturen",
+  "name": "Museum Europäischer Kulturen",
+  "kategorie": "museum",
+  "kurztext": "Museum der Staatlichen Museen zu Berlin über Alltagskultur in Europa.",
+  "lat": 52.45556,
+  "lon": 13.292635,
+  "website": "https://www.smb.museum/museen-und-einrichtungen/museum-europaeischer-kulturen/home.html",
+  "opening_hours": "We-Fr 10:00-17:00; Sa-Su 11:00-18:00"
+ },
+ {
+  "id": "museum-fuer-naturkunde",
+  "name": "Museum für Naturkunde",
+  "kategorie": "museum",
+  "kurztext": "Naturkundemuseum mit Dinosaurierskeletten und großen Tiersammlungen für Kinder und Erwachsene.",
+  "lat": 52.53049,
+  "lon": 13.379115,
+  "website": "https://www.museumfuernaturkunde.berlin/",
+  "opening_hours": "Tu-Fr 09:30-18:00; Sa,Su 10:00-18:00"
  },
  {
   "id": "museum-grevesmuehlen",
@@ -2535,6 +3792,16 @@
   "telefon": "+49 261 66754830"
  },
  {
+  "id": "museum-reinickendorf",
+  "name": "Museum Reinickendorf",
+  "kategorie": "museum",
+  "kurztext": "Regionalmuseum in Alt-Hermsdorf mit Ausstellung zur Geschichte des Bezirks und Familiensonntagen mit Rallye und Workshops.",
+  "lat": 52.615457,
+  "lon": 13.318682,
+  "website": "https://www.museum-reinickendorf.de/",
+  "opening_hours": "Mo-Fr,Su 09:00-17:00; Sa off"
+ },
+ {
   "id": "museum-saalburg",
   "name": "Römerkastell Saalburg",
   "kategorie": "museum",
@@ -2582,6 +3849,16 @@
   "telefon": "+49 40 72750811"
  },
  {
+  "id": "museum-schloss-schoenebeck",
+  "name": "Museum Schloss Schönebeck",
+  "kategorie": "museum",
+  "kurztext": "Heimatmuseum im Fachwerkschloss an der Schönebecker Aue mit Geschichten aus Vegesack und Umgebung.",
+  "lat": 53.181728,
+  "lon": 8.651091,
+  "website": "https://museum-schloss-schoenebeck.de/",
+  "opening_hours": "Tu,We,Sa 15:00-17:00; Su 10:30-17:00"
+ },
+ {
   "id": "museum-schutzstation-spitze",
   "name": "Schutzstation Wattenmeer",
   "kategorie": "museum",
@@ -2627,6 +3904,15 @@
   "telefon": "+49 3443 370400"
  },
  {
+  "id": "museumsdorf-dueppel",
+  "name": "Museumsdorf Düppel",
+  "kategorie": "museum",
+  "kurztext": "Freilichtmuseum in Zehlendorf, das in einem nachgebauten Dorf das Leben im Mittelalter zeigt.",
+  "lat": 52.425497,
+  "lon": 13.233305,
+  "website": "https://www.stadtmuseum.de/museum/museumsdorf-dueppel"
+ },
+ {
   "id": "museumsfabrik-pritzwalk",
   "name": "Museumsfabrik Pritzwalk",
   "kategorie": "museum",
@@ -2648,6 +3934,25 @@
   "website": "https://www.museumsschaenke-schmoelln.de/",
   "oeffnungszeiten": "Do/Fr ab 16, Sa/So ab 11:30, nur Barzahlung",
   "telefon": "+49 34491 81461"
+ },
+ {
+  "id": "museumswohnung-wbs70",
+  "name": "DDR-Museumswohnung WBS 70",
+  "kategorie": "museum",
+  "kurztext": "Eingerichtete Wohnung im DDR-Plattenbau vom Typ WBS 70 an der Hellersdorfer Straße.",
+  "lat": 52.534299,
+  "lon": 13.593003,
+  "website": "https://stadtundland.de/unternehmen/museumswohnung"
+ },
+ {
+  "id": "nahverkehrsmuseum-kleinbahnhof-wohldorf",
+  "name": "Nahverkehrsmuseum Kleinbahnhof Wohldorf",
+  "kategorie": "museum",
+  "kurztext": "Kleines Museum im alten Güterschuppen der Kleinbahn mit Originalteilen und einer großen Modellbahn der Strecke Wohldorf–Ohlstedt.",
+  "lat": 53.704404,
+  "lon": 10.121192,
+  "website": "https://vvm-museumsbahn.de/?id=400",
+  "opening_hours": "Su 12:00-16:00"
  },
  {
   "id": "natur-schatzkammer-neuheide",
@@ -2718,6 +4023,15 @@
   "oeffnungszeiten": "Ufer frei"
  },
  {
+  "id": "ninos-eiscafe",
+  "name": "Nino's Eiscafe",
+  "kategorie": "cafe",
+  "kurztext": "Eiscafé am Rothenburgsorter Marktplatz.",
+  "lat": 53.533181,
+  "lon": 10.039865,
+  "opening_hours": "Mo-Sa 09:00-20:00; Su 11:00-20:00"
+ },
+ {
   "id": "nordlicht-harmonie-restaurant",
   "name": "Nordlicht Harmonie (Restaurant)",
   "kategorie": "restaurant",
@@ -2725,6 +4039,36 @@
   "lat": 54.362821,
   "lon": 12.604673,
   "website": "https://www.nordlichtharmonie.de/restaurant"
+ },
+ {
+  "id": "noris-bar",
+  "name": "Noris Bar",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele im Ortskern von Volksdorf, täglich geöffnet.",
+  "lat": 53.648792,
+  "lon": 10.164435,
+  "website": "http://www.norisbar.de/",
+  "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00"
+ },
+ {
+  "id": "obsthof-brackenburg",
+  "name": "Obsthof Brackenburg",
+  "kategorie": "hofladen",
+  "kurztext": "Obsthof mit Hofladen und Einkaufsautomat außerhalb der Öffnungszeiten.",
+  "lat": 53.500822,
+  "lon": 9.876823,
+  "website": "https://www.brackenburg.de/hofladen",
+  "opening_hours": "Tu,Th,Fr 10:00-17:30; Sa 10:00-16:00"
+ },
+ {
+  "id": "obsthof-quast",
+  "name": "Obsthof Quast",
+  "kategorie": "hofladen",
+  "kurztext": "Obsthof in Francop mit Hofladen für Äpfel, Birnen, Kirschen und Gemüse.",
+  "lat": 53.508328,
+  "lon": 9.867077,
+  "website": "https://www.obsthof-quast-francop.de",
+  "opening_hours": "Mo,We-Sa 09:00-18:00; Su 10:00-15:00"
  },
  {
   "id": "oldtimer-museum-ruegen",
@@ -2766,6 +4110,15 @@
   "website": "https://paganini-ribnitz.de/"
  },
  {
+  "id": "panciera",
+  "name": "Panciera",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele in der Neustadt nahe dem Weserufer.",
+  "lat": 53.072418,
+  "lon": 8.819102,
+  "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-19:00"
+ },
+ {
   "id": "panorama-cafe-doemitz",
   "name": "Panorama Café",
   "kategorie": "cafe",
@@ -2783,6 +4136,16 @@
   "lon": 14.04767,
   "website": "https://papageienhaus-gulliverswelt.de/",
   "oeffnungszeiten": "10–18 Uhr, letzter Einlass 17 Uhr"
+ },
+ {
+  "id": "parkbad-volksdorf",
+  "name": "Parkbad Volksdorf",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad von Bäderland in Volksdorf, auch bei Regen ein Ziel.",
+  "lat": 53.650425,
+  "lon": 10.166179,
+  "website": "https://www.baederland.de/baeder/alle-baeder/parkbad/",
+  "opening_hours": "Mo-Fr 06:30-22:00; Sa,Su 08:00-22:00"
  },
  {
   "id": "peenetal-safari",
@@ -2841,6 +4204,15 @@
   "lat": 50.239383,
   "lon": 8.587094,
   "oeffnungszeiten": "siehe Betreiber"
+ },
+ {
+  "id": "planetarium-am-insulaner",
+  "name": "Planetarium am Insulaner",
+  "kategorie": "museum",
+  "kurztext": "Planetarium mit der Wilhelm-Foerster-Sternwarte auf dem Insulaner, das auch Vorstellungen für Kinder zeigt.",
+  "lat": 52.457581,
+  "lon": 13.349418,
+  "website": "https://www.planetarium.berlin/planetarium-am-insulaner-wilhelm-foerster-sternwarte"
  },
  {
   "id": "platja-barceloneta",
@@ -2916,6 +4288,16 @@
   "oeffnungszeiten": "Di–So 9–17 Uhr, Mo Ruhetag",
   "opening_hours": "Mo off; Tu-Su 09:00-17:00",
   "telefon": "+49 171 9342124"
+ },
+ {
+  "id": "puppenmuseum-falkenstein",
+  "name": "Puppenmuseum Falkenstein",
+  "kategorie": "museum",
+  "kurztext": "Puppenhäuser und Puppen vom späten 18. Jahrhundert bis in die 1950er Jahre, ausgestellt in einer weißen Villa im Sven-Simon-Park.",
+  "lat": 53.565983,
+  "lon": 9.764032,
+  "website": "https://www.elke-droescher.de/pages/museu1.html",
+  "opening_hours": "Tu-Su 11:00-17:00"
  },
  {
   "id": "restaurant-alte-apotheke-bad-duerrenberg",
@@ -3304,6 +4686,15 @@
   "telefon": "+49 4854 1262"
  },
  {
+  "id": "rhododendronpark",
+  "name": "Rhododendronpark",
+  "kategorie": "aktivitaet",
+  "kurztext": "Großer Park mit Rhododendren, Wiesen und Wegen zum Toben, besonders schön zur Blüte im Mai.",
+  "lat": 53.093007,
+  "lon": 8.881442,
+  "website": "https://www.rhododendronpark-bremen.de/"
+ },
+ {
   "id": "ristorante-pizzeria-zollerstuben-hechingen",
   "name": "Ristorante Pizzeria Zollerstuben",
   "kategorie": "restaurant",
@@ -3400,12 +4791,62 @@
   "oeffnungszeiten": "Park frei, Haus privat"
  },
  {
+  "id": "schloss-koenigs-wusterhausen",
+  "name": "Schloss Königs Wusterhausen",
+  "kategorie": "museum",
+  "kurztext": "Jagdschloss des Soldatenkönigs mit Schlossgarten und eigenen Angeboten für Familien und Kinder.",
+  "lat": 52.298266,
+  "lon": 13.625081,
+  "website": "https://www.spsg.de/schloesser-gaerten/objekt/schloss-schlossgarten-koenigs-wusterhausen/",
+  "opening_hours": "Nov-Mar Sa-Su 10:00-16:00; Apr-Oct Tu-Su 10:00-17:30"
+ },
+ {
+  "id": "schlossparkbad",
+  "name": "Schloßparkbad",
+  "kategorie": "baden",
+  "kurztext": "Freibad in Sebaldsbrück mit Liegewiese für heiße Sommertage.",
+  "lat": 53.064303,
+  "lon": 8.901053,
+  "website": "https://www.bremer-baeder.de/baeder/schlossparkbad",
+  "opening_hours": "Mo,We,Fr 06:30-21:00; Tu,Th 06:30-08:00; Su 10:00-16:00"
+ },
+ {
+  "id": "schmetterlingshorst",
+  "name": "Schmetterlingshorst",
+  "kategorie": "museum",
+  "kurztext": "Sport- und Bildungszentrum am Langen See mit einer Ausstellung über Schmetterlinge und Umweltbildung.",
+  "lat": 52.412599,
+  "lon": 13.60943,
+  "website": "https://www.schmetterlingshorst.de/",
+  "opening_hours": "Oct-Mar Mo-Fr 11:00-16:00; Oct-Mar Sa-Su 11:00-17:00; Apr-Sep Mo-Fr 10:00-17:00; Apr-Sep Sa-Su 10:00-19:00"
+ },
+ {
   "id": "schwalbenhaus-franzburg",
   "name": "Schwalbenhaus Franzburg",
   "kategorie": "museum",
   "kurztext": "Kleines Privatmuseum in Franzburg.",
   "lat": 54.187529,
   "lon": 12.876271
+ },
+ {
+  "id": "schwarzlichthof",
+  "name": "Schwarzlichthof",
+  "kategorie": "aktivitaet",
+  "kurztext": "Schwarzlicht-Minigolf in der Überseestadt, auch bei Regenwetter.",
+  "lat": 53.096413,
+  "lon": 8.773024,
+  "website": "https://www.schwarzlichthof.de/",
+  "opening_hours": "Mo-Th 14:00-22:00; Fr 14:00-24:00; Sa 10:00-24:00; Su 10:00-22:00"
+ },
+ {
+  "id": "schwimmbad-blankenese",
+  "name": "Schwimmbad Blankenese",
+  "kategorie": "baden",
+  "kurztext": "Hallenbad von Bäderland in Blankenese zum Schwimmen bei jedem Wetter.",
+  "lat": 53.56651,
+  "lon": 9.821916,
+  "website": "https://www.baederland.de/baeder/alle-baeder/schwimmbad-blankenese/",
+  "opening_hours": "Mo-Tu off; We-Th 10:00-20:00; Fr 08:30-20:00; Sa-Su 10:00-18:00"
  },
  {
   "id": "seebruecke-heringsdorf",
@@ -3437,6 +4878,15 @@
   "website": "https://mitmachbauernhof.de/hofladen-2"
  },
  {
+  "id": "sommerbad-am-insulaner",
+  "name": "Sommerbad am Insulaner",
+  "kategorie": "baden",
+  "kurztext": "Freibad am Fuß des Insulaners, das von Juni bis Anfang September geöffnet ist.",
+  "lat": 52.4562557,
+  "lon": 13.3520307,
+  "website": "https://www.berlinerbaeder.de/baeder/detail/sommerbad-am-insulaner/"
+ },
+ {
   "id": "sommerbad-kreuzberg",
   "name": "Sommerbad Kreuzberg",
   "kategorie": "baden",
@@ -3448,6 +4898,24 @@
   "telefon": "+49 30 787322170"
  },
  {
+  "id": "sommerbad-pankow",
+  "name": "Sommerbad Pankow",
+  "kategorie": "baden",
+  "kurztext": "Freibad der Berliner Bäder in Pankow, das im Sommer zum Schwimmen öffnet.",
+  "lat": 52.575829,
+  "lon": 13.413191,
+  "website": "https://www.berlinerbaeder.de/baeder/sommerbad-pankow/"
+ },
+ {
+  "id": "sommerbad-wuhlheide",
+  "name": "Sommerbad Wuhlheide",
+  "kategorie": "baden",
+  "kurztext": "Kleines Freibad am Volkspark Wuhlheide mit Planschbecken, Babyrutsche, Nichtschwimmerbecken und Sandkasten.",
+  "lat": 52.470434,
+  "lon": 13.519717,
+  "website": "https://www.berlinerbaeder.de/baeder/sommerbad-wuhlheide/"
+ },
+ {
   "id": "sommerrodelbahn-hoherodskopf",
   "name": "Sommerrodelbahn Hoherodskopf",
   "kategorie": "aktivitaet",
@@ -3456,6 +4924,16 @@
   "lon": 9.2251504,
   "website": "https://www.ski-und-rodelarena-hoherodskopf.de/",
   "oeffnungszeiten": "siehe Betreiber, witterungsabhängig"
+ },
+ {
+  "id": "spaethscher-hofladen",
+  "name": "Späth'scher Hofladen",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen auf dem Gelände der Späth'schen Baumschulen, gleich beim Arboretum.",
+  "lat": 52.453436,
+  "lon": 13.473817,
+  "website": "http://www.spaethsche-baumschulen.de/auf-dem-spaeth-hof/hofladen-spaeth/",
+  "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-16:00; Su 11:00-16:00"
  },
  {
   "id": "spreewald-camping-luebbenau",
@@ -3487,6 +4965,24 @@
   "website": "https://www.sprungraum.de/"
  },
  {
+  "id": "stadionbad",
+  "name": "Stadionbad",
+  "kategorie": "baden",
+  "kurztext": "Freibad an der Weser beim Weserstadion für heiße Sommertage.",
+  "lat": 53.065014,
+  "lon": 8.83808,
+  "website": "https://www.bremer-baeder.de/",
+  "opening_hours": "Mo-Fr 06:30-20:00; Sa 13:00-19:00; Su 10:00-19:00"
+ },
+ {
+  "id": "stadtgeschichtliches-museum-spandau",
+  "name": "Stadtgeschichtliches Museum Spandau",
+  "kategorie": "museum",
+  "kurztext": "Museum zur Stadtgeschichte in der Zitadelle Spandau, deren Festungsanlage sich mit Kindern erkunden lässt.",
+  "lat": 52.540635,
+  "lon": 13.213536
+ },
+ {
   "id": "stadtmuseum-bergen-auf-ruegen",
   "name": "Stadtmuseum Bergen auf Rügen",
   "kategorie": "museum",
@@ -3503,7 +4999,7 @@
   "lat": 53.70215,
   "lon": 9.98018,
   "oeffnungszeiten": "Mi–Sa 15–18 Uhr, So 11–18 Uhr",
-  "opening_hours": "We-Sa 15:00-18:00, Su 11:00-18:00"
+  "opening_hours": "We-Sa 15:00-18:00; Su 11:00-18:00"
  },
  {
   "id": "stadtmuseum-teterow",
@@ -3543,6 +5039,24 @@
   "website": "https://www.graal-mueritz.de/strandinfo/"
  },
  {
+  "id": "strandbad-gruenau",
+  "name": "Strandbad Grünau",
+  "kategorie": "baden",
+  "kurztext": "Strandbad am Langen See mit Sandstrand, seit 1908 in Betrieb und im Sommer geöffnet.",
+  "lat": 52.408877,
+  "lon": 13.606855,
+  "website": "https://strandbadgruenau.de/"
+ },
+ {
+  "id": "strandbad-jungfernheide",
+  "name": "Strandbad Jungfernheide",
+  "kategorie": "baden",
+  "kurztext": "Strandbad am Jungfernheideteich mit Sandstrand und Liegewiese zum Baden im Sommer.",
+  "lat": 52.54388,
+  "lon": 13.274509,
+  "website": "https://www.berlinerbaeder.de/baeder/strandbad-jungfernheide"
+ },
+ {
   "id": "strandbad-mueggelsee",
   "name": "Strandbad Müggelsee",
   "kategorie": "baden",
@@ -3551,6 +5065,34 @@
   "lon": 13.6753432,
   "oeffnungszeiten": "Täglich, im Sommer 9–21 Uhr. Eintritt frei.",
   "opening_hours": "Apr-May: 09:00-20:00; Jun-Sep: 09:00-21:00; Oct-Mar: 09:00-17:00"
+ },
+ {
+  "id": "strandbad-norderstedt",
+  "name": "Strandbad Norderstedt",
+  "kategorie": "baden",
+  "kurztext": "Badesee im Stadtpark Norderstedt mit 4.000 m² Sandstrand und großem Nichtschwimmerbereich, nur im Sommer geöffnet.",
+  "lat": 53.715698,
+  "lon": 10.023622,
+  "website": "https://stadtpark-norderstedt.de/strandbad/"
+ },
+ {
+  "id": "strandbad-orankesee",
+  "name": "Strandbad Orankesee",
+  "kategorie": "baden",
+  "kurztext": "Strandbad von 1929 mit Sandstrand, Liegewiese, 52 Meter langer Wasserrutsche und Kinderrutsche.",
+  "lat": 52.549382,
+  "lon": 13.485199,
+  "website": "https://www.strandbad-orankesee.de/",
+  "opening_hours": "Mo-Su 10:00-19:00; Jan off; Feb off; Mar off; Apr off; Sep off; Oct off; Nov off; Dec off"
+ },
+ {
+  "id": "strandbad-ploetzensee",
+  "name": "Strandbad Plötzensee",
+  "kategorie": "baden",
+  "kurztext": "Strandbad am Plötzensee mit Sandstrand und Liegewiese zum Baden im Sommer.",
+  "lat": 52.543325,
+  "lon": 13.328451,
+  "website": "https://strandbad.ploetzensee.de"
  },
  {
   "id": "strandbad-tegeler-see",
@@ -3571,6 +5113,15 @@
   "lon": 13.1775391,
   "website": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/",
   "oeffnungszeiten": "Sommersaison, Mai bis Mitte September, Eintritt"
+ },
+ {
+  "id": "strandbad-weissensee",
+  "name": "Strandbad Weißensee",
+  "kategorie": "baden",
+  "kurztext": "Über 100 Jahre altes Strandbad am Weißen See, das seit 1912 besteht, mit Strandbar.",
+  "lat": 52.553951,
+  "lon": 13.465611,
+  "website": "https://www.strandbadweissensee.de"
  },
  {
   "id": "strandhalle-spo",
@@ -3599,6 +5150,16 @@
   "kurztext": "Streichelzoo, um Tiere aus der Nähe zu erleben.",
   "lat": 48.40077,
   "lon": 8.98211
+ },
+ {
+  "id": "suedbad",
+  "name": "Südbad",
+  "kategorie": "baden",
+  "kurztext": "Schwimmbad in der Neustadt für eine Runde im Wasser bei jedem Wetter.",
+  "lat": 53.070894,
+  "lon": 8.795713,
+  "website": "https://www.bremer-baeder.de/baeder/suedbad",
+  "opening_hours": "Mo-Fr 06:30-21:00; Sa,Su 10:00-18:00"
  },
  {
   "id": "sylt-museum-keitum",
@@ -3638,6 +5199,35 @@
   "website": "https://tiergarten-teltow.de/"
  },
  {
+  "id": "tierhof-mensch-natur",
+  "name": "Tierhof „Mensch – Natur“",
+  "kategorie": "aktivitaet",
+  "kurztext": "Tierhof am Oschatzer Ring, der vom Aussterben bedrohte Nutztierrassen hält.",
+  "lat": 52.540863,
+  "lon": 13.613377,
+  "website": "http://www.mensch-natur.eu/",
+  "opening_hours": "Mo 08:00-18:30; Tu-Fr 08:30-18:30; Sa,Su 10:30-17:30"
+ },
+ {
+  "id": "tierpark-berlin",
+  "name": "Tierpark Berlin",
+  "kategorie": "aktivitaet",
+  "kurztext": "Großer Landschaftstierpark in Friedrichsfelde, in dem Familien zwischen weitläufigen Gehegen spazieren gehen.",
+  "lat": 52.501554,
+  "lon": 13.531267,
+  "website": "https://www.tierpark-berlin.de/"
+ },
+ {
+  "id": "tierpark-hagenbeck",
+  "name": "Tierpark Hagenbeck",
+  "kategorie": "aktivitaet",
+  "kurztext": "Zoo in Stellingen mit Freigehegen ohne Gitter und einem Tropen-Aquarium.",
+  "lat": 53.596815,
+  "lon": 9.938141,
+  "website": "https://www.hagenbeck.de/",
+  "oeffnungszeiten": "Jan.–Feb. 9–16:30 Uhr, März–Juni 9–18 Uhr, Juli–Aug. 9–19 Uhr, 1.9.–25.10. 9–18 Uhr, ab 26.10. 9–16:30 Uhr; 24. und 31.12. 9–13 Uhr"
+ },
+ {
   "id": "tierpark-kunsterspring",
   "name": "Tierpark Kunsterspring",
   "kategorie": "aktivitaet",
@@ -3648,6 +5238,15 @@
   "oeffnungszeiten": "täglich 9–17 Uhr",
   "opening_hours": "Mo-Su 09:00-17:00",
   "telefon": "+49 33929 70271"
+ },
+ {
+  "id": "tierpark-neukoelln",
+  "name": "Tierpark Neukölln",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kleiner Tierpark in der Hasenheide mit Damwild, Ziegen und Vögeln, Eintritt frei.",
+  "lat": 52.486775,
+  "lon": 13.416395,
+  "website": "https://tierpark-neukoelln.berlin/"
  },
  {
   "id": "torfbahn-himmelmoor",
@@ -3702,6 +5301,26 @@
   "website": "https://www.naturschutz-sh.de/wildes-sh/trekkingplatz-leck"
  },
  {
+  "id": "tricolore-eiscafe",
+  "name": "Tricolore – Bistro und Eiscafé",
+  "kategorie": "cafe",
+  "kurztext": "Bistro und Eiscafé an der Onkel-Tom-Ladenstraße mit Kugeleis zum Mitnehmen.",
+  "lat": 52.449554,
+  "lon": 13.252507,
+  "website": "https://onkeltomsladenstrasse.de/bistro-und-eiscafe-tricolore/",
+  "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-18:30"
+ },
+ {
+  "id": "uebersee-museum",
+  "name": "Übersee-Museum",
+  "kategorie": "museum",
+  "kurztext": "Museum am Hauptbahnhof mit Natur und Kulturen ferner Kontinente zum Staunen für Groß und Klein.",
+  "lat": 53.083399,
+  "lon": 8.810556,
+  "website": "https://www.uebersee-museum.de/",
+  "opening_hours": "Tu-Fr 09:00-17:00; Sa,Su 10:00-17:00; Mo off"
+ },
+ {
   "id": "uhrenmuseum-putbus",
   "name": "Uhrenmuseum Putbus",
   "kategorie": "museum",
@@ -3709,6 +5328,16 @@
   "lat": 54.352187,
   "lon": 13.467003,
   "website": "https://uhrenmuseum-putbus.de/"
+ },
+ {
+  "id": "universum",
+  "name": "Universum Bremen",
+  "kategorie": "museum",
+  "kurztext": "Science Center mit Mitmach-Ausstellungen zu Mensch, Natur und Technik, in denen Kinder vieles selbst ausprobieren.",
+  "lat": 53.106728,
+  "lon": 8.845005,
+  "website": "https://universum-bremen.de/",
+  "opening_hours": "Mo-Fr 09:00-18:00; Sa,Su 10:00-18:00"
  },
  {
   "id": "uns-luett-museum",
@@ -3728,6 +5357,16 @@
   "lon": 8.3305402
  },
  {
+  "id": "vegesacker-geschichtenhaus",
+  "name": "Vegesacker Geschichtenhaus",
+  "kategorie": "museum",
+  "kurztext": "Museum in Vegesack, das die Geschichte des Hafenorts lebendig erzählt.",
+  "lat": 53.167441,
+  "lon": 8.62608,
+  "website": "https://vegesacker-geschichtenhaus.de",
+  "opening_hours": "We-Sa 11:00-17:00"
+ },
+ {
   "id": "verchener-piratenkanone",
   "name": "Verchener Piratenkanone",
   "kategorie": "aktivitaet",
@@ -3745,6 +5384,16 @@
   "website": "https://www.vineta-museum.de/"
  },
  {
+  "id": "vollers-hof",
+  "name": "Vollers Hof",
+  "kategorie": "hofladen",
+  "kurztext": "Hofladen in Schönebeck, rund um die Uhr geöffnet.",
+  "lat": 53.18211,
+  "lon": 8.67323,
+  "website": "https://www.vollershof.de/",
+  "opening_hours": "Mo-Su 00:00-24:00"
+ },
+ {
   "id": "vulkaneum-schotten",
   "name": "Vulkaneum Schotten",
   "kategorie": "museum",
@@ -3753,6 +5402,16 @@
   "lon": 9.1258847,
   "website": "https://www.vulkaneum.com/",
   "oeffnungszeiten": "siehe Museum"
+ },
+ {
+  "id": "waldcafe-corell",
+  "name": "Waldcafé Corell",
+  "kategorie": "restaurant",
+  "kurztext": "Waldcafé mit deutscher Küche im Niendorfer Gehege, mit Spielbereich draußen, Hochstühlen und Wickeltisch.",
+  "lat": 53.6157703,
+  "lon": 9.9323447,
+  "website": "https://www.waldcafe-corell.de",
+  "opening_hours": "Tu-Su 11:00-22:00"
  },
  {
   "id": "waldcafe-meyers-hausstelle",
@@ -3834,6 +5493,71 @@
   "oeffnungszeiten": "nach Vereinbarung"
  },
  {
+  "id": "weser-strandbad",
+  "name": "Weser-Strandbad",
+  "kategorie": "baden",
+  "kurztext": "Strandbad mit Sandstrand an der Weser, nahe den Havenwelten.",
+  "lat": 53.537766,
+  "lon": 8.57727,
+  "opening_hours": "Mo-Su 10:00-20:00"
+ },
+ {
+  "id": "westbad",
+  "name": "Westbad",
+  "kategorie": "baden",
+  "kurztext": "Schwimmbad in Walle für eine Runde im Wasser bei jedem Wetter.",
+  "lat": 53.110071,
+  "lon": 8.773635,
+  "website": "https://www.bremer-baeder.de/baeder/westbad",
+  "opening_hours": "Mo,We,Fr 06:00-21:00; Tu,Th 06:00-08:00; Sa,Su 10:00-18:00"
+ },
+ {
+  "id": "wildgehege-ehrenpfortensteig",
+  "name": "Wildgehege am Ehrenpfortensteig",
+  "kategorie": "aktivitaet",
+  "kurztext": "Schaugehege im Tegeler Forst bei Hermsdorf, in dem Rot- und Damwild aus der Nähe zu sehen ist.",
+  "lat": 52.613382,
+  "lon": 13.285726
+ },
+ {
+  "id": "wildgehege-spandauer-forst",
+  "name": "Wildgehege im Spandauer Forst",
+  "kategorie": "aktivitaet",
+  "kurztext": "Frei zugängliches Wildgehege im Spandauer Forst, in dem Wildtiere aus der Nähe zu sehen sind.",
+  "lat": 52.56991,
+  "lon": 13.186408,
+  "website": "https://www.visitberlin.de/de/spandauer-forst"
+ },
+ {
+  "id": "wildpark-restaurant",
+  "name": "Wildpark-Restaurant",
+  "kategorie": "restaurant",
+  "kurztext": "Restaurant am Wildpark Schwarze Berge.",
+  "lat": 53.442273,
+  "lon": 9.885616,
+  "website": "https://wildpark-restaurant.de/",
+  "opening_hours": "Su-Fr 08:30-21:00; Sa 11:00-21:00"
+ },
+ {
+  "id": "wildpark-schwarze-berge",
+  "name": "Wildpark Schwarze Berge",
+  "kategorie": "aktivitaet",
+  "kurztext": "Ganzjährig geöffneter Wildpark mit Fütterungen, Flugschau und Dinowelt.",
+  "lat": 53.44618,
+  "lon": 9.884119,
+  "website": "https://www.wildpark-schwarze-berge.de/",
+  "oeffnungszeiten": "April–Oktober 8–20 Uhr, November–März 9 Uhr bis Sonnenuntergang"
+ },
+ {
+  "id": "wilhelmsburger-eisdealer",
+  "name": "Wilhelmsburger Eisdealer",
+  "kategorie": "cafe",
+  "kurztext": "Eisdiele an der Weimarer Straße in Wilhelmsburg.",
+  "lat": 53.507206,
+  "lon": 9.988335,
+  "opening_hours": "Mo-Sa 13:00-19:00; Su 12:00-19:00"
+ },
+ {
   "id": "windjammer-museum-barth",
   "name": "Windjammer-Museum Barth",
   "kategorie": "museum",
@@ -3873,6 +5597,15 @@
   "website": "http://www.elbe-urlaub-hoehbeck.de/entdecken/restorf/woodhenge.html"
  },
  {
+  "id": "zeiss-grossplanetarium",
+  "name": "Zeiss-Großplanetarium",
+  "kategorie": "museum",
+  "kurztext": "Planetarium von 1987 mit 23 Meter großer Innenkuppel, Sternprojektor und Programmen für Kinder und Familien.",
+  "lat": 52.543057,
+  "lon": 13.428144,
+  "website": "https://www.planetarium.berlin/zeiss-grossplanetarium"
+ },
+ {
   "id": "zenner-biergarten",
   "name": "Zenner Biergarten",
   "kategorie": "restaurant",
@@ -3890,6 +5623,34 @@
   "lat": 54.960956,
   "lon": 8.867393,
   "website": "http://www.zeppelin-museum.dk"
+ },
+ {
+  "id": "ziegenhof-berlin",
+  "name": "Ziegenhof",
+  "kategorie": "aktivitaet",
+  "kurztext": "Streichelgehege mit Ziegen an der Danckelmannstraße in Charlottenburg, Eintritt frei.",
+  "lat": 52.514217,
+  "lon": 13.289814,
+  "website": "http://www.ziegenhof-berlin.de"
+ },
+ {
+  "id": "zoo-am-meer",
+  "name": "Zoo am Meer",
+  "kategorie": "aktivitaet",
+  "kurztext": "Kleiner Zoo direkt am Weserdeich mit Eisbären, Robben und Pinguinen.",
+  "lat": 53.544784,
+  "lon": 8.570161,
+  "website": "https://zoo-am-meer-bremerhaven.de/",
+  "oeffnungszeiten": "April–September 9–19 Uhr, März und Oktober 9–18 Uhr, November–Februar 9–16:30 Uhr; 24. und 31.12. 9–12 Uhr"
+ },
+ {
+  "id": "zoo-berlin",
+  "name": "Zoo Berlin",
+  "kategorie": "aktivitaet",
+  "kurztext": "Zoologischer Garten in der City West, in dem Familien Tiere aus aller Welt sehen.",
+  "lat": 52.508449,
+  "lon": 13.339231,
+  "website": "https://www.zoo-berlin.de/"
  },
  {
   "id": "zur-alten-maelzerei",

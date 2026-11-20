@@ -1,0 +1,210 @@
+{
+ "id": "naturschutzstation-hahneberg",
+ "name": "Naturschutzstation Hahneberg",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Am Fuß des Hahnebergs in Staaken weiden Schafe, Ziegen und Galloway-Rinder. Dazu kommen ein Barfußpfad, Naschbeeren und zwei Bienenstöcke.",
+ "beschreibung": "Am Fuß des Hahnebergs in Staaken liegt die Naturschutzstation Hahneberg mit Schafstall, Naturgarten und Nachbarschaftsbeeten. Schafe und Ziegen alter Rassen sowie Galloway-Rinder pflegen die Wiesen ringsum. Aktionspfade führen zu Tierspuren und Insekten, ein Barfußpfad über verschiedene Naturmaterialien. Im Garten wachsen Beeren zum Naschen, daneben stehen zwei Bienenstöcke. Der Hahneberg war früher Müllberg und Grenzgebiet. Heute ist er Natur- und Landschaftsschutzgebiet mit Trockenrasen und Zauneidechsen.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Landschaftspflegeverband Spandau e.V.",
+ "region": "Staaken, Bezirk Spandau, Berlin",
+ "anreise": "Bus M37 (ab U Rathaus Spandau) oder X49/M49 (ab U Zoo, U Theodor-Heuss-Platz) bis Hahneberg, die Haltestelle liegt fast vor der Tür. Mit dem Auto wird abgeraten, es gibt nur wenige Stellplätze.",
+ "startName": "Naturschutzstation Hahneberg (Heerstraße 549)",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Honigbiene",
+  "Zauneidechse",
+  "Margerite",
+  "Rotklee",
+  "Löwenzahn",
+  "Gänseblümchen",
+  "Scharfer Hahnenfuß",
+  "Goldammer",
+  "Hummel",
+  "Wildbiene",
+  "Feldhase"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "rollstuhltauglich",
+  "barfusspfad"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "trockenrasen"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 41,
+ "form": "flaeche",
+ "website": "https://naturschutzstation-hahneberg.de/",
+ "oeffnungszeiten": "Mo–Do 9–14 Uhr, Fr 9–13 Uhr sowie zu Veranstaltungen; Zeiten können sich ändern, vorher anrufen",
+ "besuchshinweise": "Eingang und Gelände sind mit dem Rollstuhl befahrbar, ein barrierefreies WC ist vorhanden. Im Naturschutzgebiet am Hahneberg gilt: auf den Wegen bleiben.",
+ "area": [
+  [
+   52.522949,
+   13.144749
+  ],
+  [
+   52.522909,
+   13.145154
+  ],
+  [
+   52.523227,
+   13.145534
+  ],
+  [
+   52.523343,
+   13.145321
+  ],
+  [
+   52.523406,
+   13.145384
+  ],
+  [
+   52.523489,
+   13.145474
+  ],
+  [
+   52.523519,
+   13.145454
+  ],
+  [
+   52.523557,
+   13.145416
+  ],
+  [
+   52.523753,
+   13.144503
+  ],
+  [
+   52.523983,
+   13.143415
+  ],
+  [
+   52.523707,
+   13.143377
+  ],
+  [
+   52.523558,
+   13.143468
+  ],
+  [
+   52.523572,
+   13.143606
+  ],
+  [
+   52.52355,
+   13.143705
+  ],
+  [
+   52.523494,
+   13.143857
+  ],
+  [
+   52.523388,
+   13.143888
+  ],
+  [
+   52.523337,
+   13.143874
+  ],
+  [
+   52.523334,
+   13.144012
+  ],
+  [
+   52.523273,
+   13.144086
+  ],
+  [
+   52.523278,
+   13.144145
+  ],
+  [
+   52.523227,
+   13.144167
+  ],
+  [
+   52.523282,
+   13.14442
+  ],
+  [
+   52.523048,
+   13.144643
+  ],
+  [
+   52.522949,
+   13.144749
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 2872718685,
+   "lat": 52.523716,
+   "lon": 13.143807,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Naturschutzstation Hahneberg",
+   "thema": "Umweltbildung",
+   "kurztext": "Kitas, Schulklassen, Familien und Senioren erleben hier ganzjährig Programme zu Natur, Garten und Weidetieren.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 568744013,
+   "lat": 52.522837,
+   "lon": 13.144566,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Weiden am Hahneberg",
+   "thema": "Beweidung",
+   "kurztext": "Schafe und Ziegen alter Rassen sowie Galloway-Rinder pflegen im Auftrag von Senat und Bezirk die Flächen am Hahneberg.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 568744011,
+   "lat": 52.521481,
+   "lon": 13.147051,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Nachbarschaftsbeete",
+   "thema": "Gärtnern",
+   "kurztext": "Auf der Dreiecksfläche am Fuß des Hahnebergs gärtnern seit 2022 Familien, Kitas und Schulen auf 36 Beeten.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 12388796801,
+   "lat": 52.523734,
+   "lon": 13.146443,
+   "kategorie": "wc"
+  },
+  {
+   "osmId": 23966003,
+   "lat": 52.52384,
+   "lon": 13.143291,
+   "kategorie": "parking"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Honigbiene": "belegt",
+  "Zauneidechse": "belegt",
+  "Margerite": "typisch",
+  "Rotklee": "typisch",
+  "Löwenzahn": "typisch",
+  "Gänseblümchen": "typisch",
+  "Scharfer Hahnenfuß": "typisch",
+  "Goldammer": "typisch",
+  "Hummel": "typisch",
+  "Wildbiene": "typisch",
+  "Feldhase": "typisch"
+ }
+}

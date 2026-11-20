@@ -1,0 +1,265 @@
+{
+ "id": "waldspielplatz-plaenterwald",
+ "name": "Waldspielplatz Plänterwald",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Eine große Spinne aus Holz zum Balancieren liegt im lichten Mischwald des Plänterwalds. Daneben warten ein Spielschiff mit Steuerrad und eine Lok mit Anhängern.",
+ "beschreibung": "Im Plänterwald balancieren Kinder über eine große Spinne aus Holz. Der langgestreckte Platz liegt unter alten Eichen, Buchen und Hainbuchen und wurde im Sommer 2022 erneuert. Zwischen den Stämmen stehen ein Spielschiff mit Steuerrad, eine Lokomotive mit Anhängern und ein Holztraktor, dazu ein Tipi. Ein Krokodil aus Holz dient als Balancierbalken, ein Käfer federt auf und ab. Der Name des Waldes kommt vom Plentern. Dabei nehmen Förster einzelne Stämme heraus, damit in den Lücken junge Bäume nachwachsen. Sitzplätze gibt es mit und ohne Dach.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Berliner Forsten (Landesforstamt Berlin)",
+ "region": "Plänterwald, Bezirk Treptow-Köpenick, Berlin",
+ "anreise": "Bus 265 bis Eichbuschallee, dort liegt der Waldeingang; dem Waldweg vorbei am Sportplatz Plänterwald etwa 350 m folgen.",
+ "startName": "Waldspielplatz Plänterwald",
+ "arten": [
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Winterlinde",
+  "Feldahorn",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Kleiber",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 117,
+ "form": "flaeche",
+ "website": "https://www.berlin.de/forsten/walderlebnis/waldspielplaetze/plaenterwald/",
+ "besuchshinweise": "Hunde, Fahrräder und Alkohol sind auf dem Spielplatz nicht erlaubt.",
+ "area": [
+  [
+   52.478144,
+   13.492173
+  ],
+  [
+   52.478016,
+   13.491884
+  ],
+  [
+   52.477935,
+   13.491866
+  ],
+  [
+   52.477801,
+   13.491581
+  ],
+  [
+   52.477683,
+   13.491309
+  ],
+  [
+   52.477601,
+   13.491434
+  ],
+  [
+   52.477581,
+   13.491696
+  ],
+  [
+   52.477522,
+   13.492001
+  ],
+  [
+   52.477505,
+   13.492157
+  ],
+  [
+   52.477494,
+   13.492299
+  ],
+  [
+   52.477486,
+   13.492417
+  ],
+  [
+   52.477465,
+   13.492694
+  ],
+  [
+   52.477449,
+   13.492892
+  ],
+  [
+   52.47767,
+   13.492903
+  ],
+  [
+   52.477743,
+   13.492774
+  ],
+  [
+   52.477878,
+   13.492478
+  ],
+  [
+   52.478065,
+   13.492424
+  ],
+  [
+   52.478126,
+   13.492312
+  ],
+  [
+   52.478144,
+   13.492173
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 1302507071,
+   "lat": 52.477876,
+   "lon": 13.492141,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Lokomotive mit Anhängern",
+   "thema": "Fahrzeuge aus Holz",
+   "kurztext": "Auf der Holzlok mit ihren Anhängern ist Platz für eine ganze Zugbesatzung.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1302507052,
+   "lat": 52.477709,
+   "lon": 13.491628,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Holzflugzeug",
+   "thema": "Fahrzeuge aus Holz",
+   "kurztext": "Ein Flugzeug aus Holz breitet seine Tragflächen als Sitzbank aus.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1302507067,
+   "lat": 52.477694,
+   "lon": 13.492257,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Kletterturm mit Rampe",
+   "thema": "Klettern",
+   "kurztext": "Über eine geschwungene Rampe mit Trittleisten und Seil geht es hinauf in den Holzturm.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1302507073,
+   "lat": 52.47778,
+   "lon": 13.491915,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Wackelbrücke",
+   "thema": "Balancieren",
+   "kurztext": "Die Wackelbrücke mit Handlauf schwankt bei jedem Schritt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1302507074,
+   "lat": 52.477856,
+   "lon": 13.491885,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Krokodil",
+   "thema": "Balancieren",
+   "kurztext": "Ein Krokodil aus Holz liegt als Balancierbalken im Sand.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1302507059,
+   "lat": 52.477546,
+   "lon": 13.492065,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Nestschaukel und Kletternetz",
+   "thema": "Schaukeln und Klettern",
+   "kurztext": "Neben der Nestschaukel spannt sich ein Klettergerüst aus Seilen über einer Sandkiste.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1267950806,
+   "lat": 52.477728,
+   "lon": 13.492189,
+   "kategorie": "playground",
+   "name": "Waldspielplatz Plänterwald"
+  },
+  {
+   "osmId": 1302507070,
+   "lat": 52.478092,
+   "lon": 13.492145,
+   "kategorie": "shelter"
+  },
+  {
+   "osmId": 12063216000,
+   "lat": 52.477744,
+   "lon": 13.491724,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12063222778,
+   "lat": 52.478089,
+   "lon": 13.492153,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12063222779,
+   "lat": 52.47807,
+   "lon": 13.492092,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 12063216010,
+   "lat": 52.477762,
+   "lon": 13.49211,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 7560416650,
+   "lat": 52.477533,
+   "lon": 13.49121,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Winterlinde": "typisch",
+  "Feldahorn": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Eichhörnchen": "typisch"
+ },
+ "bilder": [
+  {
+   "file": "3ca4b472-a9d2-425d-ab0e-7d06910a75cc",
+   "id": "3ca4b472-a9d2-425d-ab0e-7d06910a75cc",
+   "caption": "Sitzplätze und Spielgeräte auf dem Waldspielplatz Plänterwald (Juli 2024)",
+   "credit": "SupapleX, CC BY 4.0, via Wikimedia Commons",
+   "license": "cc-by-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldspielplatz_Pl%C3%A4nterwald_03.jpg",
+   "kind": "ort"
+  }
+ ]
+}

@@ -1,0 +1,623 @@
+{
+ "id": "erlebnispfad-stadtnatur-volkspark-jungfernheide",
+ "name": "Erlebnispfad Stadtnatur im Volkspark Jungfernheide",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Zehn Holzstelen führen vom Wasserturm mit seinen Turmfalken rund um den Jungfernheideteich. Am Ufer nagt der Biber, im Wasser blüht die Weiße Seerose.",
+ "beschreibung": "Zehn Holzstelen des Künstlers Sebastian Gurski führen als Rundweg durch den denkmalgeschützten Volkspark Jungfernheide, jede mit eigenem Kopfmotiv und QR-Code. Am 38 Meter hohen Wasserturm brüten Turmfalken. Im ehemaligen Wildgehege darf die Natur seit 2013 wachsen, wie sie will. Benjeshecken aus Ästen bieten Igeln und Eidechsen Unterschlupf. Über dem Jungfernheideteich jagen Libellen, von der Seeterrasse aus sind Haubentaucher und Kormorane zu sehen, und am Ufer nagt der Biber. Auf der Insel wachsen Schwarz-Erlen, am Seerosenplatz blüht im Sommer die Weiße Seerose. Wer die Rätsel im Faltplan löst, findet ein Lösungswort.",
+ "laengeKm": 2.3,
+ "dauerMin": 95,
+ "rundkurs": true,
+ "markierung": "Holzstelen mit Kopfmotiv, Stationsnummer und QR-Code",
+ "betreiber": "Bezirksamt Charlottenburg-Wilmersdorf, Straßen- und Grünflächenamt",
+ "region": "Charlottenburg-Nord, Bezirk Charlottenburg-Wilmersdorf, Berlin",
+ "anreise": "Volkspark Jungfernheide, Berlin-Charlottenburg-Nord. Station 1 liegt am Wasserturm (Sommergarten am Wasserturm).",
+ "startName": "Wasserturm im Volkspark Jungfernheide",
+ "arten": [
+  "Stieleiche",
+  "Rotbuche",
+  "Hainbuche",
+  "Robinie",
+  "Schwarzerle",
+  "Weiße Seerose",
+  "Graureiher",
+  "Höckerschwan",
+  "Haubentaucher",
+  "Kormoran",
+  "Stockente",
+  "Blässhuhn",
+  "Biber",
+  "Buntspecht",
+  "Libelle",
+  "Igel"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz",
+  "einkehr",
+  "picknick"
+ ],
+ "lebensraeume": [
+  "teich-tuempel",
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 162,
+ "website": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/strassen-und-gruenflaechen/gruenflaechen/erlebnispfade/artikel.1582893.php",
+ "besuchshinweise": "Den Faltplan gibt es kostenlos unter anderem am Waldhochseilgarten, im Sommergarten am Wasserturm, im Kulturbiergarten, im Strandbad Jungfernheide und als Download. Im Park gilt Leinenpflicht für Hunde, es gibt einen eingezäunten Hundeauslauf. Baden ist nur im Strandbad erlaubt.",
+ "route": [
+  [
+   52.544474,
+   13.290899
+  ],
+  [
+   52.544511,
+   13.290901
+  ],
+  [
+   52.544473,
+   13.291156
+  ],
+  [
+   52.544429,
+   13.291373
+  ],
+  [
+   52.544351,
+   13.291559
+  ],
+  [
+   52.544231,
+   13.291732
+  ],
+  [
+   52.544162,
+   13.291817
+  ],
+  [
+   52.544053,
+   13.291903
+  ],
+  [
+   52.543962,
+   13.291928
+  ],
+  [
+   52.543847,
+   13.291937
+  ],
+  [
+   52.543847,
+   13.292123
+  ],
+  [
+   52.543847,
+   13.291937
+  ],
+  [
+   52.543778,
+   13.291936
+  ],
+  [
+   52.543702,
+   13.291913
+  ],
+  [
+   52.543629,
+   13.291883
+  ],
+  [
+   52.543556,
+   13.291835
+  ],
+  [
+   52.543489,
+   13.29177
+  ],
+  [
+   52.543379,
+   13.291617
+  ],
+  [
+   52.543335,
+   13.291528
+  ],
+  [
+   52.543472,
+   13.29136
+  ],
+  [
+   52.543335,
+   13.291528
+  ],
+  [
+   52.543287,
+   13.291413
+  ],
+  [
+   52.543248,
+   13.291273
+  ],
+  [
+   52.543205,
+   13.29103
+  ],
+  [
+   52.543199,
+   13.290958
+  ],
+  [
+   52.543128,
+   13.290609
+  ],
+  [
+   52.543265,
+   13.290718
+  ],
+  [
+   52.543433,
+   13.290425
+  ],
+  [
+   52.543578,
+   13.290108
+  ],
+  [
+   52.543641,
+   13.289814
+  ],
+  [
+   52.543703,
+   13.289409
+  ],
+  [
+   52.543772,
+   13.288649
+  ],
+  [
+   52.543792,
+   13.288306
+  ],
+  [
+   52.543786,
+   13.287897
+  ],
+  [
+   52.543794,
+   13.287556
+  ],
+  [
+   52.543818,
+   13.287238
+  ],
+  [
+   52.543669,
+   13.28724
+  ],
+  [
+   52.543668,
+   13.287098
+  ],
+  [
+   52.543666,
+   13.286703
+  ],
+  [
+   52.543653,
+   13.286435
+  ],
+  [
+   52.543554,
+   13.285496
+  ],
+  [
+   52.543519,
+   13.285233
+  ],
+  [
+   52.543473,
+   13.284983
+  ],
+  [
+   52.54349,
+   13.284684
+  ],
+  [
+   52.543481,
+   13.284491
+  ],
+  [
+   52.543478,
+   13.284424
+  ],
+  [
+   52.543448,
+   13.284219
+  ],
+  [
+   52.543393,
+   13.284065
+  ],
+  [
+   52.543308,
+   13.283869
+  ],
+  [
+   52.543264,
+   13.283633
+  ],
+  [
+   52.543229,
+   13.283392
+  ],
+  [
+   52.54318,
+   13.283195
+  ],
+  [
+   52.543085,
+   13.283002
+  ],
+  [
+   52.543032,
+   13.282866
+  ],
+  [
+   52.542995,
+   13.282714
+  ],
+  [
+   52.542946,
+   13.282443
+  ],
+  [
+   52.542901,
+   13.282379
+  ],
+  [
+   52.542805,
+   13.282309
+  ],
+  [
+   52.542749,
+   13.282251
+  ],
+  [
+   52.542749,
+   13.28208
+  ],
+  [
+   52.542754,
+   13.279446
+  ],
+  [
+   52.542754,
+   13.279393
+  ],
+  [
+   52.542754,
+   13.279446
+  ],
+  [
+   52.542803,
+   13.279446
+  ],
+  [
+   52.543034,
+   13.279445
+  ],
+  [
+   52.543077,
+   13.279445
+  ],
+  [
+   52.544637,
+   13.279439
+  ],
+  [
+   52.544681,
+   13.279439
+  ],
+  [
+   52.544919,
+   13.279438
+  ],
+  [
+   52.544956,
+   13.279436
+  ],
+  [
+   52.54496,
+   13.282041
+  ],
+  [
+   52.544953,
+   13.282106
+  ],
+  [
+   52.54493,
+   13.282214
+  ],
+  [
+   52.544897,
+   13.282317
+  ],
+  [
+   52.544851,
+   13.282426
+  ],
+  [
+   52.544686,
+   13.282774
+  ],
+  [
+   52.544634,
+   13.282902
+  ],
+  [
+   52.544467,
+   13.283362
+  ],
+  [
+   52.544333,
+   13.283839
+  ],
+  [
+   52.544304,
+   13.283951
+  ],
+  [
+   52.544236,
+   13.284222
+  ],
+  [
+   52.544165,
+   13.284499
+  ],
+  [
+   52.544148,
+   13.284619
+  ],
+  [
+   52.544132,
+   13.284835
+  ],
+  [
+   52.544158,
+   13.285671
+  ],
+  [
+   52.544182,
+   13.286121
+  ],
+  [
+   52.544177,
+   13.286259
+  ],
+  [
+   52.544173,
+   13.286377
+  ],
+  [
+   52.544125,
+   13.286633
+  ],
+  [
+   52.544111,
+   13.286889
+  ],
+  [
+   52.544122,
+   13.28724
+  ],
+  [
+   52.54451,
+   13.28724
+  ],
+  [
+   52.544578,
+   13.287269
+  ],
+  [
+   52.544556,
+   13.28739
+  ],
+  [
+   52.54458,
+   13.290665
+  ],
+  [
+   52.544511,
+   13.290901
+  ],
+  [
+   52.544474,
+   13.290899
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 13299077646,
+   "lat": 52.544475,
+   "lon": 13.290943,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Wasserturm",
+   "thema": "Parkgeschichte",
+   "kurztext": "Der 38 Meter hohe Wasserturm aus Eisenklinker versorgte früher die Gartenanlage mit Wasser, heute brüten an ihm Turmfalken.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13299077647,
+   "lat": 52.543893,
+   "lon": 13.292124,
+   "km": 0.129,
+   "reihenfolge": 2,
+   "titel": "Ehemaliges Wildtiergehege",
+   "thema": "Biotopholz",
+   "kurztext": "Wo früher Damwild und Wildschweine im Gehege lebten, entwickelt sich die Natur seit 2013 frei, und totes Holz bietet vielen Tieren Nahrung.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 69547558,
+   "lat": 52.5434,
+   "lon": 13.2912,
+   "km": 0.226,
+   "reihenfolge": 3,
+   "titel": "Waldhochseilgarten",
+   "thema": "Benjeshecken",
+   "kurztext": "Benjeshecken aus aufgeschichteten Ästen säumen am Waldhochseilgarten die Wege und bieten Vögeln, Igeln, Eidechsen und Insekten Unterschlupf.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1174964332,
+   "lat": 52.543578,
+   "lon": 13.290108,
+   "km": 0.383,
+   "reihenfolge": 4,
+   "titel": "Fledermausareal",
+   "thema": "Fledermäuse",
+   "kurztext": "Fledermäuse orten ihre Beute nachts mit Ultraschall, ihre Kästen haben das Einflugloch an der Unterseite.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13949240920,
+   "lat": 52.543661,
+   "lon": 13.2871,
+   "km": 0.606,
+   "reihenfolge": 5,
+   "titel": "Zentrale Wiese",
+   "thema": "Wiese und Boden",
+   "kurztext": "Seit 2022 hilft Biokohle im Boden der Zentralen Wiese, Wasser zu speichern, und bindet über 70 Tonnen CO₂ dauerhaft.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13851310427,
+   "lat": 52.543471,
+   "lon": 13.284494,
+   "km": 0.785,
+   "reihenfolge": 6,
+   "titel": "Jungfernheideteich",
+   "thema": "Libellen",
+   "kurztext": "Über den Nonnengraben fließt Kanalwasser in den künstlichen Teich, über dem Libellen mit bis zu 50 km/h jagen.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13851310426,
+   "lat": 52.542774,
+   "lon": 13.282081,
+   "km": 0.975,
+   "reihenfolge": 7,
+   "titel": "Seeterrasse",
+   "thema": "Wasservögel und Biber",
+   "kurztext": "Von den denkmalgeschützten Bänken der Seeterrasse sind Graureiher, Höckerschwäne, Haubentaucher und Kormorane zu sehen, am Ufer hinterlässt der Biber Spuren.",
+   "erlebnisse": [
+    "tafel",
+    "bestimmung"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13949240921,
+   "lat": 52.542776,
+   "lon": 13.279394,
+   "km": 1.157,
+   "reihenfolge": 8,
+   "titel": "Insel",
+   "thema": "Bäume am Wasser",
+   "kurztext": "Auf der Insel aus dem Aushub des Teichs wachsen Buchen, Eichen, Ahorn, Birken, Hainbuchen, Robinien und Schwarz-Erlen.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 13299077648,
+   "lat": 52.544926,
+   "lon": 13.282099,
+   "km": 1.586,
+   "reihenfolge": 9,
+   "titel": "Seerosenplatz",
+   "thema": "Weiße Seerose",
+   "kurztext": "Von Mai bis September blüht im Teich die geschützte Weiße Seerose mit bis zu 12 cm großen Blüten.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 125744008,
+   "lat": 52.54439,
+   "lon": 13.28628,
+   "km": 1.89,
+   "reihenfolge": 10,
+   "titel": "Waldspielplatz",
+   "thema": "Spielen unter alten Bäumen",
+   "kurztext": "Unter alten Bäumen steht ein Waldspielplatz aus heimischem Robinienholz für Kinder bis 12 Jahre, daneben liegt ein Festplatz.",
+   "erlebnisse": [
+    "tafel",
+    "quiz"
+   ],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 12701786913,
+   "lat": 52.544615,
+   "lon": 13.28687,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 125744008,
+   "lat": 52.54439,
+   "lon": 13.28628,
+   "kategorie": "playground",
+   "name": "Spielplatz Jungfernheidepark"
+  },
+  {
+   "osmId": 3706912245,
+   "lat": 52.543795,
+   "lon": 13.290875,
+   "kategorie": "gastro",
+   "name": "Sommergarten"
+  }
+ ],
+ "bilder": [
+  {
+   "file": "600d2db7-0c03-4501-b1cc-16ac2c923ee4",
+   "id": "600d2db7-0c03-4501-b1cc-16ac2c923ee4",
+   "caption": "Der Wasserturm im Volkspark Jungfernheide, Station 1 (Aufnahme 2015)",
+   "credit": "Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "cc-by-sa-4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_tower_Jungfernheide_(20150503-DSC04960).jpg",
+   "kind": "ort"
+  }
+ ]
+}

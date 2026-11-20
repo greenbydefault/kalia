@@ -277,21 +277,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildpark_Leipzig_-_Russisches_Teehaus.jpg",
       "kind": "ort"
     }
-  ],
-  "artenNachweis": {
-    "Gemeine Esche": "typisch",
-    "Schwarzerle": "typisch",
-    "Stieleiche": "typisch",
-    "Eisvogel": "typisch",
-    "Amsel": "typisch",
-    "Blaumeise": "typisch",
-    "Buchfink": "typisch",
-    "Grasfrosch": "typisch",
-    "Schwarzer Holunder": "typisch",
-    "Rotkehlchen": "typisch",
-    "Salweide": "typisch",
-    "Schlehe": "typisch",
-    "Stockente": "typisch",
-    "Kuckuck": "typisch"
-  }
+  ]
 }

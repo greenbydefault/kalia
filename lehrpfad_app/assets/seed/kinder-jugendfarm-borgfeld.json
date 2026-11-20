@@ -1,0 +1,218 @@
+{
+ "id": "kinder-jugendfarm-borgfeld",
+ "name": "Kinder- und Jugendfarm Borgfeld",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Am Lehester Deich leben Kaninchen, Hühner, Gänse, Schafe, Ziegen, Esel und Ponys. Auf der Streuobstwiese stehen die Bienen mehrerer Imker.",
+ "beschreibung": "Das Gelände der Kinder- und Jugendfarm Borgfeld steht immer offen, und die Tiere kommen meist neugierig an den Zaun. Hühner und Gänse, Schafe, Ziegen und Kaninchen haben eigene Gehege, Esel und Ponys stehen auf der Weide am Reitplatz. Auf der weitläufigen Streuobstwiese halten mehrere Imkerinnen und Imker ihre Bienen. In einem großen Beet bauen Kinder und Jugendliche gemeinsam Gemüse an und verfolgen den Anbau durch das Jahr. Kitas und Schulklassen pflanzen hier Bäume oder helfen beim Imkern. Wer regelmäßig kommt, übernimmt Verantwortung für einzelne Tiere.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Hans-Wendt-Stiftung",
+ "region": "Lehesterdeich, Horn-Lehe (Grenze Borgfeld), Bremen",
+ "anreise": "Navi: Am Lehester Deich 17–21, 28357 Bremen. Parkplatz am Kinderhaus Am Lehester Deich, rund 170 m bis zu den Gehegen.",
+ "startName": "Kinder- und Jugendfarm Borgfeld, Hofgelände",
+ "arten": [
+  "Schaf",
+  "Ziege",
+  "Haushuhn",
+  "Hauskaninchen",
+  "Honigbiene",
+  "Kultur-Apfel",
+  "Schwarzer Holunder",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen",
+  "Kohlmeise",
+  "Grünspecht"
+ ],
+ "tags": [
+  "kinderfreundlich"
+ ],
+ "lebensraeume": [
+  "hof-nutztier",
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 74,
+ "form": "flaeche",
+ "website": "https://farm.hans-wendt-stiftung.de/",
+ "eintrittPreise": "kostenlos; Tier- oder Baumpatenschaften ab 5 € im Monat (freiwillig)",
+ "oeffnungszeiten": "Gelände immer geöffnet; Büro Mo–Fr 9:30–18 Uhr",
+ "besuchshinweise": "An fünf Nachmittagen in der Woche läuft offene Jugendarbeit, bei der alle Kinder und Jugendlichen mitmachen können. Feste Kindergruppen treffen sich zu Umwelt, Natur und Tieren.",
+ "area": [
+  [
+   53.11033,
+   8.904524
+  ],
+  [
+   53.110448,
+   8.9044
+  ],
+  [
+   53.110422,
+   8.904298
+  ],
+  [
+   53.11053,
+   8.904202
+  ],
+  [
+   53.110452,
+   8.904018
+  ],
+  [
+   53.110661,
+   8.903789
+  ],
+  [
+   53.110716,
+   8.903867
+  ],
+  [
+   53.110906,
+   8.904137
+  ],
+  [
+   53.111766,
+   8.905344
+  ],
+  [
+   53.111539,
+   8.905699
+  ],
+  [
+   53.111457,
+   8.905885
+  ],
+  [
+   53.11129,
+   8.905997
+  ],
+  [
+   53.111172,
+   8.905774
+  ],
+  [
+   53.11104,
+   8.905564
+  ],
+  [
+   53.110683,
+   8.904996
+  ],
+  [
+   53.110679,
+   8.904989
+  ],
+  [
+   53.110515,
+   8.904744
+  ],
+  [
+   53.11033,
+   8.904524
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": 496113621,
+   "lat": 53.111078,
+   "lon": 8.905162,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Hühner und Gänse",
+   "thema": "Geflügel",
+   "kurztext": "Hühner und Gänse teilen sich ein Gehege, für ein Huhn lässt sich eine Patenschaft übernehmen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7283982,
+   "lat": 53.111114,
+   "lon": 8.904899,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Ziegen",
+   "thema": "Hoftiere",
+   "kurztext": "Neugierig kommen die Ziegen meist an den Zaun und lassen sich streicheln.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 7283981,
+   "lat": 53.110831,
+   "lon": 8.904581,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Schafe",
+   "thema": "Große Tiere",
+   "kurztext": "Schafe gehören zu den großen Tieren, denen sich viele Stadtkinder hier zum ersten Mal vorsichtig nähern.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 496113628,
+   "lat": 53.110769,
+   "lon": 8.904128,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Gartenbeet",
+   "thema": "Gemüse durch das Jahr",
+   "kurztext": "Ein großes Beet wird von Kindern und Jugendlichen gemeinsam beackert, vom Säen bis zur Ernte.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 496113625,
+   "lat": 53.110566,
+   "lon": 8.903945,
+   "km": 0,
+   "reihenfolge": 5,
+   "titel": "Kaninchen",
+   "thema": "Kleintiere",
+   "kurztext": "Artgerechte Haltung und Pflege von Kleintieren lernen Kinder am Kaninchengehege.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 496113620,
+   "lat": 53.112647,
+   "lon": 8.908483,
+   "km": 0,
+   "reihenfolge": 6,
+   "titel": "Ponys und Esel",
+   "thema": "Weide am Reitplatz",
+   "kurztext": "Ponys und Esel stehen auf der Weide neben dem Reitplatz, auf dem Kinder das Reiten lernen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 266958191,
+   "lat": 53.110001,
+   "lon": 8.902762,
+   "kategorie": "parking",
+   "name": "Parkplatz Kinderhaus Am Lehester Deich"
+  }
+ ],
+ "artenNachweis": {
+  "Schaf": "belegt",
+  "Ziege": "belegt",
+  "Haushuhn": "belegt",
+  "Hauskaninchen": "belegt",
+  "Honigbiene": "belegt",
+  "Kultur-Apfel": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Kohlmeise": "typisch",
+  "Grünspecht": "typisch"
+ }
+}
