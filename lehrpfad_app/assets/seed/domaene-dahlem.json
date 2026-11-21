@@ -18,15 +18,17 @@
   "Haushuhn",
   "Honigbiene",
   "Kultur-Apfel",
+  "Pferd",
+  "Hausschwein",
+  "Hausrind",
+  "Hausente",
+  "Konik",
   "Löwenzahn",
   "Gänseblümchen",
   "Rotklee",
   "Schwarzer Holunder",
   "Eingriffeliger Weißdorn",
-  "Amsel",
-  "Rotkehlchen",
-  "Kohlmeise",
-  "Grünspecht"
+  "Amsel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -41,7 +43,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 60,
+ "dataVersion": 92,
  "form": "flaeche",
  "website": "https://www.domaene-dahlem.de/",
  "eintrittPreise": "Gelände frei (Spende erbeten); Museen: 5 €, ermäßigt 3 €, Schüler, Studierende und Auszubildende frei; Veranstaltungen 4,50 €, ermäßigt 2 €, Kinder unter 12 frei.",
@@ -339,15 +341,17 @@
   "Haushuhn": "belegt",
   "Honigbiene": "belegt",
   "Kultur-Apfel": "belegt",
+  "Pferd": "belegt",
+  "Hausschwein": "belegt",
+  "Hausrind": "belegt",
+  "Hausente": "belegt",
+  "Konik": "belegt",
   "Löwenzahn": "typisch",
   "Gänseblümchen": "typisch",
   "Rotklee": "typisch",
   "Schwarzer Holunder": "typisch",
   "Eingriffeliger Weißdorn": "typisch",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
-  "Kohlmeise": "typisch",
-  "Grünspecht": "typisch"
+  "Amsel": "typisch"
  },
  "bilder": [
   {

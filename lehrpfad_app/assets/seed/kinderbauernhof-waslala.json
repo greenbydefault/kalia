@@ -18,11 +18,14 @@
   "Hauskaninchen",
   "Honigbiene",
   "Zauneidechse",
-  "Amsel",
-  "Rotkehlchen",
+  "Pferd",
+  "Hausschwein",
+  "Goldfisch",
   "Gänseblümchen",
   "Löwenzahn",
-  "Rotklee"
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -32,7 +35,7 @@
   "hof-nutztier"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 30,
+ "dataVersion": 55,
  "form": "flaeche",
  "website": "https://www.aspwaslala.de/home",
  "eintrittPreise": "kostenlos",
@@ -138,10 +141,13 @@
   "Hauskaninchen": "belegt",
   "Honigbiene": "belegt",
   "Zauneidechse": "belegt",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
+  "Pferd": "belegt",
+  "Hausschwein": "belegt",
+  "Goldfisch": "belegt",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
-  "Rotklee": "typisch"
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
  }
 }

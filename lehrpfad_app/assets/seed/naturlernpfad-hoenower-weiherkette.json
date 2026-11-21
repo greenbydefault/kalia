@@ -14,6 +14,8 @@
  "startName": "U-Bahnhof Hönow, Eingang",
  "arten": [
   "Kultur-Apfel",
+  "Hausrind",
+  "Schaf",
   "Schilf",
   "Eingriffeliger Weißdorn",
   "Heckenrose",
@@ -37,7 +39,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 44,
+ "dataVersion": 74,
  "website": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1439678.php",
  "besuchshinweise": "Benjeshecken und Geländer begrenzen die Wege, dahinter bleiben Weiher und Wiesen ungestört.",
  "route": [
@@ -570,6 +572,8 @@
  ],
  "artenNachweis": {
   "Kultur-Apfel": "belegt",
+  "Hausrind": "belegt",
+  "Schaf": "belegt",
   "Schilf": "typisch",
   "Eingriffeliger Weißdorn": "typisch",
   "Heckenrose": "typisch",

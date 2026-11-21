@@ -23,12 +23,12 @@
   "Vogelkirsche",
   "Europäische Lärche",
   "Winterlinde",
-  "Eichhörnchen",
-  "Kohlmeise",
-  "Buntspecht",
-  "Kleiber",
-  "Rotkehlchen",
-  "Buchfink"
+  "Gewöhnliche Rosskastanie",
+  "Eibe",
+  "Sommer-Linde",
+  "Berg-Ulme",
+  "Schwarz-Pappel",
+  "Silber-Weide"
  ],
  "tags": [
   "spielplatz",
@@ -39,7 +39,7 @@
   "eichen-mischwald"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 242,
+ "dataVersion": 276,
  "form": "flaeche",
  "website": "https://www.volkspark-hasenheide.de/baumlehrpfad/",
  "oeffnungszeiten": "täglich rund um die Uhr zugänglich",
@@ -1058,24 +1058,6 @@
    "kategorie": "shelter"
   }
  ],
- "artenNachweis": {
-  "Stieleiche": "belegt",
-  "Traubeneiche": "belegt",
-  "Rotbuche": "belegt",
-  "Hainbuche": "belegt",
-  "Hängebirke": "belegt",
-  "Kiefer": "belegt",
-  "Eberesche": "belegt",
-  "Vogelkirsche": "belegt",
-  "Europäische Lärche": "belegt",
-  "Winterlinde": "belegt",
-  "Eichhörnchen": "typisch",
-  "Kohlmeise": "typisch",
-  "Buntspecht": "typisch",
-  "Kleiber": "typisch",
-  "Rotkehlchen": "typisch",
-  "Buchfink": "typisch"
- },
  "bilder": [
   {
    "file": "5fabf662-d06d-41ca-b617-d87d64228499",

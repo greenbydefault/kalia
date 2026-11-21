@@ -19,11 +19,16 @@
   "Hauskaninchen",
   "Honigbiene",
   "Kultur-Apfel",
-  "Amsel",
-  "Rotkehlchen",
+  "Pferd",
+  "Esel",
+  "Hausschwein",
+  "Hausente",
+  "Meerschweinchen",
   "Gänseblümchen",
   "Löwenzahn",
-  "Rotklee"
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -34,7 +39,7 @@
   "hof-nutztier"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 31,
+ "dataVersion": 60,
  "form": "flaeche",
  "website": "https://jugendfarm-bremen.de/",
  "eintrittPreise": "Besuch kostenlos; Gruppenbesuche und Feiern kostenpflichtig nach Anmeldung",
@@ -156,10 +161,15 @@
   "Hauskaninchen": "belegt",
   "Honigbiene": "belegt",
   "Kultur-Apfel": "belegt",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
+  "Pferd": "belegt",
+  "Esel": "belegt",
+  "Hausschwein": "belegt",
+  "Hausente": "belegt",
+  "Meerschweinchen": "belegt",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
-  "Rotklee": "typisch"
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
  }
 }

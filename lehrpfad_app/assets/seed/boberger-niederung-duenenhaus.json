@@ -19,13 +19,16 @@
   "Grünspecht",
   "Eisvogel",
   "Waldkauz",
-  "Zauneidechse",
   "Strandhafer",
   "Knabenkraut",
-  "Hängebirke",
-  "Besenheide",
-  "Kiefer",
-  "Silbergras"
+  "Waldohreule",
+  "Wachtelkönig",
+  "Kreuzkröte",
+  "Ameisenlöwe",
+  "Sechsfleck-Widderchen",
+  "Grünwidderchen",
+  "Golddistel",
+  "Mücken-Händelwurz"
  ],
  "tags": [
   "kinderfreundlich",
@@ -36,7 +39,7 @@
   "moor"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 104,
+ "dataVersion": 135,
  "form": "flaeche",
  "website": "https://loki-schmidt-stiftung.de/boberg",
  "eintrittPreise": "kostenlos",
@@ -563,21 +566,6 @@
    "name": "Dorfkrug Boberg"
   }
  ],
- "artenNachweis": {
-  "Warzenbeißer": "belegt",
-  "Blauflügelige Ödlandschrecke": "belegt",
-  "Moorfrosch": "belegt",
-  "Grünspecht": "belegt",
-  "Eisvogel": "belegt",
-  "Waldkauz": "belegt",
-  "Zauneidechse": "typisch",
-  "Strandhafer": "belegt",
-  "Knabenkraut": "belegt",
-  "Hängebirke": "typisch",
-  "Besenheide": "typisch",
-  "Kiefer": "typisch",
-  "Silbergras": "typisch"
- },
  "bilder": [
   {
    "file": "3cb2aa48-e5d2-424b-b50e-188905dc519b",

@@ -21,12 +21,14 @@
   "Graureiher",
   "Kormoran",
   "Seeadler",
-  "Salweide",
-  "Schwarzer Holunder",
-  "Stockente",
-  "Biber",
-  "Grasfrosch",
-  "Libelle"
+  "Rauhautfledermaus",
+  "Beutelmeise",
+  "Blaukehlchen",
+  "Nachtigall",
+  "Drosselrohrsänger",
+  "Rohrammer",
+  "Finte",
+  "Seefrosch"
  ],
  "tags": [
   "kinderfreundlich",
@@ -37,7 +39,7 @@
   "fliessgewaesser"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 89,
+ "dataVersion": 121,
  "website": "https://goep.hamburg/",
  "oeffnungszeiten": "Fußweg frei zugänglich. Ausstellung: Sommerzeit Sa, So und feiertags 11–18 Uhr, Winterzeit So 11–17 Uhr, im Dezember geschlossen. Gruppen nach Anmeldung auch unter der Woche.",
  "besuchshinweise": "Bei Sturm und hoch auflaufendem Hochwasser Vorland und Heuckenlock nicht betreten. Die Ausstellung öffnet nur am Wochenende, im Dezember bleibt sie zu. Gruppen melden Führungen vorher an.",
@@ -207,21 +209,5 @@
    "lon": 10.067125,
    "kategorie": "bench"
   }
- ],
- "artenNachweis": {
-  "Schilf": "belegt",
-  "Stieleiche": "belegt",
-  "Gemeine Esche": "belegt",
-  "Schwarzerle": "belegt",
-  "Eisvogel": "belegt",
-  "Graureiher": "belegt",
-  "Kormoran": "belegt",
-  "Seeadler": "belegt",
-  "Salweide": "typisch",
-  "Schwarzer Holunder": "typisch",
-  "Stockente": "typisch",
-  "Biber": "typisch",
-  "Grasfrosch": "typisch",
-  "Libelle": "typisch"
- }
+ ]
 }

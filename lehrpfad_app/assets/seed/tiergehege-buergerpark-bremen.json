@@ -17,16 +17,18 @@
   "Ziege",
   "Schaf",
   "Haushuhn",
-  "Stockente",
-  "Blässhuhn",
-  "Graureiher",
-  "Höckerschwan",
-  "Amsel",
-  "Rotkehlchen",
-  "Schilf",
-  "Gänseblümchen",
-  "Löwenzahn",
-  "Rotklee"
+  "Pferd",
+  "Esel",
+  "Hausschwein",
+  "Hausrind",
+  "Hausgans",
+  "Blauer Pfau",
+  "Mandarinente",
+  "Brautente",
+  "Bahamaente",
+  "Meerschweinchen",
+  "Alpaka",
+  "Mufflon"
  ],
  "tags": [
   "kinderfreundlich",
@@ -37,7 +39,7 @@
   "teich-tuempel"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 49,
+ "dataVersion": 81,
  "form": "flaeche",
  "website": "https://www.buergerpark-bremen.de/erleben/Tiergehege.php",
  "eintrittPreise": "kostenlos; Futter- und Dauerspenden erbeten",
@@ -358,22 +360,6 @@
    "kategorie": "bench"
   }
  ],
- "artenNachweis": {
-  "Damhirsch": "belegt",
-  "Ziege": "belegt",
-  "Schaf": "belegt",
-  "Haushuhn": "belegt",
-  "Stockente": "typisch",
-  "Blässhuhn": "typisch",
-  "Graureiher": "typisch",
-  "Höckerschwan": "typisch",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
-  "Schilf": "typisch",
-  "Gänseblümchen": "typisch",
-  "Löwenzahn": "typisch",
-  "Rotklee": "typisch"
- },
  "bilder": [
   {
    "file": "63027f31-6004-4727-a5f8-55c493fc4365",

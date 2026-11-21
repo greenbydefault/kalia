@@ -17,13 +17,15 @@
   "Ziege",
   "Hauskaninchen",
   "Haushuhn",
-  "Amsel",
-  "Rotkehlchen",
-  "Honigbiene",
+  "Hausgans",
+  "Hauskatze",
   "Gänseblümchen",
   "Löwenzahn",
   "Rotklee",
   "Schwarzerle",
+  "Amsel",
+  "Rotkehlchen",
+  "Honigbiene",
   "Stockente"
  ],
  "tags": [
@@ -35,7 +37,7 @@
   "fliessgewaesser"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 60,
+ "dataVersion": 88,
  "form": "flaeche",
  "website": "https://stadtteilfarm.fokus-bremen.de/",
  "oeffnungszeiten": "Mo, Di, Mi und Fr 13–17 Uhr, Do geschlossen; vormittags schulbezogene Nutzung; in den Ferien abweichende Zeiten (Website „Aktuelles“)",
@@ -135,13 +137,15 @@
   "Ziege": "belegt",
   "Hauskaninchen": "belegt",
   "Haushuhn": "belegt",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
-  "Honigbiene": "typisch",
+  "Hausgans": "belegt",
+  "Hauskatze": "belegt",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
   "Rotklee": "typisch",
   "Schwarzerle": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Honigbiene": "typisch",
   "Stockente": "typisch"
  }
 }

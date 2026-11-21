@@ -17,6 +17,7 @@
   "Wildschwein",
   "Damhirsch",
   "Rothirsch",
+  "Mufflon",
   "Stieleiche",
   "Hainbuche",
   "Hängebirke",
@@ -37,7 +38,7 @@
   "fliessgewaesser"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 113,
+ "dataVersion": 144,
  "besuchshinweise": "Die Wildgehege sind frei zugänglich. Baumstämme am Zaun helfen kleinen Kindern beim Blick in die Gehege. Die Tiere nicht füttern, wenn es nicht ausdrücklich erlaubt ist.",
  "route": [
   [
@@ -293,6 +294,7 @@
   "Wildschwein": "belegt",
   "Damhirsch": "belegt",
   "Rothirsch": "belegt",
+  "Mufflon": "belegt",
   "Stieleiche": "typisch",
   "Hainbuche": "typisch",
   "Hängebirke": "typisch",

@@ -28,7 +28,7 @@
   "Feldhase",
   "Rotfuchs",
   "Reh",
-  "Teichfrosch"
+  "Hermelin"
  ],
  "tags": [
   "kinderfreundlich",
@@ -40,7 +40,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 153,
+ "dataVersion": 187,
  "form": "flaeche",
  "website": "https://wasserkunst-hamburg.de/wasserkunst-kaltehofe/naturpark/",
  "eintrittPreise": "kostenlos",
@@ -394,24 +394,6 @@
    "kategorie": "bench"
   }
  ],
- "artenNachweis": {
-  "Hängebirke": "belegt",
-  "Stieleiche": "belegt",
-  "Salweide": "belegt",
-  "Schwarzer Holunder": "belegt",
-  "Schilf": "belegt",
-  "Kormoran": "belegt",
-  "Graugans": "belegt",
-  "Graureiher": "belegt",
-  "Ringelnatter": "belegt",
-  "Honigbiene": "belegt",
-  "Wildbiene": "belegt",
-  "Eichhörnchen": "belegt",
-  "Feldhase": "belegt",
-  "Rotfuchs": "belegt",
-  "Reh": "belegt",
-  "Teichfrosch": "typisch"
- },
  "bilder": [
   {
    "file": "c221aabf-a63c-4c45-84af-e4d8fcefea63",

@@ -20,12 +20,15 @@
   "Heckenrose",
   "Sanddorn",
   "Gewöhnlicher Schneeball",
-  "Schwarzer Holunder",
+  "Kultur-Apfel",
+  "Gewöhnliche Berberitze",
+  "Kupfer-Felsenbirne",
+  "Himbeere",
+  "Rote Johannisbeere",
+  "Stachelbeere",
+  "Sand-Thymian",
   "Hummel",
-  "Kohlmeise",
-  "Amsel",
-  "Blaumeise",
-  "Siebenpunkt-Marienkäfer"
+  "Kohlmeise"
  ],
  "tags": [
   "kinderfreundlich",
@@ -37,7 +40,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 64,
+ "dataVersion": 95,
  "form": "flaeche",
  "website": "https://www.jubelt.de/schnippelgirls/naturlehrpfad.html",
  "eintrittPreise": "kostenlos",
@@ -210,12 +213,15 @@
   "Heckenrose": "belegt",
   "Sanddorn": "belegt",
   "Gewöhnlicher Schneeball": "belegt",
-  "Schwarzer Holunder": "typisch",
+  "Kultur-Apfel": "belegt",
+  "Gewöhnliche Berberitze": "belegt",
+  "Kupfer-Felsenbirne": "belegt",
+  "Himbeere": "belegt",
+  "Rote Johannisbeere": "belegt",
+  "Stachelbeere": "belegt",
+  "Sand-Thymian": "belegt",
   "Hummel": "typisch",
-  "Kohlmeise": "typisch",
-  "Amsel": "typisch",
-  "Blaumeise": "typisch",
-  "Siebenpunkt-Marienkäfer": "typisch"
+  "Kohlmeise": "typisch"
  },
  "bilder": [
   {

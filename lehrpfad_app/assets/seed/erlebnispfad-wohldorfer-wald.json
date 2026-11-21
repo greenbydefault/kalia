@@ -23,10 +23,12 @@
   "Eisvogel",
   "Fischotter",
   "Rotkehlchen",
-  "Buschwindröschen",
-  "Buchfink",
-  "Kleiber",
-  "Buntspecht"
+  "Waldlaubsänger",
+  "Gartenbaumläufer",
+  "Hohltaube",
+  "Misteldrossel",
+  "Waldschnepfe",
+  "Hohe Schlüsselblume"
  ],
  "tags": [
   "kinderfreundlich",
@@ -38,7 +40,7 @@
   "auwald"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 114,
+ "dataVersion": 146,
  "form": "flaeche",
  "website": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/naturschutzgebiete/nsg-wohldorfer-wald-173470",
  "oeffnungszeiten": "Ganzjährig zugänglich.",
@@ -1840,22 +1842,6 @@
    "kategorie": "parking"
   }
  ],
- "artenNachweis": {
-  "Rotbuche": "belegt",
-  "Stieleiche": "belegt",
-  "Gemeine Esche": "belegt",
-  "Schwarzerle": "belegt",
-  "Waldmeister": "belegt",
-  "Mittelspecht": "belegt",
-  "Schwarzspecht": "belegt",
-  "Eisvogel": "belegt",
-  "Fischotter": "belegt",
-  "Rotkehlchen": "belegt",
-  "Buschwindröschen": "typisch",
-  "Buchfink": "typisch",
-  "Kleiber": "typisch",
-  "Buntspecht": "typisch"
- },
  "bilder": [
   {
    "file": "09aae166-c2e2-4ff0-a511-0ff549404e0c",

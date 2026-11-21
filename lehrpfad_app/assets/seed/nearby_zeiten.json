@@ -1182,7 +1182,36 @@
   "hullerbusch": [],
   "jagdhistorische-pirsch-kranichstein": [],
   "jamnoer-urwald": [],
-  "jugend-kinderfarm-bremerhaven": [],
+  "jugend-kinderfarm-bremerhaven": [
+    {
+      "poi": "campingplatz-spadener-see",
+      "sek": 486
+    },
+    {
+      "poi": "havencamp",
+      "sek": 562
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 631
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 704
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 763
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 789
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 850
+    }
+  ],
   "jugendfarm-moritzhof": [
     {
       "poi": "machmit-museum-fuer-kinder",
@@ -2155,7 +2184,40 @@
     }
   ],
   "naturerlebnispfad-wallnau": [],
-  "naturerlebnispfad-wilder-gruener-westen": [],
+  "naturerlebnispfad-wilder-gruener-westen": [
+    {
+      "poi": "eis-molin-groepelingen",
+      "sek": 681
+    },
+    {
+      "poi": "westbad",
+      "sek": 773
+    },
+    {
+      "poi": "schwarzlichthof",
+      "sek": 839
+    },
+    {
+      "poi": "hafenmuseum-speicher-xi",
+      "sek": 907
+    },
+    {
+      "poi": "uebersee-museum",
+      "sek": 1067
+    },
+    {
+      "poi": "minigolf-buergerpark",
+      "sek": 1149
+    },
+    {
+      "poi": "emma-am-see",
+      "sek": 1163
+    },
+    {
+      "poi": "emmas-eiscafe",
+      "sek": 1165
+    }
+  ],
   "naturerlebnispfad-wisentwald-muenster": [],
   "naturerlebnisraum-burg-waldmuseum": [
     {
@@ -2171,11 +2233,11 @@
       "sek": 173
     },
     {
-      "poi": "hofladen-gottschalk",
+      "poi": "waldschwimmbad-burg",
       "sek": 227
     },
     {
-      "poi": "waldschwimmbad-burg",
+      "poi": "hofladen-gottschalk",
       "sek": 227
     },
     {
@@ -2701,8 +2763,66 @@
   ],
   "naturspielort-tromm": [],
   "naturspielplatz-hessenschanze": [],
-  "naturspielplatz-kaethe-kollwitz-strasse": [],
-  "naturspielplatz-reinkenheider-forst": [],
+  "naturspielplatz-kaethe-kollwitz-strasse": [
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 144
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 382
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 432
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 467
+    },
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 487
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 883
+    },
+    {
+      "poi": "klimahaus-bremerhaven",
+      "sek": 950
+    },
+    {
+      "poi": "zoo-am-meer",
+      "sek": 1022
+    }
+  ],
+  "naturspielplatz-reinkenheider-forst": [
+    {
+      "poi": "freibad-gruenhoefe",
+      "sek": 535
+    },
+    {
+      "poi": "gelateria-amalfi-geestemuende",
+      "sek": 630
+    },
+    {
+      "poi": "weser-strandbad",
+      "sek": 717
+    },
+    {
+      "poi": "eiscafe-cortina",
+      "sek": 766
+    },
+    {
+      "poi": "deutsches-schifffahrtsmuseum",
+      "sek": 802
+    },
+    {
+      "poi": "hofladen-duenenfaehr",
+      "sek": 932
+    }
+  ],
   "naturspielplatz-wildgehege-kloevensteen": [
     {
       "poi": "haidehof",

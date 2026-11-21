@@ -16,11 +16,14 @@
   "Ziege",
   "Schaf",
   "Haushuhn",
-  "Amsel",
-  "Rotkehlchen",
+  "Pferd",
+  "Hausgans",
+  "Hausente",
   "Gänseblümchen",
   "Löwenzahn",
   "Rotklee",
+  "Amsel",
+  "Rotkehlchen",
   "Honigbiene"
  ],
  "tags": [
@@ -30,7 +33,7 @@
   "hof-nutztier"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 79,
+ "dataVersion": 102,
  "form": "flaeche",
  "website": "https://www.kinderbunter-bauernhof.de/",
  "oeffnungszeiten": "Kinder 6–14 Jahre: Di–Fr 13–18 Uhr, Sa/So 10–18 Uhr, in den Ferien auch wochentags ab 10 Uhr; Eltern mit Kindern unter 6 Jahren Di–Do 13–17 Uhr; Mo Ruhetag. Während der Bauarbeiten bei Ausflügen an Wochenenden und in den Ferien geschlossen.",
@@ -145,11 +148,14 @@
   "Ziege": "belegt",
   "Schaf": "belegt",
   "Haushuhn": "belegt",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
+  "Pferd": "belegt",
+  "Hausgans": "belegt",
+  "Hausente": "belegt",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
   "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
   "Honigbiene": "typisch"
  }
 }

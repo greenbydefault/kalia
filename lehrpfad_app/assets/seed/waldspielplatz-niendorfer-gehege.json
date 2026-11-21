@@ -16,7 +16,6 @@
   "Rotbuche",
   "Buschwindröschen",
   "Maiglöckchen",
-  "Stieleiche",
   "Reh",
   "Rotfuchs",
   "Buchfink",
@@ -25,7 +24,11 @@
   "Buntspecht",
   "Grünspecht",
   "Waldkauz",
-  "Erdkröte"
+  "Erdkröte",
+  "Mauswiesel",
+  "Habicht",
+  "Gartenbaumläufer",
+  "Goldnessel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -36,7 +39,7 @@
   "buchenwald"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 99,
+ "dataVersion": 130,
  "form": "flaeche",
  "website": "https://www.pro-niendorfer-gehege.de/gehege-a-z/spielplaetze/",
  "eintrittPreise": "kostenlos",
@@ -191,21 +194,6 @@
    "kategorie": "parking"
   }
  ],
- "artenNachweis": {
-  "Rotbuche": "belegt",
-  "Buschwindröschen": "belegt",
-  "Maiglöckchen": "belegt",
-  "Stieleiche": "typisch",
-  "Reh": "belegt",
-  "Rotfuchs": "belegt",
-  "Buchfink": "belegt",
-  "Singdrossel": "belegt",
-  "Kleiber": "belegt",
-  "Buntspecht": "belegt",
-  "Grünspecht": "belegt",
-  "Waldkauz": "belegt",
-  "Erdkröte": "belegt"
- },
  "bilder": [
   {
    "file": "340673ca-07b6-489b-9193-51d375f797e8",

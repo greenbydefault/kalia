@@ -22,7 +22,13 @@
   "Hängebirke",
   "Salweide",
   "Stechpalme",
-  "Robinie"
+  "Robinie",
+  "Amerikanische Rot-Eiche",
+  "Gewöhnliche Rosskastanie",
+  "Schwarzkiefer",
+  "Silber-Ahorn",
+  "Walnuss",
+  "Baum-Hasel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -31,7 +37,7 @@
  ],
  "lebensraeume": [],
  "naturraum": "norddt-tiefland",
- "dataVersion": 71,
+ "dataVersion": 99,
  "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/sauerstoffpfad-gruenhoefe.113431.html",
  "eintrittPreise": "kostenfrei",
  "besuchshinweise": "Der Pfad verläuft durch die Höfe einer Wohnsiedlung. Ausgangspunkt ist der Spielplatz Kapitänsinsel an der Boschstraße. Hunde sind erlaubt.",

@@ -1,0 +1,138 @@
+{
+ "id": "naturerlebnispfad-wilder-gruener-westen",
+ "name": "Natur-Erlebnisweg „Wilder Grüner Westen“",
+ "typ": "naturerlebnis",
+ "kurzbeschreibung": "Naturweg durch die Kleingärten im Grünen Bremer Westen. Am Weg wird geklettert, balanciert, gewippt und barfuß gelaufen.",
+ "beschreibung": "Im Naherholungspark Grüner Bremer Westen bei Gröpelingen führt seit März 2025 der Natur-Erlebnisweg „Wilder Grüner Westen“ durch die Kleingärten. Infotafeln erklären Fische in den Fleeten, giftige gebietsfremde Pflanzen am Wegrand, Insekten, Säugetiere und Gartenvögel. Am Eingangsbogen wird geklettert, auf dem Entdeckerpfad balanciert und im Vogelnest gewippt. Ein Barfußpfad und eine erhöhte Plattform mit Blick ins Blockland kommen dazu. Am Bienenfutterautomaten gibt es Wildblumensamen für Wildbienen. Am Maschinenfleet liegt ein Spielboot mit Mast und Segel.",
+ "laengeKm": 1.2,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Senatorin für Umwelt, Klima und Wissenschaft / Senatorin für Bau, Mobilität und Stadtentwicklung (Freie Hansestadt Bremen)",
+ "region": "Grüner Bremer Westen, Gröpelingen, Bremen",
+ "anreise": "Am besten mit dem Fahrrad; Parkmöglichkeiten am Cornusweg (28237 Bremen-Gröpelingen).",
+ "startName": "Eingangsbogen am Cornusweg",
+ "arten": [
+  "Kultur-Apfel",
+  "Wildbiene",
+  "Ringelnatter",
+  "Vogelkirsche",
+  "Schwarzer Holunder",
+  "Heckenrose",
+  "Eingriffeliger Weißdorn",
+  "Kohlmeise",
+  "Blaumeise",
+  "Amsel",
+  "Rotkehlchen",
+  "Stockente",
+  "Graureiher",
+  "Libelle"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "barfusspfad",
+  "picknick",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke",
+  "fliessgewaesser"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 93,
+ "website": "https://www.gruenerbremerwesten.de/aktuelles-1459",
+ "besuchshinweise": "Teil des 5 km langen Rundwegs In den Wischen. Obst der Obstbaumallee mit Kirschen, Äpfeln und Quitten darf gepflückt werden, sobald es reif ist.",
+ "stationen": [
+  {
+   "osmId": -298083547,
+   "lat": 53.133106,
+   "lon": 8.77005,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Eingangsbogen",
+   "thema": "Klettern",
+   "kurztext": "Der Eingangsbogen am Cornusweg ist zum Klettern gebaut.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 1333558985,
+   "lat": 53.131566,
+   "lon": 8.771924,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Entdeckerpfad",
+   "thema": "Balancieren",
+   "kurztext": "Hintereinander gereihte Elemente zum Balancieren bilden den Entdeckerpfad.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": 12116494730,
+   "lat": 53.1328512,
+   "lon": 8.773444,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Vogelnest",
+   "thema": "Wippen",
+   "kurztext": "Im runden Vogelnest wippen mehrere Kinder gleichzeitig.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1638830164,
+   "lat": 53.134178,
+   "lon": 8.772737,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Spielboot am Maschinenfleet",
+   "thema": "Wasser",
+   "kurztext": "Am Ufer des Maschinenfleets liegt ein Spielboot mit Mast und Segel.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 300995991,
+   "lat": 53.132816,
+   "lon": 8.769556,
+   "kategorie": "parking",
+   "name": "Parkplatz Cornusweg"
+  },
+  {
+   "osmId": 13791774602,
+   "lat": 53.1342118,
+   "lon": 8.7727654,
+   "kategorie": "picnic"
+  },
+  {
+   "osmId": 13791774601,
+   "lat": 53.1342391,
+   "lon": 8.7726997,
+   "kategorie": "bench"
+  },
+  {
+   "osmId": 1333558986,
+   "lat": 53.131564,
+   "lon": 8.77193,
+   "kategorie": "playground"
+  }
+ ],
+ "artenNachweis": {
+  "Kultur-Apfel": "belegt",
+  "Wildbiene": "belegt",
+  "Ringelnatter": "belegt",
+  "Vogelkirsche": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Heckenrose": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Stockente": "typisch",
+  "Graureiher": "typisch",
+  "Libelle": "typisch"
+ }
+}

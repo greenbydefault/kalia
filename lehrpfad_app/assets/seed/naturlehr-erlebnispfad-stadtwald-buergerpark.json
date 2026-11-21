@@ -13,6 +13,7 @@
  "anreise": "Stadtwald im Bremer Bürgerpark; Übersichtstafel am Stadtwaldgraben nahe der Finnbahn. Kostenloser Parkplatz rund 50 m von der Übersichtstafel.",
  "startName": "Naturlehrpfad, Übersichtstafel am Stadtwaldgraben",
  "arten": [
+  "Großer Abendsegler",
   "Stieleiche",
   "Hainbuche",
   "Hängebirke",
@@ -40,7 +41,7 @@
   "teich-tuempel"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 154,
+ "dataVersion": 185,
  "website": "https://www.buergerpark-bremen.de/erleben/Naturlehr_Erlebnispfad.php",
  "eintrittPreise": "kostenlos",
  "oeffnungszeiten": "frei zugänglich",
@@ -874,6 +875,7 @@
   }
  ],
  "artenNachweis": {
+  "Großer Abendsegler": "belegt",
   "Stieleiche": "typisch",
   "Hainbuche": "typisch",
   "Hängebirke": "typisch",

@@ -21,12 +21,14 @@
   "Spitzahorn",
   "Bergahorn",
   "Stieleiche",
+  "Pferd",
+  "Esel",
+  "Hausschwein",
+  "Hausgans",
   "Amsel",
   "Rotkehlchen",
   "Honigbiene",
-  "Gänseblümchen",
-  "Löwenzahn",
-  "Rotklee"
+  "Gänseblümchen"
  ],
  "tags": [
   "kinderfreundlich",
@@ -36,7 +38,7 @@
   "hof-nutztier"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 72,
+ "dataVersion": 104,
  "form": "flaeche",
  "website": "https://www.kibaho.com/",
  "eintrittPreise": "frei für Familien und Einzelbesucher, Gruppen nach Preisliste",
@@ -163,11 +165,13 @@
   "Spitzahorn": "belegt",
   "Bergahorn": "belegt",
   "Stieleiche": "belegt",
+  "Pferd": "belegt",
+  "Esel": "belegt",
+  "Hausschwein": "belegt",
+  "Hausgans": "belegt",
   "Amsel": "typisch",
   "Rotkehlchen": "typisch",
   "Honigbiene": "typisch",
-  "Gänseblümchen": "typisch",
-  "Löwenzahn": "typisch",
-  "Rotklee": "typisch"
+  "Gänseblümchen": "typisch"
  }
 }

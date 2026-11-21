@@ -14,6 +14,7 @@
  "startName": "WUPP-Naturerlebnisgelände, Eingang Hagenweg / Fleetstraße",
  "arten": [
   "Brombeere",
+  "Trauerweide",
   "Schwarzer Holunder",
   "Eingriffeliger Weißdorn",
   "Heckenrose",
@@ -38,7 +39,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 45,
+ "dataVersion": 76,
  "form": "flaeche",
  "website": "https://www.wupp-bremen.de/ueber-uns-news/",
  "eintrittPreise": "Ferien- und Gruppenangebote kostenpflichtig (z. B. Herbstferienwoche 2026: 70 €, Dreitageskurs 30 €).",
@@ -205,6 +206,7 @@
  ],
  "artenNachweis": {
   "Brombeere": "belegt",
+  "Trauerweide": "belegt",
   "Schwarzer Holunder": "typisch",
   "Eingriffeliger Weißdorn": "typisch",
   "Heckenrose": "typisch",

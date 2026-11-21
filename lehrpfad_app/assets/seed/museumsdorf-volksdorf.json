@@ -17,12 +17,18 @@
   "Schaf",
   "Haushuhn",
   "Stieleiche",
+  "Pferd",
+  "Hausrind",
+  "Hausgans",
+  "Hausente",
+  "Pute",
+  "Hauskatze",
+  "Haushund",
   "Löwenzahn",
   "Gänseblümchen",
   "Rotklee",
   "Honigbiene",
-  "Amsel",
-  "Rotkehlchen"
+  "Amsel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -32,7 +38,7 @@
   "hof-nutztier"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 94,
+ "dataVersion": 122,
  "form": "flaeche",
  "website": "https://www.museumsdorf-volksdorf.de/",
  "eintrittPreise": "kostenlos",
@@ -231,12 +237,18 @@
   "Schaf": "belegt",
   "Haushuhn": "belegt",
   "Stieleiche": "belegt",
+  "Pferd": "belegt",
+  "Hausrind": "belegt",
+  "Hausgans": "belegt",
+  "Hausente": "belegt",
+  "Pute": "belegt",
+  "Hauskatze": "belegt",
+  "Haushund": "belegt",
   "Löwenzahn": "typisch",
   "Gänseblümchen": "typisch",
   "Rotklee": "typisch",
   "Honigbiene": "typisch",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch"
+  "Amsel": "typisch"
  },
  "bilder": [
   {

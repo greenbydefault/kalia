@@ -26,7 +26,9 @@
   "Grasfrosch",
   "Libelle",
   "Schilf",
-  "Sumpf-Schwertlilie"
+  "Sumpf-Schwertlilie",
+  "Kuckucks-Lichtnelke",
+  "Laugenblume"
  ],
  "tags": [
   "kinderfreundlich",
@@ -38,7 +40,7 @@
   "teich-tuempel"
  ],
  "naturraum": "nordsee",
- "dataVersion": 98,
+ "dataVersion": 130,
  "form": "flaeche",
  "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/naturschutzgebiet-luneplate.27514.html",
  "eintrittPreise": "kostenfrei",

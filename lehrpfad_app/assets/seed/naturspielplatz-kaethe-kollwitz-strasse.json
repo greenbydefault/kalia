@@ -1,0 +1,137 @@
+{
+ "id": "naturspielplatz-kaethe-kollwitz-strasse",
+ "name": "Natur-Spielplatz Käthe-Kollwitz-Straße („Detektive“)",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Naturspielplatz zum Motto „Detektive“ auf dem früheren Kleingartengelände Gleisdreieck. Gebaut ist er aus Stadtbaumholz und Wesersandstein.",
+ "beschreibung": "Auf dem früheren Kleingartengelände Gleisdreieck in Wulsdorf liegt Bremerhavens erster Naturspielplatz, eröffnet im Juni 2020. Kinder aus der Nachbarschaft planten mit und wählten das Motto „Detektive“. Gebaut wurde mit Holz gefällter Bäume aus dem Stadtgebiet, mit Wesersandstein und wassergebundenen Wegen. Ein großes Klettergerät, Rutschen, Schaukel, Sandspiel und eine Ballspielfläche gehören dazu. Regenwasser versickert im Gelände, Pfützen dürfen bleiben. Alte Laub- und Obstbäume aus der Kleingartenzeit spenden Schatten, Sträucher bieten Verstecke.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Gartenbauamt Bremerhaven",
+ "region": "Dreibergen, Wulsdorf, Bremerhaven",
+ "anreise": "Käthe-Kollwitz-Straße, Bremerhaven-Wulsdorf (Dreibergen).",
+ "startName": "Naturspielplatz Gleisdreieck, Käthe-Kollwitz-Straße",
+ "arten": [
+  "Kultur-Apfel",
+  "Vogelkirsche",
+  "Schwarzer Holunder",
+  "Heckenrose",
+  "Eingriffeliger Weißdorn",
+  "Kohlmeise",
+  "Blaumeise",
+  "Amsel",
+  "Rotkehlchen",
+  "Hummel",
+  "Igel",
+  "Siebenpunkt-Marienkäfer"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "streuobst-hecke"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 31,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven-erleben.de/poi/spielplatz-kaethe-kollwitz-strasse",
+ "eintrittPreise": "kostenfrei",
+ "besuchshinweise": "Der Platz ist frei zugänglich. Nach Regen bleiben im Gelände Pfützen stehen, Gummistiefel sind dann praktisch.",
+ "area": [
+  [
+   53.517443,
+   8.594986
+  ],
+  [
+   53.517556,
+   8.595077
+  ],
+  [
+   53.51735,
+   8.59585
+  ],
+  [
+   53.516999,
+   8.595764
+  ],
+  [
+   53.517443,
+   8.594986
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -484301353,
+   "lat": 53.517175,
+   "lon": 8.595677,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Kletterturm mit Rutsche",
+   "thema": "Klettern",
+   "kurztext": "Ein Holzturm mit Kletterwand und Rutsche steht mitten im Sandbereich.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -97815443,
+   "lat": 53.517297,
+   "lon": 8.595509,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Spielhäuser",
+   "thema": "Verstecken",
+   "kurztext": "Mehrere kleine Spielhäuser aus Holz bieten Verstecke für Detektivspiele.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1926478597,
+   "lat": 53.517364,
+   "lon": 8.595308,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Nestschaukel",
+   "thema": "Schaukeln",
+   "kurztext": "In einem Holzgestell hängt ein großer Schaukelkorb über Rindenmulch.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1823944358,
+   "lat": 53.517428,
+   "lon": 8.59554,
+   "km": 0,
+   "reihenfolge": 4,
+   "titel": "Rutsche am Hang",
+   "thema": "Rutschen",
+   "kurztext": "Von einem kleinen Erdhügel führt eine Metallrutsche hinab.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 1106319869,
+   "lat": 53.517337,
+   "lon": 8.595419,
+   "kategorie": "playground",
+   "name": "Naturspielplatz Gleisdreieck"
+  }
+ ],
+ "artenNachweis": {
+  "Kultur-Apfel": "typisch",
+  "Vogelkirsche": "typisch",
+  "Schwarzer Holunder": "typisch",
+  "Heckenrose": "typisch",
+  "Eingriffeliger Weißdorn": "typisch",
+  "Kohlmeise": "typisch",
+  "Blaumeise": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch",
+  "Hummel": "typisch",
+  "Igel": "typisch",
+  "Siebenpunkt-Marienkäfer": "typisch"
+ }
+}

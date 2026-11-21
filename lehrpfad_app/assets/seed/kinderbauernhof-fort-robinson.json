@@ -13,6 +13,7 @@
  "anreise": "Wartiner Straße 79, 13057 Berlin; Bus 154, 294, X54 bis Vincent-van-Gogh-Str. (ca. 400 m, laut berlin.de).",
  "startName": "Fort Robinson, Wartiner Straße 79",
  "arten": [
+  "Pferd",
   "Löwenzahn",
   "Gänseblümchen",
   "Rotklee",
@@ -36,7 +37,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 40,
+ "dataVersion": 69,
  "form": "flaeche",
  "website": "https://www.kietzfuerkids.de/fort-robinson",
  "eintrittPreise": "kostenlos; Gruppenangebote 1–4 € pro Kind",
@@ -176,6 +177,7 @@
   }
  ],
  "artenNachweis": {
+  "Pferd": "belegt",
   "Löwenzahn": "typisch",
   "Gänseblümchen": "typisch",
   "Rotklee": "typisch",

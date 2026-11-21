@@ -19,13 +19,16 @@
   "Ziege",
   "Gemeine Esche",
   "Schlehe",
+  "Hausrind",
+  "Baumpieper",
+  "Feldlerche",
+  "Dorngrasmücke",
+  "Fitis",
+  "Wild-Apfel",
+  "Rot-Schwingel",
+  "Rotes Straußgras",
   "Stieleiche",
-  "Eingriffeliger Weißdorn",
-  "Besenheide",
-  "Rotfuchs",
-  "Feldhase",
-  "Tagpfauenauge",
-  "Hummel"
+  "Eingriffeliger Weißdorn"
  ],
  "tags": [
   "kinderfreundlich",
@@ -37,7 +40,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 103,
+ "dataVersion": 134,
  "website": "https://www.hoeltigbaum.de/der-erlebnisort-hoeltigbaum/das-naturschutzgebiet/freizeitflaeche",
  "eintrittPreise": "kostenlos",
  "oeffnungszeiten": "Freizeitfläche und Pfad jederzeit zugänglich. Haus der Wilden Weiden: April–Oktober Do, Fr 14–18 Uhr, Sa, So, Feiertag 11–18 Uhr; November–März Sa, So, Feiertag 11–16 Uhr (geschlossen 24., 25. und 31.12.).",
@@ -246,13 +249,16 @@
   "Ziege": "belegt",
   "Gemeine Esche": "belegt",
   "Schlehe": "belegt",
+  "Hausrind": "belegt",
+  "Baumpieper": "belegt",
+  "Feldlerche": "belegt",
+  "Dorngrasmücke": "belegt",
+  "Fitis": "belegt",
+  "Wild-Apfel": "belegt",
+  "Rot-Schwingel": "belegt",
+  "Rotes Straußgras": "belegt",
   "Stieleiche": "typisch",
-  "Eingriffeliger Weißdorn": "typisch",
-  "Besenheide": "typisch",
-  "Rotfuchs": "typisch",
-  "Feldhase": "typisch",
-  "Tagpfauenauge": "typisch",
-  "Hummel": "typisch"
+  "Eingriffeliger Weißdorn": "typisch"
  },
  "bilder": [
   {

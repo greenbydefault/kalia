@@ -21,12 +21,14 @@
   "Hornisse",
   "Hummel",
   "Eichhörnchen",
-  "Stockente",
-  "Blässhuhn",
-  "Gänseblümchen",
-  "Löwenzahn",
-  "Rotklee",
-  "Schilf"
+  "Pferd",
+  "Esel",
+  "Hausschwein",
+  "Hausgans",
+  "Jagdfasan",
+  "Alpaka",
+  "Hauskatze",
+  "Maulwurf"
  ],
  "tags": [
   "kinderfreundlich",
@@ -39,7 +41,7 @@
   "see-ufer"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 80,
+ "dataVersion": 112,
  "form": "flaeche",
  "website": "https://stadtteilfarm.de/",
  "eintrittPreise": "kostenlos; Kaffee und Tee am Familiennachmittag gegen Spende",
@@ -203,21 +205,5 @@
    "lon": 8.72324,
    "kategorie": "picnic"
   }
- ],
- "artenNachweis": {
-  "Schaf": "belegt",
-  "Ziege": "belegt",
-  "Haushuhn": "belegt",
-  "Amsel": "belegt",
-  "Rotkehlchen": "belegt",
-  "Hornisse": "belegt",
-  "Hummel": "belegt",
-  "Eichhörnchen": "belegt",
-  "Stockente": "typisch",
-  "Blässhuhn": "typisch",
-  "Gänseblümchen": "typisch",
-  "Löwenzahn": "typisch",
-  "Rotklee": "typisch",
-  "Schilf": "typisch"
- }
+ ]
 }

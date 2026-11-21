@@ -1,0 +1,151 @@
+{
+ "id": "kinderbauernhof-ufafabrik",
+ "name": "Kinderbauernhof NUSZ in der ufaFabrik",
+ "typ": "kinderbauernhof",
+ "kurzbeschreibung": "Zwischen Theatersaal und Spielplatz der ufaFabrik liegt ein kleiner Hof mit Ponys, Kaninchen und Frettchen. Kinder ab sechs Jahren helfen bei der Pflege.",
+ "beschreibung": "Auf dem früheren Ufa-Gelände in Tempelhof liegt ein kleiner Hof mit Teich, umgeben von Bühnen, Werkstätten und Gärten. Ponys, Kaninchen, Meerschweinchen, Gänse, Hühner, Schildkröten und Frettchen leben hier, dazu Bienen. Kinder von 6 bis 14 Jahren helfen unter Anleitung beim Füttern und in der Tierpflege. Außerdem reiten, werken und tanzen sie, in den Berliner Schulferien gibt es mehr Angebote. Mittwochnachmittags ist Familientag, dann öffnen der Kleintierbereich und das Ponyreiten für kleine Kinder. Montags haben die Tiere Ruhetag.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Kinderbauernhof NUSZ in der ufaFabrik e.V. (Nachbarschafts- und Selbsthilfezentrum in der ufaFabrik)",
+ "region": "Tempelhof, Bezirk Tempelhof-Schöneberg, Berlin",
+ "anreise": "ufaFabrik, Viktoriastraße 10–18, 12105 Berlin; U6 Ullsteinstraße, etwa 200 m.",
+ "startName": "ufaFabrik, Viktoriastraße 10–18",
+ "arten": [
+  "Hauskaninchen",
+  "Haushuhn",
+  "Honigbiene",
+  "Pferd",
+  "Hausgans",
+  "Meerschweinchen",
+  "Frettchen",
+  "Gänseblümchen",
+  "Löwenzahn",
+  "Rotklee",
+  "Amsel",
+  "Rotkehlchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "einkehr"
+ ],
+ "lebensraeume": [
+  "hof-nutztier"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 50,
+ "form": "flaeche",
+ "website": "https://kinderbauernhof.nusz.de/",
+ "oeffnungszeiten": "Familien: mittwochs 14–17 Uhr (nicht in den Schulferien), Ponyreiten im Sommer 15:30–16:30, im Winter 15–16 Uhr; Wochenende und Feiertage 12–15 Uhr. Schulkinder (6–14) Di–Fr 13:30–17/18 Uhr. Montags Ruhetag.",
+ "besuchshinweise": "Vormittags kommen nur angemeldete Kita- und Schulgruppen. Erwachsene besuchen den Hof mittwochnachmittags und am Wochenende, in den Schulferien entfällt der Familiennachmittag.",
+ "area": [
+  [
+   52.454671,
+   13.380845
+  ],
+  [
+   52.454747,
+   13.381083
+  ],
+  [
+   52.454717,
+   13.38135
+  ],
+  [
+   52.454128,
+   13.381255
+  ],
+  [
+   52.454139,
+   13.381079
+  ],
+  [
+   52.454012,
+   13.381057
+  ],
+  [
+   52.453949,
+   13.380793
+  ],
+  [
+   52.454403,
+   13.38035
+  ],
+  [
+   52.454584,
+   13.380897
+  ],
+  [
+   52.454671,
+   13.380845
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1405058772,
+   "lat": 52.454215,
+   "lon": 13.380598,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Ponykoppel",
+   "thema": "Ponys",
+   "kurztext": "Auf der sandigen Koppel am Stall laufen die Ponys, die Kinder unter Anleitung führen und reiten dürfen.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1253453678,
+   "lat": 52.454152,
+   "lon": 13.380547,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Ponystall",
+   "thema": "Hoftiere",
+   "kurztext": "Im langen Holzstall mit begrüntem Dach stehen die Ponys, Kinder helfen unter Anleitung beim Füttern und in der Pflege.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1035018232,
+   "lat": 52.45436,
+   "lon": 13.380991,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Spielplatz",
+   "thema": "Spielen",
+   "kurztext": "Zwischen Hof und Freier Schule liegt eine Sandfläche mit Spielgerät aus Holz, die zum grünen Gelände der ufaFabrik gehört.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 621274121,
+   "lat": 52.454124,
+   "lon": 13.381786,
+   "kategorie": "gastro",
+   "name": "Rudi & Rosa"
+  },
+  {
+   "osmId": 10779534003,
+   "lat": 52.453783,
+   "lon": 13.382783,
+   "kategorie": "bench"
+  }
+ ],
+ "artenNachweis": {
+  "Hauskaninchen": "belegt",
+  "Haushuhn": "belegt",
+  "Honigbiene": "belegt",
+  "Pferd": "belegt",
+  "Hausgans": "belegt",
+  "Meerschweinchen": "belegt",
+  "Frettchen": "belegt",
+  "Gänseblümchen": "typisch",
+  "Löwenzahn": "typisch",
+  "Rotklee": "typisch",
+  "Amsel": "typisch",
+  "Rotkehlchen": "typisch"
+ }
+}

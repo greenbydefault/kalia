@@ -20,12 +20,15 @@
   "Gemeine Esche",
   "Spitzahorn",
   "Bergahorn",
-  "Eichhörnchen",
-  "Kohlmeise",
-  "Buntspecht",
-  "Kleiber",
-  "Rotkehlchen",
-  "Buchfink"
+  "Ahornblättrige Platane",
+  "Amerikanische Rot-Eiche",
+  "Sumpf-Eiche",
+  "Gewöhnliche Rosskastanie",
+  "Rotblühende Rosskastanie",
+  "Eibe",
+  "Schwarzkiefer",
+  "Silber-Ahorn",
+  "Schwarz-Pappel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -37,7 +40,7 @@
   "eichen-mischwald"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 200,
+ "dataVersion": 231,
  "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/",
  "besuchshinweise": "Standortplan und Kartenspiel gibt es als PDF beim Bezirksamt Friedrichshain-Kreuzberg. Die Eibe ist giftig, Nadeln und Samen nicht in den Mund nehmen.",
  "route": [
@@ -638,21 +641,6 @@
    "name": "City Toilette"
   }
  ],
- "artenNachweis": {
-  "Stieleiche": "belegt",
-  "Robinie": "belegt",
-  "Feldahorn": "belegt",
-  "Hängebirke": "belegt",
-  "Gemeine Esche": "belegt",
-  "Spitzahorn": "belegt",
-  "Bergahorn": "belegt",
-  "Eichhörnchen": "typisch",
-  "Kohlmeise": "typisch",
-  "Buntspecht": "typisch",
-  "Kleiber": "typisch",
-  "Rotkehlchen": "typisch",
-  "Buchfink": "typisch"
- },
  "bilder": [
   {
    "file": "38b681a1-f1d6-4c46-8621-abad98077f1a",

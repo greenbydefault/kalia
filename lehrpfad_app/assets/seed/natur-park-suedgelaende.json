@@ -20,13 +20,15 @@
   "Eichhörnchen",
   "Robinie",
   "Heckenrose",
-  "Margerite",
-  "Rotklee",
-  "Scharfer Hahnenfuß",
-  "Zauneidechse",
-  "Hummel",
-  "Tagpfauenauge",
-  "Zitronenfalter"
+  "Nachtigall",
+  "Mönchsgrasmücke",
+  "Heidegrashüpfer",
+  "Höhlenspinne",
+  "Wein-Rose",
+  "Gewöhnliche Nachtkerze",
+  "Sand-Strohblume",
+  "Wiesen-Habichtskraut",
+  "Margerite"
  ],
  "tags": [
   "kinderfreundlich",
@@ -38,7 +40,7 @@
   "trockenrasen"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 78,
+ "dataVersion": 110,
  "form": "flaeche",
  "website": "https://www.natur-park-suedgelaende.de/",
  "eintritt": true,
@@ -382,13 +384,15 @@
   "Eichhörnchen": "belegt",
   "Robinie": "belegt",
   "Heckenrose": "belegt",
-  "Margerite": "typisch",
-  "Rotklee": "typisch",
-  "Scharfer Hahnenfuß": "typisch",
-  "Zauneidechse": "typisch",
-  "Hummel": "typisch",
-  "Tagpfauenauge": "typisch",
-  "Zitronenfalter": "typisch"
+  "Nachtigall": "belegt",
+  "Mönchsgrasmücke": "belegt",
+  "Heidegrashüpfer": "belegt",
+  "Höhlenspinne": "belegt",
+  "Wein-Rose": "belegt",
+  "Gewöhnliche Nachtkerze": "belegt",
+  "Sand-Strohblume": "belegt",
+  "Wiesen-Habichtskraut": "belegt",
+  "Margerite": "typisch"
  },
  "bilder": [
   {

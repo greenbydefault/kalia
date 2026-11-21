@@ -76,7 +76,8 @@ GERAETE_ICON_KEYS = {"geraet"}
 
 # Profil (flora/fauna) — Source of Truth: Kataloge in icon_catalog.dart
 GRUPPEN = {"saeugetiere", "voegel", "insekten", "amphibien", "reptilien",
-           "spinnen", "baeume", "straeucher", "kraeuter", "moose", "pilze"}
+           "spinnen", "fische", "wirbellose", "baeume", "straeucher", "kraeuter",
+           "moose", "flechten", "pilze"}
 LEBENSRAEUME = {
     "kuestenwald-kiefer", "buchenwald", "eichen-mischwald", "kiefernforst",
     "auwald", "moor", "heide", "streuobst-hecke", "teich-tuempel",

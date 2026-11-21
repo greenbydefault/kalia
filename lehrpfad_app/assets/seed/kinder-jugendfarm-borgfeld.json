@@ -18,15 +18,17 @@
   "Haushuhn",
   "Hauskaninchen",
   "Honigbiene",
+  "Pferd",
+  "Esel",
+  "Hausgans",
+  "Hauskatze",
   "Kultur-Apfel",
   "Schwarzer Holunder",
   "Gänseblümchen",
   "Löwenzahn",
   "Rotklee",
   "Amsel",
-  "Rotkehlchen",
-  "Kohlmeise",
-  "Grünspecht"
+  "Rotkehlchen"
  ],
  "tags": [
   "kinderfreundlich"
@@ -36,7 +38,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 74,
+ "dataVersion": 106,
  "form": "flaeche",
  "website": "https://farm.hans-wendt-stiftung.de/",
  "eintrittPreise": "kostenlos; Tier- oder Baumpatenschaften ab 5 € im Monat (freiwillig)",
@@ -205,14 +207,16 @@
   "Haushuhn": "belegt",
   "Hauskaninchen": "belegt",
   "Honigbiene": "belegt",
+  "Pferd": "belegt",
+  "Esel": "belegt",
+  "Hausgans": "belegt",
+  "Hauskatze": "belegt",
   "Kultur-Apfel": "typisch",
   "Schwarzer Holunder": "typisch",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
   "Rotklee": "typisch",
   "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
-  "Kohlmeise": "typisch",
-  "Grünspecht": "typisch"
+  "Rotkehlchen": "typisch"
  }
 }

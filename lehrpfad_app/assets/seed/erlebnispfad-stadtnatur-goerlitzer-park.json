@@ -27,7 +27,8 @@
   "Wildbiene",
   "Elster",
   "Rotfuchs",
-  "Eichhörnchen"
+  "Eichhörnchen",
+  "Großer Abendsegler"
  ],
  "tags": [
   "kinderfreundlich",
@@ -40,7 +41,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 142,
+ "dataVersion": 175,
  "form": "flaeche",
  "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/erlebnispfad-stadtnatur-im-goerlitzer-park-1540645.php",
  "besuchshinweise": "Faltkarte kostenlos am Bauwagen des Parkmanagements, im CoLab, am Kinderbauernhof oder als Download. Hunde an die Leine. Wasservögel am Teich nicht füttern und nicht über den Zaun steigen.",

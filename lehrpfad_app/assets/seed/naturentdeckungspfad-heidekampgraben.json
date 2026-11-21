@@ -21,11 +21,14 @@
   "Haselnuss",
   "Libelle",
   "Igel",
-  "Erdkröte",
-  "Amsel",
-  "Kohlmeise",
-  "Rotkehlchen",
-  "Hummel"
+  "Nachtigall",
+  "Mönchsgrasmücke",
+  "Zilpzalp",
+  "Wasserskorpion",
+  "Gelbrandkäfer",
+  "Kellerassel",
+  "Gemeiner Regenwurm",
+  "Spitzschlammschnecke"
  ],
  "tags": [
   "kinderfreundlich",
@@ -36,7 +39,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 82,
+ "dataVersion": 113,
  "website": "https://umweltbildung-neukoelln.de/gruene-orte/",
  "besuchshinweise": "Schulen erhalten beim Freilandlabor Britz auf Anfrage Material zum Heidekampgraben als Lernort.",
  "route": [
@@ -359,21 +362,6 @@
    "kategorie": "parking"
   }
  ],
- "artenNachweis": {
-  "Eberesche": "belegt",
-  "Hainbuche": "belegt",
-  "Schwarzer Holunder": "belegt",
-  "Brombeere": "belegt",
-  "Gewöhnlicher Schneeball": "belegt",
-  "Haselnuss": "belegt",
-  "Libelle": "belegt",
-  "Igel": "belegt",
-  "Erdkröte": "typisch",
-  "Amsel": "typisch",
-  "Kohlmeise": "typisch",
-  "Rotkehlchen": "typisch",
-  "Hummel": "typisch"
- },
  "bilder": [
   {
    "file": "c4772831-22ed-4623-8875-d140807ad21b",

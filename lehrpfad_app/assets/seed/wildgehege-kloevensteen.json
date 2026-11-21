@@ -20,13 +20,15 @@
   "Reh",
   "Haushuhn",
   "Honigbiene",
+  "Hausgans",
+  "Frettchen",
+  "Mufflon",
+  "Sikahirsch",
+  "Europäischer Nerz",
+  "Uhu",
   "Stieleiche",
   "Kiefer",
-  "Hängebirke",
-  "Heidelbeere",
-  "Eichhörnchen",
-  "Buntspecht",
-  "Eichelhäher"
+  "Hängebirke"
  ],
  "tags": [
   "kinderfreundlich",
@@ -40,7 +42,7 @@
   "kiefernforst"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 121,
+ "dataVersion": 153,
  "form": "flaeche",
  "website": "https://www.hamburg.de/politik-und-verwaltung/bezirke/altona/themen/umwelt-natur-klimaschutz/kloevensteen/wildgehege",
  "eintrittPreise": "kostenlos",
@@ -495,13 +497,15 @@
   "Reh": "belegt",
   "Haushuhn": "belegt",
   "Honigbiene": "belegt",
+  "Hausgans": "belegt",
+  "Frettchen": "belegt",
+  "Mufflon": "belegt",
+  "Sikahirsch": "belegt",
+  "Europäischer Nerz": "belegt",
+  "Uhu": "belegt",
   "Stieleiche": "typisch",
   "Kiefer": "typisch",
-  "Hängebirke": "typisch",
-  "Heidelbeere": "typisch",
-  "Eichhörnchen": "typisch",
-  "Buntspecht": "typisch",
-  "Eichelhäher": "typisch"
+  "Hängebirke": "typisch"
  },
  "bilder": [
   {

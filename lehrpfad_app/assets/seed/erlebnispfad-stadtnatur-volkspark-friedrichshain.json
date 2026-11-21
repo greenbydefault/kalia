@@ -27,7 +27,8 @@
   "Wildbiene",
   "Hummel",
   "Amsel",
-  "Ringeltaube"
+  "Ringeltaube",
+  "Mandarinente"
  ],
  "tags": [
   "kinderfreundlich",
@@ -38,7 +39,7 @@
   "teich-tuempel"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 221,
+ "dataVersion": 254,
  "form": "flaeche",
  "website": "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/umweltbildung/",
  "besuchshinweise": "Faltkarte kostenlos im Café Schönbrunn, beim Umwelt- und Naturschutzamt Friedrichshain-Kreuzberg oder als Download. Ein Fernglas hilft. Am Bunkerberg auf den Wegen bleiben, Wasservögel nicht füttern.",

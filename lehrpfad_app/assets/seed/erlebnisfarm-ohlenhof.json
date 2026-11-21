@@ -19,14 +19,16 @@
   "Hauskaninchen",
   "Graureiher",
   "Honigbiene",
-  "Amsel",
-  "Rotkehlchen",
-  "Kohlmeise",
+  "Pferd",
+  "Esel",
+  "Hausschwein",
+  "Hausente",
+  "Jagdfasan",
+  "Ringelblume",
   "Gänseblümchen",
   "Löwenzahn",
   "Rotklee",
-  "Kultur-Apfel",
-  "Schwarzer Holunder"
+  "Kultur-Apfel"
  ],
  "tags": [
   "kinderfreundlich",
@@ -38,7 +40,7 @@
   "streuobst-hecke"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 32,
+ "dataVersion": 64,
  "form": "flaeche",
  "website": "https://afj-jugendhilfe.de/erlebnisfarm-ohlenhof",
  "eintrittPreise": "kostenlos",
@@ -198,13 +200,15 @@
   "Hauskaninchen": "belegt",
   "Graureiher": "belegt",
   "Honigbiene": "belegt",
-  "Amsel": "typisch",
-  "Rotkehlchen": "typisch",
-  "Kohlmeise": "typisch",
+  "Pferd": "belegt",
+  "Esel": "belegt",
+  "Hausschwein": "belegt",
+  "Hausente": "belegt",
+  "Jagdfasan": "belegt",
+  "Ringelblume": "belegt",
   "Gänseblümchen": "typisch",
   "Löwenzahn": "typisch",
   "Rotklee": "typisch",
-  "Kultur-Apfel": "typisch",
-  "Schwarzer Holunder": "typisch"
+  "Kultur-Apfel": "typisch"
  }
 }

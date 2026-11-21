@@ -15,6 +15,9 @@
  "arten": [
   "Ziege",
   "Haushuhn",
+  "Pferd",
+  "Jagdfasan",
+  "Alpaka",
   "Löwenzahn",
   "Gänseblümchen",
   "Rotklee",
@@ -36,7 +39,7 @@
   "teich-tuempel"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 88,
+ "dataVersion": 117,
  "form": "flaeche",
  "website": "https://www.alte-fasanerie-luebars.de/",
  "oeffnungszeiten": "Hof Mo–Fr 10–17 Uhr, Sa/So 12–17 Uhr, im Winter (14.11.–18.02.) freitags geschlossen. Café schöngrün Fr–So 12–17 Uhr.",
@@ -164,6 +167,9 @@
  "artenNachweis": {
   "Ziege": "belegt",
   "Haushuhn": "belegt",
+  "Pferd": "belegt",
+  "Jagdfasan": "belegt",
+  "Alpaka": "belegt",
   "Löwenzahn": "typisch",
   "Gänseblümchen": "typisch",
   "Rotklee": "typisch",

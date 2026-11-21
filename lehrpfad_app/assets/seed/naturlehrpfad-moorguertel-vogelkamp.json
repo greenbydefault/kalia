@@ -13,6 +13,7 @@
  "anreise": "Wohnquartier Vogelkamp Neugraben, 21147 Hamburg. Vom S-Bahnhof Neugraben knapp 1 km zu Fuß nach Norden bis zur Tafel Ausgleichsflächen.",
  "startName": "Tafel „Ausgleichsflächen“ am Nordrand des Vogelkamps",
  "arten": [
+  "Wachtelkönig",
   "Kultur-Apfel",
   "Eingriffeliger Weißdorn",
   "Heckenrose",
@@ -36,7 +37,7 @@
   "teich-tuempel"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 84,
+ "dataVersion": 115,
  "website": "https://www.iba-hamburg.de/files/downloads/Projekte/Vogelkamp-Neugraben/Sonstiges/IBA_uebersicht_naturlehrpfad_1704d.pdf",
  "besuchshinweise": "Am Rand des Natur- und Vogelschutzgebiets auf den Wegen bleiben. Die Tafeln stehen frei zugänglich, der Rundgang dauert gut eine Stunde.",
  "route": [
@@ -432,6 +433,7 @@
   }
  ],
  "artenNachweis": {
+  "Wachtelkönig": "belegt",
   "Kultur-Apfel": "typisch",
   "Eingriffeliger Weißdorn": "typisch",
   "Heckenrose": "typisch",

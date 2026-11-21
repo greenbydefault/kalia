@@ -1,0 +1,138 @@
+{
+ "id": "naturspielplatz-reinkenheider-forst",
+ "name": "Urwald-Naturspielplatz Minna-Rattay-Weg (Reinkenheider Forst)",
+ "typ": "waldspielplatz",
+ "kurzbeschreibung": "Naturnaher Spielplatz zum Thema Urwald am Minna-Rattay-Weg. Alte Eichen umrahmen Kletterlandschaft, Sandaufzug und Rutsche.",
+ "beschreibung": "Am Ende des Minna-Rattay-Weges im Neubaugebiet Reinkenheider Forst liegt ein naturnaher Spielplatz zum Thema Urwald. Große, alte, knorrige Eichen umrahmen das Gelände. Kinder und Jugendliche aus dem Wohngebiet entwarfen ihn 2016 mit, eröffnet wurde er im Juni 2017. Die bunte Kletterlandschaft verbindet Hangeln, Balancieren, schiefe Ebenen und ein Mikado aus Hölzern, die Kleinsten füllen den Sandaufzug. Gebaut ist alles aus Holz und Naturstein. Seitlich nimmt ein modellierter Graben das Regenwasser auf, auf der Rasenfläche ist Platz zum Toben.",
+ "laengeKm": 0,
+ "dauerMin": 45,
+ "rundkurs": false,
+ "markierung": "keine Markierung",
+ "betreiber": "Gartenbauamt Bremerhaven",
+ "region": "Schiffdorferdamm, Bremerhaven",
+ "anreise": "Minna-Rattay-Weg, Neubaugebiet Reinkenheider Forst II, Bremerhaven-Schiffdorferdamm.",
+ "startName": "Urwald-Spielplatz am Ende des Minna-Rattay-Weges",
+ "arten": [
+  "Stieleiche",
+  "Hainbuche",
+  "Hängebirke",
+  "Feldahorn",
+  "Buchfink",
+  "Eichelhäher",
+  "Buntspecht",
+  "Kleiber",
+  "Kohlmeise",
+  "Rotkehlchen",
+  "Eichhörnchen"
+ ],
+ "tags": [
+  "kinderfreundlich",
+  "spielplatz"
+ ],
+ "lebensraeume": [
+  "eichen-mischwald"
+ ],
+ "naturraum": "norddt-tiefland",
+ "dataVersion": 27,
+ "form": "flaeche",
+ "website": "https://www.bremerhaven.de/de/freizeit-kultur/freizeit-im-gruenen/minna-rattay-weg.78900.html",
+ "besuchshinweise": "Öffentlicher Spielplatz ohne Eintritt. Die Zufahrt führt über den Minna-Rattay-Weg bis an den Platz.",
+ "area": [
+  [
+   53.541756,
+   8.63711
+  ],
+  [
+   53.541661,
+   8.637351
+  ],
+  [
+   53.541613,
+   8.637445
+  ],
+  [
+   53.541485,
+   8.637453
+  ],
+  [
+   53.541357,
+   8.637461
+  ],
+  [
+   53.541354,
+   8.63714
+  ],
+  [
+   53.541596,
+   8.636788
+  ],
+  [
+   53.541769,
+   8.636824
+  ],
+  [
+   53.541756,
+   8.63711
+  ]
+ ],
+ "stationen": [
+  {
+   "osmId": -1964660289,
+   "lat": 53.541638,
+   "lon": 8.637011,
+   "km": 0,
+   "reihenfolge": 1,
+   "titel": "Kletterlandschaft „Urwald“",
+   "thema": "Klettern",
+   "kurztext": "Bunte Holzstämme mit Blüten und Tierfiguren bilden eine Kletterlandschaft zum Hangeln und Balancieren.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -1813186555,
+   "lat": 53.541608,
+   "lon": 8.637086,
+   "km": 0,
+   "reihenfolge": 2,
+   "titel": "Rutsche",
+   "thema": "Rutschen",
+   "kurztext": "Am Ende der Kletterlandschaft führt eine Metallrutsche in den Sand.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  },
+  {
+   "osmId": -454309741,
+   "lat": 53.5415,
+   "lon": 8.637184,
+   "km": 0,
+   "reihenfolge": 3,
+   "titel": "Sitzplatz",
+   "thema": "Pause",
+   "kurztext": "Kinder aus dem Wohngebiet haben die Klinkersteine am Sitzplatz bemalt.",
+   "erlebnisse": [],
+   "barrierefrei": false
+  }
+ ],
+ "amenities": [
+  {
+   "osmId": 762727605,
+   "lat": 53.541553,
+   "lon": 8.63718,
+   "kategorie": "playground",
+   "name": "Urwald-Spielplatz"
+  }
+ ],
+ "artenNachweis": {
+  "Stieleiche": "typisch",
+  "Hainbuche": "typisch",
+  "Hängebirke": "typisch",
+  "Feldahorn": "typisch",
+  "Buchfink": "typisch",
+  "Eichelhäher": "typisch",
+  "Buntspecht": "typisch",
+  "Kleiber": "typisch",
+  "Kohlmeise": "typisch",
+  "Rotkehlchen": "typisch",
+  "Eichhörnchen": "typisch"
+ }
+}

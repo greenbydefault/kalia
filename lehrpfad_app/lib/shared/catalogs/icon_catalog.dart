@@ -224,10 +224,13 @@ const speciesGruppeKatalog = <String, KatalogEintrag>{
   'amphibien': KatalogEintrag(PhosphorIcons.fish, 'Amphibien'),
   'reptilien': KatalogEintrag(PhosphorIcons.spiral, 'Reptilien'),
   'spinnen': KatalogEintrag(PhosphorIcons.bug, 'Spinnen'),
+  'fische': KatalogEintrag(PhosphorIcons.fish, 'Fische'),
+  'wirbellose': KatalogEintrag(PhosphorIcons.bug, 'Weitere Wirbellose'),
   'baeume': KatalogEintrag(PhosphorIcons.tree, 'Bäume'),
   'straeucher': KatalogEintrag(PhosphorIcons.plant, 'Sträucher'),
   'kraeuter': KatalogEintrag(PhosphorIcons.flower, 'Kräuter'),
   'moose': KatalogEintrag(PhosphorIcons.plant, 'Moose'),
+  'flechten': KatalogEintrag(PhosphorIcons.plant, 'Flechten'),
   'pilze': KatalogEintrag(PhosphorIcons.plant, 'Pilze'),
 };
 

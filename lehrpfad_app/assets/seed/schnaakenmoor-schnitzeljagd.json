@@ -21,12 +21,14 @@
   "Rosmarinheide",
   "Heidelerche",
   "Stieleiche",
+  "Baumfalke",
+  "Flussregenpfeifer",
+  "Knoblauchkröte",
+  "Kreuzkröte",
+  "Kreuzotter",
+  "Rotrandbär",
   "Besenheide",
-  "Moorbirke",
-  "Grasfrosch",
-  "Waldeidechse",
-  "Zauneidechse",
-  "Libelle"
+  "Moorbirke"
  ],
  "tags": [
   "kinderfreundlich",
@@ -39,7 +41,7 @@
   "heide"
  ],
  "naturraum": "norddt-tiefland",
- "dataVersion": 126,
+ "dataVersion": 158,
  "website": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/naturschutz/artenschutz/natuerlich-hamburg/app-naturerleben-171752",
  "eintrittPreise": "kostenlos",
  "besuchshinweise": "App und Route vorher im WLAN laden, im Schnaakenmoor reicht der Mobilfunk für den Download nicht. Die Schnitzeljagd endet am Waldspielplatz, Zeit und Kraft für den Rückweg einplanen. Im Naturschutzgebiet auf den Wegen bleiben.",
@@ -186,12 +188,14 @@
   "Rosmarinheide": "belegt",
   "Heidelerche": "belegt",
   "Stieleiche": "belegt",
+  "Baumfalke": "belegt",
+  "Flussregenpfeifer": "belegt",
+  "Knoblauchkröte": "belegt",
+  "Kreuzkröte": "belegt",
+  "Kreuzotter": "belegt",
+  "Rotrandbär": "belegt",
   "Besenheide": "typisch",
-  "Moorbirke": "typisch",
-  "Grasfrosch": "typisch",
-  "Waldeidechse": "typisch",
-  "Zauneidechse": "typisch",
-  "Libelle": "typisch"
+  "Moorbirke": "typisch"
  },
  "bilder": [
   {
